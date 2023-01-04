@@ -2,10 +2,11 @@
 audience: end-user
 title: 인터페이스 살펴보기
 description: Campaign v8 웹 사용자 인터페이스
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 0908c827-aa91-469f-824b-8e3de543876d
+source-git-commit: a9cea928d8c447fbd8435e49928d6328a1209640
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 6%
+source-wordcount: '1131'
+ht-degree: 2%
 
 ---
 
@@ -18,15 +19,13 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="인터페이스"
->abstract="TBC"
-
-## 인터페이스 개요
-
-![](assets/home.png)
+>abstract="새로운 Campaign v8 웹 인터페이스는 통합적이고 직관적이며 일관된 사용자 경험을 제공합니다."
 
 새로운 Campaign v8 웹 인터페이스는 통합적이고 직관적이며 일관된 사용자 경험을 제공합니다.
 
-사용자 인터페이스를 검색할 때의 주요 개념은 Adobe Experience Platform과 일반적입니다. 을(를) 참조하십시오. [Adobe Experience Platform 설명서](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) 자세한 내용
+<!--
+Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
+-->
 
 >[!NOTE]
 >
@@ -38,34 +37,24 @@ ht-degree: 6%
 * web UI made up of read-only lists that can be configured, show how to add columns
 -->
 
-## 통합 셸
-
-커뮤니티 학습 자료, 도움말 센터, 조직 전환기, 솔루션 전환기 액세스
-
-<!--
-Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
--->
-
-## 상황별 도움말?
-
-컨텍스트 도움말 및 Gainsight: 온보딩/제품 내 안내서
-
-## 홈페이지
-
-## 일반
-
-목록 화면 템플릿 탭
-
 ## 왼쪽 탐색 메뉴
 
-왼쪽의 링크를 탐색하여 Campaign v8 웹 기능에 액세스합니다.
+왼쪽의 링크를 탐색하여 Campaign v8 웹 기능에 액세스합니다. 여러 링크에는 정렬 및 필터링할 수 있는 객체 목록이 표시됩니다. 필요한 모든 정보를 표시하도록 열을 구성할 수도 있습니다. 다음 보기 [섹션](#list-screens). 전자 메일 게재 목록을 제외한 모든 목록 화면은 읽기 전용입니다. 편집/볼 목록 항목을 클릭하면 알파에서 사용할 수 없습니다.
 
-### 홈페이지
+![](assets/home.png)
 
-* 배너
-* 전자 메일 채널의 KPI(게재 간): 오픈율, 배송율 등
-* 최근 항목
-* 학습 카드
+### 홈
+
+이 화면에는 기본 Campaign v8 웹 기능에 빠르게 액세스할 수 있는 주요 링크 및 리소스가 포함되어 있습니다. 다음 **최근 항목** 목록에서는 최근에 만든 게재에 대한 바로 가기를 제공합니다. 이 목록에는 작성 및 수정 날짜 및 상태가 표시됩니다.
+
+<!--
+* Banner
+* KPIs on email channel (cross-deliveries): open rate, delivery rate, etc
+* Recent items
+* Learning cards
+-->
+
+홈 페이지의 하위 섹션에서 Campaign v8 웹 키 도움말 페이지에 액세스합니다.
 
 <!--
 show global KPIs, recent items + left menu to access features)
@@ -73,83 +62,120 @@ CONTROL PANEL not alpha
 Global report not alpha
 -->
 
-### 탐험가
+### 탐색기
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
->title="탐험가"
->abstract="TBC"
+>title="탐색기"
+>abstract="다음 **탐색기** 메뉴에는 클라이언트 콘솔에 있는 것과 동일한 폴더 계층 구조가 표시됩니다. 모든 Campaign v8 구성 요소, 폴더 및 스키마를 찾아봅니다. 전자 메일 게재 목록을 제외한 모든 목록 화면은 읽기 전용입니다."
 
-콘솔 컨텐츠를 탐색할 웹 UI의 탐색기 메뉴: 필터가 있는 왼쪽 메뉴 목록 외에 콘솔 탐색 트리의 두 번째 뷰입니다. Explorer는 콘솔의 실제 폴더 계층 구조를 제공합니다. 하위 폴더에서 게재를 찾으십시오. 모든 목록은 읽기 전용으로 액세스할 수 있습니다. 만들기/편집이 없습니다. 목록(열)을 구성할 수 있습니다. 모든 스키마 필드, 연결된 테이블을 사용할 수 있습니다.
+다음 **탐색기** 메뉴에는 클라이언트 콘솔에 있는 것과 동일한 폴더 계층 구조가 표시됩니다. 모든 Campaign v8 구성 요소, 폴더 및 스키마를 찾아봅니다. 전자 메일 게재 목록을 제외한 모든 목록 화면은 읽기 전용입니다.
 
-게재만 열 수 있습니다.
+탐색기에 표시되는 항목은 사용자 권한에 따라 다릅니다.
 
-수신자 목록(연령, 성별), 트랜잭션 또는 라이브 트랜잭션 메시지를 봐야 하는 경우. 각/편집 -> 콘솔을 보려면 다음을 수행하십시오.
+목록 화면에서와 마찬가지로, 디스플레이를 개인화하여 필요한 모든 정보를 표시하도록 열을 구성할 수 있습니다. 다음 보기 [섹션](#list-screens).
 
-탐색 보기는 권한(콘솔과 동일함)에 따라 다릅니다.
+Campaign 탐색기에 대한 자세한 내용은 다음을 참조하십시오 [설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-explorer.html).
+<!--
+Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
+
+If you need to view your lists of recipients (age, gender), transactions or live transactional messages. To view each/edit -> console.
+
+Navtree view depends on permissions (same as console).
+-->
 
 ### 캠페인 관리
 
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="캠페인"
->abstract="TBC"
+>abstract="캠페인 목록입니다. 시작/종료/마지막 수정 날짜와 같은 유용한 정보와 해당 상태를 볼 수 있습니다. 상태 또는 시작/종료 날짜별로 목록을 필터링할 수 있습니다. 캠페인 템플릿도 사용할 수 있습니다. 이 목록은 읽기 전용입니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="게재"
->abstract="TBC"
+>abstract="게재 목록을 탐색합니다. 상태, 마지막 수정 날짜 및 주요 KPI를 볼 수 있습니다. 상태, 연락 날짜 또는 채널별로 목록을 필터링할 수 있습니다. 이메일 게재를 클릭하여 대시보드를 엽니다. 다른 항목은 읽기 전용입니다. 게재 템플릿도 사용할 수 있습니다."
 
-* **캠페인** - 캠페인 목록. 버전/제작이 없습니다.
-* **게재** - 게재 목록입니다. 제작/편집.
+* **캠페인** - 캠페인 목록입니다. 기본적으로 시작/종료/마지막 수정 날짜와 해당 상태를 볼 수 있습니다. 상태 또는 시작/종료 날짜별로 목록을 필터링할 수 있습니다. 캠페인 템플릿도 사용할 수 있습니다. 이 목록은 읽기 전용입니다.
+
+* **게재** - 게재 목록을 살펴봅니다. 기본적으로 상태, 마지막 수정 날짜 및 주요 KPI를 볼 수 있습니다. 상태, 연락 날짜 또는 채널별로 목록을 필터링할 수 있습니다. 이메일 게재 를 클릭하여 해당 대시보드를 열어 게재 세부 사항에 대한 개요를 확인합니다. 다른 채널에서의 게재는 읽기 전용입니다. 게재 템플릿은 읽기 전용 모드에서도 사용할 수 있습니다. 클라이언트 콘솔을 사용하여 편집할 수 있습니다. 다음 보기 [설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ko).
 
 ### 고객 관리
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="수신자"
->abstract="TBC"
+>abstract="수신자 데이터베이스에 액세스합니다. 이메일 주소, 이름 및 성 등 유용한 정보를 볼 수 있습니다. 이 목록은 읽기 전용입니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="대상자"
->abstract="TBC"
+>abstract="대상자 목록입니다. 유형, 원본, 생성/마지막 수정 날짜 및 레이블을 볼 수 있습니다. 목록을 원본별로 필터링할 수 있습니다. 이 목록은 읽기 전용입니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="구독 목록"
->abstract="TBC"
+>abstract="구독 목록을 검색합니다. 해당 유형, 모드 및 레이블을 볼 수 있습니다. 이 목록은 읽기 전용입니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="타겟팅 워크플로우"
->abstract="TBC"
+>abstract="Campaign 워크플로우 목록에 액세스합니다. 상태, 마지막/다음 처리 날짜 및 환경을 볼 수 있습니다. 상태, 마지막 처리 날짜 및 워크플로우 유형별로 목록을 필터링할 수 있습니다. 워크플로우 템플릿도 사용할 수 있습니다. 이 목록은 읽기 전용입니다."
 
-* **수신자** - 수신자 목록 버전/제작이 없습니다.
-* **대상** - 대상자 목록입니다. 버전/제작이 없습니다.
-* **구독 목록** - 가입 목록 버전/제작이 없습니다.
-* **타겟팅 워크플로우** - 타겟팅 워크플로우 목록. 버전/제작이 없습니다.
+* **수신자** - 수신자 데이터베이스에 액세스합니다. 기본적으로 이메일 주소, 이름 및 성을 볼 수 있습니다. 이 목록은 읽기 전용입니다.
+* **대상** - 대상자 목록입니다. 기본적으로 유형, 원본, 생성/마지막 수정 날짜 및 레이블을 볼 수 있습니다. 목록을 원본별로 필터링할 수 있습니다. 이 목록은 읽기 전용입니다.
+* **구독 목록** - 구독 목록을 검색합니다. 기본적으로 유형, 모드 및 레이블을 볼 수 있습니다. 이 목록은 읽기 전용입니다.
+* **타겟팅 워크플로우** - Campaign 워크플로우 목록에 액세스합니다. 기본적으로 상태, 마지막/다음 처리 날짜 및 환경을 볼 수 있습니다. 상태, 마지막 처리 날짜 및 워크플로우 유형별로 목록을 필터링할 수 있습니다. 워크플로우 템플릿도 사용할 수 있습니다. 이 목록은 읽기 전용입니다.
 
 ### 의사 결정 관리
 
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="오퍼"
->abstract="TBC"
+>abstract="상호 작용 오퍼 목록을 탐색합니다. 기본적으로 상태, 시작/종료 날짜 및 환경을 볼 수 있습니다. 상태 및 시작/종료 날짜별로 목록을 필터링할 수 있습니다. 오퍼 템플릿을 사용할 수도 있습니다. 이 목록은 읽기 전용입니다."
 
-* **오퍼** - 오퍼 목록. 버전/제작이 없습니다.
+* **오퍼** - 상호 작용 오퍼 목록을 살펴봅니다. 기본적으로 상태, 시작/종료 날짜 및 환경을 볼 수 있습니다. 상태 및 시작/종료 날짜별로 목록을 필터링할 수 있습니다. 오퍼 템플릿을 사용할 수도 있습니다. 이 목록은 읽기 전용입니다.
 
-## 필터 목록{#filter-lists}
+## 상단 표시줄
 
-목록 화면
+인터페이스 상단 표시줄에서는 다음 작업을 수행할 수 있습니다.
 
-## 도움말 및 지원 찾기 {#find-help}
+* 알파 고객으로서 피드백 공유
+* ims 조직 간 전환
+* Adobe Experience Cloud 애플리케이션 간 전환
+* 도움말 페이지에 액세스하고 지원 센터에 문의하여 피드백을 공유하십시오. 검색 필드에서 도움말 문서와 비디오를 검색할 수 있습니다.
 
-홈 페이지의 하위 섹션에서 Adobe Journey Optimizer 주요 도움말 페이지에 액세스합니다.
+![](assets/unified-shell.png){width="70%" align="left"}
+<!--
+Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
+-->
 
-를 사용하십시오 **도움말** 도움말 페이지에 액세스하려면 지원 센터에 문의하여 피드백을 공유하십시오. 검색 필드에서 도움말 문서와 비디오를 검색할 수 있습니다.
+## 상황별 도움말 및 온보딩 안내서
 
-## 지원되는 브라우저 {#browsers}
+인터페이스에서 상황별 도움말을 사용할 수 있습니다. 사용 가능한 경우 **?** 아이콘 을 클릭하여 도움말 정보 및 관련 설명서 링크를 표시합니다.
 
-Adobe [!DNL Journey Optimizer] 인터페이스는 최신 버전의 Google Chrome에서 최적으로 작동되도록 설계되었습니다. 이전 버전 또는 다른 브라우저에서 특정 기능을 사용하는 데 문제가 있을 수 있습니다.
+![](assets/context-help.png){width="70%" align="left"}
 
+Campaign v8 웹을 시작하는 데 도움이 되는 온보딩 안내서도 제공됩니다. 오른쪽 아래 모서리에 있는 아이콘을 클릭하고, 사용 가능한 단계별 시나리오 중 하나를 선택한 다음, 지침을 따르십시오.
+
+![](assets/onboarding.png){width="70%" align="left"}
+
+## 목록 화면 구성 {#list-screens}
+
+예를 들어 왼쪽 탐색 메뉴의 몇 가지 링크 **게재** 또는 **캠페인**, 객체 목록을 표시합니다. 이러한 목록 화면은 이메일 게재 목록을 제외하고 읽기 전용입니다.
+
+항목을 더 빨리 찾기 위해 검색 막대를 사용하거나 상황별 기준에 따라 목록을 필터링할 수 있습니다.
+
+![](assets/filter.png){width="70%" align="left"}
+
+목록이 열에 표시됩니다. 열 구성을 변경하여 추가 정보를 표시할 수 있습니다. 이렇게 하려면 목록의 오른쪽 위 모서리에 있는 아이콘을 클릭합니다. 열을 추가하거나 제거하고 열을 표시하는 순서를 변경할 수 있습니다.
+
+![](assets/columns.png){width="70%" align="left"}
+
+열 헤더를 클릭하여 목록에서 항목을 정렬할 수 있습니다. 목록이 해당 열에 정렬되었음을 나타내는 화살표가 표시됩니다(위쪽 또는 아래쪽). 숫자 또는 날짜 열의 경우 위쪽 화살표는 목록이 오름차순으로 정렬되었음을 나타내고, 아래쪽 화살표는 내림차순을 나타냅니다. 문자열 또는 영숫자 열의 경우 값은 알파벳 순서로 나열됩니다.
+
+<!--
+## Supported browsers {#browsers}
+
+Adobe [!DNL Journey Optimizer] interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
+-->

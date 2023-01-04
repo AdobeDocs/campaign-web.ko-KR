@@ -2,13 +2,13 @@
 audience: end-user
 title: 이메일 콘텐츠 가져오기
 description: 이메일 콘텐츠를 가져오는 방법을 알아봅니다
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
+source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 2%
+source-wordcount: '152'
+ht-degree: 3%
 
 ---
-
 
 # 이메일 콘텐츠 가져오기 {#existing-content}
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 >
 >이 설명서는 개발 중이며 자주 업데이트됩니다. 이 컨텐츠의 최종 버전은 2023년 1월에 준비될 예정입니다.
 
-Journey Optimizer을 사용하면 기존 HTML 콘텐츠를 가져와서 전자 메일을 디자인할 수 있습니다. 이 콘텐츠는 다음과 같습니다.
+이메일 디자이너를 사용하면 기존 HTML 콘텐츠를 가져올 수 있습니다. 이 콘텐츠는 다음과 같습니다.
 
 * An **HTML 파일** 스타일 시트를 합쳐서
 * A **.zip 폴더** HTML 파일에서 스타일시트(.css) 및 이미지를 사용합니다.
@@ -31,14 +31,8 @@ HTML 컨텐츠가 포함된 파일을 가져오려면 아래 단계를 수행하
 
    ![](assets/import-html_2.png)
 
-1. HTML 컨텐츠가 포함된 HTML 또는 .zip 파일을 끌어다 놓습니다.
+1. HTML 컨텐츠가 포함된 HTML 또는 .zip 파일을 끌어다 놓고 을 클릭합니다 **[!UICONTROL 가져오기]**.
 
 1. HTML 컨텐츠가 업로드되면 이메일 디자이너 기능을 활용하여 이메일을 편집하고 미리 볼 수 있습니다. [이 섹션에서 자세히 알아보기](create-email-content.md).
 
    ![](assets/html-imported.png)
-
-## 방법 비디오 {#video}
-
-기존 HTML 컨텐츠를 가져오고, 디자인을 수정하고, 미러 페이지를 추가하고, 링크를 해지하는 방법과, 콘텐츠를 코딩하는 방법을 알아봅니다.
-
->[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

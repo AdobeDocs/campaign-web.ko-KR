@@ -2,13 +2,13 @@
 audience: end-user
 product: campaign
 title: 이메일 템플릿 작업
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 114c482f-8291-418a-bd81-667f40267a7d
+source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 7%
+source-wordcount: '197'
+ht-degree: 6%
 
 ---
-
 
 # 이메일 콘텐츠 템플릿 작업 {#email-content-templates}
 
@@ -19,10 +19,6 @@ ht-degree: 7%
 를 사용하십시오 **[!UICONTROL 디자인 템플릿 선택]** 섹션에서 을(를) 클릭하여 템플릿에서 컨텐츠 작성을 시작합니다.
 
 ![](assets/email_designer-templates.png)
-
-다음 중에서 선택할 수 있습니다.
-* 20개의 기본 제공 이메일 템플릿.
-* 저장된 템플릿. [자세히 알아보기](#save-as-template)
 
 ## 템플릿으로 저장 {#save-as-template}
 

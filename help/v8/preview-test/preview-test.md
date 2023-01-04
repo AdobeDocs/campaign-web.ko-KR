@@ -1,37 +1,30 @@
 ---
 audience: end-user
-title: 이메일 미리 보기 및 테스트
+title: 미리 보기 및 증명 정보
 description: Campaign v8 웹 설명서
-source-git-commit: fa7baaa7cc75fdb20d4c21f1391edb9aa5dd268c
+exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
+source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 3%
+source-wordcount: '120'
+ht-degree: 0%
 
 ---
 
-# 이메일 미리 보기 및 테스트 {#preview-test-send}
+# 미리 보기 및 증명 정보 {#about-preview-proofs}
 
 >[!NOTE]
 >
 >이 설명서는 개발 중이며 자주 업데이트됩니다. 이 컨텐츠의 최종 버전은 2023년 1월에 준비될 예정입니다.
 
-## 컨텐츠 미리 보기
+전자 메일 콘텐츠가 정의되면 전자 메일 콘텐츠를 보내기 전에 표시되는 방식을 확인할 수 있습니다. 이를 통해 콘텐츠 또는 개인화 설정에서 가능한 오류를 감지하기 위해 이메일을 테스트할 수 있습니다.
 
-<!--
-Diff from AJO: 
-preview: more features than AJO: preview using target population, test profiles or audience
--->
+이렇게 하려면 Adobe Campaign을 통해 다음을 수행할 수 있습니다.
 
-![](assets/preview.png)
+* [이메일 콘텐츠 및 개인화 미리 보기](#preview) 프로필 데이터 사용
 
-1. 테스트할 프로필 선택 (타겟팅된 프로필 / 테스트 프로필 / 대상)
-1. 콘텐츠 미리 보기
+<!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
+* [증명 보내기](#send-proofs) 전자 메일을 테스트 및 유효성 검사하기 위해 특정 수신자에게 문의하십시오.
 
-## 증명 보내기
+이러한 작업은 **[!UICONTROL 컨텐츠 시뮬레이션]** 이메일 디자이너에서 전자 메일 콘텐츠를 만들 때 액세스할 수 있는 단추:
 
-증명을 보내는 자세한 단계
-
-<!--
-Diff from AJO: 
-substitution, test profile
--->
+![](assets/simulate.png)

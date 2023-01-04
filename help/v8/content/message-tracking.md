@@ -2,13 +2,13 @@
 audience: end-user
 title: 메시지 추적
 description: 링크를 추가하고 보낸 메시지를 추적하는 방법을 알아봅니다
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
+source-git-commit: c1fc5bd98969ab43680daf613e4050f9cd2185bf
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 1%
+source-wordcount: '525'
+ht-degree: 0%
 
 ---
-
 
 # 링크 추가 및 메시지 추적 {#tracking}
 
@@ -16,22 +16,7 @@ ht-degree: 1%
 >
 >이 설명서는 개발 중이며 자주 업데이트됩니다. 이 컨텐츠의 최종 버전은 2023년 1월에 준비될 예정입니다.
 
-사용 [!DNL Journey Optimizer] 수신자의 동작을 모니터링하기 위해 컨텐츠에 링크를 추가하고 전송된 메시지를 추적하려면
-
-## 추적 활성화 {#enable-tracking}
-
-이메일 메시지 수준에서 을(를) 확인하여 추적을 활성화할 수 있습니다 **[!UICONTROL 이메일 열기]** 및/또는 **[!UICONTROL 이메일을 클릭합니다.]** 옵션을 선택합니다.
-
-![](assets/message-tracking.png)
-
->[!NOTE]
->
->두 옵션 모두 기본적으로 활성화되어 있습니다.
-
-이를 통해 수신자의 동작을 추적할 수 있습니다.
-
-* **[!UICONTROL 이메일 열기]**: 열린 메시지.
-* **[!UICONTROL 이메일을 클릭합니다.]**: 이메일의 링크에 대한 클릭 수.
+수신자의 동작을 모니터링하기 위해 이메일 디자이너를 사용하여 컨텐츠에 링크를 추가하고 메시지를 추적합니다.
 
 ## 링크 삽입 {#insert-links}
 
@@ -39,7 +24,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->When [추적이 활성화됨](#enable-tracking)를 입력하면 메시지 콘텐츠에 포함된 모든 링크가 추적됩니다.
+>추적이 활성화되면 메시지 콘텐츠에 포함된 모든 링크가 추적됩니다.
 
 이메일 콘텐츠에 링크를 삽입하려면 아래 단계를 수행하십시오.
 
@@ -47,29 +32,13 @@ ht-degree: 1%
 
    ![](assets/message-tracking-insert-link.png)
 
-1. 만들 링크 유형을 선택합니다.
-
-   * **[!UICONTROL 외부 링크]**: 외부 URL에 대한 링크를 삽입합니다.
-
-   * **[!UICONTROL 랜딩 페이지]**: 랜딩 페이지에 대한 링크를 삽입합니다.
-
-   * **[!UICONTROL 옵트아웃 한 번 클릭]**: 옵트아웃을 확인하지 않고 사용자가 커뮤니케이션에서 빠르게 가입을 해지할 수 있는 링크를 삽입합니다.
-
-   * **[!UICONTROL 외부 옵트인/구독]**: 브랜드로부터 받는 커뮤니케이션을 수락하려면 링크를 삽입합니다.
-
-   * **[!UICONTROL 외부 옵트아웃/구독 취소]**: 브랜드의 커뮤니케이션 수신을 취소할 링크를 삽입합니다.
-
-   * **[!UICONTROL 미러 페이지]**: 웹 브라우저에 이메일 콘텐츠를 표시할 링크를 삽입합니다. 추가 정보 [이 섹션](#mirror-page).
-
-   ![](assets/message-tracking-links.png)
-
-1. 링크를 개인화할 수 있습니다.
+1. 추가 **[!UICONTROL 레이블]** 그리고 **[!UICONTROL 링크]**.
 
 1. 변경 내용을 저장합니다.
 
 1. 링크가 만들어지더라도 **[!UICONTROL 구성 요소 설정]** 오른쪽 창입니다.
 
-   * 링크를 편집하고 유형을 변경할 수 있습니다.
+   * 링크를 편집하고 링크를 변경할 수 있습니다 **[!UICONTROL Target]**.
    * 해당 옵션을 선택하여 링크에 밑줄을 긋도록 선택할 수 있습니다.
 
    ![](assets/message-tracking-link-settings.png)
@@ -82,9 +51,19 @@ ht-degree: 1%
 
 미러 페이지는 웹 브라우저를 통해 온라인으로 액세스할 수 있는 HTML 페이지입니다. 콘텐츠는 전자 메일의 콘텐츠와 동일합니다.
 
-이메일에 미러 페이지에 대한 링크를 추가하려면 [링크 삽입](#insert-links) 을(를) 선택합니다. **[!UICONTROL 미러 페이지]** 를 링크 유형으로 사용할 수 있습니다.
+이메일의 미러 페이지에 대한 링크를 추가하려면 다음을 수행합니다.
 
-![](assets/message-tracking-mirror-page.png)
+1. 요소를 선택하고 를 클릭합니다 **[!UICONTROL 링크 삽입]** 상황별 도구 모음
+
+   ![](assets/message-tracking-mirror-page.png)
+
+1. 을(를) 선택합니다 **[!UICONTROL 링크 삽입]** 아이콘을 클릭하여 개인화 메뉴에 액세스합니다.
+
+   ![](assets/message-tracking-mirror-page_2.png)
+
+1. 에서 **[!UICONTROL 콘텐츠 블록]** 메뉴, 선택 **[!UICONTROL 미러 페이지 URL]** 을(를) 클릭합니다. **[!UICONTROL 추가]**.
+
+   ![](assets/message-tracking-mirror-page_3.png)
 
 미러 페이지가 자동으로 생성됩니다.
 
@@ -123,4 +102,3 @@ ht-degree: 1%
    * **[!UICONTROL 미러 페이지]**: 이 URL이 미러 페이지 URL인 것으로 간주합니다.
    * **[!UICONTROL 절대 안 함]**: 이 URL의 추적을 활성화하지 않습니다. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-시작 및 클릭에 대한 보고는 라이브 보고서와 글로벌 보고서에서 사용할 수 있습니다.

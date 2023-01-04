@@ -2,10 +2,11 @@
 audience: end-user
 title: 고급 설정
 description: Campaign v8 웹 설명서
-source-git-commit: c90d8a5eff6169945d381f3250cb3e4d06194d31
+exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
+source-git-commit: 4fbb5e2eb0211712d17f1437986038c40ed15602
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 10%
+source-wordcount: '899'
+ht-degree: 24%
 
 ---
 
@@ -40,33 +41,64 @@ Documentation on this part is targeted for december 2022
 >title="유형화"
 >abstract="유형화를 통해 게재 전송을 제어, 필터링 및 모니터링할 수 있습니다."
 
-### 압력 매개 변수 {#pressure-parameter}
+유형화는 메시지 분석 단계 동안 실행되는 유형화 규칙 세트입니다. 이메일에 항상 특정 요소(예: 구독 취소 링크 또는 제목 줄)가 포함되어 있는지 확인하거나 그룹을 의도한 타겟(구독 취소자, 경쟁 업체 또는 비충성 고객)에서 제외하는 필터링 규칙이 있는지 확인할 수 있습니다.
+
+유형화를 메시지 또는 메시지 템플릿과 연결하면 해당 유형화에 포함된 유형화 규칙이 실행되어 메시지의 유효성을 검사합니다.
+
+### 압력 매개변수 {#pressure-parameters}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_weight"
 >title="게재 가중치"
 >abstract="게재 가중치를 사용하면 압력 관리 프레임워크 내에서 우선 순위가 가장 높은 게재를 식별할 수 있습니다. 가중치가 가장 높은 메시지는 우선 순위가 있습니다."
 
+이 섹션에서 압력 매개 변수를 사용하여 임계값을 정의할 수 있습니다. 일정 기간 동안 하나의 프로필에 보낼 수 있는 최대 메시지 수입니다. 이 임계값에 도달하면, 고려된 기간이 끝날 때까지 더 이상 게재할 수 없습니다. 이 프로세스를 사용하면 메시지가 설정된 임계값을 초과하는 경우 게재 시 프로필을 자동으로 제외하여 과도한 요청을 방지할 수 있습니다.
+
+임계값은 상수 또는 변수일 수 있습니다. 즉, 특정 기간 동안 임계값은 프로필마다 또는 심지어 동일한 프로필에 대해서도 다를 수 있습니다.
+
+에서 **가중치 유형** 필드, 다음 세 가지 옵션을 사용할 수 있습니다.
+
+다음 **게재 중량** 필드에서는
+
+다음 **게재 모드** 필드..
+
 ### 수용작업량 설정 {#capacity-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_recipient_importance"
 >title="수신자의 중요도"
->abstract="TBC"
+>abstract="수신자의 중요성은 용량 유형화 규칙을 초과할 때 유지되는 수신자를 결정하는 데 사용되는 공식입니다."
 
+이 섹션에서는 Adobe Campaign v8 콘솔에 정의된 용량 규칙을 선택할 수 있습니다. 이 규칙은 이메일 채널과 연결됩니다.
+
+다음 **수신자의 중요성** 필드는 용량 유형화 규칙을 초과할 때 유지되는 수신자를 결정하는 데 사용되는 공식입니다.
 
 ## 대상자 {#audience}
 
+이 섹션에서는 Adobe Campaign v8 콘솔에 정의된 대상 매핑을 선택할 수 있습니다. Adobe Campaign에서 제공한 수신자 테이블 이외의 수신자 테이블을 사용하는 경우 대상 매핑 만들기가 필요합니다.
+
 ## 게재 {#delivery}
+
+SMTP 배달 테스트: SMTP를 통한 전송을 테스트하려면 이 옵션을 사용합니다. 게재는 SMTP 서버에 대한 연결까지 처리되지만 전송되지 않습니다: 게재를 받는 모든 사람에 대해 Campaign은 SMTP 공급자 서버에 연결하고 SMTP RCPT TO 명령을 실행하고 SMTP DATA 명령 전에 연결을 닫습니다.
+
+이메일 BCC: 메시지 타겟에 숨은 참조 이메일 주소를 추가하면 BCC를 통해 외부 시스템에 이메일을 저장할 수 있습니다.
 
 ### 다시 시도 {#retries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_retries"
->title="최대 재시도 횟수"
+>title="최대 재시도 수"
 >abstract="일시적인 오류로 인해 메시지가 실패하면 게재 기간 동안 다시 시도됩니다."
 
+소프트 또는 무시됨 오류로 인해 일시적으로 게재되지 않은 메시지는 자동 다시 시도를 적용합니다. 기본적으로 게재 첫 날에 5번의 다시 시도가 예약되며 최소 1시간 간격은 24시간 동안 분산됩니다. 일별 1회 다시 시도는 그 후 및 게재 마감일까지 프로그램되며, 이것은 유효성 탭에 정의됩니다.
+
 ## 승인 {#approval}
+
+**수동**
+
+**반자동**
+
+**자동**
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
@@ -74,8 +106,6 @@ Documentation on this part is targeted for december 2022
 >abstract="게재의 각 단계는 다양한 프로세스를 완벽하게 모니터링하고 제어하기 위해 승인을 받을 수 있습니다."
 
 ## 유효성 {#validity}
-
-### 유효 기간 {#validity-period}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_duration"
@@ -88,6 +118,16 @@ Documentation on this part is targeted for december 2022
 >abstract="유효성 제한 필드는 주로 미러 페이지와 이미지에 대해 업로드된 리소스에 사용됩니다. 이 페이지의 리소스는 제한된 시간 동안 유효합니다."
 
 
+게재 기간 필드를 사용하면 글로벌 게재 다시 시도의 제한을 입력할 수 있습니다. 즉, Adobe Campaign은 시작 날짜부터 메시지를 보낸 다음, 오류만 반환하는 메시지의 경우 유효성 제한에 도달할 때까지 정기적으로 구성 가능한 다시 시도가 수행됩니다.
+
+날짜를 지정하도록 선택할 수도 있습니다. 이렇게 하려면 유효 날짜 설정을 명시적으로 선택합니다. 이 경우 게재 및 유효성 제한 날짜도 시간을 지정할 수 있도록 해줍니다. 현재 시간은 기본적으로 사용되지만 입력 필드에서 직접 수정할 수 있습니다.
+
+자원의 유효성 제한: 유효성 제한 필드는 주로 미러 페이지와 이미지에 대해 업로드된 리소스에 사용됩니다. 이 페이지의 리소스는 제한된 시간 동안 유효합니다(디스크 공간을 절약하기 위함).
+
+### 미러 페이지 관리 {#mirror}
+
+**미러 페이지 관리**
+
 ### 추적 {#tracking}
 
 >[!CONTEXTUALHELP]
@@ -95,16 +135,19 @@ Documentation on this part is targeted for december 2022
 >title="유효 기간"
 >abstract="이 옵션은 URL에서 추적이 활성화되는 기간을 정의합니다."
 
+**유효성 제한 추적**: 이 옵션은 URL에서 추적이 활성화되는 기간을 정의합니다.
+
+**만료된 URL에 대한 대체 URL**: TBC
 
 
+## 테스트 설정{#test-setttings}
 
+**더블 유지**
 
+**차단 목록에 추가된 주소 보관**
 
+**격리된 주소 보관**
 
+**증명을 위해 게재 코드 보관**
 
-
-
-
-
-
-
+**레이블 접두사**

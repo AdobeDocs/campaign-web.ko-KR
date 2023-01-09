@@ -3,9 +3,9 @@ audience: end-user
 title: 이메일 콘텐츠 편집
 description: Campaign v8 웹 설명서
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 2e8f262b684696c0a24319b135a1f855f1c05073
+source-git-commit: 0513687c2299e1cdfbeec7793e2146fc22d80e35
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,11 @@ ht-degree: 0%
 >
 >이 설명서는 개발 중이며 자주 업데이트됩니다. 이 컨텐츠의 최종 버전은 2023년 1월에 준비될 예정입니다.
 
-전자 메일 콘텐츠 만들기를 시작하려면 **[!UICONTROL 컨텐츠 편집]** 버튼을 클릭합니다. 이 화면에서는 이메일의 내용을 정의하고 이메일 디자이너에 액세스하여 디자인할 수 있습니다.
+전자 메일 콘텐츠 만들기를 시작하려면 **[!UICONTROL 컨텐츠 편집]** 전자 메일 만들기 화면에서 버튼을 클릭합니다.
+
+![](assets/edit-content.png)
+
+이 화면에서는 이메일의 내용을 정의하고 이메일 디자이너에 액세스하여 디자인할 수 있습니다.
 
 ![](assets/content-dashboard.png)
 
@@ -44,7 +48,7 @@ ht-degree: 0%
 
 1. 을(를) 확인합니다. **[!UICONTROL 이름]** 및 **[!UICONTROL 이메일에서]** 정보. 이러한 필드는 읽기 전용이며 이메일을 만들 때 선택한 이메일 템플릿에 구성됩니다.
 
-1. 이메일 정의 **[!UICONTROL 제목 줄]**. 이렇게 하려면 표현식 편집기 를 열어 컨텐츠를 정의하고 다양한 속성 및 콘텐츠 블록 또는 오퍼를 사용하여 개인화를 추가합니다. [콘텐츠를 개인화하는 방법 알아보기](../personalization/personalize.md)
+1. 이메일 정의 **[!UICONTROL 제목 줄]**. 이렇게 하려면 제목을 전용 필드에 직접 입력하거나 표현식 편집기를 열어 다양한 속성 및 콘텐츠 블록 또는 오퍼를 사용하여 개인화를 추가할 수 있습니다. [콘텐츠를 개인화하는 방법 알아보기](../personalization/personalize.md)
 
 1. 이메일에 오퍼를 보내려면 **[!UICONTROL 오퍼]** 버튼을 클릭합니다. 그러면 개인화 필드를 사용하여 이메일에 삽입할 수 있습니다. [오퍼 전송 방법 알아보기](offers.md)
 

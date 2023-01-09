@@ -3,9 +3,9 @@ audience: end-user
 title: 미리 보기 및 증명 정보
 description: Campaign v8 웹 설명서
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 이렇게 하려면 Adobe Campaign을 통해 다음을 수행할 수 있습니다.
 
-* [이메일 콘텐츠 및 개인화 미리 보기](#preview) 프로필 데이터 사용
+* [이메일 콘텐츠 및 개인화 미리 보기](#preview),
 
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
 * [증명 보내기](#send-proofs) 전자 메일을 테스트 및 유효성 검사하기 위해 특정 수신자에게 문의하십시오.
@@ -28,3 +28,7 @@ ht-degree: 0%
 이러한 작업은 **[!UICONTROL 컨텐츠 시뮬레이션]** 이메일 디자이너에서 전자 메일 콘텐츠를 만들 때 액세스할 수 있는 단추:
 
 ![](assets/simulate.png)
+
+>[!NOTE]
+>
+>컨텐츠 시뮬레이션은 **[!UICONTROL 검토 및 보내기]** 버튼을 클릭합니다.

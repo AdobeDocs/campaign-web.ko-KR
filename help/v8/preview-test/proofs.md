@@ -3,9 +3,9 @@ audience: end-user
 title: 증명 보내기
 description: Campaign v8 웹 설명서
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '397'
 ht-degree: 2%
 
 ---
@@ -16,12 +16,11 @@ ht-degree: 2%
 >
 >이 설명서는 개발 중이며 자주 업데이트됩니다. 이 컨텐츠의 최종 버전은 2023년 1월에 준비될 예정입니다.
 
-증명을 보내면 이메일의 유효성을 검사하고 링크, 옵트아웃 링크 및 미러 페이지, 이미지와 같은 다양한 요소를 확인하고 가능한 오류를 감지할 수 있습니다.
+테스트 이메일을 보내면 이메일의 유효성을 검사하고 링크, 옵트아웃 링크 및 미러 페이지, 이미지와 같은 다양한 요소를 확인하고 가능한 오류를 감지할 수 있습니다.
 
 증명을 두 가지 유형의 수신자에게 보낼 수 있습니다.
 
-* **프로필/대상자 테스트**: 시드 주소로 증명을 보내십시오. 이 주소는 이메일 타겟에 포함되지 않은 데이터베이스에서 추가 수신자입니다.
-
+* **테스트 프로필**: 시드 주소로 증명을 보냅니다. 이 주소는 데이터베이스에서 추가 및 가상 수신자입니다.
 * **대체 프로필**: 기존 프로필을 사용하여 특정 이메일 주소로 증명을 보냅니다. 이를 통해 프로필 위치에 자신을 배치하여 프로필에서 받게 될 메시지의 정확한 모습을 확인할 수 있습니다.
 
 ## 증명 수신자를 선택합니다 {#recipients}
@@ -38,7 +37,7 @@ ht-degree: 2%
 
 1. 테스트 이메일을 받을 테스트 프로필을 추가합니다.
 
-   대상자를 만들어 사용자의 기준에 따라 테스트 프로필을 선택할 수도 있습니다. **[!UICONTROL 테스트 대상 추가]** 버튼을 클릭합니다.
+   <!--FOR BETA: You can also build an audience to select test profiles based on your own criteria using the **[!UICONTROL Add test audience]** button.-->
 
    ![](assets/test-profiles-audience.png)
 
@@ -68,8 +67,14 @@ ht-degree: 2%
 
 ![](assets/send-proof.png)
 
-증명을 보내고 나면 **[!UICONTROL 테스트 전자 메일 로그 보기]** 버튼을 클릭합니다. 이러한 로그를 사용하여 보낸 증명 및 증명 전송과 관련된 특정 통계에 액세스할 수 있습니다.
+게재 콘텐츠를 완성할 때까지 필요한 만큼 증명을 보냅니다. 이 작업이 완료되면 주요 타겟으로 이메일을 보낼 수 있습니다. [이메일 준비 및 보내기 방법 알아보기](../monitor/prepare-send.md)
+
+## 보낸 증명 액세스 {#access-proofs}
+
+증명을 보내고 나면 **[!UICONTROL 테스트 전자 메일 로그 보기]** 버튼을 클릭합니다. 이러한 로그를 사용하면 선택한 게재에 대해 보내는 모든 증명에 액세스하고 해당 전송과 관련된 특정 통계를 시각화할 수 있습니다.
 
 ![](assets/proof-log.png)
 
-게재 콘텐츠를 완성할 때까지 필요한 만큼 증명을 보냅니다. 이 작업이 완료되면 주요 타겟으로 이메일을 보낼 수 있습니다. [이메일 준비 및 보내기 방법 알아보기](../monitor/prepare-send.md)
+게재와 같이 게재 목록에서 증명에 액세스할 수도 있습니다.
+
+![](assets/delivery-list.png)

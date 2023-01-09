@@ -3,7 +3,7 @@ audience: end-user
 title: 이메일 디자이너에서 이메일 디자인
 description: 이메일 콘텐츠를 처음부터 디자인하는 방법 알아보기
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: a05203cb66420c74e443cb6de3abe628c3ef9353
+source-git-commit: 557a02dc8d24676c5678b2a5d9fc8eef7c228e9f
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
@@ -57,7 +57,7 @@ ht-degree: 0%
 >title="템플릿 열 정의"
 >abstract="이메일 디자이너를 사용하면 열 구조를 정의하여 템플릿의 레이아웃을 쉽게 정의할 수 있습니다."
 
-이메일 디자이너를 사용하면 이메일 구조를 쉽게 정의할 수 있습니다. 간단한 드래그 앤 드롭 작업으로 구조 요소를 추가 및 이동하면 몇 초 이내에 이메일 모양을 디자인할 수 있습니다.
+이메일 디자이너를 사용하면 이메일 구조를 쉽게 정의할 수 있습니다. 간단한 드래그 앤 드롭 작업으로 구조 요소를 추가 및 이동하면 몇 초 이내에 이메일 본문을 디자인할 수 있습니다.
 
 이메일 콘텐츠 빌드를 시작하려면 아래 단계를 수행하십시오.
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 1. 프로필 데이터의 이메일 콘텐츠를 사용자 지정하는 개인화 필드를 삽입합니다. [콘텐츠 개인화에 대해 자세히 알아보기](../personalization/personalize.md)
 
-1. 을(를) 클릭합니다. **[!UICONTROL 링크]** 탭을 클릭하여 추적할 컨텐츠의 모든 URL을 표시합니다. 수정 가능 **[!UICONTROL 추적 유형]** 또는 **[!UICONTROL 레이블]** 및 추가 **[!UICONTROL 태그]** 필요한 경우 [링크 및 메시지 추적에 대해 자세히 알아보기](message-tracking.md)
+1. 을(를) 클릭합니다. **[!UICONTROL 링크]** 탭을 클릭하여 추적할 컨텐츠의 모든 URL을 표시합니다. 수정 가능 **[!UICONTROL 추적 유형]** 또는 **[!UICONTROL 레이블]** 및 추가 **[!UICONTROL 카테고리]** 필요한 경우 [링크 및 메시지 추적에 대해 자세히 알아보기](message-tracking.md)
 
    ![](assets/email_designer_7.png)
 

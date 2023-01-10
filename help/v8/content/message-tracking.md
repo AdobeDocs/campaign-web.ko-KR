@@ -3,10 +3,10 @@ audience: end-user
 title: 메시지 추적
 description: 링크를 추가하고 보낸 메시지를 추적하는 방법을 알아봅니다
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c1fc5bd98969ab43680daf613e4050f9cd2185bf
+source-git-commit: c1d433ba1d12e840c5ae219b319e80c1bcdc7686
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 0%
+source-wordcount: '568'
+ht-degree: 1%
 
 ---
 
@@ -102,3 +102,8 @@ ht-degree: 0%
    * **[!UICONTROL 미러 페이지]**: 이 URL이 미러 페이지 URL인 것으로 간주합니다.
    * **[!UICONTROL 절대 안 함]**: 이 URL의 추적을 활성화하지 않습니다. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
+1. 추가 **[!UICONTROL 카테고리]** 추적된 링크를 그룹화하기 위한 링크로 이동하여 **[!UICONTROL 저장]**.
+
+   ![](assets/message-tracking-edit-a-link_2.png)
+
+1. 게재를 보낸 후 게재 보고서에 액세스합니다. 아래에 **[!UICONTROL 추적]** 메뉴, **[!UICONTROL URL 및 클릭 스트림]** 보고서는 게재 중 가장 많이 방문한 URL을 표시합니다. [자세히 알아보기](../reporting/reports.md)

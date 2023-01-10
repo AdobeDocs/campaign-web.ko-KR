@@ -3,9 +3,9 @@ audience: end-user
 title: 시작
 description: Campaign v8 웹 설명서
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: b5d0c2538b99aabafd04f6314a8135269c8555c0
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '312'
 ht-degree: 15%
 
 ---
@@ -25,11 +25,6 @@ only existing customers
 >id="acw_homepage_card1"
 >title="시작"
 >abstract="주요 기능, 사용자 인터페이스 및 글로벌 지침을 살펴보십시오."
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="작업 만들기 및 관리"
->abstract="Adobe Campaign을 사용하면 작업을 만들고 애플리케이션 내에서 직접 전체 라이프 사이클을 관리할 수 있습니다."
 
 >[!NOTE]
 >

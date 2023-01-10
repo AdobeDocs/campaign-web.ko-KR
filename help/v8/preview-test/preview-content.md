@@ -3,14 +3,19 @@ audience: end-user
 title: 이메일 콘텐츠 미리 보기
 description: Campaign v8 웹 설명서
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
+source-git-commit: b5d0c2538b99aabafd04f6314a8135269c8555c0
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
 
 # 이메일 콘텐츠 미리 보기 {#preview}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card4"
+>title="컨텐츠의 스마트 미리 보기"
+>abstract="Adobe Campaign을 사용하면 프로필을 사용하여 개인화를 확인하고 수신자에게 표시되는 방법을 확인하기 위해 보내기 전에 전자 메일 콘텐츠를 미리 볼 수 있습니다."
 
 >[!NOTE]
 >

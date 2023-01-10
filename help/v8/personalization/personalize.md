@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 5a5dabdb33893bd94271e0df4e63ddae11f1354e
+source-git-commit: 60bd1b795a44019929eae2267304e45b1fd570a9
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,4 @@ ht-degree: 0%
 
 오퍼 표현에 텍스트 유형 컨텐츠를 추가할 때 개인화 편집기에 액세스할 수도 있습니다.
 
-## 개인화된 URL 만들기{#personalize-urls}
 
-개인화된 URL은 프로필 속성에 따라 수신자를 웹 사이트의 특정 페이지 또는 개인화된 마이크로 사이트로 가져옵니다. Adobe Journey Optimizer에서 메시지 콘텐츠의 URL에 개인화를 추가할 수 있습니다. URL 개인화는 텍스트 및 이미지에 적용하고 프로필 데이터 또는 컨텍스트 데이터를 사용할 수 있습니다.

@@ -3,10 +3,10 @@ audience: end-user
 title: 대상자 추가
 description: Campaign v8 웹 설명서
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: a572ac51db2ef79dc45afe2504aeb8476314bbfc
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 2%
+source-wordcount: '259'
+ht-degree: 4%
 
 ---
 
@@ -32,6 +32,10 @@ ht-degree: 2%
    이 화면에는 Adobe Campaign 콘솔 또는 Adobe Experience Platform에서 정의된 모든 기존 대상이 표시됩니다.
 
    ![](assets/create-audience2.png)
+
+   >[!NOTE]
+   >
+   >Adobe Experience Platform 대상을 활용하려면 대상과의 통합을 구성해야 합니다. 자세한 내용은 [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ko).
 
 1. 대상자를 선택하고 을(를) 클릭합니다. **선택**.
 

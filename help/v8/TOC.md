@@ -5,10 +5,10 @@ description: Campaign v8 웹 설명서
 breadcrumb-title: Campaign 개요
 title: Campaign v8 웹 문서
 hide: true
-source-git-commit: 655e0525c445b3bbf82011db84672835ea81b8ed
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 12%
+source-wordcount: '167'
+ht-degree: 11%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 12%
    + [대상자 기본 정보](audience/about-audiences.md)
    + [대상자 선택](audience/add-audience.md)
    + [컨트롤 그룹 설정](audience/control-group.md)
-   + [세그먼트 빌더 작업](audience/segment-builder.md)
+   + [규칙 빌더로 대상 정의](audience/segment-builder.md)
 + 이메일 미리 보기 및 테스트 {#preview-test}
    + [미리 보기 및 증명 정보](preview-test/preview-test.md)
    + [이메일 콘텐츠 미리 보기](preview-test/preview-content.md)

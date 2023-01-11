@@ -3,10 +3,10 @@ audience: end-user
 title: 컨트롤 그룹 설정
 description: Campaign v8 웹 설명서
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: bc076bb4c841dd8e259ac007ecef8e3cb496a08d
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 46%
+source-wordcount: '463'
+ht-degree: 45%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 46%
 
    ![](assets/control-group.png)
 
-* **속성별 등급**: 이 옵션을 사용하면 하나 이상의 정렬 명령을 기준으로 제한을 정의할 수 있습니다.
+* **속성별 등급**: 이 옵션을 사용하면 특정 정렬 순서에서 특정 속성에 따라 프로필 세트를 제외할 수 있습니다.
 
    ![](assets/control-group2.png)
 

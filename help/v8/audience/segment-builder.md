@@ -3,14 +3,14 @@ audience: end-user
 title: 세그먼트 빌더를 사용한 작업
 description: Campaign v8 웹 설명서
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 0%
+source-wordcount: '559'
+ht-degree: 1%
 
 ---
 
-# 세그먼트 빌더 작업 {#segment-builder}
+# 규칙 빌더로 대상 정의 {#segment-builder}
 
 >[!NOTE]
 >
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 이 섹션에서는 새 이메일을 디자인할 때 대상자를 만드는 방법을 설명합니다. 만든 대상자는 이 이메일에서만 사용할 수 있습니다.
 
-세그먼트 빌더를 사용하면 Adobe Campaign 데이터베이스에 포함된 데이터를 필터링하여 메시지가 타겟팅하는 모집단을 정의할 수 있습니다. 기존 대상자를 선택하려면 이 항목을 참조하십시오 [섹션](add-audience.md).
+규칙 빌더를 사용하면 데이터베이스에 포함된 데이터를 필터링하여 메시지가 타겟팅하는 모집단을 정의할 수 있습니다. 기존 대상자를 선택하려면 이 항목을 참조하십시오 [섹션](add-audience.md).
 
-세그먼트 빌더에 대한 자세한 내용은 [Segmentation Service 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+규칙 빌더에 대한 자세한 내용은 [Segmentation Service 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
 이메일을 디자인할 때 새 대상자를 만들려면 다음 단계를 수행하십시오.
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
    ![](assets/segment-builder0.png)
 
-1. 선택 **직접 만들기**. 세그먼트 빌더가 표시됩니다.
+1. 선택 **직접 만들기**. 규칙 빌더가 표시됩니다.
 
    ![](assets/segment-builder.png)
 
@@ -40,9 +40,13 @@ ht-degree: 0%
 
    ![](assets/segment-builder2.png){width="70%" align="left"}
 
-* **대상**: 이 탭에서는 Campaign Classic 콘솔에 정의된 기존 대상 중 하나를 사용하여 필터링할 수 있습니다.
+* **대상**: 이 탭에서는 Campaign Classic 콘솔 또는 Adobe Experience Platform에서 정의된 기존 대상 중 하나를 사용하여 필터링할 수 있습니다.
 
    ![](assets/segment-builder3.png){width="70%" align="left"}
+
+   >[!NOTE]
+   >
+   >Adobe Experience Platform 대상을 활용하려면 대상과의 통합을 구성해야 합니다. 자세한 내용은 [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ko).
 
 검색 창을 사용하여 요소를 빠르게 찾을 수 있습니다.
 
@@ -87,7 +91,7 @@ ht-degree: 0%
 
    ![](assets/segment-builder10.png)
 
-1. 클릭 **결과 보기** 쿼리와 일치하는 수신자 목록 및 수를 표시합니다.
+1. 클릭 **결과 보기** 쿼리와 일치하는 수신자 목록 및 수를 표시합니다. 열을 추가하여 데이터를 시각화하고 확인할 수도 있습니다. 이 예제에서 **구/군/시** 칼럼을 보고 애틀랜타와 시애틀도 보셔야 합니다
 
    ![](assets/segment-builder11.png)
 

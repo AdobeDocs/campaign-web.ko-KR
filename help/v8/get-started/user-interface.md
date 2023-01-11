@@ -3,9 +3,9 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Campaign v8 웹 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
+source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1172'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 >title="인터페이스"
 >abstract="새로운 Campaign v8 웹 인터페이스는 통합적이고 직관적이며 일관된 사용자 경험을 제공합니다."
 
-새로운 Campaign v8 웹 인터페이스는 워크플로우, 마케팅 캠페인 디자인 및 게재를 간소화하고 Adobe Experience Platform 기본 애플리케이션 환경과 일관되게 제공하는 현대적이고 직관적인 사용자 경험을 제공합니다.
+새로운 Campaign v8 웹 인터페이스는 마케팅 캠페인 디자인과 게재를 간소화하는 현대적이고 직관적인 사용자 경험을 제공합니다. 이 새로운 인터페이스는 Adobe Experience Platform과 통합되었습니다.
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
@@ -39,13 +39,13 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## 왼쪽 탐색 메뉴
 
-왼쪽의 링크를 탐색하여 Campaign v8 웹 기능에 액세스합니다. 여러 링크에는 정렬 및 필터링할 수 있는 객체 목록이 표시됩니다. 필요한 모든 정보를 표시하도록 열을 구성할 수도 있습니다. 다음 보기 [섹션](#list-screens). 전자 메일 게재 목록을 제외한 모든 목록 화면은 읽기 전용입니다. 편집/볼 목록 항목을 클릭하면 알파에서 사용할 수 없습니다.
+왼쪽의 링크를 탐색하여 Campaign v8 웹 기능에 액세스합니다. 여러 링크에는 정렬 및 필터링할 수 있는 객체 목록이 표시됩니다. 필요한 모든 정보를 표시하도록 열을 구성할 수도 있습니다. 다음 보기 [섹션](#list-screens). 전자 메일 게재 목록을 제외한 모든 목록 화면은 읽기 전용입니다. 편집/볼 목록 항목을 클릭하면 알파에서 사용할 수 없습니다. 모든 목록은 Beta 및 GA 버전에서 편집할 수 있습니다. 왼쪽 탐색 메뉴에 표시되는 항목은 사용자 권한에 따라 다릅니다.
 
 ![](assets/home.png)
 
 ### 홈
 
-이 화면에는 기본 Campaign v8 웹 기능에 빠르게 액세스할 수 있는 주요 링크 및 리소스가 포함되어 있습니다. 다음 **최근 항목** 목록에서는 최근에 만든 게재에 대한 바로 가기를 제공합니다. 이 목록에는 작성 및 수정 날짜 및 상태가 표시됩니다.
+이 화면에는 기본 Campaign v8 웹 기능에 빠르게 액세스할 수 있는 주요 링크 및 리소스가 포함되어 있습니다. 다음 **최근 항목** 목록은 최근에 만들고 수정된 게재에 대한 바로 가기를 제공합니다. 이 목록에는 작성 및 수정 날짜 및 상태가 표시됩니다.
 
 <!--
 * Banner
@@ -140,8 +140,8 @@ Navtree view depends on permissions (same as console).
 
 인터페이스 상단 표시줄에서는 다음 작업을 수행할 수 있습니다.
 
-* 알파 고객으로서 피드백 공유
-* ims 조직 간 전환
+* 알파 테스터로 피드백 공유
+* 조직과 인스턴스 간 전환
 * Adobe Experience Cloud 애플리케이션 간 전환
 * 도움말 페이지에 액세스하고 지원 센터에 문의하여 피드백을 공유하십시오. 검색 필드에서 도움말 문서와 비디오를 검색할 수 있습니다.
 

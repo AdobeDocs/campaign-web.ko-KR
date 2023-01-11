@@ -3,10 +3,10 @@ audience: end-user
 title: 시작
 description: Campaign v8 웹 설명서
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
+source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 15%
+source-wordcount: '332'
+ht-degree: 14%
 
 ---
 
@@ -32,7 +32,7 @@ only existing customers
 
 Adobe Campaign은 크로스채널 고객 경험을 디자인할 수 있는 플랫폼과 더불어 시각적 캠페인 오케스트레이션, 실시간 상호 작용 관리, 크로스채널 실행을 위한 환경을 제공합니다.
 
-콘솔에서 사용할 수 있는 기존의 모든 기능 외에도 마케팅 캠페인 디자인과 게재를 간소화하고 Adobe Experience Platform 기본 애플리케이션 환경과 일관되게 제공하는 최신 웹 기반 사용자 인터페이스를 만들었습니다.
+콘솔에서 사용할 수 있는 기존의 모든 기능 외에도 마케팅 캠페인 디자인과 게재를 간소화하고 Adobe Experience Platform과 일관되게 제공하는 최신 웹 기반 사용자 인터페이스를 만들었습니다.
 
 ## 알파 기능
 
@@ -49,8 +49,8 @@ No search and pulse notifications in Alpha
 
 **이메일 캠페인 만들기, 시작 및 측정**
 
-* 이메일 편집기를 사용하여 개인화된 이메일 컨텐츠를 디자인합니다
-* 세그먼트 빌더로 타겟 대상 정의
+* 이메일 디자이너를 통해 개인화된 이메일 콘텐츠 디자인
+* 규칙 빌더로 타겟 대상 정의
 * 이메일 메시지 미리 보기, 테스트 및 보내기
 * 기본 제공 보고서를 사용하여 결과 전송 및 측정 모니터링
 
@@ -59,6 +59,10 @@ add info somewhere to remind users that
 * they still have access to their console (+ link to v8 console doc)
 * they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
 -->
+
+>[!NOTE]
+>
+>크로스 채널 캠페인 및 워크플로우 관리 기능은 베타 프로그램에서 사용할 수 있습니다.
 
 ## 클라이언트 콘솔
 
@@ -71,7 +75,7 @@ add info somewhere to remind users that
 ![](assets/connect.png)
 
 1. 연결 대상 [Adobe Experience Cloud](http://experience.adobe.com).
-1. Adobe IMS 자격 증명으로 로그인합니다.
+1. Adobe 자격 증명으로 로그인합니다.
 1. 에서 **빠른 액세스** 섹션을 클릭합니다. **캠페인**.
 
 <!--

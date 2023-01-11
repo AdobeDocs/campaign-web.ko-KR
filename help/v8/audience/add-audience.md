@@ -3,7 +3,7 @@ audience: end-user
 title: 대상자 추가
 description: Campaign v8 웹 설명서
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 4%
@@ -43,7 +43,7 @@ ht-degree: 4%
 
    ![](assets/create-audience3.png)
 
-1. 세그먼트 빌더를 사용하면 추가 필터나 다른 대상을 결합하여 대상을 보강할 수 있습니다. 다음 보기 [섹션](segment-builder.md).
+1. 규칙 빌더를 사용하면 추가 필터나 다른 대상을 결합하여 대상을 보강할 수 있습니다. 다음 보기 [섹션](segment-builder.md).
 
    ![](assets/create-audience4.png)
 

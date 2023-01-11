@@ -3,7 +3,7 @@ audience: end-user
 title: 이메일 준비 및 보내기
 description: Campaign v8 웹 설명서
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 4%
@@ -60,7 +60,7 @@ send also KPIs
    * **게재하려면**: 전송할 메시지 수
    * **제외하려면**: 유형화 규칙에 의해 제외된 메시지 수
 
-1. 을(를) 클릭합니다. **로그** 버튼을 클릭하고 오류가 없는지 확인합니다. 마지막 로그 메시지에는 오류 메시지와 오류 수가 표시됩니다. 자세한 내용은 이 [섹션](#send)을 참조하십시오.
+1. 을(를) 클릭합니다. **로그** 버튼을 클릭하고 오류가 없는지 확인합니다. 마지막 로그 메시지에는 오류 메시지와 오류 수가 표시됩니다. 자세한 내용은 이 [섹션](delivery-logs.md)을 참조하십시오.
 
    ![](assets/prepare-logs.png)
 
@@ -82,7 +82,7 @@ send also KPIs
 
    ![](assets/send.png)
 
-1. 전송 진행 상태가 표시됩니다. 표시되는 KPI를 확인합니다. 로그를 확인할 수도 있습니다. 자세한 내용은 이 [섹션](#send)을 참조하십시오.
+1. 전송 진행 상태가 표시됩니다. 표시되는 KPI를 확인합니다. 로그를 확인할 수도 있습니다. 자세한 내용은 이 [섹션](delivery-logs.md)을 참조하십시오.
 
    ![](assets/send2.png)
 

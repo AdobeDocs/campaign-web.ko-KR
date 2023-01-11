@@ -3,10 +3,10 @@ audience: end-user
 title: 컨트롤 그룹 설정
 description: Campaign v8 웹 설명서
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 45%
+source-wordcount: '545'
+ht-degree: 38%
 
 ---
 
@@ -56,6 +56,28 @@ ht-degree: 45%
 
 그런 다음 을(를) 정의합니다 **크기 제한**: 기본 대상에서 추출하는 프로필 수를 제한하는 방법을 설정해야 합니다.
 
+**예제**
+
+로그를 보고 제외된 프로필을 확인하고 식별할 수 있습니다. 다섯 개의 프로필에 대한 임의 제외 예를 살펴보겠습니다.
+
+![](assets/control-group4.png)
+
+게재를 준비한 후 다음 화면에서 제외를 볼 수 있습니다.
+
+* 다음 **제외하려면** 전송 전 게재 대시보드의 KPI입니다.
+
+   ![](assets/control-group5.png)
+
+* 다음 **제외 로그** 각 프로필 및 관련 제외 표시 **이유**.
+
+   ![](assets/control-group6.png)
+
+* 다음 **제외 원인** 각 유형화 규칙에 대해 제외된 프로필 수를 표시합니다.
+
+   ![](assets/control-group7.png)
+
+게재 로그에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../monitor/delivery-logs.md).
+
 ## 추가 모집단 {#extra-population}
 
 >[!CONTEXTUALHELP]
@@ -71,6 +93,6 @@ ht-degree: 45%
 
 * 기존 대상자를 사용하려면 **대상 선택**. 다음을 참조하십시오 [섹션](add-audience.md).
 
-* 새 쿼리를 정의하려면 **직접 만들기** 세그먼트 빌더를 사용하여 제외 기준을 정의합니다. 다음을 참조하십시오 [섹션](segment-builder.md).
+* 새 쿼리를 정의하려면 **직접 만들기** 및 규칙 빌더를 사용하여 제외 기준을 정의합니다. 다음을 참조하십시오 [섹션](segment-builder.md).
 
 대상에 포함되거나 쿼리 결과와 일치하는 프로필은 대상에서 제외됩니다.

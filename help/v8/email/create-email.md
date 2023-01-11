@@ -3,7 +3,7 @@ audience: end-user
 title: 첫 번째 이메일 만들기
 description: Campaign v8 웹 설명서
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 4bc12928a6dac79d09f918a0bc34e3f98d9984d3
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 2%
@@ -104,7 +104,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="대상자 정의"
->abstract="마케팅 메시지에 가장 적합한 대상을 선택합니다. Campaign v8 인스턴스나 Adobe Experience Platform에서 이미 정의된 기존 대상을 선택하거나, 세그먼트 빌더로 새 대상을 만들도록 선택할 수 있습니다."
+>abstract="마케팅 메시지에 가장 적합한 대상을 선택합니다. Campaign v8 인스턴스 또는 Adobe Experience Platform에서 이미 정의된 기존 대상을 선택하거나, 규칙 빌더로 새 대상을 만들도록 선택할 수 있습니다."
 
 이 사용 사례에서는 기존 대상자에게 이메일을 보내려고 합니다. 대상 작업 방법에 대한 자세한 내용은 [이 섹션](../audience/about-audiences.md).
 

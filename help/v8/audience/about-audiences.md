@@ -3,9 +3,9 @@ audience: end-user
 title: 대상자 기본 정보
 description: 대상자 기본 정보
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '136'
 ht-degree: 7%
 
 ---
@@ -42,7 +42,7 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-이 섹션에서는 이메일 대상자를 정의하는 방법을 알아봅니다. 게재 대상, 이메일을 받을 수신자입니다. 대상 유형은 대상 매핑에 따라 다릅니다.
+이 섹션에서는 이메일 대상자를 정의하는 방법을 알아봅니다. 게재 대상, 이메일을 받을 수신자입니다. 대상 유형은 게재 템플릿에 정의된 대상 매핑에 따라 다릅니다. 다음 보기 [섹션](../email/create-email.md).
 
 대상자를 정의하려면 다음을 수행할 수 있습니다.
 

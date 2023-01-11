@@ -3,7 +3,7 @@ audience: end-user
 title: 시작
 description: Campaign v8 웹 설명서
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 14%
@@ -28,7 +28,7 @@ only existing customers
 
 >[!NOTE]
 >
->Campaign v8 웹은 현재 알파 버전에 있습니다. 액세스는 작은 알파 고객 집합으로 제한됩니다. 제품 인터페이스, 기능 및 사용 흐름은 예고 없이 변경될 수 있습니다.
+>Campaign v8 Web이 현재 알파 버전에 있습니다. 액세스는 작은 알파 고객 집합으로 제한됩니다. 제품 인터페이스, 기능 및 사용 흐름은 예고 없이 변경될 수 있습니다.
 
 Adobe Campaign은 크로스채널 고객 경험을 디자인할 수 있는 플랫폼과 더불어 시각적 캠페인 오케스트레이션, 실시간 상호 작용 관리, 크로스채널 실행을 위한 환경을 제공합니다.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Campaign v8 웹 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: a9cea928d8c447fbd8435e49928d6328a1209640
+source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1148'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 >title="인터페이스"
 >abstract="새로운 Campaign v8 웹 인터페이스는 통합적이고 직관적이며 일관된 사용자 경험을 제공합니다."
 
-새로운 Campaign v8 웹 인터페이스는 통합적이고 직관적이며 일관된 사용자 경험을 제공합니다.
+새로운 Campaign v8 웹 인터페이스는 워크플로우, 마케팅 캠페인 디자인 및 게재를 간소화하고 Adobe Experience Platform 기본 애플리케이션 환경과 일관되게 제공하는 현대적이고 직관적인 사용자 경험을 제공합니다.
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.

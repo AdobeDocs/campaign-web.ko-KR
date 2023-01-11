@@ -3,9 +3,9 @@ audience: end-user
 title: 시작
 description: Campaign v8 웹 설명서
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: b5d0c2538b99aabafd04f6314a8135269c8555c0
+source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '320'
 ht-degree: 15%
 
 ---
@@ -32,11 +32,11 @@ only existing customers
 
 Adobe Campaign은 크로스채널 고객 경험을 디자인할 수 있는 플랫폼과 더불어 시각적 캠페인 오케스트레이션, 실시간 상호 작용 관리, 크로스채널 실행을 위한 환경을 제공합니다.
 
-Adobe는 콘솔에서 사용할 수 있는 기존의 모든 기능 외에도 실무자에게 통합된 직관적이고 일관된 사용자 경험을 제공하는 웹 인터페이스를 구축했습니다.
+콘솔에서 사용할 수 있는 기존의 모든 기능 외에도 마케팅 캠페인 디자인과 게재를 간소화하고 Adobe Experience Platform 기본 애플리케이션 환경과 일관되게 제공하는 최신 웹 기반 사용자 인터페이스를 만들었습니다.
 
 ## 알파 기능
 
-이 최신 웹 기반 인터페이스는 현재 다음 기능을 갖춘 Alpha 실무 담당자만 사용할 수 있습니다.
+이 웹 인터페이스는 현재 다음 기능을 가진 Alpha 실무 담당자만 사용할 수 있습니다.
 
 **현대적이고 직관적이며 통합된 경험**
 
@@ -50,7 +50,7 @@ No search and pulse notifications in Alpha
 **이메일 캠페인 만들기, 시작 및 측정**
 
 * 이메일 편집기를 사용하여 개인화된 이메일 컨텐츠를 디자인합니다
-* 세그먼트 빌더로 대상 정의
+* 세그먼트 빌더로 타겟 대상 정의
 * 이메일 메시지 미리 보기, 테스트 및 보내기
 * 기본 제공 보고서를 사용하여 결과 전송 및 측정 모니터링
 

@@ -5,10 +5,10 @@ description: Campaign v8 웹 설명서
 breadcrumb-title: Campaign 개요
 title: Campaign v8 웹 문서
 hide: true
-source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
+source-git-commit: 4e29e2e65fff1eac60d4c0c88c2e56b55b7f79c9
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 11%
+source-wordcount: '168'
+ht-degree: 10%
 
 ---
 
@@ -54,5 +54,5 @@ ht-degree: 11%
 + 이메일 보내기 및 모니터링 {#monitor}
    + [이메일 준비 및 보내기](monitor/prepare-send.md)
    + [게재 로그 모니터링](monitor/delivery-logs.md)
+   + [전자 메일 게재 설정](advanced-settings/delivery-settings.md)
 + [보고](reporting/reports.md)
-+ [고급 설정](advanced-settings/delivery-settings.md)

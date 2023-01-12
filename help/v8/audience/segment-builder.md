@@ -3,18 +3,16 @@ audience: end-user
 title: 세그먼트 빌더를 사용한 작업
 description: Campaign v8 웹 설명서
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '540'
 ht-degree: 1%
 
 ---
 
 # 규칙 빌더로 대상 정의 {#segment-builder}
 
->[!NOTE]
->
->이 설명서는 개발 중이며 자주 업데이트됩니다. 이 컨텐츠의 최종 버전은 2023년 1월에 준비될 예정입니다.
+![](../assets/do-not-localize/badge.png)
 
 이 섹션에서는 새 이메일을 디자인할 때 대상자를 만드는 방법을 설명합니다. 만든 대상자는 이 이메일에서만 사용할 수 있습니다.
 

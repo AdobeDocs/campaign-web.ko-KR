@@ -3,18 +3,16 @@ audience: end-user
 title: 전자 메일 렌더링 테스트
 description: Campaign v8 웹 설명서
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
 
 # 전자 메일 렌더링 테스트 {#rendering}
 
->[!NOTE]
->
->이 설명서는 개발 중이며 자주 업데이트됩니다. 이 컨텐츠의 최종 버전은 2023년 1월에 준비될 예정입니다.
+![](../assets/do-not-localize/badge.png)
 
 이메일을 보내기 전에 메시지가 다양한 웹 클라이언트, 웹 메일 및 장치에서 수신자에게 최적의 방식으로 표시되는지 확인하십시오.
 

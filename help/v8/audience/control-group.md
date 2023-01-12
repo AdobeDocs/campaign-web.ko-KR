@@ -3,18 +3,14 @@ audience: end-user
 title: 컨트롤 그룹 설정
 description: Campaign v8 웹 설명서
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 38%
+source-wordcount: '526'
+ht-degree: 40%
 
 ---
 
 # 컨트롤 그룹 설정 {#control-group}
-
->[!NOTE]
->
->이 설명서는 개발 중이며 자주 업데이트됩니다. 이 컨텐츠의 최종 버전은 2023년 1월에 준비될 예정입니다.
 
 캠페인의 영향을 측정하기 위해 컨트롤 그룹을 사용하여 대상의 일부에 메시지를 보내지 않아도 됩니다.
 

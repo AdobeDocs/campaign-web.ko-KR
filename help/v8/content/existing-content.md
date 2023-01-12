@@ -3,18 +3,16 @@ audience: end-user
 title: 이메일 콘텐츠 가져오기
 description: 이메일 콘텐츠를 가져오는 방법을 알아봅니다
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '133'
 ht-degree: 3%
 
 ---
 
 # 이메일 콘텐츠 가져오기 {#existing-content}
 
->[!NOTE]
->
->이 설명서는 개발 중이며 자주 업데이트됩니다. 이 컨텐츠의 최종 버전은 2023년 1월에 준비될 예정입니다.
+![](../assets/do-not-localize/badge.png)
 
 이메일 디자이너를 사용하면 기존 HTML 콘텐츠를 가져올 수 있습니다. 이 콘텐츠는 다음과 같습니다.
 

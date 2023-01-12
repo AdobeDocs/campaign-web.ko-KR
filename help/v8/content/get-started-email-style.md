@@ -3,18 +3,16 @@ audience: end-user
 title: 이메일 스타일 시작
 description: 이메일 콘텐츠 스타일을 조정할 수 있는 다양한 방법을 알아봅니다
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-source-git-commit: 6e658c6a2c4f49135ffa6bb4ef0eb39086b1623a
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
 
 # 이메일 스타일 시작 {#get-started-email-style}
 
->[!NOTE]
->
->이 설명서는 개발 중이며 자주 업데이트됩니다. 이 컨텐츠의 최종 버전은 2023년 1월에 준비될 예정입니다.
+![](../assets/do-not-localize/badge.png)
 
 에서 이메일 콘텐츠를 만들기 시작하면 [!DNL Journey Optimizer]에서는 전자 메일 디자이너 설정 창에서 여러 스타일 매개 변수와 속성을 조정할 수 있습니다.
 

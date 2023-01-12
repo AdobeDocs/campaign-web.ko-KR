@@ -6,18 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 60bd1b795a44019929eae2267304e45b1fd570a9
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
 
 # 개인화 시작{#add-personalization}
 
->[!NOTE]
->
->이 설명서는 개발 중이며 자주 업데이트됩니다. 이 컨텐츠의 최종 버전은 2023년 1월에 준비될 예정입니다.
+![](../assets/do-not-localize/badge.png)
 
 >[!NOTE]
 >

@@ -3,18 +3,16 @@ audience: end-user
 title: 고유한 이메일 콘텐츠 코드 지정
 description: 고유한 이메일 콘텐츠를 코딩하는 방법을 알아봅니다
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
 # 고유한 컨텐츠 코드 지정 {#code-content}
 
->[!NOTE]
->
->이 설명서는 개발 중이며 자주 업데이트됩니다. 이 컨텐츠의 최종 버전은 2023년 1월에 준비될 예정입니다.
+![](../assets/do-not-localize/badge.png)
 
 를 사용하십시오 **[!UICONTROL 직접 코드 작성]** 원시 HTML을 가져오거나 전자 메일 콘텐츠를 코딩하는 모드 이 방법에는 HTML 기술이 필요합니다.
 

@@ -3,18 +3,16 @@ audience: end-user
 title: 첫 번째 이메일 만들기
 description: Campaign v8 웹 설명서
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1155'
 ht-degree: 2%
 
 ---
 
 # 첫 번째 이메일 보내기 {#first-email}
 
->[!NOTE]
->
->이 설명서는 개발 중이며 자주 업데이트됩니다. 이 컨텐츠의 최종 버전은 2023년 1월에 준비될 예정입니다.
+![](../assets/do-not-localize/badge.png)
 
 이 사용 사례에서는 첫 번째 이메일을 만드는 방법을 설명합니다. 은 및 골드 충성도 고객에게 특정 날짜에 전자 메일 전송을 예약하려고 합니다. 이 이메일은 사전 정의된 템플릿을 사용하여 디자인되며 프로필의 속성을 사용한 개인화를 포함합니다.
 

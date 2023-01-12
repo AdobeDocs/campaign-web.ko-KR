@@ -3,23 +3,21 @@ audience: end-user
 title: 대상자 기본 정보
 description: 대상자 기본 정보
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 7%
+source-wordcount: '117'
+ht-degree: 8%
 
 ---
 
 # 대상자 기본 정보 {#about-audiences}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="대상자 시작"
 >abstract="이메일 콘텐츠의 대상을 관리하는 방법을 알아봅니다."
-
->[!NOTE]
->
->이 설명서는 개발 중이며 자주 업데이트됩니다. 이 컨텐츠의 최종 버전은 2023년 1월에 준비될 예정입니다.
 
 <!--
 Audience only created for the delivery, not available later-->

@@ -3,18 +3,16 @@ audience: end-user
 title: 이메일 디자이너에 사전 헤더 추가
 description: 이메일 콘텐츠를 디자인하는 방법 알아보기
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
 
 # 사전 헤더 추가 {#preheader}
 
->[!NOTE]
->
->이 설명서는 개발 중이며 자주 업데이트됩니다. 이 컨텐츠의 최종 버전은 2023년 1월에 준비될 예정입니다.
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"

@@ -3,14 +3,16 @@ audience: end-user
 title: 이메일 콘텐츠 편집
 description: Campaign v8 웹 설명서
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 0513687c2299e1cdfbeec7793e2146fc22d80e35
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
 
 # 이메일 콘텐츠 편집 {#configure-content}
+
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
@@ -31,10 +33,6 @@ ht-degree: 0%
 >id="acw_deliveries_email_options"
 >title="추적 옵션"
 >abstract="TBC"
-
->[!NOTE]
->
->이 설명서는 개발 중이며 자주 업데이트됩니다. 이 컨텐츠의 최종 버전은 2023년 1월에 준비될 예정입니다.
 
 전자 메일 콘텐츠 만들기를 시작하려면 **[!UICONTROL 컨텐츠 편집]** 전자 메일 만들기 화면에서 버튼을 클릭합니다.
 

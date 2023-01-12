@@ -3,18 +3,16 @@ audience: end-user
 title: 링크의 스타일 정의
 description: 링크의 스타일을 정의하는 방법을 알아봅니다
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-source-git-commit: c537850a1c0dfb2e7d951477291f2f6da7c9bddf
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 1%
+source-wordcount: '141'
+ht-degree: 2%
 
 ---
 
 # 링크의 스타일 정의 {#styling-links}
 
->[!NOTE]
->
->이 설명서는 개발 중이며 자주 업데이트됩니다. 이 컨텐츠의 최종 버전은 2023년 1월에 준비될 예정입니다.
+![](../assets/do-not-localize/badge.png)
 
 링크에 밑줄을 긋고 이메일 디자이너에서 해당 색상과 타겟을 선택할 수 있습니다.
 

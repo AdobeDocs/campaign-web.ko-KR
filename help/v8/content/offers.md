@@ -3,14 +3,16 @@ audience: end-user
 title: 오퍼 보내기
 description: 오퍼 보내기
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
 
 # 오퍼 보내기 {#offers-content}
+
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
@@ -21,10 +23,6 @@ ht-degree: 0%
 >id="acw_deliveries_email_offers_advanced_settings"
 >title="고급 설정 제공"
 >abstract="TBC"
-
->[!NOTE]
->
->이 설명서는 개발 중이며 자주 업데이트됩니다. 이 컨텐츠의 최종 버전은 2023년 1월에 준비될 예정입니다.
 
 Adobe Campaign v8 웹을 사용하면 콘솔에서 만든 이메일 오퍼와 함께 **[!UICONTROL 상호 작용]** 모듈. 상호 작용 및 콘솔에서 오퍼 카탈로그를 관리하는 방법에 대한 자세한 내용은 [Campaign V8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html)
 

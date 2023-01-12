@@ -3,18 +3,16 @@ audience: end-user
 title: 이메일 디자이너 콘텐츠 구성 요소 사용
 description: 이메일에서 콘텐츠 구성 요소를 사용하는 방법을 알아봅니다
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 5f4d5e69415dc26baab5780e96088e22172fe35e
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1085'
 ht-degree: 0%
 
 ---
 
 # 이메일 디자이너 콘텐츠 구성 요소 사용 {#content-components}
 
->[!NOTE]
->
->이 설명서는 개발 중이며 자주 업데이트됩니다. 이 컨텐츠의 최종 버전은 2023년 1월에 준비될 예정입니다.
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"

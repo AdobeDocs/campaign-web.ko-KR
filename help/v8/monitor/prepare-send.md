@@ -3,23 +3,21 @@ audience: end-user
 title: 이메일 준비 및 보내기
 description: Campaign v8 웹 설명서
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '521'
 ht-degree: 4%
 
 ---
 
 # 이메일 준비 및 보내기 {#prepare-send}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="이메일 준비 및 보내기"
 >abstract="이메일을 준비하는 방법과 KPI 보내기에 대한 자세한 내용을 알아봅니다."
-
->[!NOTE]
->
->이 설명서는 개발 중이며 자주 업데이트됩니다. 이 컨텐츠의 최종 버전은 2023년 1월에 준비될 예정입니다.
 
 <!--
 

@@ -3,9 +3,9 @@ audience: end-user
 title: 고급 설정
 description: Campaign v8 웹 설명서
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 96d5ee712131ba314ef25736e421efe436d5170a
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1222'
 ht-degree: 22%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 22%
 # 고급 설정 {#advanced-settings}
 
 ![](../assets/do-not-localize/badge.png)
-
->[!NOTE]
->
->이 설명서는 개발 중이며 자주 업데이트됩니다. 이 컨텐츠의 최종 버전은 2023년 1월에 준비될 예정입니다.
 
 이러한 설정은 다음과 같습니다 **기술 전달 매개 변수** 이메일 템플릿에 정의된 횟수. 특정 게재에 대해 수정하려면 다음 단계를 신중하게 수행합니다.
 

@@ -3,18 +3,16 @@ audience: end-user
 title: 보고
 description: Campaign v8 웹 설명서
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '381'
 ht-degree: 1%
 
 ---
 
 # 보고 {#reports}
 
->[!NOTE]
->
->이 설명서는 개발 중이며 자주 업데이트됩니다. 이 컨텐츠의 최종 버전은 2023년 1월에 준비될 예정입니다.
+![](../assets/do-not-localize/badge.png)
 
 <!--
 detail delivery reports and how to access them

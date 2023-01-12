@@ -3,9 +3,9 @@ audience: end-user
 title: 이메일 콘텐츠 편집
 description: Campaign v8 웹 설명서
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 72ce0a77704b2592e1186f70ea7aef308989d8c4
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
 
    <!--limitation on size + number of files?-->
 
-1. 기본적으로 열기 및 클릭에 대해 이메일 추적이 활성화됩니다. 이러한 옵션을 비활성화하려면 **[!UICONTROL 옵션 기능]** 섹션을 참조하십시오. [링크 추가 및 추적 관리 방법 알아보기](message-tracking.md)
+1. 기본적으로 게재에 대해 추적이 활성화됩니다. 에서 이 옵션을 비활성화할 수 있습니다. **[!UICONTROL 옵션 기능]** 섹션을 참조하십시오. [링크 추가 및 추적 관리 방법 알아보기](message-tracking.md)
 
 전자 메일 콘텐츠가 정의되면 **[!UICONTROL 컨텐츠 시뮬레이션]** 단추를 클릭하여 보내기 전에 표시되는 방식을 확인합니다. [이메일을 미리 보고 테스트하는 방법을 알아봅니다](../preview-test/preview-test.md)
 

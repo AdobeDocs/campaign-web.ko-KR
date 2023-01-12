@@ -3,9 +3,9 @@ audience: end-user
 title: 시작
 description: Campaign v8 웹 설명서
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: a57630deb9368dc483925bcbbce362ba4ec79a41
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '391'
 ht-degree: 12%
 
 ---
@@ -58,6 +58,7 @@ Campaign 데이터는 애플리케이션 서버에 저장됩니다. 데이터는
    ![](assets/connect.png)
 
 1. 다음 페이지에서 **Launch** Campaign 인스턴스의 버튼입니다.
+이제 Campaign에 연결됩니다. 에서 사용자 인터페이스 사용을 시작하는 방법을 알아봅니다. [이 페이지](user-interface.md).
 
 <!--
 -> experience cloud home: "Campaign" -> home campaign v8

@@ -3,7 +3,7 @@ audience: end-user
 title: 오퍼 보내기
 description: 오퍼 보내기
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 >title="고급 설정 제공"
 >abstract="TBC"
 
-Adobe Campaign v8 웹을 사용하면 콘솔에서 만든 이메일 오퍼와 함께 **[!UICONTROL 상호 작용]** 모듈. 상호 작용 및 콘솔에서 오퍼 카탈로그를 관리하는 방법에 대한 자세한 내용은 [Campaign V8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html)
+Adobe Campaign v8 웹을 사용하면 콘솔에서 만든 이메일 오퍼와 함께 **[!UICONTROL 상호 작용]** 모듈. 상호 작용 및 콘솔에서 오퍼 카탈로그를 관리하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
 이메일을 사용하여 오퍼를 전송하는 단계는 다음과 같습니다.
 

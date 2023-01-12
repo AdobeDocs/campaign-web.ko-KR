@@ -3,10 +3,10 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Campaign v8 웹 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
 source-wordcount: '1153'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -73,7 +73,7 @@ Global report not alpha
 
 목록 화면에서와 마찬가지로, 디스플레이를 개인화하여 필요한 모든 정보를 표시하도록 열을 구성할 수 있습니다. 다음 보기 [섹션](#list-screens).
 
-Campaign 탐색기에 대한 자세한 내용은 다음을 참조하십시오 [설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-explorer.html).
+Campaign 탐색기에 대한 자세한 내용은 다음을 참조하십시오 [설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -96,7 +96,7 @@ Navtree view depends on permissions (same as console).
 
 * **캠페인** - 캠페인 목록입니다. 기본적으로 시작/종료/마지막 수정 날짜와 해당 상태를 볼 수 있습니다. 상태 또는 시작/종료 날짜별로 목록을 필터링할 수 있습니다. 캠페인 템플릿도 사용할 수 있습니다. 이 목록은 읽기 전용입니다.
 
-* **게재** - 게재 목록을 살펴봅니다. 기본적으로 상태, 마지막 수정 날짜 및 주요 KPI를 볼 수 있습니다. 상태, 연락 날짜 또는 채널별로 목록을 필터링할 수 있습니다. 이메일 게재 를 클릭하여 해당 대시보드를 열어 게재 세부 사항에 대한 개요를 확인합니다. 다른 채널에서의 게재는 읽기 전용입니다. 게재 템플릿은 읽기 전용 모드에서도 사용할 수 있습니다. 클라이언트 콘솔을 사용하여 편집할 수 있습니다. 다음 보기 [설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ko).
+* **게재** - 게재 목록을 살펴봅니다. 기본적으로 상태, 마지막 수정 날짜 및 주요 KPI를 볼 수 있습니다. 상태, 연락 날짜 또는 채널별로 목록을 필터링할 수 있습니다. 이메일 게재 를 클릭하여 해당 대시보드를 열어 게재 세부 사항에 대한 개요를 확인합니다. 다른 채널에서의 게재는 읽기 전용입니다. 게재 템플릿은 읽기 전용 모드에서도 사용할 수 있습니다. 클라이언트 콘솔을 사용하여 편집할 수 있습니다. 다음 보기 [설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
 ### 고객 관리
 

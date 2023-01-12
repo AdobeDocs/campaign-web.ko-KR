@@ -3,7 +3,7 @@ audience: end-user
 title: 세그먼트 빌더를 사용한 작업
 description: Campaign v8 웹 설명서
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 1%
@@ -44,7 +44,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >Adobe Experience Platform 대상을 활용하려면 대상과의 통합을 구성해야 합니다. 자세한 내용은 [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ko).
+   >Adobe Experience Platform 대상을 활용하려면 대상과의 통합을 구성해야 합니다. 자세한 내용은 [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ko){target="_blank"}.
 
 검색 창을 사용하여 요소를 빠르게 찾을 수 있습니다.
 

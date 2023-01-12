@@ -3,9 +3,9 @@ audience: end-user
 title: 첫 번째 이메일 만들기
 description: Campaign v8 웹 설명서
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: bc58f1f9ebb5f73dbd23539ca14aa5c0be4c841d
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1199'
 ht-degree: 1%
 
 ---
@@ -161,7 +161,9 @@ ht-degree: 1%
 
 1. 전자 메일 증명을 보내려면 **[!UICONTROL 테스트]** 버튼을 클릭한 다음 증명을 받을 프로필을 선택합니다.
 
-   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
+   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->
+
+   이 예에서는 대상에 포함되지 않은 시드 주소인 특정 테스트 프로필에 증명을 보내려고 합니다. 에서 시드 주소로 작업하는 방법 알아보기 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
 
    ![](assets/proof-test-profile.png)
 

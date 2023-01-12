@@ -3,7 +3,7 @@ audience: end-user
 title: 시작
 description: Campaign v8 웹 설명서
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: d654a75c802effbb98844557102d0ec19300cd8d
+source-git-commit: a57630deb9368dc483925bcbbce362ba4ec79a41
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 12%
@@ -51,11 +51,12 @@ Campaign 데이터는 애플리케이션 서버에 저장됩니다. 데이터는
 
 ## Campaign에 연결
 
-![](assets/connect.png)
 
 1. 연결 대상 [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
 1. Adobe 자격 증명으로 로그인합니다.
 1. 에서 **빠른 액세스** 섹션을 클릭합니다. **캠페인**.
+   ![](assets/connect.png)
+
 1. 다음 페이지에서 **Launch** Campaign 인스턴스의 버튼입니다.
 
 <!--

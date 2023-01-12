@@ -3,10 +3,10 @@ audience: end-user
 title: 시작
 description: Campaign v8 웹 설명서
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 99ad5ec9fddb0790738f45b41b17baca8e3953bd
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 15%
+source-wordcount: '374'
+ht-degree: 12%
 
 ---
 
@@ -30,53 +30,36 @@ only existing customers
 
 Adobe Campaign은 크로스채널 고객 경험을 디자인할 수 있는 플랫폼과 더불어 시각적 캠페인 오케스트레이션, 실시간 상호 작용 관리, 크로스채널 실행을 위한 환경을 제공합니다.
 
-콘솔에서 사용할 수 있는 기존의 모든 기능 외에도 마케팅 캠페인 디자인과 게재를 간소화하고 Adobe Experience Platform과 일관되게 제공하는 최신 웹 기반 사용자 인터페이스를 만들었습니다.
+처음에는 풍부함을 통해서만 사용 가능 [클라이언트 콘솔](#ac-client), 이제 Campaign은 향상된 유용성, 접근성 및 새로운 디자인을 통해 사용자 경험을 크게 향상시킬 수 있는 새로운 웹 사용자 인터페이스를 제공합니다. 이 새로운 최신 UI는 마케팅 캠페인 디자인과 게재를 단순화하고 Adobe Experience Platform을 포함한 다른 Adobe 솔루션과 일관성을 유지합니다.
 
-## 알파 기능
 
-이 웹 인터페이스는 현재 다음 기능을 가진 Alpha 실무 담당자만 사용할 수 있습니다.
+![](assets/home.png)
 
-**현대적이고 직관적이며 통합된 경험**
+이 새 UI는 먼저 **비즈니스 담당자** - 일반적인 모든 관리 작업은 이 첫 번째 버전에서는 사용할 수 없지만 다음 버전에서는 해결될 예정입니다. 현재는 새 UI에서 클라이언트 콘솔에서 사용할 수 있는 모든 단일 기능이나 옵션을 사용할 수 없습니다. 새로운 사용 사례, 옵션 및 기능은 향후 릴리스에서 제공될 예정입니다.
 
-* 단일 공유 사용자 세션을 통해 새로운 인터페이스 및 기타 애플리케이션에 액세스
-* 통합 셸 통합: 커뮤니티 학습, 도움말 센터, 솔루션 전환기 액세스
-<!--
-No search and pulse notifications in Alpha
--->
-* 왼쪽 메뉴와 폴더를 사용하여 새로운 탐색 환경을 경험하십시오
+웹 UI에서 사용할 수 없는 Campaign v8 기능에 액세스해야 하는 경우 [클라이언트 콘솔](#ac-client).
 
-**이메일 캠페인 만들기, 시작 및 측정**
+## Campaign 클라이언트 콘솔 기본 정보{#ac-client}
 
-* 이메일 디자이너를 통해 개인화된 이메일 콘텐츠 디자인
-* 규칙 빌더로 타겟 대상 정의
-* 이메일 메시지 미리 보기, 테스트 및 보내기
-* 기본 제공 보고서를 사용하여 결과 전송 및 측정 모니터링
+Campaign 클라이언트 콘솔은 시스템에 설치된 브라우저 기반 애플리케이션입니다. 웹 서비스 API를 사용하여 Campaign 애플리케이션 서버에 연결합니다.
 
-<!--
-add info somewhere to remind users that
-* they still have access to their console (+ link to v8 console doc)
-* they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
--->
+에서 클라이언트 콘솔을 다운로드 및 설치하는 방법을 알아봅니다. [이 섹션](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html){target="_blank"}.
 
->[!NOTE]
->
->크로스 채널 캠페인 및 워크플로우 관리 기능은 베타 프로그램에서 사용할 수 있습니다.
+Campaign v8 사용 방법에 대한 자세한 내용은 [설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ko){target="_blank"}.
 
-## 클라이언트 콘솔
-
-웹 UI에서 사용할 수 없는 Campaign v8 기능을 사용해야 하는 경우 클라이언트 콘솔을 사용할 수 있습니다. Campaign v8 사용 방법에 대한 자세한 내용은 [설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ko).
-
-데이터는 콘솔과 웹 UI 간에 공유됩니다. 예를 들어 콘솔을 사용하여 게재 템플릿을 만들면 웹 인터페이스에서 사용할 수 있습니다.
+Campaign 데이터는 애플리케이션 서버에 저장됩니다. 데이터는 클라이언트 콘솔과 웹 UI에서 모두 사용할 수 있습니다. 예를 들어 클라이언트 콘솔을 사용하여 게재 템플릿을 만드는 경우 웹 UI에서도 사용할 수 있습니다. 또한 웹 UI에서 이메일 배달을 만드는 경우 클라이언트 콘솔에서 이 게재에도 액세스할 수 있습니다.
 
 ## Campaign에 연결
 
 ![](assets/connect.png)
 
-1. 연결 대상 [Adobe Experience Cloud](http://experience.adobe.com).
+1. 연결 대상 [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
 1. Adobe 자격 증명으로 로그인합니다.
 1. 에서 **빠른 액세스** 섹션을 클릭합니다. **캠페인**.
+1. 다음 페이지에서 **Launch** Campaign 인스턴스의 버튼입니다.
 
 <!--
 -> experience cloud home: "Campaign" -> home campaign v8
 -> or Campaign v8 web if direct URL
 -->
+

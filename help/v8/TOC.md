@@ -5,10 +5,10 @@ description: Campaign v8 웹 설명서
 breadcrumb-title: Campaign 개요
 title: Campaign v8 웹 문서
 hide: true
-source-git-commit: 568a86845c19b1df95d55e11f119aa6305b57ca4
+source-git-commit: 2d23b04b81ab625de0936fdf058f6ac8bd1017c3
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 10%
+source-wordcount: '166'
+ht-degree: 12%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 10%
       + [링크의 스타일 정의](content/styling-links.md)
       + [인라인 스타일 속성 추가](content/inline-styling.md)
    + 콘텐츠 개인화 {#personalize}
-      + [개인화 시작](personalization/personalize.md)
+      + [개인화 추가](personalization/personalize.md)
    + [오퍼 보내기](content/offers.md)
 + 이메일 대상자 선택 {#audience}
    + [대상자 기본 정보](audience/about-audiences.md)

@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: 이메일 콘텐츠 미리 보기
-description: Campaign v8 웹 설명서
+description: Campaign Web UI를 사용하여 이메일 컨텐츠를 미리 보는 방법을 배웁니다
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---

@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: 미리 보기 및 증명 정보
-description: Campaign v8 웹 설명서
+description: 메시지를 미리 보고 증명을 보내는 방법을 알아봅니다
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---

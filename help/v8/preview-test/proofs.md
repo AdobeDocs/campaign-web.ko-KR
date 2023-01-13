@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: 증명 보내기
-description: Campaign v8 웹 설명서
+description: 증명 메시지를 정의하고 보내는 방법을 알아봅니다
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '382'
 ht-degree: 2%
 
 ---

@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: 대상자 기본 정보
-description: 대상자 기본 정보
+title: 대상자 시작
+description: Campaign Web UI에서 대상을 사용하는 방법을 알아봅니다
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 8%
+source-wordcount: '128'
+ht-degree: 9%
 
 ---
 
-# 대상자 기본 정보 {#about-audiences}
+# 대상자 시작 {#about-audiences}
 
 ![](../assets/do-not-localize/badge.png)
 

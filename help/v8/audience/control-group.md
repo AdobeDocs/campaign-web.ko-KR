@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: 컨트롤 그룹 설정
-description: Campaign v8 웹 설명서
+description: Campaign Web UI에서 메시지에 대한 컨트롤 그룹을 설정하는 방법을 알아봅니다
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 40%
+source-wordcount: '536'
+ht-degree: 39%
 
 ---
 

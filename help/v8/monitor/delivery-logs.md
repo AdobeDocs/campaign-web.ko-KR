@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: 게재 로그 모니터링
-description: Campaign v8 웹 설명서
+description: 게재 로그를 모니터링하는 방법 알아보기
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '296'
 ht-degree: 22%
 
 ---

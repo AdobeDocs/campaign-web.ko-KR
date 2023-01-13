@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: 첫 번째 이메일 만들기
-description: Campaign v8 웹 설명서
+title: 첫 번째 이메일 보내기
+description: Campaign Web UI를 사용하여 첫 번째 전자 메일을 보내는 방법을 배웁니다
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: bc58f1f9ebb5f73dbd23539ca14aa5c0be4c841d
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: '1206'
 ht-degree: 1%
 
 ---

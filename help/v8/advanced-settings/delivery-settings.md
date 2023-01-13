@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: 전자 메일 게재 설정
-description: Campaign v8 웹 설명서
+description: Campaign Web UI의 이메일 게재 설정에 대해 자세히 알아보십시오
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: bd028d11d9468c0d5752691cb08ebd7a49608374
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1453'
 ht-degree: 14%
 
 ---

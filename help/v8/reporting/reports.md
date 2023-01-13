@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: 보고
-description: Campaign v8 웹 설명서
+title: 게재 보고서
+description: 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '387'
 ht-degree: 1%
 
 ---
 
-# 보고 {#reports}
+# 게재 보고서 {#reports}
 
 ![](../assets/do-not-localize/badge.png)
 

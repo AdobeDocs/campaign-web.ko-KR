@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web v8 릴리스 노트
 description: Campaign Web v8 릴리스 노트
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 99ad5ec9fddb0790738f45b41b17baca8e3953bd
+source-git-commit: 370f0fe14d19c9dc2a20653fb3f54da1ec6d2811
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 2%
+source-wordcount: '154'
+ht-degree: 1%
 
 ---
 
@@ -14,13 +14,11 @@ ht-degree: 2%
 
 ![](../assets/do-not-localize/badge.png)
 
-이 페이지에는 Campaign Web v8의 새로운 기능과 개선 사항이 모두 포함되어 있습니다. 또한 [최신 설명서 업데이트](documentation-updates.md) 페이지를 참조하십시오.
+이 페이지에는 Campaign Web v8의 최신 기능과 개선 사항이 모두 포함되어 있습니다.
 
+## 알파 릴리스{#alpha-release}
 
-
-## 알파 기능
-
-이 웹 인터페이스는 현재 다음 기능을 가진 Alpha 실무 담당자만 사용할 수 있습니다.
+이 새 Campaign 웹 인터페이스는 현재 **알파 실무** 를 사용하려면 다음 기능을 사용하십시오.
 
 **현대적이고 직관적이며 통합된 경험**
 
@@ -31,12 +29,14 @@ No search and pulse notifications in Alpha
 -->
 * 왼쪽 메뉴와 폴더를 사용하여 새로운 탐색 환경을 경험하십시오
 
+의 새 UI에 대해 자세히 알아보십시오 [이 페이지](../get-started/user-interface.md).
+
 **이메일 캠페인 만들기, 시작 및 측정**
 
-* 이메일 디자이너를 통해 개인화된 이메일 콘텐츠 디자인
-* 규칙 빌더로 타겟 대상 정의
-* 이메일 메시지 미리 보기, 테스트 및 보내기
-* 기본 제공 보고서를 사용하여 결과 전송 및 측정 모니터링
+* 이메일 디자이너를 통해 개인화된 이메일 콘텐츠 디자인 - [추가 정보](../content/edit-content.md)
+* 규칙 빌더로 타겟 대상 정의 - [추가 정보](../audience/about-audiences.md)
+* 이메일 메시지 미리 보기, 테스트 및 보내기 - [추가 정보](../monitor/prepare-send.md)
+* 기본 제공 보고서를 사용하여 전송 및 측정 결과 모니터링 - [추가 정보](../reporting/reports.md)
 
 <!--
 add info somewhere to remind users that

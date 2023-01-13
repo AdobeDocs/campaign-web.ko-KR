@@ -3,10 +3,10 @@ audience: end-user
 title: 첫 번째 이메일 보내기
 description: Campaign Web UI를 사용하여 첫 번째 전자 메일을 보내는 방법을 배웁니다
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 384c7ac2dd2b1d90ba6ff78f59aacce396de91f0
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 1%
+source-wordcount: '1268'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 1. 에서 새 게재를 만듭니다. **[!UICONTROL 게재]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-1. 을(를) 선택합니다 **[!UICONTROL 이메일]** 채널과 사용할 템플릿을 클릭한 다음 **[!UICONTROL 만들기]**.
+1. 을(를) 선택합니다 **[!UICONTROL 이메일]** 채널과 사용할 템플릿을 클릭한 다음 **[!UICONTROL 게재 만들기]**.
 
    >[!NOTE]
    >
@@ -47,7 +47,6 @@ ht-degree: 1%
    * **[!UICONTROL 배달 코드]**: 이 필드를 사용하여 고유한 명명 규칙에 따라 게재를 구성할 수 있습니다.
    * **[!UICONTROL 설명]**: 게재에 대한 설명을 지정합니다.
    * **[!UICONTROL 자연]**: 분류 목적으로 이메일의 특성을 지정합니다.<!--The content of the list is defined in the delivery template selected when creating the email.-->
-
    >[!NOTE]
    >
    >특정 사용자 지정 필드로 스키마를 확장한 경우, **[!UICONTROL 사용자 지정 옵션]** 섹션을 참조하십시오.
@@ -79,7 +78,7 @@ ht-degree: 1%
 
    이메일 콘텐츠를 만드는 데 사용할 방법을 선택합니다. 이 예에서는 기존 디자인 템플릿을 사용하려고 합니다.
 
-   ![](assets/import-html.png)
+   ![](assets/select-template.png)
 
 <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
@@ -93,7 +92,7 @@ ht-degree: 1%
 
    ![](assets/add-perso.png)
 
-1. 콘텐츠가 준비되면 저장한 다음 화살표를 클릭하여 이메일 만들기 화면으로 돌아갑니다.
+1. 콘텐츠가 준비되면 디자인을 저장하고 닫은 다음 **[!UICONTROL 저장]** 전자 메일 만들기 화면으로 돌아갑니다.
 
    ![](assets/save-content.png)
 
@@ -122,6 +121,8 @@ ht-degree: 1%
 
    타겟팅되지 않은 프로필의 동작과 비교하여 이메일 수신자의 동작을 분석하도록 컨트롤 그룹을 설정할 수도 있습니다. [컨트롤 그룹 작업 방법 알아보기](../audience/control-group.md)
 
+   ![](assets/audience-selected.png)
+
 ## 전송을 예약합니다 {#schedule}
 
 >[!CONTEXTUALHELP]
@@ -139,11 +140,11 @@ ht-degree: 1%
 
 전자 메일이 준비되면 전송을 시작하기 전에 미리 보고 테스트할 수 있습니다.
 
-이 사용 사례에서는 이메일을 미리 보고 기존 프로필을 사용하여 증명을 보내려고 합니다.
+이 사용 사례에서는 타겟팅된 프로필 중 일부를 가장하는 동안 이메일을 미리 보고 특정 이메일 주소로 증명을 보내려고 합니다.
 
 전자 메일을 미리 보고 테스트하는 방법에 대한 추가 정보는 [이 섹션](../preview-test/preview-test.md).
 
-1. 클릭 **[!UICONTROL 보낼 검토]**. 구성된 모든 속성, 대상 및 예약과 함께 전자 메일의 미리 보기가 표시됩니다. 수정 단추를 사용하여 이러한 요소를 편집할 수 있습니다.
+1. 클릭 **[!UICONTROL 검토 및 보내기]**. 구성된 모든 속성, 대상 및 예약과 함께 전자 메일의 미리 보기가 표시됩니다. 수정 단추를 사용하여 이러한 요소를 편집할 수 있습니다.
 
 1. 을(를) 클릭합니다. **[!UICONTROL 컨텐츠 시뮬레이션]** 버튼을 클릭하여 이메일을 미리 보고 증명을 보냅니다.
 
@@ -159,21 +160,25 @@ ht-degree: 1%
     >
     >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering-->
 
-1. 전자 메일 증명을 보내려면 **[!UICONTROL 테스트]** 버튼을 클릭한 다음 증명을 받을 프로필을 선택합니다.
+1. 전자 메일 증명을 보내려면 **[!UICONTROL 테스트]** 그런 다음 증명을 보내는 데 사용할 모드를 선택합니다.
 
-   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->
+   이 예제에서는 기본 타겟 모드에서 대체 기능을 사용하려고 합니다. 즉, 게재에서 타겟팅한 프로필 중 일부를 가장하는 동안 특정 이메일 주소로 증명을 보냅니다.
 
-   이 예에서는 대상에 포함되지 않은 시드 주소인 특정 테스트 프로필에 증명을 보내려고 합니다. 에서 시드 주소로 작업하는 방법 알아보기 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
+   ![](assets/proof-mode.png)
+
+1. 주소 추가 를 클릭한 다음 증명을 받을 이메일 주소를 지정합니다.
+
+   각 이메일 주소에 대해 가장 대상의 프로필을 선택합니다. Adobe Campaign에서 타겟에서 임의의 프로필을 선택하도록 할 수도 있습니다.
 
    ![](assets/proof-test-profile.png)
 
-   >[!NOTE]
-   >
-   >타겟팅된 프로필 중 일부를 가장하고 원하는 이메일 주소로 증명 메시지를 보내 메시지를 테스트할 수도 있습니다. [증명을 보내는 방법을 알아봅니다](../preview-test/preview-test.md)
-
 1. 클릭 **[!UICONTROL 테스트 전자 메일 보내기]** 그런 다음 전송을 확인합니다.
 
-   증명을 보내고 나면 **[!UICONTROL 테스트 전자 메일 로그 보기]** 버튼을 클릭합니다.
+   증명을 사용하여 선택한 프로필을 사용하여 지정된 이메일 주소로 보냅니다. **[증명 x]** 접두사를 사용합니다.
+
+   ![](assets/proof-sent.png)
+
+   언제든지 을(를) 클릭하여 보내는 증명을 확인하고 보낸 증명에 액세스할 수 있습니다 **[!UICONTROL 테스트 전자 메일 로그 보기]** 단추 클릭.
 
 ## 이메일 보내기 및 모니터링 {#prepare-send}
 
@@ -183,11 +188,15 @@ ht-degree: 1%
 
    ![](assets/preparation.png)
 
-1. 전자 메일을 보낼 준비가 되면 **[!UICONTROL 보내기]** 그런 다음 전송을 확인합니다.
+1. 전자 메일을 보낼 준비가 되면 **[!UICONTROL 보내기]** 또는 **[!UICONTROL 예약된 대로 보내기]** 그런 다음 전송을 확인합니다.
 
-   통계와 함께 실시간으로 전송을 추적할 수 있습니다. 또한 **[!UICONTROL 로그]** 버튼을 사용하면 전자 메일 전송에 대한 세부 정보에 액세스할 수 있습니다. [게재 로그를 모니터링하는 방법 알아보기](../monitor/delivery-logs.md)
-   ![](assets/logs.png)
+1. 전자 메일 전송이 시작되면 즉시 또는 예약된 날짜에 통계와 함께 이 화면에서 실시간으로 전송을 추적할 수 있습니다.
 
-1. 전자 메일이 전송되면 전용 전자 메일에 액세스할 수 있습니다 [보고서](../reporting/reports.md) 추가 분석 목적으로 사용됩니다.
+   ![](assets/sent-mail.png)
 
+   >[!NOTE]
+   >
+   >또한 **[!UICONTROL 로그]** 버튼을 사용하면 전자 메일 전송에 대한 세부 정보에 액세스할 수 있습니다. [게재 로그를 모니터링하는 방법 알아보기](../monitor/delivery-logs.md)
+
+1. 이메일이 전송되면 추가 분석 목적으로 전용 보고서에 액세스할 수 있습니다. [보고서 작업 방법 알아보기](../reporting/reports.md)
    ![](assets/reports.png)

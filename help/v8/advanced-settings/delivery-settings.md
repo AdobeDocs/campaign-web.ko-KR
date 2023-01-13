@@ -3,16 +3,16 @@ audience: end-user
 title: 전자 메일 게재 설정
 description: Campaign v8 웹 설명서
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: ed814fbb9d3f9daeb725f44a7a1929217d1d48d2
+source-git-commit: bd028d11d9468c0d5752691cb08ebd7a49608374
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1447'
 ht-degree: 14%
 
 ---
 
 # 전자 메일 게재 설정 {#email-del-settings}
 
-![](../assets/do-not-localize/badge.png)
+![알파 버전](../assets/do-not-localize/badge.png)
 
 이러한 설정은 다음과 같습니다 **기술 전달 매개 변수** 이메일 템플릿에 정의된 횟수.
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 이메일 스타일 시작
 description: 이메일 콘텐츠 스타일을 조정할 수 있는 다양한 방법을 알아봅니다
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 00e2f0bad4cb64e2142ad85947fd92ebebc20365
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-에서 이메일 콘텐츠를 만들기 시작하면 [!DNL Journey Optimizer]에서는 전자 메일 디자이너 설정 창에서 여러 스타일 매개 변수와 속성을 조정할 수 있습니다.
+에서 이메일 콘텐츠를 만들기 시작하면 [!DNL Adobe Campaign]에서는 전자 메일 디자이너 설정 창에서 여러 스타일 매개 변수와 속성을 조정할 수 있습니다.
 
 전자 메일 본문, 구조 구성 요소 또는 콘텐츠 구성 요소에 변경 사항을 적용할 수 있습니다.
 

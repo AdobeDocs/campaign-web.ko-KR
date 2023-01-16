@@ -3,9 +3,9 @@ audience: end-user
 title: 게재 로그 모니터링
 description: 게재 로그를 모니터링하는 방법 알아보기
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '294'
 ht-degree: 22%
 
 ---
@@ -45,13 +45,13 @@ ht-degree: 22%
 
 ## 제외
 
-다음 **제외 로그** 탭에는 전송 타겟에서 제외한 모든 메시지가 나열되며, 전송 실패 이유를 설명합니다.
+다음 **제외 로그** 탭에는 타겟에서 제외된 모든 메시지가 나열되며, 전송 실패 이유를 설명합니다.
 
 ![](assets/logs3.png)
 
 ## 제외 원인
 
-다음 **제외 원인** 탭에는 전송 타겟에서 제외된 메시지의 양(메시지의 개수)이 표시됩니다.
+다음 **제외 원인** 탭에는 대상에서 제외된 메시지의 양(메시지의 개수)이 표시됩니다.
 
 ![](assets/logs4.png)
 

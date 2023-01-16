@@ -3,7 +3,7 @@ audience: end-user
 title: 규칙 빌더로 대상 정의
 description: 세그먼트 빌더로 작업하는 방법 알아보기
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 1%
@@ -60,7 +60,7 @@ ht-degree: 1%
 
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
-* **결과 보기:** 대상이 타겟팅한 수신자 목록을 표시합니다
+* **결과 보기:** 대상이 타겟팅한 수신자 목록을 표시합니다.
 * **코드 보기**: sql에서 대상 코드 기반 버전을 표시합니다.
 * **고급 속성 표시**: 왼쪽 팔레트에서 전체 속성 목록을 보려면 이 옵션을 선택합니다. 노드, 그룹화, 1-1 링크, 1-N 링크.
 * **속성**: 만들어진 대상에 대한 설명을 표시합니다.

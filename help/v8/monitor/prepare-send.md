@@ -3,7 +3,7 @@ audience: end-user
 title: 이메일 준비 및 보내기
 description: Campaign Web UI를 사용하여 전자 메일을 준비하고 전송하는 방법을 알아봅니다
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 542d31b8a869628ed93f2729af844753b4e7921c
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 4%
@@ -34,7 +34,7 @@ send also KPIs
 
 ## 보내기 준비{#prepare}
 
-콘텐츠, 대상자 및 일정을 정의하면 메시지를 준비할 수 있습니다. 준비 중에 대상 모집단을 계산하고 대상에 포함된 각 프로필에 대해 생성된 메시지 콘텐츠를 생성합니다. 준비가 완료되면 즉시 또는 예약된 날짜와 시간에 메시지를 보낼 수 있습니다. 분석 중에 사용되는 검증 규칙은 다음과 같습니다 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}.
+콘텐츠, 대상자 및 일정을 정의하면 메시지를 준비할 수 있습니다. 준비 중에 대상 모집단을 계산하고 대상에 포함된 각 프로필에 대해 생성된 메시지 콘텐츠를 생성합니다. 준비가 완료되면 즉시 또는 예약된 날짜와 시간에 메시지를 보낼 수 있습니다. 분석 중에 사용되는 검증 규칙은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}.
 
 아래의 단계를 수행하십시오.
 

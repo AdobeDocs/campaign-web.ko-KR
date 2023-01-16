@@ -3,9 +3,9 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Campaign v8 웹 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1166'
 ht-degree: 1%
 
 ---
@@ -97,6 +97,10 @@ Navtree view depends on permissions (same as console).
 * **캠페인** - 캠페인 목록입니다. 기본적으로 시작/종료/마지막 수정 날짜와 해당 상태를 볼 수 있습니다. 상태 또는 시작/종료 날짜별로 목록을 필터링할 수 있습니다. 캠페인 템플릿도 사용할 수 있습니다. 이 목록은 읽기 전용입니다.
 
 * **게재** - 게재 목록을 살펴봅니다. 기본적으로 상태, 마지막 수정 날짜 및 주요 KPI를 볼 수 있습니다. 상태, 연락 날짜 또는 채널별로 목록을 필터링할 수 있습니다. 이메일 게재 를 클릭하여 해당 대시보드를 열어 게재 세부 사항에 대한 개요를 확인합니다. 다른 채널에서의 게재는 읽기 전용입니다. 게재 템플릿은 읽기 전용 모드에서도 사용할 수 있습니다. 클라이언트 콘솔을 사용하여 편집할 수 있습니다. 다음 보기 [설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+
+   를 사용하십시오 **추가 작업** 버튼을 클릭하여 게재를 삭제하거나 복제합니다.
+
+   ![](assets/more-actions.png){width="70%" align="left"}
 
 ### 고객 관리
 

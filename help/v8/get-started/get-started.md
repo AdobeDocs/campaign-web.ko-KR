@@ -3,7 +3,7 @@ audience: end-user
 title: Campaign v8 웹 시작
 description: Campaign v8 웹 시작
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 10%
@@ -30,7 +30,7 @@ only existing customers
 
 Adobe Campaign은 크로스채널 고객 경험을 디자인할 수 있는 플랫폼과 더불어 시각적 캠페인 오케스트레이션, 실시간 상호 작용 관리, 크로스채널 실행을 위한 환경을 제공합니다.
 
-처음에는 풍부함을 통해서만 사용 가능 [클라이언트 콘솔](#ac-client), 이제 Campaign은 향상된 유용성, 접근성 및 새로운 디자인을 통해 사용자 경험을 크게 향상시킬 수 있는 새로운 웹 사용자 인터페이스를 제공합니다. 이 새로운 최신 UI는 마케팅 캠페인 디자인 및 게재를 단순화하고, Adobe Experience Platform을 포함한 다른 Adobe 솔루션과 일관성을 유지합니다.
+처음에는 부자만 사용 가능 [클라이언트 콘솔](#ac-client), 이제 Campaign은 향상된 유용성, 접근성 및 새로운 디자인을 통해 사용자 경험을 크게 향상시킬 수 있는 새로운 웹 사용자 인터페이스를 제공합니다. 이 새로운 최신 UI는 마케팅 캠페인 디자인 및 게재를 단순화하고, Adobe Experience Platform을 포함한 다른 Adobe 솔루션과 일관성을 유지합니다.
 
 
 ![](assets/home.png)

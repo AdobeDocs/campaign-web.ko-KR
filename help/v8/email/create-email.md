@@ -3,9 +3,9 @@ audience: end-user
 title: 첫 번째 이메일 보내기
 description: Campaign Web UI를 사용하여 첫 번째 전자 메일을 보내는 방법을 배웁니다
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 9f33cd1bfcd32fb79b38d2da0ae88cda462b81c8
+source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1272'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
->title="이메일 디자이너를 사용하여 이메일 콘텐츠를 디자인하는 방법을 알아보십시오."
->abstract="콘텐츠를 디자인하는 방법 알아보기"
+>title="이메일 콘텐츠를 디자인하는 방법 알아보기"
+>abstract="이메일 디자이너를 사용하는 방법을 알아보십시오."
 
 이 사용 사례에서는 사전 정의된 템플릿을 사용하여 이메일을 디자인합니다.
 

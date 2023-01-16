@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
+source-git-commit: 51bd6f405ad151e2264d69c57ffe5e1783077203
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '653'
 ht-degree: 0%
 
 ---
@@ -80,17 +80,17 @@ ht-degree: 0%
 * **[!UICONTROL Adobe Campaign에서 사용]** : &quot;Enabled by Adobe Campaign&quot; 로고를 삽입합니다.
 * **[!UICONTROL 적절한 항목에 대한 서식 지정 함수]** : 는 **[!UICONTROL toSmartCase]** 각 단어의 첫 번째 문자를 대문자로 변경하는 Javascript 함수입니다.
 * **[!UICONTROL 인사말]** : 받는 사람의 이름으로 인사를 삽입합니다. 예: &quot;안녕하세요, 존 도.&quot;
-* **[!UICONTROL 로고 삽입]** : 인스턴스를 구성할 때 정의된 기본 제공 로고를 삽입합니다.
+* **[!UICONTROL 로고 삽입]** : 인스턴스 설정에 정의된 로고를 삽입합니다.
 * **[!UICONTROL 미러 페이지에 대한 링크]** : 미러 페이지에 대한 링크를 삽입합니다. &quot;이 메시지를 올바르게 볼 수 없는 경우 여기를 클릭하십시오.&quot;
 * **[!UICONTROL 미러 페이지 URL]** : 는 미러 페이지 URL을 삽입하여 게재 디자이너가 링크를 확인할 수 있도록 합니다.
-* **[!UICONTROL 단일 모드의 오퍼 수락 URL]** : 는 상호 작용 오퍼를 설정할 수 있도록 하는 URL을 삽입합니다. **[!UICONTROL 수락됨]**.
+* **[!UICONTROL 단일 모드의 오퍼 수락 URL]** : 오퍼를 설정할 수 있는 URL을 삽입합니다. **[!UICONTROL 수락됨]**.
 * **[!UICONTROL 등록 페이지 URL]** : 구독 URL을 삽입합니다.
-* **[!UICONTROL 등록 링크]** : 구독 링크를 삽입합니다. 인스턴스를 구성할 때 이 링크를 정의해야 합니다. 기본 콘텐츠는 다음과 같습니다. &quot;등록하려면 여기를 클릭하십시오.&quot;
-* **[!UICONTROL 등록 링크(레퍼러 포함)]** : 방문자 및 게재를 식별할 수 있도록 구독 링크를 삽입합니다. 인스턴스를 구성할 때 링크가 정의되어 있습니다.
+* **[!UICONTROL 등록 링크]** : 구독 링크를 삽입합니다. 이 링크는 인스턴스 설정에서 정의됩니다. 기본 콘텐츠는 다음과 같습니다. &quot;등록하려면 여기를 클릭하십시오.&quot;
+* **[!UICONTROL 등록 링크(레퍼러 포함)]** : 방문자 및 게재를 식별할 수 있도록 구독 링크를 삽입합니다. 이 링크는 인스턴스 설정에서 정의됩니다.
 * **[!UICONTROL 등록 확인]** : 구독을 확인하는 링크를 삽입합니다.
 * **[!UICONTROL 소셜 네트워크 공유 링크]** : 수신자가 미러 페이지 컨텐츠에 대한 링크를 공유할 수 있는 단추를 삽입합니다.
 * **[!UICONTROL 콘텐츠 이메일 스타일]** 및 **[!UICONTROL 알림 스타일]** : 사전 정의된 HTML 스타일로 전자 메일의 형식을 지정하는 코드를 생성합니다.
-* **[!UICONTROL 구독 취소 링크]** : 모든 게재에서 구독을 취소할 수 있는 링크를 차단 목록 삽입합니다. 연결된 기본 컨텐츠는 다음과 같습니다. &quot;이 메시지를 받는 이유는 `<your rganization name>` 또는 제휴 더 이상 메시지를 받지 않으려면 `<your rganization name>` 여기를 클릭하세요.&quot;
+* **[!UICONTROL 구독 취소 링크]** : 모든 게재에서 구독을 취소할 수 있는 링크를 차단 목록 삽입합니다. 연결된 기본 컨텐츠는 다음과 같습니다. &quot;이 메시지를 받는 이유는 ***조직 이름*** 또는 제휴 더 이상 메시지를 받지 않으려면 ***조직 이름*** 여기를 클릭하세요.&quot;
 
 
 ## 이메일에서 링크 개인화 {#personalize-links}

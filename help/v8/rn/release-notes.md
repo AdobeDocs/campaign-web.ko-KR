@@ -3,7 +3,7 @@ audience: end-user
 title: Campaign Web v8 릴리스 노트
 description: Campaign Web v8 릴리스 노트
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: b021a693277ba61a580e1fcaa8ec287f0dbeadb9
+source-git-commit: 0f7775d2c079c7d7c228249d81d9cba8e0d9619c
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 **현대적이고 직관적이며 통합된 경험**
 
-Campaign 새 웹 UI는 모든 Adobe Experience Cloud 솔루션과 앱과 연계되어 새로운 사용자 경험을 제공합니다. 오퍼는 다음과 같습니다.
+Campaign 새 웹 UI는 모든 Adobe Experience Cloud 솔루션 및 앱에 맞게 조정된 새로운 사용자 경험을 제공합니다. 오퍼는 다음과 같습니다.
 
 * 단일 및 공유 사용자 세션을 통해 새로운 인터페이스 및 기타 Adobe 솔루션에 대한 액세스
 * 왼쪽 레일에서 사용할 수 있는 모든 메뉴와 폴더가 포함된 새로운 탐색 경험

@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign Web v8 릴리스 노트
 description: Campaign Web v8 릴리스 노트
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: a06e695f9e2942112c2e8d516d26cef8903ca5ff
+source-git-commit: b021a693277ba61a580e1fcaa8ec287f0dbeadb9
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -55,9 +55,9 @@ add info somewhere to remind users that
 
 ## 용어 업데이트
 
-기존 Campaign 사용자로서 일부 개념은 업계에서 최신 용어 표준에 맞게 이름이 변경되었습니다. 이러한 변경 사항은 웹 UI에만 적용되며 클라이언트 콘솔에 반영되지 않습니다. 요약되어 있습니다.
+기존 Campaign 사용자로서 일부 개념은 최신 용어 표준에 맞게 이름이 변경되었습니다. 이러한 변경 사항은 Campaign Web UI에만 적용되며 클라이언트 콘솔에 반영되지 않습니다. 요약되어 있습니다.
 
-* 이제 증명 **이메일 테스트**. 증명을 보내려면 **테스트** 이메일 게재 UI의 단추
+* 이제 증명 **이메일 테스트**: 증명을 보내려면 **테스트** 이메일 배달 UI에 있는 단추. 이제 증명 타겟의 대상을 **테스트 프로필**
 * 이제 게재 분석입니다 **게재 준비**. 분석을 실행해야 하는 경우 **준비** 버튼
 * 이제 이메일 미리 보기를 **컨텐츠 시뮬레이션** 버튼
 * 이제 목록이 표시됩니다. **대상**

@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 0d74cababf2b4d66d3b2ce9b0ae2a0f00cb1cdef
+source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -67,17 +67,49 @@ ht-degree: 0%
 
    ![](assets/perso-rendering.png)
 
+전자 메일에 콘텐츠 블록을 추가하려면 동일한 단계를 적용하고 마지막 아이콘에서 콘텐츠 블록을 선택합니다.
+
+![](assets/perso-insert-block.png)
+
+콘텐츠 블록이 삽입되면 아래와 같이 이메일 콘텐츠에 추가됩니다. 게재 준비 단계에서 개인화가 생성되면 수신자 프로필에 자동으로 조정됩니다.
+
+![](assets/perso-content-block-in-email.png)
+
+
+내장 콘텐츠 블록은 다음과 같습니다.
+* **[!UICONTROL Adobe Campaign에서 사용]** : &quot;Enabled by Adobe Campaign&quot; 로고를 삽입합니다.
+* **[!UICONTROL 적절한 항목에 대한 서식 지정 함수]** : 는 **[!UICONTROL toSmartCase]** 각 단어의 첫 번째 문자를 대문자로 변경하는 Javascript 함수입니다.
+* **[!UICONTROL 인사말]** : 받는 사람의 이름으로 인사를 삽입합니다. 예: &quot;안녕하세요, 존 도.&quot;
+* **[!UICONTROL 로고 삽입]** : 인스턴스를 구성할 때 정의된 기본 제공 로고를 삽입합니다.
+* **[!UICONTROL 미러 페이지에 대한 링크]** : 미러 페이지에 대한 링크를 삽입합니다. &quot;이 메시지를 올바르게 볼 수 없는 경우 여기를 클릭하십시오.&quot;
+* **[!UICONTROL 미러 페이지 URL]** : 는 미러 페이지 URL을 삽입하여 게재 디자이너가 링크를 확인할 수 있도록 합니다.
+* **[!UICONTROL 단일 모드의 오퍼 수락 URL]** : 는 상호 작용 오퍼를 설정할 수 있도록 하는 URL을 삽입합니다. **[!UICONTROL 수락됨]**.
+* **[!UICONTROL 등록 페이지 URL]** : 구독 URL을 삽입합니다.
+* **[!UICONTROL 등록 링크]** : 구독 링크를 삽입합니다. 인스턴스를 구성할 때 이 링크를 정의해야 합니다. 기본 콘텐츠는 다음과 같습니다. &quot;등록하려면 여기를 클릭하십시오.&quot;
+* **[!UICONTROL 등록 링크(레퍼러 포함)]** : 방문자 및 게재를 식별할 수 있도록 구독 링크를 삽입합니다. 인스턴스를 구성할 때 링크가 정의되어 있습니다.
+* **[!UICONTROL 등록 확인]** : 구독을 확인하는 링크를 삽입합니다.
+* **[!UICONTROL 소셜 네트워크 공유 링크]** : 수신자가 미러 페이지 컨텐츠에 대한 링크를 공유할 수 있는 단추를 삽입합니다.
+* **[!UICONTROL 콘텐츠 이메일 스타일]** 및 **[!UICONTROL 알림 스타일]** : 사전 정의된 HTML 스타일로 전자 메일의 형식을 지정하는 코드를 생성합니다.
+* **[!UICONTROL 구독 취소 링크]** : 모든 게재에서 구독을 취소할 수 있는 링크를 차단 목록 삽입합니다. 연결된 기본 컨텐츠는 다음과 같습니다. &quot;이 메시지를 받는 이유는 `<your rganization name>` 또는 제휴 더 이상 메시지를 받지 않으려면 `<your rganization name>` 여기를 클릭하세요.&quot;
+
 
 ## 이메일에서 링크 개인화 {#personalize-links}
 
 개인화하려면 **링크**:
 
 1. 텍스트 블록 또는 이미지를 선택합니다.
-1. 상황별 도구 모음에서 를 선택합니다 **개인화 추가**.
+1. 상황별 도구 모음에서 를 선택합니다 **링크 삽입**.
 
    ![](assets/perso-link.png)
 
-1. 개인화 편집기를 사용하여 링크를 정의하고 개인화합니다.
+1. 링크 레이블을 입력하고 **링크 삽입** 링크를 개인화하는 단추입니다.
+
+   ![](assets/perso-link-insert-icon.png)
+
+1. 개인화 편집기를 사용하여 링크를 정의 및 개인화하고 확인합니다.
+
+   ![](assets/perso-link-edit.png)
+
 
 ## 오퍼 개인화 {#personalize-offers}
 

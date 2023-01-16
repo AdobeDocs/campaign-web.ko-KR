@@ -3,9 +3,9 @@ audience: end-user
 title: 이메일 콘텐츠 편집
 description: Campaign Web UI에서 이메일 컨텐츠를 편집하는 방법을 배웁니다
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,8 @@ ht-degree: 0%
    * [콘텐츠 스타일 지정](get-started-email-style.md)
 
 1. 전자 메일에 파일을 첨부하려면 **[!UICONTROL 첨부 파일 추가]** 그런 다음 하나 이상의 파일을 선택합니다.
+
+   성능 문제를 방지하려면 이메일당 두 개 이상의 첨부 파일을 포함하지 않는 것이 좋습니다.
 
    <!--limitation on size + number of files?-->
 

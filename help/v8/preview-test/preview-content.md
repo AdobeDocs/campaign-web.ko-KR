@@ -3,9 +3,9 @@ audience: end-user
 title: 이메일 콘텐츠 미리 보기
 description: Campaign Web UI를 사용하여 이메일 컨텐츠를 미리 보는 방법을 배웁니다
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Adobe Campaign을 사용하면 전자 메일 콘텐츠를 전송하기 전에 �
 
 1. 전자 메일 콘텐츠 만들기 화면에 액세스하고 **[!UICONTROL 컨텐츠 시뮬레이션]** 버튼을 클릭합니다.
 
+   ![](assets/simulate.png)
+
 1. 을(를) 클릭하여 하나 또는 여러 프로필을 선택합니다 **[!UICONTROL 프로필 선택]** 버튼을 클릭한 다음 **[!UICONTROL 테스트 프로필]** 및 **[!UICONTROL 프로필]** 선택할 탭.
 
    테스트 프로필과 프로필을 모두 결합하여 이메일을 미리 볼 수 있습니다.
@@ -40,6 +42,10 @@ Adobe Campaign을 사용하면 전자 메일 콘텐츠를 전송하기 전에 �
 
    여러 개의 프로필을 추가한 경우 목록에서 프로필을 전환하여 해당 이메일을 미리 볼 수 있습니다.
 
-   오른쪽 상단 모서리에서 전용 아이콘을 클릭하여 다양한 장치(데스크탑, 모바일, 태블릿)에서 콘텐츠 렌더링을 미리 볼 수도 있습니다.
+   >[!NOTE]
+   >
+   >오른쪽 상단 모서리에서 전용 아이콘을 클릭하여 다양한 장치(데스크탑, 모바일, 태블릿)에서 콘텐츠 렌더링을 미리 볼 수 있습니다.
 
    ![](assets/preview.png)
+
+

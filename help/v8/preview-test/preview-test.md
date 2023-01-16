@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: 미리 보기 및 증명 정보
-description: 메시지를 미리 보고 증명을 보내는 방법을 알아봅니다
+title: 미리 보기 및 테스트 기본 정보
+description: 메시지를 미리 보고 이메일을 테스트하는 방법을 알아봅니다
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
-# 미리 보기 및 증명 정보 {#about-preview-proofs}
+# 이메일 미리 보기 및 테스트 기본 정보 {#about-preview-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 * [이메일 콘텐츠 및 개인화 미리 보기](#preview),
 
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
-* [증명 보내기](#send-proofs) 테스트 및 유효성 검사를 위해 특정 수신자에게 메시지를 보냅니다.
+* [테스트 전자 메일 보내기](#send-proofs) 테스트 및 유효성 검사를 위해 특정 수신자에게 메시지를 보냅니다.
 
 이러한 작업은 **[!UICONTROL 컨텐츠 시뮬레이션]** 이메일 디자이너에서 전자 메일 콘텐츠를 만들 때 액세스할 수 있는 단추:
 

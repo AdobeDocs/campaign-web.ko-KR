@@ -3,9 +3,9 @@ keywords: Campaign Web;home;popular topics
 description: Campaign Web v8 도움말 센터
 title: Adobe Campaign Web v8 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: e9afb17fc06de45d0557301b1d3e5a205f23836d
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '120'
 ht-degree: 9%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 9%
 <img alt="유효성 검사" src="assets/do-not-localize/email-config.jpg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>증명 테스트 및 보내기</strong></a>
+<a href="preview-test/proofs.md"><strong>이메일 미리 보기 및 테스트</strong></a>
 </div>
 <p>
 </td>

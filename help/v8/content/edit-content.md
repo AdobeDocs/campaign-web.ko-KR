@@ -3,9 +3,9 @@ audience: end-user
 title: 이메일 콘텐츠 편집
 description: Campaign Web UI에서 이메일 컨텐츠를 편집하는 방법을 배웁니다
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
+source-git-commit: 27dacb863699538c770054805ed3a5f6fa74fa84
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ ht-degree: 0%
 
 1. 이메일 정의 **[!UICONTROL 제목 줄]**. 이렇게 하려면 제목을 전용 필드에 직접 입력하거나 표현식 편집기를 열어 다양한 속성 및 콘텐츠 블록 또는 오퍼를 사용하여 개인화를 추가할 수 있습니다. [콘텐츠를 개인화하는 방법 알아보기](../personalization/personalize.md)
 
-1. 이메일에 오퍼를 보내려면 **[!UICONTROL 오퍼]** 버튼을 클릭합니다. 그러면 개인화 필드를 사용하여 이메일에 삽입할 수 있습니다. [오퍼 전송 방법 알아보기](offers.md)
+1. 이메일에 오퍼를 보내려면 **[!UICONTROL 오퍼 설정]** 버튼을 클릭합니다. 그러면 개인화 필드를 사용하여 이메일에 삽입할 수 있습니다. [오퍼 전송 방법 알아보기](offers.md)
 
-1. 을(를) 클릭합니다. **[!UICONTROL 이메일 디자이너]** 전자 메일 콘텐츠를 구성하고 디자인하는 단추입니다. 전자 메일 콘텐츠를 디자인하는 방법에 대한 추가 정보는 다음 섹션에서 사용할 수 있습니다.
+1. 을(를) 클릭합니다. **[!UICONTROL 이메일 본문 편집]** 전자 메일 콘텐츠를 구성하고 디자인하는 단추입니다. 전자 메일 콘텐츠를 디자인하는 방법에 대한 추가 정보는 다음 섹션에서 사용할 수 있습니다.
 
    * [이메일 디자인 방법 알아보기](create-email-content.md)
    * [콘텐츠 스타일 지정](get-started-email-style.md)
@@ -64,5 +64,3 @@ ht-degree: 0%
 1. 기본적으로 게재에 대해 추적이 활성화됩니다. 에서 이 옵션을 비활성화할 수 있습니다. **[!UICONTROL 옵션 기능]** 섹션을 참조하십시오. [링크 추가 및 추적 관리 방법 알아보기](message-tracking.md)
 
 전자 메일 콘텐츠가 정의되면 **[!UICONTROL 컨텐츠 시뮬레이션]** 단추를 클릭하여 보내기 전에 표시되는 방식을 확인합니다. [이메일을 미리 보고 테스트하는 방법을 알아봅니다](../preview-test/preview-test.md)
-
-<!-- show screenshot showing an email fully configured + highlight the simulate content button-->

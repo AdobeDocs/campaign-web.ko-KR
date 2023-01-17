@@ -3,9 +3,9 @@ audience: end-user
 title: 이메일 콘텐츠 미리 보기
 description: Campaign Web UI를 사용하여 이메일 컨텐츠를 미리 보는 방법을 배웁니다
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -21,18 +21,16 @@ ht-degree: 0%
 
 Adobe Campaign을 사용하면 전자 메일 콘텐츠를 전송하기 전에 미리 보고 개인화를 확인하고 수신자에게 표시되는 방식을 확인할 수 있습니다.
 
-다음 아이콘을 사용하여 이메일을 미리 볼 수 있습니다.
-
-* **테스트 프로필**: 데이터베이스에서 추가 및 가상 수신자인 시드 주소를 사용하여 전자 메일을 미리 봅니다.
-* **프로필**: 기존 프로필을 사용하여 이메일을 미리 봅니다.
-
 전자 메일 콘텐츠를 미리 보려면 다음 단계를 수행합니다.
 
 1. 전자 메일 콘텐츠 만들기 화면에 액세스하고 **[!UICONTROL 컨텐츠 시뮬레이션]** 버튼을 클릭합니다.
 
    ![](assets/simulate.png)
 
-1. 을(를) 클릭하여 하나 또는 여러 프로필을 선택합니다 **[!UICONTROL 프로필 선택]** 버튼을 클릭한 다음 **[!UICONTROL 테스트 프로필]** 및 **[!UICONTROL 프로필]** 선택할 탭.
+1. 을(를) 클릭하여 하나 또는 여러 프로필을 선택합니다 **[!UICONTROL 프로필 선택]** 버튼을 클릭한 다음 **[!UICONTROL 테스트 프로필]** 및 **[!UICONTROL 프로필]** 탭 중에서 선택할 수 있습니다.
+
+   * 다음 **테스트 프로필** 탭에는 데이터베이스에서 추가 및 가상 수신자인 시드 주소가 포함되어 있습니다. Adobe Campaign 콘솔에서 을(를) 통해 만들 수 있습니다. **[!UICONTROL 리소스]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL 시드 주소]** 폴더를 입력합니다.
+   * 다음 **프로필** 탭에는 **[!UICONTROL 프로필 및 Target]** 폴더 아래에 표시됩니다.
 
    테스트 프로필과 프로필을 모두 결합하여 이메일을 미리 볼 수 있습니다.
 

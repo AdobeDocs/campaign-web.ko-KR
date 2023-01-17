@@ -3,9 +3,9 @@ audience: end-user
 title: 테스트 이메일 보내기
 description: 테스트 이메일을 정의하고 보내는 방법을 알아봅니다
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '540'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 테스트 이메일은 두 가지 유형의 수신자에게 보낼 수 있습니다.
 
-* **테스트 프로필**: 시드 주소로 테스트 이메일을 보내십시오. 시드 주소는 데이터베이스에서 추가 및 가상 수신자입니다.
+* **테스트 프로필**: 데이터베이스에서 추가 및 가상 수신자인 시드 주소로 테스트 이메일을 보냅니다. Adobe Campaign 콘솔에서 을(를) 통해 만들 수 있습니다. **[!UICONTROL 리소스]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL 시드 주소]** 폴더를 입력합니다.
 
 * **기본 대상에서 대체**: 기존 프로필을 가장하는 동안 특정 이메일 주소로 테스트 이메일을 보냅니다. 이를 통해 수신자와 마찬가지로 이메일을 경험하게 되므로 프로필에서 받게 될 메시지의 정확한 모습을 확인할 수 있습니다.
 

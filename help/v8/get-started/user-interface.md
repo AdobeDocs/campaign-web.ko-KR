@@ -3,9 +3,9 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Campaign v8 웹 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: b203d1e2adb1b41cdc4adf398934707f6093b317
+source-git-commit: e8226b571986d099dcf0277c4ef2f3076ea1592d
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1301'
 ht-degree: 1%
 
 ---
@@ -182,7 +182,7 @@ Campaign v8 Web은 최신 버전의 Google Chrome, Safari 및 Microsoft Edge에�
 
 ## 언어 환경 설정 {#language-pref}
 
-사용자 인터페이스는 현재 다음 언어로 제공됩니다.
+Campaign v8 Web은 현재 다음 언어로 사용할 수 있습니다.
 
 * 영어(미국) - 미국
 * 프랑스어 - FR
@@ -199,10 +199,16 @@ Campaign v8 Web은 최신 버전의 Google Chrome, Safari 및 Microsoft Edge에�
 
 언어를 변경하려면 다음을 수행하십시오.
 
-* 클릭 **기본 설정** 오른쪽 상단에 있는 아바타에서
-   ![](assets/preferences.png)
-* 그런 다음 이메일 주소 아래에 표시되는 언어를 클릭합니다
-* 기본 언어를 선택하고 을(를) 클릭합니다 **저장**. 사용 중인 구성 요소가 첫 번째 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
+1. 오른쪽 상단에서 프로필 아이콘을 클릭한 다음 을 선택합니다 **기본 설정**.
+
+   ![](assets/preferences.png){width="70%" align="left"}
+
+1. 그런 다음 이메일 주소 아래에 표시되는 언어를 클릭합니다.
+
+   ![](assets/preferences2.png)
+
+1. 기본 언어를 선택하고 을(를) 클릭합니다 **저장**. 사용 중인 구성 요소가 첫 번째 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
+
    ![](assets/select-language.png)
 
 <!--

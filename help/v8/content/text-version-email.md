@@ -3,9 +3,9 @@ audience: end-user
 title: 이메일의 텍스트 버전 만들기
 description: 이메일의 텍스트 버전을 만드는 방법을 알아봅니다
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -38,5 +38,5 @@ HTML 콘텐츠를 표시할 수 없을 때 사용되는 이메일 본문의 텍�
 >
 >* 의 변경 사항 **[!UICONTROL 일반 텍스트]** 보기는 HTML 보기에 반영되지 않습니다.
 >
->* 를 다시 활성화하면 **[!UICONTROL HTML과 동기화]** 일반 텍스트 컨텐츠를 업데이트하면 변경 사항이 유실되고 HTML 버전에서 생성된 텍스트 컨텐츠로 바뀝니다.
+>* 를 다시 활성화하면 **[!UICONTROL HTML과 동기화]** 일반 텍스트 컨텐츠를 업데이트하면 변경 사항이 유실되고 HTML 버전에서 생성된 텍스트 컨텐츠로 교체됩니다.
 

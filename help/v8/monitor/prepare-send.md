@@ -3,9 +3,9 @@ audience: end-user
 title: 이메일 준비 및 보내기
 description: Campaign Web UI를 사용하여 전자 메일을 준비하고 전송하는 방법을 알아봅니다
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '546'
 ht-degree: 4%
 
 ---
@@ -92,6 +92,6 @@ send also KPIs
 
    >[!NOTE]
    >
-   >다음 **열기** 및 **클릭 수** 지표 는 5분 후에 업데이트됩니다.
+   >다음 **열기** 및 **클릭 수** 표시기는 5분 후에 업데이트됩니다.
 
    언제든지 전송을 일시 중지한 다음 다시 시작할 수 있습니다. 전송 중에 게재를 중지하면 다시 시작할 수 없습니다.

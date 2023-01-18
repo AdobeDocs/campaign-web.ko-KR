@@ -3,9 +3,9 @@ audience: end-user
 title: 메시지 추적
 description: 링크를 추가하고 보낸 메시지를 추적하는 방법을 알아봅니다
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '548'
 ht-degree: 1%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 1%
 >
 >테스트 프로필로 보낸 테스트 이메일에서 미러 페이지에 대한 링크가 활성화되지 않습니다. 최종 메시지에서만 활성화됩니다.
 
-미러 페이지의 보존 기간은 60일입니다. 이후 미러 페이지는 더 이상 사용할 수 없습니다.
+미러 페이지의 보존 기간은 60일입니다. 이후 미러 페이지를 더 이상 사용할 수 없습니다.
 
 ## 추적 관리 {#manage-tracking}
 

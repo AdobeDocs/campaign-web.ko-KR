@@ -3,9 +3,9 @@ audience: end-user
 title: 이메일 콘텐츠 편집
 description: Campaign Web UI에서 이메일 컨텐츠를 편집하는 방법을 배웁니다
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 27dacb863699538c770054805ed3a5f6fa74fa84
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 1. 이메일 정의 **[!UICONTROL 제목 줄]**. 이렇게 하려면 제목을 전용 필드에 직접 입력하거나 표현식 편집기를 열어 다양한 속성 및 콘텐츠 블록 또는 오퍼를 사용하여 개인화를 추가할 수 있습니다. [콘텐츠를 개인화하는 방법 알아보기](../personalization/personalize.md)
 
-1. 이메일에 오퍼를 보내려면 **[!UICONTROL 오퍼 설정]** 버튼을 클릭합니다. 그러면 개인화 필드를 사용하여 이메일에 삽입할 수 있습니다. [오퍼 전송 방법 알아보기](offers.md)
+1. 이메일에 오퍼를 보내려면 **[!UICONTROL 오퍼 설정]** 버튼을 클릭합니다. 그런 다음 개인화 필드를 사용하여 이메일에 삽입할 수 있습니다. [오퍼 전송 방법 알아보기](offers.md)
 
 1. 을(를) 클릭합니다. **[!UICONTROL 이메일 본문 편집]** 전자 메일 콘텐츠를 구성하고 디자인하는 단추입니다. 전자 메일 콘텐츠를 디자인하는 방법에 대한 추가 정보는 다음 섹션에서 사용할 수 있습니다.
 

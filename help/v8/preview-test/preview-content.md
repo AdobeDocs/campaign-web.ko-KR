@@ -3,9 +3,9 @@ audience: end-user
 title: 이메일 콘텐츠 미리 보기
 description: Campaign Web UI를 사용하여 이메일 컨텐츠를 미리 보는 방법을 배웁니다
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="컨텐츠의 스마트 미리 보기"
->abstract="Adobe Campaign을 사용하면 프로필을 사용하여 개인화를 확인하고 수신자에게 표시되는 방법을 확인하기 위해 보내기 전에 전자 메일 콘텐츠를 미리 볼 수 있습니다."
+>abstract="Adobe Campaign을 사용하면 프로필을 사용하여 보내기 전에 전자 메일 콘텐츠를 미리 보고, 개인화를 확인하고, 수신자에게 표시되는 방식을 확인할 수 있습니다."
 
-Adobe Campaign을 사용하면 전자 메일 콘텐츠를 전송하기 전에 미리 보고 개인화를 확인하고 수신자에게 표시되는 방식을 확인할 수 있습니다.
+Adobe Campaign을 사용하면 전자 메일을 보내기 전에 전자 메일 콘텐츠를 미리 보고, 개인화를 확인하고, 수신자에게 표시되는 방법을 볼 수 있습니다.
 
 전자 메일 콘텐츠를 미리 보려면 다음 단계를 수행합니다.
 

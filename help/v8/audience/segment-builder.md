@@ -3,9 +3,9 @@ audience: end-user
 title: 규칙 빌더로 대상 정의
 description: 세그먼트 빌더로 작업하는 방법 알아보기
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '545'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 1%
 
 ## 캔버스
 
-캔버스는 팔레트에서 추가한 요소를 기반으로 규칙을 구성하고 결합할 수 있는 중앙 영역입니다. 새 규칙을 추가하려면 팔레트에서 타일을 캔버스에 끌어다 놓습니다. 추가된 데이터의 유형에 따라 컨텍스트별 선택 사항이 표시됩니다.
+캔버스는 팔레트에서 추가한 요소를 기반으로 규칙을 구성하고 결합할 수 있는 중앙 영역입니다. 새 규칙을 추가하려면 팔레트에서 타일을 캔버스에 끌어다 놓습니다. 그런 다음 추가되는 데이터의 유형에 따라 컨텍스트별 옵션을 제공할 수 있습니다.
 
 ![](assets/segment-builder4.png){width="70%" align="left"}
 

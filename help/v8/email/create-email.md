@@ -3,9 +3,9 @@ audience: end-user
 title: 첫 번째 이메일 보내기
 description: Campaign Web UI를 사용하여 첫 번째 전자 메일을 보내는 방법을 배웁니다
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1244'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-이 사용 사례에서 첫 번째 타겟팅된 이메일을 만드는 방법을 알아봅니다. 은 및 골드 충성도 고객에게 특정 날짜에 전자 메일 전송을 예약합니다.
+첫 번째 타겟팅된 이메일을 만드는 방법을 알아봅니다. 이 사용 사례에서는 특정 날짜에 실버 및 골드 충성도 멤버에게 이메일을 보내도록 예약합니다.
 
-사전 정의된 디자인 템플릿을 사용하면 고객 프로필 속성을 기반으로 개인화된 컨텐츠도 이메일에 제공합니다.
+사전 정의된 디자인 템플릿을 기반으로 하여 고객 프로필 속성을 기반으로 개인화된 컨텐츠도 제공합니다.
 
 ![](assets/delivery-list.png)
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
 >title="이메일 템플릿 선택"
->abstract="템플릿은 Adobe Campaign v8 콘솔에서 정의됩니다. 유형화 규칙, 개인화 또는 라우팅 매개 변수와 같은 사전 정의된 매개 변수를 포함하는 특정 게재 구성입니다."
+>abstract="이메일 템플릿은 유형화 규칙, 개인화 또는 라우팅 매개 변수와 같은 사전 정의된 설정을 포함하는 특정 게재 구성입니다. 템플릿은 Campaign 클라이언트 콘솔에서 정의됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
@@ -67,11 +67,11 @@ ht-degree: 0%
 
 이 사용 사례에서는 사전 정의된 템플릿을 사용하여 이메일을 디자인합니다.
 
-사전 정의된 템플릿을 사용하여 이메일을 디자인하려고 합니다. 전자 메일 콘텐츠 구성에 대한 자세한 지침은 [이 섹션](../content/edit-content.md).
+전자 메일 콘텐츠를 구성하는 방법에 대한 자세한 지침은 [이 섹션](../content/edit-content.md).
 
 1. 전자 메일 콘텐츠 만들기를 시작하려면 **[!UICONTROL 컨텐츠 편집]** 버튼을 클릭합니다.
 
-   이렇게 하면 이메일 콘텐츠를 구성하고 이메일 디자이너를 사용하여 디자인할 수 있는 전용 인터페이스로 이동합니다.
+   이메일 콘텐츠를 구성하고 이메일 디자이너를 사용하여 디자인할 수 있는 전용 인터페이스로 이동합니다.
 
    ![](assets/edit-content.png)
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="대상자 정의"
->abstract="마케팅 메시지에 가장 적합한 대상을 선택합니다. Campaign v8 인스턴스 또는 Adobe Experience Platform에서 이미 정의된 기존 대상을 선택하거나, 규칙 빌더로 새 대상을 만들도록 선택할 수 있습니다."
+>abstract="마케팅 메시지에 가장 적합한 대상을 선택합니다. Campaign v8 인스턴스나 Adobe Experience Platform에서 이미 정의된 기존 대상을 선택하거나, 규칙 빌더로 새 대상을 만들 수 있습니다."
 
 이 사용 사례에서는 기존 대상자에게 이메일을 보냅니다. 대상 사용 방법에 대한 추가 지침은 [이 섹션](../audience/about-audiences.md).
 
@@ -118,7 +118,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >목록에서 사용할 수 있는 대상은 Campaign V8 인스턴스나 대상/소스 통합이 인스턴스에 구성된 경우 Adobe Experience Platform에서 가져옵니다.
+   >목록에서 사용할 수 있는 대상은 Campaign v8 인스턴스나 대상/소스 통합이 인스턴스에 구성된 경우 Adobe Experience Platform에서 가져옵니다.
    >
    >대상/소스 통합을 사용하면 Experience Platform 세그먼트를 Adobe Campaign에 보내고, 캠페인 게재 및 추적 로그를 Adobe Experience Platform에 보낼 수 있습니다. [Campaign과 Adobe Experience Platform을 함께 사용하는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
@@ -133,7 +133,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
 >title="전송을 예약합니다"
->abstract="보내는 날짜와 시간을 정의합니다. 마케팅 메시지에 가장 적합한 시간을 선택하면 공개 비율을 최대화할 수 있습니다."
+>abstract="보내는 날짜와 시간을 정의합니다. 마케팅 메시지에 가장 적합한 시간을 선택하여 오픈율을 극대화할 수 있습니다."
 
 전자 메일 전송을 예약하려면 를 클릭합니다. **[!UICONTROL 활성화]** 원하는 전송 날짜 및 시간을 설정합니다.
 
@@ -151,13 +151,13 @@ ht-degree: 0%
 
 1. 전자 메일을 검토하고 보내려면 **[!UICONTROL 검토 및 보내기]**. 구성된 모든 속성, 대상 및 일정과 함께 이메일 미리 보기가 표시됩니다. 수정 단추를 클릭하여 이러한 요소를 편집할 수 있습니다.
 
-1. 이메일을 미리 보고 테스트 버전을 보내려면 **[!UICONTROL 컨텐츠 시뮬레이션]** 버튼을 클릭합니다. 그러면 미리 보기 인터페이스가 열립니다.
+1. 이메일을 미리 보고 테스트 버전을 보내려면 **[!UICONTROL 컨텐츠 시뮬레이션]** 버튼을 클릭합니다.
 
    ![](assets/review-email.png)
 
 1. 왼쪽에서 이메일을 미리 보는 데 사용할 프로필을 선택합니다.
 
-   오른쪽 창에는 선택한 프로필에 따라 전자 메일 미리 보기가 표시됩니다. 여러 개의 프로필을 추가한 경우 프로필 간을 전환하여 해당 이메일을 미리 볼 수 있습니다.
+   오른쪽 창에는 선택한 프로필을 기반으로 전자 메일의 미리 보기가 표시됩니다. 여러 개의 프로필을 추가한 경우 프로필 간을 전환하여 해당 이메일을 미리 볼 수 있습니다.
 
    ![](assets/preview.png)
 

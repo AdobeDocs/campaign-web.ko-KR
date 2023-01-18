@@ -3,9 +3,9 @@ audience: end-user
 title: 전자 메일 게재 설정
 description: Campaign Web UI의 이메일 게재 설정에 대해 자세히 알아보십시오
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1471'
 ht-degree: 14%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 14%
 * **수신자에 따라 다릅니다.**
 * **각 규칙에 정의됨**
 
-를 사용하십시오 **게재 중량** 필드를 사용하여 배달 우선순위를 정의합니다. 각 게재에는 우선 순위 수준을 나타내는 가중치가 있습니다. 기본적으로 게재 가중치는 5로 설정됩니다. 압력 규칙을 사용하여 게재에 적용할 게재 가중치를 정의할 수 있습니다.가중치는 수신자에 맞는 공식을 통해 설정하거나 계산할 수 있습니다. 예를 들어 수신자 관심사에 따라 게재 가중치를 정의할 수 있습니다.
+를 사용하십시오 **게재 중량** 필드를 사용하여 배달 우선순위를 정의합니다. 각 게재에는 우선 순위 수준을 나타내는 가중치가 있습니다. 기본적으로 게재 가중치는 5로 설정됩니다. 압력 규칙을 사용하여 적용되는 게재의 가중치를 정의할 수 있습니다. 가중치는 수신자에 맞게 수식을 통해 설정하거나 계산할 수 있습니다. 예를 들어 수신자 관심사에 따라 게재 가중치를 정의할 수 있습니다.
 
 
 를 사용하십시오 **게재 모드** 대상 평가 모드를 선택하는 필드입니다. 다음 세 가지 모드를 사용할 수 있습니다.
@@ -101,7 +101,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_retries"
 >title="최대 재시도 수"
->abstract="일시적인 오류로 인해 메시지가 실패하면 게재 기간 동안 다시 시도됩니다."
+>abstract="일시적인 오류로 인해 메시지가 실패하면 게재 기간이 끝날 때까지 다시 시도됩니다."
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 

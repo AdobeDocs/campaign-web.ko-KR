@@ -3,9 +3,9 @@ audience: end-user
 title: 이메일 디자이너에서 이메일 디자인
 description: 이메일 콘텐츠를 처음부터 디자인하는 방법 알아보기
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 1. 프로필 데이터의 이메일 콘텐츠를 사용자 지정하는 개인화 필드를 삽입합니다. [콘텐츠 개인화에 대해 자세히 알아보기](../personalization/personalize.md)
 
-1. 을(를) 클릭합니다. **[!UICONTROL 링크]** 탭을 클릭하여 추적할 컨텐츠의 모든 URL을 표시합니다. 수정 가능 **[!UICONTROL 추적 유형]** 또는 **[!UICONTROL 레이블]** 및 추가 **[!UICONTROL 카테고리]** 필요한 경우 [링크 및 메시지 추적에 대해 자세히 알아보기](message-tracking.md)
+1. 을(를) 클릭합니다. **[!UICONTROL 링크]** 탭을 클릭하여 추적해야 하는 컨텐츠의 모든 URL을 표시합니다. 수정 가능 **[!UICONTROL 추적 유형]** 또는 **[!UICONTROL 레이블]** 및 추가 **[!UICONTROL 카테고리]** 필요한 경우 [링크 및 메시지 추적에 대해 자세히 알아보기](message-tracking.md)
 
    ![](assets/email_designer_7.png)
 

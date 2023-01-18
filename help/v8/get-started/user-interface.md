@@ -3,10 +3,10 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Campaign v8 웹 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: df114a97c80b4ad1fc1fff9f7f34ec42df84c835
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 1%
+source-wordcount: '1282'
+ht-degree: 2%
 
 ---
 
@@ -152,16 +152,6 @@ Navtree view depends on permissions (same as console).
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## 상황별 도움말 및 온보딩 안내서
-
-인터페이스에서 상황별 도움말을 사용할 수 있습니다. 사용 가능한 경우 **?** 아이콘 을 클릭하여 도움말 정보 및 관련 설명서 링크를 표시합니다.
-
-![](assets/context-help.png){width="70%" align="left"}
-
-Campaign v8 웹을 시작하는 데 도움이 되는 온보딩 안내서도 제공됩니다. 오른쪽 아래 모서리에 있는 아이콘을 클릭하고, 사용 가능한 단계별 시나리오 중 하나를 선택한 다음, 지침을 따르십시오.
-
-![](assets/onboarding.png){width="70%" align="left"}
-
 ## 목록 화면 구성 {#list-screens}
 
 예를 들어 왼쪽 탐색 메뉴의 몇 가지 링크 **게재** 또는 **캠페인**, 객체 목록을 표시합니다. 이러한 목록 화면은 이메일 게재 목록을 제외하고 읽기 전용입니다.
@@ -175,6 +165,43 @@ Campaign v8 웹을 시작하는 데 도움이 되는 온보딩 안내서도 제�
 ![](assets/columns.png){width="70%" align="left"}
 
 열 헤더를 클릭하여 목록에서 항목을 정렬할 수 있습니다. 목록이 해당 열에 정렬되었음을 나타내는 화살표가 표시됩니다(위쪽 또는 아래쪽). 숫자 또는 날짜 열의 경우 위쪽 화살표는 목록이 오름차순으로 정렬되었음을 나타내고, 아래쪽 화살표는 내림차순을 나타냅니다. 문자열 또는 영숫자 열의 경우 값은 알파벳 순서로 나열됩니다.
+
+## 상황별 도움말 및 온보딩 안내서
+
+인터페이스에서 상황별 도움말을 사용할 수 있습니다. 사용 가능한 경우 **?** 아이콘 을 클릭하여 도움말 정보 및 관련 설명서 링크를 표시합니다.
+
+![](assets/context-help.png){width="70%" align="left"}
+
+Campaign v8 웹을 시작하는 데 도움이 되는 온보딩 안내서도 제공됩니다. 오른쪽 아래 모서리에 있는 아이콘을 클릭하고, 사용 가능한 단계별 시나리오 중 하나를 선택한 다음, 지침을 따르십시오.
+
+![](assets/onboarding.png){width="70%" align="left"}
+
+## 지원되는 브라우저 {#browsers}
+
+Campaign v8 Web은 최신 버전의 Google Chrome, Safari 및 Microsoft Edge에서 최적으로 작동하도록 설계되었습니다. 이전 버전 또는 다른 브라우저에서 특정 기능을 사용하는 데 문제가 있을 수 있습니다.
+
+## 언어 환경 설정 {#language-pref}
+
+사용자 인터페이스는 현재 다음 언어로 제공됩니다.
+
+* 영어
+* 프랑스어
+* 독일어
+* 이탈리아어
+* 스페인어
+* 포르투갈어(브라질)
+* 일본어
+* 한국어
+
+기본 인터페이스 언어는 사용자 프로필에 지정된 기본 언어로 결정됩니다.
+
+언어를 변경하려면 다음을 수행하십시오.
+
+* 클릭 **기본 설정** 오른쪽 상단에 있는 아바타에서
+   ![](assets/preferences.png)
+* 그런 다음 이메일 주소 아래에 표시되는 언어를 클릭합니다
+* 기본 언어를 선택하고 을(를) 클릭합니다 **저장**. 사용 중인 구성 요소가 첫 번째 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
+   ![](assets/select-language.png)
 
 <!--
 ## Supported browsers {#browsers}

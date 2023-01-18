@@ -3,7 +3,7 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Campaign v8 웹 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e8226b571986d099dcf0277c4ef2f3076ea1592d
+source-git-commit: a911bdca4bc83b770ff1c4537c3fc06a5b43026f
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 1%
@@ -184,16 +184,50 @@ Campaign v8 Web은 최신 버전의 Google Chrome, Safari 및 Microsoft Edge에�
 
 Campaign v8 Web은 현재 다음 언어로 사용할 수 있습니다.
 
-* 영어(미국) - 미국
-* 프랑스어 - FR
-* 독일어 - DE
-* 이탈리아어 - IT
-* 스페인어 - ES
-* 포르투갈어(브라질) - PTBR
-* 일본어 - JP
-* 한국어 - KR
-* 중국어 간체 - CHS
-* 중국어 번체 - CHT
+<table>
+<tr>
+<td>
+<p>영어(미국) - 미국</p>
+</td>
+<td>
+<p>스페인어 - ES</p>
+</td>
+<td>
+<p>한국어 - KR</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>프랑스어 - FR</p>
+</td>
+<td>
+<p>포르투갈어(브라질) - PTBR</p>
+</td>
+<td>
+<p>중국어 간체 - CHS</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>독일어 - DE</p>
+</td>
+<td>
+<p>일본어 - JP</p>
+</td>
+<td>
+<p>중국어 번체 - CHT</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>이탈리아어 - IT</p>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</table>
 
 기본 인터페이스 언어는 사용자 프로필에 지정된 기본 언어로 결정됩니다.
 

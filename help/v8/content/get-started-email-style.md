@@ -1,28 +1,22 @@
 ---
 audience: end-user
-title: 이메일 스타일 시작
-description: 이메일 콘텐츠 스타일을 조정할 수 있는 다양한 방법을 알아봅니다
+title: Get started with email style
+description: Discover the different ways you can adjust your email content style
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-source-git-commit: 00e2f0bad4cb64e2142ad85947fd92ebebc20365
-workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 0%
-
 ---
-
-# 이메일 스타일 시작 {#get-started-email-style}
+# Get started with email style {#get-started-email-style}
 
 ![](../assets/do-not-localize/badge.png)
 
-에서 이메일 콘텐츠를 만들기 시작하면 [!DNL Adobe Campaign]에서는 전자 메일 디자이너 설정 창에서 여러 스타일 매개 변수와 속성을 조정할 수 있습니다.
+Once you started creating your email content in [!DNL Adobe Campaign], you can adjust a number of styling parameters and attributes from the Email Designer settings pane.
 
-전자 메일 본문, 구조 구성 요소 또는 콘텐츠 구성 요소에 변경 사항을 적용할 수 있습니다.
+You can either apply your changes to the email body, to a structure component or to a content component.
 
 ![](assets/email_designer_content_components_settings.png)
 
-아래 링크를 따라 이메일에서 일부 스타일 설정을 조정하는 방법을 알아보십시오.
+Follow the links below to discover how to adjust some of the style settings in your email.
 
-* 방법 알아보기 [이메일 배경 개인화](backgrounds.md)
-* 방법 알아보기 [수직 정렬 및 패딩 관리](alignment-and-padding.md)
-* 방법 알아보기 [이메일에 있는 링크에 대한 스타일을 정의합니다.](styling-links.md)
-* 방법 알아보기 [인라인 스타일 속성 사용자 지정](inline-styling.md)
+* Learn how to [personalize your email background](backgrounds.md)
+* Learn how to [manage vertical alignment and padding](alignment-and-padding.md)
+* Learn how to [define a style for the links in your email](styling-links.md)
+* Learn how to [customize inline styling attributes](inline-styling.md)

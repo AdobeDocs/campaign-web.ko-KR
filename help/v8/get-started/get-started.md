@@ -1,16 +1,10 @@
 ---
 audience: end-user
-title: Campaign v8 웹 시작
-description: Campaign v8 웹 시작
+title: Get started with Campaign v8 Web
+description: Get started with Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
-workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 10%
-
 ---
-
-# Campaign v8 웹 시작 {#get-started}
+# Get started with Campaign v8 Web {#get-started}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -21,44 +15,44 @@ only existing customers
 -->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
->title="시작"
->abstract="주요 기능, 사용자 인터페이스 및 글로벌 지침을 살펴보십시오."
+>title="Get started"
+>abstract="Discover key capabilities, user interface and global guidelines."
 
 >[!NOTE]
 >
->Campaign v8 Web이 현재 알파 버전에 있습니다. 액세스는 작은 알파 고객 집합으로 제한됩니다. 제품 인터페이스, 기능 및 사용 흐름은 예고 없이 변경될 수 있습니다.
+>Campaign v8 Web is currently in Alpha version. Access is restricted to a small set of Alpha customers. Please be aware that product interface, capabilities and usage flows can change without notice.
 
-Adobe Campaign은 크로스채널 고객 경험을 디자인할 수 있는 플랫폼과 더불어 시각적 캠페인 오케스트레이션, 실시간 상호 작용 관리, 크로스채널 실행을 위한 환경을 제공합니다.
+Adobe Campaign provides a platform for designing cross-channel customer experiences and an environment for visual campaign orchestration, real-time interaction management and cross channel execution.
 
-처음에는 부자만 사용 가능 [클라이언트 콘솔](#ac-client), 이제 Campaign은 향상된 유용성, 접근성 및 새로운 디자인을 통해 사용자 경험을 크게 향상시킬 수 있는 새로운 웹 사용자 인터페이스를 제공합니다. 이 새로운 최신 UI는 마케팅 캠페인 디자인 및 게재를 단순화하고, Adobe Experience Platform을 포함한 다른 Adobe 솔루션과 일관성을 유지합니다.
+Initially only available through a rich [client console](#ac-client), Campaign now provides a new web user interface with enhanced usability, accessibility, and a new design to significantly improve your user experience. This new modern UI simplifies marketing campaign design and delivery, and brings consistency, along with other Adobe solutions, including Adobe Experience Platform.
 
 
 ![](assets/home.png)
 
-이 새 UI는 먼저 **비즈니스 담당자** - 일반적인 모든 관리 작업은 이 첫 번째 버전에서는 사용할 수 없지만 다음 버전에서는 해결될 예정입니다. 현재는 새 UI에서 클라이언트 콘솔에서 사용할 수 있는 모든 단일 기능이나 옵션을 사용할 수 없습니다. 새로운 사용 사례, 옵션 및 기능은 향후 릴리스에서 제공될 예정입니다.
+This new UI first serves the needs of the **business practitioner** – all typical administration tasks are not available in this first version, but will be addressed in subsequent versions. Note that not every single functionality or option available in the client console is available for now in the new UI. New use-cases, options and features will be available in future releases.
 
-웹 UI에서 사용할 수 없는 Campaign v8 기능에 액세스해야 하는 경우 [클라이언트 콘솔](#ac-client).
+If you need to access Campaign v8 capabilities which are not available in the web UI, you can use the [client console](#ac-client). 
 
-## Campaign 클라이언트 콘솔 기본 정보{#ac-client}
+## About Campaign client console{#ac-client}
 
-Campaign 클라이언트 콘솔은 시스템에 설치된 브라우저 기반 애플리케이션입니다. 웹 서비스 API를 사용하여 Campaign 애플리케이션 서버에 연결합니다.
+The Campaign client console is a browser-based application which is installed on your system. It uses the web services API to connect to your Campaign application server.
 
-에서 클라이언트 콘솔을 다운로드 및 설치하는 방법을 알아봅니다. [이 섹션](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html){target="_blank"}.
+Learn how to download and install the client console in [this section](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html){target="_blank"}.
 
-Campaign v8 사용 방법에 대한 자세한 내용은 [설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ko){target="_blank"}.
+For more information on how to use Campaign v8, refer to the [documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html){target="_blank"}.
 
-Campaign 데이터는 애플리케이션 서버에 저장됩니다. 데이터는 클라이언트 콘솔과 웹 UI에서 모두 사용할 수 있습니다. 예를 들어 클라이언트 콘솔을 사용하여 게재 템플릿을 만드는 경우 웹 UI에서도 사용할 수 있습니다. 또한 웹 UI에서 이메일 배달을 만드는 경우 클라이언트 콘솔에서 이 게재에도 액세스할 수 있습니다.
+Campaign data is stored in the application server. Data is available both from the client console and from the web UI. For example, if you create a delivery template using the client console, it is also available in the web UI. And if you create an email delivery in the web UI, this delivery is also accessible from the client console.
 
-## Campaign에 연결
+## Connect to Campaign
 
 
-1. 연결 대상 [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
-1. Adobe 자격 증명으로 로그인합니다.
-1. 에서 **빠른 액세스** 섹션을 클릭합니다. **캠페인**.
-   ![](assets/connect.png)
+1. Connect to [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
+1. Log in with your Adobe credentials.
+1. In the **Quick access** section, click **Campaign**.
+    ![](assets/connect.png)
 
-1. 다음 페이지에서 **Launch** Campaign 인스턴스의 버튼입니다.
-이제 Campaign에 연결됩니다. 에서 사용자 인터페이스 사용을 시작하는 방법을 알아봅니다. [이 페이지](user-interface.md).
+1. In the next page, click the **Launch** button of your Campaign instance.
+    You are now connected to Campaign. Learn how to start using the user interface in [this page](user-interface.md).
 
 <!--
 -> experience cloud home: "Campaign" -> home campaign v8

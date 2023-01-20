@@ -1,91 +1,85 @@
 ---
 audience: end-user
-title: 오퍼 보내기
-description: 오퍼 보내기
+title: Send offers
+description: Send offers
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 0%
-
 ---
-
-# 오퍼 보내기 {#offers-content}
+# Send offers {#offers-content}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
->title="오퍼 설정"
+>title="Offers settings"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
->title="고급 설정 제공"
+>title="Offers Advanced Settings"
 >abstract="TBC"
 
-Adobe Campaign v8 웹을 사용하면 콘솔에서 만든 이메일 오퍼와 함께 **[!UICONTROL 상호 작용]** 모듈. 상호 작용 및 콘솔에서 오퍼 카탈로그를 관리하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+Adobe Campaign v8 Web allows you to send with your emails offers that have been created in the console using the **[!UICONTROL Interaction]** module. For more information on Interaction and how to manage an offer catalog in the console, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
-이메일을 사용하여 오퍼를 전송하는 단계는 다음과 같습니다.
+The steps to send offers with an email are as follows:
 
-1. [제안할 오퍼 구성](#configure),
-1. [이메일에 오퍼를 삽입합니다](#insert).
+1. [Configure the offers to propose](#configure),
+1. [Insert the offers into the email](#insert).
 
-## 제안할 오퍼 구성 {#configure}
+## Configure the offers to propose {#configure}
 
-1. 이메일에서 제안할 오퍼를 선택하려면 **[!UICONTROL 오퍼]** 이메일 콘텐츠 편집 화면의 단추.
+1. To select the offers to propose in your email, click the **[!UICONTROL Offers]** button from the email content edition screen.
 
-   ![](assets/setup-offers.png)
+    ![](assets/setup-offers.png)
 
-1. 수신자에게 제안할 오퍼를 구성합니다. 먼저 을(를) 선택합니다 **[!UICONTROL 오퍼 공간]** 오퍼 환경과 일치합니다.
+1. Configure which offers should be proposed to the recipients. First select the **[!UICONTROL Offer space]** that matches your offer environment.
 
-   ![](assets/create-content-offers.png)
+    ![](assets/create-content-offers.png)
 
-1. 엔진의 오퍼 선택 사항을 세분화하려면 특정 오퍼를 선택합니다 **[!UICONTROL 오퍼 카테고리]** 오퍼가 정렬되는 위치.
+1. To refine the engine's choice of offers, select a specific **[!UICONTROL Offer category]** in which offers are sorted.
 
-   카테고리를 지정하지 않으면, **[!UICONTROL 오퍼 테마]** 이 선택되어 있습니다.
+    If no category is specified, all the offers contained in the environment are taken into account by the Offer engine, unless an **[!UICONTROL Offer theme]** is selected.
 
-   >[!NOTE]
-   >
-   >테마는 카테고리에서 업스트림으로 정의된 주요 단어입니다. 오퍼는 필터 역할을 하며 카테고리 집합에서 오퍼를 선택하여 표시할 오퍼 수를 구체화할 수 있습니다.
+    >[!NOTE]
+    >
+    >Themes are key words defined upstream in the categories. They act as a filter and let you refine the number of offers to be presented by selecting them in a set of categories. 
 
-1. 를 사용하십시오 **[!UICONTROL Proposition]** 필드에 전자 메일에 삽입할 오퍼 수를 지정합니다.
+1. Use the **[!UICONTROL Propositions]** field to specify the number of offers you want to insert into the email.
 
-1. 을(를) 선택합니다 **[!UICONTROL 자격이 없는 수신자 제외]** 필요한 경우 옵션을 선택합니다.
+1. Select the **[!UICONTROL Exclude non-eligible recipients]** option if necessary.
 
-   이 옵션을 사용하면 적합한 오퍼가 충분하지 않은 수신자의 제외를 활성화하거나 비활성화할 수 있습니다.
+    This option lets you activate or deactivate the exclusion of recipients for whom there are not enough eligible offers.
+    
+    * If the option is enabled, recipients who do not have enough propositions are excluded from the delivery.
+    * If the option is disabled, these recipients are not excluded but they cannot have the requested number of propositions.
 
-   * 이 옵션이 활성화되면 적절한 위치가 없는 수신자는 게재에서 제외됩니다.
-   * 이 옵션을 비활성화하면 이러한 수신자는 제외되지 않지만 요청된 제안 수를 가질 수 없습니다.
+1. If necessary, select the **[!UICONTROL Hide everything if no offer is selected]** option.
 
-1. 필요한 경우 **[!UICONTROL 오퍼를 선택하지 않은 경우 모든 것을 숨깁니다]** 선택 사항입니다.
+    This option lets you choose how the message is processed in case one of the propositions does not exist.
+    
+    * If the option is enabled, the representation of the missing proposition is not displayed and no content appears in the message for this proposition.
+    * If the option is disabled, the message itself is cancelled during sending and recipients can no longer receive any messages.
 
-   이 옵션을 사용하면 프로필 중 하나가 없는 경우 메시지가 처리되는 방식을 선택할 수 있습니다.
+Once you have configured the offers to propose into your email, you can insert them into the email using the Expression Editor. [Learn how to insert offers into the email](#insert)
 
-   * 옵션을 활성화하면 누락된 제안 표현이 표시되지 않고 이 제안에 대한 메시지에 콘텐츠가 표시되지 않습니다.
-   * 이 옵션을 비활성화하면 전송 중에 메시지 자체가 취소되고 수신자는 더 이상 메시지를 받을 수 없습니다.
+## Insert offers into the email {#insert}
 
-전자 메일에 오퍼를 제안하도록 구성한 후에는 표현식 편집기를 사용하여 전자 메일에 오퍼를 삽입할 수 있습니다. [이메일에 오퍼를 삽입하는 방법을 알아봅니다](#insert)
+Offers can be added into the email using the Expression Editor. They can be inserted either:
 
-## 이메일에 오퍼 삽입 {#insert}
-
-표현식 편집기를 사용하여 오퍼를 이메일에 추가할 수 있습니다. 다음 중 하나를 삽입할 수 있습니다.
-
-* 이메일 제목 줄에서,
-* 모든 컨텐츠 구성 요소에서 개인화를 허용하여 이메일 본문에 있는 경우를 설명합니다. [콘텐츠 구성 요소를 추가하는 방법을 알아봅니다](content-components.md)
+* In the email subject line,
+* In the email body by allowing personalization in any content component. [Learn how to add content components](content-components.md)
 
 >[!NOTE]
 >
->오퍼를 삽입하기 전에 [이메일을 사용하여 제안할 오퍼를 구성했습니다](#configure).
+>Before inserting an offer, make sure you have [configured which offers to propose with the email](#configure).
 
-표현식 편집기를 사용하여 오퍼를 삽입하려면 다음 단계를 수행합니다.
+To insert an offer using the Expression Editor, follow these steps:
 
-1. 표현식 편집기를 열고 **[!UICONTROL Proposition]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+1. Open the Expression Editor, then select the **[!UICONTROL Propositions]** menu.
 
-   사용 가능한 프로필이 목록에 표시됩니다. 제안할 오퍼를 구성할 때 제안 수가 정의됩니다.
+    Available propositions display in the list. The number of propositions is defined when configuring the offers to propose.
 
-   ![](assets/offer-insertion.png)
+    ![](assets/offer-insertion.png)
 
-1. 각 제안을 위해 사용할 수 있는 개인화 필드, 렌더링 기능 또는 오퍼 속성을 사용하여 이메일 주체 또는 본문에 제안을 추가합니다.
+1. Add the propositions into the email subject or body using the personalization fields, rendering functions or offer attributes available for each proposition.
 
-   ![](assets/offer-inserted.png)
+    ![](assets/offer-inserted.png)

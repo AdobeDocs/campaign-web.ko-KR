@@ -1,49 +1,43 @@
 ---
 audience: end-user
-title: 이메일 콘텐츠 미리 보기
-description: Campaign Web UI를 사용하여 이메일 컨텐츠를 미리 보는 방법을 배웁니다
+title: Preview email content
+description: Learn how to preview your email content with Campaign Web UI
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 0%
-
 ---
-
-# 이메일 콘텐츠 미리 보기 {#preview}
+# Preview email content {#preview}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
->title="컨텐츠의 스마트 미리 보기"
->abstract="Adobe Campaign을 사용하면 프로필을 사용하여 보내기 전에 전자 메일 콘텐츠를 미리 보고, 개인화를 확인하고, 수신자에게 표시되는 방식을 확인할 수 있습니다."
+>title="Smart preview of your content"
+>abstract="Adobe Campaign lets you use profiles to preview the content of your email before sending, check personalization and how your recipients will see it."
 
-Adobe Campaign을 사용하면 전자 메일을 보내기 전에 전자 메일 콘텐츠를 미리 보고, 개인화를 확인하고, 수신자에게 표시되는 방법을 볼 수 있습니다.
+Adobe Campaign allows you to preview the content of your email before sending it, to check personalization, and how it is displayed to your recipients.
 
-전자 메일 콘텐츠를 미리 보려면 다음 단계를 수행합니다.
+To preview the content of your email, follow these steps:
 
-1. 전자 메일 콘텐츠 만들기 화면에 액세스하고 **[!UICONTROL 컨텐츠 시뮬레이션]** 버튼을 클릭합니다.
+1. Access the email content creation screen and click the **[!UICONTROL Simulate content]** button.
 
-   ![](assets/simulate.png)
+    ![](assets/simulate.png)
 
-1. 을(를) 클릭하여 하나 또는 여러 프로필을 선택합니다 **[!UICONTROL 프로필 선택]** 버튼을 클릭한 다음 **[!UICONTROL 테스트 프로필]** 및 **[!UICONTROL 프로필]** 탭 중에서 선택할 수 있습니다.
+1. Select one or multiple profiles by clicking the **[!UICONTROL Select profile(s)]** button, then use the **[!UICONTROL Test profiles]** and **[!UICONTROL Profiles]** tabs to choose from:
 
-   * 다음 **테스트 프로필** 탭에는 데이터베이스에서 추가 및 가상 수신자인 시드 주소가 포함되어 있습니다. Adobe Campaign 콘솔에서 을(를) 통해 만들 수 있습니다. **[!UICONTROL 리소스]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL 시드 주소]** 폴더를 입력합니다.
-   * 다음 **프로필** 탭에는 **[!UICONTROL 프로필 및 Target]** 폴더 아래에 표시됩니다.
+    * The **Test profiles** tab contains seed addresses, which are additional and fictitious recipients in the database. They can be created in Adobe Campaign console into the **[!UICONTROL Resources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** folder.
+    * The **Profiles** tab lists all the recipients stored into the **[!UICONTROL Profiles and Targets]** folder from the Campaign console.
 
-   테스트 프로필과 프로필을 모두 결합하여 이메일을 미리 볼 수 있습니다.
+    You can combine both test profiles and profiles to preview your email.
 
-   ![](assets/preview-profile.png)
+    ![](assets/preview-profile.png)
 
-1. 프로필을 선택하면 오른쪽 창에 이메일 미리 보기가 표시됩니다. 개인화된 요소는 왼쪽 창에서 선택한 프로필의 데이터로 대체됩니다.
+1. Once profiles have been selected, a preview of the email is displayed in the right pane. Personalized elements are replaced by the data from the profile selected in the left pane.
 
-   여러 개의 프로필을 추가한 경우 목록에서 프로필을 전환하여 해당 이메일을 미리 볼 수 있습니다.
+    If you have added multiple profiles, you can switch between them in the list to preview the corresponding email.
 
-   >[!NOTE]
-   >
-   >오른쪽 상단 모서리에서 전용 아이콘을 클릭하여 다양한 장치(데스크탑, 모바일, 태블릿)에서 콘텐츠 렌더링을 미리 볼 수 있습니다.
+    >[!NOTE]
+    >
+    >You can preview the rendering of your content on different devices (desktop, mobile, tablet), by clicking the dedicated icon in the top right corner.
 
-   ![](assets/preview.png)
+    ![](assets/preview.png)
 
 

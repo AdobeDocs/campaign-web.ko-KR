@@ -1,72 +1,66 @@
 ---
 audience: end-user
-title: 게재 로그 모니터링
-description: 게재 로그를 모니터링하는 방법 알아보기
+title: Monitor delivery logs
+description: Learn how to monitor delivery logs
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
-workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 22%
-
 ---
-
-# 게재 로그 모니터링 {#delivery-logs}
+# Monitor delivery logs {#delivery-logs}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
->title="게재 로그"
+>title="Delivery logs"
 >abstract="TBC"
 
-이메일을 준비하고 전송한 후 게재 로그를 사용하여 오류가 없음을 확인할 수 있습니다. 메시지 대시보드에서 로그에 직접 액세스할 수 있습니다. 여기에는 전송 세부 사항과 제외된 타겟 및 그 이유와 함께 오픈과 클릭 등의 추적 정보가 표시됩니다.
+After preparing and sending an email, the delivery logs allow you to verify that there is no error. These logs can be accessed directly from the message dashboard. They show the detail of the sending, which target has been excluded and why, as well as the tracking information such as opens and clicks.
 
-로그를 보려면 게재 대시보드에 액세스하고 **로그** 버튼을 클릭합니다.
+To view the logs, access your delivery dashboard and click the **Logs** button.
 
-몇 가지 탭을 사용할 수 있습니다.
+Several tabs are available:
 
-## 로그
+## Logs
 
-다음 **로그** 탭에는 게재 및 증명과 관련된 모든 메시지가 포함되어 있습니다. 특정 아이콘을 통해 오류나 경고를 확인할 수 있습니다.
+The **Logs** tab contains all messages relating to the delivery and the proofs. Specific icons allow you to identify errors or warnings. 
 
-모든 유효성 검사 단계, 경고 및 오류가 나열됩니다. 색상 아이콘은 메시지 유형을 보여줍니다.
+All the validation steps, warnings and errors are listed. Colored icons show the message type:
 
-* 회색 아이콘은 유용한 메시지를 나타냅니다.
-* 노란색 아이콘은 중요하지 않은 처리 오류를 나타냅니다.
-* 빨간색 아이콘은 게재를 보낼 수 없는 중요한 오류를 나타냅니다.
+* The grey icon indicates an informative message.
+* The yellow icon indicates a non-critical processing error.
+* The red icon indicates a critical error that prevents sending the delivery. 
 
 ![](assets/logs.png)
 
-## 게재
+## Deliveries
 
-다음 **전송 로그** 탭에는 이 게재의 모든 발생 내역이 표시됩니다. 보낸 메시지 및 상태 목록이 여기에 저장됩니다. 여기에서 각 수신자에 대한 게재 상태를 볼 수 있습니다.
+The **Sending logs** tab offers a history of every occurrence of this delivery. The list of sent messages and their statuses is stored here. It allows you to view the delivery status for each recipient.
 
 ![](assets/logs2.png)
 
-## 제외
+## Exclusions
 
-다음 **제외 로그** 탭에는 타겟에서 제외된 모든 메시지가 나열되며, 전송 실패 이유를 설명합니다.
+The **Exclusion logs** tab lists all the messages that have been excluded from the target and specifies the reason for the send failure.
 
 ![](assets/logs3.png)
 
-## 제외 원인
+## Exclusion causes
 
-다음 **제외 원인** 탭에는 대상에서 제외된 메시지의 양(메시지의 개수)이 표시됩니다.
+The **Exclusion causes** tab displays the volume (in number of messages) of messages that were excluded from the target.
 
 ![](assets/logs4.png)
 
-## 추적된 URL
+## Tracked URLs
 
-다음 **추적된 URL** 탭에는 전송 메시지에 포함된 URL(해당 URL 유형 및 소스 URL 포함)이 다시 그룹화됩니다.
+The **Tracked URLs** tab regroups the URLs contained in the sent message, including their URL type and their source URL.
 
 ![](assets/logs5.png)
 
-## 추적
+## Tracking
 
-다음 **추적** 탭에는 이 게재의 추적 기록이 나열됩니다. 이 탭에는 Adobe Campaign에서 추적하는 모든 URL과 같은 전송된 메시지에 대한 추적 데이터가 표시됩니다.
+The **Tracking** tab lists the tracking history for this delivery. This tab displays tracking data for the messages sent, i.e. all URLs subject to tracking by Adobe Campaign.
 
 >[!NOTE]
 >
->게재에 대해 추적이 활성화되어 있지 않으면 이 탭이 표시되지 않습니다.
+>If tracking is not enabled for a delivery, this tab is not displayed.
 
 ![](assets/logs6.png)

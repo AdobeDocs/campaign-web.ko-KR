@@ -1,190 +1,184 @@
 ---
 audience: end-user
-title: 전자 메일 게재 설정
-description: Campaign Web UI의 이메일 게재 설정에 대해 자세히 알아보십시오
+title: Email Delivery Settings
+description: Learn more about email delivery settings in Campaign Web UI
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 14%
-
 ---
+# Email delivery settings {#email-del-settings}
 
-# 전자 메일 게재 설정 {#email-del-settings}
+![Alpha version](../assets/do-not-localize/badge.png)
 
-![알파 버전](../assets/do-not-localize/badge.png)
+These settings are **technical delivery parameters** that are defined in the email template. They are available from the **Configure delivery settings** icon available when editing an email delivery.
 
-이러한 설정은 다음과 같습니다 **기술 전달 매개 변수** 이메일 템플릿에 정의된 횟수. 이 기능은 **게재 설정 구성** 이메일 게재를 편집할 때 사용할 수 있는 아이콘.
-
-## 전자 메일 게재 설정 {#email-delivery-settings}
+## Email delivery settings {#email-delivery-settings}
 
 >[!CAUTION]
 >
-> 이러한 설정은 사용자 정보에만 설명되어 있습니다. 일부는 구성 및 권한에 따라 다릅니다. 이 버전의 제품에서 수정하면 안 됩니다.
+> These settings are described for your information only. Some of them depend on your configuration and permissions. They must not be modified in this version of the product. 
 
-## 유형화 {#typology}
+## Typology {#typology}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
->title="유형화"
->abstract="유형화를 통해 게재 전송을 제어, 필터링 및 모니터링할 수 있습니다."
+>title="Typology"
+>abstract="Typology lets you control, filter and monitor the sending of deliveries."
 
-유형화는 메시지 분석 단계 동안 실행되는 **유형화 규칙** 세트입니다. 이메일에 항상 특정 요소(예: 구독 취소 링크 또는 제목 줄)가 포함되어 있는지 확인하거나 그룹을 의도한 타겟(구독 취소자, 경쟁 업체 또는 비충성 고객)에서 제외하는 필터링 규칙이 있는지 확인할 수 있습니다.
+Typologies are sets of **typology rules**, that are executed during the message analysis phase. They allow you to make sure your emails always contain certain elements (such as an unsubscription link or a subject line) or filtering rules to exclude groups from your intended target (like unsubscribers, competitors, or non-loyalty customers).
 
-유형화를 메시지 또는 메시지 템플릿과 연결하면 유형화에 포함된 유형화 규칙을 실행하여 메시지를 준비하는 동안 메시지의 유효성을 확인합니다.
+When associating a typology with a message or message template, the typology rules included in the typology are executed to check the message validity during message preparation.
 
 ![](assets/delivery-settings-1.png)
 
 
-### 압력 매개변수 {#pressure-parameters}
+### Pressure parameters {#pressure-parameters}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_weight"
->title="게재 가중치"
->abstract="게재 가중치를 사용하면 압력 관리 프레임워크 내에서 우선 순위가 가장 높은 게재를 식별할 수 있습니다. 가중치가 가장 높은 메시지는 우선 순위가 있습니다."
+>title="Delivery weight"
+>abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
 
-이 섹션에서 압력 매개 변수를 사용하여 **임계값**. 일정 기간 동안 하나의 프로필에 보낼 수 있는 최대 메시지 수입니다. 이 임계값에 도달하면, 고려된 기간이 끝날 때까지 더 이상 게재할 수 없습니다. 이 프로세스를 사용하면 메시지가 설정된 임계값을 초과하는 경우 게재 시 프로필을 자동으로 제외하여 과도한 요청을 방지할 수 있습니다.
+In this section, pressure parameters let you define a **threshold**. This is the maximum number of messages that can be sent to one profile over a given period. Once this threshold has been reached, no more deliveries can take place until the end of the period considered. This process lets you automatically exclude a profile from a delivery if a message exceeds the set threshold, thus avoiding over-solicitation.
 
-임계값은 상수 또는 변수일 수 있습니다. 즉, 특정 기간 동안 임계값은 프로필마다 또는 심지어 동일한 프로필에 대해서도 다를 수 있습니다.
+Threshold values can be either constant or variable. This means that for a given period, thresholds can vary from one profile to another, or even for the same profile.
 
-에서 **가중치 유형** 필드, 다음 세 가지 옵션을 사용할 수 있습니다.
+In the **Weight type** field, three options are available:
 
-* **영구**
-* **수신자에 따라 다릅니다.**
-* **각 규칙에 정의됨**
+* **Constant**
+* **Depends on the recipient**
+* **Defined in each rule**
 
-를 사용하십시오 **게재 중량** 필드를 사용하여 배달 우선순위를 정의합니다. 각 게재에는 우선 순위 수준을 나타내는 가중치가 있습니다. 기본적으로 게재 가중치는 5로 설정됩니다. 압력 규칙을 사용하여 적용되는 게재의 가중치를 정의할 수 있습니다. 가중치는 수신자에 맞게 수식을 통해 설정하거나 계산할 수 있습니다. 예를 들어 수신자 관심사에 따라 게재 가중치를 정의할 수 있습니다.
+Use the **Delivery weight** field to define the delivery priority. Each delivery has a weight which represents its level of priority. By default, the weight of a delivery is set to 5. Pressure rules let you define the weight of the deliveries which they are applied to. Weights can be either set or calculated via a formula to suit recipients. For example, you can define the weight of a delivery based on recipient interests.
 
 
-를 사용하십시오 **게재 모드** 대상 평가 모드를 선택하는 필드입니다. 다음 세 가지 모드를 사용할 수 있습니다.
+Use the **Delivery mode** field to select the target evaluation mode. Three modes are available:
 
-* **대상 예상 및 메시지 개인화**
-* **잠정 대상의 예상 및 승인**
-* **대상 평가**
+* **Target estimation and message personalization**
+* **Estimation and approval of the provisional target**
+* **Target evaluation**
 
-피로도 관리는 **캠페인 최적화** 추가 기능. 압력 규칙 및 의 피로 관리를 구성하는 방법에 대해 자세히 알아보십시오 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ko){target="_blank"}.
+Fatigue management comes with the **Campaign Optimization** add-on. Learn more about pressure rules and how to configure fatigue management in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
 
-### 수용작업량 설정 {#capacity-settings}
+### Capacity settings {#capacity-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_recipient_importance"
->title="수신자의 중요도"
->abstract="수신자의 중요성은 용량 유형화 규칙을 초과할 때 유지되는 수신자를 결정하는 데 사용되는 공식입니다."
+>title="Importance of the recipient"
+>abstract="The importance of the recipient is a formula used to determine which recipients are kept when the capacity typology rules are exceeded."
 
-이 섹션에서는 Adobe Campaign v8 콘솔에 정의된 용량 규칙을 선택할 수 있습니다. 이 규칙은 이메일 채널과 연결됩니다.
+In this section, you can select a capacity rule defined in the Adobe Campaign v8 Console. This rule is associated to the email channel.
 
-다음 **수신자의 중요성** 필드는 용량 유형화 규칙을 초과할 때 유지되는 수신자를 결정하는 데 사용되는 공식입니다.
+The **importance of the recipient** field is a formula used to determine which recipients are kept when the capacity typology rules are exceeded.
 
-일관성 및 용량 규칙 및 구성 방법에 대해 자세히 알아보기 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
-
-
-## 대상자 {#audience}
-
-이 섹션에서 **대상 매핑** 그 중에서 Target 매핑은 Adobe Campaign v8 콘솔에서 정의됩니다.
-
-에서 타겟 매핑에 대해 자세히 알아보십시오 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
-
-## 게재 {#delivery}
-
-게재 매개 변수는 게재에 적용되는 기술 설정입니다.
-
-* **라우팅**: 통합 전자 메일 라우팅 외부 계정은 기본적으로 제공됩니다. 애플리케이션이 전자 메일을 보낼 수 있는 기술 매개 변수가 포함되어 있습니다.
-
-* **SMTP 배달 테스트**: 이 옵션은 SMTP를 통한 전송을 테스트하는 데 사용됩니다. 게재는 SMTP 서버에 대한 연결까지 처리되지만 전송되지 않습니다: 게재를 받는 모든 사람에 대해 Campaign은 SMTP 공급자 서버에 연결하고 SMTP RCPT TO 명령을 실행하고 SMTP DATA 명령 전에 연결을 닫습니다.
-
-* **이메일 BCC**: 이 옵션은 메시지 타겟에 숨은 참조 이메일 주소를 추가하면 BCC를 통해 외부 시스템에 이메일을 저장하는 데 사용됩니다. 의 이메일 BCC에 대해 자세히 알아보십시오 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+Learn more about consistency and capacity rules and how to configure them in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
 
 
+## Audience {#audience}
 
-### 다시 시도 {#retries}
+In this section, you can select a **target mapping** among those available. Target mappings are defined in the Adobe Campaign v8 console. 
+
+Learn more about target mappings in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+
+## Delivery {#delivery}
+
+Delivery parameters are technical settings which apply to your delivery. 
+
+* **Routing**: the integrated email routing external account is provided by default. It contains the technical parameters that allow the application to send emails.
+
+* **Test SMTP delivery**: this option is used to test sending via SMTP. The delivery is processed up to connection to the SMTP server but is not sent: for every recipient of the delivery, Campaign connects to the SMTP provider server, executes the SMTP RCPT TO command, and closes the connection before the SMTP DATA command.
+
+* **Email BCC**: this option is used to store emails on an external system through BCC by simply adding a BCC email address to your message target. Learn more about Email BCC in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+
+
+
+### Retries {#retries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_retries"
->title="최대 재시도 수"
->abstract="일시적인 오류로 인해 메시지가 실패하면 게재 기간이 끝날 때까지 다시 시도됩니다."
+>title="Maximum number of retries"
+>abstract="If a message fails due to a temporary error, retries are performed until the end of the delivery duration."
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
-의 다시 시도 관리에 대해 자세히 알아보십시오 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+Learn more about retry management in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
-## 승인 {#approval}
+## Approval {#approval}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="승인 모드"
->abstract="게재의 각 단계는 다양한 프로세스를 완벽하게 모니터링하고 제어하기 위해 승인을 받을 수 있습니다."
+>title="Approval mode"
+>abstract="Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes."
 
-게재를 준비하는 동안 경고가 생성되면 게재를 구성하여 여전히 실행해야 하는지 여부를 정의할 수 있습니다. 기본적으로 사용자는 분석 단계가 끝날 때 메시지 전송을 확인해야 합니다. 이것은 **수동** 유효성 검사.
+If warnings are generated during the delivery preparation, you can configure the delivery to define whether or not it should still be executed. By default, the user must confirm the sending of messages at the end of the analysis phase: this is **manual** validation.
 
-해당 필드에서 다른 승인 모드를 선택할 수 있습니다. 사용 가능한 모드는 다음과 같습니다.
+You can select another approval mode in the appropriate field. Available modes are: 
 
-* **수동**: 분석 단계가 끝날 때 사용자는 게재를 확인하여 전송을 시작해야 합니다.
+* **Manual**: At the end of the analysis phase, the user must confirm delivery to start sending. 
 
-* **반자동**: 분석 단계에서 경고 메시지가 생성되지 않으면 전송이 자동으로 시작됩니다.
+* **Semi-Automatic**: Sending begins automatically if the analysis phase generates no warning messages.
 
-* **자동**: 전송은 결과와 관계없이 분석 단계가 끝날 때 자동으로 시작됩니다.
+* **Automatic**: Sending begins automatically at the end of the analysis phase, irrespective of its result.
 
 
-## 유효성 {#validity}
+## Validity {#validity}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_duration"
->title="게재 기간"
->abstract="게재 기간 필드를 사용하면 글로벌 게재 다시 시도의 제한을 입력할 수 있습니다. 즉, Adobe Campaign은 시작 날짜부터 메시지를 보낸 다음, 오류만 반환하는 메시지의 경우 유효성 제한에 도달할 때까지 정기적으로 구성 가능한 다시 시도가 수행됩니다."
+>title="Delivery duration"
+>abstract="The Delivery duration field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached."
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
->title="리소스 유효성 검사 제한"
->abstract="유효성 제한 필드는 주로 미러 페이지와 이미지에 대해 업로드된 리소스에 사용됩니다. 이 페이지의 리소스는 제한된 시간 동안 유효합니다."
+>title="Resources validity limit"
+>abstract="The Validity limit field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time."
 
 
-다음 **배달 기간** 필드를 사용하면 글로벌 게재 다시 시도 제한을 입력할 수 있습니다. 즉, Adobe Campaign은 시작 날짜부터 메시지를 보낸 다음, 오류만 반환하는 메시지의 경우 유효성 제한에 도달할 때까지 정기적으로 구성 가능한 다시 시도가 수행됩니다.
+The **Delivery duration** field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached.
 
-날짜를 지정하도록 선택할 수도 있습니다. 이렇게 하려면 을(를) 선택합니다. **유효성 날짜 명시적으로 설정**. 이 경우 게재 및 유효성 제한 날짜도 시간을 지정할 수 있도록 해줍니다. 현재 시간은 기본적으로 사용되지만 입력 필드에서 직접 수정할 수 있습니다.
+You can also choose to specify dates. To do this, select **Explicitly set validity dates**. In this case, the delivery and validity limit dates also let you specify the time. The current time is used by default, but you can modify this directly in the input field.
 
-**자원 유효 한도** 는 주로 미러 페이지 및 이미지에 대해 업로드된 리소스에 사용됩니다. 이 페이지의 리소스는 제한된 시간 동안 유효합니다(디스크 공간을 절약하기 위함).
+**Resources Validity limit** is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
 
 ![](assets/delivery-settings-2.png)
 
 
-에서 게재 유효 기간에 대해 자세히 알아보십시오 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
+Learn more about delivery validity period in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
 
-### 미러 페이지 관리 {#mirror}
+### Mirror page management {#mirror}
 
-미러 페이지는 웹 브라우저를 통해 온라인으로 액세스할 수 있는 HTML 페이지입니다. 콘텐츠는 이메일과 동일합니다. 기본적으로 링크가 메일 콘텐츠에 삽입되면 미러 페이지가 생성됩니다.
+The mirror page is an HTML page accessible online via a web browser. Its content is identical to the email. By default, the mirror page is generated if the link is inserted in the content of the mail. 
 
-기본 모드 외에 다음 옵션도 사용할 수 있습니다.
+In addition to the default mode, the following options are also available:
 
-* **[!UICONTROL 미러 페이지 강제 생성]**: 게재에 미러 페이지에 대한 링크가 삽입되지 않더라도 미러 페이지가 생성됩니다.
-* **[!UICONTROL 미러 페이지를 생성하지 않음]**: 링크가 게재에 있어도 미러 페이지가 생성되지 않습니다.
-* **[!UICONTROL 메시지 식별자만 사용하여 액세스할 수 있는 미러 페이지를 생성합니다]**: 이 옵션을 사용하면 게재 로그 창에서 개인화 정보를 사용하여 미러 페이지의 콘텐츠에 액세스할 수 있습니다. 이렇게 하려면 게재 종료 후 **[!UICONTROL 배달]** 탭을 선택하고 미러 페이지를 보려는 수신자 줄을 선택합니다. 을(를) 클릭합니다. **[!UICONTROL 이 메시지의 미러 페이지 표시...]** 링크를 클릭합니다.
+* **[!UICONTROL Force the generation of the mirror page]**: even if no link to the mirror page is inserted in the delivery, the mirror page is created.
+* **[!UICONTROL Do not generate the mirror page]**: no mirror page is generated, even if the link is present in the delivery.
+* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: this option lets you access the content of the mirror page, with personalization information, in the delivery log window. To do this, after the end of the delivery, click the **[!UICONTROL Delivery]** tab and select the line of the recipient whose mirror page you wish to view. Click the **[!UICONTROL Display the mirror page for this message...]** link.
 
 
-### 추적 {#tracking}
+### Tracking {#tracking}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_tracking_validity"
->title="유효 기간"
->abstract="이 옵션은 URL에서 추적이 활성화되는 기간을 정의합니다."
+>title="Validity period"
+>abstract="This option defines the duration for which the tracking is activated on the URLs."
 
-추적 매개 변수는 관련 섹션에 정의됩니다. 가능한 옵션은 다음과 같습니다.
+Tracking parameters are defined in the related section. Possible options are:
 
-**유효성 제한 추적**: 이 옵션을 사용하여 URL에서 추적이 활성화되는 기간을 변경할 수 있습니다.
+**Tracking validity limit**: use this option to change the duration for which the tracking is activated on the URLs.
 
-**만료된 URL에 대한 대체 URL**: 폴백 웹 페이지의 URL을 입력하려면 이 옵션을 사용합니다. 추적이 만료되면 표시됩니다.
+**Substitution URL for expired URLs**: use this option to enter a URL to a fall-back web page: it is displayed once the tracking has expired.
 
-## 테스트 설정 {#test-setttings}
+## Test Settings {#test-setttings}
 
-이 섹션에서 제외 매개 변수를 설정할 수 있습니다. 사용 가능한 옵션은 다음과 같습니다.
+You can set the exclusion parameters in this section. Available options are:
 
-* **더블 유지** 여러 타겟팅 기준을 충족하는 수신자에게 여러 게재를 승인할 수 있도록 해줍니다.
+* **Keep double** lets you authorize multiple deliveries to recipients who satisfy several targeting criteria.
 
-* **차단 목록에 추가된 주소 유지** 구독 취소(옵트아웃) 후와 같이, 더 이상 게재의 타겟이 되지 않는 프로필을 타겟에서 계속 지정할 수 있습니다.
+* **Keep denylisted addresses** lets you keep from the target any profiles no longer being targeted by the delivery, such as after an unsubscription (opt-out).
 
-* **격리된 주소 유지** 응답하지 않는 주소가 있는 모든 프로필을 타겟에서 보호할 수 있습니다.
+* **Keep quarantined addresses** lets you keep from the target any profiles with an address that does not respond. 
 
-테스트 전자 메일의 이름을 사용자 지정할 수도 있습니다.
+You can also customize the name of the test emails.
 
-를 사용하십시오 **증명 게재 코드 유지** 테스트 이메일에 연결하는 방법은 게재에 대해 정의된 배달 코드와 동일한 배달 코드를 지정합니다.
+Use the **Keep the delivery code for the proof** to associate to the test email the same delivery code as the one defined for the delivery to which it relates.
 
-기본적으로 테스트 이메일의 제목에는 &#39;PROOF #&#39;이라는 접두사가 붙어 있습니다. 여기서 #은 테스트 이메일 번호입니다. 이 접두사는 **레이블 접두사** 필드.
+By default, the subject of the test email is prefixed by ‘PROOF #’, where # is the number of the test email. You can change this prefix in the **Label prefix** field.

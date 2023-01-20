@@ -1,107 +1,101 @@
 ---
 audience: end-user
-title: 이메일 디자이너에서 이메일 디자인
-description: 이메일 콘텐츠를 처음부터 디자인하는 방법 알아보기
+title: Design emails in the Email Designer
+description: Learn how to design your emails content from scratch
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 0%
-
 ---
-
-# 처음부터 시작 {#create-email-content}
+# Start from scratch {#create-email-content}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
->title="구조 구성 요소 정보"
->abstract="구조 구성 요소는 이메일의 레이아웃을 정의합니다."
+>title="About Structure components"
+>abstract="Structure components define the layout of the email."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
->title="구조 구성 요소 정보"
->abstract="구조 구성 요소는 랜딩 페이지의 레이아웃을 정의합니다."
+>title="About Structure components"
+>abstract="Structure components define the layout of the landing page."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
->title="구조 구성 요소 정보"
->abstract="구조 구성 요소는 조각의 레이아웃을 정의합니다."
+>title="About Structure components"
+>abstract="Structure components define the layout of the fragment."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
->title="구조 구성 요소 정보"
->abstract="구조 구성 요소는 템플릿의 레이아웃을 정의합니다."
+>title="About Structure components"
+>abstract="Structure components define the layout of the template."
 
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
->title="이메일 열 정의"
->abstract="이메일 디자이너를 사용하면 열 구조를 정의하여 이메일 레이아웃을 쉽게 정의할 수 있습니다."
+>title="Defining email columns"
+>abstract="The Email Designer allows you to easily define the layout of your email by defining column structure."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
->title="랜딩 페이지 열 정의"
->abstract="이메일 디자이너를 사용하면 열 구조를 정의하여 랜딩 페이지의 레이아웃을 쉽게 정의할 수 있습니다."
+>title="Defining landing page columns"
+>abstract="The Email Designer allows you to easily define the layout of your landing page by defining column structure."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="조각 열 정의"
->abstract="이메일 디자이너를 사용하면 열 구조를 정의하여 조각의 레이아웃을 쉽게 정의할 수 있습니다."
+>title="Defining fragment columns"
+>abstract="The Email Designer allows you to easily define the layout of your fragment by defining column structure."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
->title="템플릿 열 정의"
->abstract="이메일 디자이너를 사용하면 열 구조를 정의하여 템플릿의 레이아웃을 쉽게 정의할 수 있습니다."
+>title="Defining template columns"
+>abstract="The Email Designer allows you to easily define the layout of your template by defining column structure."
 
-이메일 디자이너를 사용하면 이메일 구조를 쉽게 정의할 수 있습니다. 간단한 드래그 앤 드롭 작업으로 구조 요소를 추가 및 이동하면 몇 초 이내에 이메일 본문을 디자인할 수 있습니다.
+The Email Designer allows you to easily define the structure of your email. By adding and moving structural elements with simple drag-and-drop actions, you can design the body of your email within seconds.
 
-이메일 콘텐츠 빌드를 시작하려면 아래 단계를 수행하십시오.
+To start building your email content, follow the steps below:
 
-1. 이메일 디자이너 홈페이지에서 **[!UICONTROL 처음부터 디자인]** 선택 사항입니다.
+1. From the Email Designer home page, select the **[!UICONTROL Design from scratch]** option.
 
-   ![](assets/email_designer.png)
+    ![](assets/email_designer.png)
 
-1. 끌어다 놓아 이메일 콘텐츠 디자인을 시작합니다 **[!UICONTROL 구조 구성 요소]** 캔버스로 이동하여 전자 메일의 레이아웃을 정의합니다.
-
-   >[!NOTE]
-   >
-   >열을 스택하는 것은 모든 이메일 프로그램과 호환되지 않습니다. 지원되지 않는 경우에는 열이 스택되지 않습니다.
-
-   <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
-
-   ![](assets/email_designer_2.png)
-
-1. 추가할 만큼 **[!UICONTROL 구조 구성 요소]** 필요에 따라 오른쪽의 전용 창에서 설정을 편집하고 편집합니다.
-
-   을(를) 선택합니다 **[!UICONTROL n:n 열]** 구성 요소를 사용하여 선택한 열 수를 정의합니다(3과 10 사이). 각 열의 맨 아래에서 화살표를 이동하여 각 열의 너비를 정의할 수도 있습니다.
+1. Start designing your email content by drag and dropping **[!UICONTROL Structure components]** into the canvas to define the layout of your email.
 
    >[!NOTE]
    >
-   >각 열 크기는 구조 구성 요소의 전체 너비의 10% 이하일 수 없습니다. 비어 있지 않은 열은 제거할 수 없습니다.
+   >Stacking columns is not compatible with all email programs. When not supported, columns are not stacked.
 
-1. 를 확장합니다. **[!UICONTROL 컨텐츠 구성 요소]** 섹션을 추가하고 하나 이상의 구조 구성 요소에 필요한 만큼 요소를 추가합니다. [콘텐츠 구성 요소에 대해 자세히 알아보기](content-components.md)
+    <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
-1. 각 구성 요소는 **[!UICONTROL 구성 요소 설정]** 오른쪽 창입니다. 예를 들어 각 구성 요소의 텍스트 스타일, 패딩 또는 여백을 변경할 수 있습니다. [정렬 및 패딩에 대해 자세히 알아보기](alignment-and-padding.md)
+    ![](assets/email_designer_2.png)
 
-   ![](assets/email_designer_5.png)
+1. Add as many **[!UICONTROL Structure components]** as needed and edit their settings in the dedicated pane on the right.
 
-1. 프로필 데이터의 이메일 콘텐츠를 사용자 지정하는 개인화 필드를 삽입합니다. [콘텐츠 개인화에 대해 자세히 알아보기](../personalization/personalize.md)
+    Select the **[!UICONTROL n:n column]** component to define the number of columns of your choice (between 3 and 10). You can also define the width of each column by moving the arrows at the bottom of each column.
 
-1. 을(를) 클릭합니다. **[!UICONTROL 링크]** 탭을 클릭하여 추적해야 하는 컨텐츠의 모든 URL을 표시합니다. 수정 가능 **[!UICONTROL 추적 유형]** 또는 **[!UICONTROL 레이블]** 및 추가 **[!UICONTROL 카테고리]** 필요한 경우 [링크 및 메시지 추적에 대해 자세히 알아보기](message-tracking.md)
-
-   ![](assets/email_designer_7.png)
-
-1. 필요한 경우 **[!UICONTROL 코드 편집기로 전환]** 고급 메뉴에서 을 클릭합니다. [코드 편집기에 대해 자세히 알아보기](code-content.md)
-
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >코드 편집기로 전환한 후에는 이 이메일의 시각적 디자이너로 다시 되돌릴 수 없습니다.
+   >Each column size cannot be under 10% of the total width of the structure component. You cannot remove a column that is not empty.
 
-1. 콘텐츠가 준비되면 **[!UICONTROL 컨텐츠 시뮬레이션]** 전자 메일 렌더링을 확인합니다. 데스크탑 또는 모바일 보기를 선택할 수 있습니다. [이메일 미리 보기에 대한 자세한 정보](../preview-test/preview-test.md)
+1. Expand the **[!UICONTROL Content components]** section and add as many elements as you need into one or more structure components. [Learn more about content components](content-components.md)
 
-   ![](assets/email_designer_28.png)
+1. Each component can be further customized using the **[!UICONTROL Component settings]** pane on the right. For example, you can change the text style, padding or margin of each component. [Learn more about alignment and padding](alignment-and-padding.md)
 
-1. 전자 메일이 준비되면 **[!UICONTROL 저장]**.
+    ![](assets/email_designer_5.png)
+
+1. Insert personalization fields to customize your email content from profiles data. [Learn more about content personalization](../personalization/personalize.md)
+
+1. Click the **[!UICONTROL Links]** tab from the left pane to display all the URLs of your content that must be tracked. You can modify their **[!UICONTROL Tracking Type]** or **[!UICONTROL Label]** and add **[!UICONTROL Categories]** if needed. [Learn more about links and message tracking](message-tracking.md)
+
+    ![](assets/email_designer_7.png)
+
+1. If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. [Learn more about the code editor](code-content.md)
+
+    >[!CAUTION]
+    >
+    >You cannot revert back to the visual designer for this email after switching to the code editor.
+
+1. Once your content is ready, click **[!UICONTROL Simulate content]** to check your email rendering. You can choose the desktop or mobile view. [Learn more about previewing your email](../preview-test/preview-test.md)
+
+    ![](assets/email_designer_28.png)
+
+1. When your email is ready, click **[!UICONTROL Save]**.
 

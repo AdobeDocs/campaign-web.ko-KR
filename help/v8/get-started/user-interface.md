@@ -1,25 +1,19 @@
 ---
 audience: end-user
-title: 인터페이스 살펴보기
-description: Campaign v8 웹 사용자 인터페이스
+title: Discover the interface
+description: Campaign v8 Web user interface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 86b4b26ffcb5c8a43f3c91be02fc0fb72253cbbe
-workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 1%
-
 ---
-
-# 인터페이스 살펴보기 {#user-interface}
+# Discover the interface {#user-interface}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
->title="인터페이스 살펴보기"
->abstract="새로운 Campaign v8 웹 인터페이스는 통합적이고 직관적이며 일관된 사용자 경험을 제공합니다."
+>title="Discover the interface"
+>abstract="The new Campaign v8 Web interface offers an integrated, intuitive and consistent user experience."
 
-새로운 Campaign v8 웹 인터페이스는 마케팅 캠페인 디자인과 게재를 간소화하는 현대적이고 직관적인 사용자 경험을 제공합니다. 이 새로운 인터페이스는 Adobe Experience Platform과 통합되었습니다.
+The new Campaign v8 Web interface offers a modern and intuitive user experience to simplify marketing campaign design and delivery. This new interface is integrated with Adobe Experience Platform. 
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
@@ -27,7 +21,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 >[!NOTE]
 >
->이 설명서는 제품 사용자 인터페이스의 최신 변경 사항을 반영하도록 자주 업데이트됩니다. 그러나 일부 스크린샷은 사용자 인터페이스와 약간 다를 수 있습니다.
+>This documentation is frequently updated to reflect latest changes in the product user interface. However, some screenshots can slightly differ from your user interface.
 
 
 <!--
@@ -35,15 +29,15 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 * web UI made up of read-only lists that can be configured, show how to add columns
 -->
 
-## 왼쪽 탐색 메뉴
+## Left navigation menu
 
-왼쪽의 링크를 탐색하여 Campaign v8 웹 기능에 액세스합니다. 여러 링크에는 정렬 및 필터링할 수 있는 객체 목록이 표시됩니다. 필요한 모든 정보를 표시하도록 열을 구성할 수도 있습니다. 다음 보기 [섹션](#list-screens). 전자 메일 게재 목록을 제외한 모든 목록 화면은 읽기 전용입니다. 편집/볼 목록 항목을 클릭하면 알파에서 사용할 수 없습니다. 모든 목록은 향후 버전에서 편집할 수 있습니다. 왼쪽 탐색 메뉴에 표시되는 항목은 사용자 권한에 따라 다릅니다.
+Browse the links on the left to access Campaign v8 Web capabilities. Several links display lists of objects which can be sorted and filtered. You can also configure columns to display all the information you need. See this [section](#list-screens). All list screens are read-only, except the email delivery list. Clicking on any list item for edition/viewing is not available in Alpha. All lists will be editable in future versions. The items displayed in the left navigation menu depend on your user permissions.
 
 ![](assets/home.png)
 
-### 홈
+### Home
 
-이 화면에는 기본 Campaign v8 웹 기능에 빠르게 액세스할 수 있는 주요 링크 및 리소스가 포함되어 있습니다. 다음 **최근 항목** 목록은 최근에 만들고 수정된 게재에 대한 바로 가기를 제공합니다. 이 목록에는 작성 및 수정 날짜 및 상태가 표시됩니다.
+This screen includes key links and resources for a quick access to the main Campaign v8 Web features. The **Recents** list provides shortcuts to the recently created and modified deliveries. This list shows their creation and modification dates and status.
 
 <!--
 * Banner
@@ -52,7 +46,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 * Learning cards
 -->
 
-홈 페이지의 하위 섹션에서 Campaign v8 웹 키 도움말 페이지에 액세스합니다.
+Access Campaign v8 Web key help pages from the lower section of the home page.
 
 <!--
 show global KPIs, recent items + left menu to access features)
@@ -60,20 +54,20 @@ CONTROL PANEL not alpha
 Global report not alpha
 -->
 
-### 탐색기
+### Explorer
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
->title="탐색기"
->abstract="다음 **탐색기** 메뉴에는 클라이언트 콘솔에 있는 것과 동일한 폴더 계층 구조가 표시됩니다. 모든 Campaign v8 구성 요소, 폴더 및 스키마를 찾아봅니다. 전자 메일 게재 목록을 제외한 모든 목록 화면은 읽기 전용입니다."
+>title="Explorer"
+>abstract="The **Explorer** menu displays the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas. All list screens are read-only, except the email delivery list."
 
-다음 **탐색기** 메뉴에는 클라이언트 콘솔에 있는 것과 동일한 폴더 계층 구조가 표시됩니다. 모든 Campaign v8 구성 요소, 폴더 및 스키마를 찾아봅니다. 전자 메일 게재 목록을 제외한 모든 목록 화면은 읽기 전용입니다.
+The **Explorer** menu displays the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas. All list screens are read-only, except the email delivery list. 
 
-탐색기에 표시되는 항목은 사용자 권한에 따라 다릅니다.
+The items displayed in the Explorer depend on your user permissions. 
 
-목록 화면에서와 마찬가지로, 디스플레이를 개인화하여 필요한 모든 정보를 표시하도록 열을 구성할 수 있습니다. 다음 보기 [섹션](#list-screens).
+Like in any list screen, you can configure columns to personalize the display to view all the information you need. See this [section](#list-screens).
 
-Campaign 탐색기에 대한 자세한 내용은 다음을 참조하십시오 [설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html#ac-explorer-ui){target="_blank"}.
+For more information on the Campaign explorer, refer to this [documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -82,144 +76,144 @@ If you need to view your lists of recipients (age, gender), transactions or live
 Navtree view depends on permissions (same as console).
 -->
 
-### 캠페인 관리
+### Campaign Management
 
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
->title="캠페인"
->abstract="캠페인 목록입니다. 시작/종료/마지막 수정 날짜와 같은 유용한 정보와 해당 상태를 볼 수 있습니다. 상태 또는 시작/종료 날짜별로 목록을 필터링할 수 있습니다. 캠페인 템플릿도 사용할 수 있습니다. 이 목록은 읽기 전용입니다."
+>title="Campaigns"
+>abstract="This is the list of your campaigns. You can view useful information such as their start/end/last modification dates, as well as their status. You can filter the list by status or start/end dates. Campaign templates are also available. These lists are read-only."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
->title="게재"
->abstract="게재 목록을 탐색합니다. 상태, 마지막 수정 날짜 및 주요 KPI를 볼 수 있습니다. 상태, 연락 날짜 또는 채널별로 목록을 필터링할 수 있습니다. 이메일 게재를 클릭하여 대시보드를 엽니다. 다른 항목은 읽기 전용입니다. 게재 템플릿도 사용할 수 있습니다."
+>title="Deliveries"
+>abstract="Browse through your list of deliveries. You can view their state, last modification date as well as key KPIs. You can filter the list by state, contact date or channel. Click an email delivery to open its dashboard. Other items are read-only. Delivery templates are also available."
 
-* **캠페인** - 캠페인 목록입니다. 기본적으로 시작/종료/마지막 수정 날짜와 해당 상태를 볼 수 있습니다. 상태 또는 시작/종료 날짜별로 목록을 필터링할 수 있습니다. 캠페인 템플릿도 사용할 수 있습니다. 이 목록은 읽기 전용입니다.
+* **Campaigns** - This is the list of your campaigns. By default, you can view their start/end/last modification dates, as well as their status. You can filter the list by status or start/end dates. Campaign templates are also available. These lists are read-only. 
 
-* **게재** - 게재 목록을 살펴봅니다. 기본적으로 상태, 마지막 수정 날짜 및 주요 KPI를 볼 수 있습니다. 상태, 연락 날짜 또는 채널별로 목록을 필터링할 수 있습니다. 이메일 게재 를 클릭하여 해당 대시보드를 열어 게재 세부 사항에 대한 개요를 확인합니다. 다른 채널에서의 게재는 읽기 전용입니다. 게재 템플릿은 읽기 전용 모드에서도 사용할 수 있습니다. 클라이언트 콘솔을 사용하여 편집할 수 있습니다. 다음 보기 [설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+* **Deliveries** - Browse through your list of deliveries. By default, you can view their state, last modification date as well as key KPIs. You can filter the list by state, contact date or channel. Click an email delivery to open its dashboard to get an overview of the delivery details. Deliveries on other channels are read-only. Delivery templates are also available in read-only mode. You can use the Client Console to edit them. See this [documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
-   를 사용하십시오 **추가 작업** 버튼을 클릭하여 게재를 삭제하거나 복제합니다.
+    Use the **More actions** button to delete or duplicate a delivery.
 
-   ![](assets/more-actions.png){width="70%" align="left"}
+    ![](assets/more-actions.png){width="70%" align="left"}
 
-### 고객 관리
+### Customer Management
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
->title="수신자"
->abstract="수신자 데이터베이스에 액세스합니다. 이메일 주소, 이름 및 성 등 유용한 정보를 볼 수 있습니다. 이 목록은 읽기 전용입니다."
+>title="Recipients"
+>abstract="Access your recipient database. You can view useful information such as their email address, first name and last name. This list is read-only."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
->title="대상자"
->abstract="대상자 목록입니다. 유형, 원본, 생성/마지막 수정 날짜 및 레이블을 볼 수 있습니다. 목록을 원본별로 필터링할 수 있습니다. 이 목록은 읽기 전용입니다."
+>title="Audiences"
+>abstract="This is your list of audiences. You can view their type, origin, creation/last modification dates and label. You can filter the list by origin. This list is read-only."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
->title="구독 목록"
->abstract="구독 목록을 검색합니다. 해당 유형, 모드 및 레이블을 볼 수 있습니다. 이 목록은 읽기 전용입니다."
+>title="Subscriptions lists"
+>abstract="Browse through your subscriptions lists. You can view their type, mode and label. This list is read-only."
 
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
->title="타겟팅 워크플로우"
->abstract="Campaign 워크플로우 목록에 액세스합니다. 상태, 마지막/다음 처리 날짜 및 환경을 볼 수 있습니다. 상태, 마지막 처리 날짜 및 워크플로우 유형별로 목록을 필터링할 수 있습니다. 워크플로우 템플릿도 사용할 수 있습니다. 이 목록은 읽기 전용입니다."
+>title="Targeting workflows"
+>abstract="Access your list of Campaign workflows. You can view their state, last/next processing dates and environment. You can filter the list by state, last processing date and workflow type. Workflow templates are also available. These lists are read-only."
 
-* **수신자** - 수신자 데이터베이스에 액세스합니다. 기본적으로 이메일 주소, 이름 및 성을 볼 수 있습니다. 이 목록은 읽기 전용입니다.
-* **대상** - 대상자 목록입니다. 기본적으로 유형, 원본, 생성/마지막 수정 날짜 및 레이블을 볼 수 있습니다. 목록을 원본별로 필터링할 수 있습니다. 이 목록은 읽기 전용입니다.
-* **구독 목록** - 구독 목록을 검색합니다. 기본적으로 유형, 모드 및 레이블을 볼 수 있습니다. 이 목록은 읽기 전용입니다.
-* **타겟팅 워크플로우** - Campaign 워크플로우 목록에 액세스합니다. 기본적으로 상태, 마지막/다음 처리 날짜 및 환경을 볼 수 있습니다. 상태, 마지막 처리 날짜 및 워크플로우 유형별로 목록을 필터링할 수 있습니다. 워크플로우 템플릿도 사용할 수 있습니다. 이 목록은 읽기 전용입니다.
+* **Recipients** - Access your recipient database. By default, you can view their email address, first name and last name. This list is read-only. 
+* **Audiences** - This is your list of audiences. By default, you can view their type, origin, creation/last modification dates and label. You can filter the list by origin. This list is read-only. 
+* **Subscriptions lists** - Browse through your subscriptions lists. By default, you can view their type, mode and label. This list is read-only. 
+* **Targeting workflows** - Access your list of Campaign workflows. By default, you can view their state, last/next processing dates and environment. You can filter the list by state, last processing date and workflow type. Workflow templates are also available. These lists are read-only. 
 
-### 의사 결정 관리
+### Decision Management
 
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
->title="오퍼"
->abstract="상호 작용 오퍼 목록을 탐색합니다. 기본적으로 상태, 시작/종료 날짜 및 환경을 볼 수 있습니다. 상태 및 시작/종료 날짜별로 목록을 필터링할 수 있습니다. 오퍼 템플릿을 사용할 수도 있습니다. 이 목록은 읽기 전용입니다."
+>title="Offers"
+>abstract="Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by state and start/end dates. Offer templates are also available. These lists are read-only."
 
-* **오퍼** - 상호 작용 오퍼 목록을 살펴봅니다. 기본적으로 상태, 시작/종료 날짜 및 환경을 볼 수 있습니다. 상태 및 시작/종료 날짜별로 목록을 필터링할 수 있습니다. 오퍼 템플릿을 사용할 수도 있습니다. 이 목록은 읽기 전용입니다.
+* **Offers** - Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by state and start/end dates. Offer templates are also available. These lists are read-only. 
 
-## 상단 표시줄
+## Top bar
 
-인터페이스 상단 표시줄에서는 다음 작업을 수행할 수 있습니다.
+The top bar of the interface allows you to:
 
-* 알파 테스터로 피드백 공유
-* 조직과 인스턴스 간 전환
-* Adobe Experience Cloud 애플리케이션 간 전환
-* 도움말 페이지에 액세스하고 지원 센터에 문의하여 피드백을 공유하십시오. 검색 필드에서 도움말 문서와 비디오를 검색할 수 있습니다.
+* share your feedback as an Alpha tester
+* switch between organizations and instances
+* switch between your Adobe Experience Cloud applications
+* access help pages, contact support and share feedback. You can search help articles and videos from the search field.
 
 ![](assets/unified-shell.png){width="70%" align="left"}
 <!--
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## 목록 화면 구성 {#list-screens}
+## Configure list screens {#list-screens}
 
-예를 들어 왼쪽 탐색 메뉴의 몇 가지 링크 **게재** 또는 **캠페인**, 객체 목록을 표시합니다. 이러한 목록 화면은 이메일 게재 목록을 제외하고 읽기 전용입니다.
+Several links from the left navigation menu, for example **Deliveries** or **Campaigns**, display lists of objects. These list screens are read-only, except the email delivery list. 
 
-항목을 더 빨리 찾기 위해 검색 막대를 사용하거나 상황별 기준에 따라 목록을 필터링할 수 있습니다.
+To find items quicker, you can use the search bar or filter the list based on contextual criteria. 
 
 ![](assets/filter.png){width="70%" align="left"}
 
-목록이 열에 표시됩니다. 열 구성을 변경하여 추가 정보를 표시할 수 있습니다. 이렇게 하려면 목록의 오른쪽 위 모서리에 있는 아이콘을 클릭합니다. 열을 추가하거나 제거하고 열을 표시하는 순서를 변경할 수 있습니다.
+The lists are displayed in columns. You can display additional information by changing the column configuration. To do this, click the icon in the top right corner of the list. You can add or remove columns and change the order in which they are displayed.
 
 ![](assets/columns.png){width="70%" align="left"}
 
-열 헤더를 클릭하여 목록에서 항목을 정렬할 수 있습니다. 목록이 해당 열에 정렬되었음을 나타내는 화살표가 표시됩니다(위쪽 또는 아래쪽). 숫자 또는 날짜 열의 경우 위쪽 화살표는 목록이 오름차순으로 정렬되었음을 나타내고, 아래쪽 화살표는 내림차순을 나타냅니다. 문자열 또는 영숫자 열의 경우 값은 알파벳 순서로 나열됩니다.
+You can sort items in the list by clicking any column header. An arrow is displayed (Up or Down) indicating that the list is sorted on that column. For numeric or date columns, the Up arrow indicates that the list is sorted in ascending order while the Down arrow indicates a descending order. For string or alphanumeric columns, values are listed in alphabetical order.
 
-## 상황별 도움말 및 온보딩 안내서
+## Contextual help and on-boarding guide
 
-인터페이스에서 상황별 도움말을 사용할 수 있습니다. 사용 가능한 경우 **?** 아이콘 을 클릭하여 도움말 정보 및 관련 설명서 링크를 표시합니다.
+A contextual help is available in the interface. When available, click on the **?** icon to display help information and related documentation links. 
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-Campaign v8 웹을 시작하는 데 도움이 되는 온보딩 안내서도 제공됩니다. 오른쪽 아래 모서리에 있는 아이콘을 클릭하고, 사용 가능한 단계별 시나리오 중 하나를 선택한 다음, 지침을 따르십시오.
+An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
 
 ![](assets/onboarding.png){width="70%" align="left"}
 
-## 지원되는 브라우저 {#browsers}
+## Supported browsers {#browsers}
 
-Campaign v8 Web은 최신 버전의 Google Chrome, Safari 및 Microsoft Edge에서 최적으로 작동하도록 설계되었습니다. 이전 버전 또는 다른 브라우저에서 특정 기능을 사용하는 데 문제가 있을 수 있습니다.
+Campaign v8 Web is designed to work optimally in the latest version of Google Chrome, Safari and Microsoft Edge. You might have trouble using certain features on older versions or other browsers.
 
-## 언어 환경 설정 {#language-pref}
+## Language preferences {#language-pref}
 
-Campaign v8 Web은 현재 다음 언어로 사용할 수 있습니다.
+Campaign v8 Web is currently available in the following languages:
 
 <table>
 <tr>
 <td>
-<p>영어(미국) - 미국</p>
-<p>프랑스어 - FR</p>
-<p>독일어 - DE</p>
-<p>이탈리아어 - IT</p>
+<p>English (US) - EN-US</p>
+<p>French - FR</p>
+<p>German - DE</p>
+<p>Italian - IT</p>
 </td>
 <td>
-<p>스페인어 - ES</p>
-<p>포르투갈어(브라질) - PTBR</p>
-<p>일본어 - JP</p>
+<p>Spanish - ES</p>
+<p>Portuguese (Brazilian) - PTBR</p>
+<p>Japanese - JP</p>
 </td>
 <td>
-<p>한국어 - KR</p>
-<p>중국어 간체 - CHS</p>
-<p>중국어 번체 - CHT</p>
+<p>Korean - KR</p>
+<p>Simplified Chinese - CHS</p>
+<p>Traditional Chinese - CHT</p>
 </td>
 </tr>
 </table>
 
-기본 인터페이스 언어는 사용자 프로필에 지정된 기본 언어로 결정됩니다.
+Your default interface language is determined by the preferred language specified in your user profile.
 
-언어를 변경하려면 다음을 수행하십시오.
+To change your language:
 
-1. 오른쪽 상단에서 프로필 아이콘을 클릭한 다음 을 선택합니다 **기본 설정**.
+1. Click on your profile icon, on the top right, then select **Preferences**.
 
-   ![](assets/preferences.png){width="70%" align="left"}
+    ![](assets/preferences.png){width="70%" align="left"}
 
-1. 그런 다음 이메일 주소 아래에 표시되는 언어를 클릭합니다.
+1. Then click the language displayed under your email address.
 
-   ![](assets/preferences2.png)
+    ![](assets/preferences2.png)
 
-1. 기본 언어를 선택하고 을(를) 클릭합니다 **저장**. 사용 중인 구성 요소가 첫 번째 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
+1. Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your first language.
 
-   ![](assets/select-language.png)
+    ![](assets/select-language.png)
 
 <!--
 ## Supported browsers {#browsers}

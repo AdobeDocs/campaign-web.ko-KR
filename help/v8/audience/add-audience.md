@@ -1,44 +1,50 @@
 ---
 audience: end-user
-title: Select an audience
-description: Learn how to select an audience
+title: 대상자 선택
+description: 대상자를 선택하는 방법 알아보기
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 5%
+
 ---
-# Select an audience {#add-audience}
+
+# 대상자 선택 {#add-audience}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
->title="Select an existing audience"
->abstract="The audiences are defined in the Adobe Campaign v8 Console. If you have an Adobe Experience Platform integration available, you should be able to see Platform defined audiences too."
+>title="기존 대상 선택"
+>abstract="대상은 Adobe Campaign v8 콘솔에서 정의됩니다. 사용 가능한 Adobe Experience Platform 통합이 있는 경우 플랫폼 정의 대상도 볼 수 있어야 합니다."
 
-This section explains how to select an existing audience, when defining the target population of an email delivery. If you want to create a new audience, refer to this [section](segment-builder.md).
+이 섹션에서는 이메일 게재의 대상 모집단을 정의할 때 기존 대상자를 선택하는 방법을 설명합니다. 새 대상을 만들려면 이 항목을 참조하십시오 [섹션](segment-builder.md).
 
-1. From the **Audience** section of the delivery creation assistant, click the **[!UICONTROL Select audience]** button.
+1. 에서 **Audience** 게재 만들기 도우미의 섹션에서 **[!UICONTROL 대상 선택]** 버튼을 클릭합니다.
 
    ![](assets/create-audience.png)
 
-1. Choose **[!UICONTROL Select audience]** to use an existing audience. To create a new audience to be used in this email, choose **Create your own**. Refer to this [section](segment-builder.md).
+1. 선택 **[!UICONTROL 대상 선택]** 기존 대상자를 사용하려면 이 이메일에 사용할 새 대상자를 만들려면 을(를) 선택합니다 **직접 만들기**. 다음을 참조하십시오 [섹션](segment-builder.md).
 
-    This screen displays all existing audiences defined in the Adobe Campaign console or from Adobe Experience Platform.
+   이 화면에는 Adobe Campaign 콘솔 또는 Adobe Experience Platform에서 정의된 모든 기존 대상이 표시됩니다.
 
-    ![](assets/create-audience2.png)
+   ![](assets/create-audience2.png)
 
-    >[!NOTE]
-    >
-    >To leverage Adobe Experience Platform audiences, you need to configure the integration with Destinations. Refer to the [Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html){target="_blank"}.
+   >[!NOTE]
+   >
+   >Adobe Experience Platform 대상을 활용하려면 대상과의 통합을 구성해야 합니다. 자세한 내용은 [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ko){target="_blank"}.
 
-1. Choose an audience and click **Select**.
+1. 대상자를 선택하고 을(를) 클릭합니다. **선택**.
 
-1. Click **Edit rules** if you want to refine your audience.
+1. 클릭 **규칙 편집** 대상을 세분화하려면 다음을 수행하십시오.
 
    ![](assets/create-audience3.png)
 
-1. Using the rule builder, you can enrich your audience with additional filters or by combining different audiences. See this [section](segment-builder.md).
+1. 규칙 빌더를 사용하면 추가 필터나 다른 대상을 결합하여 대상을 보강할 수 있습니다. 다음 보기 [섹션](segment-builder.md).
 
    ![](assets/create-audience4.png)
 
-1. Click **Save**. 
+1. **저장**&#x200B;을 클릭합니다.
 
-You can also set a control group to measure the impact of your campaigns. The control group do not receive the message. This allows you to compare the behavior of the population which received the message with the behavior of contacts which did not. See [section](control-group.md).
+캠페인의 영향을 측정하도록 컨트롤 그룹을 설정할 수도 있습니다. 컨트롤 그룹이 메시지를 받지 않습니다. 이렇게 하면 메시지를 받은 모집단 행동과 그렇지 않은 연락처의 동작을 비교할 수 있습니다. 자세한 내용은 [섹션](control-group.md).

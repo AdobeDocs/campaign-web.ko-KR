@@ -1,27 +1,33 @@
 ---
 audience: end-user
-title: Test email rendering
-description: Learn how to test your email rendering in Campaign Web UI
+title: 전자 메일 렌더링 테스트
+description: Campaign Web UI에서 이메일 렌더링을 테스트하는 방법을 알아봅니다
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '159'
+ht-degree: 0%
+
 ---
-# Test the email rendering {#rendering}
+
+# 전자 메일 렌더링 테스트 {#rendering}
 
 ![](../assets/do-not-localize/badge.png)
 
-Before sending your email, make sure that your message is displayed to the recipients in an optimal way on a variety of web clients, web mails and devices.
+이메일을 보내기 전에 메시지가 다양한 웹 클라이언트, 웹 메일 및 장치에서 수신자에게 최적의 방식으로 표시되는지 확인하십시오.
 
-To do this, Adobe Campaign allows you to preview the sent message in the different contexts in which it may be received and check the compatibility in major desktops and applications (webmail, message service, mobile, etc.).
+이를 위해 Adobe Campaign을 사용하면 수신될 수 있는 다른 컨텍스트에서 전송된 메시지를 미리 보고 주요 데스크탑 및 애플리케이션(웹 메일, 메시지 서비스, 모바일 등)의 호환성을 확인할 수 있습니다.
 
-To test the email rendering, follow these steps:
+전자 메일 렌더링을 테스트하려면 다음 단계를 수행합니다.
 
-1. Access the email content creation screen, then click **[!UICONTROL Simulate content]**.
+1. 전자 메일 콘텐츠 만들기 화면에 액세스한 다음 를 클릭합니다 **[!UICONTROL 컨텐츠 시뮬레이션]**.
 
-1. Click the **[!UICONTROL Render email]** button.
+1. 을(를) 클릭합니다. **[!UICONTROL 전자 메일 렌더링]** 버튼을 클릭합니다.
 
-    The left pane provides various desktop, mobile and web-based email clients. Select the desired email client to display a preview of your email in the right pane. 
+   왼쪽 창에는 다양한 데스크탑, 모바일 및 웹 기반 이메일 클라이언트가 제공됩니다. 오른쪽 창에 전자 메일 미리 보기를 표시하려면 원하는 전자 메일 클라이언트를 선택합니다.
 
-    ![](assets/render-context.png)
+   ![](assets/render-context.png)
 
-    >[!NOTE]
-    >
-    >The email clients list provides a sample of the major mail clients. Additional email clients are available from the filter button next to the top search bar.
+   >[!NOTE]
+   >
+   >이메일 클라이언트 목록은 주요 메일 클라이언트의 샘플을 제공합니다. 추가 이메일 클라이언트는 맨 위 검색 막대 옆에 있는 필터 단추에서 사용할 수 있습니다.

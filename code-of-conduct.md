@@ -1,71 +1,51 @@
-# Adobe Code of Conduct
+---
+source-git-commit: 91649bdf1e6561c9af93d22bd4980f6f5a87bf7c
+workflow-type: tm+mt
+source-wordcount: '431'
+ht-degree: 100%
 
-## Our Pledge
+---
+# Adobe 준수 사항
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to making participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, gender identity and expression, level of experience,
-nationality, personal appearance, race, religion, or sexual identity and
-orientation.
+## Adobe의 약속
 
-## Our Standards
+개방적이고 환영받는 환경을 조성하고자 하는 Adobe는 기여자 및 유지 관리 책임자로서 연령, 신체 사이즈, 장애, 인종, 성 정체성 및 표현, 경험 수준, 국적, 외모, 인종, 종교 또는 성적 정체성과 성향에 상관없이 모든 사람이 Adobe 프로젝트 및 Adobe 커뮤니티에 참여할 수 있도록 차별이 없는 경험을 제공할 것을 약속합니다.
 
-Examples of behavior that contributes to creating a positive environment
-include:
+## Adobe의 표준
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+긍정적인 환경을 만드는 데 기여하는 행동의 예는 다음과 같습니다.
 
-Examples of unacceptable behavior by participants include:
+* 환영적이며 포괄적인 언어 사용하기
+* 서로 다른 관점과 경험을 존중하기
+* 건설적인 비판을 달갑게 받아들이기
+* 커뮤니티에 가장 좋은 것에 집중하기
+* 다른 커뮤니티 구성원에 대한 공감 표시하기
 
-* The use of sexualized language or imagery and unwelcome sexual attention or
-advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+참여자에게 허용되지 않는 행동의 예는 다음과 같습니다.
 
-## Our Responsibilities
+* 성적인 언어나 이미지 또는 환영받지 못하는 성적 관심 또는 그 이상의 사용
+* 트롤링, 모욕적/비하적인 발언, 개인적 또는 정치적 공격
+* 공개적 또는 개인적인 괴롭힘
+* 명시적 권한 없이 실제 또는 전자 주소와 같은 다른 사용자의 개인 정보 게시
+* 전문적인 환경에서 부적절하게 간주될 수 있는 기타 행위
 
-Project maintainers are responsible for clarifying the standards of acceptable
-behavior and are expected to take appropriate and fair corrective action in
-response to any instances of unacceptable behavior.
+## Adobe의 책임
 
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to this Code of Conduct, or to ban temporarily or
-permanently any contributor for other behaviors that they deem inappropriate,
-threatening, offensive, or harmful.
+프로젝트 유지 관리자는 허용되는 행동의 표준을 명확히 할 책임이 있으며 허용되지 않는 행동 발생 시 적절하고 공정한 시정 조치를 취해야 합니다.
 
-## Scope
+프로젝트 유지 관리자는 이 준수 사항에 부합하지 않는 주석, 커밋, 코드, Wiki 편집, 문제 및 기타 기여를 제거, 편집 또는 거부하거나 부적절하거나 위협적이거나 공격적이거나 해롭다고 판단되는 다른 행동에 대해 일시적으로 또는 영구적으로 참여자를 금지할 권리와 책임이 있습니다.
 
-This Code of Conduct applies both within project spaces and in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an appointed
-representative at an online or offline event. Representation of a project may be
-further defined and clarified by project maintainers.
+## 범위
 
-## Enforcement
+본 준수 사항은 개인이 프로젝트 또는 그 커뮤니티를 담당하는 경우 프로젝트 공간 내와 공개 공간에 모두 적용됩니다. 프로젝트 또는 커뮤니티를 담당하는 예로는 공식 프로젝트 이메일 주소를 사용하거나 공식 소셜 미디어 계정을 통해 게시하거나 온라인 또는 오프라인 이벤트에서 담당자 역할을 수행하는 것입니다. 프로젝트의 표현은 프로젝트 유지 관리자가 더 상세하게 정의하고 명확히 할 수 있습니다.
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at Grp-opensourceoffice@adobe.com. All
-complaints will be reviewed and investigated and will result in a response that
-is deemed necessary and appropriate to the circumstances. The project team is
-obligated to maintain confidentiality with regard to the reporter of an incident.
-Further details of specific enforcement policies may be posted separately.
+## 시행
 
-Project maintainers who do not follow or enforce the Code of Conduct in good
-faith may face temporary or permanent repercussions as determined by other
-members of the project's leadership.
+학대, 괴롭힘 또는 다른 용납할 수 없는 행동의 사례는 프로젝트 팀(Grp-opensourceoffice@adobe.com)에 연락하여 신고할 수 있습니다. 모든 불만 사항은 검토 및 조사되며 상황에 적절하고 필요하다고 판단되는 응답을 할 것입니다. 해당 프로젝트 팀은 사건의 신고자와 관련된 기밀을 유지할 의무가 있습니다.
+구체적인 시행 정책에 대한 자세한 내용은 별도로 게시될 수 있습니다.
 
-## Attribution
+준수 사항을 성의 있게 따르지 않거나 집행하지 않는 프로젝트 유지 관리자는 프로젝트 리더십의 다른 구성원들에 의해 결정되는 일시적 또는 영구적인 영향에 직면할 수 있습니다.
 
-This Code of Conduct is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
-available at [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+## 귀속
+
+본 준수 사항은 [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)에서 제공하는 [참여자 계약](https://contributor-covenant.org) 버전 1.4에서 채택되었습니다.

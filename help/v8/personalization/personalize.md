@@ -1,110 +1,116 @@
 ---
-title: Personalize your content in Campaign
-description: Learn how to personalize your content in Adobe Campaign web UI
+title: Campaign에서 콘텐츠 개인화
+description: Adobe Campaign 웹 UI에서 콘텐츠를 개인화하는 방법을 알아봅니다
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
+source-git-commit: 51bd6f405ad151e2264d69c57ffe5e1783077203
+workflow-type: tm+mt
+source-wordcount: '653'
+ht-degree: 0%
+
 ---
-# Personalize your content{#add-personalization}
+
+# 콘텐츠 개인화{#add-personalization}
 
 ![](../assets/do-not-localize/badge.png)
 
-You can personalize the message content by:
+다음을 수행하여 메시지 콘텐츠를 개인화할 수 있습니다.
 
-* Inserting dynamic **personalization fields**
+* 동적 삽입 **개인화 필드**
 
-    Personalization fields are used for first-level personalization of your messages. You can select any field available in the database from the personalization editor. For a delivery, you can select any field related to the recipient, the message or the delivery. These personalization attributes can be inserted in the subject line or the body of your messages.
+   개인화 필드는 메시지의 첫 번째 수준 개인화에 사용됩니다. 개인화 편집기에서 데이터베이스에서 사용할 수 있는 필드를 선택할 수 있습니다. 게재의 경우 수신자, 메시지 또는 게재와 관련된 필드를 선택할 수 있습니다. 이러한 개인화 속성은 제목 줄이나 메시지 본문에 삽입할 수 있습니다.
 
-    ![](assets/perso-subject-line.png)
+   ![](assets/perso-subject-line.png)
 
-    The following syntax inserts the city of the recipient in your content: <%= recipient.location.city %>.
-    
-* Inserting pre-defined **content blocks**
-    
-    Campaign comes with a set of personalization blocks which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to the mirror page of the message. Content blocks are available from a dedicated entry un the personalization editor.
+   다음 구문은 콘텐츠에 수신자의 도시를 삽입합니다. &lt;%= recipient.location.city %>.
 
-    ![](assets/perso-content-blocks.png)
+* 사전 정의된 삽입 **콘텐츠 블록**
+
+   Campaign에는 게재에 삽입할 수 있는 특정 렌더링을 포함하는 개인화 블록 세트가 포함되어 있습니다. 예를 들어 메시지의 미러 페이지에 로고, 인사말 또는 링크를 추가할 수 있습니다. 콘텐츠 블록은 개인화 편집기의 전용 항목에서 사용할 수 있습니다.
+
+   ![](assets/perso-content-blocks.png)
 <!--
 * Create **conditional content**
 
     Configure conditional content to add dynamic personalization based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true.
 -->
 
-## Personalize the email subject line {#personalize-subject-line}
+## 이메일 제목란 개인화 {#personalize-subject-line}
 
-To add personalization in the **[!UICONTROL Subject line]** field of the message, follow the steps below:
+에서 개인화를 추가하려면 **[!UICONTROL 제목 줄]** 메시지 필드를 보려면 아래 단계를 수행하십시오.
 
-1. Click the **Open personalization dialog** icon on the right of the **Subject line** field.
-1. Enter the subject line content and select the personalization attributes to add.
-1. Click **Confirm** to validate. The personalization attributes are added to the subject line.
+1. 을(를) 클릭합니다. **개인화 대화 상자 열기** 아이콘 을 클릭하여 제품에서 사용할 수 있습니다. **제목 줄** 필드.
+1. 제목 줄 컨텐츠를 입력하고 추가할 개인화 속성을 선택합니다.
+1. 클릭 **확인** 유효성을 검사하려면 다음을 수행하십시오. 개인화 속성이 제목 줄에 추가됩니다.
 
 ![](assets/perso-subject.png)
 
-## Personalize your email content {#personalize-emails}
+## 이메일 콘텐츠 개인화 {#personalize-emails}
 
-To personalize the email content, open the message in the Email designer and:
+이메일 콘텐츠를 개인화하려면 이메일 디자이너에서 메시지를 열고 다음을 수행합니다.
 
-1. Click inside a text block.
-1. In the contextual toolbar, select **Add personalization**.
+1. 텍스트 블록 내부를 클릭합니다.
+1. 상황별 도구 모음에서 를 선택합니다 **개인화 추가**.
 
-    ![](assets/perso-add-to-content.png)
+   ![](assets/perso-add-to-content.png)
 
-1. Insert the name of the recipient in the personalization editor and confirm.
+1. 개인화 편집기에서 수신자 이름을 삽입하고 확인합니다.
 
-    ![](assets/perso-add-name.png)
+   ![](assets/perso-add-name.png)
 
-    The personalization attribute is added to the email content. 
-    
-    You can simulate the content to check rendering. [Learn more](../preview-test/preview-content.md)
+   개인화 속성이 전자 메일 콘텐츠에 추가됩니다.
 
-    ![](assets/perso-rendering.png)
+   컨텐츠를 시뮬레이션하여 렌더링을 확인할 수 있습니다. [자세히 알아보기](../preview-test/preview-content.md)
 
-To add a content block to your email, apply the same steps and select a content block from the last icon:
+   ![](assets/perso-rendering.png)
+
+전자 메일에 콘텐츠 블록을 추가하려면 동일한 단계를 적용하고 마지막 아이콘에서 콘텐츠 블록을 선택합니다.
 
 ![](assets/perso-insert-block.png)
 
-Once inserted, the content block is added to the email content, as shown below. It is automatically adapted to the recipient profile when personalization is generated, at the delivery preparation step.
+콘텐츠 블록이 삽입되면 아래와 같이 이메일 콘텐츠에 추가됩니다. 게재 준비 단계에서 개인화가 생성되면 수신자 프로필에 자동으로 조정됩니다.
 
 ![](assets/perso-content-block-in-email.png)
 
 
-Built-in content blocks are:
-* **[!UICONTROL Enabled by Adobe Campaign]** : inserts the "Enabled by Adobe Campaign" logo.
-* **[!UICONTROL Formatting function for proper nouns]** : generates the **[!UICONTROL toSmartCase]** Javascript function, which changes the first letter of each word to uppercase. 
-* **[!UICONTROL Greetings]** : inserts greetings with the recipient's name. Example: "Hello John Doe,".
-* **[!UICONTROL Insert logo]** : inserts a logo which is is defined in the instance settings.
-* **[!UICONTROL Link to mirror page]** : inserts a link to the mirror page: "If you are unable to view this message correctly, click here".
-* **[!UICONTROL Mirror page URL]** : inserts the mirror page URL, enabling Delivery Designers to check the link.
-* **[!UICONTROL Offer acceptance URL in unitary mode]** : inserts an URL enabling to set an offer to **[!UICONTROL Accepted]**.
-* **[!UICONTROL Registration page URL]** : inserts a subscription URL.
-* **[!UICONTROL Registration link]** : inserts a subscription link. This link is defined in the instance settings. The default content is: "To register click here."
-* **[!UICONTROL Registration link (with referrer)]** : inserts a subscription link, enabling to identify the visitor and delivery. This link is defined in the instance settings.
-* **[!UICONTROL Registration confirmation]** : inserts a link enabling to confirm subscription.
-* **[!UICONTROL Social network sharing links]** : inserts buttons that enable the recipient to share a link to the mirror page content.
-* **[!UICONTROL Style of content emails]** and **[!UICONTROL Notification style]** : generate code that format an email with predefined HTML styles. 
-* **[!UICONTROL Unsubscription link]** : inserts a link enabling to unsubscribe from all deliveries (denylist). The default associated content is: "You are receiving this message because you have been in contact with ***your organization name*** or an affiliate. To no longer receive messages from ***your organization name*** click here."
+내장 콘텐츠 블록은 다음과 같습니다.
+* **[!UICONTROL Adobe Campaign에서 사용]** : &quot;Enabled by Adobe Campaign&quot; 로고를 삽입합니다.
+* **[!UICONTROL 적절한 항목에 대한 서식 지정 함수]** : 는 **[!UICONTROL toSmartCase]** 각 단어의 첫 번째 문자를 대문자로 변경하는 Javascript 함수입니다.
+* **[!UICONTROL 인사말]** : 받는 사람의 이름으로 인사를 삽입합니다. 예: &quot;안녕하세요, 존 도.&quot;
+* **[!UICONTROL 로고 삽입]** : 인스턴스 설정에 정의된 로고를 삽입합니다.
+* **[!UICONTROL 미러 페이지에 대한 링크]** : 미러 페이지에 대한 링크를 삽입합니다. &quot;이 메시지를 올바르게 볼 수 없는 경우 여기를 클릭하십시오.&quot;
+* **[!UICONTROL 미러 페이지 URL]** : 는 미러 페이지 URL을 삽입하여 게재 디자이너가 링크를 확인할 수 있도록 합니다.
+* **[!UICONTROL 단일 모드의 오퍼 수락 URL]** : 오퍼를 설정할 수 있는 URL을 삽입합니다. **[!UICONTROL 수락됨]**.
+* **[!UICONTROL 등록 페이지 URL]** : 구독 URL을 삽입합니다.
+* **[!UICONTROL 등록 링크]** : 구독 링크를 삽입합니다. 이 링크는 인스턴스 설정에서 정의됩니다. 기본 콘텐츠는 다음과 같습니다. &quot;등록하려면 여기를 클릭하십시오.&quot;
+* **[!UICONTROL 등록 링크(레퍼러 포함)]** : 방문자 및 게재를 식별할 수 있도록 구독 링크를 삽입합니다. 이 링크는 인스턴스 설정에서 정의됩니다.
+* **[!UICONTROL 등록 확인]** : 구독을 확인하는 링크를 삽입합니다.
+* **[!UICONTROL 소셜 네트워크 공유 링크]** : 수신자가 미러 페이지 컨텐츠에 대한 링크를 공유할 수 있는 단추를 삽입합니다.
+* **[!UICONTROL 콘텐츠 이메일 스타일]** 및 **[!UICONTROL 알림 스타일]** : 사전 정의된 HTML 스타일로 전자 메일의 형식을 지정하는 코드를 생성합니다.
+* **[!UICONTROL 구독 취소 링크]** : 모든 게재에서 구독을 취소할 수 있는 링크를 차단 목록 삽입합니다. 연결된 기본 컨텐츠는 다음과 같습니다. &quot;이 메시지를 받는 이유는 ***조직 이름*** 또는 제휴 더 이상 메시지를 받지 않으려면 ***조직 이름*** 여기를 클릭하세요.&quot;
 
 
-## Personalize links in your emails {#personalize-links}
+## 이메일에서 링크 개인화 {#personalize-links}
 
-To personalize a **link**:
+개인화하려면 **링크**:
 
-1. Select a text block or an image.
-1. In the contextual toolbar, select **Insert link**.
+1. 텍스트 블록 또는 이미지를 선택합니다.
+1. 상황별 도구 모음에서 를 선택합니다 **링크 삽입**.
 
-    ![](assets/perso-link.png)
+   ![](assets/perso-link.png)
 
-1. Enter the link label and use the **Insert link** button to personalize the link.
+1. 링크 레이블을 입력하고 **링크 삽입** 링크를 개인화하는 단추입니다.
 
-    ![](assets/perso-link-insert-icon.png)
+   ![](assets/perso-link-insert-icon.png)
 
-1. Use the personalization editor to define and personalize the link, and confirm.
+1. 개인화 편집기를 사용하여 링크를 정의 및 개인화하고 확인합니다.
 
-    ![](assets/perso-link-edit.png)
+   ![](assets/perso-link-edit.png)
 
 
-## Personalize your offers {#personalize-offers}
+## 오퍼 개인화 {#personalize-offers}
 
-You can also access the personalization editor when adding text-type content to your offers' representations. Learn more in [this section](../content/offers.md).
+오퍼 표현에 텍스트 유형 컨텐츠를 추가할 때 개인화 편집기에 액세스할 수도 있습니다. 추가 정보 [이 섹션](../content/offers.md).

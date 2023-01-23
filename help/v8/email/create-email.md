@@ -1,83 +1,89 @@
 ---
 audience: end-user
-title: Send your first email
-description: Learn how to send your first email with Campaign Web UI
+title: 첫 번째 이메일 보내기
+description: Campaign Web UI를 사용하여 첫 번째 전자 메일을 보내는 방법을 배웁니다
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '1244'
+ht-degree: 0%
+
 ---
-# Send your first email {#first-email}
+
+# 첫 번째 이메일 보내기 {#first-email}
 
 ![](../assets/do-not-localize/badge.png)
 
-Learn how to create your first targeted email. In this use case, you schedule the sending of an email to Silver and Gold loyalty members on a specific date.
+첫 번째 타겟팅된 이메일을 만드는 방법을 알아봅니다. 이 사용 사례에서는 특정 날짜에 실버 및 골드 충성도 멤버에게 이메일을 보내도록 예약합니다.
 
-Based on a predefined design template, the email also features personalized content based on customer profile attributes.
+사전 정의된 디자인 템플릿을 기반으로 하여 고객 프로필 속성을 기반으로 개인화된 컨텐츠도 제공합니다.
 
 ![](assets/delivery-list.png)
 
-## Create the email {#create-email}
+## 이메일 만들기 {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
->title="Select an email template"
->abstract="An email template is a specific delivery configuration that contains predefined settings, such as typology rules, personnalization or routing parameters. Templates are defined in the Campaign client console."
+>title="이메일 템플릿 선택"
+>abstract="이메일 템플릿은 유형화 규칙, 개인화 또는 라우팅 매개 변수와 같은 사전 정의된 설정을 포함하는 특정 게재 구성입니다. 템플릿은 Campaign 클라이언트 콘솔에서 정의됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
->title="Email Properties"
->abstract="The properties are the common delivery parameters that helps you to name and classify your delivery. If your delivery is based on an extended schema defined in the Adobe Campaign v8 console, some specific **Custom Options** fields are available."
+>title="전자 메일 속성"
+>abstract="속성은 게재 이름을 지정하고 분류하는 데 도움이 되는 일반적인 게재 매개 변수입니다. 게재가 Adobe Campaign v8 콘솔에 정의된 확장 스키마를 기반으로 하는 경우, 일부 특정 **사용자 지정 옵션** 필드를 사용할 수 있습니다."
 
-1. To create a new delivery, go to the **[!UICONTROL Deliveries]** menu and select **[!UICONTROL Email]** as the channel.
+1. 새 게재를 만들려면 다음 위치로 이동하십시오. **[!UICONTROL 게재]** 메뉴 및 선택 **[!UICONTROL 이메일]** 를 채널로 설정합니다.
 
-1. Select the template you want to use and click **[!UICONTROL Create delivery]**.
+1. 사용할 템플릿을 선택하고 을(를) 클릭합니다 **[!UICONTROL 게재 만들기]**.
 
-    >[!NOTE]
-    >
-    >Templates are pre-configured delivery settings saved for future use. They can be created by admin users in Adobe Campaign console. [Learn how to work with delivery templates](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+   >[!NOTE]
+   >
+   >템플릿은 나중에 사용할 수 있도록 저장된 사전 구성된 게재 설정입니다. Adobe Campaign 콘솔에서 관리 사용자가 만들 수 있습니다. [게재 템플릿으로 작업하는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
-    ![](assets/channel-template.png)
+   ![](assets/channel-template.png)
 
-1. Provide a label for the email and configure additional options based on your needs:
+1. 이메일에 대한 레이블을 제공하고 필요에 따라 추가 옵션을 구성합니다.
 
-    * **[!UICONTROL Internal name]**: assign a unique identifier to the delivery,
-    * **[!UICONTROL Folder]**: store the delivery in a specific folder,
-    * **[!UICONTROL Delivery code]**: use this field to organize your deliveries based on your own naming convention,
-    * **[!UICONTROL Description]**: specify a description for the delivery,
-    * **[!UICONTROL Nature]**: specify the nature of the email for classification purposes.<!--The content of the list is defined in the delivery template selected when creating the email.-->
+   * **[!UICONTROL 내부 이름]**: 게재에 고유 식별자를 할당하고
+   * **[!UICONTROL 폴더]**: 게재를 특정 폴더에 저장,
+   * **[!UICONTROL 배달 코드]**: 이 필드를 사용하여 고유한 명명 규칙에 따라 게재를 구성할 수 있습니다.
+   * **[!UICONTROL 설명]**: 게재에 대한 설명을 지정합니다.
+   * **[!UICONTROL 자연]**: 분류 목적으로 이메일의 특성을 지정합니다.<!--The content of the list is defined in the delivery template selected when creating the email.-->
 
-    >[!NOTE]
-    >
-    >If you have extended your schema with specific custom fields, you can access them in the **[!UICONTROL Custom options]** section.
+   >[!NOTE]
+   >
+   >특정 사용자 지정 필드로 스키마를 확장한 경우, **[!UICONTROL 사용자 지정 옵션]** 섹션을 참조하십시오.
 
-    ![](assets/email-properties.png)
+   ![](assets/email-properties.png)
 
-    Additionally, advanced settings, such as typology rules and target mappings, can be accessed by clicking the button located next to the delivery name. These settings are pre-configured in the selected template, but can be edited as needed for this specific email.
+   또한 유형화 규칙 및 타겟 매핑과 같은 고급 설정은 게재 이름 옆에 있는 버튼을 클릭하여 액세스할 수 있습니다. 이러한 설정은 선택한 템플릿에서 미리 구성되지만 필요에 따라 특정 전자 메일에 대해 편집할 수 있습니다.
 
-## Create the email content {#create-content}
+## 이메일 콘텐츠 만들기 {#create-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
->title="Learn how to design your email content"
->abstract="Learn how to use the Email Designer."
+>title="이메일 콘텐츠를 디자인하는 방법 알아보기"
+>abstract="이메일 디자이너를 사용하는 방법을 알아보십시오."
 
-In this use case, you use a predefined template to design our email.
+이 사용 사례에서는 사전 정의된 템플릿을 사용하여 이메일을 디자인합니다.
 
-Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).
+전자 메일 콘텐츠를 구성하는 방법에 대한 자세한 지침은 [이 섹션](../content/edit-content.md).
 
-1. To start creating the email content, click the **[!UICONTROL Edit content]** button. 
+1. 전자 메일 콘텐츠 만들기를 시작하려면 **[!UICONTROL 컨텐츠 편집]** 버튼을 클릭합니다.
 
-   This brings you to a dedicated interface where you can configure the email content and design it using the Email Designer. 
+   이메일 콘텐츠를 구성하고 이메일 디자이너를 사용하여 디자인할 수 있는 전용 인터페이스로 이동합니다.
 
-    ![](assets/edit-content.png)
+   ![](assets/edit-content.png)
 
-1. Enter the subject line of your email and personalize it using the Expression Editor. [Learn how to personalize your content](../personalization/personalize.md)
+1. 이메일의 제목란을 입력하고 표현식 편집기를 사용하여 개인화합니다. [콘텐츠를 개인화하는 방법 알아보기](../personalization/personalize.md)
 
-    ![](assets/subject-line.png)
+   ![](assets/subject-line.png)
 
-1. To design the body of the email, click the **[!UICONTROL Edit email body]** button.
+1. 전자 메일 본문을 디자인하려면 **[!UICONTROL 이메일 본문 편집]** 버튼을 클릭합니다.
 
-    Choose the method to use to create your email content. In this example, use a predefined design template.
+   이메일 콘텐츠를 만드는 데 사용할 방법을 선택합니다. 이 예제에서는 사전 정의된 디자인 템플릿을 사용합니다.
 
-    ![](assets/select-template.png)
+   ![](assets/select-template.png)
 
 <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
@@ -85,116 +91,116 @@ Detailed instructions on how to configure the email content are available in [th
 
     ![](assets/import-folder.png)-->
 
-1. Once you have selected the template, it is displayed in the Email Designer, where you can make any necessary edits and add personalization.
+1. 템플릿을 선택하면 이메일 디자이너에 표시되며, 여기에서 필요한 편집 및 개인화를 추가할 수 있습니다.
 
-    For example, to add personalization to the email title, select the component block and click **[!UICONTROL Add Personalization]**.
+   예를 들어 이메일 제목에 개인화를 추가하려면 구성 요소 블록을 선택하고 **[!UICONTROL 개인화 추가]**.
 
-    ![](assets/add-perso.png)
+   ![](assets/add-perso.png)
 
-1. Once you are satisfied with the content, save and close your design. Click **[!UICONTROL Save]** to return to the email creation screen.
+1. 콘텐츠에 만족하면 디자인을 저장하고 닫습니다. 클릭 **[!UICONTROL 저장]** 전자 메일 만들기 화면으로 돌아갑니다.
 
-    ![](assets/save-content.png)
+   ![](assets/save-content.png)
 
-## Define the audience {#define-audience}
+## 대상자 정의 {#define-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
->title="Define the audience"
->abstract="Select the best audience for your marketing message. You can choose an existing audience already defined in a Campaign v8 instance or from Adobe Experience Platform, or you can create a new audience with the rule builder."
+>title="대상자 정의"
+>abstract="마케팅 메시지에 가장 적합한 대상을 선택합니다. Campaign v8 인스턴스나 Adobe Experience Platform에서 이미 정의된 기존 대상을 선택하거나, 규칙 빌더로 새 대상을 만들 수 있습니다."
 
-In this use case, you send the email to an existing audience. Additional instructions on how to work with audiences are available in [this section](../audience/about-audiences.md).
+이 사용 사례에서는 기존 대상자에게 이메일을 보냅니다. 대상 사용 방법에 대한 추가 지침은 [이 섹션](../audience/about-audiences.md).
 
-1. To select the audience for the email, click the **[!UICONTROL Select audience]** button and choose an existing audience from the list.
+1. 전자 메일 대상자를 선택하려면 **[!UICONTROL 대상 선택]** 버튼을 클릭하고 목록에서 기존 대상자를 선택합니다.
 
-    In this example, we want to use an existing audience targeting customers belonging to the silver and gold loyalty points levels.
+   이 예에서는 은 및 골드 충성도 포인트 수준에 속하는 고객을 타깃팅하는 기존 대상을 사용하려고 합니다.
 
-    ![](assets/create-audience.png)
+   ![](assets/create-audience.png)
 
-    >[!NOTE]
-    >
-    >Audiences available in the list originate either from your Campaign v8 instance or from Adobe Experience Platform if the Destination / Sources integration has been configured on your instance.
-    >
-    >The Destination / Sources integration allows you to send Experience Platform segments to Adobe Campaign, and to send Campaign delivery and tracking logs over to Adobe Experience Platform. [Learn how work with Campaign and Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
+   >[!NOTE]
+   >
+   >목록에서 사용할 수 있는 대상은 Campaign v8 인스턴스나 대상/소스 통합이 인스턴스에 구성된 경우 Adobe Experience Platform에서 가져옵니다.
+   >
+   >대상/소스 통합을 사용하면 Experience Platform 세그먼트를 Adobe Campaign에 보내고, 캠페인 게재 및 추적 로그를 Adobe Experience Platform에 보낼 수 있습니다. [Campaign과 Adobe Experience Platform을 함께 사용하는 방법 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
-1. Once the audience is selected, you can further refine the target by applying additional rules.
+1. 대상자를 선택하면 추가 규칙을 적용하여 타겟을 세분화할 수 있습니다.
 
-    You can also set a control group to analyze the behavior of the email recipients compared to those who were not targeted. [Learn how to work with control groups](../audience/control-group.md)
+   타겟팅되지 않은 사용자와 비교하여 전자 메일 수신자의 동작을 분석하도록 컨트롤 그룹을 설정할 수도 있습니다. [컨트롤 그룹 작업 방법 알아보기](../audience/control-group.md)
 
-    ![](assets/audience-selected.png)
+   ![](assets/audience-selected.png)
 
-## Schedule the sending {#schedule}
+## 전송을 예약합니다 {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
->title="Schedule the sending"
->abstract="Define the date and the exact time for your sending. By choosing the most appropriate time for your marketing message, you can maximise open rates."
+>title="전송을 예약합니다"
+>abstract="보내는 날짜와 시간을 정의합니다. 마케팅 메시지에 가장 적합한 시간을 선택하여 오픈율을 극대화할 수 있습니다."
 
-To schedule the sending of the email, click **[!UICONTROL Enable]** and set the desired date and time for sending. 
+전자 메일 전송을 예약하려면 를 클릭합니다. **[!UICONTROL 활성화]** 원하는 전송 날짜 및 시간을 설정합니다.
 
-By default, the **[!UICONTROL Confirm before sending]** option is enabled, requiring you to confirm the sending before the email is sent at the scheduled date and time. If you wish to send the email automatically on the scheduled date and time, you can disable this option.
+기본적으로 **[!UICONTROL 보내기 전 확인]** 옵션이 활성화되어 있으면 예약된 날짜 및 시간에 이메일을 전송하기 전에 전송을 확인해야 합니다. 예약된 날짜와 시간에 자동으로 이메일을 보내려면 이 옵션을 비활성화할 수 있습니다.
 
 ![](assets/schedule.png)
 
-## Preview and test the email {#preview-test}
+## 이메일 미리 보기 및 테스트 {#preview-test}
 
-Before sending your email, you can preview and test it to ensure it meets your expectations.
+전자 메일을 보내기 전에 미리 보고 테스트하여 본인의 기대에 부합하는지 확인할 수 있습니다.
 
-In this use case, you preview the email and send test versions to specific email addresses while impersonating some of the targeted profiles.
+이 사용 사례에서는 타겟팅된 프로필 중 일부를 가장하는 동안 이메일을 미리 보고 테스트 버전을 특정 이메일 주소로 보냅니다.
 
-Additional information on how to preview and test emails are available in [this section](../preview-test/preview-test.md).
+전자 메일을 미리 보고 테스트하는 방법에 대한 추가 정보는 [이 섹션](../preview-test/preview-test.md).
 
-1. To review and send the email, click **[!UICONTROL Review and send]**. This displays a preview of your email, along with al the configured properties, audience and schedule. You can edit any of these elements by clicking the modify button.
+1. 전자 메일을 검토하고 보내려면 **[!UICONTROL 검토 및 보내기]**. 구성된 모든 속성, 대상 및 일정과 함께 이메일 미리 보기가 표시됩니다. 수정 단추를 클릭하여 이러한 요소를 편집할 수 있습니다.
 
-1. To preview the email and send test verrsions, click the **[!UICONTROL Simulate content]** button. 
+1. 이메일을 미리 보고 테스트 버전을 보내려면 **[!UICONTROL 컨텐츠 시뮬레이션]** 버튼을 클릭합니다.
 
-    ![](assets/review-email.png)
+   ![](assets/review-email.png)
 
-1. On the left-hand side, select the profile(s) you want to use to preview the email.
+1. 왼쪽에서 이메일을 미리 보는 데 사용할 프로필을 선택합니다.
 
-    The right pane displays a preview of the email based on the selected profile. If you have added multiple profiles, you can switch between them to preview the corresponding email.
+   오른쪽 창에는 선택한 프로필을 기반으로 전자 메일의 미리 보기가 표시됩니다. 여러 개의 프로필을 추가한 경우 프로필 간을 전환하여 해당 이메일을 미리 볼 수 있습니다.
 
-    ![](assets/preview.png)
+   ![](assets/preview.png)
 
    <!-- !NOTE
     >
     >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering-->
 
-1. To send test versions of your email, click the **[!UICONTROL Test]** button then choose the mode you want to use.
+1. 전자 메일의 테스트 버전을 보내려면 **[!UICONTROL 테스트]** 그런 다음 사용할 모드를 선택합니다.
 
-    In this example, use the **[!UICONTROL Substitute from main target]** mode, which sends test versions to specific email addresses while impersonating some of the profiles targeted by the email.
+   이 예제에서는 **[!UICONTROL 기본 대상에서 대체]** 모드에서는 이메일에 타겟팅된 프로필 중 일부를 가장하는 동안 테스트 버전을 특정 이메일 주소로 보냅니다.
 
-    ![](assets/proof-mode.png)
+   ![](assets/proof-mode.png)
 
-1. Click **[!UICONTROL Add address]** and specify the email address(es) which receive the test versions.
+1. 클릭 **[!UICONTROL 주소 추가]** 및 테스트 버전을 받을 이메일 주소를 지정합니다.
 
-    For each email address, select the profile to impersonate. You can also let Adobe Campaign select a random profile from the target.
+   각 이메일 주소에 대해 가장할 프로필을 선택합니다. Adobe Campaign에서 타겟에서 임의의 프로필을 선택하도록 할 수도 있습니다.
 
-    ![](assets/proof-test-profile.png)
+   ![](assets/proof-test-profile.png)
 
-1. Click **[!UICONTROL Send test email ]** and confirm the sending.
+1. 클릭 **[!UICONTROL 테스트 전자 메일 보내기]** 전송을 확인합니다.
 
-    Test versions are sent to the specified email addresses using the selected profile with the **[Proof x]** prefix.
+   테스트 버전은 와 함께 선택한 프로필을 사용하여 지정된 이메일 주소로 전송됩니다 **[증명 x]** 접두사를 사용합니다.
 
-    ![](assets/proof-sent.png)
+   ![](assets/proof-sent.png)
 
-    You can check the status of the sending and access the sent test emails at any time by clicking the **[!UICONTROL View test email log]** button in the simulate content screen.
+   을(를) 클릭하여 언제든지 전송된 테스트 이메일에 전송 상태를 확인하고 액세스할 수 있습니다 **[!UICONTROL 테스트 전자 메일 로그 보기]** 단추 클릭.
 
-## Send and monitor the email {#prepare-send}
+## 이메일 보내기 및 모니터링 {#prepare-send}
 
-After reviewing and testing your email, you can launch its preparation and send it.
+이메일을 검토하고 테스트한 후 준비를 시작하고 보낼 수 있습니다.
 
-1. To launch the preparation of the email, click **[!UICONTROL Prepare]**. [Learn how to prepare an email](../monitor/prepare-send.md)
+1. 전자 메일 준비를 시작하려면 **[!UICONTROL 준비]**. [이메일 준비 방법 알아보기](../monitor/prepare-send.md)
 
-    ![](assets/preparation.png)
- 
-1. Once your email is ready to be sent, click the **[!UICONTROL Send]** button (or **[!UICONTROL Send as scheduled]** if you have scheduled its sending) and confirm the sending.
+   ![](assets/preparation.png)
 
-1. During the sending process, you can track its progress and view statistics in real-time directly in this screen.
+1. 전자 메일을 보낼 준비가 되면 **[!UICONTROL 보내기]** 버튼(또는 **[!UICONTROL 예약된 대로 보내기]** 전송을 예약한 경우) 및 전송을 확인합니다.
 
-    ![](assets/sent-mail.png)
+1. 전송 프로세스 중에 진행 상황을 추적하고 통계를 이 화면에서 직접 실시간으로 볼 수 있습니다.
 
-    You can also access detailed information on the sending by clicking the **[!UICONTROL Logs]** button. [Learn how to monitor delivery logs](../monitor/delivery-logs.md)     
+   ![](assets/sent-mail.png)
 
-1. After the email has been sent, you can access dedicated reports for further analysis by clicking the **[!UICONTROL Reporting]** button.
+   을 클릭하여 전송에 대한 세부 정보에 액세스할 수도 있습니다 **[!UICONTROL 로그]** 버튼을 클릭합니다. [게재 로그를 모니터링하는 방법 알아보기](../monitor/delivery-logs.md)
+
+1. 이메일이 전송되면 추가 분석을 위해 전용 보고서에 액세스할 수 있는 **[!UICONTROL 보고]** 버튼을 클릭합니다.
 
 ![](assets/reports.png)

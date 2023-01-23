@@ -1,56 +1,62 @@
 ---
 audience: end-user
-title: Personalize your email background
-description: Learn how to personalize your email background
+title: 이메일 배경 개인화
+description: 이메일 배경을 개인화하는 방법 알아보기
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '300'
+ht-degree: 0%
+
 ---
-# Personalize your email background {#backgrounds}
+
+# 이메일 배경 개인화 {#backgrounds}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
->title="Background settings"
->abstract="You can personalize the background color or background image for your content. Note that background image is not supported by all email clients." 
+>title="배경 설정"
+>abstract="콘텐츠의 배경색 또는 배경 이미지를 개인화할 수 있습니다. 모든 이메일 클라이언트는 배경 이미지를 지원하지 않습니다."
 
-When it comes to setting backgrounds with the Email Designer, Adobe recommends the following:
+이메일 디자이너를 사용하여 배경을 설정하는 방법은 다음과 같습니다.
 
-1. Apply a background color to the body of your email if required by your design.
-1. Usually, set background colors at the column level.
-1. Try not to use background colors on image or text components as they are difficult to manage.
+1. 디자인에 필요한 경우 이메일 본문에 배경색을 적용합니다.
+1. 일반적으로 열 수준에서 배경색을 설정합니다.
+1. 관리하기가 어려우므로 이미지 또는 텍스트 구성 요소에 배경색을 사용하지 마십시오.
 
-Below are the available background settings that you can use.
+다음은 사용할 수 있는 배경 설정입니다.
 
-* Set a **[!UICONTROL Background color]** for the whole email. Make sure you select the body settings in the navigation tree accessible from the left pane.
+* 설정 **[!UICONTROL 배경색]** 전체 이메일. 왼쪽 창에서 액세스할 수 있는 탐색 트리에서 본문 설정을 선택해야 합니다.
 
-  ![](assets/background_1.png)
+   ![](assets/background_1.png)
 
-* Set the same background color for all structure components by selecting **[!UICONTROL Viewport background color]**. This option enables you to select a different setting from the background color.
+* 모든 구조 구성 요소에 대해 동일한 배경색을 선택하고 **[!UICONTROL 뷰포트 배경색]**. 이 옵션을 사용하면 배경색에서 다른 설정을 선택할 수 있습니다.
 
-  ![](assets/background_2.png)
+   ![](assets/background_2.png)
 
-* Set a different background color for each structure component. Select a structure in the navigation tree on the left pane to apply a specific background color only to that structure.
+* 각 구조 구성 요소에 대해 다른 배경색을 설정합니다. 왼쪽 창의 탐색 트리에서 구조를 선택하여 해당 구조에만 특정 배경색을 적용합니다.
 
-  ![](assets/background_3.png)
+   ![](assets/background_3.png)
 
-  >[!NOTE]
-  >
-  >Make sure you do not set a viewport background color as it may hide the structure background colors.
+   >[!NOTE]
+   >
+   >구조 배경색을 숨길 수 있으므로 뷰포트 배경색을 설정하지 마십시오.
 
-* Set a **[!UICONTROL Background image]** for the content of a structure component.
+* 설정 **[!UICONTROL 배경 이미지]** 구조 구성 요소의 컨텐츠에 대해 설명합니다.
 
-  ![](assets/background_4.png)
+   ![](assets/background_4.png)
 
-  >[!NOTE]
-  >
-  >Some email programs do not support background images. When not supported, the row background color is used instead. Make sure you select an appropriate fallback background color in case the image cannot be displayed.
+   >[!NOTE]
+   >
+   >일부 이메일 프로그램은 배경 이미지를 지원하지 않습니다. 지원되지 않는 경우 행 배경색이 대신 사용됩니다. 이미지를 표시할 수 없는 경우 적절한 대체 배경색을 선택해야 합니다.
 
-* Set a background color at the column level.
+* 열 수준에서 배경색을 설정합니다.
 
-  ![](assets/background_5.png)
+   ![](assets/background_5.png)
 
-  >[!NOTE]
-  >
-  >This is the most common use case. Adobe recommends setting background colors at the column level as this allows for more flexibility when editing the whole email content.
+   >[!NOTE]
+   >
+   >가장 일반적인 사용 사례입니다. Adobe은 전체 이메일 콘텐츠를 편집할 때 보다 유연하게 계산할 수 있도록 열 수준에서 배경색을 설정하는 것이 좋습니다.
 
-  You can also set a background image at the column level, but this is rarely used.
+   열 수준에서 배경 이미지를 설정할 수도 있지만 거의 사용되지 않습니다.

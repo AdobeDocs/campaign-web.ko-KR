@@ -1,88 +1,94 @@
 ---
 audience: end-user
-title: Set a control group
-description: Learn how to set a control group for your messages in Campaign Web UI
+title: 컨트롤 그룹 설정
+description: Campaign Web UI에서 메시지에 대한 컨트롤 그룹을 설정하는 방법을 알아봅니다
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '525'
+ht-degree: 26%
+
 ---
-# Set a control group {#control-group}
 
-You can use control groups to avoid sending messages to a portion of your audience in order to measure the impact of your campaigns.
+# 컨트롤 그룹 설정 {#control-group}
 
-To do this, create a control group when defining the audience of your delivery. Profiles are added to the control group randomly, filtered or not, or based on criteria. You can then compare the behavior of the target population which did receive the message with the behavior of contacts which were not targeted. 
+캠페인의 영향을 측정하기 위해 컨트롤 그룹을 사용하여 대상의 일부에 메시지를 보내지 않아도 됩니다.
 
-The control group can be extracted randomly from the main target and/or selected from a specific population. Consequently, there are two main ways you can define a control group:
+이렇게 하려면 게재 대상자를 정의할 때 컨트롤 그룹을 만듭니다. 프로필은 임의로, 필터링 여부에 따라, 또는 기준에 따라 컨트롤 그룹에 추가됩니다. 그런 다음 메시지를 받은 대상 모집단과 타겟팅되지 않은 연락처의 동작을 비교할 수 있습니다.
 
-* Extract a number of profiles from the main target.
-* Exclude some profiles based on criteria defined in a query.
+컨트롤 그룹은 기본 대상에서 임의로 추출하거나 특정 모집단에서 선택할 수 있습니다. 따라서 컨트롤 그룹을 정의하는 방법에는 두 가지가 있습니다.
 
-You can use both methods when defining a control group.
+* 기본 타겟에서 프로필을 몇 개 추출합니다.
+* 쿼리에 정의된 기준을 기반으로 일부 프로필을 제외합니다.
 
-All profiles being part of the control group at the delivery preparation step are removed from the main target. They do not receive the message.
+컨트롤 그룹을 정의할 때 두 가지 방법을 모두 사용할 수 있습니다.
 
-To create a control group, click the **[!UICONTROL Set Control Group]** button, from the **Audience** section of the delivery creation assistant.
+게재 준비 단계에서 컨트롤 그룹에 속한 모든 프로필은 기본 대상에서 제거됩니다. 메시지가 수신되지 않습니다.
+
+컨트롤 그룹을 만들려면 **[!UICONTROL 컨트롤 그룹 설정]** 버튼, **Audience** 게재 만들기 도우미의 섹션을 참조하십시오.
 
 ![](assets/control-group1.png)
 
-## Extract from target {#extract-target}
+## 대상에서 추출 {#extract-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
->title="Extract from target"
+>title="대상에서 추출"
 >abstract="TBC"
 
-To define a control group, you can choose to extract, randomly or based on a sorting, a percentage or a fixed number of profiles from the target population.
+컨트롤 그룹을 정의하려면, 임의로 또는 대상 모집단에서 정렬, 백분율 또는 고정된 수의 프로필을 추출하도록 선택할 수 있습니다.
 
-First, define the way the profiles are e extracted from the target: randomly or based on a sorting.
+먼저 대상에서 프로필을 추출하는 방법을 정의합니다. 임의로 또는 정렬을 기준으로 합니다.
 
-Under the **Extract from target** section, choose an **Exclusion type**:
+아래에 **대상에서 추출** 섹션에서 **제외 유형**:
 
-* **Random**: when preparing the delivery, Adobe Campaign  randomly extracts a number of profiles corresponding to the percentage or to the maximum number that is set as the size limit.
+* **Random**: 게재를 준비할 때, Adobe Campaign은 백분율이나 크기 제한으로 설정된 최대 수에 해당하는 여러 개의 프로필을 임의로 추출합니다.
 
-    ![](assets/control-group.png)
+   ![](assets/control-group.png)
 
-* **Ranked by attribute(s)**: this option enables you to exclude a set of profiles based on specific attribute(s) in a specific sorting order(s).
+* **속성별 등급**: 이 옵션을 사용하면 특정 정렬 순서에서 특정 속성에 따라 프로필 세트를 제외할 수 있습니다.
 
-    ![](assets/control-group2.png)
+   ![](assets/control-group2.png)
 
-Then define the **Size limit**: you must set how you are going to limit the number of profiles that you extract from the main target. 
+그런 다음 을(를) 정의합니다 **크기 제한**: 기본 대상에서 추출하는 프로필 수를 제한하는 방법을 설정해야 합니다.
 
-**Example**
+**예제**
 
-You can view the logs to check and identify the exluded profiles. Let's take the example of a random exclusion on five profiles.
+로그를 보고 제외된 프로필을 확인하고 식별할 수 있습니다. 다섯 개의 프로필에 대한 임의 제외 예를 살펴보겠습니다.
 
 ![](assets/control-group4.png)
 
-After the delivery preparation, you can view the exclusions on the following screens:
+게재를 준비한 후 다음 화면에서 제외를 볼 수 있습니다.
 
-* The **To exclude** KPI in the delivery dashboard, before the sending.
+* 다음 **제외하려면** 전송 전 게재 대시보드의 KPI입니다.
 
-    ![](assets/control-group5.png)
+   ![](assets/control-group5.png)
 
-* The **Exclusion logs** display each profile and the related exclusion **Reason**.
+* 다음 **제외 로그** 각 프로필 및 관련 제외 표시 **이유**.
 
-    ![](assets/control-group6.png)
+   ![](assets/control-group6.png)
 
-* The **Exclusion causes** display the number of excluded profile for each typology rule.
+* 다음 **제외 원인** 각 유형화 규칙에 대해 제외된 프로필 수를 표시합니다.
 
-    ![](assets/control-group7.png)
+   ![](assets/control-group7.png)
 
-For more information on delivery logs, refer to this [section](../monitor/delivery-logs.md).
+게재 로그에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../monitor/delivery-logs.md).
 
-## Extra population {#extra-population}
+## 추가 모집단 {#extra-population}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
->title="Extra population"
+>title="추가 모집단"
 >abstract="TBC"
 
-Another way to define a control group is to exclude a specific population from the target using an existing audience or by defining a query.
+컨트롤 그룹을 정의하는 또 다른 방법은 기존 대상자를 사용하거나 쿼리를 정의하여 특정 모집단을 대상에서 제외하는 것입니다.
 
-From the **Extra population** section of the **Control Group** definition screen, click the **[!UICONTROL Select Audience]** button.
+에서 **추가 모집단** 섹션 **컨트롤 그룹** 정의 화면에서 **[!UICONTROL 대상 선택]** 버튼을 클릭합니다.
 
 ![](assets/control-group3.png)
 
-* To use an existing audience, click **Select audience**. Refer to this [section](add-audience.md). 
+* 기존 대상자를 사용하려면 **대상 선택**. 다음을 참조하십시오 [섹션](add-audience.md).
 
-* To define a new query, select **Create your own** and define the exclusion criteria using the rule builder. Refer to this [section](segment-builder.md). 
+* 새 쿼리를 정의하려면 **직접 만들기** 및 규칙 빌더를 사용하여 제외 기준을 정의합니다. 다음을 참조하십시오 [섹션](segment-builder.md).
 
-The profiles included in the audience or matching the result of the query are excluded from the target.
+대상에 포함되거나 쿼리 결과와 일치하는 프로필은 대상에서 제외됩니다.

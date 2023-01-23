@@ -1,101 +1,107 @@
 ---
 audience: end-user
-title: Track your messages
-description: Learn how to add links and track sent messages
+title: 메시지 추적
+description: 링크를 추가하고 보낸 메시지를 추적하는 방법을 알아봅니다
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '548'
+ht-degree: 1%
+
 ---
-# Add links and track messages {#tracking}
+
+# 링크 추가 및 메시지 추적 {#tracking}
 
 ![](../assets/do-not-localize/badge.png)
 
-Use the Email designer to add links to your content and track the messages sent in order to monitor the behavior of your recipients.
+수신자의 동작을 모니터링하기 위해 이메일 디자이너를 사용하여 컨텐츠에 링크를 추가하고 메시지를 추적합니다.
 
-## Insert links {#insert-links}
+## 링크 삽입 {#insert-links}
 
-When designing a message, you can add links to your content.
-
->[!NOTE]
->
->When tracking is enabled, all links included in the message content are tracked.
-
-To insert links into your email content, follow the steps below:
-
-1. Select an element and click **[!UICONTROL Insert link]** from the contextual toolbar.
-
-    ![](assets/message-tracking-insert-link.png)
-
-1. Add a **[!UICONTROL Label]** and a **[!UICONTROL Link]**.
-
-1. Save your changes.
-
-1. Once the link is created, you can still modify it from the **[!UICONTROL Component settings]** pane on the right. 
-
-    * You can edit the link and change its **[!UICONTROL Target]**.
-    * You can choose to underline the link or not by checking the corresponding option.
-
-    ![](assets/message-tracking-link-settings.png)
+메시지를 디자인할 때 콘텐츠에 링크를 추가할 수 있습니다.
 
 >[!NOTE]
 >
->Marketing-type email messages must include an opt-out link, which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the channel surface (i.e. message preset) level and when creating the message.
+>추적이 활성화되면 메시지 콘텐츠에 포함된 모든 링크가 추적됩니다.
 
-## Link to a mirror page {#mirror-page}
+이메일 콘텐츠에 링크를 삽입하려면 아래 단계를 수행하십시오.
 
-The mirror page is an HTML page accessible online via a web browser. Its content is identical to the content of your email.
+1. 요소를 선택하고 를 클릭합니다 **[!UICONTROL 링크 삽입]** 상황별 도구 모음
 
-To add a link to a mirror page in your email:
+   ![](assets/message-tracking-insert-link.png)
 
-1. Select an element and click **[!UICONTROL Insert link]** from the contextual toolbar.
+1. 추가 **[!UICONTROL 레이블]** 그리고 **[!UICONTROL 링크]**.
 
-    ![](assets/message-tracking-mirror-page.png)
+1. 변경 내용을 저장합니다.
 
-1. Select the **[!UICONTROL Insert link]** icon to access the personalization menu.
+1. 링크가 만들어지더라도 **[!UICONTROL 구성 요소 설정]** 오른쪽 창입니다.
 
-    ![](assets/message-tracking-mirror-page_2.png)
+   * 링크를 편집하고 링크를 변경할 수 있습니다 **[!UICONTROL Target]**.
+   * 해당 옵션을 선택하여 링크에 밑줄을 긋도록 선택할 수 있습니다.
 
-1. From the **[!UICONTROL Content block]** menu, select **[!UICONTROL Mirror page URL]** and click **[!UICONTROL Add]**.
+   ![](assets/message-tracking-link-settings.png)
 
-    ![](assets/message-tracking-mirror-page_3.png)
+>[!NOTE]
+>
+>마케팅 유형 이메일 메시지에는 옵트아웃 링크가 포함되어야 하며, 이것은 트랜잭션 메시지에 필요하지 않습니다. 메시지 카테고리(**[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**)은 채널 표면(즉, 메시지 사전 설정) 수준에서 정의되며 메시지를 만들 때 정의됩니다.
 
-The mirror page is automatically created.
+## 미러 페이지에 대한 링크 {#mirror-page}
+
+미러 페이지는 웹 브라우저를 통해 온라인으로 액세스할 수 있는 HTML 페이지입니다. 콘텐츠는 전자 메일의 콘텐츠와 동일합니다.
+
+이메일의 미러 페이지에 대한 링크를 추가하려면 다음을 수행합니다.
+
+1. 요소를 선택하고 를 클릭합니다 **[!UICONTROL 링크 삽입]** 상황별 도구 모음
+
+   ![](assets/message-tracking-mirror-page.png)
+
+1. 을(를) 선택합니다 **[!UICONTROL 링크 삽입]** 아이콘을 클릭하여 개인화 메뉴에 액세스합니다.
+
+   ![](assets/message-tracking-mirror-page_2.png)
+
+1. 에서 **[!UICONTROL 콘텐츠 블록]** 메뉴, 선택 **[!UICONTROL 미러 페이지 URL]** 을(를) 클릭합니다. **[!UICONTROL 추가]**.
+
+   ![](assets/message-tracking-mirror-page_3.png)
+
+미러 페이지가 자동으로 생성됩니다.
 
 >[!IMPORTANT]
 >
->Mirror pages links are auto-generated and cannot be edited. They contain all the encrypted personalized data that is required to render the original email. As a result, using personalised attributes with large values may generate lengthy mirror pages URLs, which can prevent the link from working in web browsers that have a maximum URLs length.
+>미러 페이지 링크는 자동으로 생성되므로 편집할 수 없습니다. 여기에는 원본 이메일을 렌더링하는 데 필요한 암호화된 개인화된 데이터가 모두 포함됩니다. 따라서 값이 큰 개인화된 속성을 사용하면 긴 미러 페이지 URL이 생성되므로 링크가 최대 URL 길이를 갖는 웹 브라우저에서 작동하지 않을 수 있습니다.
 
-Once the email is sent, when the recipients click the mirror page link, the content of the email is displayed in their default web browser.
+전자 메일이 전송되면 수신자가 미러 페이지 링크를 클릭하면 전자 메일의 컨텐츠가 기본 웹 브라우저에 표시됩니다.
 
 >[!NOTE]
 >
->In the test email sent to the test profiles, the link to the mirror page is not active. It is only activated in the final messages.
+>테스트 프로필로 보낸 테스트 이메일에서 미러 페이지에 대한 링크가 활성화되지 않습니다. 최종 메시지에서만 활성화됩니다.
 
-The retention period for a mirror page is 60 days. After that delay, the mirror page is no longer available.
+미러 페이지의 보존 기간은 60일입니다. 이후 미러 페이지를 더 이상 사용할 수 없습니다.
 
-## Manage tracking {#manage-tracking}
+## 추적 관리 {#manage-tracking}
 
-The [Email Designer](create-email-content.md) allows you to manage the tracked URLs, such as editing the tracking type for each link.
+다음 [이메일 디자이너](create-email-content.md) 각 링크에 대한 추적 유형 편집과 같이 추적된 URL을 관리할 수 있습니다.
 
-1. Click the **[!UICONTROL Links]** icon from the left pane to display the list of all the URLs of your content to be tracked.
+1. 을(를) 클릭합니다. **[!UICONTROL 링크]** 아이콘을 클릭하여 추적할 컨텐츠의 모든 URL 목록을 표시합니다.
 
-    This list enables you to have a centralized view and to locate each URL in the email content.
+   이 목록을 사용하면 중앙 집중식 보기를 사용하고 이메일 콘텐츠에서 각 URL을 찾을 수 있습니다.
 
-1. To edit a link, click the corresponding pencil icon.
+1. 링크를 편집하려면 해당 연필 아이콘을 클릭합니다.
 
-    ![](assets/message-tracking-edit-links.png)
+   ![](assets/message-tracking-edit-links.png)
 
-1. You can modify the **[!UICONTROL Tracking Type]** if needed:
+1. 을 수정할 수 있습니다 **[!UICONTROL 추적 유형]** 필요한 경우:
 
    ![](assets/message-tracking-edit-a-link.png)
 
-    For each tracked URL, you can set the tracking mode to one of these values:
+   추적된 각 URL에 대해 추적 모드를 다음 값 중 하나로 설정할 수 있습니다.
 
-    * **[!UICONTROL Tracked]**: Activates tracking on this URL.
-    * **[!UICONTROL Opt out]**: Considers this URL as an opt-out or unsubscription URL.
-    * **[!UICONTROL Mirror page]**: Considers this URL is a mirror page URL.
-    * **[!UICONTROL Never]**: Never activates tracking of this URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL 추적됨]**: 이 URL에서 추적을 활성화합니다.
+   * **[!UICONTROL 옵트아웃]**: 이 URL을 옵트아웃 또는 구독 취소 URL로 간주합니다.
+   * **[!UICONTROL 미러 페이지]**: 이 URL이 미러 페이지 URL인 것으로 간주합니다.
+   * **[!UICONTROL 절대 안 함]**: 이 URL의 추적을 활성화하지 않습니다. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-1. Add a **[!UICONTROL Category]** to your link to group tracked links and click **[!UICONTROL Save]**.
+1. 추가 **[!UICONTROL 카테고리]** 추적된 링크를 그룹화하기 위한 링크로 이동하여 **[!UICONTROL 저장]**.
 
-    ![](assets/message-tracking-edit-a-link_2.png)
+   ![](assets/message-tracking-edit-a-link_2.png)
 
-1. After sending your delivery, access your delivery report. Under the **[!UICONTROL Tracking]** menu, the **[!UICONTROL URLs and click streams]** report displays which URLs from your delivery are the most visited. [Learn more](../reporting/reports.md)
+1. 게재를 보낸 후 게재 보고서에 액세스합니다. 아래에 **[!UICONTROL 추적]** 메뉴, **[!UICONTROL URL 및 클릭 스트림]** 보고서는 게재 중 가장 많이 방문한 URL을 표시합니다. [자세히 알아보기](../reporting/reports.md)

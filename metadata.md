@@ -5,11 +5,17 @@ solution: Campaign
 product: adobe campaign-web
 feature-set: Campaign
 type: Documentation
-hide: yes
+hide: true
+source-git-commit: d9b053519a1d01a36a524b3fc48a9e37b2817f5b
+workflow-type: tm+mt
+source-wordcount: '61'
+ht-degree: 100%
+
 ---
 
-# Metadata for internal use
 
-The metadata.md file includes repo-level metadata that passes through to user guide TOC.md files in the repo. If you want to change metadata.md content for any user guide, do so in any TOC.md file.
+# 내부 사용을 위한 메타데이터
 
-See [Metadata](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=en) for a list of valid values for **solution**, **product**, and **type**.
+metadata.md 파일에는 리포지토리에서 사용 안내서 TOC.md 파일로 전달하는 리포지토리 수준의 메타데이터가 포함되어 있습니다. 사용 안내서의 metadata.md 콘텐츠를 변경하려면 TOC.md 파일에서 변경합니다.
+
+**솔루션**, **제품** 및 **유형**&#x200B;에 대한 유효한 값 목록은 [메타데이터](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=ko)를 참조하십시오.

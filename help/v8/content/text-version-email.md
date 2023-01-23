@@ -1,35 +1,42 @@
 ---
 audience: end-user
-title: Create the text version of an email
-description: Learn how to create the text version of an email
+title: 이메일의 텍스트 버전 만들기
+description: 이메일의 텍스트 버전을 만드는 방법을 알아봅니다
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 0%
+
 ---
-# Create the text version of an email {#text-version-email}
+
+# 이메일의 텍스트 버전 만들기 {#text-version-email}
 
 ![](../assets/do-not-localize/badge.png)
 
-It is recommended to create a text version of your email body, which is used when HTML content cannot be displayed. 
+HTML 콘텐츠를 표시할 수 없을 때 사용되는 이메일 본문의 텍스트 버전을 만드는 것이 좋습니다.
 
-By default, the Email Designer creates a **[!UICONTROL Plain text]** version of your email, including personalization fields. This  version is automatically generated and synchronized with the HTML version of your content.
+기본적으로 이메일 디자이너는 **[!UICONTROL 일반 텍스트]** 개인화 필드를 포함한 이메일 버전입니다. 이 버전은 자동으로 생성되어 컨텐츠의 HTML 버전과 동기화됩니다.
 
-If you prefer using a different content for the plain text version, follow the steps below:
+일반 텍스트 버전에 다른 콘텐츠를 사용하려면 아래 단계를 따르십시오.
 
-1. From your email, select the **[!UICONTROL Plain text]** tab.
+1. 이메일에서 **[!UICONTROL 일반 텍스트]** 탭.
 
-    ![](assets/text_version_3.png)
+   ![](assets/text_version_3.png)
 
-1. Use the **[!UICONTROL Sync with HTML]** toggle to disable synchronization.
+1. 를 사용하십시오 **[!UICONTROL HTML과 동기화]** 동기화를 사용하지 않도록 설정하려면 전환합니다.
 
-    ![](assets/text_version_1.png)
+   ![](assets/text_version_1.png)
 
-1. Click the check mark to confirm your choice.
+1. 선택 내용을 확인하려면 확인 표시를 클릭합니다.
 
-    ![](assets/text_version_2.png)
+   ![](assets/text_version_2.png)
 
-1. You can then edit the plain text version as desired.
+1. 그런 다음 일반 텍스트 버전을 원하는 대로 편집할 수 있습니다.
 
 >[!CAUTION]
 >
->* Changes made in **[!UICONTROL Plain text]** view are not reflected in HTML view.
+>* 의 변경 사항 **[!UICONTROL 일반 텍스트]** 보기는 HTML 보기에 반영되지 않습니다.
 >
->*  If you re-enable the **[!UICONTROL Sync with HTML]** option  after updating your plain text content, your changes are lost, and replaced with text content generated from the HTML version.
+>* 를 다시 활성화하면 **[!UICONTROL HTML과 동기화]** 일반 텍스트 컨텐츠를 업데이트하면 변경 사항이 유실되고 HTML 버전에서 생성된 텍스트 컨텐츠로 교체됩니다.
+

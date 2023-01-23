@@ -1,17 +1,23 @@
 ---
 audience: end-user
-title: Prepare and send an email
-description: Learn how to prepare and send an email with Campaign Web UI
+title: 이메일 준비 및 보내기
+description: Campaign Web UI를 사용하여 전자 메일을 준비하고 전송하는 방법을 알아봅니다
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '546'
+ht-degree: 4%
+
 ---
-# Prepare and send your email {#prepare-send}
+
+# 이메일 준비 및 보내기 {#prepare-send}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
->title="Prepare and send your email"
->abstract="Discover how to prepare your email and learn more about sending KPIs."
+>title="이메일 준비 및 보내기"
+>abstract="이메일을 준비하는 방법과 KPI 보내기에 대한 자세한 내용을 알아봅니다."
 
 <!--
 
@@ -26,66 +32,66 @@ exclusion logs, causes
 send also KPIs
 -->
 
-## Prepare the send{#prepare}
+## 보내기 준비{#prepare}
 
-When you have defined your content, audience and schedule, you're ready to prepare your message. During the preparation, the target population is calculated and the message content generated for each profile included in the target. Once the preparation is finished, the messages are ready to be sent, either immediately or at the scheduled date and time. The validation rules used during analysis are described in the [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}.
+콘텐츠, 대상자 및 일정을 정의하면 메시지를 준비할 수 있습니다. 준비 중에 대상 모집단을 계산하고 대상에 포함된 각 프로필에 대해 생성된 메시지 콘텐츠를 생성합니다. 준비가 완료되면 즉시 또는 예약된 날짜와 시간에 메시지를 보낼 수 있습니다. 분석 중에 사용되는 검증 규칙은 [Campaign Classic v7 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}.
 
-Follow the steps below: 
+아래의 단계를 수행하십시오.
 
-1. From the delivery dashboard, click the **Prepare** button located in the top right corner and confirm.
+1. 게재 대시보드에서 **준비** 오른쪽 상단 모서리에 있는 버튼을 확인하고 확인합니다.
 
-    ![](assets/prepare.png)
+   ![](assets/prepare.png)
 
-   The preparation progress is displayed. Depending on the size of the targeted population, this operation may take some time.
+   준비 진행률이 표시됩니다. 타겟팅된 모집단의 크기에 따라 이 작업은 시간이 좀 걸릴 수 있습니다.
 
-    >[!NOTE]
-    >
-    >You can stop the preparation at any time using the **Stop preparation** button. During the preparation phase, no messages are sent. You can therefore start or stop this without risk of impacting anything.
+   >[!NOTE]
+   >
+   >언제든지 **준비 중지** 버튼을 클릭합니다. 준비 단계 동안 메시지가 전송되지 않습니다. 따라서 어떤 것이든 영향을 주지 않고 이 작업을 시작하거나 중지할 수 있습니다.
 
-1. When the preparation is finished, check the KPIs. If the number of messages to send does not match your expectations, modify your audience and restart the preparation. 
+1. 준비가 완료되면 KPI를 확인합니다. 전송할 메시지 수가 예상과 일치하지 않는 경우 대상을 수정하고 준비를 다시 시작하십시오.
 
-    ![](assets/prepare2.png)
-    
-    Here are the different KPIs displayed:
+   ![](assets/prepare2.png)
 
-    * **Targeted**: the number of recipients targeted
-    * **To deliver**: the number of messages that will be sent 
-    * **To exclude**: the number of messages excluded by a typology rule
+   다음은 다른 KPI입니다.
 
-1. Click the **Logs** button and check that there is no error. The last log message displays any error messages and the number of errors. For more on this, see this [section](delivery-logs.md).
+   * **타깃팅됨**: 타겟팅된 수신자 수
+   * **게재하려면**: 전송할 메시지 수
+   * **제외하려면**: 유형화 규칙에 의해 제외된 메시지 수
 
-    ![](assets/prepare-logs.png)
+1. 을(를) 클릭합니다. **로그** 버튼을 클릭하고 오류가 없는지 확인합니다. 마지막 로그 메시지에는 오류 메시지와 오류 수가 표시됩니다. 자세한 내용은 이 [섹션](delivery-logs.md)을 참조하십시오.
 
-If the preparation detects a critical error preventing the delivery from being sent, the preparation status appears as failed in the delivery dashboard.
+   ![](assets/prepare-logs.png)
+
+준비에서 게재를 보낼 수 없는 중요한 오류를 발견하면 게재 대시보드에 준비 상태가 실패로 표시됩니다.
 
 ![](assets/prepare-error.png)
 
-If you need to make any changes to your delivery after the preparation, you need to restart the preparation for those changes to be taken into account. 
+준비 후에 게재를 변경해야 하는 경우, 이러한 변경 사항을 고려하여 준비를 다시 시작해야 합니다.
 
-Once the preparation is complete with no error, your message is ready to be sent. For more on this, see this [section](#send).
+준비가 오류 없이 완료되면 메시지를 보낼 수 있습니다. 자세한 내용은 이 [섹션](#send)을 참조하십시오.
 
-## Send the message{#send}
+## 메시지 보내기{#send}
 
-Once the preparation is complete, you can now send your message. This step is only required for messages sent immediately. If the message is scheduled, it is sent at the defined date. 
+준비가 완료되면 이제 메시지를 보낼 수 있습니다. 이 단계는 즉시 전송된 메시지에만 필요합니다. 메시지를 예약하면 정의된 날짜에 전송됩니다.
 
-Follow these steps:
+다음 단계를 수행합니다.
 
-1. From the delivery dashboard, click the **Send** button in the top right corner and confirm.
+1. 게재 대시보드에서 **보내기** 오른쪽 상단 모서리의 단추를 클릭하고 확인합니다.
 
-    ![](assets/send.png)
+   ![](assets/send.png)
 
-1. The sending progress is displayed. Check the KPIs displayed. You can also check the logs. For more on this, see this [section](delivery-logs.md).
+1. 전송 진행 상태가 표시됩니다. 표시되는 KPI를 확인합니다. 로그를 확인할 수도 있습니다. 자세한 내용은 이 [섹션](delivery-logs.md)을 참조하십시오.
 
-    ![](assets/send2.png)
+   ![](assets/send2.png)
 
-    Here are the different KPIs displayed:
+   다음은 다른 KPI입니다.
 
-    * **Delivered**: the number of messages successfully delivered. The percentage displayed is based on the total number of sent messages.
-    * **Opens**: the number of opened messages. The percentage displayed is the ratio of the number of distinct opens compared with the number of delivered messages.
-    * **Clicks**: the number of recipient who clicked at least once in the email. The percentage displayed is the ratio of the number of distinct clicks compared with the number of delivered messages.
+   * **배달됨**: 배달된 메시지 수입니다. 표시되는 백분율은 총 보낸 메시지 수를 기반으로 합니다.
+   * **열기**: 열린 메시지 수입니다. 표시된 백분율은 게재된 메시지 수와 비교하여 개별적인 열기 수입니다.
+   * **클릭 수**: 이메일에서 최소 한 번 이상 클릭한 수신자 수입니다. 표시된 백분율은 게재된 메시지 수와 비교하여 개별적인 클릭 수의 비율입니다.
 
-    >[!NOTE]
-    >
-    >The **Opens** and **Clicks** indicators are updated after 5 minutes.  
+   >[!NOTE]
+   >
+   >다음 **열기** 및 **클릭 수** 표시기는 5분 후에 업데이트됩니다.
 
-   You can pause the sending at any time and then resume. If you stop the delivery while it is being sent, you cannot resume.
+   언제든지 전송을 일시 중지한 다음 다시 시작할 수 있습니다. 전송 중에 게재를 중지하면 다시 시작할 수 없습니다.

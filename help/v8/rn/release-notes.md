@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign Web v8 릴리스 노트
 description: Campaign Web v8 릴리스 노트
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 54bcb9b0ba8704cde8beaf1b0400eaa01bba0b15
+source-git-commit: 5b552f038413cc2624adef6c76d3f69d56eb18ee
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,8 @@ add info somewhere to remind users that
 * they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
 -->
 
->[!NOTE]
->
->크로스 채널 캠페인 및 워크플로우 관리 기능은 베타 릴리스에서 제공될 예정입니다.
 
-## 용어 업데이트
+## 용어 업데이트{#terminology-updates}
 
 기존 Campaign 사용자로서 일부 개념은 최신 용어 표준에 맞게 이름이 변경되었습니다. 이러한 변경 사항은 Campaign Web UI에만 적용되며 클라이언트 콘솔에 반영되지 않습니다. 요약되어 있습니다.
 
@@ -62,3 +59,17 @@ add info somewhere to remind users that
 * 이제 게재 분석입니다 **게재 준비**. 분석을 실행해야 하는 경우 **준비** 버튼
 * 이제 이메일 미리 보기를 **컨텐츠 시뮬레이션** 버튼
 * 이제 목록이 표시됩니다. **대상**
+
+## 제한 사항{#limitations-alpha}
+
+크로스 채널 캠페인 및 워크플로우 관리와 같은 일부 Campaign 주요 기능은 베타 릴리스에서 제공될 예정입니다.
+
+아래 제한 사항은 이 알파 버전에 적용됩니다.
+
+* 편집 가능한 개체는 게재뿐입니다. 다른 항목은 읽기 전용입니다. 필터를 사용하여 모든 필터를 찾아봅니다.
+* 이 버전은 일회용 이메일 캠페인용으로 설계되었습니다. 다른 채널은 아직 지원되지 않습니다.
+* 관리 사용자 인터페이스를 사용할 수 없습니다.
+* 보고 지표(예: 열기 및 추적 데이터)는 한 시간마다 업데이트됩니다.
+* 게재 대시보드 KPI는 5분마다 업데이트됩니다. - 하지만 게재 준비는 실시간으로 수행됩니다.
+* 상단 막대에서 사용할 수 있는 Adobe Experience Cloud 알림 및 통합 도움말은 아직 통합되지 않았습니다.
+

@@ -3,9 +3,9 @@ audience: end-user
 title: 이메일 준비 및 보내기
 description: Campaign Web UI를 사용하여 전자 메일을 준비하고 전송하는 방법을 알아봅니다
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 1a7ed05b974e72b76cf8a48e36ae86bd166db048
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '648'
 ht-degree: 4%
 
 ---
@@ -72,6 +72,22 @@ send also KPIs
 
 ## 메시지 보내기{#send}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_delivered"
+>title="전달됨"
+>abstract="배달된 메시지 수입니다. 이 표시기는 5분마다 업데이트됩니다. 표시되는 백분율은 총 보낸 메시지 수를 기반으로 합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_opens"
+>title="오픈율"
+>abstract="열린 메시지 수입니다. 이 표시기는 5분마다 업데이트됩니다. 표시된 백분율은 게재된 메시지 수와 비교하여 개별적인 열기 수입니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_clicks"
+>title="클릭 수"
+>abstract="이메일에서 최소 한 번 이상 클릭한 수신자 수입니다. 이 표시기는 5분마다 업데이트됩니다. 표시된 백분율은 게재된 메시지 수와 비교하여 개별적인 클릭 수의 비율입니다."
+
+
 준비가 완료되면 이제 메시지를 보낼 수 있습니다. 이 단계는 즉시 전송된 메시지에만 필요합니다. 메시지를 예약하면 정의된 날짜에 전송됩니다.
 
 다음 단계를 수행합니다.
@@ -92,6 +108,6 @@ send also KPIs
 
    >[!NOTE]
    >
-   >다음 **열기** 및 **클릭 수** 표시기는 5분 후에 업데이트됩니다.
+   >게재 시작 후 5분마다 모든 표시기가 업데이트됩니다. 게재 준비 지표는 실시간으로 표시됩니다.
 
    언제든지 전송을 일시 중지한 다음 다시 시작할 수 있습니다. 전송 중에 게재를 중지하면 다시 시작할 수 없습니다.

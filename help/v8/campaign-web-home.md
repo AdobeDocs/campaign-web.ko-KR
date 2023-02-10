@@ -3,7 +3,7 @@ keywords: Campaign Web;home;popular topics
 description: Campaign Web v8 도움말 센터
 title: Adobe Campaign Web v8 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: 42d28b988444c9a6dc7b816485fa28bbe6cda5ca
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 9%
@@ -41,7 +41,7 @@ ht-degree: 9%
 <p></td>
 <td>
 <a href="audience/about-audiences.md">
-<img alt="대상자" src="assets/do-not-localize/email-opt-out.jpg">
+<img alt="대상자" src="assets/do-not-localize/email-audience.jpg">
 </a>
 <div>
 <a href="audience/about-audiences.md"><strong>대상자 선택</strong></a>
@@ -50,7 +50,7 @@ ht-degree: 9%
 </td>
 <td>
 <a href="preview-test/proofs.md">
-<img alt="유효성 검사" src="assets/do-not-localize/email-config.jpg">
+<img alt="유효성 검사" src="assets/do-not-localize/email-preview.jpg">
 </a>
 <div>
 <a href="preview-test/proofs.md"><strong>이메일 미리 보기 및 테스트</strong></a>

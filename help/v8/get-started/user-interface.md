@@ -3,10 +3,10 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Campaign v8 웹 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: d063c6757881b7793c8d399de42fde8423f44cdc
+source-git-commit: 948dff92b8b98a97d760158f126d8f2262d934fb
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 1%
+source-wordcount: '1322'
+ht-degree: 2%
 
 ---
 
@@ -238,10 +238,24 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="SMS 보고서 요약"
->abstract="TBC"
+>abstract="TBD"
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="푸시 보고서 요약"
->abstract="TBC"
+>abstract="TBD"
 
+>[!CONTEXTUALHELP]
+>id="acw_import_from_a_file"
+>title="파일에서 대상자 가져오기"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_import_from_a_file_formatting"
+>title="형식 설정"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_import_from_a_file_columns"
+>title="열 설정"
+>abstract="TBD"

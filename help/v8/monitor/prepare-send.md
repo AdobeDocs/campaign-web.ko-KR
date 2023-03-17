@@ -74,7 +74,7 @@ send also KPIs
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_delivered"
->title="전달됨"
+>title="게재됨"
 >abstract="배달된 메시지 수입니다. 이 표시기는 5분마다 업데이트됩니다. 표시되는 백분율은 총 보낸 메시지 수를 기반으로 합니다."
 
 >[!CONTEXTUALHELP]

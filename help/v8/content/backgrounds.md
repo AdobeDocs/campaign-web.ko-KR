@@ -6,7 +6,7 @@ exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="배경 설정"
->abstract="콘텐츠의 배경색 또는 배경 이미지를 개인화할 수 있습니다. 모든 이메일 클라이언트는 배경 이미지를 지원하지 않습니다."
+>abstract="콘텐츠 배경색 또는 배경 이미지를 개인화할 수 있습니다. 배경 이미지는 모든 이메일 클라이언트에서 지원되지 않습니다."
 
 이메일 디자이너를 사용하여 배경을 설정하는 방법은 다음과 같습니다.
 

@@ -6,7 +6,7 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="이메일 콘텐츠 만들기"
->abstract="이 섹션을 통해 이메일에 대한 콘텐츠를 만들고 이메일 디자이너를 사용하여 세련된 모양을 만들 수 있습니다."
+>abstract="이 섹션에서는 이메일 콘텐츠를 만들고 이메일 디자이너를 통해 세련된 형태를 지정할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
->title="전자 메일 첨부 파일"
+>title="이메일 첨부 파일"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]

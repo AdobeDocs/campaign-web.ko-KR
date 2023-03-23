@@ -6,7 +6,7 @@ exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 5%
+ht-degree: 19%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
->title="기존 대상 선택"
->abstract="대상은 Adobe Campaign v8 콘솔에서 정의됩니다. 사용 가능한 Adobe Experience Platform 통합이 있는 경우 플랫폼 정의 대상도 볼 수 있어야 합니다."
+>title="기존 대상자 선택"
+>abstract="대상자는 Adobe Campaign v8 Console에서 정의됩니다. Adobe Experience Platform 통합을 사용할 수 있는 경우 Platform에서 정의된 대상자를 확인할 수도 있습니다."
 
 이 섹션에서는 이메일 게재의 대상 모집단을 정의할 때 기존 대상자를 선택하는 방법을 설명합니다. 새 대상을 만들려면 이 항목을 참조하십시오 [섹션](segment-builder.md).
 

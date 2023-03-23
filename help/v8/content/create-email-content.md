@@ -6,7 +6,7 @@ exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
 source-wordcount: '503'
-ht-degree: 0%
+ht-degree: 25%
 
 ---
 
@@ -16,44 +16,44 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
->title="구조 구성 요소 정보"
->abstract="구조 구성 요소는 이메일의 레이아웃을 정의합니다."
+>title="구조 구성요소 정보"
+>abstract="구조 구성 요소는 이메일 레이아웃을 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
->title="구조 구성 요소 정보"
->abstract="구조 구성 요소는 랜딩 페이지의 레이아웃을 정의합니다."
+>title="구조 구성요소 정보"
+>abstract="구조 구성 요소는 랜딩 페이지 레이아웃을 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
->title="구조 구성 요소 정보"
->abstract="구조 구성 요소는 조각의 레이아웃을 정의합니다."
+>title="구조 구성요소 정보"
+>abstract="구조 구성 요소는 조각 레이아웃을 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
->title="구조 구성 요소 정보"
->abstract="구조 구성 요소는 템플릿의 레이아웃을 정의합니다."
+>title="구조 구성요소 정보"
+>abstract="구조 구성 요소는 템플릿 레이아웃을 정의합니다."
 
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="이메일 열 정의"
->abstract="이메일 디자이너를 사용하면 열 구조를 정의하여 이메일 레이아웃을 쉽게 정의할 수 있습니다."
+>abstract="이메일 디자이너를 통해 열 구조를 정의하여 이메일 레이아웃을 쉽게 정의할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
 >title="랜딩 페이지 열 정의"
->abstract="이메일 디자이너를 사용하면 열 구조를 정의하여 랜딩 페이지의 레이아웃을 쉽게 정의할 수 있습니다."
+>abstract="이메일 디자이너를 통해 열 구조를 정의하여 랜딩 페이지 레이아웃을 쉽게 정의할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
 >title="조각 열 정의"
->abstract="이메일 디자이너를 사용하면 열 구조를 정의하여 조각의 레이아웃을 쉽게 정의할 수 있습니다."
+>abstract="이메일 디자이너를 통해 열 구조를 정의하여 조각 레이아웃을 쉽게 정의할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
 >title="템플릿 열 정의"
->abstract="이메일 디자이너를 사용하면 열 구조를 정의하여 템플릿의 레이아웃을 쉽게 정의할 수 있습니다."
+>abstract="이메일 디자이너를 통해 열 구조를 정의하여 템플릿 레이아웃을 쉽게 정의할 수 있습니다."
 
 이메일 디자이너를 사용하면 이메일 구조를 쉽게 정의할 수 있습니다. 간단한 드래그 앤 드롭 작업으로 구조 요소를 추가 및 이동하면 몇 초 이내에 이메일 본문을 디자인할 수 있습니다.
 

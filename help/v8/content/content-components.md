@@ -6,7 +6,7 @@ exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
 source-wordcount: '1079'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -16,25 +16,25 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
->title="컨텐츠 구성 요소 정보"
->abstract="콘텐츠 구성 요소는 전자 메일 레이아웃을 만드는 데 사용할 수 있는 빈 콘텐츠 자리 표시자입니다."
+>title="콘텐츠 구성 요소 정보"
+>abstract="콘텐츠 구성 요소는 이메일 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
->title="컨텐츠 구성 요소 정보"
->abstract="콘텐츠 구성 요소는 랜딩 페이지의 레이아웃을 만드는 데 사용할 수 있는 빈 콘텐츠 자리 표시자입니다."
+>title="콘텐츠 구성 요소 정보"
+>abstract="콘텐츠 구성 요소는 랜딩 페이지 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
->title="컨텐츠 구성 요소 정보"
->abstract="컨텐츠 구성 요소는 조각 레이아웃을 만드는 데 사용할 수 있는 빈 컨텐츠 자리 표시자입니다."
+>title="콘텐츠 구성 요소 정보"
+>abstract="콘텐츠 구성 요소는 조각 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"
->title="컨텐츠 구성 요소 정보"
->abstract="콘텐츠 구성 요소는 템플릿 레이아웃을 만드는 데 사용할 수 있는 빈 콘텐츠 자리 표시자입니다."
+>title="콘텐츠 구성 요소 정보"
+>abstract="콘텐츠 구성 요소는 템플릿 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
-## 컨텐츠 구성 요소 추가 {#add-content-components}
+## 콘텐츠 구성 요소 추가 {#add-content-components}
 
 전자 메일에 컨텐츠 구성 요소를 추가하고 필요에 따라 조정하려면 아래 단계를 따르십시오.
 

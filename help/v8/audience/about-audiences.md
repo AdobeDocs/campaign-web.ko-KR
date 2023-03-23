@@ -6,7 +6,7 @@ exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 9%
+ht-degree: 17%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="대상자 시작"
->abstract="이메일 콘텐츠의 대상을 관리하는 방법을 알아봅니다."
+>abstract="이메일 콘텐츠의 대상자를 관리하는 방법에 대해 알아봅니다."
 
 <!--
 Audience only created for the delivery, not available later-->

@@ -5,8 +5,8 @@ description: Campaign Web UI에서 메시지에 대한 컨트롤 그룹을 설�
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 28%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

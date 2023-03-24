@@ -5,8 +5,8 @@ description: 게재 로그를 모니터링하는 방법 알아보기
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 21%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 이메일 콘텐츠 편집
 description: Campaign Web UI에서 이메일 컨텐츠를 편집하는 방법을 배웁니다
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 10%
+source-wordcount: '384'
+ht-degree: 8%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="이메일 헤더"
->abstract="TBC"
+>abstract="이 섹션에서는 이메일 템플릿에 정의된 보낸 사람 이름 및 보낸 사람 이메일 값을 제어할 수 있습니다. 제목 줄 필드는 표현식 편집기를 사용하여 사용자 지정할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="이메일 첨부 파일"
->abstract="TBC"
+>abstract="메시지에 삽입할 파일을 하나 이상 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="추적 옵션"
->abstract="TBC"
+>abstract="기본적으로 게재에 대해 추적이 활성화됩니다. 여기에서 이 옵션을 비활성화할 수 있습니다."
 
 전자 메일 콘텐츠 만들기를 시작하려면 **[!UICONTROL 컨텐츠 편집]** 전자 메일 만들기 화면에서 버튼을 클릭합니다.
 
@@ -61,6 +61,6 @@ ht-degree: 10%
 
    <!--limitation on size + number of files?-->
 
-1. 기본적으로 게재에 대해 추적이 활성화됩니다. 에서 이 옵션을 비활성화할 수 있습니다. **[!UICONTROL 옵션 기능]** 섹션을 참조하십시오. [링크 추가 및 추적 관리 방법 알아보기](message-tracking.md)
+1. 기본적으로 게재에 대해 추적이 활성화됩니다. 에서 이 옵션을 비활성화할 수 있습니다 **[!UICONTROL 옵션 기능]** 섹션을 참조하십시오. [링크 추가 및 추적 관리 방법 알아보기](message-tracking.md)
 
 전자 메일 콘텐츠가 정의되면 **[!UICONTROL 컨텐츠 시뮬레이션]** 단추를 클릭하여 보내기 전에 표시되는 방식을 확인합니다. [이메일을 미리 보고 테스트하는 방법을 알아봅니다](../preview-test/preview-test.md)

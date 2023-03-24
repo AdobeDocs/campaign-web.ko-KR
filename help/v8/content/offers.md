@@ -3,26 +3,16 @@ audience: end-user
 title: 오퍼 보내기
 description: 오퍼 보내기
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 1%
+source-wordcount: '521'
+ht-degree: 0%
 
 ---
 
 # 오퍼 보내기 {#offers-content}
 
 ![](../assets/do-not-localize/badge.png)
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_offers_settings"
->title="오퍼 설정"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_offers_advanced_settings"
->title="오퍼 고급 설정"
->abstract="TBC"
 
 Adobe Campaign v8 웹을 사용하면 콘솔에서 만든 이메일 오퍼와 함께 **[!UICONTROL 상호 작용]** 모듈. 상호 작용 및 콘솔에서 오퍼 카탈로그를 관리하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
@@ -32,6 +22,16 @@ Adobe Campaign v8 웹을 사용하면 콘솔에서 만든 이메일 오퍼와 �
 1. [이메일에 오퍼를 삽입합니다](#insert).
 
 ## 제안할 오퍼 구성 {#configure}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_offers_settings"
+>title="오퍼 설정"
+>abstract="수신자에게 제안할 오퍼를 구성합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_offers_advanced_settings"
+>title="오퍼 고급 설정"
+>abstract="오퍼에 대한 고급 옵션을 구성합니다."
 
 1. 이메일에서 제안할 오퍼를 선택하려면 **[!UICONTROL 오퍼]** 이메일 콘텐츠 편집 화면의 단추.
 

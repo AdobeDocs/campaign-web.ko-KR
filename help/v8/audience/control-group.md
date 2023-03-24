@@ -3,10 +3,10 @@ audience: end-user
 title: 컨트롤 그룹 설정
 description: Campaign Web UI에서 메시지에 대한 컨트롤 그룹을 설정하는 방법을 알아봅니다
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 26%
+source-wordcount: '576'
+ht-degree: 28%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="대상에서 추출"
->abstract="TBC"
+>abstract="컨트롤 그룹을 정의하려면, 임의로 또는 대상 모집단에서 정렬, 백분율 또는 고정된 수의 프로필을 추출하도록 선택할 수 있습니다."
 
 컨트롤 그룹을 정의하려면, 임의로 또는 대상 모집단에서 정렬, 백분율 또는 고정된 수의 프로필을 추출하도록 선택할 수 있습니다.
 
@@ -79,7 +79,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="추가 모집단"
->abstract="TBC"
+>abstract="컨트롤 그룹을 정의하는 또 다른 방법은 기존 대상자를 사용하거나 쿼리를 정의하여 특정 모집단을 대상에서 제외하는 것입니다."
 
 컨트롤 그룹을 정의하는 또 다른 방법은 기존 대상자를 사용하거나 쿼리를 정의하여 특정 모집단을 대상에서 제외하는 것입니다.
 

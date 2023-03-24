@@ -3,10 +3,10 @@ audience: end-user
 title: 게재 로그 모니터링
 description: 게재 로그를 모니터링하는 방법 알아보기
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 22%
+source-wordcount: '306'
+ht-degree: 21%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
 >title="게재 로그"
->abstract="TBC"
+>abstract="게재 로그를 사용하여 오류가 없음을 확인할 수 있습니다."
 
 이메일을 준비하고 전송한 후 게재 로그를 사용하여 오류가 없음을 확인할 수 있습니다. 메시지 대시보드에서 로그에 직접 액세스할 수 있습니다. 여기에는 전송 세부 사항과 제외된 타겟 및 그 이유와 함께 오픈과 클릭 등의 추적 정보가 표시됩니다.
 

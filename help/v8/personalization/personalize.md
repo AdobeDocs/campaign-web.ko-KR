@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 85dd75a0b8e078a946e0ac140fa27d7232d03219
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 0%
@@ -82,7 +82,7 @@ ht-degree: 0%
 * **[!UICONTROL 적절한 항목에 대한 서식 지정 함수]**: 는 **[!UICONTROL toSmartCase]** 각 단어의 첫 번째 문자를 대문자로 변경하는 Javascript 함수입니다.
 * **[!UICONTROL 인사말]**: 받는 사람의 전체 이름과 쉼표를 삽입합니다. 예: &quot;안녕하세요, 존 도.&quot;
 * **[!UICONTROL 로고 삽입]**: 인스턴스 설정에 정의된 로고를 삽입합니다.
-* **[!UICONTROL 미러 페이지에 대한 링크]**: 에 링크를 삽입합니다. [미러 페이지](mirror-page.md). 기본 형식은 다음과 같습니다. &quot;이 메시지를 올바르게 볼 수 없는 경우 여기를 클릭하십시오.&quot;
+* **[!UICONTROL 미러 페이지에 대한 링크]**: 에 링크를 삽입합니다. [미러 페이지](../content/mirror-page.md). 기본 형식은 다음과 같습니다. &quot;이 메시지를 올바르게 볼 수 없는 경우 여기를 클릭하십시오.&quot;
 * **[!UICONTROL 미러 페이지 URL]**: 는 미러 페이지 URL을 삽입하여 게재 디자이너가 링크를 확인할 수 있도록 합니다.
 * **[!UICONTROL 단일 모드의 오퍼 수락 URL]**: 오퍼를 설정할 수 있는 URL을 삽입합니다. **[!UICONTROL 수락됨]**. (상호 작용 모듈이 활성화된 경우 이 블록을 사용할 수 있습니다.)
 * **[!UICONTROL 등록 확인]**: 구독을 확인하는 링크를 삽입합니다.

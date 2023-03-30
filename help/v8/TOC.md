@@ -5,10 +5,10 @@ description: Campaign v8 웹 설명서
 breadcrumb-title: Campaign 개요
 title: Campaign v8 웹 문서
 hide: true
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 15%
+source-wordcount: '172'
+ht-degree: 18%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 15%
          + [고유한 컨텐츠 코드 지정](content/code-content.md)
       + [콘텐츠 구성 요소 사용](content/content-components.md)
       + [텍스트 버전 생성](content/text-version-email.md)
+      + [미러 페이지에 링크 추가](content/mirror-page.md)
       + [사전 헤더 추가](content/preheader.md)
       + [링크 추가 및 메시지 추적](content/message-tracking.md)
    + 콘텐츠 스타일 지정 {#style}

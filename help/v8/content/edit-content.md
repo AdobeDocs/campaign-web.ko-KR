@@ -3,9 +3,9 @@ audience: end-user
 title: 이메일 콘텐츠 편집
 description: Campaign Web UI에서 이메일 컨텐츠를 편집하는 방법을 배웁니다
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '376'
 ht-degree: 8%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="이메일 헤더"
->abstract="이 섹션에서는 이메일 템플릿에 정의된 보낸 사람 이름 및 보낸 사람 이메일 값을 제어할 수 있습니다. 제목 줄 필드는 표현식 편집기를 사용하여 사용자 지정할 수 있습니다."
+>title="이메일 매개 변수"
+>abstract="보낸 사람 이름 및 보낸 사람 이메일 값은 이메일 템플릿에 정의됩니다. 제목 줄은 표현식 편집기를 사용하여 개인화할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"

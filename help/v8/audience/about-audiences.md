@@ -4,10 +4,10 @@ title: 대상자 시작
 description: Campaign Web UI에서 대상을 사용하는 방법을 알아봅니다
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 74c2ef1376d4089968c984768ddbd63420ae2b22
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -44,9 +44,11 @@ control groups like acc: exract, random, based on attribute
 
 대상자를 정의하려면 다음을 수행할 수 있습니다.
 
-* 기존 대상 사용. 다음을 참조하십시오 [섹션](add-audience.md).
-* 새 대상을 만듭니다. 다음 보기 [섹션](segment-builder.md).
+* 기존 대상자를 사용합니다. [자세히 알아보기](add-audience.md)
+* 새 대상을 만듭니다. [자세히 알아보기](segment-builder.md)
+* 파일에서 대상자 가져오기. [자세히 알아보기](import-audience.md)
+* Adobe Experience Platform 대상 사용. [자세히 알아보기](aep-audience.md)
 
-캠페인의 영향을 측정하기 위해 대상의 일부에 메시지를 보내지 않도록 컨트롤 그룹을 정의할 수도 있습니다. 다음 보기 [섹션](control-group.md).
+또한 일부 대상에게 메시지를 보내지 않도록 컨트롤 그룹을 정의하고 캠페인의 영향을 측정할 수 있습니다. [자세히 알아보기](control-group.md)
 
 ![](assets/about-audience.png)

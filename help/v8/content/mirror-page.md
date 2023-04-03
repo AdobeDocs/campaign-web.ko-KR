@@ -2,7 +2,8 @@
 audience: end-user
 title: 미러 페이지에 링크 추가
 description: 미러 페이지에 대한 링크를 추가하고 관리하는 방법을 알아봅니다
-source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
+badge: label="Alpha" type="Advertising"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -11,8 +12,6 @@ ht-degree: 0%
 
 
 # 미러 페이지에 링크 추가{#mirror-page}
-
-## 미러 페이지 정보{#about-mirror-page}
 
 미러 페이지는 이메일의 온라인 버전입니다.
 
@@ -27,7 +26,6 @@ Adobe Campaign에서 생성한 미러 페이지에는 모든 개인화 데이터
 미러 페이지에 링크를 삽입하는 것이 좋습니다. 이 링크는 &#39;브라우저에서 이 전자 메일 보기&#39; 또는 &#39;온라인에서 이 전자 메일 읽기&#39;와 같은 것일 수 있습니다. 이메일의 머리글 또는 바닥글에 종종 있습니다.
 
 Adobe Campaign에서는 전용 페이지를 사용하여 전자 메일 콘텐츠의 미러 페이지에 대한 링크를 삽입할 수 있습니다 **개인화 블록**. 기본 제공 **미러 페이지에 대한 링크** 개인화 블록은 이메일 콘텐츠에 다음 코드를 삽입합니다. `<%@ include view='MirrorPage' %>`.
-
 
 이메일의 미러 페이지에 대한 링크를 추가하려면 다음을 수행합니다.
 

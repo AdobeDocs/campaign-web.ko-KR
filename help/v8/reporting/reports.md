@@ -3,22 +3,16 @@ audience: end-user
 title: 게재 보고서
 description: 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: a915902b6a4c5423492e87718681e783554fbc01
+badge: label="Alpha" type="Advertising"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '389'
 ht-degree: 1%
 
 ---
 
 # 게재 보고서 {#reports}
 
-![](../assets/do-not-localize/badge.png)
-
-<!--
-detail delivery reports and how to access them
-
-same content as in v7 (excepted for the navigation that is similar to AJO
--->
 
 Adobe Campaign에서는 각 게재에 액세스할 수 있는 몇 가지 유형의 보고서를 제공합니다. 이러한 보고서를 사용하면 내장된 대시보드에서 메시지의 영향과 성과를 측정하고 시각화할 수 있습니다.
 

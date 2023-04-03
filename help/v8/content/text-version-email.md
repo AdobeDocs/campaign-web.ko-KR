@@ -3,16 +3,15 @@ audience: end-user
 title: 이메일의 텍스트 버전 만들기
 description: 이메일의 텍스트 버전을 만드는 방법을 알아봅니다
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Advertising"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
 
 # 이메일의 텍스트 버전 만들기 {#text-version-email}
-
-![](../assets/do-not-localize/badge.png)
 
 HTML 콘텐츠를 표시할 수 없을 때 사용되는 이메일 본문의 텍스트 버전을 만드는 것이 좋습니다.
 

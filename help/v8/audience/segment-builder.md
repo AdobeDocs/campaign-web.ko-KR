@@ -3,16 +3,15 @@ audience: end-user
 title: 규칙 빌더로 대상 정의
 description: 세그먼트 빌더로 작업하는 방법 알아보기
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Advertising"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '549'
 ht-degree: 1%
 
 ---
 
 # 규칙 빌더로 대상 정의 {#segment-builder}
-
-![](../assets/do-not-localize/badge.png)
 
 이 섹션에서는 새 이메일을 디자인할 때 대상자를 만드는 방법을 설명합니다. 만든 대상자는 이 이메일에서만 사용할 수 있습니다.
 

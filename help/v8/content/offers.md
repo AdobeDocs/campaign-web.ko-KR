@@ -3,16 +3,16 @@ audience: end-user
 title: 오퍼 보내기
 description: 오퍼 보내기
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
+badge: label="Alpha" type="Advertising"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
 
-# 오퍼 보내기 {#offers-content}
 
-![](../assets/do-not-localize/badge.png)
+# 오퍼 보내기 {#offers-content}
 
 Adobe Campaign v8 웹을 사용하면 콘솔에서 만든 이메일 오퍼와 함께 **[!UICONTROL 상호 작용]** 모듈. 상호 작용 및 콘솔에서 오퍼 카탈로그를 관리하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 

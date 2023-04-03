@@ -3,16 +3,15 @@ audience: end-user
 title: 테스트 이메일 보내기
 description: 테스트 이메일을 정의하고 보내는 방법을 알아봅니다
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Advertising"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '541'
 ht-degree: 1%
 
 ---
 
 # 테스트 이메일 보내기 {#send-proofs}
-
-![](../assets/do-not-localize/badge.png)
 
 테스트 이메일을 전송하는 것은 이메일 캠페인을 확인하고 잠재적 문제를 식별하는 중요한 단계입니다. 테스트 이메일을 보내어 링크, 옵트아웃 링크, 이미지 및 미러 페이지와 같은 다양한 요소를 확인하고 오류를 감지할 수 있습니다.
 

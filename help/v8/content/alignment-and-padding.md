@@ -3,16 +3,16 @@ audience: end-user
 title: 이메일 디자이너에서 세로 정렬 및 패딩 조정
 description: 세로 정렬 및 패딩을 조정하는 방법을 알아봅니다
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Advertising"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '174'
 ht-degree: 1%
 
 ---
 
-# 세로 정렬 및 패딩 조정 {#alignment-and-padding}
 
-![](../assets/do-not-localize/badge.png)
+# 세로 정렬 및 패딩 조정 {#alignment-and-padding}
 
 이 예에서는 세 개의 열로 구성된 구조 구성 요소 내에서 패딩 및 세로 정렬을 조정합니다.
 

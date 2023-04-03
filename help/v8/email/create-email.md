@@ -3,16 +3,16 @@ audience: end-user
 title: 첫 번째 이메일 보내기
 description: Campaign Web UI를 사용하여 첫 번째 전자 메일을 보내는 방법을 배웁니다
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 773d15912aba9804cbd1ad681f7c02a7433ffa66
+badge: label="Alpha" type="Advertising"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1296'
 ht-degree: 12%
 
 ---
 
-# 첫 번째 이메일 보내기 {#first-email}
 
-![](../assets/do-not-localize/badge.png)
+# 첫 번째 이메일 보내기 {#first-email}
 
 첫 번째 타겟팅된 이메일을 만드는 방법을 알아봅니다. 이 사용 사례에서는 특정 날짜에 실버 및 골드 충성도 멤버에게 이메일을 보내도록 예약합니다.
 

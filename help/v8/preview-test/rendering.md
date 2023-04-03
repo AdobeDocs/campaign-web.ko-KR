@@ -3,16 +3,17 @@ audience: end-user
 title: 전자 메일 렌더링 테스트
 description: Campaign Web UI에서 이메일 렌더링을 테스트하는 방법을 알아봅니다
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Advertising"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
+
 # 전자 메일 렌더링 테스트 {#rendering}
 
-![](../assets/do-not-localize/badge.png)
 
 이메일을 보내기 전에 메시지가 다양한 웹 클라이언트, 웹 메일 및 장치에서 수신자에게 최적의 방식으로 표시되는지 확인하십시오.
 

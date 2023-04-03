@@ -3,16 +3,16 @@ audience: end-user
 title: 인라인 스타일 속성 추가
 description: 인라인 스타일 속성을 추가하는 방법을 알아봅니다
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+badge: label="Alpha" type="Advertising"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
 
-# 인라인 스타일 속성 추가 {#adding-inline-styling-attributes}
 
-![](../assets/do-not-localize/badge.png)
+# 인라인 스타일 속성 추가 {#adding-inline-styling-attributes}
 
 이메일 디자이너 인터페이스에서 요소를 선택하고 오른쪽 창에 해당 설정을 표시하는 경우 해당 특정 요소의 인라인 속성과 해당 값을 사용자 지정할 수 있습니다.
 

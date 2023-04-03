@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
+badge: label="Alpha" type="Advertising"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
 
-# 콘텐츠 개인화{#add-personalization}
 
-![](../assets/do-not-localize/badge.png)
+# 콘텐츠 개인화{#add-personalization}
 
 다음을 수행하여 메시지 콘텐츠를 개인화할 수 있습니다.
 

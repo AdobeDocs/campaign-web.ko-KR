@@ -3,16 +3,15 @@ audience: end-user
 title: 메시지 추적
 description: 링크를 추가하고 보낸 메시지를 추적하는 방법을 알아봅니다
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
+badge: label="Alpha" type="Advertising"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '373'
 ht-degree: 1%
 
 ---
 
 # 링크 추가 및 메시지 추적 {#tracking}
-
-![](../assets/do-not-localize/badge.png)
 
 수신자의 동작을 모니터링하기 위해 이메일 디자이너를 사용하여 컨텐츠에 링크를 추가하고 메시지를 추적합니다.
 

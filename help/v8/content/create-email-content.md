@@ -3,16 +3,15 @@ audience: end-user
 title: 이메일 디자이너에서 이메일 디자인
 description: 이메일 콘텐츠를 처음부터 디자인하는 방법 알아보기
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Advertising"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 25%
+source-wordcount: '510'
+ht-degree: 24%
 
 ---
 
-# 처음부터 시작 {#create-email-content}
-
-![](../assets/do-not-localize/badge.png)
+# 이메일 콘텐츠를 처음부터 시작합니다 {#create-email-content}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"

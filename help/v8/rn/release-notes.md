@@ -3,16 +3,16 @@ audience: end-user
 title: Campaign Web v8 릴리스 노트
 description: Campaign Web v8 릴리스 노트
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 5b552f038413cc2624adef6c76d3f69d56eb18ee
+badge: label="Alpha" type="Advertising"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
 
-# 릴리스 정보 {#release-notes}
 
-![](../assets/do-not-localize/badge.png)
+# 릴리스 정보 {#release-notes}
 
 이 페이지에는 Campaign Web v8의 최신 기능과 개선 사항이 모두 포함되어 있습니다.
 

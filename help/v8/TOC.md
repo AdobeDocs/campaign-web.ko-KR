@@ -5,9 +5,9 @@ description: Campaign v8 웹 설명서
 breadcrumb-title: Campaign 개요
 title: Campaign v8 웹 문서
 hide: true
-source-git-commit: 39276ec96d582b9a64f83f412abf1e44fffa99c8
+source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '229'
 ht-degree: 23%
 
 ---
@@ -61,9 +61,10 @@ ht-degree: 23%
       + [SMS 게재 시작](sms/gs-sms.md)
 + 대상 및 수신자 {#audiences}
    + [대상자 시작](audience/about-audiences.md)
-   + [대상자 선택](audience/add-audience.md)
+   + [기존 대상자 선택](audience/add-audience.md)
    + [규칙 빌더로 대상 만들기](audience/segment-builder.md)
    + [대상자 가져오기](audience/import-audience.md)
+   + [Adobe Experience Platform 대상 사용](audience/aep-audience.md)
    + [컨트롤 그룹 설정](audience/control-group.md)
 + 크로스 채널 캠페인 {#campaigns}
    + [업그레이드 시작하기](campaigns/gs-campaigns.md)

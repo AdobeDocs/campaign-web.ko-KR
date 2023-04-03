@@ -4,22 +4,31 @@ title: 대상자 선택
 description: 대상자를 선택하는 방법 알아보기
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 19%
+source-wordcount: '272'
+ht-degree: 23%
 
 ---
 
 
-# 대상자 선택 {#add-audience}
+# 기존 대상자 선택 {#add-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="기존 대상자 선택"
 >abstract="대상자는 Adobe Campaign v8 Console에서 정의됩니다. Adobe Experience Platform 통합을 사용할 수 있는 경우 Platform에서 정의된 대상자를 확인할 수도 있습니다."
 
-이 섹션에서는 이메일 게재의 대상 모집단을 정의할 때 기존 대상자를 선택하는 방법을 설명합니다. 새 대상을 만들려면 이 항목을 참조하십시오 [섹션](segment-builder.md).
+이 섹션에서는 이메일 게재의 대상 모집단을 정의할 때 기존 대상자를 선택하는 방법을 설명합니다.
+
+다음을 수행할 수도 있습니다.
+
+* 새 대상을 만듭니다. [자세히 알아보기](segment-builder.md)
+* 파일에서 대상자 가져오기. [자세히 알아보기](import-audience.md)
+* Adobe Experience Platform 대상 사용. [자세히 알아보기](aep-audience.md)
+
+
+메시지에 대한 기존 대상자를 선택하려면 아래 단계를 수행하십시오.
 
 1. 에서 **Audience** 게재 만들기 도우미의 섹션에서 **[!UICONTROL 대상 선택]** 버튼을 클릭합니다.
 

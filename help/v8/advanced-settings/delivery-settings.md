@@ -3,16 +3,16 @@ audience: end-user
 title: 전자 메일 게재 설정
 description: Campaign Web UI의 이메일 게재 설정에 대해 자세히 알아보십시오
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
+badge: label="Alpha" type="Advertising"
+source-git-commit: 5ae59f72739943a7073e7cbd0d4d8cec0b7eb7ee
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1473'
 ht-degree: 27%
 
 ---
 
-# 전자 메일 게재 설정 {#email-del-settings}
 
-![알파 버전](../assets/do-not-localize/badge.png)
+# 전자 메일 게재 설정 {#email-del-settings}
 
 이러한 설정은 다음과 같습니다 **기술 전달 매개 변수** 이메일 템플릿에 정의된 횟수. 이 기능은 **게재 설정 구성** 이메일 게재를 편집할 때 사용할 수 있는 아이콘.
 

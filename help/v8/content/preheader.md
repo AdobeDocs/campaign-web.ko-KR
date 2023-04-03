@@ -3,8 +3,8 @@ audience: end-user
 title: 이메일 디자이너에 사전 헤더 추가
 description: 이메일 콘텐츠를 디자인하는 방법 알아보기
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-badge: label="Alpha" type="Advertising"
-source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
+badge: label="Alpha" type="Positive"
+source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 36%

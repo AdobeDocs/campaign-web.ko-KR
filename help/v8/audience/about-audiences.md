@@ -2,9 +2,9 @@
 audience: end-user
 title: 대상자 시작
 description: Campaign Web UI에서 대상을 사용하는 방법을 알아봅니다
-badge: label="Alpha" type="Advertising"
+badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
+source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 16%

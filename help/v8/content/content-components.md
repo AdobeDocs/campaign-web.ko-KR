@@ -3,8 +3,8 @@ audience: end-user
 title: 이메일 디자이너 콘텐츠 구성 요소 사용
 description: 이메일에서 콘텐츠 구성 요소를 사용하는 방법을 알아봅니다
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-badge: label="Alpha" type="Advertising"
-source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
+badge: label="Alpha" type="Positive"
+source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 8%

@@ -3,8 +3,8 @@ audience: end-user
 title: 이메일 준비 및 보내기
 description: Campaign Web UI를 사용하여 전자 메일을 준비하고 전송하는 방법을 알아봅니다
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Alpha" type="Advertising"
-source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
+badge: label="Alpha" type="Positive"
+source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 28%

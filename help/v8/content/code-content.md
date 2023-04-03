@@ -3,8 +3,8 @@ audience: end-user
 title: 고유한 이메일 콘텐츠 코드 지정
 description: 고유한 이메일 콘텐츠를 코딩하는 방법을 알아봅니다
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-badge: label="Alpha" type="Advertising"
-source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
+badge: label="Alpha" type="Positive"
+source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%

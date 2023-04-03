@@ -3,8 +3,8 @@ audience: end-user
 title: 이메일 디자이너에서 세로 정렬 및 패딩 조정
 description: 세로 정렬 및 패딩을 조정하는 방법을 알아봅니다
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-badge: label="Alpha" type="Advertising"
-source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
+badge: label="Alpha" type="Positive"
+source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 1%

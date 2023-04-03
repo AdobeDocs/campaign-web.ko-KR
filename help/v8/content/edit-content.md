@@ -3,8 +3,8 @@ audience: end-user
 title: 이메일 콘텐츠 편집
 description: Campaign Web UI에서 이메일 컨텐츠를 편집하는 방법을 배웁니다
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-badge: label="Alpha" type="Advertising"
-source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
+badge: label="Alpha" type="Positive"
+source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 8%

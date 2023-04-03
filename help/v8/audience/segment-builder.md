@@ -3,8 +3,8 @@ audience: end-user
 title: 규칙 빌더로 대상 정의
 description: 세그먼트 빌더로 작업하는 방법 알아보기
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-badge: label="Alpha" type="Advertising"
-source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
+badge: label="Alpha" type="Positive"
+source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 1%

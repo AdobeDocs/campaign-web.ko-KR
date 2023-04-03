@@ -5,10 +5,10 @@ description: Campaign v8 웹 설명서
 breadcrumb-title: Campaign 개요
 title: Campaign v8 웹 문서
 hide: true
-source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
+source-git-commit: 82c7abb4fe8cd7ecc68748ca59f2e5c7b5336d34
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 18%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,6 +29,7 @@ ht-degree: 18%
          + [처음부터 시작 ](content/create-email-content.md)
          + [이메일 콘텐츠 가져오기](content/existing-content.md)
          + [고유한 컨텐츠 코드 지정](content/code-content.md)
+         + [이메일 템플릿 사용](content/email-templates.md)
       + [콘텐츠 구성 요소 사용](content/content-components.md)
       + [텍스트 버전 생성](content/text-version-email.md)
       + [미러 페이지에 링크 추가](content/mirror-page.md)

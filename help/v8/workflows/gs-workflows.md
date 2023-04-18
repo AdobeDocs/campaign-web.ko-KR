@@ -4,16 +4,16 @@ title: 워크플로우 시작
 description: 워크플로우로 시작하는 방법 알아보기
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
+source-git-commit: 9a4ca68d475cfbbcccb7a5b0d84f841589824288
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 워크플로우 시작 {#workflows}
 
-## Adobe Campaign 워크플로우란 무엇입니까?
+## 워크플로우란 무엇입니까?
 
 크로스 채널 마케팅은 고객에게 효과적으로 도달하려는 모든 비즈니스에 필수입니다. Adobe Campaign은 마케팅 캠페인을 쉽게 관리할 수 있는 복잡한 프로세스를 디자인할 수 있는 포괄적인 그래픽 환경을 제공합니다.
 

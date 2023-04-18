@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 웹 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 7c5ea340eb99b4cbacd5697b7d059f3e9c09f049
+source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1319'
+ht-degree: 34%
 
 ---
 
@@ -117,11 +117,6 @@ Navtree view depends on permissions (same as console).
 >id="acw_subscriptions_list"
 >title="구독 목록"
 >abstract="구독 목록을 탐색합니다. 유형, 모드 및 레이블을 볼 수 있습니다. 이 목록은 읽기 전용입니다."
-
->[!CONTEXTUALHELP]
->id="acw_targeting_workflow_list"
->title="타겟팅 워크플로우"
->abstract="캠페인 워크플로 목록에 액세스합니다. 상태, 마지막/다음 처리 날짜 및 환경을 볼 수 있습니다. 상태, 마지막 처리 날짜 및 워크플로 유형별로 목록을 필터링할 수 있습니다. 워크플로 템플릿도 사용할 수 있습니다. 이 목록은 읽기 전용입니다."
 
 * **수신자** - 수신자 데이터베이스에 액세스합니다. 기본적으로 이메일 주소, 이름 및 성을 볼 수 있습니다. 이 목록은 읽기 전용입니다.
 * **대상** - 대상자 목록입니다. 기본적으로 유형, 원본, 생성/마지막 수정 날짜 및 레이블을 볼 수 있습니다. 원본을 기준으로 목록을 필터링할 수 있습니다. 이 목록은 읽기 전용입니다.

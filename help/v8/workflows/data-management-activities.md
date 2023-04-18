@@ -3,9 +3,10 @@ audience: end-user
 title: 워크플로우 데이터 관리 활동 사용
 description: Adobe Campaign 웹 워크플로우에 데이터 관리 활동을 사용하는 방법을 살펴볼 수 있습니다
 badge: label="Alpha" type="Positive"
-source-git-commit: 5efcdf2da104b86bf3ee37ee7162495c2d99fb48
+exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
+source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '392'
 ht-degree: 1%
 
 ---
@@ -18,7 +19,12 @@ ht-degree: 1%
 
 ## 데이터 보강 {#enrichment}
 
-데이터 보강 활동은 일반적으로 타겟팅 활동 후 워크플로우에서 사용됩니다. 이를 통해 타겟팅된 데이터를 데이터베이스의 추가 정보로 향상시킬 수 있습니다.
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_data"
+>title="데이터 보강 활동"
+>abstract="데이터 보강 활동을 사용하면 타겟팅된 데이터를 데이터베이스의 추가 정보로 향상시킬 수 있습니다. 타깃팅 활동 후 워크플로우에서 일반적으로 사용됩니다.<br/>데이터 보강 활동이 워크플로우에 추가되면 데이터 보강 활동 후 추가한 활동에서 행동, 선호도 및 요구 사항에 따라 고객을 개별 그룹으로 세그먼트화하거나, 타겟 대상자에게 더 공감할 수 있는 개인화된 마케팅 메시지 및 캠페인을 만들 수 있습니다."
+
+데이터 보강 활동을 사용하면 타겟팅된 데이터를 데이터베이스의 추가 정보로 향상시킬 수 있습니다. 타깃팅 활동 후 워크플로우에서 일반적으로 사용됩니다.
 
 데이터 보강 데이터
 

@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 웹 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: a77437a9d008be56980ce601df5708c4d72d678c
+source-git-commit: 403f1e5fcb353f4c89f12066854853b51861293b
 workflow-type: tm+mt
-source-wordcount: '1388'
-ht-degree: 34%
+source-wordcount: '1369'
+ht-degree: 33%
 
 ---
 
@@ -242,21 +242,6 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
->id="acw_import_from_a_file"
->title="파일에서 대상자 가져오기"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_import_from_a_file_formatting"
->title="포맷 설정"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_import_from_a_file_columns"
->title="열 설정"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="푸시 알림 템플릿"
 >abstract="TBD"
@@ -332,6 +317,11 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_samplefile"
+>title="샘플 파일"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="열 정의"
 >abstract="TBD"
@@ -372,25 +362,9 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
->id="acw_campaign_schedule"
->title="캠페인 일정"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="워크플로우 목록"
 >abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_properties"
->title="캠페인 만들기"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="캠페인 일정"
->abstract="TBD"
-
 
 <!--BETA-->
 >[!CONTEXTUALHELP]

@@ -3,10 +3,11 @@ audience: end-user
 title: 파일에서 수신자 가져오기
 description: 외부 파일에서 수신자를 가져오는 방법을 알아봅니다
 badge: label="Alpha" type="Positive"
-source-git-commit: c44518e6e760fd7afcb90d3aec86e229ae1e2daf
+exl-id: e6e0dd01-5573-4261-aace-fd173827c383
+source-git-commit: f103fe804deccc83638a3e56a03f6e715e68e550
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '175'
+ht-degree: 5%
 
 ---
 
@@ -28,3 +29,21 @@ ht-degree: 0%
 1. 클릭 **확인** 설정이 올바르게 설정되면
 
 메시지 콘텐츠를 만들고 개인화할 때 개인화 편집기의 입력 파일에서 필드를 선택할 수 있습니다.
+
+## 샘플 파일 {#sample-file}
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_samplefile"
+>title="샘플 파일"
+>abstract="지원되는 파일 형식: txt, csv, xls. 첫 번째 라인을 열 머리글로 사용."
+
+
+```json
+{
+lastname,firstname,birthdate,email,crmID
+Smith,Hayden,23/05/1989,hayden.smith@example.com,124365
+Mars,Daniel,17/11/1987,dannymars@example.com,123545
+Smith,Clara,08/02/1989,clara.smith@example.com,124567
+Durance,Allison,15/12/1978,allison.durance@example.com,120987
+}
+```

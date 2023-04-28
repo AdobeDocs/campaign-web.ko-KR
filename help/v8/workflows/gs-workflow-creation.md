@@ -4,15 +4,17 @@ title: Adobe Campaign Web을 사용하여 워크플로우 만들기
 description: Adobe Campaign Web을 사용하여 워크플로우를 구축하는 방법을 알아봅니다
 badge: label="Alpha" type="Positive"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: d9d1666e0903d78560230dd81af32b53608686c5
+source-git-commit: d7e19b2d8730cacbbff1ad42f1956b32c84a309a
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
 
 
 # 워크플로우 만들기의 주요 원칙 {#gs-workflow-creation}
+
+콘텐츠 TBD
 
 워크플로우는 프로세스 정의입니다. 발생할 작업을 나타내는 워크플로우 다이어그램입니다. 워크플로우는 이 프로세스의 인스턴스이기도 합니다. 워크플로우 인스턴스: 실제로 발생하는 사항을 나타냅니다.
 
@@ -43,3 +45,5 @@ TBD: 독립형 및 캠페인 워크플로우 간의 세부 사항입니다.
 워크플로우를 만드는 주요 단계는 다음과 같습니다.
 
 TBD: 문서 페이지에 대한 설명 및 참조를 포함하는 전체 프로세스를 보여 주는 그래픽
+
+속성 만들기 및 정의 > 캔버스에서 활동 오케스트레이션 > 필요한 경우 설정 구성 > 실행 시작 및 모니터

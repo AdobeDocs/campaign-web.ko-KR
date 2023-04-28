@@ -4,9 +4,9 @@ title: 이메일 디자이너에서 이메일 디자인
 description: 이메일 콘텐츠를 처음부터 디자인하는 방법 알아보기
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 badge: label="Alpha" type="Positive"
-source-git-commit: 00396926f461b4cecfc3766ed7222337aa1aef60
+source-git-commit: d7e19b2d8730cacbbff1ad42f1956b32c84a309a
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '528'
 ht-degree: 24%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 24%
 
    ![](assets/email_designer_7.png)
 
-1. 필요한 경우 **[!UICONTROL 코드 편집기로 전환]** 전자 메일의 소스 코드에서 직접 작업하려면 고급 메뉴에서 을 선택합니다. [코드 편집기에 대해 자세히 알아보기](code-content.md)
+1. 필요한 경우 **[!UICONTROL 코드 편집기로 전환]** 고급 메뉴에서 을 클릭합니다. 이를 통해 추적 또는 사용자 지정 HTML 태그를 추가하는 등의 이메일 소스 코드를 편집할 수 있습니다. [코드 편집기에 대해 자세히 알아보기](code-content.md)
 
    >[!CAUTION]
    >

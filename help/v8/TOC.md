@@ -5,10 +5,10 @@ description: Campaign v8 웹 설명서
 breadcrumb-title: Campaign 개요
 title: Campaign v8 웹 문서
 hide: true
-source-git-commit: d9d1666e0903d78560230dd81af32b53608686c5
+source-git-commit: 1dabd8669dbf6483ec8c2bdae4b9567711fcfc4c
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 23%
+source-wordcount: '262'
+ht-degree: 22%
 
 ---
 
@@ -74,12 +74,13 @@ ht-degree: 23%
    + 첫 번째 워크플로우 만들기 {#create-workflow}
       + [워크플로우 만들기의 주요 원칙](workflows/gs-workflow-creation.md)
       + [워크플로우 만들기](workflows/create-workflow.md)
-      + [워크플로우 실행 시작 및 모니터링](workflows/start-monitor-workflows.md)
-   + 디자인 워크플로우 {#design-workflows}
-      + [워크플로우 캔버스 시작](workflows/gs-canvas.md)
+      + [워크플로우 활동 오케스트레이션](workflows/build-workflow.md)
+      + [워크플로우 설정 구성](workflows/workflow-settings.md)
+      + [워크플로우 시작 및 모니터링](workflows/start-monitor-workflows.md)
+   + [워크플로우 액세스 및 관리](workflows/access-monitor.md)
+   + 워크플로우 활동 작업 {#design-workflows}
       + [타겟팅 활동](workflows/targeting-activities.md)
       + [채널 활동](workflows/channel-activities.md)
       + [데이터 관리 활동](workflows/data-management-activities.md)
-   + [워크플로우 액세스 및 모니터링](workflows/access-monitor.md)
 + [보고](reporting/reports.md)
 

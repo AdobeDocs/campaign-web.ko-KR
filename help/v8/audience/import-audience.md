@@ -4,9 +4,9 @@ title: 파일에서 수신자 가져오기
 description: 외부 파일에서 수신자를 가져오는 방법을 알아봅니다
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: f103fe804deccc83638a3e56a03f6e715e68e550
+source-git-commit: ef8418294540ee0462725cdaf6824ba7ee4d9b59
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '174'
 ht-degree: 5%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
 >title="샘플 파일"
->abstract="지원되는 파일 형식: txt, csv, xls. 첫 번째 라인을 열 머리글로 사용."
+>abstract="지원되는 파일 형식: txt, csv. 첫 번째 라인을 열 머리글로 사용."
 
 
 ```json

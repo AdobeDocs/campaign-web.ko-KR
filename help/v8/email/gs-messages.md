@@ -1,13 +1,14 @@
 ---
 audience: end-user
-title: Campaign v8 Web에서 메시지 및 전달 시작
-description: Campaign Web을 사용하여 게재 작업 및 메시지 전송 방법을 알아봅니다
-badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+title: Campaign v8 Web에서 메시지 및 게재 시작하기
+description: Campaign Web으로 게재 작업을 수행하고 메시지를 전송하는 방법 알아보기
+badge: 레이블=“Alpha” 유형=“Positive”
+exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
+source-git-commit: a048ce9384f458f4cf94b38ceac46e2c04bcc231
+workflow-type: ht
 source-wordcount: '33'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Campaign Web에서 메시지 시작 {#gs-messages}
+# Campaign Web에서 메시지 시작하기 {#gs-messages}

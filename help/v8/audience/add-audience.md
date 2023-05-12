@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: 대상자 선택
-description: 대상자를 선택하는 방법 알아보기
+description: 대상자 선택 방법 알아보기
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="Alpha" type="Positive"
+badge: 레이블=“Alpha” 유형=“Positive”
 source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '272'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
@@ -19,41 +19,41 @@ ht-degree: 23%
 >title="기존 대상자 선택"
 >abstract="대상자는 Adobe Campaign v8 Console에서 정의됩니다. Adobe Experience Platform 통합을 사용할 수 있는 경우 Platform에서 정의된 대상자를 확인할 수도 있습니다."
 
-이 섹션에서는 이메일 게재의 대상 모집단을 정의할 때 기존 대상자를 선택하는 방법을 설명합니다.
+이 섹션에서는 이메일 게재의 대상 모집단을 정의할 때 기존 대상자를 선택하는 방법에 대해 설명합니다.
 
-다음을 수행할 수도 있습니다.
+이외에 수행할 수 있는 작업은 다음과 같습니다.
 
-* 새 대상을 만듭니다. [자세히 알아보기](segment-builder.md)
-* 파일에서 대상자 가져오기. [자세히 알아보기](import-audience.md)
-* Adobe Experience Platform 대상 사용. [자세히 알아보기](aep-audience.md)
+* 새 대상자 만들기 [자세히 알아보기](segment-builder.md)
+* 파일에서 대상자 가져오기 [자세히 알아보기](import-audience.md)
+* Adobe Experience Platform 대상자 사용 [자세히 알아보기](aep-audience.md)
 
 
-메시지에 대한 기존 대상자를 선택하려면 아래 단계를 수행하십시오.
+메시지의 기존 대상자를 선택하려면 아래 단계를 따르십시오.
 
-1. 에서 **Audience** 게재 만들기 도우미의 섹션에서 **[!UICONTROL 대상 선택]** 버튼을 클릭합니다.
+1. 게재 생성 도우미의 **대상자** 섹션에서 **[!UICONTROL 대상자 선택]** 버튼을 클릭합니다.
 
    ![](assets/create-audience.png)
 
-1. 선택 **[!UICONTROL 대상 선택]** 기존 대상자를 사용하려면 이 이메일에 사용할 새 대상자를 만들려면 을(를) 선택합니다 **직접 만들기**. 다음을 참조하십시오 [섹션](segment-builder.md).
+1. 기존 대상자를 사용하려면 **[!UICONTROL 대상자 선택]**&#x200B;을 선택합니다. 이 이메일에서 사용할 새 대상자를 만들려면 **직접 만들기**&#x200B;를 선택합니다. 이 [섹션](segment-builder.md)을 참조하십시오.
 
-   이 화면에는 Adobe Campaign 콘솔 또는 Adobe Experience Platform에서 정의된 모든 기존 대상이 표시됩니다.
+   이 화면에는 Adobe Campaign 콘솔 또는 Adobe Experience Platform에서 정의된 기존의 모든 대상자가 표시됩니다.
 
    ![](assets/create-audience2.png)
 
    >[!NOTE]
    >
-   >Adobe Experience Platform 대상을 활용하려면 대상과의 통합을 구성해야 합니다. 자세한 내용은 [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ko){target="_blank"}.
+   >Adobe Experience Platform 대상자를 활용하려면 대상과의 통합을 구성해야 합니다. [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html)를 참조하십시오{target="_blank"}.
 
-1. 대상자를 선택하고 을(를) 클릭합니다. **선택**.
+1. 대상자를 선택하고 **선택**&#x200B;을 클릭합니다.
 
-1. 클릭 **규칙 편집** 대상을 세분화하려면 다음을 수행하십시오.
+1. 대상자를 세분화하려면 **규칙 편집**&#x200B;을 클릭합니다.
 
    ![](assets/create-audience3.png)
 
-1. 규칙 빌더를 사용하면 추가 필터나 다른 대상을 결합하여 대상을 보강할 수 있습니다. 다음 보기 [섹션](segment-builder.md).
+1. 규칙 빌더를 사용하면 추가 필터를 사용하거나 다른 대상자를 결합하여 대상자를 보강할 수 있습니다. 이 [섹션](segment-builder.md)을 참조하십시오.
 
    ![](assets/create-audience4.png)
 
 1. **저장**&#x200B;을 클릭합니다.
 
-캠페인의 영향을 측정하도록 컨트롤 그룹을 설정할 수도 있습니다. 컨트롤 그룹이 메시지를 받지 않습니다. 이렇게 하면 메시지를 받은 모집단 행동과 그렇지 않은 연락처의 동작을 비교할 수 있습니다. 자세한 내용은 [섹션](control-group.md).
+캠페인의 영향을 측정하기 위해 컨트롤 그룹을 설정할 수도 있습니다. 컨트롤 그룹은 메시지를 받지 않습니다. 그러면 메시지를 받은 모집단과 메시지를 받지 않은 연락처의 동작을 비교할 수 있습니다. 이 [섹션](control-group.md)을 참조하십시오.

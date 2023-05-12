@@ -1,13 +1,14 @@
 ---
 audience: end-user
-title: Adobe Experience Platform 대상 사용
-description: Adobe Experience Platform에서 대상을 사용하는 방법을 알아봅니다
-badge: label="Alpha" type="Positive"
-source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
-workflow-type: tm+mt
+title: Adobe Experience Platform 대상자 사용
+description: Adobe Experience Platform에서 대상자를 사용하는 방법 알아보기
+badge: 레이블=“Alpha” 유형=“Positive”
+exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
+source-git-commit: a048ce9384f458f4cf94b38ceac46e2c04bcc231
+workflow-type: ht
 source-wordcount: '26'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Adobe Experience Platform 대상 사용{#aep-audience}
+# Adobe Experience Platform 대상자 사용{#aep-audience}

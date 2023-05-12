@@ -1,27 +1,27 @@
 ---
 audience: end-user
-title: 이메일 스타일 시작
-description: 이메일 콘텐츠 스타일을 조정할 수 있는 다양한 방법을 알아봅니다
+title: 이메일 스타일 시작하기
+description: 이메일 콘텐츠 스타일을 조정할 수 있는 다양한 방법 살펴보기
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-badge: label="Alpha" type="Positive"
+badge: 레이블=“Alpha” 유형=“Positive”
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 이메일 스타일 시작 {#get-started-email-style}
+# 이메일 스타일 시작하기 {#get-started-email-style}
 
-에서 이메일 콘텐츠를 만들기 시작하면 [!DNL Adobe Campaign]에서는 전자 메일 디자이너 설정 창에서 여러 스타일 매개 변수와 속성을 조정할 수 있습니다.
+[!DNL Adobe Campaign]에서 이메일 콘텐츠를 만든 다음 [이메일 디자이너 설정] 창에서 다양한 스타일 매개변수 및 속성을 조정할 수 있습니다.
 
-전자 메일 본문, 구조 구성 요소 또는 콘텐츠 구성 요소에 변경 사항을 적용할 수 있습니다.
+이메일 본문, 구조 구성 요소 또는 콘텐츠 구성 요소에 변경 내용을 적용할 수 있습니다.
 
 ![](assets/email_designer_content_components_settings.png)
 
-아래 링크를 따라 이메일에서 일부 스타일 설정을 조정하는 방법을 알아보십시오.
+아래 링크를 따라 이메일에서 몇 가지 스타일 설정을 조정하는 방법에 대해 알아보십시오.
 
-* 방법 알아보기 [이메일 배경 개인화](backgrounds.md)
-* 방법 알아보기 [수직 정렬 및 패딩 관리](alignment-and-padding.md)
-* 방법 알아보기 [이메일에 있는 링크에 대한 스타일을 정의합니다.](styling-links.md)
-* 방법 알아보기 [인라인 스타일 속성 사용자 지정](inline-styling.md)
+* [이메일 배경 개인화](backgrounds.md) 방법 알아보기
+* [수직 정렬 및 패딩 관리](alignment-and-padding.md) 방법 알아보기
+* [이메일에서 링크 스타일을 정의](styling-links.md)하는 방법 알아보기
+* [인라인 스타일 속성을 사용자 정의](inline-styling.md)하는 방법 알아보기

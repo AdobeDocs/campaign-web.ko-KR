@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: 인터페이스 살펴보기
-description: Campaign v8 웹 사용자 인터페이스
+description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Alpha" type="Positive"
+badge: 레이블=“Alpha” 유형=“Positive”
 source-git-commit: 8b29c98e9cc4ca1d9c41fcc92230856bd9d140bb
 workflow-type: tm+mt
 source-wordcount: '1394'
-ht-degree: 34%
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 34%
 >title="인터페이스 살펴보기"
 >abstract="새로운 Campaign v8 웹 인터페이스는 통합되고 직관적이며 일관된 사용자 경험을 제공합니다."
 
-새로운 Campaign v8 웹 인터페이스는 마케팅 캠페인 디자인과 게재를 간소화하는 현대적이고 직관적인 사용자 경험을 제공합니다. 이 새로운 인터페이스는 Adobe Experience Platform과 통합되었습니다.
+새로운 Campaign v8 Web 인터페이스는 현대적이고 직관적인 사용자 경험을 제공하여 마케팅 캠페인 디자인 및 게재를 간소화합니다. 이 새로운 인터페이스는 Adobe Experience Platform과 통합됩니다.
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
@@ -26,7 +26,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 >[!NOTE]
 >
->이 설명서는 제품 사용자 인터페이스의 최신 변경 사항을 반영하도록 자주 업데이트됩니다. 그러나 일부 스크린샷은 사용자 인터페이스와 약간 다를 수 있습니다.
+>이 설명서는 제품 사용자 인터페이스의 최신 변경 내용을 반영하여 자주 업데이트됩니다. 그러나 실제 사용자 인터페이스와 약간 다른 스크린샷도 있습니다.
 
 
 <!--
@@ -36,13 +36,13 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## 왼쪽 탐색 메뉴
 
-왼쪽의 링크를 탐색하여 Campaign v8 웹 기능에 액세스합니다. 여러 링크에는 정렬 및 필터링할 수 있는 객체 목록이 표시됩니다. 필요한 모든 정보를 표시하도록 열을 구성할 수도 있습니다. 다음 보기 [섹션](#list-screens). 이메일 게재 목록을 제외한 모든 목록 화면은 읽기 전용입니다. 편집/볼 목록 항목을 클릭하면 알파에서 사용할 수 없습니다. 모든 목록은 향후 버전에서 편집할 수 있습니다. 왼쪽 탐색 메뉴에 표시되는 항목은 사용자 권한에 따라 다릅니다.
+왼쪽에 있는 링크를 찾아 Campaign v8 Web 기능에 액세스합니다. 여러 링크에 정렬 및 필터링할 수 있는 오브젝트 목록이 표시됩니다. 필요한 모든 정보를 표시하도록 열을 구성할 수도 있습니다. 이 [섹션](#list-screens)을 참조하십시오. 이메일 게재 목록을 제외한 모든 목록 화면은 읽기 전용입니다. Alpha에서는 편집/보기를 위해 목록 항목을 클릭할 수 없습니다. 향후 버전에서는 모든 목록을 편집할 수 있습니다. 왼쪽 탐색 메뉴에 표시되는 항목은 사용자 권한에 따라 다릅니다.
 
 ![](assets/home.png)
 
 ### 홈
 
-이 화면에는 기본 Campaign v8 웹 기능에 빠르게 액세스할 수 있는 주요 링크 및 리소스가 포함되어 있습니다. 다음 **최근 항목** 목록은 최근에 만들고 수정된 게재에 대한 바로 가기를 제공합니다. 이 목록에는 작성 및 수정 날짜 및 상태가 표시됩니다.
+이 화면에는 주요 Campaign v8 Web 기능에 빠르게 액세스할 수 있는 주요 링크와 리소스가 포함되어 있습니다. **최근 항목** 목록은 최근 생성 및 수정된 게재에 대한 단축키를 제공합니다. 이 목록에는 생성 및 수정일과 상태가 표시됩니다.
 
 <!--
 * Banner
@@ -51,7 +51,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 * Learning cards
 -->
 
-홈 페이지의 하위 섹션에서 Campaign v8 웹 키 도움말 페이지에 액세스합니다.
+홈 페이지 하단 섹션의 Campaign v8 Web 주요 도움말 페이지에 액세스합니다.
 
 <!--
 show global KPIs, recent items + left menu to access features)
@@ -70,9 +70,9 @@ Global report not alpha
 
 탐색기에 표시되는 항목은 사용자 권한에 따라 다릅니다.
 
-목록 화면에서와 마찬가지로, 디스플레이를 개인화하여 필요한 모든 정보를 표시하도록 열을 구성할 수 있습니다. 다음 보기 [섹션](#list-screens).
+모든 목록 화면과 마찬가지로 디스플레이를 개인화하고 필요한 모든 정보를 표시하도록 열을 구성할 수 있습니다. 이 [섹션](#list-screens)을 참조하십시오.
 
-Campaign 탐색기에 대한 자세한 내용은 다음을 참조하십시오 [설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html#ac-explorer-ui){target="_blank"}.
+Campaign 탐색기에 대한 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html#ac-explorer-ui)를 참조하십시오{target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -91,13 +91,13 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="게재"
->abstract="게재 목록을 탐색합니다. 상태, 마지막 수정 날짜 및 주요 KPI를 볼 수 있습니다. 상태, 연락 날짜 또는 채널별로 목록을 필터링할 수 있습니다. 이메일 게재를 클릭하여 대시보드를 엽니다. 다른 항목은 읽기 전용입니다. 게재 템플릿도 사용할 수 있습니다."
+>abstract="게재 목록을 탐색합니다. 상태, 마지막 수정 날짜 및 주요 KPI를 볼 수 있습니다. 상태, 연락일 또는 채널별로 목록을 필터링할 수 있습니다. 이메일 게재를 클릭하여 대시보드를 엽니다. 다른 항목은 읽기 전용입니다. 게재 템플릿도 사용할 수 있습니다."
 
-* **캠페인** - 캠페인 목록입니다. 기본적으로 시작/종료/마지막 수정 날짜와 해당 상태를 볼 수 있습니다. 상태 또는 시작/종료 날짜별로 목록을 필터링할 수 있습니다. 캠페인 템플릿도 사용할 수 있습니다. 이 목록은 읽기 전용입니다.
+* **캠페인** - 캠페인 목록입니다. 기본적으로 시작/종료/마지막 수정일 및 상태를 볼 수 있습니다. 상태 또는 시작/종료 날짜별로 목록을 필터링할 수 있습니다. 캠페인 템플릿도 사용할 수 있습니다. 이 목록은 읽기 전용입니다.
 
-* **게재** - 게재 목록을 살펴봅니다. 기본적으로 상태, 마지막 수정 날짜 및 주요 KPI를 볼 수 있습니다. 상태, 연락 날짜 또는 채널별로 목록을 필터링할 수 있습니다. 이메일 게재 를 클릭하여 해당 대시보드를 열어 게재 세부 사항에 대한 개요를 확인합니다. 다른 채널에서의 게재는 읽기 전용입니다. 게재 템플릿은 읽기 전용 모드에서도 사용할 수 있습니다. 클라이언트 콘솔을 사용하여 편집할 수 있습니다. 다음 보기 [설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+* **게재** - 게재 목록을 탐색합니다. 기본적으로 상태, 마지막 수정일 및 주요 KPI를 볼 수 있습니다. 상태, 연락일 또는 채널별로 목록을 필터링할 수 있습니다. 이메일 게재를 클릭하여 대시보드를 열고 게재 세부 정보의 개요를 확인합니다. 다른 채널의 게재는 읽기 전용입니다. 게재 템플릿도 읽기 전용 모드로 사용할 수 있습니다. 클라이언트 콘솔을 사용하여 게재 템플릿을 편집할 수 있습니다. 이 [설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html)를 참조하십시오{target="_blank"}.
 
-   를 사용하십시오 **추가 작업** 버튼을 클릭하여 게재를 삭제하거나 복제합니다.
+   **추가 작업**&#x200B;을 사용하여 게재를 삭제하거나 복제할 수 있습니다.
 
    ![](assets/more-actions.png){width="70%" align="left"}
 
@@ -119,9 +119,9 @@ Navtree view depends on permissions (same as console).
 >abstract="구독 목록을 탐색합니다. 유형, 모드 및 레이블을 볼 수 있습니다. 이 목록은 읽기 전용입니다."
 
 * **수신자** - 수신자 데이터베이스에 액세스합니다. 기본적으로 이메일 주소, 이름 및 성을 볼 수 있습니다. 이 목록은 읽기 전용입니다.
-* **대상** - 대상자 목록입니다. 기본적으로 유형, 원본, 생성/마지막 수정 날짜 및 레이블을 볼 수 있습니다. 원본을 기준으로 목록을 필터링할 수 있습니다. 이 목록은 읽기 전용입니다.
-* **구독 목록** - 구독 목록을 검색합니다. 기본적으로 유형, 모드 및 레이블을 볼 수 있습니다. 이 목록은 읽기 전용입니다.
-* **타겟팅 워크플로우** - Campaign 워크플로우 목록에 액세스합니다. 기본적으로 상태, 마지막/다음 처리 날짜 및 환경을 볼 수 있습니다. 상태, 마지막 처리 날짜 및 워크플로 유형별로 목록을 필터링할 수 있습니다. 워크플로 템플릿도 사용할 수 있습니다. 이 목록은 읽기 전용입니다.
+* **대상자** - 대상자 목록입니다. 기본적으로 유형, 원본, 생성/마지막 수정일 및 레이블을 볼 수 있습니다. 원본을 기준으로 목록을 필터링할 수 있습니다. 이 목록은 읽기 전용입니다.
+* **구독 목록** - 구독 목록을 탐색합니다. 기본적으로 해당 유형, 모드 및 레이블을 볼 수 있습니다. 이 목록은 읽기 전용입니다.
+* **타겟팅 워크플로** - 캠페인 워크플로우 목록에 액세스합니다. 기본적으로 상태, 마지막/다음 처리일 및 환경을 볼 수 있습니다. 상태, 마지막 처리 날짜 및 워크플로 유형별로 목록을 필터링할 수 있습니다. 워크플로 템플릿도 사용할 수 있습니다. 이 목록은 읽기 전용입니다.
 
 ### 의사 결정 관리
 
@@ -130,16 +130,16 @@ Navtree view depends on permissions (same as console).
 >title="오퍼"
 >abstract="상호 작용 오퍼 목록을 찾아보십시오. 기본적으로 상태, 시작/종료 날짜 및 환경을 볼 수 있습니다. 상태 및 시작/종료 날짜별로 목록을 필터링할 수 있습니다. 오퍼 템플릿도 사용할 수 있습니다. 이 목록은 읽기 전용입니다."
 
-* **오퍼** - 상호 작용 오퍼 목록을 살펴봅니다. 기본적으로 상태, 시작/종료 날짜 및 환경을 볼 수 있습니다. 상태 및 시작/종료 날짜별로 목록을 필터링할 수 있습니다. 오퍼 템플릿도 사용할 수 있습니다. 이 목록은 읽기 전용입니다.
+* **오퍼** - 상호 작용 오퍼 목록을 탐색합니다. 기본적으로 상태, 시작/종료 날짜 및 환경을 볼 수 있습니다. 상태 및 시작/종료 날짜별로 목록을 필터링할 수 있습니다. 오퍼 템플릿도 사용할 수 있습니다. 이 목록은 읽기 전용입니다.
 
-## 상단 표시줄
+## 상단 막대
 
-인터페이스 상단 표시줄에서는 다음 작업을 수행할 수 있습니다.
+인터페이스의 상단 막대에서 다음을 수행할 수 있습니다.
 
-* 알파 테스터로 피드백 공유
+* Alpha 테스터로서 피드백 공유
 * 조직과 인스턴스 간 전환
 * Adobe Experience Cloud 애플리케이션 간 전환
-* 도움말 페이지에 액세스하고 지원 센터에 문의하여 피드백을 공유하십시오. 검색 필드에서 도움말 문서와 비디오를 검색할 수 있습니다.
+* 도움말 페이지 액세스, 지원 팀에 문의 및 피드백 공유 검색 필드에서 도움말 문서와 비디오를 검색할 수 있습니다.
 
 ![](assets/unified-shell.png){width="70%" align="left"}
 <!--
@@ -148,40 +148,40 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 ## 목록 화면 구성 {#list-screens}
 
-예를 들어 왼쪽 탐색 메뉴의 몇 가지 링크 **게재** 또는 **캠페인**, 객체 목록을 표시합니다. 이러한 목록 화면은 이메일 게재 목록을 제외하고 읽기 전용입니다.
+왼쪽 탐색 메뉴의 여러 링크(예: **게재** 또는 **캠페인**)에는 오브젝트 목록이 표시됩니다. 이메일 게재 목록을 제외하고 이러한 목록 화면은 읽기 전용입니다.
 
-항목을 더 빨리 찾기 위해 검색 막대를 사용하거나 상황별 기준에 따라 목록을 필터링할 수 있습니다.
+검색 창을 사용하거나 상황별 기준에 따라 목록을 필터링하여 항목을 더 빨리 찾을 수 있습니다.
 
 ![](assets/filter.png){width="70%" align="left"}
 
-목록이 열에 표시됩니다. 열 구성을 변경하여 추가 정보를 표시할 수 있습니다. 이렇게 하려면 목록의 오른쪽 위 모서리에 있는 아이콘을 클릭합니다. 열을 추가하거나 제거하고 열을 표시하는 순서를 변경할 수 있습니다.
+목록은 열에 표시됩니다. 열 구성을 변경하여 추가 정보를 표시할 수 있습니다. 이렇게 하려면 목록의 오른쪽 상단에 있는 아이콘을 클릭합니다. 열을 추가 또는 제거하고 열이 표시되는 순서를 변경할 수 있습니다.
 
 ![](assets/columns.png){width="70%" align="left"}
 
-열 헤더를 클릭하여 목록에서 항목을 정렬할 수 있습니다. 목록이 해당 열에 정렬되었음을 나타내는 화살표가 표시됩니다(위쪽 또는 아래쪽). 숫자 또는 날짜 열의 경우 위쪽 화살표는 목록이 오름차순으로 정렬되었음을 나타내고, 아래쪽 화살표는 내림차순을 나타냅니다. 문자열 또는 영숫자 열의 경우 값은 알파벳 순서로 나열됩니다.
+열 머리글을 클릭하여 목록의 항목을 정렬할 수 있습니다. 목록이 해당 열에 정렬되어 있음을 나타내는 화살표(위 또는 아래)가 표시됩니다. 숫자 또는 날짜 열의 경우 위쪽 화살표는 목록이 오름차순으로 정렬됨을 나타내고 아래쪽 화살표는 내림차순으로 정렬됨을 나타냅니다. 문자열 또는 영숫자 열의 경우 값이 알파벳순으로 나열됩니다.
 
 ## 상황별 도움말 및 온보딩 안내서
 
-인터페이스에서 상황별 도움말을 사용할 수 있습니다. 사용 가능한 경우 **?** 아이콘 을 클릭하여 도움말 정보 및 관련 설명서 링크를 표시합니다.
+인터페이스에서 상황별 도움말을 사용할 수 있습니다. 사용 가능한 경우 **?** 아이콘을 클릭하면 도움말 정보 및 관련 설명서 링크가 표시됩니다.
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-Campaign v8 웹을 시작하는 데 도움이 되는 온보딩 안내서도 제공됩니다. 오른쪽 아래 모서리에 있는 아이콘을 클릭하고, 사용 가능한 단계별 시나리오 중 하나를 선택한 다음, 지침을 따르십시오.
+Campaign v8 Web을 시작하는 데 도움이 되는 온보딩 안내서도 사용할 수 있습니다. 오른쪽 하단에 있는 아이콘을 클릭하고 사용 가능한 단계별 시나리오 중 하나를 선택한 다음 지침을 따르기만 하면 됩니다.
 
 ![](assets/onboarding.png){width="70%" align="left"}
 
 ## 지원되는 브라우저 {#browsers}
 
-Campaign v8 Web은 최신 버전의 Google Chrome, Safari 및 Microsoft Edge에서 최적으로 작동하도록 설계되었습니다. 이전 버전 또는 다른 브라우저에서 특정 기능을 사용하는 데 문제가 있을 수 있습니다.
+Campaign v8 Web은 최신 버전의 Google Chrome, Safari 및 Microsoft Edge에서 최적으로 작동하도록 설계되었습니다. 이전 버전이나 다른 브라우저에서 특정 기능 사용 시 문제가 발생할 수 있습니다.
 
 ## 언어 환경 설정 {#language-pref}
 
-Campaign v8 Web은 현재 다음 언어로 사용할 수 있습니다.
+Campaign v8 Web은 현재 다음 언어로 제공됩니다.
 
 <table>
 <tr>
 <td>
-<p>영어(미국) - 미국</p>
+<p>영어(미국) - EN-US</p>
 <p>프랑스어 - FR</p>
 <p>독일어 - DE</p>
 <p>이탈리아어 - IT</p>
@@ -199,11 +199,11 @@ Campaign v8 Web은 현재 다음 언어로 사용할 수 있습니다.
 </tr>
 </table>
 
-기본 인터페이스 언어는 사용자 프로필에 지정된 기본 언어로 결정됩니다.
+기본 인터페이스 언어는 사용자 프로필에 지정된 기본 언어에 따라 결정됩니다.
 
-언어를 변경하려면 다음을 수행하십시오.
+언어를 변경하려면 다음 작업을 수행하십시오.
 
-1. 오른쪽 상단에서 프로필 아이콘을 클릭한 다음 을 선택합니다 **기본 설정**.
+1. 오른쪽 상단의 프로필 아이콘을 클릭한 다음 **환경 설정**&#x200B;을 선택합니다.
 
    ![](assets/preferences.png){width="70%" align="left"}
 
@@ -211,7 +211,7 @@ Campaign v8 Web은 현재 다음 언어로 사용할 수 있습니다.
 
    ![](assets/preferences2.png)
 
-1. 기본 언어를 선택하고 을(를) 클릭합니다 **저장**. 사용 중인 구성 요소가 첫 번째 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
+1. 원하는 언어를 선택하고 **저장**&#x200B;을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되어 있지 않은 경우 두 번째 언어를 선택할 수 있습니다.
 
    ![](assets/select-language.png)
 
@@ -248,12 +248,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
->title="캠페인 만들기 속성"
+>title="캠페인 생성 속성"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
->title="캠페인 만들기 예약"
+>title="캠페인 생성 일정"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
@@ -263,7 +263,7 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
->title="보낸 지표"
+>title="전송된 지표"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
@@ -293,17 +293,17 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
->title="테스트 채우기"
+>title="테스트 모집단"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
->title="미리 보기 모드"
+>title="미리보기 모드"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
->title="풍부한 데이터"
+>title="보강 데이터"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
@@ -323,12 +323,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
->title="매개 변수 형식 지정"
+>title="서식 지정 매개변수"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
->title="보고 보내기"
+>title="보고 전송"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
@@ -343,12 +343,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
->title="Target 통계 보고"
+>title="대상 통계 보고"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
->title="집계된 보고: 게재 선택"
+>title="집계된 게재 선택 보고"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
@@ -358,7 +358,7 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
->title="워크플로우 목록"
+>title="워크플로 목록"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
@@ -378,7 +378,7 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
->title="Dimension 보완"
+>title="차원 보완"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]

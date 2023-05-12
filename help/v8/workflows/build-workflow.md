@@ -1,33 +1,43 @@
 ---
 audience: end-user
-title: Adobe Campaign Web을 사용하여 워크플로우 디자인
-description: Adobe Campaign Web을 사용하여 워크플로우를 구축하는 방법을 알아봅니다
-badge: label="Alpha" type="Positive"
-source-git-commit: 1dabd8669dbf6483ec8c2bdae4b9567711fcfc4c
+title: Adobe Campaign Web을 사용하여 워크플로 디자인
+description: Adobe Campaign Web을 사용하여 워크플로를 구축하는 방법 알아보기
+badge: 레이블=“Alpha” 유형=“Positive”
+exl-id: 636a5b40-c351-45a0-bcda-934dbce1a430
+source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 0%
+source-wordcount: '204'
+ht-degree: 49%
 
 ---
 
-
-# 워크플로우 활동 오케스트레이션 {#build}
+# 워크플로 활동 조율 {#build}
 
 콘텐츠 TBC
 
-워크플로우 캔버스 개요 및 원칙
+워크플로 캔버스 개요 및 원칙
 
-## 워크플로우 캔버스 작업 {#canvas}
+
+일단 당신이 [워크플로우 만들기](create-workflow.md)워크플로우 메뉴 또는 캠페인 내에서 수행할 여러 작업의 오케스트레이션을 시작할 수 있습니다.
+
+이렇게 하려면 시각적 캔버스를 사용하여 다양한 활동을 추가하고 순차적 순서로 함께 연결할 수 있는 워크플로우 다이어그램을 작성할 수 있습니다.
+
+* [워크플로우 캔버스로 작업하는 방법 알아보기](#canvas)
+* [워크플로우 활동을 추가하고 연결하는 방법을 알아봅니다](#activities)
+
+## 워크플로 캔버스를 사용하여 작업 {#canvas}
 
 * 상태 및 마지막 처리 날짜 및 시간
-* 탐색 도구 모음(확대/축소, 화면에 맞추기, 디스플레이 맵)
-* 활동을 오케스트레이션하는 중앙 캔버스
-* 워크플로우 설정 구성
+* 탐색 도구 모음 (확대/축소, 화면에 맞추기, 지도 표시)
+* 활동을 조율하는 중앙 캔버스
+* 워크플로 설정 구성
 * 활동 구성 창
 
 ## 활동 추가 및 연결 {#activities}
 
-* 워크플로우 시작 및 종료
+* 워크플로 시작 및 종료
 * 활동 추가/제거 방법
 * 전환 작업: 결과 보기, 전환에 레이블 추가
-* 활동 간의 관계: 이전 활동에 추가하거나 사용하지 않을 수 있는 활동
+* 활동 간 관계: 추가할 수 있는 활동 또는 이전 활동에 의존하지 않는 활동
+
+워크플로우 다이어그램을 성공적으로 디자인하면 워크플로우를 실행하고 다양한 작업이 수행되는 방식을 추적할 수 있습니다. [워크플로우를 시작하고 실행을 모니터링하는 방법을 알아봅니다](start-monitor-workflows.md)

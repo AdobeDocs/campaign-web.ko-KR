@@ -4,10 +4,10 @@ title: 이메일 디자이너에서 수직 정렬 및 패딩 조정
 description: 수직 정렬 및 패딩 조정 방법 알아보기
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '174'
-ht-degree: 100%
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
    ![](assets/alignment_2.png)
 
-1. 오른쪽의 **[!UICONTROL 열 설정]** 메뉴에 해당 열에 대한 편집 가능한 매개변수가 표시됩니다. 전용 섹션을 사용하여 **[!UICONTROL 수직 정렬]**&#x200B;을 조정합니다.
+1. 해당 열의 편집 가능한 매개 변수는 **[!UICONTROL 스타일]** 탭. 조정 **[!UICONTROL 정렬]** 전용 섹션 사용.
 
    ![](assets/alignment_3.png)
 

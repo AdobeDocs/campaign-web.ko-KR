@@ -4,10 +4,10 @@ title: 메시지 추적
 description: 링크를 추가하고 전송된 메시지를 추적하는 방법 알아보기
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '373'
-ht-degree: 100%
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 1. 변경 내용을 저장합니다.
 
-1. 링크가 생성된 후에도 오른쪽 **[!UICONTROL 구성 요소 설정]** 창에서 링크를 수정할 수 있습니다.
+1. 링크가 만들어지더라도 **[!UICONTROL 설정]** 탭.
 
    * 링크를 편집하고 **[!UICONTROL 대상]**&#x200B;을 변경할 수 있습니다.
    * 해당 옵션을 선택하여 링크에 밑줄을 표시할지 여부를 선택할 수 있습니다.

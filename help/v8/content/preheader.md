@@ -4,10 +4,10 @@ title: 이메일 디자이너에서 프리 헤더 추가
 description: 이메일 콘텐츠 디자인 방법 알아보기
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '217'
-ht-degree: 100%
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+workflow-type: tm+mt
+source-wordcount: '203'
+ht-degree: 96%
 
 ---
 
@@ -34,13 +34,9 @@ ht-degree: 100%
 
    ![](assets/preheader_body.png)
 
-1. **[!UICONTROL 본문 설정]** 오른쪽 창에서 **[!UICONTROL 프리 헤더]** 필드 옆에 있는 편집 아이콘을 클릭하여 콘텐츠를 추가합니다.
+1. 에서 **[!UICONTROL 설정]** 탭에서 사전 헤더를 추가합니다. **[!UICONTROL 개인화 추가]** 아이콘을 클릭하여 프리 헤더를 추가로 개인화할 수 있습니다.
 
    ![](assets/preheader_body_settings.png)
-
-1. 프리 헤더를 추가합니다. **[!UICONTROL 개인화 추가]** 아이콘을 클릭하여 프리 헤더를 추가로 개인화할 수 있습니다.
-
-   ![](assets/preheader_3.png)
 
 1. **[!UICONTROL 개인화 편집]** 창에서 **[!UICONTROL 콘텐츠 블록]**, **[!UICONTROL 동적 콘텐츠]** 또는 **[!UICONTROL 개인화 필드]**&#x200B;를 추가할 수 있습니다.
 

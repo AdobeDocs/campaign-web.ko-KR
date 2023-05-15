@@ -4,10 +4,10 @@ title: 링크 스타일 정의
 description: 링크 스타일을 정의하는 방법 알아보기
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '144'
-ht-degree: 100%
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 81%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 1. 링크가 삽입된 **[!UICONTROL 텍스트]** 구성 요소에서 링크를 선택합니다.
 
-1. **[!UICONTROL 구성 요소 설정]** 메뉴에서 **[!UICONTROL 링크에 밑줄 긋기]**&#x200B;를 선택하여 레이블에 밑줄을 긋습니다.
+1. 에서 **[!UICONTROL 설정]** 탭, 확인 **[!UICONTROL 밑줄 링크]** 레이블에 밑줄이 그어져 있습니다.
 
    ![](assets/link_1.png)
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
    ![](assets/link_2.png)
 
-1. 링크 색상을 변경하려면 오른쪽 창에서 **[!UICONTROL 링크 색상]**&#x200B;을 클릭합니다.
+1. 링크 색상을 변경하려면 **[!UICONTROL 링크 색상]** 에서 **[!UICONTROL 스타일]** 탭.
 
    ![](assets/link_3.png)
 

@@ -5,7 +5,7 @@ description: Campaign Web UI에서 메시지에 대한 컨트롤 그룹을 설�
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: 레이블=“Alpha” 유형=“Positive”
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
 

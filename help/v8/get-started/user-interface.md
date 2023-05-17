@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 8b29c98e9cc4ca1d9c41fcc92230856bd9d140bb
+source-git-commit: ad37bf6df203bde6eaf57d35c49534e75557ae6a
 workflow-type: tm+mt
-source-wordcount: '1394'
-ht-degree: 98%
+source-wordcount: '1446'
+ht-degree: 94%
 
 ---
 
@@ -228,7 +228,7 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 ######## These blocks should be dispatched in the appropriate pages when available ###########
 ######## PLEASE DO NOT DELETE ###########
 REFER TO 
-https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
+https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
 >[!CONTEXTUALHELP]
@@ -249,12 +249,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="캠페인 생성 속성"
->abstract="TBD"
+>abstract="캠페인에 대한 속성 및 메타데이터를 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="캠페인 생성 일정"
->abstract="TBD"
+>abstract="캠페인에 대한 일정을 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -264,12 +264,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="전송된 지표"
->abstract="TBD"
+>abstract="배달된 이메일 수입니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="오류 지표"
->abstract="TBD"
+>abstract="오류 상태가 있는 이메일 수입니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
@@ -284,22 +284,22 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="SMS 콘텐츠"
->abstract="TBD"
+>abstract="SMS 콘텐츠를 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="앱 구독자"
->abstract="TBD"
+>abstract="기본 타겟에 앱 구독자를 추가하여 메시지를 미리 보고 테스트합니다. "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
 >title="테스트 모집단"
->abstract="TBD"
+>abstract="테스트 모집단 모드를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="미리보기 모드"
->abstract="TBD"
+>abstract="기본 타겟에 테스트 모집단을 포함하여 메시지를 미리 보고 테스트합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"

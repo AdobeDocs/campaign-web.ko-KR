@@ -4,10 +4,10 @@ title: 캠페인 시작하기
 description: 크로스 채널 캠페인 시작 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
+source-git-commit: 96b4159890c1cc03e85cb93843606e810b630930
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 21%
+source-wordcount: '303'
+ht-degree: 20%
 
 ---
 
@@ -19,6 +19,14 @@ Adobe Campaign을 사용하여 크로스 채널 캠페인을 만듭니다. 마�
 <!--Measure the effectiveness of your deliveries with detailed reports including thecounts of opens, clicks, forwards, and more.--> Adobe Campaign 세그멘테이션 기능을 사용하면 대용량 데이터베이스에 대해 쿼리를 실행하고 캠페인을 완벽하게 타깃팅하는 동적 마케팅 세그먼트를 쉽게 정의할 수 있습니다.
 
 ## 크로스 채널 캠페인 만들기 {#cross-channel-campaign}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="워크플로 목록"
+>abstract="캠페인에 사용할 수 있는 워크플로우 목록입니다. &#39;워크플로우 만들기&#39; 버튼을 사용하여 캠페인에 워크플로우를 추가합니다."
+
+
 
 크로스 채널 캠페인에서는 단일 마케팅 커뮤니케이션에 다양한 채널을 사용합니다. 채널 간에 데이터가 전달됩니다. 이전 커뮤니케이션과의 상호 작용 등을 기반으로 여러 채널을 통해 고객에게 커뮤니케이션을 전달합니다.
 

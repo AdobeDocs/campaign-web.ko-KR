@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 679034d3ebae2120868ff5cd96ad2935302f86c6
+source-git-commit: 96b4159890c1cc03e85cb93843606e810b630930
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 85%
+source-wordcount: '1549'
+ht-degree: 86%
 
 ---
 
@@ -342,10 +342,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="게재에 대한 집계된 보고"
 >abstract="집계된 데이터 보고서를 표시할 게재를 두 개 이상 선택하십시오."
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_workflow"
->title="워크플로 목록"
->abstract="캠페인에 사용할 수 있는 워크플로우 목록입니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"

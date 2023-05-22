@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: ad37bf6df203bde6eaf57d35c49534e75557ae6a
+source-git-commit: 39f59160e3def8f54c61cfab9f872bc692683aa3
 workflow-type: tm+mt
-source-wordcount: '1446'
-ht-degree: 94%
+source-wordcount: '1458'
+ht-degree: 93%
 
 ---
 
@@ -246,15 +246,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="푸시 알림 템플릿"
 >abstract="TBD"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_properties"
->title="캠페인 생성 속성"
->abstract="캠페인에 대한 속성 및 메타데이터를 정의합니다."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="캠페인 생성 일정"
->abstract="캠페인에 대한 일정을 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -264,12 +255,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="전송된 지표"
->abstract="배달된 이메일 수입니다."
+>abstract="게재된 이메일 수."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="오류 지표"
->abstract="오류 상태가 있는 이메일 수입니다."
+>abstract="오류 상태의 이메일 수입니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
@@ -289,7 +280,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="앱 구독자"
->abstract="기본 타겟에 앱 구독자를 추가하여 메시지를 미리 보고 테스트합니다. "
+>abstract="앱 구독자를 기본 대상에 추가하여 메시지를 미리 보고 테스트합니다. "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
@@ -299,7 +290,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="미리보기 모드"
->abstract="기본 타겟에 테스트 모집단을 포함하여 메시지를 미리 보고 테스트합니다."
+>abstract="테스트 모집단을 주요 대상에 포함하여 메시지를 미리 보고 테스트합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
@@ -319,12 +310,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="열 정의"
->abstract="TBD"
+>abstract="파일에서 삽입할 열을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="서식 지정 매개변수"
->abstract="TBD"
+>abstract="파일의 서식 매개 변수를 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
@@ -394,25 +385,25 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="속성 선택기 고급 필드"
->abstract="TBD"
+>abstract="고급 필드로 열을 구성합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="규칙 빌더 고급 필드"
->abstract="TBD"
+>abstract="고급 필드로 열을 구성합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_properties"
 >title="SMS 게재 속성"
->abstract="TBD"
+>abstract="SMS 게재 속성을 관리합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
 >title="푸시 게재 속성"
->abstract="TBD"
+>abstract="푸시 게재 속성을 관리합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
 >title="새 격리 지표"
->abstract="TBD"
+>abstract="새 격리 지표."
 

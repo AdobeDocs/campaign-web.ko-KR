@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
+source-git-commit: 679034d3ebae2120868ff5cd96ad2935302f86c6
 workflow-type: tm+mt
-source-wordcount: '1455'
-ht-degree: 93%
+source-wordcount: '1558'
+ht-degree: 85%
 
 ---
 
@@ -234,12 +234,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="SMS 보고서 요약"
->abstract="TBD"
+>abstract="SMS 게재에 대한 보고 지표를 살펴봅니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="푸시 보고서 요약"
->abstract="TBD"
+>abstract="푸시 게재에 대한 보고 지표를 알아봅니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
@@ -250,7 +250,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
 >title="규칙 빌더 고급 속성"
->abstract="TBD"
+>abstract="고급 속성을 사용하여 규칙을 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
@@ -265,12 +265,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Android 콘텐츠 푸시"
->abstract="TBD"
+>abstract="푸시 Android 콘텐츠를 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="iOS 콘텐츠 푸시"
->abstract="TBD"
+>abstract="푸시 iOS 콘텐츠를 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
@@ -320,32 +320,32 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
 >title="보고 전송"
->abstract="TBD"
+>abstract="캠페인 보고에 대한 전송 지표를 참조하십시오."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="보고 추적"
->abstract="TBD"
+>abstract="캠페인 보고에 대한 추적 지표를 참조하십시오."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="보고 개요"
->abstract="TBD"
+>abstract="게재에 대한 주요 지표."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="대상 통계 보고"
->abstract="TBD"
+>abstract="이 섹션에는 대상에 따른 특정 지표가 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
->title="집계된 게재 선택 보고"
->abstract="TBD"
+>title="게재에 대한 집계된 보고"
+>abstract="집계된 데이터 보고서를 표시할 게재를 두 개 이상 선택하십시오."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="워크플로 목록"
->abstract="TBD"
+>abstract="캠페인에 사용할 수 있는 워크플로우 목록입니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
@@ -370,12 +370,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="권한 필요"
->abstract="TBD"
+>abstract="세그먼트를 만들려면 먼저 관리자가 사용자에게 권한을 부여해야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_overview_edit"
 >title="권한 필요"
->abstract="TBD"
+>abstract="세그먼트를 만들려면 먼저 관리자가 사용자에게 권한을 부여해야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
@@ -402,3 +402,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="새 격리 지표"
 >abstract="새 격리 지표."
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_template_selection"
+>title="SMS 템플릿 선택"
+>abstract="미리 정의된 템플릿을 선택하여 SMS 게재를 시작합니다."

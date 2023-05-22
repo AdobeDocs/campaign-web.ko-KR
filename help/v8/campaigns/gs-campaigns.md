@@ -4,9 +4,9 @@ title: 캠페인 시작하기
 description: 크로스 채널 캠페인 시작 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: b542553ebde67211241bfbcf16b7b608eed275bb
+source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '282'
 ht-degree: 21%
 
 ---
@@ -28,6 +28,11 @@ Adobe Campaign을 사용하여 크로스 채널 캠페인을 만듭니다. 마�
 >id="acw_campaign_creation_properties"
 >title="캠페인 생성 속성"
 >abstract="캠페인에 대한 속성 및 메타데이터를 정의합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_properties"
+>title="캠페인 속성"
+>abstract="캠페인 설정 및 메타데이터를 정의합니다."
 
 새 캠페인을 만들 때 캠페인 속성이 표시됩니다.
 

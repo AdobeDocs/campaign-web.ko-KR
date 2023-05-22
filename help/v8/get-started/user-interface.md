@@ -4,9 +4,9 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 39f59160e3def8f54c61cfab9f872bc692683aa3
+source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1455'
 ht-degree: 93%
 
 ---
@@ -340,11 +340,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
 >title="집계된 게재 선택 보고"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_properties"
->title="캠페인 속성"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]

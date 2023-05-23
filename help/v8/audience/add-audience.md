@@ -4,10 +4,10 @@ title: 대상자 선택
 description: 대상자 선택 방법 알아보기
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
-workflow-type: ht
-source-wordcount: '272'
-ht-degree: 100%
+source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
+workflow-type: tm+mt
+source-wordcount: '273'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 이외에 수행할 수 있는 작업은 다음과 같습니다.
 
 * 새 대상자 만들기 [자세히 알아보기](segment-builder.md)
-* 파일에서 대상자 가져오기 [자세히 알아보기](import-audience.md)
+* 외부 파일의 대상자를 사용합니다. [자세히 알아보기](file-audience.md)
 * Adobe Experience Platform 대상자 사용 [자세히 알아보기](aep-audience.md)
 
 

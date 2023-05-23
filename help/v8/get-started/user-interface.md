@@ -4,9 +4,9 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 96b4159890c1cc03e85cb93843606e810b630930
+source-git-commit: 9ec7870b54c08c86314c19693b783a0a0cfad937
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1527'
 ht-degree: 86%
 
 ---
@@ -302,20 +302,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="개인화"
 >abstract="TBD"
 
->[!CONTEXTUALHELP]
->id="acw_audience_fromfile_select"
->title="파일 선택"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_audience_fromfile_columns"
->title="열 정의"
->abstract="파일에서 삽입할 열을 선택합니다."
-
->[!CONTEXTUALHELP]
->id="acw_audience_fromfile_formatting"
->title="서식 지정 매개변수"
->abstract="파일의 서식 매개 변수를 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"

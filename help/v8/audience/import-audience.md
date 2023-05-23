@@ -1,34 +1,40 @@
 ---
 audience: end-user
-title: 파일에서 수신자 가져오기
-description: 외부 파일에서 수신자를 가져오는 방법 알아보기
+title: 파일에서 수신자 Target
+description: 외부 파일의 수신자를 사용하여 이메일 대상자를 작성하는 방법을 알아봅니다
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: ef8418294540ee0462725cdaf6824ba7ee4d9b59
+source-git-commit: a6c85aeed30726532ab6060fec5cb4b5e398d9ec
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 97%
+source-wordcount: '193'
+ht-degree: 34%
 
 ---
 
-# 파일에서 수신자 가져오기 {#audience-from-file}
+# 파일에서 수신자 Target {#audience-from-file}
 
-게재 인터페이스에서 텍스트 파일(TXT) 또는 쉼표로 구분된 값 파일(CSV)을 업로드하여 연락처를 추가하거나 업데이트할 수 있습니다. 추가 또는 업데이트된 연락처는 데이터베이스에 추가됩니다.
+외부 파일에서 연락처를 업로드할 수 있습니다. 이 기능은 이메일 게재에만 사용할 수 있습니다. 지원되는 형식은 텍스트 파일(TXT) 또는 쉼표로 구분된 값 파일(CSV)입니다. 추가 또는 업데이트된 연락처는 데이터베이스에 추가됩니다.
 
 >[!NOTE]
 >
->여러 프로필을 추가하거나 업데이트하는 가져오기 워크플로를 구축할 수도 있습니다.
+>가져오기 워크플로우를 작성하여 여러 프로필을 추가하거나 업데이트할 수 있습니다.  자세히 알아보기
 
 
-인터페이스에서 직접 로컬 파일의 프로필을 추가하려면 다음 단계를 따르십시오.
+인터페이스에서 직접 로컬 파일의 프로필을 타겟팅하려면 다음 단계를 수행합니다.
 
-1. 게재 생성 창에서 **대상자 선택** 버튼을 클릭한 다음 **파일에서 선택** 옵션을 선택합니다.
+1. 전자 메일 게재 만들기 창에서 **대상자 선택** 버튼을 클릭하고 다음을 선택합니다. **파일에서 선택** 옵션을 선택합니다.
+
+   ![](assets/select-from-file.png)
+
 1. 업로드할 로컬 파일을 선택합니다.
-1. 열 설정 및 데이터 형식 지정 방법을 정의합니다. **열 무시** 토글을 사용하여 열을 건너뛸 수 있습니다.
 1. 화면 중앙 섹션에서 데이터가 매핑되는 방식을 미리 봅니다.
+1. 에서 이메일 주소를 포함하는 열을 선택합니다. **주소 필드** 드롭다운.
+1. 열 설정 및 사용 가능한 옵션에서 데이터 서식 지정 방법을 조정합니다.
 1. 설정이 적절하면 **확인**&#x200B;을 클릭합니다.
 
 메시지 콘텐츠 작성 및 개인화 시 개인화 편집기의 입력 파일에서 필드를 선택할 수 있습니다.
+
+![](assets/select-external-perso.png)
 
 ## 샘플 파일 {#sample-file}
 
@@ -40,10 +46,10 @@ ht-degree: 97%
 
 ```json
 {
-lastname,firstname,birthdate,email,crmID
-Smith,Hayden,23/05/1989,hayden.smith@example.com,124365
-Mars,Daniel,17/11/1987,dannymars@example.com,123545
-Smith,Clara,08/02/1989,clara.smith@example.com,124567
-Durance,Allison,15/12/1978,allison.durance@example.com,120987
+lastname,firstname,city,birthdate,email,denylist
+Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
+Mars,Daniel,London,17/11/1999,dannymars@example.com,0
+Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
+Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 }
 ```

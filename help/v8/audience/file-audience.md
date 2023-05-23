@@ -4,14 +4,14 @@ title: 파일에서 수신자 Target
 description: 외부 파일의 수신자를 사용하여 이메일 대상자를 작성하는 방법을 알아봅니다
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
+source-git-commit: 231d117247462645fe2b72f324486c4ea9122faf
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 21%
 
 ---
 
-# 파일에서 수신자 Target {#audience-from-file}
+# 파일에서 수신자 로드 {#audience-from-file}
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_select"

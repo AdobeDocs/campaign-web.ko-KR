@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 9ec7870b54c08c86314c19693b783a0a0cfad937
+source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
 workflow-type: tm+mt
-source-wordcount: '1527'
-ht-degree: 86%
+source-wordcount: '1513'
+ht-degree: 87%
 
 ---
 
@@ -273,11 +273,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="푸시 iOS 콘텐츠를 정의합니다."
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_sms_content"
->title="SMS 콘텐츠"
->abstract="SMS 콘텐츠를 정의합니다."
-
->[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="앱 구독자"
 >abstract="앱 구독자를 기본 대상에 추가하여 메시지를 미리 보고 테스트합니다. "
@@ -368,11 +363,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_rulebuilder_advancedfields"
 >title="규칙 빌더 고급 필드"
 >abstract="고급 필드로 열을 구성합니다."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_properties"
->title="SMS 게재 속성"
->abstract="SMS 게재 속성을 관리합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"

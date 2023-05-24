@@ -5,7 +5,7 @@ description: 이메일 배경 개인화 방법 알아보기
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 badge: 레이블=“Alpha” 유형=“Positive”
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 100%
 

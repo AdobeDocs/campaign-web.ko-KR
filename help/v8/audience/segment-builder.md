@@ -5,7 +5,7 @@ description: Segment Builder를 사용하여 작업하는 방법 알아보기
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: 레이블=“Alpha” 유형=“Positive”
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 100%
 

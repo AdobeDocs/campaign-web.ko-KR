@@ -5,7 +5,7 @@ title: Adobe Campaign Web v8 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: 레이블=“Alpha” 유형=“Positive”
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 100%
 

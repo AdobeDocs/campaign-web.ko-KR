@@ -5,7 +5,7 @@ description: 이메일 콘텐츠를 가져오는 방법 알아보기
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 badge: 레이블=“Alpha” 유형=“Positive”
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 100%
 

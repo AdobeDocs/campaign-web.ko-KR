@@ -5,7 +5,7 @@ description: Campaign Web UI를 사용하여 이메일 콘텐츠를 미리 보�
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: 레이블=“Alpha” 유형=“Positive”
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: 이메일의 텍스트 버전을 만드는 방법
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
 badge: 레이블=“Alpha” 유형=“Positive”
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 100%
 

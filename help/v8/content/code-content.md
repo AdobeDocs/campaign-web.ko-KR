@@ -5,7 +5,7 @@ description: 자체 이메일 콘텐츠를 코딩하는 방법 알아보기
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
 badge: 레이블=“Alpha” 유형=“Positive”
 source-git-commit: 00396926f461b4cecfc3766ed7222337aa1aef60
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 100%
 

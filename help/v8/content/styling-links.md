@@ -18,7 +18,7 @@ ht-degree: 81%
 
 1. 링크가 삽입된 **[!UICONTROL 텍스트]** 구성 요소에서 링크를 선택합니다.
 
-1. 에서 **[!UICONTROL 설정]** 탭, 확인 **[!UICONTROL 밑줄 링크]** 레이블에 밑줄이 그어져 있습니다.
+1. 다음에서 **[!UICONTROL 설정]** 탭, 확인 **[!UICONTROL 링크 밑줄]** 레이블 밑줄을 긋습니다.
 
    ![](assets/link_1.png)
 
@@ -32,7 +32,7 @@ ht-degree: 81%
 
    ![](assets/link_2.png)
 
-1. 링크 색상을 변경하려면 **[!UICONTROL 링크 색상]** 에서 **[!UICONTROL 스타일]** 탭.
+1. 링크의 색상을 변경하려면 를 클릭합니다. **[!UICONTROL 링크 색상]** 다음에서 **[!UICONTROL 스타일]** 탭.
 
    ![](assets/link_3.png)
 

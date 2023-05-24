@@ -34,7 +34,7 @@ ht-degree: 96%
 
    ![](assets/preheader_body.png)
 
-1. 에서 **[!UICONTROL 설정]** 탭에서 사전 헤더를 추가합니다. **[!UICONTROL 개인화 추가]** 아이콘을 클릭하여 프리 헤더를 추가로 개인화할 수 있습니다.
+1. 다음에서 **[!UICONTROL 설정]** 탭에서 프리 헤더를 추가합니다. **[!UICONTROL 개인화 추가]** 아이콘을 클릭하여 프리 헤더를 추가로 개인화할 수 있습니다.
 
    ![](assets/preheader_body_settings.png)
 

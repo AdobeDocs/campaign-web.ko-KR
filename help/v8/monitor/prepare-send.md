@@ -5,7 +5,7 @@ description: Campaign Web UI를 사용하여 이메일을 준비하고 전송하
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: 레이블=“Alpha” 유형=“Positive”
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: 이메일 콘텐츠 스타일을 조정할 수 있는 다양한 방
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
 badge: 레이블=“Alpha” 유형=“Positive”
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 100%
 

@@ -18,7 +18,7 @@ ht-degree: 93%
 
 1. 콘텐츠에서 직접 구성 요소를 선택하거나 왼쪽 창의 **[!UICONTROL 탐색 트리]**&#x200B;를 사용하여 구성 요소를 선택합니다.
 
-1. 에서 **[!UICONTROL 스타일]** 탭에서 **[!UICONTROL 고급]** 드롭다운.
+1. 다음에서 **[!UICONTROL 스타일]** 탭을 클릭하고 **[!UICONTROL 고급]** 드롭다운.
 
    ![](assets/styles_1.png)
 

@@ -24,7 +24,7 @@ ht-degree: 88%
 
    ![](assets/alignment_2.png)
 
-1. 해당 열의 편집 가능한 매개 변수는 **[!UICONTROL 스타일]** 탭. 조정 **[!UICONTROL 정렬]** 전용 섹션 사용.
+1. 해당 열에 대한 편집 가능한 매개 변수가 **[!UICONTROL 스타일]** 탭. 조정 **[!UICONTROL 정렬]** 전용 섹션 사용.
 
    ![](assets/alignment_3.png)
 

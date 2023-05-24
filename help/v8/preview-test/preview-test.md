@@ -5,7 +5,7 @@ description: 이메일 미리보기 및 테스트 방법 알아보기
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: 레이블=“Alpha” 유형=“Positive”
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: 게재 보고서 액세스 및 사용 방법 알아보기
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: 레이블=“Alpha” 유형=“Positive”
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 100%
 

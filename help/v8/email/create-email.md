@@ -4,10 +4,10 @@ title: 첫 이메일 보내기
 description: Campaign Web UI를 사용하여 첫 이메일을 전송하는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 6322e9cd45b9158c207415d662670becab2c3332
 workflow-type: tm+mt
-source-wordcount: '1296'
-ht-degree: 100%
+source-wordcount: '1308'
+ht-degree: 99%
 
 ---
 
@@ -107,7 +107,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="대상자 정의"
->abstract="마케팅 메시지에 적합한 대상자를 선택합니다. Campaign v8 인스턴스 또는 Adobe Experience Platform에서 이미 정의된 기존 대상자를 선택하거나 규칙 빌더를 사용하여 새 대상자를 만들 수 있습니다."
+>abstract="마케팅 메시지에 적합한 대상자를 선택합니다. Campaign v8 인스턴스 또는 Adobe Experience Platform에서 이미 정의된 기존 대상자를 선택하거나 규칙 빌더를 사용하여 새 대상자를 만들 수 있습니다. 제어 그룹은 &#39;파일에서 선택&#39;에 사용할 수 없으며 그 반대의 경우도 마찬가지입니다."
 
 이 사용 사례에서는 기존 대상자에게 이메일을 전송합니다. 대상자와 작업하는 방법에 대한 추가적인 지침은 [이 섹션](../audience/about-audiences.md)에서 확인할 수 있습니다.
 

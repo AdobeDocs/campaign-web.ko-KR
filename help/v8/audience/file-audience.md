@@ -4,10 +4,10 @@ title: 파일에서 수신자 Target
 description: 외부 파일의 수신자를 사용하여 이메일 대상자를 작성하는 방법을 알아봅니다
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 231d117247462645fe2b72f324486c4ea9122faf
+source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 21%
+source-wordcount: '288'
+ht-degree: 20%
 
 ---
 
@@ -50,6 +50,10 @@ ht-degree: 21%
 메시지 콘텐츠 작성 및 개인화 시 개인화 편집기의 입력 파일에서 필드를 선택할 수 있습니다.
 
 ![](assets/select-external-perso.png)
+
+>[!CAUTION]
+>
+>다음을 사용할 수 없습니다. [컨트롤 그룹](control-group.md) 외부 파일에서 대상 모집단을 로드할 때.
 
 ## 샘플 파일 {#sample-file}
 

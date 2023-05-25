@@ -4,10 +4,10 @@ title: 컨트롤 그룹 설정
 description: Campaign Web UI에서 메시지에 대한 컨트롤 그룹을 설정하는 방법 알아보기
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 100%
+source-wordcount: '594'
+ht-degree: 97%
 
 ---
 
@@ -29,6 +29,11 @@ ht-degree: 100%
 컨트롤 그룹을 만들려면 게재 생성 도우미의 **대상자** 섹션에서 **[!UICONTROL 컨트롤 그룹 설정]** 버튼을 클릭합니다.
 
 ![](assets/control-group1.png)
+
+>[!CAUTION]
+>
+>대상 모집단을 로드할 때 컨트롤 그룹을 사용할 수 없습니다. [외부 파일에서](file-audience.md).
+
 
 ## 대상에서 추출 {#extract-target}
 

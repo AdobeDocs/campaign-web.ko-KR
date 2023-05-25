@@ -4,9 +4,9 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 25082a853fb095c24d7c22d00310992ac4e97be9
+source-git-commit: e3a2c67ceb2be7e1a5735aff6f59f4fb902750bd
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1544'
 ht-degree: 83%
 
 ---
@@ -244,7 +244,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="푸시 알림 템플릿"
->abstract="TBD"
+>abstract="푸시 알림 템플릿을 선택하여 푸시 게재를 시작합니다."
 
 
 >[!CONTEXTUALHELP]

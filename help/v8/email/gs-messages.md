@@ -4,10 +4,10 @@ title: Campaign v8 Web에서 메시지 및 게재 시작하기
 description: Campaign Web으로 게재 작업을 수행하고 메시지를 전송하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 14e9ef2a45a1c7a2c8e089c536abd950cdb1b0a3
+source-git-commit: 9f9b5b9ce08aa50986c75f1dd3afba8e2bc4f700
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 37%
+source-wordcount: '604'
+ht-degree: 34%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Campaign v8에는 다음과 같은 게재 채널이 포함되어 있습니
 
 ## 게재 만들기
 
-에서 독립 실행형 게재를 만들 수 있습니다. **게재** 메인 메뉴 또는 마케팅 캠페인의 컨텍스트에서 게재를 만들 수 있습니다.
+에서 독립 실행형 게재를 만들 수 있습니다. **게재** 왼쪽 메뉴에서 또는 마케팅 캠페인의 컨텍스트에서 게재를 만듭니다. **캠페인** 왼쪽 메뉴.
 
 >[!BEGINTABS]
 
@@ -54,6 +54,16 @@ Adobe Campaign v8에는 다음과 같은 게재 채널이 포함되어 있습니
 캠페인에서 게재를 만들려면 다음 단계를 수행합니다.
 
 1. 캠페인을 만들거나 기존 캠페인을 엽니다.
+1. 워크플로우를 만들거나 기존 워크플로우를 엽니다.
+1. 추가 및 구성 **대상자 작성** 활동을 클릭하고 `+`단추를 클릭합니다.
+   ![](assets/add-delivery-in-wf.png)
+1. 게재 활동(이메일, SMS, 푸시 알림(Android) 또는 푸시 알림(iOS))을 선택합니다. 다음 섹션에서 게재 채널 및 게재 콘텐츠를 정의하는 방법에 대해 자세히 알아보십시오.
+
+   * [이메일 채널](../email/create-email.md)
+   * [푸시 알림 채널](../push/gs-push.md)
+   * [SMS 채널](../sms/create-sms.md)
+
+1. 워크플로우를 시작하고 로그를 확인합니다.
 
 캠페인을 구성하는 방법에 대한 자세한 내용은 다음을 참조하십시오.
 

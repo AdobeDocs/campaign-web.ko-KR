@@ -5,9 +5,9 @@ title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: 캠페인 개요
 hide: true
-source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
+source-git-commit: 048f754005744bcab5b64f265e9e9cdf9776dca8
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '273'
 ht-degree: 90%
 
 ---
@@ -46,6 +46,7 @@ ht-degree: 90%
             + [링크 스타일 정의](content/styling-links.md)
             + [인라인 스타일 속성 추가](content/inline-styling.md)
          + [개인화 추가](personalization/personalize.md)
+         + [조건부 콘텐츠 추가](personalization/conditions.md)
          + [오퍼 전송](content/offers.md)
       + 이메일 미리보기 및 테스트 {#preview-test}
          + [미리보기 및 테스트 정보](preview-test/preview-test.md)

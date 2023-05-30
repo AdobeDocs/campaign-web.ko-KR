@@ -4,15 +4,20 @@ title: 첫 이메일 보내기
 description: Campaign Web UI를 사용하여 첫 이메일을 전송하는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 6322e9cd45b9158c207415d662670becab2c3332
+source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 99%
+source-wordcount: '1333'
+ht-degree: 94%
 
 ---
 
 
 # 첫 이메일 보내기 {#first-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card3"
+>title="Adobe Campaign으로 첫 번째 이메일 보내기"
+>abstract="이메일 디자이너를 사용하여 콘텐츠를 만들고, 미리 보고, 테스트하고, 엔드 투 엔드 사용 사례에서 기존 대상자에게 이메일을 보내는 방법에 대해 알아봅니다."
 
 첫 번째 타겟팅된 이메일을 작성하는 방법에 대해 알아봅니다. 이 사용 사례에서는 특정 날짜에 실버 및 골드 충성도 회원에게 이메일을 전송하도록 예약합니다.
 
@@ -20,7 +25,7 @@ ht-degree: 99%
 
 ![](assets/delivery-list.png)
 
-## 이메일 작성 {#create-email}
+## 이메일 작성 게재 {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
@@ -32,7 +37,9 @@ ht-degree: 99%
 >title="이메일 속성"
 >abstract="속성은 게재 이름을 지정하고 분류하는 데 도움이 되는 일반적인 게재 매개변수입니다. Adobe Campaign v8 콘솔에 정의된 확장된 스키마를 기반으로 하는 게재인 경우, 일부 특정 **사용자 정의 옵션** 필드를 사용할 수 있습니다."
 
-1. 새 게재를 만들려면 왼쪽 레일에서 **[!UICONTROL 게재]** 메뉴를 찾은 다음 **[!UICONTROL 게재 만들기]** 버튼을 클릭합니다.
+새 게재를 만들려면 다음 단계를 수행합니다.
+
+1. 다음으로 이동 **[!UICONTROL 게재]** 왼쪽 레일에서 메뉴를 클릭하고  **[!UICONTROL 게재 만들기]** 단추를 클릭합니다.
 
 1. **[!UICONTROL 이메일]**&#x200B;을 채널로 선택하고 템플릿을 선택합니다.
 
@@ -60,11 +67,6 @@ ht-degree: 99%
    또한 게재 이름 옆에 있는 버튼을 클릭하여 유형 규칙 및 대상 매핑과 같은 고급 설정에 액세스할 수 있습니다. 이러한 설정은 선택한 템플릿에 미리 구성되어 있지만 필요에 따라 이 특정 이메일에 대해 편집할 수 있습니다.
 
 ## 이메일 콘텐츠 만들기 {#create-content}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="이메일 콘텐츠를 디자인하는 방법 알아보기"
->abstract="이메일 디자이너 사용 방법을 알아보십시오."
 
 이메일 콘텐츠 구성 방법에 대한 자세한 지침은 [이 섹션](../content/edit-content.md)에서 확인할 수 있습니다.
 

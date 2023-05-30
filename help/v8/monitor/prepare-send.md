@@ -4,9 +4,9 @@ title: 이메일 준비 및 전송
 description: Campaign Web UI를 사용하여 이메일을 준비하고 전송하는 방법 알아보기
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '635'
 ht-degree: 100%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 100%
 
 # 이메일 준비 및 전송 {#prepare-send}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="이메일 준비 및 전송"
->abstract="이메일을 준비하는 방법과 KPI 전송에 대해 자세히 알아봅니다."
 
 <!--
 

@@ -4,14 +4,15 @@ title: Campaign v8 Web에서 메시지 및 게재 시작하기
 description: Campaign Web으로 게재 작업을 수행하고 메시지를 전송하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '956'
 ht-degree: 29%
 
 ---
 
-# Campaign Web에서 메시지 시작하기 {#gs-messages}
+# 메시지 시작{#gs-messages}
+
 
 Adobe Campaign을 사용하면 이메일, SMS 및 푸시 알림을 비롯한 크로스 채널 캠페인을 전송하고, 다양한 전용 보고서를 사용하여 캠페인의 효과를 측정할 수 있습니다. 이러한 메시지는 게재를 통해 디자인되고 전송되며 각 수신자에 대해 개인화할 수 있습니다. 이러한 게재는 독립 실행형이거나 마케팅 캠페인의 컨텍스트에 포함될 수 있습니다.
 

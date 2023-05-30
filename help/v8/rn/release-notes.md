@@ -4,10 +4,10 @@ title: Campaign Web v8 릴리스 정보
 description: Campaign Web v8 릴리스 정보
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 80%
 
 ---
 
@@ -24,24 +24,29 @@ ht-degree: 100%
 
 Campaign의 새로운 웹 UI는 모든 Adobe Experience Cloud 솔루션 및 앱과 일치하는 새로운 사용자 경험을 제공합니다. 제공되는 기능은 다음과 같습니다.
 
-* 단일 및 공유 사용자 세션이 있는 새로운 인터페이스 및 기타 Adobe 솔루션에 대한 액세스 권한
+* 단일 및 공유 사용자 세션을 사용하여 새 인터페이스 및 기타 Adobe 솔루션에 액세스
 * 왼쪽 레일에서 모든 메뉴와 폴더를 사용할 수 있는 새로운 탐색 환경
 * 상단 막대의 솔루션 및 조직 전환기
 * 커뮤니티, 도움말 센터 및 지원에 직접 액세스할 수 있는 통합 쉘 통합
-<!--
-No search and pulse notifications in Alpha
--->
+
+**새로운 강력한 기능 및 원활한 프로세스**
+
+* 프로세스 디자인 및 관리를 위해 워크플로우 캔버스 인터페이스 다시 상상하기
+* 대상자에게 고도로 타기팅되고 개인화된 경험을 제공하기 위한 다이내믹 콘텐츠
+* Adobe Experience Platform 대상과의 기본 통합
+* 워크플로우, 게재, 캠페인 및 콘텐츠에 대한 템플릿 관리
 
 [이 페이지](../get-started/user-interface.md)에서 새 UI에 대해 자세히 알아보십시오.
 
-**이메일 캠페인 생성, 실행 및 측정**
+**캠페인 만들기, 실행 및 측정**
 
 새로운 Campaign Web UI를 사용하면 다음과 같은 작업을 수행할 수 있습니다.
 
 * 이메일 디자이너로 개인화된 이메일 콘텐츠 디자인 - [자세히 알아보기](../content/edit-content.md)
+* SMS 및 푸시 알림을 포함한 크로스 채널 캠페인을 보냅니다.
 * 규칙 빌더로 타겟 대상자 정의 - [자세히 알아보기](../audience/about-audiences.md)
 * 이메일 메시지 미리보기, 테스트 및 전송 - [자세히 알아보기](../monitor/prepare-send.md)
-* 내장된 보고서로 전송 및 측정 결과 모니터링 - [자세히 알아보기](../reporting/reports.md)
+* 내장된 보고서로 전송 및 측정 결과 모니터링 - [자세히 알아보기](../reporting/delivery-reports.md)
 
 <!--
 add info somewhere to remind users that
@@ -62,12 +67,9 @@ add info somewhere to remind users that
 
 ## 제한 사항{#limitations-alpha}
 
-Beta 릴리스에서는 크로스 채널 캠페인 및 워크플로 관리와 같은 캠페인의 일부 핵심 기능을 사용할 수 있습니다.
-
 아래는 이 Alpha 버전에 적용되는 제한 사항입니다.
 
-* 편집 가능한 유일한 오브젝트는 게재입니다. 다른 오브젝트는 읽기 전용입니다. 필터를 사용하여 모두 탐색해 보십시오.
-* 이 버전은 일회용 이메일 캠페인용으로 설계되었습니다. 다른 채널은 아직 지원되지 않습니다.
+* 편집 가능한 오브젝트는 게재, 캠페인, 워크플로우, 대상자 및 템플릿뿐입니다. 다른 오브젝트는 읽기 전용입니다. 필터를 사용하여 모두 탐색해 보십시오.
 * 관리 사용자 인터페이스는 사용할 수 없습니다.
 * 보고 지표(예: 열람 및 추적 데이터)는 매시간 업데이트됩니다.
 * 게재 대시보드 KPI는 5분마다 업데이트됩니다. 단, 게재 준비는 실시간입니다.

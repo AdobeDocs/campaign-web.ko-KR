@@ -4,10 +4,10 @@ title: 대상자 시작
 description: Campaign Web UI에서 대상자를 사용하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 94%
+source-wordcount: '146'
+ht-degree: 83%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="대상자 시작"
->abstract="이메일 콘텐츠의 대상자를 관리하는 방법에 대해 알아봅니다."
+>abstract="Campaign 규칙 빌더를 사용하고 필터링 기준을 정의하여 메시지의 대상자를 만드는 방법을 알아봅니다."
 
 <!--
 Audience only created for the delivery, not available later-->

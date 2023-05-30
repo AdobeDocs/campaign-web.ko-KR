@@ -4,7 +4,7 @@ title: Campaign v8 Web에서 메시지 및 게재 시작하기
 description: Campaign Web으로 게재 작업을 수행하고 메시지를 전송하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: cd00fcf90283c99e4790789ab2375c3a1da0ce50
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 29%
@@ -50,7 +50,7 @@ Adobe Campaign v8에는 다음과 같은 게재 채널이 포함되어 있습니
 1. 사용  **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 클릭하여 게재 및 개인화 설정을 테스트합니다. 에서 메시지 시뮬레이션에 대해 자세히 알아보기 [이 섹션](../preview-test/preview-test.md).
 1. 다음을 클릭합니다.  **[!UICONTROL 준비]** 대상 모집단을 계산하고 메시지를 생성하는 단추입니다. 준비 단계는 몇 분 정도 걸릴 수 있습니다. 준비가 완료되면 메시지를 보낼 준비가 되었습니다. 오류가 발생한 경우 **로그** 경고 및 경고를 확인합니다.
 1. 결과를 확인하고  **[!UICONTROL 보내기]** 단추를 클릭하여 메시지 전송을 시작합니다.
-1. 메시지가 전송되면 **보고서** 섹션을 참조하십시오. 에서 게재 보고서에 대해 자세히 알아보기 [이 섹션](../reporting/reports.md).
+1. 메시지가 전송되면 **보고서** 섹션을 참조하십시오. 에서 게재 보고서에 대해 자세히 알아보기 [이 섹션](../reporting/delivery-reports.md).
 
 >[!TAB 캠페인에서 게재 만들기]
 

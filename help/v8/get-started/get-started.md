@@ -4,34 +4,35 @@ title: Campaign v8 Web 시작하기
 description: Campaign v8 Web 시작하기
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '404'
 ht-degree: 100%
 
 ---
 
-# Campaign v8 Web 시작하기 {#get-started}
+# Campaign Web 시작하기 {#get-started}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="시작하기"
 >abstract="주요 기능, 사용자 인터페이스 및 글로벌 지침을 살펴보십시오."
 
->[!NOTE]
->
->현재 Campaign v8 Web은 Alpha 버전입니다. 소수의 Alpha 고객만 액세스할 수 있습니다. 제품 인터페이스, 기능 및 사용 흐름은 예고 없이 변경될 수 있습니다.
 
 Adobe Campaign은 크로스 채널 고객 경험을 디자인할 수 있는 플랫폼과 더불어 시각적 캠페인 오케스트레이션, 실시간 상호 작용 관리, 크로스 채널 실행을 위한 환경을 제공합니다.
 
 초기에는 리치 [클라이언트 콘솔](#ac-client)을 통해서만 사용할 수 있었던 Campaign은 이제 개선된 사용 가능성, 접근성 및 새로운 디자인을 갖춘 새로운 웹 사용자 인터페이스를 제공하여 사용자 경험을 크게 향상시킵니다. 이 새로운 최신 UI는 Adobe Experience Platform을 비롯한 다른 Adobe 솔루션과 함께 마케팅 캠페인 디자인 및 게재를 간소화하고 일관성을 제공합니다.
-
 
 ![](assets/home.png)
 
 이 새로운 UI는 먼저 **비즈니스 전문가**&#x200B;의 요구 사항을 충족합니다. 이 첫 번째 버전에서는 일부 일반 관리 작업을 사용할 수 없지만 후속 버전에서 이러한 문제가 해결될 것입니다. 현재 클라이언트 콘솔에서 사용할 수 있는 단일 기능 또는 옵션 중 일부는 새 UI에서는 사용할 수 없습니다. 새 사용 사례, 옵션 및 기능은 향후 릴리스에서 사용할 수 있습니다.
 
 웹 UI에서 사용할 수 없는 Campaign v8 기능에 액세스해야 하는 경우 [클라이언트 콘솔](#ac-client)을 사용할 수 있습니다.
+
+
+>[!NOTE]
+>
+>현재 Campaign v8 Web은 Alpha 버전입니다. 소수의 Alpha 고객만 액세스할 수 있습니다. 제품 인터페이스, 기능 및 사용 흐름은 예고 없이 변경될 수 있습니다.
 
 ## Campaign 클라이언트 콘솔 정보{#ac-client}
 

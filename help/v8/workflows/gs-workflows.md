@@ -4,14 +4,20 @@ title: 워크플로 시작
 description: 워크플로를 시작하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 90%
+source-wordcount: '381'
+ht-degree: 85%
 
 ---
 
 # 워크플로 시작 {#workflows}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card4"
+>title="재구성된 워크플로 캔버스 인터페이스"
+>abstract="포괄적인 그래픽 캔버스를 통해 세그멘테이션, 캠페인 실행 등과 같은 프로세스를 손쉽게 디자인할 수 있습니다."
+
 
 ## 워크플로란?
 

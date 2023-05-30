@@ -4,9 +4,9 @@ title: 이메일 콘텐츠 미리보기
 description: Campaign Web UI를 사용하여 이메일 콘텐츠를 미리 보는 방법 알아보기
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '222'
 ht-degree: 100%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 100%
 
 # 이메일 콘텐츠 미리보기 {#preview}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="콘텐츠의 Smart Preview"
->abstract="프로필 데이터를 사용하여 보내기 전에 이메일 내용을 미리 보고, 개인화 속성을 제어하고, 수신자가 메시지 내용을 볼 수 있는 방법을 확인하십시오."
 
 Adobe Campaign의 콘텐츠 시뮬레이션 기능을 사용하면 이메일을 전송하기 전에 콘텐츠를 미리 보고, 개인화를 제어하고, 수신자에게 메시지가 어떻게 표시되는지 확인할 수 있습니다.
 

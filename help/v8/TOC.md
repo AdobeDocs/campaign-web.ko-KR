@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: 캠페인 개요
 hide: true
-source-git-commit: b07d30f93f100f97e972b933710a7850c55f8d70
+source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 91%
+source-wordcount: '287'
+ht-degree: 90%
 
 ---
 
@@ -81,7 +81,18 @@ ht-degree: 91%
       + [워크플로우 만들기](workflows/create-workflow.md)
       + [워크플로 설정 구성](workflows/workflow-settings.md)
       + [워크플로 시작 및 모니터링](workflows/start-monitor-workflows.md)
-   + [워크플로 활동](workflows/workflow-activities.md)
+   + 워크플로 활동을 사용하여 작업 {#design-workflows}
+      + [워크플로우 활동 기본 정보](workflows/activities/about-activities.md)
+      + [And-결합](workflows/activities/and-join.md)
+      + [대상자 빌드](workflows/activities/build-audience.md)
+      + [결합](workflows/activities/combine.md)
+      + [이메일](workflows/activities/email.md)
+      + [종료](workflows/activities/end.md)
+      + [보강](workflows/activities/enrichment.md)
+      + [포크](workflows/activities/fork.md)
+      + [푸시](workflows/activities/push.md)
+      + [SMS](workflows/activities/sms.md)
+      + [대기](workflows/activities/wait.md)
 + 보고 {#reports}
    + [보고서 시작](reporting/gs-reports.md)
    + [게재 보고서 액세스](reporting/delivery-reports.md)

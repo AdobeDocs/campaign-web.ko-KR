@@ -4,10 +4,10 @@ title: 대상자 시작
 description: Campaign Web UI에서 대상자를 사용하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: f2c7d5e56a4573ca37caa8524dd2207443400644
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 83%
+source-wordcount: '162'
+ht-degree: 75%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="대상자 시작"
->abstract="Campaign 규칙 빌더를 사용하고 필터링 기준을 정의하여 메시지의 대상자를 만드는 방법을 알아봅니다."
+>abstract="Campaign 규칙 빌더를 사용하고 필터링 기준을 정의하여 메시지의 대상자를 만드는 방법을 알아봅니다. 외부 파일의 데이터를 쉽게 사용하거나 Adobe Experience Platform 대상자를 타깃팅할 수도 있습니다."
 
 <!--
 Audience only created for the delivery, not available later-->

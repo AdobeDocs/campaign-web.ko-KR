@@ -4,10 +4,10 @@ title: 워크플로우 활동 작업
 description: 워크플로우 활동 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: c134f930b253a8d4463f438176fc54e09ea21a48
+source-git-commit: ec569f7d5acc06a027416794c056328d5fce1567
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 74%
+source-wordcount: '853'
+ht-degree: 60%
 
 ---
 
@@ -16,13 +16,30 @@ ht-degree: 74%
 
 ## 타겟팅 활동 {#targeting}
 
-콘텐츠 TBD
-
-<!--à reformuler-->이러한 활동을 통해 집합을 정의하고 교차, 결합 또는 제외 작업을 사용하여 이러한 집합을 분할 또는 결합하여 하나 이상의 대상을 빌드할 수 있습니다.
+이러한 활동을 통해 집합을 정의하고 교차, 결합 또는 제외 작업을 사용하여 이러한 집합을 분할 또는 결합하여 하나 이상의 대상을 빌드할 수 있습니다.
 
 ### 대상자 빌드 {#build-audience}
 
+이 활동을 통해 대상자를 정의할 수 있습니다. 기존 Campaign 콘텐츠를 선택하거나 규칙 빌더를 사용하여 쿼리를 정의할 수 있습니다.
+
+다음 **대상자 작성** 활동은 워크플로우 시작 위치나 다른 활동 뒤에 배치할 수 있습니다. 모든 활동은 다음 뒤에 배치할 수 있습니다. **대상자 작성**.
+
+자체 쿼리를 만들려면 다음 작업을 수행하십시오.
+
+1. 선택 **나만의 쿼리 만들기**.
+1. 다음을 선택합니다. **타겟팅 차원**. 타겟팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타겟팅하는 모집단을 정의할 수 있습니다. 기본적으로 대상은 수신자에서 선택됩니다. 다음을 참조하십시오. [v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}.
+1. 클릭 **계속**.
+1. 새 이메일을 디자인할 때 대상을 만드는 것과 같은 방식으로 규칙 빌더를 사용하여 쿼리를 정의합니다. 이 [섹션](../audience/segment-builder.md)을 참조하십시오.
+
+기존 대상자를 선택하려면
+
+1. 선택 **대상자 읽기**.
+1. 클릭 **계속**.
+1. 새 이메일을 디자인할 때 대상을 사용하는 것과 동일한 방법으로 대상을 선택합니다. 이 [섹션](../audience/add-audience.md)을 참조하십시오.
+
 ### 결합 {#combine}
+
+다음 **결합** 활동은 다른 활동 뒤에 배치할 수 있지만 워크플로우 시작 부분에는 배치할 수 없습니다. 모든 활동은 다음 뒤에 배치할 수 있습니다. **결합**.
 
 ### 보강 {#enrichment}
 

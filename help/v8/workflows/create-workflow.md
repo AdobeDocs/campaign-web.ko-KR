@@ -4,7 +4,7 @@ title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 구축하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: acb9eb0b0f6ff9084345f754f2da73af7d765dc5
+source-git-commit: 9ff1d71e3d9c3107f8213b4d614000ec7f336a47
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 4%
@@ -57,7 +57,7 @@ Campaign v8 웹에서 워크플로우를 만드는 첫 번째 단계는 워크�
 
    ![](assets/workflow-create.png)
 
-이제 워크플로우가 만들어지면 전용 시각적 캔버스를 사용하여 수행할 다양한 작업을 오케스트레이션할 수 있습니다. [워크플로우 활동 오케스트레이션 방법 알아보기](build-workflow.md)
+이제 워크플로우가 만들어지면 전용 시각적 캔버스를 사용하여 수행할 다양한 작업을 오케스트레이션할 수 있습니다. [워크플로우 활동 오케스트레이션 방법 알아보기](#build)
 
 ## 워크플로 활동 조율 {#build}
 

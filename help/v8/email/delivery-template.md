@@ -5,7 +5,8 @@ description: Campaign에서 게재 템플릿을 만들고 사용하는 방법을
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: cd1bf4a134e302ea928f0c1ae4ef6b06a98ee6f2
+exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
+source-git-commit: 78cd7bb4857475b8ccd815feda885024948f62d3
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 3%
@@ -70,5 +71,3 @@ Campaign에는 각 채널용 이메일, 푸시, SMS 템플릿 세트가 기본 �
 1. 템플릿 이름 및 설정을 정의합니다.
 1. 다음을 클릭합니다. **[!UICONTROL 리뷰]** 템플릿 콘텐츠를 정의하고 속성을 변경하는 버튼입니다.
 1. 새 템플릿을 저장합니다.
-
-

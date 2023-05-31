@@ -3,7 +3,8 @@ audience: end-user
 title: SMS 게재 만들기
 description: Adobe Campaign Web을 사용하여 SMS를 만들고 전송하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
+exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
+source-git-commit: 78cd7bb4857475b8ccd815feda885024948f62d3
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 12%
@@ -42,4 +43,3 @@ ht-degree: 12%
 1. 클릭 **[!UICONTROL 콘텐츠 편집]** sms 메시지의 콘텐츠 디자인을 시작합니다.
 
 1. 게재를 특정 날짜 및 시간으로 예약하려면 **[!UICONTROL 예약 활성화]** 옵션을 선택합니다. 게재를 시작하면 메시지가 수신자를 위해 정의한 정확한 날짜 및 시간에 자동으로 전송됩니다.
-

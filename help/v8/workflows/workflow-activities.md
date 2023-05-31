@@ -4,10 +4,10 @@ title: 워크플로우 활동 작업
 description: 워크플로우 활동 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: ec569f7d5acc06a027416794c056328d5fce1567
+source-git-commit: 7aab2145b861d411053d9490003d1dcafd3c025b
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 60%
+source-wordcount: '904'
+ht-degree: 57%
 
 ---
 
@@ -40,6 +40,12 @@ ht-degree: 60%
 ### 결합 {#combine}
 
 다음 **결합** 활동은 다른 활동 뒤에 배치할 수 있지만 워크플로우 시작 부분에는 배치할 수 없습니다. 모든 활동은 다음 뒤에 배치할 수 있습니다. **결합**.
+
+결합: 여러 활동의 결과를 하나의 타겟으로 그룹화할 수 있습니다. 유니온 섹션을 참조하십시오.
+
+교차: 동일한 인바운드 활동 결과가 있는 모집단만 추출할 수 있습니다
+
+제외: 하나 이상의 다른 타겟이 추출되는 기본 타겟을 기반으로 타겟을 생성할 수 있습니다.
 
 ### 보강 {#enrichment}
 

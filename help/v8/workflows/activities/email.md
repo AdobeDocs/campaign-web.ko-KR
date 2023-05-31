@@ -3,21 +3,24 @@ audience: end-user
 title: 이메일 워크플로우 활동 사용
 description: 이메일 워크플로우 활동을 사용하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 6af0b460a3c81f063a855b2fabba221b43e4ebb9
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 46%
+source-wordcount: '50'
+ht-degree: 10%
 
 ---
 
 
 # 이메일 {#email}
 
-설명, 수행할 수 있는 사용 사례 (활동 전후에 연결할 수 있는 일반적인 기타 활동)
+<!--
+description, which use case you can perform (common other activities that you can link before of after the activity)
 
-활동 추가 및 구성 방법
+how to add and configure the activity
 
-워크플로 내에서 구성된 활동의 예
+example of a configured activity within a workflow
+
+-->
 
 
 이메일 게재 활동을 사용하면 워크플로우에서 이메일 전송을 구성할 수 있습니다.

@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: cd1bf4a134e302ea928f0c1ae4ef6b06a98ee6f2
+source-git-commit: 8032c16b20c0c6754b81be856e3053f1d90f8635
 workflow-type: tm+mt
-source-wordcount: '1598'
-ht-degree: 72%
+source-wordcount: '1613'
+ht-degree: 71%
 
 ---
 
@@ -392,3 +392,28 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_deliveries_sms_template_selection"
 >title="SMS 템플릿 선택"
 >abstract="미리 정의된 템플릿을 선택하여 SMS 게재를 시작합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_delivered"
+>title="게재됨"
+>abstract="게재된 KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_opens"
+>title="열람 수"
+>abstract="KPI 열기"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_clicks"
+>title="클릭 수"
+>abstract="KPI 클릭 수"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_unsubscriptions"
+>title="구독 취소"
+>abstract="구독 취소 KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_spam"
+>title="스팸"
+>abstract="스팸 KPI"

@@ -4,10 +4,10 @@ title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 구축하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: ad5a995563c3192a73e1658878eeb58ce55fc24c
+source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 100%
+source-wordcount: '867'
+ht-degree: 96%
 
 ---
 
@@ -32,6 +32,9 @@ ht-degree: 100%
 * 내부 이름
 * 폴더
 * 연결된 캠페인 > 변경 가능 이 경우 워크플로는 현재 캠페인에서 사라지고 새로 연결된 캠페인에 나타납니다.
+
+   캠페인 내에 워크플로우를 만들면 워크플로우와 연결된 캠페인을 쉽게 식별하고 액세스할 수 있는 추가 캠페인 필드를 찾을 수 있습니다.
+
 * 시간대: 모든 워크플로의 활동에서 기본적으로 사용할 특정 시간대를 정의합니다. 기본적으로 워크플로의 시간대는 현재 캠페인 운영자에 대해 정의된 시간대입니다.
 * 감독자: 워크플로에 오류가 있는 경우 프로필에 이메일 주소가 나열되어 있는 한 워크플로 감독 그룹에 속한 운영자에게 이메일로 알림이 전송됩니다. 이 그룹은 워크플로 속성의 **[!UICONTROL 감독자]** 필드에서 선택되어 있습니다.
 * 설명

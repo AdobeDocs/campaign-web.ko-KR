@@ -4,9 +4,9 @@ title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 구축하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: b47e64fc876b38c7ce59690b7a1ce162eee89cbf
+source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '635'
 ht-degree: 4%
 
 ---
@@ -32,15 +32,11 @@ Campaign v8 웹에서 워크플로우를 만드는 첫 번째 단계는 독립 �
 
    워크플로 템플릿에는 새 워크플로를 만드는 데 재사용할 수 있는 사전 구성된 활동 및 전체 속성 구성이 포함됩니다. 클라이언트 콘솔에서 만들어집니다. [템플릿 작업 방법 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
 
+   ![](assets/workflow-create.png)
+
 1. 추가 옵션 섹션에서 폴더 및 시간대 저장과 같은 워크플로우에 대한 특정 설정을 구성합니다. [워크플로우 속성 구성 방법 알아보기](workflow-settings.md)
 
-   >[!NOTE]
-   >
-   >캠페인 내에 워크플로우를 만들면 워크플로우와 연결된 캠페인을 쉽게 식별하고 액세스할 수 있는 추가 캠페인 필드를 찾을 수 있습니다.
-
 1. 워크플로 만들기 버튼을 클릭하여 워크플로 만들기를 확인합니다.
-
-   ![](assets/workflow-create.png)
 
 이제 워크플로우가 만들어지면 전용 시각적 캔버스를 사용하여 수행할 다양한 작업을 오케스트레이션할 수 있습니다. [워크플로우 활동 오케스트레이션 방법 알아보기](#build)
 

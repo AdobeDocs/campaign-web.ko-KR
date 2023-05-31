@@ -3,9 +3,9 @@ audience: end-user
 title: 대상자 작성 워크플로우 활동 사용
 description: 대상자 작성 워크플로우 활동을 사용하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 4c0157c0457d1d6fa3194463adef8572017af8f0
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '191'
 ht-degree: 16%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 16%
 
 # 대상자 빌드 {#build-audience}
 
-이 활동을 통해 대상자를 정의할 수 있습니다. 기존 Campaign 콘텐츠를 선택하거나 규칙 빌더를 사용하여 쿼리를 정의할 수 있습니다.
+이 활동을 통해 대상자를 정의할 수 있습니다. 기존 대상자를 선택하거나 규칙 빌더를 사용하여 쿼리를 정의할 수 있습니다.
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.

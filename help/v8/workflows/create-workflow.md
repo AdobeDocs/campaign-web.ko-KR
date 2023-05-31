@@ -4,9 +4,9 @@ title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 구축하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
+source-git-commit: f3474086eb3b44f07ab1020f1ddc6cad394c50c4
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '640'
 ht-degree: 4%
 
 ---
@@ -28,13 +28,15 @@ Campaign v8 웹에서 워크플로우를 만드는 첫 번째 단계는 독립 �
    * **독립 실행형 워크플로**: 워크플로우 메뉴로 이동한 다음 오른쪽 상단의 워크플로우 만들기 버튼을 클릭합니다.
    * **캠페인 워크플로:** 캠페인 메뉴로 이동하고 새 워크플로우를 만들 캠페인을 엽니다. 워크플로 탭의 오른쪽 위 모서리에 있는 워크플로 만들기 버튼을 클릭합니다.
 
-1. 워크플로 속성 대화 상자가 나타납니다. 워크플로우를 만드는 데 사용할 템플릿을 선택하고 이름을 입력합니다.
-
-   워크플로 템플릿에는 새 워크플로를 만드는 데 재사용할 수 있는 사전 구성된 활동 및 전체 속성 구성이 포함됩니다. 클라이언트 콘솔에서 만들어집니다. [템플릿 작업 방법 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+   워크플로 속성 대화 상자가 나타납니다.
 
    ![](assets/workflow-create.png)
 
-1. 추가 옵션 섹션에서 폴더 및 시간대 저장과 같은 워크플로우에 대한 특정 설정을 구성합니다. [워크플로우 속성 구성 방법 알아보기](workflow-settings.md)
+1. 워크플로우를 만들고 워크플로우에 대한 레이블을 제공하는 데 사용할 템플릿을 선택합니다.
+
+   워크플로 템플릿에는 새 워크플로를 만드는 데 재사용할 수 있는 사전 구성된 활동 및 전체 속성 구성이 포함됩니다. 클라이언트 콘솔에서 만들어집니다. [템플릿 작업 방법 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+
+1. 폴더 및 시간대 저장과 같은 워크플로우에 대한 특정 설정을 구성하려면 추가 옵션 섹션을 확장합니다. [워크플로우 속성 구성 방법 알아보기](workflow-settings.md)
 
 1. 워크플로 만들기 버튼을 클릭하여 워크플로 만들기를 확인합니다.
 

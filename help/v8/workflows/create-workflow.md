@@ -4,7 +4,7 @@ title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 구축하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 9ff1d71e3d9c3107f8213b4d614000ec7f336a47
+source-git-commit: 3730c628fe2d0d04332f1d0eb7d2b69f60682cab
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 4%
@@ -71,7 +71,7 @@ Campaign v8 웹에서 워크플로우를 만드는 첫 번째 단계는 워크�
 
 다이어그램에 추가할 수 있는 활동 목록이 나타납니다. 사용 가능한 활동은 워크플로우 다이어그램 내의 위치에 따라 다릅니다. 예를 들어 첫 번째 활동을 추가할 때 대상을 타겟팅하거나, 워크플로우 경로를 분할하거나, 대기 활동을 설정하여 워크플로우 실행을 지연시켜 워크플로우를 시작할 수 있습니다. 한편, 대상자 작성 활동 후에 활동을 추가할 경우 타깃팅 활동을 통해 타겟을 세분화하거나, 채널 활동을 통해 대상자에게 게재를 보내거나, 흐름 제어 활동을 통해 워크플로우 프로세스를 구성할 수 있습니다.
 
-활동이 다이어그램에 추가되면 특정 설정으로 새로 추가된 활동을 구성할 수 있는 오른쪽 창이 나타납니다. 각 활동을 구성하는 방법에 대한 자세한 내용은에서 확인할 수 있습니다 [이 섹션](get-started-activities.md).
+활동이 다이어그램에 추가되면 특정 설정으로 새로 추가된 활동을 구성할 수 있는 오른쪽 창이 나타납니다. 각 활동을 구성하는 방법에 대한 자세한 내용은에서 확인할 수 있습니다 [이 섹션](workflow-activities.md).
 
 ![](assets/workflow-configure-activities.png)
 

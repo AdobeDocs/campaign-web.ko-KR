@@ -4,7 +4,7 @@ title: Campaign v8 Web에서 메시지 및 게재 시작하기
 description: Campaign Web으로 게재 작업을 수행하고 메시지를 전송하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: acc3f2cdc50fc8727a472d427c2f8077775a8744
+source-git-commit: c842829915784654b7130563d36dea188e84ff3d
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 29%
@@ -63,9 +63,9 @@ Adobe Campaign v8에는 다음과 같은 게재 채널이 포함되어 있습니
 
    ![](assets/add-delivery-in-wf.png)
 
-   다음 **[!UICONTROL 대상자 작성]** 활동에 자세히 설명되어 있습니다. [이 섹션](../workflows/workflow-activities.md#targeting).
+   다음 **[!UICONTROL 대상자 작성]** 활동에 자세히 설명되어 있습니다. [이 섹션](../workflows/activities/build-audience.md).
 
-1. 게재 활동 선택: **[!UICONTROL 이메일]**, **[!UICONTROL SMS]**, **[!UICONTROL 푸시 알림(Android)]** 또는 **[!UICONTROL 푸시 알림(iOS)]**. 워크플로우의 게재 채널 활동과 여기에서 게재 콘텐츠를 정의하는 방법에 대해 자세히 알아보십시오 [섹션](../workflows/workflow-activities.md#channel).
+1. 게재 활동 선택: **[!UICONTROL 이메일]**, **[!UICONTROL SMS]**, **[!UICONTROL 푸시 알림(Android)]** 또는 **[!UICONTROL 푸시 알림(iOS)]**. 워크플로우의 게재 채널 활동과 여기에서 게재 콘텐츠를 정의하는 방법에 대해 자세히 알아보십시오 [섹션](../workflows/activities/about-activities.md#channel).
 1. 워크플로우를 시작하고 로그를 확인합니다.
 
 워크플로우를 만들지 않고 캠페인에 게재를 추가할 수도 있습니다. 이렇게 하려면 **[!UICONTROL 게재]** 캠페인의 탭을 클릭하고 **[!UICONTROL 게재 만들기]** 단추를 클릭합니다.

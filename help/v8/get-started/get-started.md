@@ -4,9 +4,9 @@ title: Campaign v8 Web 시작하기
 description: Campaign v8 Web 시작하기
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: dc7555bd593efc126fa29fbb87ff6811a1e1b132
+source-git-commit: 656ca0801757cb8e781063bed8c77c3cfbe27e99
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '438'
 ht-degree: 90%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="새로운 기능?"
->abstract="Campaign 웹의 새로운 사용자 인터페이스, 최신 개선 사항, 주요 기능을 살펴보고 이를 사용하여 대상을 위한 크로스 채널 캠페인을 구축하는 방법에 대해 알아봅니다. Campaign은 사용자 친화적인 기능을 통해 개인화된 크로스 채널 캠페인 생성 프로세스를 간소화하고 결과를 도출하여 경쟁 우위를 확보할 수 있습니다. "
+>abstract="Campaign 웹의 새로운 사용자 인터페이스, 최신 개선 사항, 주요 기능을 살펴보십시오. 이를 사용하여 대상자를 위한 크로스 채널 캠페인을 구축하는 방법에 대해 알아봅니다. Campaign은 사용자 친화적인 기능을 통해 개인화된 크로스 채널 캠페인 생성 프로세스를 간소화하고 결과를 도출하여 경쟁 우위를 확보할 수 있습니다. "
 
 
 

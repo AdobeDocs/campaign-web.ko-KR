@@ -4,20 +4,15 @@ title: 대상자 시작
 description: Campaign Web UI에서 대상자를 사용하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: f2c7d5e56a4573ca37caa8524dd2207443400644
+source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 75%
+source-wordcount: '147'
+ht-degree: 72%
 
 ---
 
 
 # 대상자 시작 {#about-audiences}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card2"
->title="대상자 시작"
->abstract="Campaign 규칙 빌더를 사용하고 필터링 기준을 정의하여 메시지의 대상자를 만드는 방법을 알아봅니다. 외부 파일의 데이터를 쉽게 사용하거나 Adobe Experience Platform 대상자를 타깃팅할 수도 있습니다."
 
 <!--
 Audience only created for the delivery, not available later-->
@@ -40,7 +35,7 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-이 섹션에서는 이메일의 대상자를 정의하는 방법에 대해 알아봅니다. 대상자는 게재의 기본 대상, 즉 이메일을 받는 수신자입니다. 대상자의 유형은 게재 템플릿에 정의된 대상 매핑에 따라 다릅니다. 이 [섹션](../email/create-email.md)을 참조하십시오.
+Campaign 규칙 빌더를 사용하고 필터링 기준을 정의하여 메시지의 대상자를 만드는 방법을 알아봅니다. 외부 파일의 데이터를 쉽게 사용하거나 Adobe Experience Platform 대상자를 타깃팅할 수도 있습니다. 대상자는 게재의 기본 대상, 즉 이메일을 받는 수신자입니다. 대상자의 유형은 게재 템플릿에 정의된 대상 매핑에 따라 다릅니다. 이 [섹션](../email/create-email.md)을 참조하십시오.
 
 대상자를 정의하기 위해 수행할 수 있는 작업은 다음과 같습니다.
 

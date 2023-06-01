@@ -4,10 +4,10 @@ title: 첫 이메일 보내기
 description: Campaign Web UI를 사용하여 첫 이메일을 전송하는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
+source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 94%
+source-wordcount: '1356'
+ht-degree: 93%
 
 ---
 
@@ -15,9 +15,10 @@ ht-degree: 94%
 # 첫 이메일 보내기 {#first-email}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_card3"
+>id="acw_homepage_card2"
 >title="Adobe Campaign으로 첫 번째 이메일 보내기"
->abstract="이메일 디자이너를 사용하여 콘텐츠를 만들고, 미리 보고, 테스트하고, 엔드 투 엔드 사용 사례에서 기존 대상자에게 이메일을 보내는 방법에 대해 알아봅니다."
+>abstract="템플릿에서 시작하거나 Adobe Campaign의 새 이메일 디자이너를 사용하여 코드 한 줄을 작성하지 않고도 이메일을 만들 수 있습니다. 이메일 디자이너를 사용하여 콘텐츠를 만들고, 미리 보고, 테스트하고, 엔드 투 엔드 사용 사례에서 기존 대상자에게 이메일을 보내는 방법에 대해 알아봅니다."
+
 
 첫 번째 타겟팅된 이메일을 작성하는 방법에 대해 알아봅니다. 이 사용 사례에서는 특정 날짜에 실버 및 골드 충성도 회원에게 이메일을 전송하도록 예약합니다.
 

@@ -4,10 +4,10 @@ title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 구축하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
+source-git-commit: 748fef18a91a61f5ed956f65762a979e7dacabf3
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 59%
+source-wordcount: '251'
+ht-degree: 33%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 59%
 
 Campaign v8 Web을 사용하면 워크플로우를 시각적 캔버스로 빌드하여 세그멘테이션, 캠페인 실행, 파일 처리와 같은 크로스 채널 프로세스를 디자인할 수 있습니다.
 
-워크플로는 독립 실행형 워크플로로, 워크플로 메뉴에서 또는 캠페인 내에서 캠페인 메뉴를 통해 만들 수 있습니다.
-
-TBD: 독립 실행형 워크플로 및 캠페인 워크플로 간의 구체적인 차이점
+워크플로는 독립 실행형 워크플로로, 워크플로 메뉴에서 또는 캠페인 내에서 직접 만들 수 있습니다. 이 경우 워크플로는 캠페인에 연결되고 다른 모든 캠페인의 워크플로와 함께 실행됩니다.
 
 ## 워크플로 내부에는 무엇이 있습니까?
 
 워크플로우 다이어그램은 발생을 나타내는 것입니다. 수행해야 할 다양한 작업과 이들 작업이 서로 연결되는 방식을 설명합니다.
+
+![](assets/workflow-example.png)
 
 각 워크플로에는 다음이 포함됩니다.
 
@@ -32,12 +32,45 @@ TBD: 독립 실행형 워크플로 및 캠페인 워크플로 간의 구체적�
 
 * **전환**: 전환 은 소스 활동을 대상 활동에 연결하고 해당 시퀀스를 정의합니다.
 
-* **작업 테이블**: 작업 테이블에는 전환에 의해 전달되는 모든 정보가 포함됩니다. 각 워크플로는 여러 작업 테이블을 사용합니다. 이러한 테이블에 전달된 데이터는 제거되지 않는 한 워크플로의 수명 주기 전체에서 가속화되고 사용될 수 있습니다. 실제로 불필요한 테이블은 워크플로가 비활성화될 때마다 삭제되며, 서버 과부하를 방지하기 위해 가장 큰 워크플로의 실행 중에도 삭제될 수 있습니다.
+* **작업 테이블**: 작업 테이블에는 전환에 의해 전달되는 모든 정보가 포함됩니다. 각 워크플로는 여러 작업 테이블을 사용합니다. 이러한 표에 전달된 데이터는 워크플로우의 라이프 사이클 전체에서 사용할 수 있습니다.
 
 ## 워크플로 생성 주요 단계
 
 워크플로를 만드는 주요 단계는 다음과 같습니다.
 
-TBD: 문서 페이지에 대한 설명 및 참조와 함께 전체 프로세스를 보여 주는 그래픽
-
-속성 생성 및 정의 > 캔버스에서 활동 조율 > 필요한 경우 설정 구성 > 실행 시작 및 모니터링
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-workflow.md#create">
+<img alt="리드" src="assets/do-not-localize/workflow-process-1 .jpeg">
+</a>
+<div><a href="create-workflow.md#create"><strong>워크플로우 만들기</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="create-workflow.md#build">
+<img alt="저빈도" src="assets/do-not-localize/workflow-process-2.jpeg">
+</a>
+<div>
+<a href="create-workflow.md#build"><strong>활동 오케스트레이션</strong></a>
+</div>
+<p></td>
+<td>
+<a href="workflow-settings.md">
+<img alt="유효성 검사" src="assets/do-not-localize/workflow-process-3.jpeg">
+</a>
+<div>
+<a href="workflow-settings.md"><strong>고급 설정 구성(선택 사항)</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="start-monitor-workflows.md">
+<img alt="워크플로우 시작 및 모니터링" src="assets/do-not-localize/workflow-process-4.jpeg">
+</a>
+<div>
+<a href="start-monitor-workflows.md"><strong>워크플로우 실행 시작 및 모니터링</strong></a>
+</div>
+<p>
+</td>
+</tr></table>

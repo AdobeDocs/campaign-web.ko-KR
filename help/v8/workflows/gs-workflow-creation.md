@@ -4,10 +4,10 @@ title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 구축하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 748fef18a91a61f5ed956f65762a979e7dacabf3
+source-git-commit: 3b193cf7116859f31ce04ba89773ef388b7916c7
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 33%
+source-wordcount: '230'
+ht-degree: 36%
 
 ---
 
@@ -38,39 +38,4 @@ Campaign v8 Web을 사용하면 워크플로우를 시각적 캔버스로 빌드
 
 워크플로를 만드는 주요 단계는 다음과 같습니다.
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<a href="create-workflow.md#create">
-<img alt="리드" src="assets/do-not-localize/workflow-process-1 .jpeg">
-</a>
-<div><a href="create-workflow.md#create"><strong>워크플로우 만들기</strong>
-</div>
-<p>
-</td>
-<td>
-<a href="create-workflow.md#build">
-<img alt="저빈도" src="assets/do-not-localize/workflow-process-2.jpeg">
-</a>
-<div>
-<a href="create-workflow.md#build"><strong>활동 오케스트레이션</strong></a>
-</div>
-<p></td>
-<td>
-<a href="workflow-settings.md">
-<img alt="유효성 검사" src="assets/do-not-localize/workflow-process-3.jpeg">
-</a>
-<div>
-<a href="workflow-settings.md"><strong>고급 설정 구성(선택 사항)</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="start-monitor-workflows.md">
-<img alt="워크플로우 시작 및 모니터링" src="assets/do-not-localize/workflow-process-4.jpeg">
-</a>
-<div>
-<a href="start-monitor-workflows.md"><strong>워크플로우 실행 시작 및 모니터링</strong></a>
-</div>
-<p>
-</td>
-</tr></table>
+![](assets/workflow-creation-process.png)

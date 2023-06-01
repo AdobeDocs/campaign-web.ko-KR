@@ -4,10 +4,10 @@ title: 워크플로 시작
 description: 워크플로를 시작하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: 6927b92155e601656caecef1702cb774d6c895fd
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 85%
+source-wordcount: '399'
+ht-degree: 83%
 
 ---
 
@@ -47,3 +47,31 @@ Adobe Campaign의 포괄적인 그래픽 환경을 통해 세분화, 캠페인 �
 * 액세스 및 모니터
 
 (하위 섹션 링크 TBD)
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="access-monitor.md">
+<img alt="워크플로우 액세스 및 관리" src="assets/do-not-localize/workflow-access.jpeg">
+</a>
+<div>
+<a href="access-monitor.md"><strong>워크플로우 액세스 및 관리</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="create-workflow.md">
+<img alt="리드" src="assets/do-not-localize/workflow-create.jpeg">
+</a>
+<div><a href="create-workflow.md"><strong>첫 번째 워크플로우 만들기 및 실행</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="activities/about-activities.md">
+<img alt="저빈도" src="assets/do-not-localize/workflow-activities.jpeg">
+</a>
+<div>
+<a href="activities/about-activities.md"><strong>워크플로 활동을 사용하여 작업</strong></a>
+</div>
+<p></td>
+</tr></table>

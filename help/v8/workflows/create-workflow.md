@@ -4,22 +4,22 @@ title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 구축하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: c842829915784654b7130563d36dea188e84ff3d
+source-git-commit: b75d6efecc8d154817dee3c26d87b31f44e78c7e
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '641'
 ht-degree: 4%
 
 ---
 
 
-# 워크플로 만들기 {#create}
+# 첫 워크플로 만들어 보기 {#create-first-workflow}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="워크플로 속성"
 >abstract="TBD"
 
-## 워크플로우 만들기 {#create-workflow}
+## 워크플로우 만들기 {#create}
 
 Campaign v8 웹에서 워크플로우를 만드는 첫 번째 단계는 독립 실행형 워크플로우로 만들거나 캠페인 내에서 직접 만들고 일반 속성을 정의하는 것입니다. 이렇게 하려면 다음 단계를 수행합니다.
 

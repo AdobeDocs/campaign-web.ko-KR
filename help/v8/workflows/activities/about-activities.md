@@ -4,7 +4,7 @@ title: 워크플로우 활동 작업
 description: 워크플로우 활동 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: c842829915784654b7130563d36dea188e84ff3d
+source-git-commit: 3bbdd45571d09258bba34e22de39f5281c02d248
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 5%
@@ -22,7 +22,7 @@ ht-degree: 5%
 * [채널 활동](#channel)
 * [흐름 제어 활동](#flow-control)
 
-![](../assets/wokflow-activities.png)
+![](../assets/workflow-activities.png)
 
 ## 타겟팅 활동 {#targeting}
 

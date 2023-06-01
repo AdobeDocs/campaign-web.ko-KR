@@ -4,10 +4,10 @@ title: 워크플로 시작
 description: 워크플로를 시작하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 6927b92155e601656caecef1702cb774d6c895fd
+source-git-commit: 5c3e76ae3c28908144a219d77d82a1b868cdbbdc
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 83%
+source-wordcount: '387'
+ht-degree: 82%
 
 ---
 
@@ -41,12 +41,6 @@ Adobe Campaign의 포괄적인 그래픽 환경을 통해 세분화, 캠페인 �
 ## 더 자세히 알아보기
 
 이제 Adobe Campaign에서 워크플로우가 무엇이며 워크플로우로 무엇을 수행할 수 있는지에 대한 이해가 있으므로 이러한 설명서 섹션을 자세히 살펴보고 기능 작업을 시작할 차례입니다.
-
-* 첫 워크플로 만들어 보기
-* 워크플로 디자인
-* 액세스 및 모니터
-
-(하위 섹션 링크 TBD)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

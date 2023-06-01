@@ -4,10 +4,10 @@ title: Campaign Web v8 릴리스 정보
 description: Campaign Web v8 릴리스 정보
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: 8a6d5d0144d3efd5bcf7f6a20fa4d5a6bc13d12d
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 80%
+source-wordcount: '447'
+ht-degree: 79%
 
 ---
 
@@ -70,6 +70,7 @@ add info somewhere to remind users that
 아래는 이 Alpha 버전에 적용되는 제한 사항입니다.
 
 * 편집 가능한 오브젝트는 게재, 캠페인, 워크플로우, 대상자 및 템플릿뿐입니다. 다른 오브젝트는 읽기 전용입니다. 필터를 사용하여 모두 탐색해 보십시오.
+* 나중에 사용하기 위해 대상을 저장할 수 없습니다.
 * 관리 사용자 인터페이스는 사용할 수 없습니다.
 * 보고 지표(예: 열람 및 추적 데이터)는 매시간 업데이트됩니다.
 * 게재 대시보드 KPI는 5분마다 업데이트됩니다. 단, 게재 준비는 실시간입니다.

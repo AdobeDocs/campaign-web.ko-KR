@@ -4,10 +4,10 @@ title: SMS 게재 시작하기
 description: Adobe Campaign Web을 사용하여 SMS를 만들고 전송하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
+source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 20%
+source-wordcount: '136'
+ht-degree: 22%
 
 ---
 
@@ -23,32 +23,30 @@ SMS 채널은 SMS 게재를 만드는 세 가지 방법을 제공합니다.
 
 * 독립 실행형 게재: 개별 SMS 게재를 만들어 워크플로우나 캠페인 없이 고객과의 빠르고 직접적인 커뮤니케이션을 수행할 수 있습니다.
 
-<!--
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-sms.md">
-<img alt="Lead" src="">
+<img alt="리드" src="assets/do-not-localize/create_sms.png">
 </a>
-<div><a href="create-sms.md"><strong>Create an SMS message</strong>
+<div><a href="create-sms.md"><strong>SMS 게재 만들기 </strong>
 </div>
 <p>
 </td>
 <td>
-<a href="">
-<img alt="Infrequent" src="">
+<a href="content-sms.md">
+<img alt="저빈도" src="assets/do-not-localize/design_sms.png">
 </a>
 <div>
-<a href=""><strong>Send an SMS message</strong></a>
+<a href="content-sms.md">SMS 게재 디자인<strong></strong></a>
 </div>
 <p></td>
 <td>
-<a href="">
-<img alt="Validation" src="">
+<a href="send-sms.md">
+<img alt="유효성 검사" src="assets/do-not-localize/send_sms.png">
 </a>
 <div>
-<a href=""><strong>SMS opt-out management</strong></a>
+<a href="send-sms.md"><strong>SMS 게재 보내기</strong></a>
 </div>
 <p>
 </td>
 </tr></table>
--->

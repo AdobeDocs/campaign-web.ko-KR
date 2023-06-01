@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 8032c16b20c0c6754b81be856e3053f1d90f8635
+source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 71%
+source-wordcount: '1588'
+ht-degree: 72%
 
 ---
 
@@ -241,11 +241,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="SMS 메시지에 가장 적합한 대상자를 선택합니다."
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_push_audience"
->title="푸시 대상자 정의"
->abstract="푸시 메시지에 가장 적합한 대상자를 선택합니다."
-
->[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="SMS 보고서 요약"
 >abstract="SMS 게재에 대한 보고 지표를 살펴봅니다."
@@ -254,12 +249,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_report_overview"
 >title="푸시 보고서 요약"
 >abstract="푸시 게재에 대한 보고 지표를 알아봅니다."
-
->[!CONTEXTUALHELP]
->id="acw_push_notification_template"
->title="푸시 알림 템플릿"
->abstract="푸시 알림 템플릿을 선택하여 푸시 게재를 시작합니다."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"

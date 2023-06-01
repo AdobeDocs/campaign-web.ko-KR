@@ -3,10 +3,10 @@ audience: end-user
 title: 대기 워크플로우 활동 사용
 description: 대기 워크플로우 활동을 사용하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
+source-git-commit: 9be56c3c9c7a339e1f348ac9c74d425b501c317d
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 42%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,4 +29,6 @@ ht-degree: 42%
 
 ## 예제
 
+다음 예제는 **대기** 일반적인 사용 사례의 활동. 이벤트 초대 이메일을 전송합니다. SMS를 보낸 후 24시간이 지나면 동일한 모집단으로 SMS 게재가 전송됩니다.
 
+![](../assets/workflow-wait-example.png)

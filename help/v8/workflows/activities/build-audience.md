@@ -3,10 +3,10 @@ audience: end-user
 title: 대상자 작성 워크플로우 활동 사용
 description: 대상자 작성 워크플로우 활동을 사용하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
+source-git-commit: 9b639a533e75822570d6cc2b9752fc9380d069dd
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 17%
+source-wordcount: '231'
+ht-degree: 14%
 
 ---
 
@@ -41,3 +41,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 1. 새 이메일을 디자인할 때 대상을 사용하는 것과 동일한 방법으로 대상을 선택합니다. 이 [섹션](../../audience/add-audience.md)을 참조하십시오.
 
 ## 예제
+
+다음은 두 개가 있는 워크플로의 예입니다 **대상자 작성** 활동. 첫 번째 대상은 포커 플레이어의 대상이며, 이메일 게재가 그 다음입니다. 두 번째 타겟은 VIP 클라이언트 대상, 그 다음 SMS 게재입니다.
+
+![](../assets/workflow-audience-example.png)

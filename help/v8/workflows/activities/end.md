@@ -5,8 +5,8 @@ description: 종료 워크플로우 활동을 사용하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 source-git-commit: 12d87baff81298583fac12fdf04d39997e875954
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
 

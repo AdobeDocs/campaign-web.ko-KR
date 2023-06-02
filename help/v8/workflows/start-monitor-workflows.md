@@ -4,14 +4,14 @@ title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 구축하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 1e1f1bbdd5c1a8e659c455078b5995b23209c511
+source-git-commit: cc9566d1781d5a190b488182a8b05a99d396ac8c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '522'
+ht-degree: 7%
 
 ---
 
-# 워크플로 실행 시작 및 모니터링 {#start-monitor}
+# 워크플로우 시작 및 모니터링 {#start-monitor}
 
 워크플로우를 만들고 캔버스에서 수행할 작업을 설계하면 워크플로우를 시작하고 실행 방법을 모니터링할 수 있습니다.
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 | ![](assets/activity-status-red.png) | 활동에 오류가 발생했습니다. 문제를 해결하려면 워크플로우 로그에서 자세한 내용을 엽니다. |
 | ![](assets/activity-status-green.png) | 활동이 정상적으로 실행되었습니다. |
 
-## 로그 및 작업 모니터링
+## 로그 및 작업 모니터링 {#logs-tasks}
 
 워크플로우 로그 및 작업 모니터링은 워크플로우를 분석하고 제대로 실행되고 있는지 확인하는 중요한 단계입니다. 다음에서 액세스할 수 있습니다. **[!UICONTROL 로그]** 아이콘 - 작업 도구 모음 및 각 활동의 속성 창에서 사용할 수 있습니다.
 

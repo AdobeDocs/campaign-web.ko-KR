@@ -5,8 +5,8 @@ description: 대기 워크플로우 활동을 사용하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 source-git-commit: 9be56c3c9c7a339e1f348ac9c74d425b501c317d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '181'
+ht-degree: 39%
 
 ---
 

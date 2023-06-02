@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: 캠페인 개요
 hide: true
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: ec6a9f604c0ce06c503da36b6d8fbccd3557aded
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 82%
+ht-degree: 83%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 82%
       + [워크플로 생성의 핵심 원칙](workflows/gs-workflow-creation.md)
       + [워크플로우 만들기](workflows/create-workflow.md)
       + [활동 오케스트레이션](workflows/orchestrate-activities.md)
-      + [고급 설정 구성](workflows/workflow-settings.md)
+      + [워크플로 설정 구성](workflows/workflow-settings.md)
       + [워크플로우 시작 및 모니터링](workflows/start-monitor-workflows.md)
    + 워크플로 활동을 사용하여 작업 {#design-workflows}
       + [워크플로우 활동 기본 정보](workflows/activities/about-activities.md)

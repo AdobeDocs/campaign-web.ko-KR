@@ -4,14 +4,21 @@ title: 이메일 미리보기 및 테스트 정보
 description: 이메일 미리보기 및 테스트 방법 알아보기
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 048f754005744bcab5b64f265e9e9cdf9776dca8
+source-git-commit: 012dd948dafd6f25b544ad5977979403e7dbdc01
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 91%
+source-wordcount: '175'
+ht-degree: 81%
 
 ---
 
 # 이메일 미리보기 및 테스트 정보 {#about-preview-proofs}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate"
+>title="메시지 미리보기 및 테스트"
+>abstract="메시지가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html?lang=en" text="이메일 콘텐츠 미리보기"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html?lang=en" text="테스트 이메일 전송"
 
 이메일을 전송하기 전에 콘텐츠가 정확하며 콘텐츠나 개인화 설정에 오류가 없는지 검토하고 테스트하는 것이 중요합니다.
 

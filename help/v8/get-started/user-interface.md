@@ -4,7 +4,7 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: d9736ff5e6634b03d15e13ba1b0b9fdea7e779f4
 workflow-type: tm+mt
 source-wordcount: '1588'
 ht-degree: 72%
@@ -325,7 +325,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_campaign_reporting_deliveries_selection"
 >title="게재에 대한 집계된 보고"
 >abstract="집계된 데이터 보고서를 표시할 게재를 두 개 이상 선택하십시오."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"

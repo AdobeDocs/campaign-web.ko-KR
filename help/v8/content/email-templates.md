@@ -6,8 +6,8 @@ exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: 레이블=“Alpha” 유형=“Positive”
 source-git-commit: 1916b0f7787bf1881bd51de26173157e7d60d3bb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '307'
+ht-degree: 35%
 
 ---
 

@@ -4,10 +4,10 @@ title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 구축하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 7e694f46239f782131524eed6b34bff4c4d98dca
+source-git-commit: eed308685edc00c61d59f1529f363ac9b57d25cf
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 20%
+source-wordcount: '858'
+ht-degree: 17%
 
 ---
 
@@ -65,9 +65,7 @@ ht-degree: 20%
 
 * **[!UICONTROL 기본 선호도]**: 설치에 여러 워크플로 서버가 포함된 경우 이 필드를 사용하여 워크플로가 실행될 컴퓨터를 선택합니다. 이 필드에 정의된 값이 서버에 없는 경우 워크플로우가 보류 상태로 유지됩니다.
 
-* **[!UICONTROL 로그에 SQL 쿼리 저장]**: 워크플로우의 SQL 쿼리를 로그에 저장할 수 있습니다. 이 기능은 고급 사용자용으로 예약되어 있습니다. 다음과 같은 타겟팅 활동이 포함된 워크플로우에 적용됩니다 **[!UICONTROL 대상자 작성]**. 이 옵션이 활성화되면 워크플로우 실행 중에 데이터베이스로 전송된 SQL 쿼리가 Adobe Campaign에 표시되어 쿼리를 최적화하거나 문제를 진단할 수 있습니다.
-
-   쿼리는 옵션을 활성화하는 경우 워크플로(캠페인 워크플로 제외) 및 **[!UICONTROL 속성]** 활동에 추가되는 **[!UICONTROL SQL 로그]** 탭에 표시됩니다. <!-- where?-->
+* **[!UICONTROL 로그에 SQL 쿼리 저장]**: 워크플로우의 SQL 쿼리를 로그에 저장할 수 있습니다. 이 기능은 고급 사용자용으로 예약되어 있습니다. 다음과 같은 타겟팅 활동이 포함된 워크플로우에 적용됩니다 **[!UICONTROL 대상자 작성]**. 이 옵션을 활성화하면 워크플로우 실행 중에 데이터베이스로 전송된 SQL 쿼리가 워크플로우의 로그에 표시되므로 이를 분석하여 쿼리를 최적화하거나 문제를 진단할 수 있습니다.
 
 ## 오류 관리 설정
 

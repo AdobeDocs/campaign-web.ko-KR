@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: 규칙 빌더로 대상자 빌드
-description: Segment Builder를 사용하여 작업하는 방법 알아보기
+title: Campaign 규칙 빌더로 대상자 빌드
+description: 규칙 빌더로 작업하는 방법을 알아봅니다.
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
+source-git-commit: 1d7c6b94a962e141fb929fa45369326972e5ac04
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 97%
 
 ---
 
-# 규칙 빌더로 대상자 빌드 {#segment-builder}
+# 규칙 빌더를 사용하여 대상자 정의 {#segment-builder}
 
 이 섹션에서는 새 이메일을 디자인할 때 대상자를 만드는 방법에 대해 설명합니다. 생성된 대상자는 이 이메일에서만 사용할 수 있습니다.
 

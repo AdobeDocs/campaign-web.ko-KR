@@ -4,22 +4,19 @@ title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 구축하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
-source-git-commit: c290c65161c1e70b7eba6dde2088db5ffcf7b89e
+source-git-commit: be7cdfbffbe5c3b1a7ec58e5c60856a6bdc56200
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 7%
+source-wordcount: '366'
+ht-degree: 6%
 
 ---
 
-# 워크플로 액세스 및 모니터링 {#access-monitor}
-
+# 워크플로우 액세스 및 관리 {#access-monitor}
 
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="워크플로"
->abstract="이 화면에서 전체 워크플로 목록에 액세스하고, 워크플로 상태, 마지막/다음 실행 날짜를 확인하고, 새 워크플로를 만들 수 있습니다. 사용 가능한 워크플로 템플릿에 액세스하려면 &#39;템플릿&#39; 탭으로 이동하십시오."
-
-## 워크플로우 액세스 및 관리 {#access}
+>abstract="이 화면에서는 독립 실행형 및 캠페인 워크플로우의 전체 목록에 액세스하고, 워크플로우의 현재 상태, 마지막/다음 실행 날짜를 확인하고, 새 워크플로우를 만들 수 있습니다. 사용 가능한 워크플로 템플릿에 액세스하려면 &#39;템플릿&#39; 탭으로 이동하십시오."
 
 다음 **[!UICONTROL 워크플로]** 메뉴를 사용하면 전체 워크플로 목록에 액세스할 수 있습니다. 이 목록에는 두 항목이 모두 포함됩니다. **독립 실행형 워크플로** 이 화면에서 만들어짐 **캠페인 워크플로우**: 캠페인 내에서 생성됩니다.
 
@@ -51,8 +48,6 @@ ht-degree: 7%
 
 ## 워크플로 템플릿 {#templates}
 
-다음 **[!UICONTROL 템플릿]** 탭에는 사용 가능한 모든 워크플로우 템플릿이 포함되어 있습니다.
+다음 **[!UICONTROL 템플릿]** 탭에는 사용 가능한 모든 워크플로우 템플릿이 나열됩니다.
 
-워크플로 템플릿에는 새 워크플로를 만드는 데 재사용할 수 있는 사전 구성된 활동 및 전체 속성 구성이 포함됩니다.
-
-클라이언트 콘솔에서 만들어집니다. [템플릿 작업 방법 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+워크플로 템플릿에는 새 워크플로를 만드는 데 재사용할 수 있는 사전 구성된 활동 및 전체 속성 구성이 포함됩니다. 클라이언트 콘솔에서 만들어집니다. [템플릿 작업 방법 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)

@@ -3,17 +3,27 @@ audience: end-user
 title: 대상자 작성 워크플로우 활동 사용
 description: 대상자 작성 워크플로우 활동을 사용하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 9b639a533e75822570d6cc2b9752fc9380d069dd
+source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 14%
+source-wordcount: '314'
+ht-degree: 11%
 
 ---
 
 
 # 대상자 빌드 {#build-audience}
 
-이 활동을 통해 대상자를 정의할 수 있습니다. 기존 대상자를 선택하거나 규칙 빌더를 사용하여 쿼리를 정의할 수 있습니다.
+다음 **대상자 작성** 활동은 입니다. **타겟팅** 활동. 이 활동을 통해 워크플로우에 들어갈 대상자를 정의할 수 있습니다. 캠페인 워크플로우의 컨텍스트에서 메시지를 보낼 때 메시지 대상자는 채널 활동에 정의되지 않고 **대상자 작성** 활동.
+
+대상자 모집단을 정의하려면 다음을 수행할 수 있습니다.
+
+* 클라이언트 콘솔에서 목록으로 작성된 기존 대상자를 선택합니다.
+* Adobe Experience Platform 대상자를 선택합니다.
+* 필터링 기준을 정의하고 결합하여 규칙 빌더로 새 대상을 작성합니다.
+
+>[!NOTE]
+>
+>이 컨텍스트에서는 파일에서 대상을 로드할 수 없습니다. 이를 위해 독립 실행형 게재를 만들어야 합니다. [자세히 알아보기](../../audience/about-audience.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -23,7 +33,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 다음 단계에 따라 **대상자 작성** 활동:
 
-1. 대상자 작성 활동을 추가합니다.
+1. 추가 **대상자 작성** 활동.
 1. 레이블을 정의합니다.
 1. 대상자 유형 정의: **나만의 콘텐츠 만들기** 또는 **대상자 읽기**.
 

@@ -4,10 +4,10 @@ product: campaign
 title: 이메일 템플릿 작업
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 1916b0f7787bf1881bd51de26173157e7d60d3bb
+source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 35%
+ht-degree: 27%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 35%
 
 샘플 또는 저장된 템플릿 중 하나를 사용하여 콘텐츠 작성을 시작하려면 아래 단계를 따르십시오.
 
-1. [이메일 디자이너](create-email-content.md)를 엽니다.
+1. 를 엽니다. [이메일 디자이너](create-email-content.md).
 
 1. **[!UICONTROL 이메일 만들기]** 화면에는 **[!UICONTROL 샘플 템플릿]** 탭이 기본적으로 선택되어 있습니다.
 
@@ -67,6 +67,6 @@ ht-degree: 35%
 
    ![](assets/email_designer-template-name.png)
 
-이제 [이 템플릿을 사용](#use-templates)하여 새 콘텐츠를 작성할 수 있습니다. 템플릿은 이메일 디자이너의 [저장된 템플릿] 탭에서 사용할 수 있습니다.****
+이제 다음을 수행할 수 있습니다. [이 템플릿 사용](#use-templates) 새 콘텐츠를 작성하려면 다음에서 사용할 수 있습니다. **[!UICONTROL 저장된 템플릿]** 이메일 디자이너의 탭.
 
 ![](assets/email_designer-saved-template.png)

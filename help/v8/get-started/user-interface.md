@@ -7,7 +7,7 @@ badge: 레이블=“Alpha” 유형=“Positive”
 source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
 workflow-type: tm+mt
 source-wordcount: '1588'
-ht-degree: 72%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 72%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="인터페이스 살펴보기"
->abstract="새로운 Campaign v8 웹 인터페이스는 통합되고 직관적이며 일관된 사용자 경험을 제공합니다."
+>abstract="새로운 Campaign v8 Web 인터페이스는 통합되고 직관적이며 일관된 사용자 경험을 제공합니다."
 
 새로운 Campaign v8 Web 인터페이스는 현대적이고 직관적인 사용자 경험을 제공하여 마케팅 캠페인 디자인 및 게재를 간소화합니다. 이 새로운 인터페이스는 Adobe Experience Platform과 통합됩니다.
 
@@ -42,7 +42,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ### 홈
 
-이 화면에는 주요 Campaign v8 Web 기능에 빠르게 액세스할 수 있는 주요 링크와 리소스가 포함되어 있습니다. **최근 항목** 목록은 최근 생성 및 수정된 게재에 대한 단축키를 제공합니다. 이 목록에는 생성 및 수정일과 상태가 표시됩니다.
+이 화면에는 주요 Campaign v8 Web 기능에 빠르게 액세스할 수 있는 주요 링크와 리소스가 포함되어 있습니다. **최근 항목** 목록은 최근 생성 및 수정된 게재에 대한 단축키를 제공합니다. 이 목록에는 생성 및 수정 날짜와 상태가 표시됩니다.
 
 <!--
 * Banner
@@ -86,24 +86,24 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="캠페인"
->abstract="다음은 캠페인 목록입니다. 시작/종료/마지막 수정 날짜 및 상태와 같은 유용한 정보를 볼 수 있습니다. 상태 또는 시작/종료 날짜별로 목록을 필터링할 수 있습니다. 새 캠페인을 추가하려면 &#39;캠페인 만들기&#39; 버튼을 클릭하십시오. 캠페인을 선택하여 콘텐츠, 게재 및 세부 사항을 확인합니다. 템플릿을 보고 만들려면 &#39;템플릿&#39; 탭으로 이동하십시오."
+>abstract="다음은 캠페인 목록입니다. 시작/종료/마지막 수정 날짜 및 상태와 같은 유용한 정보를 볼 수 있습니다. 상태 또는 시작/종료 날짜별로 목록을 필터링할 수 있습니다. “캠페인 만들기” 버튼을 클릭하여 새 캠페인을 추가합니다. 콘텐츠, 게재 및 세부 정보를 보려면 캠페인을 선택합니다. 템플릿을 보고 만들려면 “템플릿” 탭으로 이동합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="게재"
->abstract="게재 목록을 탐색합니다. 상태, 연락처 및 수정 날짜, 주요 KPI를 볼 수 있습니다. 상태, 연락일 또는 채널별로 목록을 필터링할 수 있습니다. 새 게재를 추가하려면 &#39;게재 만들기&#39; 버튼을 클릭합니다. 게재를 선택하여 콘텐츠, 대상자 및 세부 사항을 확인합니다."
+>abstract="게재 목록을 탐색합니다. 상태, 연락처 및 수정 날짜와 주요 KPI를 볼 수 있습니다. 상태, 연락일 또는 채널별로 목록을 필터링할 수 있습니다. “게재 만들기” 버튼을 클릭하여 새 게재를 추가합니다. 콘텐츠, 대상자 및 세부 정보를 보려면 게재를 선택합니다."
 
-Campaign Management 섹션에서 마케팅 캠페인, 게재 및 워크플로우에 액세스할 수 있습니다.
+캠페인 관리 섹션에서 마케팅 캠페인, 게재 및 워크플로에 액세스할 수 있습니다.
 
-* **캠페인** - 캠페인 및 캠페인 템플릿 목록입니다. 기본적으로 각 캠페인에 대해 시작/종료/생성/마지막 수정 날짜, 현재 상태 및 만든 캠페인 운영자의 이름을 볼 수 있습니다. 상태, 시작/종료 날짜, 폴더별로 목록을 필터링하거나 고급 필터를 만들어 고유한 필터링 기준을 정의할 수 있습니다. 캠페인에 대해 자세히 알아보기 [이 섹션에서](../campaigns/gs-campaigns.md).
+* **캠페인** - 다음은 캠페인 목록 및 캠페인 템플릿입니다. 기본적으로 각 캠페인의 경우 시작/종료/생성/마지막 수정 날짜, 현재 상태와 캠페인을 만든 캠페인 운영자 이름을 볼 수 있습니다. 상태, 시작/종료 날짜, 폴더별로 목록을 필터링하거나, 고급 필터를 만들어 자신만의 필터링 기준을 정의할 수 있습니다. [이 섹션에서](../campaigns/gs-campaigns.md) 캠페인에 대해 자세히 알아보십시오.
 
-* **게재** - 게재 목록을 탐색합니다. 기본적으로 상태, 마지막 수정일 및 주요 KPI를 볼 수 있습니다. 상태, 연락일 또는 채널별로 목록을 필터링할 수 있습니다. 이메일 게재를 클릭하여 대시보드를 열고 게재 세부 정보의 개요를 확인합니다. 다른 채널의 게재는 읽기 전용입니다. 게재에 대해 자세히 알아보기 [이 섹션에서](../msg/gs-messages.md).
+* **게재** - 게재 목록을 탐색합니다. 기본적으로 상태, 마지막 수정 날짜 및 주요 KPI를 볼 수 있습니다. 상태, 연락일 또는 채널별로 목록을 필터링할 수 있습니다. 이메일 게재를 클릭하여 대시보드를 열고 게재 세부 정보의 개요를 확인합니다. 다른 채널의 게재는 읽기 전용입니다. [이 섹션에서](../msg/gs-messages.md) 게재에 대해 자세히 알아보십시오.
 
    **추가 작업**&#x200B;을 사용하여 게재를 삭제하거나 복제할 수 있습니다.
 
    ![](assets/more-actions.png){width="70%" align="left"}
 
-* **워크플로** - 이 화면에서 워크플로우 및 워크플로우 템플릿의 전체 목록에 액세스할 수 있습니다. 상태, 마지막/다음 실행 날짜를 확인하고 새 워크플로 또는 새 워크플로 템플릿을 만들 수 있습니다. 다른 오브젝트와 동일한 기준으로 목록을 필터링할 수 있습니다. 또한 캠페인에 속하거나 속하지 않는 워크플로우를 필터링할 수 있습니다. 워크플로우에 대해 자세히 알아보기 [이 섹션에서](../workflows/gs-workflows.md).
+* **워크플로** - 이 화면에서 워크플로 전체 목록 및 워크플로 템플릿에 액세스할 수 있습니다. 상태, 마지막/다음 실행 날짜를 확인하고 새 워크플로 또는 새 워크플로 템플릿을 만들 수 있습니다. 다른 오브젝트와 동일한 기준으로 목록을 필터링할 수 있습니다. 또한 캠페인에 속한 워크플로 또는 속하지 않은 워크플로를 필터링할 수 있습니다. [이 섹션에서](../workflows/gs-workflows.md) 워크플로에 대해 자세히 알아보십시오.
 
 
 ### 고객 관리
@@ -124,7 +124,7 @@ Campaign Management 섹션에서 마케팅 캠페인, 게재 및 워크플로우
 >abstract="구독 목록을 탐색합니다. 유형, 모드 및 레이블을 볼 수 있습니다. 이 목록은 읽기 전용입니다."
 
 * **수신자** - 수신자 데이터베이스에 액세스합니다. 기본적으로 이메일 주소, 이름 및 성을 볼 수 있습니다. 이 목록은 읽기 전용입니다.
-* **대상자** - 대상자 목록입니다. 기본적으로 유형, 원본, 생성/마지막 수정일 및 레이블을 볼 수 있습니다. 원본을 기준으로 목록을 필터링할 수 있습니다. 이 목록은 읽기 전용입니다.
+* **대상자** - 대상자 목록입니다. 기본적으로 유형, 원본, 생성/마지막 수정 날짜 및 레이블을 볼 수 있습니다. 원본을 기준으로 목록을 필터링할 수 있습니다. 이 목록은 읽기 전용입니다.
 * **구독 목록** - 구독 목록을 탐색합니다. 기본적으로 해당 유형, 모드 및 레이블을 볼 수 있습니다. 이 목록은 읽기 전용입니다.
 
 ### 의사 결정 관리
@@ -176,7 +176,7 @@ Campaign v8 Web을 시작하는 데 도움이 되는 온보딩 안내서도 사�
 
 ## 지원되는 브라우저 {#browsers}
 
-Campaign v8 Web은 최신 버전의 Google Chrome, Safari 및 Microsoft Edge에서 최적으로 작동하도록 설계되었습니다. 이전 버전이나 다른 브라우저에서 특정 기능 사용 시 문제가 발생할 수 있습니다.
+Campaign v8 Web은 최신 버전의 Google Chrome, Safari 및 Microsoft Edge에서 최적으로 작동하도록 디자인되었습니다. 이전 버전이나 다른 브라우저에서 특정 기능 사용 시 문제가 발생할 수 있습니다.
 
 ## 언어 환경 설정 {#language-pref}
 
@@ -238,17 +238,17 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
 >title="SMS 대상자 정의"
->abstract="SMS 메시지에 가장 적합한 대상자를 선택합니다."
+>abstract="SMS 메시지에 적합한 대상자를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="SMS 보고서 요약"
->abstract="SMS 게재에 대한 보고 지표를 살펴봅니다."
+>abstract="SMS 게재 보고 지표를 살펴보십시오."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="푸시 보고서 요약"
->abstract="푸시 게재에 대한 보고 지표를 알아봅니다."
+>abstract="푸시 게재 보고 지표를 살펴보십시오."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -263,22 +263,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="오류 지표"
->abstract="오류 상태의 이메일 수입니다."
+>abstract="오류 상태가 포함된 이메일 수."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Android 콘텐츠 푸시"
->abstract="푸시 Android 콘텐츠를 정의합니다."
+>abstract="Android 콘텐츠 푸시를 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="iOS 콘텐츠 푸시"
->abstract="푸시 iOS 콘텐츠를 정의합니다."
+>abstract="iOS 콘텐츠 푸시를 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="앱 구독자"
->abstract="앱 구독자를 기본 대상에 추가하여 메시지를 미리 보고 테스트합니다. "
+>abstract="기본 대상에 앱 구독자를 추가하여 메시지를 미리 보고 테스트합니다. "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
@@ -288,7 +288,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="미리보기 모드"
->abstract="테스트 모집단을 주요 대상에 포함하여 메시지를 미리 보고 테스트합니다."
+>abstract="기본 대상에 테스트 모집단을 포함하여 메시지를 미리 보고 테스트합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
@@ -304,12 +304,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
 >title="보고 전송"
->abstract="캠페인 보고에 대한 전송 지표를 참조하십시오."
+>abstract="캠페인 보고에 전송 표시기를 참조하십시오."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="보고 추적"
->abstract="캠페인 보고에 대한 추적 지표를 참조하십시오."
+>abstract="캠페인 보고에 추적 표시기를 참조하십시오."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
@@ -319,12 +319,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="대상 통계 보고"
->abstract="이 섹션에는 대상에 따른 특정 지표가 표시됩니다."
+>abstract="이 섹션에는 대상자에 따라 특정 지표가 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
->title="게재에 대한 집계된 보고"
->abstract="집계된 데이터 보고서를 표시할 게재를 두 개 이상 선택하십시오."
+>title="집계된 게재 보고"
+>abstract="집계된 데이터 보고서를 표시하려면 두 개 이상의 게재를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
@@ -349,27 +349,27 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="권한 필요"
->abstract="세그먼트를 만들려면 먼저 관리자가 사용자에게 권한을 부여해야 합니다."
+>abstract="세그먼트를 만들려면 먼저 관리자가 권한을 부여해야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_overview_edit"
 >title="권한 필요"
->abstract="세그먼트를 만들려면 먼저 관리자가 사용자에게 권한을 부여해야 합니다."
+>abstract="세그먼트를 만들려면 먼저 관리자가 권한을 부여해야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="속성 선택기 고급 필드"
->abstract="고급 필드로 열을 구성합니다."
+>abstract="고급 필드에서 열을 구성합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="규칙 빌더 고급 필드"
->abstract="고급 필드로 열을 구성합니다."
+>abstract="고급 필드에서 열을 구성합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
->title="푸시 게재 속성"
->abstract="푸시 게재 속성을 관리합니다."
+>title="게재 속성 푸시"
+>abstract="게재 속성을 관리합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
@@ -379,7 +379,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
 >title="SMS 템플릿 선택"
->abstract="미리 정의된 템플릿을 선택하여 SMS 게재를 시작합니다."
+>abstract="SMS 게재를 시작하려면 미리 정의된 템플릿을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"

@@ -4,10 +4,10 @@ title: 첫 이메일 보내기
 description: Campaign Web UI를 사용하여 첫 이메일을 전송하는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 656ca0801757cb8e781063bed8c77c3cfbe27e99
+source-git-commit: db3bb5c9805ce5c04ea657cf2d71c5528a9980d3
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 93%
+source-wordcount: '1329'
+ht-degree: 94%
 
 ---
 
@@ -31,12 +31,12 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
 >title="이메일 템플릿 선택"
->abstract="이메일 템플릿은 유형화 규칙, 개인화 또는 라우팅 매개변수와 같은 미리 정의된 설정을 포함하는 특정 게재 구성입니다. 템플릿은 Campaign 클라이언트 콘솔에서 정의됩니다."
+>abstract="이메일 템플릿은 유형화 규칙, 개인화 또는 라우팅 매개 변수와 같은 미리 정의된 설정을 포함하는 특정 게재 구성입니다. 템플릿은 Campaign 클라이언트 콘솔에서 정의됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
 >title="이메일 속성"
->abstract="속성은 게재 이름을 지정하고 분류하는 데 도움이 되는 일반적인 게재 매개변수입니다. Adobe Campaign v8 콘솔에 정의된 확장된 스키마를 기반으로 하는 게재인 경우, 일부 특정 **사용자 정의 옵션** 필드를 사용할 수 있습니다."
+>abstract="속성은 게재 이름을 지정하고 분류하는 데 도움이 되는 일반적인 게재 매개 변수입니다. Adobe Campaign v8 콘솔에 정의된 확장된 스키마를 기반으로 하는 게재인 경우, 일부 특정 **사용자 정의 옵션** 필드를 사용할 수 있습니다."
 
 새 게재를 만들려면 다음 단계를 수행합니다.
 
@@ -46,7 +46,7 @@ ht-degree: 93%
 
    >[!NOTE]
    >
-   >템플릿은 나중에 사용할 수 있도록 미리 구성된 게재 설정입니다. Adobe Campaign 콘솔에서 관리자 사용자가 생성할 수 있습니다. [게재 템플릿으로 작업하는 방법에 대해 알아보십시오](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+   >템플릿은 나중에 사용할 수 있도록 미리 구성된 게재 설정입니다. [자세히 알아보기](../msg/delivery-template.md)
 
    ![](assets/channel-template.png)
 
@@ -89,7 +89,7 @@ ht-degree: 93%
 
    ![](assets/select-template.png)
 
-<!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
+   <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
     If your folder contains assets, choose the instance and folder where they should be stored then click **[!UICONTROL Import]**. (+ link to doc on assets?)
 
@@ -110,7 +110,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="대상자 정의"
->abstract="마케팅 메시지에 적합한 대상자를 선택합니다. Campaign v8 인스턴스 또는 Adobe Experience Platform에서 이미 정의된 기존 대상자를 선택하거나 규칙 빌더를 사용하여 새 대상자를 만들 수 있습니다. 제어 그룹은 &#39;파일에서 선택&#39;에 사용할 수 없으며 그 반대의 경우도 마찬가지입니다."
+>abstract="마케팅 메시지에 적합한 대상자를 선택합니다. Campaign v8 인스턴스 또는 Adobe Experience Platform에서 이미 정의된 기존 대상자를 선택하거나 규칙 빌더를 사용하여 새 대상자를 만들 수 있습니다. 컨트롤 그룹은 “파일에서 선택”에서는 활성화되지 않으며 그 반대의 경우도 마찬가지입니다."
 
 이 사용 사례에서는 기존 대상자에게 이메일을 전송합니다. 대상자와 작업하는 방법에 대한 추가적인 지침은 [이 섹션](../audience/about-audiences.md)에서 확인할 수 있습니다.
 

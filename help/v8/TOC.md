@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: 캠페인 개요
 hide: true
-source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
+source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 86%
+source-wordcount: '322'
+ht-degree: 81%
 
 ---
 
@@ -27,14 +27,15 @@ ht-degree: 86%
    + [게재 템플릿 작업](msg/delivery-template.md)
    + 이메일 {#email}
       + [첫 이메일 만들기](email/create-email.md)
-      + 이메일 콘텐츠 만들기 {#content}
-         + [이메일 콘텐츠 편집](content/edit-content.md)
-         + 이메일 디자인 {#design-content}
-            + 콘텐츠 디자인 시작 {#start-design}
-               + [처음부터 시작하기 ](content/create-email-content.md)
-               + [이메일 콘텐츠 가져오기](content/existing-content.md)
-               + [자체 콘텐츠 코딩](content/code-content.md)
-               + [이메일 콘텐츠 템플릿 사용](content/email-sample-templates.md)
+      + 이메일 콘텐츠 정의 {#content}
+         + [이메일 콘텐츠 구성](content/edit-content.md)
+         + 이메일 셰이핑 시작 {#start-design}
+            + [이메일 디자이너 시작](content/get-started-email-designer.md)
+            + [처음부터 시작하기 ](content/create-email-content.md)
+            + [이메일 콘텐츠 가져오기](content/existing-content.md)
+            + [자체 콘텐츠 코딩](content/code-content.md)
+            + [이메일 콘텐츠 템플릿 사용](content/email-templates.md)
+         + 콘텐츠 디자인 {#design-content}
             + [콘텐츠 구성 요소 사용](content/content-components.md)
             + [텍스트 버전 생성](content/text-version-email.md)
             + [미러 페이지에 대한 링크 추가](content/mirror-page.md)

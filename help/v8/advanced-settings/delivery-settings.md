@@ -4,10 +4,10 @@ title: 이메일 게재 설정
 description: Campaign Web UI의 이메일 게재 설정에 대해 자세히 알아보기
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -188,4 +188,4 @@ ht-degree: 100%
 
 관련 게재에 대해 정의된 것과 동일한 게재 코드를 테스트 이메일에 연결하려면 **증명을 위해 게재 코드 보관**&#x200B;을 사용하십시오.
 
-기본적으로 테스트 이메일의 제목에는 “PROOF #” 접두사가 붙습니다. 여기서 #은 테스트 이메일의 번호입니다. 이 접두사는 **레이블 접두사** 필드에서 변경할 수 있습니다.
+기본적으로 테스트 이메일의 제목에는 &#39;PROOF #&#39;가 붙습니다. 여기서 #은 테스트 이메일의 번호입니다. 이 접두사는 **레이블 접두사** 필드에서 변경할 수 있습니다.

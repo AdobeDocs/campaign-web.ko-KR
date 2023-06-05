@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: 게재 템플릿 작업
-description: Campaign에서 게재 템플릿을 만들고 사용하는 방법을 알아봅니다
+description: 캠페인에서 게재 템플릿을 만들고 사용하는 방법 알아보기
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: 8d026a247ffe9a3568f589403e82562c51b44a49
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 3%
+source-wordcount: '937'
+ht-degree: 21%
 
 ---
 
@@ -19,14 +19,13 @@ ht-degree: 3%
 
 템플릿에는 다음이 포함될 수 있습니다.
 
-<!--[Typologies](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html)?
-Sender and reply-to addresses?-->
+* [유형화](../advanced-settings/delivery-settings.md#typology)
+* 보낸 사람 주소
 * An [대상자](../audience/about-audiences.md), 포함 [컨트롤 그룹](../audience/control-group.md)
-* 사용자 정의 [콘텐츠](../content/edit-content.md)<!--company logo, or signature-->
-* [개인화된 필드](../personalization/personalize.md) 및 [조건부 콘텐츠](../personalization/conditions.md) <!--basic [personalization blocks](../personalization/personalize.md#ootb-content-blocks)-->
+* 사용자 정의 [콘텐츠](../content/edit-content.md)
+* [개인화된 필드](../personalization/personalize.md) 및 [조건부 콘텐츠](../personalization/conditions.md)
 * 링크 대상 [미러 페이지](../content/mirror-page.md) 및 구독 취소 [링크](../content/message-tracking.md)
-
-<!--Other delivery properties, such as resource validity, retry parameters, or quarantine settings.-->
+* 리소스 유효성, 재시도 매개 변수 또는 격리 설정 등 다른 게재 속성입니다.
 
 ## 템플릿 액세스 및 관리 {#access-manage-templates}
 
@@ -71,15 +70,15 @@ Sender and reply-to addresses?-->
 
 ### 기존 템플릿 복제 {#copy-an-existing-template}
 
-Campaign에는 각 채널용 이메일, 푸시, SMS 템플릿 세트가 기본 제공됩니다. 게재 템플릿을 만드는 가장 쉬운 방법은 기본 제공 템플릿을 복제하고 사용자 지정하는 것입니다.
+캠페인에는 각 채널에 대한 이메일, 푸시, SMS 등 기본 제공 템플릿 세트가 제공됩니다. 게재 템플릿을 만드는 가장 쉬운 방법은 기본 제공 템플릿을 복제하고 사용자 지정하는 것입니다.
 
 >[!NOTE]
 >
 >사용자 지정 템플릿을 복제할 수도 있습니다.
 
-게재 템플릿을 복제하려면 아래 단계를 따르십시오.
+게재 템플릿을 복제하려면 아래 단계를 수행합니다.
 
-1. 다음으로 이동 **템플릿** 탭, **게재** 왼쪽 메뉴. [자세히 알아보기](#access-manage-templates)
+1. **게재** 왼쪽 메뉴에서 **템플릿** 탭으로 이동합니다. [자세히 알아보기](#access-manage-templates)
 1. 다음을 클릭합니다. **[!UICONTROL 추가 작업]** 원하는 템플릿 이름의 오른쪽에 있는 버튼을 선택하고  **[!UICONTROL 복제]**.
 
    목록에서 템플릿을 선택하고 템플릿 편집 화면에서 이 옵션을 선택할 수도 있습니다.
@@ -98,7 +97,7 @@ Campaign에는 각 채널용 이메일, 푸시, SMS 템플릿 세트가 기본 �
 
 1. 필요한 경우 템플릿 렌더링을 테스트합니다. [자세히 알아보기](#test-template)
 
-새 템플릿이 [**템플릿** 목록](#access-manage-templates). 이제 새 게재를 만들 때 선택할 수 있습니다.
+새 템플릿이 [**템플릿** 목록](#access-manage-templates). 이제 새 게재를 만들면 선택할 수 있습니다.
 
 ### 게재를 템플릿으로 변환 {#convert-an-existing-delivery}
 
@@ -119,18 +118,18 @@ Campaign에는 각 채널용 이메일, 푸시, SMS 템플릿 세트가 기본 �
 
 1. 필요한 경우 템플릿 렌더링을 테스트합니다. [자세히 알아보기](#test-template)
 
-새 템플릿이 [**템플릿** 목록](#access-manage-templates). 이제 새 게재를 만들 때 선택할 수 있습니다.
+새 템플릿이 [**템플릿** 목록](#access-manage-templates). 이제 새 게재를 만들면 선택할 수 있습니다.
 
 ### 새 템플릿 만들기 {#create-a-new-template}
 
 >[!NOTE]
 >
->구성 오류를 방지하려면 Adobe은 다음을 권장합니다. [기본 제공 템플릿 복제](#copy-an-existing-template) 새 템플릿을 만들지 않고 속성을 사용자 지정할 수 있습니다.
+>구성 오류를 방지하려면 [기본 제공 템플릿을 복제하고](#copy-an-existing-template) 새 템플릿을 만드는 대신 해당 속성을 사용자 지정하는 것이 좋습니다.
 
-게재 템플릿을 처음부터 구성하려면 아래 단계를 따르십시오.
+처음부터 게재 템플릿을 구성하려면 아래 단계를 수행합니다.
 
-1. 다음으로 이동 **템플릿** 탭, **게재** 왼쪽 메뉴. [자세히 알아보기](#access-manage-templates)
-1. 다음을 클릭합니다. **[!UICONTROL 템플릿 만들기]** 단추를 클릭합니다.
+1. **게재** 왼쪽 메뉴에서 **템플릿** 탭으로 이동합니다. [자세히 알아보기](#access-manage-templates)
+1. **[!UICONTROL 템플릿 만들기]** 버튼을 클릭합니다.
 
    ![](assets/templates-create-button.png)
 
@@ -156,7 +155,7 @@ Campaign에는 각 채널용 이메일, 푸시, SMS 템플릿 세트가 기본 �
 
 1. 필요한 경우 템플릿 렌더링을 테스트합니다. [자세히 알아보기](#test-template)
 
-새 템플릿이 [**템플릿** 목록](#access-manage-templates). 이제 새 게재를 만들 때 선택할 수 있습니다.
+새 템플릿이 [**템플릿** 목록](#access-manage-templates). 이제 새 게재를 만들면 선택할 수 있습니다.
 
 ## 게재 템플릿 테스트 {#test-template}
 

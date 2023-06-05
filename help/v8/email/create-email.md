@@ -4,10 +4,10 @@ title: 첫 이메일 보내기
 description: Campaign Web UI를 사용하여 첫 이메일을 전송하는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: db3bb5c9805ce5c04ea657cf2d71c5528a9980d3
+source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 94%
+source-wordcount: '1326'
+ht-degree: 86%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 94%
 
 1. 다음으로 이동 **[!UICONTROL 게재]** 왼쪽 레일에서 메뉴를 클릭하고  **[!UICONTROL 게재 만들기]** 단추를 클릭합니다.
 
-1. **[!UICONTROL 이메일]**&#x200B;을 채널로 선택하고 템플릿을 선택합니다.
+1. 선택 **[!UICONTROL 이메일]** 을(를) 채널로 설정하고 목록에서 이메일 게재 템플릿을 선택합니다.
 
    >[!NOTE]
    >
@@ -67,15 +67,19 @@ ht-degree: 94%
 
    또한 게재 이름 옆에 있는 버튼을 클릭하여 유형 규칙 및 대상 매핑과 같은 고급 설정에 액세스할 수 있습니다. 이러한 설정은 선택한 템플릿에 미리 구성되어 있지만 필요에 따라 이 특정 이메일에 대해 편집할 수 있습니다.
 
-## 이메일 콘텐츠 만들기 {#create-content}
+## 이메일 콘텐츠 정의 {#create-content}
 
-이메일 콘텐츠 구성 방법에 대한 자세한 지침은 [이 섹션](../content/edit-content.md)에서 확인할 수 있습니다.
+이메일 콘텐츠를 만들려면 아래 단계를 수행하십시오.
 
-이 사용 사례에서는 미리 정의된 템플릿을 사용하여 이메일을 디자인합니다.
+<!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
 
-1. 이메일 콘텐츠를 작성하려면 이메일 게재를 연 다음 **[!UICONTROL 콘텐츠 편집]** 버튼을 클릭합니다.
+이 사용 사례에서는 사전 정의된 이메일을 사용합니다 [게재 템플릿](../msg/delivery-template.md) 이메일을 디자인할 수 있습니다.
 
-   이렇게 하면 이메일 콘텐츠를 구성하고 이메일 디자이너를 사용하여 디자인할 수 있는 전용 인터페이스로 이동합니다.
+1. 이메일 게재 대시보드에서 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭합니다.
+
+   ![](assets/email-edit-content.png)
+
+   이렇게 하면 이메일 콘텐츠를 구성하고 이메일 디자이너에 액세스할 수 있는 전용 인터페이스로 이동합니다. [자세히 알아보기](../content/edit-content.md)
 
    ![](assets/edit-content.png)
 
@@ -85,7 +89,7 @@ ht-degree: 94%
 
 1. 이메일 콘텐츠를 디자인하려면 **[!UICONTROL 이메일 본문 편집]** 버튼을 클릭합니다.
 
-   이메일 콘텐츠를 만드는 데 사용할 방법을 선택합니다. 이 예에서는 미리 정의된 디자인 템플릿을 사용합니다.
+   이메일 콘텐츠를 만드는 데 사용할 방법을 선택합니다. 이 예에서는 [사전 정의된 콘텐츠 템플릿](../msg/delivery-template.md).
 
    ![](assets/select-template.png)
 
@@ -95,7 +99,7 @@ ht-degree: 94%
 
     ![](assets/import-folder.png)-->
 
-1. 템플릿을 선택하면 이메일 디자이너에 선택한 템플릿이 표시되며, 여기에서 필요한 편집을 수행하고 개인화를 추가할 수 있습니다.
+1. 템플릿을 선택하면 해당 템플릿이에 표시됩니다. [이메일 디자이너](../content/create-email-content.md)필요한 편집을 하고 개인화를 추가할 수 있는 곳입니다.
 
    예를 들어 이메일 제목에 개인화를 추가하려면 구성 요소 블록을 선택하고 **[!UICONTROL 개인화 추가]**&#x200B;를 클릭하십시오.
 

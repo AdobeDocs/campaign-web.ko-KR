@@ -3,7 +3,7 @@ audience: end-user
 title: 이메일 워크플로우 활동 사용
 description: 이메일 워크플로우 활동을 사용하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 941e57e2ffdcaa87553fb36c66bdb3c383fe330e
+source-git-commit: 3df57348b82b4efc871166a5b5a6163f3a950b44
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 40%
@@ -29,7 +29,7 @@ Adobe Campaign 웹을 사용하면 이메일, SMS 또는 푸시와 같은 여러
 
 1. 선택 **템플릿**. 템플릿은 나중에 사용할 수 있도록 미리 구성된 게재 설정입니다. [자세히 알아보기](../../msg/delivery-template.md)
 
-1. 클릭 **게재 만들기** 독립형 게재를 만드는 것과 동일한 방법으로 메시지를 정의합니다. [자세히 알아보기](../../msg/gs-message.md)
+1. 클릭 **게재 만들기** 독립형 게재를 만드는 것과 동일한 방법으로 메시지를 정의합니다. [자세히 알아보기](../../msg/gs-messages.md)
 
 
 1. 워크플로를 시작하고 로그를 확인합니다.

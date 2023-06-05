@@ -3,15 +3,36 @@ audience: end-user
 title: 이메일 워크플로우 활동 사용
 description: 이메일 워크플로우 활동을 사용하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 6af0b460a3c81f063a855b2fabba221b43e4ebb9
+source-git-commit: fc920737aa336bbb92b2d2ef03f997ca2eefa0bb
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 10%
+source-wordcount: '230'
+ht-degree: 40%
 
 ---
 
 
-# 이메일 {#email}
+# 이메일, SMS, 푸시 {#email}
+
+Adobe Campaign 웹을 사용하면 이메일, SMS 또는 푸시와 같은 여러 채널에서 마케팅 캠페인을 자동화하고 실행할 수 있습니다. 채널 활동을 캔버스에 결합하여 고객 행동에 따라 작업을 트리거할 수 있는 크로스 채널 워크플로우를 만들 수 있습니다.
+
+예를 들어 이메일, SMS 및 푸시 등 여러 채널에서 일련의 메시지를 포함하는 시작 이메일 캠페인을 만들 수 있습니다. 고객이 구매를 완료하면 후속 이메일을 보내거나, SMS를 통해 고객에게 맞춤형 생일 메시지를 보낼 수도 있습니다.
+
+채널 활동을 사용하면 여러 접점에서 고객을 참여시키고 전환을 유도하는 종합적이고 개인화된 캠페인을 만들 수 있습니다.
+
+을(를) 추가하는 단계는 다음과 같습니다 **채널** 워크플로우의 활동:
+
+1. 을(를) 추가했는지 확인 **대상자 작성** 활동. 대상자는 게재의 주요 타겟인 메시지를 받는 수신자입니다. 캠페인 워크플로우의 컨텍스트에서 메시지를 보낼 때 메시지 대상자는 채널 활동에 정의되지 않고 **대상자 작성** 활동. [이 섹션](build-audience.md)을 참조하십시오.
+
+   ![](../../msg/assets/add-delivery-in-wf.png)
+
+1. 게재 활동 선택: **[!UICONTROL 이메일]**, **[!UICONTROL SMS]**, **[!UICONTROL 푸시 알림(Android)]** 또는 **[!UICONTROL 푸시 알림(iOS)]**.
+
+1. 워크플로를 시작하고 로그를 확인합니다.
+
+
+
+
+
 
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
@@ -19,11 +40,11 @@ description, which use case you can perform (common other activities that you ca
 how to add and configure the activity
 
 example of a configured activity within a workflow
+The Email delivery activity allows you to configure the sending an email in a workflow. 
 
 -->
 
 
-이메일 게재 활동을 사용하면 워크플로우에서 이메일 전송을 구성할 수 있습니다.
 
 <!-- Scheduled emails available?
 
@@ -33,6 +54,6 @@ This can be a single send email and sent just once, or it can be a recurring ema
 
 When linked to a scheduler, you can define recurring emails.-->
 
-이메일 수신자는 대상자 타겟팅 활동을 통해 동일한 워크플로우에서 활동의 업스트림으로 정의됩니다.
+이메일 수신자는 대상자 타겟팅 활동을 통해 동일한 워크플로의 활동 업스트림으로 정의됩니다.
 
 <!--The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.-->

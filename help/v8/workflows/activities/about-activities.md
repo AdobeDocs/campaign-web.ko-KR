@@ -4,10 +4,10 @@ title: 워크플로우 활동 작업
 description: 워크플로우 활동 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
+source-git-commit: 07da5f804e25382c6202b7438e15dafaee413f27
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 19%
+source-wordcount: '303'
+ht-degree: 6%
 
 ---
 
@@ -36,9 +36,7 @@ ht-degree: 19%
 
 Adobe Campaign 웹을 사용하면 이메일, SMS 또는 푸시와 같은 여러 채널에서 마케팅 캠페인을 자동화하고 실행할 수 있습니다. 채널 활동을 캔버스에 결합하여 고객 행동에 따라 작업을 트리거할 수 있는 크로스 채널 워크플로우를 만들 수 있습니다.
 
-예를 들어 이메일, SMS 및 푸시 등 여러 채널에서 일련의 메시지를 포함하는 시작 이메일 캠페인을 만들 수 있습니다. 고객이 구매를 완료하면 후속 이메일을 보내거나, SMS를 통해 고객에게 맞춤형 생일 메시지를 보낼 수도 있습니다.
-
-채널 활동을 사용하면 여러 접점에서 고객을 참여시키고 전환을 유도하는 종합적이고 개인화된 캠페인을 만들 수 있습니다.
+다음 **채널** 활동을 사용할 수 있습니다.
 
 * [이메일](email.md)
 * [푸시](push.md)

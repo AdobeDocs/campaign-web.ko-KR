@@ -3,7 +3,7 @@ audience: end-user
 title: 대상자 작성 워크플로우 활동 사용
 description: 대상자 작성 워크플로우 활동을 사용하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
+source-git-commit: 07da5f804e25382c6202b7438e15dafaee413f27
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 11%
@@ -23,7 +23,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->이 컨텍스트에서는 파일에서 대상을 로드할 수 없습니다. 이를 위해 독립 실행형 게재를 만들어야 합니다. [자세히 알아보기](../../audience/about-audience.md)
+>이 컨텍스트에서는 파일에서 대상을 로드할 수 없습니다. 이를 위해 독립 실행형 게재를 만들어야 합니다. [자세히 알아보기](../../audience/about-audiences.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.

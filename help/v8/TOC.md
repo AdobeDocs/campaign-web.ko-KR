@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: 캠페인 개요
 hide: true
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: f53fce6ee89e5b384e5385304c54c4898f21c63f
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 83%
+source-wordcount: '316'
+ht-degree: 86%
 
 ---
 
@@ -46,8 +46,6 @@ ht-degree: 83%
             + [수직 정렬 및 패딩 조정](content/alignment-and-padding.md)
             + [링크 스타일 정의](content/styling-links.md)
             + [인라인 스타일 속성 추가](content/inline-styling.md)
-         + [개인화 추가](personalization/personalize.md)
-         + [조건부 콘텐츠 추가](personalization/conditions.md)
          + [오퍼 전송](content/offers.md)
       + 이메일 미리보기 및 테스트 {#preview-test}
          + [미리보기 및 테스트 정보](preview-test/preview-test.md)
@@ -67,6 +65,10 @@ ht-degree: 83%
       + [SMS 게재 만들기 ](sms/create-sms.md)
       + [SMS 게재 디자인 ](sms/content-sms.md)
       + [SMS 게재 보내기 ](sms/send-sms.md)
+   + 콘텐츠를 동적으로 만들기 {#dynamic-content}
+      + [다이내믹 콘텐츠 시작](personalization/gs-personalization.md)
+      + [개인화 추가](personalization/personalize.md)
+      + [조건부 콘텐츠 추가](personalization/conditions.md)
 + 대상자 및 수신자 {#audiences}
    + [대상자 시작](audience/about-audiences.md)
    + [기존 대상자 선택](audience/add-audience.md)
@@ -79,10 +81,10 @@ ht-degree: 83%
    + [첫 캠페인 만들어 보기](campaigns/create-campaigns.md)
 + 워크플로 {#wf}
    + [워크플로 시작](workflows/gs-workflows.md)
-   + [워크플로우 액세스 및 관리](workflows/access-monitor.md)
-   + 첫 번째 워크플로우 만들기 및 실행 {#create-workflow}
+   + [워크플로 액세스 및 관리](workflows/access-monitor.md)
+   + 첫 워크플로 만들기 및 실행 {#create-workflow}
       + [워크플로 생성의 핵심 원칙](workflows/gs-workflow-creation.md)
-      + [워크플로우 만들기](workflows/create-workflow.md)
+      + [워크플로 만들기](workflows/create-workflow.md)
       + [활동 오케스트레이션](workflows/orchestrate-activities.md)
       + [워크플로 설정 구성](workflows/workflow-settings.md)
       + [워크플로우 시작 및 모니터링](workflows/start-monitor-workflows.md)

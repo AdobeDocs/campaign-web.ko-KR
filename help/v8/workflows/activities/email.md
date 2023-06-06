@@ -3,10 +3,10 @@ audience: end-user
 title: 이메일 워크플로우 활동 사용
 description: 이메일 워크플로우 활동을 사용하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 262f3bbbacb7bf22fe288bbf65b84f544eedec3c
+source-git-commit: caa994a1f390248c9fe11da198ab73197b129263
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 31%
+source-wordcount: '365'
+ht-degree: 27%
 
 ---
 
@@ -41,7 +41,9 @@ Adobe Campaign 웹을 사용하면 이메일, SMS 또는 푸시와 같은 여러
 
 ## 예제
 
+다음은 세그먼테이션 및 두 개의 게재가 있는 크로스 채널 워크플로우 예입니다. 이 워크플로우는 이메일 주소를 가지고 있고 커피 머신에 관심이 있는 모든 고객을 대상으로 합니다. 이 모집단 중 일반 고객에게 이메일이 전송되고 VIP 클라이언트에게 SMS가 전송됩니다.
 
+![](../assets/workflow-channel-example.png)
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
 

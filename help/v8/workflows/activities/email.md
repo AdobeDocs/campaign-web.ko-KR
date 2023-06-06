@@ -3,15 +3,15 @@ audience: end-user
 title: 이메일 워크플로우 활동 사용
 description: 이메일 워크플로우 활동을 사용하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 3df57348b82b4efc871166a5b5a6163f3a950b44
+source-git-commit: 262f3bbbacb7bf22fe288bbf65b84f544eedec3c
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 40%
+source-wordcount: '316'
+ht-degree: 31%
 
 ---
 
 
-# 이메일, SMS, 푸시 {#email}
+# 이메일, SMS, 푸시 {#channel}
 
 Adobe Campaign 웹을 사용하면 이메일, SMS 또는 푸시와 같은 여러 채널에서 마케팅 캠페인을 자동화하고 실행할 수 있습니다. 채널 활동을 캔버스에 결합하여 고객 행동에 따라 작업을 트리거할 수 있는 크로스 채널 워크플로우를 만들 수 있습니다.
 
@@ -29,10 +29,18 @@ Adobe Campaign 웹을 사용하면 이메일, SMS 또는 푸시와 같은 여러
 
 1. 선택 **템플릿**. 템플릿은 나중에 사용할 수 있도록 미리 구성된 게재 설정입니다. [자세히 알아보기](../../msg/delivery-template.md)
 
-1. 클릭 **게재 만들기** 독립형 게재를 만드는 것과 동일한 방법으로 메시지를 정의합니다. [자세히 알아보기](../../msg/gs-messages.md)
+1. 클릭 **게재 만들기** 독립형 게재를 만드는 것과 동일한 방법으로 메시지를 정의합니다. 여기에서 게재 설정을 정의하고 콘텐츠를 예약 및 시뮬레이션할 수도 있습니다. [자세히 알아보기](../../msg/gs-messages.md)
 
+1. 워크플로우로 돌아가서 **시작** 워크플로우를 시작합니다.
 
-1. 워크플로를 시작하고 로그를 확인합니다.
+   기본적으로 게재 워크플로우를 시작하면 메시지를 즉시 보내지 않고 메시지 준비 단계가 트리거됩니다.
+
+1. 클릭 **검토 및 보내기** 을 클릭하여 전송을 확인합니다.
+
+1. 게재 대시보드에서 **보내기**.
+
+## 예제
+
 
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)

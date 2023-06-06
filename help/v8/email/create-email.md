@@ -6,8 +6,8 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: 레이블=“Alpha” 유형=“Positive”
 source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 86%
    >
    >목록에서 사용할 수 있는 대상자는 Campaign v8 인스턴스 또는 Adobe Experience Platform(대상/소스 통합이 인스턴스에 구성되어 있는 경우)에서 발생합니다.
    >
-   >대상/소스 통합을 통해 Experience Platform 세그먼트를 Adobe Campaign으로 전송하고 캠페인 게재 및 추적 로그를 Adobe Experience Platform으로 전송할 수 있습니다. [Campaign 및 Adobe Experience Platform 사용 방법에 대해 알아보십시오](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
+   >대상/소스 통합을 통해 Experience Platform 세그먼트를 Adobe Campaign으로 전송하고 캠페인 게재 및 추적 로그를 Adobe Experience Platform으로 전송할 수 있습니다. [Campaign 및 Adobe Experience Platform 사용 방법에 대해 알아보십시오](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=ko-KR){target="_blank"}.
 
 1. 대상자를 선택하면 추가 규칙을 적용하여 대상을 더 구체화할 수 있습니다.
 

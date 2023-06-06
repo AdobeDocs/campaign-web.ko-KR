@@ -4,10 +4,10 @@ title: 워크플로우 활동 작업
 description: 워크플로우 활동 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 07da5f804e25382c6202b7438e15dafaee413f27
+source-git-commit: 40ca8ca9825706be7b82a58136627911132bc14a
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,9 +38,11 @@ Adobe Campaign 웹을 사용하면 이메일, SMS 또는 푸시와 같은 여러
 
 다음 **채널** 활동을 사용할 수 있습니다.
 
-* [이메일](email.md)
-* [푸시](push.md)
-* [SMS](sms.md)
+* 이메일
+* 푸시
+* SMS
+
+이 [섹션](enrichment.md)을 참조하십시오.
 
 ## 흐름 제어 활동 {#flow-control}
 

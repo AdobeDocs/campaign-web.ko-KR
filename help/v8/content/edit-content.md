@@ -4,10 +4,10 @@ title: 이메일 콘텐츠 편집
 description: Campaign Web UI에서 이메일 콘텐츠를 편집하는 방법 알아보기
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 46f2f42f724232b15f826f01c5957c0295c61f26
+source-git-commit: 666a1c2d4b31fed8e956f0b2984c1f39d74a2221
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 50%
+source-wordcount: '495'
+ht-degree: 44%
 
 ---
 
@@ -33,21 +33,28 @@ ht-degree: 50%
 >title="추적 옵션"
 >abstract="기본적으로 게재에 대해 추적 기능이 활성화되어 있습니다. 여기에서 이 옵션을 비활성화할 수 있습니다."
 
-전자 메일 콘텐츠를 만들려면 **[!UICONTROL 콘텐츠 편집]** 단추 [이메일 게재 대시보드](../email/create-email.md) 화면.
+이메일 **[!UICONTROL 콘텐츠 편집]** 화면에서 다음을 수행할 수 있습니다.
+* 보낸 사람의 주소 및 제목란과 같은 메시지의 기본 요소를 정의합니다.
+* 첨부 추가 또는 오퍼 설정과 같은 추가 작업 수행
+* 액세스 [이메일 디자이너](get-started-email-designer.md) 이메일의 적절한 콘텐츠 작성을 시작하려면
 
-![](assets/email-edit-content.png)
+전자 메일의 콘텐츠를 구성하거나 편집하려면 아래 단계를 따르십시오.
 
-화면에 기본 세부 정보를 정의하고 첨부 파일 추가 또는 오퍼 설정과 같은 추가 작업을 수행한 다음 [이메일 디자이너](#start-authoring) 콘텐츠를 작성합니다.
+1. 다음을 클릭합니다. **[!UICONTROL 콘텐츠 편집]** 단추 [이메일 게재 대시보드](../email/create-email.md) 화면.
 
-![](assets/email-edit-content-dashboard.png)
+   ![](assets/email-edit-content.png)
 
-전자 메일 콘텐츠를 편집하는 단계는 다음과 같습니다.
+1. 이메일 콘텐츠 편집 화면이 열립니다. 새 이메일을 구성하는 경우 **[!UICONTROL 보낸 사람 이름]** 및 **[!UICONTROL 보낸 사람 이메일]** 필드가 이미 채워져 있습니다.
 
-1. 다음에서 **[!UICONTROL 보낸 사람 이름]** 필드에서는 브랜드 이름과 같이 수신자가 쉽게 식별할 수 있는 이름을 사용하여 게재의 열람률을 높입니다.
+   ![](assets/email-edit-content-dashboard.png)
 
-   수신자의 경험을 더 개선하기 위해 개인 이름을 추가할 수 있습니다(예: &quot;Megastore의 Emma&quot;).
+1. 다음 **[!UICONTROL 보낸 사람 이름]** 필드는 전자 메일 템플릿에 정의되어 있습니다. 이를 수정하려면 브랜드 이름과 같이 수신자가 쉽게 식별할 수 있는 이름을 사용하여 게재의 열람률을 높입니다.
 
-1. 다음에서 **[!UICONTROL 보낸 사람 이메일]** 주소 필드에서 주소 도메인이 Adobe에게 위임한 하위 도메인과 동일한지 확인합니다.
+   >[!NOTE]
+   >
+   >    수신자의 경험을 더 개선하기 위해 개인 이름을 추가할 수 있습니다(예: &quot;Megastore의 Emma&quot;).
+
+1. 다음 **[!UICONTROL 보낸 사람 이메일]** 주소 필드는 전자 메일 템플릿에도 정의됩니다. 주소 도메인이 Adobe에게 위임한 하위 도메인과 동일한지 확인합니다.
 
    >[!NOTE]
    >
@@ -71,7 +78,7 @@ ht-degree: 50%
 
 1. 다음을 클릭합니다. **[!UICONTROL 이메일 본문 편집]** 단추를 사용하여 전자 메일 콘텐츠 구조 및 디자인 [이메일 디자이너](#start-authoring). 이메일 콘텐츠를 디자인하는 방법에 대한 추가 정보는 다음 섹션에서 확인할 수 있습니다.
 
-   * [이메일 디자인 방법 알아보기](create-email-content.md)
+   * [처음부터 이메일 작성](create-email-content.md)
    * [콘텐츠 스타일 지정](get-started-email-style.md)
 
 1. 기본적으로 게재에 대해 추적 기능이 활성화되어 있습니다. **[!UICONTROL 선택 기능]** 섹션에서 이 옵션을 비활성화할 수 있습니다. [링크 추가 및 추적 관리 방법 알아보기](message-tracking.md)

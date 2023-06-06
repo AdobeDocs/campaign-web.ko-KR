@@ -4,7 +4,7 @@ title: Campaign v8 Web 시작하기
 description: Campaign v8 Web 시작하기
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 656ca0801757cb8e781063bed8c77c3cfbe27e99
+source-git-commit: ff50eeb6fe5e84834a9bb7bffa0dc52e4b7cd174
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 90%
@@ -48,7 +48,7 @@ Campaign 데이터는 애플리케이션 서버에 저장됩니다. 클라이언
 ## Campaign에 연결
 
 
-1. [Adobe Experience Cloud](http://experience.adobe.com)에 연결합니다{target="_blank"}.
+1. [Adobe Experience Cloud](https://experience.adobe.com)에 연결합니다{target="_blank"}.
 1. Adobe 자격 증명으로 로그인합니다.
 1. **빠른 액세스** 섹션에서 **Campaign**을 클릭합니다.
    ![](assets/connect.png)

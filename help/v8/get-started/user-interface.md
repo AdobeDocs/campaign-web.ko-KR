@@ -4,9 +4,9 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: 641b504766138830ab30352d73d5e6a82ceadc27
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1591'
 ht-degree: 99%
 
 ---
@@ -72,7 +72,7 @@ Global report not alpha
 
 모든 목록 화면과 마찬가지로 디스플레이를 개인화하고 필요한 모든 정보를 표시하도록 열을 구성할 수 있습니다. 이 [섹션](#list-screens)을 참조하십시오.
 
-Campaign 탐색기에 대한 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html#ac-explorer-ui)를 참조하십시오{target="_blank"}.
+Campaign 탐색기에 대한 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html?lang=ko-KR#ac-explorer-ui)를 참조하십시오{target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -405,3 +405,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_keyindicators_spam"
 >title="스팸"
 >abstract="스팸 KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_errors"
+>title="오류"
+>abstract="오류 KPI"

@@ -3,10 +3,10 @@ audience: end-user
 title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 구축하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 422f2d2cbef424a95540f359c4a5e978eace6c9f
+source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 4%
+source-wordcount: '518'
+ht-degree: 3%
 
 ---
 
@@ -33,6 +33,23 @@ ht-degree: 4%
 >
 >각 활동 간에 전환의 이름을 개인화할 수 있습니다. 이렇게 하려면 전환을 선택하고 오른쪽 창에서 해당 레이블을 변경합니다.
 
-워크플로우를 완료한 후 다이어그램의 끝에 종료 활동을 추가합니다. 이 활동을 사용하면 워크플로우의 끝을 시각적으로 표시할 수 있으며 기능에는 영향을 주지 않습니다.
+다음은 커피 머신에 관심이 있는 모든 고객(VIP 고객 제외)에게 이메일을 보내도록 설계된 워크플로우 예입니다.
+
+![](assets/workflow-example.png)
+
+이를 위해 아래 활동이 추가되었습니다.
+
+* A **[!UICONTROL 포크]** 워크플로우를 세 개의 경로(각 고객 세트에 대해 하나)로 분할하는 활동
+* **[!UICONTROL 대상자 작성]** 세 가지 고객 세트를 타겟팅하는 활동:
+
+   * 이메일이 있는 고객,
+   * 기존 &quot;커피 머신에 관심 있음&quot; 대상에 속하는 고객,
+   * 기존 &quot;VIP 또는 보상&quot; 대상에 속하는 고객.
+
+* A **[!UICONTROL 결합]** 이메일을 통해 고객과 커피 머신에 관심이 있는 고객을 그룹화하는 활동
+* A **[!UICONTROL 결합]** VIP 고객을 제외하는 활동
+* An **[!UICONTROL 이메일 게재]** 활동: 결과 고객에게 이메일을 보냅니다.
+
+워크플로우를 완료했으면 en을 추가합니다 **[!UICONTROL 종료]** 활동이 다이어그램의 끝에 있습니다. 이 활동을 사용하면 워크플로우의 끝을 시각적으로 표시할 수 있으며 기능에는 영향을 주지 않습니다.
 
 워크플로우 다이어그램을 성공적으로 디자인한 후 워크플로우를 실행하고 다양한 작업의 진행 상황을 추적할 수 있습니다. [워크플로우 시작 및 실행 모니터링 방법 알아보기](start-monitor-workflows.md)

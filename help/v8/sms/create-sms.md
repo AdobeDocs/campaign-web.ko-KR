@@ -4,9 +4,9 @@ title: SMS 게재 만들기
 description: Adobe Campaign Web을 사용하여 SMS를 만들고 전송하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '300'
 ht-degree: 100%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 100%
 >id="acw_deliveries_sms_properties"
 >title="SMS 게재 속성"
 >abstract="속성에는 게재 이름을 지정하고 분류하는 데 도움이 되는 일반적인 게재 매개 변수가 포함됩니다. 확장된 스키마를 기반으로 하는 게재인 경우, 특정 사용자 정의 옵션 필드를 사용할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_audience"
+>title="SMS 대상자 정의"
+>abstract="SMS 메시지에 적합한 대상자를 선택합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_template_selection"
+>title="SMS 템플릿 선택"
+>abstract="SMS 게재를 시작하려면 미리 정의된 템플릿을 선택합니다."
 
 1. **[!UICONTROL 게재]** 홈 페이지에서 **[!UICONTROL 게재 만들기]**&#x200B;를 클릭합니다.
 

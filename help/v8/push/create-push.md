@@ -3,10 +3,10 @@ audience: end-user
 title: 푸시 알림 게재 만들기
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 만드는 방법을 알아봅니다
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 69%
+source-wordcount: '308'
+ht-degree: 70%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 69%
 >id="acw_push_notification_template"
 >title="푸시 알림 템플릿"
 >abstract="푸시 게재를 시작하려면 푸시 알림 템플릿을 선택합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_properties"
+>title="게재 속성 푸시"
+>abstract="게재 속성을 관리합니다."
 
 1. **[!UICONTROL 게재]** 홈 페이지에서 **[!UICONTROL 게재 만들기]**&#x200B;를 클릭합니다.
 

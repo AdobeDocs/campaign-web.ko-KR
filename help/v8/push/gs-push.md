@@ -4,9 +4,9 @@ title: 푸시 알림 시작하기
 description: Adobe Campaign Web을 사용하여 푸시 알림을 만들고 전송하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '183'
 ht-degree: 15%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 15%
 <img alt="저빈도" src="assets/do-not-localize/push_design.jpeg">
 </a>
 <div>
-<a href="content-push.md">푸시 게재 디자인<strong></strong></a>
+<a href="content-push.md"><strong>푸시 게재 디자인<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -46,6 +46,15 @@ ht-degree: 15%
 </a>
 <div>
 <a href="send-push.md"><strong>푸시 게재 보내기</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="send-push.md">
+<img alt="유효성 검사" src="assets/do-not-localize/push_report.jpeg">
+</a>
+<div>
+<a href="send-push.md"><strong>게재 보고서 푸시</strong></a>
 </div>
 <p>
 </td>

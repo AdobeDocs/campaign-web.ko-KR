@@ -4,9 +4,9 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 641b504766138830ab30352d73d5e6a82ceadc27
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1506'
 ht-degree: 99%
 
 ---
@@ -235,20 +235,6 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_audience"
->title="SMS 대상자 정의"
->abstract="SMS 메시지에 적합한 대상자를 선택합니다."
-
->[!CONTEXTUALHELP]
->id="acw_sms_report_overview"
->title="SMS 보고서 요약"
->abstract="SMS 게재 보고 지표를 살펴보십시오."
-
->[!CONTEXTUALHELP]
->id="acw_push_report_overview"
->title="푸시 보고서 요약"
->abstract="푸시 게재 보고 지표를 살펴보십시오."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -264,21 +250,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_deliveries_email_metrics_errors"
 >title="오류 지표"
 >abstract="오류 상태가 포함된 이메일 수."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_android_content"
->title="Android 콘텐츠 푸시"
->abstract="Android 콘텐츠 푸시를 정의합니다."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_ios_content"
->title="iOS 콘텐츠 푸시"
->abstract="iOS 콘텐츠 푸시를 정의합니다."
-
->[!CONTEXTUALHELP]
->id="acw_sms_preview_option_app_target"
->title="앱 구독자"
->abstract="기본 대상에 앱 구독자를 추가하여 메시지를 미리 보고 테스트합니다. "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
@@ -366,20 +337,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="규칙 빌더 고급 필드"
 >abstract="고급 필드에서 열을 구성합니다."
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_properties"
->title="게재 속성 푸시"
->abstract="게재 속성을 관리합니다."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
 >title="새 격리 지표"
 >abstract="새 격리 지표."
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_template_selection"
->title="SMS 템플릿 선택"
->abstract="SMS 게재를 시작하려면 미리 정의된 템플릿을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"

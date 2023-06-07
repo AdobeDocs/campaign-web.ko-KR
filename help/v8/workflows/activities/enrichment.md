@@ -3,7 +3,7 @@ audience: end-user
 title: 데이터 보강 워크플로우 활동 사용
 description: 데이터 보강 워크플로우 활동을 사용하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 55a5d09dcd8d98f7a848b2e4ace388e54f6f896e
+source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 28%
@@ -48,7 +48,7 @@ ht-degree: 28%
 
 ## 단일 속성
 
-여기에서는 하나의 데이터 보강 속성(예: 출생 데이터)을 추가하기만 하면 됩니다. 다음 단계를 수행하십시오.
+여기에서는 단일 데이터 보강 속성(예: 생년월일)을 추가하는 것입니다. 다음 단계를 수행하십시오.
 
 1. 내부를 클릭합니다. **속성** 필드.
 1. 타겟팅 차원에서 단순 필드를 선택합니다. 이 예제에서는 생년월일을 선택합니다.

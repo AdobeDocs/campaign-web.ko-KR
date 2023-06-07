@@ -5,9 +5,9 @@ description: 링크를 추가하고 전송된 메시지를 추적하는 방법 �
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 badge: 레이블=“Alpha” 유형=“Positive”
 source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 96%
 
 1. 변경 내용을 저장합니다.
 
-1. 링크가 만들어지더라도 **[!UICONTROL 설정]** 탭.
+1. 링크가 생성된 후에도 **[!UICONTROL 설정]** 탭에서 링크를 수정할 수 있습니다.
 
    * 링크를 편집하고 **[!UICONTROL 대상]**&#x200B;을 변경할 수 있습니다.
    * 해당 옵션을 선택하여 링크에 밑줄을 표시할지 여부를 선택할 수 있습니다.

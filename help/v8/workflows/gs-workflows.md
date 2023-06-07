@@ -7,7 +7,7 @@ exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 70%
+ht-degree: 81%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Campaign의 포괄적인 그래픽 환경을 통해 세분화, 캠페인 �
 
 ## 더 자세히 알아보기
 
-이제 Adobe Campaign에서 워크플로우가 무엇이며 워크플로우로 무엇을 수행할 수 있는지에 대한 이해가 있으므로 이러한 설명서 섹션을 자세히 살펴보고 기능 작업을 시작할 차례입니다.
+워크플로가 무엇인지, Adobe Campaign에서 워크플로를 통해 무엇을 할 수 있는지 이해했으므로 이제 해당 설명서 섹션을 자세히 살펴보고 기능을 사용하여 작업을 시작할 차례입니다.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -48,7 +48,7 @@ Adobe Campaign의 포괄적인 그래픽 환경을 통해 세분화, 캠페인 �
 <img alt="워크플로우 액세스 및 관리" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
-<a href="access-monitor.md"><strong>워크플로우 액세스 및 관리</strong></a>
+<a href="access-monitor.md"><strong>워크플로 액세스 및 관리</strong></a>
 </div>
 <p>
 </td>
@@ -56,7 +56,7 @@ Adobe Campaign의 포괄적인 그래픽 환경을 통해 세분화, 캠페인 �
 <a href="create-workflow.md">
 <img alt="리드" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
-<div><a href="create-workflow.md"><strong>첫 번째 워크플로우 만들기 및 실행</strong>
+<div><a href="create-workflow.md"><strong>첫 워크플로 만들기 및 실행</strong>
 </div>
 <p>
 </td>

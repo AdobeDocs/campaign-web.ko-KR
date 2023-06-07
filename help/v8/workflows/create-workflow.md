@@ -7,12 +7,12 @@ exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 source-git-commit: d9736ff5e6634b03d15e13ba1b0b9fdea7e779f4
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 7%
+ht-degree: 12%
 
 ---
 
 
-# 워크플로우 만들기 {#create-first-workflow}
+# 워크플로 만들기 {#create-first-workflow}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
@@ -38,4 +38,4 @@ Campaign v8 웹에서 워크플로우를 만드는 첫 번째 단계는 독립 �
 
 1. 다음을 클릭합니다. **[!UICONTROL 워크플로우 만들기]** 단추를 클릭하여 워크플로우 만들기를 확인합니다.
 
-이제 워크플로우가 만들어지면 전용 시각적 캔버스를 사용하여 수행할 다양한 작업을 오케스트레이션할 수 있습니다. [워크플로우 활동 오케스트레이션 방법 알아보기](orchestrate-activities.md)
+이제 워크플로우가 만들어지면 전용 시각적 캔버스를 사용하여 수행할 다양한 작업을 오케스트레이션할 수 있습니다. [워크플로 활동을 조율하는 방법 알아보기](orchestrate-activities.md)

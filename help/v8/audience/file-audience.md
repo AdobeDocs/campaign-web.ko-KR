@@ -25,8 +25,8 @@ ht-degree: 64%
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
->title="서식 지정 매개 변수"
->abstract="파일에 대한 서식 매개 변수를 확인합니다."
+>title="서식 지정 매개변수"
+>abstract="파일에 대한 서식 지정 매개변수를 확인합니다."
 
 외부 파일에서 연락처를 업로드할 수 있습니다. 프로필이 데이터베이스에 추가되지 않지만 입력 파일의 모든 필드를 사용할 수 있습니다. [개인화](../personalization/gs-personalization.md). 지원되는 파일 형식은 텍스트(TXT) 및 쉼표로 구분된 값(CSV)입니다. 
 

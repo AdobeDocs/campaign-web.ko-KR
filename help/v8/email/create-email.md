@@ -6,8 +6,8 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: 레이블=“Alpha” 유형=“Positive”
 source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1326'
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >abstract="템플릿에서 시작하거나 Adobe Campaign의 새 이메일 디자이너를 사용하여 코드 한 줄을 작성하지 않고도 이메일을 만들 수 있습니다. 이메일 디자이너를 사용하여 콘텐츠를 만들고, 미리 보고, 테스트하고, 엔드 투 엔드 사용 사례에서 기존 대상자에게 이메일을 보내는 방법에 대해 알아봅니다."
 
 
-첫 번째 타겟팅된 이메일을 작성하는 방법에 대해 알아봅니다. 이 사용 사례에서는 특정 날짜에 실버 및 골드 충성도 회원에게 이메일을 전송하도록 예약합니다.
+첫 번째 타겟팅된 이메일을 작성하는 방법에 대해 알아봅니다. 이 사용 사례에서는 특정 일자에 실버 및 골드 충성도 회원에게 이메일을 전송하도록 예약합니다.
 
 미리 정의된 디자인 템플릿에 따라, 이메일에는 고객 프로필 속성을 기반으로 개인화된 콘텐츠도 포함되어 있습니다.
 
@@ -31,12 +31,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
 >title="이메일 템플릿 선택"
->abstract="이메일 템플릿은 유형화 규칙, 개인화 또는 라우팅 매개 변수와 같은 미리 정의된 설정을 포함하는 특정 게재 구성입니다. 템플릿은 Campaign 클라이언트 콘솔에서 정의됩니다."
+>abstract="이메일 템플릿은 유형화 규칙, 개인화 또는 라우팅 매개변수와 같은 미리 정의된 설정을 포함하는 특정 게재 구성입니다. 템플릿은 Campaign 클라이언트 콘솔에서 정의됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
 >title="이메일 속성"
->abstract="속성은 게재 이름을 지정하고 분류하는 데 도움이 되는 일반적인 게재 매개 변수입니다. Adobe Campaign v8 콘솔에 정의된 확장된 스키마를 기반으로 하는 게재인 경우, 일부 특정 **사용자 정의 옵션** 필드를 사용할 수 있습니다."
+>abstract="속성은 게재 이름을 지정하고 분류하는 데 도움이 되는 일반적인 게재 매개변수입니다. Adobe Campaign v8 콘솔에 정의된 확장된 스키마를 기반으로 하는 게재인 경우, 일부 특정 **사용자 정의 옵션** 필드를 사용할 수 있습니다."
 
 새 게재를 만들려면 다음 단계를 수행합니다.
 
@@ -128,7 +128,7 @@ ht-degree: 0%
    >
    >목록에서 사용할 수 있는 대상자는 Campaign v8 인스턴스 또는 Adobe Experience Platform(대상/소스 통합이 인스턴스에 구성되어 있는 경우)에서 발생합니다.
    >
-   >대상/소스 통합을 통해 Experience Platform 세그먼트를 Adobe Campaign으로 전송하고 캠페인 게재 및 추적 로그를 Adobe Experience Platform으로 전송할 수 있습니다. [Campaign 및 Adobe Experience Platform 사용 방법에 대해 알아보십시오](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=ko-KR){target="_blank"}.
+   >대상/소스 통합을 통해 Experience Platform 세그먼트를 Adobe Campaign으로 전송하고 캠페인 게재 및 추적 로그를 Adobe Experience Platform으로 전송할 수 있습니다. [Campaign 및 Adobe Experience Platform 사용 방법에 대해 알아보십시오](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
 1. 대상자를 선택하면 추가 규칙을 적용하여 대상을 더 구체화할 수 있습니다.
 
@@ -141,11 +141,11 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
 >title="전송 예약"
->abstract="보내는 날짜와 정확한 시간을 정의합니다. 마케팅 메시지에 가장 적합한 시간을 선택하면 열람율을 극대화할 수 있습니다."
+>abstract="보내는 일자와 정확한 시간을 정의합니다. 마케팅 메시지에 가장 적합한 시간을 선택하면 열람율을 극대화할 수 있습니다."
 
-이메일 전송을 예약하려면 이메일 게재를 열고 **예약** 섹션을 찾습니다. **[!UICONTROL 예약 활성화]** 토글을 사용하여 예약을 활성화하고 원하는 전송 날짜 및 시간을 설정합니다. 게재를 전송하면 정의한 연락 일자부터 실제 전송이 시작됩니다.
+이메일 전송을 예약하려면 이메일 게재를 열고 **예약** 섹션을 찾습니다. **[!UICONTROL 예약 활성화]** 토글을 사용하여 예약을 활성화하고 원하는 전송 일자 및 시간을 설정합니다. 게재를 전송하면 정의한 연락 일자부터 실제 전송이 시작됩니다.
 
-기본적으로 **[!UICONTROL 전송 전에 확인 활성화]** 옵션이 활성화되어 있습니다. 이 옵션을 활성화하면 이메일이 예약된 날짜 및 시간에 전송되기 전에 전송을 확인해야 합니다. 예약된 날짜 및 시간에 자동으로 이메일을 전송해야 하는 경우 이 옵션을 비활성화하면 됩니다.
+기본적으로 **[!UICONTROL 전송 전에 확인 활성화]** 옵션이 활성화되어 있습니다. 이 옵션을 활성화하면 이메일이 예약된 일자 및 시간에 전송되기 전에 전송을 확인해야 합니다. 예약된 일자 및 시간에 자동으로 이메일을 전송해야 하는 경우 이 옵션을 비활성화하면 됩니다.
 
 ![](assets/schedule.png)
 

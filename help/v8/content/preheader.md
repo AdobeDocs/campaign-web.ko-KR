@@ -5,9 +5,9 @@ description: 이메일 콘텐츠 디자인 방법 알아보기
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: 레이블=“Alpha” 유형=“Positive”
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 
    ![](assets/preheader_body.png)
 
-1. 다음에서 **[!UICONTROL 설정]** 탭에서 프리 헤더를 추가합니다. **[!UICONTROL 개인화 추가]** 아이콘을 클릭하여 프리 헤더를 추가로 개인화할 수 있습니다.
+1. **[!UICONTROL 설정]** 탭에서 프리 헤더를 추가합니다. **[!UICONTROL 개인화 추가]** 아이콘을 클릭하여 프리 헤더를 추가로 개인화할 수 있습니다.
 
    ![](assets/preheader_body_settings.png)
 

@@ -5,9 +5,9 @@ title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: 캠페인 개요
 hide: true
-source-git-commit: 3e28d05fe63a9a5b73e7ac6d7ebc415964ffedae
+source-git-commit: 0944c19e75aa7f074aff3898b66fec1f253ecbdc
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '339'
 ht-degree: 75%
 
 ---
@@ -51,6 +51,7 @@ ht-degree: 75%
       + 이메일 미리보기 및 테스트 {#preview-test}
          + [미리보기 및 테스트 정보](preview-test/preview-test.md)
          + [이메일 콘텐츠 미리보기](preview-test/preview-content.md)
+         + [이메일 렌더링](preview-test/email-rendering.md)
          + [테스트 이메일 전송](preview-test/proofs.md)
       + 이메일 전송 및 모니터링 {#monitor}
          + [이메일 준비 및 전송](monitor/prepare-send.md)

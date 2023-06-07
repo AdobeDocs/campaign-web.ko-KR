@@ -5,9 +5,9 @@ description: 인라인 스타일 속성 추가 방법 알아보기
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 badge: 레이블=“Alpha” 유형=“Positive”
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 93%
 
 1. 콘텐츠에서 직접 구성 요소를 선택하거나 왼쪽 창의 **[!UICONTROL 탐색 트리]**&#x200B;를 사용하여 구성 요소를 선택합니다.
 
-1. 다음에서 **[!UICONTROL 스타일]** 탭을 클릭하고 **[!UICONTROL 고급]** 드롭다운.
+1. **[!UICONTROL 스타일]** 탭에서 **[!UICONTROL 고급]** 드롭다운을 클릭합니다.
 
    ![](assets/styles_1.png)
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 이메일 워크플로우 활동 사용
 description: 이메일 워크플로우 활동을 사용하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: caa994a1f390248c9fe11da198ab73197b129263
+source-git-commit: 55a5d09dcd8d98f7a848b2e4ace388e54f6f896e
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 27%
+source-wordcount: '347'
+ht-degree: 23%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Campaign 웹을 사용하면 이메일, SMS 또는 푸시와 같은 여러
 
 ## 예제
 
-다음은 세그먼테이션 및 두 개의 게재가 있는 크로스 채널 워크플로우 예입니다. 이 워크플로우는 이메일 주소를 가지고 있고 커피 머신에 관심이 있는 모든 고객을 대상으로 합니다. 이 모집단 중 일반 고객에게 이메일이 전송되고 VIP 클라이언트에게 SMS가 전송됩니다.
+다음은 세그먼테이션 및 두 개의 게재가 있는 크로스 채널 워크플로우 예입니다. 이 워크플로우는 Paris에 거주하며 커피 머신에 관심이 있는 모든 고객을 대상으로 합니다. 이 모집단 중 일반 고객에게 이메일이 전송되고 VIP 클라이언트에게 SMS가 전송됩니다.
 
 ![](../assets/workflow-channel-example.png)
 <!--
@@ -62,8 +62,10 @@ This can be a single send email and sent just once, or it can be a recurring ema
 * Single send emails are standard emails, sent once.
 * Recurring emails allow you to send the same email multiple times to different targets over a defined period. You can aggregate the deliveries per period in order to get reports that correspond to your needs.
 
-When linked to a scheduler, you can define recurring emails.-->
+When linked to a scheduler, you can define recurring emails.
+Email recipients are defined upstream of the activity in the same workflow, via an Audience targeting activity.
 
-이메일 수신자는 대상자 타겟팅 활동을 통해 동일한 워크플로의 활동 업스트림으로 정의됩니다.
+-->
+
 
 <!--The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.-->

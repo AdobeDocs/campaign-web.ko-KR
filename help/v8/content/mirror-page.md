@@ -5,9 +5,9 @@ description: 미러 페이지에 대한 링크를 추가하고 관리하는 방�
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '443'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Campaign에서는 전용 **개인 맞춤화 블록**&#x200B;을 사용하�
 
    ![](assets/message-tracking-mirror-page.png)
 
-1. 다음 항목 선택 **[!UICONTROL 개인화 추가]** 아이콘을 클릭하여 개인화 메뉴에 액세스합니다.
+1. **[!UICONTROL 개인화 추가]** 아이콘을 선택하여 개인화 메뉴에 액세스합니다.
 
    ![](assets/message-tracking-mirror-page_2.png)
 

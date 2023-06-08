@@ -8,10 +8,10 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 218f433eb72a0ed928732c96ebee64294daee852
+source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 36%
+source-wordcount: '437'
+ht-degree: 33%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Campaign에서는 모든 마케팅 캠페인을 최대한 활용하기 위
 
 * **조건부 콘텐츠**
 
-   예를 들어 조건부 콘텐츠를 구성하여 수신자 프로필을 기반으로 동적 개인화를 추가합니다. 특정 조건이 true이면 텍스트 블록 및/또는 이미지가 삽입됩니다. 조건이 true가 아닌 경우 컨텐츠의 대체 버전을 정의할 수 있습니다.
+   예를 들어 수신자의 프로필에 따라 콘텐츠를 추가하도록 조건부 콘텐츠를 구성합니다. 특정 조건이 true이면 텍스트 블록 및/또는 이미지가 삽입됩니다. 조건이 true가 아닌 경우 컨텐츠의 대체 버전을 정의할 수 있습니다.
 
 * **내장된 콘텐츠 블록**
 
@@ -46,11 +46,13 @@ Adobe Campaign에서는 모든 마케팅 캠페인을 최대한 활용하기 위
 
 Adobe Campaign V8 웹에서는 모든 데이터를 선택, 정렬, 사용자 지정 및 유효성을 검사하여 콘텐츠에 대한 사용자 지정 환경을 만들 수 있는 표현식 편집기를 제공합니다.
 
-표현식 편집기는 제목란 필드, 이메일의 텍스트 및 버튼 콘텐츠 구성 요소와 같이 개인화 대화 상자 열기 아이콘이 있는 모든 필드에서 모든 채널에 사용할 수 있습니다.
+표현식 편집기는 제목란 필드, 이메일 링크 및 텍스트/버튼 콘텐츠 구성 요소와 같이 개인화 대화 상자 열기 아이콘이 있는 모든 필드에서 모든 채널에 사용할 수 있습니다.
 
 ![](assets/expression-editor-access.png)
 
 ![](assets/expression-editor-access-email.png)
+
+![](assets/perso-link-insert-icon.png)
 
 또한 이메일을 디자인할 때 전용 조건부 콘텐츠 빌더에 액세스할 수 있습니다. [이메일에서 조건부 콘텐츠를 작성하는 방법 알아보기](conditions.md)
 

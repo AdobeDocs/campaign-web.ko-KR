@@ -8,9 +8,9 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 0b50c0d136bb5e9a7074d570cafe69a7b5ae061b
+source-git-commit: 17a6b7af67cfc9ded7f98c9497a5242cbb9e5d47
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '475'
 ht-degree: 22%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 22%
 Adobe Campaign에서는 모든 마케팅 캠페인을 최대한 활용하기 위해 고객의 수준에 맞는 다이내믹 콘텐츠를 맞춤형으로 제공할 수 있습니다. 프로필 데이터를 기반으로 개인화 기능을 사용하여 다양한 그룹 및 개인에 대한 사용자 지정 환경을 만듭니다. 보유한 데이터 및 정보를 활용하여 메시지를 각 특정 수신자에게 맞게 조정할 수 있습니다. 이름, 관심사, 사는 곳, 산 물건 등이 될 수 있습니다.
 
 캠페인을 사용하여 동적 콘텐츠를 만들고 개인화된 메시지를 보냅니다. 개인화 기능을 결합하여 메시지를 개선하고 맞춤형 사용자 경험을 만들 수 있습니다.
+
+## 콘텐츠를 동적으로 만드는 방법
 
 다음을 삽입하여 메시지 콘텐츠를 동적으로 만들 수 있습니다.
 
@@ -36,7 +38,7 @@ Adobe Campaign에서는 모든 마케팅 캠페인을 최대한 활용하기 위
 
    ![](assets/perso-content-blocks.png)
 
-## 다이내믹 콘텐츠는 어디에서 추가할 수 있습니까?
+## 표현식 편집기 액세스 {#access}
 
 Adobe Campaign V8 웹에서는 모든 데이터를 선택, 정렬, 사용자 지정 및 유효성을 검사하여 콘텐츠에 대한 사용자 지정 환경을 만들 수 있는 표현식 편집기를 제공합니다. 표현식 편집기는 를 사용하는 모든 필드에서 모든 채널에 사용할 수 있습니다. **[!UICONTROL 개인화 대화 상자 열기]** 제목 줄 필드 또는 이메일 링크 및 텍스트/버튼 콘텐츠 구성 요소와 같은 아이콘
 

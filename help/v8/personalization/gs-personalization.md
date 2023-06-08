@@ -8,7 +8,7 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: e40c0b04ab985133de2d2d40e5fcb6a734ff42e9
+source-git-commit: 45f4d070c95861f5f96038df82ae7100860159e0
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 22%
@@ -30,13 +30,13 @@ Adobe Campaign에서는 모든 마케팅 캠페인을 최대한 활용하기 위
 
    다음 구문은 콘텐츠에 수신자의 도시를 삽입합니다. &lt;%= recipient.location.city %>
 
-   ![](assets/perso-subject-line.png)
+   ![](assets/perso-subject-line.png){width="800" align="center"}
 
 * **조건부 콘텐츠**: 예를 들어 수신자의 프로필에 따라 콘텐츠를 추가하려면 조건부 콘텐츠를 구성합니다. 특정 조건이 true이면 텍스트 블록 및/또는 이미지가 삽입됩니다. 조건이 true가 아닌 경우 컨텐츠의 대체 버전을 정의할 수 있습니다.
 
 * **기본 제공 콘텐츠 블록**: Campaign에는 게재에 삽입할 수 있는 특정 렌더링을 포함하는 개인화 블록 세트가 포함되어 있습니다. 예를 들어 로고, 인사말 메시지 또는 이메일 메시지의 미러 페이지에 대한 링크를 추가할 수 있습니다. 콘텐츠 블록은 개인화 편집기의 전용 항목에서 사용할 수 있습니다.
 
-   ![](assets/perso-content-blocks.png)
+   ![](assets/perso-content-blocks.png){width="800" align="center"}
 
 ## 표현식 편집기 액세스 {#access}
 
@@ -48,15 +48,15 @@ Adobe Campaign V8 웹에서는 모든 데이터를 선택, 정렬, 사용자 지
 
 *발신자 이름 필드에서 표현식 편집기 액세스*
 
-![](assets/expression-editor-access.png)
+![](assets/expression-editor-access.png){width="800" align="center"}
 
 *이메일 텍스트 구성 요소에서 표현식 편집기 액세스*
 
-![](assets/expression-editor-access-email.png)
+![](assets/expression-editor-access-email.png){width="800" align="center"}
 
 *이메일의 링크에서 표현식 편집기 액세스*
 
-![](assets/perso-link-insert-icon.png){width="500" align="center"}
+![](assets/perso-link-insert-icon.png){width="800" align="center"}
 
 
 ## 더 자세히 알아보기

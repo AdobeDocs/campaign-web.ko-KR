@@ -4,10 +4,10 @@ title: Campaign v8 Web 시작하기
 description: Campaign v8 Web 시작하기
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: ff50eeb6fe5e84834a9bb7bffa0dc52e4b7cd174
+source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 90%
+source-wordcount: '439'
+ht-degree: 83%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 90%
 
 Adobe Campaign은 크로스 채널 고객 경험을 디자인할 수 있는 플랫폼과 더불어 시각적 캠페인 오케스트레이션, 실시간 상호 작용 관리, 크로스 채널 실행을 위한 환경을 제공합니다.
 
-초기에는 리치 [클라이언트 콘솔](#ac-client)을 통해서만 사용할 수 있었던 Campaign은 이제 개선된 사용 가능성, 접근성 및 새로운 디자인을 갖춘 새로운 웹 사용자 인터페이스를 제공하여 사용자 경험을 크게 향상시킵니다. 이 새로운 최신 UI는 Adobe Experience Platform을 비롯한 다른 Adobe 솔루션과 함께 마케팅 캠페인 디자인 및 게재를 간소화하고 일관성을 제공합니다.
+처음에는 리치 를 통해서만 사용 가능 [클라이언트 콘솔](#ac-client)이제 Campaign은 향상된 유용성, 접근성 및 새로운 디자인을 갖춘 새로운 웹 UI(사용자 인터페이스)를 제공하여 사용자 경험을 크게 향상시킵니다. 이 새로운 최신 UI는 Adobe Experience Platform을 비롯한 다른 Adobe 솔루션과 함께 마케팅 캠페인 디자인 및 게재를 간소화하고 일관성을 제공합니다.
 
 ![](assets/home.png)
 

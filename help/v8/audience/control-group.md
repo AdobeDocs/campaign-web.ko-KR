@@ -4,10 +4,10 @@ title: 컨트롤 그룹 설정
 description: Campaign Web UI에서 메시지에 대한 컨트롤 그룹을 설정하는 방법 알아보기
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
+source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 45%
+source-wordcount: '752'
+ht-degree: 46%
 
 ---
 
@@ -86,11 +86,12 @@ ht-degree: 45%
 * 게재 로그의 로그 탭에 제외 단계가 표시됩니다.
 
    ![](assets/control-group-sample-logs.png)
+<!--
 
+ * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
 
-* 다음 **제외 로그** 탭에는 각 프로필 및 관련 제외가 표시됩니다 **이유**.
-
-   ![](assets/control-group6.png)
+    ![](assets/control-group6.png)
+-->
 
 * 다음 **제외 원인** 탭에는 각 유형화 규칙에 대해 제외된 프로필 수가 표시됩니다.
 

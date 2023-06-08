@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: fc9f6ffd8b242f608e05e51dee8299035518c533
+source-git-commit: 551e6b9efa8b29475bd2f0a71ce016681bf70289
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 5%
@@ -31,7 +31,7 @@ ht-degree: 5%
 
 ![](assets/perso-access.png)
 
-표현식 편집기가 표시됩니다. 개인화 필드는 화면 왼쪽에 있는 세 개의 메뉴로 구성됩니다. 이러한 메뉴를 통해 Adobe Campaign 데이터베이스에서 사용할 수 있는 모든 필드에 액세스할 수 있습니다.
+표현식 편집기가 표시됩니다. 개인화 필드는 화면 왼쪽에 있는 여러 메뉴로 구성됩니다. 이러한 메뉴를 통해 Adobe Campaign 데이터베이스에서 사용할 수 있는 모든 필드에 액세스할 수 있습니다.
 
 ![](assets/perso-insert-field.png)
 

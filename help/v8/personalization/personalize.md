@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 17a6b7af67cfc9ded7f98c9497a5242cbb9e5d47
+source-git-commit: fc9f6ffd8b242f608e05e51dee8299035518c533
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 6%
+source-wordcount: '432'
+ht-degree: 5%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 6%
 
 | 메뉴 | 설명 |
 |-----|------------|
+| ![](assets/do-not-localize/perso-subscribers-menu.png) | 다음 **[!UICONTROL 구독자 애플리케이션]** 메뉴에는 터미널 또는 운영 체제 사용 id와 같이 응용 프로그램의 구독자와 관련된 모든 필드가 나열됩니다. *이 메뉴는 푸시 알림에만 사용할 수 있습니다.* |
 | ![](assets/do-not-localize/perso-recipients-menu.png) | 다음 **[!UICONTROL 수신자]** 메뉴에는 수신자의 이름, 나이 또는 주소와 같이 수신자 표에 정의된 모든 필드가 나열됩니다. |
 | ![](assets/do-not-localize/perso-message-menu.png) | 다음 **[!UICONTROL 메시지]** 메뉴에는 게재 로그와 관련된 모든 필드(예: 지정된 수신자가 있는 마지막 이벤트의 날짜 등 모든 채널에서 수신자 또는 장치로 전송된 모든 메시지)가 나열됩니다 |
 | ![](assets/do-not-localize/perso-delivery-menu.png) | 다음 **[!UICONTROL 게재]** 메뉴에는 게재 채널, 레이블 등 게재 수행에 필요한 매개 변수와 관련된 모든 필드가 나열됩니다. |

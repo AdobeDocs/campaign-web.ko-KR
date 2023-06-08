@@ -4,10 +4,10 @@ title: SMS 게재 디자인
 description: SMS 게재를 디자인하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 98%
+source-wordcount: '218'
+ht-degree: 93%
 
 ---
 
@@ -35,14 +35,8 @@ ht-degree: 98%
 
 1. 기본적으로 게재에 대해 추적 기능이 활성화되어 있습니다. **[!UICONTROL 선택 기능 섹션에서 이 옵션을 비활성화할 수 있습니다]**.
 
+1. 액세스 **[!UICONTROL 콘텐츠 시뮬레이션]** 메뉴를 사용하여 개인화된 콘텐츠를 미리 볼 수 있습니다.
+
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하고 미리보기에서 메시지를 확인합니다.
-
-1. **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 사용하여 개인화된 콘텐츠를 미리 볼 수 있습니다.
-
-1. **[!UICONTROL 테스트 프로필 추가]**&#x200B;를 클릭하여 하나 또는 여러 테스트 프로필 또는 프로필을 선택합니다.
-
-1. 테스트 프로필이 선택되면 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
-
-1. 왼쪽 창에서 개인화된 요소가 선택한 프로필의 데이터로 대체되면 이메일 미리보기를 찾을 수 있습니다.
 
 이제 SMS 메시지를 검토하고 대상자에게 전송할 수 있습니다.

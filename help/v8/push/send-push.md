@@ -3,14 +3,30 @@ audience: end-user
 title: 푸시 알림 게재 보내기
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 보내는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 3%
+source-wordcount: '269'
+ht-degree: 23%
 
 ---
 
-# 푸시 알림 게재 보내기 {#send-push}
+# 푸시 알림 게재 미리 보기 및 보내기 {#send-push}
+
+## 푸시 알림 게재 미리 보기 {#preview-push}
+
+메시지 콘텐츠를 정의했으면 테스트 프로필을 활용하여 메시지를 미리 보고 테스트할 수 있습니다. 개인화된 콘텐츠를 포함한 경우 테스트 프로필 데이터를 활용하여 이 콘텐츠가 메시지에 어떻게 표시되는지 검사할 수 있습니다. 이렇게 하면 메시지가 올바르게 렌더링되고 개인화된 요소가 적절하게 통합되는지 확인할 수 있습니다.
+
+1. 게재 콘텐츠 페이지에서 **[!UICONTROL 콘텐츠 시뮬레이션]** 개인화된 콘텐츠를 미리 볼 수 있습니다.
+
+1. **[!UICONTROL 테스트 프로필 추가]**&#x200B;를 클릭하여 하나 또는 여러 테스트 프로필 또는 프로필을 선택합니다.
+
+1. 테스트 프로필이 선택되면 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
+
+1. 왼쪽 창에서 개인화된 요소가 선택한 프로필의 데이터로 대체되면 이메일 미리보기를 찾을 수 있습니다.
+
+이제 SMS 메시지를 검토하고 대상자에게 전송할 수 있습니다.
+
+## 푸시 알림 게재 보내기 {#preview-send-push}
 
 1. 푸시 알림 콘텐츠를 개인화한 후 을(를) 클릭합니다. **[!UICONTROL 검토 및 보내기]** (으)로부터 **[!UICONTROL 게재]** 페이지를 가리키도록 업데이트하는 중입니다.
 

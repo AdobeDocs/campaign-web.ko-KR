@@ -8,7 +8,7 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 17a6b7af67cfc9ded7f98c9497a5242cbb9e5d47
+source-git-commit: e40c0b04ab985133de2d2d40e5fcb6a734ff42e9
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 22%
@@ -56,7 +56,8 @@ Adobe Campaign V8 웹에서는 모든 데이터를 선택, 정렬, 사용자 지
 
 *이메일의 링크에서 표현식 편집기 액세스*
 
-![](assets/perso-link-insert-icon.png)
+![](assets/perso-link-insert-icon.png){width="500" align="center"}
+
 
 ## 더 자세히 알아보기
 

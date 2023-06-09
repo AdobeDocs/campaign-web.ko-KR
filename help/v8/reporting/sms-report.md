@@ -3,9 +3,9 @@ audience: end-user
 title: SMS 게재 보고서
 description: sms 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: fbedfc5d1886b86932c156574037549270480f44
+source-git-commit: 4b218f0811b53c4f6f89663f4336a73c61e03dfd
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '254'
 ht-degree: 7%
 
 ---
@@ -46,3 +46,10 @@ ht-degree: 7%
    * **[!UICONTROL 새로운 격리]**: 제외되어 격리에 추가된 프로필 수입니다.
 
 * **[!UICONTROL 제외]** 그래프와 표에는 타겟팅된 프로필에서 제외된 사용자 프로필에서 메시지를 받지 못하게 한 다양한 이유가 표시됩니다.
+
+## 게재 처리량 {#delivery-throughput}
+
+이 보고서는 지정된 기간 내에 전체 플랫폼의 게재 처리량에 대한 자세한 정보를 제공합니다. 메시지 게재 속도를 측정하는 데 사용되는 기본 지표는 시간당 전송된 메시지 수입니다.
+
+![](assets/reporting_sms_2.png)
+

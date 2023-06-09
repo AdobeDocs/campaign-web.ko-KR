@@ -8,10 +8,10 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 45f4d070c95861f5f96038df82ae7100860159e0
+source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 22%
+source-wordcount: '495'
+ht-degree: 21%
 
 ---
 
@@ -26,38 +26,37 @@ Adobe Campaign에서는 모든 마케팅 캠페인을 최대한 활용하기 위
 
 다음을 삽입하여 메시지 콘텐츠를 동적으로 만들 수 있습니다.
 
-* **개인화 필드**: 개인화 필드는 메시지의 첫 번째 수준 개인화에 사용됩니다. 개인화 편집기에서 데이터베이스에서 사용 가능한 모든 필드를 선택할 수 있습니다. 게재의 경우 수신자, 메시지 또는 게재와 관련된 모든 필드를 선택할 수 있습니다. 이러한 개인화 속성은 메시지의 제목 줄이나 본문에 삽입할 수 있습니다.
+* **개인화 필드**: 개인화 필드는 메시지의 첫 번째 수준 개인화에 사용됩니다. 개인화 편집기에서 데이터베이스에서 사용 가능한 모든 필드를 선택할 수 있습니다. 게재의 경우 수신자, 메시지 또는 게재와 관련된 모든 필드를 선택할 수 있습니다. 이러한 개인화 속성은 메시지의 제목 줄이나 본문에 삽입할 수 있습니다. 다음 구문은 콘텐츠에 수신자의 도시를 삽입합니다. &lt;%= recipient.location.city %>
 
-   다음 구문은 콘텐츠에 수신자의 도시를 삽입합니다. &lt;%= recipient.location.city %>
-
-   ![](assets/perso-subject-line.png){width="800" align="center"}
+  ![](assets/perso-subject-line.png){width="800" align="center"}
 
 * **조건부 콘텐츠**: 예를 들어 수신자의 프로필에 따라 콘텐츠를 추가하려면 조건부 콘텐츠를 구성합니다. 특정 조건이 true이면 텍스트 블록 및/또는 이미지가 삽입됩니다. 조건이 true가 아닌 경우 컨텐츠의 대체 버전을 정의할 수 있습니다.
 
 * **기본 제공 콘텐츠 블록**: Campaign에는 게재에 삽입할 수 있는 특정 렌더링을 포함하는 개인화 블록 세트가 포함되어 있습니다. 예를 들어 로고, 인사말 메시지 또는 이메일 메시지의 미러 페이지에 대한 링크를 추가할 수 있습니다. 콘텐츠 블록은 개인화 편집기의 전용 항목에서 사용할 수 있습니다.
 
-   ![](assets/perso-content-blocks.png){width="800" align="center"}
+  ![](assets/perso-content-blocks.png){width="800" align="center"}
 
 ## 표현식 편집기 액세스 {#access}
 
 Adobe Campaign V8 웹에서는 모든 데이터를 선택, 정렬, 사용자 지정 및 유효성을 검사하여 콘텐츠에 대한 사용자 지정 환경을 만들 수 있는 표현식 편집기를 제공합니다. 표현식 편집기는 를 사용하는 모든 필드에서 모든 채널에 사용할 수 있습니다. **[!UICONTROL 개인화 대화 상자 열기]** 제목 줄 필드 또는 이메일 링크 및 텍스트/버튼 콘텐츠 구성 요소와 같은 아이콘
 
+다음은 다이내믹하게 만들 콘텐츠에 따라 표현식 편집기에 액세스하는 방법에 대한 몇 가지 예입니다
+
+* *발신자 이름 필드에서 표현식 편집기 액세스*
+
+  ![](assets/expression-editor-access.png){width="800" align="center"}
+
+* *이메일 텍스트 구성 요소에서 표현식 편집기 액세스*
+
+  ![](assets/expression-editor-access-email.png){width="800" align="center"}
+
+* *이메일의 링크에서 표현식 편집기 액세스*
+
+  ![](assets/perso-link-insert-icon.png){width="800" align="center"}
+
 >[!NOTE]
 >
 >표현식 편집기 외에도 이메일을 디자인할 때 전용 조건부 콘텐츠 빌더를 활용할 수도 있습니다. [이메일에서 조건부 콘텐츠를 작성하는 방법 알아보기](conditions.md)
-
-*발신자 이름 필드에서 표현식 편집기 액세스*
-
-![](assets/expression-editor-access.png){width="800" align="center"}
-
-*이메일 텍스트 구성 요소에서 표현식 편집기 액세스*
-
-![](assets/expression-editor-access-email.png){width="800" align="center"}
-
-*이메일의 링크에서 표현식 편집기 액세스*
-
-![](assets/perso-link-insert-icon.png){width="800" align="center"}
-
 
 ## 더 자세히 알아보기
 

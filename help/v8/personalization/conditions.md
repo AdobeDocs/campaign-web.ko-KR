@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: 548bc638ed24433550c322bce5fc55439e8d938d
+source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '918'
 ht-degree: 3%
 
 ---
@@ -27,9 +27,9 @@ ht-degree: 3%
 
 ## 조건부 콘텐츠를 작성하는 방법
 
-조건부 콘텐츠를 만들려면 **표현식 편집기** 특정 도우미 함수를 사용합니다. 이 방법은 제목란 또는 이메일 링크 및 텍스트/버튼 콘텐츠 구성 요소와 같이 표현식 편집기에 액세스할 수 있는 모든 필드의 모든 게재 채널에 사용할 수 있습니다. [다이내믹 콘텐츠를 추가하는 위치 알아보기](gs-personalization.md/#access)
+조건부 콘텐츠를 만들려면 **표현식 편집기** 특정 도우미 함수를 사용합니다. 이 방법은 제목란 또는 이메일 링크 및 텍스트/버튼 콘텐츠 구성 요소와 같이 표현식 편집기에 액세스할 수 있는 모든 필드의 모든 게재 채널에 사용할 수 있습니다. [표현식 편집기에 액세스하는 방법 알아보기](gs-personalization.md/#access)
 
-표현식 편집기 외에도 전용 을 활용할 수 있습니다 **조건부 콘텐츠 빌더** 프로필 속성만 사용하여 조건을 작성할 수 있는 이메일을 디자인할 때입니다.
+표현식 편집기 외에도 전용 을 활용할 수 있습니다 **조건부 콘텐츠 빌더** 프로필 속성만 사용하여 조건을 작성할 수 있는 이메일을 디자인할 때입니다. [이메일에서 조건부 콘텐츠를 만드는 방법을 알아봅니다](#condition-condition-builder)
 
 ## 표현식 편집기에서 조건 만들기 {#condition-perso-editor}
 
@@ -45,53 +45,53 @@ ht-degree: 3%
 
 1. 개인화 편집기에서 **[!UICONTROL 도우미 함수]** 왼쪽에 있는 메뉴입니다.
 
-* 조건 작성을 시작하려면 옆에 있는 &#39;+&#39; 아이콘을 클릭합니다. **If** 함수. 다음 줄이 중앙 화면에 추가됩니다.`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
+1. 조건 작성을 시작하려면 옆에 있는 &#39;+&#39; 아이콘을 클릭합니다. **If** 함수. 다음 줄이 중앙 화면에 추가됩니다.`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 
    * 바꾸기 `<FIELD>` 수신자의 언어와 같은 개인화 필드 사용: `recipient.language`.
    * 바꾸기 `<VALUE>` 를 만족시킬 값으로 채우십시오. 예제, `'French'`.
    * 바꾸기 `Ìnsert content here` 지정된 조건을 충족하는 프로필에 표시할 콘텐츠로 대체합니다.
 
-     ![](assets/condition-sample1.png)
+     ![](assets/condition-sample1.png){width="800" align="center"}
 
-1. 수신자가 조건을 충족하지 않을 경우 표시되어야 하는 콘텐츠를 지정합니다. 방법은 다음과 같습니다.
+1. 수신자가 조건을 충족하지 않을 경우 표시되어야 하는 콘텐츠를 지정합니다. 이렇게 하려면 다음을 사용하십시오. **else** 도우미 함수:
 
-   1. 추가 **else** 도우미 함수: 커서를 표현식 닫기 태그 앞에 놓습니다. `%>` 을(를) 클릭하고 `+` 다음 옆에 **Else** 함수.
-
-      >[!NOTE]
-      >
-      >도우미 함수가 추가될 때마다 (`<%`) 및 닫기(`%>`) 태그는 함수 앞뒤에 자동으로 추가됩니다. 표현식 내에 &quot;Else&quot; 도우미 함수를 추가한 후의 예:
-      >
-      >`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } <% else { %> Insert content here<% } %>%>`
-      >
-      >구문 오류를 방지하려면 이러한 태그를 제거해야 합니다. 이 예에서 를 제거한 후 수정된 표현식은 **else** 함수 태그:
-      >
-      >`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } else { %> Insert content here<% } %>`
+   1. 표현식 닫기 태그 앞에 커서를 놓습니다. `%>` 을(를) 클릭하고 `+` 다음 옆에 **Else** 함수.
 
    1. 바꾸기 `Ìnsert content here` if 함수의 조건을 충족하지 않는 프로필에 표시할 콘텐츠로 식별됩니다.
 
-      ![](assets/condition-sample2.png)
+      ![](assets/condition-sample2.png){width="800" align="center"}
 
-   다음을 사용할 수도 있습니다 **else if** 여러 콘텐츠 변형을 사용하여 조건을 빌드하는 도우미 함수입니다. 예를 들어 아래 표현식은 수신자의 언어에 따라 메시지의 세 가지 변형을 표시합니다.
+      다음을 사용할 수도 있습니다 **else if** 여러 콘텐츠 변형을 사용하여 조건을 빌드하는 도우미 함수입니다. 예를 들어 아래 표현식은 수신자의 언어에 따라 메시지의 세 가지 변형을 표시합니다.
 
-   ![](assets/condition-sample3.png)
+      ![](assets/condition-sample3.png){width="800" align="center"}
+
+   >[!NOTE]
+   >
+   >도우미 함수가 추가될 때마다 (`<%`) 및 닫기(`%>`) 태그는 함수 앞뒤에 자동으로 추가됩니다.
+   >
+   >표현식 내에 &quot;Else&quot; 도우미 함수를 추가한 후의 예: >
+   >
+   >`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } <% else { %> Insert content here<% } %>%>`
+   >
+   >구문 오류를 방지하려면 이러한 태그를 제거해야 합니다. 이 예에서 를 제거한 후 수정된 표현식은 **else** 함수 태그:
+   >
+   >`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } else { %> Insert content here<% } %>`
 
 1. 상태가 준비되면 콘텐츠를 저장하고 콘텐츠를 시뮬레이션하여 렌더링을 확인할 수 있습니다.
 
-## 이메일에 조건부 콘텐츠 만들기  {#condition-condition-builder}
+## 이메일에 조건부 콘텐츠 만들기 {#condition-condition-builder}
 
 이메일의 조건부 콘텐츠는 다음 두 가지 방법으로 만들 수 있습니다.
 * 도우미 함수를 사용하여 조건을 빌드하여 표현식 편집기에서
 * 이메일을 디자인할 때 액세스할 수 있는 전용 조건부 콘텐츠 빌더에서.
 
-표현식 편집기를 사용하여 조건을 만드는 방법에 대한 자세한 정보를 사용할 수 있습니다 [여기](#condition-perso-editor).
-
-다음 섹션에서는 이메일 디자이너의 조건부 콘텐츠 기능을 사용하여 조건을 만드는 방법에 대한 단계별 지침을 제공합니다. 이 예제에서는 수신자의 언어를 기반으로 여러 변형이 있는 이메일 메시지를 만들려고 합니다. 다음 단계를 수행하십시오.
+표현식 편집기를 사용하여 조건을 만드는 방법에 대한 자세한 정보를 사용할 수 있습니다 [여기](#condition-perso-editor). 다음 섹션에서는 이메일 디자이너의 조건부 콘텐츠 기능을 사용하여 조건을 만드는 방법에 대한 단계별 지침을 제공합니다. 이 예제에서는 수신자의 언어를 기반으로 여러 변형이 있는 이메일 메시지를 만들려고 합니다. 다음 단계를 수행하십시오.
 
 1. 이메일 게재를 만들거나 열고 콘텐츠를 편집한 다음 **[!UICONTROL 이메일 본문 편집]** 단추를 클릭하여 전자 메일 디자인 작업 영역을 엽니다.
 
 1. 콘텐츠 구성 요소를 선택하고 **[!UICONTROL 조건부 콘텐츠 활성화]** 아이콘.
 
-   ![](assets/condition-email-enable.png)
+   ![](assets/condition-email-enable.png){width="800" align="center"}
 
 1. 다음 **[!UICONTROL 조건부 콘텐츠]** 창이 화면 왼쪽에서 열립니다. 이 창에서는 조건을 사용하여 선택한 콘텐츠 구성 요소의 변형을 여러 개 만들 수 있습니다.
 
@@ -99,13 +99,13 @@ ht-degree: 3%
 
 1. 규칙 빌더가 표시됩니다. 프로필 속성을 사용하여 메시지의 첫 번째 변형에 대한 조건을 만들고 **[!UICONTROL 확인]**. 이 예제에서는 언어가 &#39;프랑스어&#39;인 수신자를 타겟팅하는 규칙을 만들고 있습니다.
 
-   ![](assets/condition-email-rule.png)
+   ![](assets/condition-email-rule.png){width="800" align="center"}
 
 1. 이제 규칙이 변형과 연결됩니다. 가독성을 높이기 위해 줄임표 메뉴를 클릭하여 변형 이름을 바꾸는 것이 좋습니다.
 
 1. 메시지를 보낼 때 규칙이 충족되는 경우 구성 요소가 표시되는 방식을 구성합니다. 이 예제에서는 수신자의 선호 언어인 경우 프랑스어로 텍스트를 표시하려고 합니다.
 
-   ![](assets/condition-email-variant1.png)
+   ![](assets/condition-email-variant1.png){width="800" align="center"}
 
 1. 콘텐츠 구성 요소에 필요한 만큼 변형을 추가합니다. 언제든지 변형 간을 전환하여 조건부 규칙에 따라 콘텐츠 구성 요소가 표시되는 방식을 확인할 수 있습니다.
 

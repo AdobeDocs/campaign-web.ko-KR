@@ -3,7 +3,7 @@ audience: end-user
 product: campaign
 title: 이메일 템플릿 작업
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
+source-git-commit: 1d6f61c3e39459d1e82fee15c5b6b903feb5b42f
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 11%
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 # 이메일 템플릿 작업 {#email-saved-content-templates}
 
-날짜 [이메일 만들기](#create-email), 사용 **[!UICONTROL 디자인 템플릿 선택]** 의 섹션 **[!UICONTROL 이메일 만들기]** 템플릿에서 콘텐츠 작성을 시작하는 인터페이스입니다.
+날짜 [이메일 만들기](../email/create-email.md), 사용 **[!UICONTROL 디자인 템플릿 선택]** 의 섹션 **[!UICONTROL 이메일 만들기]** 템플릿에서 콘텐츠 작성을 시작하는 인터페이스입니다.
 
 ![](assets/email_designer-sample-templates.png)
 

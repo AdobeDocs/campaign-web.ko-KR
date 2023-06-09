@@ -3,16 +3,22 @@ audience: end-user
 title: 이메일 콘텐츠 편집
 description: Campaign 웹 UI에서 이메일 디자이너를 사용하여 콘텐츠 작성을 시작하는 방법을 알아봅니다
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
+source-git-commit: 97c65771f9302bb188de0a8dae05f0d607519d4a
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 5%
+source-wordcount: '382'
+ht-degree: 9%
 
 ---
 
 # 이메일 디자이너 시작 {#get-started-email-designer}
 
-에서 기존 콘텐츠를 가져올 수 있습니다. [!DNL Journey Optimizer] 또는 컨텐츠 디자인 기능을 활용할 수 있습니다.
+Adobe Campaign에서 이메일을 만든 후에는 해당 콘텐츠를 정의해야 합니다.
+
+이메일 디자이너를 사용하면 직관적인 드래그 앤 드롭 인터페이스를 통해 개인화된 매력적인 이메일을 만들 수 있습니다. 처음부터 빈 화면으로 시작하거나 기존 콘텐츠를 가져오거나 기존 템플릿을 활용하는 경우 프로모션 또는 트랜잭션 방식으로 모든 이메일 콘텐츠를 디자인하고 세부적으로 조정할 수 있습니다.
+
+<!--Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or fragment directly through the user interface. You can seamlessly switch between the drag and drop interface and HTML code at the click of a button.
+
+The Email Designer allows you to create email content and email content templates. It is compatible with simple emails, transactional emails, A/B test emails, multilingual emails, and recurring emails.-->
 
 * 사용 [!DNL Campaign] 응답형 이메일을 쉽게 작성할 수 있는 이메일 디자인 기능. [자세히 알아보기](create-email-content.md)
 
@@ -38,5 +44,5 @@ ht-degree: 5%
 
 * **기존 콘텐츠 선택** 기본 제공 또는 사용자 지정 템플릿 목록에서. 이메일 템플릿 작업 방법 알아보기 [이 섹션](email-templates.md).
 
-   ![](assets/email_designer_create_options.png)
+  ![](assets/email_designer_create_options.png)
 

@@ -4,10 +4,10 @@ title: 이메일 콘텐츠 편집
 description: Campaign Web UI에서 이메일 콘텐츠를 편집하는 방법 알아보기
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 666a1c2d4b31fed8e956f0b2984c1f39d74a2221
+source-git-commit: 3aee085da2031a497469fa826bbca3498d3dd0aa
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 44%
+source-wordcount: '508'
+ht-degree: 43%
 
 ---
 
@@ -36,29 +36,33 @@ ht-degree: 44%
 이메일 **[!UICONTROL 콘텐츠 편집]** 화면에서 다음을 수행할 수 있습니다.
 * 보낸 사람의 주소 및 제목란과 같은 메시지의 기본 요소를 정의합니다.
 * 첨부 추가 또는 오퍼 설정과 같은 추가 작업 수행
-* 액세스 [이메일 디자이너](get-started-email-designer.md) 이메일의 적절한 콘텐츠 작성을 시작하려면
+* 액세스 [이메일 디자이너](get-started-email-designer.md#start-authoring) 이메일의 적절한 콘텐츠 작성을 시작하려면
 
 전자 메일의 콘텐츠를 구성하거나 편집하려면 아래 단계를 따르십시오.
 
 1. 다음을 클릭합니다. **[!UICONTROL 콘텐츠 편집]** 단추 [이메일 게재 대시보드](../email/create-email.md) 화면.
 
-   ![](assets/email-edit-content.png)
+   ![](assets/email-edit-content-button.png)
 
-1. 이메일 콘텐츠 편집 화면이 열립니다. 새 이메일을 구성하는 경우 **[!UICONTROL 보낸 사람 이름]** 및 **[!UICONTROL 보낸 사람 이메일]** 필드가 이미 채워져 있습니다.
+1. 이메일 콘텐츠 편집 화면이 열립니다.
 
    ![](assets/email-edit-content-dashboard.png)
+
+   >[!NOTE]
+   >
+   >새 이메일을 구성하는 경우 **[!UICONTROL 보낸 사람 이름]** 및 **[!UICONTROL 보낸 사람 이메일]** 필드가 이미 채워져 있습니다.
 
 1. 다음 **[!UICONTROL 보낸 사람 이름]** 필드는 전자 메일 템플릿에 정의되어 있습니다. 이를 수정하려면 브랜드 이름과 같이 수신자가 쉽게 식별할 수 있는 이름을 사용하여 게재의 열람률을 높입니다.
 
    >[!NOTE]
    >
-   >    수신자의 경험을 더 개선하기 위해 개인 이름을 추가할 수 있습니다(예: &quot;Megastore의 Emma&quot;).
+   >수신자의 경험을 더 개선하기 위해 개인 이름을 추가할 수 있습니다(예: &quot;Luma에서 온 Eve&quot;).
 
 1. 다음 **[!UICONTROL 보낸 사람 이메일]** 주소 필드는 전자 메일 템플릿에도 정의됩니다. 주소 도메인이 Adobe에게 위임한 하위 도메인과 동일한지 확인합니다.
 
    >[!NOTE]
    >
-   >    &#39;@&#39; 앞 부분은 변경할 수 있지만 도메인 주소는 변경할 수 없습니다.
+   >&#39;@&#39; 앞 부분은 변경할 수 있지만 도메인 주소는 변경할 수 없습니다.
 
    <!--In the Reply address text fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.-->
 
@@ -80,6 +84,10 @@ ht-degree: 44%
 
    * [처음부터 이메일 작성](create-email-content.md)
    * [콘텐츠 스타일 지정](get-started-email-style.md)
+
+   >[!NOTE]
+   >
+   >이메일 미리 보기 위로 마우스를 가져간 다음 을(를) 선택할 수도 있습니다. **[!UICONTROL 이메일 디자이너 열기]**.
 
 1. 기본적으로 게재에 대해 추적 기능이 활성화되어 있습니다. **[!UICONTROL 선택 기능]** 섹션에서 이 옵션을 비활성화할 수 있습니다. [링크 추가 및 추적 관리 방법 알아보기](message-tracking.md)
 

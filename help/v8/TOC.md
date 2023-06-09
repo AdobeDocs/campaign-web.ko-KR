@@ -5,7 +5,7 @@ title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: 캠페인 개요
 hide: true
-source-git-commit: 0944c19e75aa7f074aff3898b66fec1f253ecbdc
+source-git-commit: 8d558e39f30c21cd64ab89d14020076232c6b567
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 75%
@@ -31,16 +31,16 @@ ht-degree: 75%
          + [이메일 콘텐츠 구성](content/edit-content.md)
          + 이메일 셰이핑 시작 {#start-design}
             + [이메일 디자이너 시작](content/get-started-email-designer.md)
-            + [처음부터 시작하기 ](content/create-email-content.md)
+            + [처음부터 시작하기](content/create-email-content.md)
             + [이메일 콘텐츠 가져오기](content/existing-content.md)
             + [자체 콘텐츠 코딩](content/code-content.md)
             + [이메일 콘텐츠 템플릿 사용](content/email-templates.md)
          + 콘텐츠 디자인 {#design-content}
             + [콘텐츠 구성 요소 사용](content/content-components.md)
-            + [텍스트 버전 생성](content/text-version-email.md)
+            + [링크 추가 및 메시지 추적](content/message-tracking.md)
             + [미러 페이지에 대한 링크 추가](content/mirror-page.md)
             + [프리 헤더 추가](content/preheader.md)
-            + [링크 추가 및 메시지 추적](content/message-tracking.md)
+            + [텍스트 버전 생성](content/text-version-email.md)
          + 콘텐츠 스타일 지정 {#style}
             + [이메일 스타일 시작하기](content/get-started-email-style.md)
             + [배경 설정 편집](content/backgrounds.md)
@@ -65,8 +65,8 @@ ht-degree: 75%
    + SMS {#sms}
       + [SMS 게재 시작하기](sms/gs-sms.md)
       + [SMS 게재 만들기 ](sms/create-sms.md)
-      + [SMS 게재 디자인 ](sms/content-sms.md)
-      + [SMS 게재 보내기 ](sms/send-sms.md)
+      + [SMS 게재 디자인](sms/content-sms.md)
+      + [SMS 게재 보내기](sms/send-sms.md)
    + 콘텐츠를 동적으로 만들기 {#dynamic-content}
       + [다이내믹 콘텐츠 시작](personalization/gs-personalization.md)
       + [개인화 추가](personalization/personalize.md)

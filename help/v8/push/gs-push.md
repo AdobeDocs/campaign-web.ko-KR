@@ -4,10 +4,10 @@ title: 푸시 알림 시작하기
 description: Adobe Campaign Web을 사용하여 푸시 알림을 만들고 전송하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 15%
+source-wordcount: '203'
+ht-degree: 14%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 15%
 * 캠페인: 캠페인을 만들면 푸시 알림 게재를 만들 수 있습니다. 캠페인 설정에 대한 자세한 내용은 이 페이지를 참조하십시오.
 
 * 독립 실행형 게재: 워크플로우나 캠페인 없이 개별 푸시 알림 게재로 고객을 직접 그리고 즉시 참여시킵니다.
+
+![](../assets/do-not-localize/book.png) 푸시 알림 채널을 구성하는 방법: [페이지](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html?lang=en).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

@@ -4,10 +4,10 @@ title: SMS 게재 시작하기
 description: Adobe Campaign Web을 사용하여 SMS를 만들고 전송하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 91%
+source-wordcount: '159'
+ht-degree: 80%
 
 ---
 
@@ -22,6 +22,8 @@ SMS 채널은 SMS 게재를 만드는 세 가지 메서드를 제공합니다.
 * 캠페인: SMS 게재를 전용 캠페인에 통합하여 대상자와 게재 일정 등 매개변수를 설정합니다.
 
 * 독립 실행형 게재: 개별 SMS 게재를 만들어 워크플로나 캠페인 없이도 고객과 빠르고 직접적으로 통신할 수 있습니다.
+
+![](../assets/do-not-localize/book.png) 에서 SMS 채널을 구성하는 방법 알아보기 [페이지](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html?lang=en).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

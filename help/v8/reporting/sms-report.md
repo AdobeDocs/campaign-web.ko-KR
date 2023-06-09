@@ -3,7 +3,7 @@ audience: end-user
 title: SMS 게재 보고서
 description: sms 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: b18fb70aa498e3592f88f698bb6b526c9fb1439b
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 6%
@@ -18,8 +18,6 @@ ht-degree: 6%
 >abstract="SMS 게재 보고 지표를 살펴보십시오."
 
 ## 게재 요약 {#delivery-summary}
-
-![](assets/reporting_sms.png)
 
 * **[!UICONTROL 게재 개요]** 은 방문자가 SMS 메시지에 참여하는 방식에 대한 자세한 정보를 제공하는 주요 성과 지표(KPI)를 제공합니다.
 

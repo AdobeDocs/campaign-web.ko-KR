@@ -3,10 +3,10 @@ audience: end-user
 title: 워크플로우 결합 활동 사용
 description: 워크플로우 결합 활동을 사용하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
+source-git-commit: 1ac80ffaabea210bbc02588475ad6e81af4820b1
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 14%
+source-wordcount: '690'
+ht-degree: 12%
 
 ---
 
@@ -25,6 +25,16 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 ## 일반 구성 {#general}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_merging_options"
+>title="교차 병합 옵션"
+>abstract="교차를 사용하면 활동에서 다른 인바운드 모집단에 공통되는 요소만 유지할 수 있습니다. 가입할 설정 섹션에서 가입하고자 하는 이전 활동을 모두 선택합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_exclusion_merging_options"
+>title="제외 병합 옵션"
+>abstract="제외를 사용하면 특정 기준에 따라 한 모집단에서 요소를 제외할 수 있습니다. 가입할 설정 섹션에서 가입하고자 하는 이전 활동을 모두 선택합니다."
+
 다음 일반적인 단계에 따라 구성을 시작하십시오. **결합** 활동:
 
 1. 다음과 같은 여러 활동 추가 **대상자 작성** 활동은 두 개 이상의 서로 다른 실행 분기를 형성합니다.
@@ -34,6 +44,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 1. 다음에서 **가입하도록 설정** 섹션에서 가입하고자 하는 이전 활동을 모두 확인합니다.
 
 ## 결합 {#union}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_reconciliation_options"
+>title="교차 조정 옵션"
+>abstract="조정 유형을 선택하여 중복 처리 방법을 정의합니다."
 
 의 경우 **합집합**, 다음을 선택해야 합니다. **조정 유형** 중복 처리 방법을 정의하려면 다음을 수행합니다.
 
@@ -48,6 +63,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 1. 다음을 확인할 수 있습니다. **완료 생성** 나머지 모집단을 처리하려면 옵션을 선택합니다. 보충 자료에는 교차를 제외한 모든 인바운드 활동의 결과의 합집합도 포함됩니다. 그러면 추가 아웃바운드 전환이 활동에 추가됩니다.
 
 ## 예외 {#exclusion}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_exclusion_options"
+>title="제외 규칙"
+>abstract="필요한 경우 인바운드 테이블을 조작할 수 있습니다. 실제로 다른 차원에서 대상을 제외하려면 이 대상을 기본 대상과 동일한 타겟팅 차원으로 반환해야 합니다. 이렇게 하려면 제외 규칙 섹션에서 규칙 추가 를 클릭하고 차원 변경 조건을 지정합니다. 데이터 조정은 속성 또는 조인을 통해 수행됩니다."
 
 의 경우 **제외**, 다음과 같은 추가 단계를 수행해야 합니다.
 

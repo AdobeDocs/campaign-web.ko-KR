@@ -4,7 +4,7 @@ title: Adobe Campaign Web을 사용하여 캠페인 만들기
 description: Adobe Campaign Web을 사용하여 크로스 채널 캠페인을 구축하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 9ccc69844c813f5c8828fade442c766e9331bfbb
+source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 34%
@@ -40,7 +40,7 @@ ht-degree: 34%
 
 1. Click **Create**.
 1. 워크플로우나 독립 실행형 게재를 캠페인에 추가합니다.
-   * 다음에서 **워크플로우** 탭을 클릭하고 **워크플로우 만들기**. 캠페인을 만들 때 기본 워크플로가 자동으로 추가됩니다. 방법에 대한 자세한 내용 [워크플로우 만들기](../workflows/create-workflow.md)
+   * 다음에서 **워크플로** 탭을 클릭하고 **워크플로우 만들기**. 캠페인을 만들 때 기본 워크플로우가 자동으로 추가됩니다. 방법에 대한 자세한 내용 [워크플로우 만들기](../workflows/create-workflow.md)
    * 다음에서 **게재** 탭을 클릭하고 **게재 만들기**. [자세히 알아보기](../msg/gs-messages.md)
 
 ## 추가 옵션 {#campaign-options}

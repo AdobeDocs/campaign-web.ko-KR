@@ -4,9 +4,9 @@ title: 캠페인 시작하기
 description: 크로스 채널 캠페인 시작 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 7324098ba401f471b988e2df33022f0f898833b4
+source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '513'
 ht-degree: 15%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 15%
 Adobe Campaign을 사용하여 크로스 채널 캠페인을 만듭니다. 마케팅 캠페인 오케스트레이션 기능을 사용하면 고객 데이터를 관리 및 중앙 집중화하고, 고객 커뮤니케이션 및 캠페인을 디자인하고, 다양한 채널에서 개인화된 경험을 만들 수 있습니다. 이 버전에서는 이메일, 푸시 및 SMS 채널을 사용할 수 있습니다.
 
 모든 플랫폼 및 화면 크기에 대해 개인화된 메시지를 게재하기 위해 대량 이메일 캠페인을 디자인하고 실행합니다.
-열기, 클릭, 전달 횟수 등을 포함한 자세한 보고서를 사용하여 게재의 효과를 측정합니다. Adobe Campaign 세분화 기능을 사용하여 대량 데이터베이스에 대해 쿼리를 실행하고, 캠페인을 완벽하게 타겟팅하는 동적 마케팅 세그먼트를 쉽게 정의할 수 있습니다.
+열기, 클릭, 전달 수 등을 포함한 자세한 보고서를 사용하여 게재의 효과를 측정합니다. Adobe Campaign 세분화 기능을 사용하여 대량 데이터베이스에 대해 쿼리를 실행하고, 캠페인을 완벽하게 타겟팅하는 동적 마케팅 세그먼트를 쉽게 정의할 수 있습니다.
 
 <!--
 Get Started with campaigns
@@ -56,7 +56,7 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 
 다음 **캠페인 설정 구성** 아이콘을 사용하면 캠페인을 생성할 때 정의된 캠페인 속성을 수정할 수 있습니다. 이 [섹션](create-campaigns.md#create-campaigns)을 참조하십시오
 
-## 긴 모니터링 및 추적{#campaign-monitoring}
+## 모니터링 및 추적 로그{#campaign-monitoring}
 
 캠페인 모니터링은 캠페인을 분석하는 주요 단계입니다. 다음에서 액세스할 수 있습니다. **로그** 단추를 클릭합니다.
 

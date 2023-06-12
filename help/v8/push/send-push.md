@@ -3,10 +3,10 @@ audience: end-user
 title: 푸시 알림 게재 보내기
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 보내는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: 73af561b5609b0f538969d96173fc61751c4812a
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 22%
+source-wordcount: '275'
+ht-degree: 23%
 
 ---
 
@@ -50,4 +50,4 @@ ht-degree: 22%
 
 게재가 전송되면 게재 페이지에서 KPI(주요 성능 지표) 데이터를 추적하고 로그 메뉴에서 데이터를 추적할 수 있습니다.
 
-이제 기본 제공 보고서를 통해 메시지의 영향을 측정할 수 있습니다.
+이제 기본 제공 보고서를 통해 메시지의 영향을 측정할 수 있습니다. [자세히 알아보기](../reporting/push-report.md)

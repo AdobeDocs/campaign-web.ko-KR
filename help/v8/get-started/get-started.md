@@ -4,10 +4,10 @@ title: Campaign v8 Web 시작하기
 description: Campaign v8 Web 시작하기
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
+source-git-commit: 9a0aaf311ae964b12fd55a749cf82fa0024c0643
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 83%
+source-wordcount: '488'
+ht-degree: 72%
 
 ---
 
@@ -41,9 +41,12 @@ Campaign 클라이언트 콘솔은 시스템에 설치된 브라우저 기반 �
 
 [이 섹션](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html)에서 클라이언트 콘솔을 다운로드하고 설치하는 방법에 대해 알아보십시오{target="_blank"}.
 
-Campaign v8 사용 방법에 대한 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html)를 참조하십시오{target="_blank"}.
+Campaign v8 사용 방법에 대한 자세한 내용은 다음을 참조하십시오. [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html){target="_blank"}.
 
 Campaign 데이터는 애플리케이션 서버에 저장됩니다. 클라이언트 콘솔과 웹 UI 모두에서 데이터를 사용할 수 있습니다. 예를 들어 클라이언트 콘솔을 사용하여 게재 템플릿을 만들면 이를 웹 UI에서도 사용할 수 있습니다. 또한 웹 UI에서 이메일 게재를 생성하는 경우 클라이언트 콘솔에서도 이 게재에 액세스할 수 있습니다.
+
+
+일부 개체는 클라이언트 콘솔에서만 만들고 관리할 수 있습니다. Campaign 웹 UI에서 보고 사용할 수 있지만, 이 환경에서 만들거나 수정할 수 없습니다. 모든 캠페인 개체 및 구성 요소는 탐색기 보기에서 사용할 수 있으며 왼쪽 탐색에서 사용할 수 있습니다.
 
 ## Campaign에 연결
 

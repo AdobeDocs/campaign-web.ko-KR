@@ -4,10 +4,10 @@ title: 테스트 이메일 전송
 description: 테스트 이메일 정의 및 전송 방법 알아보기
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: c6ebdf23c22cb197a816684108c782aa2180dc1e
+source-git-commit: 6671d4c18da5655d67b9fd30c05fd2e9052d000b
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 41%
+source-wordcount: '563'
+ht-degree: 40%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 41%
 
 두 가지 유형의 수신자에게 테스트 이메일을 전송할 수 있습니다.
 
-* **테스트 프로필** - 데이터베이스에서 추가적인 가상 수신자인 시드 주소로 테스트 이메일을 보냅니다. 에서 만들 수 있습니다. [!DNL Campaign] 콘솔을 **[!UICONTROL 리소스]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 시드 주소]** 폴더를 삭제합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/creating-seed-addresses.html){target="_blank"}
+* **테스트 프로필** - 데이터베이스에서 추가적인 가상 수신자인 시드 주소로 테스트 이메일을 보냅니다. 에서 만들 수 있습니다. [!DNL Campaign] 콘솔을 **[!UICONTROL 리소스]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 시드 주소]** 폴더를 삭제합니다. 다음에서 자세히 알아보기 [Campaign v8(콘솔) 설명서](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
 * **주 대상에서 대체** - 기존 프로필을 가장하는 동안 테스트 이메일을 특정 이메일 주소로 보냅니다. 이렇게 하면 수신자와 같은 이메일을 경험할 수 있으므로 프로필이 받을 메시지를 정확하게 파악할 수 있습니다.
 

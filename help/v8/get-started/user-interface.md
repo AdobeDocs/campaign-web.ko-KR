@@ -4,9 +4,9 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 1d4ee5a10eb1a739bb11f45e8ca1232f740ecfa2
+source-git-commit: fe1afdc3995d09058bcffe85a54af6ccfea93bb8
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1769'
 ht-degree: 66%
 
 ---
@@ -186,8 +186,7 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 속성 목록 및 필터 구성 화면에는 기본적으로 가장 일반적인 속성만 표시됩니다.
 
-사용 **고급 속성 표시** 목록 아래에서 전환하여 현재 목록에 사용 가능한 모든 속성을 확인합니다.
-
+사용 **고급 속성 표시** 현재 목록에 사용 가능한 모든 속성을 보려면 전환하십시오.
 
 ## 상황별 도움말 {#contextual-help}
 

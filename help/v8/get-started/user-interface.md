@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 3d1d52fd91ed22c4e024bed0f5ae2f9a71e7d7f0
+source-git-commit: 1d4ee5a10eb1a739bb11f45e8ca1232f740ecfa2
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 83%
+source-wordcount: '1772'
+ht-degree: 66%
 
 ---
 
@@ -129,29 +129,75 @@ Campaign Management 섹션에서 마케팅 캠페인, 게재 및 워크플로우
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## 목록 화면 구성 {#list-screens}
+## 목록 검색 및 필터링 {#list-screens}
 
-왼쪽 탐색 메뉴의 여러 링크(예: **게재** 또는 **캠페인**)에는 오브젝트 목록이 표시됩니다. 이메일 게재 목록을 제외하고 이러한 목록 화면은 읽기 전용입니다.
+왼쪽 탐색 메뉴의 링크 대부분은 다음과 같은 객체 목록을 표시합니다. **게재** 또는 **캠페인**. 이러한 목록 화면 중 일부는 읽기 전용입니다. 목록 표시를 사용자 지정하고 아래에 자세히 설명된 대로 이러한 목록을 필터링할 수 있습니다.
 
-검색 창을 사용하거나 상황별 기준에 따라 목록을 필터링하여 항목을 더 빨리 찾을 수 있습니다.
+필터를 제거하려면 **모두 지우기** 단추를 클릭합니다.
 
-![](assets/filter.png){width="70%" align="left"}
+### 목록 화면 사용자 지정 {#custom-lists}
 
-목록은 열에 표시됩니다. 열 구성을 변경하여 추가 정보를 표시할 수 있습니다. 이렇게 하려면 목록의 오른쪽 상단에 있는 아이콘을 클릭합니다. 열을 추가 또는 제거하고 열이 표시되는 순서를 변경할 수 있습니다.
+목록은 열에 표시됩니다. 열 구성을 변경하여 추가 정보를 표시할 수 있습니다. 이렇게 하려면 **사용자 지정 레이아웃에 대한 열 구성** 목록 오른쪽 위 모서리에 있는 아이콘.
+
+![](assets/config-columns.png){width="70%" align="left"}
+
+다음에서 **열 구성** 열을 표시하거나 추가하거나 제거하고 표시되는 순서를 변경합니다.
+
+예를 들어, 다음 설정의 경우:
 
 ![](assets/columns.png){width="70%" align="left"}
 
-열 머리글을 클릭하여 목록의 항목을 정렬할 수 있습니다. 목록이 해당 열에 정렬되어 있음을 나타내는 화살표(위 또는 아래)가 표시됩니다. 숫자 또는 일자 열의 경우 위쪽 화살표는 목록이 오름차순으로 정렬됨을 나타내고 아래쪽 화살표는 내림차순으로 정렬됨을 나타냅니다. 문자열 또는 영숫자 열의 경우 값이 알파벳순으로 나열됩니다.
+이 목록에는 다음 열이 표시됩니다.
 
-## 상황별 도움말 및 온보딩 안내서 {#contextual-help}
+![](assets/column-sample.png){width="70%" align="left"}
 
-인터페이스에서 상황별 도움말을 사용할 수 있습니다. 사용 가능한 경우 **?** 아이콘을 클릭하면 도움말 정보 및 관련 설명서 링크가 표시됩니다.
+사용 **고급 속성 표시** 현재 목록의 속성을 모두 보려면 전환하십시오. [자세히 알아보기](#adv-attributes)
+
+### 데이터 정렬 {#sort-lists}
+
+열 머리글을 클릭하여 목록의 항목을 정렬할 수도 있습니다. 목록이 해당 열에 정렬되어 있음을 나타내는 화살표(위 또는 아래)가 표시됩니다.
+
+숫자 또는 날짜 열의 경우 **위로** 화살표는 목록이 오름차순으로 정렬되고 **아래로** 화살표는 내림차순을 나타냅니다. 문자열 또는 영숫자 열의 경우 값이 알파벳순으로 나열됩니다.
+
+### 기본 제공 필터 {#list-built-in-filters}
+
+항목을 더 빨리 찾으려면 검색 창을 사용하거나 상황별 기준에 따라 목록을 필터링할 수 있습니다.
+
+![](assets/filter.png){width="70%" align="left"}
+
+예를 들어 상태, 채널, 연락 날짜 또는 폴더에 대해 게재를 필터링할 수 있습니다. 테스트를 숨길 수도 있습니다.
+
+### 맞춤형 필터{#list-custom-filters}
+
+데이터에 대한 사용자 정의 필터를 만들려면 필터 하단으로 이동하여 **규칙 추가** 단추를 클릭합니다.
+
+속성을 드래그 앤 드롭하여 **고급 필터** 화면.
+
+![](assets/custom-filter.png){width="70%" align="left"}
+
+사용 **고급 속성 표시** 현재 목록의 속성을 모두 보려면 전환하십시오. [자세히 알아보기](#adv-attributes)
+
+### 고급 속성 사용 {#adv-attributes}
+
+>[!CONTEXTUALHELP]
+>id="acw_attributepicker_advancedfields"
+>title="고급 속성 표시"
+>abstract="대부분의 일반적인 속성만 기본적으로 속성 목록에 표시됩니다. 이 토글을 사용하여 고급 속성으로 필터를 빌드합니다."
+
+속성 목록 및 필터 구성 화면에는 기본적으로 가장 일반적인 속성만 표시됩니다.
+
+사용 **고급 속성 표시** 목록 아래에서 전환하여 현재 목록에 사용 가능한 모든 속성을 확인합니다.
+
+
+## 상황별 도움말 {#contextual-help}
+
+인터페이스에서 상황별 도움말을 사용할 수 있습니다. 사용 가능한 경우 `?` 도움말 정보 및 관련 설명서 링크를 표시하는 아이콘.
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-Campaign v8 Web을 시작하는 데 도움이 되는 온보딩 안내서도 사용할 수 있습니다. 오른쪽 하단에 있는 아이콘을 클릭하고 사용 가능한 단계별 시나리오 중 하나를 선택한 다음 지침을 따르기만 하면 됩니다.
+<!--An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
 
-![](assets/onboarding.png){width="70%" align="left"}
+![](assets/onboarding.png){width="70%" align="left"}-->
 
 ## 지원되는 브라우저 {#browsers}
 
@@ -187,17 +233,8 @@ Campaign v8 Web은 현재 다음 언어로 제공됩니다.
 언어를 변경하려면 다음 작업을 수행하십시오.
 
 1. 오른쪽 상단의 프로필 아이콘을 클릭한 다음 **환경 설정**&#x200B;을 선택합니다.
-
-   ![](assets/preferences.png){width="70%" align="left"}
-
-1. 그런 다음 이메일 주소 아래에 표시되는 언어를 클릭합니다.
-
-   ![](assets/preferences2.png)
-
+1. 그런 다음 이메일 주소 아래에 표시된 언어 링크를 클릭합니다.
 1. 원하는 언어를 선택하고 **저장**&#x200B;을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되어 있지 않은 경우 두 번째 언어를 선택할 수 있습니다.
-
-   ![](assets/select-language.png)
-
 
 
 <!--
@@ -208,6 +245,11 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="규칙 빌더 고급 필드"
+>abstract="고급 필드에서 열을 구성합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -300,15 +342,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="권한 필요"
 >abstract="세그먼트를 만들려면 먼저 관리자가 권한을 부여해야 합니다."
 
->[!CONTEXTUALHELP]
->id="acw_attributepicker_advancedfields"
->title="속성 선택기 고급 필드"
->abstract="고급 필드에서 열을 구성합니다."
 
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_advancedfields"
->title="규칙 빌더 고급 필드"
->abstract="고급 필드에서 열을 구성합니다."
+
 
 
 

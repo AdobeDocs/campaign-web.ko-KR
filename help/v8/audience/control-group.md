@@ -4,10 +4,10 @@ title: 컨트롤 그룹 설정
 description: Campaign Web UI에서 메시지에 대한 컨트롤 그룹을 설정하는 방법 알아보기
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
+source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 46%
+source-wordcount: '759'
+ht-degree: 40%
 
 ---
 
@@ -81,11 +81,11 @@ ht-degree: 46%
 
 * 게재 대시보드에서 보내기 전에 **제외하려면** KPI.
 
-   ![](assets/control-group5.png)
+  ![](assets/control-group5.png)
 
 * 게재 로그의 로그 탭에 제외 단계가 표시됩니다.
 
-   ![](assets/control-group-sample-logs.png)
+  ![](assets/control-group-sample-logs.png)
 <!--
 
  * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
@@ -95,7 +95,7 @@ ht-degree: 46%
 
 * 다음 **제외 원인** 탭에는 각 유형화 규칙에 대해 제외된 프로필 수가 표시됩니다.
 
-   ![](assets/control-group7.png)
+  ![](assets/control-group7.png)
 
 게재 로그에 대한 자세한 내용은 이 [섹션](../monitor/delivery-logs.md)을 참조하십시오.
 
@@ -104,19 +104,19 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="추가 모집단"
->abstract="기존 대상자를 선택하거나 쿼리를 정의하여 대상에서 특정 모집단을 제외할 수 있습니다."
+>abstract="기존 대상자를 선택하거나 쿼리를 정의하여 게재 대상자에서 특정 모집단을 제외할 수 있습니다."
 
-컨트롤 그룹을 정의하는 또 다른 방법은 기존 대상자를 사용하거나 쿼리를 정의하여 특정 모집단을 대상에서 제외하는 것입니다.
+컨트롤 그룹을 정의하는 또 다른 방법은 기존 대상에서 특정 모집단을 선택하거나 쿼리를 정의하는 것입니다.
 
 **컨트롤 그룹** 정의 화면의 **추가 모집단** 섹션에서 **[!UICONTROL 대상자 선택]** 버튼을 클릭합니다.
 
 ![](assets/control-group3.png)
 
-* 기존 대상자를 사용하려면 **대상자 선택**&#x200B;을 클릭합니다. 이 [섹션](add-audience.md)을 참조하십시오.
+* 기존 대상자를 사용하려면 **대상자 선택**&#x200B;을 클릭합니다. [이 섹션](add-audience.md)에서 자세히 알아보십시오.
 
-* 새 쿼리를 정의하려면 **직접 만들기**&#x200B;를 선택하고 규칙 빌더를 사용하여 제외 기준을 정의합니다. 이 [섹션](segment-builder.md)을 참조하십시오.
+* 새 쿼리를 정의하려면 **직접 만들기**&#x200B;를 선택하고 규칙 빌더를 사용하여 제외 기준을 정의합니다. [이 섹션](segment-builder.md)에서 자세히 알아보십시오.
 
-대상자에 포함되거나 쿼리 결과와 일치하는 프로필은 대상에서 제외됩니다.
+대상자에 포함되거나 쿼리 결과와 일치하는 프로필은 다음과 같습니다 **제외됨** 게재 대상에서: 메시지를 받지 않습니다.
 
 ## 결과 비교{#control-group-results}
 

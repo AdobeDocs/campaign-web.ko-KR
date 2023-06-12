@@ -4,10 +4,10 @@ description: Campaign Web v8 도움말 센터
 title: Adobe Campaign Web v8 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 100%
+source-wordcount: '125'
+ht-degree: 81%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/banner-documentationv8.png)
 
-Campaign은 이제 개선된 사용 가능성, 접근성 및 새로운 디자인을 갖춘 새로운 웹 사용자 인터페이스를 제공하여 사용자 경험을 크게 향상시킵니다. 이 새로운 최신 UI는 Adobe Experience Platform을 비롯한 다른 Adobe 솔루션과 함께 마케팅 캠페인 디자인 및 게재를 간소화하고 일관성을 제공합니다. [자세히 알아보기](get-started/get-started.md)
+이제 Campaign은 향상된 유용성, 접근성 및 새로운 디자인을 갖춘 새로운 웹 UI(사용자 인터페이스)를 제공하여 사용자 경험을 크게 향상시킵니다. 이 새로운 최신 UI는 Adobe Experience Platform을 비롯한 다른 Adobe 솔루션과 함께 마케팅 캠페인 디자인 및 게재를 간소화하고 일관성을 제공합니다. [자세히 알아보기](get-started/get-started.md)
 
 >현재 Campaign v8 Web은 Alpha 버전입니다. 소수의 Alpha 고객만 액세스할 수 있습니다. 제품 인터페이스, 기능 및 사용 흐름은 예고 없이 변경될 수 있습니다. [자세히 알아보기](rn/release-notes.md)
 

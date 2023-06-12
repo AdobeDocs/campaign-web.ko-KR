@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
+source-git-commit: 7a58b8323dbecc7cca0ba513d98a5afb213d3bc2
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 60%
+source-wordcount: '445'
+ht-degree: 59%
 
 ---
 
@@ -55,4 +55,5 @@ Adobe Campaign은 사전 구성된 콘텐츠 블록 목록을 제공합니다. �
 
 >[!NOTE]
 >
->게재 개인화를 최적화할 수 있는 Adobe Campaign V8 콘솔에서 새 블록을 정의할 수 있습니다. [콘솔 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html?lang=ko)
+>게재 개인화를 최적화할 수 있도록 Adobe Campaign v8 콘솔에서 새 블록을 정의할 수 있습니다. 다음에서 자세히 알아보기 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}.
+

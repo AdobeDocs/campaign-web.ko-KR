@@ -4,10 +4,10 @@ title: 이메일 콘텐츠 미리보기
 description: Campaign Web UI를 사용하여 이메일 콘텐츠를 미리 보는 방법 알아보기
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: a06158b5aea52c074340ba9819dd67af4f148196
+source-git-commit: 7a58b8323dbecc7cca0ba513d98a5afb213d3bc2
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 29%
+source-wordcount: '313'
+ht-degree: 28%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 29%
 
    * **[!UICONTROL 테스트 프로필]** 탭에는 모든 시드 주소가 나열됩니다. 시드 주소는 데이터베이스의 추가 및 가상 수신자입니다.
 
-      >[!NOTE]
-      >
-      >테스트 프로필은 [!DNL Campaign] 콘솔을 **[!UICONTROL 리소스]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 시드 주소]** 폴더를 삭제합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/creating-seed-addresses.html){target="_blank"}
+     >[!NOTE]
+     >
+     >테스트 프로필은 [!DNL Campaign] 콘솔을 **[!UICONTROL 리소스]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 시드 주소]** 폴더를 삭제합니다. 다음에서 자세히 알아보기 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/creating-seed-addresses.html){target="_blank"}
 
    * **[!UICONTROL 프로필]** 탭에는 콘솔의 **[!UICONTROL 프로필 및 대상]** 폴더에 저장된 모든 수신자가 나열됩니다. [!DNL Campaign] [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}
 

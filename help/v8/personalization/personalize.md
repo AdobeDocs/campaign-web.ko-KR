@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
+source-git-commit: bf5ff77b695a5a8584bad7784597bf1521bcb23e
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 6%
+source-wordcount: '433'
+ht-degree: 5%
 
 ---
 
@@ -21,9 +21,11 @@ ht-degree: 6%
 
 ## 개인화 구문 {#syntax}
 
-개인화 태그는 특정 구문을 따릅니다. `<%=table.field%>`. 예를 들어 수신자 테이블에서 수신자의 성을 삽입하려면 `<%= recipient.lastName %>` 구문.
+개인화 태그는 특정 구문을 따릅니다. `<%= table.field %>`. 예를 들어 수신자 테이블에서 수신자의 성을 삽입하려면 `<%= recipient.lastName %>` 구문.
 
 게재 준비 프로세스 중에 Adobe Campaign은 이러한 태그를 자동으로 해석하고 각 수신자에 대한 해당 필드 값으로 대체합니다. 콘텐츠를 시뮬레이션하여 실제 교체를 볼 수 있습니다.
+
+독립 실행형 이메일 전달을 위해 외부 파일에서 연락처를 업로드할 때 입력 파일의 모든 필드를 개인화할 수 있습니다. 구문은 다음과 같습니다. `<%= dataSource.field %>`.
 
 ## 개인화 태그 추가 {#add}
 
@@ -40,7 +42,7 @@ ht-degree: 6%
    | 메뉴 | 설명 |
    |-----|------------|
    | ![](assets/do-not-localize/perso-subscribers-menu.png) | 다음 **[!UICONTROL 구독자 애플리케이션]** 메뉴에는 사용 단말 또는 운영 체제와 같은 애플리케이션의 가입자와 관련된 필드가 나열됩니다. *이 메뉴는 푸시 알림에만 사용할 수 있습니다.* |
-   | ![](assets/do-not-localize/perso-recipients-menu.png) | 다음 **[!UICONTROL 수신자]** 메뉴에는 수신자의 이름, 나이 또는 주소와 같이 수신자 표에 정의된 필드가 나열됩니다. |
+   | ![](assets/do-not-localize/perso-recipients-menu.png) | 다음 **[!UICONTROL 수신자]** 메뉴에는 수신자의 이름, 나이 또는 주소와 같이 수신자 표에 정의된 필드가 나열됩니다. 날짜 [외부 파일에서 연락처 업로드](../audience/file-audience.md) 독립 실행형 이메일 게재의 경우 이 메뉴에는 입력 파일에서 사용할 수 있는 모든 필드가 나열됩니다. |
    | ![](assets/do-not-localize/perso-message-menu.png) | 다음 **[!UICONTROL 메시지]** 메뉴에는 지정된 수신자가 있는 마지막 이벤트의 날짜 등 모든 채널에서 수신자 또는 장치에 전송된 모든 메시지를 포함하여 게재 로그와 관련된 필드가 나열됩니다 |
    | ![](assets/do-not-localize/perso-delivery-menu.png) | 다음 **[!UICONTROL 게재]** 메뉴에는 게재 채널 또는 레이블과 같은 게재 수행에 필요한 매개 변수와 관련된 필드가 나열됩니다. |
 

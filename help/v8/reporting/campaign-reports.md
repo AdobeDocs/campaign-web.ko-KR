@@ -3,7 +3,7 @@ audience: end-user
 title: 캠페인 보고서
 description: 캠페인 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 00f937e189494c6bcf023c49254bfd8ddc5bfa51
+source-git-commit: 00f6c8622fbeb740a354d612e866f603139dfee0
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 5%
@@ -79,8 +79,11 @@ ht-degree: 5%
    * **[!UICONTROL 발송]**: 이메일을 전달한 수신자 수를 클릭한 수입니다.
 
   ![](assets/campaign_report_email_4.png)
++++
 
 * **[!UICONTROL 생성된 클릭스트림]**
+
+  ![](assets/campaign_report_email_5.png)
 
   +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -91,8 +94,6 @@ ht-degree: 5%
    * **[!UICONTROL 반응성]**: 게재를 연 예상 대상 수신자 수와 관련하여 게재에서 클릭한 대상 수신자 수의 비율입니다.
 
 +++
-
-  ![](assets/campaign_report_email_5.png)
 
 ### 비게재 항목 {#non-deliverables-email}
 

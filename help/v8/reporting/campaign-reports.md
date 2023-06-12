@@ -3,10 +3,10 @@ audience: end-user
 title: 캠페인 보고서
 description: 캠페인 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 00f6c8622fbeb740a354d612e866f603139dfee0
+source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 5%
+source-wordcount: '1520'
+ht-degree: 1%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 5%
 ### 게재 요약 {#delivery-summary-email}
 
 * **[!UICONTROL 게재 개요]** 은 방문자의 이메일 게재 참여도에 대한 자세한 정보를 제공하는 주요 성과 지표(KPI)를 제공합니다.
+
+  ![](assets/campaign_report_email_1.png)
 
   +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -32,9 +34,9 @@ ht-degree: 5%
 
 +++
 
-  ![](assets/campaign_report_email_1.png)
+* **[!UICONTROL 초기 타겟 대상 통계]** 테이블에는 수신자와 관련된 데이터가 표시됩니다.
 
-* **[!UICONTROL 초기 타겟 대상자 통계]**
+  ![](assets/campaign_report_email_2.png)
 
   +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -46,9 +48,9 @@ ht-degree: 5%
 
 +++
 
-  ![](assets/campaign_report_email_2.png)
+* **[!UICONTROL 실행 통계]** 게재의 성공 여부를 표로 자세히 설명합니다.
 
-* **[!UICONTROL 실행 통계]**
+  ![](assets/campaign_report_email_3.png)
 
   +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -62,9 +64,9 @@ ht-degree: 5%
 
 +++
 
-  ![](assets/campaign_report_email_3.png)
+* **[!UICONTROL 반응 통계]** 표에는 게재를 위한 수신자 활동에 사용 가능한 데이터가 포함되어 있습니다.
 
-* **[!UICONTROL 반응 통계]**
+  ![](assets/campaign_report_email_4.png)
 
   +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -77,11 +79,9 @@ ht-degree: 5%
    * **[!UICONTROL 미러 페이지]**: 미러 페이지 링크를 클릭한 수신자 수입니다.
 
    * **[!UICONTROL 발송]**: 이메일을 전달한 수신자 수를 클릭한 수입니다.
-
-  ![](assets/campaign_report_email_4.png)
 +++
 
-* **[!UICONTROL 생성된 클릭스트림]**
+* **[!UICONTROL 생성된 클릭 스트림]** 테이블에는 수신자와 게재의 상호 작용 방식에 따른 데이터가 표시됩니다.
 
   ![](assets/campaign_report_email_5.png)
 
@@ -97,7 +97,9 @@ ht-degree: 5%
 
 ### 비게재 항목 {#non-deliverables-email}
 
-* **[!UICONTROL 유형별 오류 분류]** 및 **[!UICONTROL 브라우저당 오류 분류]**
+* **[!UICONTROL 유형별 오류 분류]** 및 **[!UICONTROL 도메인별 오류 분류]** 표 및 그래프에는 각 도메인에서 발생할 수 있는 오류에 대해 사용 가능한 데이터가 포함되어 있습니다.
+
+  ![](assets/campaign_report_email_6.png)
 
   +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -109,11 +111,11 @@ ht-degree: 5%
 
 +++
 
-  ![](assets/campaign_report_email_6.png)
-
 ### 지표 추적 {#tracking-indicators-email}
 
-* **[!UICONTROL 게재 통계]**
+* **[!UICONTROL 게재 통계]** 에서는 보낸 이메일에 사용할 수 있는 데이터에 대한 자세한 정보를 제공하는 주요 성능 지표(KPI)를 제공합니다.
+
+  ![](assets/campaign_report_email_7.png)
 
   +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -130,9 +132,9 @@ ht-degree: 5%
    * **[!UICONTROL 발송 예측]**: 타겟팅된 수신자가 전달한 이메일 수 예상.
 +++
 
-  ![](assets/campaign_report_email_7.png)
+* **[!UICONTROL 초기 타겟 대상 통계]** 테이블에는 수신자와 관련된 데이터가 표시됩니다.
 
-* **[!UICONTROL 열람 및 클릭스루 비율]**
+  ![](assets/campaign_report_email_8.png)
 
   +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -147,11 +149,11 @@ ht-degree: 5%
    * **[!UICONTROL 원시 재활동]**: 게재를 한 번 이상 클릭한 수신자 수와 게재를 한 번 이상 연 수신자 수의 비율입니다.
 +++
 
-  ![](assets/campaign_report_email_8.png)
-
 ### URL 및 클릭 스트림 {#url-email}
 
-* **[!UICONTROL URL 및 클릭 스트림]**
+* **[!UICONTROL URL 및 클릭 스트림]** 게재 중 가장 많이 클릭한 URL에 대한 세부 정보를 제공하는 주요 성능 지표(KPI)를 제공합니다.
+
+  ![](assets/campaign_report_email_9.png)
 
   +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -163,9 +165,9 @@ ht-degree: 5%
 
 +++
 
-  ![](assets/campaign_report_email_9.png)
+* **[!UICONTROL 가장 많이 방문한 상위 10개 링크]** 그래프와 표에는 링크당 수신자 동작에 사용할 수 있는 데이터가 포함되어 있습니다.
 
-* **[!UICONTROL 가장 많이 방문한 상위 링크 10개]**
+  ![](assets/campaign_report_email_10.png)
 
   +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -175,23 +177,23 @@ ht-degree: 5%
 
 +++
 
-  ![](assets/campaign_report_email_10.png)
-
-* **[!UICONTROL 시간 경과에 따른 클릭 수 분류]**, 클릭 수
+* **[!UICONTROL 시간 경과에 따른 클릭 수 분류]** 그래프에는 링크당 수신자 동작에 사용할 수 있는 데이터가 포함되어 있습니다.
 
   ![](assets/campaign_report_email_11.png)
 
 ### 사용자 활동 {#user-activities-email}
 
-* **[!UICONTROL 사용자 활동]**
+* **[!UICONTROL 사용자 활동]** 차트 형식으로 열기 및 클릭 수를 보여줍니다.
+
+  ![](assets/campaign_report_email_12.png)
+
+  +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
    * **[!UICONTROL 클릭수]**: 게재의 총 링크 클릭 수입니다.
 
    * **[!UICONTROL 열림]**: 이 도메인에 대해 최소 한 번 이상 메시지를 연 고유한 타겟팅된 수신자 수입니다.
 
 +++
-
-  ![](assets/campaign_report_email_12.png)
 
 ## SMS 채널 {#sms-channel}
 
@@ -211,7 +213,7 @@ ht-degree: 5%
 
 +++
 
-* **[!UICONTROL 초기 타겟 대상자 통계]**
+* **[!UICONTROL 초기 타겟 대상 통계]** 테이블에는 수신자와 관련된 데이터가 표시됩니다.
 
   +++SMS 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -223,7 +225,7 @@ ht-degree: 5%
 
 +++
 
-* **[!UICONTROL 실행 통계]**
+* **[!UICONTROL 실행 통계]** 게재의 성공 여부를 보여 주는 표는 다음과 같습니다.
 
   +++SMS 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -237,7 +239,7 @@ ht-degree: 5%
 
 +++
 
-* **[!UICONTROL 생성된 클릭스트림]**
+* **[!UICONTROL 생성된 클릭 스트림]** 테이블에는 수신자와 게재의 상호 작용 방식에 따른 데이터가 표시됩니다.
 
   +++SMS 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -267,7 +269,7 @@ ht-degree: 5%
 
 +++
 
-* **[!UICONTROL 초기 타겟 대상자 통계]**
+* **[!UICONTROL 초기 타겟 대상 통계]** 테이블에는 수신자와 관련된 데이터가 표시됩니다.
 
   +++푸시 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -279,7 +281,7 @@ ht-degree: 5%
 
 +++
 
-* **[!UICONTROL 실행 통계]**
+* **[!UICONTROL 실행 통계]** 게재의 성공 여부를 보여 주는 표는 다음과 같습니다.
 
   +++푸시 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -293,7 +295,7 @@ ht-degree: 5%
 
 +++
 
-* **[!UICONTROL 생성된 클릭스트림]**
+* **[!UICONTROL 생성된 클릭 스트림]** 테이블에는 수신자와 게재의 상호 작용 방식에 따른 데이터가 표시됩니다.
 
   +++푸시 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 

@@ -4,7 +4,7 @@ description: Campaign Web v8 도움말 센터
 title: Adobe Campaign Web v8 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 45f56870bc823b4f620063cd1a64d69e91c4e0a8
+source-git-commit: 1db4a082e215ef2d0de4f0c8bc527d24e47268f7
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 30%
@@ -68,19 +68,19 @@ ht-degree: 30%
 -->
 
 <table style="table-layout:fixed">
-<tr style="border: 0;"><td><a href="get-started/user-interface.md">
+<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
 <img alt="새로운 UI" src="assets/do-not-localize/menu-ui.jpeg" width="150px">
 </a></td><td>Campaign 웹의 새로운 사용자 인터페이스, 최신 개선 사항, 주요 기능을 살펴보십시오. 이를 사용하여 대상자를 위한 크로스 채널 캠페인을 구축하는 방법에 대해 알아봅니다. Campaign은 사용자 친화적인 기능을 통해 개인화된 크로스 채널 캠페인 생성 프로세스를 간소화하고 결과를 도출하여 경쟁 우위를 확보할 수 있습니다.</td></tr>
-<tr style="border: 0;"><td><a href="get-started/user-interface.md">
+<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
 <img alt="새로운 UI" src="assets/do-not-localize/menu-workflows.jpeg" width="150px">
 </a></td><td>포괄적인 그래픽 캔버스를 통해 세그멘테이션, 캠페인 실행 등과 같은 프로세스를 손쉽게 디자인할 수 있습니다. 이 고급 도구를 사용하면 워크플로우를 간소화하고 캠페인을 향상시킬 수 있습니다.</td></tr>
-<tr style="border: 0;"><td><a href="get-started/user-interface.md">
+<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
 <img alt="새로운 UI" src="assets/do-not-localize/menu-design.jpg" width="150px">
 </a></td><td>템플릿에서 시작하거나 Adobe Campaign의 새 이메일 디자이너를 사용하여 코드 한 줄을 작성하지 않고도 이메일을 만들 수 있습니다. 이메일 디자이너를 사용하여 콘텐츠를 만들고, 미리 보고, 테스트하고, 엔드 투 엔드 사용 사례에서 기존 대상자에게 이메일을 보내는 방법에 대해 알아봅니다.</td></tr>
-<tr style="border: 0;"><td><a href="get-started/user-interface.md">
+<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
 <img alt="새로운 UI" src="assets/do-not-localize/menu-dynamic.jpg" width="150px">
 </a></td><td>조건부 콘텐츠를 만들어 수신자의 프로필을 기반으로 동적 개인화를 정의하고 특정 조건이 충족되면 텍스트 블록 및 이미지를 자동으로 대체합니다. 이 기능은 캠페인을 새로운 수준으로 전환하고 대상자에게 고도로 타기팅되고 개인화된 경험을 제공할 수 있습니다</td></tr>
-<tr style="border: 0;"><td><a href="get-started/user-interface.md">
+<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
 <img alt="새로운 UI" src="assets/do-not-localize/menu-campaign.jpeg" width="150px">
 </a></td><td>Adobe Campaign 기능을 사용하면 중앙 집중식 고객 데이터를 관리하고, 고객 커뮤니케이션 및 캠페인을 디자인하며, 이메일, 푸시 및 SMS와 같은 다양한 채널에서 개인화된 경험을 만들 수 있습니다.</td></tr>
 </table>

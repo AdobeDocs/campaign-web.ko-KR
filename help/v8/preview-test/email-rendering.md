@@ -3,11 +3,11 @@ audience: end-user
 title: 이메일 렌더링 테스트
 description: Campaign Web UI에서 이메일 렌더링을 테스트하는 방법 알아보기
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 6bd112c3ceb283435809379403c91ac9c8ed2756
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 9%
+source-wordcount: '227'
+ht-degree: 7%
 
 ---
 

@@ -2,11 +2,11 @@
 audience: end-user
 title: Campaign v8 Web에서 메시지 및 게재 시작하기
 description: Campaign Web으로 게재 작업을 수행하고 메시지를 전송하는 방법 알아보기
-badge: 레이블=“Alpha” 유형=“Positive”
+badge: label="알파"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1070'
 ht-degree: 82%
 
 ---

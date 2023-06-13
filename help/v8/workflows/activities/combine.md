@@ -2,11 +2,11 @@
 audience: end-user
 title: 워크플로우 결합 활동 사용
 description: 워크플로우 결합 활동을 사용하는 방법 알아보기
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 1ac80ffaabea210bbc02588475ad6e81af4820b1
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 12%
+source-wordcount: '688'
+ht-degree: 11%
 
 ---
 

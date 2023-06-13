@@ -2,11 +2,11 @@
 audience: end-user
 title: 대상자 작성 워크플로우 활동 사용
 description: 대상자 작성 워크플로우 활동을 사용하는 방법 알아보기
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 11%
+source-wordcount: '312'
+ht-degree: 10%
 
 ---
 

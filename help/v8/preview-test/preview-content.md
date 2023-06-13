@@ -3,11 +3,11 @@ audience: end-user
 title: 이메일 콘텐츠 미리보기
 description: Campaign Web UI를 사용하여 이메일 콘텐츠를 미리 보는 방법 알아보기
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: acc6cdd89b78a26f7c2435e19fba148a71e4f18f
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 28%
+source-wordcount: '311'
+ht-degree: 27%
 
 ---
 

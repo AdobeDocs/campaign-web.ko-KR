@@ -3,11 +3,11 @@ audience: end-user
 title: 이메일 디자이너에서 수직 정렬 및 패딩 조정
 description: 수직 정렬 및 패딩 조정 방법 알아보기
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: ht
-source-wordcount: '169'
-ht-degree: 100%
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 98%
 
 ---
 

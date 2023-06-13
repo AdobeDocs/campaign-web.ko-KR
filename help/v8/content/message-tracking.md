@@ -3,11 +3,11 @@ audience: end-user
 title: 메시지 추적
 description: 링크를 추가하고 전송된 메시지를 추적하는 방법 알아보기
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
-workflow-type: ht
-source-wordcount: '369'
-ht-degree: 100%
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+workflow-type: tm+mt
+source-wordcount: '367'
+ht-degree: 99%
 
 ---
 

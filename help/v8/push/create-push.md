@@ -2,11 +2,11 @@
 audience: end-user
 title: 푸시 알림 게재 만들기
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 만드는 방법을 알아봅니다
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: b18fb70aa498e3592f88f698bb6b526c9fb1439b
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 68%
+source-wordcount: '315'
+ht-degree: 67%
 
 ---
 

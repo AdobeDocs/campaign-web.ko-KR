@@ -3,11 +3,11 @@ audience: end-user
 title: 이메일 미리보기 및 테스트 정보
 description: 이메일 미리보기 및 테스트 방법 알아보기
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 7bbc0ddec7792c270d47f6d3e8a39e75f74c1451
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 37%
+source-wordcount: '184'
+ht-degree: 35%
 
 ---
 

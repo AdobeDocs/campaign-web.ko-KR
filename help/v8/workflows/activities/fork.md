@@ -2,11 +2,11 @@
 audience: end-user
 title: 포크 워크플로우 활동 사용
 description: 포크 워크플로우 활동을 사용하는 방법 알아보기
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 1ac80ffaabea210bbc02588475ad6e81af4820b1
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 21%
+source-wordcount: '111'
+ht-degree: 18%
 
 ---
 

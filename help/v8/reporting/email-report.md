@@ -2,10 +2,10 @@
 audience: end-user
 title: 이메일 게재 보고서
 description: 이메일 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: a8bc3317bc97d429ab6c9abdf5f503a5123f591e
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1405'
 ht-degree: 7%
 
 ---

@@ -2,12 +2,12 @@
 audience: end-user
 title: 푸시 알림 시작하기
 description: Adobe Campaign Web을 사용하여 푸시 알림을 만들고 전송하는 방법 알아보기
-badge: 레이블=“Alpha” 유형=“Positive”
+badge: label="알파"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: acc6cdd89b78a26f7c2435e19fba148a71e4f18f
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 14%
+source-wordcount: '199'
+ht-degree: 12%
 
 ---
 

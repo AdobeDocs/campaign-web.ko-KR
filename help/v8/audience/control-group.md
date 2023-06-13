@@ -3,10 +3,10 @@ audience: end-user
 title: 컨트롤 그룹 설정
 description: Campaign Web UI에서 메시지에 대한 컨트롤 그룹을 설정하는 방법 알아보기
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '757'
 ht-degree: 40%
 
 ---

@@ -3,10 +3,10 @@ audience: end-user
 title: 첫 이메일 보내기
 description: Campaign Web UI를 사용하여 첫 이메일을 전송하는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1324'
 ht-degree: 86%
 
 ---

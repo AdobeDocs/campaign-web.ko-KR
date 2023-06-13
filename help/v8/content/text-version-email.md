@@ -3,11 +3,11 @@ audience: end-user
 title: 이메일의 텍스트 버전 만들기
 description: 이메일의 텍스트 버전을 만드는 방법
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 100%
+source-wordcount: '168'
+ht-degree: 98%
 
 ---
 
@@ -38,4 +38,3 @@ ht-degree: 100%
 >* **[!UICONTROL 일반 텍스트]** 보기에서 적용된 변경 내용은 HTML 보기에 반영되지 않습니다.
 >
 >* 일반 텍스트 콘텐츠를 업데이트한 다음 **[!UICONTROL HTML과 동기화]** 옵션을 다시 활성화하면 변경 내용이 손실되고 HTML 버전에서 생성된 텍스트 콘텐츠로 대체됩니다.
-

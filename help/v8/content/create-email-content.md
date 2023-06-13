@@ -3,10 +3,10 @@ audience: end-user
 title: 이메일 디자이너에서 이메일 디자인
 description: 이메일 콘텐츠를 처음부터 디자인하는 방법 알아보기
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 22fdc1713ed893504cba7ad93bb69c7b3f2db7fe
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '584'
 ht-degree: 60%
 
 ---

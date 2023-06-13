@@ -2,11 +2,11 @@
 audience: end-user
 title: 보고서 시작
 description: Campaign 웹에서 보고서에 액세스하고 관리하는 방법 알아보기
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 41faf6dbd843093552ac6b49db4a4d0585ab2a8a
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 8%
+source-wordcount: '173'
+ht-degree: 6%
 
 ---
 

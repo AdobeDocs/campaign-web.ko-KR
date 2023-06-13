@@ -3,10 +3,10 @@ audience: end-user
 title: 이메일 게재 설정
 description: Campaign Web UI의 이메일 게재 설정에 대해 자세히 알아보기
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1471'
 ht-degree: 95%
 
 ---

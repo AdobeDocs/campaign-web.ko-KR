@@ -3,11 +3,11 @@ audience: end-user
 title: 링크 스타일 정의
 description: 링크 스타일을 정의하는 방법 알아보기
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: ht
-source-wordcount: '143'
-ht-degree: 100%
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 98%
 
 ---
 

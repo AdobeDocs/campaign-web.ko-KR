@@ -3,10 +3,10 @@ audience: end-user
 title: 기존 대상자 선택
 description: 대상자 선택 방법 알아보기
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 958d3ca6ab7eb05a3201ed3344d4659a8756e3ef
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '275'
 ht-degree: 89%
 
 ---

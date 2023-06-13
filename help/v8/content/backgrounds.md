@@ -3,11 +3,11 @@ audience: end-user
 title: 이메일 배경 개인화
 description: 이메일 배경 개인화 방법 알아보기
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 100%
+source-wordcount: '302'
+ht-degree: 99%
 
 ---
 
@@ -28,34 +28,34 @@ ht-degree: 100%
 
 * 이메일 전체에 대한 **[!UICONTROL 배경색]**&#x200B;을 설정합니다. 왼쪽 창에서 액세스할 수 있는 탐색 트리에서 본문 설정을 선택했는지 확인하십시오.
 
-   ![](assets/background_1.png)
+  ![](assets/background_1.png)
 
 * 모든 구조 구성 요소에 대해 동일한 배경색을 설정하려면 **[!UICONTROL 뷰포트 배경색]**&#x200B;을 선택합니다. 이 옵션을 사용하면 배경색과 다른 설정을 선택할 수 있습니다.
 
-   ![](assets/background_2.png)
+  ![](assets/background_2.png)
 
 * 각 구조 구성 요소에 대해 서로 다른 배경색을 설정합니다. 해당 구조에만 특정 배경색을 적용하려면 왼쪽 창의 탐색 트리에서 구조를 선택합니다.
 
-   ![](assets/background_3.png)
+  ![](assets/background_3.png)
 
-   >[!NOTE]
-   >
-   >뷰포트 배경색은 구조 배경색을 숨길 수 있으므로 설정하지 않도록 합니다.
+  >[!NOTE]
+  >
+  >뷰포트 배경색은 구조 배경색을 숨길 수 있으므로 설정하지 않도록 합니다.
 
 * 구조 구성 요소의 콘텐츠에 대해 **[!UICONTROL 배경 이미지]**&#x200B;를 설정합니다.
 
-   ![](assets/background_4.png)
+  ![](assets/background_4.png)
 
-   >[!NOTE]
-   >
-   >일부 이메일 프로그램은 배경 이미지를 지원하지 않습니다. 지원되지 않는 경우 행 배경색이 대신 사용됩니다. 이미지를 표시할 수 없는 경우 적절한 대체 배경색을 선택해야 합니다.
+  >[!NOTE]
+  >
+  >일부 이메일 프로그램은 배경 이미지를 지원하지 않습니다. 지원되지 않는 경우 행 배경색이 대신 사용됩니다. 이미지를 표시할 수 없는 경우 적절한 대체 배경색을 선택해야 합니다.
 
 * 열 수준에서 배경색을 설정합니다.
 
-   ![](assets/background_5.png)
+  ![](assets/background_5.png)
 
-   >[!NOTE]
-   >
-   >이는 가장 일반적인 사용 사례입니다. Adobe는 열 수준에서 배경색을 설정할 것을 권장합니다. 이렇게 하면 전체 이메일 콘텐츠를 편집할 때 더 유연하게 작업할 수 있습니다.
+  >[!NOTE]
+  >
+  >이는 가장 일반적인 사용 사례입니다. Adobe는 열 수준에서 배경색을 설정할 것을 권장합니다. 이렇게 하면 전체 이메일 콘텐츠를 편집할 때 더 유연하게 작업할 수 있습니다.
 
-   배경 이미지도 열 수준에서 설정할 수 있지만 이러한 방법은 거의 사용되지 않습니다.
+  배경 이미지도 열 수준에서 설정할 수 있지만 이러한 방법은 거의 사용되지 않습니다.

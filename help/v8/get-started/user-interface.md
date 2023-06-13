@@ -3,11 +3,11 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: e7ca27215434be94d5db252afb9e4fe0b04f0139
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '1413'
-ht-degree: 79%
+source-wordcount: '1390'
+ht-degree: 78%
 
 ---
 
@@ -185,16 +185,6 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_advancedfields"
->title="규칙 빌더 고급 필드"
->abstract="고급 필드에서 열을 구성합니다."
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_properties_advanced"
->title="규칙 빌더 고급 속성"
->abstract="고급 속성을 사용하여 규칙을 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"

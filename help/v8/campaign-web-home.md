@@ -3,11 +3,11 @@ keywords: Campaign Web;홈;인기 있는 주제
 description: Campaign Web v8 도움말 센터
 title: Adobe Campaign Web v8 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 01759418cd193de0a83a7758ee6620a2ad74ff38
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 39%
+source-wordcount: '482'
+ht-degree: 38%
 
 ---
 

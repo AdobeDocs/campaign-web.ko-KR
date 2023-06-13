@@ -2,11 +2,11 @@
 audience: end-user
 title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 구축하는 방법 알아보기
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 3%
+source-wordcount: '516'
+ht-degree: 4%
 
 ---
 
@@ -52,4 +52,4 @@ ht-degree: 3%
 
 워크플로우를 완료했으면 en을 추가합니다 **[!UICONTROL 종료]** 활동이 다이어그램의 끝에 있습니다. 이 활동을 사용하면 워크플로우의 끝을 시각적으로 표시할 수 있으며 기능에는 영향을 주지 않습니다.
 
-워크플로우 다이어그램을 성공적으로 디자인한 후 워크플로우를 실행하고 다양한 작업의 진행 상황을 추적할 수 있습니다. [워크플로우 시작 및 실행 모니터링 방법 알아보기](start-monitor-workflows.md)
+워크플로우 다이어그램을 성공적으로 디자인한 후 워크플로우를 실행하고 다양한 작업의 진행 상황을 추적할 수 있습니다. [워크플로를 시작하고 실행을 모니터링하는 방법 알아보기](start-monitor-workflows.md)

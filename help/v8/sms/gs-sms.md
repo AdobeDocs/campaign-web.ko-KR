@@ -2,12 +2,12 @@
 audience: end-user
 title: SMS 게재 시작하기
 description: Adobe Campaign Web을 사용하여 SMS를 만들고 전송하는 방법 알아보기
-badge: 레이블=“Alpha” 유형=“Positive”
+badge: label="알파"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 45%
+source-wordcount: '157'
+ht-degree: 43%
 
 ---
 

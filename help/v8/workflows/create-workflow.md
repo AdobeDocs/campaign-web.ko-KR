@@ -2,12 +2,12 @@
 audience: end-user
 title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 구축하는 방법 알아보기
-badge: 레이블=“Alpha” 유형=“Positive”
+badge: label="알파"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: d9736ff5e6634b03d15e13ba1b0b9fdea7e779f4
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 12%
+source-wordcount: '286'
+ht-degree: 11%
 
 ---
 

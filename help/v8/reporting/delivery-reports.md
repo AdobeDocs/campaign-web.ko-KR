@@ -3,11 +3,11 @@ audience: end-user
 title: 게재 보고서
 description: 게재 보고서 액세스 및 사용 방법 알아보기
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 65%
+source-wordcount: '89'
+ht-degree: 62%
 
 ---
 

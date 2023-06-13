@@ -2,10 +2,10 @@
 audience: end-user
 title: 캠페인 보고서
 description: 캠페인 보고서에 액세스하고 사용하는 방법을 알아봅니다
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 1833f4eafced860592c8419938bc09fe0fe27351
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '1753'
+source-wordcount: '1751'
 ht-degree: 2%
 
 ---

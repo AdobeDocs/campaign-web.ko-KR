@@ -2,11 +2,11 @@
 audience: end-user
 title: 푸시 알림 워크플로우 활동 사용
 description: 푸시 알림 워크플로우 활동을 사용하는 방법 알아보기
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: c0e5902d3ee504aa5aa4e55f18416facfe4020b1
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '324'
+ht-degree: 4%
 
 ---
 

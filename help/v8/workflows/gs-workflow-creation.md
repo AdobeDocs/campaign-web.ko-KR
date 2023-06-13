@@ -2,12 +2,12 @@
 audience: end-user
 title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 구축하는 방법 알아보기
-badge: 레이블=“Alpha” 유형=“Positive”
+badge: label="알파"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 3b193cf7116859f31ce04ba89773ef388b7916c7
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 77%
+source-wordcount: '228'
+ht-degree: 76%
 
 ---
 
@@ -28,7 +28,7 @@ Campaign v8 Web을 통해 워크플로를 시각적 캔버스에 빌드하여 �
 
 * **활동**: 활동은 수행할 작업입니다. 다양한 활동이 다이어그램에 아이콘으로 표시됩니다. 각 활동에는 특정 속성과 모든 활동에 공통되는 다른 속성이 있습니다.
 
-   워크플로 다이어그램에서 지정된 활동은 특히 루프 또는 반복 작업이 있는 경우 여러 작업을 생성할 수 있습니다.
+  워크플로 다이어그램에서 지정된 활동은 특히 루프 또는 반복 작업이 있는 경우 여러 작업을 생성할 수 있습니다.
 
 * **전환**: 전환은 원본 활동을 대상 활동에 연결하고 해당 시퀀스를 정의합니다.
 

@@ -3,11 +3,11 @@ audience: end-user
 title: Campaign 규칙 빌더로 대상자 빌드
 description: 규칙 빌더로 작업하는 방법을 알아봅니다.
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 1d7c6b94a962e141fb929fa45369326972e5ac04
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 97%
+source-wordcount: '547'
+ht-degree: 96%
 
 ---
 
@@ -35,15 +35,15 @@ ht-degree: 97%
 
 * **속성**: 이 탭에서는 스키마에서 사용 가능한 모든 필드에 액세스할 수 있습니다. 필드 목록은 이메일 템플릿에 정의된 타겟팅 스키마에 따라 다릅니다.
 
-   ![](assets/segment-builder2.png){width="70%" align="left"}
+  ![](assets/segment-builder2.png){width="70%" align="left"}
 
 * **대상자**: 이 탭에서는 Campaign Classic 콘솔 또는 Adobe Experience Platform에서 정의된 기존 대상 중 하나를 사용하여 필터링할 수 있습니다.
 
-   ![](assets/segment-builder3.png){width="70%" align="left"}
+  ![](assets/segment-builder3.png){width="70%" align="left"}
 
-   >[!NOTE]
-   >
-   >Adobe Experience Platform 대상자를 활용하려면 대상과의 통합을 구성해야 합니다. [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html)를 참조하십시오{target="_blank"}.
+  >[!NOTE]
+  >
+  >Adobe Experience Platform 대상자를 활용하려면 대상과의 통합을 구성해야 합니다. [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html)를 참조하십시오{target="_blank"}.
 
 검색 창을 사용하면 요소를 빠르게 찾을 수 있습니다.
 

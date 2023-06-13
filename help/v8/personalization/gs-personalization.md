@@ -8,7 +8,7 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 323dc9ccb9d04d2d7085a26a17f6944e999b1dec
+source-git-commit: 234537017b1bd990be1540d28b8a618e242eaafc
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 9%
@@ -16,7 +16,7 @@ ht-degree: 9%
 ---
 
 
-# 다이내믹 콘텐츠 시작
+# 다이내믹 콘텐츠 시작 {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
@@ -27,7 +27,7 @@ ht-degree: 9%
 
 Adobe Campaign 웹 다이내믹 콘텐츠 기능을 사용하면 수신자에 대해 수집한 정보를 기반으로 콘텐츠를 사용자 지정할 수 있습니다. 다이내믹 콘텐츠를 활용함으로써 마케팅 노력이 더 연관성이 있는지 확인하고 원치 않거나 불필요한 제품 또는 서비스를 마케팅하는 것을 피할 수 있습니다. 이 접근 방식을 사용하면 콘텐츠를 보다 매력적으로 만들고 읽을 가능성을 높일 수 있습니다. 또한 컨텐츠를 개인화할 수 있으므로 수신자는 기계가 아닌 사람으로부터 정보를 받고 있다는 느낌을 받을 수 있습니다.
 
-## 콘텐츠를 동적으로 만드는 방법
+## 콘텐츠를 동적으로 만드는 방법 {#make-content-dyn}
 
 Campaign 웹 표현식 편집기에 JavaScript 구문을 삽입하여 메시지 콘텐츠를 동적으로 만들 수 있습니다. 메시지를 보낼 때 각 수신자에게 올바른 콘텐츠를 전달하기 위해 Adobe Campaign에서 이러한 표현식을 해석합니다.
 
@@ -65,7 +65,7 @@ Adobe Campaign V8 웹에서는 모든 데이터를 선택, 정렬, 사용자 지
 >
 >표현식 편집기 외에도 이메일을 디자인할 때 전용 조건부 콘텐츠 빌더를 활용할 수도 있습니다. [이메일에서 조건부 콘텐츠를 작성하는 방법 알아보기](conditions.md)
 
-## 더 자세히 알아보기
+## 더 자세히 알아보기 {#dive-deeper}
 
 이제 콘텐츠를 동적으로 만드는 방법을 이해했으므로 이 설명서 섹션을 자세히 살펴보고 기능 작업을 시작해야 합니다.
 

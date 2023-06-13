@@ -4,10 +4,10 @@ title: Adobe Experience Platform 대상자 사용
 description: Adobe Experience Platform에서 대상자를 사용하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: f7d59309979a063f4491f24c4a9e6deab83a4351
+source-git-commit: 958d3ca6ab7eb05a3201ed3344d4659a8756e3ef
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 50%
+source-wordcount: '291'
+ht-degree: 40%
 
 ---
 
@@ -22,13 +22,13 @@ Adobe Experience Platform 대상자를 만들어 클라이언트 콘솔에서 �
 >Campaign에서 Adobe Experience Platform 대상을 사용하려면 Adobe 소스 및 대상과의 통합을 구성해야 합니다. 을(를) 참조하십시오 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
 
-이외에 수행할 수 있는 작업은 다음과 같습니다.
+게재 대상자를 선택하기 위해 다음을 수행할 수도 있습니다.
 
 * 새 대상을 작성합니다. [자세히 알아보기](segment-builder.md)
 * 외부 파일에서 대상자를 로드합니다. [자세히 알아보기](file-audience.md)
 * 기존 캠페인 대상자를 사용합니다. [자세히 알아보기](add-audience.md)
 
-메시지에 대한 Adobe Experience Platform 대상자를 선택하려면 아래 단계를 따르십시오.
+게재할 Adobe Experience Platform 대상을 선택하려면 아래 단계를 따르십시오.
 
 1. 게재 생성 도우미의 **대상자** 섹션에서 **[!UICONTROL 대상자 선택]** 버튼을 클릭합니다.
 
@@ -54,5 +54,4 @@ Adobe Experience Platform 대상자를 만들어 클라이언트 콘솔에서 �
 
 1. **저장**&#x200B;을 클릭합니다.
 
-캠페인의 영향을 측정하기 위해 컨트롤 그룹을 설정할 수도 있습니다. 컨트롤 그룹은 메시지를 받지 않습니다. 그러면 메시지를 받은 모집단과 메시지를 받지 않은 연락처의 동작을 비교할 수 있습니다. 이 [섹션](control-group.md)을 참조하십시오.
 

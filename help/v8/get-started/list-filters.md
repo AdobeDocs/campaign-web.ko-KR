@@ -3,7 +3,7 @@ audience: end-user
 title: 목록 검색 및 필터링
 description: Campaign Web v8 목록을 찾아보고 필터링하는 방법 살펴보기
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 9f9cb4423d098ae57f429fb2a49e335d413399c1
+source-git-commit: 1503f07f72bf654594422fd861233d871047be4d
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 13%
@@ -21,7 +21,7 @@ ht-degree: 13%
 
 목록은 열에 표시됩니다. 열 구성을 변경하여 추가 정보를 표시할 수 있습니다. 이렇게 하려면 **사용자 지정 레이아웃에 대한 열 구성** 목록 오른쪽 위 모서리에 있는 아이콘.
 
-![](assets/config-columns.png){width="70%" align="left"}
+![](assets/config-columns.png){width="70%" align="left" zoomable="yes"}
 
 다음에서 **열 구성** 열을 표시하거나 추가하거나 제거하고 표시되는 순서를 변경합니다.
 

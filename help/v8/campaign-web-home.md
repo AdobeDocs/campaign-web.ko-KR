@@ -4,10 +4,10 @@ description: Campaign Web v8 도움말 센터
 title: Adobe Campaign Web v8 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: dc898e0cb173b791c7a200257f44b979dd7a1641
+source-git-commit: 01759418cd193de0a83a7758ee6620a2ad74ff38
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 38%
+ht-degree: 39%
 
 ---
 
@@ -37,7 +37,7 @@ Dell의 포괄적인 그래픽 환경은 마케팅 캠페인을 쉽게 관리하
 
 수신자에 대해 수집한 정보를 기반으로 콘텐츠를 사용자 지정합니다. 다이내믹 콘텐츠를 사용하면 콘텐츠를 보다 매력적으로 만들고 읽을 가능성을 높일 수 있습니다. 이름, 관심사, 거주 위치, 구매한 항목 등의 프로필 데이터를 활용하여 각 특정 수신자에게 메시지를 개인화할 수 있습니다. 조건부 콘텐츠를 만들어 각 수신자에 대한 게재를 조정하고, 해당 콘텐츠에 대한 정보를 기반으로 해당 고객에 대해 적절한 콘텐츠만 표시합니다.
 
-**크로스 채널 게재 보내기**
+**크로스채널 캠페인 만들기**
 
 Adobe Campaign을 사용하여 크로스 채널 캠페인을 만듭니다. 마케팅 캠페인 오케스트레이션 기능을 사용하면 고객 데이터를 관리 및 중앙 집중화하고, 고객 커뮤니케이션 및 캠페인을 디자인하고, 다양한 채널에서 개인화된 경험을 만들 수 있습니다. 이 버전에서는 이메일, 푸시 및 SMS 채널을 사용할 수 있습니다. 열기, 클릭, 전달 수 등을 포함한 자세한 보고서를 사용하여 게재의 효과를 측정합니다.
 
@@ -64,11 +64,11 @@ Adobe Campaign을 사용하여 크로스 채널 캠페인을 만듭니다. 마�
 <p>
 </td>
 <td>
-<a href="content/create-email-content.md">
+<a href="content/get-started-email-designer.md">
 <img alt="저빈도" src="assets/do-not-localize/menu-design.jpg">
 </a>
 <div>
-<a href="content/create-email-content.md"><strong>이메일 디자이너를 만나보십시오.</strong></a>
+<a href="content/get-started-email-designer.md"><strong>이메일 디자이너를 만나보십시오.</strong></a>
 </div>
 <p></td>
 <td>
@@ -85,7 +85,7 @@ Adobe Campaign을 사용하여 크로스 채널 캠페인을 만듭니다. 마�
 <img alt="유효성 검사" src="assets/do-not-localize/menu-campaign.jpeg">
 </a>
 <div>
-<a href="campaigns/gs-campaigns.md"><strong>크로스 채널 게재 보내기</strong></a>
+<a href="campaigns/gs-campaigns.md"><strong>크로스채널 캠페인 만들기</strong></a>
 </div>
 <p>
 </td>

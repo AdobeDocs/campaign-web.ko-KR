@@ -3,7 +3,7 @@ audience: end-user
 title: 목록 검색 및 필터링
 description: Campaign Web v8 목록을 찾아보고 필터링하는 방법 살펴보기
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 31e5d314ed0b7792d6a28614699fbe6a41b8a783
+source-git-commit: 7c8aa54fc267ca4db3ed5e77a0d86af2f242f4fe
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 13%
@@ -69,3 +69,6 @@ ht-degree: 13%
 속성 목록 및 필터 구성 화면에는 기본적으로 가장 일반적인 속성만 표시됩니다. 다음으로 설정된 속성 `advanced` 데이터 스키마의 속성은 구성 화면에서 숨겨집니다.
 
 활성화 **고급 속성 표시** 현재 목록에 사용 가능한 모든 속성을 보려면 전환하십시오. 속성 목록이 즉시 업데이트됩니다.
+
+
+![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}

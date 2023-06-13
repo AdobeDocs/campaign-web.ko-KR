@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: 캠페인 개요
 hide: true
-source-git-commit: 9f9cb4423d098ae57f429fb2a49e335d413399c1
+source-git-commit: dea30dcf033306e90f5838370e3970a0d833ecd9
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 73%
+source-wordcount: '350'
+ht-degree: 72%
 
 ---
 
@@ -61,12 +61,12 @@ ht-degree: 73%
       + [푸시 알림 시작하기](push/gs-push.md)
       + [푸시 알림 게재 만들기](push/create-push.md)
       + [푸시 게재 디자인](push/content-push.md)
-      + [푸시 알림 게재 보내기](push/send-push.md)
+      + [푸시 알림 게재 미리 보기 및 보내기](push/send-push.md)
    + SMS {#sms}
       + [SMS 게재 시작하기](sms/gs-sms.md)
       + [SMS 게재 만들기 ](sms/create-sms.md)
       + [SMS 게재 디자인](sms/content-sms.md)
-      + [SMS 게재 보내기](sms/send-sms.md)
+      + [SMS 게재 미리 보기 및 보내기](sms/send-sms.md)
    + 콘텐츠를 동적으로 만들기 {#dynamic-content}
       + [다이내믹 콘텐츠 시작](personalization/gs-personalization.md)
       + [개인화 추가](personalization/personalize.md)

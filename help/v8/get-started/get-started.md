@@ -4,7 +4,7 @@ title: Campaign v8 Web 시작하기
 description: Campaign v8 Web 시작하기
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: c4b06445c23c82d02bd34b64f96445ca994c0a24
+source-git-commit: c0dd90540e4347612bf60ba8c6d4a739aed502cb
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 64%
@@ -50,7 +50,7 @@ Adobe Campaign 웹에 연결하려면 다음 단계를 따르십시오.
 
 다른 Adobe Experience Cloud 솔루션에 이미 연결되어 있는 경우 화면 오른쪽 상단의 솔루션 전환기에서 Campaign 환경으로 이동할 수도 있습니다.
 
-## Campaign 클라이언트 콘솔 정보{#ac-client}
+## Campaign 클라이언트 콘솔 정보 {#ac-client}
 
 Campaign 클라이언트 콘솔은 시스템에 설치된 브라우저 기반 애플리케이션입니다. 웹 서비스 API를 사용하여 Campaign 애플리케이션 서버에 연결합니다.
 

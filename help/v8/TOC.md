@@ -5,9 +5,9 @@ title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: 캠페인 개요
 hide: true
-source-git-commit: 00f937e189494c6bcf023c49254bfd8ddc5bfa51
+source-git-commit: 995655c0d34489ad84b7e65eed7a9855e809d784
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '341'
 ht-degree: 74%
 
 ---
@@ -16,9 +16,8 @@ ht-degree: 74%
 # Adobe Campaign v8 Web 설명서 {#v8}
 
 + [Campaign v8 Web 설명서](campaign-web-home.md)
-+ 새로운 기능 {#whats-new}
-   + [릴리스 정보](rn/release-notes.md)
-   + [설명서 업데이트 정보](rn/documentation-updates.md)
++ [새로운 기능?](rn/whats-new.md)
++ [설명서 업데이트 정보](rn/documentation-updates.md)
 + Adobe Campaign 시작하기 {#start}
    + [시작하기](get-started/get-started.md)
    + [인터페이스 살펴보기](get-started/user-interface.md)

@@ -4,10 +4,10 @@ title: 이메일 게재 설정
 description: Campaign Web UI의 이메일 게재 설정에 대해 자세히 알아보기
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -158,7 +158,7 @@ ht-degree: 98%
 
 * **[!UICONTROL 미러 페이지 강제 생성]**: 게재에 미러 페이지에 대한 링크가 삽입되어 있지 않은 경우에도 미러 페이지를 생성하려면 이 모드를 사용하십시오.
 * **[!UICONTROL 미러 페이지 생성 안 함]**: 게재에 링크가 있는 경우에도 미러 페이지를 생성하지 않으려면 이 모드를 사용하십시오.
-* **[!UICONTROL 메시지 식별자를 사용해서만 액세스할 수 있는 미러 페이지 생성]**: 이메일 콘텐츠에 미러 페이지 링크가 없는 경우 이 옵션을 사용하여 클라이언트 콘솔에서 게재 로그 창의 미러 페이지 콘텐츠에 액세스할 수 있습니다.
+* **[!UICONTROL 메시지 식별자만 사용하여 액세스할 수 있는 미러 페이지 생성]**: 이메일 콘텐츠에 미러 페이지 링크가 없는 경우 이 옵션을 사용하여 게재 로그 창에서 클라이언트 콘솔에서 미러 페이지의 콘텐츠에 액세스할 수 있도록 합니다.
 
 
 ### 추적 {#tracking}

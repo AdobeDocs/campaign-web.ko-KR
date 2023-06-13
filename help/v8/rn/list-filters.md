@@ -4,10 +4,10 @@ title: Campaign Web v8의 새로운 기능
 description: Campaign Web v8의 새로운 기능 살펴보기
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 9f9cb4423d098ae57f429fb2a49e335d413399c1
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 65%
+ht-degree: 62%
 
 ---
 
@@ -56,7 +56,7 @@ Campaign 사용자는 여전히 클라이언트 콘솔에 액세스하여 Campai
 
 ## 용어 업데이트 {#terminology-updates}
 
-기존 캠페인 사용자는 최신 용어 표준에 맞게 일부 개념의 이름이 변경되었음을 참고하십시오. 이러한 변경 내용은 Campaign Web UI에만 적용되며 클라이언트 콘솔에는 반영되지 않습니다. 이는 아래에 요약되어 있습니다.
+기존 캠페인 사용자는 최신 용어 표준에 맞게 일부 개념의 이름이 변경되었음을 참고하십시오. 이러한 변경 사항은 Campaign 웹 UI에만 적용되며 클라이언트 콘솔에는 반영되지 않습니다. 이는 아래에 요약되어 있습니다.
 
 * 증명은 이제 **테스트 이메일**&#x200B;입니다. 증명을 전송하려면 이메일 게재 UI에 있는 **테스트** 버튼을 사용하십시오. 증명의 대상은 이제 **테스트 프로필**&#x200B;입니다.
 * 시드 주소는 이제 **테스트 프로필**&#x200B;로 사용됩니다. 데이터베이스의 추가 및 가상 수신자인 시드 주소로 테스트 이메일을 전송하십시오.

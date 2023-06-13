@@ -4,10 +4,10 @@ title: 캠페인 시작하기
 description: 크로스 채널 캠페인 시작 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
+source-git-commit: 6e9c9133a3ac3c8e6a47e01afc4d32f7bed81ab1
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 10%
+source-wordcount: '465'
+ht-degree: 9%
 
 ---
 
@@ -41,11 +41,15 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 
 ## 캠페인 액세스 및 관리{#access-campaigns}
 
-새 캠페인을 만들거나 기존 캠페인을 관리하려면 **[!UICONTROL 캠페인]** 메뉴 아래의 제품에서 사용할 수 있습니다. 다음 두 가지 탭을 사용할 수 있습니다.
+새 캠페인을 만들거나 기존 캠페인을 관리하려면 **[!UICONTROL 캠페인]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-* 다음 **찾아보기** 탭에는 기존 캠페인이 모두 나열됩니다. 캠페인을 클릭하여 대시보드를 열거나 다음을 클릭하여 새 캠페인을 만들 수 있습니다. **캠페인 만들기** 단추를 클릭합니다. 이 [섹션](create-campaigns.md#create-campaigns)을 참조하십시오
+![캠페인 목록](assets/campaign-list.png)
 
-* 다음 **템플릿** 탭에는 사용 가능한 모든 캠페인 템플릿이 나열됩니다. 캠페인 템플릿은 새 캠페인을 만드는 데 다시 사용할 수 있도록 사전 구성되어 있습니다. 클라이언트 콘솔에서 만들어집니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=ko).
+다음 두 가지 탭을 사용할 수 있습니다.
+
+* 다음 **찾아보기** 탭에는 기존 캠페인이 모두 나열됩니다. 캠페인을 클릭하여 대시보드를 열거나 다음을 클릭하여 새 캠페인을 만들 수 있습니다. **캠페인 만들기** 단추를 클릭합니다. 이 [섹션](create-campaigns.md#create-campaigns)을 참조하십시오.
+
+* 다음 **템플릿** 탭에는 사용 가능한 모든 캠페인 템플릿이 나열됩니다. 캠페인 템플릿은 새 캠페인을 만드는 데 다시 사용할 수 있도록 사전 구성되어 있습니다. 클라이언트 콘솔에서 만들어집니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=ko)
 
 목록의 각 캠페인에는 현재 상태, 만든 날짜, 마지막으로 수정한 시간 등에 대한 정보가 표시됩니다.
 
@@ -53,14 +57,18 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 
 예를 들어 캠페인 일정을 필터링할 수 있습니다. 필터 패널을 열고 다음을 사용합니다. **시작 - 종료 날짜** 섹션:
 
-![캠페인 목록](assets/campaign-filter-on-dates.png)
+![캠페인 필터](assets/campaign-filter-on-dates.png)
 
 ## 캠페인 대시보드{#campaign-dashboard}
 
-다음에서 **찾아보기** 캠페인 목록의 탭에서 캠페인을 클릭하여 대시보드를 표시합니다. 다음 두 가지 탭을 사용할 수 있습니다.
+다음에서 **찾아보기** 캠페인 목록의 탭에서 캠페인을 클릭하여 대시보드를 표시합니다.
+
+![Campaign 대시보드](assets/campaign-dashboard.png)
+
+캠페인의 상태 및 일정이 화면 상단에 표시됩니다. 다음을 사용할 수 있습니다. **캠페인 설정 구성** 아이콘 : 캠페인을 만들 때 정의된 캠페인 속성을 수정합니다. 로그를 보거나, 보고를 하거나, 캠페인을 복제하거나, 삭제할 수 있는 세 가지 단추를 사용할 수 있습니다. 이 [섹션](create-campaigns.md#create-campaigns)을 참조하십시오
+
+다음 두 가지 탭을 사용할 수 있습니다.
 
 * 다음 **워크플로** 탭에는 캠페인에 연결된 모든 워크플로가 나열됩니다. 이 탭에서는 캠페인 내에 새 워크플로우를 만들 수도 있습니다. 이 [섹션](create-campaigns.md#create-campaigns)을 참조하십시오
 * 다음 **게재** 탭에는 캠페인에 연결된 모든 게재가 나열됩니다. 캠페인 내에 새 게재를 만들 수도 있습니다. 이 [섹션](create-campaigns.md#create-campaigns)을 참조하십시오
-
-다음 **캠페인 설정 구성** 아이콘을 사용하면 캠페인을 생성할 때 정의된 캠페인 속성을 수정할 수 있습니다. 이 [섹션](create-campaigns.md#create-campaigns)을 참조하십시오
 

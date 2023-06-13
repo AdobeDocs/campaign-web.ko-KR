@@ -4,7 +4,7 @@ title: Adobe Campaign Web을 사용하여 캠페인 만들기
 description: Adobe Campaign Web을 사용하여 크로스 채널 캠페인을 구축하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
+source-git-commit: 3f2fc84132eab0f75aa405ba16f996601b21b784
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 18%
@@ -45,6 +45,7 @@ ht-degree: 18%
 
    * 다음에서 **워크플로** 탭을 클릭하고 **워크플로우 만들기**. 캠페인을 만들 때 기본 워크플로우가 자동으로 추가됩니다. 방법에 대한 자세한 내용 [워크플로우 만들기](../workflows/create-workflow.md)
    * 다음에서 **게재** 탭을 클릭하고 **게재 만들기**. [자세히 알아보기](../msg/gs-messages.md)
+
 1. 사용 **로그** 및 **보고** 캠페인을 분석하는 단추입니다.
 
 ## 모니터링 및 추적 로그{#campaign-monitoring}
@@ -62,7 +63,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->다음 **게재** 탭에는 캠페인에 연결된 모든 게재가 표시되지만, 워크플로우에서 만든 게재는 이 탭에서 삭제할 수 없습니다. 워크플로우 컨텍스트에서 생성된 게재를 삭제하려면 워크플로우에서 게재 활동을 삭제해야 합니다.
+>다음 **게재** 탭에는 캠페인에 연결된 모든 게재가 표시됩니다. 단, 워크플로우에서 생성된 게재는 해당 워크플로우에서 삭제할 수 없습니다. 워크플로우 컨텍스트에서 생성된 게재를 삭제하려면 워크플로우에서 게재 활동을 삭제해야 합니다.
 
 
 <!--

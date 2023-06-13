@@ -4,7 +4,7 @@ description: Campaign Web v8 도움말 센터
 title: Adobe Campaign Web v8 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 795e9ae41ac7f021e30262985240bb43dbb52e54
+source-git-commit: dc898e0cb173b791c7a200257f44b979dd7a1641
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 38%
@@ -55,11 +55,11 @@ Adobe Campaign을 사용하여 크로스 채널 캠페인을 만듭니다. 마�
 <p>
 </td>
 <td>
-<a href="preview-test/proofs.md">
+<a href="workflows/gs-workflows.md">
 <img alt="유효성 검사" src="assets/do-not-localize/menu-workflows.jpeg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>재구성된 워크플로 캔버스 인터페이스</strong></a>
+<a href="workflows/gs-workflows.md"><strong>재구성된 워크플로 캔버스 인터페이스</strong></a>
 </div>
 <p>
 </td>
@@ -72,20 +72,20 @@ Adobe Campaign을 사용하여 크로스 채널 캠페인을 만듭니다. 마�
 </div>
 <p></td>
 <td>
-<a href="audience/about-audiences.md">
+<a href="personalization/gs-personalization.md">
 <img alt="대상자" src="assets/do-not-localize/menu-dynamic.jpg">
 </a>
 <div>
-<a href="audience/about-audiences.md"><strong>콘텐츠를 동적으로 만들기</strong></a>
+<a href="personalization/gs-personalization.md"><strong>콘텐츠를 동적으로 만들기</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="preview-test/proofs.md">
+<a href="campaigns/gs-campaigns.md">
 <img alt="유효성 검사" src="assets/do-not-localize/menu-campaign.jpeg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>크로스 채널 게재 보내기</strong></a>
+<a href="campaigns/gs-campaigns.md"><strong>크로스 채널 게재 보내기</strong></a>
 </div>
 <p>
 </td>

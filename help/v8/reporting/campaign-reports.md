@@ -3,14 +3,26 @@ audience: end-user
 title: 캠페인 보고서
 description: 캠페인 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
-source-wordcount: '1520'
-ht-degree: 1%
+source-wordcount: '1562'
+ht-degree: 2%
 
 ---
 
 # 캠페인 보고서 {#campaign-reports}
+
+캠페인 보고서는 캠페인의 성공 및 오류를 자세히 설명하는 다양한 위젯으로 나뉩니다.
+
+캠페인 보고서 페이지에 다음 탭이 표시됩니다.
+
+* [이메일 채널](#email-channel)
+* [SMS 채널](#sms-channel)
+* [푸시 채널](#push-channel)
+
+Campaign 보고서에 액세스하려면 캠페인 대시보드에서 보고서 를 클릭합니다.
+
+![](assets/campaign_report_email_13.png)
 
 ## 이메일 채널 {#email-channel}
 

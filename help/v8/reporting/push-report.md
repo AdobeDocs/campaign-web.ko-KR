@@ -3,7 +3,7 @@ audience: end-user
 title: 게재 보고서 푸시
 description: 푸시 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 7%
@@ -21,6 +21,8 @@ ht-degree: 7%
 
 * **[!UICONTROL 게재 개요]** 은 방문자가 푸시 메시지에 참여하는 방식에 대한 자세한 정보를 제공하는 주요 성능 지표(KPI)를 제공합니다.
 
+  ![](assets/reporting_push_3.png)
+
   +++푸시 게재 보고서 지표에 대해 자세히 알아보십시오.
 
    * **[!UICONTROL 총 전송됨]**: 게재 분석 중에 처리된 총 메시지 수입니다.
@@ -33,9 +35,9 @@ ht-degree: 7%
 
 +++
 
-  ![](assets/reporting_push_3.png)
-
 * **대상 모집단** 대상자에 따른 그래프 및 표 표시 데이터:
+
+  ![](assets/reporting_push_4.png)
 
   +++푸시 게재 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -45,9 +47,11 @@ ht-degree: 7%
 
 +++
 
-  ![](assets/reporting_push_4.png)
+
 
 * **전체 통계** 은 다음을 포함하여 전송된 푸시 알림에 대한 데이터를 제공합니다.
+
+  ![](assets/reporting_push_5.png)
 
   +++푸시 게재 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -58,8 +62,6 @@ ht-degree: 7%
    * **[!UICONTROL 새로운 격리]**: 제외되어 격리에 추가된 프로필 수입니다.
 
 +++
-
-  ![](assets/reporting_push_5.png)
 
 * **[!UICONTROL 제외]** 그래프와 표에는 타겟팅된 프로필에서 제외된 사용자 프로필에서 메시지를 받지 못하게 한 다양한 이유가 표시됩니다.
 

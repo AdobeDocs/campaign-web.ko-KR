@@ -2,11 +2,11 @@
 audience: end-user
 title: 목록 검색 및 필터링
 description: Campaign Web v8 목록을 찾아보고 필터링하는 방법 살펴보기
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 7c8aa54fc267ca4db3ed5e77a0d86af2f242f4fe
+badge: label="알파"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 13%
+source-wordcount: '415'
+ht-degree: 17%
 
 ---
 
@@ -65,6 +65,17 @@ ht-degree: 13%
 >id="acw_attributepicker_advancedfields"
 >title="고급 속성 표시"
 >abstract="대부분의 일반적인 속성만 기본적으로 속성 목록에 표시됩니다. 이 토글을 사용하여 고급 속성으로 필터를 빌드합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="규칙 빌더 고급 필드"
+>abstract="고급 필드에서 열을 구성합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_properties_advanced"
+>title="규칙 빌더 고급 속성"
+>abstract="고급 속성을 사용하여 규칙을 정의합니다."
+
 
 속성 목록 및 필터 구성 화면에는 기본적으로 가장 일반적인 속성만 표시됩니다. 다음으로 설정된 속성 `advanced` 데이터 스키마의 속성은 구성 화면에서 숨겨집니다.
 

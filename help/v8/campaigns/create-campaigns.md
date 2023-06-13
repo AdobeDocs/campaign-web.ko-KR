@@ -4,7 +4,7 @@ title: Adobe Campaign Web을 사용하여 캠페인 만들기
 description: Adobe Campaign Web을 사용하여 크로스 채널 캠페인을 구축하는 방법 알아보기
 badge: label="알파"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 22%
@@ -12,7 +12,7 @@ ht-degree: 22%
 ---
 
 
-# 첫 캠페인 만들어 보기 {#create-campaigns}
+# 첫 캠페인 만들어 보기 {#create-first-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
@@ -24,9 +24,9 @@ ht-degree: 22%
 >title="캠페인 속성"
 >abstract="캠페인 설정 및 메타데이터를 정의합니다."
 
-캠페인에는 워크플로우 및 독립 실행형 게재가 포함될 수 있습니다. 속성, 일정, 작업, deliv 플러스 공정한 일정
+새 캠페인을 만들려면 해당 속성, 일정을 정의하고 워크플로우 및 게재를 포함해야 합니다.
 
-## 캠페인 만들기
+## 캠페인 만들기{#campaign-create}
 
 새 캠페인을 만들려면 다음 단계를 수행합니다.
 
@@ -40,25 +40,27 @@ ht-degree: 22%
 
    >[!NOTE]
    >
-   >나중에 **캠페인 설정 구성** 아이콘, 캠페인 레이블 옆에 있습니다. 이 [섹션](gs-campaigns.md#campaign-dashboard)을 참조하십시오
+   >나중에 **캠페인 설정 구성** 아이콘, 캠페인 레이블 옆에 있습니다. 이 [섹션](gs-campaigns.md#campaign-dashboard)을 참조하십시오.
 
 1. Click **Create**.
 1. 캠페인에 워크플로우 및 게재 추가:
 
-   * 다음에서 **워크플로** 탭을 클릭하고 **워크플로우 만들기**. 캠페인을 만들 때 기본 워크플로우가 자동으로 추가됩니다. 방법에 대한 자세한 내용 [워크플로우 만들기](../workflows/create-workflow.md)
+   * 다음에서 **워크플로** 탭을 클릭하고 **워크플로우 만들기**. 캠페인을 만들 때 기본 워크플로우가 자동으로 추가됩니다. 방법에 대한 자세한 내용 [워크플로우 만들기](../workflows/create-workflow.md).
    * 다음에서 **게재** 탭을 클릭하고 **게재 만들기**. [자세히 알아보기](../msg/gs-messages.md)
 
 1. 사용 **로그** 및 **보고** 캠페인의 성과를 분석하는 단추입니다.
 
 ## 캠페인 모니터링 및 추적{#campaign-monitoring}
 
-캠페인 모니터링은 캠페인을 분석하는 주요 단계입니다. 캠페인을 열고 **로그** 단추를 클릭합니다.
+캠페인 모니터링은 캠페인의 효과를 분석하는 주요 단계입니다. 캠페인을 열고 **로그** 단추를 클릭합니다.
 
 다음을 클릭하여 전용 보고서를 볼 수도 있습니다. **보고서** 단추를 클릭합니다. 이 [섹션](../reporting/campaign-reports.md)을 참조하십시오.
 
-+++WORKF ++화면
+
 
 <!--
+	+++WORKF
+++screen
 ## Create a cross-channel campaign {#cross-channel-campaign}
 
 

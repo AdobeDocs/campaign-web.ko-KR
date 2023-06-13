@@ -4,10 +4,10 @@ title: 캠페인 시작하기
 description: 크로스 채널 캠페인 시작 방법 알아보기
 badge: label="알파"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 9%
+source-wordcount: '165'
+ht-degree: 11%
 
 ---
 
@@ -26,6 +26,12 @@ Adobe Campaign을 사용하면 내장된 캠페인 관리 기능을 사용하여
 캠페인은 전용 보고 지표를 제공하여 전체 캠페인의 성과에 대한 포괄적인 통찰력을 얻으므로, 캠페인의 효과를 평가하고, 트렌드를 식별하며, 데이터 중심의 결정을 내려 향후 노력을 최적화할 수 있습니다.
 
 ![캠페인 플로우](assets/campaign-flow.png)
+
+다음 섹션을 참조하십시오.
+
+* [캠페인 액세스 및 관리](manage-campaigns.md)
+* [첫 캠페인 만들어 보기](create-campaigns.md)
+
 
 
 <!--

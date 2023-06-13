@@ -4,10 +4,10 @@ title: 기존 대상자 선택
 description: 대상자 선택 방법 알아보기
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
+source-git-commit: f7d59309979a063f4491f24c4a9e6deab83a4351
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 95%
+ht-degree: 89%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 95%
 
 1. 기존 대상자를 사용하려면 **[!UICONTROL 대상자 선택]**&#x200B;을 선택합니다. 이 이메일에서 사용할 새 대상자를 만들려면 **직접 만들기**&#x200B;를 선택합니다. 이 [섹션](segment-builder.md)을 참조하십시오.
 
-   이 화면에는 Adobe Campaign 콘솔 또는 Adobe Experience Platform에서 정의된 기존의 모든 대상자가 표시됩니다.
+   이 화면에는 현재 폴더에 대해 Adobe Campaign 클라이언트 콘솔에 정의된 모든 기존 대상자가 표시됩니다.
 
    ![](assets/create-audience2.png)
 

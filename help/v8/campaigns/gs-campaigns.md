@@ -4,10 +4,10 @@ title: 캠페인 시작하기
 description: 크로스 채널 캠페인 시작 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: e933562e4046d9cdea9fc898e5c4c4c9a7e9ee38
+source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 8%
+source-wordcount: '429'
+ht-degree: 10%
 
 ---
 
@@ -57,27 +57,10 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 
 ## 캠페인 대시보드{#campaign-dashboard}
 
-다음에서 **찾아보기** 탭에서 캠페인을 클릭하여 대시보드를 표시합니다. 다음 두 가지 탭을 사용할 수 있습니다.
+다음에서 **찾아보기** 캠페인 목록의 탭에서 캠페인을 클릭하여 대시보드를 표시합니다. 다음 두 가지 탭을 사용할 수 있습니다.
 
 * 다음 **워크플로** 탭에는 캠페인에 연결된 모든 워크플로가 나열됩니다. 이 탭에서는 캠페인 내에 새 워크플로우를 만들 수도 있습니다. 이 [섹션](create-campaigns.md#create-campaigns)을 참조하십시오
-* 다음 **게재** 탭에는 캠페인에 연결된 모든 게재가 나열됩니다. 이 탭에서는 캠페인 내에 새 게재를 만들 수도 있습니다. 이 [섹션](create-campaigns.md#create-campaigns)을 참조하십시오
+* 다음 **게재** 탭에는 캠페인에 연결된 모든 게재가 나열됩니다. 캠페인 내에 새 게재를 만들 수도 있습니다. 이 [섹션](create-campaigns.md#create-campaigns)을 참조하십시오
 
 다음 **캠페인 설정 구성** 아이콘을 사용하면 캠페인을 생성할 때 정의된 캠페인 속성을 수정할 수 있습니다. 이 [섹션](create-campaigns.md#create-campaigns)을 참조하십시오
-
-## 모니터링 및 추적 로그{#campaign-monitoring}
-
-캠페인 모니터링은 캠페인을 분석하는 주요 단계입니다. 캠페인을 열고 **로그** 단추를 클릭합니다.
-
-다음을 클릭하여 전용 보고서를 볼 수도 있습니다. **보고서** 단추를 클릭합니다. 이 [섹션](../reporting/campaign-reports.md)을 참조하십시오.
-
-## 복제 및 삭제
-
-캠페인을 복제하거나 삭제할 수 있습니다.
-
-* 캠페인 목록에서 줄임표 버튼을 클릭한 다음 을 선택합니다 **복제** 또는 **삭제**.
-* 캠페인 자체에서 **자세히** 버튼을 누른 다음 선택 **복제** 또는 **삭제**.
-
->[!NOTE]
->
->다음 **게재** 탭에는 캠페인에 연결된 모든 게재가 표시되지만, 워크플로우에서 만든 게재는 이 탭에서 삭제할 수 없습니다. 워크플로우 컨텍스트에서 생성된 게재를 삭제하려면 워크플로우에서 게재 활동을 삭제해야 합니다.
 

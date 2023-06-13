@@ -3,9 +3,9 @@ audience: end-user
 title: SMS 게재 보고서
 description: sms 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: 3647cea1728d96ef5d65c767ba5dca97152e6d92
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '303'
 ht-degree: 6%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 6%
 >id="acw_sms_report_overview"
 >title="SMS 보고서 요약"
 >abstract="SMS 게재 보고 지표를 살펴보십시오."
+
+다음 **SMS 게재 보고서** 는 SMS 채널에 대한 포괄적인 개요를 제공하여 광범위한 통찰력과 특정 데이터를 제공합니다. 각 게재의 성능, 효과 및 결과에 대한 포괄적인 정보를 제공합니다.
 
 ## 게재 요약 {#delivery-summary}
 

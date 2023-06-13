@@ -3,10 +3,10 @@ audience: end-user
 title: SMS 게재 보내기
 description: Adobe Campaign 웹으로 SMS를 보내는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 73af561b5609b0f538969d96173fc61751c4812a
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 24%
+source-wordcount: '363'
+ht-degree: 17%
 
 ---
 
@@ -31,6 +31,16 @@ ht-degree: 24%
    ![](assets/sms_send_3.png)
 
 이제 SMS 메시지를 검토하고 대상자에게 전송할 수 있습니다.
+
+## SMS 게재 테스트 {#test-send-sms}
+
+포함 **Adobe Campaign**, 메시지를 기본 대상자에게 보내기 전에 테스트할 수 있습니다. 이는 이메일 캠페인의 유효성을 확인하고 잠재적 문제를 식별하는 데 필수적인 단계입니다.
+
+테스트 SMS를 보내는 것은 게재의 품질과 효과를 확인하는 중요한 단계입니다. 테스트 수신자는 링크, 옵트아웃 링크 및 이미지와 같은 다양한 요소를 검토할 수 있을 뿐만 아니라 렌더링, 콘텐츠, 개인화 설정 및 SMS 구성에서 발생하는 오류를 식별할 수 있습니다. 이 프로세스는 주요 대상에게 도달하기 전에 SMS를 철저히 평가하고 최적화하는 데 도움이 됩니다.
+
+![](../assets/do-not-localize/book.png) 테스트 SMS를 보내는 방법 알아보기 [페이지](../preview-test/proofs.md).
+
+![](assets/sms_send_6.png)
 
 ## SMS 게재 보내기 {#preview-send-sms}
 

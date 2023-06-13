@@ -3,7 +3,7 @@ audience: end-user
 title: 게재 보고서 푸시
 description: 푸시 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 7%
@@ -46,8 +46,6 @@ ht-degree: 7%
    * **[!UICONTROL 제외]**: 분석에서 제외된 프로필 수입니다.
 
 +++
-
-
 
 * **전체 통계** 은 다음을 포함하여 전송된 푸시 알림에 대한 데이터를 제공합니다.
 

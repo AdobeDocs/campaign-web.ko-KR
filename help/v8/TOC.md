@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: 캠페인 개요
 hide: true
-source-git-commit: ee93f052e297c205cac3894acd2b04b1ba46ebdc
+source-git-commit: 26d9f35e724f3f692e7f75dd74da7d6fae4cb310
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 72%
+source-wordcount: '351'
+ht-degree: 71%
 
 ---
 
@@ -81,6 +81,7 @@ ht-degree: 72%
    + [컨트롤 그룹 설정](audience/control-group.md)
 + 크로스 채널 캠페인 {#campaigns}
    + [캠페인 시작하기](campaigns/gs-campaigns.md)
+   + [캠페인 관리](campaigns/manage-campaigns.md)
    + [첫 캠페인 만들어 보기](campaigns/create-campaigns.md)
 + 워크플로 {#wf}
    + [워크플로 시작](workflows/gs-workflows.md)
@@ -97,7 +98,6 @@ ht-degree: 72%
       + [대상자 빌드](workflows/activities/build-audience.md)
       + [결합](workflows/activities/combine.md)
       + [이메일, SMS, 푸시](workflows/activities/email.md)
-      + [종료](workflows/activities/end.md)
       + [보강](workflows/activities/enrichment.md)
       + [포크](workflows/activities/fork.md)
       + [대기](workflows/activities/wait.md)

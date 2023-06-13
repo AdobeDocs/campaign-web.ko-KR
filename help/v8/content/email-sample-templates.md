@@ -2,11 +2,11 @@
 audience: end-user
 product: campaign
 title: 이메일 템플릿 작업
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 1d6f61c3e39459d1e82fee15c5b6b903feb5b42f
+badge: label="알파"
+source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 11%
+source-wordcount: '120'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ Campaign에는 선택할 수 있는 기본 제공 템플릿 세트가 포함되�
 
 샘플 템플릿 중 하나를 사용하여 콘텐츠 작성을 시작하려면 아래 단계를 따르십시오.
 
-1. 를 엽니다. [이메일 디자이너](create-email-content.md).
+1. 를 엽니다. [이메일 디자이너](get-started-email-designer.md).
 
 1. 다음에서 **[!UICONTROL 이메일 만들기]** 화면, 목록 **[!UICONTROL 샘플 템플릿]**  표시됩니다.
 

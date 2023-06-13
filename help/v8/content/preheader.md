@@ -3,11 +3,11 @@ audience: end-user
 title: 이메일 디자이너에서 프리 헤더 추가
 description: 이메일 콘텐츠 디자인 방법 알아보기
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 0272475635bb1376b62e3904551e02a5f86d4046
+badge: label="알파"
+source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 62%
+source-wordcount: '209'
+ht-degree: 46%
 
 ---
 
@@ -28,20 +28,22 @@ ht-degree: 62%
 
 이메일 사전 헤더를 정의하려면 아래 단계를 수행합니다.
 
-1. 이메일 디자이너에서 최소한 하나의 **[!UICONTROL 구조]** 이메일 디자인을 시작할 구성 요소입니다.
+1. 다음에서 [이메일 디자이너](create-email-content.md), 최소 1개 이상 추가 **[!UICONTROL 구조]** 이메일 디자인을 시작할 구성 요소입니다.
 
 1. 왼쪽 창에서 **[!UICONTROL 탐색 트리]** 아이콘을 클릭하고 **[!UICONTROL 본문]**&#x200B;을 선택합니다.
 
    ![](assets/preheader_body.png)
 
-1. **[!UICONTROL 설정]** 탭에서 프리 헤더를 추가합니다. **[!UICONTROL 개인화 추가]** 아이콘을 클릭하여 프리 헤더를 추가로 개인화할 수 있습니다.
+1. 다음에서 **[!UICONTROL 설정]** 탭에서 사전 헤더에 사용할 텍스트를 입력합니다.
+
+1. 추가로 개인화하려면 **[!UICONTROL 개인화 추가]** 아이콘(왼쪽) **[!UICONTROL 사전 머리글]** 필드.
 
    ![](assets/preheader_body_settings.png)
 
-1. 다음에서 **[!UICONTROL 개인화 편집]** 창, 다음을 추가할 수 있습니다. **[!UICONTROL 콘텐츠 블록]**, **[!UICONTROL 다이내믹 콘텐츠]** 또는 **[!UICONTROL 개인화 필드]**.
+1. 다음에서 **[!UICONTROL 개인화 편집]** 창, 다음을 추가할 수 있습니다. [개인화 필드](../personalization/personalize.md), [콘텐츠 블록](../personalization/content-blocks.md) 및 [조건부 콘텐츠](../personalization/conditions.md) 왼쪽의 전용 항목을 사용합니다.
 
-1. **[!UICONTROL 유효성 검사]**&#x200B;를 클릭하여 개인화 구문을 확인합니다.
+   ![](assets/preheader_body_personalization.png)
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
 이제 프리 헤더가 이메일에 대해 구성되었습니다.

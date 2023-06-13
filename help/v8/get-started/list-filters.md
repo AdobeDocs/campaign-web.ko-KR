@@ -3,7 +3,7 @@ audience: end-user
 title: 목록 검색 및 필터링
 description: Campaign Web v8 목록을 찾아보고 필터링하는 방법 살펴보기
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 1503f07f72bf654594422fd861233d871047be4d
+source-git-commit: ee93f052e297c205cac3894acd2b04b1ba46ebdc
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 13%
@@ -27,11 +27,11 @@ ht-degree: 13%
 
 예를 들어, 다음 설정의 경우:
 
-![](assets/columns.png){width="70%" align="left"}
+![](assets/columns.png){width="70%" align="left" zoomable="yes"}
 
 이 목록에는 다음 열이 표시됩니다.
 
-![](assets/column-sample.png){width="70%" align="left"}
+![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
 
 사용 **고급 속성 표시** 현재 목록의 속성을 모두 보려면 전환하십시오. [자세히 알아보기](#adv-attributes)
 
@@ -45,7 +45,7 @@ ht-degree: 13%
 
 항목을 더 빨리 찾으려면 검색 창을 사용하거나 상황별 기준에 따라 목록을 필터링할 수 있습니다.
 
-![](assets/filter.png){width="70%" align="left"}
+![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
 예를 들어 상태, 채널, 연락 날짜 또는 폴더에 대해 게재를 필터링할 수 있습니다. 테스트를 숨길 수도 있습니다.
 
@@ -55,7 +55,7 @@ ht-degree: 13%
 
 속성을 드래그 앤 드롭하여 **고급 필터** 화면.
 
-![](assets/custom-filter.png){width="70%" align="left"}
+![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
 사용 **고급 속성 표시** 현재 목록의 속성을 모두 보려면 전환하십시오. [자세히 알아보기](#adv-attributes)
 

@@ -2,12 +2,12 @@
 audience: end-user
 title: 워크플로우 활동 작업
 description: 워크플로우 활동 방법 알아보기
-badge: 레이블=“Alpha” 유형=“Positive”
+badge: label="알파"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 40ca8ca9825706be7b82a58136627911132bc14a
+source-git-commit: b66afeedbfcb342102c833899756afc35de9d504
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '305'
+ht-degree: 6%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Campaign 웹을 사용하면 이메일, SMS 또는 푸시와 같은 여러
 다음 활동은 워크플로우 구성 및 실행과 관련이 있습니다. 이들의 주요 임무는 다른 활동을 조정하는 것입니다.
 
 * 다음 [And-결합](and-join.md) 활동을 사용하면 워크플로우의 여러 실행 분기를 동기화할 수 있습니다.
-* 다음 [종료](end.md) 활동을 사용하면 워크플로우의 끝을 그래픽으로 표시할 수 있습니다. 이 활동은 기능에 영향을 주지 않으므로 선택 사항입니다.
+* 다음 **종료** 활동을 사용하면 워크플로우의 끝을 그래픽으로 표시할 수 있습니다. 이 활동은 기능에 영향을 주지 않으므로 선택 사항입니다.
 * 다음 [포크](fork.md) 활동을 사용하면 아웃바운드 전환을 만들어서 여러 활동을 동시에 시작할 수 있습니다.
 * 다음 [대기](wait.md) 활동은 워크플로우 특정 부분의 실행을 잠시 미룹니다.
 

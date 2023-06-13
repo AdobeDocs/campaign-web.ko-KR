@@ -4,10 +4,10 @@ title: Adobe Campaign Web을 사용하여 캠페인 만들기
 description: Adobe Campaign Web을 사용하여 크로스 채널 캠페인을 구축하는 방법 알아보기
 badge: 레이블=“Alpha” 유형=“Positive”
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
+source-git-commit: e933562e4046d9cdea9fc898e5c4c4c9a7e9ee38
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 34%
+source-wordcount: '229'
+ht-degree: 27%
 
 ---
 
@@ -24,36 +24,27 @@ ht-degree: 34%
 >title="캠페인 속성"
 >abstract="캠페인 설정 및 메타데이터를 정의합니다."
 
+캠페인에는 워크플로우 및 독립 실행형 게재가 포함될 수 있습니다.
+
 새 캠페인을 만들려면 다음 단계를 수행합니다.
 
 1. 다음을 클릭합니다. **[!UICONTROL 캠페인]** 메뉴를 클릭하고 **[!UICONTROL 캠페인 만들기]** 단추를 클릭합니다.
 1. 다음 항목 선택 **템플릿** 을 입력하여 캠페인에 대한 레이블을 제공합니다. 캠페인 템플릿은 새 캠페인을 만드는 데 다시 사용할 수 있도록 사전 구성되어 있습니다. 클라이언트 콘솔에서 만들어집니다.
    [자세히 보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=ko).
-1. 필요한 경우 **추가 옵션**. 이 [섹션](#campaign-options)을 참조하십시오.
+1. 필요한 경우 다음을 변경할 수 있습니다 **추가 옵션**: 내부 이름, 폴더, 할당자, 설명 및 특성.
 1. 다음을 정의합니다. **예약** 을 참조하십시오. 시작 날짜에 도달하면 캠페인이 시작됩니다. 시작 및 종료 날짜가 캠페인 목록에 표시되며 필터로 사용할 수 있습니다. 이 [섹션](gs-campaigns.md#access-campaigns)을 참조하십시오.
 
    ![캠페인 속성 정의](assets/campaign-properties.png)
 
    >[!NOTE]
    >
-   >캠페인 레이블 옆 **캠페인 설정 구성** 아이콘에서 캠페인 속성에 액세스할 수도 있습니다. 이 [섹션](gs-campaigns.md#campaign-dashboard)을 참조하십시오
+   >나중에 **캠페인 설정 구성** 아이콘, 캠페인 레이블 옆에 있습니다. 이 [섹션](gs-campaigns.md#campaign-dashboard)을 참조하십시오
 
 1. Click **Create**.
-1. 워크플로우나 독립 실행형 게재를 캠페인에 추가합니다.
+1. 캠페인에 워크플로우 및 게재를 추가합니다.
+
    * 다음에서 **워크플로** 탭을 클릭하고 **워크플로우 만들기**. 캠페인을 만들 때 기본 워크플로우가 자동으로 추가됩니다. 방법에 대한 자세한 내용 [워크플로우 만들기](../workflows/create-workflow.md)
    * 다음에서 **게재** 탭을 클릭하고 **게재 만들기**. [자세히 알아보기](../msg/gs-messages.md)
-
-## 추가 옵션 {#campaign-options}
-
-새 캠페인을 만들 때 캠페인 속성이 표시됩니다.
-
-아래 **추가 옵션**, 다음 설정을 구성할 수 있습니다.
-
-* 내부 이름:
-* 폴더: 캠페인을 저장할 폴더를 선택합니다
-* 할당 대상:
-* 설명:
-* 특성: 분류 목적을 위한 캠페인의 특성을 지정합니다
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}

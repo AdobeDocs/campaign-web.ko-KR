@@ -8,15 +8,20 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: e241226cacbc366aa884eb7781ce60188913d7b1
+source-git-commit: 323dc9ccb9d04d2d7085a26a17f6944e999b1dec
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 10%
+source-wordcount: '660'
+ht-degree: 9%
 
 ---
 
 
 # 다이내믹 콘텐츠 시작
+
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_dashboard"
+>title="개인화"
+>abstract="표현식 편집기를 사용하면 모든 데이터를 선택하고, 정렬하고, 사용자 정의하고, 유효성을 검사하여 콘텐츠에 대한 사용자 지정 경험을 만들 수 있습니다. 프로필 데이터를 활용하여 각 수신자에게 메시지를 개인화하고, 조건부 콘텐츠를 만들어 각 수신자에게 메시지를 적용하고 관련 있는 콘텐츠만 표시할 수 있습니다. 또한 개인화 블록을 사용하여 게재에 사전 정의된 개인화된 콘텐츠를 추가할 수 있습니다."
 
 마케터로서 오퍼링에 관심이 많은 고객을 타겟팅하고 효과적이고 적절한 콘텐츠를 제공하여 고객 참여를 유도하는 것이 중요합니다. 다양한 수신자의 범위를 고려할 때 다양한 사람에게 어필할 수 있도록 여러 개의 마케팅 콘텐츠를 만드는 것은 시간이 오래 걸리고 낭비적일 수 있습니다. 여기에서 다이내믹 콘텐츠가 실행됩니다.
 

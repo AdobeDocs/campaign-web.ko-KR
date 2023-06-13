@@ -4,9 +4,9 @@ description: Campaign Web v8 도움말 센터
 title: Adobe Campaign Web v8 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 8c3d379152188bedae97d50cdf774b6937b54884
+source-git-commit: 6b695eab0c58b655ead91ef07c9cae4972eeb82a
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '371'
 ht-degree: 34%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 34%
 
 포괄적인 그래픽 캔버스를 통해 세그멘테이션, 캠페인 실행 등과 같은 프로세스를 손쉽게 디자인할 수 있습니다. 이 고급 도구를 사용하면 워크플로우를 간소화하고 캠페인을 향상시킬 수 있습니다.
 
-**이메일 디자인**
+**이메일 디자이너를 만나보십시오.**
 
 템플릿에서 시작하거나 Adobe Campaign의 새 이메일 디자이너를 사용하여 코드 한 줄을 작성하지 않고도 이메일을 만들 수 있습니다. 이메일 디자이너를 사용하여 콘텐츠를 만들고, 미리 보고, 테스트하고, 엔드 투 엔드 사용 사례에서 기존 대상자에게 이메일을 보내는 방법에 대해 알아봅니다.
 
@@ -51,6 +51,15 @@ Adobe Campaign 기능을 사용하면 중앙 집중식 고객 데이터를 관�
 <img alt="새로운 UI" src="assets/do-not-localize/menu-ui.jpeg">
 </a>
 <div><a href="get-started/user-interface.md"><strong>새 사용자 인터페이스 살펴보기</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="preview-test/proofs.md">
+<img alt="유효성 검사" src="assets/do-not-localize/menu-workflows.jpeg">
+</a>
+<div>
+<a href="preview-test/proofs.md"><strong>재구성된 워크플로 캔버스 인터페이스</strong></a>
 </div>
 <p>
 </td>
@@ -77,15 +86,6 @@ Adobe Campaign 기능을 사용하면 중앙 집중식 고객 데이터를 관�
 </a>
 <div>
 <a href="preview-test/proofs.md"><strong>크로스 채널 게재 보내기</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="preview-test/proofs.md">
-<img alt="유효성 검사" src="assets/do-not-localize/menu-workflows.jpeg">
-</a>
-<div>
-<a href="preview-test/proofs.md"><strong>재구성된 워크플로 캔버스 인터페이스</strong></a>
 </div>
 <p>
 </td>

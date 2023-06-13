@@ -2,17 +2,17 @@
 audience: end-user
 title: Adobe Campaign Web을 사용하여 캠페인 만들기
 description: Adobe Campaign Web을 사용하여 크로스 채널 캠페인을 구축하는 방법 알아보기
-badge: 레이블=“Alpha” 유형=“Positive”
+badge: label="알파"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 18%
+source-wordcount: '290'
+ht-degree: 22%
 
 ---
 
 
-# 크로스 채널 캠페인 만들기 {#create-campaigns}
+# 첫 캠페인 만들어 보기 {#create-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
@@ -24,7 +24,9 @@ ht-degree: 18%
 >title="캠페인 속성"
 >abstract="캠페인 설정 및 메타데이터를 정의합니다."
 
-캠페인에는 워크플로우 및 독립 실행형 게재가 포함될 수 있습니다.
+캠페인에는 워크플로우 및 독립 실행형 게재가 포함될 수 있습니다. 속성, 일정, 작업, deliv 플러스 공정한 일정
+
+## 캠페인 만들기
 
 새 캠페인을 만들려면 다음 단계를 수행합니다.
 
@@ -32,7 +34,7 @@ ht-degree: 18%
 1. 다음 항목 선택 **템플릿** 을 입력하여 캠페인에 대한 레이블을 제공합니다. 캠페인 템플릿은 새 캠페인을 만드는 데 다시 사용할 수 있도록 사전 구성되어 있습니다. 클라이언트 콘솔에서 만들어집니다.
    [자세히 보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=ko).
 1. 필요한 경우 다음을 변경할 수 있습니다 **추가 옵션**: 내부 이름, 폴더, 할당자, 설명 및 특성.
-1. 다음을 정의합니다. **예약** 을 참조하십시오. 시작 날짜에 도달하면 캠페인이 시작됩니다. 시작 및 종료 날짜가 캠페인 목록에 표시되며 필터로 사용할 수 있습니다. 이 [섹션](gs-campaigns.md#access-campaigns)을 참조하십시오.
+1. 다음을 정의합니다. **예약** 을 참조하십시오. 시작 날짜에 도달하면 캠페인이 시작됩니다. 시작 및 종료 날짜가 캠페인 목록에 표시되며 필터로 사용할 수 있습니다. 이 [섹션](manage-campaigns.md#access-campaigns)을 참조하십시오.
 
    ![캠페인 속성 정의](assets/campaign-properties.png)
 
@@ -48,23 +50,13 @@ ht-degree: 18%
 
 1. 사용 **로그** 및 **보고** 캠페인의 성과를 분석하는 단추입니다.
 
-## 모니터링 및 추적 로그{#campaign-monitoring}
+## 캠페인 모니터링 및 추적{#campaign-monitoring}
 
 캠페인 모니터링은 캠페인을 분석하는 주요 단계입니다. 캠페인을 열고 **로그** 단추를 클릭합니다.
 
 다음을 클릭하여 전용 보고서를 볼 수도 있습니다. **보고서** 단추를 클릭합니다. 이 [섹션](../reporting/campaign-reports.md)을 참조하십시오.
 
-## 캠페인 복제 및 삭제
-
-캠페인을 복제하거나 삭제할 수 있습니다.
-
-* 캠페인 목록에서 줄임표 버튼을 클릭한 다음 을 선택합니다 **복제** 또는 **삭제**.
-* 캠페인 자체에서 **자세히** 버튼을 누른 다음 선택 **복제** 또는 **삭제**.
-
->[!NOTE]
->
->다음 **게재** 탭에는 캠페인에 연결된 모든 게재가 표시됩니다. 단, 워크플로우에서 생성된 게재는 해당 워크플로우에서 삭제할 수 없습니다. 워크플로우 컨텍스트에서 생성된 게재를 삭제하려면 워크플로우에서 게재 활동을 삭제해야 합니다.
-
++++WORKF ++화면
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}

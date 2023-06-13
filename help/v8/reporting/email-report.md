@@ -3,20 +3,22 @@ audience: end-user
 title: 이메일 게재 보고서
 description: 이메일 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: a8bc3317bc97d429ab6c9abdf5f503a5123f591e
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 8%
+source-wordcount: '1407'
+ht-degree: 7%
 
 ---
 
 # 이메일 게재 보고서 {#email-report}
 
+다음 **이메일 게재 보고서** 은 이메일 채널과 관련된 포괄적인 통찰력과 데이터를 제공합니다. 개별 게재의 성능, 효율성 및 결과에 대한 자세한 정보를 제공하여 포괄적인 개요를 제공합니다.
+
 ## 게재 요약 {#delivery-summary-email}
 
 * **[!UICONTROL 초기 타겟 대상 통계]** 테이블에는 수신자와 관련된 데이터가 표시됩니다.
 
-  ![](assets/reporting_email_1.png){align="left"}
+  ![](assets/reporting_email_1.png){align="left" zoomable="yes"}
 
   +++이메일 게재 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -96,6 +98,8 @@ ht-degree: 8%
 
 * **[!UICONTROL 유형별 오류 분류]** 및 **[!UICONTROL 도메인별 오류 분류]** 표 및 그래프에는 각 도메인에서 발생할 수 있는 오류에 대해 사용 가능한 데이터가 포함되어 있습니다.
 
+  이 보고서에 표시된 오류는 격리 프로세스를 트리거합니다. 격리 관리에 대한 자세한 내용은 다음을 참조하십시오. [격리 관리](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html)
+
   ![](assets/campaign_report_email_6.png)
 
   +++이메일 게재 보고서 지표에 대해 자세히 알아보십시오.
@@ -168,6 +172,8 @@ ht-degree: 8%
 
    * **[!UICONTROL 클릭수]**: 게재의 총 링크 클릭 수입니다.
 
+   * **[!UICONTROL 플랫폼 평균]** : 각 비율(반응성, 개별 클릭 및 누적된 클릭)에 표시되는 이 평균 비율은 이전 6개월 동안 전송된 게재에 대해 계산됩니다. 유형화가 동일한 게재 및 동일한 채널의 게재만 고려됩니다. 증명이 제외됩니다.
+
 +++
 
 * **[!UICONTROL 가장 많이 방문한 상위 10개 링크]** 그래프와 표에는 링크당 수신자 동작에 사용할 수 있는 데이터가 포함되어 있습니다.
@@ -188,7 +194,7 @@ ht-degree: 8%
 
 ## 사용자 활동 {#user-activities-email}
 
-* **[!UICONTROL 사용자 활동]** 차트 형식으로 열기 및 클릭 수를 보여줍니다.
+* **[!UICONTROL 사용자 활동]** 차트 형식으로 열기 및 클릭 수를 보여줍니다. 데이터를 타겟팅할 기간을 선택할 수 있습니다(마지막 날 또는 시간 또는 30분).
 
   ![](assets/reporting_email_10.png){align="center"}
 
@@ -202,7 +208,7 @@ ht-degree: 8%
 
 ## 추적 통계 {#tracking-statistics}
 
-* **[!UICONTROL 추적 통계]** 그래프는 열람 및 클릭에 대한 통계를 제공합니다.
+* **[!UICONTROL 추적 통계]** 그래프는 열람 및 클릭에 대한 통계를 제공합니다. 데이터를 타겟팅할 특정 시간대를 선택할 수 있는 옵션이 있습니다.
 
   ![](assets/reporting_email_11.png){align="center"}
 
@@ -217,10 +223,11 @@ ht-degree: 8%
 ## 열람 분류 {#breakdown-opens}
 
 이 보고서는 해당 기간에 대한 운영 체제, 장치 및 브라우저별 열기 분석을 보여 줍니다. 각 범주별로 두 개의 차트가 사용됩니다. 첫 번째 차트에는 컴퓨터 및 모바일 디바이스에서의 열람과 관련된 통계가 표시됩니다. 두 번째 차트에는 모바일 디바이스에서의 열람과 관련된 통계만 표시됩니다.
+유연하게 전환할 수 있습니다. **[!UICONTROL 수정 및 모바일]** 독점적으로 타겟팅하다 **[!UICONTROL 모바일 전용]** 을 참조하십시오.
 
 ![](assets/reporting_email_13.png){align="center"}
 
-## 핫클릭
+## 핫클릭 {#hotclicks}
 
 이 보고서에는 메시지 콘텐츠(HTML 및/또는 텍스트)와 각 링크의 링크 클릭 비율이 표시됩니다. 개인 맞춤화 블록 구독 취소 링크, 미러 페이지 링크 및 오퍼 링크는 총 누적 클릭 수 계산에 포함되지만 보고서에는 표시되지 않습니다.
 

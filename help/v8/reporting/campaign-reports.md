@@ -3,10 +3,10 @@ audience: end-user
 title: 캠페인 보고서
 description: 캠페인 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: 레이블=“Alpha” 유형=“Positive”
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: 1833f4eafced860592c8419938bc09fe0fe27351
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 1%
+source-wordcount: '1753'
+ht-degree: 2%
 
 ---
 
@@ -111,6 +111,8 @@ Campaign 보고서에 액세스하려면 캠페인 대시보드에서 보고서 
 
 * **[!UICONTROL 유형별 오류 분류]** 및 **[!UICONTROL 도메인별 오류 분류]** 표 및 그래프에는 각 도메인에서 발생할 수 있는 오류에 대해 사용 가능한 데이터가 포함되어 있습니다.
 
+  이 보고서에 표시된 오류는 격리 프로세스를 트리거합니다. 격리 관리에 대한 자세한 내용은 다음을 참조하십시오. [격리 관리](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html).
+
   ![](assets/campaign_report_email_6.png)
 
   +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
@@ -183,6 +185,7 @@ Campaign 보고서에 액세스하려면 캠페인 대시보드에서 보고서 
 
    * **[!UICONTROL 클릭수]**: 게재의 총 링크 클릭 수입니다.
 
+   * **[!UICONTROL 플랫폼 평균]** : 각 비율(반응성, 개별 클릭 및 누적된 클릭)에 표시되는 이 평균 비율은 이전 6개월 동안 전송된 게재에 대해 계산됩니다. 유형화가 동일한 게재 및 동일한 채널의 게재만 고려됩니다. 증명이 제외됩니다.
 +++
 
 * **[!UICONTROL 가장 많이 방문한 상위 10개 링크]** 그래프와 표에는 링크당 수신자 동작에 사용할 수 있는 데이터가 포함되어 있습니다.

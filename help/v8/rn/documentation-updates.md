@@ -7,7 +7,7 @@ badge: 레이블=“Alpha” 유형=“Positive”
 hide: true
 hidefromtoc: true
 source-git-commit: 995655c0d34489ad84b7e65eed7a9855e809d784
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '27'
 ht-degree: 100%
 

@@ -4,10 +4,10 @@ title: 오퍼 전송
 description: 오퍼 전송
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="알파"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 4fbab5ddf2f1c69fbe27d214aa3e349075054c10
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 99%
+source-wordcount: '545'
+ht-degree: 95%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Campaign v8 Web에서는 **[!UICONTROL 상호 작용]** 모듈을 사용�
 
    ![](assets/create-content-offers.png)
 
-1. 엔진의 오퍼 선택을 세분화하려면 오퍼가 정렬되어 있는 특정 **[!UICONTROL 오퍼 범주]**&#x200B;를 선택합니다.
+1. 엔진의 오퍼 선택을 세분화하려면 오퍼가 정렬되어 있는 특정 **[!UICONTROL 오퍼 범주]**&#x200B;를 선택합니다. 폴더를 선택하면 모든 하위 폴더가 자동으로 포함되며 제거할 수 없습니다. UI는 이 동작을 반영하지 않습니다.
 
    범주를 지정하지 않는 경우 **[!UICONTROL 오퍼 테마]**&#x200B;가 선택되어 있지 않으면 오퍼 엔진에서 환경에 포함된 모든 오퍼가 고려됩니다.
 

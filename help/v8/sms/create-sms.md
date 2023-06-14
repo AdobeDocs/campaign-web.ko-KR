@@ -4,10 +4,10 @@ title: SMS 게재 만들기
 description: Adobe Campaign Web을 사용하여 SMS를 만들고 전송하는 방법 알아보기
 badge: label="알파"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 4f7cedc4197a983d4d13294744e30836a0263d3a
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 94%
+source-wordcount: '313'
+ht-degree: 91%
 
 ---
 
@@ -52,7 +52,11 @@ ht-degree: 94%
 
 1. **[!UICONTROL 컨트롤 그룹 활성화]** 옵션을 켜서 게재의 영향을 측정하는 컨트롤 그룹을 설정하고 메시지를 수신한 모집단 비헤이비어와 메시지를 수신하지 않은 연락처 비헤이비어를 비교할 수 있습니다. [자세히 알아보기](../audience/control-group.md)
 
-1. **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하여 SMS 메시지의 콘텐츠 디자인을 시작합니다.
+1. **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하여 SMS 메시지의 콘텐츠 디자인을 시작합니다. [자세히 알아보기](content-sms.md)
+
+   ![](assets/sms_create_4.png)
+
+   이 화면에서 다음을 수행할 수도 있습니다. [콘텐츠 시뮬레이션](../preview-test/preview-test.md) 및 [오퍼 설정](../content/offers.md).
 
 1. 특정 일자 및 시간에 게재를 예약하려면 **[!UICONTROL 예약 활성화]** 옵션을 켭니다. 게재를 시작하면 수신자에 대해 정의한 정확한 일자와 시간에 메시지가 자동으로 전송됩니다.
 

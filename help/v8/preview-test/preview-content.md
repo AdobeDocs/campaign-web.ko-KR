@@ -4,9 +4,9 @@ title: 게재 콘텐츠 미리 보기
 description: Campaign 웹 UI를 사용하여 게재 콘텐츠를 미리 보는 방법 알아보기
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="알파"
-source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
+source-git-commit: 890141a65fcacd0362acda49ff4066961d5ea371
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '337'
 ht-degree: 10%
 
 ---
@@ -28,9 +28,9 @@ ht-degree: 10%
 
 1. 개인화된 콘텐츠를 미리 보는 데 사용할 프로필을 선택하려면 다음을 사용합니다.
 
-   * **[!UICONTROL 테스트 프로필 추가]** 이메일 및 SMS 메시지 미리 보기
+   * **[!UICONTROL 테스트 프로필 추가]** 이메일 및 SMS 게재 미리 보기
 
-   * **[!UICONTROL 구독자 추가]** 푸시 게재 미리 보기
+   * **[!UICONTROL 구독자 추가]** 푸시 알림 미리 보기용
 
 1. 테스트 프로필과 프로필을 결합하여 이메일 또는 SMS 메시지를 미리 볼 수 있습니다.
 

@@ -3,43 +3,47 @@ audience: end-user
 title: 푸시 알림 게재 보내기
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 보내는 방법 알아보기
 badge: label="알파"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: c24b53ee17e81805f0717682202d2d4154c96c1e
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 13%
+source-wordcount: '371'
+ht-degree: 0%
 
 ---
 
-# 푸시 알림 게재 미리 보기 및 보내기 {#send-push}
+# 푸시 알림 게재 미리 보기 및 보내기 {#send-push-delivery}
 
 ## 푸시 알림 게재 미리 보기 {#preview-push}
 
-메시지 콘텐츠를 정의했으면 테스트 프로필을 활용하여 메시지를 미리 보고 테스트할 수 있습니다. 개인화된 콘텐츠를 포함한 경우 테스트 프로필 데이터를 활용하여 이 콘텐츠가 메시지에 어떻게 표시되는지 검사할 수 있습니다. 이렇게 하면 메시지가 올바르게 렌더링되고 개인화된 요소가 적절하게 통합되는지 확인할 수 있습니다.
+메시지 콘텐츠를 정의했으면 테스트 구독자를 활용하여 메시지를 미리 보고 테스트할 수 있습니다. 개인화된 콘텐츠를 포함한 경우 테스트 프로필 데이터를 사용하여 이 콘텐츠가 메시지에 어떻게 표시되는지 검사할 수 있습니다. 이렇게 하면 메시지가 올바르게 렌더링되고 개인화된 요소가 적절하게 통합되는지 확인할 수 있습니다.
+
+SMS 게재를 미리 보는 주요 단계는 다음과 같습니다. 게재 미리 보기 방법에 대한 자세한 내용은에서 확인할 수 있습니다. [이 섹션](../preview-test/preview-content.md).
 
 1. 게재 콘텐츠 페이지에서 **[!UICONTROL 콘텐츠 시뮬레이션]** 개인화된 콘텐츠를 미리 볼 수 있습니다.
 
    ![](assets/push_send_1.png)
 
-1. **[!UICONTROL 테스트 프로필 추가]**&#x200B;를 클릭하여 하나 또는 여러 테스트 프로필 또는 프로필을 선택합니다.
+1. 클릭 **[!UICONTROL 구독자 추가]** 하나 이상의 프로필을 선택하여 푸시 알림 콘텐츠에서 해당 데이터를 미리 봅니다.
 
-1. 테스트 프로필이 선택되면 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
 
-   ![](assets/push_send_5.png)
+   <!--Once your test subscribers are selected, click **[!UICONTROL Select]**.
+    ![](assets/push_send_5.png)-->
 
-1. 왼쪽 창에서 개인화된 요소가 선택한 프로필의 데이터로 대체되면 이메일 미리보기를 찾을 수 있습니다.
+1. 오른쪽 창에는 개인화된 요소가 선택한 프로필의 데이터로 동적으로 대체되는 푸시 알림의 미리보기가 있습니다.
+
+   ![](assets/push_send_7.png)
 
 이제 푸시 알림을 검토하여 대상자에게 전송할 수 있습니다.
 
-## 푸시 알림 게재 테스트 {#test-send-sms}
+## 푸시 알림 게재 테스트 {#test-push}
 
 사용 **Adobe Campaign**, 푸시 알림을 기본 대상자에게 전송하기 전에 테스트할 수 있습니다. 이 단계는 게재의 유효성을 검사하고 문제를 식별하는 데 중요합니다.
 테스트 수신자는 링크, 이미지 및 개인화 설정과 같은 요소를 검토할 수 있으므로 최적의 성능을 보장하고 오류를 감지할 수 있습니다. 이 프로세스는 주요 대상에게 도달하기 전에 푸시 알림을 세분화하고 최적화하는 데 도움이 됩니다.
 
-![](../assets/do-not-localize/book.png) 테스트 푸시 알림을 보내는 방법 알아보기 [페이지](../preview-test/proofs.md).
+![](../assets/do-not-localize/book.png) 에서 테스트 푸시 알림을 전송하는 방법 알아보기 [이 섹션](../preview-test/proofs.md#subscribers).
 
 ![](assets/push_send_6.png)
 
-## 푸시 알림 게재 보내기 {#preview-send-push}
+## 푸시 알림 게재 보내기 {#send-push}
 
 1. 푸시 알림 콘텐츠를 개인화한 후 을(를) 클릭합니다. **[!UICONTROL 검토 및 보내기]** (으)로부터 **[!UICONTROL 게재]** 페이지를 가리키도록 업데이트하는 중입니다.
 
@@ -57,6 +61,6 @@ ht-degree: 13%
 
    ![](assets/push_send_4.png)
 
-게재가 전송되면 게재 페이지에서 KPI(주요 성능 지표) 데이터를 추적하고 로그 메뉴에서 데이터를 추적할 수 있습니다.
+게재가 전송되면 게재 페이지에서 KPI(주요 성과 지표) 데이터를 추적하고 **[!UICONTROL 로그]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
 이제 기본 제공 보고서를 통해 메시지의 영향을 측정할 수 있습니다. [자세히 알아보기](../reporting/push-report.md)

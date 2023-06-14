@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: 캠페인 개요
 hide: true
-source-git-commit: 26d9f35e724f3f692e7f75dd74da7d6fae4cb310
+source-git-commit: 304956e6de9f4f092e994c168f075f3555f53b38
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 71%
+source-wordcount: '352'
+ht-degree: 68%
 
 ---
 
@@ -48,11 +48,6 @@ ht-degree: 71%
             + [링크 스타일 정의](content/styling-links.md)
             + [인라인 스타일 속성 추가](content/inline-styling.md)
          + [오퍼 전송](content/offers.md)
-      + 이메일 미리보기 및 테스트 {#preview-test}
-         + [미리보기 및 테스트 정보](preview-test/preview-test.md)
-         + [이메일 콘텐츠 미리보기](preview-test/preview-content.md)
-         + [이메일 렌더링](preview-test/email-rendering.md)
-         + [테스트 이메일 전송](preview-test/proofs.md)
       + 이메일 전송 및 모니터링 {#monitor}
          + [이메일 준비 및 전송](monitor/prepare-send.md)
          + [게재 로그 모니터링](monitor/delivery-logs.md)
@@ -72,6 +67,11 @@ ht-degree: 71%
       + [개인화 추가](personalization/personalize.md)
       + [조건부 콘텐츠 추가](personalization/conditions.md)
       + [기본 제공 콘텐츠 블록 추가](personalization/content-blocks.md)
+   + 게재 미리 보기 및 테스트 {#preview-test}
+      + [미리보기 및 테스트 정보](preview-test/preview-test.md)
+      + [메시지 콘텐츠 미리보기](preview-test/preview-content.md)
+      + [테스트 게재 보내기](preview-test/proofs.md)
+      + [이메일 렌더링](preview-test/email-rendering.md)
 + 대상자 및 수신자 {#audiences}
    + [대상자 시작](audience/about-audiences.md)
    + [기존 대상자 선택](audience/add-audience.md)

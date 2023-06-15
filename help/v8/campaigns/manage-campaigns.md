@@ -3,10 +3,10 @@ audience: end-user
 title: 캠페인 시작하기
 description: 크로스 채널 캠페인 시작 방법 알아보기
 badge: label="알파"
-source-git-commit: 97322acd2a1cdb4584118875be0bf2fa0da4f82b
+source-git-commit: f8d3e227d99387cc82b8db2ab602cd58404ee7ee
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 8%
+source-wordcount: '416'
+ht-degree: 9%
 
 ---
 
@@ -56,4 +56,4 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->다음 **게재** 탭에는 캠페인에 연결된 모든 게재가 표시됩니다. 단, 워크플로우에서 생성된 게재는 해당 워크플로우에서 삭제할 수 없습니다. 워크플로우 컨텍스트에서 생성된 게재를 삭제하려면 워크플로우에서 게재 활동을 삭제해야 합니다.
+>다음 **게재** 탭에는 캠페인에 연결된 모든 게재가 표시됩니다. 단, 워크플로우에서 생성된 게재는 해당 워크플로우에서 삭제할 수 없습니다. 워크플로우 컨텍스트에서 생성된 게재를 삭제하려면 워크플로우에서 게재 활동을 삭제해야 합니다. [자세히 알아보기](../msg/gs-messages.md#delivery-delete)

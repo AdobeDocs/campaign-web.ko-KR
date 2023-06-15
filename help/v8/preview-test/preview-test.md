@@ -4,10 +4,10 @@ title: 이메일 미리보기 및 테스트 정보
 description: 이메일 미리보기 및 테스트 방법 알아보기
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="알파"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: 6edc22b574e3a655774a8ecb5e8e6c0fab5c89c8
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 24%
+source-wordcount: '179'
+ht-degree: 25%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 24%
 >id="acw_deliveries_simulate"
 >title="메시지 미리보기 및 테스트"
 >abstract="메시지가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html" text="게재 콘텐츠 미리보기"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html" text="테스트 메시지 보내기"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="게재 콘텐츠 미리보기"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-test.html" text="테스트 메시지 보내기"
 
 게재 콘텐츠가 정의되면 테스트 프로필을 사용하여 메시지를 보내기 전에 미리 보고 테스트할 수 있습니다.
 

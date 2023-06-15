@@ -4,17 +4,17 @@ title: 오퍼 전송
 description: 오퍼 전송
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="알파"
-source-git-commit: 9203d2bcfbe75b584ecab65637b5ded202435d29
+source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 47%
+source-wordcount: '640'
+ht-degree: 43%
 
 ---
 
 
 # 오퍼 전송 {#offers-content}
 
-Adobe Campaign v8 웹을 사용하면 콘솔에서 생성된 게재 오퍼를 **[!UICONTROL 상호 작용]** 모듈. 상호 작용 정보 및 콘솔에서 오퍼 카탈로그를 관리하는 방법에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html)를 참조하십시오{target="_blank"}.
+Adobe Campaign v8 웹을 사용하면 콘솔에서 생성된 게재 오퍼를 **[!UICONTROL 상호 작용]** 모듈. 상호 작용 및 콘솔에서 오퍼 카탈로그를 관리하는 방법에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
 게재와 함께 오퍼를 보내는 단계는 다음과 같습니다.
 
@@ -39,7 +39,7 @@ Adobe Campaign v8 웹을 사용하면 콘솔에서 생성된 게재 오퍼를 **
 
 1. 수신자에게 제안할 오퍼를 구성합니다.
 
-   먼저 오퍼 환경과 일치하는 **[!UICONTROL 오퍼 공간]**&#x200B;을 선택합니다. 에서 오퍼 공간을 만드는 방법을 알아봅니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}
+   먼저 오퍼 환경과 일치하는 **[!UICONTROL 오퍼 공간]**&#x200B;을 선택합니다. 에서 오퍼 공간을 만드는 방법을 알아봅니다. [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}
 
    ![](assets/create-content-offers.png)
 

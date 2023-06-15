@@ -3,9 +3,9 @@ audience: end-user
 title: 게재 워크플로우 활동 사용
 description: 게재 워크플로우 활동(이메일, 푸시, SMS)을 추가하는 방법을 알아봅니다
 badge: label="알파"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: d70c671e558613a27acc5252091e1e2836b675c7
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '425'
 ht-degree: 12%
 
 ---
@@ -34,9 +34,7 @@ Adobe Campaign 웹을 사용하면 이메일, SMS 및 푸시 채널에서 마케
 
    채널 활동 구성 왼쪽 창에서 다른 템플릿을 선택할 수 있습니다. 이전에 선택한 대상자가 채널과 호환되지 않는 경우 템플릿을 선택할 수 없습니다. 이 문제를 해결하려면 **대상자 작성** 활동을 통해 올바른 대상 매핑이 있는 대상을 선택할 수 있습니다. 다음에서 대상 매핑에 대해 자세히 알아보기: [Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
-1. 클릭 **게재 만들기**. 이제 게재를 게재 목록에서 사용할 수 있습니다.
-
-1. 독립형 게재를 만드는 것과 동일한 방법으로 메시지 설정 및 콘텐츠를 정의합니다. 콘텐츠를 예약하고 시뮬레이션할 수도 있습니다. [자세히 알아보기](../../msg/gs-messages.md)
+1. 클릭 **게재 만들기**. 독립형 게재를 만드는 것과 동일한 방법으로 메시지 설정 및 콘텐츠를 정의합니다. 콘텐츠를 예약하고 시뮬레이션할 수도 있습니다. [자세히 알아보기](../../msg/gs-messages.md)
 
 1. 워크플로우로 돌아가서 변경 사항을 저장합니다.
 

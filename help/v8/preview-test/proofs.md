@@ -4,9 +4,9 @@ title: 테스트 게재 보내기
 description: 테스트 게재를 정의하고 전송하는 방법을 알아봅니다
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="알파"
-source-git-commit: b4598f8c1574330bc14b3f100d4ab66190353843
+source-git-commit: 0e06e5aa066b7b8fd49352dee4b5f85d0fb6e1ce
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '907'
 ht-degree: 1%
 
 ---
@@ -49,11 +49,11 @@ ht-degree: 1%
 
    ![](assets/simulate-test-button-email.png)
 
-1. 다음에서 **[!UICONTROL 모드]** 드롭다운 목록에서 선택 **테스트 프로필** 테스트 이메일 또는 SMS 게재를 수신할 가상 수신자를 타겟팅하려면 다음을 수행하십시오.
-
-1. 이미 다음 프로필을 선택한 경우: [메시지 미리 보기](preview-content.md) 콘텐츠 시뮬레이션 화면에서 해당 프로필은 테스트 수신자로 미리 선택됩니다. 다음을 사용하여 선택 항목을 지우고 수신자를 추가할 수 있습니다. **[!UICONTROL 테스트 프로필 추가]** 단추를 클릭합니다.
+1. 다음에서 **[!UICONTROL 모드]** 드롭다운 목록에서 선택 **[!UICONTROL 테스트 프로필]** 테스트 이메일 또는 SMS 게재를 수신할 가상 수신자를 타겟팅하려면 다음을 수행하십시오.
 
    ![](assets/simulate-profile-mode.png)
+
+1. 이미 다음 프로필을 선택한 경우: [메시지 미리 보기](preview-content.md) 콘텐츠 시뮬레이션 화면에서 해당 프로필은 테스트 수신자로 미리 선택됩니다. 다음을 사용하여 선택 항목을 지우고 수신자를 추가할 수 있습니다. **[!UICONTROL 테스트 프로필 추가]** 단추를 클릭합니다.
 
    >[!NOTE]
    >
@@ -73,17 +73,21 @@ ht-degree: 1%
 
 1. 다음을 클릭합니다. **[!UICONTROL 테스트]** 단추를 클릭합니다.
 
-   >[!NOTE]
-   >
-   >이미 다음 프로필을 선택한 경우: [게재 미리 보기](preview-content.md)왼쪽 창에 나열됩니다.
-
    ![](assets/simulate-test-button-email.png)
 
-1. 다음에서 **[!UICONTROL 모드]** 드롭다운 목록에서 선택 **주 대상에서 대체** 기존 프로필의 데이터를 표시하는 동안 특정 이메일 주소 또는 전화번호에 테스트를 보냅니다.
+1. 다음에서 **[!UICONTROL 모드]** 드롭다운 목록에서 선택 **[!UICONTROL 주 대상에서 대체]** 기존 프로필의 데이터를 표시하는 동안 특정 이메일 주소 또는 전화번호에 테스트를 보냅니다.
+
+   >[!CAUTION]
+   >
+   >다음을 선택하지 않은 경우 [대상자](../audience/about-audiences.md) 게재를 위해 **[!UICONTROL 주 대상에서 대체]** 옵션이 회색으로 표시되고 대체 프로필을 선택할 수 없습니다.
 
 1. 다음을 클릭합니다. **[!UICONTROL 주소 추가]** 버튼을 클릭하고 테스트 게재를 받을 이메일 주소 또는 전화 번호를 지정합니다.
 
-   이메일 주소 또는 전화 번호를 입력할 수 있습니다. 이렇게 하면 의 사용자가 아닌 수신자에게도 테스트 게재를 보낼 수 있습니다. [!DNL Adobe Campaign].
+   ![](assets/simulate-add-substitution-address.png)
+
+   >[!NOTE]
+   >
+   >이메일 주소 또는 전화 번호를 입력할 수 있습니다. 이렇게 하면 의 사용자가 아닌 수신자에게도 테스트 게재를 보낼 수 있습니다. [!DNL Adobe Campaign].
 
 1. 대용으로 사용할 데이터베이스에서 프로필을 선택합니다. 다음 작업을 수행할 수도 있습니다 [!DNL Adobe Campaign] 임의 프로필을 선택합니다. 선택한 프로필의 프로필 데이터가 테스트 게재에 표시됩니다.
 
@@ -105,7 +109,9 @@ ht-degree: 1%
 
    ![](assets/simulate-test-button-push.png)
 
-1. 다음에 대한 구독자를 이미 선택한 경우: [게재 미리 보기](preview-content.md) 콘텐츠 시뮬레이션 화면에서 이러한 프로필은 테스트 구독자로 미리 선택됩니다. 전용 버튼을 사용하여 선택 사항을 지우고 가입자를 추가할 수 있습니다.
+1. 다음에 대한 구독자를 이미 선택한 경우: [게재 미리 보기](preview-content.md) 콘텐츠 시뮬레이션 화면에서 이러한 프로필은 테스트 구독자로 미리 선택됩니다.
+
+   전용 버튼을 사용하여 선택 사항을 지우고 가입자를 추가할 수 있습니다.
 
    ![](assets/simulate-test-subscribers.png)
 

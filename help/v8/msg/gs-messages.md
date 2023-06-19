@@ -4,14 +4,20 @@ title: Campaign v8 Web에서 메시지 및 게재 시작하기
 description: Campaign Web으로 게재 작업을 수행하고 메시지를 전송하는 방법 알아보기
 badge: label="알파"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 22134d69721796f43bab74ccf411300d411a5d90
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 82%
+source-wordcount: '1119'
+ht-degree: 83%
 
 ---
 
 # 메시지 시작{#gs-messages}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_list"
+>title="게재"
+>abstract="게재 목록을 탐색합니다. 상태, 연락처 및 수정 일자와 주요 KPI를 볼 수 있습니다. 상태, 연락일 또는 채널별로 목록을 필터링할 수 있습니다. “게재 만들기” 버튼을 클릭하여 새 게재를 추가합니다. 콘텐츠, 대상자 및 세부 정보를 보려면 게재를 선택합니다."
+
 
 Adobe Campaign에서는 이메일, SMS, 푸시 알림 등 크로스 채널 캠페인을 보내고, 다양한 전용 보고서를 사용하여 캠페인의 효과를 측정할 수 있습니다.
 
@@ -52,6 +58,7 @@ Adobe Campaign v8에는 이메일, SMS 및 모바일 앱과 같은 게재 채널
 
 
 ## 게재 만들기 {#create-delivery}
+
 
 **[!UICONTROL 게재]** 왼쪽 메뉴에서 독립 실행형 게재를 만들거나, **[!UICONTROL 캠페인]** 왼쪽 메뉴의 마케팅 캠페인 컨텍스트에서 게재를 만들 수 있습니다.
 

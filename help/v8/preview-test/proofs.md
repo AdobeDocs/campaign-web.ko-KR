@@ -4,14 +4,19 @@ title: 테스트 게재 보내기
 description: 테스트 게재를 정의하고 전송하는 방법을 알아봅니다
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="알파"
-source-git-commit: 0e06e5aa066b7b8fd49352dee4b5f85d0fb6e1ce
+source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 1%
+source-wordcount: '930'
+ht-degree: 4%
 
 ---
 
 # 테스트 게재 보내기 {#send-test-deliveries}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_mode"
+>title="미리보기 모드"
+>abstract="기본 대상에 테스트 모집단을 포함하여 메시지를 미리 보고 테스트합니다."
 
 **[!UICONTROL Adobe Campaign]** 을(를) 사용하면 메시지를 주요 대상자에게 보내기 전에 테스트할 수 있습니다.
 
@@ -20,6 +25,15 @@ ht-degree: 1%
 테스트 수신자는 링크, 옵트아웃 링크, 이미지 또는 미러 페이지와 같은 다양한 요소를 확인할 수 있을 뿐만 아니라 렌더링, 콘텐츠, 개인화 설정 및 게재 구성의 오류를 감지할 수 있습니다.
 
 ## 테스트 수신자 선택 {#test-recipients}
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_option_test_target"
+>title="테스트 모집단"
+>abstract="테스트 모집단 모드를 선택합니다."
+
+
 
 사용 중인 채널에 따라 세 가지 유형의 수신자에게 테스트 메시지를 보낼 수 있습니다.
 
@@ -38,6 +52,7 @@ ht-degree: 1%
 테스트 게재의 수신자를 선택하려면 사용할 프로필 유형에 따라 아래 단계를 수행합니다.
 
 ### 테스트 프로필 {#test-profiles}
+
 
 1. 이메일 또는 SMS 게재의 콘텐츠 편집 화면으로 이동한 다음 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다.
 

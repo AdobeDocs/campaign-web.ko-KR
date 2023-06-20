@@ -7,7 +7,7 @@ exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 81%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="재구성된 워크플로 캔버스 인터페이스"
->abstract="포괄적인 그래픽 캔버스를 통해 세그멘테이션, 캠페인 실행 등과 같은 프로세스를 손쉽게 디자인할 수 있습니다. 이 고급 도구를 사용하면 워크플로우를 간소화하고 캠페인을 향상시킬 수 있습니다."
+>abstract="포괄적인 그래픽 캔버스를 사용하여 세분화, 캠페인 실행 등과 같은 프로세스를 쉽게 디자인할 수 있습니다. 이 고급 도구를 간편하게 사용할 수 있는 워크플로를 간소화하고 캠페인을 개선할 수 있습니다."
 
 ## 워크플로란?
 
@@ -34,9 +34,9 @@ Adobe Campaign의 포괄적인 그래픽 환경을 통해 세분화, 캠페인 �
 
 다음은 Adobe Campaign에서 워크플로를 사용하는 방법에 대한 몇 가지 예입니다.
 
-* 비활성 고객을 위한 후속 캠페인을 시작합니다.
-* 서비스의 모든 신규 가입자에게 환영 이메일을 보냅니다.
-* 고객의 충성도 프로그램 상태 또는 관심 영역을 기반으로 크로스 채널 게재를 개인화합니다.
+* 비활성 고객을 위해 추가 캠페인을 시작하고,
+* 서비스의 모든 신규 구독자에게 시작 이메일을 보내고,
+* 고객의 충성도 프로그램 상태나 관심 영역에 따라 크로스 채널 게재를 개인화합니다.
 
 ## 더 자세히 알아보기
 
@@ -45,7 +45,7 @@ Adobe Campaign의 포괄적인 그래픽 환경을 통해 세분화, 캠페인 �
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="access-monitor.md">
-<img alt="워크플로우 액세스 및 관리" src="assets/do-not-localize/workflow-access.jpeg">
+<img alt="워크플로 액세스 및 관리" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
 <a href="access-monitor.md"><strong>워크플로 액세스 및 관리</strong></a>

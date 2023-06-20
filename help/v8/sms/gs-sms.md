@@ -7,7 +7,7 @@ exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 43%
+ht-degree: 86%
 
 ---
 
@@ -17,11 +17,11 @@ SMS 게재를 사용하여 실용적이고 효율적으로 문자 메시지를 �
 
 SMS 채널은 SMS 게재를 만드는 세 가지 메서드를 제공합니다.
 
-* **[!UICONTROL 워크플로]**: SMS 활동을 추가하고, 기본 설정을 정의하고, 더 큰 자동화 시퀀스 내에서 SMS 콘텐츠를 구성합니다.
+* **[!UICONTROL 워크플로]**: SMS 활동을 추가하고, 기본 설정을 정의하고, 대형 자동화 시퀀스에서 SMS 콘텐츠를 작성합니다.
 
-* **[!UICONTROL 캠페인]**: SMS 게재를 전용 캠페인에 통합하여 타겟 대상자 및 게재 일정과 같은 매개 변수를 설정합니다.
+* **[!UICONTROL 캠페인]**: SMS 게재를 전용 캠페인에 통합하여 대상자와 게재 일정 등 매개변수를 설정합니다.
 
-* **독립형 게재**: 워크플로우나 캠페인 없이 고객과의 신속하고 직접적인 커뮤니케이션을 위해 개별 SMS 게재를 만들 수 있습니다.
+* **독립 실행형 게재**: 개별 SMS 게재를 만들어 워크플로나 캠페인 없이도 고객과 빠르고 직접적으로 통신할 수 있습니다.
 
 ![](../assets/do-not-localize/book.png) 에서 SMS 채널을 구성하는 방법 알아보기 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html){target="_blank"}.
 
@@ -30,7 +30,7 @@ SMS 채널은 SMS 게재를 만드는 세 가지 메서드를 제공합니다.
 <a href="create-sms.md">
 <img alt="리드" src="assets/do-not-localize/create_sms.png">
 </a>
-<div><a href="create-sms.md"><strong>SMS 게재 만들기 </strong>
+<div><a href="create-sms.md"><strong>SMS 게재 만들기</strong>
 </div>
 <p>
 </td>

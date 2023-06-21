@@ -3,14 +3,14 @@ audience: end-user
 title: SMS 게재 보내기
 description: Adobe Campaign 웹으로 SMS를 보내는 방법 알아보기
 badge: label="알파"
-source-git-commit: c24b53ee17e81805f0717682202d2d4154c96c1e
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
-# SMS 게재 미리 보기 및 보내기 {#send-sms-delivery}
+# SMS 게재 미리보기 및 전송 {#send-sms-delivery}
 
 ## SMS 게재 미리 보기{#preview-sms}
 
@@ -41,7 +41,7 @@ SMS 게재를 미리 보는 주요 단계는 다음과 같습니다. 게재 미�
 
 테스트 SMS를 보내는 것은 게재의 품질과 효과를 확인하는 중요한 단계입니다. 테스트 수신자는 링크, 옵트아웃 링크 및 이미지와 같은 다양한 요소를 검토할 수 있을 뿐만 아니라 렌더링, 콘텐츠, 개인화 설정 및 SMS 구성에서 발생하는 오류를 식별할 수 있습니다. 이 프로세스는 주요 대상에게 도달하기 전에 SMS를 철저히 평가하고 최적화하는 데 도움이 됩니다.
 
-![](../assets/do-not-localize/book.png) 에서 테스트 SMS를 보내는 방법 알아보기 [이 섹션](../preview-test/proofs.md).
+![](../assets/do-not-localize/book.png) 에서 테스트 SMS를 보내는 방법 알아보기 [이 섹션](../preview-test/test-deliveries.md).
 
 ![](assets/sms_send_6.png)
 

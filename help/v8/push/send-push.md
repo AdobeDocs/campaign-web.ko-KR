@@ -3,14 +3,14 @@ audience: end-user
 title: 푸시 알림 게재 보내기
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 보내는 방법 알아보기
 badge: label="알파"
-source-git-commit: c24b53ee17e81805f0717682202d2d4154c96c1e
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 푸시 알림 게재 미리 보기 및 보내기 {#send-push-delivery}
+# 푸시 알림 게재 미리보기 및 전송 {#send-push-delivery}
 
 ## 푸시 알림 게재 미리 보기 {#preview-push}
 
@@ -39,7 +39,7 @@ SMS 게재를 미리 보는 주요 단계는 다음과 같습니다. 게재 미�
 사용 **Adobe Campaign**, 푸시 알림을 기본 대상자에게 전송하기 전에 테스트할 수 있습니다. 이 단계는 게재의 유효성을 검사하고 문제를 식별하는 데 중요합니다.
 테스트 수신자는 링크, 이미지 및 개인화 설정과 같은 요소를 검토할 수 있으므로 최적의 성능을 보장하고 오류를 감지할 수 있습니다. 이 프로세스는 주요 대상에게 도달하기 전에 푸시 알림을 세분화하고 최적화하는 데 도움이 됩니다.
 
-![](../assets/do-not-localize/book.png) 에서 테스트 푸시 알림을 전송하는 방법 알아보기 [이 섹션](../preview-test/proofs.md#subscribers).
+![](../assets/do-not-localize/book.png) 에서 테스트 푸시 알림을 전송하는 방법 알아보기 [이 섹션](../preview-test/test-deliveries.md#subscribers).
 
 ![](assets/push_send_6.png)
 

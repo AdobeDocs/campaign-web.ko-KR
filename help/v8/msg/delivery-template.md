@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 8d026a247ffe9a3568f589403e82562c51b44a49
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 21%
@@ -150,7 +150,6 @@ ht-degree: 21%
    > * [푸시 알림 채널](../push/gs-push.md)
    > * [SMS 채널](../sms/create-sms.md)
 
-
 1. 다음을 클릭합니다. **[!UICONTROL 리뷰]** 단추를 클릭하여 템플릿을 저장하고 검토합니다. 모든 설정을 편집하고, 삭제하고, 복제할 수 있습니다.
 
 1. 필요한 경우 템플릿 렌더링을 테스트합니다. [자세히 알아보기](#test-template)
@@ -171,7 +170,7 @@ ht-degree: 21%
 
 1. 다른 프로필 간에 전환하여 선택한 프로필에 따라 개인화된 메시지 표현을 가져옵니다.
 
-   <!--[Learn moreon test profiles](../preview-test/proofs.md#recipients)-->
+   <!--[Learn moreon test profiles](../preview-test/test-deliveries.md#recipients)-->
 
    확대/축소 수준을 조정하고 데스크탑 또는 모바일 보기를 선택할 수도 있습니다.
 

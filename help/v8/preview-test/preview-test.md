@@ -4,9 +4,9 @@ title: 이메일 미리보기 및 테스트 정보
 description: 이메일 미리보기 및 테스트 방법 알아보기
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="알파"
-source-git-commit: 6edc22b574e3a655774a8ecb5e8e6c0fab5c89c8
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '180'
 ht-degree: 25%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 25%
 이렇게 하려면, [!DNL Adobe Campaign] 을 통해 다음을 수행할 수 있습니다.
 
 * [메시지 콘텐츠 및 개인화 미리 보기](preview-content.md)
-* [테스트 게재 보내기](proofs.md) 테스트 및 유효성 검사를 위해 특정 수신자 또는 구독자에게
+* [테스트 게재 보내기](test-deliveries.md) (증명) 테스트 및 유효성 검사를 위해 특정 수신자 또는 구독자에게
 * 자주 사용하는 데스크탑, 모바일 및 웹 기반 클라이언트에서 [이메일 렌더링 확인](email-rendering.md)
 
 이러한 작업은 다음을 사용하여 수행할 수 있습니다 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼: 게재의 콘텐츠 편집 화면에서 액세스할 수 있습니다.

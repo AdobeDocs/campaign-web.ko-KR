@@ -4,7 +4,7 @@ title: 게재 콘텐츠 미리 보기
 description: Campaign 웹 UI를 사용하여 게재 콘텐츠를 미리 보는 방법 알아보기
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="알파"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 9%
@@ -55,8 +55,8 @@ ht-degree: 9%
 1. 이메일 게재의 경우 다음을 조정할 수 있습니다. **[!UICONTROL 확대/축소 레벨]** 오른쪽 상단의 전용 아이콘을 사용하여 데스크탑 또는 모바일 디바이스에서 콘텐츠를 미리 볼 수 있습니다.
 
 1. 다음에서 **[!UICONTROL 시뮬레이트]** 화면 또한 다음 작업을 수행할 수 있습니다.
-   * 유효성 검사를 위해 특정 수신자에게 테스트 게재 보내기 - [자세히 알아보기](proofs.md)
-   * 전송된 테스트 게재의 로그에 액세스 - [자세히 알아보기](proofs.md#access-proofs)
+   * 유효성 검사를 위해 특정 수신자에게 테스트 게재 보내기 - [자세히 알아보기](test-deliveries.md)
+   * 전송된 테스트 게재의 로그에 액세스 - [자세히 알아보기](test-deliveries.md#access-proofs)
    * 이메일의 경우, 방문 빈도가 높은 이메일 클라이언트의 메시지 콘텐츠 렌더링 을 확인합니다. [자세히 알아보기](email-rendering.md)
 
 

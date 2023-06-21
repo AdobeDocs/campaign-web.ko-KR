@@ -3,7 +3,7 @@ audience: end-user
 title: 푸시 알림 게재 보내기
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 보내는 방법 알아보기
 badge: label="알파"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 2%
@@ -49,7 +49,7 @@ SMS 게재를 미리 보는 주요 단계는 다음과 같습니다. 게재 미�
 
    ![](assets/push_send_2.png)
 
-1. 클릭 **[!UICONTROL 준비]** 진행 상황 및 통계를 모니터링하고,
+1. 클릭 **[!UICONTROL 준비]** 진행 상황 및 통계를 모니터링합니다.
 
    오류가 발생하는 경우 오류에 대한 자세한 내용은 로그 메뉴를 참조하십시오.
 

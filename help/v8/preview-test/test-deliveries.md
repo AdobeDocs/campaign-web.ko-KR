@@ -4,9 +4,9 @@ title: 테스트 게재 보내기
 description: 테스트 게재를 정의하고 전송하는 방법을 알아봅니다
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="알파"
-source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
+source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '941'
 ht-degree: 4%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 4%
 
 의 기존 프로필에서 데이터를 표시하는 동안 특정 이메일 주소 또는 전화번호에 테스트 이메일 또는 SMS를 보내려면 [!DNL Campaign] 데이터베이스, 대체 프로파일을 사용합니다.
 
-1. 테스트를 보내기 전에 게재 대상을 정의했는지 확인하십시오. [자세히 알아보기](../audience/about-audiences.md)
+1. 테스트를 보내기 전에 게재 대상 대상을 정의했는지 확인하십시오. [자세히 알아보기](../audience/about-audiences.md)
 
 1. 이메일 또는 SMS 게재의 콘텐츠 편집 화면으로 이동한 다음 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다.
 
@@ -104,7 +104,7 @@ ht-degree: 4%
    >
    >이메일 주소 또는 전화 번호를 입력할 수 있습니다. 이렇게 하면 의 사용자가 아닌 수신자에게도 테스트 게재를 보낼 수 있습니다. [!DNL Adobe Campaign].
 
-1. 대용으로 사용할 데이터베이스에서 프로필을 선택합니다. 다음 작업을 수행할 수도 있습니다 [!DNL Adobe Campaign] 임의 프로필을 선택합니다. 선택한 프로필의 프로필 데이터가 테스트 게재에 표시됩니다.
+1. 대용으로 사용할 게재를 위해 정의한 대상에서 프로필을 선택합니다. 다음 작업을 수행할 수도 있습니다 [!DNL Adobe Campaign] 대상에서 임의 프로필을 선택합니다. 선택한 프로필의 프로필 데이터가 테스트 게재에 표시됩니다.
 
 1. 수신자를 확인하고 작업을 반복하여 이메일 주소 또는 전화 번호를 필요한 만큼 추가합니다.
 

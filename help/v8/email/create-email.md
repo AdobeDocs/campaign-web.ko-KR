@@ -4,7 +4,7 @@ title: 첫 이메일 보내기
 description: Campaign Web UI를 사용하여 첫 이메일을 전송하는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="알파"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: 09a05a886b0ef509cf0e0178609315264c8f56a1
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 89%
@@ -18,7 +18,6 @@ ht-degree: 89%
 >id="acw_homepage_card2"
 >title="이메일 시작"
 >abstract="템플릿에서 시작하거나 Adobe Campaign의 새로운 이메일 디자이너를 사용하여 하나의 코드 행을 작성하지 않고도 이메일을 만들 수 있습니다. 이메일 디자이너를 사용하여 콘텐츠를 만들고 미리 보고 테스트하고, 전체 사용 사례에서 기존 대상자에게 이메일을 전송하는 방법에 대해 알아봅니다."
-
 
 첫 번째 타겟팅된 이메일을 작성하는 방법에 대해 알아봅니다. 이 사용 사례에서는 특정 일자에 실버 및 골드 충성도 회원에게 이메일을 전송하도록 예약합니다.
 
@@ -93,12 +92,6 @@ ht-degree: 89%
 
    ![](assets/select-template.png)
 
-   <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
-
-    If your folder contains assets, choose the instance and folder where they should be stored then click **[!UICONTROL Import]**. (+ link to doc on assets?)
-
-    ![](assets/import-folder.png)-->
-
 1. 템플릿을 선택하면 해당 템플릿이에 표시됩니다. [이메일 디자이너](../content/create-email-content.md)필요한 편집을 하고 개인화를 추가할 수 있는 곳입니다.
 
    예를 들어 이메일 제목에 개인화를 추가하려면 구성 요소 블록을 선택하고 **[!UICONTROL 개인화 추가]**&#x200B;를 클릭하십시오.
@@ -169,9 +162,8 @@ ht-degree: 89%
 
    ![](assets/preview.png)
 
-   <!-- !NOTE
-    >
-    >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering-->
+   <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
+    -->
 
 1. 이메일의 테스트 버전을 전송하려면 **[!UICONTROL 테스트]** 버튼을 클릭한 다음 사용할 모드를 선택합니다.
 

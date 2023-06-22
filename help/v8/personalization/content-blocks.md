@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="알파"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: d3ee5ac080e810cf6d9db6240f88079490d4af9a
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 58%
+source-wordcount: '437'
+ht-degree: 59%
 
 ---
 
@@ -34,10 +34,8 @@ Adobe Campaign은 사전 구성된 콘텐츠 블록 목록을 제공합니다. �
 
 내장된 콘텐츠 블록은 다음과 같습니다.
 
-* **[!UICONTROL Purl 개인화 승인]**
 * **[!UICONTROL 기본 옵트아웃 배너]**
 * **[!UICONTROL Adobe Campaign에 의해 활성화됨]**: “Adobe Campaign에서 활성화됨” 로고를 삽입합니다.
-* **[!UICONTROL Facebook 사전 입력]**
 * **[!UICONTROL 고유 명사 서식 지정 기능]**: **[!UICONTROL toSmartCase]** 자바스크립트 기능을 생성합니다. 이 기능은 각 단어의 첫 글자를 대문자로 바꿉니다.
 * **[!UICONTROL 인사말]**: 수신자의 전체 이름과 함께 쉼표가 뒤따르는 인사말을 삽입합니다. 예: “안녕하세요 John Doe 님,”
 * **[!UICONTROL 로고 삽입]**: 인스턴스 설정에 정의된 로고를 삽입합니다.

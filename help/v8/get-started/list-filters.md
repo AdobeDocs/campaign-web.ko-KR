@@ -3,10 +3,10 @@ audience: end-user
 title: 목록 찾아보기, 검색 및 필터링
 description: Campaign Web v8 목록을 찾아보고 필터링하는 방법 살펴보기
 badge: label="알파"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 065108e7ac4d682dc3f3de63303be8353b145757
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 93%
+source-wordcount: '416'
+ht-degree: 91%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="규칙 빌더 고급 필드"
->abstract="고급 필드에서 열을 구성합니다."
+>abstract="고급 필드로 고급 필터를 구성합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"

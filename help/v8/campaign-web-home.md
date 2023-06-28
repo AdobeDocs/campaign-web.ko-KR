@@ -3,11 +3,11 @@ keywords: Campaign Web;홈;인기 있는 주제
 description: Campaign Web v8 도움말 센터
 title: Adobe Campaign Web v8 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-badge: label="알파"
+badge: 레이블=“Alpha”
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '482'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Campaign은 이제 개선된 사용 가능성, 접근성 및 새로운 디자인
 
 수신자에 대해 수집한 정보를 기반으로 콘텐츠를 사용자 정의합니다. 다이내믹 콘텐츠를 활용하면 콘텐츠를 더 매력적으로 만들 수 있고 콘텐츠를 읽을 가능성이 높아집니다. 메시지 개인화 이름, 관심 분야, 거주지, 구매 제품 등의 프로필 데이터를 활용하여 각 특정 수신자에게 게재합니다. 조건부 콘텐츠 만들기 각 수신자에 맞게 게재를 조정하고 고객에 대한 정보를 기반으로 특정 고객과 관련된 콘텐츠만 표시합니다.
 
-**크로스채널 캠페인 만들기**
+**크로스 채널 캠페인 만들기**
 
 Adobe Campaign을 사용하여 크로스 채널 캠페인을 만듭니다. 마케팅 캠페인 오케스트레이션 기능을 통해 고객 데이터를 관리 및 중앙 집중화하고, 고객 커뮤니케이션 및 캠페인을 디자인하고, 다양한 채널에서 맞춤형 경험을 만들 수 있습니다. 이 버전에서는 이메일, 푸시 및 SMS 채널을 사용할 수 있습니다. 열람 수, 클릭 수와 전달 수가 포함된 세부 보고서를 사용하여 게재의 효과를 측정합니다.
 
@@ -85,7 +85,7 @@ Adobe Campaign Web을 통해 무엇을 할 수 있는지 이해했으므로 이�
 <img alt="유효성 검사" src="assets/do-not-localize/menu-campaign.jpeg">
 </a>
 <div>
-<a href="campaigns/gs-campaigns.md"><strong>크로스채널 캠페인 만들기</strong></a>
+<a href="campaigns/gs-campaigns.md"><strong>크로스 채널 캠페인 만들기</strong></a>
 </div>
 <p>
 </td>

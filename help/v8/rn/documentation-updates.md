@@ -3,13 +3,13 @@ audience: end-user
 title: Campaign Web v8 설명서 업데이트 정보
 description: Campaign Web v8 설명서 업데이트 정보
 exl-id: d65fcd92-ce3c-49ff-9dce-16a41d0558bf
-badge: label="알파"
+badge: 레이블=“Alpha”
 hide: true
 hidefromtoc: true
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '25'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 

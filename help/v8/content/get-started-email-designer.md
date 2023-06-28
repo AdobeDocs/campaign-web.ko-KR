@@ -2,11 +2,11 @@
 audience: end-user
 title: 이메일 콘텐츠 편집
 description: Campaign Web UI의 이메일 디자이너를 사용하여 콘텐츠 작성을 시작하는 방법에 대해 알아봅니다.
-badge: label="알파"
+badge: 레이블=“Alpha”
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '380'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

@@ -3,11 +3,11 @@ audience: end-user
 title: Campaign v8 Web 시작하기
 description: Campaign v8 Web 시작하기
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-badge: label="알파"
+badge: 레이블=“Alpha”
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

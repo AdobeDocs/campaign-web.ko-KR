@@ -6,9 +6,9 @@ description: Campaign v8 Web 설명서
 breadcrumb-title: 캠페인 개요
 hide: true
 source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '352'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 93%
 + Adobe Campaign 시작하기 {#start}
    + [시작하기](get-started/get-started.md)
    + [인터페이스 살펴보기](get-started/user-interface.md)
-   + [목록 검색 및 필터링](get-started/list-filters.md)
+   + [목록 찾아보기, 검색 및 필터링](get-started/list-filters.md)
 + 메시지 및 게재 {#msg}
    + [메시지 시작](msg/gs-messages.md)
    + [게재 템플릿 작업](msg/delivery-template.md)
@@ -67,13 +67,13 @@ ht-degree: 93%
       + [조건부 콘텐츠 추가](personalization/conditions.md)
       + [내장된 콘텐츠 블록 추가](personalization/content-blocks.md)
    + [오퍼 전송](content/offers.md)
-   + 게재 미리 보기 및 테스트 {#preview-test}
+   + 게재 미리보기 및 테스트 {#preview-test}
       + [미리보기 및 테스트 정보](preview-test/preview-test.md)
       + [메시지 콘텐츠 미리보기](preview-test/preview-content.md)
-      + [테스트 게재 보내기](preview-test/test-deliveries.md)
+      + [테스트 게재 전송](preview-test/test-deliveries.md)
       + [이메일 렌더링](preview-test/email-rendering.md)
 + 대상자 및 수신자 {#audiences}
-   + [대상자 시작](audience/about-audiences.md)
+   + [대상자 시작하기](audience/about-audiences.md)
    + [기존 대상자 선택](audience/add-audience.md)
    + [규칙 빌더를 사용하여 대상자 정의](audience/segment-builder.md)
    + [파일에서 이메일 대상자 로드](audience/file-audience.md)

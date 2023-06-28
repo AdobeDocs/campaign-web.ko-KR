@@ -2,16 +2,16 @@
 audience: end-user
 title: 목록 찾아보기, 검색 및 필터링
 description: Campaign Web v8 목록을 찾아보고 필터링하는 방법 살펴보기
-badge: label="알파"
+badge: 레이블=“Alpha”
 source-git-commit: 065108e7ac4d682dc3f3de63303be8353b145757
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '416'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
-# 목록 검색 및 필터링 {#list-screens}
+# 목록 찾아보기, 검색 및 필터링 {#list-screens}
 
 왼쪽 탐색 메뉴의 대부분 링크에는 **게재** 또는 **캠페인** 목록 등 오브젝트 목록이 표시됩니다. 일부 목록 화면은 읽기 전용입니다. 아래 설명대로 목록 표시를 사용자 정의하고 해당 목록을 필터링할 수 있습니다.
 
@@ -69,7 +69,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="규칙 빌더 고급 필드"
->abstract="고급 필드로 고급 필터를 구성합니다."
+>abstract="고급 필드에서 고급 필터를 구성합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -79,7 +79,7 @@ ht-degree: 91%
 
 기본적으로 속성 목록과 필터 구성 화면에는 가장 일반적인 속성만 표시됩니다. 데이터 스키마의 `advanced` 속성으로 설정된 속성은 구성 화면에서 숨겨집니다.
 
-활성화 **고급 속성 표시** 현재 목록에 사용 가능한 모든 속성을 보려면 전환하십시오. 속성 목록이 즉시 업데이트됩니다.
+**고급 속성 표시** 토글을 활성화하여 현재 목록에 사용 가능한 모든 속성을 확인합니다. 속성 목록은 즉시 업데이트됩니다.
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}

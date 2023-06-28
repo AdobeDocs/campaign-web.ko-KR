@@ -3,11 +3,11 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="알파"
+badge: 레이블=“Alpha”
 source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1318'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

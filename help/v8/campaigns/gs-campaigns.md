@@ -2,12 +2,12 @@
 audience: end-user
 title: 캠페인 시작하기
 description: 크로스 채널 캠페인 시작 방법 알아보기
-badge: label="알파"
+badge: 레이블=“Alpha”
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Adobe Campaign을 통해 기본 제공 캠페인 관리 기능을 사용하여 �
 
 각 터치포인트가 목표 대상자와 공감할 수 있도록 캠페인별로 여러 워크플로와 게재를 추가하여 다양한 채널에서 개인화된 경험을 만들 수 있습니다.
 
-캠페인의 전용 보고 지표를 통해 전체 캠페인 성과에 대한 포괄적인 통찰력이 제공되면 캠페인의 효과를 평가하고, 추세를 파악하고, 데이터 기반 의사 결정을 내려 향후 활동을 최적화할 수 있습니다. 에서 캠페인 보고서에 액세스하고 이해하는 방법에 대해 알아봅니다. [이 섹션](../reporting/campaign-reports.md).
+캠페인의 전용 보고 지표를 통해 전체 캠페인 성과에 대한 포괄적인 통찰력이 제공되면 캠페인의 효과를 평가하고, 추세를 파악하고, 데이터 기반 의사 결정을 내려 향후 활동을 최적화할 수 있습니다. [이 섹션](../reporting/campaign-reports.md)에서 캠페인 보고서에 액세스하고 이해하는 방법에 대해 알아봅니다.
 
-![캠페인 플로우](assets/campaign-flow.png)
+![캠페인 흐름](assets/campaign-flow.png)
 
 다음 섹션에서 캠페인을 만들고 관리하는 방법을 알아봅니다.
 

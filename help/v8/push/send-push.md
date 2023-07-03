@@ -2,8 +2,8 @@
 audience: end-user
 title: 푸시 알림 게재 보내기
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 보내는 방법 알아보기
-badge: label="알파"
-source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
+badge: 레이블=“Alpha”
+source-git-commit: 8bb189837a2d9c7134188e39efa47ce2ccbe12db
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 메시지 콘텐츠를 정의했으면 테스트 구독자를 활용하여 메시지를 미리 보고 테스트할 수 있습니다. 개인화된 콘텐츠를 포함한 경우 테스트 프로필 데이터를 사용하여 이 콘텐츠가 메시지에 어떻게 표시되는지 검사할 수 있습니다. 이렇게 하면 메시지가 올바르게 렌더링되고 개인화된 요소가 적절하게 통합되는지 확인할 수 있습니다.
 
-SMS 게재를 미리 보는 주요 단계는 다음과 같습니다. 게재 미리 보기 방법에 대한 자세한 내용은에서 확인할 수 있습니다. [이 섹션](../preview-test/preview-content.md).
+푸시 알림을 미리 보는 주요 단계는 다음과 같습니다. 게재 미리 보기 방법에 대한 자세한 내용은에서 확인할 수 있습니다. [이 섹션](../preview-test/preview-content.md).
 
 1. 게재 콘텐츠 페이지에서 **[!UICONTROL 콘텐츠 시뮬레이션]** 개인화된 콘텐츠를 미리 볼 수 있습니다.
 

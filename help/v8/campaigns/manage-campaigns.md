@@ -5,8 +5,8 @@ description: 크로스 채널 캠페인 시작 방법 알아보기
 badge: 레이블=“Alpha”
 source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '431'
+ht-degree: 98%
 
 ---
 

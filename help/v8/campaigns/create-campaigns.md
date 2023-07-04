@@ -2,12 +2,12 @@
 audience: end-user
 title: Adobe Campaign Web을 사용하여 캠페인 만들기
 description: Adobe Campaign Web을 사용하여 크로스 채널 캠페인을 구축하는 방법 알아보기
-badge: label="알파"
+badge: 레이블=“Alpha”
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
+source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 22%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,11 +28,16 @@ ht-degree: 22%
 
 ## 캠페인 만들기{#campaign-create}
 
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="캠페인 일정"
+>abstract="캠페인 생성 중 캠페인 일정을 정의합니다."
+
 새 캠페인을 만들려면 다음 단계를 수행합니다.
 
 1. 다음을 클릭합니다. **[!UICONTROL 캠페인]** 메뉴를 클릭하고 **[!UICONTROL 캠페인 만들기]** 단추를 클릭합니다.
-1. 다음 항목 선택 **템플릿** 을 입력하여 캠페인에 대한 레이블을 제공합니다. 캠페인 템플릿은 새 캠페인을 만드는 데 다시 사용할 수 있도록 사전 구성되어 있습니다. 클라이언트 콘솔에서 만들어집니다.
-   [자세히 보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=ko).
+1. 다음 항목 선택 **템플릿** 을 입력하여 캠페인에 대한 레이블을 제공합니다. 캠페인 템플릿은 새 캠페인을 만드는 데 다시 사용할 수 있도록 사전 구성되어 있습니다. 클라이언트 콘솔에서 생성됩니다.
+   [자세히 보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
 1. 필요한 경우 다음을 변경할 수 있습니다 **추가 옵션**: 내부 이름, 폴더, 할당자, 설명 및 특성.
 1. 다음을 정의합니다. **예약** 을 참조하십시오. 시작 날짜에 도달하면 캠페인이 시작됩니다. 시작 및 종료 날짜가 캠페인 목록에 표시되며 필터로 사용할 수 있습니다. 이 [섹션](manage-campaigns.md#access-campaigns)을 참조하십시오.
 
@@ -59,7 +64,7 @@ ht-degree: 22%
 
 
 <!--
-	+++WORKF
+    +++WORKF
 ++screen
 ## Create a cross-channel campaign {#cross-channel-campaign}
 

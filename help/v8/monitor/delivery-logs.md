@@ -6,8 +6,8 @@ exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 badge: 레이블=“Alpha”
 source-git-commit: f7ffa5daaff1ad57bba365bc09ed24fa08a277f0
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 72%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

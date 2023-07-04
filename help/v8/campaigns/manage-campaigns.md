@@ -3,15 +3,20 @@ audience: end-user
 title: 캠페인 시작하기
 description: 크로스 채널 캠페인 시작 방법 알아보기
 badge: 레이블=“Alpha”
-source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
-workflow-type: ht
-source-wordcount: '423'
-ht-degree: 100%
+source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 캠페인 액세스 및 관리{#manage-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_schedule"
+>title="캠페인 일정"
+>abstract="캠페인 일정을 설정하거나 수정합니다."
 
 새 캠페인을 만들거나 기존 캠페인을 관리하려면 왼쪽 탐색 영역에서 **[!UICONTROL 캠페인]** 메뉴를 클릭합니다.
 

@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: 레이블=“Alpha”
-source-git-commit: 4a3591d917aedd028666eca99b8cf1c4aeb45e8f
+source-git-commit: de4aab11b858925617cdac782d537a746fb507d4
 workflow-type: tm+mt
-source-wordcount: '1546'
-ht-degree: 100%
+source-wordcount: '1552'
+ht-degree: 99%
 
 ---
 
@@ -301,6 +301,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_campaign_creation_workflow"
 >title="워크플로 목록"
 >abstract="캠페인에 사용할 수 있는 워크플로 목록. “워크플로 만들기” 버튼을 사용하여 캠페인에서 워크플로를 추가합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_saveaudience_outbound"
+>title="대상자 저장을 위한 아웃바운드 전환"
+>abstract="tbc"
+
 
 <!-- delivery template settings-->
 

@@ -4,9 +4,9 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: 레이블=“Alpha”
-source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
-workflow-type: ht
-source-wordcount: '1318'
+source-git-commit: 99e66a77c3451a4a43fa3e29f080191b2b51c074
+workflow-type: tm+mt
+source-wordcount: '1525'
 ht-degree: 100%
 
 ---
@@ -295,3 +295,48 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_keyindicators_errors"
 >title="오류"
 >abstract="오류 KPI"
+
+
+
+
+<!-- delivery template settings-->
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_tracking_validity"
+>title="유효 기간"
+>abstract="이 옵션은 추적이 URL에서 활성화되는 기간을 정의합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_duration"
+>title="게재 기간"
+>abstract="게재 기간 필드를 통해 글로벌 게재 재시도에 대한 제한 값을 입력할 수 있습니다. 즉, Adobe Campaign은 시작 날짜부터 메시지를 전송하고 나서 메시지가 오류만 반환하는 경우 유효성 검사 제한에 도달할 때까지 구성 가능한 일반 재시도를 수행합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_resources_validity"
+>title="리소스 유효성 검사 제한"
+>abstract="유효성 검사 제한 필드는 미러 페이지나 이미지와 같이 업로드된 리소스에 사용됩니다. 이러한 리소스는 제한된 시간 동안만 유효합니다. 한도에 도달하면 리소스를 더 이상 사용할 수 없습니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_approval"
+>title="승인 모드"
+>abstract="각 게재 단계는 승인을 받아 다양한 프로세스를 전체 모니터링하고 제어할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_retries"
+>title="최대 재시도 수"
+>abstract="일시적인 오류로 인해 메시지 전송이 실패하면 게재 기간이 종료될 때까지 재시도를 수행합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_recipient_importance"
+>title="수신자 중요도"
+>abstract="수신자 중요도는 용량 유형화 규칙 초과 시 유지되는 수신자를 결정하는 데 사용되는 공식입니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_weight"
+>title="게재 가중치"
+>abstract="게재 가중치를 통해 압력 관리 프레임워크 내에서 최우선 게재를 식별할 수 있습니다. 가중치가 가장 높은 메시지는 우선 순위가 높습니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_typology"
+>title="유형화"
+>abstract="유형화로 게재 전송을 제어, 필터링 및 모니터링할 수 있습니다."

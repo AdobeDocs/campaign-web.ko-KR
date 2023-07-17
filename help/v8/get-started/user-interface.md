@@ -3,10 +3,10 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: 레이블=“Alpha”
-source-git-commit: de4aab11b858925617cdac782d537a746fb507d4
+badge: label="Alpha"
+source-git-commit: 768484c1fc67ac9aa2a2fbac6d00183fb81dbe63
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1536'
 ht-degree: 99%
 
 ---
@@ -183,15 +183,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 -->
 
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_sent"
->title="전송된 지표"
->abstract="게재된 이메일 수."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_errors"
->title="오류 지표"
->abstract="오류 상태가 포함된 이메일 수."
 
 
 

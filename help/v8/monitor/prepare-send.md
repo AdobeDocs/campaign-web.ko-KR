@@ -3,11 +3,11 @@ audience: end-user
 title: 이메일 준비 및 전송
 description: Campaign Web UI를 사용하여 이메일을 준비하고 전송하는 방법 알아보기
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="알파"
-source-git-commit: d1a56f48e1b4253bad053745a3771a9527816d6b
+badge: label="Alpha"
+source-git-commit: 768484c1fc67ac9aa2a2fbac6d00183fb81dbe63
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 48%
+source-wordcount: '871'
+ht-degree: 47%
 
 ---
 
@@ -128,6 +128,16 @@ ht-degree: 48%
 ![](assets/email-send-pause-or-stop.png)
 
 ## KPI 확인 {#check-kpis}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_sent"
+>title="전송된 지표"
+>abstract="게재 분석 중 처리된 총 메시지 수입니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_errors"
+>title="오류 지표"
+>abstract="총 보낸 메시지 수와 관련하여 게재 및 자동 반환 처리 중에 누적된 총 오류."
 
 전송이 완료되면 표시된 KPI를 확인할 수 있습니다.
 

@@ -2,11 +2,11 @@
 audience: end-user
 title: 결합 워크플로 활동 사용
 description: 결합 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
-badge: 레이블=“Alpha”
+badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '688'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '687'
+ht-degree: 99%
 
 ---
 

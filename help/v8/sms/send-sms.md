@@ -2,15 +2,20 @@
 audience: end-user
 title: SMS 게재 보내기
 description: Adobe Campaign 웹으로 SMS를 보내는 방법 알아보기
-badge: label="알파"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+badge: label="Alpha"
+source-git-commit: 554e839c2ac715ddc69ed6acfea0844c5436c07a
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '400'
 ht-degree: 10%
 
 ---
 
 # SMS 게재 미리보기 및 전송 {#send-sms-delivery}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_metrics_newquarantines"
+>title="새 격리 지표"
+>abstract="게재할 메시지 수와 관련하여 게재 실패 후 격리된 총 주소 수(사용자 알 수 없음, 잘못된 도메인)."
 
 ## SMS 게재 미리 보기{#preview-sms}
 

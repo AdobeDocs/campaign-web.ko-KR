@@ -4,9 +4,9 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 768484c1fc67ac9aa2a2fbac6d00183fb81dbe63
+source-git-commit: 554e839c2ac715ddc69ed6acfea0844c5436c07a
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1530'
 ht-degree: 99%
 
 ---
@@ -245,17 +245,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_overview_edit"
 >title="권한 필요"
 >abstract="세그먼트를 만들려면 먼저 관리자가 권한을 부여해야 합니다."
-
-
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_metrics_newquarantines"
->title="새 격리 지표"
->abstract="새 격리 지표."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"

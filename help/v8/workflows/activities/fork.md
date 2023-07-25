@@ -2,11 +2,11 @@
 audience: end-user
 title: 포크 워크플로 활동 사용
 description: 포크 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
-badge: 레이블=“Alpha”
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
+badge: label="Alpha"
+source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
+workflow-type: tm+mt
 source-wordcount: '111'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 ## 예제
 
-다음 예에서는 두 가지 **포크** 활동을 사용합니다.
+다음 예제에서는 두 가지를 사용합니다 **포크** 활동:
 
 * 한 가지는 두 쿼리 이전에 사용하여 쿼리를 동시에 실행합니다.
 * 한 가지는 교차로 이후에 사용하여 대상 모집단에게 이메일과 SMS를 동시에 전송합니다.

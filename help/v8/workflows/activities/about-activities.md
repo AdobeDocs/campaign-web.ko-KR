@@ -2,12 +2,12 @@
 audience: end-user
 title: 워크플로 활동을 사용하여 작업
 description: 워크플로 활동을 사용하는 방법 알아보기
-badge: 레이블=“Alpha”
+badge: label="Alpha"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: b66afeedbfcb342102c833899756afc35de9d504
-workflow-type: ht
-source-wordcount: '305'
-ht-degree: 100%
+source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 96%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 100%
 * [대상자 빌드](build-audience.md) 활동을 통해 대상 모집단을 정의할 수 있습니다. 기존 대상자를 선택하거나 규칙 빌더를 사용하여 자체 쿼리를 정의할 수 있습니다.
 * [결합](combine.md) 활동을 통해 인바운드 모집단에 대한 세분화를 수행할 수 있습니다. 합집합, 교차 또는 제외를 사용할 수 있습니다.
 * [보강](enrichment.md) 활동을 사용하면 워크플로에서 처리할 추가 데이터를 정의할 수 있습니다. 이 활동을 사용하여 인바운드 전환을 활용하고 추가 데이터로 출력 전환을 완료하도록 활동을 구성할 수 있습니다.
+* 다음 [분할](split.md) 활동을 사용하면 들어오는 모집단을 여러 하위 집합으로 분할할 수 있습니다.
 
 ## 채널 활동 {#channel}
 

@@ -3,11 +3,11 @@ audience: end-user
 title: 컨트롤 그룹 설정
 description: Campaign Web UI에서 메시지에 대한 컨트롤 그룹을 설정하는 방법 알아보기
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="알파"
+badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 40%
+source-wordcount: '756'
+ht-degree: 43%
 
 ---
 
@@ -104,7 +104,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="추가 모집단"
->abstract="기존 대상자를 선택하거나 쿼리를 정의하여 게재 대상자에서 특정 모집단을 제외할 수 있습니다."
+>abstract="기존 대상자를 선택하거나 쿼리를 정의하여 특정 모집단을 게재 대상자에서 제외할 수 있습니다."
 
 컨트롤 그룹을 정의하는 또 다른 방법은 기존 대상에서 특정 모집단을 선택하거나 쿼리를 정의하는 것입니다.
 

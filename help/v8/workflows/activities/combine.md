@@ -6,7 +6,7 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '687'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_reconciliation_options"
->title="교차 조정 옵션"
+>title="교집합 조정 옵션"
 >abstract="중복 처리 방법을 정의하려면 조정 유형을 선택합니다."
 
 **합집합**&#x200B;의 경우 **조정 유형**&#x200B;을 선택하여 중복 처리 방법을 정의해야 합니다.

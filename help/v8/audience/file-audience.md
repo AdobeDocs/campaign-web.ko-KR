@@ -2,12 +2,12 @@
 audience: end-user
 title: 파일에서 수신자 타겟팅
 description: 외부 파일에서 수신자를 사용하여 이메일 대상자를 빌드하는 방법 알아보기
-badge: label="알파"
+badge: label="Alpha"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 64%
+source-wordcount: '325'
+ht-degree: 66%
 
 ---
 

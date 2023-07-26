@@ -3,11 +3,11 @@ audience: end-user
 title: 이메일 콘텐츠 편집
 description: Campaign Web UI에서 이메일 콘텐츠를 편집하는 방법 알아보기
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-badge: label="알파"
+badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 42%
+source-wordcount: '505'
+ht-degree: 50%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="이메일 매개변수"
->abstract="발신자 이름 및 발신자 이메일 값은 이메일 템플릿에 정의되어 있습니다. 표현식 편집기를 사용하여 제목 줄을 개인화할 수 있습니다."
+>abstract="“발신자” 및 “발신 이메일” 값은 이메일 템플릿에서 정의됩니다. 제목 줄은 표현식 편집기를 사용하여 개인화할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="이메일 첨부 파일"
->abstract="메시지에 삽입할 하나 이상의 파일을 선택합니다."
+>abstract="메시지에 삽입할 하나 이상의 파일을 선택하십시오."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"

@@ -7,7 +7,7 @@ exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 24%
+ht-degree: 27%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="캠페인 일정"
->abstract="캠페인 생성 중 캠페인 일정을 정의합니다."
+>abstract="캠페인 생성 중에 캠페인 일정을 정의합니다."
 
 새 캠페인을 만들려면 다음 단계를 수행합니다.
 

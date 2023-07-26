@@ -3,11 +3,11 @@ audience: end-user
 title: 이메일 디자이너 콘텐츠 구성 요소 사용
 description: 이메일에 콘텐츠 구성 요소를 사용하는 방법 알아보기
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-badge: label="알파"
+badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 69%
+source-wordcount: '1105'
+ht-degree: 71%
 
 ---
 
@@ -15,22 +15,22 @@ ht-degree: 69%
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
->title="내용 정보"
->abstract="콘텐츠 구성 요소는 이메일의 레이아웃을 만드는 데 사용할 수 있는 빈 콘텐츠 자리 표시자입니다."
+>title="콘텐츠 정보"
+>abstract="콘텐츠 구성 요소는 이메일 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
->title="내용 정보"
+>title="콘텐츠 정보"
 >abstract="콘텐츠 구성 요소는 랜딩 페이지 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
->title="내용 정보"
+>title="콘텐츠 정보"
 >abstract="콘텐츠 구성 요소는 조각 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"
->title="내용 정보"
+>title="콘텐츠 정보"
 >abstract="콘텐츠 구성 요소는 템플릿 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
 이메일 콘텐츠를 만들 때, **[!UICONTROL 콘텐츠]** 구성 요소를 통해 이메일에 배치되면 사용할 수 있는 비어 있는 원시 구성 요소로 이메일을 추가로 개인화할 수 있습니다.

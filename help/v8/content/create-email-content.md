@@ -3,11 +3,11 @@ audience: end-user
 title: 이메일 디자이너에서 이메일 디자인
 description: 이메일 콘텐츠를 처음부터 디자인하는 방법 알아보기
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-badge: label="알파"
+badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 60%
+source-wordcount: '583'
+ht-degree: 74%
 
 ---
 
@@ -16,22 +16,22 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
 >title="구조 추가"
->abstract="구조는 이메일의 레이아웃을 정의합니다. **구조** 구성 요소를 캔버스로 드래그 앤 드롭하여 이메일 콘텐츠 디자인을 시작할 수 있습니다."
+>abstract="구조는 이메일 레이아웃을 정의합니다. **구조** 구성 요소를 캔버스로 드래그 앤 드롭하여 이메일 콘텐츠 디자인을 시작할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
 >title="구조 추가"
->abstract="구조는 랜딩 페이지의 레이아웃을 정의합니다. 드래그 앤 드롭 **구조** 구성 요소를 캔버스에 추가하여 랜딩 페이지 디자인을 시작합니다."
+>abstract="구조는 랜딩 페이지 레이아웃을 정의합니다. **구조** 구성 요소를 캔버스로 드래그 앤 드롭하여 랜딩 페이지 디자인을 시작할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="구조 추가"
->abstract="구조는 조각의 레이아웃을 정의합니다. 드래그 앤 드롭 **구조** 구성 요소를 캔버스에 추가하여 조각 콘텐츠 디자인을 시작합니다."
+>abstract="구조는 조각 레이아웃을 정의합니다. **구조** 구성 요소를 캔버스로 드래그 앤 드롭하여 조각 콘텐츠 디자인을 시작할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
 >title="구조 추가"
->abstract="구조는 템플릿의 레이아웃을 정의합니다. 드래그 앤 드롭 **구조** 구성 요소를 캔버스에 추가하여 템플릿 콘텐츠 디자인을 시작합니다."
+>abstract="구조는 템플릿 레이아웃을 정의합니다. **구조** 구성 요소를 캔버스로 드래그 앤 드롭하여 템플릿 콘텐츠 디자인을 시작할 수 있습니다."
 
 
 >[!CONTEXTUALHELP]

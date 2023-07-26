@@ -6,7 +6,7 @@ badge: label="Alpha"
 source-git-commit: 554e839c2ac715ddc69ed6acfea0844c5436c07a
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 10%
+ht-degree: 16%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
 >title="새 격리 지표"
->abstract="게재할 메시지 수와 관련하여 게재 실패 후 격리된 총 주소 수(사용자 알 수 없음, 잘못된 도메인)."
+>abstract="게재할 메시지 수와 관련하여 게재 실패(알 수 없는 사용자, 잘못된 도메인) 후 격리된 총 주소 수입니다."
 
 ## SMS 게재 미리 보기{#preview-sms}
 

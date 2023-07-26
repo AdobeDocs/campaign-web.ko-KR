@@ -285,7 +285,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_saveaudience_outbound"
 >title="대상자 저장을 위한 아웃바운드 전환"
->abstract="tbc"
+>abstract="TBC"
 
 
 <!-- delivery template settings-->

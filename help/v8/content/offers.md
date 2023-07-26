@@ -3,11 +3,11 @@ audience: end-user
 title: 오퍼 전송
 description: 오퍼 전송
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-badge: label="알파"
+badge: label="Alpha"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 43%
+source-wordcount: '639'
+ht-degree: 44%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Campaign v8 웹을 사용하면 콘솔에서 생성된 게재 오퍼를 **
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
->title="고급 설정 제공"
+>title="오퍼 고급 설정"
 >abstract="오퍼에 대한 고급 옵션을 구성합니다."
 
 1. 게재에서 제안할 오퍼를 선택하려면 다음을 클릭하십시오. **[!UICONTROL 오퍼 설정]** [게재 콘텐츠 편집] 화면의 단추

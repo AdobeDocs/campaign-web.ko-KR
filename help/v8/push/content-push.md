@@ -3,9 +3,9 @@ audience: end-user
 title: 푸시 알림 게재 디자인
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 디자인하는 방법을 알아봅니다
 badge: label="Alpha"
-source-git-commit: 1873e6105d9880295a3ace8f8be9ff7c02a3e683
+source-git-commit: 2caa3e55812c4176946dc5998efb6d5e9ba50d32
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1309'
 ht-degree: 5%
 
 ---
@@ -70,6 +70,13 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 >[!ENDTABS]
 
 ## 푸시 알림 고급 설정 {#push-advanced}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings"
+>title="푸시 알림에 대한 고급 설정"
+>abstract="푸시 알림의 우선 순위, 관련 알림 수, 애플리케이션 변수 등과 같은 고급 설정을 정의합니다."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_critical"

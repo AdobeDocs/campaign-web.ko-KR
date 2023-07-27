@@ -2,11 +2,11 @@
 audience: end-user
 title: 푸시 알림 게재 디자인
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 디자인하는 방법을 알아봅니다
-badge: label="알파"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Alpha"
+source-git-commit: 1873e6105d9880295a3ace8f8be9ff7c02a3e683
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 7%
+source-wordcount: '1285'
+ht-degree: 5%
 
 ---
 
@@ -22,7 +22,19 @@ ht-degree: 7%
 >title="iOS 콘텐츠 푸시"
 >abstract="iOS 콘텐츠 푸시를 정의합니다."
 
-## 메시지 {#push-message}
+## 알림 콘텐츠 정의 {#push-message}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_ios_msg"
+>title="iOS 메시지 푸시"
+>abstract="푸시 iOS 메시지의 제목과 콘텐츠를 정의합니다. 개인화 대화 상자를 통해 콘텐츠를 개인화하고 조건을 추가할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_ios_silent"
+>title="iOS에 대한 자동 알림"
+>abstract="자동 푸시 모드에서는 &quot;자동&quot; 알림을 모바일 애플리케이션으로 전송할 수 있습니다. 사용자는 알림이 도착한 것을 알 수 없습니다. 애플리케이션에 바로 전송됩니다."
+
+
 
 >[!BEGINTABS]
 
@@ -30,9 +42,10 @@ ht-degree: 7%
 
 Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에서 선택할 수 있습니다.
 
-* 다음 **[!UICONTROL 데이터 메시지]e** 는 클라이언트 앱에서 처리됩니다. 이러한 메시지는 모바일 애플리케이션으로 직접 전송되며, 모바일 애플리케이션은 디바이스에 Android 알림을 생성하고 표시합니다. 데이터 메시지에는 사용자 정의 애플리케이션 변수만 포함됩니다.
+* 다음 **[!UICONTROL 데이터 메시지]** 는 클라이언트 앱에서 처리됩니다. 이러한 메시지는 모바일 애플리케이션으로 직접 전송되며, 모바일 애플리케이션은 디바이스에 Android 알림을 생성하고 표시합니다. 데이터 메시지에는 사용자 정의 애플리케이션 변수만 포함됩니다.
 
-  콘텐츠를 정의하고, 데이터를 개인화하고, 동적 콘텐츠를 추가하려면 **[!UICONTROL 메시지]** 필드를 작성하고 표현식 편집기를 사용합니다. 이 편집기에 액세스하여 메시지를 사용자 정의할 수 있습니다. **[!UICONTROL 애플리케이션 변수]** 메뉴에서 애플리케이션 변수가 자동으로 추가됩니다. 이러한 변수를 사용하여 알림 동작을 정의할 수 있습니다. 예를 들어, 사용자가 알림을 활성화할 때 특정 애플리케이션 화면이 표시되도록 구성할 수 있습니다.
+  콘텐츠를 정의하고, 데이터를 개인화하고, 동적 콘텐츠를 추가하려면 **[!UICONTROL 메시지]** 필드를 작성하고 표현식 편집기를 사용합니다. 이 편집기에 액세스하여 메시지를 사용자 정의할 수 있습니다.
+다음에서 **[!UICONTROL 애플리케이션 변수]** 메뉴에서 애플리케이션 변수가 자동으로 추가됩니다. 이러한 변수를 사용하여 알림 동작을 정의할 수 있습니다. 예를 들어, 사용자가 알림을 활성화할 때 특정 애플리케이션 화면이 표시되도록 구성할 수 있습니다.
 
   ![](assets/push_content_4.png)
 
@@ -40,7 +53,7 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
   메시지를 작성하려면 **[!UICONTROL 제목]** 및 **[!UICONTROL 본문]** 필드. 표현식 편집기를 사용하여 콘텐츠를 정의하고, 데이터를 개인화하고, 다이내믹 콘텐츠를 추가합니다.
 
-  푸시 알림을 추가로 개인화하기 위해 푸시 알림에 추가할 이미지를 선택하고, 알림의 아이콘을 선택하여 프로필의 디바이스 및 색상을 표시할 수 있습니다.
+  푸시 알림을 추가로 개인화하려면 푸시 알림에 추가할 이미지, 프로필의 디바이스에 표시할 알림의 아이콘 및 색상을 선택할 수 있습니다.
 
   ![](assets/push_content_3.png)
 
@@ -50,13 +63,43 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 다음을 추가할 수 있습니다. **[!UICONTROL 부제]**: iOS 알림 페이로드의 자막 매개 변수 값입니다. 이 섹션을 참조하십시오.
 
-자동 푸시 모드에서는 &quot;자동&quot; 알림을 모바일 애플리케이션으로 전송할 수 있습니다. 사용자는 알림이 도착한 것을 알지 못합니다. 애플리케이션에 바로 전송됩니다.
+자동 푸시 모드에서는 &quot;자동&quot; 알림을 모바일 애플리케이션으로 전송할 수 있습니다. 사용자는 알림이 도착한 것을 알 수 없습니다. 애플리케이션에 바로 전송됩니다.
 
 ![](assets/push_content_1.png)
 
 >[!ENDTABS]
 
-## 고급 설정 {#push-advanced}
+## 푸시 알림 고급 설정 {#push-advanced}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_critical"
+>title="iOS에 대한 중요 경고 모드"
+>abstract="사용자의 휴대폰이 포커스 모드로 설정되어 있거나 장치가 음소거된 경우에도 알림에 사운드를 추가하려면 이 옵션을 활성화합니다. 이렇게 하면 어떤 경우에도 중요한 알림이 사용자에게 표시됩니다."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_count"
+>title="iOS 배지 번호"
+>abstract="이 옵션을 사용하여 읽지 않은 새 정보의 수를 앱 아이콘에 바로 표시하도록 설정합니다. 이를 통해 사용자는 보류 중인 알림 수를 빠르게 볼 수 있습니다."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_mutable"
+>title="iOS에 대한 변경 가능한 콘텐츠"
+>abstract="모바일 애플리케이션이 알림과 연관된 미디어 콘텐츠를 다운로드하도록 하려면 이 옵션을 사용합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_score"
+>title="iOS 관련성 점수"
+>abstract="관련성 점수를 0에서 100으로 설정하여 알림 요약의 알림 순서를 우선 지정합니다. 점수가 높을수록 더 중요한 알림을 나타냅니다."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_app_variables"
+>title="iOS용 애플리케이션 변수"
+>abstract="애플리케이션 변수를 사용하여 알림 동작을 정의합니다. 이러한 변수는 완전히 사용자 지정할 수 있으며 모바일 장치로 전송되는 메시지 페이로드의 일부로 포함됩니다."
+
+
 
 >[!BEGINTABS]
 
@@ -82,7 +125,7 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 | 매개변수 | 설명 |
 |---------|---------|
-| **[!UICONTROL 중요 경고 모드]** | 사용자의 휴대폰이 포커스 모드로 설정되어 있거나 iPhone이 음소거된 경우에도 알림에 사운드를 추가하려면 이 옵션을 활성화합니다. 이렇게 하면 중요한 알림을 사용자가 인지할 수 있습니다. |
+| **[!UICONTROL 중요 경고 모드]** | 사용자의 휴대폰이 포커스 모드로 설정되어 있거나 장치가 음소거된 경우에도 알림에 사운드를 추가하려면 이 옵션을 활성화합니다. 이렇게 하면 중요한 알림을 사용자가 인지할 수 있습니다. |
 | **[!UICONTROL 정리 배지]** | 애플리케이션 아이콘에 표시된 배지 값을 새로 고치려면 이 옵션을 활성화합니다. 이는 배지가 읽지 않은 새로운 정보의 수를 정확하게 반영하도록 한다. |
 | **[!UICONTROL 알림 횟수]** | 읽지 않은 새 정보의 수를 나타내는 애플리케이션 아이콘에 직접 표시되는 숫자를 설정하십시오. 이를 통해 사용자에게 빠른 시각적 참조를 제공합니다. |
 | **[!UICONTROL 수량]** | 0~100의 사운드 볼륨입니다. |

@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 badge: label="Alpha"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: c977f8e3567a478fa46dc8914c329ca4e8dd3274
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '953'
 ht-degree: 9%
 
 ---
@@ -20,6 +20,13 @@ ht-degree: 9%
 >id="acw_homepage_card3"
 >title="조건부 콘텐츠 만들기"
 >abstract="수신자의 프로필을 기반으로 동적 개인화를 정의하는 조건부 콘텐츠를 생성하여 특정 조건이 충족되면 텍스트 블록과 이미지를 자동으로 대체합니다. 이 기능은 캠페인을 새로운 차원으로 끌어올리고 대상자에게 고도로 타겟팅되고 개인 맞춤화된 경험을 제공할 수 있습니다."
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_conditional_content"
+>title="조건부 콘텐츠 추가"
+>abstract="수신자의 프로필 데이터를 기반으로 고급 동적 개인화를 만들도록 조건부 콘텐츠 필드를 구성합니다. 특정 조건이 충족되면 메시지 콘텐츠에서 텍스트 블록, 링크, 제목란 및/또는 이미지가 교체됩니다."
 
 조건부 콘텐츠는 수신자의 프로필을 기반으로 동적 개인화를 만들 수 있는 강력한 기능으로, 특정 조건이 충족되면 자동으로 텍스트 블록 및 이미지를 대체합니다. 이 기능은 캠페인을 새로운 차원으로 끌어올리고 대상자에게 고도로 타겟팅되고 개인 맞춤화된 경험을 제공할 수 있습니다.
 

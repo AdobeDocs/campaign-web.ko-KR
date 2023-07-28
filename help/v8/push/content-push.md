@@ -3,14 +3,14 @@ audience: end-user
 title: 푸시 알림 게재 디자인
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 디자인하는 방법을 알아봅니다
 badge: label="Alpha"
-source-git-commit: 20a518d846d046aed92648fa0cdcd89b7731bca6
+source-git-commit: c6cbb60086d159103a7a28f10eb2874a6dd20a9c
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1347'
 ht-degree: 5%
 
 ---
 
-# 푸시 게재 디자인 {#content-push}
+# 푸시 메시지 게재 디자인 {#content-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"

@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: d98c7d9edce5971e01ec983f0d1d3e0a55004c1b
+source-git-commit: b2f10ef260826d3655d80c7a3ddce2eb218dbab8
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 97%
+source-wordcount: '1582'
+ht-degree: 94%
 
 ---
 
@@ -174,6 +174,11 @@ Campaign v8 Web은 현재 다음 언어로 제공됩니다.
 1. 원하는 언어를 선택하고 **저장**&#x200B;을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되어 있지 않은 경우 두 번째 언어를 선택할 수 있습니다.
 
 
+## 자세히 알아보기 {#learn-more}
+
+Campaign 환경에서 사용할 수 있는 목록을 검색, 필터링 및 검색하는 방법에 대해 알아봅니다 [이 페이지에서](list-filters.md).
+
+
 <!--
 ######## This part stores the contextualHelp definition for WebUI BETA ###########
 ######## These blocks should be dispatched in the appropriate pages when available ###########
@@ -181,9 +186,6 @@ Campaign v8 Web은 현재 다음 언어로 제공됩니다.
 REFER TO 
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
-
-
-
 
 
 >[!CONTEXTUALHELP]
@@ -276,6 +278,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="오류"
 >abstract="오류 KPI"
 
+<!-- Workflows-->
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
@@ -292,6 +295,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="대상자 저장"
 >abstract="이 활동을 사용하여 워크플로우 대상자를 저장합니다."
 
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="이 워크플로는 읽기 전용입니다."
+>abstract="이 워크플로우를 편집할 권한이 없습니다. 필요한 경우 관리자에게 문의하여 액세스 권한을 부여하십시오."
 
 <!-- delivery template settings-->
 

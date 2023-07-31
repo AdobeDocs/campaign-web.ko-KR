@@ -7,7 +7,7 @@ exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: eaa45c6801ddcc5f4cdc3ec944a61b348ab57603
 workflow-type: tm+mt
 source-wordcount: '1118'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="게재"
->abstract="게재 목록을 탐색합니다. 상태, 연락처 및 수정 일자와 주요 KPI를 볼 수 있습니다. 상태, 연락 날짜 또는 채널을 기준으로 목록을 필터링할 수 있습니다. “게재 만들기” 버튼을 클릭하여 새 게재를 추가합니다. 콘텐츠, 대상자 및 세부 정보를 보려면 게재를 선택합니다."
+>abstract="게재 목록을 탐색합니다. 상태, 연락처 및 수정 일자와 주요 KPI를 볼 수 있습니다. 상태, 연락일 또는 채널별로 목록을 필터링할 수 있습니다. “게재 만들기” 버튼을 클릭하여 새 게재를 추가합니다. 콘텐츠, 대상자 및 세부 정보를 보려면 게재를 선택합니다."
 
 
 Adobe Campaign에서는 이메일, SMS, 푸시 알림 등 크로스 채널 캠페인을 보내고, 다양한 전용 보고서를 사용하여 캠페인의 효과를 측정할 수 있습니다.

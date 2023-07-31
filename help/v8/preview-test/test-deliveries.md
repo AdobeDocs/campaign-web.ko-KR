@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: 테스트 게재 보내기
+title: 테스트 게재 전송
 description: 테스트 게재를 정의하고 전송하는 방법을 알아봅니다
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="알파"
-source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
+badge: label="Alpha"
+source-git-commit: 31f74f1a0cb04ca08abc9f455183f7ea1cbb1cb5
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '1000'
 ht-degree: 4%
 
 ---
 
-# 테스트 게재 보내기 {#send-test-deliveries}
+# 테스트 게재 전송 {#send-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
@@ -26,14 +26,10 @@ ht-degree: 4%
 
 ## 테스트 수신자 선택 {#test-recipients}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
 >title="테스트 모집단"
 >abstract="테스트 모집단 모드를 선택합니다."
-
-
 
 사용 중인 채널에 따라 세 가지 유형의 수신자에게 테스트 메시지를 보낼 수 있습니다.
 
@@ -53,6 +49,15 @@ ht-degree: 4%
 
 ### 테스트 프로필 {#test-profiles}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_mode"
+>title="증명 Target"
+>abstract="기본 타겟으로 보내기 전에 게재를 테스트하려는 경우 두 번째 파일을 &#39;증명의 대상&#39;으로 업로드할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_upload"
+>title="프로필 업로드"
+>abstract="기본 타겟에 사용한 세트와 다른 세트로 게재를 테스트하려는 경우 추가 프로필이 있는 두 번째 파일을 업로드할 수 있습니다."
 
 1. 이메일 또는 SMS 게재의 콘텐츠 편집 화면으로 이동한 다음 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다.
 

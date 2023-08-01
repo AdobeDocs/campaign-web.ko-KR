@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 1d811a854b95caa556152a9c9923f53483a3bde9
+source-git-commit: 1fee200c84e121978c5a6787107a30a89c027b57
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 93%
+source-wordcount: '1667'
+ht-degree: 91%
 
 ---
 
@@ -288,6 +288,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="이 게재는 읽기 전용입니다."
 >abstract="이 게재를 편집할 권한이 없습니다. 필요한 경우 관리자에게 문의하여 액세스 권한을 부여하십시오."
 
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="이 서비스는 읽기 전용입니다."
+>abstract="이 서비스를 편집할 권한이 없습니다. 필요한 경우 관리자에게 문의하여 액세스 권한을 부여하십시오."
+
 <!-- Workflows-->
 
 >[!CONTEXTUALHELP]
@@ -310,6 +315,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_wf_read_only"
 >title="이 워크플로는 읽기 전용입니다."
 >abstract="이 워크플로우를 편집할 권한이 없습니다. 필요한 경우 관리자에게 문의하여 액세스 권한을 부여하십시오."
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only_canvas"
+>title="이 워크플로는 읽기 전용입니다."
+>abstract="지원되지 않거나 호환되지 않는 캔버스로 인해 이 워크플로우를 편집할 수 없습니다."
 
 <!-- delivery template settings-->
 

@@ -4,10 +4,10 @@ title: 테스트 게재 전송
 description: 테스트 게재를 정의하고 전송하는 방법을 알아봅니다
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 31f74f1a0cb04ca08abc9f455183f7ea1cbb1cb5
+source-git-commit: f7921a1baf5564fc59ecaa1e16370ec2670576ce
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 4%
+source-wordcount: '1030'
+ht-degree: 5%
 
 ---
 
@@ -58,6 +58,11 @@ ht-degree: 4%
 >id="acw_deliveries_simulate_test_upload"
 >title="프로필 업로드"
 >abstract="기본 타겟에 사용한 세트와 다른 세트로 게재를 테스트하려는 경우 추가 프로필이 있는 두 번째 파일을 업로드할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_sample"
+>title="템플릿 파일"
+>abstract="파일의 서식은 원본 파일과 같아야 합니다.<br/>지원되는 파일 형식은 txt, csv입니다. 최대 파일 크기: 15MB 첫 번째 라인을 열 머리글로 사용합니다."
 
 1. 이메일 또는 SMS 게재의 콘텐츠 편집 화면으로 이동한 다음 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다.
 

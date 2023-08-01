@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: b2f10ef260826d3655d80c7a3ddce2eb218dbab8
+source-git-commit: 1d811a854b95caa556152a9c9923f53483a3bde9
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 96%
+source-wordcount: '1628'
+ht-degree: 93%
 
 ---
 
@@ -277,6 +277,16 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_keyindicators_errors"
 >title="오류"
 >abstract="오류 KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="이 캠페인은 읽기 전용입니다"
+>abstract="이 캠페인을 편집할 권한이 없습니다. 필요한 경우 관리자에게 문의하여 액세스 권한을 부여하십시오."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="이 게재는 읽기 전용입니다."
+>abstract="이 게재를 편집할 권한이 없습니다. 필요한 경우 관리자에게 문의하여 액세스 권한을 부여하십시오."
 
 <!-- Workflows-->
 

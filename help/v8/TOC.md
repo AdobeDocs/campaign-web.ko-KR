@@ -6,7 +6,7 @@ description: Campaign v8 Web 설명서
 breadcrumb-title: 캠페인 개요
 hide: true
 source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '353'
 ht-degree: 100%
 

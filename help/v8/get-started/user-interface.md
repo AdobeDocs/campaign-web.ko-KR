@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: 1fee200c84e121978c5a6787107a30a89c027b57
 workflow-type: tm+mt
 source-wordcount: '1667'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -68,7 +68,7 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 
 * **캠페인** - 다음은 캠페인 목록 및 캠페인 템플릿입니다. 기본적으로 각 캠페인의 경우 시작/종료/생성/마지막 수정 일자, 현재 상태와 캠페인을 만든 캠페인 운영자 이름을 볼 수 있습니다. 상태, 시작/종료 일자, 폴더별로 목록을 필터링하거나, 고급 필터를 만들어 자신만의 필터링 기준을 정의할 수 있습니다. [이 섹션에서](../campaigns/gs-campaigns.md) 캠페인에 대해 자세히 알아보십시오.
 
-* **게재** - 게재 목록을 탐색합니다. 기본적으로 상태, 마지막 수정 일자 및 주요 KPI를 볼 수 있습니다. 상태, 연락 날짜 또는 채널을 기준으로 목록을 필터링할 수 있습니다. 이메일 게재를 클릭하여 대시보드를 열고 게재 세부 정보의 개요를 확인합니다. 다른 채널의 게재는 읽기 전용입니다. [이 섹션에서](../msg/gs-messages.md) 게재에 대해 자세히 알아보십시오.
+* **게재** - 게재 목록을 탐색합니다. 기본적으로 상태, 마지막 수정 일자 및 주요 KPI를 볼 수 있습니다. 상태, 연락일 또는 채널별로 목록을 필터링할 수 있습니다. 이메일 게재를 클릭하여 대시보드를 열고 게재 세부 정보의 개요를 확인합니다. 다른 채널의 게재는 읽기 전용입니다. [이 섹션에서](../msg/gs-messages.md) 게재에 대해 자세히 알아보십시오.
 
   **추가 작업**&#x200B;을 사용하여 게재를 삭제하거나 복제할 수 있습니다.
 
@@ -230,12 +230,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
->title="중복 제거 보완"
+>title="중복 제거 보조 항목"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
->title="차원 보완"
+>title="차원 보조 항목"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
@@ -281,17 +281,17 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
 >title="이 캠페인은 읽기 전용입니다"
->abstract="이 캠페인을 편집할 권한이 없습니다. 필요한 경우 관리자에게 문의하여 액세스 권한을 부여하십시오."
+>abstract="이 캠페인을 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_read_only"
 >title="이 게재는 읽기 전용입니다."
->abstract="이 게재를 편집할 권한이 없습니다. 필요한 경우 관리자에게 문의하여 액세스 권한을 부여하십시오."
+>abstract="이 게재를 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
 >title="이 서비스는 읽기 전용입니다."
->abstract="이 서비스를 편집할 권한이 없습니다. 필요한 경우 관리자에게 문의하여 액세스 권한을 부여하십시오."
+>abstract="이 서비스를 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
 
 <!-- Workflows-->
 
@@ -308,13 +308,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_saveaudience_activity"
 >title="대상자 저장"
->abstract="이 활동을 사용하여 워크플로우 대상자를 저장합니다."
+>abstract="이 활동을 사용하여 워크플로 대상자를 저장합니다."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"
 >title="이 워크플로는 읽기 전용입니다."
->abstract="이 워크플로우를 편집할 권한이 없습니다. 필요한 경우 관리자에게 문의하여 액세스 권한을 부여하십시오."
+>abstract="이 워크플로를 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only_canvas"

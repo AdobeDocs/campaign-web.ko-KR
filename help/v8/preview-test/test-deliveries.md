@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: f7921a1baf5564fc59ecaa1e16370ec2670576ce
 workflow-type: tm+mt
 source-wordcount: '1030'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
@@ -51,13 +51,13 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_mode"
->title="증명 Target"
->abstract="기본 타겟으로 보내기 전에 게재를 테스트하려는 경우 두 번째 파일을 &#39;증명의 대상&#39;으로 업로드할 수 있습니다."
+>title="증명의 대상"
+>abstract="기본 대상에게 보내기 전에 게재를 테스트하려는 경우 &#39;증명의 대상&#39;으로 두 번째 파일을 업로드할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_upload"
 >title="프로필 업로드"
->abstract="기본 타겟에 사용한 세트와 다른 세트로 게재를 테스트하려는 경우 추가 프로필이 있는 두 번째 파일을 업로드할 수 있습니다."
+>abstract="기본 대상에 사용한 세트와 다른 세트로 게재를 테스트하려는 경우 추가 프로필이 있는 두 번째 파일을 업로드할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_sample"

@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: 01f6becfdfbdbb071f4ddc275d9b0907e42143ce
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 56%
+ht-degree: 85%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 56%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_import_content"
 >title="기존 이메일 콘텐츠 사용"
->abstract="이메일 디자이너를 사용하면 기존 HTML 콘텐츠를 가져올 수 있습니다. 이 콘텐츠는 통합 스타일 시트가 있는 HTML 파일이거나, HTML 파일, 스타일 시트(.css) 및 이미지가 있는 .zip 폴더일 수 있습니다."
+>abstract="이메일 디자이너를 사용하면 기존 HTML 콘텐츠를 가져올 수 있습니다. 이 콘텐츠는 스타일 시트가 통합된 HTML 파일이거나 HTML 파일, 스타일 시트(.css) 및 이미지가 있는 .zip 폴더일 수 있습니다."
 
 이메일 디자이너를 사용하면 기존 HTML 콘텐츠를 가져올 수 있습니다. 이 콘텐츠는 다음 중 하나일 수 있습니다.
 

@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: f7921a1baf5564fc59ecaa1e16370ec2670576ce
 workflow-type: tm+mt
 source-wordcount: '1030'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_sample"
 >title="템플릿 파일"
->abstract="파일의 서식은 원본 파일과 같아야 합니다.<br/>지원되는 파일 형식은 txt, csv입니다. 최대 파일 크기: 15MB 첫 번째 라인을 열 머리글로 사용합니다."
+>abstract="파일 형식은 원본 파일과 동일해야 합니다.<br/>지원되는 파일 형식은 txt, csv입니다. 최대 파일 크기는 15MB입니다. 첫 번째 라인을 열 머리글로 사용합니다."
 
 1. 이메일 또는 SMS 게재의 콘텐츠 편집 화면으로 이동한 다음 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다.
 

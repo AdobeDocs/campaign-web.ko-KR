@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: 1fee200c84e121978c5a6787107a30a89c027b57
 workflow-type: tm+mt
 source-wordcount: '1667'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -280,7 +280,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
->title="이 캠페인은 읽기 전용입니다"
+>title="이 캠페인은 읽기 전용입니다."
 >abstract="이 캠페인을 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
 
 >[!CONTEXTUALHELP]
@@ -319,7 +319,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only_canvas"
 >title="이 워크플로는 읽기 전용입니다."
->abstract="지원되지 않거나 호환되지 않는 캔버스로 인해 이 워크플로우를 편집할 수 없습니다."
+>abstract="지원되지 않거나 호환되지 않는 캔버스로 인해 이 워크플로를 편집할 수 없습니다."
 
 <!-- delivery template settings-->
 

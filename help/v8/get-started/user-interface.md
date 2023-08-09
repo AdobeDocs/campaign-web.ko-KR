@@ -265,8 +265,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_unsubscriptions"
->title="구독 취소"
->abstract="구독 취소 KPI"
+>title="구독 최소 건수"
+>abstract="구독 최소 건수 KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
@@ -275,8 +275,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_errors"
->title="오류"
->abstract="오류 KPI"
+>title="오류수"
+>abstract="오류수 KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"

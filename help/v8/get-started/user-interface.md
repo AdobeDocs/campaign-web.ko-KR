@@ -4,9 +4,9 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 25cae1698334403e18f6dbede90b3c50b270d30b
+source-git-commit: 2ce793e148866e1f4c1a36d365e8aacb319a1dfb
 workflow-type: tm+mt
-source-wordcount: '2263'
+source-wordcount: '2286'
 ht-degree: 72%
 
 ---
@@ -38,10 +38,12 @@ ht-degree: 72%
 
 **최근 항목** 목록은 최근 생성 및 수정된 게재에 대한 단축키를 제공합니다. 이 목록에는 채널, 상태, 소유자, 생성 및 수정일이 표시됩니다.
 
+다음 **주요 성과 지표** 공통 KPI를 통해 플랫폼 효율성을 확인할 수 있습니다.
+
 홈 페이지 **학습** 섹션의 Campaign v8 Web 주요 도움말 페이지에 액세스합니다.
 
 
-#### 주요 성과 지표 {#user-interface-key-indicators}
+### 주요 성과 지표 {#user-interface-key-indicators}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
@@ -126,6 +128,8 @@ Adobe Campaign은 수신자가 이메일의 이미지를 다운로드할 때 메
 >id="acw_keyindicators_errors"
 >title="오류수"
 >abstract="게재 및 자동 바운스 처리 중 누적된 총 오류 수입니다. 연관된 비율은 게재할 메시지 수와 관련된 비율입니다."
+
+다음 **오류** 표시기에는 각 채널에 대한 다음 KPI가 표시됩니다.
 
 * 게재할 총 메시지 수와 비교한 오류 수의 백분율입니다.
 

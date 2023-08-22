@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 2e0e63e4a120ffb7a377b403c4bd912fdf40ed92
+source-git-commit: 25cae1698334403e18f6dbede90b3c50b270d30b
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 98%
+source-wordcount: '2263'
+ht-degree: 72%
 
 ---
 
@@ -39,6 +39,98 @@ ht-degree: 98%
 **최근 항목** 목록은 최근 생성 및 수정된 게재에 대한 단축키를 제공합니다. 이 목록에는 채널, 상태, 소유자, 생성 및 수정일이 표시됩니다.
 
 홈 페이지 **학습** 섹션의 Campaign v8 Web 주요 도움말 페이지에 액세스합니다.
+
+
+#### 주요 성과 지표 {#user-interface-key-indicators}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_spam"
+>title="스팸"
+>abstract="스팸 KPI"
+
+홈 페이지로 이동하여 플랫폼에 대한 주요 성능 지표를 확인합니다. 이 지표는 게재된 메시지, 열린 메시지, 클릭한 메시지, 구독 취소 메시지 및 오류율을 보여 줍니다.
+
+지표는 기본적으로 이전 7일 동안 전송된 게재에 대해 계산됩니다. 카드의 오른쪽 위 섹션에 있는 드롭다운 목록에서 기간을 변경할 수 있습니다. 테스트 프로필로 전송된 메시지는 제외됩니다.
+
+표시할 채널을 선택할 수 있습니다. 기본적으로 이러한 지표는 이메일 채널에 대한 지표를 반영합니다.
+
+![](assets/kpi.png)
+
+#### 메시지 전달됨 {#ui-delivered-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_delivered"
+>title="게재 대상"
+>abstract="이 지표는 선택한 채널에 대해 성공으로 처리된 모든 메시지의 합계와 전송된 총 메시지 수 대비 성공으로 전달된 메시지의 비율을 보여 줍니다."
+
+
+다음 **전달됨** 표시기에는 각 채널에 대한 다음 KPI가 표시됩니다.
+
+* 전송할 총 메시지 수와 비교하여 성공으로 배달된 메시지 수의 백분율입니다.
+
+* 성공으로 처리된 모든 메시지의 합계.
+
+Adobe Campaign에서 메시지를 &#39;전달됨&#39;으로 표시하는 규칙은 다음과 같습니다.
+
+&quot;시드 주소&quot; 필드가 &quot;아니요&quot;이고 상태가 &quot;서비스 공급자가 고려함&quot;(SMS의 경우) 또는 &quot;전송됨&quot;(이메일의 경우) 또는 &quot;모바일에서 수신됨&quot;(푸시 알림의 경우)인 메시지 수입니다.
+
+
+#### 총 열람수 {#ui-open-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_opens"
+>title="열람 수"
+>abstract="이 지표는 선택한 채널에 대해 열린 모든 메시지의 합과 메시지가 성공으로 배달된 총 메시지 수와 비교하여 열린 메시지의 비율을 보여 줍니다."
+
+다음 **열림** 표시기에는 각 채널에 대한 다음 KPI가 표시됩니다.
+
+* 성공으로 배달된 총 메시지 수와 비교한 열린 메시지 수의 백분율입니다.
+
+* 채널당 열린 모든 메시지의 합계.
+
+Adobe Campaign은 수신자가 이메일의 이미지를 다운로드할 때 메시지가 열린다는 것을 감지합니다. HTML 및 다중 파트/대체 이메일에는 열려 있는 메시지를 감지할 수 있는 0픽셀 이미지가 포함되어 있습니다. 텍스트 형식의 메시지에는 이미지가 포함되지 않기 때문에 열림 여부를 감지할 수 없습니다. 이미지 표시에 연결된 오류 여백으로 인해 메시지 열기를 기반으로 계산된 값은 항상 예상 값입니다.
+
+#### 클릭률 {#ui-click-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_clicks"
+>title="클릭 수"
+>abstract="이 지표는 선택한 채널에 대해 메시지에서 클릭한 모든 URL의 합계와 성공으로 배달된 총 메시지 수 대비 클릭 수의 백분율을 보여 줍니다."
+
+다음 **클릭수** 표시기에는 각 채널에 대한 다음 KPI가 표시됩니다.
+
+* 성공으로 전달된 총 메시지 수와 비교한 클릭 수의 백분율입니다.
+
+* 게재에서 최소 한 번 이상 클릭한 고유한 사람 수입니다. 구독 취소 링크 및 미러 페이지 링크가 제외됩니다.
+
+이 지표는 통합 추적 테이블(`nms:trackingStats`). 이 집계 테이블은 보고서를 표시할 때 수신자 추적 로그 테이블(`nms:trackingLogRcp`) 실시간으로 계산되지 않습니다. 이 테이블은 추적 로그를 검색한 후 몇 분 후에 생성됩니다.
+
+
+#### 구독 취소율 {#ui-unsub-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_unsubscriptions"
+>title="구독 최소 건수"
+>abstract="이 지표는 선택한 채널에 대해 서비스로부터의 모든 구독 취소의 합계 및 성공과 함께 전달된 총 메시지 수 대비 구독 취소의 비율을 보여 줍니다."
+
+다음 **구독 취소** 표시기에는 각 채널에 대한 다음 KPI가 표시됩니다.
+
+* 성공과 함께 전달된 총 메시지 수와 비교한 구독 취소 수의 백분율입니다.
+
+* 구독 취소 링크(예: URL 범주 포함)에 대한 모든 클릭 수의 합계는 &quot;옵트아웃&quot;과 같습니다.
+
+
+#### 오류율 {#ui-error-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_errors"
+>title="오류수"
+>abstract="게재 및 자동 바운스 처리 중 누적된 총 오류 수입니다. 연관된 비율은 게재할 메시지 수와 관련된 비율입니다."
+
+* 게재할 총 메시지 수와 비교한 오류 수의 백분율입니다.
+
+* 게재 및 자동 반올림 처리 중 누적된 총 오류 수.
+
 
 ### 탐색기 {#user-interface-explorer}
 
@@ -248,35 +340,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="권한 필요"
 >abstract="세그먼트를 만들려면 먼저 관리자가 권한을 부여해야 합니다."
 
->[!CONTEXTUALHELP]
->id="acw_keyindicators_delivered"
->title="게재 대상"
->abstract="게재 대상 KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_opens"
->title="열람 수"
->abstract="열람 수 KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_clicks"
->title="클릭 수"
->abstract="클릭 수 KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_unsubscriptions"
->title="구독 최소 건수"
->abstract="구독 취소 건수 KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_spam"
->title="스팸"
->abstract="스팸 KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_errors"
->title="오류수"
->abstract="오류수 KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"

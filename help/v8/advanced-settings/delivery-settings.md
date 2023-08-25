@@ -4,7 +4,7 @@ title: 이메일 게재 설정
 description: Campaign Web UI의 이메일 게재 설정에 대해 자세히 알아보기
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha"
-source-git-commit: 761a6d318ccb8b4075d5a25e2c9de573b998d424
+source-git-commit: 64b947fe6fc18f7452058de26a88444120c5af4b
 workflow-type: tm+mt
 source-wordcount: '1392'
 ht-degree: 88%
@@ -37,12 +37,14 @@ ht-degree: 88%
 
 
 ### 압력 매개변수 {#pressure-parameters}
+
 <!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_weight"
 >title="Delivery weight"
 >abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
 -->
+
 이 섹션에서는 압력 매개변수를 사용하여 **임계값**&#x200B;을 정의할 수 있습니다. 주어진 기간 동안 하나의 프로필에 전송할 수 있는 최대 메시지 수입니다. 이 임계값에 도달하면 고려된 기간이 끝날 때까지 더 이상 게재할 수 없습니다. 이 프로세스를 사용하면 메시지가 설정된 임계값을 초과하는 경우 게재 시 프로필을 자동으로 제외하여 과도한 요청을 방지할 수 있습니다.
 
 임계값은 상수 또는 변수일 수 있습니다. 즉, 특정 기간 동안 임계값은 프로필마다 또는 심지어 동일한 프로필에 대해서도 다를 수 있습니다.

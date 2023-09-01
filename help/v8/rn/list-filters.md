@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web v8의 새로운 기능
 description: Campaign Web v8이 제공되는 새로운 기능 살펴보기
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-badge: 레이블=“Alpha”
-source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
-workflow-type: ht
-source-wordcount: '507'
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+workflow-type: tm+mt
+source-wordcount: '506'
 ht-degree: 100%
 
 ---

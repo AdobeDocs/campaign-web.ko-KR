@@ -3,11 +3,11 @@ audience: end-user
 title: 게재 콘텐츠 미리 보기
 description: Campaign 웹 UI를 사용하여 게재 콘텐츠를 미리 보는 방법 알아보기
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="알파"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 9%
+source-wordcount: '343'
+ht-degree: 10%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 9%
 
      >[!NOTE]
      >
-     >테스트 프로필은 [!DNL Campaign] 콘솔을 **[!UICONTROL 리소스]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 시드 주소]** 폴더를 삭제합니다. 다음에서 자세히 알아보기 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
+     >테스트 프로필은 [!DNL Campaign] 콘솔을 **[!UICONTROL 리소스]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 시드 주소]** 폴더를 삭제합니다. 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
 
-   * **[!UICONTROL 프로필]** 탭에는 콘솔의 **[!UICONTROL 프로필 및 대상]** 폴더에 저장된 모든 수신자가 나열됩니다. [!DNL Campaign] 다음에서 자세히 알아보기 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
+   * **[!UICONTROL 프로필]** 탭에는 콘솔의 **[!UICONTROL 프로필 및 대상]** 폴더에 저장된 모든 수신자가 나열됩니다. [!DNL Campaign] 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
 
    ![](assets/simulate-select-profiles.png)
 

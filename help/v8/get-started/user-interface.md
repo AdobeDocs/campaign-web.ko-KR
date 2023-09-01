@@ -4,9 +4,9 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: cc3209d8aba62ff4492e71eaaa641e77f5a27e93
+source-git-commit: 970a7c7af8b94e96d33ef2e41f8ddcfda322252c
 workflow-type: tm+mt
-source-wordcount: '2577'
+source-wordcount: '1726'
 ht-degree: 99%
 
 ---
@@ -41,113 +41,6 @@ ht-degree: 99%
 **주요 성과 지표**&#x200B;를 사용하면 공통 KPI를 통해 플랫폼 효율성을 확인할 수 있습니다.
 
 홈 페이지 **학습** 섹션의 Campaign v8 Web 주요 도움말 페이지에 액세스합니다.
-
-
-### 주요 성과 지표 {#user-interface-key-indicators}
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_spam"
->title="스팸"
->abstract="스팸 KPI"
-
-플랫폼의 주요 성과 지표를 확인하려면 홈 페이지로 이동합니다. 이러한 지표에는 게재, 열람, 클릭, 구독 취소된 메시지의 수 및 비율과 오류율이 표시됩니다.
-
-지표는 기본적으로 지난 7일 동안 전송된 게재에 대해 계산됩니다. 카드 오른쪽 상단에 있는 드롭다운 목록에서 기간을 변경할 수 있습니다. 테스트 프로필로 전송된 메시지는 제외됩니다.
-
-표시할 채널을 선택할 수 있습니다. 기본적으로 이러한 표시기는 이메일 채널에 대한 지표를 반영합니다.
-
-![](assets/kpi.png)
-
-#### 게재된 메시지 {#ui-delivered-kpi}
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_delivered"
->title="게재됨"
->abstract="이 지표에는 선택된 채널에 대해 성공적으로 처리된 모든 메시지 수의 합계와, 전송된 총 메시지 수에 대한 성공적으로 게재된 메시지 수의 비율이 표시됩니다."
-
-게재된 메시지 수는 전달성 비율을 반영합니다. 이 비율은 일부 주소나 전화번호가 잘못되었거나, 이메일 제공업체의 스팸 차단기가 메시지를 거부하거나, 전달성 문제가 발생하는 등의 이유로 100%는 될 수 없습니다.
-
-**게재됨** 표시기에는 각 채널에 대해 다음 KPI가 표시됩니다.
-
-* 전송된 총 메시지 수에 대한 성공적으로 게재된 메시지 수의 비율
-
-* 성공적으로 처리된 모든 메시지 수의 합계
-
-Adobe Campaign에서 메시지를 “전달됨”으로 표시하는 규칙은 다음과 같습니다.
-
-“시드 주소” 필드가 “아니요”이고 상태가 “서비스 공급자에 의해 고려됨”(SMS의 경우), “전송됨”(이메일의 경우) 또는 “모바일에서 수신됨”(푸시 알림의 경우)인 메시지 수
-
-
-#### 총 열람 수 {#ui-open-kpi}
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_opens"
->title="열람 수"
->abstract="이 지표에는 선택된 채널에 대해 열람된 모든 메시지 수의 합계와, 성공적으로 게재된 총 메시지 수에 대한 열람된 메시지 수의 비율이 표시됩니다."
-
-총 열람 수는 해당 열람을 생성한 개별 수신자 수에 관계없이 메시지가 열린 총 횟수를 추적하여 계산됩니다. 이 표시기는 이메일에만 사용할 수 있습니다.
-
-**열람 수** 표시기에는 각 채널에 대해 다음 KPI가 표시됩니다.
-
-* 성공적으로 게재된 총 메시지 수에 대한 열람된 메시지 수의 비율
-
-* 채널당 열람된 모든 메시지 수의 합계
-
-Adobe Campaign은 수신자가 이메일의 이미지를 다운로드할 때 메시지 열람을 감지합니다. HTML 및 다중 파트/대체 이메일에는 열람된 메시지를 감지할 수 있는 0픽셀 이미지가 포함되어 있습니다. 텍스트 포맷의 메시지에는 이미지가 포함되어 있지 않으므로 열람되었는지 여부를 감지할 수 없습니다. 메시지 열람 수를 기준으로 계산된 값은 이미지 표시와 관련된 오차 범위로 인해 언제까지나 추정치에 불과합니다.
-
-
-
-#### 클릭스루 비율 {#ui-click-kpi}
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_clicks"
->title="클릭 수"
->abstract="이 지표에는 선택된 채널에 대해 메시지에서 클릭된 모든 URL의 합계와, 성공적으로 게재된 총 메시지 수에 대한 클릭 수의 비율이 표시됩니다."
-
-메시지 내용에 URL을 추가하면 수신자를 특정 페이지로 리디렉션할 수 있습니다. 클릭스루 비율은 메시지의 링크를 클릭한 수신자의 수와 비율을 측정합니다.
-
-**클릭 수** 표시기에는 각 채널에 대해 다음 KPI가 표시됩니다.
-
-* 성공적으로 게재된 총 메시지 수에 대한 클릭 수의 비율
-
-* 게재 시 한 번 이상 클릭한 고유 사용자 수 (구독 취소 링크 및 이메일 미러 페이지 링크 제외)
-
-이 지표는 통합 추적 테이블(`nms:trackingStats`)을 기반으로 합니다. 이 집계 테이블은 보고서를 표시할 때 수신자 추적 로그 테이블(`nms:trackingLogRcp`) 대신 성능상의 목적으로 사용되며 실시간으로 계산되지 않습니다. 추적 로그가 검색되고 몇 분 후에 테이블이 생성됩니다.
-
-
-#### 구독 취소 비율 {#ui-unsub-kpi}
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_unsubscriptions"
->title="구독 취소 건수"
->abstract="이 지표에는 선택한 채널에 대해 서비스의 모든 구독 취소 건수의 합계와, 성공적으로 게재된 총 메시지 수에 대한 구독 취소 수의 비율이 표시됩니다."
-
-수신자는 이메일 콘텐츠의 전용 구독 취소 링크를 통해 또는 SMS에 STOP이라고 답장하여 이메일 및 SMS를 옵트아웃할 수 있어야 합니다.
-
-**구독 취소 건수** 표시기에는 각 채널에 대해 다음 KPI가 표시됩니다.
-
-* 성공적으로 게재된 총 메시지 수에 대한 구독 취소 건수의 비율
-
-* 구독 취소 링크(“옵트아웃”과 같은 URL 범주)의 모든 클릭 수 합계
-
-
-#### 오류율 {#ui-error-kpi}
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_errors"
->title="오류 수"
->abstract="게재 및 자동 바운스 처리 중 누적된 총 오류 수입니다. 결합된 비율은 게재될 메시지 수에 대한 비율입니다."
-
-Adobe Campaign 플랫폼에서 전송한 일부 메시지는 대상에 도달하지 못할 수 있습니다. 이는 사용자 주소나 전화번호에 오타가 있거나, 수신자가 이메일 주소를 변경했거나, 수신자의 사서함이 가득 찬 경우에 발생할 수 있습니다. 메시지를 프로필로 보낼 수 없는 경우 원격 서버는 자동으로 Adobe Campaign에 오류 메시지를 보냅니다. 이 오류는 이메일 주소, 전화번호 또는 디바이스를 격리해야 하는지 여부를 결정하는 데 적합합니다.
-
-따라서 항상 데이터베이스를 확인하고 업데이트해야 하며 모든 프로필이 활성 상태이고 실제인지 확인해야 합니다. 게재 오류는 메시지가 게재되지 않은 이유에 따라 일시적이거나 영구적일 수 있습니다(소프트 바운스이거나 하드 바운스일 수 있습니다).
-
-**오류 수** 표시기에는 각 채널에 대해 다음 KPI가 표시됩니다.
-
-* 게재될 총 메시지 수에 대한 오류 수의 비율
-
-* 게재 및 자동 리바운드 처리 중 누적된 총 오류 수
-
 
 ### 탐색기 {#user-interface-explorer}
 
@@ -449,6 +342,16 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="선택한 페이지만 내보낼 수 있습니다."
 
 >[!CONTEXTUALHELP]
+>id="acw_global_reporting_sending"
+>title="글로벌 보고서 전송 중"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_tracking"
+>title="글로벌 보고서 추적"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"
 >title="캠페인의 게재 목록"
 >abstract="캠페인의 게재 목록"
@@ -462,7 +365,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
->title="게재 설정 대상"
+>title="게재 설정 대상자"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]

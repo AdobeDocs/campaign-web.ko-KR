@@ -3,11 +3,11 @@ audience: end-user
 title: 인라인 스타일 속성 추가
 description: 인라인 스타일 속성 추가 방법 알아보기
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
-badge: label="알파"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 98%
+source-wordcount: '124'
+ht-degree: 100%
 
 ---
 

@@ -3,11 +3,11 @@ audience: end-user
 title: Campaign v8 Web 시작하기
 description: Campaign v8 Web 시작하기
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-badge: 레이블=“Alpha”
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -58,4 +58,4 @@ Campaign 데이터는 애플리케이션 서버에 저장됩니다. 클라이언
 
 일부 오브젝트는 클라이언트 콘솔에서만 만들고 관리할 수 있습니다. 오브젝트는 Campaign Web UI에서 보고 사용할 수 있지만, 이 환경에서는 만들거나 수정할 수 없습니다. 모든 Campaign 오브젝트와 구성 요소는 탐색기 보기와 왼쪽 탐색 메뉴에서 사용할 수 있습니다.
 
-Campaign v8 사용 방법에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html){target="_blank"}를 참조하십시오.
+Campaign v8 사용 방법에 대한 자세한 내용은 다음을 참조하십시오. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html){target="_blank"}.

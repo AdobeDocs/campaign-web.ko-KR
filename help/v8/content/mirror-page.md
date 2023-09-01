@@ -2,12 +2,12 @@
 audience: end-user
 title: 미러 페이지에 대한 링크 추가
 description: 미러 페이지에 대한 링크를 추가하고 관리하는 방법 알아보기
-badge: label="알파"
+badge: label="Beta"
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 99%
+source-wordcount: '440'
+ht-degree: 100%
 
 ---
 

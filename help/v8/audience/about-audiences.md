@@ -2,11 +2,11 @@
 audience: end-user
 title: 대상자 시작하기
 description: Campaign Web UI에서 대상자를 사용하는 방법 알아보기
-badge: 레이블=“Alpha”
+badge: label="Beta"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '215'
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+workflow-type: tm+mt
+source-wordcount: '214'
 ht-degree: 100%
 
 ---

@@ -2,11 +2,11 @@
 audience: end-user
 title: 게재 보고서 푸시
 description: 푸시 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
-badge: label="알파"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 5%
+source-wordcount: '297'
+ht-degree: 6%
 
 ---
 

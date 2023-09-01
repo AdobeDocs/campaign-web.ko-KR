@@ -1,17 +1,17 @@
 ---
 audience: end-user
 title: Adobe Campaign Web을 사용하여 워크플로 만들기
-description: Adobe Campaign Web을 사용하여 워크플로를 구축하는 방법 알아보기
-badge: label="알파"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+description: Adobe Campaign Web을 사용하여 워크플로를 빌드하는 방법 알아보기
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 4%
+source-wordcount: '515'
+ht-degree: 5%
 
 ---
 
 
-# 활동 오케스트레이션 {#orchestrate}
+# 활동 조율 {#orchestrate}
 
 한 번 [이(가) 워크플로우를 만들었습니다.](create-workflow.md), 워크플로우 메뉴에서 또는 캠페인 내에서 수행할 다양한 작업을 오케스트레이션할 수 있습니다. 이를 위해 워크플로 다이어그램을 구성할 수 있는 시각적 캔버스가 제공됩니다. 이 다이어그램 내에서 다양한 활동을 추가하고 순차적 순서로 연결할 수 있습니다.
 

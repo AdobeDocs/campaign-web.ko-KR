@@ -3,11 +3,11 @@ audience: end-user
 title: Campaign 규칙 빌더로 대상자 빌드
 description: 규칙 빌더로 작업하는 방법을 알아봅니다.
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-badge: label="알파"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 96%
+source-wordcount: '549'
+ht-degree: 95%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 96%
 
   >[!NOTE]
   >
-  >Adobe Experience Platform 대상자를 활용하려면 대상과의 통합을 구성해야 합니다. [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html)를 참조하십시오{target="_blank"}.
+  >Adobe Experience Platform 대상자를 활용하려면 대상과의 통합을 구성해야 합니다. 다음을 참조하십시오. [Adobe Experience Platform 대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html){target="_blank"}.
 
 검색 창을 사용하면 요소를 빠르게 찾을 수 있습니다.
 

@@ -2,11 +2,11 @@
 audience: end-user
 product: campaign
 title: 이메일 템플릿 작업
-badge: label="알파"
-source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 8%
+source-wordcount: '119'
+ht-degree: 9%
 
 ---
 

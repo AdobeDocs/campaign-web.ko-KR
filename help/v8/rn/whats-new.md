@@ -3,20 +3,20 @@ audience: end-user
 title: Campaign Web v8의 새로운 기능
 description: Campaign Web v8이 제공되는 새로운 기능 살펴보기
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-badge: 레이블=“Alpha”
-source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
-workflow-type: ht
-source-wordcount: '516'
-ht-degree: 100%
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+workflow-type: tm+mt
+source-wordcount: '536'
+ht-degree: 90%
 
 ---
 
 
 # 새로운 기능 {#new}
 
-## Alpha 2.0 릴리스{#alpha-release}
+## 베타 릴리스{#beta-release}
 
-이 새로운 캠페인 웹 인터페이스는 현재 **Alpha 전문가**&#x200B;만 사용할 수 있으며, 다음 기능과 함께 제공됩니다.
+이 새 Campaign 웹 인터페이스는 현재 다음 대상에서만 사용할 수 있습니다. **베타 실무자** (다음 기능 포함):
 
 **현대적이고 직관적이며 통합된 경험**
 
@@ -53,6 +53,7 @@ Campaign 사용자는 여전히 클라이언트 콘솔에 액세스하여 Campai
 
 또한 클라이언트 콘솔에 이미 제공된 모든 데이터 및 설정이 탐색기 왼쪽 탐색 메뉴의 Campaign Web UI에 표시됩니다. [이 섹션](../get-started/user-interface.md#explorer-user-interface-explorer)에서 탐색기 보기에 대해 자세히 알아보십시오.
 
+Campaign Web Beta 릴리스의 사용자 인터페이스는 사용자의 권한을 반영합니다. 의 권한에 대해 자세히 알아보기 [이 페이지](../get-started/permissions.md)
 
 ## 용어 업데이트 {#terminology-updates}
 
@@ -68,7 +69,7 @@ Campaign 사용자는 여전히 클라이언트 콘솔에 액세스하여 Campai
 
 아래는 이 Alpha 버전에 적용되는 제한 사항입니다.
 
-* 편집 가능한 유일한 오브젝트는 게재, 캠페인, 워크플로, 대상자와 템플릿입니다. 다른 오브젝트는 읽기 전용입니다. 필터를 사용하여 모두 탐색해 보십시오.
+* 편집 가능한 오브젝트는 게재, 캠페인, 워크플로우, 대상자, 구독 서비스, 사전 정의된 필터 및 템플릿입니다. 다른 오브젝트는 읽기 전용입니다. 필터를 사용하여 모두 탐색해 보십시오.
 * 대상자는 나중에 사용할 수 있도록 저장할 수 없습니다.
 * 관리 사용자 인터페이스는 사용할 수 없습니다.
 * 보고 지표(예: 열람 및 추적 데이터)는 매시간 업데이트됩니다.

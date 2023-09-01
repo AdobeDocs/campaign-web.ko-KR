@@ -2,8 +2,8 @@
 audience: end-user
 title: 캠페인 보고서
 description: 캠페인 보고서에 액세스하고 사용하는 방법을 알아봅니다
-badge: label="알파"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
 source-wordcount: '1753'
 ht-degree: 2%
@@ -56,7 +56,7 @@ Campaign 보고서에 액세스하려면 캠페인 대시보드에서 보고서 
 
    * **[!UICONTROL 게재할 메시지]**: 게재 분석 후 게재할 총 메시지 수
 
-   * **[!UICONTROL 규칙에 의해 거부됨]**&#x200B;차단 목록 : 분석 중에 무시된 총 주소 수: 격리된 주소, 격리된 주소 수 등 규칙 적용 시
+   * **[!UICONTROL 규칙에 의해 거부됨]**&#x200B;차단 목록에 추가하다 : 분석 중에 무시된 총 주소 수: 격리된 주소, 격리된 주소 수 등 규칙 적용 시
 
 +++
 
@@ -111,7 +111,7 @@ Campaign 보고서에 액세스하려면 캠페인 대시보드에서 보고서 
 
 * **[!UICONTROL 유형별 오류 분류]** 및 **[!UICONTROL 도메인별 오류 분류]** 표 및 그래프에는 각 도메인에서 발생할 수 있는 오류에 대해 사용 가능한 데이터가 포함되어 있습니다.
 
-  이 보고서에 표시된 오류는 격리 프로세스를 트리거합니다. 격리 관리에 대한 자세한 내용은 다음을 참조하십시오. [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
+  이 보고서에 표시된 오류는 격리 프로세스를 트리거합니다. 격리 관리에 대한 자세한 내용은 다음을 참조하십시오. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
   ![](assets/campaign_report_email_6.png)
 
@@ -248,7 +248,7 @@ Campaign 보고서에 액세스하려면 캠페인 대시보드에서 보고서 
 
    * **[!UICONTROL 게재할 메시지]**: 게재 분석 후 게재할 총 메시지 수
 
-   * **[!UICONTROL 규칙에 의해 거부됨]**&#x200B;차단 목록 : 분석 중에 무시된 총 주소 수: 격리된 주소, 격리된 주소 수 등 규칙 적용 시
+   * **[!UICONTROL 규칙에 의해 거부됨]**&#x200B;차단 목록에 추가하다 : 분석 중에 무시된 총 주소 수: 격리된 주소, 격리된 주소 수 등 규칙 적용 시
 
 +++
 
@@ -308,7 +308,7 @@ Campaign 보고서에 액세스하려면 캠페인 대시보드에서 보고서 
 
    * **[!UICONTROL 게재할 메시지]**: 게재 분석 후 게재할 총 메시지 수
 
-   * **[!UICONTROL 규칙에 의해 거부됨]**&#x200B;차단 목록 : 분석 중에 무시된 총 주소 수: 격리된 주소, 격리된 주소 수 등 규칙 적용 시
+   * **[!UICONTROL 규칙에 의해 거부됨]**&#x200B;차단 목록에 추가하다 : 분석 중에 무시된 총 주소 수: 격리된 주소, 격리된 주소 수 등 규칙 적용 시
 
 +++
 

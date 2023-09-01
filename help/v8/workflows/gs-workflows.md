@@ -2,11 +2,11 @@
 audience: end-user
 title: 워크플로 시작
 description: 워크플로를 시작하는 방법 알아보기
-badge: 레이블=“Alpha”
+badge: label="Beta"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '388'
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+workflow-type: tm+mt
+source-wordcount: '387'
 ht-degree: 100%
 
 ---

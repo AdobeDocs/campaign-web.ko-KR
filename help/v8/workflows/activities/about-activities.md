@@ -2,10 +2,10 @@
 audience: end-user
 title: 워크플로 활동을 사용하여 작업
 description: 워크플로 활동을 사용하는 방법 알아보기
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
-workflow-type: ht
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 100%
 

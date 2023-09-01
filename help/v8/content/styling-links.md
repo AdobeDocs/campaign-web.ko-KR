@@ -3,11 +3,11 @@ audience: end-user
 title: 링크 스타일 정의
 description: 링크 스타일을 정의하는 방법 알아보기
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-badge: label="알파"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 98%
+source-wordcount: '140'
+ht-degree: 100%
 
 ---
 

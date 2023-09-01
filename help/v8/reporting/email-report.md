@@ -2,17 +2,17 @@
 audience: end-user
 title: 이메일 게재 보고서
 description: 이메일 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
-badge: label="알파"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
 source-wordcount: '1407'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
 # 이메일 게재 보고서 {#email-report}
 
-다음 **이메일 게재 보고서** 은 이메일 채널과 관련된 포괄적인 통찰력과 데이터를 제공합니다. 개별 게재의 성능, 효율성 및 결과에 대한 자세한 정보를 제공하여 포괄적인 개요를 제공합니다.
+다음 **이메일 게재 보고서** 은 이메일 채널과 관련된 포괄적인 통찰력과 데이터를 제공합니다. 개별 게재의 성과, 효율성 및 결과에 대해 자세한 정보와 함께 포괄적인 개요를 제공합니다.
 
 ## 게재 요약 {#delivery-summary-email}
 
@@ -98,7 +98,7 @@ ht-degree: 7%
 
 * **[!UICONTROL 유형별 오류 분류]** 및 **[!UICONTROL 도메인별 오류 분류]** 표 및 그래프에는 각 도메인에서 발생할 수 있는 오류에 대해 사용 가능한 데이터가 포함되어 있습니다.
 
-  이 보고서에 표시된 오류는 격리 프로세스를 트리거합니다. 격리 관리에 대한 자세한 내용은 다음을 참조하십시오. [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
+  이 보고서에 표시된 오류는 격리 프로세스를 트리거합니다. 격리 관리에 대한 자세한 내용은 다음을 참조하십시오. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
   ![](assets/campaign_report_email_6.png)
 
@@ -220,7 +220,7 @@ ht-degree: 7%
 
 +++
 
-## 열람 분류 {#breakdown-opens}
+## 열람수 분류 {#breakdown-opens}
 
 이 보고서는 해당 기간에 대한 운영 체제, 장치 및 브라우저별 열기 분석을 보여 줍니다. 각 범주별로 두 개의 차트가 사용됩니다. 첫 번째 차트에는 컴퓨터 및 모바일 디바이스에서의 열람과 관련된 통계가 표시됩니다. 두 번째 차트에는 모바일 디바이스에서의 열람과 관련된 통계만 표시됩니다.
 유연하게 전환할 수 있습니다. **[!UICONTROL 수정 및 모바일]** 독점적으로 타겟팅하다 **[!UICONTROL 모바일 전용]** 을 참조하십시오.

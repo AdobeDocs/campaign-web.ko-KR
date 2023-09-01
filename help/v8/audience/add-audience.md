@@ -3,11 +3,11 @@ audience: end-user
 title: 기존 대상자 선택
 description: 대상자 선택 방법 알아보기
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="알파"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 89%
+source-wordcount: '294'
+ht-degree: 57%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="기존 대상자 선택"
->abstract="대상자는 Adobe Campaign v8 Console에서 정의됩니다. Adobe Experience Platform 통합을 사용할 수 있는 경우 Platform에서 정의된 대상자를 확인할 수도 있습니다."
+>abstract="목록을 탐색하여 기존 대상자를 선택합니다. &#39;필터 표시&#39; 아이콘을 사용하여 목록을 필터링하거나 특정 폴더를 선택합니다."
 
 이 섹션에서는 이메일 게재의 대상 모집단을 정의할 때 기존 대상자를 선택하는 방법에 대해 설명합니다.
 
 이외에 수행할 수 있는 작업은 다음과 같습니다.
 
 * 새 대상을 작성합니다. [자세히 알아보기](segment-builder.md)
-* 외부 파일에서 대상자를 로드합니다. [자세히 알아보기](file-audience.md)
+* 외부 파일에서 대상자를 로드합니다(이메일에만 해당). [자세히 알아보기](file-audience.md)
 * Adobe Experience Platform 대상자 사용 [자세히 알아보기](aep-audience.md)
 
 
@@ -36,21 +36,16 @@ ht-degree: 89%
 
 1. 기존 대상자를 사용하려면 **[!UICONTROL 대상자 선택]**&#x200B;을 선택합니다. 이 이메일에서 사용할 새 대상자를 만들려면 **직접 만들기**&#x200B;를 선택합니다. 이 [섹션](segment-builder.md)을 참조하십시오.
 
-   이 화면에는 현재 폴더에 대해 Adobe Campaign 클라이언트 콘솔에 정의된 모든 기존 대상자가 표시됩니다.
+   이 화면에는 현재 폴더의 기존 대상이 모두 표시됩니다.
 
    ![](assets/create-audience2.png)
 
-   >[!NOTE]
-   >
-   >Adobe Experience Platform 대상자를 활용하려면 대상과의 통합을 구성해야 합니다. [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html)를 참조하십시오{target="_blank"}.
+   대상자는 다음에서 만들어집니다. **대상자** 왼쪽 메뉴. 클라이언트 콘솔에서 만들 수도 있습니다.
+
+   Adobe Experience Platform 대상을 사용하려면 대상과의 통합을 구성해야 합니다. 다음을 참조하십시오. [Adobe Experience Platform 대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html){target="_blank"}.
 
 1. 대상자를 선택하고 **선택**&#x200B;을 클릭합니다.
-
-1. 대상자를 세분화하려면 **규칙 편집**&#x200B;을 클릭합니다.
-
-   ![](assets/create-audience3.png)
-
-1. 규칙 빌더를 사용하면 추가 필터를 사용하거나 다른 대상자를 결합하여 대상자를 보강할 수 있습니다. 이 [섹션](segment-builder.md)을 참조하십시오.
+1. 사용 **필터 표시** 아이콘을 클릭하여 필터링 옵션을 표시합니다. 클릭 **규칙 추가** 규칙 빌더에 액세스: 규칙 빌더를 사용하면 대상자 목록에 대한 고급 필터를 만들 수 있습니다. 에서 규칙 빌더를 사용하는 방법을 알아봅니다 [섹션](segment-builder.md).
 
    ![](assets/create-audience4.png)
 

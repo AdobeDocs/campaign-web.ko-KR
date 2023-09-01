@@ -3,11 +3,11 @@ audience: end-user
 title: 컨트롤 그룹 설정
 description: Campaign Web UI에서 메시지에 대한 컨트롤 그룹을 설정하는 방법 알아보기
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 43%
+source-wordcount: '780'
+ht-degree: 41%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="추출 모드"
->abstract="컨트롤 그룹을 정의하기 위해 임의로 또는 대상 모집단에서 정렬, 백분율 또는 고정된 수의 프로필을 추출하도록 선택할 수 있습니다."
+>abstract="컨트롤 그룹은 게재에서 제외된 프로필 세트입니다. 컨트롤 그룹을 정의하기 위해 임의로 또는 대상 모집단에서 정렬, 백분율 또는 고정된 수의 프로필을 추출하도록 선택할 수 있습니다."
 
 
 ### 컨트롤 그룹 만들기 {#build-extract-target}
@@ -104,7 +104,7 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="추가 모집단"
->abstract="기존 대상자를 선택하거나 쿼리를 정의하여 특정 모집단을 게재 대상자에서 제외할 수 있습니다."
+>abstract="컨트롤 그룹은 게재에서 제외된 프로필 세트입니다. 기존 대상자를 선택하거나 쿼리를 정의하여 특정 모집단을 게재 대상자에서 제외할 수 있습니다."
 
 컨트롤 그룹을 정의하는 또 다른 방법은 기존 대상에서 특정 모집단을 선택하거나 쿼리를 정의하는 것입니다.
 

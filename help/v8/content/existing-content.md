@@ -3,8 +3,8 @@ audience: end-user
 title: 이메일 콘텐츠 가져오기
 description: 이메일 콘텐츠를 가져오는 방법 알아보기
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-badge: label="Alpha"
-source-git-commit: 01f6becfdfbdbb071f4ddc275d9b0907e42143ce
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 85%

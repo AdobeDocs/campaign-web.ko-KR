@@ -3,11 +3,11 @@ audience: end-user
 title: 이메일 게재 설정
 description: Campaign Web UI의 이메일 게재 설정에 대해 자세히 알아보기
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="Alpha"
-source-git-commit: 64b947fe6fc18f7452058de26a88444120c5af4b
+badge: label="Beta"
+source-git-commit: c2f26d1dc7d8804672de25076a0355b734a0b335
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 88%
+source-wordcount: '1494'
+ht-degree: 83%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="유형화"
->abstract="유형화로 게재 전송을 제어, 필터링 및 모니터링할 수 있습니다."
+>abstract="유형화는 메시지 준비 중에 실행되는 규칙 세트입니다. 이를 통해 게재 전송을 제어, 필터링 및 모니터링할 수 있습니다."
 
 유형화는 메시지 분석 단계 동안 실행되는 **유형화 규칙** 세트입니다. 이메일에 항상 특정 요소(예: 구독 취소 링크 또는 제목 줄)가 포함되어 있는지 확인하거나 그룹을 의도한 타겟(구독 취소자, 경쟁 업체 또는 비충성 고객)에서 제외하는 필터링 규칙이 있는지 확인할 수 있습니다.
 
@@ -38,12 +38,12 @@ ht-degree: 88%
 
 ### 압력 매개변수 {#pressure-parameters}
 
-<!--
+
 >[!CONTEXTUALHELP]
->id="acw_email_settings_delivery_weight"
->title="Delivery weight"
->abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
--->
+>id="acw_email_settings_pressure_parameters"
+>title="압력 매개변수"
+>abstract="게재 가중치를 통해 압력 관리 프레임워크 내에서 최우선 게재를 식별할 수 있습니다. 가중치가 가장 높은 메시지는 우선 순위가 높습니다."
+
 
 이 섹션에서는 압력 매개변수를 사용하여 **임계값**&#x200B;을 정의할 수 있습니다. 주어진 기간 동안 하나의 프로필에 전송할 수 있는 최대 메시지 수입니다. 이 임계값에 도달하면 고려된 기간이 끝날 때까지 더 이상 게재할 수 없습니다. 이 프로세스를 사용하면 메시지가 설정된 임계값을 초과하는 경우 게재 시 프로필을 자동으로 제외하여 과도한 요청을 방지할 수 있습니다.
 
@@ -64,34 +64,34 @@ ht-degree: 88%
 * **잠정 대상 예상 및 승인**
 * **대상 평가**
 
-피로도 관리는 **캠페인 최적화** 추가 기능과 함께 제공됩니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}에서 압력 규칙 및 피로도 관리 구성 방법에 대해 자세히 알아보십시오.
+피로도 관리는 **캠페인 최적화** 추가 기능과 함께 제공됩니다. 압력 규칙 및 의 피로도 관리 구성 방법에 대해 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
 
 ### 용량 설정 {#capacity-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="용량 설정"
->abstract="Adobe Campaign v8 콘솔에 정의된 용량 규칙을 선택합니다. 이 규칙은 이메일 채널과 연결되어 있습니다."
+>abstract="메시지를 게재하기 전에 용량 규칙을 사용하여 조직에서 게재, 게재에서 생성할 수 있는 인바운드 메시지 및 구독자에게 문의하기 위한 호출 수 등을 처리할 수 있는지 확인하십시오. 용량 규칙은 Adobe Campaign v8 콘솔에서 정의됩니다. 이 화면에서 전자 메일 채널과 연결된 규칙을 선택합니다."
 
 이 섹션에서는 Adobe Campaign v8 Console에 정의된 용량 규칙을 선택할 수 있습니다. 이 규칙은 이메일 채널과 연결되어 있습니다.
 
 **수신자 중요도** 필드는 용량 유형화 규칙 초과 시 유지되는 수신자를 결정하는 데 사용되는 공식입니다.
 
-[Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}에서 일관성 및 용량 규칙과 그 구성 방법에 대해 자세히 알아보십시오.
+일관성 및 용량 규칙과 이를 구성하는 방법에 대해 자세히 알아봅니다. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
 
 
 ## 대상자 {#audience}
 
 이 섹션에서는 사용 가능한 **대상 매핑** 중 원하는 옵션을 선택할 수 있습니다. 대상 매핑은 Adobe Campaign v8 콘솔에서 정의됩니다.
 
-[ Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}에서 대상 매핑에 대해 자세히 알아보십시오.
+다음에서 대상 매핑에 대해 자세히 알아보기: [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
 ## 게재 {#delivery}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="게재 설정"
->abstract="게재 매개변수는 게재에 적용되는 기술 설정입니다."
+>abstract="게재 매개변수는 게재에 적용되는 기술 설정입니다. 게재에 대해 BCC를 활성화하고 게재 및 루틴 모드를 변경할 수 있습니다. 이러한 옵션은 전문가 사용자로만 제한됩니다."
 
 게재 매개변수는 게재에 적용되는 기술 설정입니다.
 
@@ -99,7 +99,7 @@ ht-degree: 88%
 
 * **테스트 SMTP 게재**: 이 옵션은 SMTP를 통한 전송을 테스트하는 데 사용됩니다. 게재는 SMTP 서버에 연결될 때까지 처리되지만 전송되지는 않습니다. 게재의 모든 수신자에 대해 Campaign은 SMTP 공급자 서버에 연결하고 SMTP RCPT TO 명령을 실행한 다음 SMTP DATA 명령 전에 연결을 종료합니다.
 
-* **이메일 BCC**: 이 옵션은 BCC 이메일 주소를 메시지 대상에 추가하여 BCC를 통해 외부 시스템에 이메일을 저장하는 데 사용됩니다. 에서 이메일 BCC에 대해 자세히 알아보기 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+* **이메일 BCC**: 이 옵션은 BCC 이메일 주소를 메시지 대상에 추가하여 BCC를 통해 외부 시스템에 이메일을 저장하는 데 사용됩니다. 에서 이메일 BCC에 대해 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 
 
@@ -107,7 +107,7 @@ ht-degree: 88%
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
-에서 다시 시도 관리에 대해 자세히 알아보기 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+에서 다시 시도 관리에 대해 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 ## 승인 {#approval}
 
@@ -134,7 +134,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
 >title="설정 유효성"
->abstract="게재 기간 필드를 통해 글로벌 게재 재시도에 대한 제한 값을 입력할 수 있습니다. 즉, Adobe Campaign은 시작 날짜부터 메시지를 보낸 다음 오류를 반환하는 메시지의 경우 유효성 제한에 도달할 때까지 정기적으로 구성 가능한 재시도를 수행합니다. 유효성 제한 필드는 미러 페이지나 이미지와 같은 업로드된 리소스에 사용됩니다. 이러한 리소스는 제한된 시간 동안만 유효합니다. 한도에 도달하면 리소스를 더 이상 사용할 수 없습니다."
+>abstract="게재 기간 필드를 통해 글로벌 게재 재시도에 대한 제한 값을 입력할 수 있습니다. 이는 Adobe Campaign은 시작 날짜부터 메시지를 전송하고 나서 메시지가 오류만 반환하는 경우 유효성 검사 제한에 도달할 때까지 구성 가능한 일반 재시도를 수행함을 의미합니다. 유효성 검사 제한 필드는 미러 페이지나 이미지와 같이 업로드된 리소스에 사용됩니다. 이러한 리소스는 제한된 시간 동안만 유효합니다. 한도에 도달하면 리소스를 더 이상 사용할 수 없습니다."
 
 <!--
 >[!CONTEXTUALHELP]
@@ -152,7 +152,7 @@ ht-degree: 88%
 ![](assets/delivery-settings-2.png)
 
 
-에서 게재 유효 기간에 대해 자세히 알아보기 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
+에서 게재 유효 기간에 대해 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
 
 ### 미러 페이지 관리 {#mirror}
 

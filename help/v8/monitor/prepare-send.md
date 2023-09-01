@@ -3,10 +3,10 @@ audience: end-user
 title: 이메일 준비 및 전송
 description: Campaign Web UI를 사용하여 이메일을 준비하고 전송하는 방법 알아보기
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Alpha"
-source-git-commit: 768484c1fc67ac9aa2a2fbac6d00183fb81dbe63
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '872'
 ht-degree: 50%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 50%
 
 준비하는 동안 대상 모집단이 계산되며 대상에 포함된 각 프로필에 대해 메시지 콘텐츠가 생성됩니다. 준비가 완료되면 즉시 또는 예정된 날짜 및 시간에 메시지를 전송할 수 있습니다.
 
-게재를 준비하는 동안 사용되는 유효성 검사 규칙은에 설명되어 있습니다 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
+게재를 준비하는 동안 사용되는 유효성 검사 규칙은에 설명되어 있습니다 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
 
 전송을 준비하는 주요 단계는 아래에 나와 있습니다.
 
@@ -72,7 +72,7 @@ ht-degree: 50%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_delivered"
->title="게재 대상"
+>title="게재됨"
 >abstract="정상적으로 게재된 메시지 수. 이 표시기는 5분마다 업데이트됩니다. 표시되는 백분율은 전송된 총 메시지 수를 기준으로 합니다."
 
 >[!CONTEXTUALHELP]

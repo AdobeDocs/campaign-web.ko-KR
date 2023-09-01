@@ -3,11 +3,11 @@ audience: end-user
 title: 게재 미리 보기 및 테스트 정보
 description: 게재 미리 보기 및 테스트 방법 알아보기
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-badge: 레이블=“Alpha”
-source-git-commit: 8ab2324bdc7b5c56a8b9f5369db24c5c32272707
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 25%
+source-wordcount: '178'
+ht-degree: 34%
 
 ---
 

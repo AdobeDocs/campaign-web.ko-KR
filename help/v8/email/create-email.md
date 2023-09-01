@@ -3,8 +3,8 @@ audience: end-user
 title: 첫 이메일 보내기
 description: Campaign Web UI를 사용하여 첫 이메일을 전송하는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-badge: label="알파"
-source-git-commit: 09a05a886b0ef509cf0e0178609315264c8f56a1
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 89%
@@ -121,7 +121,7 @@ ht-degree: 89%
    >
    >목록에서 사용할 수 있는 대상자는 Campaign v8 인스턴스 또는 Adobe Experience Platform(대상/소스 통합이 인스턴스에 구성되어 있는 경우)에서 발생합니다.
    >
-   >대상/소스 통합을 통해 Experience Platform 세그먼트를 Adobe Campaign으로 전송하고 캠페인 게재 및 추적 로그를 Adobe Experience Platform으로 전송할 수 있습니다. 에서 Campaign 및 Adobe Experience Platform을 사용하여 작업하는 방법을 알아봅니다 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
+   >대상/소스 통합을 통해 Experience Platform 세그먼트를 Adobe Campaign으로 전송하고 캠페인 게재 및 추적 로그를 Adobe Experience Platform으로 전송할 수 있습니다. 에서 Campaign 및 Adobe Experience Platform을 사용하여 작업하는 방법을 알아봅니다 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
 1. 대상자를 선택하면 추가 규칙을 적용하여 대상을 더 구체화할 수 있습니다.
 

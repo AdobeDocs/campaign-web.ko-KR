@@ -5,15 +5,15 @@ description: Campaign 웹 UI에서 지원되지 않는 기능 목록
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: f5e60740ea6f0434a3c06a8c4fd35ad7453bb665
+source-git-commit: e72790238d9a8e23fe18131af436ffea9bacc3cc
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 10%
+source-wordcount: '350'
+ht-degree: 9%
 
 ---
 
 
-# Campaign 웹 UI에서 지원되지 않는 기능 {#unsupported-capabilities}
+# Campaign 웹에서 지원되지 않는 기능 {#unsupported-capabilities}
 
 다음 기능은 Campaign 클라이언트 콘솔에서 액세스할 수 있지만 웹 사용자 인터페이스에서는 아직 사용할 수 없습니다. 일부는 이후 버전에서 사용할 수 있지만 일부는 사용할 수 없습니다.
 
@@ -22,17 +22,13 @@ ht-degree: 10%
 * 홈 페이지 대시보드
 * 홈 페이지 사용자 지정
 
-
 **캠페인 관리**
 
 * 마케팅 달력/타임라인
 * 예산 및 비용 관리
 * 작업 관리
-* 분산 마케팅
+* 분산 마케팅(중앙/로컬 마케팅)
 * 응답 관리
-
-**캠페인 최적화**
-
 * A/B 테스트
 * MRM(마케팅 리소스 관리), 목표, 시뮬레이션, 예산 및 비용
 
@@ -46,6 +42,7 @@ ht-degree: 10%
 **웹 콘텐츠**
 
 * 랜딩 페이지 만들기 및 게시
+* 웹 앱, 웹 양식
 * 설문 조사 관리
 
 **프로필 및 수신자**
@@ -66,16 +63,16 @@ ht-degree: 10%
 
 * 공개 리소스의 콘텐츠
 * 루프 / 컬렉션 관리
-* HTML 콘텐츠를 템플릿으로 저장 `*`
+* HTML 콘텐츠를 템플릿으로 저장`*`
 * Adobe Experience Manager에서 이메일 템플릿 동기화
 * 이메일 콘텐츠의 Adobe Experience Manager 6.5 자산
 * 콘텐츠 블록 만들기
 * 사용자 정의 양식의 콘텐츠
-* URL의 콘텐츠 `*`
+* URL의 콘텐츠`*`
 * 이메일 조각
 * 이메일용 AMP
-* 이메일 조각 `*`
-* 다변량/다국어 사용 사례 `*`
+* 이메일 조각`*`
+* 다변량/다국어 사용 사례`*`
 
 **유형화 규칙**
 

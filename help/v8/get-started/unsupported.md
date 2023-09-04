@@ -5,10 +5,10 @@ description: Campaign 웹 UI에서 지원되지 않는 기능 목록
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 86934e4f00ddde2edb1ef4fd3b162f0b6e514db6
+source-git-commit: f5e60740ea6f0434a3c06a8c4fd35ad7453bb665
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 9%
+source-wordcount: '346'
+ht-degree: 10%
 
 ---
 
@@ -66,16 +66,16 @@ ht-degree: 9%
 
 * 공개 리소스의 콘텐츠
 * 루프 / 컬렉션 관리
-* HTML 콘텐츠를 템플릿으로 저장(클라이언트 콘솔에서 사용할 수 없음)
+* HTML 콘텐츠를 템플릿으로 저장 `*`
 * Adobe Experience Manager에서 이메일 템플릿 동기화
 * 이메일 콘텐츠의 Adobe Experience Manager 6.5 자산
 * 콘텐츠 블록 만들기
 * 사용자 정의 양식의 콘텐츠
-* URL의 콘텐츠(클라이언트 콘솔에서 사용할 수 없음)
+* URL의 콘텐츠 `*`
 * 이메일 조각
 * 이메일용 AMP
-* 이메일 조각(클라이언트 콘솔에서 사용할 수 없음)
-* 다변량/다국어 사용 사례(클라이언트 콘솔에서는 사용할 수 없음)
+* 이메일 조각 `*`
+* 다변량/다국어 사용 사례 `*`
 
 **유형화 규칙**
 
@@ -125,3 +125,4 @@ ht-degree: 9%
 * 대상 승인
 
 
+`*` 클라이언트 콘솔에서 사용할 수 없음

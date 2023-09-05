@@ -4,10 +4,10 @@ title: 워크플로 시작
 description: 워크플로를 시작하는 방법 알아보기
 badge: label="Beta"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 100%
+source-wordcount: '390'
+ht-degree: 89%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
->title="재구성된 워크플로 캔버스 인터페이스"
->abstract="포괄적인 그래픽 캔버스를 사용하여 세분화, 캠페인 실행 등과 같은 프로세스를 쉽게 디자인할 수 있습니다. 이 고급 도구를 간편하게 사용할 수 있는 워크플로를 간소화하고 캠페인을 개선할 수 있습니다."
+>title="더 많은 캠페인 워크플로우 활동"
+>abstract="자동화 및 최적화에 대한 새로운 가능성을 열어 보다 역동적이고 개인화된 고객 여정을 만들 수 있습니다. 고급 세그먼테이션에서 조건부 트리거에 이르기까지 추가적인 워크플로우 활동을 통해 타겟팅된 메시지를 전달하고 캠페인 성과를 높일 수 있습니다."
 
 ## 워크플로란?
 

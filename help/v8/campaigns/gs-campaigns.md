@@ -4,9 +4,9 @@ title: 캠페인 시작하기
 description: 크로스 채널 캠페인 시작 방법 알아보기
 badge: label="Beta"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '151'
 ht-degree: 100%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 100%
 
 # 캠페인 시작하기 {#campaigns}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="크로스 채널 캠페인 디자인 및 전송"
->abstract="Adobe Campaign 기능을 통해 중앙 집중식 고객 데이터를 관리하고, 고객 커뮤니케이션 및 캠페인을 디자인하고, 이메일, 푸시 및 SMS 등 다양한 채널에서 맞춤형 경험을 만들 수 있습니다."
 
 Adobe Campaign을 통해 기본 제공 캠페인 관리 기능을 사용하여 타겟팅된 마케팅 이니셔티브를 쉽게 조율할 수 있습니다. 예약을 정의하는 기능을 사용하여 전략적 목표에 맞게 캠페인 기간 및 시기를 계획하고 대상자 참여를 극대화할 수 있습니다.
 

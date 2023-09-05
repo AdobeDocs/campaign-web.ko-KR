@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: 캠페인 개요
 hide: true
-source-git-commit: 86934e4f00ddde2edb1ef4fd3b162f0b6e514db6
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 98%
+source-wordcount: '366'
+ht-degree: 97%
 
 ---
 
@@ -68,6 +68,7 @@ ht-degree: 98%
       + [개인화 추가](personalization/personalize.md)
       + [조건부 콘텐츠 추가](personalization/conditions.md)
       + [내장된 콘텐츠 블록 추가](personalization/content-blocks.md)
+      + [사전 정의된 필터 만들기 및 사용](personalization/predefined-filters.md)
    + [오퍼 전송](content/offers.md)
    + 게재 미리보기 및 테스트 {#preview-test}
       + [미리보기 및 테스트 정보](preview-test/preview-test.md)

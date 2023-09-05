@@ -4,10 +4,10 @@ title: 첫 이메일 보내기
 description: Campaign Web UI를 사용하여 첫 이메일을 전송하는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 89%
+source-wordcount: '1324'
+ht-degree: 85%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 89%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="이메일 시작"
->abstract="템플릿에서 시작하거나 Adobe Campaign의 새로운 이메일 디자이너를 사용하여 하나의 코드 행을 작성하지 않고도 이메일을 만들 수 있습니다. 이메일 디자이너를 사용하여 콘텐츠를 만들고 미리 보고 테스트하고, 전체 사용 사례에서 기존 대상자에게 이메일을 전송하는 방법에 대해 알아봅니다."
+>title="이메일 콘텐츠에 대한 Gen AI"
+>abstract="Dell의 Gen AI 기술은 고급 알고리즘을 사용하여 매우 매력적이고 개인화된 콘텐츠를 생성합니다. Gen AI의 지능형 콘텐츠 생성으로 더 높은 개방률, 클릭스루 비율 및 전환을 촉진합니다. 경쟁에서 앞서가고 이메일 콘텐츠에서 Gen AI를 사용하여 이메일 마케팅 게임을 향상시키십시오."
 
 첫 번째 타겟팅된 이메일을 작성하는 방법에 대해 알아봅니다. 이 사용 사례에서는 특정 일자에 실버 및 골드 충성도 회원에게 이메일을 전송하도록 예약합니다.
 

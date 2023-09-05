@@ -7,21 +7,14 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 15%
+source-wordcount: '909'
+ht-degree: 10%
 
 ---
 
 # 조건부 콘텐츠 작성{#add-conditions}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="조건부 콘텐츠 만들기"
->abstract="수신자의 프로필을 기반으로 동적 개인화를 정의하는 조건부 콘텐츠를 생성하여 특정 조건이 충족되면 텍스트 블록과 이미지를 자동으로 대체합니다. 이 기능은 캠페인을 새로운 차원으로 끌어올리고 대상자에게 고도로 타겟팅되고 개인 맞춤화된 경험을 제공할 수 있습니다."
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_conditional_content"

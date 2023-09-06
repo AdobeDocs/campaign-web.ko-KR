@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 96f383e31953ef56e5a78a701bb34fcc30a65670
+source-git-commit: 00296b2a540f6e04c805e8bd1a057d9d127c6104
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '138'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-creation"
 >title="사전 정의된 필터 만들기"
->abstract="미리 정의된 필터의 레이블을 입력하고 적용되는 테이블을 선택합니다. 추가 옵션을 열어 설명을 추가하고 이 필터를 즐겨찾기로 설정합니다. 그런 다음 &#39;규칙 만들기&#39; 단추를 사용하여 필터링 조건을 정의합니다. "
+>abstract="미리 정의된 필터의 레이블을 입력하고 적용되는 테이블을 선택합니다. 추가 옵션을 열어 설명을 추가하고 이 필터를 즐겨찾기로 설정합니다. 그런 다음 &#39;규칙 만들기&#39; 버튼을 사용하여 필터링 조건을 정의합니다. "
 
 ## 사전 정의된 필터 사용 {#use-predefined-filter}
 

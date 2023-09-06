@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 60362fadc63546158a6a6e7f7067f3dd520993a4
+source-git-commit: 8c99e49e6c75fc25699636ac1dfd803178c109c6
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >title="사전 정의된 필터"
 >abstract="이제 Campaign 웹은 특정 요구 사항에 맞게 사전 정의된 필터를 손쉽게 관리하고 사용자 정의할 수 있는 사용자 친화적인 인터페이스를 제공합니다. 한 번 만든 다음 나중에 사용할 수 있도록 저장합니다."
 
-사전 정의된 필터는 나중에 사용할 수 있는 사용자 지정 필터입니다. 규칙 빌더를 사용하여 필터링 작업을 수행하는 동안 바로 가기로 사용할 수 있습니다.
+사전 정의된 필터는 나중에 사용할 수 있는 사용자 지정 필터입니다. 규칙 빌더를 사용하여 필터링 작업을 수행하는 동안 바로 가기로 사용할 수 있습니다. 기존의 기본 제공 필터를 사용하여 데이터의 특정 하위 세트에 액세스하거나 사전 정의된 필터를 직접 만들 수 있습니다.
 
 
 ## 사전 정의된 필터 만들기 {#create-predefined-filter}
@@ -65,3 +65,5 @@ ht-degree: 0%
 
 ## 사전 정의된 필터 관리 {#manage-predefined-filter}
 
+
+## 기본 제공 사전 정의된 필터 {#ootb-predefined-filter}

@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
+source-git-commit: 3e57815403274df8e164c21270d0fcd916623d6d
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 98%
+source-wordcount: '1747'
+ht-degree: 97%
 
 ---
 
@@ -266,6 +266,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="이 서비스는 읽기 전용입니다."
 >abstract="이 서비스를 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
 
+>[!CONTEXTUALHELP]
+>id="acw_audiences_read_only"
+>title="이 대상은 읽기 전용입니다."
+>abstract="이 대상자를 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
+
 <!-- Workflows-->
 
 >[!CONTEXTUALHELP]
@@ -338,7 +343,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
->title="글로벌 보고서 전송 중"
+>title="글로벌 보고서 전송"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]

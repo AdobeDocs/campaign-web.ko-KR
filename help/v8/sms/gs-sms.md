@@ -5,9 +5,9 @@ description: Adobe Campaign Web을 사용하여 SMS를 만들고 전송하는 �
 badge: label="Beta"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ SMS 채널은 SMS 게재를 만드는 세 가지 메서드를 제공합니다.
 
 * **독립 실행형 게재**: 개별 SMS 게재를 만들어 워크플로나 캠페인 없이도 고객과 빠르고 직접적으로 통신할 수 있습니다.
 
-![](../assets/do-not-localize/book.png) 에서 SMS 채널을 구성하는 방법 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html){target="_blank"}.
+![](../assets/do-not-localize/book.png) [Campaign v8 (클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html){target="_blank"}에서 SMS 채널을 구성하는 방법에 대해 알아봅니다.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

@@ -5,9 +5,9 @@ description: Campaign Web으로 게재 작업을 수행하고 메시지를 전�
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1131'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="게재"
->abstract="게재는 특정 채널(이메일, SMS 또는 푸시 알림)의 대상자에게 전송되는 마케팅 커뮤니케이션입니다. 게재 목록에서 기존 게재를 편집하고 상태, 연락처 및 수정 날짜, KPI를 확인할 수 있습니다. “게재 만들기” 버튼을 클릭하여 새 게재를 추가합니다. 게재를 선택하여 콘텐츠, 일정, 대상자 및 세부 사항을 확인합니다."
+>abstract="게재는 이메일, SMS 또는 푸시 알림과 같은 특정 채널을 통해 대상자에게 전송되는 마케팅 커뮤니케이션입니다. 게재 목록에서 기존 게재를 편집할 수 있으며 상태, 연락처 및 수정 일자, KPI를 확인할 수 있습니다. “게재 만들기” 버튼을 클릭하여 새 게재를 추가합니다. 콘텐츠, 일정, 대상자 및 세부 정보를 조회하려면 게재를 선택합니다."
 
 
 Adobe Campaign에서는 이메일, SMS, 푸시 알림 등 크로스 채널 캠페인을 보내고, 다양한 전용 보고서를 사용하여 캠페인의 효과를 측정할 수 있습니다.

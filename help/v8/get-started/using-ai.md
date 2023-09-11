@@ -4,14 +4,14 @@ description: Campaign 웹에서 AI 기반 지식 도우미 사용
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 11ebb88d44733d3bebddd4d28268a77c2489e867
+source-git-commit: c110c118cc45da0fa0db4249f4f24ebf7c3c21a8
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '273'
 ht-degree: 2%
 
 ---
 
-# Campaign 웹에서 AI 기반 지식 도우미 사용 {#using-ai}
+# AI 기반 지식 도우미 사용 {#using-ai}
 
 제품 상황별 도움말 상자에서 AI 기반 지식 도우미를 사용하여 제품 설명서 및 현재 제품 컨텍스트를 기반으로 AI가 생성한 빠른 답변을 얻을 수 있습니다.
 

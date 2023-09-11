@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 5c7d60b3f59de2a5176a55d9556a3f1c6d2a7651
+source-git-commit: 23a8f5521fd5acd88c0f7ae852ff7e54a081e03a
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '711'
 ht-degree: 15%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 15%
 
 기존의 기본 제공 필터를 사용하여 데이터의 특정 하위 세트에 액세스하거나 사전 정의된 필터를 직접 만들어 저장할 수 있습니다.
 
+![](assets/predefined-filters-menu.png)
+
 
 ## 사전 정의된 필터 만들기 {#create-predefined-filter}
 
@@ -37,9 +39,12 @@ ht-degree: 15%
 >title="사전 정의된 필터 만들기"
 >abstract="사전 정의된 필터의 레이블을 입력하고 해당 레이블이 적용되는 테이블을 선택합니다. 추가 옵션을 열어 설명을 추가하고 이 필터를 즐겨찾기로 설정합니다. 그런 다음 &#39;규칙 만들기&#39; 버튼을 사용하여 필터링 조건을 정의합니다."
 
-규칙 빌더로 필터를 만들면 나중에 사용할 수 있도록 저장할 수 있습니다. 사용자 지정 필터로 저장한 경우 나중에 사용할 수 있습니다. 왼쪽 탐색 메뉴의 전용 메뉴에서 사전 정의된 필터를 만들고 편집할 수도 있습니다.
 
-![](assets/predefined-filters-menu.png)
+>[!CONTEXTUALHELP]
+>id="acw_predefined-filters-rules"
+>title="사전 정의된 필터 규칙 만들기"
+>abstract="사용자 지정 필터의 필터링 조건을 정의하려면 &#39;규칙 만들기&#39; 버튼을 클릭합니다."
+
 
 규칙 빌더에 사용자 지정 필터를 저장하려면 아래 단계를 수행합니다.
 
@@ -83,7 +88,6 @@ ht-degree: 15%
 
 에서 사용할 수 있는 필터 단축키를 사용할 수도 있습니다. **즐겨 찾는 필터** 섹션에 있는 섹션을 참조하십시오.
 
-
 예를 들어 사전 정의된 필터에서 대상을 작성하려면 다음 단계를 수행합니다.
 
 1. 검색 **대상** 왼쪽 메뉴에 있는 항목.
@@ -120,6 +124,8 @@ ht-degree: 15%
 * 기존 필터를 편집하고 규칙 및 속성을 변경합니다
 * 사전 정의된 필터 복제
 * 사전 정의된 필터 삭제
+
+사전 정의된 필터를 규칙을 작성할 때 빠른 액세스를 위한 즐겨찾기로 추가할 수 있습니다. 이 기능은에 설명되어 있습니다 [이 섹션](#create-predefined-filter).
 
 ## 기본 제공 사전 정의된 필터 {#ootb-predefined-filter}
 

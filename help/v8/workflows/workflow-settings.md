@@ -4,10 +4,10 @@ title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 빌드하는 방법 알아보기
 badge: label="Beta"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 3e4cdd2ece8fc000bc71b366549fd63f18201ff7
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 33%
+source-wordcount: '907'
+ht-degree: 31%
 
 ---
 
@@ -35,7 +35,13 @@ ht-degree: 33%
 * **[!UICONTROL 폴더]**: 워크플로우를 저장해야 하는 폴더입니다.
 * **[!UICONTROL 연결된 캠페인]**: 이 필드는 워크플로우가 캠페인 내에서 만들어진 경우에 표시됩니다. 연결된 캠페인을 열 수 있습니다.
 * **[!UICONTROL 시간대]**: 모든 워크플로우의 활동에서 기본적으로 사용할 특정 시간대를 정의합니다. 기본적으로 워크플로의 시간대는 현재 캠페인 운영자에 대해 정의된 시간대입니다.
-* **[!UICONTROL 감독자]**: 워크플로우가 오류일 때 워크플로우 감독 그룹에 속하는 운영자는 이메일 주소가 프로필에 나열되어 있는 한 이메일로 알림을 받게 됩니다.
+기타 가능한 값은 다음과 같습니다.
+   * **서버 시간대** Adobe Campaign 애플리케이션 서버의 시간대를 사용하려면
+   * **연산자 시간대** 클라이언트 콘솔에서 연산자의 프로필에 정의된 대로 워크플로우를 실행하는 Adobe Campaign 연산자의 시간대를 사용합니다
+   * **데이터베이스의 시간대** 데이터베이스 서버의 시간대를 사용하려면
+   * 특정 시간대
+
+* **[!UICONTROL 감독자]**: 워크플로우가 실패하면 이 필드에서 선택한 운영자 그룹에 속하는 운영자에게 이메일로 알립니다.
 * **[!UICONTROL 설명]**: 이 필드를 사용하여 워크플로우에 대한 설명을 제공합니다.
 
 ## 세분화 설정

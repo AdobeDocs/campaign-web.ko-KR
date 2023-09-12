@@ -4,10 +4,10 @@ title: 파일에서 수신자 타겟팅
 description: 외부 파일에서 수신자를 사용하여 이메일 대상자를 빌드하는 방법 알아보기
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: d14a461d558dec06613d7f009b347e1191c3400f
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 66%
+source-wordcount: '344'
+ht-degree: 62%
 
 ---
 
@@ -59,8 +59,8 @@ ht-degree: 66%
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
->title="샘플 파일"
->abstract="지원되는 파일 형식은 txt, csv입니다. 첫 번째 라인을 열 머리글로 사용합니다."
+>title="파일에서 대상자 로드"
+>abstract="지원되는 파일 형식은 TXT 및 CSV입니다. 첫 번째 라인을 열 머리글로 사용합니다. 아래 링크에 제공된 샘플 파일과 파일 형식을 일치시키십시오."
 
 지원되는 형식은 TXT 및 CSV입니다. 첫 번째 줄은 열 머리글입니다.
 

@@ -4,7 +4,7 @@ title: 테스트 게재 전송
 description: 테스트 게재를 정의하고 전송하는 방법을 알아봅니다
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 13%
@@ -33,17 +33,11 @@ ht-degree: 13%
 
 사용 중인 채널에 따라 세 가지 유형의 수신자에게 테스트 메시지를 보낼 수 있습니다.
 
-* [테스트 프로필](#test-profiles) - 보내기 **이메일 및 SMS 테스트** 데이터베이스의 추가 수신자인 시드 주소로 변경할 수 있습니다.
+* [테스트 프로필](#test-profiles) - 보내기 **이메일 및 SMS 테스트** 데이터베이스의 추가 수신자인 시드 주소로 변경할 수 있습니다. 에서 만들 수 있습니다. [!DNL Campaign] 콘솔을 **[!UICONTROL 리소스]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 시드 주소]** 폴더를 삭제합니다. 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
-  에서 만들 수 있습니다. [!DNL Campaign] 콘솔을 **[!UICONTROL 리소스]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 시드 주소]** 폴더를 삭제합니다. 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+* [주 대상에서 대체](#substitution-profiles) - 보내기 **이메일 및 SMS 테스트** 기존 프로필을 가장하는 동안 특정 이메일 주소 또는 전화 번호에 연결할 수 있습니다. 이를 통해 수신자와 마찬가지로 메시지를 경험하여 프로필에서 수신할 콘텐츠를 정확하게 표현할 수 있습니다.
 
-* [주 대상에서 대체](#substitution-profiles) - 보내기 **이메일 및 SMS 테스트** 기존 프로필을 가장하는 동안 특정 이메일 주소 또는 전화 번호에 연결할 수 있습니다.
-
-  이를 통해 수신자와 마찬가지로 메시지를 경험하여 프로필에서 수신할 콘텐츠를 정확하게 표현할 수 있습니다.
-
-* [구독자](#subscribers) - 보내기 **푸시 알림 테스트** 데이터베이스에 추가된 가상 구독자에 대해 설명합니다.
-
-  테스트 프로필과 마찬가지로 [!DNL Campaign] 콘솔을 **[!UICONTROL 리소스]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 시드 주소]** 폴더를 삭제합니다. 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+* [구독자](#subscribers) - 보내기 **푸시 알림 테스트** 데이터베이스에 추가된 가상 구독자에 대해 설명합니다. 테스트 프로필과 마찬가지로 [!DNL Campaign] 콘솔을 **[!UICONTROL 리소스]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 시드 주소]** 폴더를 삭제합니다. 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
 테스트 게재의 수신자를 선택하려면 사용할 프로필 유형에 따라 아래 단계를 수행합니다.
 

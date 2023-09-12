@@ -4,10 +4,10 @@ title: 이메일 콘텐츠 가져오기
 description: 이메일 콘텐츠를 가져오는 방법 알아보기
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: f83bdea5c051bfec52e6df71f0edd0258827815a
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 85%
+source-wordcount: '239'
+ht-degree: 52%
 
 ---
 
@@ -36,6 +36,19 @@ HTML 콘텐츠가 포함된 파일을 가져오려면 다음 단계를 따르십
 
 1. HTML 콘텐츠가 포함된 HTML 또는 .zip 파일을 드래그 앤 드롭하고 **[!UICONTROL 가져오기]**&#x200B;를 클릭합니다.
 
-1. HTML 콘텐츠가 업로드되면 이메일 디자이너 기능을 활용하여 이메일을 편집하고 미리 볼 수 있습니다. [자세히 알아보기](create-email-content.md)
+1. HTML 콘텐츠가 업로드되면 해당 콘텐츠가 **[!UICONTROL 호환성 모드]**.
+
+   이 모드에서는 텍스트를 개인화하거나, 링크를 추가하거나, 콘텐츠에 에셋을 포함할 수 있습니다.
 
    ![](assets/html-imported.png)
+
+1. 이메일 디자이너 콘텐츠 구성 요소를 활용하려면 **[!UICONTROL HTML 변환기]** tab 키를 누른 다음 클릭 **[!UICONTROL 전환]**.
+
+   ![](assets/html-imported-2.png)
+
+   >[!NOTE]
+   >
+   > 사용 `<table>` 태그는 HTML 파일의 첫 번째 레이어로, 맨 위 레이어 태그의 배경 및 너비 설정을 포함하여 스타일이 손실될 수 있습니다.
+
+1. 이제 이메일 디자이너 기능을 사용하여 필요에 따라 가져온 파일을 개인화할 수 있습니다 [자세히 알아보기](content-components.md).
+

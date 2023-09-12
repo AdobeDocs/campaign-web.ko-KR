@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 3e57815403274df8e164c21270d0fcd916623d6d
+source-git-commit: 25513fb699e7e9fb2503b78cd9d92b6cc1204d3d
 workflow-type: tm+mt
-source-wordcount: '1747'
-ht-degree: 97%
+source-wordcount: '1761'
+ht-degree: 98%
 
 ---
 
@@ -268,7 +268,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_read_only"
->title="이 대상은 읽기 전용입니다."
+>title="이 대상자는 읽기 전용입니다."
 >abstract="이 대상자를 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
 
 <!-- Workflows-->
@@ -392,3 +392,9 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_template_for_campaign"
 >title="Campaign의 워크플로 템플릿"
 >abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_explorer_permissions_create"
+>title="권한 필요"
+>abstract="이 개체를 만들려면 관리자가 사용자에게 권한을 부여해야 합니다."
+

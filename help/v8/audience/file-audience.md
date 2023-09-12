@@ -4,9 +4,9 @@ title: 파일에서 수신자 타겟팅
 description: 외부 파일에서 수신자를 사용하여 이메일 대상자를 빌드하는 방법 알아보기
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
+source-git-commit: 77ff2714db5640aca367c41b717e4d20d672767a
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '443'
 ht-degree: 50%
 
 ---
@@ -67,7 +67,7 @@ Campaign 웹을 사용하면 파일에서 업로드한 대상자를 사용할 �
 1. 파일 형식에 대해 검사했습니다.
 1. 보내기 클릭
 
-+ 미리보기 및 테스트 섹션에 대한 링크
+미리보기 및 테스트 섹션에 링크 추가
 
 **질문:**
 * 사용 가능한 파일 대체가 없습니까?

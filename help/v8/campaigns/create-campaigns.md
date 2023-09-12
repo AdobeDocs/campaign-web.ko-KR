@@ -4,10 +4,10 @@ title: Adobe Campaign Web을 사용하여 캠페인 만들기
 description: Adobe Campaign Web을 사용하여 크로스 채널 캠페인을 구축하는 방법 알아보기
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
+source-git-commit: 95848730772a2dd3d09a299ab9856f22e21d287b
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 12%
+ht-degree: 40%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="캠페인 생성 속성"
->abstract="이 화면에서 캠페인 설정을 정의합니다. 템플릿을 선택하고 캠페인 레이블을 입력합니다. 추가 설정으로 이동하여 기본 내부 이름, 폴더를 변경하고 설명을 추가한 다음 피할당자를 선택합니다."
+>abstract="이 화면에서 캠페인 설정을 정의합니다. 템플릿을 선택하고 캠페인 레이블을 입력합니다. 추가 설정을 찾아 기본 내부 이름, 폴더를 변경하고, 설명을 추가하고, 할당자를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_properties"
 >title="캠페인 속성"
->abstract="이 화면에서 캠페인 설정(레이블, 내부 이름, 폴더 및 설명)을 확인하고 업데이트할 수 있습니다. 할당된 사용자를 볼 수도 있습니다."
+>abstract="이 화면에서 캠페인 설정(레이블, 내부 이름, 폴더, 설명)을 확인하고 업데이트할 수 있습니다. 어떤 사용자에게 할당되었는지도 확인할 수 있습니다."
 
 새 캠페인을 만들려면 속성, 일정을 정의하고 워크플로우 및 게재를 포함해야 합니다.
 
@@ -56,20 +56,18 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="캠페인 일정"
->abstract="캠페인 일정을 선택합니다. 캠페인을 만들 수 있으며, 시작 날짜에 도달하면 시작됩니다. 기본적으로 캠페인 시작 날짜는 생성 날짜이며, 5일 동안 지속됩니다. 시작 및 종료 날짜가 캠페인 목록에 표시되며 필터로 사용할 수 있습니다."
+>abstract="캠페인 일정을 선택합니다. 캠페인을 만들 수 있으며, 시작 날짜가 되면 캠페인이 시작됩니다. 기본적으로 캠페인 시작 날짜는 생성일이며, 5일 동안 지속됩니다. 시작 일자와 종료 일자는 캠페인 목록에 표시되고 필터로 사용할 수 있습니다."
 
 
 시작 날짜에 도달하면 캠페인이 시작됩니다. 시작 날짜에 도달하지 않는 한 캠페인에 다음 항목이 포함됩니다. **[!UICONTROL 초안]** 상태. 그런 다음 시작 날짜에 도달하면 로 바뀝니다. **[!UICONTROL 진행 중]**. 종료 날짜에 도달하면 캠페인이 다음으로 설정됩니다. **[!UICONTROL 완료됨]**.
 
-시작 및 종료 날짜가 캠페인 목록에 표시되며 필터로 사용할 수 있습니다. 이 [섹션](manage-campaigns.md#access-campaigns)을 참조하십시오.
+시작 일자와 종료 일자는 캠페인 목록에 표시되고 필터로 사용할 수 있습니다. 이 [섹션](manage-campaigns.md#access-campaigns)을 참조하십시오.
 
 ![캠페인 속성 정의](assets/campaign-properties.png)
 
 >[!NOTE]
 >
 >나중에 **캠페인 설정 구성** 아이콘, 캠페인 레이블 옆에 있습니다. 이 [섹션](gs-campaigns.md#campaign-dashboard)을 참조하십시오.
-
-
 
 날짜에 도달하면 전송할 준비가 된 워크플로우 컨텍스트에서 해당 캠페인에서 만들어진 게재가 실제로 전송됩니다. 이 경우 워크플로우가 시작되었어야 합니다.
 

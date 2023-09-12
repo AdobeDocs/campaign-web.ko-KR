@@ -4,10 +4,10 @@ title: 게재 보고서
 description: 게재 보고서 액세스 및 사용 방법 알아보기
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 9c8677038dcf91a7476da4c09ba5ae22c26f2822
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 64%
+source-wordcount: '121'
+ht-degree: 47%
 
 ---
 
@@ -27,4 +27,8 @@ Adobe Campaign은 각 게재에 대해 액세스할 수 있는 여러 유형의 
 
    ![](assets/reporting.png)
 
+1. 게재가 반복되는 경우, 다음을 클릭하여 보고할 특정 게재를 선택할 수 있습니다. **[!UICONTROL 게재 선택]**.
 
+   다음을 선택하여 보고서에 기간을 적용할 수도 있습니다. **[!UICONTROL 연락일]**.
+
+   ![](assets/delivery-recurring.png)

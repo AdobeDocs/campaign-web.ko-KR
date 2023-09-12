@@ -5,8 +5,8 @@ description: Adobe Campaign 웹에서 서비스를 만드는 방법에 대해 �
 badge: label="Beta"
 source-git-commit: e6aa7b7663baad29ae33fdc2ff190175c2308620
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

@@ -4,10 +4,10 @@ title: Campaign Web v8의 새로운 기능
 description: Campaign Web v8이 제공되는 새로운 기능 살펴보기
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
+source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 76%
+source-wordcount: '895'
+ht-degree: 77%
 
 ---
 
@@ -77,18 +77,18 @@ Campaign의 새로운 웹 UI는 모든 Adobe Experience Cloud 솔루션 및 앱�
 
 * 사전 정의된 필터 관리
 
-  사전 정의된 필터 관리 소개. 이제 Campaign 웹 UI는 특정 요구 사항에 맞게 사전 정의된 필터를 손쉽게 관리하고 사용자 정의할 수 있는 사용자 친화적인 인터페이스를 제공합니다. 한 번 제작하여 나중에 사용할 수 있도록 저장합니다. [자세히 알아보기](../personalization/predefined-filters.md)
+  사전 정의된 필터 관리 소개. 이제 Campaign 웹 UI는 특정 요구 사항에 맞게 사전 정의된 필터를 손쉽게 관리하고 사용자 정의할 수 있는 사용자 친화적인 인터페이스를 제공합니다. 한 번 제작하여 나중에 사용할 수 있도록 저장합니다. [자세히 알아보기](predefined-filters.md)
 
 
 * 타겟 대상
 
   이제 그 어느 때보다 간단하게 게재 대상을 구축할 수 있습니다! 최신 규칙 빌더를 사용하면 데이터베이스의 수신자 또는 기타 타겟팅 차원에 대한 필터링 기준을 정의할 수 있습니다. 또한 AEP(Adobe Experience Platform) 대상을 활용하여 타겟 대상을 더욱 세분화하고 캠페인의 효과를 극대화할 수 있습니다.
 
-* SMS 및 푸시가 포함된 오퍼
+* SMS를 사용하는 오퍼
 
-  이제 새로운 웹 UI를 통해 오퍼를 이메일 외에도 SMS 및 푸시 알림과 통합할 수 있습니다. 모바일 장치를 통해 대상자에게 연락하여 프로모션과 적시에 알림을 제공합니다.
+  이제 새로운 웹 UI를 통해 이메일 외에도 SMS와 오퍼를 통합할 수 있습니다. 모바일 장치를 통해 대상자에게 연락하여 프로모션과 적시에 알림을 제공합니다.
 
-  고급 웹 플랫폼에서 SMS 및 푸시 알림을 통해 통합 오퍼의 기능을 활용하여 마케팅 활동을 강화할 수 있습니다.
+  고급 웹 플랫폼에서 SMS를 통해 통합된 오퍼의 기능을 활용하여 마케팅 활동을 향상시키십시오.
 
 <!--
 * Adobe Experience Manager (AEM) Integration

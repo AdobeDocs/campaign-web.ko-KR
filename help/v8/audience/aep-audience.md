@@ -4,10 +4,10 @@ title: Adobe Experience Platform 대상자 사용
 description: Adobe Experience Platform에서 대상자를 사용하는 방법 알아보기
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: d66305f656d127f6480567462c998ab18fecbcc3
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 39%
+source-wordcount: '290'
+ht-degree: 37%
 
 ---
 
@@ -19,8 +19,7 @@ Adobe Experience Platform 대상자를 만들어 클라이언트 콘솔에서 �
 
 >[!NOTE]
 >
->Campaign에서 Adobe Experience Platform 대상을 사용하려면 Adobe 소스 및 대상과의 통합을 구성해야 합니다. 을(를) 참조하십시오 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
-
+>Campaign에서 Adobe Experience Platform 대상을 사용하려면 Adobe 소스 및 대상과의 통합을 구성해야 합니다. 을(를) 참조하십시오 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
 게재 대상자를 선택하기 위해 다음을 수행할 수도 있습니다.
 

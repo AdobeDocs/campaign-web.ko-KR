@@ -4,10 +4,10 @@ title: 첫 이메일 보내기
 description: Campaign Web UI를 사용하여 첫 이메일을 전송하는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 85%
+source-wordcount: '1224'
+ht-degree: 87%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 85%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="이메일 콘텐츠에 대한 Gen AI"
->abstract="Dell의 Gen AI 기술은 고급 알고리즘을 사용하여 매우 매력적이고 개인화된 콘텐츠를 생성합니다. Gen AI의 지능형 콘텐츠 생성으로 더 높은 개방률, 클릭스루 비율 및 전환을 촉진합니다. 경쟁에서 앞서가고 이메일 콘텐츠에서 Gen AI를 사용하여 이메일 마케팅 게임을 향상시키십시오."
+>title="이메일 콘텐츠용 Gen AI"
+>abstract="Gen AI 기술은 고급 알고리즘을 활용하여 매우 매력적이며 개인화된 콘텐츠를 생성합니다. Gen AI의 지능형 콘텐츠 생성을 통해 열람율, 클릭스루 비율 및 전환율을 높여 보십시오. 이메일 콘텐츠용 Gen AI를 통해 경쟁에서 앞서 나가고 이메일 마케팅을 개선하십시오."
 
 첫 번째 타겟팅된 이메일을 작성하는 방법에 대해 알아봅니다. 이 사용 사례에서는 특정 일자에 실버 및 골드 충성도 회원에게 이메일을 전송하도록 예약합니다.
 
@@ -35,7 +35,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
 >title="이메일 속성"
->abstract="속성은 게재 이름을 지정하고 분류하는 데 도움이 되는 일반적인 게재 매개변수입니다. Adobe Campaign v8 콘솔에 정의된 확장된 스키마를 기반으로 하는 게재인 경우, 일부 특정 **사용자 정의 옵션** 필드를 사용할 수 있습니다."
+>abstract="속성은 게재 이름을 지정하고 분류하는 데 도움이 되는 일반적인 게재 매개변수입니다. Adobe Campaign v8 Console에 정의된 확장된 스키마를 기반으로 하는 게재인 경우, 일부 특정 **사용자 정의 옵션** 필드를 사용할 수 있습니다."
 
 새 게재를 만들려면 다음 단계를 수행합니다.
 
@@ -131,16 +131,11 @@ ht-degree: 85%
 
 ## 전송 예약 {#schedule}
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_schedule"
->title="전송 예약"
->abstract="보내는 일자와 정확한 시간을 정의합니다. 마케팅 메시지에 가장 적합한 시간을 선택하면 열람율을 극대화할 수 있습니다."
-
-이메일 전송을 예약하려면 이메일 게재를 열고 **예약** 섹션을 찾습니다. **[!UICONTROL 예약 활성화]** 토글을 사용하여 예약을 활성화하고 원하는 전송 일자 및 시간을 설정합니다. 게재를 전송하면 정의한 연락 일자부터 실제 전송이 시작됩니다.
-
-기본적으로 **[!UICONTROL 전송 전에 확인 활성화]** 옵션이 활성화되어 있습니다. 이 옵션을 활성화하면 이메일이 예약된 일자 및 시간에 전송되기 전에 전송을 확인해야 합니다. 예약된 일자 및 시간에 자동으로 이메일을 전송해야 하는 경우 이 옵션을 비활성화하면 됩니다.
+이메일 전송을 예약하려면 이메일 게재를 열고 **예약** 섹션을 찾습니다.
 
 ![](assets/schedule.png)
+
+에서 게재 전송을 예약하는 방법 알아보기 [이 섹션](../msg/gs-messages.md#gs-schedule)
 
 ## 이메일 미리보기 및 테스트 {#preview-test}
 

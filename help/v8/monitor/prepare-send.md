@@ -4,7 +4,7 @@ title: 이메일 준비 및 전송
 description: Campaign Web UI를 사용하여 이메일을 준비하고 전송하는 방법 알아보기
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 50%
@@ -35,7 +35,7 @@ ht-degree: 50%
 
    >[!NOTE]
    >
-   >게재를 예약하고 을(를) 비활성화한 경우 **[!UICONTROL 보내기 전 확인 활성화]** 옵션을 선택하면 준비 및 보내기 단계가 **[!UICONTROL 준비 및 보내기]** 단추를 클릭합니다. [예약에 대해 자세히 알아보기](../email/create-email.md#schedule)
+   >게재를 예약하고 을(를) 비활성화한 경우 **[!UICONTROL 보내기 전 확인 활성화]** 옵션을 선택하면 준비 및 보내기 단계가 **[!UICONTROL 준비 및 보내기]** 단추를 클릭합니다. [예약에 대해 자세히 알아보기](../msg/gs-messages.md#gs-schedule)
 
 1. 준비 진행률이 표시됩니다. 대상 모집단의 크기에 따라 약간의 시간이 소요될 수 있습니다.
 
@@ -87,7 +87,7 @@ ht-degree: 50%
 
 한 번 [준비](#prepare) 이(가) 완료되었습니다. 이제 이메일을 전송할 수 있습니다.
 
-메시지가 예약된 경우 정의된 날짜 및 시간에 전송됩니다. [자세히 알아보기](#schedule-the-send)
+메시지가 예약된 경우 정의된 날짜 및 시간에 전송됩니다. [자세히 알아보기](../msg/gs-messages.md#gs-schedule)
 
 ### 즉시 전송 {#send-immediately}
 
@@ -105,7 +105,7 @@ ht-degree: 50%
 
 이메일을 나중 날짜 및 시간에 전송하도록 예약한 경우 아래 단계를 따르십시오.
 
-1. 를 누르기 전에 **[!UICONTROL 검토 및 보내기]** 버튼에서, 이메일에 대한 일정을 정의했는지 확인하십시오. [자세히 알아보기](../email/create-email.md#schedule)
+1. 를 누르기 전에 **[!UICONTROL 검토 및 보내기]** 버튼에서, 이메일에 대한 일정을 정의했는지 확인하십시오. [자세히 알아보기](../msg/gs-messages.md#gs-schedule)
 
 1. 게재 대시보드에서 **[!UICONTROL 예약됨으로 보내기 단추]** 오른쪽 상단의 버튼입니다.
 
@@ -115,7 +115,7 @@ ht-degree: 50%
 
    >[!NOTE]
    >
-   >을(를) 비활성화한 경우 **[!UICONTROL 보내기 전 확인 활성화]** 옵션을 선택하면 준비 및 보내기 단계가 **[!UICONTROL 준비 및 보내기]** 단추를 클릭합니다. [예약에 대해 자세히 알아보기](../email/create-email.md#schedule)
+   >을(를) 비활성화한 경우 **[!UICONTROL 보내기 전 확인 활성화]** 옵션을 선택하면 준비 및 보내기 단계가 **[!UICONTROL 준비 및 보내기]** 단추를 클릭합니다. [예약에 대해 자세히 알아보기](../msg/gs-messages.md#gs-schedule)
 
 ## 전송 일시 중지 또는 중지 {#pause-stop-sending}
 

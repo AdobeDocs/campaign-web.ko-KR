@@ -4,10 +4,10 @@ title: Campaign Web v8의 새로운 기능
 description: Campaign Web v8이 제공되는 새로운 기능 살펴보기
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: e2ff9efcedbfc46f9d943c30fabb1b3b39c43b74
+source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 56%
+source-wordcount: '903'
+ht-degree: 76%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 56%
 # 새로운 기능 {#new}
 
 
-베타 버전의 Adobe Campaign 웹 UI를 소개하게 되어 기쁘게 생각합니다. 최신 릴리스에는 개인화된 크로스 채널 캠페인 생성을 단순화하고, 탁월한 결과를 도출하며, 모든 채널에서 경쟁 우위를 확보할 수 있도록 설계된 직관적인 기능이 포함되어 있습니다.
+베타 버전의 Adobe Campaign 웹 UI를 소개하게 되어 기쁘게 생각합니다. 최신 릴리스에는 맞춤형 크로스 채널 캠페인 생성을 간소화하고, 탁월한 결과를 도출하며, 모든 채널에서 경쟁 우위를 확보하도록 설계된 직관적인 기능이 포함되어 있습니다.
 
 ## Beta 릴리스{#beta-release}
 
@@ -52,39 +52,37 @@ Campaign의 새로운 웹 UI는 모든 Adobe Experience Cloud 솔루션 및 앱�
 
 ## 최신 업데이트
 
-
 **베타 요약**
 
-* 대상 및 개인화에 대한 데이터 구성(페더레이션)을 활성화합니다.
-* AI 기술을 활용하여 이메일 콘텐츠 생성을 향상시킵니다.
-* 에셋과 전체 HTML 템플릿을 원활하게 동기화합니다.
-* 폴더 및 리소스를 효율적으로 구성하고 관리합니다.
-* 매력적이고 효과적인 랜딩 페이지를 만들 수 있습니다.
-* 추가 워크플로우 활동: 차원 변경, 중복 제거 및 반복 게재와 같은 추가 활동에 액세스하여 캠페인 워크플로우를 향상시킬 수 있습니다.
+* 대상 및 개인화에 대한 데이터 구성(페더레이션) 활성화
+* AI 기술을 활용하여 이메일 콘텐츠 생성 향상
+* 에셋 및 전체 HTML 템플릿을 원활하게 동기화
+* 폴더 및 리소스의 효율적인 구성 및 관리
+* 차원 변경, 중복 제거 및 반복 게재와 같은 추가 활동에 액세스하여 캠페인 워크플로우를 향상시킬 수 있습니다
 
 **새로운 주요 기능**
 
 * 더 많은 Campaign 워크플로우 활동
 
-  확장된 워크플로우 활동 세트를 통해 마케팅 캠페인에 과금을 할 수 있습니다. 자동화 및 최적화에 대한 새로운 가능성을 열어 보다 역동적이고 개인화된 고객 여정을 만들 수 있습니다.
+  확장된 워크플로우 활동 세트를 통해 마케팅 캠페인에 과금을 할 수 있습니다. 자동화 및 최적화를 위한 새로운 가능성을 열어 더욱 동적이고 개인화된 고객 여정을 창출할 수 있습니다.
 
-  고급 세그먼테이션에서 조건부 트리거에 이르기까지 추가적인 워크플로우 활동을 통해 타겟팅된 메시지를 전달하고 캠페인 성과를 높일 수 있습니다.
+  고급 세분화에서 조건부 트리거에 이르기까지 추가적인 워크플로 활동을 통해 타겟팅된 메시지를 전달하고 캠페인 성과를 높일 수 있습니다.
 
 * 이메일 콘텐츠에 대한 Gen AI
 
-  Gen AI의 강력한 기능을 통해 수동 콘텐츠 제작과 효율적인 데이터 기반 캠페인에 대해 인사하십시오.  Dell의 Gen AI 기술은 고급 알고리즘을 사용하여 매우 매력적이고 개인화된 콘텐츠를 생성합니다. Gen AI의 지능형 콘텐츠 생성으로 더 높은 개방률, 클릭스루 비율 및 전환을 촉진합니다.
+  Gen AI의 강력한 기능을 통해 수동 콘텐츠 제작과 효율적인 데이터 기반 캠페인에 대해 인사하십시오.  Gen AI 기술은 고급 알고리즘을 활용하여 매우 매력적이며 개인화된 콘텐츠를 생성합니다. Gen AI의 지능형 콘텐츠 생성을 통해 열람율, 클릭스루 비율 및 전환율을 높여 보십시오.
 
-  경쟁에서 앞서가고 이메일 콘텐츠에서 Gen AI를 사용하여 이메일 마케팅 게임을 향상시키십시오.
+  이메일 콘텐츠용 Gen AI를 통해 경쟁에서 앞서 나가고 이메일 마케팅을 개선하십시오.
 
 
 * 사전 정의된 필터 관리
 
-  사전 정의된 필터 관리 소개. 이제 Campaign 웹 UI는 특정 요구 사항에 맞게 사전 정의된 필터를 손쉽게 관리하고 사용자 정의할 수 있는 사용자 친화적인 인터페이스를 제공합니다. 한 번 만든 다음 나중에 사용할 수 있도록 저장합니다. [자세히 알아보기](../personalization/predefined-filters.md)
+  사전 정의된 필터 관리 소개. 이제 Campaign 웹 UI는 특정 요구 사항에 맞게 사전 정의된 필터를 손쉽게 관리하고 사용자 정의할 수 있는 사용자 친화적인 인터페이스를 제공합니다. 한 번 제작하여 나중에 사용할 수 있도록 저장합니다. [자세히 알아보기](../personalization/predefined-filters.md)
 
 
 * 타겟 대상
 
-  게재 대상 구축이 한 번도 더 쉬웠던 적이 없습니다! 이제 최신 규칙 빌더를 사용하여 수신자에 대한 필터링 기준이나 데이터베이스의 다른 타겟팅 차원을 정의할 수 있습니다. 또한 AEP(Adobe Experience Platform) 대상을 활용하여 타겟 대상을 더욱 세분화하고 캠페인의 효과를 극대화할 수 있습니다.
+  이제 그 어느 때보다 간단하게 게재 대상을 구축할 수 있습니다! 최신 규칙 빌더를 사용하면 데이터베이스의 수신자 또는 기타 타겟팅 차원에 대한 필터링 기준을 정의할 수 있습니다. 또한 AEP(Adobe Experience Platform) 대상을 활용하여 타겟 대상을 더욱 세분화하고 캠페인의 효과를 극대화할 수 있습니다.
 
 * SMS 및 푸시가 포함된 오퍼
 
@@ -92,11 +90,14 @@ Campaign의 새로운 웹 UI는 모든 Adobe Experience Cloud 솔루션 및 앱�
 
   고급 웹 플랫폼에서 SMS 및 푸시 알림을 통해 통합 오퍼의 기능을 활용하여 마케팅 활동을 강화할 수 있습니다.
 
-* Adobe Experience Manager (AEM) 통합
+<!--
+* Adobe Experience Manager (AEM) Integration
+    
+    With our AEM integration extended to web UI, you can easily manage assets and synchronize full HTML templates, empowering you to create captivating digital experiences without any hassle. 
+    
+    Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
+-->
 
-  웹 UI로 확장된 AEM 통합을 통해 손쉽게 자산을 관리하고 전체 HTML 템플릿을 동기화할 수 있으므로 번거로움 없이 매력적인 디지털 경험을 만들 수 있습니다.
-
-  이 통합을 통해 웹 UI의 콘텐츠 관리 기능을 향상시키고 능률화하여 생산성을 높일 수 있습니다.
 
 ## Campaign Web UI로 전환
 

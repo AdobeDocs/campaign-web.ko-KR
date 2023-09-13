@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 3cd540af6ccccdecc4d41983d4d11ffb1ea72c43
+source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 93%
+source-wordcount: '1760'
+ht-degree: 90%
 
 ---
 
@@ -56,6 +56,12 @@ ht-degree: 93%
 모든 목록 화면과 마찬가지로 디스플레이를 개인화하고 필요한 모든 정보를 표시하도록 열을 구성할 수 있습니다. 이 [섹션](#list-screens)을 참조하십시오.
 
 Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}를 참조하십시오.
+
+
+### 상황별 도움말 {#user-interface-help}
+
+제품 사용자 인터페이스에서 직접 질문하고 지침을 찾습니다. 상황별 도움말 팝오버에 임베드된 새로운 AI 기반 지식 도우미는 새로운 Campaign 기능에 대한 전문 지식을 배우고 성장하는 데 도움이 됩니다. 최신 제품 설명서를 기반으로, 사용 사례를 작성하는 동안 도움말을 찾고 단계별 지침을 즉시 얻을 수 있습니다.
+
 
 ### 캠페인 관리 {#user-interface-campaign-management}
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 예약 워크플로우 활동 사용
 description: 스케줄러 워크플로우 활동을 사용하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
+source-git-commit: 0d3a20aa02a48af5ffd34843295ed53afd61acde
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 15%
+source-wordcount: '367'
+ht-degree: 14%
 
 ---
 
@@ -55,6 +55,13 @@ ht-degree: 15%
    * **영구(만료되지 않음)**: 워크플로우가 시간 프레임이나 반복 횟수 제한 없이 지정한 빈도대로 실행됩니다.
 
    * **유효 기간**: 워크플로우가 특정 날짜까지 지정한 빈도대로 실행됩니다. 시작 및 종료 날짜를 지정해야 합니다.
+
+>[!NOTE]
+>
+>워크플로를 즉시 시작하려면 다음을 클릭합니다. **보류 중인 작업 실행** 스케줄러의 맨 위 작업 표시줄에 표시됩니다. 이 단추는 워크플로우를 시작한 경우에만 사용할 수 있습니다.
+
+참고:
+
 
 ## 예제
 

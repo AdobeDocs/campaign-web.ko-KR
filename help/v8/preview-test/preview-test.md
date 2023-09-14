@@ -4,10 +4,10 @@ title: 게재 미리 보기 및 테스트 정보
 description: 게재 미리 보기 및 테스트 방법 알아보기
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 5c99883215d89c72d1076df1b379c91c49ed9551
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 34%
+source-wordcount: '201'
+ht-degree: 30%
 
 ---
 
@@ -39,3 +39,5 @@ ht-degree: 34%
 >[!NOTE]
 >
 >콘텐츠 시뮬레이션은 다음에서도 사용할 수 있습니다. [게재 요약](../monitor/prepare-send.md) 을(를) 클릭한 후 **[!UICONTROL 검토 및 보내기]** 단추를 클릭합니다.
+>
+>파일에서 업로드한 대상자를 타겟팅하는 경우 다음을 참조하십시오. [이 섹션](../audience/file-audience.md#preview--test-your-email-test) 게재를 미리 보고 테스트하는 방법을 알아봅니다.

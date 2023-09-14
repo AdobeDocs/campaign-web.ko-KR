@@ -3,10 +3,10 @@ audience: end-user
 title: 게재 워크플로 활동 사용
 description: 게재 워크플로 활동(이메일, 푸시, SMS)을 추가하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: 6788290e21f18794c028769bd09f83b99b1dd1ad
+source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 78%
+source-wordcount: '491'
+ht-degree: 79%
 
 ---
 
@@ -27,9 +27,9 @@ Adobe Campaign Web을 사용하여 이메일, SMS 또는 푸시 채널에서 마
 >* [독립 실행형 푸시 게재 만들기](../../push/create-push.md)
 >
 
-## 캠페인 워크플로우에서 게재 만들기{#create-a-delivery-in-a-workflow}
+## 워크플로우에서 게재 만들기{#create-a-delivery-in-a-workflow}
 
-캠페인 워크플로우의 컨텍스트에서 이메일, SMS 또는 푸시 게재를 만들려면 아래 단계를 수행합니다.
+워크플로우 컨텍스트에서 이메일, SMS 또는 푸시 게재를 만들려면 아래 단계를 수행합니다.
 
 1. **대상자 빌드** 활동을 추가해야 합니다. 대상자는 게재의 기본 대상, 즉 메시지를 받는 수신자입니다. 캠페인 워크플로 컨텍스트에서 메시지를 전송할 때 메시지 대상자는 채널 활동에서 정의되지 않고 **대상자 빌드** 활동에서 정의됩니다. [이 섹션](build-audience.md)을 참조하십시오.
 
@@ -56,7 +56,7 @@ Adobe Campaign Web을 사용하여 이메일, SMS 또는 푸시 채널에서 마
 
 1. 게재 대시보드에서 **전송**&#x200B;을 클릭합니다.
 
-## 예제{#cross-channel-workflow-sample}
+## 예제 {#cross-channel-workflow-sample}
 
 다음은 세분화와 두 개의 게재가 포함된 크로스 채널 워크플로의 예입니다. 해당 워크플로는 파리에 거주하며 커피 머신에 관심이 있는 모든 고객을 대상으로 합니다. 이 모집단 중 일반 고객에게는 이메일이 전송되고 VIP 클라이언트에게는 SMS가 전송됩니다.
 

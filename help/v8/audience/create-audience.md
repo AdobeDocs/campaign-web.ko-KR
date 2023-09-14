@@ -3,9 +3,9 @@ audience: end-user
 title: 대상자 만들기
 description: Adobe Campaign 웹에서 대상자를 만드는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: f9693c08e1f0a5b5644e8026b7dfe788ee6499c4
+source-git-commit: 1b17dcbdaadcbf45b2c26d9099e6d139143d253c
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
@@ -13,11 +13,9 @@ ht-degree: 1%
 
 # 대상자 만들기 {#create-audiences}
 
-Campaign 웹을 사용하면 기존 대상자를 시각적 캔버스로 결합할 수 있는 워크플로우를 만들 수 있습니다. Split 또는 Excluse와 같은 다양한 워크플로우 활동을 통합하여 새롭고 세분화된 대상을 생성할 수 있습니다.
+Campaign 웹을 사용하면 기존 대상자를 시각적 캔버스로 결합할 수 있는 워크플로우를 만들 수 있습니다. 분할 또는 제외와 같은 다양한 워크플로우 활동을 통합하여 새롭고 세분화된 대상을 생성할 수 있습니다.
 
 워크플로우를 만들면 결과 대상자가 기존 대상자와 함께 Campaign 웹 내에 자동으로 저장됩니다. 그런 다음 이러한 대상을 캠페인 또는 독립 실행형 게재에서 타기팅할 수 있습니다.
-
-## 첫 번째 대상자 만들기 {#create}
 
 대상자를 만들려면 다음 단계를 수행합니다.
 

@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: 캠페인 개요
 hide: true
-source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 96%
+source-wordcount: '389'
+ht-degree: 95%
 
 ---
 
@@ -81,6 +81,7 @@ ht-degree: 96%
    + [대상자 시작하기](audience/about-audiences.md)
    + [수신자와 작업](audience/about-recipients.md)
    + [대상자 만들기](audience/create-audience.md)
+   + [대상자 모니터링 및 관리](audience/access-audiences.md)
    + Target 대상자 {#target-audiences}
       + [기존 대상자 선택](audience/add-audience.md)
       + [규칙 빌더를 사용하여 대상자 정의](audience/segment-builder.md)
@@ -105,10 +106,14 @@ ht-degree: 96%
       + [워크플로 활동 정보](workflows/activities/about-activities.md)
       + [AND-가입](workflows/activities/and-join.md)
       + [대상자 빌드](workflows/activities/build-audience.md)
+      + [차원 변경](workflows/activities/change-dimension.md)
       + [결합](workflows/activities/combine.md)
+      + [중복 제거](workflows/activities/deduplication.md)
       + [이메일, SMS, 푸시](workflows/activities/channels.md)
       + [보강](workflows/activities/enrichment.md)
       + [포크](workflows/activities/fork.md)
+      + [대상자 저장](workflows/activities/save-audience.md)
+      + [예약](workflows/activities/scheduler.md)
       + [분할](workflows/activities/split.md)
       + [대기](workflows/activities/wait.md)
 + 보고 {#reports}

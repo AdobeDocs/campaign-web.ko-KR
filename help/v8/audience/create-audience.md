@@ -3,9 +3,9 @@ audience: end-user
 title: 대상자 만들기
 description: Adobe Campaign 웹에서 대상자를 만드는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: 44a280446f9e7f801607dd40326b56fd79ec34e9
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '270'
 ht-degree: 1%
 
 ---
@@ -46,4 +46,4 @@ Campaign 웹을 사용하면 기존 대상을 시각적 캔버스로 결합하�
 
 1. 워크플로우가 준비되면 **[!UICONTROL 시작]** 실행할 수 있습니다.
 
-1. 워크플로우는 **[!UICONTROL 워크플로]** 목록 및 결과 대상자를 **[!UICONTROL 대상]** 목록을 표시합니다. [대상자에 액세스하는 방법 알아보기](access-audiences.md)
+1. 워크플로우는 **[!UICONTROL 워크플로]** 목록 및 결과 대상자를 **[!UICONTROL 대상]** 목록을 표시합니다. [대상자 모니터링 및 관리 방법 알아보기](access-audiences.md)

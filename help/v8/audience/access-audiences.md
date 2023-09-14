@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: 대상자 액세스
-description: Adobe Campaign 웹에서 대상자에 액세스하는 방법 알아보기
+title: 대상자 모니터링 및 관리
+description: Adobe Campaign 웹에서 대상자를 모니터링하고 관리하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: 44a280446f9e7f801607dd40326b56fd79ec34e9
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
 
 
-# 대상자 액세스 {#create-audiences}
+# 대상자 모니터링 및 관리 {#create-audiences}
 
 Campaign 웹에서 사용할 수 있는 대상자 목록은 **[!UICONTROL 대상]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 

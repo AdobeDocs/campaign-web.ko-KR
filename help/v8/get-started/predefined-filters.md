@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: ccae13b0105b0c662cb513bb12d7bc43a3881819
+source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 16%
@@ -89,7 +89,7 @@ ht-degree: 16%
 
 필터가 즐겨찾기로 저장되면 의 모든 사용자가 사용할 수 있습니다. **즐겨 찾는 필터** 필터 만들기 목록의 섹션(아래 참조):
 
-![](assets/predefined-filters-favorite.png)
+![](assets/predefined-filters-favorite.png){width="70%" align="left"}
 
 
 ## 사전 정의된 필터 사용 {#use-predefined-filter}

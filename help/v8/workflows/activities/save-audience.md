@@ -3,10 +3,10 @@ audience: end-user
 title: 대상자 저장 워크플로우 활동 사용
 description: 포크 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: 4924653e67f77a2108574e743c9016c6fc95a7e6
+source-git-commit: 7c8acd17fec3f6aa3d12346c2daaac9f64755098
 workflow-type: tm+mt
-source-wordcount: '17'
-ht-degree: 64%
+source-wordcount: '323'
+ht-degree: 9%
 
 ---
 
@@ -18,57 +18,37 @@ ht-degree: 64%
 >id="acw_orchestration_saveaudience_activity"
 >title="Save an audience"
 >abstract="Use this activity to save the workflow audience."
+-->
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_outbound"
->title="Outbound transition for save audience"
->abstract="tbc"
+다음 **대상자 저장** 활동은 입니다. **타겟팅** 활동. 이 활동을 사용하면 워크플로우에서 업스트림으로 계산한 모집단에서 기존 대상자를 업데이트하거나 새 대상자를 만들 수 있습니다. 생성된 대상자는 애플리케이션 대상자 목록에 추가되고, 를 통해 사용할 수 있습니다. **대상** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-Mode
-Audience label
-Adobe Campaign is going to match this label against existing audiences. If it finds a match, it will update that audience, otherwise it will create a new audience.
-Update method
+이 활동은 기본적으로 모집단 그룹을 재사용 가능한 대상으로 전환하여 동일한 워크플로우에서 계산되도록 하는 데 사용됩니다. 다음과 같은 다른 타겟팅 활동에 연결 **대상자 작성** 또는 **결합** 활동.
 
-Replace audience with new data
+## 구성
 
-Complete audience with new data
-Folder
-Lists (/Profiles and Targets/Lists/)
+다음 단계에 따라 **대상자 저장** 활동:
 
-Generate an outbound transition
-
-
-The **Save audience** activity is a **Targeting** activity. This activity allows you to update an existing audience or create a new audience from the population computed upstream in a workflow. The audiences created are added to the list of application audiences, and are made available via the **Audiences** menu.
-
-This activity is essentially used to keep population groups computed in the same workflow, by converting them into reusable audiences. Connect it to other targeting activities such as a **Build audience** or a **Combine** activity. 
-
-## Configuration
-
-Follow these steps to configure the **Save audience** activity:
-
-1. Add a **Save audience** activity to your workflow.
+1. 추가 **대상자 저장** 활동을 워크플로우에 추가합니다.
 
    ![](../assets/workflow-save-audience.png)
 
-1. In the **Mode** drop-down, select the action that you would like to carry out:
+1. 다음에서 **모드** 드롭다운에서 수행할 작업을 선택합니다.
 
-    * **Create or update an existing audience**: define an **Audience label**. If the audience already exists, it will be updated, otherwise a new audience will be created.
+   * **기존 대상자 만들기 또는 업데이트**: 정의 **대상 레이블**. 대상이 이미 있으면 업데이트되고, 그렇지 않으면 새 대상이 만들어집니다.
 
-    * **Update an existing audience**: choose the **Audience** you wish to update among the list of existing audiences. 
+   * **기존 대상자 업데이트**: 다음을 선택합니다. **대상자** 기존 대상자 목록 중에서 업데이트하려고 합니다.
 
-1. Select the **Update mode** which will apply for existing audiences:
+1. 다음 항목 선택 **업데이트 모드** 기존 대상에 적용되는 사항:
 
-    * **Replace audience content with new data**: all audience content is replaced. The old data is lost. Only the data from the inbound transition of the save audience activity is kept. This option erases the audience type and the targeting dimension of the updated audience.
+   * **대상 콘텐츠를 새 데이터로 바꾸기**: 모든 대상 콘텐츠가 바뀝니다. 이전 데이터는 손실됩니다. 대상자 저장 활동의 인바운드 전환에서 수집한 데이터만 유지됩니다. 이 옵션은 업데이트한 대상자의 대상자 유형과 타겟팅 차원을 지웁니다.
 
-    * **Complete audience with new data**: the old audience content is kept and the data from the save audience activity's inbound transition is added to it.
+   * **새 데이터로 대상자 완료**: 이전 대상자 컨텐츠가 유지되고 대상자 저장 활동의 인바운드 전환에서 수집한 데이터가 여기에 추가됩니다.
 
-1. Check the **Generate complement** option if you wish to exploit the remaining population. An additional transition will then be added to the activity.
+1. 다음 확인: **보조 항목 생성** 나머지 모집단을 활용하려면 옵션을 선택합니다. 그런 다음 추가 전환이 활동에 추가됩니다.
 
-The content of the saved audience is then available in the detail view of the audience, which can be accessed from the **Audiences** menu. The columns available from this view correspond to the columns of the inbound transition of the workflow's **SAve audience** activity. 
-
-
-## Example
+대상자에 대한 세부 사항 보기에서 저장한 대상자의 콘텐츠를 사용할 수 있습니다. 이 뷰에는 다음에서 액세스할 수 있습니다. **대상** 메뉴 아래의 제품에서 사용할 수 있습니다. 이 보기에서 사용할 수 있는 열은 워크플로우 의 인바운드 전환 열에 해당합니다. **SAve 대상** 활동.
 
 
+## 예제
 
--->
+

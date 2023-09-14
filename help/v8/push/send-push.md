@@ -3,9 +3,9 @@ audience: end-user
 title: 푸시 알림 게재 보내기
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 보내는 방법 알아보기
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 51d237a2651cc4a24630138b5761b4b14e7cac4f
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '386'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,9 @@ ht-degree: 2%
 
 1. 을(를) 클릭하여 메시지 보내기 **[!UICONTROL 보내기]** 최종 전송 프로세스를 진행합니다.
 
-1. 다음을 클릭하여 보내기 작업을 확인합니다. **[!UICONTROL 보내기]** 또는 **[!UICONTROL 예약된 대로 보내기]** 단추를 클릭합니다.
+1. 다음을 클릭하여 보내기 작업을 확인합니다. **[!UICONTROL 보내기]**.
+
+   푸시 게재가 예약된 경우 **[!UICONTROL 예약된 대로 보내기]** 단추를 클릭합니다. 에서 게재 예약에 대해 자세히 알아보기 [이 섹션](../msg/gs-messages.md#schedule-the-delivery-sending).
 
    ![](assets/push_send_4.png)
 

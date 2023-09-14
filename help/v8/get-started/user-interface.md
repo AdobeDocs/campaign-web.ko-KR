@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
+source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
 workflow-type: tm+mt
-source-wordcount: '1758'
-ht-degree: 89%
+source-wordcount: '1752'
+ht-degree: 88%
 
 ---
 
@@ -223,11 +223,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="집계된 데이터 보고서를 표시하려면 두 개 이상의 게재를 선택합니다."
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_deduplication_fields"
->title="중복 제거 필드"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_settings"
 >title="중복 제거 설정"
 >abstract="TBD"
@@ -235,11 +230,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
 >title="중복 제거 보조 항목"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_dimension_complement"
->title="차원 보조 항목"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]

@@ -4,10 +4,10 @@ title: 이메일 준비 및 전송
 description: Campaign Web UI를 사용하여 이메일을 준비하고 전송하는 방법 알아보기
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: 4feb84d7e22d90d60917e8079e0ce7a84efbda00
+source-git-commit: 1fef8cd125d2688c70997bb44681f0832277f7fd
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 47%
+source-wordcount: '925'
+ht-degree: 45%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 47%
 
 ## 전송 준비 {#prepare}
 
-다음을 정의한 경우 [콘텐츠](../content/edit-content.md), [대상자](../audience/add-audience.md) 예약하면 이메일 게재를 준비할 준비가 되었습니다.
+다음을 정의한 경우 [콘텐츠](../content/edit-content.md), [대상자](../audience/add-audience.md), 및 [예약](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule), 이메일 게재를 준비할 준비가 되었습니다.
 
-준비하는 동안 대상 모집단이 계산되며 대상에 포함된 각 프로필에 대해 메시지 콘텐츠가 생성됩니다. 준비가 완료되면 즉시 또는 예정된 날짜 및 시간에 메시지를 전송할 수 있습니다.
+게재를 준비하는 동안 대상 모집단을 계산하고 대상에 포함된 각 프로필에 대해 생성된 메시지 콘텐츠를 계산합니다. 준비가 완료되면 즉시 또는 예정된 날짜 및 시간에 메시지를 전송할 수 있습니다.
 
 게재를 준비하는 동안 사용되는 유효성 검사 규칙은에 설명되어 있습니다 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 대상자 저장 워크플로우 활동 사용
 description: 포크 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
+source-git-commit: 058327a9beaca30a2d5ac84d71a8fef2333732ab
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 11%
+source-wordcount: '333'
+ht-degree: 9%
 
 ---
 
@@ -17,16 +17,6 @@ ht-degree: 11%
 >id="???"
 >title="대상자 활동 저장"
 >abstract="대상자 저장 활동을 통해 다음을 수행할 수 있습니다."
-
-모드 대상 레이블 Adobe Campaign은 기존 대상에 대해 이 레이블을 일치시킵니다. 일치 항목을 찾으면 해당 대상자를 업데이트하고, 그렇지 않으면 새 대상자를 만듭니다.
-업데이트 방법
-
-새 데이터로 대상자 바꾸기
-
-새 데이터 폴더 목록(/Profiles and Targets/Lists/)을 사용하는 전체 대상자
-
-아웃바운드 전환 생성
-
 
 다음 **대상자 저장** 활동은 입니다. **타겟팅** 활동. 이 활동을 사용하면 워크플로우에서 업스트림으로 계산한 모집단에서 기존 대상자를 업데이트하거나 새 대상자를 만들 수 있습니다. 생성된 대상자는 애플리케이션 대상자 목록에 추가되고, 를 통해 사용할 수 있습니다. **대상** 메뉴 아래의 제품에서 사용할 수 있습니다.
 

@@ -4,7 +4,7 @@ title: 워크플로 활동을 사용하여 작업
 description: 워크플로 활동을 사용하는 방법 알아보기
 badge: label="Beta"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 100%
@@ -43,7 +43,7 @@ Adobe Campaign Web을 사용하여 이메일, SMS 또는 푸시 등 여러 채�
 * 푸시
 * SMS
 
-이 [섹션](enrichment.md)을 참조하십시오.
+이 [섹션](channels.md)을 참조하십시오.
 
 ## 흐름 제어 활동 {#flow-control}
 

@@ -3,9 +3,9 @@ audience: end-user
 title: 대상자 모니터링 및 관리
 description: Adobe Campaign 웹에서 대상자를 모니터링하고 관리하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: ab6f44b1be2c1c66c2bdf4ea6535f8f9e013aa84
+source-git-commit: f9693c08e1f0a5b5644e8026b7dfe788ee6499c4
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ Campaign 웹에서 사용할 수 있는 대상자 목록은 **[!UICONTROL 대상
 
 대상은 여러 소스에서 발생할 수 있습니다. 다음 **[!UICONTROL 원본]** 열은 지정된 대상이 만들어진 위치를 나타냅니다.
 
-* **[!UICONTROL Adobe Experience Platform:]** 이러한 대상은 Adobe Experience Platform으로 만들어졌으며 Adobe 소스 및 대상과의 통합을 사용하여 Campaign 웹에서 사용할 수 있습니다. 에서 이 통합을 설정하는 방법 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
+* **[!UICONTROL Adobe Experience Platform:]** 이러한 대상은 Adobe Experience Platform 내에서 생성되며 Adobe 소스 및 대상 통합을 사용하여 Campaign 웹에 통합됩니다. 에서 이 통합을 설정하는 방법에 대해 알아봅니다. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
 
-* **[!UICONTROL Adobe Campaign]**: 이러한 대상은 Campaign 웹 워크플로우를 사용하여 생성되었습니다. [대상자를 만드는 방법 알아보기](create-audience.md)
+* **[!UICONTROL Adobe Campaign]**: 이러한 대상자는 Campaign 웹 대상자 워크플로우를 사용하여 생성되었습니다. [대상자를 만드는 방법 알아보기](create-audience.md)
 
 *다른 유래는 무엇입니까? 사용자 지정입니까? 어디에서 정의합니까?*
 
@@ -29,7 +29,7 @@ Campaign 웹에서 사용할 수 있는 대상자 목록은 **[!UICONTROL 대상
 
 대상자에 대한 자세한 내용을 보려면 목록에서 대상자를 여십시오. 대상자 속성이 대상자에 포함된 프로필 수와 함께 표시됩니다. 다음을 사용하여 언제든지 대상자 수를 새로 고칠 수 있습니다. **[!UICONTROL 계산]** 단추를 클릭합니다.
 
-데이터 탭에서는 대상의 일부인 프로필을 표시할 수 있습니다. 열을 더 추가하여 이 보기를 개인화할 수 있습니다. 고급 필터를 활용하여 표시된 데이터를 구체화할 수도 있습니다.
+다음 **[!UICONTROL 데이터]** 탭에서는 대상의 일부인 프로필을 표시할 수 있습니다. 열을 더 추가하여 이 보기를 사용자 지정하거나 고급 필터를 활용하여 표시된 데이터를 구체화할 수 있습니다.
 
 ![](assets/audiences-details.png)
 

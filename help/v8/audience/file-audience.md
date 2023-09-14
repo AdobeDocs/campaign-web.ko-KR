@@ -4,10 +4,10 @@ title: 파일에서 수신자 타겟팅
 description: 외부 파일에서 수신자를 사용하여 이메일 대상자를 빌드하는 방법 알아보기
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 77ff2714db5640aca367c41b717e4d20d672767a
+source-git-commit: 56909f59e0bd9d18bb6df9610b376f6a3a1a2bad
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 50%
+source-wordcount: '548'
+ht-degree: 40%
 
 ---
 
@@ -55,23 +55,6 @@ ht-degree: 50%
 
 ![](assets/select-external-perso.png)
 
-## 이메일 미리 보기 및 테스트 {#test}
-
-Campaign 웹을 사용하면 파일에서 업로드한 대상자를 사용할 때 테스트 이메일을 미리 보고 보낼 수 있습니다. 이렇게 하려면 다음 단계를 수행합니다.
-
-1. 콘텐츠 시뮬레이션
-1. 미리보기를 엽니다. 프로필 선택: 사용할 파일에서 프로필 선택 을 클릭합니다.
-1. 테스트 이메일을 보내려면 테스트 를 클릭합니다
-1. 테스트 모드: 증명 대상 정의
-1. 두 번째 파일에서 테스트 이메일의 타겟을 업로드(또는 사용)합니다. 파일 서식은 업로드된 파일과 동일하게 적용됩니다.
-1. 파일 형식에 대해 검사했습니다.
-1. 보내기 클릭
-
-미리보기 및 테스트 섹션에 링크 추가
-
-**질문:**
-* 사용 가능한 파일 대체가 없습니까?
-
 ## 샘플 파일 {#sample-file}
 
 >[!CONTEXTUALHELP]
@@ -92,3 +75,29 @@ Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
 Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 }
 ```
+
+## 이메일 미리 보기 및 테스트 {#test}
+
+Campaign 웹을 사용하면 파일에서 업로드한 대상자를 사용할 때 테스트 이메일을 미리 보고 보낼 수 있습니다. 이렇게 하려면 다음 단계를 수행합니다.
+
+1. 다음을 클릭합니다. **[!UICONTROL 콘텐츠 시뮬레이션 버튼]** 게재 콘텐츠 편집 화면에서 **[!UICONTROL 테스트 프로필 추가]** 단추를 클릭합니다.
+
+1. 업로드된 파일에 포함된 프로필이 표시됩니다. 콘텐츠를 미리 보는 데 사용할 프로필을 선택하고 **[!UICONTROL 선택]**.
+
+1. 게재 콘텐츠 미리보기가 화면의 오른쪽 창에 표시됩니다. 개인화된 요소는 왼쪽 창에서 선택한 프로필의 데이터로 바뀝니다. [게재 콘텐츠 미리 보기에 대해 자세히 알아보기](../preview-test/preview-content.md)
+
+   ![](assets/file-upload-preview.png)
+
+1. 테스트 이메일을 보내려면 **[!UICONTROL 테스트]** 단추를 클릭합니다.
+
+1. 다음을 클릭합니다. **[!UICONTROL 증명 프로필 업로드]** 버튼을 클릭하고 증명 수신자가 포함된 .txt 또는 .csv 파일을 선택합니다.
+
+   >[!CAUTION]
+   >
+   >파일 형식이 대상자를 업로드하는 데 사용된 형식과 일치하는지 확인합니다. 형식 오류가 발생하면 경고가 표시됩니다.
+
+1. 증명 수신자가 추가되고 증명을 보낼 준비가 되면 **[!UICONTROL 테스트 이메일 보내기]** 단추를 클릭하고 전송을 확인합니다.
+
+   ![](assets/file-upload-test.png)
+
+1. 언제든지 테스트 이메일 로그 보기 버튼을 사용하여 테스트 이메일 전송을 모니터링할 수 있습니다. [테스트 이메일 모니터링에 대해 자세히 알아보기](../preview-test/test-deliveries.md#access-sent-test-deliveries-access-proofs)

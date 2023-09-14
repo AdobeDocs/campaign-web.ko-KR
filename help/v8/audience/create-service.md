@@ -3,15 +3,20 @@ audience: end-user
 title: 서비스 만들기
 description: Adobe Campaign 웹에서 서비스를 만드는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: 6a8556dd531484a99d153a2aaf2058dc7e8b3a62
+source-git-commit: 38eda4025c95998108739b021e5b47b20df86d07
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 0%
+source-wordcount: '189'
+ht-degree: 12%
 
 ---
 
 
 # 서비스 만들기 {#create-services}
+
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="이 서비스는 읽기 전용입니다."
+>abstract="이 서비스를 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
 
 Adobe Campaign을 사용하여 뉴스레터 등 정보 서비스를 만들고 모니터링하고 이러한 서비스에 대한 구독/구독 취소를 확인합니다.
 

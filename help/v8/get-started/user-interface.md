@@ -4,9 +4,9 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
+source-git-commit: 38eda4025c95998108739b021e5b47b20df86d07
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1683'
 ht-degree: 88%
 
 ---
@@ -223,16 +223,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="집계된 데이터 보고서를 표시하려면 두 개 이상의 게재를 선택합니다."
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_deduplication_settings"
->title="중복 제거 설정"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_deduplication_complement"
->title="중복 제거 보조 항목"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="권한 필요"
 >abstract="세그먼트를 만들려면 먼저 관리자가 권한을 부여해야 합니다."
@@ -241,7 +231,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_overview_edit"
 >title="권한 필요"
 >abstract="세그먼트를 만들려면 먼저 관리자가 권한을 부여해야 합니다."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
@@ -253,33 +242,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="이 게재는 읽기 전용입니다."
 >abstract="이 게재를 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
 
->[!CONTEXTUALHELP]
->id="acw_subscription_services_read_only"
->title="이 서비스는 읽기 전용입니다."
->abstract="이 서비스를 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
-
->[!CONTEXTUALHELP]
->id="acw_audiences_read_only"
->title="이 대상자는 읽기 전용입니다."
->abstract="이 대상자를 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
-
 <!-- Workflows-->
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="워크플로 목록"
 >abstract="캠페인에 사용할 수 있는 워크플로 목록. “워크플로 만들기” 버튼을 사용하여 캠페인에서 워크플로를 추가합니다."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_outbound"
->title="대상자 저장을 위한 아웃바운드 전환"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_activity"
->title="대상자 저장"
->abstract="이 활동을 사용하여 워크플로 대상자를 저장합니다."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"

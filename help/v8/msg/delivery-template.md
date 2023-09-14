@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 26%
+source-wordcount: '941'
+ht-degree: 25%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 26%
 * 링크 대상 [미러 페이지](../content/mirror-page.md) 및 구독 취소 [링크](../content/message-tracking.md)
 * 리소스 유효성, 재시도 매개 변수 또는 격리 설정 등 다른 게재 속성입니다.
 
-## 템플릿 액세스 및 관리 {#access-manage-templates}
+## 게재 템플릿 액세스 및 관리 {#access-manage-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
@@ -61,14 +61,14 @@ ht-degree: 26%
 >
 >템플릿을 편집하거나 삭제할 때 이 템플릿을 사용하여 만든 게재는 영향을 받지 않습니다.
 
-## 템플릿 만들기 {#create-a-delivery-template}
+## 게재 템플릿 만들기 {#create-a-delivery-template}
 
 게재 템플릿을 만들려면 다음 작업을 수행할 수 있습니다.
 * 기존 템플릿 복제 - [자세히 알아보기](#copy-an-existing-template)
 * 기존 게재를 템플릿으로 변환 - [자세히 알아보기](#convert-an-existing-delivery)
 * 처음부터 게재 템플릿 만들기 - [자세히 알아보기](#create-a-new-template)
 
-### 기존 템플릿 복제 {#copy-an-existing-template}
+### 기존 게재 템플릿 복제 {#copy-an-existing-template}
 
 캠페인에는 각 채널에 대한 이메일, 푸시, SMS 등 기본 제공 템플릿 세트가 제공됩니다. 게재 템플릿을 만드는 가장 쉬운 방법은 기본 제공 템플릿을 복제하고 사용자 지정하는 것입니다.
 
@@ -120,7 +120,7 @@ ht-degree: 26%
 
 새 템플릿이 [**템플릿** 목록](#access-manage-templates). 이제 새 게재를 만들면 선택할 수 있습니다.
 
-### 새 템플릿 만들기 {#create-a-new-template}
+### 새 게재 템플릿 만들기 {#create-a-new-template}
 
 >[!NOTE]
 >

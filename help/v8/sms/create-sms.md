@@ -4,10 +4,10 @@ title: SMS 게재 만들기
 description: Adobe Campaign Web을 사용하여 SMS를 만들고 전송하는 방법 알아보기
 badge: label="Beta"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 89%
+source-wordcount: '386'
+ht-degree: 72%
 
 ---
 
@@ -28,7 +28,12 @@ ht-degree: 89%
 >title="SMS 템플릿 선택"
 >abstract="SMS 게재를 시작하려면 미리 정의된 템플릿을 선택합니다."
 
-1. **[!UICONTROL 게재]** 홈 페이지에서 **[!UICONTROL 게재 만들기]**&#x200B;를 클릭합니다.
+독립형 SMS 게재를 만들거나 캠페인 워크플로우의 컨텍스트에서 SMS를 만들 수 있습니다. 아래 단계에서는 독립 실행형(일회성) SMS 게재 절차를 자세히 설명합니다. 캠페인 워크플로우의 컨텍스트에서 작업 중인 경우 만들기 단계는 의 세부 정보입니다. [이 섹션](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+
+
+새 독립 실행형 SMS 게재를 만들려면 다음 단계를 수행합니다.
+
+1. 다음으로 이동 **[!UICONTROL 게재]** 왼쪽 레일에서 메뉴를 클릭하고  **[!UICONTROL 게재 만들기]** 단추를 클릭합니다.
 
 1. **[!UICONTROL 채널]** 섹션 아래에서 SMS를 채널로 선택하고 템플릿을 선택합니다. [템플릿에 대해 자세히 알아보기](../msg/delivery-template.md)
 

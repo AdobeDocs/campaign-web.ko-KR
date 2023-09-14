@@ -3,10 +3,10 @@ audience: end-user
 title: 푸시 알림 게재 만들기
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 만드는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 67%
+source-wordcount: '406'
+ht-degree: 53%
 
 ---
 
@@ -27,9 +27,14 @@ ht-degree: 67%
 >title="게재 속성 푸시"
 >abstract="게재 속성을 관리합니다."
 
-1. **[!UICONTROL 게재]** 홈 페이지에서 **[!UICONTROL 게재 만들기]**&#x200B;를 클릭합니다.
+독립형 푸시 알림 게재를 만들거나 캠페인 워크플로우의 컨텍스트에서 푸시 알림을 만들 수 있습니다. 아래 단계에서는 독립 실행형(일회성) 푸시 게재의 절차를 자세히 설명합니다. 캠페인 워크플로우의 컨텍스트에서 작업 중인 경우 만들기 단계는 의 세부 정보입니다. [이 섹션](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
-1. 아래 **[!UICONTROL 채널]** 섹션에서 푸시 알림을 채널로 선택하고 선택한 운영 체제에 따라 템플릿을 선택합니다. Android 또는 iOS. [템플릿에 대해 자세히 알아보기](../msg/delivery-template.md)
+
+새 독립 실행형 푸시 게재를 만들려면 다음 단계를 수행하십시오.
+
+1. 다음으로 이동 **[!UICONTROL 게재]** 왼쪽 레일에서 메뉴를 클릭하고  **[!UICONTROL 게재 만들기]** 단추를 클릭합니다.
+
+1. 아래 **[!UICONTROL 채널]** 섹션, 선택 **푸시 알림** 을(를) 채널로 사용하고 템플릿을 선택합니다. 선택한 장치 운영 체제(Android 또는 iOS)에 따라 달라집니다. [템플릿에 대해 자세히 알아보기](../msg/delivery-template.md)
 
 1. **[!UICONTROL 게재 만들기]** 버튼을 클릭하여 확인합니다.
 

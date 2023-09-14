@@ -3,7 +3,7 @@ audience: end-user
 title: 차원 변경 워크플로우 활동 사용
 description: 차원 변경 워크플로우 활동을 사용하는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: 62343d35cab4ad78821fb96951557e9de58766e0
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 3%
@@ -28,7 +28,7 @@ ht-degree: 3%
 
 1. 추가 **차원 변경** 활동을 워크플로우에 추가합니다.
 
-       &lt;!—![](../assets/workflow-change-dimension.png)—>
+       ![](../assets/workflow-change-dimension.png)
    
 1. 차원 변경 필드를 통해 새 타겟팅 차원을 선택합니다.
 

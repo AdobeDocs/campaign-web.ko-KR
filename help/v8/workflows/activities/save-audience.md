@@ -3,7 +3,7 @@ audience: end-user
 title: 대상자 저장 워크플로우 활동 사용
 description: 포크 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 11%
@@ -38,7 +38,7 @@ ht-degree: 11%
 
 1. 추가 **대상자 저장** 활동을 워크플로우에 추가합니다.
 
-   <!--![](../assets/workflow-save-audience.png)-->
+   ![](../assets/workflow-save-audience.png)
 
 1. 다음에서 **모드** 드롭다운에서 수행할 작업을 선택합니다.
 

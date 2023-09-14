@@ -3,7 +3,7 @@ audience: end-user
 title: 중복 제거 워크플로우 활동 사용
 description: 중복 제거 워크플로우 활동을 사용하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 8%
@@ -26,7 +26,7 @@ ht-degree: 8%
 
 1. 추가 **중복 제거** 활동을 워크플로우에 추가합니다.
 
-   <!--![](../assets/workflow-deduplication.png)-->
+   ![](../assets/workflow-deduplication.png)
 
 1. 다음에서 **중복을 식별하는 필드** 섹션에서 **속성 추가** 이메일 주소, 이름, 성 등 동일한 값에서 중복을 식별할 수 있는 필드를 지정하는 버튼입니다. 필드의 순서를 사용하면 먼저 처리할 필드를 지정할 수 있습니다.
 

@@ -1,37 +1,35 @@
 ---
 audience: end-user
-title: 포크 워크플로 활동 사용
-description: 포크 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
+title: 차원 변경 워크플로우 활동 사용
+description: 차원 변경 워크플로우 활동을 사용하는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: 0c6369c8099831dca1e0d38dbed818f3c7ab1867
+source-git-commit: 62343d35cab4ad78821fb96951557e9de58766e0
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 100%
+source-wordcount: '130'
+ht-degree: 3%
 
 ---
 
 
-# 포크 {#fork}
+# 차원 변경 {#change-dimension}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_fork_transitions"
->title="포크 활동"
->abstract="포크 활동을 사용하면 아웃바운드 전환을 만들어서 여러 활동을 동시에 시작할 수 있습니다."
+>id="acw_orchestration_dimension_complement"
+>title="차원 활동 변경"
+>abstract="차원 변경 활동을 통해 다음을 수행할 수 있습니다."
+
+다음 **차원 변경** 활동은 입니다. **타겟팅** 활동. 이 활동을 통해 대상을 구축할 때 타겟팅 차원을 변경할 수 있습니다. 이 활동은 데이터 템플릿과 입력 차원에 따라 축을 전환합니다. 예를 들어 &quot;계약&quot; 차원에서 &quot;클라이언트&quot; 차원으로 전환할 수 있습니다.
+
+또한 이 활동을 사용하여 새 타겟의 추가 열을 정의하고 데이터 중복 제거 기준을 정의할 수 있습니다.
 
 ## 구성
 
-**포크** 활동을 구성하려면 다음 단계를 따르십시오.
+다음 단계에 따라 **차원 변경** 활동:
 
-1. **포크** 활동을 워크플로에 추가합니다.
-1. 새 아웃바운드 전환을 추가하려면 **전환 추가**&#x200B;를 클릭합니다. 기본적으로 두 개의 전환이 정의됩니다.
-1. 각 전환에 레이블을 추가합니다.
+1. 추가 **차원 변경** 활동을 워크플로우에 추가합니다.
 
-## 예제
+       &lt;!—![](../assets/workflow-change-dimension.png)—>
+   
+1. 차원 변경 필드를 통해 새 타겟팅 차원을 선택합니다.
 
-다음 예에서는 두 가지 **포크** 활동을 사용합니다.
-
-* 한 가지는 두 쿼리 이전에 사용하여 쿼리를 동시에 실행합니다.
-* 한 가지는 교차로 이후에 사용하여 대상 모집단에게 이메일과 SMS를 동시에 전송합니다.
-
-![](../assets/workflow-fork-example.png)
-
+다른 건??

@@ -3,9 +3,9 @@ audience: end-user
 title: 예약 워크플로우 활동 사용
 description: 스케줄러 워크플로우 활동을 사용하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
+source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '333'
 ht-degree: 15%
 
 ---
@@ -13,10 +13,12 @@ ht-degree: 15%
 
 # 예약 {#scheduler}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
->title="스케줄러 활동"
->abstract="예약 활동을 통해 다음을 수행할 수 있습니다."
+>title="Scheduler activity"
+>abstract="The Scheduler activity allows you..."
+-->
 
 다음 **스케줄러** 활동은 입니다. **흐름 제어** 활동. 워크플로우가 시작되는 시기를 예약할 수 있습니다. 이 활동은 시작을 예약하는 것으로 생각해야 합니다. 워크플로우의 첫 번째 활동으로만 사용할 수 있습니다.
 

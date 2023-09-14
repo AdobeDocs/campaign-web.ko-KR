@@ -3,9 +3,9 @@ audience: end-user
 title: 대상자 저장 워크플로우 활동 사용
 description: 포크 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: 058327a9beaca30a2d5ac84d71a8fef2333732ab
+source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '323'
 ht-degree: 9%
 
 ---
@@ -13,10 +13,12 @@ ht-degree: 9%
 
 # 대상자 저장 {#save-audience}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="???"
->title="대상자 활동 저장"
->abstract="대상자 저장 활동을 통해 다음을 수행할 수 있습니다."
+>title="Save audience activity"
+>abstract="The Save audience activity allows you to..."
+-->
 
 다음 **대상자 저장** 활동은 입니다. **타겟팅** 활동. 이 활동을 사용하면 워크플로우에서 업스트림으로 계산한 모집단에서 기존 대상자를 업데이트하거나 새 대상자를 만들 수 있습니다. 생성된 대상자는 애플리케이션 대상자 목록에 추가되고, 를 통해 사용할 수 있습니다. **대상** 메뉴 아래의 제품에서 사용할 수 있습니다.
 

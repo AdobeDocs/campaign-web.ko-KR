@@ -4,10 +4,10 @@ title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 빌드하는 방법 알아보기
 badge: label="Beta"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 5c4ace1fc8d299048c398fcce14900c797ef6207
+source-git-commit: 53148300ecb5d52d89875519c44ae979d29a4d76
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 62%
+source-wordcount: '281'
+ht-degree: 57%
 
 ---
 
@@ -16,7 +16,6 @@ ht-degree: 62%
 
 Campaign v8 Web을 통해 워크플로를 시각적 캔버스에 빌드하여 세분화, 캠페인 실행, 파일 처리 등 크로스 채널 프로세스를 디자인할 수 있습니다.
 
-워크플로는 다음 위치에서 독립형 워크플로로 만들 수 있습니다. **워크플로** 메뉴 또는 캠페인 내에서 직접 실행할 수 있습니다. 이 경우 워크플로는 캠페인에 연결되고 다른 모든 캠페인의 워크플로와 함께 실행됩니다.
 
 ## 워크플로 내부에는 무엇이 있습니까? {#gs-workflow-inside}
 
@@ -35,6 +34,18 @@ Campaign v8 Web을 통해 워크플로를 시각적 캔버스에 빌드하여 �
 * **작업 테이블**: 작업 테이블에는 전환에 의해 전달되는 모든 정보가 포함됩니다. 각 워크플로는 여러 작업 테이블을 사용합니다. 이러한 표에 전달된 데이터는 워크플로우의 라이프 사이클 전체에서 사용할 수 있습니다.
 
 ## 워크플로우를 만드는 주요 단계 {#gs-workflow-steps}
+
+
+캠페인에서는 워크플로를 만드는 두 가지 방법을 제공합니다.
+
+1. 워크플로는 다음 위치에서 독립형 워크플로로 만들 수 있습니다. **워크플로** 메뉴 아래의 제품에서 사용할 수 있습니다.
+
+   ![](assets/create-a-standalone-wf.png)
+
+1. 캠페인에서 바로 워크플로우를 만들 수 있습니다. **워크플로** 캠페인의 탭. 캠페인에 포함되면 워크플로우가 다른 모든 캠페인의 워크플로우와 함께 실행되고 보고 지표는 모두 캠페인 수준에서 그룹화됩니다.
+
+   ![](assets/create-a-wf-from-a-campaign.png)
+
 
 워크플로우를 만드는 주요 단계는 다음과 같습니다.
 

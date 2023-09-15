@@ -4,22 +4,21 @@ title: 이메일 콘텐츠 가져오기
 description: 이메일 콘텐츠를 가져오는 방법 알아보기
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 badge: label="Beta"
-source-git-commit: f83bdea5c051bfec52e6df71f0edd0258827815a
+source-git-commit: ed12d289c1180fe8705d2c143bd9dce4ed96e313
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 52%
+ht-degree: 48%
 
 ---
 
 # 이메일 콘텐츠 가져오기 {#existing-content}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_import_content"
 >title="기존 이메일 콘텐츠 사용"
 >abstract="이메일 디자이너를 사용하면 기존 HTML 콘텐츠를 가져올 수 있습니다. 이 콘텐츠는 스타일 시트가 통합된 HTML 파일이거나 HTML 파일, 스타일 시트(.css) 및 이미지가 있는 .zip 폴더일 수 있습니다."
 
-이메일 디자이너를 사용하면 기존 HTML 콘텐츠를 가져올 수 있습니다. 이 콘텐츠는 다음 중 하나일 수 있습니다.
+이메일 디자이너에서 기존 HTML 콘텐츠를 가져올 수 있습니다. 이 콘텐츠는 다음 중 하나일 수 있습니다.
 
 * 통합된 스타일 시트가 있는 **HTML 파일**
 * HTML 파일, 스타일 시트(.css) 및 이미지가 있는 **.zip 폴더**

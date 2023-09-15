@@ -4,10 +4,10 @@ title: Campaign Web v8의 새로운 기능
 description: Campaign Web v8이 제공되는 새로운 기능 살펴보기
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: ed12d289c1180fe8705d2c143bd9dce4ed96e313
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 72%
+source-wordcount: '991'
+ht-degree: 69%
 
 ---
 
@@ -102,6 +102,12 @@ Campaign Web Beta에 포함된 주요 기능은 다음과 같습니다.
   제품 사용자 인터페이스에서 직접 질문하고 지침을 찾습니다. 상황별 도움말 팝오버에 임베드된 새로운 AI 기반 지식 도우미는 새로운 Campaign 기능에 대한 전문 지식을 배우고 성장하는 데 도움이 됩니다. 최신 제품 설명서를 기반으로, 사용 사례를 작성하는 동안 도움말을 찾고 단계별 지침을 즉시 얻을 수 있습니다.
 
   [이 섹션](../get-started/using-ai.md)에서 자세히 알아보십시오.
+
+* **이메일 디자인용 HTML 변환기**
+
+  이제 Campaign의 이메일 편집기에서 모든 HTML 콘텐츠를 가져오고 변환할 수 있습니다. 콘텐츠 블록은 자동으로 식별되며 이메일 디자이너에서 사용할 수 있습니다. 강력한 디자인 기능을 사용하여 업데이트하고 개인화합니다!
+
+  [이 섹션](../content/existing-content.md)에서 자세히 알아보십시오.
 
 
 ## Campaign Web UI로 전환

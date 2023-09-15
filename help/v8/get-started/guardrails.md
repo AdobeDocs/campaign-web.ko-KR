@@ -2,9 +2,9 @@
 title: Campaign 웹 UI의 보호 기능 및 제한 사항
 description: Campaign 웹 UI의 보호 기능 및 제한 사항
 badge: label="Beta"
-source-git-commit: 68eb1529f6780682256f4b36bd77d336cf560d21
+source-git-commit: 9ab03458bbd9606537c0b42d72643cf1efefcc81
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '526'
 ht-degree: 4%
 
 ---
@@ -16,11 +16,13 @@ Campaign 클라이언트 콘솔에서 만들거나 수정한 구성 요소로 Ca
 
 ## 워크플로 {#wf-guardrails-limitations}
 
-콘솔과 웹 UI 모두에서 동일한 워크플로우에 액세스할 수 있습니다. 그러나 특정 제한 사항이 적용된다는 점을 유의하십시오.
-
 **활동 편집**
 
-* 웹 UI에서 콘솔 워크플로에 액세스할 때 호환되는 활동만 수정할 수 있습니다.
+* 웹 UI에서 아직 지원되지 않는 워크플로우 활동은 읽기 전용입니다. 워크플로우를 실행하고, 메시지를 보내고, 로그를 확인하는 등의 작업을 수행할 수 있습니다.
+
+| 콘솔 | 웹 UI |
+| --- | --- |
+| ![](assets/limitations-activities-console.png) | ![](assets/limitations-activities-web.png) |
 
 **캔버스 에디션**
 
@@ -41,17 +43,6 @@ Campaign 클라이언트 콘솔에서 만들거나 수정한 구성 요소로 Ca
 | 콘솔 | 웹 UI |
 | --- | --- |
 | ![](assets/limitations-loops-console.png) | ![](assets/limitations-loops-web.png) |
-
-<table>
-<tr>
-<th>콘솔</th>
-<th>웹 UI</th>
-</tr>
-<tr>
-<td><img src="assets/limitations-loops-console.png"></td>
-<td><img src="assets/limitations-loops-web.png"></td>
-</tr>
-</table>
 
 **조정 및 데이터 보강**
 

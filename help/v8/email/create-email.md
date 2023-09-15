@@ -4,10 +4,10 @@ title: 첫 이메일 보내기
 description: Campaign Web UI를 사용하여 첫 이메일을 전송하는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 84%
+source-wordcount: '1350'
+ht-degree: 66%
 
 ---
 
@@ -21,11 +21,9 @@ ht-degree: 84%
 
 첫 번째 타겟팅된 이메일을 작성하는 방법에 대해 알아봅니다. 이 사용 사례에서는 특정 일자에 실버 및 골드 충성도 회원에게 이메일을 전송하도록 예약합니다.
 
-미리 정의된 디자인 템플릿에 따라, 이메일에는 고객 프로필 속성을 기반으로 개인화된 콘텐츠도 포함되어 있습니다.
+사전 정의된 항목 기반 [디자인 템플릿](../content/email-templates.md), 이메일에는 고객 프로필 속성에 따라 개인화된 콘텐츠도 포함되어 있습니다.
 
-![](assets/delivery-list.png)
-
-## 이메일 작성 게재 {#create-email}
+## 이메일 게재 만들기 {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
@@ -34,14 +32,16 @@ ht-degree: 84%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
->title="이메일 속성"
->abstract="속성은 게재 이름을 지정하고 분류하는 데 도움이 되는 일반적인 게재 매개변수입니다. Adobe Campaign v8 Console에 정의된 확장된 스키마를 기반으로 하는 게재인 경우, 일부 특정 **사용자 정의 옵션** 필드를 사용할 수 있습니다."
+>title="이메일 속성 정의"
+>abstract="속성은 게재 이름을 지정하고 분류하는 데 도움이 되는 일반적인 게재 매개변수입니다. 추가 설정은 선택 사항입니다. Adobe Campaign v8 Console에 정의된 확장된 스키마를 기반으로 하는 게재인 경우, 일부 특정 **사용자 정의 옵션** 필드를 사용할 수 있습니다."
 
 독립형 이메일 게재를 만들거나 캠페인 워크플로우의 컨텍스트에서 이메일을 만들 수 있습니다. 아래 단계에서는 독립 실행형(일회성) 이메일 게재 절차를 자세히 설명합니다. 캠페인 워크플로우의 컨텍스트에서 작업 중인 경우 만들기 단계는 의 세부 정보입니다. [이 섹션](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
-새 독립 실행형 이메일 게재를 만들려면 다음 단계를 수행하십시오.
+새 독립 실행형 이메일 게재를 만들려면 아래 단계를 수행하십시오.
 
 1. 다음으로 이동 **[!UICONTROL 게재]** 왼쪽 레일에서 메뉴를 클릭하고  **[!UICONTROL 게재 만들기]** 단추를 클릭합니다.
+
+   ![](assets/delivery-list.png)
 
 1. 선택 **[!UICONTROL 이메일]** 을(를) 채널로 설정하고 목록에서 이메일 게재 템플릿을 선택합니다.
 
@@ -55,8 +55,8 @@ ht-degree: 84%
 1. 게재 레이블을 입력하고 필요에 따라 추가 옵션을 구성합니다.
 
    * **[!UICONTROL 내부 이름]**: 게재에 고유 식별자를 할당합니다.
-   * **[!UICONTROL 폴더]**: 게재를 특정 폴더에 저장합니다.
-   * **[!UICONTROL 게재 코드]**: 고유한 명명 규칙에 따라 게재를 구성하려면 이 필드를 사용합니다.
+   * **[!UICONTROL 폴더]**: 특정 폴더에 게재를 저장합니다.
+   * **[!UICONTROL 게재 코드]**: 이 필드를 사용하여 고유한 명명 규칙에 따라 게재를 구성할 수 있습니다.
    * **[!UICONTROL 설명]**: 게재에 대한 설명을 지정합니다.
    * **[!UICONTROL 특성]**: 분류 목적으로 이메일의 특성을 지정합니다.<!--The content of the list is defined in the delivery template selected when creating the email.-->
 
@@ -66,15 +66,42 @@ ht-degree: 84%
 
    ![](assets/email-properties.png)
 
-   또한 게재 이름 옆에 있는 버튼을 클릭하여 유형 규칙 및 대상 매핑과 같은 고급 설정에 액세스할 수 있습니다. 이러한 설정은 선택한 템플릿에 미리 구성되어 있지만 필요에 따라 이 특정 이메일에 대해 편집할 수 있습니다.
+5. 또한 유형화 규칙 및 대상 매핑과 같은 고급 설정은 **[!UICONTROL 설정]** 화면 오른쪽 상단에 있는 단추입니다. 이러한 설정은 선택한 템플릿에 미리 구성되어 있지만 필요에 따라 이 특정 이메일에 대해 편집할 수 있습니다.
+
+## 대상자 정의 {#define-audience}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_audience"
+>title="게재할 대상자 선택"
+>abstract="마케팅 메시지에 적합한 대상자를 선택합니다. 기존 대상(Campaign v8 인스턴스 또는 Adobe Experience Platform에서 이미 정의됨)을 선택하거나, 규칙 빌더를 사용하여 새 대상을 만들거나, 대상이 포함된 파일을 업로드할 수 있습니다. 컨트롤 그룹이 다음에 대해 활성화되지 않음 **파일에서 선택** 옵션 및 그 반대의 경우도 마찬가지입니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Target 대상자"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/control-group.html" text="컨트롤 그룹 설정"
+
+이 사용 사례에서는 기존 대상자에게 이메일을 전송합니다.
+
+대상자와 작업하는 방법에 대한 추가적인 지침은 [이 섹션](../audience/about-audiences.md)에서 확인할 수 있습니다.
+
+1. 이메일의 대상자를 선택하려면 **[!UICONTROL 대상자 선택]** 버튼을 클릭하고 목록에서 기존 대상자를 선택합니다.
+
+   이 예에서는 실버 및 골드 충성도 점수 수준에 속하는 고객을 대상으로 기존 대상자를 사용하려고 합니다.
+
+   ![](assets/create-audience.png)
+
+   >[!NOTE]
+   >
+   >목록에서 사용할 수 있는 대상은 Campaign v8 인스턴스 또는 대상/소스 통합이 인스턴스에 구성된 경우 Adobe Experience Platform에서 가져옵니다. 이 통합을 통해 Experience Platform 세그먼트를 Adobe Campaign에 보내고, 캠페인 게재 및 추적 로그를 Adobe Experience Platform에 보낼 수 있습니다. 에서 Campaign 및 Adobe Experience Platform을 사용하는 방법을 알아봅니다. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+
+1. 대상자를 선택하면 추가 규칙을 적용하여 대상을 더 구체화할 수 있습니다.
+
+   ![](assets/audience-selected.png)
+
+1. 또한 타겟팅되지 않은 사람들과 비교하여 이메일 수신자의 동작을 분석하도록 컨트롤 그룹을 설정할 수도 있습니다. [컨트롤 그룹으로 작업하는 방법 알아보기](../audience/control-group.md)
 
 ## 이메일 콘텐츠 정의 {#create-content}
 
-이메일 콘텐츠를 만들려면 아래 단계를 수행하십시오.
+이메일 콘텐츠를 만들려면 아래 단계를 수행하십시오. 이 사용 사례에서는 사전 정의된 이메일을 사용합니다 [게재 템플릿](../msg/delivery-template.md) 이메일을 디자인할 수 있습니다.<!--TBC delivery template or email content template?-->
 
 <!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
-
-이 사용 사례에서는 사전 정의된 이메일을 사용합니다 [게재 템플릿](../msg/delivery-template.md) 이메일을 디자인할 수 있습니다.
 
 1. 이메일 게재 대시보드에서 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭합니다.
 
@@ -104,40 +131,21 @@ ht-degree: 84%
 
    ![](assets/save-content.png)
 
-## 대상자 정의 {#define-audience}
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_audience"
->title="대상자 정의"
->abstract="마케팅 메시지에 적합한 대상자를 선택합니다. Campaign v8 인스턴스 또는 Adobe Experience Platform에서 이미 정의된 기존 대상자를 선택하거나 규칙 빌더를 사용하여 새 대상자를 만들 수 있습니다. 컨트롤 그룹은 “파일에서 선택”에서는 활성화되지 않으며 그 반대의 경우도 마찬가지입니다."
-
-이 사용 사례에서는 기존 대상자에게 이메일을 전송합니다. 대상자와 작업하는 방법에 대한 추가적인 지침은 [이 섹션](../audience/about-audiences.md)에서 확인할 수 있습니다.
-
-1. 이메일의 대상자를 선택하려면 **[!UICONTROL 대상자 선택]** 버튼을 클릭하고 목록에서 기존 대상자를 선택합니다.
-
-   이 예에서는 실버 및 골드 충성도 점수 수준에 속하는 고객을 대상으로 기존 대상자를 사용하려고 합니다.
-
-   ![](assets/create-audience.png)
-
-   >[!NOTE]
-   >
-   >목록에서 사용할 수 있는 대상자는 Campaign v8 인스턴스 또는 Adobe Experience Platform(대상/소스 통합이 인스턴스에 구성되어 있는 경우)에서 발생합니다.
-   >
-   >대상/소스 통합을 통해 Experience Platform 세그먼트를 Adobe Campaign으로 전송하고 캠페인 게재 및 추적 로그를 Adobe Experience Platform으로 전송할 수 있습니다. 에서 Campaign 및 Adobe Experience Platform을 사용하여 작업하는 방법을 알아봅니다 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
-
-1. 대상자를 선택하면 추가 규칙을 적용하여 대상을 더 구체화할 수 있습니다.
-
-   또한 타겟팅되지 않은 사람들과 비교하여 이메일 수신자의 동작을 분석하도록 컨트롤 그룹을 설정할 수도 있습니다. [컨트롤 그룹으로 작업하는 방법 알아보기](../audience/control-group.md)
-
-   ![](assets/audience-selected.png)
-
 ## 전송 예약 {#schedule}
 
-이메일 전송을 예약하려면 이메일 게재를 열고 **예약** 섹션을 찾습니다.
+이메일 전송을 예약하려면 아래 단계를 따르십시오.
 
-![](assets/schedule.png)
+게재 전송을 예약하는 방법에 대한 추가 지침은 다음에서 자세히 설명합니다. [이 섹션](../msg/gs-messages.md#gs-schedule).
 
-에서 게재 전송을 예약하는 방법 알아보기 [이 섹션](../msg/gs-messages.md#gs-schedule)
+1. 다음으로 이동 **[!UICONTROL 예약]** 섹션.
+
+1. 사용 **[!UICONTROL 예약 활성화]** 활성화하려면 전환하십시오.
+
+1. 원하는 전송 날짜 및 시간을 설정합니다.
+
+   ![](assets/schedule.png)
+
+게재를 전송하면 정의한 연락 일자부터 실제 전송이 시작됩니다.
 
 ## 이메일 미리보기 및 테스트 {#preview-test}
 

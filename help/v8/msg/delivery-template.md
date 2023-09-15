@@ -6,16 +6,16 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 25%
+source-wordcount: '962'
+ht-degree: 24%
 
 ---
 
 # 게재 템플릿 작업 {#work-with-delivery-templates}
 
-디자인 프로세스를 가속화하고 개선하기 위해 게재 템플릿을 만들어 캠페인 전반에서 사용자 정의 콘텐츠를 쉽게 재사용할 수 있습니다. 이 기능을 사용하면 크리에이티브 룩과 느낌을 표준화하여 캠페인 실행 및 론칭을 보다 신속하게 수행할 수 있습니다.
+디자인 프로세스를 가속화하고 개선하기 위해 게재 템플릿을 만들어 캠페인 전반에서 사용자 지정 콘텐츠 및 설정을 쉽게 재사용할 수 있습니다. 이 기능을 사용하면 크리에이티브 룩과 느낌을 표준화하여 캠페인 실행 및 론칭을 보다 신속하게 수행할 수 있습니다.
 
 템플릿에는 다음이 포함될 수 있습니다.
 
@@ -26,6 +26,10 @@ ht-degree: 25%
 * [개인화된 필드](../personalization/personalize.md) 및 [조건부 콘텐츠](../personalization/conditions.md)
 * 링크 대상 [미러 페이지](../content/mirror-page.md) 및 구독 취소 [링크](../content/message-tracking.md)
 * 리소스 유효성, 재시도 매개 변수 또는 격리 설정 등 다른 게재 속성입니다.
+
+>[!NOTE]
+>
+>게재 템플릿은 과(와) 다릅니다. [전자 메일 콘텐츠 템플릿](../content/email-templates.md)를 사용하여 메시지의 콘텐츠만 재사용할 수 있습니다.
 
 ## 게재 템플릿 액세스 및 관리 {#access-manage-templates}
 
@@ -170,7 +174,7 @@ ht-degree: 25%
 
 1. 다른 프로필 간에 전환하여 선택한 프로필에 따라 개인화된 메시지 표현을 가져옵니다.
 
-   <!--[Learn moreon test profiles](../preview-test/test-deliveries.md#recipients)-->
+   <!--[Learn more on test profiles](../preview-test/test-deliveries.md#recipients)-->
 
    확대/축소 수준을 조정하고 데스크탑 또는 모바일 보기를 선택할 수도 있습니다.
 

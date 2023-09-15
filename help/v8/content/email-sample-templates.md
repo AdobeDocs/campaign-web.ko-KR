@@ -3,9 +3,9 @@ audience: end-user
 product: campaign
 title: 이메일 템플릿 작업
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '121'
 ht-degree: 9%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 ![](assets/email_designer-sample-templates.png)
 
-Campaign에는 선택할 수 있는 기본 제공 템플릿 세트가 포함되어 있습니다.
+Campaign에는 선택할 수 있는 내장 이메일 콘텐츠 템플릿 세트가 포함되어 있습니다.
 
 샘플 템플릿 중 하나를 사용하여 콘텐츠 작성을 시작하려면 아래 단계를 따르십시오.
 

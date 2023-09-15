@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
+source-git-commit: 332e4963e7124c36d2cefa91156372c4773c633b
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '786'
 ht-degree: 16%
 
 ---
@@ -30,6 +30,10 @@ ht-degree: 16%
 기존의 기본 제공 필터를 사용하여 데이터의 특정 하위 세트에 액세스하거나 사전 정의된 필터를 직접 만들어 저장할 수 있습니다.
 
 ![](assets/predefined-filters-menu.png)
+
+>[!CAUTION]
+>
+>해당 제품 버전에서 규칙을 작성하거나, 게재 대상을 선택하거나, 워크플로우에서 대상을 작성할 때 사용자 인터페이스에서 사전 정의된 일부 필터를 사용할 수 없습니다. 계속 사용할 수 있습니다. [자세히 알아보기](guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 
 ## 사전 정의된 필터 만들기 {#create-predefined-filter}
@@ -55,7 +59,7 @@ ht-degree: 16%
 
 1. 선택 **새 필터 만들기**&#x200B;을 누르고 해당 필터의 이름과 설명을 입력합니다.
 
-   ![](assets/predefined-filters-save-filter.png)
+   ![](assets/predefined-filters-save-filter.png){width="70%" align="left"}
 
    필요한 경우 필터를 즐겨찾기로 저장할 수 있습니다. [이 섹션](#fav-filter)에서 자세히 알아보십시오.
 
@@ -89,7 +93,7 @@ ht-degree: 16%
 
 필터가 즐겨찾기로 저장되면 의 모든 사용자가 사용할 수 있습니다. **즐겨 찾는 필터** 필터 만들기 목록의 섹션(아래 참조):
 
-![](assets/predefined-filters-favorite.png){width="70%" align="left"}
+![](assets/predefined-filters-favorite.png){width="30%" align="left"}
 
 
 ## 사전 정의된 필터 사용 {#use-predefined-filter}
@@ -139,6 +143,8 @@ ht-degree: 16%
 
 사전 정의된 필터를 규칙을 작성할 때 빠른 액세스를 위한 즐겨찾기로 추가할 수 있습니다. [이 섹션](#fav-filter)에서 자세히 알아보십시오.
 
-## 기본 제공 사전 정의된 필터 {#ootb-predefined-filter}
+<!--
+## Built-in predefined filters {#ootb-predefined-filter}
 
-Campaign에는 클라이언트 콘솔에서 빌드된 사전 정의된 필터 세트가 포함되어 있습니다. 이러한 필터는 대상자 및 규칙을 정의하는 데 사용할 수 있습니다. 수정해서는 안 됩니다.
+Campaign comes with a set of predefined filters, built from the client console. These filters can be used to define your audiences, and rules. They must not be modified.
+-->

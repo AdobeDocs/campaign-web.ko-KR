@@ -3,15 +3,21 @@ audience: end-user
 title: 결합 워크플로 활동 사용
 description: 결합 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: d5b0777ba51f595733c6b7e366d0a9a21a13d84a
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 85%
+source-wordcount: '829'
+ht-degree: 80%
 
 ---
 
 
 # 결합 {#combine}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine"
+>title="활동 결합"
+>abstract="다음 **결합** 활동은 입니다. **타겟팅** 활동. 이 활동을 통해 인바운드 모집단에 대한 세분화를 수행할 수 있습니다. 따라서 여러 모집단을 결합하고 일부를 제외하거나 데이터를 여러 대상에 공통으로만 유지할 수 있습니다."
+
 
 다음 **결합** 활동은 입니다. **타겟팅** 활동. 이 활동을 통해 인바운드 모집단에 대한 세분화를 수행할 수 있습니다. 따라서 여러 모집단을 결합하거나, 일부를 제외하거나, 데이터를 여러 대상에 공통으로 유지할 수 있습니다. 사용 가능한 세분화 유형은 다음과 같습니다.
 
@@ -35,6 +41,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >title="제외 병합 옵션"
 >abstract="제외 기능을 사용하면 특정 기준에 따라 한 모집단에서 요소를 제외할 수 있습니다. 참여 설정 섹션에서 참여하려는 모든 이전 활동을 선택하십시오."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_options"
+>title="세분화 유형 선택"
+>abstract="결합, 교차 또는 제외와 같이 대상을 결합하는 방법을 선택합니다."
+
 **결합** 활동 구성을 시작하려면 다음과 같은 일반적인 단계를 따르십시오.
 
 1. **대상자 빌드** 활동과 같은 여러 활동을 추가하여 두 개 이상의 서로 다른 실행 분기를 구성합니다.
@@ -49,6 +60,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >id="acw_orchestration_intersection_reconciliation_options"
 >title="교집합 조정 옵션"
 >abstract="중복 처리 방법을 정의하려면 조정 유형을 선택합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_reconciliation"
+>title="조정 옵션"
+>abstract="다음 항목 선택 **조정 유형** 중복 처리 방법을 정의합니다."
 
 다음에서 **결합** 활동, 다음을 구성할 수 있습니다. **합집합**. 이를 위해 다음을 선택해야 합니다. **조정 유형** 중복 처리 방법을 정의하려면 다음을 수행합니다.
 
@@ -68,6 +84,12 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >id="acw_orchestration_exclusion_options"
 >title="제외 규칙"
 >abstract="필요한 경우 인바운드 테이블을 조작할 수 있습니다. 다른 차원에서 대상을 제외하려면 이 대상을 기본 대상과 동일한 타겟팅 차원으로 반환해야 합니다. 이 작업을 수행하려면 제외 규칙 섹션에서 규칙 추가를 클릭하고 차원 변경 조건을 지정합니다. 데이터 조정은 속성 또는 참여를 통해 수행됩니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_sets"
+>title="결합할 세트 선택"
+>abstract="**참여 설정** 섹션에서 인바운드 전환의 **기본 세트**&#x200B;를 선택합니다. 요소가 제외되는 집합입니다. 다른 집합은 기본 집합에서 제외되기 전에 요소와 일치합니다."
+
 
 다음에서 **결합** 활동을 만들 수 있습니다. **제외**. 이를 위해 아래의 추가 단계를 수행해야 합니다.
 

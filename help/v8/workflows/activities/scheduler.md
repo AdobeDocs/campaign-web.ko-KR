@@ -3,22 +3,22 @@ audience: end-user
 title: 예약 워크플로우 활동 사용
 description: 스케줄러 워크플로우 활동을 사용하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 12%
+source-wordcount: '476'
+ht-degree: 11%
 
 ---
 
 
 # 예약 {#scheduler}
 
-<!--
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
->title="Scheduler activity"
->abstract="The Scheduler activity allows you..."
--->
+>title="스케줄러 활동"
+>abstract="다음 **스케줄러** 활동은 입니다. **흐름 제어** 활동. 워크플로우가 시작되는 시기를 예약할 수 있습니다. 이 활동은 시작을 예약하는 것으로 생각해야 합니다. 워크플로우의 첫 번째 활동으로만 사용할 수 있습니다."
+
 
 다음 **스케줄러** 활동은 입니다. **흐름 제어** 활동. 워크플로우가 시작되는 시기를 예약할 수 있습니다. 이 활동은 시작을 예약하는 것으로 생각해야 합니다. 워크플로우의 첫 번째 활동으로만 사용할 수 있습니다.
 
@@ -29,6 +29,7 @@ ht-degree: 12%
 * 워크플로우에서 반복 게재를 보내려면 **스케줄러** 활동을 실행하고 실행 빈도를 설정합니다. 반복 게재 활동에서는 일정을 정의할 수 없습니다.
 
 ## 구성
+
 
 다음 단계에 따라 **스케줄러** 활동:
 

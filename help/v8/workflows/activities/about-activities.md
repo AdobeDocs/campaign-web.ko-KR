@@ -4,9 +4,9 @@ title: 워크플로 활동을 사용하여 작업
 description: 워크플로 활동을 사용하는 방법 알아보기
 badge: label="Beta"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '341'
 ht-degree: 100%
 
 ---
@@ -46,6 +46,12 @@ Adobe Campaign Web을 사용하여 이메일, SMS 또는 푸시 등 여러 채�
 이 [섹션](channels.md)을 참조하십시오.
 
 ## 흐름 제어 활동 {#flow-control}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_end"
+>title="종료 활동"
+>abstract="**종료** 활동을 사용하여 워크플로의 끝을 그래픽으로 표시할 수 있습니다. 이 활동은 기능에 영향을 미치지 않으므로 선택 사항입니다."
 
 다음 활동은 워크플로의 구성 및 실행에만 적용됩니다. 주요 작업은 다음과 같은 다른 활동을 조정하는 것입니다.
 

@@ -3,19 +3,36 @@ audience: end-user
 title: 분할 워크플로 활동 사용
 description: 분할 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 100%
+source-wordcount: '599'
+ht-degree: 98%
 
 ---
 
 
 # 분할 {#split}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split"
+>title="분할 활동"
+>abstract="**분할** 활동은 필터링 규칙 또는 모집단 크기와 같은 다양한 선택 기준에 따라 수신 모집단을 여러 하위 집합으로 세그먼트화할 수 있는 **타겟팅** 활동입니다."
+
+
 **분할** 활동은 필터링 규칙 또는 모집단 크기와 같은 다양한 선택 기준에 따라 수신 모집단을 여러 하위 집합으로 세그먼트화할 수 있는 **타겟팅** 활동입니다.
 
 ## 구성 {#general}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_filter"
+>title="활동 필터 분할"
+>abstract="하위 집합에 필터링 조건을 적용하려면 **[!UICONTROL 필터 만들기]**&#x200B;를 클릭하고 원하는 필터링 조건을 구성합니다. 예를 들어 데이터베이스에 이메일 주소가 존재하는 수신 모집단의 프로필을 포함합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_limit"
+>title="활동 제한 분할"
+>abstract="하위 집합에서 선택한 프로필 수를 제한하려면 **[!UICONTROL 제한 활성화]** 옵션을 토글하고 포함할 모집단의 수 또는 백분율을 지정합니다."
+
 
 **분할** 활동을 구성하려면 다음 단계를 따르십시오.
 

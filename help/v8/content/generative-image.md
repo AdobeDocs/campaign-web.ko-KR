@@ -3,9 +3,9 @@ audience: end-user
 title: 콘텐츠 도우미를 사용하여 이미지 생성
 description: 콘텐츠 지원 시작
 badge: label="Beta"
-source-git-commit: d917c5bdf2da6f94f301273970945b4e961d8835
+source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '298'
 ht-degree: 2%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # 콘텐츠 도우미를 사용하여 이미지 생성 {#generative-image}
 
-이메일을 만들고 개인화한 후에는 콘텐츠 도우미를 사용하여 콘텐츠를 개선할 수 있습니다. 이 기능은 개인화 및 콘텐츠 개선 프로세스를 단순화합니다.
+이메일을 만들고 개인화한 후에는 생성 AI에서 제공하는 콘텐츠 도우미를 사용하여 콘텐츠를 개선할 수 있습니다. 이 기능은 개인화 및 콘텐츠 개선 프로세스를 단순화합니다.
 
 아래 예에서는 Content Assistant를 활용하여 콘텐츠를 최적화하고 개선하여 보다 사용자 친화적인 환경을 구현하는 방법을 알아봅니다. 다음 단계를 수행하십시오.
 

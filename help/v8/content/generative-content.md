@@ -3,9 +3,9 @@ audience: end-user
 title: 콘텐츠 도우미가 있는 텍스트
 description: 콘텐츠 지원 시작
 badge: label="Beta"
-source-git-commit: 900d2e2870d176726ba26e98e2a1231a499c9641
+source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '327'
 ht-degree: 3%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # 콘텐츠 도우미를 사용하여 텍스트 생성 {#generative-content}
 
-이메일을 만들고 개인화한 후에는 콘텐츠 도우미를 사용하여 콘텐츠를 다음 수준으로 이동합니다.
+이메일을 만들고 개인화한 후에는 생성 AI에서 제공하는 콘텐츠 도우미를 사용하여 콘텐츠를 한 단계 더 발전시킵니다.
 
 콘텐츠 도우미는 대상자에게 반향을 일으킬 가능성이 높은 다양한 콘텐츠를 제안하여 게재의 영향을 최적화하는 데 도움이 될 수 있습니다.
 

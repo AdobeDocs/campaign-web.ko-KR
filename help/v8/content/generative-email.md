@@ -3,16 +3,18 @@ audience: end-user
 title: 콘텐츠 도우미를 사용하여 이메일 생성
 description: 콘텐츠 지원 시작
 badge: label="Beta"
-source-git-commit: 900d2e2870d176726ba26e98e2a1231a499c9641
+source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 3%
+source-wordcount: '352'
+ht-degree: 2%
 
 ---
 
 # 콘텐츠 도우미를 사용하여 이메일 생성 {#generative-email}
 
 Content Assistant는 전체 이메일 콘텐츠를 자동으로 생성하여 시간을 절약하고 품질을 일관되게 유지함으로써 커뮤니케이션의 영향을 강화합니다.
+
+생성형 AI를 사용하면 대상자와 공감하는 매력적인 이메일을 손쉽게 제작하여 커뮤니케이션을 보다 효과적이고 효율적으로 수행할 수 있습니다.
 
 1. 이메일 게재를 만들고 구성한 후 **[!UICONTROL 콘텐츠 만들기]**.
 

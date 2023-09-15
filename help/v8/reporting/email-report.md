@@ -3,7 +3,7 @@ audience: end-user
 title: 이메일 게재 보고서
 description: 이메일 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 9%
@@ -85,7 +85,7 @@ ht-degree: 9%
 
    * **[!UICONTROL 하드 바운스]**: 처리된 총 메시지 수와 비교하여 잘못된 이메일 주소와 같은 영구적인 &quot;하드&quot; 바운스 수 비율입니다.
 
-   * **[!UICONTROL 소프트 바운스]**: 처리된 총 메시지 수와 비교하여 전체 받은 편지함과 같은 일시적인 오류인 &quot;소프트&quot; 바운스 수의 비율입니다
+   * **[!UICONTROL 소프트 바운스]**: 처리된 총 메시지 수 대비 전체 받은 편지함과 같은 일시적인 오류인 &quot;소프트&quot; 바운스 수의 비율입니다
 
    * **[!UICONTROL 열림]**: 성공적으로 처리된 메시지 수와 비교하여 메시지를 한 번 이상 연 타겟팅된 수신자 수의 백분율입니다.
 
@@ -121,6 +121,8 @@ ht-degree: 9%
 +++
 
 ## 지표 추적 {#tracking-indicators-email}
+
+
 
 * **[!UICONTROL 게재 통계]** 에서는 보낸 이메일에 사용할 수 있는 데이터에 대한 자세한 정보를 제공하는 주요 성능 지표(KPI)를 제공합니다.
 
@@ -207,6 +209,7 @@ ht-degree: 9%
 +++
 
 ## 추적 통계 {#tracking-statistics}
+
 
 * **[!UICONTROL 추적 통계]** 그래프는 열람 및 클릭에 대한 통계를 제공합니다. 데이터를 타겟팅할 특정 시간대를 선택할 수 있는 옵션이 있습니다.
 

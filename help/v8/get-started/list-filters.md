@@ -2,8 +2,8 @@
 audience: end-user
 title: 목록 찾아보기, 검색 및 필터링
 description: Campaign Web v8 목록을 찾아보고 필터링하는 방법 살펴보기
-badge: label="Alpha"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+badge: label="Beta"
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%

@@ -4,10 +4,10 @@ title: Campaign Web v8의 새로운 기능
 description: Campaign Web v8이 제공되는 새로운 기능 살펴보기
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -64,9 +64,9 @@ Campaign 사용자는 여전히 클라이언트 콘솔에 액세스하여 Campai
 * 이제 **콘텐츠 시뮬레이션** 버튼을 통해 이메일 미리보기 기능을 사용할 수 있습니다.
 * 목록은 이제 **대상자**&#x200B;입니다.
 
-## 제한 사항{#limitations-alpha}
+## 제한 사항{#limitations-beta}
 
-아래는 이 Alpha 버전에 적용되는 제한 사항입니다.
+아래의 제한 사항은 이 Beta 버전에 적용됩니다.
 
 * 편집 가능한 유일한 오브젝트는 게재, 캠페인, 워크플로, 대상자와 템플릿입니다. 다른 오브젝트는 읽기 전용입니다. 필터를 사용하여 모두 탐색해 보십시오.
 * 대상자는 나중에 사용할 수 있도록 저장할 수 없습니다.

@@ -4,10 +4,10 @@ title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign 웹으로 워크플로우를 만드는 방법을 알아봅니다
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 2afec0260566c2393c96063037adbf1902497289
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 6%
+source-wordcount: '753'
+ht-degree: 12%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="워크플로 속성"
->abstract="이 화면에서 워크플로를 만들고 레이블을 지정하는 데 사용할 템플릿을 선택합니다. 추가 OPTIONS 섹션을 확장하여 워크플로 내부 이름, 해당 폴더, 시간대 및 감독자 그룹과 같은 설정을 더 구성합니다. 운영자에게 오류 발생 시 경고하도록 감독자 그룹을 선택하는 것이 좋습니다."
+>abstract="이 화면에서 워크플로를 만들고 레이블을 지정하는 데 사용할 템플릿을 선택합니다. 추가 옵션 섹션을 확장하여 워크플로우 내부 이름, 해당 폴더, 시간대, 감독자 그룹 등의 추가적인 설정을 구성합니다. 오류가 발생할 경우 운영자에게 경고할 수 있도록 감독자 그룹을 선택하는 것을 권장하여 드립니다."
 
 
 >[!CONTEXTUALHELP]
@@ -51,6 +51,12 @@ ht-degree: 6%
 이제 워크플로우가 생성되어 워크플로우 목록에서 사용할 수 있습니다. 이제 해당 시각적 캔버스에 액세스하여 수행할 작업을 추가, 구성 및 오케스트레이션할 수 있습니다. 에서 워크플로우 활동을 오케스트레이션하는 방법을 알아봅니다 [이 페이지](orchestrate-activities.md).
 
 ## 워크플로우 템플릿 작업 {#workflow-templates}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_template_for_campaign"
+>title="워크플로 템플릿"
+>abstract="워크플로우 템플릿에는 사전 구성된 설정 및 새 워크플로우를 만드는 데 다시 사용할 수 있는 활동이 포함되어 있습니다."
 
 워크플로우 템플릿에는 사전 구성된 설정 및 새 워크플로우를 만드는 데 다시 사용할 수 있는 활동이 포함되어 있습니다. 워크플로우를 만들 때 워크플로우 속성에서 워크플로우의 템플릿을 선택할 수 있습니다. 기본적으로 빈 템플릿이 제공됩니다.
 

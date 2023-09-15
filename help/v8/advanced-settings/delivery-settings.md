@@ -1,26 +1,29 @@
 ---
 audience: end-user
-title: 이메일 게재 설정
-description: Campaign Web UI의 이메일 게재 설정에 대해 자세히 알아보기
+title: 게재 설정
+description: Campaign 웹에서 게재 설정에 대해 자세히 알아보기
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: 2afec0260566c2393c96063037adbf1902497289
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '1829'
-ht-degree: 80%
+source-wordcount: '2094'
+ht-degree: 77%
 
 ---
 
 
-# 이메일 게재 설정 {#email-del-settings}
+# 게재 설정 {#email-del-settings}
 
-이러한 설정은 이메일 템플릿에 정의되어 있는 **기술적 게재 매개변수**&#x200B;입니다. 이메일 게재 편집 시 표시되는 **게재 설정 구성** 아이콘에서 사용할 수 있습니다.
+이메일 게재 설정은 다음과 같습니다. **기술 게재 매개 변수** 이메일 템플릿에 정의되어 있습니다. 각 게재에 대해 오버로드될 수 있습니다.
+
+이러한 설정은 다음에서 사용할 수 있습니다. **게재 설정 구성** 아이콘 이메일 게재 또는 이메일 게재 템플릿을 편집할 때 사용할 수 있습니다.
+
 
 ## 이메일 게재 설정 {#email-delivery-settings}
 
 >[!CAUTION]
 >
-> 이러한 설정은 정보 목적으로만 설명됩니다. 그 중 일부는 구성 및 권한에 따라 다릅니다. 이 버전의 제품에서는 수정할 수 없습니다.
+>이러한 설정은 정보 목적으로만 설명됩니다. 그 중 일부는 구성 및 권한에 따라 다릅니다. 이 버전의 제품에서는 수정할 수 없습니다.
 
 ## 유형화 설정 {#typology}
 
@@ -56,6 +59,11 @@ ht-degree: 80%
 >abstract="게재 가중치를 통해 피로도 관리 프레임워크 내에서 최우선 게재를 식별할 수 있습니다. 가중치가 가장 높은 메시지는 우선 순위가 높습니다."
 
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_weight"
+>title="게재 가중치"
+>abstract="게재 가중치를 통해 압력 관리 프레임워크 내에서 최우선 게재를 식별할 수 있습니다. 가중치가 가장 높은 메시지는 우선 순위가 높습니다."
+
 이 섹션에서 압력 매개 변수를 사용하여 **임계값** 피로도 관리 규칙을 설정합니다. 주어진 기간 동안 하나의 프로필에 전송할 수 있는 최대 메시지 수입니다. 이 임계값에 도달하면 고려된 기간이 끝날 때까지 더 이상 게재할 수 없습니다. 이 프로세스를 사용하면 메시지가 설정된 임계값을 초과하는 경우 게재 시 프로필을 자동으로 제외하여 과도한 요청을 방지할 수 있습니다.
 
 임계값은 상수 또는 변수일 수 있습니다. 즉, 특정 기간 동안 임계값은 프로필마다 또는 심지어 동일한 프로필에 대해서도 다를 수 있습니다.
@@ -83,6 +91,13 @@ ht-degree: 80%
 >id="acw_email_settings_capacity_settings"
 >title="게재에 대한 용량 설정"
 >abstract="메시지를 게재하기 전에 용량 규칙을 사용하여 조직이 게재, 게재로 인해 생성될 수 있는 인바운드 메시지와 구독자에게 문의할 수 있는 통화 수를 처리할 수 있는지 확인합니다. 용량 규칙은 Adobe Campaign v8 Console에 정의되어 있습니다. 이 화면에서 이메일 채널과 연계된 규칙을 선택합니다."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_recipient_importance"
+>title="수신자 중요도"
+>abstract="수신자 중요도는 용량 유형화 규칙 초과 시 유지되는 수신자를 결정하는 데 사용되는 공식입니다."
+
 
 이 섹션에서는 Adobe Campaign v8 Console에 정의된 용량 규칙을 선택할 수 있습니다. 이 규칙은 이메일 채널과 연결되어 있습니다.
 
@@ -136,7 +151,12 @@ ht-degree: 80%
 
 ### 재시도 {#retries}
 
-<!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_retries"
+>title="최대 재시도 수"
+>abstract="일시적인 오류로 인해 메시지 전송이 실패하면 게재 기간이 종료될 때까지 재시도를 수행합니다."
+
+소프트 또는 무시됨 오류로 인해 일시적으로 게재되지 않은 메시지는 자동 재시도의 적용을 받습니다. 기본적으로 5번의 다시 시도가 배달 첫 날에 예약되며 하루 중 24시간 동안 최소 1시간 간격으로 분산됩니다.
 
 에서 다시 시도 관리에 대해 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
@@ -145,7 +165,13 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
 >title="게재 승인 모드"
->abstract="승인 모드를 선택합니다. 게재 준비 중에 경고가 생성되면 게재를 계속 실행해야 하는지 여부를 정의하도록 구성할 수 있습니다. "
+>abstract="승인 모드를 선택합니다. 게재 준비 중에 경고가 생성되면 게재를 계속 실행해야 하는지 여부를 정의하도록 구성할 수 있습니다."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_approval"
+>title="게재에 대한 승인 모드"
+>abstract="이 템플릿을 기반으로 게재에 대한 승인 모드를 선택합니다. 게재 준비 중에 경고가 생성되면 게재를 계속 실행해야 하는지 여부를 정의하도록 구성할 수 있습니다."
 
 게재 준비 중에 경고가 생성되면 게재를 계속 실행해야 하는지 여부를 정의하도록 구성할 수 있습니다. 사용자는 기본적으로 분석 단계가 끝나면 메시지 전송을 확인해야 합니다. 이를 **수동** 유효성 검사라고 합니다.
 
@@ -165,6 +191,18 @@ ht-degree: 80%
 >title="설정 유효성"
 >abstract="게재 기간 필드를 통해 글로벌 게재 재시도에 대한 제한 값을 입력할 수 있습니다. 이는 Adobe Campaign은 시작 날짜부터 메시지를 전송하고 나서 메시지가 오류만 반환하는 경우 유효성 검사 제한에 도달할 때까지 구성 가능한 일반 재시도를 수행함을 의미합니다. 유효성 검사 제한 필드는 미러 페이지나 이미지와 같이 업로드된 리소스에 사용됩니다. 이러한 리소스는 제한된 시간 동안만 유효합니다. 한도에 도달하면 리소스를 더 이상 사용할 수 없습니다."
 
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_resources_validity"
+>title="리소스 유효성 검사 제한"
+>abstract="유효성 검사 제한 필드는 미러 페이지나 이미지와 같이 업로드된 리소스에 사용됩니다. 이러한 리소스는 제한된 시간 동안만 유효합니다. 한도에 도달하면 리소스를 더 이상 사용할 수 없습니다."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_duration"
+>title="게재 기간"
+>abstract="게재 기간 필드를 통해 글로벌 게재 재시도에 대한 제한 값을 입력할 수 있습니다. 즉, Adobe Campaign은 시작 날짜부터 메시지를 전송하고 나서 메시지가 오류만 반환하는 경우 유효성 검사 제한에 도달할 때까지 구성 가능한 일반 재시도를 수행합니다."
 <!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
@@ -203,6 +241,15 @@ ht-degree: 80%
 >title="Validity period"
 >abstract="This option defines the duration for which the tracking is activated on the URLs."
 -->
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_tracking_validity"
+>title="유효 기간"
+>abstract="유효 기간은 메시지 URL에서 추적이 활성화되는 기간을 설정합니다."
+
 
 추적 매개변수는 관련 섹션에서 정의됩니다. 가능한 옵션은 다음과 같습니다.
 

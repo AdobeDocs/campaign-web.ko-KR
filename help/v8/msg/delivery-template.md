@@ -6,14 +6,20 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 24%
+source-wordcount: '984'
+ht-degree: 26%
 
 ---
 
 # 게재 템플릿 작업 {#work-with-delivery-templates}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_for_campaign"
+>title="게재 템플릿"
+>abstract="캠페인 실행 및 론칭을 보다 신속하게 수행하기 위해 게재 템플릿을 사용하여 크리에이티브 룩과 느낌을 표준화합니다"
+
 
 디자인 프로세스를 가속화하고 개선하기 위해 게재 템플릿을 만들어 캠페인 전반에서 사용자 지정 콘텐츠 및 설정을 쉽게 재사용할 수 있습니다. 이 기능을 사용하면 크리에이티브 룩과 느낌을 표준화하여 캠페인 실행 및 론칭을 보다 신속하게 수행할 수 있습니다.
 

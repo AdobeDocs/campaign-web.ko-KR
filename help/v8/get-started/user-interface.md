@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 2afec0260566c2393c96063037adbf1902497289
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 87%
+source-wordcount: '1468'
+ht-degree: 85%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="탐색기"
->abstract="**탐색기** 메뉴에는 클라이언트 콘솔의 폴더 계층과 동일한 폴더 계층과 함께 모든 Campaign 구성 요소 및 오브젝트가 표시됩니다. 이 메뉴에서 모든 Campaign v8 구성 요소, 폴더 및 스키마를 탐색하고 관련 권한을 확인한 다음 폴더 및 하위 폴더를 만듭니다."
+>abstract="**탐색기** 메뉴에는 클라이언트 콘솔의 폴더 계층과 동일한 폴더 계층과 함께 모든 Campaign 구성 요소 및 오브젝트가 표시됩니다. 이 메뉴에서 모든 Campaign v8 구성 요소, 폴더, 스키마를 찾아보고, 관련 권한을 확인하고, 폴더 및 하위 폴더를 생성할 수 있습니다."
 
 **탐색기** 메뉴에는 클라이언트 콘솔의 폴더 계층과 동일한 폴더 계층과 함께 모든 Campaign 리소스 및 오브젝트가 표시됩니다. 모든 Campaign v8 구성 요소, 폴더 및 스키마를 찾아보고 게재, 워크플로 및 캠페인을 만듭니다.
 
@@ -261,40 +261,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- delivery template settings-->
 
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_tracking_validity"
->title="유효 기간"
->abstract="유효 기간은 메시지 URL에서 추적이 활성화되는 기간을 설정합니다."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_delivery_duration"
->title="게재 기간"
->abstract="게재 기간 필드를 통해 글로벌 게재 재시도에 대한 제한 값을 입력할 수 있습니다. 즉, Adobe Campaign은 시작 날짜부터 메시지를 전송하고 나서 메시지가 오류만 반환하는 경우 유효성 검사 제한에 도달할 때까지 구성 가능한 일반 재시도를 수행합니다."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_resources_validity"
->title="리소스 유효성 검사 제한"
->abstract="유효성 검사 제한 필드는 미러 페이지나 이미지와 같이 업로드된 리소스에 사용됩니다. 이러한 리소스는 제한된 시간 동안만 유효합니다. 한도에 도달하면 리소스를 더 이상 사용할 수 없습니다."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_approval"
->title="승인 모드"
->abstract="각 게재 단계는 승인을 받아 다양한 프로세스를 전체 모니터링하고 제어할 수 있습니다."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_retries"
->title="최대 재시도 수"
->abstract="일시적인 오류로 인해 메시지 전송이 실패하면 게재 기간이 종료될 때까지 재시도를 수행합니다."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_recipient_importance"
->title="수신자 중요도"
->abstract="수신자 중요도는 용량 유형화 규칙 초과 시 유지되는 수신자를 결정하는 데 사용되는 공식입니다."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_delivery_weight"
->title="게재 가중치"
->abstract="게재 가중치를 통해 압력 관리 프레임워크 내에서 최우선 게재를 식별할 수 있습니다. 가중치가 가장 높은 메시지는 우선 순위가 높습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
@@ -304,12 +270,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
 >title="글로벌 보고서 전송"
->abstract="TBC"
+>abstract="추적 보고 지표는 이 화면에 표시됩니다"
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_tracking"
 >title="글로벌 보고서 추적"
->abstract="TBC"
+>abstract="추적 보고 지표는 이 화면에 표시됩니다"
+
 
 
 >[!CONTEXTUALHELP]
@@ -320,13 +287,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- delivery settings-->
 
 
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_for_campaign"
->title="Campaign의 게재 템플릿"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_workflow_template_for_campaign"
->title="Campaign의 워크플로 템플릿"
->abstract="TBC"

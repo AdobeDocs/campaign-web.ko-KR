@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: 캠페인 개요
 hide: true
-source-git-commit: 1c90630ecff177e402dfb049c1952de22bd9bdb4
+source-git-commit: d917c5bdf2da6f94f301273970945b4e961d8835
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 90%
+source-wordcount: '415'
+ht-degree: 89%
 
 ---
 
@@ -47,6 +47,7 @@ ht-degree: 90%
             + [프리 헤더 추가](content/preheader.md)
             + [텍스트 버전 생성](content/text-version-email.md)
          + 콘텐츠 지원 {#content-assistant}
+            + [콘텐츠 지원 시작](content/generative-gs.md)
             + [콘텐츠 도우미를 사용하여 텍스트 생성](content/generative-content.md)
             + [콘텐츠 도우미를 사용하여 이미지 생성](content/generative-image.md)
             + [콘텐츠 도우미를 사용하여 이메일 생성](content/generative-email.md)

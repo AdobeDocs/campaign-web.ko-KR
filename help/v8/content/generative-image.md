@@ -3,9 +3,9 @@ audience: end-user
 title: 콘텐츠 도우미를 사용하여 이미지 생성
 description: 콘텐츠 지원 시작
 badge: label="Beta"
-source-git-commit: 900d2e2870d176726ba26e98e2a1231a499c9641
+source-git-commit: d917c5bdf2da6f94f301273970945b4e961d8835
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '294'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 이메일을 만들고 개인화한 후에는 콘텐츠 도우미를 사용하여 콘텐츠를 개선할 수 있습니다. 이 기능은 개인화 및 콘텐츠 개선 프로세스를 단순화합니다.
 
-아래 예에서, 콘텐츠 지원 을 활용하여 콘텐츠를 최적화하고 개선하여 보다 사용자 친화적인 경험을 보장하는 방법을 살펴볼 수 있습니다. 다음 단계를 수행하십시오.
+아래 예에서는 Content Assistant를 활용하여 콘텐츠를 최적화하고 개선하여 보다 사용자 친화적인 환경을 구현하는 방법을 알아봅니다. 다음 단계를 수행하십시오.
 
 1. 이메일 게재를 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**.
 

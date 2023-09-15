@@ -3,10 +3,10 @@ audience: end-user
 title: 캠페인 시작하기
 description: 크로스 채널 캠페인 시작 방법 알아보기
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,8 @@ ht-degree: 100%
 
 새 캠페인을 만들거나 기존 캠페인을 관리하려면 왼쪽 탐색 영역에서 **[!UICONTROL 캠페인]** 메뉴를 클릭합니다.
 
-## 캠페인 목록{#access-campaigns}
+## 캠페인 목록 {#access-campaigns}
+
 
 캠페인 목록에서 두 개의 탭을 사용할 수 있습니다.
 
@@ -39,6 +40,12 @@ ht-degree: 100%
 ![캠페인 필터](assets/campaign-filter-on-dates.png)
 
 ## 캠페인 대시보드{#campaign-dashboard}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_delivery_list"
+>title="캠페인의 게재 목록"
+>abstract="**게재** 탭에는 현재 캠페인에 연결된 게재가 모두 나열됩니다. 편집할 게재 이름을 클릭합니다. 게재 만들기 버튼을 사용하여 이 캠페인에 대한 새 게재를 추가합니다."
 
 캠페인 목록의 **찾아보기** 탭에서 캠페인을 클릭하면 세부 정보가 &#x200B;&#x200B;표시됩니다.
 

@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 38eda4025c95998108739b021e5b47b20df86d07
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '1683'
-ht-degree: 88%
+source-wordcount: '1661'
+ht-degree: 87%
 
 ---
 
@@ -60,7 +60,11 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 
 ### 상황별 도움말 {#user-interface-help}
 
-제품 사용자 인터페이스에서 직접 질문하고 지침을 찾습니다. 상황별 도움말 팝오버에 임베드된 새로운 AI 기반 지식 도우미는 새로운 Campaign 기능에 대한 전문 지식을 배우고 성장하는 데 도움이 됩니다. 최신 제품 설명서를 기반으로, 사용 사례를 작성하는 동안 도움말을 찾고 단계별 지침을 즉시 얻을 수 있습니다.
+다음 **Gen AI를 사용하는 기술 지원** 상황별 도움말에 포함되어 방대한 설명서 저장소를 손쉽게 탐색하여 설명서 검색 및 사용 방법 질문에 대한 대답 기능을 혁신적으로 개선하고 필요한 정확한 정보를 즉시 정확하게 찾아냅니다.
+
+Campaign Gen AI의 기능 덕분에 이 도우미는 사용자 경험을 혁신하여 정보를 검색하고 문제를 쉽게 해결할 수 있습니다. 복잡한 작업에서 지침을 찾거나 광범위한 문서를 탐색하는 경우, Gen AI를 사용하는 Knowledge Assistant는 모든 상호 작용에 있어 탁월한 효율성과 정확성을 제공하는 최고의 동반자입니다.
+
+[이 섹션](using-ai.md)에서 자세히 알아보십시오.
 
 
 ### 캠페인 관리 {#user-interface-campaign-management}
@@ -244,10 +248,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- Workflows-->
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_workflow"
->title="워크플로 목록"
->abstract="캠페인에 사용할 수 있는 워크플로 목록. “워크플로 만들기” 버튼을 사용하여 캠페인에서 워크플로를 추가합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"
@@ -311,10 +311,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="글로벌 보고서 추적"
 >abstract="TBC"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_delivery_list"
->title="캠페인의 게재 목록"
->abstract="캠페인의 게재 목록"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
@@ -323,25 +319,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- delivery settings-->
 
->[!CONTEXTUALHELP]
->id="acw_email_settings_audience"
->title="게재 설정 대상자"
->abstract="TBC"
 
->[!CONTEXTUALHELP]
->id="acw_email_settings_approval"
->title="게재 설정 승인"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_email_settings_testsettings"
->title="게재 설정 테스트 설정"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_email_settings_webanalytics"
->title="게재 설정 웹 분석"
->abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"

@@ -4,10 +4,10 @@ title: 이메일 게재 설정
 description: Campaign Web UI의 이메일 게재 설정에 대해 자세히 알아보기
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '1643'
-ht-degree: 73%
+source-wordcount: '1829'
+ht-degree: 80%
 
 ---
 
@@ -22,21 +22,21 @@ ht-degree: 73%
 >
 > 이러한 설정은 정보 목적으로만 설명됩니다. 그 중 일부는 구성 및 권한에 따라 다릅니다. 이 버전의 제품에서는 수정할 수 없습니다.
 
-## 유형화 {#typology}
+## 유형화 설정 {#typology}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="유형화"
->abstract="유형화 규칙을 사용하면 마케터가 모든 게재에서 비즈니스 사례를 표준화할 수 있습니다. 유형화는 게재 전송을 제어, 필터링 및 우선 순위를 지정할 수 있는 유형화 규칙 모음입니다. 유형화 규칙 내의 기준과 일치하는 프로필은 준비 단계의 게재 대상자에서 제외됩니다."
+>abstract="유형화 규칙을 통해 마케터는 모든 게재에 걸쳐 비즈니스 사례를 표준화할 수 있습니다. 유형화는 게재 전송에 대해 제어, 필터링 및 우선 순위 지정을 수행할 수 있는 유형화 규칙 모음입니다. 유형화 규칙 내의 기준과 일치하는 프로필은 준비 단계에 게재 대상자에서 제외됩니다."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
->title="유형화"
->abstract="유형화 규칙을 사용하면 마케터가 모든 게재에서 비즈니스 사례를 표준화할 수 있습니다. 유형화는 게재 전송을 제어, 필터링 및 우선 순위를 지정할 수 있는 유형화 규칙 모음입니다. 유형화 규칙 내의 기준과 일치하는 프로필은 준비 단계의 게재 대상자에서 제외됩니다."
+>title="유형화 게재 설정"
+>abstract="유형화 규칙을 통해 마케터는 모든 게재에 걸쳐 비즈니스 사례를 표준화할 수 있습니다. 유형화는 게재 전송에 대해 제어, 필터링 및 우선 순위 지정을 수행할 수 있는 유형화 규칙 모음입니다. 유형화 규칙 내의 기준과 일치하는 프로필은 준비 단계에 게재 대상자에서 제외됩니다."
 
 
-유형화는 다음 집합입니다. **유형화 규칙**: 준비 단계 동안 실행됩니다. 유형화 규칙을 사용하면 마케터가 모든 게재에서 비즈니스 사례를 표준화할 수 있습니다. 유형화는 게재 전송을 제어, 필터링 및 우선 순위를 지정할 수 있는 유형화 규칙 모음입니다. 유형화 규칙 내의 기준과 일치하는 프로필은 게재 준비 단계의 게재 대상자에서 제외됩니다.  이메일에 항상 특정 요소(예: 구독 취소 링크 또는 제목 줄)가 포함되어 있는지 확인하거나 그룹을 의도한 타겟(구독 취소자, 경쟁 업체 또는 비충성 고객)에서 제외하는 필터링 규칙이 있는지 확인할 수 있습니다.
+유형화는 다음 집합입니다. **유형화 규칙**: 준비 단계 동안 실행됩니다. 유형화 규칙을 통해 마케터는 모든 게재에 걸쳐 비즈니스 사례를 표준화할 수 있습니다. 유형화는 게재 전송에 대해 제어, 필터링 및 우선 순위 지정을 수행할 수 있는 유형화 규칙 모음입니다. 유형화 규칙 내의 기준과 일치하는 프로필은 게재 준비 단계의 게재 대상자에서 제외됩니다.  이메일에 항상 특정 요소(예: 구독 취소 링크 또는 제목 줄)가 포함되어 있는지 확인하거나 그룹을 의도한 타겟(구독 취소자, 경쟁 업체 또는 비충성 고객)에서 제외하는 필터링 규칙이 있는지 확인할 수 있습니다.
 
 여러 필터링 규칙을 한 번에 쉽게 게재에 적용하기 위해 유형화 내에 유형화 규칙을 함께 그룹화합니다.
 
@@ -52,8 +52,8 @@ ht-degree: 73%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
->title="압력 매개변수"
->abstract="게재 가중치를 사용하면 피로도 관리 프레임워크 내에서 최우선 순위 게재를 식별할 수 있습니다. 가중치가 가장 높은 메시지는 우선 순위가 높습니다."
+>title="게재에 대한 압력 매개 변수"
+>abstract="게재 가중치를 통해 피로도 관리 프레임워크 내에서 최우선 게재를 식별할 수 있습니다. 가중치가 가장 높은 메시지는 우선 순위가 높습니다."
 
 
 이 섹션에서 압력 매개 변수를 사용하여 **임계값** 피로도 관리 규칙을 설정합니다. 주어진 기간 동안 하나의 프로필에 전송할 수 있는 최대 메시지 수입니다. 이 임계값에 도달하면 고려된 기간이 끝날 때까지 더 이상 게재할 수 없습니다. 이 프로세스를 사용하면 메시지가 설정된 임계값을 초과하는 경우 게재 시 프로필을 자동으로 제외하여 과도한 요청을 방지할 수 있습니다.
@@ -81,8 +81,8 @@ ht-degree: 73%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
->title="용량 설정"
->abstract="메시지를 게재하기 전에 용량 규칙을 사용하여 조직에서 게재, 게재에서 생성할 수 있는 인바운드 메시지 및 구독자에게 문의하기 위한 호출 수 등을 처리할 수 있는지 확인하십시오. 용량 규칙은 Adobe Campaign v8 콘솔에서 정의됩니다. 이 화면에서 전자 메일 채널과 연결된 규칙을 선택합니다."
+>title="게재에 대한 용량 설정"
+>abstract="메시지를 게재하기 전에 용량 규칙을 사용하여 조직이 게재, 게재로 인해 생성될 수 있는 인바운드 메시지와 구독자에게 문의할 수 있는 통화 수를 처리할 수 있는지 확인합니다. 용량 규칙은 Adobe Campaign v8 Console에 정의되어 있습니다. 이 화면에서 이메일 채널과 연계된 규칙을 선택합니다."
 
 이 섹션에서는 Adobe Campaign v8 Console에 정의된 용량 규칙을 선택할 수 있습니다. 이 규칙은 이메일 채널과 연결되어 있습니다.
 
@@ -91,7 +91,14 @@ ht-degree: 73%
 일관성 및 용량 규칙과 이를 구성하는 방법에 대해 자세히 알아봅니다. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
 
 
-## 대상자 {#audience}
+## 대상자 설정 {#audience}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_audience"
+>title="게재에 대한 대상자 설정"
+>abstract="선택 **대상 매핑** 가능한 것들 중에서. 대상 매핑은 Adobe Campaign v8 콘솔에서 정의됩니다. 게재에 대한 제외 매개 변수를 설정할 수도 있습니다. "
+
 
 이 섹션에서는 사용 가능한 **대상 매핑** 중 원하는 옵션을 선택할 수 있습니다. 대상 매핑은 Adobe Campaign v8 콘솔에서 정의됩니다.
 
@@ -101,8 +108,8 @@ ht-degree: 73%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
->title="게재 설정"
->abstract="게재 매개변수는 게재에 적용되는 기술 설정입니다. 게재에 대해 BCC를 활성화하고 게재 및 루틴 모드를 변경할 수 있습니다. 이러한 옵션은 전문가 사용자로만 제한됩니다."
+>title="게재에 대한 게재 설정"
+>abstract="게재 매개변수는 게재에 적용되는 기술 설정입니다. 게재를 위한 BCC를 활성화하고 게재 및 일반 모드를 변경할 수 있습니다. 이 옵션은 숙련된 사용자로만 제한됩니다."
 
 게재 매개변수는 게재에 적용되는 기술 설정입니다.
 
@@ -112,6 +119,19 @@ ht-degree: 73%
 
 * **이메일 BCC**: 이 옵션은 BCC 이메일 주소를 메시지 대상에 추가하여 BCC를 통해 외부 시스템에 이메일을 저장하는 데 사용됩니다. 에서 이메일 BCC에 대해 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
+### 웹 분석 {#web-analytics}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_webanalytics"
+>title="게재용 웹 분석 설정"
+>abstract="웹 분석 계정을 선택합니다. 이 계정은 Campaign 클라이언트 콘솔에 구성됩니다. 사용 중인 분석 도구와 공유되는 태그를 정의할 수도 있습니다."
+
+이 섹션에서 웹 분석 계정을 선택할 수 있습니다. 이 계정은 Campaign 클라이언트 콘솔에 구성됩니다.
+
+사용 중인 분석 도구와 공유되는 태그를 정의할 수도 있습니다.
+
+에서 웹 분석 및 캠페인에 대해 자세히 알아봅니다. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 
 ### 재시도 {#retries}
@@ -122,12 +142,10 @@ ht-degree: 73%
 
 ## 승인 {#approval}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Approval mode"
->abstract="Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes."
--->
+>title="게재 승인 모드"
+>abstract="승인 모드를 선택합니다. 게재 준비 중에 경고가 생성되면 게재를 계속 실행해야 하는지 여부를 정의하도록 구성할 수 있습니다. "
 
 게재 준비 중에 경고가 생성되면 게재를 계속 실행해야 하는지 여부를 정의하도록 구성할 수 있습니다. 사용자는 기본적으로 분석 단계가 끝나면 메시지 전송을 확인해야 합니다. 이를 **수동** 유효성 검사라고 합니다.
 
@@ -193,6 +211,11 @@ ht-degree: 73%
 **만료 URL의 대체 URL**: 대체 웹 페이지에 대한 URL을 입력하려면 이 옵션을 사용하십시오. 이 옵션은 추적이 만료되면 표시됩니다.
 
 ## 테스트 설정 {#test-setttings}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_testsettings"
+>title="게재에 대한 테스트 설정"
+>abstract="제외 매개 변수를 선택하고 테스트 이메일의 레이블을 사용자 지정합니다."
 
 이 섹션에서는 제외 매개변수를 설정할 수 있습니다. 사용 가능한 옵션은 다음과 같습니다.
 

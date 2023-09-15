@@ -4,7 +4,7 @@ title: 첫 이메일 보내기
 description: Campaign Web UI를 사용하여 첫 이메일을 전송하는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: 883463ef70bfd908ae0ec66863fa61ec2334442b
 workflow-type: tm+mt
 source-wordcount: '1350'
 ht-degree: 66%
@@ -66,7 +66,7 @@ ht-degree: 66%
 
    ![](assets/email-properties.png)
 
-5. 또한 유형화 규칙 및 대상 매핑과 같은 고급 설정은 **[!UICONTROL 설정]** 화면 오른쪽 상단에 있는 단추입니다. 이러한 설정은 선택한 템플릿에 미리 구성되어 있지만 필요에 따라 이 특정 이메일에 대해 편집할 수 있습니다.
+1. 또한 유형화 규칙 및 대상 매핑과 같은 고급 설정은 **[!UICONTROL 설정]** 화면 오른쪽 상단에 있는 단추입니다. 이러한 설정은 선택한 템플릿에 미리 구성되어 있지만 필요에 따라 이 특정 이메일에 대해 편집할 수 있습니다.
 
 ## 대상자 정의 {#define-audience}
 

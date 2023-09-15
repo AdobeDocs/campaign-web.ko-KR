@@ -3,10 +3,10 @@ audience: end-user
 title: 구독 서비스 작업
 description: Adobe Campaign 웹에서 서비스를 만드는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 10%
+source-wordcount: '312'
+ht-degree: 8%
 
 ---
 
@@ -17,6 +17,11 @@ ht-degree: 10%
 >id="acw_subscription_services_read_only"
 >title="이 서비스는 읽기 전용입니다."
 >abstract="이 서비스를 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_list"
+>title="구독 서비스"
+>abstract="Adobe Campaign을 사용하여 뉴스레터와 같은 서비스를 만들고 모니터링하고 이러한 서비스에 대한 구독/구독 취소를 확인합니다. 구독은 이메일 및 SMS 게재에만 적용됩니다."
 
 Adobe Campaign을 사용하여 뉴스레터와 같은 서비스를 만들고 모니터링하고 이러한 서비스에 대한 구독/구독 취소를 확인합니다. 구독은 이메일 및 SMS 게재에만 적용됩니다.
 
@@ -36,22 +41,33 @@ Adobe Campaign을 사용하여 뉴스레터와 같은 서비스를 만들고 모
 
 ## 첫 번째 구독 서비스 만들기 {#create-service}
 
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_list_properties"
+>title="구독 서비스 속성"
+>abstract="구독 서비스 레이블을 입력하고 추가 옵션을 정의합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_list_confirm"
+>title="구독 서비스 확인 메시지"
+>abstract="사용자가 서비스에 가입하거나 서비스에서 가입을 해지할 때 확인 메시지를 보낼 수 있습니다. 이 메시지에 사용할 템플릿을 선택합니다."
+
+
 구독 서비스를 만들려면 다음 단계를 수행하십시오.
 
 1. 다음 항목 선택 **[!UICONTROL 구독 서비스 만들기]** 단추를 클릭합니다.
 
    ![](assets/service-create-button.png)
 
-1. 채널을 선택합니다. **[!UICONTROL 이메일]** 및 **[!UICONTROL SMS]** 사용할 수 있습니다.
+1. 채널 선택: **[!UICONTROL 이메일]** 또는 **[!UICONTROL SMS]**.
 
 1. 서비스 속성에서 레이블을 입력하고 필요한 경우 추가 옵션을 정의합니다.
 
    ![](assets/service-create-properties.png)
 
-1. 확인 메시지를 선택합니다.
+1. 사용자가 서비스에 가입하거나 서비스에서 가입을 해지할 때 확인 메시지를 보낼 수 있습니다. 이 메시지에 사용할 템플릿을 선택합니다.
 
    ![](assets/service-create-confirmation-msg.png)
 
-1. 클릭 **[!UICONTROL 저장 및 검토]**.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 

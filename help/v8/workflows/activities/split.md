@@ -3,9 +3,9 @@ audience: end-user
 title: 분할 워크플로 활동 사용
 description: 분할 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '654'
 ht-degree: 98%
 
 ---
@@ -34,6 +34,12 @@ ht-degree: 98%
 >abstract="하위 집합에서 선택한 프로필 수를 제한하려면 **[!UICONTROL 제한 활성화]** 옵션을 토글하고 포함할 모집단의 수 또는 백분율을 지정합니다."
 
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_sorting"
+>title="활동 분할 정렬"
+>abstract="하위 집합에 대해 모집단 제한을 설정할 때 특정 프로필 속성을 기준으로 선택한 프로필의 등급을 오름차순 또는 내림차순으로 지정할 수 있습니다. 이렇게 하려면 **정렬 활성화** 옵션을 토글합니다. 예를 들어 구매 금액이 가장 높은 상위 50개 프로필만 포함하도록 하위 집합을 제한할 수 있습니다."
+
+
 **분할** 활동을 구성하려면 다음 단계를 따르십시오.
 
 1. **분할** 활동을 워크플로에 추가합니다.
@@ -58,11 +64,13 @@ ht-degree: 98%
 
    1. 하위 집합에서 선택한 프로필 수를 제한하려면 **[!UICONTROL 제한 활성화]** 옵션을 토글하고 포함할 모집단의 수 또는 백분율을 지정합니다.
 
+      ![](../assets/workflow-split-subset.png)
+
+
       >[!NOTE]
       >
       >하위 집합에 대해 모집단 제한을 설정할 때 특정 프로필 속성을 기준으로 선택한 프로필의 등급을 오름차순 또는 내림차순으로 지정할 수 있습니다. 이렇게 하려면 **[!UICONTROL 정렬 활성화]** 옵션을 토글합니다. 예를 들어 구매 금액이 가장 높은 상위 50개 프로필만 포함하도록 하위 집합을 제한할 수 있습니다.
 
-   ![](../assets/workflow-split-subset.png)
 
 1. 모든 하위 집합을 구성한 후에는 하위 집합과 일치하지 않는 나머지 모집단을 선택하여 추가 아웃바운드 전환에 포함할 수 있습니다. 이렇게 하려면 **[!UICONTROL 보조 항목 생성]** 옵션을 토글합니다.
 

@@ -4,9 +4,9 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: a04fcf79f8c60afa9ffc7428526e36d930db34c4
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1490'
 ht-degree: 82%
 
 ---
@@ -88,11 +88,6 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 >id="acw_audiences_list"
 >title="대상자"
 >abstract="다음은 대상자 목록입니다. 유형, 원본, 생성/마지막 수정 일자 및 레이블을 볼 수 있습니다. 원본을 기준으로 목록을 필터링할 수 있습니다. 이 목록은 읽기 전용입니다."
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_list"
->title="구독 목록"
->abstract="구독 목록을 탐색합니다. 유형, 모드 및 레이블을 볼 수 있습니다. 이 목록은 읽기 전용입니다."
 
 
 고객 관리 섹션에서 수신자, 대상자 및 구독을 볼 수 있습니다. 이 목록은 읽기 전용입니다.

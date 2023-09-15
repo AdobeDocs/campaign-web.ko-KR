@@ -3,15 +3,38 @@ audience: end-user
 title: 게재 워크플로 활동 사용
 description: 게재 워크플로 활동(이메일, 푸시, SMS)을 추가하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 58%
+source-wordcount: '786'
+ht-degree: 59%
 
 ---
 
 
 # 이메일, SMS, 푸시 활동 {#channel}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_email"
+>title="이메일 활동"
+>abstract="이메일, SMS 및 푸시 채널에서 마케팅 캠페인을 자동화하고 실행합니다. 채널 활동을 워크플로 캔버스에 결합하여 고객 행동 및 데이터에 따라 작업을 트리거할 수 있는 크로스 채널 워크플로를 만들 수 있습니다. "
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_sms"
+>title="이메일 활동"
+>abstract="이메일, SMS 및 푸시 채널에서 마케팅 캠페인을 자동화하고 실행합니다. 채널 활동을 워크플로 캔버스에 결합하여 고객 행동 및 데이터에 따라 작업을 트리거할 수 있는 크로스 채널 워크플로를 만들 수 있습니다. "
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_push_ios"
+>title="이메일 활동"
+>abstract="이메일, SMS 및 푸시 채널에서 마케팅 캠페인을 자동화하고 실행합니다. 채널 활동을 워크플로 캔버스에 결합하여 고객 행동 및 데이터에 따라 작업을 트리거할 수 있는 크로스 채널 워크플로를 만들 수 있습니다. "
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_push_android"
+>title="이메일 활동"
+>abstract="이메일, SMS 및 푸시 채널에서 마케팅 캠페인을 자동화하고 실행합니다. 채널 활동을 워크플로 캔버스에 결합하여 고객 행동 및 데이터에 따라 작업을 트리거할 수 있는 크로스 채널 워크플로를 만들 수 있습니다. "
 
 Adobe Campaign Web을 사용하여 이메일, SMS 또는 푸시 채널에서 마케팅 캠페인을 자동화하고 실행할 수 있습니다. 채널 활동을 워크플로 캔버스에 결합하여 고객 행동 및 데이터에 따라 작업을 트리거할 수 있는 크로스 채널 워크플로를 만들 수 있습니다.
 

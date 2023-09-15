@@ -3,10 +3,10 @@ audience: end-user
 title: 포크 워크플로 활동 사용
 description: 포크 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: 0c6369c8099831dca1e0d38dbed818f3c7ab1867
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 100%
+source-wordcount: '159'
+ht-degree: 71%
 
 ---
 
@@ -14,11 +14,17 @@ ht-degree: 100%
 # 포크 {#fork}
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_fork"
+>title="포크 활동"
+>abstract="다음 **포크** 활동은 입니다. **흐름 제어** 활동. 이를 통해 아웃바운드 전환을 만들어서 여러 활동을 동시에 시작할 수 있습니다."
+
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_fork_transitions"
 >title="포크 활동"
 >abstract="포크 활동을 사용하면 아웃바운드 전환을 만들어서 여러 활동을 동시에 시작할 수 있습니다."
 
-포크 활동을 사용하면 아웃바운드 전환을 만들어서 여러 활동을 동시에 시작할 수 있습니다.
+다음 **포크** 활동은 입니다. **흐름 제어** 활동. 이를 통해 아웃바운드 전환을 만들어서 여러 활동을 동시에 시작할 수 있습니다.
 
 ## 구성
 

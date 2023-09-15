@@ -3,10 +3,10 @@ audience: end-user
 title: 결합 워크플로 활동 사용
 description: 결합 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 80%
+source-wordcount: '891'
+ht-degree: 82%
 
 ---
 
@@ -89,6 +89,12 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >id="acw_orchestration_combine_sets"
 >title="결합할 세트 선택"
 >abstract="**참여 설정** 섹션에서 인바운드 전환의 **기본 세트**&#x200B;를 선택합니다. 요소가 제외되는 집합입니다. 다른 집합은 기본 집합에서 제외되기 전에 요소와 일치합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_exclusion"
+>title="제외 규칙"
+>abstract="필요한 경우 인바운드 테이블을 조작할 수 있습니다. 다른 차원에서 대상을 제외하려면 이 대상을 기본 대상과 동일한 타겟팅 차원으로 반환해야 합니다. 이 작업을 수행하려면 제외 규칙 섹션에서 규칙 추가를 클릭하고 차원 변경 조건을 지정합니다. 데이터 조정은 속성 또는 참여를 통해 수행됩니다."
+
 
 
 다음에서 **결합** 활동을 만들 수 있습니다. **제외**. 이를 위해 아래의 추가 단계를 수행해야 합니다.

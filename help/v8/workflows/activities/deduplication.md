@@ -3,7 +3,7 @@ audience: end-user
 title: 중복 제거 워크플로우 활동 사용
 description: 중복 제거 워크플로우 활동을 사용하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: ff3edc4aa7a8150e5f68865c9c27ca7e44e7024a
+source-git-commit: 73387436eeb67645a7ba1fc48ffd13a22a739259
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 9%
@@ -34,7 +34,7 @@ ht-degree: 9%
 
 ## 구성
 
-다음 단계에 따라 **스케줄러** 활동:
+다음 단계에 따라 **중복 제거** 활동:
 
 1. 추가 **중복 제거** 활동을 워크플로우에 추가합니다.
 

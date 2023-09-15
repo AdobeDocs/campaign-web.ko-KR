@@ -2,10 +2,10 @@
 title: Campaign 웹 UI의 보호 기능 및 제한 사항
 description: Campaign 웹 UI의 보호 기능 및 제한 사항
 badge: label="Beta"
-source-git-commit: 86d87e9a3ac9028634a08c2c0969cd232dff15f5
+source-git-commit: f286fa73d0d2643dbe9b2887a59b33c15bd2bb03
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 4%
+source-wordcount: '550'
+ht-degree: 5%
 
 ---
 
@@ -16,60 +16,54 @@ Campaign 클라이언트 콘솔에서 만들거나 수정한 구성 요소로 Ca
 
 ## 워크플로 {#wf-guardrails-limitations}
 
-**활동**
+### 활동
 
-* 웹 UI에서 아직 지원되지 않는 워크플로우 활동은 읽기 전용입니다. 워크플로우를 실행하고, 메시지를 보내고, 로그를 확인하는 등의 작업을 수행할 수 있습니다. 웹 UI와 클라이언트 콘솔에서 모두 사용할 수 있는 워크플로우 활동을 편집할 수 있습니다.
-
-| 콘솔 | 웹 UI |
-| --- | --- |
-| ![](assets/limitations-activities-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="50%" align="left" zoomable="yes"} |
-
-**캔버스**
-
-* 웹 UI에서 새 워크플로를 만들 때 캔버스는 하나의 진입점만 지원합니다. 그러나 콘솔에서 여러 진입점을 가진 워크플로를 만든 경우에는
-
-그러나 워크플로우가 여러 진입점이 있는 클라이언트 콘솔 캔버스에서 만들어졌더라도 웹 UI에서 편집할 수 있습니다. 계속 열고 편집할 수 있습니다
-
-
-
-이 시나리오를 시도하려면 여러 진입점이 있는 클라이언트 콘솔에서 워크플로우를 만들고 웹 UI에서 열어 결과를 확인합니다.
-
-
-
-활동을 편집하고 평소와 같이 워크플로우를 시작 및 실행할 수 있습니다.
-
-
-
-**활동 위치 지정**
-
-* 활동이 추가되거나 제거된 경우에만(항상 아님) 노드의 위치가 다시 계산됩니다(활동의 초기 위치가 수정됨).
-
-**노출되지 않은 옵션**
-
-* 호환되지 않는 옵션은 웹 UI에 표시되지 않습니다.
-
-**루프**
-
-* 루프는 아직 웹 UI에서 사용할 수 없습니다. 콘솔을 사용하여 루프가 포함된 워크플로를 만든 경우 웹 UI에서 액세스할 수 없습니다. 오류 메시지가 표시됩니다.
+웹 UI에서 아직 지원되지 않는 워크플로우 활동은 읽기 전용이며 호환되지 않는 활동으로 표시됩니다. 워크플로우를 실행하고, 메시지를 보내고, 로그를 확인하는 등의 작업을 수행할 수 있습니다. 웹 UI와 클라이언트 콘솔에서 모두 사용할 수 있는 워크플로우 활동을 편집할 수 있습니다.
 
 | 콘솔 | 웹 UI |
 | --- | --- |
-| ![](assets/limitations-loops-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="50%" align="left" zoomable="yes"} |
+| ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
 
-**조정 및 데이터 보강**
+웹 UI에서 아직 지원되지 않는 워크플로우 활동 설정은 표시되지 않습니다. 그러나 워크플로우를 실행하면 이러한 설정이 적용됩니다.
 
-Campaign 클라이언트 콘솔에서 **데이터 보강** 활동은 조정과 데이터 보강 모두를 수행할 수 있습니다. Campaign 웹 UI에서 조정 기능을 아직 사용할 수 없습니다. 콘솔 활동에서 조정을 설정하면 웹 UI에서 호환되지 않는 활동으로 표시됩니다.
+| 콘솔 | 웹 UI |
+| --- | --- |
+| ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
-* 다음과 같은 경우 **데이터 보강** 콘솔의 활동은 데이터 보강 작업만 수행합니다. **데이터 보강** 활동이 웹에 표시됩니다.
-* 다음과 같은 경우 **데이터 보강** 콘솔의 활동은 조정만 수행합니다. 호환되지 않는 활동이 표시됩니다.
+콘솔에서 **데이터 보강** 활동은 조정과 데이터 보강 모두를 수행할 수 있습니다. 웹 UI에서 조정 기능을 아직 사용할 수 없습니다. 콘솔에서 을 정의한 경우 **데이터 보강** 활동은 웹 UI에서 호환되지 않는 읽기 전용 활동으로 표시됩니다.
+
+| 콘솔 | 웹 UI |
+| --- | --- |
+| ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
+
+### 캔버스
+
+웹 UI에서 새 워크플로를 만들 때 캔버스는 하나의 진입점만 지원합니다. 그러나 콘솔에서 여러 진입점을 가진 워크플로를 만든 경우에는 웹 UI에서 열고 편집할 수 있습니다.
+
+| 콘솔 | 웹 UI |
+| --- | --- |
+| ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
+
+루프는 아직 웹 UI에서 사용할 수 없습니다. 콘솔을 사용하여 루프가 포함된 워크플로를 만든 경우 웹 UI에서 액세스할 수 없습니다. 오류 메시지가 표시됩니다.
+
+| 콘솔 | 웹 UI |
+| --- | --- |
+| ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
+
+활동이 추가되거나 제거될 때마다 노드의 위치가 새로 고쳐집니다. 콘솔에서 워크플로우를 만들고 웹 UI를 사용하여 수정한 후 콘솔에서 다시 열면 몇 가지 사소한 위치 지정 불완결성을 볼 수 있습니다. 이 작업은 워크플로에 영향을 주지 않습니다.
+
+| 초기 워크플로우 | 위치 변경 |
+| --- | --- |
+| ![](assets/limitations-positioning1.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-positioning2.png){width="800px" align="left" zoomable="yes"} |
 
 ## 사전 정의된 필터 {#filters-guardrails-limitations}
 
-해당 제품 버전에서 게재 대상을 선택하거나 워크플로우에서 대상을 구축할 때 사용자 인터페이스에서 사전 정의된 일부 필터를 사용할 수 없습니다.
+게재 대상을 선택하거나 워크플로우에서 대상을 구축할 때 해당 제품 버전의 사용자 인터페이스에서 사전 정의된 일부 필터를 사용할 수 없습니다.
 
 특정 오류 메시지가 표시됩니다. 규칙 빌더에서 쿼리의 그래픽 표현을 볼 수 없고 필터를 편집할 수 없는 경우에도 여전히 사용할 수 있으며 필터링 조건 및 결과를 볼 수 있습니다. SQL 쿼리에 액세스하여 정확한 설정을 확인할 수도 있습니다.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
+
 
 웹 인터페이스에서 필터를 빌드하고 지원되지 않는 특성을 사용하여 콘솔에서 수정하는 경우 웹 인터페이스에서 더 이상 그래픽 표현을 사용할 수 없습니다. 어떤 경우든 필터를 계속 사용할 수 있습니다.
 

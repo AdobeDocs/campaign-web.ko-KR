@@ -3,9 +3,9 @@ audience: end-user
 title: 예약 워크플로우 활동 사용
 description: 스케줄러 워크플로우 활동을 사용하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 9c48a6e02eed7ac14bfa42de59932d6cbd6e8534
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '499'
 ht-degree: 11%
 
 ---
@@ -30,6 +30,10 @@ ht-degree: 11%
 
 ## 구성
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_validity"
+>title="스케줄러 유효성"
+>abstract="스케줄러에 대한 유효 기간을 정의할 수 있습니다. 영구적일 수도 있고 특정 날짜까지 유효할 수도 있습니다."
 
 다음 단계에 따라 **스케줄러** 활동:
 

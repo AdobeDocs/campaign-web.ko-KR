@@ -2,9 +2,9 @@
 title: Campaign 웹 UI의 보호 기능 및 제한 사항
 description: Campaign 웹 UI의 보호 기능 및 제한 사항
 badge: label="Beta"
-source-git-commit: 492d49c37c8d63d3e3867f897b76a54ebe8bdb11
+source-git-commit: 68eb1529f6780682256f4b36bd77d336cf560d21
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '540'
 ht-degree: 4%
 
 ---
@@ -37,6 +37,10 @@ Campaign 클라이언트 콘솔에서 만들거나 수정한 구성 요소로 Ca
 **루프**
 
 * 루프는 아직 웹 UI에서 사용할 수 없습니다. 콘솔을 사용하여 루프를 포함하는 워크플로를 만든 경우 웹 UI에서 액세스할 수 없습니다. 오류 메시지가 표시됩니다.
+
+| 콘솔 | 웹 UI |
+| --- | --- |
+| ![](assets/limitations-loops-console.png) | ![](assets/limitations-loops-web.png) |
 
 <table>
 <tr>

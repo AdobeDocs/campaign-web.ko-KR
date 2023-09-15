@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 0af85ae6c368ff3e04c55e88eb5b66437294aece
+source-git-commit: a04fcf79f8c60afa9ffc7428526e36d930db34c4
 workflow-type: tm+mt
-source-wordcount: '1487'
-ht-degree: 83%
+source-wordcount: '1509'
+ht-degree: 82%
 
 ---
 
@@ -170,6 +170,9 @@ Campaign 웹의 기본 언어는 사용자 프로필에 지정된 기본 언어�
 1. 그런 다음 이메일 주소 아래에 표시되는 언어 링크를 클릭합니다.
 1. 원하는 언어를 선택하고 **저장**&#x200B;을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되어 있지 않은 경우 두 번째 언어를 선택할 수 있습니다.
 
+## 어두운 테마 {#dark-theme}
+
+프로필 아이콘에서 어두운 테마로 전환할 수 있습니다. 사용 **어두운 테마** 활성화/비활성화하려면 전환합니다.
 
 ## 자세히 알아보기 {#learn-more}
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 게재 워크플로 활동 사용
 description: 게재 워크플로 활동(이메일, 푸시, SMS)을 추가하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
+source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 79%
+source-wordcount: '642'
+ht-degree: 58%
 
 ---
 
@@ -25,17 +25,27 @@ Adobe Campaign Web을 사용하여 이메일, SMS 또는 푸시 채널에서 마
 >* [독립 실행형 이메일 게재 만들기](../../email/create-email.md)
 >* [독립 실행형 SMS 게재 만들기](../../sms/create-sms.md)
 >* [독립 실행형 푸시 게재 만들기](../../push/create-push.md)
->
 
-## 워크플로우에서 게재 만들기{#create-a-delivery-in-a-workflow}
+## 워크플로우 구축{#build-your-workflow}
 
-워크플로우 컨텍스트에서 이메일, SMS 또는 푸시 게재를 만들려면 아래 단계를 수행합니다.
+게재를 완료하기 전에 관련 활동을 사용하여 워크플로우 작성을 시작하십시오.
 
-1. **대상자 빌드** 활동을 추가해야 합니다. 대상자는 게재의 기본 대상, 즉 메시지를 받는 수신자입니다. 캠페인 워크플로 컨텍스트에서 메시지를 전송할 때 메시지 대상자는 채널 활동에서 정의되지 않고 **대상자 빌드** 활동에서 정의됩니다. [이 섹션](build-audience.md)을 참조하십시오.
+* 재처리 게재를 보내려면 **스케줄러** 활동. 일회성 게재를 보내려면 다음을 사용하여 연락 날짜를 정의할 수 있습니다. **스케줄러** 활동을 수행하거나 게재 설정에서 일정을 정의합니다. [이 섹션](scheduler.md)을 참조하십시오.
 
-   ![](../../msg/assets/add-delivery-in-wf.png)
+* **대상자 빌드** 활동을 추가합니다. 대상자는 게재의 기본 대상, 즉 메시지를 받는 수신자입니다. 캠페인 워크플로 컨텍스트에서 메시지를 전송할 때 메시지 대상자는 채널 활동에서 정의되지 않고 **대상자 빌드** 활동에서 정의됩니다. [이 섹션](build-audience.md)을 참조하십시오.
 
-1. 게재 활동 선택: **[!UICONTROL 이메일]**, **[!UICONTROL SMS]**, **[!UICONTROL 푸시 알림(Android)]** 또는 **[!UICONTROL 푸시 알림(iOS)]**.
+  ![](../../msg/assets/add-delivery-in-wf.png)
+
+## 게재 설정 {#create-a-delivery-in-a-workflow}
+
+워크플로우 컨텍스트에서 게재를 설정하려면 아래 단계를 따르십시오.
+
+1. 채널 활동 추가: **[!UICONTROL 이메일]**, **[!UICONTROL SMS]**, **[!UICONTROL 푸시 알림(Android)]** 또는 **[!UICONTROL 푸시 알림(iOS)]**.
+
+1. 다음 항목 선택 **게재 유형**: 단일 또는 반복.
+
+   * **단일 게재**: 한 번만 보내는 일회성 게재(예: 블랙 프라이데이 이메일)입니다.
+   * **반복 게재**: 이 유형의 게재에서는 다음을 사용하여 실행 빈도를 설정합니다. [스케줄러 활동](scheduler.md). 워크플로우가 실행될 때마다 대상자가 다시 계산되고 업데이트된 콘텐츠와 함께 게재가 전송됩니다. 주간 뉴스레터 또는 반복 생일 이메일일 수 있습니다.
 
 1. 게재 **템플릿** 구성을 선택합니다. 템플릿은 채널별로 미리 구성된 게재 설정입니다. 기본 제공 템플릿은 각 채널에서 사용할 수 있으며 기본적으로 미리 채워져 있습니다. [자세히 알아보기](../../msg/delivery-template.md)
 
@@ -71,7 +81,7 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-
+반복 워크플로우를 만들어 매월 1일 오후 8시에 모바일 애플리케이션 구독자에게 시간대에 따라 개인화된 푸시 알림을 전송할 수도 있습니다.
 
 <!-- Scheduled emails available?
 

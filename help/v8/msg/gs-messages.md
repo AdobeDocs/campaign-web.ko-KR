@@ -4,10 +4,10 @@ title: Campaign v8 Web에서 메시지 및 게재 시작하기
 description: Campaign Web으로 게재 작업을 수행하고 메시지를 전송하는 방법 알아보기
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
+source-git-commit: 2aa3413f0b20c50e328d54a66288b94e1476676f
 workflow-type: tm+mt
-source-wordcount: '1289'
-ht-degree: 88%
+source-wordcount: '1296'
+ht-degree: 86%
 
 ---
 
@@ -59,7 +59,7 @@ Adobe Campaign v8에는 다음과 같은 게재 채널이 포함되어 있습니
 
 ## 게재 만들기 {#create-delivery}
 
-**[!UICONTROL 게재]** 왼쪽 메뉴에서 독립 실행형 게재를 만들거나, **[!UICONTROL 캠페인]** 왼쪽 메뉴의 마케팅 캠페인 컨텍스트에서 게재를 만들 수 있습니다.
+에서 독립 실행형 게재를 만들 수 있습니다. **[!UICONTROL 게재]** 왼쪽 메뉴 또는 캠페인에 포함되거나 포함되지 않은 워크플로우 컨텍스트에서 게재 만들기
 
 아래 탭을 검색하여 게재를 만드는 방법에 대해 알아봅니다.
 
@@ -92,7 +92,7 @@ Adobe Campaign v8에는 다음과 같은 게재 채널이 포함되어 있습니
 
 워크플로우에서 게재를 만들려면 다음 단계를 수행합니다.
 
-1. 워크플로를 만들거나 기존 워크플로를 엽니다.
+1. 워크플로를 만들거나 기존 워크플로를 엽니다. 워크플로우에 대해 자세히 알아보기 [이 페이지](../workflows/gs-workflow-creation.md#gs-workflow-steps)
 1. **[!UICONTROL 대상자 빌드]** 활동을 추가 및 구성하고 `+`버튼을 클릭합니다.
 
    ![](assets/add-delivery-in-wf.png)

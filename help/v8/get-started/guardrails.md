@@ -2,10 +2,10 @@
 title: Campaign 웹 UI의 보호 기능 및 제한 사항
 description: Campaign 웹 UI의 보호 기능 및 제한 사항
 badge: label="Beta"
-source-git-commit: f286fa73d0d2643dbe9b2887a59b33c15bd2bb03
+source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 5%
+source-wordcount: '586'
+ht-degree: 4%
 
 ---
 
@@ -60,10 +60,21 @@ Campaign 클라이언트 콘솔에서 만들거나 수정한 구성 요소로 Ca
 
 게재 대상을 선택하거나 워크플로우에서 대상을 구축할 때 해당 제품 버전의 사용자 인터페이스에서 사전 정의된 일부 필터를 사용할 수 없습니다.
 
-특정 오류 메시지가 표시됩니다. 규칙 빌더에서 쿼리의 그래픽 표현을 볼 수 없고 필터를 편집할 수 없는 경우에도 여전히 사용할 수 있으며 필터링 조건 및 결과를 볼 수 있습니다. SQL 쿼리에 액세스하여 정확한 설정을 확인할 수도 있습니다.
+특정 오류 메시지가 표시됩니다.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
+규칙 빌더에서 쿼리의 그래픽 표현을 볼 수 없고 필터를 편집할 수 없는 경우에도 여전히 사용할 수 있으며 의 필터링 조건을 볼 수 있습니다. **속성** 섹션에 있는 마지막 항목이 될 필요가 없습니다.
+
+![](assets/rule-view-results.png){width="70%" align="left"}
+
+SQL 쿼리에 액세스하여 정확한 설정을 확인할 수도 있습니다. 이렇게 하려면 **코드 보기** 단추를 클릭합니다.
+
+![](assets/rule-code-view.png){width="70%" align="left"}
+
+다음을 클릭합니다. **계산** 필터의 기준을 충족하는 항목 수를 확인하는 버튼입니다. 사용 **결과 보기** 단추를 클릭하여 해당 항목을 표시합니다.
+
+![](assets/rule-view-results.png){width="70%" align="left"}
 
 웹 인터페이스에서 필터를 빌드하고 지원되지 않는 특성을 사용하여 콘솔에서 수정하는 경우 웹 인터페이스에서 더 이상 그래픽 표현을 사용할 수 없습니다. 어떤 경우든 필터를 계속 사용할 수 있습니다.
 

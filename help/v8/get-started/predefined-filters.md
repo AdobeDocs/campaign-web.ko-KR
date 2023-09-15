@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 332e4963e7124c36d2cefa91156372c4773c633b
+source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 16%
 
 ![](assets/predefined-filters-menu.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >해당 제품 버전에서 규칙을 작성하거나, 게재 대상을 선택하거나, 워크플로우에서 대상을 작성할 때 사용자 인터페이스에서 사전 정의된 일부 필터를 사용할 수 없습니다. 계속 사용할 수 있습니다. [자세히 알아보기](guardrails.md#predefined-filters-filters-guardrails-limitations)
 
@@ -45,8 +45,8 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-rules"
->title="사전 정의된 필터 규칙 만들기"
->abstract="사용자 지정 필터의 필터링 조건을 정의하려면 &#39;규칙 만들기&#39; 버튼을 클릭합니다."
+>title="사전에 정의된 필터 규칙 만들기"
+>abstract="&#39;규칙 만들기&#39; 버튼을 사용하여 사용자 정의 필터의 필터링 조건을 정의할 수 있습니다."
 
 ### 규칙 빌더에서 필터 만들기 {#create-from-rule-builder}
 

@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: 76e8de4398c06e088d412e5033c063d1e6e891df
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 82%
+source-wordcount: '1321'
+ht-degree: 78%
 
 ---
 
@@ -61,13 +61,6 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 
 ### 캠페인 관리 {#user-interface-campaign-management}
 
->[!CONTEXTUALHELP]
->id="acw_campaigns_list"
->title="캠페인"
->abstract="다음은 캠페인 목록입니다. 시작/종료/마지막 수정 일자 및 상태와 같은 유용한 정보를 볼 수 있습니다. 상태 또는 시작/종료 일자별로 목록을 필터링할 수 있습니다. “캠페인 만들기” 버튼을 클릭하여 새 캠페인을 추가합니다. 콘텐츠, 게재 및 세부 정보를 보려면 캠페인을 선택합니다. 템플릿을 보고 만들려면 “템플릿” 탭으로 이동합니다."
-
-
-
 캠페인 관리 섹션에서 마케팅 캠페인, 게재 및 워크플로에 액세스할 수 있습니다.
 
 * **캠페인** - 다음은 캠페인 목록 및 캠페인 템플릿입니다. 기본적으로 각 캠페인의 경우 시작/종료/생성/마지막 수정 일자, 현재 상태와 캠페인을 만든 캠페인 운영자 이름을 볼 수 있습니다. 상태, 시작/종료 일자, 폴더별로 목록을 필터링하거나, 고급 필터를 만들어 자신만의 필터링 기준을 정의할 수 있습니다. [이 섹션에서](../campaigns/gs-campaigns.md) 캠페인에 대해 자세히 알아보십시오.
@@ -83,13 +76,6 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 
 ### 고객 관리 {#user-interface-customer-management}
 
-
->[!CONTEXTUALHELP]
->id="acw_audiences_list"
->title="대상자"
->abstract="다음은 대상자 목록입니다. 유형, 원본, 생성/마지막 수정 일자 및 레이블을 볼 수 있습니다. 원본을 기준으로 목록을 필터링할 수 있습니다. 이 목록은 읽기 전용입니다."
-
-
 고객 관리 섹션에서 수신자, 대상자 및 구독을 볼 수 있습니다. 이 목록은 읽기 전용입니다.
 
 * **수신자** - 수신자 데이터베이스에 액세스합니다. 기본적으로 이메일 주소, 이름 및 성을 볼 수 있습니다. 에서 수신자에 대해 자세히 알아보기 [이 섹션](../audience/about-recipients.md).
@@ -102,6 +88,7 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 >id="acw_offers_list"
 >title="오퍼"
 >abstract="상호 작용 오퍼 목록을 찾아보십시오. 기본적으로 상태, 시작/종료 일자 및 환경을 볼 수 있습니다. 상태 및 시작/종료 날짜별로 목록을 필터링할 수 있습니다. 오퍼 템플릿도 사용할 수 있습니다. 이 목록은 읽기 전용입니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="게재에 오퍼 추가"
 
 * **오퍼** - 상호 작용 오퍼 목록을 탐색합니다. 기본적으로 상태, 시작/종료 일자 및 환경을 볼 수 있습니다. 상태 및 시작/종료 날짜별로 목록을 필터링할 수 있습니다. 오퍼 템플릿도 사용할 수 있습니다. 이 목록은 읽기 전용입니다.
 
@@ -122,16 +109,13 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 -->
 
 
-### 상황별 도움말 {#user-interface-help}
+## 상황별 도움말 {#user-interface-help}
 
 인터페이스에서 상황별 도움말을 사용할 수 있습니다. 사용 가능한 경우 `?` 아이콘을 클릭하면 도움말 정보 및 관련 설명서 링크가 표시됩니다.
 
 ![](assets/context-help.png){width="40%" align="left"}
 
 새 Beta 버전을 사용하면 **Gen AI를 사용하는 기술 지원** 상황별 도움말에 포함되어 방대한 설명서 저장소를 손쉽게 탐색하여 설명서 검색 및 사용 방법 질문에 대한 대답 기능을 혁신적으로 개선하고 필요한 정확한 정보를 즉시 정확하게 찾아냅니다.
-
-![](assets/ask-a-question.png)
-
 
 Campaign Gen AI의 기능 덕분에 이 도우미는 사용자 경험을 혁신하여 정보를 검색하고 문제를 쉽게 해결할 수 있습니다. 복잡한 작업에서 지침을 찾거나 광범위한 문서를 탐색하는 경우, Gen AI를 사용하는 Knowledge Assistant는 모든 상호 작용에 있어 탁월한 효율성과 정확성을 제공하는 최고의 동반자입니다.
 
@@ -223,28 +207,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="권한 필요"
 >abstract="세그먼트를 만들려면 먼저 관리자가 권한을 부여해야 합니다."
 
->[!CONTEXTUALHELP]
->id="acw_campaign_read_only"
->title="이 캠페인은 읽기 전용입니다."
->abstract="이 캠페인을 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_read_only"
->title="이 게재는 읽기 전용입니다."
->abstract="이 게재를 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
-
 <!-- Workflows-->
 
-
->[!CONTEXTUALHELP]
->id="acw_wf_read_only"
->title="이 워크플로는 읽기 전용입니다."
->abstract="이 워크플로를 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
-
->[!CONTEXTUALHELP]
->id="acw_wf_read_only_canvas"
->title="이 워크플로는 읽기 전용입니다."
->abstract="지원되지 않거나 호환되지 않는 캔버스로 인해 이 워크플로를 편집할 수 없습니다."
 
 <!-- delivery template settings-->
 

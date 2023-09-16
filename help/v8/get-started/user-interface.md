@@ -4,7 +4,7 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 76e8de4398c06e088d412e5033c063d1e6e891df
+source-git-commit: 82cefed06353ce91ab75128bc4e0459570a95617
 workflow-type: tm+mt
 source-wordcount: '1321'
 ht-degree: 78%
@@ -56,8 +56,6 @@ ht-degree: 78%
 모든 목록 화면과 마찬가지로 디스플레이를 개인화하고 필요한 모든 정보를 표시하도록 열을 구성할 수 있습니다. 이 [섹션](#list-screens)을 참조하십시오.
 
 Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}를 참조하십시오.
-
-
 
 ### 캠페인 관리 {#user-interface-campaign-management}
 

@@ -3,9 +3,9 @@ audience: end-user
 title: 중복 제거 워크플로우 활동 사용
 description: 중복 제거 워크플로우 활동을 사용하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: 73387436eeb67645a7ba1fc48ffd13a22a739259
+source-git-commit: bf98ca98510f51fb7496a380f6547b0d3e954006
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '353'
 ht-degree: 9%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
->title="중복 제거 보조 항목"
->abstract="TBD"
+>title="보조 항목 생성"
+>abstract="중복으로 제외된 나머지 모집단으로 추가 아웃바운드 전환을 생성할 수 있습니다. 이렇게 하려면 **보조 항목 생성** 옵션을 토글합니다"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_settings"
 >title="중복 제거 설정"
->abstract="TBD"
+>abstract="들어오는 데이터에서 중복을 삭제하려면 아래 필드에서 중복 제거 방법을 정의합니다. 기본적으로 하나의 레코드만 유지됩니다. 또한 표현식 또는 속성에 따라 중복 제거 모드를 선택해야 합니다. 기본적으로 중복 항목을 포함하지 않는 레코드는 임의로 선택됩니다."
 
 다음 **중복 제거** 활동은 입니다. **타겟팅** 활동. 이 활동을 통해 인바운드 활동의 결과에서 중복을 삭제할 수 있습니다. 다음 **중복 제거** 활동은 일반적으로 타겟팅 활동 다음이나 타겟팅된 데이터를 사용할 수 있는 활동 전에 사용됩니다.
 

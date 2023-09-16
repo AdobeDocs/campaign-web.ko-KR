@@ -3,20 +3,15 @@ audience: end-user
 title: 대상자 모니터링 및 관리
 description: Adobe Campaign 웹에서 대상자를 모니터링하고 관리하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: 4924653e67f77a2108574e743c9016c6fc95a7e6
+source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 12%
+source-wordcount: '239'
+ht-degree: 3%
 
 ---
 
 
 # 대상자 모니터링 및 관리 {#create-audiences}
-
->[!CONTEXTUALHELP]
->id="acw_audiences_read_only"
->title="이 대상자는 읽기 전용입니다."
->abstract="이 대상자를 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
 
 Campaign 웹에서 사용할 수 있는 대상자 목록은 **[!UICONTROL 대상]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 

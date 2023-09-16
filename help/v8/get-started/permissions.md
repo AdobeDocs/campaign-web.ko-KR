@@ -3,23 +3,54 @@ audience: end-user
 title: Campaign Web의 권한 관리
 description: Campaign Web v8의 권한에 대해 자세히 알아보기
 badge: label="Beta"
-source-git-commit: 3cd540af6ccccdecc4d41983d4d11ffb1ea72c43
+source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 33%
+source-wordcount: '604'
+ht-degree: 50%
 
 ---
 
 
 # 액세스 및 권한 {#access-and-permissions}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_explorer_permissions_create"
 >title="권한 필요"
->abstract="이 개체를 만들려면 관리자가 사용자에게 권한을 부여해야 합니다."
+>abstract="오브젝트를 만들려면 먼저 관리자가 권한을 부여해야 합니다."
 
 
+>[!CONTEXTUALHELP]
+>id="acw_audiences_read_only"
+>title="이 대상자는 읽기 전용입니다."
+>abstract="이 대상자를 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="이 서비스는 읽기 전용입니다."
+>abstract="이 서비스를 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="이 캠페인은 읽기 전용입니다."
+>abstract="이 캠페인을 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="이 게재는 읽기 전용입니다."
+>abstract="이 게재를 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="이 워크플로는 읽기 전용입니다."
+>abstract="이 워크플로를 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only_canvas"
+>title="이 워크플로는 읽기 전용입니다."
+>abstract="지원되지 않거나 호환되지 않는 캔버스로 인해 이 워크플로를 편집할 수 없습니다."
 
 액세스 제어를 통해 게재, 수신자 또는 워크플로와 같은 주요 목록의 오브젝트 및 데이터에 대한 액세스를 제한할 수 있습니다. 이러한 제한 사항은 Explorer의 탐색 트리에도 적용됩니다. 또한 사용자 인터페이스에서 오브젝트를 생성, 삭제, 복제 및 편집하려면 권한이 필요합니다.
 
@@ -30,7 +61,6 @@ Campaign 웹 사용자 인터페이스를 검색할 때 사용 권한에 따라 
 ## 권한 보기 {#view-permissions}
 
 다음에서 **탐색기**, 각 폴더에 대한 권한을 찾아볼 수 있습니다. 이러한 권한은 클라이언트 콘솔에서 설정되며, Campaign 데이터에 대한 액세스를 구성하고 제어하는 데 사용됩니다.
-
 
 폴더에 대한 권한을 보려면 다음 단계를 수행합니다.
 

@@ -4,10 +4,10 @@ title: 대상자 시작하기
 description: Campaign Web UI에서 대상자를 사용하는 방법 알아보기
 badge: label="Beta"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '214'
-ht-degree: 100%
+source-git-commit: a61eb527f22346c51b935e4170e1a56bed428f78
+workflow-type: tm+mt
+source-wordcount: '220'
+ht-degree: 98%
 
 ---
 
@@ -40,6 +40,7 @@ control groups like acc: exract, random, based on attribute
 
 대상자 모집단을 정의하기 위해 수행할 수 있는 작업은 다음과 같습니다.
 
+* 대상자를 만들고 결합합니다. [자세히 알아보기](create-audience.md)
 * 클라이언트 콘솔의 목록으로 생성된 기존 대상자를 선택합니다. [자세히 알아보기](add-audience.md)
 * Adobe Experience Platform 대상자를 선택합니다. [자세히 알아보기](aep-audience.md)
 * 필터링 기준을 정의 및 결합하여 규칙 빌더를 통해 새로운 대상자를 빌드합니다. [자세히 알아보기](segment-builder.md)

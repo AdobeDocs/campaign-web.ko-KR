@@ -4,15 +4,20 @@ title: 캠페인 시작하기
 description: 크로스 채널 캠페인 시작 방법 알아보기
 badge: label="Beta"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: 925f797b79ec1b42a613373f8af1931a8aff3319
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '218'
 ht-degree: 100%
 
 ---
 
 
 # 캠페인 시작하기 {#campaigns}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaigns_list"
+>title="캠페인"
+>abstract="다음은 캠페인 목록입니다. 시작/종료/마지막 수정 일자 및 상태와 같은 유용한 정보를 볼 수 있습니다. 상태 또는 시작/종료 일자별로 목록을 필터링할 수 있습니다. “캠페인 만들기” 버튼을 클릭하여 새 캠페인을 추가합니다. 콘텐츠, 게재 및 세부 정보를 보려면 캠페인을 선택합니다. 템플릿을 보고 만들려면 “템플릿” 탭으로 이동합니다."
 
 
 Adobe Campaign을 통해 기본 제공 캠페인 관리 기능을 사용하여 타겟팅된 마케팅 이니셔티브를 쉽게 조율할 수 있습니다. 예약을 정의하는 기능을 사용하여 전략적 목표에 맞게 캠페인 기간 및 시기를 계획하고 대상자 참여를 극대화할 수 있습니다.

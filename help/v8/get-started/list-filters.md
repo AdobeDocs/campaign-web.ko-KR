@@ -3,10 +3,10 @@ audience: end-user
 title: 목록 찾아보기, 검색 및 필터링
 description: Campaign Web v8 목록을 찾아보고 필터링하는 방법 살펴보기
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: f9c780b5e832badb64ec0ee0a3514769c3e49b1e
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="고급 속성 표시"
->abstract="기본적으로 속성 목록에는 가장 일반적인 속성만 표시됩니다. 이 토글을 사용하여 고급 속성의 필터를 빌드합니다."
+>abstract="기본적으로 속성 목록에는 가장 일반적인 속성만 표시됩니다. 이 토글을 사용하여 고급 속성을 봅니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"

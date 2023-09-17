@@ -4,10 +4,10 @@ title: 이메일 콘텐츠 편집
 description: Campaign Web UI에서 이메일 콘텐츠를 편집하는 방법 알아보기
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 694fc312ddf9e31e0a4a993954b0fb8d85b64fbe
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 40%
+source-wordcount: '593'
+ht-degree: 35%
 
 ---
 
@@ -20,18 +20,19 @@ ht-degree: 40%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="이메일 매개변수"
->abstract="“발신자” 및 “발신 이메일” 값은 이메일 템플릿에서 정의됩니다. 제목 줄은 표현식 편집기를 사용하여 개인화할 수 있습니다."
+>title="이메일 기본 속성 설정"
+>abstract="다음 **기본 세부 정보** 섹션에서는 발신자의 주소 및 회신 주소를 업데이트하고 표현식 편집기를 사용하여 제목 줄을 정의할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
->title="이메일 첨부 파일"
+>title="이메일에 파일 첨부"
 >abstract="메시지에 삽입할 하나 이상의 파일을 선택하십시오."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
->title="추적 옵션"
+>title="추적 편집"
 >abstract="기본적으로 게재에 대해 추적 기능이 활성화되어 있습니다. 여기에서 이 옵션을 비활성화할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="링크 추가 및 메시지 추적"
 
 이메일 **[!UICONTROL 콘텐츠 편집]** 화면에서 다음을 수행할 수 있습니다.
 * 보낸 사람의 주소 및 제목란과 같은 메시지의 기본 요소를 정의합니다.

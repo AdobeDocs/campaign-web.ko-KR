@@ -4,20 +4,19 @@ title: Campaign 규칙 빌더로 대상자 빌드
 description: 규칙 빌더로 작업하는 방법을 알아봅니다.
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: ffd668b220284c2e948d1757740dbf67b27e32bd
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 87%
+ht-degree: 96%
 
 ---
 
 # 규칙 빌더를 사용하여 대상자 정의 {#segment-builder}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
->title="Target 대상"
->abstract="게재 대상 구축이 한 번도 더 쉬웠던 적이 없습니다! 이제 최신 규칙 빌더를 사용하여 수신자에 대한 필터링 기준이나 데이터베이스의 다른 타겟팅 차원을 정의할 수 있습니다. Adobe Experience Platform 대상을 활용하여 타겟 대상을 더욱 세분화하고 캠페인의 영향을 극대화합니다."
+>title="Target 대상자"
+>abstract="이제 그 어느 때보다 간단하게 게재 대상을 구축할 수 있습니다! 최신 규칙 빌더를 사용하면 데이터베이스의 수신자 또는 기타 타겟팅 차원에 대한 필터링 기준을 정의할 수 있습니다. Adobe Experience Platform 대상자를 활용하여 타겟 대상자를 더욱 세분화하고 캠페인 효과를 극대화하십시오."
 
 이 섹션에서는 새 이메일을 디자인할 때 대상자를 만드는 방법에 대해 설명합니다. 생성된 대상자는 이 이메일에서만 사용할 수 있습니다.
 

@@ -4,9 +4,9 @@ title: 이메일 콘텐츠 편집
 description: Campaign Web UI에서 이메일 콘텐츠를 편집하는 방법 알아보기
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '572'
 ht-degree: 40%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 40%
    >
    >&#39;@&#39; 앞 부분은 변경할 수 있지만 도메인 주소는 변경할 수 없습니다.
 
-1. 확장 **[!UICONTROL 회신 주소 필드]** 섹션. 회신에 기본적으로 발신자 주소가 사용됩니다. 그러나 Adobe은 브랜드의 고객 지원 센터와 같은 기존 실제 주소를 사용하는 것을 권장합니다. 이 경우 수신자가 회신을 보내면 고객 지원 센터에서 이를 처리할 수 있습니다.
+1. 확장 **[!UICONTROL 회신 주소 필드]** 섹션. 보낸 사람의 이름과 주소는 기본적으로 회신에 사용됩니다. 그러나 Adobe은 브랜드의 고객 지원 센터와 같은 기존 실제 주소를 사용하는 것을 권장합니다. 이 경우 수신자가 회신을 보내면 고객 지원 센터에서 이를 처리할 수 있습니다.
 
    ![](assets/email-edit-content-reply-to.png)
 

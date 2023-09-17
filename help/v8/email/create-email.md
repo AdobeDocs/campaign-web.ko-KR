@@ -4,10 +4,10 @@ title: 첫 이메일 보내기
 description: Campaign Web UI를 사용하여 첫 이메일을 전송하는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 925f797b79ec1b42a613373f8af1931a8aff3319
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 65%
+source-wordcount: '1354'
+ht-degree: 64%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 65%
 
    ![](assets/email-properties.png)
 
-1. 또한 유형화 규칙 및 대상 매핑과 같은 고급 설정은 **[!UICONTROL 설정]** 화면 오른쪽 상단에 있는 단추입니다. 이러한 설정은 선택한 템플릿에 미리 구성되어 있지만 필요에 따라 이 특정 이메일에 대해 편집할 수 있습니다.
+1. 또한 유형화 규칙 및 대상 매핑과 같은 고급 설정은 **[!UICONTROL 설정]** 화면 오른쪽 상단에 있는 단추입니다. 이러한 설정은 선택한 템플릿에 미리 구성되어 있지만 필요에 따라 이 특정 이메일에 대해 편집할 수 있습니다. [자세히 알아보기](../advanced-settings/delivery-settings.md)
 
 ## 대상자 정의 {#define-audience}
 
@@ -157,7 +157,7 @@ ht-degree: 65%
 
 1. 이메일을 검토하려면 **[!UICONTROL 검토 및 전송]**&#x200B;을 클릭합니다. 이렇게 하면 구성된 모든 속성, 대상자 및 일정과 함께 이메일 미리보기가 표시됩니다. 수정 버튼을 클릭하여 이 중 원하는 요소를 편집할 수 있습니다.
 
-1. 이메일을 미리 보고 테스트 버전을 전송하려면 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 클릭합니다.
+1. 이메일을 미리 보고 테스트 버전을 보내려면 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다.
 
    ![](assets/review-email.png)
 

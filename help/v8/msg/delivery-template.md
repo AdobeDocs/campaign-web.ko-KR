@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 26%
+source-wordcount: '1014'
+ht-degree: 25%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 26%
 
 템플릿에는 다음이 포함될 수 있습니다.
 
-* [유형화](../advanced-settings/delivery-settings.md#typology)
-* 보낸 사람 주소
-* An [대상자](../audience/about-audiences.md), 포함 [컨트롤 그룹](../audience/control-group.md)
-* 사용자 정의 [콘텐츠](../content/edit-content.md)
-* [개인화된 필드](../personalization/personalize.md) 및 [조건부 콘텐츠](../personalization/conditions.md)
-* 링크 대상 [미러 페이지](../content/mirror-page.md) 및 구독 취소 [링크](../content/message-tracking.md)
+* [유형화](../advanced-settings/delivery-settings.md#typology),
+* 발신자 주소,
+* An [대상자](../audience/about-audiences.md), 포함 [컨트롤 그룹](../audience/control-group.md),
+* 사용자 정의 [콘텐츠](../content/edit-content.md),
+* [개인화된 필드](../personalization/personalize.md) 및 [조건부 콘텐츠](../personalization/conditions.md),
+* 링크 대상 [미러 페이지](../content/mirror-page.md) 및 구독 취소 [링크](../content/message-tracking.md),
 * 리소스 유효성, 재시도 매개 변수 또는 격리 설정 등 다른 게재 속성입니다.
 
 >[!NOTE]
@@ -159,6 +159,8 @@ ht-degree: 26%
    > * [이메일 채널](../email/create-email.md)
    > * [푸시 알림 채널](../push/gs-push.md)
    > * [SMS 채널](../sms/create-sms.md)
+
+1. 또한 이메일 템플릿의 경우 유형화 규칙 및 대상 매핑과 같은 고급 설정에 액세스할 수 있습니다. **[!UICONTROL 설정]** 화면 오른쪽 상단에 있는 단추입니다. [자세히 알아보기](../advanced-settings/delivery-settings.md)
 
 1. 다음을 클릭합니다. **[!UICONTROL 리뷰]** 단추를 클릭하여 템플릿을 저장하고 검토합니다. 모든 설정을 편집하고, 삭제하고, 복제할 수 있습니다.
 

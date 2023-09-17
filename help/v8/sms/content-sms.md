@@ -4,10 +4,10 @@ title: SMS 게재 디자인
 description: SMS 게재를 디자인하는 방법 알아보기
 badge: label="Beta"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 74fd0a7d68491b2c0522943c5e078721013fece9
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 94%
+source-wordcount: '190'
+ht-degree: 88%
 
 ---
 
@@ -22,6 +22,9 @@ ht-degree: 94%
 >id="acw_sms_preview_option_app_target"
 >title="앱 구독자"
 >abstract="기본 대상에 앱 구독자를 추가하여 메시지를 미리 보고 테스트합니다."
+
+
+SMS 게재 콘텐츠를 디자인하려면 다음 단계를 따르십시오.
 
 1. 게재 페이지에서 **[!UICONTROL 콘텐츠 편집]** 버튼을 클릭하여 SMS 콘텐츠를 디자인합니다.
 

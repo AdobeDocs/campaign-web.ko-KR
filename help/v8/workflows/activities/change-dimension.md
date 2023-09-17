@@ -3,10 +3,10 @@ audience: end-user
 title: 차원 변경 워크플로우 활동 사용
 description: 차원 변경 워크플로우 활동을 사용하는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
+source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 3%
+source-wordcount: '162'
+ht-degree: 2%
 
 ---
 
@@ -16,9 +16,15 @@ ht-degree: 3%
 <!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
->title="Change dimension activity"
->abstract="The Change dimension activity allows you to..."
+>title="Generate Complement"
+>abstract="TBD"
 -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_change_dimension"
+>title="차원 활동 변경"
+>abstract="이 활동을 통해 대상을 구축할 때 타겟팅 차원을 변경할 수 있습니다. 데이터 템플릿과 입력 차원에 따라 축을 이동합니다. 예를 들어 &quot;계약&quot; 차원에서 &quot;클라이언트&quot; 차원으로 전환할 수 있습니다."
+
 
 다음 **차원 변경** 활동은 입니다. **타겟팅** 활동. 이 활동을 통해 대상을 구축할 때 타겟팅 차원을 변경할 수 있습니다. 이 활동은 데이터 템플릿과 입력 차원에 따라 축을 전환합니다. 예를 들어 &quot;계약&quot; 차원에서 &quot;클라이언트&quot; 차원으로 전환할 수 있습니다.
 
@@ -32,6 +38,6 @@ ht-degree: 3%
 
    ![](../assets/workflow-change-dimension.png)
 
-1. 차원 변경 필드를 통해 새 타겟팅 차원을 선택합니다.
+1. 다음을 정의합니다. **새 대상 차원**.
 
-다른 건??
+차원 변경 중에는 모든 레코드가 유지됩니다.

@@ -3,10 +3,10 @@ audience: end-user
 title: 대상자 빌드 워크플로 활동 사용
 description: 대상자 빌드 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 97%
+source-wordcount: '388'
+ht-degree: 78%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
 >title="대상자 빌드"
->abstract="**대상자 빌드** 활동은 **타겟팅** 활동입니다. 이 활동을 통해 워크플로에 참여할 대상자를 정의할 수 있습니다."
+>abstract="다음 **대상자 작성** 활동을 통해 워크플로우에 들어갈 대상자를 정의할 수 있습니다. 워크플로우 컨텍스트에서 메시지를 보낼 때 메시지 대상자는 채널 활동에 정의되지 않고 **대상자 작성** 활동."
 
 
-**대상자 빌드** 활동은 **타겟팅** 활동입니다. 이 활동을 통해 워크플로에 참여할 대상자를 정의할 수 있습니다. 캠페인 워크플로 컨텍스트에서 메시지를 전송할 때 메시지 대상자는 채널 활동에서 정의되지 않고 **대상자 빌드** 활동에서 정의됩니다.
+**대상자 빌드** 활동은 **타겟팅** 활동입니다. 이 활동을 통해 워크플로에 참여할 대상자를 정의할 수 있습니다. 워크플로우 컨텍스트에서 메시지를 보낼 때 메시지 대상자는 채널 활동에 정의되지 않고 **대상자 작성** 활동.
 
 대상자 모집단을 정의하기 위해 수행할 수 있는 작업은 다음과 같습니다.
 
@@ -29,7 +29,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->이 컨텍스트에서는 파일에서 대상자를 로드할 수 없습니다. 이를 수행하려면 독립 실행형 게재를 만들어야 합니다. [자세히 알아보기](../../audience/about-audiences.md)
+>이 컨텍스트에서는 파일에서 대상자를 로드할 수 없습니다. 이를 위해 독립 실행형 이메일 게재를 만들어야 합니다. [자세히 알아보기](../../audience/about-audiences.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.

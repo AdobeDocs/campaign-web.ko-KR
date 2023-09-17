@@ -3,10 +3,10 @@ audience: end-user
 title: 중복 제거 워크플로우 활동 사용
 description: 중복 제거 워크플로우 활동을 사용하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: bf98ca98510f51fb7496a380f6547b0d3e954006
+source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 9%
+source-wordcount: '387'
+ht-degree: 8%
 
 ---
 
@@ -19,6 +19,13 @@ ht-degree: 9%
 >title="Fork activity"
 >abstract="The Deduplication activity allows you to..."
 -->
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication"
+>title="중복 제거 활동"
+>abstract="다음 **중복 제거** 활동을 사용하면 인바운드 활동의 결과에서 중복을 삭제할 수 있습니다. 주로 타겟팅 활동 다음부터 타겟팅된 데이터를 사용할 수 있는 활동 전에 사용됩니다."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"

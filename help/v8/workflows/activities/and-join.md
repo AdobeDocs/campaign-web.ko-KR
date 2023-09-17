@@ -3,10 +3,10 @@ audience: end-user
 title: AND-결합 워크플로 활동 사용
 description: AND-결합 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 94%
+source-wordcount: '254'
+ht-degree: 83%
 
 ---
 
@@ -17,9 +17,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
 >title="AND-결합 활동"
->abstract="**AND-결합** 활동은 **흐름 제어** 활동입니다. 이를 통해 워크플로의 여러 실행 분기를 동기화할 수 있습니다."
-
-
+>abstract="**AND-결합** 활동을 사용하면 워크플로의 여러 실행 분기를 동기화할 수 있습니다. 앞선 활동이 모두 완료되면 트리거됩니다. 이를 통해 워크플로우를 계속 실행하기 전에 특정 활동이 완료되었는지 확인할 수 있습니다."
 
 **AND-결합** 활동은 **흐름 제어** 활동입니다. 이를 통해 워크플로의 여러 실행 분기를 동기화할 수 있습니다.
 

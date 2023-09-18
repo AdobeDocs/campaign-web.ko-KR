@@ -4,7 +4,7 @@ title: Adobe Experience Platform 대상자 사용
 description: Adobe Experience Platform에서 대상자를 사용하는 방법 알아보기
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: d66305f656d127f6480567462c998ab18fecbcc3
+source-git-commit: 3ea9f885511bb7d192ae9004f6257c10f163cbb5
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 37%
@@ -52,5 +52,3 @@ Adobe Experience Platform 대상자를 만들어 클라이언트 콘솔에서 �
 1. 규칙 빌더를 사용하면 추가 필터를 사용하거나 다른 대상자를 결합하여 대상자를 보강할 수 있습니다. 이 [섹션](segment-builder.md)을 참조하십시오.
 
 1. **저장**&#x200B;을 클릭합니다.
-
-

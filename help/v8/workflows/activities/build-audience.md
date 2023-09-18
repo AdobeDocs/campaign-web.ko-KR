@@ -3,10 +3,10 @@ audience: end-user
 title: 대상자 빌드 워크플로 활동 사용
 description: 대상자 빌드 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: ff3e93a6c8e66c8160f132772ea1a8bfd769ec5b
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 77%
+source-wordcount: '481'
+ht-degree: 62%
 
 ---
 
@@ -62,8 +62,16 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 1. **계속**&#x200B;을 클릭합니다.
 1. 새 이메일을 디자인할 때 대상자를 사용하는 것과 같은 방식으로 대상자를 선택합니다. 이 [섹션](../../audience/add-audience.md)을 참조하십시오.
 
+>[!IMPORTANT]
+>
+>여러 을 결합하려면 **[!UICONTROL 대상자 작성]** Experience Platform 대상을 포함한 워크플로우의 활동에는 **[!UICONTROL 차원 변경]** 활동 뒤에 활동을 추가하여 모든 대상이 &quot;수신자&quot; 타겟팅 차원에 속하도록 합니다. 워크플로우 예제는 이 페이지 맨 아래에서 확인할 수 있습니다.
+
 ## 예제
 
 다음은 두 가지 **대상자 빌드** 활동이 포함된 워크플로의 예입니다. 첫 번째는 포커 플레이어 대상자를 대상으로 하며 이메일 게재로 이어집니다. 두 번째는 VIP 클라이언트 대상자를 대상으로 하며 SMS 게재로 이어집니다.
 
 ![](../assets/workflow-audience-example.png)
+
+다음은 Adobe Experience Platform 대상자가 Adobe Campaign 대상자와 결합되는 위치를 보여 주는 다른 예입니다. 이러한 대상을 결합할 수 있으려면 **[iUICONTROL 변경 차원]** &quot;수신자&quot; 타겟팅 차원이 있는 활동이 Adobe Experience Platform 대상 뒤에 추가됩니다.
+
+![](../assets/workflow-audience-aep.png)

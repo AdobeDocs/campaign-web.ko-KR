@@ -3,10 +3,10 @@ audience: end-user
 title: 구독 서비스 작업
 description: Adobe Campaign 웹에서 서비스를 만들고 관리하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: 307d1e65850fcbdb51ca0016e4f3f30ca74997be
+source-git-commit: 6e48c44b7c192b0d401d75dedbac24f21ee2e78f
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 0%
+source-wordcount: '909'
+ht-degree: 2%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="서비스 만들기 및 관리"
->abstract="Adobe Campaign을 사용하여 뉴스레터와 같은 서비스를 만들고 모니터링하고 이러한 서비스에 대한 구독/구독 취소를 확인합니다. 구독은 이메일 및 SMS 게재에만 적용됩니다."
+>abstract="Adobe Campaign을 사용하여 뉴스레터와 같은 서비스를 만들고 모니터링하며 이러한 서비스에 대한 구독 또는 구독 취소를 확인합니다. 구독은 이메일 및 SMS 게재에만 적용됩니다."
 
-Adobe Campaign 웹을 사용하여 뉴스레터와 같은 서비스를 관리 및 생성하고 이러한 서비스에 대한 구독/구독 취소를 확인하십시오.
+Adobe Campaign 웹을 사용하여 뉴스레터와 같은 서비스를 관리 및 생성하고, 이러한 서비스에 대한 구독 또는 구독 취소를 확인하십시오.
 
 >[!NOTE]
 >
@@ -30,15 +30,17 @@ Adobe Campaign 웹을 사용하여 뉴스레터와 같은 서비스를 관리 �
 
 ## 구독 서비스 액세스 {#access-services}
 
-플랫폼에서 사용할 수 있는 구독 서비스에 액세스하려면 **[!UICONTROL 구독 서비스]** 메뉴 아래의 왼쪽 탐색 레일에서 사용할 수 있습니다.
+1. 플랫폼에서 사용할 수 있는 구독 서비스에 액세스하려면 **[!UICONTROL 구독 서비스]** 메뉴 아래의 왼쪽 탐색 레일에서 사용할 수 있습니다.
 
-![](assets/service-list.png)
+   ![](assets/service-list.png)
 
-모든 기존 구독 서비스 목록이 표시됩니다. 채널, 폴더에서 서비스 및 필터를 검색하거나 고급 필터를 사용할 수 있습니다.
+1. 모든 기존 구독 서비스 목록이 표시됩니다. 채널, 폴더에서 서비스 및 필터를 검색하거나 고급 필터를 사용할 수 있습니다.
 
-![](assets/service-filters.png)
+   ![](assets/service-filters.png)
 
-기존 서비스를 편집하려면 해당 이름을 클릭합니다.
+1. 기존 서비스를 편집하려면 해당 이름을 클릭합니다.
+
+1. 이 서비스 이름 옆에 있는 세 점 아이콘을 사용하여 서비스를 삭제하거나 복제할 수 있습니다.
 
 ## 첫 번째 구독 서비스 만들기 {#create-service}
 
@@ -64,33 +66,103 @@ Adobe Campaign 웹을 사용하여 뉴스레터와 같은 서비스를 관리 �
 
    ![](assets/service-create-properties.png)
 
-1. 기본적으로 구독은 무제한입니다. 다음을 비활성화할 수 있습니다. **[!UICONTROL 무제한 유효 기간]** 서비스의 유효 기간을 정의하는 옵션. <!--The duration can be specified in days or months.TBC-->
+1. 기본적으로 구독은 무제한입니다. 다음을 비활성화할 수 있습니다. **[!UICONTROL 무제한 유효 기간]** 서비스의 유효 기간을 정의하는 옵션. 아래 예에서는 20일 후 더 이상 이 서비스를 구독할 수 없습니다.
 
    ![](assets/service-create-validity-period.png)
 
-1. 사용자가 서비스를 구독하거나 구독 취소하면 확인 메시지를 보낼 수 있습니다. 사용 사례에 따라 해당 메시지에 사용할 템플릿을 선택합니다.
+1. 사용자가 서비스를 구독하거나 구독 취소하면 확인 메시지를 보낼 수 있습니다. 사용 사례에 따라 해당 메시지에 사용할 템플릿을 선택합니다. 이러한 템플릿은 **[!UICONTROL 구독]** 대상 매핑. [자세히 알아보기](#create-confirmation-message)
 
    ![](assets/service-create-confirmation-msg.png)
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 새 서비스가 다음에 추가됩니다. **[!UICONTROL 구독 서비스]** 목록을 표시합니다.
+1. 클릭 **[!UICONTROL 저장 및 검토]**. 새 서비스가 다음에 추가됩니다. **[!UICONTROL 구독 서비스]** 목록을 표시합니다.
 
-<!--
-## Reporting
+### 확인 메시지 만들기 {#create-confirmation-message}
 
-You can measure the effectiveness of your subscription services for SMS and email channels.
+서비스를 구독하거나 구독 취소하는 사용자에게 확인 메시지를 보내려면 **[!UICONTROL 구독]** 정의된 대상 없이 대상 매핑. 이렇게 하려면 아래 단계를 수행합니다.
 
-1. Select an existing service from the **[!UICONTROL Subscription services]** list.
+1. 구독 확인을 위한 게재 템플릿을 만듭니다. [방법 알아보기](../msg/delivery-template.md)
 
-1. From the service dashboard, click More > Reports?
+1. 이 게재의 대상자를 선택하지 마십시오. 대신, **[!UICONTROL 게재 설정]**&#x200B;로 이동합니다. [대상자](../advanced-settings/delivery-settings.md#audience) 탭을 클릭하고 다음을 선택합니다. **[!UICONTROL 구독]** 대상 매핑.
 
-1. Check the following indicators:
+   ![](assets/service-confirmation-template-mapping.png)
 
-* Total numbers of subscribers
+   >[!NOTE]
+   >
+   >을(를) 선택하지 않으면  **[!UICONTROL 구독]** 대상 매핑에서 구독자가 확인 메시지를 받지 못합니다. 대상 매핑은 Campaign v8 콘솔에서 정의됩니다. 자세히 알아보기 [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
-* Area graph with subscriptions and unsubscriptions. Use the dropwdown to change the time range. (24h, 48h, 1 week, 2 weeks, 1 month, 6 months)
+1. 게재 템플릿의 콘텐츠를 편집하고 저장하고 닫습니다.
 
-* The breakdown by period. including subs, unsub, evolution in numbers and % and loyalty.
-* Last updated / Next refresh time: these values are retrieved from the execution and schedule of the tracking workflow
--->
+   ![](assets/service-confirmation-template.png)
+
+   >[!NOTE]
+   >
+   >게재 채널 및 에서 게재 콘텐츠를 정의하는 방법에 대해 자세히 알아보기 [이메일 채널](../email/create-email.md) 및 [SMS 채널](../sms/create-sms.md) 섹션.
+
+1. 구독 취소 확인을 위한 게재 템플릿을 만들려면 위의 단계를 반복하십시오.
+
+이제 다음과 같은 경우에 이러한 메시지를 선택할 수 있습니다. [구독 서비스 만들기](#create-service). 해당 서비스를 구독하거나 구독 취소하는 사용자에게는 선택한 확인 메시지가 표시됩니다.
+
+## 서비스에 구독자 추가
+
+서비스를 만든 후에는 가입자를 수동으로 추가할 수 있습니다. 아래 단계를 수행합니다.
+
+1. 에서 기존 서비스 선택 **[!UICONTROL 구독 서비스]** 목록을 표시합니다.
+
+1. 다음 항목 선택 **[!UICONTROL 구독자]** tab 키를 누른 다음 클릭 **[!UICONTROL 프로필 추가]**.
+
+   ![](assets/service-subscribers-tab.png)
+
+1. 목록에서 추가할 프로필을 선택하고 **[!UICONTROL 확인]**.
+
+   ![](assets/service-subscribers-select-profiles.png)
+
+1. 선택한 수신자는 구독을 받게 됩니다. [확인 메시지](#create-confirmation-message) 다음 경우에 선택함: [서비스 만들기](#create-service). 클릭 **[!UICONTROL 보내기]**.
+
+   ![](assets/service-subscribers-confirmation-msg.png)
+
+추가된 프로필은 **[!UICONTROL 구독자]** 목록을 표시합니다. 이제 서비스를 구독합니다.
+
+## 구독 서비스 로그 및 보고서 {#logs-and-reports}
+
+SMS 및 이메일 채널에 대한 구독 서비스의 효과를 측정하기 위해 주어진 서비스에 대한 로그 및 보고서에 액세스할 수 있습니다.
+
+1. 에서 기존 서비스 선택 **[!UICONTROL 구독 서비스]** 목록을 표시합니다. 클릭 **[!UICONTROL 계산]** 총 구독자 수를 가져옵니다.
+
+   ![](assets/service-logs-reports-buttons.png)
+
+1. 서비스 대시보드에서 을(를) 선택합니다 **[!UICONTROL 로그]** 이 서비스의 구독자 목록을 봅니다. 전체 가입자 수, 각 수신자의 이름 및 주소, 가입 또는 가입 해지 시점을 확인할 수 있다. 필터링할 수도 있습니다.
+
+   ![](assets/service-logs.png)
+
+1. 서비스 대시보드에서 을(를) 선택합니다 **[!UICONTROL 보고서]**. 다음 지표를 확인하십시오.
+
+   * 다음 **[!UICONTROL 총 구독자 수]** 이 표시됩니다.
+
+   * 선택한 기간 동안의 구독 및 구독 취소 수를 볼 수 있습니다. 드롭다운 목록을 사용하여 시간 범위를 변경합니다.
+
+     ![](assets/service-reports.png)
+
+   * 다음 **[!UICONTROL 구독의 전반적인 발전]** 그래프는 구독, 구독 취소, 숫자 진화 및 충성도 비율을 포함하여 기간별 분류를 보여 줍니다.
+
+   * 사용 **[!UICONTROL 다시 로드]** 추적 워크플로우의 실행 및 일정에서 마지막 값을 검색하는 단추입니다.
+
+## 서비스 구독자에게 게재
+
+한 번 [구독 서비스를 만들었습니다.](#create-service), 게재 시 구독자를 타겟팅할 수 있습니다. 아래 단계를 수행합니다.
+
+1. [대상자 만들기](../audience/create-audience.md) 만든 서비스의 구독자를 포함합니다.
+
+   * 다음에서 **[!UICONTROL 대상자 작성]** 활동, 고급 속성 표시 및 선택 **[!UICONTROL 수신자]** > **[!UICONTROL 구독]** > **[!UICONTROL 서비스]**.
+
+   * 이 예에서는 다음과 같은 서비스를 구독한 사용자를 선택합니다. **Luma 뉴스레터** 레이블.
+
+   ![](assets/service-audience-subscribers.png)
+
+1. 캠페인을 만들고 만든 대상자를 타겟팅합니다.
+
+
+
+
+
 
 

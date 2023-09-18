@@ -4,7 +4,7 @@ title: 첫 이메일 보내기
 description: Campaign Web UI를 사용하여 첫 이메일을 전송하는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 9ca961b9e4536f6809129a6bafd496c5c191ce43
+source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 64%
@@ -117,7 +117,7 @@ ht-degree: 64%
 
 1. 이메일 콘텐츠를 디자인하려면 **[!UICONTROL 이메일 본문 편집]** 버튼을 클릭합니다.
 
-   이메일 콘텐츠를 만드는 데 사용할 방법을 선택합니다. 이 예에서는 [사전 정의된 콘텐츠 템플릿](../msg/delivery-template.md).
+   이메일 콘텐츠를 만드는 데 사용할 방법을 선택합니다. 이 예에서는 [사전 정의된 콘텐츠 템플릿](../content/email-sample-templates.md).
 
    ![](assets/select-template.png)
 
@@ -202,7 +202,10 @@ ht-degree: 64%
 
 1. 전송 프로세스 중에 이 화면에서 진행 상황을 추적하고 실시간으로 통계를 볼 수 있습니다.
 
-   ![](assets/sent-mail.png)
+   ![](assets/sending-email.png)
+
+   <!--
+    ![](assets/sent-email.png)-->
 
    또한 **[!UICONTROL 로그]** 버튼을 클릭하여 전송에 대한 자세한 정보에 액세스할 수 있습니다. [게재 로그 모니터링 방법 알아보기](../monitor/delivery-logs.md)
 

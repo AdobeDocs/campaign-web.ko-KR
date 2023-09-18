@@ -3,10 +3,10 @@ audience: end-user
 title: 대상자 빌드 워크플로 활동 사용
 description: 대상자 빌드 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: 2be8b4143edb720dea85dad352072028c36f0aca
+source-git-commit: d43d32f8ba6177e27f53bbe3297495cfde8cd3b9
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 61%
+source-wordcount: '485'
+ht-degree: 62%
 
 ---
 
@@ -64,7 +64,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 >[!IMPORTANT]
 >
->여러 을 결합하려면 **[!UICONTROL 대상자 작성]** Experience Platform 대상을 포함한 워크플로우의 활동에는 **[!UICONTROL 차원 변경]** 활동 뒤에 활동을 추가하여 모든 대상이 &quot;수신자&quot; 타겟팅 차원에 속하도록 합니다. 워크플로우 예제는 이 페이지 맨 아래에서 확인할 수 있습니다.
+>을(를) 사용하려면 **[!UICONTROL 대상자 작성]** 활동은 Experience Platform 대상자를 타겟팅하므로 **[!UICONTROL 차원 변경]** 활동 뒤에 활동을 추가하여 대상자의 타겟팅 차원이 &quot;수신자&quot;로 설정되도록 합니다. 워크플로우 예제는 이 페이지 맨 아래에서 확인할 수 있습니다.
 
 ## 예제
 

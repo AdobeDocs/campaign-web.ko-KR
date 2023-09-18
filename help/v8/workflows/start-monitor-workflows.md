@@ -4,10 +4,10 @@ title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 빌드하는 방법 알아보기
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: d4326498669e190bbc0a6ec087c44ac713ae97ca
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 7%
+source-wordcount: '588'
+ht-degree: 6%
 
 ---
 
@@ -29,16 +29,27 @@ ht-degree: 7%
 >
 >다음을 사용하여 시각적 흐름을 비활성화할 수 있습니다. **[!UICONTROL 진행률 숨기기]** 캔버스의 맨 위 작업 막대에 있는 단추입니다.
 
+## 워크플로우 전환 {#transitions}
+
+워크플로우에서 전환을 통해 한 활동에서 다른 활동으로 전송된 데이터는 임시 작업 표에 저장됩니다.
+
+각 전환에 대해 이 데이터를 표시할 수 있습니다. 이렇게 하려면 전환을 선택하여 화면 오른쪽에서 속성을 엽니다.
+
+* 클릭 **[!UICONTROL 스키마 미리 보기]** 작업 테이블의 스키마를 표시합니다.
+* 클릭 **[!UICONTROL 결과 미리보기]** 을 클릭하여 선택한 전환으로 전송된 데이터를 시각화합니다.
+
+![](assets/transition.png)
+
 ## 활동 실행 모니터링 {#activities}
 
 각 활동 상자의 오른쪽 위 모서리에 있는 시각적 표시기를 사용하여 실행을 확인할 수 있습니다.
 
 | 시각적 표시기 | 설명 |
 |-----|------------|
-| ![](assets/activity-status-pending.png) | 활동이 현재 실행 중입니다. |
-| ![](assets/activity-status-orange.png) | 이 활동에는 주의가 필요합니다. 여기에는 게재 전송을 확인하거나 필요한 조치를 취하는 작업이 포함될 수 있습니다. |
-| ![](assets/activity-status-red.png) | 활동에 오류가 발생했습니다. 문제를 해결하려면 워크플로우 로그에서 자세한 내용을 엽니다. |
-| ![](assets/activity-status-green.png) | 활동이 정상적으로 실행되었습니다. |
+| ![](assets/activity-status-pending.png){width="70%"} | 활동이 현재 실행 중입니다. |
+| ![](assets/activity-status-orange.png){width="70%"} | 이 활동에는 주의가 필요합니다. 여기에는 게재 전송을 확인하거나 필요한 조치를 취하는 작업이 포함될 수 있습니다. |
+| ![](assets/activity-status-red.png){width="70%"} | 활동에 오류가 발생했습니다. 문제를 해결하려면 워크플로우 로그에서 자세한 내용을 엽니다. |
+| ![](assets/activity-status-green.png){width="70%"} | 활동이 정상적으로 실행되었습니다. |
 
 ## 로그 및 작업 모니터링 {#logs-tasks}
 

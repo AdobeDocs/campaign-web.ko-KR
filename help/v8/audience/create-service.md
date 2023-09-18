@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: 구독 서비스 작업
-description: Adobe Campaign 웹에서 서비스를 만드는 방법에 대해 알아봅니다.
+description: Adobe Campaign 웹에서 서비스를 만들고 관리하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: dd8e8acb37cf9a68768c5da48335275c09d67cc8
+source-git-commit: 307d1e65850fcbdb51ca0016e4f3f30ca74997be
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -44,14 +44,13 @@ Adobe Campaign 웹을 사용하여 뉴스레터와 같은 서비스를 관리 �
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_properties"
->title="구독 서비스 속성"
->abstract="구독 서비스 레이블을 입력하고 추가 옵션을 정의합니다."
+>title="서비스 속성 정의"
+>abstract="구독 서비스 레이블을 입력하고 서비스 유효 기간과 같은 추가 옵션을 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_confirm"
->title="구독 서비스 확인 메시지"
->abstract="사용자가 서비스에 가입하거나 서비스에서 가입을 해지할 때 확인 메시지를 보낼 수 있습니다. 이 메시지에 사용할 템플릿을 선택합니다."
-
+>title="확인 메시지 선택"
+>abstract="사용자가 서비스를 구독하거나 구독 취소하면 확인 메시지를 보낼 수 있습니다. 해당 메시지에 사용할 템플릿을 선택합니다."
 
 구독 서비스를 만들려면 다음 단계를 수행하십시오.
 

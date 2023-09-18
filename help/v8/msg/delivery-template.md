@@ -1,14 +1,14 @@
 ---
 product: campaign
 title: 게재 템플릿 작업
-description: 캠페인에서 게재 템플릿을 만들고 사용하는 방법 알아보기
+description: 캠페인에서 게재 템플릿을 만들고 사용하는 방법 알아보기 웹
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 7a9e5f36bbf4f0e478d48f88cf2c96fa63517118
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1015'
 ht-degree: 25%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 25%
 >id="acw_delivery_template_for_campaign"
 >title="게재 템플릿"
 >abstract="캠페인 실행 및 론칭을 보다 신속하게 수행하기 위해 게재 템플릿을 사용하여 크리에이티브 룩과 느낌을 표준화합니다"
-
 
 디자인 프로세스를 가속화하고 개선하기 위해 게재 템플릿을 만들어 캠페인 전반에서 사용자 지정 콘텐츠 및 설정을 쉽게 재사용할 수 있습니다. 이 기능을 사용하면 크리에이티브 룩과 느낌을 표준화하여 캠페인 실행 및 론칭을 보다 신속하게 수행할 수 있습니다.
 

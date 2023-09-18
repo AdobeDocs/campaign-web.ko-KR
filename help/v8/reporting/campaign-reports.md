@@ -3,14 +3,34 @@ audience: end-user
 title: 캠페인 보고서
 description: 캠페인 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
 workflow-type: tm+mt
-source-wordcount: '1753'
+source-wordcount: '1853'
 ht-degree: 2%
 
 ---
 
 # 캠페인 보고서 {#campaign-reports}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_sending"
+>title="보고 전송"
+>abstract="보고서 내의 전송 탭에서는 방문자가 게재와 상호 작용하고 발생할 수 있는 모든 오류에 대한 심층적인 통찰력을 제공합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_tracking"
+>title="보고 추적"
+>abstract="보고서 내의 전송 탭은 링크당 수신자 동작, 열기 및 클릭 분류와 게재 중 가장 자주 클릭한 URL에 대한 세부 정보를 포함하여 중요한 데이터를 제공합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_overview"
+>title="게재 개요"
+>abstract="게재 개요는 방문자의 이메일 게재 참여 방법에 대한 자세한 정보를 제공하는 주요 성능 지표(KPI)를 제공합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_target"
+>title="초기 타겟 대상자 통계"
+>abstract="초기 타겟 대상 통계 표에는 수신자와 관련된 데이터가 표시됩니다"
 
 캠페인 보고서는 캠페인의 성공 및 오류를 자세히 설명하는 다양한 위젯으로 나뉩니다.
 

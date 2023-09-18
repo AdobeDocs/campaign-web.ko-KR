@@ -4,14 +4,19 @@ title: 게재 보고서
 description: 게재 보고서 액세스 및 사용 방법 알아보기
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beta"
-source-git-commit: 9c8677038dcf91a7476da4c09ba5ae22c26f2822
+source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 47%
+source-wordcount: '136'
+ht-degree: 52%
 
 ---
 
 # 게재 보고서 액세스 {#reports}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_selection"
+>title="집계된 게재 보고"
+>abstract="집계된 데이터 보고서를 표시하려면 두 개 이상의 게재를 선택합니다."
 
 Adobe Campaign은 각 게재에 대해 액세스할 수 있는 여러 유형의 보고서를 제공합니다. 이러한 보고서를 사용하면 내장된 대시보드에서 메시지의 영향과 성능을 측정하고 시각화할 수 있습니다.
 

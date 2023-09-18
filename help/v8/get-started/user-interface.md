@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
+source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 74%
+source-wordcount: '1278'
+ht-degree: 73%
 
 ---
 
@@ -172,30 +172,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="보강 데이터"
 >abstract="TBD"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_sending"
->title="보고 전송"
->abstract="캠페인 보고에 전송 표시기를 참조하십시오."
 
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_tracking"
->title="보고 추적"
->abstract="캠페인 보고에 추적 표시기를 참조하십시오."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_overview"
->title="보고 개요"
->abstract="게재에 대한 주요 지표."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_target"
->title="대상 통계 보고"
->abstract="이 섹션에는 대상자에 따라 특정 지표가 표시됩니다."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_selection"
->title="집계된 게재 보고"
->abstract="집계된 데이터 보고서를 표시하려면 두 개 이상의 게재를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
@@ -227,8 +204,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_global_reporting_tracking"
 >title="글로벌 보고서 추적"
 >abstract="추적 보고 지표는 이 화면에 표시됩니다"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"

@@ -3,10 +3,10 @@ audience: end-user
 title: 목록 찾아보기, 검색 및 필터링
 description: Campaign Web v8 목록을 찾아보고 필터링하는 방법 살펴보기
 badge: label="Beta"
-source-git-commit: f9c780b5e832badb64ec0ee0a3514769c3e49b1e
+source-git-commit: 8612e29aa16bce609a822e42d15e2f92a6874383
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 98%
+source-wordcount: '448'
+ht-degree: 86%
 
 ---
 
@@ -51,13 +51,15 @@ ht-degree: 98%
 
 ## 사용자 정의 필터{#list-custom-filters}
 
-데이터에 사용자 정의 필터를 만들려면 필터 하단으로 이동하여 **규칙 추가** 버튼을 클릭합니다.
+데이터에 대한 사용자 정의 필터를 만들려면 필터 하단으로 이동하여 **규칙 추가** 단추를 클릭하여 규칙 빌더에 액세스합니다.
 
 속성을 드래그 앤 드롭하여 **고급 필터** 화면에서 필터 조건을 빌드합니다.
 
 ![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
 **고급 속성 표시** 토글을 사용하여 현재 목록의 모든 속성을 확인합니다. [자세히 알아보기](#adv-attributes)
+
+사용자 지정 필터에 대한 규칙 빌더의 작동 원리는 대상자를 만드는 데 사용되는 규칙 빌더와 유사합니다. 사용 방법에 대한 자세한 내용은 [대상 설명서](../audience/segment-builder.md).
 
 ## 고급 속성 사용 {#adv-attributes}
 

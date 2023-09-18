@@ -4,7 +4,7 @@ product: campaign
 title: 이메일 템플릿 작업
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Beta"
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: 2156ad1929e1f17abd1ceff81107fb9305943219
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 23%
@@ -28,7 +28,6 @@ ht-degree: 23%
 >[!NOTE]
 >
 >이메일 콘텐츠 템플릿은 과(와) 다릅니다. [게재 템플릿](../msg/delivery-template.md). 이를 통해 이메일 콘텐츠만 재사용할 수 있지만, 게재 템플릿을 통해 게재 콘텐츠뿐만 아니라 유형화, 발신자 주소, 대상자 등의 모든 게재 설정 및 속성도 재사용할 수 있습니다.
-
 
 ## 템플릿 사용 {#use-templates}
 

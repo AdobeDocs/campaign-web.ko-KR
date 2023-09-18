@@ -4,7 +4,7 @@ title: 첫 이메일 보내기
 description: Campaign Web UI를 사용하여 첫 이메일을 전송하는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 9ca961b9e4536f6809129a6bafd496c5c191ce43
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 64%
@@ -21,7 +21,7 @@ ht-degree: 64%
 
 첫 번째 타겟팅된 이메일을 작성하는 방법에 대해 알아봅니다. 이 사용 사례에서는 특정 일자에 실버 및 골드 충성도 회원에게 이메일을 전송하도록 예약합니다.
 
-사전 정의된 항목 기반 [디자인 템플릿](../content/email-templates.md), 이메일에는 고객 프로필 속성에 따라 개인화된 콘텐츠도 포함되어 있습니다.
+사전 정의된 항목 기반 [디자인 템플릿](../content/email-sample-templates.md), 이메일에는 고객 프로필 속성에 따라 개인화된 콘텐츠도 포함되어 있습니다.
 
 ## 이메일 게재 만들기 {#create-email}
 

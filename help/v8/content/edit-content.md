@@ -4,10 +4,10 @@ title: 이메일 콘텐츠 편집
 description: Campaign Web UI에서 이메일 콘텐츠를 편집하는 방법 알아보기
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
+source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 35%
+source-wordcount: '633'
+ht-degree: 34%
 
 ---
 
@@ -39,6 +39,10 @@ ht-degree: 35%
 * 첨부 추가 또는 오퍼 설정과 같은 추가 작업 수행
 * 액세스 [이메일 디자이너](get-started-email-designer.md#start-authoring) 이메일의 적절한 콘텐츠 작성을 시작하려면
 
+>[!NOTE]
+>
+>개인화 필드를 사용하여 이 화면에서 편집 가능한 모든 텍스트 필드를 채울 수 있습니다. [콘텐츠 개인화 방법 알아보기](../personalization/personalize.md)
+
 전자 메일의 콘텐츠를 구성하거나 편집하려면 아래 단계를 따르십시오.
 
 1. 다음을 클릭합니다. **[!UICONTROL 콘텐츠 편집]** 단추 [이메일 게재 대시보드](../email/create-email.md) 화면.
@@ -69,7 +73,7 @@ ht-degree: 35%
 
    ![](assets/email-edit-content-reply-to.png)
 
-1. 이메일 **[!UICONTROL 제목 줄]**&#x200B;을 정의합니다. 전용 필드에 제목을 직접 입력하거나 표현식 편집기를 열어 다양한 속성 및 콘텐츠 블록 또는 오퍼를 사용하여 개인화를 추가합니다. [콘텐츠 개인화 방법 알아보기](../personalization/personalize.md)
+1. 이메일 **[!UICONTROL 제목 줄]**&#x200B;을 정의합니다. 전용 필드에 제목을 직접 입력하거나 표현식 편집기를 열어 추가합니다 [개인화](../personalization/personalize.md) 다양한 속성 및 콘텐츠 블록 또는 오퍼 사용.
 
 1. 이메일에 파일을 첨부하려면 **[!UICONTROL 첨부 파일 추가]** 버튼을 클릭한 다음 하나 이상의 파일을 선택합니다.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 대상자 빌드 워크플로 활동 사용
 description: 대상자 빌드 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: ff3e93a6c8e66c8160f132772ea1a8bfd769ec5b
+source-git-commit: 2be8b4143edb720dea85dad352072028c36f0aca
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 62%
+source-wordcount: '488'
+ht-degree: 61%
 
 ---
 
@@ -72,6 +72,6 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 ![](../assets/workflow-audience-example.png)
 
-다음은 Adobe Experience Platform 대상자가 Adobe Campaign 대상자와 결합되는 위치를 보여 주는 다른 예입니다. 이러한 대상을 결합할 수 있으려면 **[iUICONTROL 변경 차원]** &quot;수신자&quot; 타겟팅 차원이 있는 활동이 Adobe Experience Platform 대상 뒤에 추가됩니다.
+다음은 Adobe Experience Platform 대상자가 Adobe Campaign 대상자와 결합하는 또 다른 워크플로우 예입니다. 이러한 대상을 결합할 수 있으려면 **[!UICONTROL 차원 변경]** &quot;수신자&quot; 타겟팅 차원이 있는 활동이 Adobe Experience Platform 대상 뒤에 추가됩니다. [차원 변경 활동을 구성하는 방법 알아보기](change-dimension.md)
 
 ![](../assets/workflow-audience-aep.png)

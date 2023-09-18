@@ -3,23 +3,20 @@ audience: end-user
 title: 중복 제거 워크플로우 활동 사용
 description: 중복 제거 워크플로우 활동을 사용하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
+source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 8%
+source-wordcount: '427'
+ht-degree: 7%
 
 ---
 
 
 # 중복 제거 {#deduplication}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
->title="Fork activity"
->abstract="The Deduplication activity allows you to..."
--->
-
+>title="중복 제거 속성"
+>abstract="이를 통해 이메일 주소, 이름, 성 등 동일한 값에서 중복을 식별할 수 있는 필드를 지정할 수 있습니다. 필드의 순서를 사용하면 먼저 처리할 필드를 지정할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"

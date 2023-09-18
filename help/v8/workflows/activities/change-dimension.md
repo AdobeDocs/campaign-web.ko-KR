@@ -3,22 +3,20 @@ audience: end-user
 title: 차원 변경 워크플로우 활동 사용
 description: 차원 변경 워크플로우 활동을 사용하는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
+source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 2%
+source-wordcount: '191'
+ht-degree: 6%
 
 ---
 
 
 # 차원 변경 {#change-dimension}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
->title="Generate Complement"
->abstract="TBD"
--->
+>title="보조 항목 생성"
+>abstract="중복으로 제외된 나머지 모집단으로 추가 아웃바운드 전환을 생성할 수 있습니다. 이렇게 하려면 **보조 항목 생성** 옵션을 토글합니다"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"

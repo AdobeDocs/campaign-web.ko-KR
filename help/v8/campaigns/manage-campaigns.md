@@ -3,10 +3,10 @@ audience: end-user
 title: 캠페인 시작하기
 description: 크로스 채널 캠페인 시작 방법 알아보기
 badge: label="Beta"
-source-git-commit: 2afec0260566c2393c96063037adbf1902497289
+source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 93%
+source-wordcount: '451'
+ht-degree: 90%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 93%
 
 * **찾아보기** 탭에는 기존 캠페인이 모두 나열됩니다. 캠페인을 클릭하여 대시보드를 열거나 **캠페인 만들기** 버튼을 클릭하여 새 캠페인을 만들 수 있습니다. 이 [섹션](create-campaigns.md#create-campaigns)을 참조하십시오.
 
-* **템플릿 탭**&#x200B;에는 사용 가능한 캠페인 템플릿이 모두 나열됩니다. 캠페인 템플릿은 새 캠페인을 만들 때 재사용할 수 있도록 사전 구성됩니다. 클라이언트 콘솔에서 생성됩니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html)
+* **템플릿 탭**&#x200B;에는 사용 가능한 캠페인 템플릿이 모두 나열됩니다. 기존 템플릿을 보거나 새 템플릿을 만들 수 있습니다. [자세히 보기](manage-campaign-templates.md).
 
 ![캠페인 목록](assets/campaign-list.png)
 

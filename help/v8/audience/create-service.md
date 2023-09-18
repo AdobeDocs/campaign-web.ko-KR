@@ -3,9 +3,9 @@ audience: end-user
 title: 구독 서비스 작업
 description: Adobe Campaign 웹에서 서비스를 만들고 관리하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: 6e48c44b7c192b0d401d75dedbac24f21ee2e78f
+source-git-commit: 79fe928453af15743546a4bb28cdc992c9a2058b
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '931'
 ht-degree: 2%
 
 ---
@@ -158,7 +158,15 @@ SMS 및 이메일 채널에 대한 구독 서비스의 효과를 측정하기 �
 
    ![](assets/service-audience-subscribers.png)
 
-1. 캠페인을 만들고 만든 대상자를 타겟팅합니다.
+1. [게재 만들기](../msg/gs-messages.md) 위에서 만든 대상자를 선택합니다.
+
+   ![](assets/service-delivery-targeting-subscribers.png)
+
+1. 메시지 콘텐츠를 원하는 대로 편집하고 게재를 보냅니다.
+
+   ![](assets/service-delivery-ready.png)
+
+게재는 해당 서비스 구독자에게만 전송됩니다.
 
 
 

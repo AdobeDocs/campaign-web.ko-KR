@@ -4,10 +4,10 @@ title: 오퍼 전송
 description: 오퍼 전송
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 44%
+source-wordcount: '771'
+ht-degree: 34%
 
 ---
 
@@ -25,15 +25,19 @@ Adobe Campaign v8 웹을 사용하면 콘솔에서 생성된 게재 오퍼를 **
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
->title="오퍼 설정"
->abstract="수신자에게 제안할 오퍼를 구성합니다."
+>title="오퍼 매개 변수 정의"
+>abstract="오퍼 공간, 선택적으로 카테고리 및 테마를 정의하여 수신자에게 제안해야 하는 오퍼를 구성하고 게재에 삽입할 오퍼 수를 지정합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
->title="오퍼 고급 설정"
->abstract="오퍼에 대한 고급 옵션을 구성합니다."
+>title="오퍼 고급 설정 지정"
+>abstract="적격 오퍼가 충분하지 않은 수신자를 제외할 수 있도록 설정하고 제안 중 하나가 존재하지 않을 경우 메시지 처리 방법을 선택할 수 있습니다."
 
-1. 게재에서 제안할 오퍼를 선택하려면 다음을 클릭하십시오. **[!UICONTROL 오퍼 설정]** [게재 콘텐츠 편집] 화면의 단추
+Adobe Campaign을 사용하면 특정 연락처에 하나 또는 여러 개의 특정 오퍼를 제안할 수 있습니다. 상호 작용 모듈을 사용하면 지정된 연락처에 대해 단일 또는 여러 개의 특정 오퍼를 제안하여 상호 작용 중에 실시간으로 응답할 수 있습니다. 이러한 오퍼는 간단한 통신 메시지, 하나 또는 여러 제품 또는 서비스에 대한 특별 오퍼일 수 있습니다.
+
+게재에 추가할 오퍼를 선택하려면 아래 단계를 따르십시오.
+
+1. 다음을 클릭합니다. **[!UICONTROL 오퍼 설정]** [게재 콘텐츠 편집] 화면의 단추
 
    ![](assets/setup-offers.png)
 
@@ -99,7 +103,7 @@ Adobe Campaign v8 웹을 사용하면 콘솔에서 생성된 게재 오퍼를 **
 
    >[!NOTE]
    >
-   >사용 가능한 제안 수는 엔진 호출이 구성되는 방식에 따라 다르며 오퍼 순서는 오퍼의 우선 순위에 따라 다릅니다.
+   >사용 가능한 제안 수는 엔진 호출이 구성되는 방식에 따라 다르며 오퍼 순서는 오퍼의 우선 순위에 따라 다릅니다. 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
 
 1. 변경 내용을 저장합니다.
 

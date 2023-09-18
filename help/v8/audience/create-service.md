@@ -3,9 +3,9 @@ audience: end-user
 title: 구독 서비스 작업
 description: Adobe Campaign 웹에서 서비스를 만들고 관리하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: 79fe928453af15743546a4bb28cdc992c9a2058b
+source-git-commit: 47c00b3520ea38d4afa173f8a221ae5e127dd7a9
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '1019'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,9 @@ Adobe Campaign 웹을 사용하여 뉴스레터와 같은 서비스를 관리 �
 
 ## 구독 서비스 액세스 {#access-services}
 
-1. 플랫폼에서 사용할 수 있는 구독 서비스에 액세스하려면 **[!UICONTROL 구독 서비스]** 메뉴 아래의 왼쪽 탐색 레일에서 사용할 수 있습니다.
+플랫폼에서 사용할 수 있는 구독 서비스에 액세스하려면 아래 단계를 따르십시오.
+
+1. 다음으로 이동 **[!UICONTROL 구독 서비스]** 메뉴 아래의 왼쪽 탐색 레일에서 사용할 수 있습니다.
 
    ![](assets/service-list.png)
 
@@ -54,7 +56,7 @@ Adobe Campaign 웹을 사용하여 뉴스레터와 같은 서비스를 관리 �
 >title="확인 메시지 선택"
 >abstract="사용자가 서비스를 구독하거나 구독 취소하면 확인 메시지를 보낼 수 있습니다. 해당 메시지에 사용할 템플릿을 선택합니다."
 
-구독 서비스를 만들려면 다음 단계를 수행하십시오.
+구독 서비스를 만들려면 아래 단계를 수행하십시오.
 
 1. 다음 항목 선택 **[!UICONTROL 구독 서비스 만들기]** 단추를 클릭합니다.
 
@@ -66,7 +68,7 @@ Adobe Campaign 웹을 사용하여 뉴스레터와 같은 서비스를 관리 �
 
    ![](assets/service-create-properties.png)
 
-1. 기본적으로 구독은 무제한입니다. 다음을 비활성화할 수 있습니다. **[!UICONTROL 무제한 유효 기간]** 서비스의 유효 기간을 정의하는 옵션. 아래 예에서는 20일 후 더 이상 이 서비스를 구독할 수 없습니다.
+1. 기본적으로 구독은 무제한입니다. 다음을 비활성화할 수 있습니다. **[!UICONTROL 무제한 유효 기간]** 서비스의 유효 기간을 정의하는 옵션. 아래 예에서는 20일 후 더 이상 이 서비스를 구독할 수 없는 상태입니다.
 
    ![](assets/service-create-validity-period.png)
 
@@ -76,13 +78,13 @@ Adobe Campaign 웹을 사용하여 뉴스레터와 같은 서비스를 관리 �
 
 1. 클릭 **[!UICONTROL 저장 및 검토]**. 새 서비스가 다음에 추가됩니다. **[!UICONTROL 구독 서비스]** 목록을 표시합니다.
 
-### 확인 메시지 만들기 {#create-confirmation-message}
+## 확인 메시지 만들기 {#create-confirmation-message}
 
 서비스를 구독하거나 구독 취소하는 사용자에게 확인 메시지를 보내려면 **[!UICONTROL 구독]** 정의된 대상 없이 대상 매핑. 이렇게 하려면 아래 단계를 수행합니다.
 
 1. 구독 확인을 위한 게재 템플릿을 만듭니다. [방법 알아보기](../msg/delivery-template.md)
 
-1. 이 게재의 대상자를 선택하지 마십시오. 대신, **[!UICONTROL 게재 설정]**&#x200B;로 이동합니다. [대상자](../advanced-settings/delivery-settings.md#audience) 탭을 클릭하고 다음을 선택합니다. **[!UICONTROL 구독]** 대상 매핑.
+1. 이 게재의 대상자를 선택하지 마십시오. 대신, **[!UICONTROL 게재 설정]**&#x200B;로 이동합니다. [대상자](../advanced-settings/delivery-settings.md#audience) 탭을 클릭하고 다음을 선택합니다. **[!UICONTROL 구독]** 목록에서 대상 매핑입니다.
 
    ![](assets/service-confirmation-template-mapping.png)
 
@@ -102,7 +104,7 @@ Adobe Campaign 웹을 사용하여 뉴스레터와 같은 서비스를 관리 �
 
 이제 다음과 같은 경우에 이러한 메시지를 선택할 수 있습니다. [구독 서비스 만들기](#create-service). 해당 서비스를 구독하거나 구독 취소하는 사용자에게는 선택한 확인 메시지가 표시됩니다.
 
-## 서비스에 구독자 추가
+## 서비스에 구독자 추가 {#add-subscribers}
 
 서비스를 만든 후에는 가입자를 수동으로 추가할 수 있습니다. 아래 단계를 수행합니다.
 
@@ -116,11 +118,27 @@ Adobe Campaign 웹을 사용하여 뉴스레터와 같은 서비스를 관리 �
 
    ![](assets/service-subscribers-select-profiles.png)
 
-1. 선택한 수신자는 구독을 받게 됩니다. [확인 메시지](#create-confirmation-message) 다음 경우에 선택함: [서비스 만들기](#create-service). 클릭 **[!UICONTROL 보내기]**.
+1. 클릭 **[!UICONTROL 보내기]**. 선택한 수신자는 구독을 받게 됩니다. [확인 메시지](#create-confirmation-message) 다음 경우에 선택함: [서비스 만들기](#create-service).
 
    ![](assets/service-subscribers-confirmation-msg.png)
 
 추가된 프로필은 **[!UICONTROL 구독자]** 목록을 표시합니다. 이제 서비스를 구독합니다.
+
+## 서비스에서 구독자 제거 {#remove-subscribers}
+
+서비스에 가입자를 추가하면 해당 가입자를 제거할 수 있습니다. 아래 단계를 수행합니다.
+
+1. 에서 기존 서비스 선택 **[!UICONTROL 구독 서비스]** 목록을 표시합니다.
+
+1. 원하는 수신자 이름 옆에 있는 세 점 아이콘을 클릭하고 을 선택합니다 **[!UICONTROL 삭제]**.
+
+   ![](assets/service-subscribers-delete.png)
+
+1. 삭제를 확인하고 를 클릭합니다. **[!UICONTROL 보내기]**. 선택한 수신자는 구독 취소를 받게 됩니다. [확인 메시지](#create-confirmation-message) 다음 경우에 선택함: [서비스 만들기](#create-service).
+
+   ![](assets/service-subscribers-delete-confirmation.png)
+
+수신자가 다음에서 제거됨: **[!UICONTROL 구독자]** 을(를) 나열하고 더 이상 서비스를 구독하지 않습니다.
 
 ## 구독 서비스 로그 및 보고서 {#logs-and-reports}
 
@@ -142,7 +160,7 @@ SMS 및 이메일 채널에 대한 구독 서비스의 효과를 측정하기 �
 
      ![](assets/service-reports.png)
 
-   * 다음 **[!UICONTROL 구독의 전반적인 발전]** 그래프는 구독, 구독 취소, 숫자 진화 및 충성도 비율을 포함하여 기간별 분류를 보여 줍니다.
+   * 다음 **[!UICONTROL 구독의 전반적인 발전]** 그래프는 구독, 구독 취소, 숫자 진화 및 충성도 비율을 포함하여 기간별 분류를 보여 줍니다.<!--what is Registered?-->
 
    * 사용 **[!UICONTROL 다시 로드]** 추적 워크플로우의 실행 및 일정에서 마지막 값을 검색하는 단추입니다.
 

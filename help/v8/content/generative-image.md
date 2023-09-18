@@ -3,9 +3,9 @@ audience: end-user
 title: 콘텐츠 도우미를 사용하여 이미지 생성
 description: 콘텐츠 지원 시작
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '315'
 ht-degree: 2%
 
 ---
@@ -33,9 +33,9 @@ ht-degree: 2%
 
    ![](assets/image-genai-2.png)
 
-1. 선택 **[!UICONTROL 파일 업로드]** 마케팅 개요를 추가하여 콘텐츠 도우미에 더 많은 컨텍스트를 제공하려는 경우
+1. 선택 **[!UICONTROL 파일 업로드]** 추가 컨텍스트를 제공할 수 있는 콘텐츠가 포함된 브랜드 자산을 콘텐츠 도우미에 추가하려는 경우.
 
-   다음을 클릭할 수도 있습니다. **[!UICONTROL 업로드된 콘텐츠]** 를 클릭하여 이전에 업데이트한 파일을 찾습니다.
+   다음을 클릭할 수도 있습니다. **[!UICONTROL 업로드된 콘텐츠]** 를 클릭하여 이전에 업데이트한 파일을 찾습니다. 업로드된 콘텐츠는 현재 사용자만 재사용할 수 있습니다.
 
 1. 다음 항목 선택 **[!UICONTROL 종횡비]** 에셋. 에셋의 너비와 높이를 결정합니다.
 

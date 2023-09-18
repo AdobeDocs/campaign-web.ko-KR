@@ -4,9 +4,9 @@ title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 빌드하는 방법 알아보기
 badge: label="Beta"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 3e4cdd2ece8fc000bc71b366549fd63f18201ff7
+source-git-commit: 140c12fbfb40ec2df2c25aacc762f344f78d9a5a
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '903'
 ht-degree: 31%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 31%
 
 이러한 설정은 워크플로우를 만들 때 선택한 템플릿에 미리 구성되어 있지만, 필요에 따라 이 특정 워크플로우에 대해 편집할 수 있습니다.
 
-이렇게 하려면 **[!UICONTROL 워크플로 설정]** 아이콘: 캔버스의 왼쪽 위 모서리, 워크플로 레이블 옆에 있습니다.
+이렇게 하려면 **[!UICONTROL 설정]** 워크플로 캔버스 위의 작업 표시줄에서 사용할 수 있는 단추입니다.
 
 ![](assets/workflow-settings.png)
 

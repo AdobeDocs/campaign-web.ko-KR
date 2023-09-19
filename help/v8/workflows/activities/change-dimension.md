@@ -3,9 +3,9 @@ audience: end-user
 title: 차원 변경 워크플로우 활동 사용
 description: 차원 변경 워크플로우 활동을 사용하는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: 9bb80d10f20bb36162b74982d51ed67c1600f831
+source-git-commit: fb144e4b7186717dd0c4049d8ce884998a1adefe
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '296'
 ht-degree: 4%
 
 ---
@@ -23,8 +23,7 @@ ht-degree: 4%
 >title="차원 활동 변경"
 >abstract="이 활동을 통해 대상을 구축할 때 타겟팅 차원을 변경할 수 있습니다. 데이터 템플릿과 입력 차원에 따라 축을 이동합니다. 예를 들어 &quot;계약&quot; 차원에서 &quot;클라이언트&quot; 차원으로 전환할 수 있습니다."
 
-다음 **차원 변경** 활동은 입니다. **타겟팅** 활동. 이 활동을 사용하면 워크플로우를 빌드할 때 타겟팅 차원을 변경할 수 있습니다.
-이 활동은 데이터 템플릿과 입력 차원에 따라 축을 전환합니다.
+다음 **차원 변경** 활동은 입니다. **타겟팅** 활동. 이 활동을 사용하면 워크플로우를 빌드할 때 타겟팅 차원을 변경할 수 있습니다. 데이터 템플릿과 입력 차원에 따라 축을 이동합니다. [타겟팅 차원에 대해 자세히 알아보기](../../audience/about-recipients.md#targeting-dimensions)
 
 예를 들어 워크플로우의 타겟팅 차원을 &quot;수신자&quot;에서 &quot;구독자 애플리케이션&quot;으로 전환하여 타겟팅된 수신자에게 푸시 알림을 전송할 수 있습니다.
 
@@ -47,4 +46,3 @@ ht-degree: 4%
 그런 다음 를 사용합니다. **[!UICONTROL 차원 변경]** 활동은 워크플로우 타겟팅 차원을 &quot;수신자&quot;로 전환합니다. 이를 통해 쿼리와 일치하는 수신자를 타겟팅할 수 있습니다.
 
 ![](../assets/workflow-change-dimension-example.png)
-

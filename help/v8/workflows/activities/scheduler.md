@@ -3,7 +3,7 @@ audience: end-user
 title: 예약 워크플로우 활동 사용
 description: 스케줄러 워크플로우 활동을 사용하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 10%
@@ -74,7 +74,6 @@ ht-degree: 10%
 >워크플로를 즉시 시작하려면 다음을 클릭합니다. **보류 중인 작업 실행** 스케줄러의 맨 위 작업 표시줄에 표시됩니다. 이 단추는 워크플로우를 시작한 경우에만 사용할 수 있습니다.
 
 참고:
-
 
 ## 예제
 

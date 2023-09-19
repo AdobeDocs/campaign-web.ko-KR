@@ -2,9 +2,9 @@
 title: Campaign 웹에서 AI 기반 지식 도우미 사용
 description: Campaign 웹에서 AI 기반 지식 도우미 사용
 badge: label="Beta"
-source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
+source-git-commit: ece1f62e3c1e1378c576e55d8918ee145e17271f
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## 권장 사항  {#recommendations-ai}
 
-AI 기반 기술 지원에서 질문을 할 때는 현재 제품 컨텍스트, 즉 현재 있는 캠페인 화면이 고려됩니다.
+AI 기반 기술 지원에서 질문을 할 때는 현재 제품 컨텍스트(예: 현재 있는 캠페인 화면 및 현재 도움말 상자의 콘텐츠)가 고려됩니다.
 
 AI 기반의 Knowledge Assistant를 최대한 활용하려면 질문을 할 때 다음을 권장합니다.
 

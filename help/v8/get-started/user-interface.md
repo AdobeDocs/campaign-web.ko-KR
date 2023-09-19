@@ -4,7 +4,7 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 1c99f8cecea8d53af463f5d37e6f28f227f93d6a
+source-git-commit: b811ce7649e833c5df2e73ca787e0c314c28035e
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 73%
@@ -80,7 +80,7 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 * **대상자** - 대상자 목록입니다. 기본적으로 유형, 원본, 생성/마지막 수정 일자 및 레이블을 볼 수 있습니다. 원본을 기준으로 목록을 필터링할 수 있습니다. 의 대상자 및 목록에 대해 자세히 알아보기 [이 섹션](../audience/about-audiences.md).
 * **구독** - 구독 목록을 탐색합니다. 기본적으로 해당 유형, 모드 및 레이블을 볼 수 있습니다. [Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}에서 구독 및 구독 취소를 관리하는 방법에 대해 알아봅니다.
 
-### 의사 결정 관리
+### 의사 결정 관리 {#decision-management}
 
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
@@ -94,7 +94,7 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 
 에서 이메일 및 SMS로 오퍼를 만들고 보내는 방법을 알아봅니다. [이 섹션](../content/offers.md).
 
-## 상단 막대
+## 상단 막대 {#top-bar}
 
 인터페이스의 상단 막대를 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 

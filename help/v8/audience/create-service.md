@@ -3,7 +3,7 @@ audience: end-user
 title: 구독 서비스 작업
 description: Adobe Campaign 웹에서 서비스를 만들고 관리하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: 7a8057a0d57b28092711ca2d7f47fffefdc06df3
+source-git-commit: b811ce7649e833c5df2e73ca787e0c314c28035e
 workflow-type: tm+mt
 source-wordcount: '1099'
 ht-degree: 2%

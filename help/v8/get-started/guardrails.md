@@ -2,7 +2,7 @@
 title: Campaign 웹 UI의 보호 기능 및 제한 사항
 description: Campaign 웹 UI의 보호 기능 및 제한 사항
 badge: label="Beta"
-source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
+source-git-commit: 9d1f6579d380352d6cc237cfcfdd4dc4171f2085
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 4%
@@ -66,13 +66,17 @@ Campaign 클라이언트 콘솔에서 만들거나 수정한 구성 요소로 Ca
 
 규칙 빌더에서 쿼리의 그래픽 표현을 볼 수 없고 필터를 편집할 수 없는 경우에도 여전히 사용할 수 있으며 의 필터링 조건을 볼 수 있습니다. **속성** 섹션에 있는 마지막 항목이 될 필요가 없습니다.
 
-![](assets/rule-view-results.png){width="70%" align="left"}
+![](assets/rule-edit.png){width="70%" align="left"}
 
 SQL 쿼리에 액세스하여 정확한 설정을 확인할 수도 있습니다. 이렇게 하려면 **코드 보기** 단추를 클릭합니다.
 
 ![](assets/rule-code-view.png){width="70%" align="left"}
 
-다음을 클릭합니다. **계산** 필터의 기준을 충족하는 항목 수를 확인하는 버튼입니다. 사용 **결과 보기** 단추를 클릭하여 해당 항목을 표시합니다.
+다음을 클릭합니다. **계산** 필터의 기준을 충족하는 항목 수를 확인하는 버튼입니다.
+
+![](assets/rule-calculate.png){width="70%" align="left"}
+
+사용 **결과 보기** 단추를 클릭하여 해당 항목을 표시합니다.
 
 ![](assets/rule-view-results.png){width="70%" align="left"}
 

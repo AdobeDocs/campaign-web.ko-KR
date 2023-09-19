@@ -3,9 +3,9 @@ audience: end-user
 title: 이메일 게재 보고서
 description: 이메일 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
+source-git-commit: c8bce23d78960fcc5c9adbb37d376d60319d8df9
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1890'
 ht-degree: 7%
 
 ---
@@ -19,17 +19,17 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_email"
 >title="전송 보고"
->abstract="보고서 내의 전송 메뉴는 게재 관련 방문자의 상호 작용 및 발생할 수 있는 오류에 대한 심층적인 통찰력을 제공합니다."
+>abstract="그는 **전송 중** 보고서 내의 탭에서는 게재 관련 방문자의 상호 작용 및 발생 가능한 오류에 대한 심층적인 통찰력을 제공합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_initial_target"
 >title="초기 대상 모집단 위젯"
->abstract="초기 대상 모집단 그래프는 수신자와 게재 성공 여부에 따른 데이터를 표시합니다."
+>abstract="다음 **초기 대상 모집단** 그래프는 수신자 및 게재 성공에 관련된 데이터를 표시합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="게재 통계 위젯"
->abstract="게재 통계 그래프는 게재 성공 및 발생한 오류를 자세히 설명합니다."
+>abstract="다음 **게재 통계** 그래프는 게재의 성공 및 발생한 오류를 자세히 설명합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
@@ -92,7 +92,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_email"
 >title="게재 처리량 위젯"
->abstract="게재 처리량 보고서는 지정된 기간 내에 전체 플랫폼의 게재 처리량에 대한 자세한 정보를 제공합니다."
+>abstract="다음 **게재 처리량** 보고서는 지정된 기간 내에 전체 플랫폼의 게재 처리량에 대한 자세한 정보를 제공합니다."
 
 이 보고서는 지정된 기간 내에 전체 플랫폼의 게재 처리량에 대한 자세한 정보를 제공합니다. 메시지 게재 속도를 측정하는 데 사용되는 기본 지표는 시간당 전송된 메시지 수입니다.
 
@@ -101,7 +101,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
 >title="브로드캐스트 통계 위젯"
->abstract="브로드캐스트 통계 표에는 각 도메인에서 발생할 수 있는 오류에 대해 사용 가능한 데이터가 포함되어 있습니다."
+>abstract="다음 **브로드캐스트 통계** 표에는 각 도메인에서 발생할 수 있는 오류에 대해 사용 가능한 데이터가 포함되어 있습니다."
 
 * **[!UICONTROL 브로드캐스트 통계]** 표에는 각 도메인에서 발생할 수 있는 오류에 대해 사용 가능한 데이터가 포함되어 있습니다.
 
@@ -129,12 +129,12 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="유형별 오류 분류 위젯"
->abstract="유형별 오류 분석 테이블 및 그래프에는 발생한 각 오류 유형에 사용할 수 있는 데이터가 포함되어 있습니다."
+>abstract="다음 **유형별 오류 분류** 테이블 및 그래프에는 발생한 각 오류 유형에 사용할 수 있는 데이터가 포함되어 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="도메인 위젯당 오류 분류"
->abstract="유형별 오류 분석 테이블 및 그래프에는 각 도메인에 따라 발생한 각 오류 유형에 대해 사용 가능한 데이터가 포함되어 있습니다."
+>abstract="다음 **도메인별 오류 분류** 표 및 그래프에는 각 도메인에 따라 발생하는 각 오류 유형에 사용할 수 있는 데이터가 포함되어 있습니다."
 
 * **[!UICONTROL 유형별 오류 분류]** 및 **[!UICONTROL 도메인별 오류 분류]** 표 및 그래프에는 각 도메인에서 발생할 수 있는 오류에 대해 사용 가능한 데이터가 포함되어 있습니다.
 
@@ -165,17 +165,17 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_tracking_email"
 >title="보고 추적"
->abstract="보고서 내의 추적 탭은 링크당 수신자 동작, 열기 및 클릭 분류와 게재 중 가장 자주 클릭한 URL에 대한 세부 정보를 포함하여 중요한 데이터를 제공합니다."
+>abstract="다음 **추적** 보고서 내의 탭은 링크당 수신자 동작, 열기 및 클릭 분류와 게재 중 가장 자주 클릭한 URL에 대한 세부 정보를 포함하여 중요한 데이터를 제공합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_indicators"
 >title=" 게재 통계 위젯"
->abstract="게재 통계 위젯은 보낸 이메일에 사용할 수 있는 데이터에 대한 자세한 정보를 제공하는 주요 성능 지표(KPI)를 제공합니다."
+>abstract="다음 **게재 통계** 위젯은 전송된 이메일에 사용할 수 있는 데이터에 대한 자세한 정보를 제공하는 주요 성능 지표(KPI)를 제공합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
 >title="열람 및 클릭스루 비율 위젯"
->abstract="열기 및 클릭스루 비율 테이블에는 게재에 참여한 수신자와 관련된 데이터가 표시됩니다."
+>abstract="다음 **열람 및 클릭스루 비율** 테이블에는 게재 시 수신자 참여와 관련된 데이터가 표시됩니다."
 
 * **[!UICONTROL 게재 통계]** 에서는 보낸 이메일에 사용할 수 있는 데이터에 대한 자세한 정보를 제공하는 주요 성능 지표(KPI)를 제공합니다.
 
@@ -218,7 +218,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
 >title="URL 및 클릭 스트림 위젯"
->abstract="URL 및 클릭 스트림은 게재 중 가장 많이 클릭한 URL에 대한 세부 정보를 제공하는 주요 성능 지표(KPI)를 제공합니다."
+>abstract="다음 **URL 및 클릭 스트림** 게재 중 가장 많이 클릭한 URL에 대한 세부 정보를 제공하는 주요 성능 지표(KPI)를 제공합니다."
 
 * **[!UICONTROL URL 및 클릭 스트림]** 게재 중 가장 많이 클릭한 URL에 대한 세부 정보를 제공하는 주요 성능 지표(KPI)를 제공합니다.
 
@@ -257,7 +257,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
 >title="사용자 활동 위젯"
->abstract="사용자 활동 그래프는 차트 형태로 열람 및 클릭 수를 보여줍니다. 데이터를 타겟팅할 기간을 선택할 수 있습니다(마지막 날 또는 시간 또는 30분)."
+>abstract="다음 **사용자 활동** 그래프는 차트 형태로 열람 및 클릭에 대한 분류를 보여줍니다. 데이터를 타겟팅할 기간을 선택할 수 있습니다(마지막 날 또는 시간 또는 30분)."
 
 * **[!UICONTROL 사용자 활동]** 차트 형식으로 열기 및 클릭 수를 보여줍니다. 데이터를 타겟팅할 기간을 선택할 수 있습니다(마지막 날 또는 시간 또는 30분).
 
@@ -276,7 +276,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
 >title="추적 통계 위젯"
->abstract="추적 통계 그래프는 열기 및 클릭에 대한 통계를 제공합니다. 데이터를 타겟팅할 특정 시간대를 선택할 수 있는 옵션이 있습니다."
+>abstract="다음 **추적 통계** 그래프는 열람 및 클릭에 대한 통계를 제공합니다. 데이터를 타겟팅할 특정 시간대를 선택할 수 있는 옵션이 있습니다."
 
 * **[!UICONTROL 추적 통계]** 그래프는 열람 및 클릭에 대한 통계를 제공합니다. 데이터를 타겟팅할 특정 시간대를 선택할 수 있는 옵션이 있습니다.
 
@@ -294,15 +294,16 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_device"
->title="장치 위젯별 분류"
->abstract="디바이스별 분류"
+>title="디바이스별 분류"
+>abstract="다음 **장치별 분류** 해당 기간에 대한 장치 유형별 열기 분류를 표시합니다. 첫 번째 차트에는 컴퓨터 및 모바일 장치의 열림에 대한 통계가 표시됩니다. 두 번째 차트에는 모바일 디바이스에서의 열람과 관련된 통계만 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"
->title="OS 위젯별 분류"
->abstract="OS별 분류"
+>title="OS별 분류"
+>abstract="다음 **OS별 분류** 해당 기간에 대한 운영 체제별 열기 분석을 표시합니다. 첫 번째 차트에는 컴퓨터 및 모바일 장치의 열림에 대한 통계가 표시됩니다. 두 번째 차트에는 모바일 디바이스에서의 열람과 관련된 통계만 표시됩니다."
 
 이 보고서는 해당 기간에 대한 운영 체제, 장치 및 브라우저별 열기 분석을 보여 줍니다. 각 범주별로 두 개의 차트가 사용됩니다. 첫 번째 차트에는 컴퓨터 및 모바일 디바이스에서의 열람과 관련된 통계가 표시됩니다. 두 번째 차트에는 모바일 디바이스에서의 열람과 관련된 통계만 표시됩니다.
+
 유연하게 전환할 수 있습니다. **[!UICONTROL 수정 및 모바일]** 독점적으로 타겟팅하다 **[!UICONTROL 모바일 전용]** 을 참조하십시오.
 
 ![](assets/reporting_email_13.png){align="center"}
@@ -312,8 +313,8 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_hotclicks"
 >title="Hotclicks 보고서"
->abstract="Hotclicks 보고서는 각 링크에 대한 클릭 비율이 포함된 메시지 콘텐츠를 제공합니다."
+>abstract="다음 **핫클릭** 보고서는 각 링크에서 링크 클릭률의 이메일 콘텐츠(HTML 및/또는 텍스트)를 제공합니다. 개인화 블록, 구독 취소 링크, 미러 페이지 링크 및 오퍼 링크는 누적된 총 클릭 수에서 고려되지만 보고서에 표시되지 않습니다."
 
-이 보고서에는 메시지 콘텐츠(HTML 및/또는 텍스트)와 각 링크의 링크 클릭 비율이 표시됩니다. 개인 맞춤화 블록 구독 취소 링크, 미러 페이지 링크 및 오퍼 링크는 총 누적 클릭 수 계산에 포함되지만 보고서에는 표시되지 않습니다.
+이 보고서에는 메시지 콘텐츠(HTML 및/또는 텍스트)와 각 링크의 링크 클릭 비율이 표시됩니다. 개인화 블록, 구독 취소 링크, 미러 페이지 링크 및 오퍼 링크는 누적된 총 클릭 수에서 고려되지만 보고서에 표시되지 않습니다.
 
 ![](assets/reporting11.png)

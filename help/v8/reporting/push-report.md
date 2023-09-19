@@ -3,10 +3,10 @@ audience: end-user
 title: 게재 보고서 푸시
 description: 푸시 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
+source-git-commit: c8bce23d78960fcc5c9adbb37d376d60319d8df9
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 5%
+source-wordcount: '368'
+ht-degree: 2%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="푸시 보고서 요약"
->abstract="푸시 게재 보고 지표를 살펴보십시오."
+>abstract="다음 **푸시 게재 개요** 는 광범위한 통찰력과 특정 데이터를 제공하여 푸시 게재에 대한 포괄적인 개요를 제공합니다. 게재의 성능, 효율성 및 결과에 대한 포괄적인 정보를 제공합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
 >title="전송 보고"
->abstract="보고서 내의 전송 탭에서는 방문자가 게재와 상호 작용하고 발생할 수 있는 모든 오류에 대한 심층적인 통찰력을 제공합니다."
+>abstract="그는 **전송 중** 보고서 내의 탭에서는 게재 관련 방문자의 상호 작용 및 발생 가능한 오류에 대한 심층적인 통찰력을 제공합니다."
 
 다음 **게재 보고서 푸시** 는 푸시 채널에 대한 철저한 개요를 제공하여 광범위한 통찰력과 특정 데이터를 제공합니다. 각 게재의 성능, 효율성 및 결과에 대한 포괄적인 정보를 제공합니다.
 

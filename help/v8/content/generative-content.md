@@ -3,9 +3,9 @@ audience: end-user
 title: 콘텐츠 도우미가 있는 텍스트
 description: 콘텐츠 지원 시작
 badge: label="Beta"
-source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
+source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '351'
 ht-degree: 2%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 2%
 이메일을 만들고 개인화한 후에는 생성 AI에서 제공하는 콘텐츠 도우미를 사용하여 콘텐츠를 한 단계 더 발전시킵니다.
 
 콘텐츠 도우미는 대상자에게 반향을 일으킬 가능성이 높은 다양한 콘텐츠를 제안하여 게재의 영향을 최적화하는 데 도움이 될 수 있습니다.
+
+
+>[!AVAILABILITY]
+>
+>이 기능은 10월 초에 사용할 수 있습니다.
 
 1. 이메일 게재를 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**.
 

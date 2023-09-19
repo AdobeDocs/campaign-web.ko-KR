@@ -4,7 +4,7 @@ title: Campaign Web v8의 새로운 기능
 description: Campaign Web v8이 제공되는 새로운 기능 살펴보기
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 9903074ba5da52d2aedd02d60bc56f0e0df91b26
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 66%
@@ -44,7 +44,7 @@ Campaign의 새로운 웹 UI는 모든 Adobe Experience Cloud 솔루션 및 앱�
 
 * 이메일 디자이너로 개인화된 이메일 콘텐츠 디자인 - [자세히 알아보기](../content/edit-content.md)
 * SMS 및 푸시 알림을 포함한 크로스 채널 캠페인 보내기 - [자세히 알아보기](../workflows/activities/channels.md)
-* 규칙 빌더로 타겟 대상자 정의 - [자세히 알아보기](../audience/about-audiences.md)
+* 규칙 빌더로 타겟 대상자 정의 - [자세히 알아보기](../audience/about-recipients.md)
 * 메시지 미리 보기, 테스트 및 보내기 - [자세히 알아보기](../monitor/prepare-send.md)
 * 내장된 보고서로 전송 및 측정 결과 모니터링 - [자세히 알아보기](../reporting/delivery-reports.md)
 
@@ -124,7 +124,7 @@ Campaign Web Beta 릴리스에서는 사용자 인터페이스에 사용자 권�
 * 시드 주소는 이제 **테스트 프로필**&#x200B;로 사용됩니다. 데이터베이스의 추가 수신자인 시드 주소로 테스트 이메일을 전송하십시오. [자세히 알아보기](../preview-test/test-deliveries.md)
 * 게재 분석은 이제 **게재 준비**&#x200B;입니다. 메시지 준비를 시작하려면 다음을 클릭합니다. **준비** 단추를 클릭합니다. [자세히 알아보기](../monitor/prepare-send.md)
 * 이제 **콘텐츠 시뮬레이션** 버튼을 통해 이메일 미리보기 기능을 사용할 수 있습니다. [자세히 알아보기](../preview-test/preview-test.md)
-* 목록은 이제 **대상자**&#x200B;입니다. [자세히 알아보기](../audience/about-audiences.md)
+* 목록은 이제 **대상자**&#x200B;입니다. [자세히 알아보기](../audience/about-recipients.md)
 
 ## 제한 사항{#limitations-beta}
 

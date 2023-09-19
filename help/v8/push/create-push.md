@@ -3,7 +3,7 @@ audience: end-user
 title: 푸시 알림 게재 만들기
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 만드는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 53%
@@ -52,7 +52,7 @@ ht-degree: 53%
 
 1. 다음에서 **[!UICONTROL 대상자]** 메뉴에서 이 게재에 사용할 애플리케이션을 선택합니다.
 
-1. **[!UICONTROL 대상자 선택]** 버튼을 클릭하여 기존 대상자를 타겟팅하거나 나만의 대상자를 만듭니다. [자세히 알아보기](../audience/about-audiences.md)
+1. **[!UICONTROL 대상자 선택]** 버튼을 클릭하여 기존 대상자를 타겟팅하거나 나만의 대상자를 만듭니다. [자세히 알아보기](../audience/about-recipients.md)
 
    기본적으로 푸시 알림은 애플리케이션의 모든 구독자에게 전송됩니다.
 

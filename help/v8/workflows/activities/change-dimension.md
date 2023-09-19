@@ -3,9 +3,9 @@ audience: end-user
 title: 차원 변경 워크플로우 활동 사용
 description: 차원 변경 워크플로우 활동을 사용하는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '210'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 6%
 
 다음 **차원 변경** 활동은 입니다. **타겟팅** 활동. 이 활동을 통해 대상을 구축할 때 타겟팅 차원을 변경할 수 있습니다. 이 활동은 데이터 템플릿과 입력 차원에 따라 축을 전환합니다. 예를 들어 &quot;계약&quot; 차원에서 &quot;클라이언트&quot; 차원으로 전환할 수 있습니다.
 
-## 구성
+## 차원 변경 활동 구성 {#configure}
 
 다음 단계에 따라 **차원 변경** 활동:
 
@@ -37,5 +37,6 @@ ht-degree: 6%
 
 1. 워크플로우를 실행하여 결과를 조회합니다. 차원 변경 활동 전후의 테이블에 있는 데이터를 비교하고 워크플로우 테이블의 구조를 비교합니다.
 
+## 예제 {#example}
 
 

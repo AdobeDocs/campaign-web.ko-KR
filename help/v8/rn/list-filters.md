@@ -4,7 +4,7 @@ title: Campaign Web v8의 새로운 기능
 description: Campaign Web v8이 제공되는 새로운 기능 살펴보기
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 98%
@@ -42,7 +42,7 @@ Campaign의 새로운 웹 UI는 모든 Adobe Experience Cloud 솔루션 및 앱�
 
 * 이메일 디자이너로 개인화된 이메일 콘텐츠 디자인 - [자세히 알아보기](../content/edit-content.md)
 * SMS 및 푸시 알림을 포함하여 크로스 채널 캠페인을 보냅니다.
-* 규칙 빌더로 타겟 대상자 정의 - [자세히 알아보기](../audience/about-audiences.md)
+* 규칙 빌더로 타겟 대상자 정의 - [자세히 알아보기](../audience/about-recipients.md)
 * 이메일 메시지 미리보기, 테스트 및 전송 - [자세히 알아보기](../monitor/prepare-send.md)
 * 내장된 보고서로 전송 및 측정 결과 모니터링 - [자세히 알아보기](../reporting/delivery-reports.md)
 

@@ -4,7 +4,7 @@ title: 테스트 게재 전송
 description: 테스트 게재를 정의하고 전송하는 방법을 알아봅니다
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 13%
@@ -86,7 +86,7 @@ ht-degree: 13%
 
 의 기존 프로필에서 데이터를 표시하는 동안 특정 이메일 주소 또는 전화번호에 테스트 이메일 또는 SMS를 보내려면 [!DNL Campaign] 데이터베이스, 대체 프로파일을 사용합니다.
 
-1. 테스트를 보내기 전에 게재 대상 대상을 정의했는지 확인하십시오. [자세히 알아보기](../audience/about-audiences.md)
+1. 테스트를 보내기 전에 게재 대상 대상을 정의했는지 확인하십시오. [자세히 알아보기](../audience/about-recipients.md)
 
 1. 이메일 또는 SMS 게재의 콘텐츠 편집 화면으로 이동한 다음 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다.
 
@@ -98,7 +98,7 @@ ht-degree: 13%
 
    >[!CAUTION]
    >
-   >다음을 선택하지 않은 경우 [대상자](../audience/about-audiences.md) 게재를 위해 **[!UICONTROL 주 대상에서 대체]** 옵션이 회색으로 표시되고 대체 프로필을 선택할 수 없습니다.
+   >다음을 선택하지 않은 경우 [대상자](../audience/about-recipients.md) 게재를 위해 **[!UICONTROL 주 대상에서 대체]** 옵션이 회색으로 표시되고 대체 프로필을 선택할 수 없습니다.
 
 1. 다음을 클릭합니다. **[!UICONTROL 주소 추가]** 버튼을 클릭하고 테스트 게재를 받을 이메일 주소 또는 전화 번호를 지정합니다.
 

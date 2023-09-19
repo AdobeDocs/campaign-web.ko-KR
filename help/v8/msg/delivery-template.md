@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 2156ad1929e1f17abd1ceff81107fb9305943219
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 25%
@@ -26,7 +26,7 @@ ht-degree: 25%
 
 * [유형화](../advanced-settings/delivery-settings.md#typology),
 * 발신자 주소,
-* An [대상자](../audience/about-audiences.md), 포함 [컨트롤 그룹](../audience/control-group.md),
+* An [대상자](../audience/about-recipients.md), 포함 [컨트롤 그룹](../audience/control-group.md),
 * 사용자 정의 [콘텐츠](../content/edit-content.md),
 * [개인화된 필드](../personalization/personalize.md) 및 [조건부 콘텐츠](../personalization/conditions.md),
 * 링크 대상 [미러 페이지](../content/mirror-page.md) 및 구독 취소 [링크](../content/message-tracking.md),
@@ -48,8 +48,8 @@ ht-degree: 25%
 >id="acw_delivery_templates"
 >title="게재 템플릿 작업"
 >abstract="게재 템플릿을 사용하여 나중에 사용할 수 있도록 기존 게재를 손쉽게 만들고 저장하십시오."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#copy-an-existing-template" text="기존 템플릿 복제"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#convert-an-existing-delivery" text="게재를 템플릿으로 변환"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=ko-KR#copy-an-existing-template" text="기존 템플릿 복제"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=ko-KR#convert-an-existing-delivery" text="게재를 템플릿으로 변환"
 
 콘텐츠 템플릿 목록에 액세스하려면 다음을 선택합니다. **[!UICONTROL Campaign Management]** > **[!UICONTROL 게재]** 왼쪽 메뉴에서 **템플릿** 탭.
 

@@ -4,7 +4,7 @@ title: 첫 이메일 보내기
 description: Campaign Web UI를 사용하여 첫 이메일을 전송하는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 64%
@@ -79,7 +79,7 @@ ht-degree: 64%
 
 이 사용 사례에서는 기존 대상자에게 이메일을 전송합니다.
 
-대상자와 작업하는 방법에 대한 추가적인 지침은 [이 섹션](../audience/about-audiences.md)에서 확인할 수 있습니다.
+대상자와 작업하는 방법에 대한 추가적인 지침은 [이 섹션](../audience/about-recipients.md)에서 확인할 수 있습니다.
 
 1. 이메일의 대상자를 선택하려면 **[!UICONTROL 대상자 선택]** 버튼을 클릭하고 목록에서 기존 대상자를 선택합니다.
 

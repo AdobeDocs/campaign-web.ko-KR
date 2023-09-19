@@ -3,7 +3,7 @@ audience: end-user
 title: 차원 변경 워크플로우 활동 사용
 description: 차원 변경 워크플로우 활동을 사용하는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: 524d690ad5dbaa1d63c53cece05207eb0d745540
+source-git-commit: dbe1bc0653c5c486b6277384a9cb7dddda51ee82
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 4%
@@ -46,4 +46,7 @@ ht-degree: 4%
 
 그런 다음 를 사용합니다. **[!UICONTROL 차원 변경]** 활동은 워크플로우 타겟팅 차원을 &quot;수신자&quot;로 전환합니다. 이를 통해 쿼리와 일치하는 수신자를 타겟팅할 수 있습니다.
 
+<!--
 ![](assets/workflow-change-dimension-example.png)
+-->
+

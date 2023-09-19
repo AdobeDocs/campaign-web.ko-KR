@@ -4,7 +4,7 @@ title: Adobe Campaign Web을 사용하여 캠페인 만들기
 description: Adobe Campaign Web을 사용하여 크로스 채널 캠페인을 구축하는 방법 알아보기
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
+source-git-commit: 72065d4cbc3ce18caf88c7032660d944459463ed
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 39%
@@ -31,7 +31,7 @@ ht-degree: 39%
 새 캠페인을 만들려면 다음 단계를 수행합니다.
 
 1. 다음을 클릭합니다. **[!UICONTROL 캠페인]** 메뉴를 클릭하고 **[!UICONTROL 캠페인 만들기]** 단추를 클릭합니다.
-1. 다음 항목 선택 **템플릿** 을 입력하여 캠페인에 대한 레이블을 제공합니다. [자세히 보기](manage-campaign-templates.md).
+1. 다음 항목 선택 **템플릿** 을 입력하여 캠페인에 대한 레이블을 제공합니다. [자세히 보기](manage-campaigns.md#manage-campaign-templates).
 1. 필요한 경우 다음을 변경할 수 있습니다 **추가 옵션**: 내부 이름, 폴더, 할당자, 설명 및 특성.
 1. 다음을 정의합니다. **예약** 을 참조하십시오. 에서 캠페인 일정을 설정하는 방법 알아보기 [이 섹션](#campaign-schedule)
 1. Click **Create**.

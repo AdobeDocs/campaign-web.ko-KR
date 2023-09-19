@@ -2,16 +2,16 @@
 title: Campaign 웹에서 AI 기반 지식 도우미 사용
 description: Campaign 웹에서 AI 기반 지식 도우미 사용
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
-# AI 기반 지식 도우미 사용 {#using-ai}
+# AI 기반 기술 자료 지원 사용 {#using-ai}
 
-제품 상황별 도움말 상자에서 AI 기반 지식 도우미를 사용하여 제품 설명서 및 현재 제품 컨텍스트를 기반으로 AI가 생성한 빠른 답변을 얻을 수 있습니다.
+제품 상황별 도움말 상자에서 AI 기반의 Knowkedge Assistant를 사용하여 제품 설명서 및 현재 제품 컨텍스트를 기반으로 AI가 생성한 빠른 답변을 얻을 수 있습니다.
 
 >[!AVAILABILITY]
 >
@@ -45,12 +45,12 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## 권장 사항  {#recommendations-ai}
 
-상황별 도움말에서 질문을 할 때 현재 제품 컨텍스트를 고려합니다.
+AI 기반 기술 지원에서 질문을 할 때는 현재 제품 컨텍스트, 즉 현재 있는 캠페인 화면이 고려됩니다.
 
-조수를 최대한 활용하려면 질문을 할 때 다음 사항을 권장합니다.
+AI 기반의 Knowledge Assistant를 최대한 활용하려면 질문을 할 때 다음을 권장합니다.
 
 * 가능한 한 정확하고 구체적이며 모호함을 피하십시오. 그 답은 더 정확하고 도움이 될 것이다.
-* 지식 도우미가 올바른 정보를 찾을 수 있도록 학습 내용에 대한 세부 정보를 최대한 추가합니다.
+* AI 기반 지식 도우미가 올바른 정보를 찾을 수 있도록 학습 내용에 대한 세부 정보를 최대한 추가합니다.
 * 더 나은 답변을 얻기 위해 질문을 수정하고 정교화합니다. 답변이 정확하지 않거나 유용하지 않다면 다른 접근 방식을 시도하고 컨텍스트를 추가하여 더 나은 결과를 얻으십시오.
 * 중립적인 어조로 적절한 용어와 문구를 사용하십시오.
 * 답변 등급을 매기고 피드백을 제공하여 엔지니어가 귀하의 경험을 통해 배우고 결과를 개선할 수 있도록 하십시오.

@@ -3,7 +3,7 @@ audience: end-user
 title: 대기 워크플로 활동 사용
 description: 대기 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 91%
@@ -13,16 +13,14 @@ ht-degree: 91%
 
 # 대기 {#wait}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_wait"
 >title="대기 활동"
 >abstract="다음 **대기** 활동은 활동에서 다른 활동으로의 전환을 지연시키는 데 사용됩니다."
 
-
 **대기** 활동은 **흐름 제어** 활동입니다. 이는 실행할 두 활동 사이에 일정 시간이 지나도록 하는 데 사용됩니다. 예를 들어 이메일 게재 활동 후 며칠 동안 대기하고, 후속 작업(리마인더 이메일, 대상자 만들기 등)을 수행하기 전에 대기 기간 동안 발생한 열람수 및 클릭수를 분석하려 할 때 사용할 수 있습니다.
 
-## 구성
+## 구성{#wait-configuration}
 
 **대기** 활동을 구성하려면 다음 단계를 따르십시오.
 
@@ -32,7 +30,7 @@ ht-degree: 91%
 
 1. **기간** 필드에서 시간 단위(초, 분, 시간)를 선택합니다.
 
-## 예제
+## 예제{#wait-example}
 
 다음 예제는 일반적인 사용 사례에서의 **대기** 활동을 보여 줍니다. 이벤트 초대 이메일을 전송합니다. 전송된 후 24시간이 지나면 SMS 게재가 동일한 모집단으로 전송됩니다.
 

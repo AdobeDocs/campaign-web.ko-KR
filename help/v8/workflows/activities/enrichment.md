@@ -3,10 +3,10 @@ audience: end-user
 title: 보강 워크플로 활동 사용
 description: 보강 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: 1c99f8cecea8d53af463f5d37e6f28f227f93d6a
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 91%
 
 예를 들어 고객의 구매와 관련된 워크플로 작업 테이블 정보를 추가한 다음, 이 데이터를 사용하여 해당 고객의 최근 구매 또는 이러한 구매에 지출한 금액으로 이메일을 개인화할 수 있습니다.
 
-## 일반 구성 {#general}
+## 데이터 보강 활동 구성 {#enrichment-configuration}
 
 **보강** 활동을 구성하려면 다음 단계를 따르십시오.
 
@@ -76,7 +76,7 @@ ht-degree: 91%
 * 필터: 100$보다 큰 항목을 필터링합니다.
 * 정렬: **주문 날짜** 필드에 대한 하위 정렬
 
-### 속성 추가
+### 속성 추가 {#add-attribute}
 
 보강 데이터로 사용할 컬렉션 링크를 선택하는 곳입니다.
 
@@ -86,7 +86,7 @@ ht-degree: 91%
 
 ![](../assets/workflow-enrichment3.png)
 
-### 컬렉션 설정 정의
+### 컬렉션 설정 정의{#collection-settings}
 
 그런 다음 데이터가 수집되는 방식과 검색할 레코드 수를 정의합니다.
 
@@ -99,7 +99,7 @@ ht-degree: 91%
 
 ![](../assets/workflow-enrichment5.png)
 
-### 필터 정의
+### 필터 정의{#collection-filters}
 
 여기에서 보강 속성의 최대값을 정의합니다. 100$보다 큰 항목을 필터링합니다.
 
@@ -109,7 +109,7 @@ ht-degree: 91%
 
 ![](../assets/workflow-enrichment6.png)
 
-### 정렬 정의
+### 정렬 정의{#collection-sorting}
 
 이제 세 개의 **최신** 구매 항목을 검색하기 위해 정렬을 적용해야 합니다.
 

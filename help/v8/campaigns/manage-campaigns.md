@@ -5,8 +5,8 @@ description: 크로스 채널 캠페인 시작 방법 알아보기
 badge: label="Beta"
 source-git-commit: 7a04eb8c5b60b9a2545723fcb6a748c57e9d98e6
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 70%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

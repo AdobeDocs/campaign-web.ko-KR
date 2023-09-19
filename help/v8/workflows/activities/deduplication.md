@@ -3,9 +3,9 @@ audience: end-user
 title: 중복 제거 워크플로우 활동 사용
 description: 중복 제거 워크플로우 활동을 사용하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: 1f23eafc80e21b63485a774fd9052c8d03051685
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 6%
 
 ---
@@ -65,8 +65,8 @@ ht-degree: 6%
 
 1. 다음 확인: **보조 항목 생성** 나머지 모집단을 활용하려면 옵션을 선택합니다. 보완은 모든 중복으로 구성됩니다. 그런 다음 추가 전환이 활동에 추가됩니다.
 
-## 예제{#example}
+## 예제{#deduplication-example}
 
-다음 예제에서는 중복 제거 활동을 사용하여 게재를 보내기 전에 대상에서 중복을 제외합니다. 식별된 중복은 전용 중복 대상자에 추가되며 필요한 경우 다시 사용할 수 있습니다. 다음을 사용합니다. **이메일** 중복을 식별하는 필드입니다. 1개의 항목을 유지하고 **무작위** 중복 제거 방법을 참조하십시오.
+다음 예제에서는 중복 제거 활동을 사용하여 게재를 보내기 전에 대상에서 중복을 제외합니다. 식별된 복제본은 전용 대상에 추가되며 필요한 경우 재사용할 수 있습니다. 다음을 사용합니다. **이메일** 중복을 식별하는 필드입니다. 1개의 항목을 유지하고 **무작위** 중복 제거 방법을 참조하십시오.
 
 ![](../assets/workflow-deduplication-example.png)

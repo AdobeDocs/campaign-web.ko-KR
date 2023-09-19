@@ -3,7 +3,7 @@ audience: end-user
 title: 결합 워크플로 활동 사용
 description: 결합 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 81%
@@ -29,7 +29,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * **교차** 기능을 사용하면 활동에서 다른 인바운드 모집단에 공통되는 요소만 유지할 수 있습니다.
 * **제외** 기능을 사용하면 특정 기준에 따라 한 모집단에서 요소를 제외할 수 있습니다.
 
-## 조합 활동 구성 {#combine-configuration}
+## 결합 활동 구성 {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_merging_options"

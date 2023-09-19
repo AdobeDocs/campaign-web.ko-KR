@@ -3,7 +3,7 @@ audience: end-user
 title: 대상자 빌드 워크플로 활동 사용
 description: 대상자 빌드 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: a69fff5f071ca0d5fbdb2bca0714695724190cde
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 62%
@@ -35,7 +35,7 @@ ht-degree: 62%
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## 대상자 작성 활동 구성
+## 대상자 작성 활동 구성{#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
@@ -44,6 +44,8 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 
 **대상자 빌드** 활동을 구성하려면 다음 단계를 따르십시오.
+
+![](../assets/workflow-audience.png)
 
 1. **대상자 빌드** 활동을 추가합니다.
 1. 레이블을 정의합니다.
@@ -66,7 +68,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 >
 >을(를) 사용하려면 **[!UICONTROL 대상자 작성]** 활동은 Experience Platform 대상자를 타겟팅하므로 **[!UICONTROL 차원 변경]** 활동 뒤에 활동을 추가하여 대상자의 타겟팅 차원이 &quot;수신자&quot;로 설정되도록 합니다. 워크플로우 예제는 이 페이지 맨 아래에서 확인할 수 있습니다.
 
-## 예제
+## 예제{#build-audience-examples}
 
 다음은 두 가지 **대상자 빌드** 활동이 포함된 워크플로의 예입니다. 첫 번째는 포커 플레이어 대상자를 대상으로 하며 이메일 게재로 이어집니다. 두 번째는 VIP 클라이언트 대상자를 대상으로 하며 SMS 게재로 이어집니다.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 게재 보고서 푸시
 description: 푸시 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 6%
+source-wordcount: '345'
+ht-degree: 5%
 
 ---
 
@@ -16,6 +16,11 @@ ht-degree: 6%
 >id="acw_push_report_overview"
 >title="푸시 보고서 요약"
 >abstract="푸시 게재 보고 지표를 살펴보십시오."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sending_push"
+>title="전송 보고"
+>abstract="보고서 내의 전송 탭에서는 방문자가 게재와 상호 작용하고 발생할 수 있는 모든 오류에 대한 심층적인 통찰력을 제공합니다."
 
 다음 **게재 보고서 푸시** 는 푸시 채널에 대한 철저한 개요를 제공하여 광범위한 통찰력과 특정 데이터를 제공합니다. 각 게재의 성능, 효율성 및 결과에 대한 포괄적인 정보를 제공합니다.
 
@@ -68,6 +73,11 @@ ht-degree: 6%
   ![](assets/reporting_push_6.png)
 
 ## 게재 처리량 {#delivery-throughput}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_push"
+>title="게재 처리량 보고서"
+>abstract="게재 처리량 보고서는 지정된 기간 내에 전체 플랫폼의 게재 처리량에 대한 자세한 정보를 제공합니다."
 
 이 보고서는 지정된 기간 내에 전체 플랫폼의 게재 처리량에 대한 자세한 정보를 제공합니다. 메시지 게재 속도를 측정하는 데 사용되는 기본 지표는 시간당 전송된 메시지 수입니다.
 

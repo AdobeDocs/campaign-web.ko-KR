@@ -3,9 +3,9 @@ audience: end-user
 title: 중복 제거 워크플로우 활동 사용
 description: 중복 제거 워크플로우 활동을 사용하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
+source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '430'
 ht-degree: 7%
 
 ---
@@ -36,13 +36,13 @@ ht-degree: 7%
 
 다음 **중복 제거** 활동은 입니다. **타겟팅** 활동. 이 활동을 통해 인바운드 활동의 결과에서 중복을 삭제할 수 있습니다. 다음 **중복 제거** 활동은 일반적으로 타겟팅 활동 다음이나 타겟팅된 데이터를 사용할 수 있는 활동 전에 사용됩니다.
 
-## 구성
+## 중복 제거 활동 구성{#deduplication-configuration}
 
 다음 단계에 따라 **중복 제거** 활동:
 
-1. 추가 **중복 제거** 활동을 워크플로우에 추가합니다.
+![](../assets/workflow-deduplication.png)
 
-   ![](../assets/workflow-deduplication.png)
+1. 추가 **중복 제거** 활동을 워크플로우에 추가합니다.
 
 1. 다음에서 **중복을 식별하는 필드** 섹션에서 **속성 추가** 이메일 주소, 이름, 성 등 동일한 값에서 중복을 식별할 수 있는 필드를 지정하는 버튼입니다. 필드의 순서를 사용하면 먼저 처리할 필드를 지정할 수 있습니다.
 
@@ -65,5 +65,5 @@ ht-degree: 7%
 
 1. 다음 확인: **보조 항목 생성** 나머지 모집단을 활용하려면 옵션을 선택합니다. 보완은 모든 중복으로 구성됩니다. 그런 다음 추가 전환이 활동에 추가됩니다.
 
-## 예제
+## 예제{#example}
 

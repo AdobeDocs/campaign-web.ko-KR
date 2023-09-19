@@ -3,7 +3,7 @@ audience: end-user
 title: 캠페인 보고서
 description: 캠페인 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
 source-wordcount: '1853'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="보고 추적"
->abstract="보고서 내의 전송 탭은 링크당 수신자 동작, 열기 및 클릭 분류와 게재 중 가장 자주 클릭한 URL에 대한 세부 정보를 포함하여 중요한 데이터를 제공합니다."
+>abstract="보고서 내의 추적 탭은 링크당 수신자 동작, 열기 및 클릭 분류와 게재 중 가장 자주 클릭한 URL에 대한 세부 정보를 포함하여 중요한 데이터를 제공합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"

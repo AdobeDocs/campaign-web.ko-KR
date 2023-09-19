@@ -3,9 +3,9 @@ audience: end-user
 title: 결합 워크플로 활동 사용
 description: 결합 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: b81fb2bf4cc0accadce47627865379e564c8bd94
+source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '887'
 ht-degree: 81%
 
 ---
@@ -29,7 +29,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * **교차** 기능을 사용하면 활동에서 다른 인바운드 모집단에 공통되는 요소만 유지할 수 있습니다.
 * **제외** 기능을 사용하면 특정 기준에 따라 한 모집단에서 요소를 제외할 수 있습니다.
 
-## 일반 구성 {#general}
+## 조합 활동 구성 {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_merging_options"
@@ -48,13 +48,15 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 **결합** 활동 구성을 시작하려면 다음과 같은 일반적인 단계를 따르십시오.
 
+![](../assets/workflow-combine.png)
+
 1. **대상자 빌드** 활동과 같은 여러 활동을 추가하여 두 개 이상의 서로 다른 실행 분기를 구성합니다.
 1. 이전 분기에 **결합** 활동을 추가합니다.
 1. [합집합](#union), [교차](#intersection) 또는 [제외](#exclusion) 중에서 세분화 유형을 선택합니다.
 1. **계속**&#x200B;을 클릭합니다.
 1. **참여 설정** 섹션에서 참여하려는 모든 이전 활동을 선택하십시오.
 
-## 합집합 {#union}
+## 합집합 {#combine-union}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_reconciliation_options"
@@ -71,14 +73,14 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * **키 전용**: 기본 모드입니다. 다른 인바운드 전환의 요소가 동일한 키를 가지면 활동은 하나의 요소만 유지합니다. 이 옵션은 인바운드 모집단이 동질적일 경우에만 사용할 수 있습니다.
 * **열 선택**: 데이터 조정을 적용할 열 목록을 정의하려면 이 옵션을 선택합니다. 기본 세트(소스 데이터가 있는 세트)를 먼저 선택한 다음 결합에 사용할 열을 선택해야 합니다.
 
-## 교차 {#intersection}
+## 교차 {#combine-intersection}
 
 다음에서 **결합** 활동을 만들 수 있습니다. **교차**. 이를 위해 아래의 추가 단계를 수행해야 합니다.
 
 1. 중복 처리 방법을 정의하려면 **조정 유형**&#x200B;을 선택합니다. [합집합](#union) 섹션을 참조하십시오.
 1. 나머지 모집단을 처리하려면 **완료 생성** 옵션을 선택할 수 있습니다. 보조 항목에는 교차를 제외한 모든 인바운드 활동 결과의 합집합이 포함됩니다. 그런 다음 추가 아웃바운드 전환이 활동에 추가됩니다.
 
-## 제외 {#exclusion}
+## 제외 {#combine-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_exclusion_options"
@@ -103,7 +105,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 1. 필요한 경우 인바운드 테이블을 조작할 수 있습니다. 다른 차원에서 대상을 제외하려면 이 대상을 기본 대상과 동일한 타겟팅 차원으로 반환해야 합니다. 이 작업을 수행하려면 **제외 규칙** 섹션에서 **규칙 추가**&#x200B;를 클릭하고 차원 변경 조건을 지정합니다. 데이터 조정은 속성 또는 참여를 통해 수행됩니다.
 1. 나머지 모집단을 처리하려면 **완료 생성** 옵션을 선택할 수 있습니다. [교차](#intersection) 섹션을 참조하십시오.
 
-## 예제
+## 예제{#combine-examples}
 
 다음 예제에서는 **결합** 활동 및 추가 **합집합** 을 눌러 18세에서 27세 사이의 개인과 34세에서 40세 사이의 개인, 이렇게 두 쿼리의 모든 프로필을 검색합니다.
 

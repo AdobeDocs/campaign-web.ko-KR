@@ -2,10 +2,10 @@
 title: Campaign 웹에서 AI 기반 지식 도우미 사용
 description: Campaign 웹에서 AI 기반 지식 도우미 사용
 badge: label="Beta"
-source-git-commit: 4062288a3e215a9d178cdc20099180ad77374d4f
+source-git-commit: f5132968d041b82b88dbc62a8c8678be2cdd0e0c
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 1%
+source-wordcount: '330'
+ht-degree: 0%
 
 ---
 
@@ -19,18 +19,19 @@ Campaign Gen AI의 기능 덕분에 이 도우미는 사용자 경험을 혁신�
 
 ![](assets/ask-a-question.png)
 
+<!--
+## Consent {#consent-ai}
 
-## 동의 {#consent-ai}
+Campaign knowledge assistant embeeded in the contextual help boxes uses AI. Your use of this capability constitutes consent that the information you provide in your session will be collected, used, disclosed, and retained by Adobe in accordance with the terms of Adobe's Customer Feedback Program. Please do not provide any personal information about yourself or other parties (including your name or contact information) in the knowledge assistant.
 
-상황별 도움말 상자에 포함된 Campaign 지식 도우미는 AI를 사용합니다. 이 기능을 사용하면 Adobe이 Adobe의 고객 피드백 프로그램 약관에 따라 세션에서 제공하는 정보를 수집, 사용, 공개 및 보존하는 것에 동의하는 것으로 간주됩니다. 기술 지원 부서에 본인 또는 다른 당사자에 대한 개인 정보(이름 또는 연락처 정보 포함)를 제공하지 마십시오.
+## Privacy {#privacy-ai}
 
-## 개인 정보 보호 {#privacy-ai}
+Your data is encrypted and private following our standard data protection practices. Learn more about [Adobe Privacy Policies](https://www.adobe.com/privacy/policy.html){target="_blank"}.
 
-귀하의 데이터는 당사의 표준 데이터 보호 방침에 따라 암호화되고 비공개로 처리됩니다. 자세히 알아보기 [Adobe 개인정보 처리방침](https://www.adobe.com/kr/privacy/policy.html){target="_blank"}.
+The knowledge assistant AI capability does not use your data to train our models. We do not allow any partners or 3rd parties to use your data for training their models or any other purpose.
 
-지식 지원 AI 기능은 데이터를 사용하여 모델을 교육하지 않습니다. 당사는 어떠한 파트너나 제3자도 귀하의 모델 교육 또는 기타 목적으로 귀하의 데이터를 사용할 수 없습니다.
-
-Experience Cloud 앱 및 솔루션의 Adobe AI 정책에 대한 자세한 내용은 [이 페이지](https://business.adobe.com/products/sensei/adobe-sensei.html){target="_blank"}.
+For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/products/sensei/adobe-sensei.html){target="_blank"}.
+-->
 
 ## 답변 {#answers-ai}
 

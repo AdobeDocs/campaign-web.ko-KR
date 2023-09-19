@@ -3,7 +3,7 @@ audience: end-user
 title: 캠페인 시작하기
 description: 크로스 채널 캠페인 시작 방법 알아보기
 badge: label="Beta"
-source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
+source-git-commit: 1bbbcd0ad2e83bad2e35c28184d13a63da77c081
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 70%
@@ -22,12 +22,11 @@ ht-degree: 70%
 
 ## 캠페인 목록 {#access-campaigns}
 
-
 캠페인 목록에서 두 개의 탭을 사용할 수 있습니다.
 
 * **찾아보기** 탭에는 기존 캠페인이 모두 나열됩니다. 캠페인을 클릭하여 대시보드를 열거나 **캠페인 만들기** 버튼을 클릭하여 새 캠페인을 만들 수 있습니다. 이 [섹션](create-campaigns.md#create-campaigns)을 참조하십시오.
 
-* **템플릿 탭**&#x200B;에는 사용 가능한 캠페인 템플릿이 모두 나열됩니다. 기존 템플릿을 보거나 새 템플릿을 만들 수 있습니다. [자세히 보기](manage-campaign-templates.md).
+* **템플릿 탭**&#x200B;에는 사용 가능한 캠페인 템플릿이 모두 나열됩니다. 기존 템플릿을 보거나 새 템플릿을 만들 수 있습니다. [자세히 보기](#manage-campaign-templates).
 
 ![캠페인 목록](assets/campaign-list.png)
 
@@ -40,7 +39,6 @@ ht-degree: 70%
 ![캠페인 필터](assets/campaign-filter-on-dates.png)
 
 ## 캠페인 대시보드{#campaign-dashboard}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"

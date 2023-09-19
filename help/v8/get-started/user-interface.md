@@ -4,7 +4,7 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: c48b0a7dc897e169180586492a991b189453b1fb
+source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 73%
@@ -51,7 +51,7 @@ ht-degree: 73%
 
 **탐색기** 메뉴에는 클라이언트 콘솔의 폴더 계층과 동일한 폴더 계층과 함께 모든 Campaign 리소스 및 오브젝트가 표시됩니다. 모든 Campaign v8 구성 요소, 폴더 및 스키마를 찾아보고 게재, 워크플로 및 캠페인을 만듭니다.
 
-에 표시되는 항목 **탐색기** 사용자 권한에 따라 다릅니다.  적절한 권한이 있는 경우 폴더 및 하위 폴더를 추가할 수도 있습니다. 의 권한에 대해 자세히 알아보기 [이 섹션](permissions.md).
+에 표시되는 항목 **탐색기** 사용자 권한에 따라 다릅니다. 적절한 권한이 있는 경우 폴더 및 하위 폴더를 추가할 수도 있습니다. 의 권한에 대해 자세히 알아보기 [이 섹션](permissions.md).
 
 모든 목록 화면과 마찬가지로 디스플레이를 개인화하고 필요한 모든 정보를 표시하도록 열을 구성할 수 있습니다. 이 [섹션](#list-screens)을 참조하십시오.
 

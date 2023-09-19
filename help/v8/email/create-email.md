@@ -4,9 +4,9 @@ title: 첫 이메일 보내기
 description: Campaign Web UI를 사용하여 첫 이메일을 전송하는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1355'
 ht-degree: 64%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 64%
 >title="게재할 대상자 선택"
 >abstract="마케팅 메시지에 적합한 대상자를 선택합니다. 기존 대상(Campaign v8 인스턴스 또는 Adobe Experience Platform에서 이미 정의됨)을 선택하거나, 규칙 빌더를 사용하여 새 대상을 만들거나, 대상이 포함된 파일을 업로드할 수 있습니다. 컨트롤 그룹이 다음에 대해 활성화되지 않음 **파일에서 선택** 옵션 및 그 반대의 경우도 마찬가지입니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="주요 대상자 선택"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/control-group.html" text="컨트롤 그룹 설정"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="컨트롤 그룹 설정"
 
 이 사용 사례에서는 기존 대상자에게 이메일을 전송합니다.
 

@@ -2,7 +2,7 @@
 title: 수신자 및 대상자와 작업
 description: 수신자 Campaign 웹으로 작업하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: fb144e4b7186717dd0c4049d8ce884998a1adefe
+source-git-commit: cf614cbbd726cd7b12510812c49068e9ed31b631
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 22%
@@ -45,7 +45,7 @@ ht-degree: 22%
 >
 >사용 권한에 따라 데이터베이스에 저장된 전체 수신자 목록에 액세스하지 못할 수 있습니다. 의 권한에 대해 자세히 알아보기 [이 섹션](../get-started/permissions.md).
 
-또한 뉴스레터와 같은 서비스에 대한 수신자의 구독 및 구독 취소를 관리할 수 있습니다. [구독 서비스 작업 방법 알아보기](create-service.md)
+또한 뉴스레터와 같은 서비스에 대한 수신자의 구독 및 구독 취소를 관리할 수 있습니다. [구독 서비스 작업 방법 알아보기](manage-services.md)
 
 ## 대상이란 무엇입니까? {#audiences}
 

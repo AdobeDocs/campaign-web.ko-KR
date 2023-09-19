@@ -3,7 +3,7 @@ audience: end-user
 title: 이메일 게재 보고서
 description: 이메일 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 
    * **[!UICONTROL 초기 대상자]**: 타겟팅된 총 수신자 수.
 
-   * **[!UICONTROL 게재하기]**: 게재 분석 후 게재할 총 메시지 수
+   * **[!UICONTROL 게재하기]**: 게재를 준비한 후 게재할 총 메시지 수
 
    * **[!UICONTROL 제외]**: 전송된 대상에서 제외된 총 메시지 수입니다.
 +++
@@ -35,7 +35,7 @@ ht-degree: 9%
 
   +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
-   * **[!UICONTROL 메시지 전송됨]**: 게재 분석 후 게재할 총 메시지 수
+   * **[!UICONTROL 메시지 전송됨]**: 게재를 준비한 후 게재할 총 메시지 수
 
    * **[!UICONTROL 성공]**: 배달할 메시지 수와 관련하여 성공적으로 처리된 메시지 수입니다.
 

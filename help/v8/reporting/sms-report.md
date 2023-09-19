@@ -3,7 +3,7 @@ audience: end-user
 title: SMS 게재 보고서
 description: sms 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 6%
@@ -27,7 +27,7 @@ ht-degree: 6%
 
   +++SMS 게재 보고서 지표에 대해 자세히 알아보십시오.
 
-   * **[!UICONTROL 총 전송됨]**: 게재 분석 중에 처리된 총 메시지 수입니다.
+   * **[!UICONTROL 총 전송됨]**: 게재를 준비하는 동안 처리된 총 메시지 수입니다.
 
    * **[!UICONTROL 성공]**: 성공적으로 전송된 메시지 수와 총 전송된 메시지 수
 
@@ -42,7 +42,7 @@ ht-degree: 6%
 
   +++SMS 게재 보고서 지표에 대해 자세히 알아보십시오.
 
-   * **[!UICONTROL 게재하기]**: 게재 분석 중에 처리된 총 메시지 수입니다.
+   * **[!UICONTROL 게재하기]**: 게재를 준비하는 동안 처리된 총 메시지 수입니다.
 
    * **[!UICONTROL 제외]**: 분석에서 제외된 프로필 수입니다.
 +++

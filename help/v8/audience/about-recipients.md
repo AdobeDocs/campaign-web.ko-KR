@@ -2,10 +2,10 @@
 title: 수신자 및 대상자와 작업
 description: 수신자 Campaign 웹으로 작업하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: cf614cbbd726cd7b12510812c49068e9ed31b631
+source-git-commit: c46f144441dcfec08ac1ccb2171d63c2772bc051
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 22%
+source-wordcount: '919'
+ht-degree: 21%
 
 ---
 
@@ -71,11 +71,11 @@ ht-degree: 22%
 
 워크플로우의 타겟팅 차원은 첫 번째 **[!UICONTROL 대상자 작성]** 활동 및 은 워크플로우가 끝날 때까지 모든 추가 활동에서 사용됩니다. 예를 들어, 데이터베이스의 수신자에 대해 쿼리를 수행하면 아웃바운드 전환에는 수신자 유형의 데이터가 포함되며 다음 활동으로 전송됩니다.
 
-를 사용하여 워크플로우에서 타겟팅 차원을 전환할 수 있습니다. **[!UICONTROL 차원 변경]** 활동. [자세히 알아보기](../workflows/activities/change-dimension.md)
+를 사용하여 워크플로우에서 타겟팅 차원을 전환할 수 있습니다. **[!UICONTROL 차원 변경]** 활동. [자세히 알아보기](../workflows/activities/change-dimension.md) 예를 들어 구매 또는 구독과 같은 특정 테이블에 대해 데이터베이스를 쿼리한 다음 타겟팅 차원을 수신자로 변경하여 해당 수신자에게 게재를 보낼 수 있습니다.
 
 기본적으로 이메일 및 SMS 게재 템플릿은 타겟팅됩니다 **[!UICONTROL 수신자]**. 따라서 대상 차원은 의 필드를 사용합니다 **nms:recipient** 테이블. 푸시 알림의 경우 기본 대상 차원은 입니다. **가입자 애플리케이션 nms:appSubscriptionRcp**: 수신자 테이블에 연결됩니다.
 
-아래 나열된 게재에 다른 기본 제공 대상 매핑을 사용할 수도 있습니다.
+아래에 나열된 워크플로우 및 게재에서 다른 내장 대상 매핑을 사용할 수도 있습니다.
 
 | 이름 | 사용 대상 | 스키마 |
 |---|---|---|

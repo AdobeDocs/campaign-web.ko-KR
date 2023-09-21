@@ -3,9 +3,9 @@ audience: end-user
 title: 서비스 구독자에게 메시지 보내기
 description: 서비스 구독자에게 메시지를 보내는 방법 알아보기
 badge: label="Beta"
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
+source-git-commit: 073fc1ca89e5f76dfbac00db7b3d76801635dcc3
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '163'
 ht-degree: 4%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 Adobe Campaign에서 구독 서비스를 만들고 구독자에게 메시지를 보낼 수 있습니다. 에서 구독 서비스를 만드는 방법 알아보기 [이 페이지](../audience//manage-services.md#create-service).
 
-구독자에게 메시지를 보내려면 특정 대상을 만들어 구독자를 식별한 다음 아래에 설명된 대로 게재를 만듭니다. 이렇게 하려면 다음 단계를 수행합니다.
+구독자에게 메시지를 보내려면 특정 대상을 만들어 구독자를 식별한 다음 아래에 설명된 대로 게재를 만듭니다.
 
 1. 대상자 만들기. 에서 대상자에 대해 자세히 알아보기 [이 페이지](../audience/create-audience.md).
 

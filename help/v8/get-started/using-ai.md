@@ -2,7 +2,7 @@
 title: Campaign 웹에서 AI 기반 지식 도우미 사용
 description: Campaign 웹에서 AI 기반 지식 도우미 사용
 badge: label="Beta"
-source-git-commit: ece1f62e3c1e1378c576e55d8918ee145e17271f
+source-git-commit: 6ac2e49f4171b78c5e6a7ab94cb8fd0f9f380965
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -55,3 +55,4 @@ AI 기반의 Knowledge Assistant를 최대한 활용하려면 질문을 할 때 
 * 중립적인 어조로 적절한 용어와 문구를 사용하십시오.
 * 답변 등급을 매기고 피드백을 제공하여 엔지니어가 귀하의 경험을 통해 배우고 결과를 개선할 수 있도록 하십시오.
 
+<img src="assets/AI_CH.gif"/>

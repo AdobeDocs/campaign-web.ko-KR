@@ -3,9 +3,9 @@ audience: end-user
 title: 대상자 만들기 및 관리
 description: Adobe Campaign 웹에서 대상자를 만들고 관리하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: 0db6b464ddad0226f7fdf53fa1eb62ba44024b3b
+source-git-commit: d81c143b5ba45bf02558856a250868d43679a63a
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '765'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="대상자"
->abstract="이 화면에서 대상을 만들고 시각적 캔버스로 결합할 수 있습니다. 다음과 같은 다양한 워크플로우 활동 추가 **분할** 또는 **제외** 를 사용하여 새롭고 세분화된 대상을 만들 수 있습니다."
+>abstract="이 화면에서 게재의 타겟팅할 수 있는 모든 대상자 목록에 액세스할 수 있습니다. 클릭 **만들기** 과 같은 다양한 워크플로우 활동을 사용하여 시각적 캔버스로 새 대상자를 만들려면 **분할** 또는 **제외**."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"

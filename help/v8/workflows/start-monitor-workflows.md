@@ -4,9 +4,9 @@ title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 빌드하는 방법 알아보기
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 1adcfdaaf2752173911182ac8241706f878a12a1
+source-git-commit: 5305880fed452ce07b168c0001386c1836c5afda
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '569'
 ht-degree: 6%
 
 ---
@@ -24,10 +24,6 @@ ht-degree: 6%
 시각적인 흐름을 사용하여 실시간으로 타겟팅된 프로필의 진행 상황을 추적할 수 있습니다. 이렇게 하면 각 활동의 상태와 활동 간에 전환되는 프로필 수를 빠르게 식별할 수 있습니다.
 
 ![](assets/workflow-execution.png)
-
->[!NOTE]
->
->다음을 사용하여 시각적 흐름을 비활성화할 수 있습니다. **[!UICONTROL 진행률 숨기기]** 캔버스의 맨 위 작업 막대에 있는 단추입니다.
 
 ## 워크플로우 전환 {#transitions}
 

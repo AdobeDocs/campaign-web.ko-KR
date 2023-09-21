@@ -3,10 +3,10 @@ audience: end-user
 title: 서비스 구독자에게 메시지 보내기
 description: 서비스 구독자에게 메시지를 보내는 방법 알아보기
 badge: label="Beta"
-source-git-commit: 073fc1ca89e5f76dfbac00db7b3d76801635dcc3
+source-git-commit: e5ef71de970468fce418cc06cb9d2c25c0c40306
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 4%
+source-wordcount: '185'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,11 @@ Adobe Campaign에서 구독 서비스를 만들고 구독자에게 메시지를 
 
 1. 대상자를 저장합니다.
 1. 게재 만들기. 게재를 만드는 단계는에 자세히 설명되어 있습니다. [이 페이지](../msg/gs-messages.md#create-delivery).
-1. 위에서 만든 대상자를 선택합니다.
+1. 게재 설정으로 이동하여 기본 대상 매핑을 다음으로 변경 **구독(nms:subscriptions)**.
+
+   ![](assets/service-delivery-change-mapping.png)
+
+1. 게재의 기본 타겟 섹션에서 위에서 만든 대상자를 선택합니다.
 
    ![](assets/service-delivery-targeting-subscribers.png)
 

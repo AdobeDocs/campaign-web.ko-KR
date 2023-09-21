@@ -2,9 +2,9 @@
 title: Campaign 웹 UI의 보호 기능 및 제한 사항
 description: Campaign 웹 UI의 보호 기능 및 제한 사항
 badge: label="Beta"
-source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
+source-git-commit: 65ae0d382f82e1acb1f66bc1140b4f7e857180d6
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '588'
 ht-degree: 4%
 
 ---
@@ -50,7 +50,7 @@ Campaign 클라이언트 콘솔에서 만들거나 수정한 구성 요소로 Ca
 | --- | --- |
 | ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
 
-활동이 추가되거나 제거될 때마다 노드의 위치가 새로 고쳐집니다. 콘솔에서 워크플로우를 만들고 웹 UI를 사용하여 수정한 후 콘솔에서 다시 열면 몇 가지 사소한 위치 지정 불완결성을 볼 수 있습니다. 이 작업은 워크플로에 영향을 주지 않습니다.
+활동이 추가되거나 제거될 때마다 노드의 위치가 새로 고쳐집니다. 콘솔에서 워크플로우를 만들고 웹 UI를 사용하여 수정한 후 콘솔에서 다시 열면 몇 가지 사소한 위치 지정 불완결성을 볼 수 있습니다. 이는 워크플로우의 프로세스 및 작업에 영향을 주지 않습니다.
 
 | 초기 워크플로우 | 위치 변경 |
 | --- | --- |

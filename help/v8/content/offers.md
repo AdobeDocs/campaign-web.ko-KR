@@ -1,18 +1,18 @@
 ---
 audience: end-user
-title: 오퍼 전송
-description: 오퍼 전송
+title: 메시지에 오퍼 추가
+description: 오퍼 추가 및 전송 방법 알아보기
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Beta"
-source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 34%
+source-wordcount: '782'
+ht-degree: 33%
 
 ---
 
 
-# 오퍼 전송 {#offers-content}
+# 메시지에 오퍼 추가 {#offers-content}
 
 Adobe Campaign v8 웹을 사용하면 콘솔에서 생성된 게재 오퍼를 **[!UICONTROL 상호 작용]** 모듈. 상호 작용 및 콘솔에서 오퍼 카탈로그를 관리하는 방법에 대한 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 

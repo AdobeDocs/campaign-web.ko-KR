@@ -3,9 +3,9 @@ audience: end-user
 title: 서비스 구독자 관리
 description: Adobe Campaign 웹에서 서비스 구독자를 관리하고 제공하는 방법에 대해 알아봅니다
 badge: label="Beta"
-source-git-commit: 5125de258edd4e3eda9a8507228156ee40215532
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,9 @@ ht-degree: 0%
 
 # 서비스 구독자 관리 {#manage-subscribers}
 
-한 번 [서비스를 만들었습니다.](manage-services.md#create-service), 구독자를 추가하고, 수신자의 구독을 취소하고, 해당 서비스의 구독자에게 전달할 수 있습니다.
+한 번 [서비스를 만들었습니다.](manage-services.md#create-service), 가입자를 추가하고, 수신자의 가입을 해지하고, 해당 서비스 가입자에게 메시지를 보낼 수 있습니다.
+
+구독자 관리는 이 페이지에 자세히 설명되어 있습니다. 구독자에게 메시지를 보내는 방법에 대해 알아보려면 을 참조하십시오. [이 섹션](../content/send-to-subscribers.md).
 
 ## 서비스에 구독자 추가 {#add-subscribers}
 
@@ -62,25 +64,3 @@ ht-degree: 0%
 ![](assets/service-create-validity-period.png)
 
 지정된 기간이 만료되면 모든 구독자는 해당 서비스에서 자동으로 구독 취소됩니다.
-
-## 서비스 구독자에게 게재
-
-한 번 [구독 서비스를 만들었습니다.](manage-services.md#create-service), 게재 시 구독자를 타겟팅할 수 있습니다. 아래 단계를 수행합니다.
-
-1. [대상자 만들기](../audience/create-audience.md) 만든 서비스의 구독자를 포함합니다.
-
-   * 다음에서 **[!UICONTROL 대상자 작성]** 활동, 고급 속성 표시 및 선택 **[!UICONTROL 수신자]** > **[!UICONTROL 구독]** > **[!UICONTROL 서비스]**.
-
-   * 이 예에서는 다음과 같은 서비스를 구독한 사용자를 선택합니다. **Luma 뉴스레터** 레이블.
-
-   ![](assets/service-audience-subscribers.png)
-
-1. [게재 만들기](../msg/gs-messages.md#create-delivery) 위에서 만든 대상자를 선택합니다.
-
-   ![](assets/service-delivery-targeting-subscribers.png)
-
-1. 메시지 콘텐츠를 원하는 대로 편집하고 게재를 보냅니다.
-
-   ![](assets/service-delivery-ready.png)
-
-게재는 해당 서비스 가입자에게만 전송됩니다.

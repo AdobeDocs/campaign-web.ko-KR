@@ -2,9 +2,9 @@
 title: 수신자 및 대상자와 작업
 description: 수신자 Campaign 웹으로 작업하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: 899d6306e1de90c4c9b38a30061f97fa72fe7123
+source-git-commit: 2b4928f6e5897d04889f822921e355a7c1360c80
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '949'
 ht-degree: 21%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 21%
 
 ## 타겟팅 차원 {#targeting-dimensions}
 
-타겟팅 차원은 작업에서 처리하는 데이터 유형입니다. 대상 모집단(수신자, 계약 수혜자, 운영자, 구독자 등)을 정의할 수 있습니다.
+타겟팅 차원(예: ) 대상 매핑은 작업에서 처리하는 데이터 유형입니다. 대상 모집단(수신자, 계약 수혜자, 운영자, 구독자 등)을 정의할 수 있습니다.
 
 워크플로우의 타겟팅 차원은 첫 번째 **[!UICONTROL 대상자 작성]** 활동 및 은 워크플로우가 끝날 때까지 모든 추가 활동에서 사용됩니다. 예를 들어, 데이터베이스의 수신자에 대해 쿼리를 수행하면 아웃바운드 전환에는 수신자 유형의 데이터가 포함되며 다음 활동으로 전송됩니다.
 

@@ -2,7 +2,7 @@
 title: Campaign 웹에서 AI 기반 지식 도우미 사용
 description: Campaign 웹에서 AI 기반 지식 도우미 사용
 badge: label="Beta"
-source-git-commit: 6ac2e49f4171b78c5e6a7ab94cb8fd0f9f380965
+source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Campaign Gen AI의 기능 덕분에 이 도우미는 사용자 경험을 혁신하여 정보를 검색하고 문제를 쉽게 해결할 수 있습니다. 복잡한 작업에서 지침을 찾거나 광범위한 문서를 탐색하는 경우, Gen AI를 사용하는 Knowledge Assistant는 모든 상호 작용에 있어 탁월한 효율성과 정확성을 제공하는 최고의 동반자입니다.
 
-![](assets/ask-a-question.png){width="70%" align="left"}
+<img src="assets/AI_CH.gif" width="80%"/>
 
 <!--
 ## Consent {#consent-ai}
@@ -55,4 +55,4 @@ AI 기반의 Knowledge Assistant를 최대한 활용하려면 질문을 할 때 
 * 중립적인 어조로 적절한 용어와 문구를 사용하십시오.
 * 답변 등급을 매기고 피드백을 제공하여 엔지니어가 귀하의 경험을 통해 배우고 결과를 개선할 수 있도록 하십시오.
 
-<img src="assets/AI_CH.gif"/>
+

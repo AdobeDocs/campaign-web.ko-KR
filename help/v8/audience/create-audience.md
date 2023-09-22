@@ -3,9 +3,9 @@ audience: end-user
 title: 대상자 만들기 및 관리
 description: Adobe Campaign 웹에서 대상자를 만들고 관리하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: d81c143b5ba45bf02558856a250868d43679a63a
+source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '780'
 ht-degree: 1%
 
 ---
@@ -73,6 +73,11 @@ Campaign 웹을 사용하면 시각적 워크플로우 캔버스로 새로운 �
 1. 다음 **[!UICONTROL 대상자 저장]** 각 경로의 끝에 있는 활동은 각 경로에서 계산된 모집단을 포함하여 데이터베이스에 두 개의 새 대상을 만듭니다.
 
 ## 대상자 모니터링 및 관리 {#monitor}
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_workflow_error_data_execution"
+>title="대상 오류"
+>abstract="대상 데이터를 사용할 수 없습니다. 워크플로우 실행이 종료될 때까지 기다려 주십시오."
 
 Campaign 웹에서 사용할 수 있는 대상자 목록은 **[!UICONTROL 대상]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 

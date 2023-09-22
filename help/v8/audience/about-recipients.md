@@ -2,17 +2,17 @@
 title: 수신자 및 대상자와 작업
 description: 수신자 Campaign 웹으로 작업하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: c4d1558f766e3e686a035e8e26adcdc3a978765a
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 20%
+ht-degree: 19%
 
 ---
 
 
 # 수신자 및 대상자와 작업 {#about-recipients}
 
-Adobe Campaign에서 게재의 대상 모집단은 대상자입니다. 유사한 행동 및/또는 특성을 공유하는 사람들의 대상자 세트입니다. 이 사람 컬렉션은 생성, 선택 또는 로드될 수 있습니다. [아래에 자세히 설명됨](#audiences). 대부분의 경우 대상자는 프로필로 구성되며, 프로필은 [수신자](#recipients) Adobe Campaign. 설명된 대로 차원을 변경하여 다른 대상 매핑과 작업할 수도 있습니다 [이 섹션에서](#targeting-dimensions).
+Adobe Campaign에서 게재의 대상 모집단은 대상자입니다. 대상자는 유사한 행동 및/또는 특성을 공유하는 사람들의 집합입니다. 이 사람 컬렉션은 생성, 선택 또는 로드될 수 있습니다. [아래에 자세히 설명됨](#audiences). 대부분의 경우 대상자는 프로필로 구성되며, 프로필은 [수신자](#recipients) Adobe Campaign. 설명된 대로 차원을 변경하여 다른 대상 매핑과 작업할 수도 있습니다 [이 섹션에서](#targeting-dimensions).
 
 ## 수신자란? {#recipients}
 
@@ -58,8 +58,7 @@ Adobe Campaign에서 게재의 대상 모집단은 대상자입니다. 유사한
 대상자의 모집단을 정의하려면 다음을 수행할 수 있습니다.
 
 * [새 대상 만들기](create-audience.md) 다음에서 **[!UICONTROL 대상]** 메뉴,
-* [기존 대상자 선택](add-audience.md) 클라이언트 콘솔에 목록으로 만들어짐
-* [Adobe Experience Platform 대상자를 선택합니다](aep-audience.md),
+* [기존 대상자 선택](add-audience.md) 클라이언트 콘솔에 목록으로 만들어지거나 Adobe Experience Platform에서 가져옴
 * [필터링 기준을 정의 및 결합하여 규칙 빌더를 통해 새로운 대상자를 빌드합니다,](segment-builder.md)
 * [외부 파일의 대상자 사용](file-audience.md). 이 옵션은 독립형 이메일 게재에만 사용할 수 있으며 캠페인 게재에는 사용할 수 없습니다.
 
@@ -75,7 +74,7 @@ Adobe Campaign에서 게재의 대상 모집단은 대상자입니다. 유사한
 
 워크플로우의 타겟팅 차원은 첫 번째 **[!UICONTROL 대상자 작성]** 활동 및 은 워크플로우가 끝날 때까지 모든 추가 활동에서 사용됩니다. 예를 들어, 데이터베이스의 수신자에 대해 쿼리를 수행하면 아웃바운드 전환에는 수신자 유형의 데이터가 포함되며 다음 활동으로 전송됩니다.
 
-를 사용하여 워크플로우에서 타겟팅 차원을 전환할 수 있습니다. **[!UICONTROL 차원 변경]** 활동. [자세히 알아보기](../workflows/activities/change-dimension.md) 예를 들어 구매 또는 구독과 같은 특정 테이블에 대해 데이터베이스를 쿼리한 다음 타겟팅 차원을 수신자로 변경하여 해당 수신자에게 게재를 보낼 수 있습니다.
+를 사용하여 워크플로우에서 타겟팅 차원을 전환할 수 있습니다. [차원 활동 변경](../workflows/activities/change-dimension.md). 예를 들어 구매 또는 구독과 같은 특정 테이블에 대해 데이터베이스를 쿼리한 다음 타겟팅 차원을 수신자로 변경하여 해당 수신자에게 게재를 보낼 수 있습니다.
 
 기본적으로 이메일 및 SMS 게재 템플릿은 타겟팅됩니다 **[!UICONTROL 수신자]**. 따라서 대상 차원은 의 필드를 사용합니다 **nms:recipient** 테이블. 푸시 알림의 경우 기본 대상 차원은 입니다. **가입자 애플리케이션 nms:appSubscriptionRcp**: 수신자 테이블에 연결됩니다.
 

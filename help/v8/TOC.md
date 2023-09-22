@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: 캠페인 개요
 hide: true
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 85%
+source-wordcount: '422'
+ht-degree: 82%
 
 ---
 
@@ -85,13 +85,14 @@ ht-degree: 85%
       + [이메일 렌더링](preview-test/email-rendering.md)
 + 대상자 및 수신자 {#audiences}
    + [수신자 및 대상자와 작업](audience/about-recipients.md)
-   + [대상자 만들기 및 관리](audience/create-audience.md)
-   + Target 대상자 {#target-audiences}
+   + [대상자 만들기](audience/create-audience.md)
+   + 게재 수신자 선택 {#target-audiences}
       + [기존 대상자 선택](audience/add-audience.md)
-      + [규칙 빌더를 사용하여 대상자 정의](audience/segment-builder.md)
-      + [파일에서 이메일 대상자 로드](audience/file-audience.md)
-      + [Adobe Experience Platform 대상자 사용](audience/aep-audience.md)
+      + [일회성 대상자 작성](audience/one-time-audience.md)
+      + [파일에서 대상자 로드](audience/file-audience.md)
       + [컨트롤 그룹 설정](audience/control-group.md)
+   + [규칙 빌더 작업](audience/segment-builder.md)
+   + [대상자 모니터링 및 관리](audience/manage-audience.md)
    + 구독 서비스 작업 {#work-with-services}
       + [서비스 관리](audience/manage-services.md)
       + [구독자 관리](audience/manage-subscribers.md)

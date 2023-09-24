@@ -2,7 +2,7 @@
 title: Campaign 웹에서 AI 기반 지식 도우미 사용
 description: Campaign 웹에서 AI 기반 지식 도우미 사용
 badge: label="Beta"
-source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
+source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 다음 **Gen AI를 사용하는 기술 지원** 상황별 도움말에 포함되어 방대한 설명서 저장소를 손쉽게 탐색하여 설명서 검색 및 사용 방법 질문에 대한 대답 기능을 혁신적으로 개선하고 필요한 정확한 정보를 즉시 정확하게 찾아냅니다.
 
-Campaign Gen AI의 기능 덕분에 이 도우미는 사용자 경험을 혁신하여 정보를 검색하고 문제를 쉽게 해결할 수 있습니다. 복잡한 작업에서 지침을 찾거나 광범위한 문서를 탐색하는 경우, Gen AI를 사용하는 Knowledge Assistant는 모든 상호 작용에 있어 탁월한 효율성과 정확성을 제공하는 최고의 동반자입니다.
+Campaign Gen AI의 기능 덕분에 이 도우미는 사용자 경험을 혁신하여 정보를 검색하고 문제를 쉽게 해결할 수 있습니다. 복잡한 작업에서 지침을 찾거나 광범위한 문서를 탐색하는 경우에도 AI 기반의 Knowledge Assistant는 모든 상호 작용에서 탁월한 효율성과 정확성을 제공하는 최고의 동반자입니다.
 
 <img src="assets/AI_CH.gif" width="80%"/>
 
@@ -39,7 +39,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## 답변 {#answers-ai}
 
-답은 부정확하거나 오해의 소지가 있을 수 있다. 그 결과, Adobe 지식 어시스턴트는 잘못된 정보를 출력할 수 있다. 모든 도움말 상자에 연결된 제품 설명서를 확인하십시오.
+답은 부정확하거나 오해의 소지가 있을 수 있다. 따라서 Adobe Campaign AI 기반의 Knowledge Assistant는 잘못된 정보를 출력할 수 있습니다. 모든 도움말 상자에 연결된 제품 설명서를 확인하십시오.
 
 인공 지능과 머신 러닝 모델은 특정 사용 사례를 더 잘 해결하기 위해 시간이 지남에 따라 개선된다. Campaign AI 기반 지식 도우미는 앞으로 몇 달 동안 계속 향상될 것입니다. ??를 사용하는 것이 좋습니다 ??를 읽으면 언제든지 버튼을 눌러 엔지니어에 대한 부적절한 응답을 표시합니다.
 

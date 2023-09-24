@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
+source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 73%
+source-wordcount: '1263'
+ht-degree: 77%
 
 ---
 
@@ -85,7 +85,7 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="오퍼"
->abstract="를 사용하여 콘솔에서 생성된 오퍼 및 오퍼 템플릿 목록을 탐색합니다. **상호 작용** 모듈. 이 목록은 읽기 전용입니다."
+>abstract="**상호 작용** 모듈을 사용하여 콘솔에서 생성된 오퍼 및 오퍼 템플릿 목록을 탐색합니다. 이 목록은 읽기 전용입니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="게재에 오퍼 추가"
 
 의사 결정 관리 섹션에서 오퍼 및 오퍼 템플릿을 볼 수 있습니다. 이 목록은 읽기 전용입니다.
@@ -115,9 +115,9 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 ![](assets/context-help.png){width="40%" align="left"}
 
-새 Beta 버전을 사용하면 **Gen AI를 사용하는 기술 지원** 상황별 도움말에 포함되어 방대한 설명서 저장소를 손쉽게 탐색하여 설명서 검색 및 사용 방법 질문에 대한 대답 기능을 혁신적으로 개선하고 필요한 정확한 정보를 즉시 정확하게 찾아냅니다.
+새 Beta 버전을 사용하면 **AI 기반 기술 지원** 상황별 도움말에 포함되어 방대한 설명서 저장소를 손쉽게 탐색하여 설명서 검색 및 사용 방법 질문에 대한 대답 기능을 혁신적으로 개선하고 필요한 정확한 정보를 즉시 정확하게 찾아냅니다.
 
-Campaign Gen AI의 기능 덕분에 이 도우미는 사용자 경험을 혁신하여 정보를 검색하고 문제를 쉽게 해결할 수 있습니다. 복잡한 작업에서 지침을 찾거나 광범위한 문서를 탐색하는 경우, Gen AI를 사용하는 Knowledge Assistant는 모든 상호 작용에 있어 탁월한 효율성과 정확성을 제공하는 최고의 동반자입니다.
+Campaign Gen AI의 기능 덕분에 이 도우미는 사용자 경험을 혁신하여 정보를 검색하고 문제를 쉽게 해결할 수 있습니다. 복잡한 작업에서 지침을 찾거나 광범위한 문서를 탐색하는 경우에도 AI 기반의 Knowledge Assistant는 모든 상호 작용에서 탁월한 효율성과 정확성을 제공하는 최고의 동반자입니다.
 
 [이 섹션](using-ai.md)에서 자세히 알아보십시오.
 
@@ -184,19 +184,14 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 >[!CONTEXTUALHELP]
->id="acw_reporting_email_exportation"
->title="내보내기"
->abstract="선택한 페이지만 내보낼 수 있습니다."
-
->[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
 >title="글로벌 보고서 전송"
->abstract="추적 보고 지표는 이 화면에 표시됩니다"
+>abstract="보고 추적 지표가 이 화면에 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_tracking"
 >title="글로벌 보고서 추적"
->abstract="추적 보고 지표는 이 화면에 표시됩니다"
+>abstract="보고 추적 지표가 이 화면에 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"

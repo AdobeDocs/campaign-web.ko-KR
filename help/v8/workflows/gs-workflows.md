@@ -5,9 +5,9 @@ description: 워크플로를 시작하는 방법 알아보기
 badge: label="Beta"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
 source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 89%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
->title="더 많은 캠페인 워크플로우 활동"
->abstract="자동화 및 최적화에 대한 새로운 가능성을 열어 보다 역동적이고 개인화된 고객 여정을 만들 수 있습니다. 고급 세그먼테이션에서 조건부 트리거에 이르기까지 추가적인 워크플로우 활동을 통해 타겟팅된 메시지를 전달하고 캠페인 성과를 높일 수 있습니다."
+>title="더 많은 캠페인 워크플로 활동"
+>abstract="자동화 및 최적화를 위한 새로운 가능성을 열어 더욱 동적이고 개인화된 고객 여정을 창출할 수 있습니다. 고급 세분화에서 조건부 트리거에 이르기까지 추가적인 워크플로 활동을 통해 타겟팅된 메시지를 전달하고 캠페인 성과를 높일 수 있습니다."
 
 ## 워크플로란?
 

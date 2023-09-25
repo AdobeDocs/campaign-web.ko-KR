@@ -5,9 +5,9 @@ description: Campaign v8 Web 시작하기
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Beta"
 source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '493'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign은 크로스 채널 고객 경험을 디자인할 수 있는 플�
 
 >[!NOTE]
 >
->Campaign v8 웹은 현재 베타 버전입니다. 액세스 권한은 소규모 베타 고객으로 제한됩니다. 제품 인터페이스, 기능 및 사용 흐름은 예고 없이 변경될 수 있습니다.
+>현재 Campaign v8 Web은 Beta 버전입니다. 소수의 Beta 고객만 액세스할 수 있습니다. 제품 인터페이스, 기능 및 사용 흐름은 예고 없이 변경될 수 있습니다.
 
 ## Campaign에 연결
 

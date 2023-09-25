@@ -3,9 +3,9 @@ audience: end-user
 title: 이메일 게재 보고서
 description: 이메일 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: c8bce23d78960fcc5c9adbb37d376d60319d8df9
+source-git-commit: 9693d4b0ca6f870b8f23b950050a68ac2674db5d
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: '1932'
 ht-degree: 7%
 
 ---
@@ -301,6 +301,12 @@ ht-degree: 7%
 >id="acw_delivery_reporting_breakdown_os"
 >title="OS별 분류"
 >abstract="다음 **OS별 분류** 해당 기간에 대한 운영 체제별 열기 분석을 표시합니다. 첫 번째 차트에는 컴퓨터 및 모바일 장치의 열림에 대한 통계가 표시됩니다. 두 번째 차트에는 모바일 디바이스에서의 열람과 관련된 통계만 표시됩니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_breakdown_browser"
+>title="브라우저별 분류"
+>abstract="다음 **브라우저별 분류** 해당 기간에 대한 브라우저별 열기 분류를 표시합니다. 첫 번째 차트에는 컴퓨터 및 모바일 장치의 열림에 대한 통계가 표시됩니다. 두 번째 차트에는 모바일 디바이스에서의 열람과 관련된 통계만 표시됩니다."
+
 
 이 보고서는 해당 기간에 대한 운영 체제, 장치 및 브라우저별 열기 분석을 보여 줍니다. 각 범주별로 두 개의 차트가 사용됩니다. 첫 번째 차트에는 컴퓨터 및 모바일 디바이스에서의 열람과 관련된 통계가 표시됩니다. 두 번째 차트에는 모바일 디바이스에서의 열람과 관련된 통계만 표시됩니다.
 

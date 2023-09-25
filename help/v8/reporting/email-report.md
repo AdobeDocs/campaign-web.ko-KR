@@ -3,7 +3,7 @@ audience: end-user
 title: 이메일 게재 보고서
 description: 이메일 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: cc58e6bcf030885ba364df7dfd51de797117120c
+source-git-commit: 36a3753a332d92ba4156770ccd6d37f4b404bd43
 workflow-type: tm+mt
 source-wordcount: '2205'
 ht-degree: 8%
@@ -30,11 +30,11 @@ ht-degree: 8%
 
 다음 **[!UICONTROL 초기 대상 모집단]** 그래프는 수신자와 관련된 데이터를 표시합니다. 지표는 게재를 준비하는 동안 계산되며 초기 대상자, 보낼 메시지 수, 제외된 수신자 수를 표시합니다.
 
-![](assets/reporting_email_1.png){width="50%" align="center" zoomable="yes"}
+![](assets/reporting_email_1.png){width="50%" align="left" zoomable="yes"}
 
 정확한 숫자를 표시하려면 마우스를 그래프의 일부 위에 놓습니다.
 
-![](assets/reporting_email_1.1.png){width="50%" align="center" zoomable="yes"}
+![](assets/reporting_email_1.1.png){width="50%" align="left" zoomable="yes"}
 
 
 +++이메일 게재 보고서 지표에 대해 자세히 알아보십시오.
@@ -57,7 +57,7 @@ ht-degree: 8%
 
 다음 **[!UICONTROL 게재 통계]** 그래프는 게재의 성공을 자세히 설명합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/reporting_email_2.png){width="50%" align="center" zoomable="yes"}
+![](assets/reporting_email_2.png){width="50%" align="left" zoomable="yes"}
 
 +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 

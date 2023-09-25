@@ -4,10 +4,10 @@ title: 게재 설정
 description: Campaign 웹에서 게재 설정에 대해 자세히 알아보기
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
 workflow-type: tm+mt
-source-wordcount: '2094'
-ht-degree: 77%
+source-wordcount: '2112'
+ht-degree: 82%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 77%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
->title="유형화 게재 설정"
+>title="유형화 게재에 대한 설정"
 >abstract="유형화 규칙을 통해 마케터는 모든 게재에 걸쳐 비즈니스 사례를 표준화할 수 있습니다. 유형화는 게재 전송에 대해 제어, 필터링 및 우선 순위 지정을 수행할 수 있는 유형화 규칙 모음입니다. 유형화 규칙 내의 기준과 일치하는 프로필은 준비 단계에 게재 대상자에서 제외됩니다."
 
 
@@ -55,7 +55,7 @@ ht-degree: 77%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
->title="게재에 대한 압력 매개 변수"
+>title="게재에 대한 압력 매개변수"
 >abstract="게재 가중치를 통해 피로도 관리 프레임워크 내에서 최우선 게재를 식별할 수 있습니다. 가중치가 가장 높은 메시지는 우선 순위가 높습니다."
 
 
@@ -108,16 +108,15 @@ ht-degree: 77%
 
 ## 대상자 설정 {#audience}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
 >title="게재에 대한 대상자 설정"
->abstract="선택 **대상 매핑** 가능한 것들 중에서. 대상 매핑은 Adobe Campaign v8 콘솔에서 정의됩니다. 게재에 대한 제외 매개 변수를 설정할 수도 있습니다. "
+>abstract="사용 가능한 **대상 매핑** 중 원하는 옵션을 선택합니다. 대상 매핑은 Adobe Campaign v8 콘솔에서 정의됩니다. 게재에 대한 제외 매개변수를 설정할 수도 있습니다. "
+
+이 섹션에서는 사용 가능한 **대상 매핑** 중 원하는 옵션을 선택할 수 있습니다. 대상 매핑은 Adobe Campaign v8 콘솔에서 정의됩니다. 타겟팅 차원 또는 타겟 매핑은 작업에서 처리하는 데이터 유형입니다. 대상 모집단(수신자, 계약 수혜자, 운영자, 구독자 등)을 정의할 수 있습니다.
 
 
-이 섹션에서는 사용 가능한 **대상 매핑** 중 원하는 옵션을 선택할 수 있습니다. 대상 매핑은 Adobe Campaign v8 콘솔에서 정의됩니다.
-
-다음에서 대상 매핑에 대해 자세히 알아보기: [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+다음에서 대상 매핑에 대해 자세히 알아보기: [이 섹션](../audience/about-recipients.md#targeting-dimensions).
 
 ## 게재 {#delivery}
 
@@ -139,10 +138,10 @@ ht-degree: 77%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
->title="게재용 웹 분석 설정"
->abstract="웹 분석 계정을 선택합니다. 이 계정은 Campaign 클라이언트 콘솔에 구성됩니다. 사용 중인 분석 도구와 공유되는 태그를 정의할 수도 있습니다."
+>title="게재에 대한 웹 분석 설정"
+>abstract="웹 분석 계정을 선택합니다. 이 계정은 Campaign 클라이언트 콘솔에서 구성됩니다. 사용 중인 분석 도구와 공유되는 태그를 정의할 수도 있습니다."
 
-이 섹션에서 웹 분석 계정을 선택할 수 있습니다. 이 계정은 Campaign 클라이언트 콘솔에 구성됩니다.
+이 섹션에서 웹 분석 계정을 선택할 수 있습니다. 이 계정은 Campaign 클라이언트 콘솔에서 구성됩니다.
 
 사용 중인 분석 도구와 공유되는 태그를 정의할 수도 있습니다.
 
@@ -170,7 +169,7 @@ ht-degree: 77%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_approval"
->title="게재에 대한 승인 모드"
+>title="게재 승인 모드"
 >abstract="이 템플릿을 기반으로 게재에 대한 승인 모드를 선택합니다. 게재 준비 중에 경고가 생성되면 게재를 계속 실행해야 하는지 여부를 정의하도록 구성할 수 있습니다."
 
 게재 준비 중에 경고가 생성되면 게재를 계속 실행해야 하는지 여부를 정의하도록 구성할 수 있습니다. 사용자는 기본적으로 분석 단계가 끝나면 메시지 전송을 확인해야 합니다. 이를 **수동** 유효성 검사라고 합니다.
@@ -262,7 +261,7 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_testsettings"
 >title="게재에 대한 테스트 설정"
->abstract="제외 매개 변수를 선택하고 테스트 이메일의 레이블을 사용자 지정합니다."
+>abstract="제외 매개변수를 선택하고 테스트 이메일의 레이블을 사용자 정의합니다."
 
 이 섹션에서는 제외 매개변수를 설정할 수 있습니다. 사용 가능한 옵션은 다음과 같습니다.
 

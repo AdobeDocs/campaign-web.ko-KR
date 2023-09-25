@@ -3,10 +3,10 @@ audience: end-user
 title: 대상자 빌드 워크플로 활동 사용
 description: 대상자 빌드 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
+source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 62%
+source-wordcount: '478'
+ht-degree: 75%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 62%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
->title="대상자 활동 작성"
->abstract="다음 **대상자 작성** 활동을 통해 워크플로우에 들어갈 대상자를 정의할 수 있습니다. 워크플로우 컨텍스트에서 메시지를 보낼 때 메시지 대상자는 채널 활동에 정의되지 않고 **대상자 작성** 활동."
+>title="대상자 빌드 활동"
+>abstract="**대상자 빌드** 활동을 통해 워크플로에 참여할 대상자를 정의할 수 있습니다. 워크플로 컨텍스트에서 메시지를 전송할 때 메시지 대상자는 채널 활동에서 정의되지 않고 **대상자 빌드** 활동에서 정의됩니다."
 
 
-**대상자 빌드** 활동은 **타겟팅** 활동입니다. 이 활동을 통해 워크플로에 참여할 대상자를 정의할 수 있습니다. 워크플로우 컨텍스트에서 메시지를 보낼 때 메시지 대상자는 채널 활동에 정의되지 않고 **대상자 작성** 활동.
+**대상자 빌드** 활동은 **타겟팅** 활동입니다. 이 활동을 통해 워크플로에 참여할 대상자를 정의할 수 있습니다. 워크플로 컨텍스트에서 메시지를 전송할 때 메시지 대상자는 채널 활동에서 정의되지 않고 **대상자 빌드** 활동에서 정의됩니다.
 
 대상자 모집단을 정의하기 위해 수행할 수 있는 작업은 다음과 같습니다.
 
@@ -54,7 +54,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 자체 쿼리를 만들려면 다음 추가 단계를 따르십시오.
 
 1. **직접 만들기(쿼리)**&#x200B;를 선택합니다.
-1. **차원 타겟팅**&#x200B;을 선택합니다. 타겟팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타겟팅하는 모집단을 정의할 수 있습니다. 기본적으로 대상은 수신자 중에서 선택됩니다. [v8 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}를 참조하십시오.
+1. **차원 타겟팅**&#x200B;을 선택합니다. 타겟팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타겟팅하는 모집단을 정의할 수 있습니다. 기본적으로 대상은 수신자 중에서 선택됩니다. 에서 타겟팅 차원에 대해 자세히 알아보십시오. [이 섹션](../../audience/about-recipients.md#targeting-dimensions).
 1. **계속**&#x200B;을 클릭합니다.
 1. 규칙 빌더를 사용하여 새 이메일을 디자인할 때, 대상자를 만드는 것과 같은 방식으로 쿼리를 정의하십시오. 이 [섹션](../../audience/segment-builder.md)을 참조하십시오.
 

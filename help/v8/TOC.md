@@ -8,7 +8,7 @@ hide: true
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 82%
+ht-degree: 93%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 82%
    + [목록 찾아보기, 검색 및 필터링](get-started/list-filters.md)
    + [사전 정의된 필터 작업](get-started/predefined-filters.md)
    + [액세스 및 권한](get-started/permissions.md)
-   + [보호 기능 및 제한 사항](get-started/guardrails.md)
+   + [가드레일 및 제한 사항](get-started/guardrails.md)
    + [지원되지 않는 기능](get-started/unsupported.md)
    + [도움말 및 지침 찾기](get-started/using-ai.md)
 + 메시지 및 게재 {#msg}
@@ -47,10 +47,10 @@ ht-degree: 82%
             + [프리 헤더 추가](content/preheader.md)
             + [텍스트 버전 생성](content/text-version-email.md)
          + 콘텐츠 지원 {#content-assistant}
-            + [콘텐츠 지원 시작](content/generative-gs.md)
-            + [콘텐츠 도우미를 사용하여 텍스트 생성](content/generative-content.md)
-            + [콘텐츠 도우미를 사용하여 이미지 생성](content/generative-image.md)
-            + [콘텐츠 도우미를 사용하여 이메일 생성](content/generative-email.md)
+            + [콘텐츠 지원 시작하기](content/generative-gs.md)
+            + [콘텐츠 지원을 사용하여 텍스트 생성](content/generative-content.md)
+            + [콘텐츠 지원을 사용하여 이미지 생성](content/generative-image.md)
+            + [콘텐츠 지원을 사용하여 이메일 생성](content/generative-email.md)
          + 콘텐츠 스타일 지정 {#style}
             + [이메일 스타일 시작하기](content/get-started-email-style.md)
             + [배경 설정 편집](content/backgrounds.md)
@@ -84,7 +84,7 @@ ht-degree: 82%
       + [테스트 게재 전송](preview-test/test-deliveries.md)
       + [이메일 렌더링](preview-test/email-rendering.md)
 + 대상자 및 수신자 {#audiences}
-   + [수신자 및 대상자와 작업](audience/about-recipients.md)
+   + [수신자 및 대상자 작업](audience/about-recipients.md)
    + [대상자 만들기](audience/create-audience.md)
    + 게재 수신자 선택 {#target-audiences}
       + [기존 대상자 선택](audience/add-audience.md)

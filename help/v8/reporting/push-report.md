@@ -3,9 +3,9 @@ audience: end-user
 title: 게재 보고서 푸시
 description: 푸시 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: 7ad4e011305eca7bad9a0f504543a25b155cfe59
+source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '487'
 ht-degree: 2%
 
 ---
@@ -94,7 +94,8 @@ ht-degree: 2%
 >title="전체 통계 푸시"
 >abstract="다음 **제외** 그래프와 표에는 타겟팅된 프로필에서 제외된 사용자 프로필에서 메시지를 받지 못하게 한 다양한 이유가 표시됩니다."
 
-다음 **[!UICONTROL 제외]** 그래프와 표에는 타겟팅된 프로필에서 제외된 사용자 프로필에서 메시지를 받지 못하게 한 다양한 이유가 표시됩니다.
+다음 **[!UICONTROL 제외]** 그래프와 표에는 타겟팅된 프로필에서 제외된 사용자 프로필에서 메시지를 받지 못하게 한 다양한 이유가 표시됩니다. 제외 규칙은 다음에 자세히 설명되어 있습니다. [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
+
 
 ![](assets/reporting_push_6.png)
 

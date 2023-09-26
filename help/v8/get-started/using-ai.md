@@ -2,20 +2,14 @@
 title: Campaign 웹에서 AI 기반 지식 도우미 사용
 description: Campaign 웹에서 AI 기반 지식 도우미 사용
 badge: label="Beta"
-source-git-commit: 2744c62136af0c594452e35d7aa0eb79d0878efe
+source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 0%
+source-wordcount: '359'
+ht-degree: 5%
 
 ---
 
 # AI 기반 기술 자료 지원 사용 {#using-ai}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card6"
->title="AI 기반 기술 지원"
->abstract="AI 기반의 Knowledge Assistant를 통해 제품 설명서 및 현재 제품 컨텍스트를 기반으로 AI가 생성한 빠르게 답변을 얻을 수 있습니다. 제품 상황별 도움말 상자에서 제공되는 이 솔루션은 방대한 설명서 저장소를 손쉽게 탐색하여 설명서 검색 및 사용 방법 질문에 대한 답변을 혁신적으로 처리하므로 필요한 정확한 정보를 즉시 정확하게 파악할 수 있습니다."
-
 
 제품 상황별 도움말 상자에서 AI 기반의 Knowkedge Assistant를 사용하여 제품 설명서 및 현재 제품 컨텍스트를 기반으로 AI가 생성한 빠른 답변을 얻을 수 있습니다.
 
@@ -25,7 +19,7 @@ ht-degree: 0%
 
 다음 **Gen AI를 사용하는 기술 지원** 상황별 도움말에 포함되어 방대한 설명서 저장소를 손쉽게 탐색하여 설명서 검색 및 사용 방법 질문에 대한 대답 기능을 혁신적으로 개선하고 필요한 정확한 정보를 즉시 정확하게 찾아냅니다.
 
-Campaign Gen AI의 기능 덕분에 이 도우미는 사용자 경험을 혁신하여 정보를 검색하고 문제를 쉽게 해결할 수 있습니다. 복잡한 작업에서 지침을 찾거나 광범위한 문서를 탐색하는 경우에도 AI 기반의 Knowledge Assistant는 모든 상호 작용에 있어 탁월한 효율성과 정확성을 제공하는 최고의 동반자입니다.
+Campaign Gen AI의 기능 덕분에 이 Assistant는 사용자의 경험을 변화시켜 정보 검색 및 문제 해결을 용이하게 합니다. 복잡한 작업에서 지침을 찾거나 광범위한 문서를 탐색하는 경우에도 AI 기반의 Knowledge Assistant는 모든 상호 작용에 있어 탁월한 효율성과 정확성을 제공하는 최고의 동반자입니다.
 
 <img src="assets/AI_CH.gif" width="80%"/>
 
@@ -45,9 +39,9 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## 답변 {#answers-ai}
 
-답은 부정확하거나 오해의 소지가 있을 수 있다. 따라서 Adobe Campaign AI 기반의 Knowledge Assistant는 잘못된 정보를 출력할 수 있습니다. 모든 도움말 상자에 연결된 제품 설명서를 확인하십시오.
+Adobe Campaign AI 기반 Knowledge Assistant가 지원을 제공하지만 사실을 확인해야 합니다. 잘못된 정보, 부정확하거나 오해의 소지가 있는 답변을 출력할 수 있다. 모든 도움말 상자에 연결된 제품 설명서를 확인하십시오.
 
-인공 지능과 머신 러닝 모델은 특정 사용 사례를 더 잘 해결하기 위해 시간이 지남에 따라 개선된다. Campaign AI 기반 지식 도우미는 앞으로 몇 달 동안 계속 향상될 것입니다. ??를 사용하는 것이 좋습니다 ??를 읽으면 언제든지 버튼을 눌러 엔지니어에 대한 부적절한 응답을 표시합니다.
+인공 지능과 머신 러닝 모델은 특정 사용 사례를 더 잘 해결하기 위해 시간이 지남에 따라 개선된다. Campaign AI 기반의 Knowledge Assistant는 앞으로 몇 달 동안 계속 향상될 것입니다. ??를 사용하는 것이 좋습니다 ??를 읽으면 언제든지 버튼을 눌러 엔지니어에 대한 부적절한 응답을 표시합니다.
 
 ## 권장 사항  {#recommendations-ai}
 

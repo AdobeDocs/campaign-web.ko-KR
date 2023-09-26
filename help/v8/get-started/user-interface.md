@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
+source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 95%
+source-wordcount: '1270'
+ht-degree: 92%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 95%
 
 **탐색기**&#x200B;에 표시되는 항목은 사용자 권한에 따라 다릅니다. 적절한 권한이 있는 경우 폴더 및 하위 폴더를 추가할 수도 있습니다. [이 섹션](permissions.md)에서 권한에 대해 자세히 알아보십시오.
 
-모든 목록 화면과 마찬가지로 디스플레이를 개인화하고 필요한 모든 정보를 표시하도록 열을 구성할 수 있습니다. 이 [섹션](#list-screens)을 참조하십시오.
+필요한 모든 정보를 표시하도록 디스플레이를 사용자 지정할 열을 구성할 수 있습니다. 이 [섹션](#list-screens)을 참조하십시오. 에 설명된 대로 폴더 및 하위 폴더를 추가할 수도 있습니다. [이 섹션](permissions.md#folders).
 
 Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}를 참조하십시오.
 

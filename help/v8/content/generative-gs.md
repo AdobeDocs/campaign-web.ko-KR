@@ -3,10 +3,10 @@ audience: end-user
 title: Content Assistant 시작
 description: Content Assistant 시작
 badge: label="Beta"
-source-git-commit: 23d9007f0f3dde942470d86cfd4d18821540ec25
+source-git-commit: 8c9c74423d1b034271c96239322dd369336d0df6
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 14%
+source-wordcount: '349'
+ht-degree: 13%
 
 ---
 
@@ -22,9 +22,8 @@ ht-degree: 14%
 
 이 기능은 전체 이메일 콘텐츠를 자동으로 생성하여 시간을 절약하고 일관된 품질을 보장합니다. 생성 AI를 사용하면 매력적인 이메일을 쉽게 만들 수 있으므로 커뮤니케이션의 효율성과 효율성을 향상시킬 수 있습니다.
 
->[!AVAILABILITY]
->
->이 기능은 10월 초에 사용할 수 있습니다.
+이메일의 Campaign 콘텐츠 도우미에서 다음을 수행할 수 있습니다. [이미지 생성](generative-image.md), [텍스트 컨텐츠 생성](generative-content.md), [전체 HTML 컨텐츠 생성](generative-email.md).
+
 
 ## 보호 기능 및 제한 사항 {#generative-guardrails}
 
@@ -33,7 +32,7 @@ ht-degree: 14%
 * 생성된 콘텐츠의 품질은 사용자가 정의하는 마케팅 목표/프롬프트의 영향을 많이 받습니다. GenAI 모델이 정확하게 해석할 수 있도록 잘 정의된 프롬프트를 사용하십시오. 
 * 브랜드 에셋을 업로드하여 브랜드 콘텐츠에 정확하게 맞춥니다. 그 외의 경우 콘텐츠는 공개적으로 사용 가능한 정보를 기반으로 합니다. 업로드된 콘텐츠는 PDF 파일, Microsoft Word 문서, JPEG, PNG 또는 ZIP 파일(지원되는 파일 형식)일 수 있습니다.
 * 업로드된 브랜드 에셋의 권장 크기는 10MB 미만입니다. 파일이 크거나 이미지가 많으면 작동할 수 있지만 처리 시간은 늘어납니다.
-* 작성된 Adobe Campaign 사용 [이메일 템플릿](../content/email-sample-templates.md), 또는 바람직하게는 [기본 제공 전자 메일 템플릿](../content/email-sample-templates.md) 이메일 콘텐츠를 만듭니다. 이메일 템플릿에는 최대 8~10개의 이미지가 권장됩니다.
+* Adobe Campaign 작성 이메일 템플릿 사용(권장 사항) [기본 제공 전자 메일 템플릿](../content/email-sample-templates.md) 이메일 콘텐츠를 만듭니다. 이메일 템플릿에는 최대 8~10개의 이미지가 권장됩니다.
 
 
 Campaign Content Assistant에는 다음 제한 사항이 적용됩니다.

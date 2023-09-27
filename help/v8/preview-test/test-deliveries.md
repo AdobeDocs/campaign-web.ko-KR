@@ -4,7 +4,7 @@ title: 테스트 게재 전송
 description: 테스트 게재를 정의하고 전송하는 방법을 알아봅니다
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: f5e7f354735416f828d4b0e065cb8c424a9b4fc8
+source-git-commit: c7be20a41d3188f67225a60a5559ed3166cd3ca4
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 11%
@@ -58,7 +58,6 @@ ht-degree: 11%
 
 
 테스트 프로필은 데이터베이스의 추가 수신자인 시드 주소입니다. 에서 만들 수 있습니다. [!DNL Adobe Campaign] 클라이언트 콘솔을 **[!UICONTROL 리소스]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 시드 주소]** 폴더를 삭제합니다. 시드 주소로 테스트 메시지를 보내는 단계는 아래에 자세히 설명되어 있습니다.
-
 
 1. 이메일 또는 SMS 게재의 콘텐츠 편집 화면으로 이동한 다음 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다.
 

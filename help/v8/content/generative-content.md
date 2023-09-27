@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: 콘텐츠 도우미가 있는 텍스트
-description: 콘텐츠 지원 시작
+description: Content Assistant 시작
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '383'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 2%
 >[!AVAILABILITY]
 >
 >이 기능은 10월 초에 사용할 수 있습니다.
+
+콘텐츠 도우미를 통해 향상된 이메일 콘텐츠를 생성하려면 아래 단계를 수행하십시오. 에 설명된 대로 컨텐츠 도우미를 사용하여 전체 HTML 컨텐츠를 만들 수도 있습니다. [이 페이지](generative-email.md).
 
 1. 이메일 게재를 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**.
 
@@ -40,7 +42,7 @@ ht-degree: 2%
 
    ![](assets/text-genai-3.png)
 
-1. 선택 **[!UICONTROL 파일 업로드]** 추가 컨텍스트를 제공할 수 있는 콘텐츠가 포함된 브랜드 자산을 콘텐츠 도우미에 추가하려는 경우.
+1. 선택 **[!UICONTROL 파일 업로드]** 추가 컨텍스트를 제공할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가하려면 콘텐츠 도우미를 사용하십시오.
 
    다음을 클릭할 수도 있습니다. **[!UICONTROL 업로드된 콘텐츠]** 를 클릭하여 이전에 업데이트한 파일을 찾습니다. 업로드된 콘텐츠는 현재 사용자만 재사용할 수 있습니다.
 

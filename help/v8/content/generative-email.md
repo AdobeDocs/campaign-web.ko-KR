@@ -1,26 +1,30 @@
 ---
 audience: end-user
 title: 콘텐츠 도우미를 사용하여 이메일 생성
-description: 콘텐츠 지원 시작
+description: Content Assistant 시작
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '453'
 ht-degree: 2%
 
 ---
 
 # 콘텐츠 도우미를 사용하여 이메일 생성 {#generative-email}
 
-Content Assistant는 전체 이메일 콘텐츠를 자동으로 생성하여 시간을 절약하고 품질을 일관되게 유지함으로써 커뮤니케이션의 영향을 강화합니다.
-
-생성형 AI를 사용하면 대상자와 공감하는 매력적인 이메일을 손쉽게 제작하여 커뮤니케이션을 보다 효과적이고 효율적으로 수행할 수 있습니다.
+Content Assistant는 전체 이메일 콘텐츠를 자동으로 생성하여 시간을 절약하고 품질을 일관되게 유지함으로써 커뮤니케이션의 영향을 강화합니다. 생성형 AI를 사용하면 대상자와 공감하는 매력적인 이메일을 손쉽게 제작하여 커뮤니케이션을 보다 효과적이고 효율적으로 수행할 수 있습니다.
 
 
 >[!AVAILABILITY]
 >
 >이 기능은 10월 초에 사용할 수 있습니다.
 
+
+
+
+## AI로 HTML 콘텐츠 생성 {#generative-email-generate}
+
+콘텐츠 도우미를 사용하여 이메일 콘텐츠를 생성하려면 아래 단계를 수행하십시오. 에 설명된 대로 콘텐츠 도우미를 사용하여 기존 콘텐츠를 개선할 수도 있습니다. [이 페이지](generative-content.md).
 
 1. 이메일 게재를 만들고 구성한 후 **[!UICONTROL 콘텐츠 만들기]**.
 
@@ -46,7 +50,7 @@ Content Assistant는 전체 이메일 콘텐츠를 자동으로 생성하여 시
 
    ![](assets/email-genai-2.png)
 
-1. 선택 **[!UICONTROL 파일 업로드]** 추가 컨텍스트를 제공할 수 있는 콘텐츠가 포함된 브랜드 자산을 콘텐츠 도우미에 추가하려는 경우.
+1. 선택 **[!UICONTROL 파일 업로드]** 추가 컨텍스트를 제공할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가하려면 콘텐츠 도우미를 사용하십시오.
 
    다음을 클릭할 수도 있습니다. **[!UICONTROL 업로드된 콘텐츠]** 를 클릭하여 이전에 업데이트한 파일을 찾습니다. 업로드된 콘텐츠는 현재 사용자만 재사용할 수 있습니다.
 
@@ -75,4 +79,5 @@ Content Assistant는 전체 이메일 콘텐츠를 자동으로 생성하여 시
    ![](assets/email-genai-6.png)
 
 1. 콘텐츠, 대상자 및 일정을 정의했으면 이메일 게재를 준비할 준비가 되었습니다. [자세히 알아보기](../monitor/prepare-send.md)
+
 

@@ -1,9 +1,9 @@
 ---
 audience: end-user
 title: 콘텐츠 도우미를 사용하여 이미지 생성
-description: 콘텐츠 지원 시작
+description: Content Assistant 시작
 badge: label="Beta"
-source-git-commit: b597f6a03d89d478e7cf80c1dee99bf846c8c915
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 1. 다음을 입력합니다. **[!UICONTROL 기본 세부 정보]** 게재를 위해. 완료되면 다음을 클릭합니다. **[!UICONTROL 이메일 콘텐츠 편집]**.
 
-1. 콘텐츠 도우미로 변경할 에셋을 선택합니다.
+1. 콘텐츠 도우미를 사용하여 변경할 에셋을 선택합니다.
 
 1. 오른쪽 메뉴에서 **[!UICONTROL 경험 생성]**.
 
@@ -37,7 +37,7 @@ ht-degree: 2%
 
    ![](assets/image-genai-2.png)
 
-1. 선택 **[!UICONTROL 파일 업로드]** 추가 컨텍스트를 제공할 수 있는 콘텐츠가 포함된 브랜드 자산을 콘텐츠 도우미에 추가하려는 경우.
+1. 선택 **[!UICONTROL 파일 업로드]** 추가 컨텍스트를 제공할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가하려면 콘텐츠 도우미를 사용하십시오.
 
    다음을 클릭할 수도 있습니다. **[!UICONTROL 업로드된 콘텐츠]** 를 클릭하여 이전에 업데이트한 파일을 찾습니다. 업로드된 콘텐츠는 현재 사용자만 재사용할 수 있습니다.
 

@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: 콘텐츠 지원 시작
-description: 콘텐츠 지원 시작
+title: Content Assistant 시작
+description: Content Assistant 시작
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: 23d9007f0f3dde942470d86cfd4d18821540ec25
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 3%
+source-wordcount: '336'
+ht-degree: 14%
 
 ---
 
 
-# 콘텐츠 지원 시작 {#generative-gs}
+# Content Assistant 시작 {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
->title="이메일 콘텐츠 만들기"
->abstract="게재를 만들고 개인화하면 콘텐츠 도우미를 사용하여 콘텐츠를 향상시킬 수 있습니다. 이 기능은 생성하려는 내용을 설명하여 콘텐츠를 미세 조정할 수 있도록 함으로써 개인화 및 콘텐츠 개선 프로세스를 간소화합니다."
+>title="콘텐츠 지원"
+>abstract="게재 내용을 작성하고 개인화한 후에는 콘텐츠 지원을 사용하여 콘텐츠를 개선할 수 있습니다. 이 기능은 생성하려는 내용을 설명하여 콘텐츠를 미세 조정할 수 있도록 함으로써 개인화 및 콘텐츠 개선 프로세스를 간소화합니다."
 
 생성 AI를 기반으로 하는 콘텐츠 도우미는 이메일 콘텐츠를 개선하는 데 유용한 도구입니다. 이는 개인화 및 콘텐츠 개선을 단순화하여 이메일 게재를 최적화하여 대상자에게 더 나은 공감을 줍니다.
 
@@ -26,6 +26,22 @@ ht-degree: 3%
 >
 >이 기능은 10월 초에 사용할 수 있습니다.
 
+## 보호 기능 및 제한 사항 {#generative-guardrails}
+
+전자 메일 생성을 위해 Content Assistant를 사용하는 방법에 대한 일반 지침은 다음과 같습니다.
+
+* 생성된 콘텐츠의 품질은 사용자가 정의하는 마케팅 목표/프롬프트의 영향을 많이 받습니다. GenAI 모델이 정확하게 해석할 수 있도록 잘 정의된 프롬프트를 사용하십시오. 
+* 브랜드 에셋을 업로드하여 브랜드 콘텐츠에 정확하게 맞춥니다. 그 외의 경우 콘텐츠는 공개적으로 사용 가능한 정보를 기반으로 합니다. 업로드된 콘텐츠는 PDF 파일, Microsoft Word 문서, JPEG, PNG 또는 ZIP 파일(지원되는 파일 형식)일 수 있습니다.
+* 업로드된 브랜드 에셋의 권장 크기는 10MB 미만입니다. 파일이 크거나 이미지가 많으면 작동할 수 있지만 처리 시간은 늘어납니다.
+* 작성된 Adobe Campaign 사용 [이메일 템플릿](../content/email-sample-templates.md), 또는 바람직하게는 [기본 제공 전자 메일 템플릿](../content/email-sample-templates.md) 이메일 콘텐츠를 만듭니다. 이메일 템플릿에는 최대 8~10개의 이미지가 권장됩니다.
+
+
+Campaign Content Assistant에는 다음 제한 사항이 적용됩니다.
+
+* 지원되는 언어는 영어입니다.
+* 이메일 채널에만 사용 가능
+* GenAI 콘텐츠가 항상 정확하지는 않을 수 있습니다. 엔지니어가 모델을 개선할 수 있도록 피드백을 공유하십시오.
+* 여러 브랜드 자산을 업로드할 수 있지만 특정 세대에 대해 하나만 활용할 수 있습니다
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

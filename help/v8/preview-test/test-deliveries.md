@@ -4,9 +4,9 @@ title: 테스트 게재 전송
 description: 테스트 게재를 정의하고 전송하는 방법을 알아봅니다
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: c7be20a41d3188f67225a60a5559ed3166cd3ca4
+source-git-commit: 04807983b59232da89bdec3e530585a017a17ab1
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1141'
 ht-degree: 11%
 
 ---
@@ -22,24 +22,37 @@ ht-degree: 11%
 
 메시지 콘텐츠 또는 개인화 설정에서 발생할 수 있는 오류를 탐지하려면 타겟 대상자에게 보내기 전에 테스트 메시지를 테스트 프로필에 보냅니다. 최신 콘텐츠의 유효성을 검사하려면 변경 사항이 있을 때마다 테스트 메시지를 보내야 합니다. 테스트 게재(이전의 &#39;증명&#39;이라고 함)를 전송하는 것은 캠페인을 확인하고 잠재적 문제를 식별하는 중요한 단계입니다. 테스트 메시지 수신자는 링크, 옵트아웃 링크, 이미지 또는 미러 페이지와 같은 다양한 요소를 확인할 수 있을 뿐만 아니라 렌더링, 콘텐츠, 개인화 설정 및 게재 구성의 오류를 감지할 수 있습니다.
 
-## 테스트 수신자 선택 {#test-recipients}
+## 테스트 수신자와 콘텐츠 시뮬레이션 {#simulate-content-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
 >title="테스트 모집단"
 >abstract="테스트 모집단 모드를 선택합니다."
 
-사용 중인 채널에 따라 세 가지 유형의 수신자에게 테스트 메시지를 보낼 수 있습니다.
+테스트를 보내기 전에 게재 대상 대상을 정의했는지 확인하십시오. [자세히 알아보기](../audience/about-recipients.md)
 
-* [테스트 프로필](#test-profiles) - 보내기 **이메일 및 SMS 테스트** 데이터베이스의 추가 수신자인 시드 주소로 변경할 수 있습니다. 에서 만들 수 있습니다. [!DNL Campaign] 콘솔을 **[!UICONTROL 리소스]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 시드 주소]** 폴더를 삭제합니다. 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
-* [주 대상에서 대체](#substitution-profiles) - 보내기 **이메일 및 SMS 테스트** 기존 프로필을 가장하는 동안 특정 이메일 주소 또는 전화 번호에 연결할 수 있습니다. 이를 통해 수신자와 마찬가지로 메시지를 경험하여 프로필에서 수신할 콘텐츠를 정확하게 표현할 수 있습니다.
+메시지 콘텐츠 테스트를 시작하려면 다음을 수행하십시오.
 
-* [구독자](#subscribers) - 보내기 **푸시 알림 테스트** 데이터베이스에 추가된 가상 구독자에 대해 설명합니다. 테스트 프로필과 마찬가지로 [!DNL Campaign] 콘솔을 **[!UICONTROL 리소스]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 시드 주소]** 폴더를 삭제합니다. 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+1. 이메일 또는 SMS 게재의 콘텐츠를 편집합니다.
+1. 다음을 클릭합니다. **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다.
+1. 다음을 클릭합니다. **[!UICONTROL 테스트]** 테스트 메시지를 보내는 단추
 
-테스트 게재의 수신자를 선택하려면 사용할 프로필 유형에 따라 아래 단계를 수행합니다.
+   ![](assets/simulate-test-button-email.png)
 
-### 테스트 프로필 {#test-profiles}
+1. 테스트 수신자를 선택합니다.
+
+   메시지 채널에 따라 다음 유형의 수신자에게 테스트 메시지를 보낼 수 있습니다.
+
+   * SMS 및 이메일의 경우 [테스트 프로필](#test-profiles): 데이터베이스의 특정 추가 수신자입니다. 이러한 수신자는에서 만들어집니다. [!DNL Campaign] 클라이언트 콘솔입니다. 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+
+   * SMS 및 이메일의 경우 [주 대상에서 대체](#substitution-profiles) 테스트 메시지를 이메일 테스트 주소 또는 전화번호로 보내고 기존 프로필의 개인화 데이터를 사용하는 모드입니다. 이를 통해 수신자와 마찬가지로 메시지를 경험하여 프로필에서 수신할 콘텐츠를 정확하게 표현할 수 있습니다.
+
+   * 푸시 메시지의 경우 다음을 사용할 수 있습니다 [구독자](#subscribers): 데이터베이스에 추가된 가상 구독자입니다. 에서 생성됩니다. [!DNL Campaign] 콘솔. 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+
+   각 모드에 대한 자세한 구성은 아래에서 확인할 수 있습니다.
+
+## 테스트 프로필 사용 {#test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_mode"
@@ -57,11 +70,9 @@ ht-degree: 11%
 >abstract="파일 형식은 원본 파일과 동일해야 합니다.<br/>지원되는 파일 형식은 txt, csv입니다. 최대 파일 크기는 15MB입니다. 첫 번째 라인을 열 머리글로 사용합니다."
 
 
-테스트 프로필은 데이터베이스의 추가 수신자인 시드 주소입니다. 에서 만들 수 있습니다. [!DNL Adobe Campaign] 클라이언트 콘솔을 **[!UICONTROL 리소스]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 시드 주소]** 폴더를 삭제합니다. 시드 주소로 테스트 메시지를 보내는 단계는 아래에 자세히 설명되어 있습니다.
+테스트 프로필은 데이터베이스의 추가 수신자인 시드 주소입니다. 에서 만들 수 있습니다. [!DNL Adobe Campaign] 클라이언트 콘솔입니다. 시드 주소로 테스트 메시지를 보내는 단계는 아래에 자세히 설명되어 있습니다.
 
-1. 이메일 또는 SMS 게재의 콘텐츠 편집 화면으로 이동한 다음 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다.
-
-1. 다음을 클릭합니다. **[!UICONTROL 테스트]** 단추를 클릭합니다.
+1. 게재 콘텐츠를 편집하고 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다. 그런 다음 **[!UICONTROL 테스트]** 단추를 클릭합니다.
 
    >[!NOTE]
    >
@@ -83,15 +94,12 @@ ht-degree: 11%
 
 1. 테스트 프로필을 선택하면 다음과 같은 작업을 수행할 수 있습니다. [테스트 게재 보내기](#send-test).
 
-### 대체 프로필 {#substitution-profiles}
+## 프로필 데이터 대체 {#substitution-profiles}
 
-의 기존 프로필에서 데이터를 표시하는 동안 특정 이메일 주소 또는 전화번호에 테스트 이메일 또는 SMS를 보내려면 [!DNL Adobe Campaign] 데이터베이스에서 대체 프로필을 사용합니다. 자세한 내용은 다음과 같습니다.
+프로필 대체를 사용하여 의 기존 프로필에서 데이터를 표시하는 동안 특정 이메일 주소 또는 전화 번호로 테스트 메시지를 보냅니다. [!DNL Adobe Campaign] 데이터베이스. 이렇게 하려면 아래 단계를 수행합니다.
 
-1. 테스트를 보내기 전에 게재 대상 대상을 정의했는지 확인하십시오. [자세히 알아보기](../audience/about-recipients.md)
 
-1. 이메일 또는 SMS 게재의 콘텐츠 편집 화면으로 이동한 다음 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다.
-
-1. 다음을 클릭합니다. **[!UICONTROL 테스트]** 단추를 클릭합니다.
+1. 게재 콘텐츠를 편집하고 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다. 그런 다음 **[!UICONTROL 테스트]** 단추를 클릭합니다.
 
    ![](assets/simulate-test-button-email.png)
 
@@ -119,13 +127,11 @@ ht-degree: 11%
 
 1. 대체 프로파일을 선택하면 다음 작업을 수행할 수 있습니다. [테스트 게재 보내기](#send-test).
 
-### 구독자 {#subscribers}
+## 구독자에게 테스트 보내기 {#subscribers}
 
 푸시 알림 작업 시 테스트 게재는 앱 구독자에게만 전송할 수 있습니다. 이를 선택하려면 아래 단계를 따르십시오.
 
-1. 게재의 콘텐츠 편집 화면으로 이동한 다음 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다.
-
-1. 다음을 클릭합니다. **[!UICONTROL 테스트]** 단추를 클릭합니다.
+1. 게재 콘텐츠를 편집하고 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다. 그런 다음 **[!UICONTROL 테스트]** 단추를 클릭합니다.
 
    ![](assets/simulate-test-button-push.png)
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 이메일 채널에 대한 캠페인 보고서
 description: 이메일 채널에 대한 캠페인 보고서에 대해 자세히 알아보기
 badge: label="Beta"
-source-git-commit: 0fee0bd74be36e2c5defc14021505f169776dcd3
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
 source-wordcount: '1546'
 ht-degree: 9%
@@ -282,7 +282,7 @@ ht-degree: 9%
 
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_campaign_urls_clickstreams_breakdown"
+>id="acw_delivery_campaign_urls_click_breakdown"
 >title="시간 경과에 따른 클릭수 분류"
 >abstract="다음 **시간 경과에 따른 클릭 수 분류** 그래프는 링크당 수신자 동작에 사용할 수 있는 데이터를 보여 줍니다."
 

@@ -3,9 +3,9 @@ audience: end-user
 title: 이메일 게재 보고서
 description: 이메일 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2254'
 ht-degree: 22%
 
 ---
@@ -106,7 +106,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_email"
->title="게재 처리량 위젯"
+>title="게재 처리량"
 >abstract="**게재 처리량** 보고서는 지정된 기간 내 전체 플랫폼의 게재 처리량에 대한 자세한 정보를 제공합니다."
 
 이 보고서는 지정된 기간 내에 전체 플랫폼의 게재 처리량에 대한 자세한 정보를 제공합니다. 메시지 게재 속도를 측정하는 데 사용되는 기본 지표는 시간당 전송된 메시지 수입니다.
@@ -118,7 +118,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
->title="브로드캐스트 통계 위젯"
+>title="브로드캐스트 통계"
 >abstract="다음 **브로드캐스트 통계** 보고서에는 각 도메인에서 발생할 수 있는 오류에 대해 사용 가능한 데이터가 포함되어 있습니다."
 
 **[!UICONTROL 브로드캐스트 통계]** 표에는 각 도메인에서 발생한 잠재 오류에 대한 사용 가능한 데이터가 포함되어 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
@@ -235,7 +235,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
->title="열람 및 클릭스루 비율 위젯"
+>title="열람 및 클릭스루 비율"
 >abstract="**열람 및 클릭스루 비율** 표에 게재를 이용하는 수신자와 관련된 데이터가 표시됩니다."
 
 
@@ -306,7 +306,7 @@ ht-degree: 22%
 
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_reporting_urls_clickstreams_breakdown"
+>id="acw_delivery_reporting_urls_click_breakdown"
 >title="시간 경과에 따른 클릭수 분류"
 >abstract="다음 **시간 경과에 따른 클릭 수 분류** 그래프는 링크당 수신자 동작에 사용할 수 있는 데이터를 보여 줍니다."
 

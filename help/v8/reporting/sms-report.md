@@ -3,28 +3,28 @@ audience: end-user
 title: SMS 게재 보고서
 description: sms 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
 source-wordcount: '503'
-ht-degree: 2%
+ht-degree: 37%
 
 ---
 
 # SMS 게재 보고서 {#sms-report}
 
 >[!CONTEXTUALHELP]
->id="acw_sms_report_overview"
->title="SMS 게재 개요"
->abstract="다음 **SMS 게재 개요** 에서는 SMS 게재에 대한 포괄적인 개요를 제공하여 광범위한 통찰력과 특정 데이터를 제공합니다. 게재의 성능, 효율성 및 결과에 대한 포괄적인 정보를 제공합니다."
-
->[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_sms"
->title="전송 보고"
->abstract="다음 **전송 중** 보고서 내의 탭에서는 게재 관련 방문자의 상호 작용 및 발생 가능한 오류에 대한 심층적인 통찰력을 제공합니다."
+>title="보고 전송"
+>abstract="보고서 내의 **전송** 탭은 방문자와 게재 간의 상호 작용 및 방문자가 경험할 수 있는 잠재적인 오류에 대한 심층적인 통찰력을 제공합니다."
 
-다음 **SMS 게재 개요** 에서는 SMS 게재에 대한 포괄적인 개요를 제공하여 광범위한 통찰력과 특정 데이터를 제공합니다. 게재의 성능, 효율성 및 결과에 대한 포괄적인 정보를 제공합니다.
+**SMS 게재 요약**&#x200B;은 SMS 게재에 대한 포괄적인 개요를 제공하여 광범위한 인사이트와 특정 데이터를 얻을 수 있습니다. 성과, 효율성 및 게재 결과에 대해 포괄적인 정보를 제공합니다.
 
 ## 게재 요약 {#delivery-summary}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_report_overview"
+>title="SMS 게재 개요"
+>abstract="**SMS 게재 요약**&#x200B;은 SMS 게재에 대한 포괄적인 개요를 제공하여 광범위한 인사이트와 특정 데이터를 얻을 수 있습니다. 성과, 효율성 및 게재 결과에 대해 포괄적인 정보를 제공합니다."
 
 ### 게재 개요 {#sms-delivery-overview}
 
@@ -50,8 +50,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_targeted_population"
->title="SMS 타겟팅된 모집단"
->abstract="다음 **대상 모집단** 그래프 및 표는 SMS 대상자에 상대적인 데이터(게재할 메시지 및 제외)를 표시합니다."
+>title="SMS 대상 모집단"
+>abstract="**대상 모집단** 그래프와 표에 SMS 대상자(게재할 메시지 및 제외)와 관련된 데이터가 표시됩니다."
 
 다음 **대상 모집단** 그래프 및 표는 대상자를 기준으로 데이터를 표시합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
@@ -70,8 +70,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
->title="전체 통계 푸시"
->abstract="다음 **전체 통계** 보고서는 보낸 SMS에 대한 데이터(성공, 오류 및 격리)를 제공합니다."
+>title="푸시 전체 통계"
+>abstract="**전체 통계** 보고서는 보낸 SMS에 대한 데이터(성공, 오류 및 격리)를 제공합니다."
 
 다음 **전체 통계** 보고서는 보낸 SMS 메시지에 대한 데이터를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
@@ -92,7 +92,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
 >title="SMS 전체 통계"
->abstract="다음 **제외** 그래프와 표에는 타겟팅된 프로필에서 제외된 사용자 프로필에서 메시지를 받지 못하게 한 다양한 이유가 표시됩니다."
+>abstract="**제외** 그래프와 표에 대상 프로필에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 이유가 표시됩니다."
 
 
 다음 **[!UICONTROL 제외]** 그래프 및 표에는 타겟팅된 프로필에서 제외된 사용자 프로필에서 메시지를 받을 수 없는 이유가 표시됩니다. 제외 규칙은 다음에 자세히 설명되어 있습니다. [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
@@ -104,7 +104,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
 >title="게재 처리량 메뉴"
->abstract="게재 처리량 보고서는 지정된 기간 내에 전체 플랫폼의 게재 처리량에 대한 자세한 정보를 제공합니다."
+>abstract="게재 처리량 보고서는 지정된 기간 내 전체 플랫폼의 게재 처리량에 대한 자세한 정보를 제공합니다."
 
 이 보고서는 지정된 기간 내에 전체 플랫폼의 게재 처리량에 대한 자세한 정보를 제공합니다. 메시지 게재 속도를 측정하는 데 사용되는 기본 지표는 시간당 전송된 메시지 수입니다.
 

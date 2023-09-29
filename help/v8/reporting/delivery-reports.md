@@ -4,10 +4,10 @@ title: 게재 보고서
 description: 게재 보고서 액세스 및 사용 방법 알아보기
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beta"
-source-git-commit: 91d61dffbc66590a0326ba3ac3c8b9d8cece91de
+source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 57%
+source-wordcount: '195'
+ht-degree: 43%
 
 ---
 
@@ -34,12 +34,22 @@ Adobe Campaign은 각 게재에 대해 액세스할 수 있는 여러 유형의 
 
    ![](assets/reporting2.png)
 
+   또는 세 점을 사용할 수 있습니다 **추가 작업** 아래와 같이 캠페인 목록에서 게재 이름 옆에 있는 버튼:
+
+   ![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
+
 1. 왼쪽 메뉴의 목록에서 보고서를 선택합니다.
 
    ![](assets/reporting.png)
 
-1. 게재가 반복되는 경우, 다음을 클릭하여 보고할 특정 게재를 선택할 수 있습니다. **[!UICONTROL 게재 선택]**.
+1. 게재가 반복되는 경우 다음을 클릭하여 보고할 특정 게재를 선택합니다. **[!UICONTROL 게재 선택]**.
 
    다음을 선택하여 보고서에 기간을 적용할 수도 있습니다. **[!UICONTROL 연락일]**.
 
    ![](assets/delivery-recurring.png)
+
+각 채널에 대한 보고서 및 관련 지표의 전체 목록은 다음 페이지에서 사용할 수 있습니다.
+
+* [이메일 게재 보고서](email-report.md)
+* [SMS 게재 보고서](sms-report.md)
+* [게재 보고서 푸시](push-report.md)

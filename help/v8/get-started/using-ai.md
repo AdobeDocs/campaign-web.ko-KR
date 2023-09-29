@@ -2,9 +2,9 @@
 title: Campaign 웹에서 AI 기반 지식 도우미 사용
 description: Campaign 웹에서 AI 기반 지식 도우미 사용
 badge: label="Beta"
-source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
+source-git-commit: c29864901482c226351fdde8521aebb65a9d673a
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '418'
 ht-degree: 5%
 
 ---
@@ -41,9 +41,12 @@ Adobe Campaign AI 기반 Knowledge Assistant가 지원을 제공하지만 사실
 
 ## 권장 사항  {#recommendations-ai}
 
-AI 기반 기술 지원에서 질문을 할 때는 현재 제품 컨텍스트(예: 현재 있는 캠페인 화면 및 현재 도움말 상자의 콘텐츠)가 고려됩니다.
+AI 기반 기술 지원에서 질문을 할 때는 현재 제품 컨텍스트, 즉 현재 있는 화면과 현재 도움말 상자의 콘텐츠를 고려합니다.
 
-AI 기반의 Knowledge Assistant를 최대한 활용하려면 질문을 할 때 다음을 권장합니다.
+따라서 가장 좋은 방법은 사용자 인터페이스 컨텍스트와 관련된 질문을 하는 것입니다. 예를 들어 워크플로우에서 푸시 게재를 보내는 방법을 알아보려면 **워크플로** 왼쪽 메뉴 항목을 참조하고 해당 특정 컨텍스트에서 상황별 도움말 상자를 사용하십시오. 보고 지표에 대해 자세히 알아보려면 캠페인 또는 게재 보고서를 찾아 그 다음 단계에서 시작하십시오.
+
+
+또한 AI 기반의 Knowledge Assistant를 최대한 활용하려면 질문을 할 때 다음을 권장합니다.
 
 * 가능한 한 정확하고 구체적이며 모호함을 피하십시오. 그 답은 더 정확하고 도움이 될 것이다.
 * AI 기반 지식 도우미가 올바른 정보를 찾을 수 있도록 학습 내용에 대한 세부 정보를 최대한 추가합니다.

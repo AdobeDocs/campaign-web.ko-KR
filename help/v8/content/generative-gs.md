@@ -3,10 +3,10 @@ audience: end-user
 title: Content Assistant 시작
 description: Content Assistant 시작
 badge: label="Beta"
-source-git-commit: 8c9c74423d1b034271c96239322dd369336d0df6
+source-git-commit: 2da9bdab7e8a5050d0e4e0531fc30f85870de70f
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 13%
+source-wordcount: '402'
+ht-degree: 11%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 13%
 >id="acw_generation_settings"
 >title="콘텐츠 지원"
 >abstract="게재 내용을 작성하고 개인화한 후에는 콘텐츠 지원을 사용하여 콘텐츠를 개선할 수 있습니다. 이 기능은 생성하려는 내용을 설명하여 콘텐츠를 미세 조정할 수 있도록 함으로써 개인화 및 콘텐츠 개선 프로세스를 간소화합니다."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_generation_context"
+>title="콘텐츠 생성을 위한 컨텍스트 정의"
+>abstract="선택한 컨텐츠를 컨텐츠 생성에 대한 입력으로 사용하려면 **현재 콘텐츠로 개선** 토글. 브랜드 자산을 업로드하여 소스로 사용할 수도 있습니다. 선택한 콘텐츠를 사용하지 않는 경우에는 브랜드 자산을 업로드하고 선택해야 합니다."
 
 생성 AI를 기반으로 하는 콘텐츠 도우미는 이메일 콘텐츠를 개선하는 데 유용한 도구입니다. 이는 개인화 및 콘텐츠 개선을 단순화하여 이메일 게재를 최적화하여 대상자에게 더 나은 공감을 줍니다.
 

@@ -4,10 +4,10 @@ title: 파일에서 수신자 타겟팅
 description: 외부 파일에서 수신자를 사용하여 이메일 대상자를 빌드하는 방법 알아보기
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 27023835804d11e169b87239d6fe67c20bc987e5
+source-git-commit: 92882488c33cd0d7d8449ddfc6c50d2c37b47752
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 39%
+source-wordcount: '596'
+ht-degree: 38%
 
 ---
 
@@ -27,6 +27,14 @@ ht-degree: 39%
 >id="acw_audience_fromfile_formatting"
 >title="서식 지정 매개변수"
 >abstract="파일에 대한 서식 지정 매개변수를 확인합니다."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_preview"
+>title="파일 미리 보기"
+>abstract="파일 미리보기를 확인합니다. 이 화면에는 최대 30개의 레코드만 표시됩니다."
+
+
 
 인터페이스에서 Campaign으로 직접 프로필을 업로드할 수 없지만 외부 파일에 저장된 프로필을 타겟팅할 수 있습니다. 프로필이 데이터베이스에 추가되지 않지만 입력 파일의 모든 필드를 사용할 수 있습니다. [개인화](../personalization/gs-personalization.md). 지원되는 파일 형식은 텍스트(TXT) 및 쉼표로 구분된 값(CSV)입니다. 
 

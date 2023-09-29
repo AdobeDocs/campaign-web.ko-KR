@@ -2,11 +2,11 @@
 audience: end-user
 title: Content Assistant 시작
 description: Content Assistant 시작
-badge: label="Beta"
-source-git-commit: 2da9bdab7e8a5050d0e4e0531fc30f85870de70f
+badge: label="Alpha"
+source-git-commit: 2b499b854110cd317b47b9a7d3884467869624f1
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 11%
+source-wordcount: '379'
+ht-degree: 12%
 
 ---
 
@@ -28,8 +28,12 @@ ht-degree: 11%
 
 이 기능은 전체 이메일 콘텐츠를 자동으로 생성하여 시간을 절약하고 일관된 품질을 보장합니다. 생성 AI를 사용하면 매력적인 이메일을 쉽게 만들 수 있으므로 커뮤니케이션의 효율성과 효율성을 향상시킬 수 있습니다.
 
-이메일의 Campaign 콘텐츠 도우미에서 다음을 수행할 수 있습니다. [이미지 생성](generative-image.md), [텍스트 컨텐츠 생성](generative-content.md), [전체 HTML 컨텐츠 생성](generative-email.md).
+<!--
+You can the Campaign Content Assistant in your emails to: [generate images](generative-image.md), [generate text content](generative-content.md), [generate the full HTML content](generative-email.md).-->
 
+>[!NOTE]
+>
+>이 기능은 Alpha 버전에서 사용할 수 있으며 사전 공지 없이 변경될 수 있습니다. 10월 초에 활성화될 예정입니다.
 
 ## 보호 기능 및 제한 사항 {#generative-guardrails}
 
@@ -48,31 +52,34 @@ Campaign Content Assistant에는 다음 제한 사항이 적용됩니다.
 * GenAI 콘텐츠가 항상 정확하지는 않을 수 있습니다. 엔지니어가 모델을 개선할 수 있도록 피드백을 공유하십시오.
 * 여러 브랜드 자산을 업로드할 수 있지만 특정 세대에 대해 하나만 활용할 수 있습니다
 
+
+<!--
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="generative-content.md">
-<img alt="텍스트 생성" src="assets/do-not-localize/text-genai.jpeg">
+<img alt="Text generation" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-content.md"><strong>콘텐츠 도우미를 사용하여 텍스트 생성</strong></a>
+<a href="generative-content.md"><strong>Text generation with the Content Assistant</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-image.md">
-<img alt="이미지 생성" src="assets/do-not-localize/image-genai.jpeg">
+<img alt="Image generation" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-image.md"><strong>콘텐츠 도우미를 사용하여 이미지 생성</strong>
+<div><a href="generative-image.md"><strong>Image generation with the Content Assistant</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-email.md">
-<img alt="이메일 생성" src="assets/do-not-localize/email-genai.jpeg">
+<img alt="Email generation" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-email.md"><strong>콘텐츠 도우미를 사용하여 이메일 생성</strong></a>
+<a href="generative-email.md"><strong>Email generation with the Content Assistant</strong></a>
 </div>
 <p></td>
 </tr></table>
+-->
 

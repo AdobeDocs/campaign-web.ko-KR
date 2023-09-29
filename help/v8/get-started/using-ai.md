@@ -1,17 +1,22 @@
 ---
 title: Campaign 웹에서 AI 기반 지식 도우미 사용
 description: Campaign 웹에서 AI 기반 지식 도우미 사용
-badge: label="Beta"
-source-git-commit: c29864901482c226351fdde8521aebb65a9d673a
+badge: label="Alpha"
+source-git-commit: 2b499b854110cd317b47b9a7d3884467869624f1
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 5%
+source-wordcount: '433'
+ht-degree: 4%
 
 ---
 
 # AI 기반 기술 자료 지원 사용 {#using-ai}
 
 제품 상황별 도움말 상자에서 AI 기반의 Knowkedge Assistant를 사용하여 제품 설명서 및 현재 제품 컨텍스트를 기반으로 AI가 생성한 빠른 답변을 얻을 수 있습니다.
+
+>[!NOTE]
+>
+>이 기능은 Alpha 버전에서 사용할 수 있으며 사전 공지 없이 변경될 수 있습니다.
+
 
 다음 **Gen AI를 사용하는 기술 지원** 상황별 도움말에 포함되어 방대한 설명서 저장소를 손쉽게 탐색하여 설명서 검색 및 사용 방법 질문에 대한 대답 기능을 혁신적으로 개선하고 필요한 정확한 정보를 즉시 정확하게 찾아냅니다.
 

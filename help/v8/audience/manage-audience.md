@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
->title="대상 오류"
->abstract="대상 데이터를 사용할 수 없습니다. 워크플로우 실행이 종료될 때까지 기다려 주십시오."
+>title="대상자 오류"
+>abstract="대상자 데이터를 사용할 수 없습니다. 워크플로 실행이 종료될 때까지 기다려 주십시오."
 
 Campaign 웹에서 사용할 수 있는 대상자 목록은 **[!UICONTROL 대상]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 

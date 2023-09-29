@@ -5,8 +5,8 @@ description: 보강 워크플로 활동을 사용하는 방법에 대해 알아�
 badge: label="Beta"
 source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '670'
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment"
 >title="보강 활동"
->abstract="다음 **데이터 보강** 활동을 사용하면 데이터베이스의 추가 정보로 타겟팅된 데이터를 향상시킬 수 있습니다. 일반적으로 활동을 세분화한 후 워크플로에서 사용됩니다."
+>abstract="**보강** 활동을 사용하면 데이터베이스의 추가 정보로 타겟팅된 데이터를 보강할 수 있습니다. 일반적으로 활동을 세분화한 후 워크플로에서 사용됩니다."
 
 
 >[!CONTEXTUALHELP]
@@ -27,7 +27,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
 >title="보강 데이터"
->abstract="워크플로우를 보강하는 데 사용할 데이터를 선택합니다. 데이터 보강 데이터의 두 가지 유형인 대상 차원의 단일 보강 속성이나, 테이블 간에 1-N 카디널리티가 있는 링크인 컬렉션 링크를 선택할 수 있습니다."
+>abstract="워크플로를 강화하는 데 사용할 데이터를 선택합니다. 보강 데이터의 두 가지 유형, 즉 대상 차원의 단일 보강 속성 또는 테이블 간에 1-N 카디널리티가 있는 링크인 컬렉션 링크를 선택할 수 있습니다."
 
 **보강** 활동은 **타겟팅** 활동입니다. 이를 통해 데이터베이스의 추가 정보로 타겟팅된 데이터를 보강할 수 있습니다. 일반적으로 활동을 세분화한 후 워크플로에서 사용됩니다.
 

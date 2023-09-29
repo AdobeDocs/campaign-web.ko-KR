@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 1fef8cd125d2688c70997bb44681f0832277f7fd
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 45%
+ht-degree: 50%
 
 ---
 
@@ -130,7 +130,7 @@ ht-degree: 45%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
->title="클릭 수"
+>title="클릭수"
 >abstract="이메일에서 최소 한 번 클릭한 수신자 수입니다. 이 표시기는 5분마다 업데이트됩니다. 표시되는 백분율은 게재된 메시지 수와 비교되는 고유 클릭 수의 비율입니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="KPI 이해"
 

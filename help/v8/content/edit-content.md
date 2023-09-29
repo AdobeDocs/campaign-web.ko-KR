@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 34%
+ht-degree: 50%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="이메일 콘텐츠 정의"
->abstract="다음 **콘텐츠 편집** 화면에서는 보낸 사람 주소 및 제목 줄과 같은 메시지의 기본 요소를 정의하고, 첨부 파일 또는 오퍼 추가와 같은 추가 작업을 수행하고, 이메일 디자이너에 액세스하여 메시지를 깔끔하게 표시할 수 있습니다."
+>abstract="**콘텐츠 편집** 화면에서는 발신자 주소 및 제목 줄과 같은 메시지의 기본 요소를 정의하고, 첨부 파일이나 오퍼 추가와 같은 추가 작업을 수행하고, 이메일 디자이너에 액세스하여 메시지를 세련된 형태로 지정할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="이메일 속성 설정"
->abstract="다음 **기본 세부 정보** 섹션에서는 발신자의 주소 및 회신 주소를 업데이트하고 표현식 편집기를 사용하여 제목 줄을 정의할 수 있습니다."
+>abstract="**기본 세부 정보** 섹션에서는 발신자의 주소와 회신 주소를 업데이트하고 표현식 편집기를 사용하여 제목 줄을 정의할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
@@ -31,7 +31,7 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="추적 편집"
->abstract="기본적으로 게재를 위해 추적이 활성화됩니다. 즉, 메시지 콘텐츠에 포함된 모든 링크가 추적됩니다. 여기에서 이 옵션을 비활성화할 수 있습니다."
+>abstract="기본적으로 게재에 대한 추적이 활성화됩니다. 즉, 메시지 콘텐츠에 포함된 모든 링크가 추적됩니다. 여기에서 이 옵션을 비활성화할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="링크 추가 및 메시지 추적"
 
 이메일 **[!UICONTROL 콘텐츠 편집]** 화면에서 다음을 수행할 수 있습니다.

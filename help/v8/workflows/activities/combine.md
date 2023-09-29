@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 4ef1ac4c8af16c3b83a2df8f903dccc1629339e3
 workflow-type: tm+mt
 source-wordcount: '886'
-ht-degree: 78%
+ht-degree: 85%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine"
 >title="활동 결합"
->abstract="다음 **결합** 활동을 사용하면 인바운드 모집단에서 세분화를 수행할 수 있습니다. 따라서 여러 모집단을 결합하고 일부를 제외하거나 데이터를 여러 대상에 공통으로만 유지할 수 있습니다."
+>abstract="**결합** 활동을 통해 인바운드 모집단에 대한 세분화를 수행할 수 있습니다. 따라서 여러 모집단을 결합하거나, 일부를 제외하거나, 데이터를 여러 대상에 공통으로 유지할 수 있습니다."
 
 
 다음 **결합** 활동은 입니다. **타겟팅** 활동. 이 활동을 통해 인바운드 모집단에 대한 세분화를 수행할 수 있습니다. 따라서 여러 모집단을 결합하거나, 일부를 제외하거나, 데이터를 여러 대상에 공통으로 유지할 수 있습니다. 사용 가능한 세분화 유형은 다음과 같습니다.
@@ -44,7 +44,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
 >title="세분화 유형 선택"
->abstract="결합, 교차 또는 제외와 같이 대상을 결합하는 방법을 선택합니다."
+>abstract="통합, 교차 또는 제외 등 대상자를 결합하는 방법을 선택합니다."
 
 **결합** 활동 구성을 시작하려면 다음과 같은 일반적인 단계를 따르십시오.
 
@@ -66,7 +66,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_reconciliation"
 >title="조정 옵션"
->abstract="다음 항목 선택 **조정 유형** 중복 처리 방법을 정의합니다."
+>abstract="중복 처리 방법을 정의하려면 **조정 유형**&#x200B;을 선택합니다."
 
 다음에서 **결합** 활동, 다음을 구성할 수 있습니다. **합집합**. 이를 위해 다음을 선택해야 합니다. **조정 유형** 중복 처리 방법을 정의하려면 다음을 수행합니다.
 

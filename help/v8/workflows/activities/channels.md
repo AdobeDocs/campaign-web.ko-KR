@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '781'
-ht-degree: 59%
+ht-degree: 66%
 
 ---
 
@@ -59,7 +59,7 @@ Adobe Campaign Web을 사용하여 이메일, SMS 또는 푸시 채널에서 마
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
->title="Android 활동 푸시"
+>title="푸시 Android 활동"
 >abstract="이메일, SMS 및 푸시 채널에서 마케팅 캠페인을 자동화하고 실행합니다. 채널 활동을 워크플로 캔버스에 결합하여 고객 행동 및 데이터에 따라 작업을 트리거할 수 있는 크로스 채널 워크플로를 만들 수 있습니다."
 
 워크플로우 컨텍스트에서 게재를 설정하려면 아래 단계를 따르십시오.

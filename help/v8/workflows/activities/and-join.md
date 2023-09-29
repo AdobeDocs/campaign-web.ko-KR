@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: f5d2cb68b3df42105da9d6b346e6e9c57e14723a
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 82%
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
 >title="AND-결합 활동"
->abstract="**AND-결합** 활동을 사용하면 워크플로의 여러 실행 분기를 동기화할 수 있습니다. 앞선 활동이 모두 완료되면 트리거됩니다. 이를 통해 워크플로우를 계속 실행하기 전에 특정 활동이 완료되었는지 확인할 수 있습니다."
+>abstract="**AND-결합** 활동을 사용하면 워크플로의 여러 실행 분기를 동기화할 수 있습니다. 이전 활동이 모두 완료되면 트리거됩니다. 이로써 워크플로를 계속 실행하기 전에 특정 활동이 완료되었는지 확인할 수 있습니다."
 
 **AND-결합** 활동은 **흐름 제어** 활동입니다. 이를 통해 워크플로의 여러 실행 분기를 동기화할 수 있습니다.
 
@@ -27,8 +27,8 @@ ht-degree: 82%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
->title="AND-join 활동 구성"
->abstract="가입할 활동을 선택합니다. **기본 세트** 드롭다운에서 유지하고자 하는 인바운드 전환 모집단을 선택합니다."
+>title="AND-결합 활동 구성"
+>abstract="참여하고자 하는 활동을 선택합니다. **기본 세트** 드롭다운에서 유지하고자 하는 인바운드 전환 모집단을 선택합니다."
 
 **AND-결합** 활동을 구성하려면 다음 단계를 따르십시오.
 

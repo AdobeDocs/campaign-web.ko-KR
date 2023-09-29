@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 66%
+ht-degree: 97%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork_transitions"
 >title="포크 활동 전환"
->abstract="기본적으로 두 전환은 **포크** 활동. 다음을 클릭합니다. **전환 추가** 단추를 클릭하여 추가 아웃바운드 전환을 정의하고 해당 레이블을 입력합니다."
+>abstract="기본적으로 **포크** 활동을 통해 두 개의 전환을 만듭니다. **전환 추가** 버튼을 클릭하여 추가 아웃바운드 전환을 정의하고 해당 레이블을 입력합니다."
 
-다음 **포크** 활동은 입니다. **흐름 제어** 활동. 이를 통해 아웃바운드 전환을 만들어서 여러 활동을 동시에 시작할 수 있습니다.
+**포크** 활동은 **플로우 제어** 활동입니다. 이 활동을 사용하면 아웃바운드 전환을 만들어서 여러 활동을 동시에 시작할 수 있습니다.
 
 ## 포크 활동 구성{#fork-configuration}
 

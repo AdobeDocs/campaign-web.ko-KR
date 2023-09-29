@@ -1,16 +1,16 @@
 ---
-title: 수신자 및 대상자와 작업
+title: 수신자 및 대상자 작업
 description: 수신자 Campaign 웹으로 작업하는 방법 알아보기
 badge: label="Beta"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
 
-# 수신자 및 대상자와 작업 {#about-recipients}
+# 수신자 및 대상자 작업 {#about-recipients}
 
 Adobe Campaign에서 게재의 대상 모집단은 대상자입니다. 대상자는 유사한 행동 및/또는 특성을 공유하는 사람들의 집합입니다. 이 사람 컬렉션은 생성, 선택 또는 로드될 수 있습니다. [아래에 자세히 설명됨](#audiences). 대부분의 경우 대상자는 프로필로 구성되며, 프로필은 [수신자](#recipients) Adobe Campaign. 설명된 대로 차원을 변경하여 다른 대상 매핑과 작업할 수도 있습니다 [이 섹션에서](#targeting-dimensions).
 
@@ -45,7 +45,7 @@ Adobe Campaign에서 게재의 대상 모집단은 대상자입니다. 대상자
 
 >[!NOTE]
 >
->사용 권한에 따라 데이터베이스에 저장된 전체 수신자 목록에 액세스하지 못할 수 있습니다. 의 권한에 대해 자세히 알아보기 [이 섹션](../get-started/permissions.md).
+>사용 권한에 따라 데이터베이스에 저장된 전체 수신자 목록에 액세스하지 못할 수 있습니다. [이 섹션](../get-started/permissions.md)에서 권한에 대해 자세히 알아보십시오.
 
 또한 뉴스레터와 같은 서비스에 대한 수신자의 구독 및 구독 취소를 관리할 수 있습니다. [구독 서비스 작업 방법 알아보기](manage-services.md)
 

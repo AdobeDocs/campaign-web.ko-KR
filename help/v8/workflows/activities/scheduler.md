@@ -5,8 +5,8 @@ description: 스케줄러 워크플로우 활동을 사용하는 방법 알아�
 badge: label="Beta"
 source-git-commit: 4f53f8765aeb2254a52eb48591d5e14250afc69d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '518'
+ht-degree: 30%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_scheduler"
 >title="스케줄러 활동"
->abstract="다음 **스케줄러** 활동을 통해 워크플로우가 시작되는 시기를 예약할 수 있습니다. 이 활동은 시작을 예약하는 것으로 생각해야 합니다. 워크플로우의 첫 번째 활동으로만 사용할 수 있습니다."
+>abstract="**스케줄러** 활동을 사용하면 워크플로가 시작되는 시기를 예약할 수 있습니다. 이 활동은 시작을 예약하는 것으로 생각해야 합니다. 워크플로의 첫 번째 활동으로만 사용할 수 있습니다."
 
 
-다음 **스케줄러** 활동은 입니다. **흐름 제어** 활동. 워크플로우가 시작되는 시기를 예약할 수 있습니다. 이 활동은 시작을 예약하는 것으로 생각해야 합니다. 워크플로우의 첫 번째 활동으로만 사용할 수 있습니다.
+다음 **스케줄러** 활동은 입니다. **흐름 제어** 활동. 워크플로우가 시작되는 시기를 예약할 수 있습니다. 이 활동은 시작을 예약하는 것으로 생각해야 합니다. 워크플로의 첫 번째 활동으로만 사용할 수 있습니다.
 
 ## 모범 사례{#scheduler-best-practices}
 
@@ -33,13 +33,13 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
 >title="스케줄러 유효성"
->abstract="스케줄러에 대한 유효 기간을 정의할 수 있습니다. 영구(기본값)일 수도 있고 특정 날짜까지 유효할 수도 있습니다."
+>abstract="스케줄러의 유효 기간을 정의할 수 있습니다. 영구적(기본값)이거나 특정 날짜까지 유효할 수 있습니다."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
 >title="스케줄러 옵션"
->abstract="스케줄러 빈도를 정의합니다. 하루, 주 또는 한 달에 한 번 또는 여러 번, 특정 순간에 실행될 수 있습니다."
+>abstract="스케줄러의 빈도를 정의합니다. 특정 순간, 하루에 한 번 또는 여러 번, 일주일 또는 한 달로 실행할 수 있습니다."
 
 다음 단계에 따라 **스케줄러** 활동:
 

@@ -4,7 +4,7 @@ title: 목록 찾아보기, 검색 및 필터링
 description: Campaign Web v8 목록을 찾아보고 필터링하는 방법 살펴보기
 badge: label="Beta"
 source-git-commit: 8612e29aa16bce609a822e42d15e2f92a6874383
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 100%
 

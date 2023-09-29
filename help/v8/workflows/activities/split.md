@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split"
 >title="분할 활동"
->abstract="다음 **분할** 활동을 사용하면 필터링 규칙 또는 모집단 크기와 같은 다양한 선택 기준에 따라 들어오는 모집단을 여러 하위 집합으로 세그먼트화할 수 있습니다."
+>abstract="**분할** 활동은 필터링 규칙 또는 모집단 크기와 같은 다양한 선택 기준에 따라 수신 모집단을 여러 하위 집합으로 세그먼트화할 수 있습니다."
 
 
 **분할** 활동은 필터링 규칙 또는 모집단 크기와 같은 다양한 선택 기준에 따라 수신 모집단을 여러 하위 집합으로 세그먼트화할 수 있는 **타겟팅** 활동입니다.
@@ -25,18 +25,18 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
->title="활동 필터 분할"
+>title="분할 활동 필터"
 >abstract="하위 집합에 필터링 조건을 적용하려면 **[!UICONTROL 필터 만들기]**&#x200B;를 클릭하고 원하는 필터링 조건을 구성합니다. 예를 들어 데이터베이스에 이메일 주소가 존재하는 수신 모집단의 프로필을 포함합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"
->title="활동 제한 분할"
+>title="분할 활동 제한"
 >abstract="하위 집합에서 선택한 프로필 수를 제한하려면 **[!UICONTROL 제한 활성화]** 옵션을 토글하고 포함할 모집단의 수 또는 백분율을 지정합니다."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_sorting"
->title="활동 분할 정렬"
+>title="분할 활동 정렬"
 >abstract="하위 집합에 대해 모집단 제한을 설정할 때 특정 프로필 속성을 기준으로 선택한 프로필의 등급을 오름차순 또는 내림차순으로 지정할 수 있습니다. 이렇게 하려면 **정렬 활성화** 옵션을 토글합니다. 예를 들어 구매 금액이 가장 높은 상위 50개 프로필만 포함하도록 하위 집합을 제한할 수 있습니다."
 
 

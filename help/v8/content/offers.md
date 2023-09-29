@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
 source-wordcount: '782'
-ht-degree: 33%
+ht-degree: 42%
 
 ---
 
@@ -25,13 +25,13 @@ Adobe Campaign v8 웹을 사용하면 콘솔에서 생성된 게재 오퍼를 **
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
->title="오퍼 매개 변수 정의"
->abstract="오퍼 공간, 선택적으로 카테고리 및 테마를 정의하여 수신자에게 제안해야 하는 오퍼를 구성하고 게재에 삽입할 오퍼 수를 지정합니다."
+>title="오퍼 매개변수 정의"
+>abstract="오퍼 공간, 필요한 경우 범주 및 테마를 정의하여 수신자에게 제안할 오퍼를 구성하고 게재에 삽입할 오퍼 수를 지정합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
 >title="오퍼 고급 설정 지정"
->abstract="적격 오퍼가 충분하지 않은 수신자를 제외할 수 있도록 설정하고 제안 중 하나가 존재하지 않을 경우 메시지 처리 방법을 선택할 수 있습니다."
+>abstract="적격 제안이 충분하지 않은 수신자를 제외하도록 활성화하고 오퍼 중 하나가 존재하지 않는 경우 메시지가 처리되는 방법을 선택할 수 있습니다."
 
 Adobe Campaign을 사용하면 특정 연락처에 하나 또는 여러 개의 특정 오퍼를 제안할 수 있습니다. 상호 작용 모듈을 사용하면 지정된 연락처에 대해 단일 또는 여러 개의 특정 오퍼를 제안하여 상호 작용 중에 실시간으로 응답할 수 있습니다. 이러한 오퍼는 간단한 통신 메시지, 하나 또는 여러 제품 또는 서비스에 대한 특별 오퍼일 수 있습니다.
 

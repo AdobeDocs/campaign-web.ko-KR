@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 4%
+ht-degree: 11%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="대상자"
->abstract="이 화면에서 게재의 타겟팅할 수 있는 모든 대상자 목록에 액세스할 수 있습니다. 클릭 **만들기** 과 같은 다양한 워크플로우 활동을 사용하여 시각적 캔버스로 새 대상자를 만들려면 **분할** 또는 **제외**."
+>abstract="이 화면에서 게재에서 타겟팅할 수 있는 모든 대상자 목록에 액세스할 수 있습니다. **만들기**&#x200B;를 클릭하여 **분할** 또는 **제외**&#x200B;와 같은 다양한 워크플로 활동을 통해 새 대상자를 시각적 캔버스에 만듭니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"

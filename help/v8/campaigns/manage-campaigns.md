@@ -5,8 +5,8 @@ description: 크로스 채널 캠페인 시작 방법 알아보기
 badge: label="Beta"
 source-git-commit: 7a04eb8c5b60b9a2545723fcb6a748c57e9d98e6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '603'
+ht-degree: 75%
 
 ---
 
@@ -42,8 +42,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"
->title="캠페인의 게재 목록"
->abstract="**게재** 탭에는 현재 캠페인에 연결된 게재가 모두 나열됩니다. 편집할 게재 이름을 클릭합니다. 게재 만들기 버튼을 사용하여 이 캠페인에 대한 새 게재를 추가합니다."
+>title="캠페인 게재 목록"
+>abstract="**게재** 탭에는 현재 캠페인에 연결된 게재가 모두 나열됩니다. 편집하려면 게재 이름을 클릭하십시오. 이 캠페인에 대한 새 게재를 추가하려면 게재 만들기 버튼을 사용하십시오."
 
 캠페인 목록의 **찾아보기** 탭에서 캠페인을 클릭하면 세부 정보가 &#x200B;&#x200B;표시됩니다.
 

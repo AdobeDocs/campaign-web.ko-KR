@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 4%
+ht-degree: 30%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
 >title="보조 항목 생성"
->abstract="중복으로 제외된 나머지 모집단으로 추가 아웃바운드 전환을 생성할 수 있습니다. 이렇게 하려면 **보조 항목 생성** 옵션을 토글합니다"
+>abstract="중복으로 제외되었던 나머지 모집단으로 추가 아웃바운드 전환을 생성할 수 있습니다. 이렇게 하려면 **보조 항목 생성** 옵션을 토글합니다"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"
 >title="차원 활동 변경"
->abstract="이 활동을 통해 대상을 구축할 때 타겟팅 차원을 변경할 수 있습니다. 데이터 템플릿과 입력 차원에 따라 축을 이동합니다. 예를 들어 &quot;계약&quot; 차원에서 &quot;클라이언트&quot; 차원으로 전환할 수 있습니다."
+>abstract="이 활동을 통해 대상자를 구축하면서 타겟팅 차원을 변경할 수 있습니다. 데이터 템플릿과 입력 차원에 따라 축이 이동됩니다. 예를 들어 “계약” 차원에서 “클라이언트” 차원으로 전환할 수 있습니다."
 
-다음 **차원 변경** 활동은 입니다. **타겟팅** 활동. 이 활동을 사용하면 워크플로우를 빌드할 때 타겟팅 차원을 변경할 수 있습니다. 데이터 템플릿과 입력 차원에 따라 축을 이동합니다. [타겟팅 차원에 대해 자세히 알아보기](../../audience/about-recipients.md#targeting-dimensions)
+다음 **차원 변경** 활동은 입니다. **타겟팅** 활동. 이 활동을 사용하면 워크플로우를 빌드할 때 타겟팅 차원을 변경할 수 있습니다. 데이터 템플릿과 입력 차원에 따라 축이 이동됩니다. [타겟팅 차원에 대해 자세히 알아보기](../../audience/about-recipients.md#targeting-dimensions)
 
 예를 들어 워크플로우의 타겟팅 차원을 &quot;수신자&quot;에서 &quot;구독자 애플리케이션&quot;으로 전환하여 타겟팅된 수신자에게 푸시 알림을 전송할 수 있습니다.
 

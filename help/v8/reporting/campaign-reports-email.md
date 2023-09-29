@@ -3,9 +3,9 @@ audience: end-user
 title: 이메일 채널에 대한 캠페인 보고서
 description: 이메일 채널에 대한 캠페인 보고서에 대해 자세히 알아보기
 badge: label="Beta"
-source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
+source-git-commit: 0fee0bd74be36e2c5defc14021505f169776dcd3
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1546'
 ht-degree: 9%
 
 ---
@@ -13,12 +13,14 @@ ht-degree: 9%
 
 # 이메일 채널에 대한 캠페인 보고서 {#campaign-reports-email-channel}
 
+각 캠페인 보고서는 캠페인의 성공 및 오류를 자세히 설명하는 다양한 위젯으로 나뉩니다. 이메일 채널의 경우 보고서 및 지표가 아래에 자세히 설명되어 있습니다. 에서 캠페인 보고서에 액세스하는 방법 알아보기 [이 페이지](campaign-reports.md).
+
 ## 게재 요약 {#delivery-summary-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="게재 개요"
->abstract="게재 개요는 방문자가 이메일 게재에 참여하는 방식에 대한 자세한 정보를 포함하는 주요 성과 지표(KPI)를 제공합니다."
+>abstract="다음 **게재 개요** 은 방문자의 이메일 게재 참여도에 대한 자세한 정보를 제공하는 주요 성과 지표(KPI)를 제공합니다."
 
 ### 게재 개요 {#delivery-summary-email-ovv}
 
@@ -87,7 +89,6 @@ ht-degree: 9%
 +++
 
 ### 반응 통계 {#delivery-summary-email-reaction-stats}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_reaction_stats"
@@ -183,6 +184,12 @@ ht-degree: 9%
 
 ### 게재 통계 {#delivery-summary-email-statistics}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_campaign_delivery_statistics_summary"
+>title="게재 통계"
+>abstract="다음 **게재 통계** 그래프는 게재의 성공 및 발생한 오류를 자세히 설명합니다."
+
 다음 **[!UICONTROL 게재 통계]** 지표는 보낸 이메일에 사용할 수 있는 데이터에 대한 자세한 정보를 제공하는 주요 성능 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
 ![](assets/campaign_report_email_7.png)
@@ -207,7 +214,7 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
->title="열람 및 클릭스루 비율 위젯"
+>title="열람 및 클릭스루 비율"
 >abstract="**열람 및 클릭스루 비율** 표에 게재를 이용하는 수신자와 관련된 데이터가 표시됩니다."
 
 
@@ -253,8 +260,6 @@ ht-degree: 9%
 
 ### 가장 많이 방문한 상위 링크 10개 {#top10-campaign-report-email}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="가장 많이 방문한 상위 링크 10개"
@@ -286,13 +291,19 @@ ht-degree: 9%
 
 ![](assets/campaign_report_email_11.png)
 
+
 ## 사용자 활동 {#user-activities-email}
 
-다음  **[!UICONTROL 사용자 활동]** 보고서는 차트 형태로 열람 및 클릭 수를 분류하여 보여줍니다. 지표는 아래에 자세히 설명되어 있습니다.
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_user_activities"
+>title="사용자 활동"
+>abstract="**사용자 활동** 그래프에 열람 및 클릭의 분류가 차트 형식으로 표시됩니다."
 
-![](assets/campaign_report_email_12.png)
+다음 **[!UICONTROL 사용자 활동]** 보고서는 차트 형태로 열람 및 클릭 수를 분류하여 보여줍니다. 이 보고서에 대한 지표는 아래에 자세히 설명되어 있습니다.
 
-+++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
+![](assets/campaign_report_email_10.png){align="center"}
+
++++이메일 게재 보고서 지표에 대해 자세히 알아보십시오.
 
 * **[!UICONTROL 클릭수]**: 게재의 총 링크 클릭 수입니다.
 

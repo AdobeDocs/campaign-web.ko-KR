@@ -3,9 +3,7 @@ audience: end-user
 title: 콘텐츠 도우미를 사용하여 이메일 생성
 description: Content Assistant 시작
 badge: label="Alpha"
-hide: true
-hidefromtoc: true
-source-git-commit: 2b499b854110cd317b47b9a7d3884467869624f1
+source-git-commit: 2eea0827a1daf4af002587d09c11e2279aaf933c
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 2%

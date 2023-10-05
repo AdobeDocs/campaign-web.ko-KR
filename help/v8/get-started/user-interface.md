@@ -4,19 +4,14 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
+source-git-commit: 86a343aae763e753bc63ca2cab3c22cda07d7c16
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1253'
 ht-degree: 92%
 
 ---
 
 # 인터페이스 살펴보기 {#user-interface}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_learnmore"
->title="인터페이스 살펴보기"
->abstract="새로운 Campaign v8 Web 인터페이스는 통합되고 직관적이며, 일관된 사용자 경험을 제공합니다."
 
 새로운 Campaign v8 Web 인터페이스는 현대적이고 직관적인 사용자 경험을 제공하여 마케팅 캠페인 디자인 및 게재를 간소화합니다. 이 새로운 인터페이스는 Adobe Experience Cloud 앱 및 솔루션과 통합됩니다.
 

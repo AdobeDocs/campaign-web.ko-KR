@@ -4,10 +4,10 @@ title: Campaign Web v8의 새로운 기능
 description: Campaign Web v8이 제공되는 새로운 기능 살펴보기
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
+source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 98%
+source-wordcount: '1031'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,6 @@ ht-degree: 98%
 >id="acw_homepage_card1"
 >title="새로운 기능"
 >abstract="최신 릴리스에는 맞춤형 크로스 채널 캠페인 생성을 간소화하고, 탁월한 결과를 도출하며, 모든 채널에서 경쟁 우위를 확보하도록 설계된 직관적인 기능이 포함되어 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/start/using-ai.html" text="새로운 AI 기반의 Knowledge Assistant를 통해 지침 찾기"
 
 Adobe Campaign Web UI의 Beta 버전을 소개합니다. 최신 릴리스에는 맞춤형 크로스 채널 캠페인 생성을 간소화하고, 탁월한 결과를 도출하며, 모든 채널에서 경쟁 우위를 확보하도록 설계된 직관적인 기능이 포함되어 있습니다.
 

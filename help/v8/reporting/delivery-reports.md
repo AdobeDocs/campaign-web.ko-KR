@@ -4,10 +4,10 @@ title: 게재 보고서
 description: 게재 보고서 액세스 및 사용 방법 알아보기
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beta"
-source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
+source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 43%
+source-wordcount: '204'
+ht-degree: 35%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 43%
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
->title="다시 로드"
->abstract="**다시 로드** 버튼을 클릭하여 마지막 지표를 검색하고 데이터를 새로 고칩니다."
+>title="내보내기"
+>abstract="다음을 클릭합니다. **내보내기** 버튼을 클릭하여 이러한 지표를 공유하거나 인쇄할 수 있는 PDF 또는 CSV 형식으로 내보냅니다. "
 
 Adobe Campaign은 각 게재에 대해 액세스할 수 있는 여러 유형의 보고서를 제공합니다. 이러한 보고서를 사용하면 내장된 대시보드에서 메시지의 영향과 성능을 측정하고 시각화할 수 있습니다.
 

@@ -3,13 +3,13 @@ audience: end-user
 title: 푸시 채널에 대한 캠페인 보고서
 description: 푸시 채널에 대한 캠페인 보고서 이해
 badge: label="Beta"
-source-git-commit: 72a7cb2577512b9b3dbf239ca664aa8410918ba2
+exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 4%
+ht-degree: 23%
 
 ---
-
 
 # 푸시 채널에 대한 캠페인 보고서 {#campaign-reports-push-channel}
 
@@ -20,9 +20,9 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_deliveries_overview"
 >title="게재 개요"
->abstract="다음 **게재 개요** 보고서는 방문자의 푸시 알림 전달 방식에 대한 자세한 정보를 제공하는 주요 성과 지표(KPI)를 제공합니다."
+>abstract="**게재 개요** 보고서는 방문자가 푸시 알림 게재에 참여하는 방식에 대한 자세한 정보를 포함하는 주요 성과 지표(KPI)를 제공합니다."
 
-다음 **[!UICONTROL 게재 개요]** 보고서는 방문자의 푸시 알림 전달 방식에 대한 자세한 정보를 제공하는 주요 성과 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
+**[!UICONTROL 게재 개요]** 보고서는 방문자가 푸시 알림 게재에 참여하는 방식에 대한 자세한 정보를 포함하는 주요 성과 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
 ![](assets/campaign-reporting-push-summary.png)
 
@@ -39,13 +39,13 @@ ht-degree: 4%
 
 +++
 
-### 초기 타겟 대상자 통계 {#delivery-summary-push-initial-target}
+### 초기 타깃 대상자 통계 {#delivery-summary-push-initial-target}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_target"
->title="초기 타겟 대상자 통계"
->abstract="다음 **초기 타겟 대상 통계** 테이블에는 수신자와 관련된 데이터가 표시됩니다."
+>title="초기 타깃 대상자 통계"
+>abstract="**초기 타깃 대상자 통계** 테이블에는 수신자와 관련된 데이터가 표시됩니다."
 
 다음 **[!UICONTROL 초기 타겟 대상 통계]** 테이블에는 수신자와 관련된 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 
@@ -67,7 +67,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_exec_stats"
 >title="실행 통계"
->abstract="다음 **실행 통계** 표에는 게재의 성공, 즉 게재할 메시지, 성공, 오류 및 새로운 격리에 대해 자세히 설명되어 있습니다."
+>abstract="**실행 통계** 테이블에는 전달할 메시지, 성공, 오류, 새 격리 등 게재 성공에 대한 자세한 내용이 나와 있습니다."
 
 다음 **[!UICONTROL 실행 통계]** 게재의 성공 여부를 표로 자세히 설명합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
@@ -93,7 +93,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_click_streams"
 >title="생성된 클릭스트림"
->abstract="다음 **생성된 클릭 스트림** 표는 수신자가 게재와 상호 작용하는 방법과 관련하여 사용 가능한 데이터를 보여 줍니다."
+>abstract="**생성된 클릭스트림** 테이블에는 수신자가 게재된 내용과 상호 작용한 방식과 관련하여 이용 가능한 데이터가 표시됩니다."
 
 다음 **[!UICONTROL 생성된 클릭 스트림]** 테이블에는 수신자와 게재의 상호 작용 방식에 따른 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 

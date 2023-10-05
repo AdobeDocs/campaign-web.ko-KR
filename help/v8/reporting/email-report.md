@@ -3,10 +3,11 @@ audience: end-user
 title: 이메일 게재 보고서
 description: 이메일 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
+exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '2254'
-ht-degree: 22%
+ht-degree: 38%
 
 ---
 
@@ -26,7 +27,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_initial_target"
 >title="초기 대상 집단"
->abstract="다음 **초기 대상 모집단** 그래프는 게재 준비 결과를 기반으로 수신자 및 메시지와 관련된 데이터를 표시합니다."
+>abstract="**초기 대상 집단** 그래프에는 게재 준비의 결과를 바탕으로 수신자 및 메시지 관련 데이터가 표시됩니다."
 
 다음 **[!UICONTROL 초기 대상 모집단]** 그래프는 수신자와 관련된 데이터를 표시합니다. 지표는 게재를 준비하는 동안 계산되며 초기 대상자, 보낼 메시지 수, 제외된 수신자 수를 표시합니다.
 
@@ -52,7 +53,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="게재 통계"
->abstract="다음 **게재 통계** 그래프는 게재의 성공 및 발생한 오류를 자세히 설명합니다."
+>abstract="**게재 통계** 그래프에 게재 성공과 발생한 오류가 자세히 표시됩니다."
 
 
 다음 **[!UICONTROL 게재 통계]** 그래프는 게재의 성공을 자세히 설명합니다. 지표는 아래에 자세히 설명되어 있습니다.
@@ -77,10 +78,10 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
 >title="게재 통계"
->abstract="다음 **제외 이유** 그래프와 표는 게재를 준비하는 동안 거부된 메시지의 규칙별 분류를 보여 줍니다."
+>abstract="**제외 이유** 그래프와 테이블에는 게재 준비 단계에서 거부된 메시지 규칙당 분류가 표시됩니다."
 
 
-다음 **[!UICONTROL 제외 이유]** 그래프와 표는 게재를 준비하는 동안 거부된 메시지의 규칙별 분류를 보여 줍니다. 제외 규칙은 다음에 자세히 설명되어 있습니다. [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
+**[!UICONTROL 제외 이유]** 그래프와 테이블에는 게재 준비 단계에서 거부된 메시지 규칙당 분류가 표시됩니다. 제외 규칙은 다음에 자세히 설명되어 있습니다. [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
 ![](assets/reporting_email_3.png){align="center" zoomable="yes"}
 
@@ -119,7 +120,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
 >title="브로드캐스트 통계"
->abstract="다음 **브로드캐스트 통계** 보고서에는 각 도메인에서 발생할 수 있는 오류에 대해 사용 가능한 데이터가 포함되어 있습니다."
+>abstract="**브로드캐스트 통계** 보고서에는 각 도메인에서 발생한 잠재 오류에 대한 사용 가능한 데이터가 포함되어 있습니다."
 
 **[!UICONTROL 브로드캐스트 통계]** 표에는 각 도메인에서 발생한 잠재 오류에 대한 사용 가능한 데이터가 포함되어 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
 
@@ -149,7 +150,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="유형별 오류 분류"
->abstract="다음 **유형별 오류 분류** 테이블 및 그래프에는 알 수 없는 사용자, 사서함 가득 참, 잘못된 도메인 등의 각 오류 유형에 사용할 수 있는 데이터가 포함되어 있습니다."
+>abstract="**유형별 오류 분류** 테이블과 그래프에는 발생한 각 오류의 분류(알 수 없는 사용자, 사서함 가득 참, 잘못된 도메인 등)와 관련하여 이용 가능한 데이터가 포함되어 있습니다."
 
 다음 **[!UICONTROL 유형별 오류 분류]** 테이블 및 그래프에는 오류 유형에 사용할 수 있는 데이터가 포함되어 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
 
@@ -182,7 +183,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="도메인별 오류 분류"
->abstract="다음 **도메인별 오류 분류** 표 및 그래프는 각 도메인에 따라 발생한 각 오류 유형에 대해 사용 가능한 데이터를 표시합니다."
+>abstract="**도메인별 오류 분류** 테이블과 그래프에는 각 도메인에 따라 발생한 각 오류 유형에 대해 사용 가능한 데이터가 표시됩니다."
 
 
 다음 **[!UICONTROL 도메인별 오류 분류]** 표 및 그래프는 각 도메인에서 발생할 수 있는 오류에 대해 사용 가능한 데이터를 표시합니다.
@@ -209,7 +210,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_indicators"
 >title=" 게재 통계"
->abstract="다음 **게재 통계** 보고서는 보낸 이메일에 사용할 수 있는 데이터에 대한 성공, 열기, 클릭 수 등과 같은 자세한 정보를 제공하는 주요 성능 지표(KPI)를 제공합니다."
+>abstract="**게재 통계** 보고서는 보낸 이메일에 사용할 수 있는 데이터에 대한 자세한 정보를 포함하는 주요 성과 지표(KPI, 예: 성공, 열람 수, 클릭 수 등)를 제공합니다."
 
 
 다음 **[!UICONTROL 게재 통계]** 보고서는 보낸 이메일에 사용할 수 있는 데이터에 대한 자세한 정보를 제공하는 주요 성능 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
@@ -262,10 +263,10 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
 >title="URL 및 클릭 스트림"
->abstract="다음 **URL 및 클릭 스트림** 보고서는 게재 중 가장 많이 클릭한 URL에 대한 자세한 정보를 제공하는 주요 성과 지표(KPI)를 제공합니다."
+>abstract="**URL 및 클릭스트림** 보고서는 게재 중 가장 많이 클릭한 URL에 대한 자세한 정보를 포함하는 주요 성과 지표(KPI)를 제공합니다."
 
 
-다음 **[!UICONTROL URL 및 클릭 스트림]** 보고서는 게재 중 가장 많이 클릭한 URL에 대한 자세한 정보를 제공하는 주요 성과 지표(KPI)를 제공합니다.
+**[!UICONTROL URL 및 클릭스트림]** 보고서는 게재 중 가장 많이 클릭한 URL에 대한 자세한 정보를 포함하는 주요 성과 지표(KPI)를 제공합니다.
 
 ![](assets/reporting_email_7.png){align="center"}
 
@@ -287,7 +288,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams_top10"
 >title="가장 많이 방문한 상위 링크 10개"
->abstract="다음 **가장 많이 방문한 상위 10개 링크** rgraph 및 표에는 링크당 수신자 동작에 사용할 수 있는 데이터가 포함되어 있습니다."
+>abstract="**가장 많이 방문한 상위 링크 10개** 그래프와 테이블에는 링크당 수신자 비헤이비어와 관련하여 이용 가능한 데이터가 포함되어 있습니다."
 
 
 다음 **[!UICONTROL 가장 많이 방문한 상위 10개 링크]** 그래프와 표에는 링크당 수신자 동작에 사용할 수 있는 데이터가 포함되어 있습니다.
@@ -302,13 +303,13 @@ ht-degree: 22%
 
 +++
 
-### 시간 경과에 따른 클릭수 분류 {#email-tracking-breakdown-over-time}
+### 시간 경과에 따른 클릭 분류 {#email-tracking-breakdown-over-time}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_click_breakdown"
->title="시간 경과에 따른 클릭수 분류"
->abstract="다음 **시간 경과에 따른 클릭 수 분류** 그래프는 링크당 수신자 동작에 사용할 수 있는 데이터를 보여 줍니다."
+>title="시간 경과에 따른 클릭 분류"
+>abstract="**시간 경과에 따른 클릭 분류** 그래프는 링크당 수신자 비헤이비어와 관련하여 이용 가능한 데이터를 보여줍니다."
 
 
 다음 **[!UICONTROL 시간 경과에 따른 클릭 수 분류]** 그래프에는 링크당 수신자 동작에 사용할 수 있는 데이터가 포함되어 있습니다.
@@ -360,11 +361,11 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_device"
 >title="디바이스별 분류"
->abstract="다음 **장치별 분류** 이 보고서는 해당 기간에 대한 장치별 열기 분류를 보여줍니다. 각 범주별로 두 개의 차트가 사용됩니다. 첫 번째 차트에는 컴퓨터 및 모바일 디바이스에서의 열람과 관련된 통계가 표시됩니다. 두 번째는 각 장치 유형에 대한 정확한 숫자와 백분율을 표시합니다."
+>abstract="**디바이스별 분류** 보고서에 관련 기간 동안 디바이스별로 열람의 분류가 표시됩니다. 각 범주별로 두 개의 차트가 사용됩니다. 첫 번째 차트에는 컴퓨터 및 모바일 디바이스에서의 열람과 관련된 통계가 표시됩니다. 두 번째에는 각 디바이스 유형별로 정확한 숫자와 백분율이 표시됩니다."
 
 다음 **장치별 분류** 이 보고서는 개인용 컴퓨터, Android 장치, Apple 장치 또는 기타 장치와 같은 기간에 대한 장치별 열기 분류를 보여줍니다.
 
-각 범주별로 두 개의 차트가 사용됩니다. 첫 번째 차트에는 컴퓨터 및 모바일 디바이스에서의 열람과 관련된 통계가 표시됩니다. 두 번째는 각 장치 유형에 대한 정확한 숫자와 백분율을 표시합니다.
+각 범주별로 두 개의 차트가 사용됩니다. 첫 번째 차트에는 컴퓨터 및 모바일 디바이스에서의 열람과 관련된 통계가 표시됩니다. 두 번째에는 각 디바이스 유형별로 정확한 숫자와 백분율이 표시됩니다.
 
 ![](assets/reporting_email_13.png){align="center"}
 
@@ -374,7 +375,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"
 >title="운영 체제별 분류"
->abstract="다음 **OS별 분류** 보고서는 해당 기간에 대한 운영 체제별 열기 분석을 보여 줍니다. 첫 번째 차트에는 컴퓨터 및 모바일 디바이스에서의 열람과 관련된 통계가 표시됩니다. 두 번째는 각 OS에 대한 정확한 숫자와 백분율을 표시합니다."
+>abstract="**OS별 분류** 보고서에는 관련 기간 동안 운영 체제별로 열람의 분류가 표시됩니다. 첫 번째 차트에는 컴퓨터 및 모바일 디바이스에서의 열람과 관련된 통계가 표시됩니다. 두 번째에는 각 운영 체제별로 정확한 숫자와 백분율이 표시됩니다."
 
 다음 **OS별 분류** 이 보고서는 Windows 시스템, Android 시스템, iOS 시스템 또는 기타 운영 체제별 열기 분류를 보여줍니다.
 
@@ -387,11 +388,11 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_browser"
 >title="브라우저별 분류"
->abstract="다음 **브라우저별 분류** 기간 동안의 브라우저별 열기 분류를 표시합니다. 첫 번째 차트에는 컴퓨터 및 모바일 디바이스에서의 열람과 관련된 통계가 표시됩니다. 두 번째는 각 브라우저의 정확한 수와 백분율을 표시합니다."
+>abstract="**브라우저별 분류**&#x200B;에는 관련 기간 동안 브라우저별로 열람의 분류가 표시됩니다. 첫 번째 차트에는 컴퓨터 및 모바일 디바이스에서의 열람과 관련된 통계가 표시됩니다. 두 번째에는 각 브라우저별로 정확한 숫자와 백분율이 표시됩니다."
 
 다음 **브라우저별 분류** 보고서는 Chrome, Safari, Internet Explorer 등의 브라우저별 열기 분류를 표시합니다.
 
-각 범주별로 두 개의 차트가 사용됩니다. 첫 번째 화면에 컴퓨터 및 모바일 운영 체제의 열림에 대한 통계가 표시됩니다. 두 번째는 각 브라우저의 정확한 수와 백분율을 표시합니다.
+각 범주별로 두 개의 차트가 사용됩니다. 첫 번째 화면에 컴퓨터 및 모바일 운영 체제의 열림에 대한 통계가 표시됩니다. 두 번째에는 각 브라우저별로 정확한 숫자와 백분율이 표시됩니다.
 
 ![](assets/reporting_email_13.2.png){align="center"}
 
@@ -400,7 +401,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_hotclicks"
->title="Hotclicks 보고서"
+>title="핫클릭 보고서"
 >abstract="**핫클릭** 보고서는 이메일 콘텐츠(HTML 및/또는 텍스트)와 각 링크의 링크 클릭 비율을 제공합니다. 개인 맞춤화 블록, 구독 취소 링크, 미러 페이지 링크 및 오퍼 링크는 총 누적 클릭 수 계산에 포함되지만 보고서에는 표시되지 않습니다."
 
 이 보고서에는 메시지 콘텐츠(HTML 및/또는 텍스트)와 각 링크의 링크 클릭 비율이 표시됩니다. 개인 맞춤화 블록, 구독 취소 링크, 미러 페이지 링크 및 오퍼 링크는 총 누적 클릭 수 계산에 포함되지만 보고서에는 표시되지 않습니다.

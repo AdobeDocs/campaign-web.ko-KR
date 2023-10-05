@@ -7,7 +7,7 @@ exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: 92882488c33cd0d7d8449ddfc6c50d2c37b47752
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 38%
+ht-degree: 40%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
->title="파일 미리 보기"
->abstract="파일 미리보기를 확인합니다. 이 화면에는 최대 30개의 레코드만 표시됩니다."
+>title="파일 미리보기"
+>abstract="파일의 미리보기를 확인합니다. 이 화면에는 최대 30개까지의 레코드만 표시됩니다."
 
 
 

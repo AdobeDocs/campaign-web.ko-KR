@@ -3,13 +3,13 @@ audience: end-user
 title: 이메일 채널에 대한 캠페인 보고서
 description: 이메일 채널에 대한 캠페인 보고서에 대해 자세히 알아보기
 badge: label="Beta"
-source-git-commit: 5d577c07c4d754e9265482f858c17740f304db42
+exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '1568'
-ht-degree: 9%
+ht-degree: 23%
 
 ---
-
 
 # 이메일 채널에 대한 캠페인 보고서 {#campaign-reports-email-channel}
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="게재 개요"
->abstract="다음 **게재 개요** 은 방문자의 이메일 게재 참여도에 대한 자세한 정보를 제공하는 주요 성과 지표(KPI)를 제공합니다."
+>abstract="**게재 개요**&#x200B;는 방문자가 이메일 게재에 참여하는 방식에 대한 자세한 정보를 포함하는 주요 성과 지표(KPI)를 제공합니다."
 
 ### 게재 개요 {#delivery-summary-email-ovv}
 
@@ -42,12 +42,12 @@ ht-degree: 9%
 
 +++
 
-### 초기 타겟 대상자 통계 {#delivery-summary-email-initial-target}
+### 초기 타깃 대상자 통계 {#delivery-summary-email-initial-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
->title="초기 타겟 대상자 통계"
->abstract="초기 타겟 대상자 통계 테이블에는 수신자와 관련된 데이터가 표시됩니다."
+>title="초기 타깃 대상자 통계"
+>abstract="초기 타깃 대상자 통계 테이블에는 수신자와 관련된 데이터가 표시됩니다."
 
 
 다음 **[!UICONTROL 초기 타겟 대상 통계]** 테이블에는 수신자와 관련된 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
@@ -70,7 +70,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_exec_stats"
 >title="실행 통계"
->abstract="다음 **실행 통계** 표에는 게재의 성공, 즉 게재할 메시지, 성공, 오류 및 새로운 격리에 대해 자세히 설명되어 있습니다."
+>abstract="**실행 통계** 테이블에는 전달할 메시지, 성공, 오류, 새 격리 등 게재 성공에 대한 자세한 내용이 나와 있습니다."
 
 다음 **[!UICONTROL 실행 통계]** 게재의 성공 여부를 표로 자세히 설명합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
@@ -96,7 +96,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_reaction_stats"
 >title="반응 통계"
->abstract="다음 **반응 통계** 이 표에서는 게재 시 수신자 활동에 사용할 수 있는 데이터, 즉 열기, 구독, 구독 취소, 미러 페이지 링크 클릭수를 보여 줍니다."
+>abstract="**반응 통계** 테이블에는 열람, 구독, 구독 취소, 페이지 미러링 링크 클릭 횟수 등 게재에 대한 수신자 활동과 관련하여 이용 가능한 데이터가 표시됩니다."
 
 
 다음 **[!UICONTROL 반응 통계]** 표에는 게재를 위한 수신자 활동에 사용 가능한 데이터가 포함되어 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
@@ -121,7 +121,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_click_streams"
 >title="생성된 클릭스트림"
->abstract="다음 **생성된 클릭 스트림** 표는 수신자가 게재와 상호 작용하는 방법과 관련하여 사용 가능한 데이터를 보여 줍니다."
+>abstract="**생성된 클릭스트림** 테이블에는 수신자가 게재된 내용과 상호 작용한 방식과 관련하여 이용 가능한 데이터가 표시됩니다."
 
 다음 **[!UICONTROL 생성된 클릭 스트림]** 테이블에는 수신자와 게재의 상호 작용 방식에 따른 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 
@@ -145,7 +145,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_error_type"
 >title="유형별 오류 분류"
->abstract="다음 **유형별 오류 분류** 테이블 및 그래프에는 알 수 없는 사용자, 사서함 가득 참, 잘못된 도메인 등의 각 오류 유형에 사용할 수 있는 데이터가 포함되어 있습니다."
+>abstract="**유형별 오류 분류** 테이블과 그래프에는 발생한 각 오류의 분류(알 수 없는 사용자, 사서함 가득 참, 잘못된 도메인 등)와 관련하여 이용 가능한 데이터가 포함되어 있습니다."
 
 다음 **[!UICONTROL 유형별 오류 분류]** 표 및 그래프에는 각 도메인 유형에 대해 발생할 수 있는 오류에 대해 사용 가능한 데이터가 포함되어 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
 
@@ -177,7 +177,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_error_domain"
 >title="도메인별 오류 분류"
->abstract="다음 **도메인별 오류 분류** 표 및 그래프는 각 도메인에 따라 발생한 각 오류 유형에 대해 사용 가능한 데이터를 표시합니다."
+>abstract="**도메인별 오류 분류** 테이블과 그래프에는 각 도메인에 따라 발생한 각 오류 유형에 대해 사용 가능한 데이터가 표시됩니다."
 
 
 다음 **[!UICONTROL 도메인별 오류 분류]** 표 및 그래프에는 각 도메인에서 발생할 수 있는 오류에 대해 사용 가능한 데이터가 포함되어 있습니다. 지표는 **[!UICONTROL 유형별 오류 분류]** 위에 자세히 설명된 표 및 그래프입니다.
@@ -191,7 +191,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_delivery_statistics_summary"
 >title="게재 통계"
->abstract="다음 **게재 통계** 그래프는 게재의 성공 및 발생한 오류를 자세히 설명합니다."
+>abstract="**게재 통계** 그래프에 게재 성공과 발생한 오류가 자세히 표시됩니다."
 
 다음 **[!UICONTROL 게재 통계]** 지표는 보낸 이메일에 사용할 수 있는 데이터에 대한 자세한 정보를 제공하는 주요 성능 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
@@ -244,9 +244,9 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams"
 >title="URL 및 클릭 스트림"
->abstract="다음 **URL 및 클릭 스트림** 보고서는 게재 중 가장 많이 클릭한 URL에 대한 자세한 정보를 제공하는 주요 성과 지표(KPI)를 제공합니다."
+>abstract="**URL 및 클릭스트림** 보고서는 게재 중 가장 많이 클릭한 URL에 대한 자세한 정보를 포함하는 주요 성과 지표(KPI)를 제공합니다."
 
-다음 **[!UICONTROL URL 및 클릭 스트림]** 보고서는 게재 중 가장 많이 클릭한 URL에 대한 자세한 정보를 제공하는 주요 성과 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
+**[!UICONTROL URL 및 클릭스트림]** 보고서는 게재 중 가장 많이 클릭한 URL에 대한 자세한 정보를 포함하는 주요 성과 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
 ![](assets/campaign_report_email_9.png)
 
@@ -266,7 +266,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="가장 많이 방문한 상위 링크 10개"
->abstract="다음 **가장 많이 방문한 상위 10개 링크** rgraph 및 표에는 링크당 수신자 동작에 사용할 수 있는 데이터가 포함되어 있습니다."
+>abstract="**가장 많이 방문한 상위 링크 10개** 그래프와 테이블에는 링크당 수신자 비헤이비어와 관련하여 이용 가능한 데이터가 포함되어 있습니다."
 
 
 다음 **[!UICONTROL 가장 많이 방문한 상위 10개 링크]** 그래프와 표에는 링크당 수신자 동작에 사용할 수 있는 데이터가 포함되어 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
@@ -281,13 +281,13 @@ ht-degree: 9%
 
 +++
 
-### 시간 경과에 따른 클릭수 분류 {#campaign-report-email-breakdown-clicks}
+### 시간 경과에 따른 클릭 분류 {#campaign-report-email-breakdown-clicks}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_urls_click_breakdown"
->title="시간 경과에 따른 클릭수 분류"
->abstract="다음 **시간 경과에 따른 클릭 수 분류** 그래프는 링크당 수신자 동작에 사용할 수 있는 데이터를 보여 줍니다."
+>title="시간 경과에 따른 클릭 분류"
+>abstract="**시간 경과에 따른 클릭 분류** 그래프는 링크당 수신자 비헤이비어와 관련하여 이용 가능한 데이터를 보여줍니다."
 
 
 다음 **[!UICONTROL 시간 경과에 따른 클릭 수 분류]** 그래프에는 링크당 수신자 동작에 사용할 수 있는 데이터가 포함되어 있습니다.

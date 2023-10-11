@@ -4,9 +4,9 @@ title: 이메일 디자이너 콘텐츠 구성 요소 사용
 description: 이메일에 콘텐츠 구성 요소를 사용하는 방법 알아보기
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Beta"
-source-git-commit: 813bf43fc67b98a1bb32d5ae63cc94ba6a4a581c
+source-git-commit: cc47ed577bcdd884b886f78da484dcc266c19727
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1175'
 ht-degree: 67%
 
 ---
@@ -157,7 +157,7 @@ ht-degree: 67%
 
 1. **[!UICONTROL 찾아보기]**&#x200B;를 클릭하여 자산에서 이미지 파일을 선택합니다. 다음을 선택할 수도 있습니다. **[!UICONTROL 미디어 가져오기]**.
 
-   Assets Essentials에서 에셋을 업로드하고 추가하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Experience Manager Assets Essentials 설명서](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html).
+   Adobe Experience Manager에서 에셋을 업로드하고 추가하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [Adobe Experience Manager as a Cloud Service 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html).
 
    ![](assets/email_designer_28.png)
 
@@ -166,7 +166,6 @@ ht-degree: 67%
    찾고 있는 자산을 찾으면 **[!UICONTROL 선택]**.
 
    ![](assets/email_designer_29.png)
-
 
 1. 새로 추가한 구성 요소를 클릭하고 다음을 사용하여 이미지 속성을 설정합니다. **[!UICONTROL 설정]** 탭:
 

@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: 캠페인 개요
 hide: true
-source-git-commit: 8ddda0d230598a58e1b611bdf75e2322e64c529d
+source-git-commit: cc47ed577bcdd884b886f78da484dcc266c19727
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 85%
+source-wordcount: '445'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 85%
    + [시작하기](get-started/get-started.md)
    + [인터페이스 살펴보기](get-started/user-interface.md)
    + [목록 찾아보기, 검색 및 필터링](get-started/list-filters.md)
-   + [사전 정의된 필터 작업](get-started/predefined-filters.md)
+   + [미리 정의된 필터 작업](get-started/predefined-filters.md)
    + [액세스 및 권한](get-started/permissions.md)
    + [가드레일 및 제한 사항](get-started/guardrails.md)
    + [지원되지 않는 기능](get-started/unsupported.md)
@@ -46,11 +46,12 @@ ht-degree: 85%
             + [미러 페이지에 대한 링크 추가](content/mirror-page.md)
             + [프리 헤더 추가](content/preheader.md)
             + [텍스트 버전 생성](content/text-version-email.md)
+            + [Adobe Experience Manager Assets를 as a Cloud Service으로 자산 관리](content/aem-assets.md)
          + 콘텐츠 지원 {#content-assistant}
-            + [Content Assistant 시작](content/generative-gs.md)
-            + [콘텐츠 도우미를 사용하여 텍스트 생성](content/generative-content.md)
-            + [콘텐츠 도우미를 사용하여 이미지 생성](content/generative-image.md)
-            + [콘텐츠 도우미를 사용하여 이메일 생성](content/generative-email.md)
+            + [콘텐츠 지원 시작하기](content/generative-gs.md)
+            + [콘텐츠 지원을 사용하여 텍스트 생성](content/generative-content.md)
+            + [콘텐츠 지원을 사용하여 이미지 생성](content/generative-image.md)
+            + [콘텐츠 지원을 사용하여 이메일 생성](content/generative-email.md)
          + 콘텐츠 스타일 지정 {#style}
             + [이메일 스타일 시작하기](content/get-started-email-style.md)
             + [배경 설정 편집](content/backgrounds.md)
@@ -77,7 +78,7 @@ ht-degree: 85%
       + [조건부 콘텐츠 추가](personalization/conditions.md)
       + [내장된 콘텐츠 블록 추가](personalization/content-blocks.md)
    + [메시지에 오퍼 추가](content/offers.md)
-   + [구독자에게 메시지 보내기](content/send-to-subscribers.md)
+   + [구독자에게 메시지 전송](content/send-to-subscribers.md)
    + 게재 미리보기 및 테스트 {#preview-test}
       + [미리보기 및 테스트 정보](preview-test/preview-test.md)
       + [메시지 콘텐츠 미리보기](preview-test/preview-content.md)
@@ -88,10 +89,10 @@ ht-degree: 85%
    + [대상자 만들기](audience/create-audience.md)
    + 게재 수신자 선택 {#target-audiences}
       + [기존 대상자 선택](audience/add-audience.md)
-      + [일회성 대상자 작성](audience/one-time-audience.md)
+      + [일회성 대상자 빌드](audience/one-time-audience.md)
       + [파일에서 대상자 로드](audience/file-audience.md)
       + [컨트롤 그룹 설정](audience/control-group.md)
-   + [규칙 빌더 작업](audience/segment-builder.md)
+   + [규칙 빌더를 사용하여 작업](audience/segment-builder.md)
    + [대상자 모니터링 및 관리](audience/manage-audience.md)
    + 구독 서비스 작업 {#work-with-services}
       + [서비스 관리](audience/manage-services.md)
@@ -132,7 +133,7 @@ ht-degree: 85%
       + [게재 보고서 푸시](reporting/push-report.md)
       + [SMS 게재 보고서](reporting/sms-report.md)
    + 캠페인 보고서 {#campaign-report}
-      + [캠페인 보고서 액세스](reporting/campaign-reports.md)
+      + [캠페인 보고서에 액세스](reporting/campaign-reports.md)
       + [이메일 캠페인 보고서](reporting/campaign-reports-email.md)
-      + [캠페인 보고서 푸시](reporting/campaign-reports-push.md)
+      + [푸시 캠페인 보고서](reporting/campaign-reports-push.md)
       + [SMS 캠페인 보고서](reporting/campaign-reports-sms.md)

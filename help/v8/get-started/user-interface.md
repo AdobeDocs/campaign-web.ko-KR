@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 86a343aae763e753bc63ca2cab3c22cda07d7c16
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 92%
 
 **탐색기**&#x200B;에 표시되는 항목은 사용자 권한에 따라 다릅니다. 적절한 권한이 있는 경우 폴더 및 하위 폴더를 추가할 수도 있습니다. [이 섹션](permissions.md)에서 권한에 대해 자세히 알아보십시오.
 
-필요한 모든 정보를 표시하도록 디스플레이를 사용자 지정할 열을 구성할 수 있습니다. 이 [섹션](#list-screens)을 참조하십시오. 에 설명된 대로 폴더 및 하위 폴더를 추가할 수도 있습니다. [이 섹션](permissions.md#folders).
+디스플레이를 개인화하고 필요한 모든 정보를 표시하도록 열을 구성할 수 있습니다. 이 [섹션](#list-screens)을 참조하십시오. [이 섹션](permissions.md#folders)에 설명된 대로 폴더와 하위 폴더를 추가할 수도 있습니다.
 
 Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}를 참조하십시오.
 
@@ -110,9 +110,9 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 ![](assets/context-help.png){width="40%" align="left"}
 
-새 Beta 버전을 사용하면 **AI 기반 기술 지원** 상황별 도움말에 포함되어 방대한 설명서 저장소를 손쉽게 탐색하여 설명서 검색 및 사용 방법 질문에 대한 대답 기능을 혁신적으로 개선하고 필요한 정확한 정보를 즉시 정확하게 찾아냅니다.
+새로운 Beta 버전에서는 상황별 도움말에 임베드된 **AI 기반 Knowledge Assistant**&#x200B;가 설명서 검색을 혁신하고 방대한 설명서 저장소를 손쉽게 선별하여 필요한 정확한 정보를 즉시 찾아내는 방법에 대한 질문의 답변을 제공합니다.
 
-Campaign Gen AI의 기능 덕분에 이 Assistant는 사용자의 경험을 변화시켜 정보 검색 및 문제 해결을 용이하게 합니다. 복잡한 작업에서 지침을 찾거나 광범위한 문서를 탐색하는 경우에도 AI 기반의 Knowledge Assistant는 모든 상호 작용에서 탁월한 효율성과 정확성을 제공하는 최고의 동반자입니다.
+Campaign Gen AI의 기능 덕분에 이 Assistant는 사용자의 경험을 변화시켜 정보 검색 및 문제 해결을 용이하게 합니다. 복잡한 작업에서 지침을 구하거나 광범위한 문서를 탐색할 때 AI 기반 Knowledge Assistant는 모든 상호 작용에서 비교할 수 없는 효율성과 정확성을 제공하는 최고의 보조 앱입니다.
 
 [이 섹션](using-ai.md)에서 자세히 알아보십시오.
 

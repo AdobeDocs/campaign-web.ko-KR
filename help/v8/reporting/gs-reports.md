@@ -3,10 +3,11 @@ audience: end-user
 title: 보고서 시작
 description: Campaign Web에서 보고서에 액세스하고 관리하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: b7f43e5d3434da63a05c5c76d2edef960ee3a826
-workflow-type: tm+mt
+exl-id: b353bc86-2228-4e02-879c-ae9425c48489
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +17,9 @@ ht-degree: 44%
 
 Adobe Campaign은 두 가지 보고서를 제공합니다.
 
-* **게재 보고서**: **게재 보고서** 각 채널에 맞는 포괄적인 통찰력과 데이터를 제공합니다. 이러한 보고서는 개별 게재의 성능, 효율성 및 결과에 대한 자세한 정보를 제공하여 포괄적인 개요를 제공합니다.
+* **게재 보고서**: **게재 보고서**&#x200B;는 각 채널에 포괄적인 통찰력과 특정한 데이터를 제공합니다. 이러한 보고서는 개별 게재의 성과, 효율성 및 결과에 대해 자세한 정보와 함께 포괄적인 개요를 제공합니다.
 
-* **캠페인 보고서**: **캠페인 보고서** 포함된 다양한 게재와 관련된 모든 정보를 통합하면서 캠페인에 대한 포괄적인 개요를 제공합니다. 이러한 보고서는 채널당 각 게재의 성과에 대한 성공률, 대상 참여 및 기타 필수 지표를 철저히 분석합니다. 이를 통해 캠페인의 전반적인 효과와 영향을 평가할 수 있습니다.
+* **캠페인 보고서**: **캠페인 보고서**&#x200B;는 다양한 게재와 관련된 모든 정보를 통합하여 캠페인에 대한 포괄적인 개요를 제공합니다. 이러한 보고서는 채널별 성공률, 대상자 참여 및 기타 필수 지표 등 각 게재의 성과에 대한 철저한 분석을 제공합니다. 이를 통해 캠페인에 미치는 전반적인 효과와 영향을 평가할 수 있습니다.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -35,7 +36,7 @@ Adobe Campaign은 두 가지 보고서를 제공합니다.
 <img alt="저빈도" src="assets/do-not-localize/push_report.jpeg">
 </a>
 <div>
-<a href="push-report.md"><strong> 게재 보고서 푸시<strong></strong></a>
+<a href="push-report.md"><strong>푸시 게재 보고서<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -43,7 +44,7 @@ Adobe Campaign은 두 가지 보고서를 제공합니다.
 <img alt="유효성 검사" src="assets/do-not-localize/sms_report.png">
 </a>
 <div>
-<a href="sms-report.md"><strong> SMS 게재 보고서</strong></a>
+<a href="sms-report.md"><strong>SMS 게재 보고서</strong></a>
 </div>
 <p>
 </td>

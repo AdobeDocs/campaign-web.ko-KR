@@ -3,13 +3,13 @@ audience: end-user
 title: 목록 찾아보기, 검색 및 필터링
 description: Campaign Web v8 목록을 찾아보고 필터링하는 방법 살펴보기
 badge: label="Beta"
-source-git-commit: 8612e29aa16bce609a822e42d15e2f92a6874383
+exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
+source-git-commit: 3e94514060a501a3a359c38606e5532beaf20f10
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 100%
+source-wordcount: '559'
+ht-degree: 69%
 
 ---
-
 
 # 목록 찾아보기, 검색 및 필터링 {#list-screens}
 
@@ -66,22 +66,22 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="고급 속성 표시"
->abstract="기본적으로 속성 목록에는 가장 일반적인 속성만 표시됩니다. 고급 속성을 보려면 이 토글을 사용하십시오."
+>abstract="가장 일반적인 속성만 기본적으로 속성 목록에 표시됩니다. 활성화 **고급 속성 표시** 전환 을 클릭하여 노드, 그룹화, 1-1 링크, 1-N 링크와 같은 규칙 빌더의 왼쪽 팔레트에서 현재 목록에 사용 가능한 모든 속성을 볼 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="규칙 빌더 고급 필드"
->abstract="고급 필드에서 고급 필터를 구성합니다."
+>abstract="가장 일반적인 속성만 기본적으로 속성 목록에 표시됩니다. 활성화 **고급 속성 표시** 전환 을 클릭하여 노드, 그룹화, 1-1 링크, 1-N 링크와 같은 규칙 빌더의 왼쪽 팔레트에서 현재 목록에 사용 가능한 모든 속성을 볼 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
 >title="규칙 빌더 고급 속성"
->abstract="고급 속성을 사용하여 규칙을 정의합니다."
+>abstract="가장 일반적인 속성만 기본적으로 속성 목록에 표시됩니다. 활성화 **고급 속성 표시** 전환 을 클릭하여 노드, 그룹화, 1-1 링크, 1-N 링크와 같은 규칙 빌더의 왼쪽 팔레트에서 현재 목록에 사용 가능한 모든 속성을 볼 수 있습니다."
 
 
 기본적으로 속성 목록과 필터 구성 화면에는 가장 일반적인 속성만 표시됩니다. 데이터 스키마의 `advanced` 속성으로 설정된 속성은 구성 화면에서 숨겨집니다.
 
-**고급 속성 표시** 토글을 활성화하여 현재 목록에 사용 가능한 모든 속성을 확인합니다. 속성 목록은 즉시 업데이트됩니다.
+활성화 **고급 속성 표시** 전환 을 클릭하여 노드, 그룹화, 1-1 링크, 1-N 링크와 같은 규칙 빌더의 왼쪽 팔레트에서 현재 목록에 사용 가능한 모든 속성을 볼 수 있습니다. 속성 목록이 즉시 업데이트됩니다.
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}

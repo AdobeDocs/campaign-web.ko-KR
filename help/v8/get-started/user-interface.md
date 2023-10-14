@@ -4,9 +4,9 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 86a343aae763e753bc63ca2cab3c22cda07d7c16
+source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1063'
 ht-degree: 100%
 
 ---
@@ -89,19 +89,6 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 
 [이 섹션](../content/offers.md)에서 이메일 및 SMS로 오퍼를 만들고 전송하는 방법에 대해 알아봅니다.
 
-## 상단 막대 {#top-bar}
-
-인터페이스의 상단 막대를 사용하여 다음과 같은 작업을 수행할 수 있습니다.
-
-* Beta 테스터로서 피드백 공유
-* 조직과 인스턴스 간 전환
-* Adobe Experience Cloud 애플리케이션 간 전환
-* 도움말 페이지 액세스, 지원 팀에 문의 및 피드백 공유 검색 필드에서 도움말 문서와 비디오를 검색할 수 있습니다.
-
-![](assets/unified-shell.png){width="50%" align="left"}
-<!--
-Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
--->
 
 
 ## 상황별 도움말 {#user-interface-help}
@@ -120,37 +107,10 @@ Campaign Gen AI의 기능 덕분에 이 Assistant는 사용자의 경험을 변�
 
 Campaign v8 Web은 최신 버전의 Google Chrome, Safari 및 Microsoft Edge에서 최적으로 작동하도록 디자인되었습니다. 이전 버전이나 다른 브라우저에서 특정 기능 사용 시 문제가 발생할 수 있습니다.
 
-## 언어 환경 설정 {#language-pref}
-
-Campaign v8 Web은 현재 다음 언어로 제공됩니다.
-
-* 영어(미국) - EN-US
-* 프랑스어 - FR
-* 독일어 - DE
-* 이탈리아어 - IT
-* 스페인어 - ES
-* 포르투갈어(브라질) - PTBR
-* 일본어 - JP
-* 한국어 - KR
-* 중국어 간체 - CHS
-* 중국어 번체 - CHT
-
-
-Campaign Web의 기본 언어는 사용자 프로필에 지정된 기본 언어에 따라 결정됩니다. Campaign 서버 및 클라이언트 콘솔의 언어와 관련이 없습니다.
-
-언어를 변경하려면 다음 작업을 수행하십시오.
-
-1. 오른쪽 상단의 프로필 아이콘을 클릭한 다음 **환경 설정**&#x200B;을 선택합니다.
-1. 그런 다음 이메일 주소 아래에 표시되는 언어 링크를 클릭합니다.
-1. 원하는 언어를 선택하고 **저장**&#x200B;을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되어 있지 않은 경우 두 번째 언어를 선택할 수 있습니다.
-
-## 어두운 테마 {#dark-theme}
-
-프로필 아이콘에서 어두운 테마로 전환할 수 있습니다. 토글을 사용하여 **어두운 테마**&#x200B;를 활성화/비활성화합니다.
-
 ## 자세히 알아보기 {#learn-more}
 
 [이 페이지](list-filters.md)에서 Campaign 환경에서 사용 가능한 목록을 탐색, 검색 및 필터링하는 방법에 대해 알아보십시오.
+
 
 
 <!--

@@ -4,10 +4,10 @@ title: Campaign v8 Web 시작하기
 description: Campaign v8 Web 시작하기
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Beta"
-source-git-commit: db3d47830cb07f9e69200a68377e695641f7b057
+source-git-commit: 2a2bd37461d2218b5187d2a0dd202df6c0724fee
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 100%
+source-wordcount: '398'
+ht-degree: 97%
 
 ---
 
@@ -34,21 +34,7 @@ Adobe Campaign은 크로스 채널 고객 경험을 디자인할 수 있는 플�
 >
 >현재 Campaign v8 Web은 Beta 버전입니다. 소수의 Beta 고객만 액세스할 수 있습니다. 제품 인터페이스, 기능 및 사용 흐름은 예고 없이 변경될 수 있습니다.
 
-## Campaign에 연결
-
-Adobe Campaign 웹에 연결하려면 다음 단계를 수행합니다.
-
-1. [Adobe Experience Cloud](https://experience.adobe.com){target="_blank"}로 이동합니다.
-1. Adobe 자격 증명으로 로그인합니다.
-1. **빠른 액세스** 섹션에서 **Campaign**&#x200B;을 클릭합니다.
-
-   ![](assets/connect.png)
-
-1. 다음 페이지에서 Campaign 인스턴스의 **실행** 버튼을 클릭합니다.
-
-   이제 Campaign에 연결되었습니다. [이 페이지](user-interface.md)에서 사용자 인터페이스 사용 방법에 대해 알아보십시오.
-
-다른 Adobe Experience Cloud 솔루션에 이미 연결된 경우 화면 오른쪽 상단의 솔루션 스위처에서 Campaign 환경으로 이동할 수도 있습니다.
+에서 Adobe Campaign 웹에 연결하는 방법 알아보기 [이 페이지](connect-to-campaign.md).
 
 ## Campaign 클라이언트 콘솔 정보 {#ac-client}
 

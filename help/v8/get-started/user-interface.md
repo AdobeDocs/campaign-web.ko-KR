@@ -4,9 +4,9 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
+source-git-commit: f420ba4a63be82227121e06a664381add97a1ea1
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1029'
 ht-degree: 100%
 
 ---
@@ -103,9 +103,7 @@ Campaign Gen AI의 기능 덕분에 이 Assistant는 사용자의 경험을 변�
 
 [이 섹션](using-ai.md)에서 자세히 알아보십시오.
 
-## 지원되는 브라우저 {#browsers}
 
-Campaign v8 Web은 최신 버전의 Google Chrome, Safari 및 Microsoft Edge에서 최적으로 작동하도록 디자인되었습니다. 이전 버전이나 다른 브라우저에서 특정 기능 사용 시 문제가 발생할 수 있습니다.
 
 ## 자세히 알아보기 {#learn-more}
 

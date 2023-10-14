@@ -2,10 +2,10 @@
 title: Adobe Campaign 웹 인터페이스에 연결
 description: Adobe Campaign v8 웹 사용자 인터페이스에 연결하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
+source-git-commit: f420ba4a63be82227121e06a664381add97a1ea1
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 44%
+source-wordcount: '492'
+ht-degree: 48%
 
 ---
 
@@ -38,13 +38,13 @@ Adobe Experience Cloud에 로그인하려면 다음 기본 단계를 수행하�
 
 Campaign 환경에 액세스하려면 다음을 선택합니다. **캠페인** Adobe Experience Cloud 홈 페이지에서.
 
-
 Campaign Campaign 컨트롤 패널을 포함한 여러 환경에 액세스할 수 있는 경우 **시작** 조직 카드의 단추
 
 ![](assets/launch-campaign.png)
 
-솔루션 전환기에서 Adobe Experience Cloud 솔루션 간을 탐색할 수도 있습니다.
+솔루션 전환기를 사용하여 Adobe Experience Cloud 솔루션과 앱 사이를 검색할 수도 있습니다.
 
+![](assets/solution-switcher.png)
 
 ## Adobe Experience Cloud 위쪽 탐색 {#top-bar}
 
@@ -57,6 +57,9 @@ Campaign Campaign 컨트롤 패널을 포함한 여러 환경에 액세스할 �
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
+## 지원되는 브라우저 {#browsers}
+
+Campaign v8 Web은 최신 버전의 Google Chrome, Safari 및 Microsoft Edge에서 최적으로 작동하도록 디자인되었습니다. 이전 버전이나 다른 브라우저에서 특정 기능 사용 시 문제가 발생할 수 있습니다.
 
 ## 언어 환경 설정 {#language-pref}
 

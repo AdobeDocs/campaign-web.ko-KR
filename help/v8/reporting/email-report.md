@@ -4,7 +4,7 @@ title: 이메일 게재 보고서
 description: 이메일 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: label="Beta"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
 workflow-type: tm+mt
 source-wordcount: '2254'
 ht-degree: 38%
@@ -77,7 +77,7 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
->title="게재 통계"
+>title="제외의 게재 원인"
 >abstract="**제외 이유** 그래프와 테이블에는 게재 준비 단계에서 거부된 메시지 규칙당 분류가 표시됩니다."
 
 
@@ -320,7 +320,7 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
->title="사용자 활동 위젯"
+>title="사용자 활동"
 >abstract="**사용자 활동** 그래프에 열람 및 클릭의 분류가 차트 형식으로 표시됩니다. 데이터를 타겟팅할 기간을 마지막 날, 시간 또는 30분 중에서 선택할 수 있습니다."
 
 다음 **[!UICONTROL 사용자 활동]** 보고서는 차트 형태로 열람 및 클릭 수를 분류하여 보여줍니다. 데이터를 타겟팅할 기간을 마지막 날, 시간 또는 30분 중에서 선택할 수 있습니다.
@@ -339,7 +339,7 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
->title="추적 통계 위젯"
+>title="추적 통계"
 >abstract="**추적 통계**: 그래프는 열람 및 클릭에 대한 통계를 제공합니다. 데이터 타겟팅을 위한 특정 시간대를 선택할 수 있는 옵션이 있습니다."
 
 **[!UICONTROL 추적 통계]**: 그래프는 열람 및 클릭에 대한 통계를 제공합니다. 데이터 타겟팅을 위한 특정 시간대를 선택할 수 있는 옵션이 있습니다.

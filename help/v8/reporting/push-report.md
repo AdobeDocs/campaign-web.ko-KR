@@ -1,16 +1,17 @@
 ---
 audience: end-user
-title: 게재 보고서 푸시
+title: 푸시 게재 보고서
 description: 푸시 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
+exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
+source-git-commit: dcd8dfe76a69305bb2aca4d2e94d447bea2668db
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '485'
 ht-degree: 48%
 
 ---
 
-# 게재 보고서 푸시 {#push-report}
+# 푸시 게재 보고서 {#push-report}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
@@ -25,7 +26,7 @@ ht-degree: 48%
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
->title="푸시 게재 보고서 요약"
+>title="푸시 게재 개요"
 >abstract="**푸시 게재 요약**&#x200B;은 푸시 게재에 대한 포괄적인 개요를 제공하여 광범위한 인사이트와 특정 데이터를 얻을 수 있습니다. 성과, 효율성 및 게재 결과에 대해 포괄적인 정보를 제공합니다."
 
 다음 **[!UICONTROL 게재 개요]** 보고서는 방문자가 푸시 메시지에 참여하는 방식에 대한 자세한 정보를 제공하는 주요 성능 지표(KPI)를 제공합니다.
@@ -90,7 +91,7 @@ ht-degree: 48%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"
->title="푸시 전체 통계"
+>title="푸시 제외"
 >abstract="**제외** 그래프와 표에 대상 프로필에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 이유가 표시됩니다."
 
 **[!UICONTROL 제외]** 그래프와 표에 대상 프로필에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 이유가 표시됩니다. 제외 규칙은 다음에 자세히 설명되어 있습니다. [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.

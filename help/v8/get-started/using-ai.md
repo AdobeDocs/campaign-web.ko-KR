@@ -1,12 +1,12 @@
 ---
 title: Campaign Web에서 AI 기반 Knowledge Assistant 사용
-description: Campaign Web에서 AI 기반 Knowledge Assistant 사용
+description: Campaign 웹 도움말 팝오버에서 질문하기
 badge: label="Alpha"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 26472ea4bedd256fd4c63a691656373e7d08cafc
+source-git-commit: 3e94514060a501a3a359c38606e5532beaf20f10
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 

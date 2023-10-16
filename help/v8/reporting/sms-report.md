@@ -3,10 +3,11 @@ audience: end-user
 title: SMS 게재 보고서
 description: sms 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
+exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
+source-git-commit: 23ca6ee9008587923fe0102612abf41a764214cc
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 37%
+source-wordcount: '513'
+ht-degree: 33%
 
 ---
 
@@ -70,7 +71,7 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
->title="푸시 전체 통계"
+>title="SMS 전체 통계"
 >abstract="**전체 통계** 보고서는 보낸 SMS에 대한 데이터(성공, 오류 및 격리)를 제공합니다."
 
 다음 **전체 통계** 보고서는 보낸 SMS 메시지에 대한 데이터를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
@@ -91,7 +92,7 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
->title="SMS 전체 통계"
+>title="SMS 제외"
 >abstract="**제외** 그래프와 표에 대상 프로필에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 이유가 표시됩니다."
 
 
@@ -103,10 +104,9 @@ ht-degree: 37%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
->title="게재 처리량 메뉴"
->abstract="게재 처리량 보고서는 지정된 기간 내 전체 플랫폼의 게재 처리량에 대한 자세한 정보를 제공합니다."
+>title="SMS 게재 처리량"
+>abstract="다음 **게재 처리량** 보고서는 지정된 기간 내의 게재 처리량에 대한 자세한 정보를 제공합니다.  메시지 게재 속도를 측정하는 데 사용되는 기본 지표는 시간당 전송된 메시지 수입니다."
 
-이 보고서는 지정된 기간 내에 전체 플랫폼의 게재 처리량에 대한 자세한 정보를 제공합니다. 메시지 게재 속도를 측정하는 데 사용되는 기본 지표는 시간당 전송된 메시지 수입니다.
+이 보고서는 지정된 기간 내의 게재 처리량에 대한 자세한 정보를 제공합니다. 메시지 게재 속도를 측정하는 데 사용되는 기본 지표는 시간당 전송된 메시지 수입니다.
 
 ![](assets/reporting_sms_2.png)
-

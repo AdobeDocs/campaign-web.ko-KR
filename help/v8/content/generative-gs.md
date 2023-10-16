@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Content Assistant 시작
+title: 콘텐츠 지원 시작하기
 description: Content Assistant 시작
 badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a34454c3c160f6a962fe064f35c26580bb7a4d94
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 23%
+ht-degree: 34%
 
 ---
 
-# Content Assistant 시작 {#generative-gs}
+# 콘텐츠 지원 시작하기 {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
@@ -33,14 +33,14 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->이 기능은 Alpha 버전에서 사용할 수 있으며 사전 공지 없이 변경될 수 있습니다. 10월 초에 활성화될 예정입니다.
+>이 기능은 Alpha 버전에서 사용할 수 있으며 사전 통지 없이 변경될 수 있습니다. 10월 초에 활성화될 예정입니다.
 
 ## 보호 기능 및 제한 사항 {#generative-guardrails}
 
 전자 메일 생성을 위해 Content Assistant를 사용하는 방법에 대한 일반 지침은 다음과 같습니다.
 
 * 생성된 콘텐츠의 품질은 사용자가 정의하는 마케팅 목표/프롬프트의 영향을 많이 받습니다. GenAI 모델이 정확하게 해석할 수 있도록 잘 정의된 프롬프트를 사용하십시오. 
-* 브랜드 에셋을 업로드하여 브랜드 콘텐츠에 정확하게 맞춥니다. 그 외의 경우 콘텐츠는 공개적으로 사용 가능한 정보를 기반으로 합니다. 업로드된 콘텐츠는 PDF 파일, Microsoft Word 문서, JPEG, PNG 또는 ZIP 파일(지원되는 파일 형식)일 수 있습니다.
+* 브랜드 에셋을 업로드하여 브랜드 콘텐츠에 정확하게 맞춥니다. 그 외의 경우 콘텐츠는 공개적으로 사용 가능한 정보를 기반으로 합니다. 업로드된 콘텐츠는 PDF, JPEG, PNG 또는 ZIP 파일(지원되는 파일 형식 포함) 형식일 수 있습니다.
 * 업로드된 브랜드 에셋의 권장 크기는 10MB 미만입니다. 파일이 크거나 이미지가 많으면 작동할 수 있지만 처리 시간은 늘어납니다.
 * Adobe Campaign 작성 이메일 템플릿 사용(권장 사항) [기본 제공 전자 메일 템플릿](../content/email-sample-templates.md) 이메일 콘텐츠를 만듭니다. 이메일 템플릿에는 최대 8~10개의 이미지가 권장됩니다.
 
@@ -60,7 +60,7 @@ Campaign Content Assistant에는 다음 제한 사항이 적용됩니다.
 <img alt="텍스트 생성" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-content.md"><strong>콘텐츠 도우미를 사용하여 텍스트 생성</strong></a>
+<a href="generative-content.md"><strong>콘텐츠 지원을 사용하여 텍스트 생성</strong></a>
 </div>
 <p>
 </td>
@@ -68,7 +68,7 @@ Campaign Content Assistant에는 다음 제한 사항이 적용됩니다.
 <a href="generative-image.md">
 <img alt="이미지 생성" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-image.md"><strong>콘텐츠 도우미를 사용하여 이미지 생성</strong>
+<div><a href="generative-image.md"><strong>콘텐츠 지원을 사용하여 이미지 생성</strong>
 </div>
 <p>
 </td>
@@ -77,7 +77,7 @@ Campaign Content Assistant에는 다음 제한 사항이 적용됩니다.
 <img alt="이메일 생성" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-email.md"><strong>콘텐츠 도우미를 사용하여 이메일 생성</strong></a>
+<a href="generative-email.md"><strong>콘텐츠 지원을 사용하여 이메일 생성</strong></a>
 </div>
 <p></td>
 </tr></table>

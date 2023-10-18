@@ -237,7 +237,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
 >title="열람 및 클릭스루 비율"
->abstract="**열람 및 클릭스루 비율** 표에 게재를 이용하는 수신자와 관련된 데이터가 표시됩니다."
+>abstract="**열람 및 클릭스루 비율** 테이블에 게재를 이용하는 수신자와 관련된 데이터가 표시됩니다."
 
 
 

@@ -17,8 +17,8 @@ ht-degree: 30%
 >id="acw_deliveries_simulate"
 >title="메시지 미리보기 및 테스트"
 >abstract="메시지가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html?lang=ko-KR" text="메시지 콘텐츠 미리보기"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=ko-KR" text="테스트 게재 전송"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="메시지 콘텐츠 미리보기"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="테스트 게재 전송"
 
 게재 콘텐츠가 정의되면 테스트 프로필을 사용하여 메시지를 보내기 전에 미리 보고 테스트할 수 있습니다.
 

@@ -3,7 +3,8 @@ audience: end-user
 title: 푸시 알림 게재 디자인
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 디자인하는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: b29d8601b69bfec9e4b153a13dadb590f1cee9a1
+exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '1347'
 ht-degree: 37%
@@ -109,8 +110,8 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_category"
->title="iOS용 카테고리 ID"
->abstract="알림과 연결된 카테고리 ID의 이름을 지정합니다. 이렇게 하면 작업 버튼이 표시되어 사용자가 애플리케이션을 열지 않고도 알림에서 직접 다양한 작업을 수행할 수 있습니다."
+>title="iOS용 범주 ID"
+>abstract="알림과 연결된 범주 ID의 이름을 지정합니다. 이렇게 하면 작업 버튼이 표시되어 사용자가 애플리케이션을 열지 않고도 알림에서 직접 다양한 작업을 수행할 수 있습니다."
 
 
 >[!BEGINTABS]
@@ -145,7 +146,7 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 | **[!UICONTROL 관련성 점수]** | 알림 요약에서 알림 순서의 우선 순위를 지정하려면 관련성 점수를 0에서 100 사이로 설정하십시오. 점수가 높을수록 더 중요한 알림입니다. |
 | **[!UICONTROL 중단 수준]** | <ul> <li>**[!UICONTROL 활성]**: 기본적으로 설정되어 있으므로 시스템에서 알림을 즉시 표시하고 화면을 켜며 사운드를 재생할 수 있습니다. 알림은 포커스 모드를 통과하지 않습니다.</li><li>**[!UICONTROL 수동]**: 화면에 불이 들어오거나 소리가 재생되지 않고 알림 목록에 알림이 추가됩니다. 알림은 포커스 모드를 통과하지 않습니다.</li><li>**[!UICONTROL 시간에 민감함]**: 시스템에서 알림을 즉시 표시하고 화면을 켜며 사운드를 재생하고 포커스 모드를 중단할 수 있습니다. 이 수준에서는 Apple의 특별한 권한이 필요하지 않습니다.</li> <li>**[!UICONTROL 중요]**: 시스템에서 알림을 즉시 표시하고 화면을 켜며 음소거 스위치 또는 포커스 모드를 건너뜁니다. 이 수준에는 Apple의 특별한 권한이 필요합니다.</ul> |
 | **[!UICONTROL Thread-id]** | 관련 알림을 함께 그룹화하는 데 사용되는 식별자. 스레드 ID가 동일한 알림은 알림 목록에서 단일 대화 또는 스레드로 구성됩니다. |
-| **[!UICONTROL 범주]** | 알림과 연결된 카테고리 ID의 이름을 지정합니다. 이렇게 하면 작업 버튼이 표시되어 사용자가 애플리케이션을 열지 않고도 알림에서 직접 다양한 작업을 수행할 수 있습니다. |
+| **[!UICONTROL 범주]** | 알림과 연결된 범주 ID의 이름을 지정합니다. 이렇게 하면 작업 버튼이 표시되어 사용자가 애플리케이션을 열지 않고도 알림에서 직접 다양한 작업을 수행할 수 있습니다. |
 | **[!UICONTROL 대상 콘텐츠 ID]** | 알림이 열릴 때 앞으로 가져올 애플리케이션 창을 대상으로 지정하는 데 사용되는 식별자입니다. |
 | **[!UICONTROL 이미지 실행]** | 사용자가 알림에서 애플리케이션을 시작하도록 선택할 때 표시할 시작 이미지 파일의 이름을 지정합니다. 애플리케이션의 일반 시작 화면 대신 선택한 이미지가 표시됩니다. |
 | **[!UICONTROL 애플리케이션 변수]** | 알림 동작을 정의할 수 있습니다. 이러한 변수는 완전히 사용자 정의할 수 있으며 모바일 디바이스로 전송되는 메시지 페이로드의 일부로 포함됩니다. |
@@ -153,6 +154,3 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 >[!ENDTABS]
 
 <!--Sounds must be included in the application and defined when the service is created. Refer to this section.-->
-
-
-

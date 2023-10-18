@@ -5,8 +5,8 @@ description: 캠페인에서 게재 템플릿을 만들고 사용하는 방법 �
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 25%
@@ -48,8 +48,8 @@ ht-degree: 25%
 >id="acw_delivery_templates"
 >title="게재 템플릿 작업"
 >abstract="게재 템플릿을 사용하여 나중에 사용할 수 있도록 기존 게재를 손쉽게 만들고 저장하십시오."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=ko-KR#copy-an-existing-template" text="기존 템플릿 복제"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=ko-KR#convert-an-existing-delivery" text="게재를 템플릿으로 변환"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#copy-an-existing-template" text="기존 템플릿 복제"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#convert-an-existing-delivery" text="게재를 템플릿으로 변환"
 
 콘텐츠 템플릿 목록에 액세스하려면 다음을 선택합니다. **[!UICONTROL Campaign Management]** > **[!UICONTROL 게재]** 왼쪽 메뉴에서 **템플릿** 탭.
 
@@ -204,5 +204,3 @@ ht-degree: 25%
 * [SMS 콘텐츠 미리 보기에 대한 자세한 정보](../sms/content-sms.md)
 
 * [푸시 콘텐츠 미리 보기에 대한 자세한 내용](../push/gs-push.md)
-
-

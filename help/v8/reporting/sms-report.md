@@ -93,7 +93,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
 >title="SMS 제외"
->abstract="**제외** 그래프와 표에 대상 프로필에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 이유가 표시됩니다."
+>abstract="**제외** 그래프와 테이블에 대상 프로필에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 이유가 표시됩니다."
 
 
 다음 **[!UICONTROL 제외]** 그래프 및 표에는 타겟팅된 프로필에서 제외된 사용자 프로필에서 메시지를 받을 수 없는 이유가 표시됩니다. 제외 규칙은 다음에 자세히 설명되어 있습니다. [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.

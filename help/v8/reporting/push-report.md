@@ -50,7 +50,7 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_targeted_population"
 >title="푸시 대상 모집단"
->abstract="**대상 모집단** 그래프와 표에 푸시 메시지 대상자(게재할 메시지 및 제외)와 관련된 데이터가 표시됩니다."
+>abstract="**대상 모집단** 그래프와 테이블에 푸시 메시지 대상자(게재할 메시지 및 제외)와 관련된 데이터가 표시됩니다."
 
 **대상 모집단** 그래프와 표에 대상자(게재할 메시지 및 제외)와 관련된 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 
@@ -92,9 +92,9 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"
 >title="푸시 제외"
->abstract="**제외** 그래프와 표에 대상 프로필에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 이유가 표시됩니다."
+>abstract="**제외** 그래프와 테이블에 대상 프로필에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 이유가 표시됩니다."
 
-**[!UICONTROL 제외]** 그래프와 표에 대상 프로필에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 이유가 표시됩니다. 제외 규칙은 다음에 자세히 설명되어 있습니다. [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
+**[!UICONTROL 제외]** 그래프와 테이블에 대상 프로필에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 이유가 표시됩니다. 제외 규칙은 다음에 자세히 설명되어 있습니다. [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
 
 
 ![](assets/reporting_push_6.png)

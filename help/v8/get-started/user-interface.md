@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: f420ba4a63be82227121e06a664381add97a1ea1
+source-git-commit: c4d0b67ced6877ec38506b9083c843d09172a000
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 100%
+source-wordcount: '1073'
+ht-degree: 97%
 
 ---
 
@@ -154,3 +154,65 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- delivery settings-->
 
 
+<!-- FOR GA -->
+<!-- Aligned with https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CGA%3E-+Official+list -->
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_list"
+>title="수신자 생성"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_details"
+>title="수신자 세부 정보"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_contactinformation"
+>title="수신자 연락처 정보"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_address"
+>title="수신자 주소"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_account"
+>title="수신자 계정"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_customfields"
+>title="수신자 사용자 정의 필드"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_cardoverview"
+>title="수신자 카드 개요"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_touchpoints"
+>title="수신자 터치포인트"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_subscription_list"
+>title="수신자 구독 목록"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_subscription_selection"
+>title="수신자 구독 선택"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_offers_eligible_list"
+>title="수신자 오퍼 적격 목록"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_offers_preview_proposition"
+>title="수신자 오퍼 미리보기"
+>abstract="TBC"

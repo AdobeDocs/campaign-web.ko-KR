@@ -7,11 +7,11 @@ badge: label="Beta"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
-# 규칙 빌더 작업 {#segment-builder}
+# 규칙 빌더를 사용하여 작업 {#segment-builder}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
@@ -59,7 +59,7 @@ ht-degree: 71%
 
   >[!IMPORTANT]
   >
-  >해당 버전의 제품에서는 사용자 인터페이스에서 미리 정의된 일부 필터를 사용할 수 없습니다. 계속 사용할 수 있습니다. [자세히 알아보기](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
+  >해당 버전의 제품에서는 사용자 인터페이스에서 미리 정의된 일부 필터를 사용할 수 없습니다. 일반적인 사용은 가능합니다. [자세히 알아보기](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 * **속성**: 생성된 대상자에 대한 설명을 표시합니다.
 

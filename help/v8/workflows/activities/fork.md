@@ -3,13 +3,13 @@ audience: end-user
 title: 포크 워크플로 활동 사용
 description: 포크 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
+exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 97%
 
 ---
-
 
 # 포크 {#fork}
 
@@ -44,4 +44,3 @@ ht-degree: 97%
 * 한 가지는 교차로 이후에 사용하여 대상 모집단에게 이메일과 SMS를 동시에 전송합니다.
 
 ![](../assets/workflow-fork-example.png)
-

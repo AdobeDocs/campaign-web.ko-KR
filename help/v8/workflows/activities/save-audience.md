@@ -3,13 +3,13 @@ audience: end-user
 title: 대상자 저장 워크플로우 활동 사용
 description: 포크 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
+exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 8%
 
 ---
-
 
 # 대상자 저장 {#save-audience}
 
@@ -52,5 +52,3 @@ ht-degree: 8%
 ## 예제{#save-audience-example}
 
 다음 예제는 타깃팅에서 간단한 대상 업데이트를 보여 줍니다. 한 달에 한 번 워크플로우를 실행하는 스케줄러가 추가됩니다. 쿼리는 사용 가능한 여러 애플리케이션 서비스를 구독하는 모든 프로필을 복구합니다. 다음 **대상자 저장** 활동은 마지막 워크플로우 실행 이후 서비스 구독을 취소한 프로필을 삭제하고 새로 구독한 프로필을 추가하여 대상자를 업데이트합니다.
-
-

@@ -3,13 +3,13 @@ audience: end-user
 title: 예약 워크플로우 활동 사용
 description: 스케줄러 워크플로우 활동을 사용하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: 4f53f8765aeb2254a52eb48591d5e14250afc69d
+exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 30%
 
 ---
-
 
 # 예약 {#scheduler}
 
@@ -78,6 +78,3 @@ ht-degree: 30%
 다음 예제에서는 워크플로우가 2023년 10월 1일부터 2024년 1월 1일까지 매주 오전 9시와 12시에 하루에 여러 번 실행되도록 구성되어 있습니다.
 
 ![](../assets/workflow-scheduler2.png)
-
-
-

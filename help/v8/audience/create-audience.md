@@ -3,13 +3,13 @@ audience: end-user
 title: 대상자 만들기
 description: Adobe Campaign 웹에서 대상자를 만드는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 11%
 
 ---
-
 
 # 대상자 만들기 {#create-audiences}
 

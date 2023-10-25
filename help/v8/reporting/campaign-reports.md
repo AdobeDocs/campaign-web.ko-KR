@@ -3,7 +3,8 @@ audience: end-user
 title: 캠페인 보고서
 description: 캠페인 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: label="Beta"
-source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
+exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 12%
@@ -39,4 +40,3 @@ ht-degree: 12%
 * [이메일 채널](campaign-reports-email.md)
 * [SMS 채널](campaign-reports-sms.md)
 * [푸시 채널](campaign-reports-push.md)
-

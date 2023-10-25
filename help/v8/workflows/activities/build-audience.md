@@ -3,13 +3,13 @@ audience: end-user
 title: 대상자 빌드 워크플로 활동 사용
 description: 대상자 빌드 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
+exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 75%
 
 ---
-
 
 # 대상자 빌드 {#build-audience}
 

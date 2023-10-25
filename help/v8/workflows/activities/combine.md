@@ -3,13 +3,13 @@ audience: end-user
 title: 결합 워크플로 활동 사용
 description: 결합 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: 4ef1ac4c8af16c3b83a2df8f903dccc1629339e3
+exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 85%
 
 ---
-
 
 # 결합 {#combine}
 
@@ -118,5 +118,3 @@ The **Combine** activity can be placed after any other activity, but not at the 
 다음 **제외** 예에서는 18세에서 27세 사이의 Adobe 이메일 도메인이 있는 프로필을 필터링하도록 구성된 두 개의 쿼리를 보여 줍니다. Adobe 이메일 도메인이 있는 프로필은 첫 번째 집합에서 제외됩니다.
 
 ![](../assets/workflow-exclusion-example.png)
-
-

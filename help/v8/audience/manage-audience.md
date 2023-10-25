@@ -3,13 +3,13 @@ audience: end-user
 title: 대상자 모니터링 및 관리
 description: Adobe Campaign 웹에서 대상자를 모니터링하고 관리하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
+exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
-
 
 # 대상자 모니터링 및 관리 {#monitor}
 

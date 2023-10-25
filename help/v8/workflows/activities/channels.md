@@ -3,13 +3,13 @@ audience: end-user
 title: 게재 워크플로 활동 사용
 description: 게재 워크플로 활동(이메일, 푸시, SMS)을 추가하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
+exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 66%
 
 ---
-
 
 # 이메일, SMS, 푸시 활동 {#channel}
 

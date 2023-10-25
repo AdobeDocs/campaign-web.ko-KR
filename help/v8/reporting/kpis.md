@@ -2,7 +2,8 @@
 title: 주요 성과 지표
 description: 주요 성능 지표를 이해하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: e784f9aeb0805269561065c10ccbbf6756e62e44
+exl-id: 4b182219-100b-4101-919b-b0b770dd8515
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 98%
@@ -113,4 +114,3 @@ Adobe Campaign 플랫폼에서 전송한 일부 메시지는 대상에 도달하
 * 게재될 총 메시지 수에 대한 오류 수의 비율
 
 * 게재 및 자동 리바운드 처리 중 누적된 총 오류 수
-

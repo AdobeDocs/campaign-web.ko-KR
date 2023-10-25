@@ -3,13 +3,13 @@ audience: end-user
 title: Campaign Web의 권한 관리
 description: Campaign Web v8의 권한에 대해 자세히 알아보기
 badge: label="Beta"
-source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
+exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
 
 ---
-
 
 # 액세스 및 권한 {#access-and-permissions}
 
@@ -101,4 +101,3 @@ Campaign Web 사용자 인터페이스를 탐색할 때 주어진 권한에 따�
    폴더가 현재 폴더의 하위 폴더로 추가됩니다. 새 폴더를 찾아 해당 폴더에 직접 구성 요소를 만듭니다. 또한 게재에 대해 아래와 같이 속성의 **추가 옵션** 섹션에 있는 임의의 폴더에서 구성 요소를 만들고 해당 새 폴더에 저장할 수도 있습니다.
 
    ![](assets/delivery-properties-folder.png){width="70%" align="left" zoomable="yes"}
-

@@ -3,7 +3,8 @@ audience: end-user
 title: SMS 게재 보내기
 description: Adobe Campaign 웹으로 SMS를 보내는 방법 알아보기
 badge: label="Beta"
-source-git-commit: 51d237a2651cc4a24630138b5761b4b14e7cac4f
+exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 15%
@@ -72,7 +73,3 @@ SMS 게재를 미리 보는 주요 단계는 다음과 같습니다. 게재 미�
 게재가 전송되면 게재 페이지에서 KPI(주요 성과 지표) 데이터를 추적하고 **[!UICONTROL 로그]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
 이제 기본 제공 보고서를 통해 메시지의 영향을 측정할 수 있습니다. [자세히 알아보기](../reporting/sms-report.md)
-
-
-
-

@@ -4,7 +4,7 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: f1b8354edbaa8989f6c86015497e458deff2a6a8
+source-git-commit: 233f5b045256bf22df4debef8b2bfe375880fa3e
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 92%
@@ -284,7 +284,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_query_enrichment_noneditable"
+>id="acw_orchestration_query_enrichment_noneditable"
 >title="활동을 편집할 수 없음"
 >abstract="TBC"
 
@@ -355,7 +355,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_loadfile"
+>id="acw_orchestration_loadfile"
 >title="파일 로드 활동"
 >abstract="TBC"
 
@@ -365,42 +365,42 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation"
+>id="acw_orchestration_reconciliation"
 >title="조정 활동"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_targeting"
+>id="acw_orchestration_reconciliation_targeting"
 >title="조정 타기팅"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_rules"
+>id="acw_orchestration_reconciliation_rules"
 >title="조정 규칙"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_targeting_selection"
+>id="acw_orchestration_reconciliation_targeting_selection"
 >title="조정 타겟팅 차원"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_field"
+>id="acw_orchestration_reconciliation_field"
 >title="조정 선택 필드"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_attribute"
+>id="acw_orchestration_reconciliation_attribute"
 >title="조정 선택 속성"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_condition"
+>id="acw_orchestration_reconciliation_condition"
 >title="조정 만들기 조건"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_complement"
+>id="acw_orchestration_reconciliation_complement"
 >title="조정 보조 생성"
 >abstract="TBC"
 

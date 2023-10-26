@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 233f5b045256bf22df4debef8b2bfe375880fa3e
+source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 92%
+source-wordcount: '1241'
+ht-degree: 91%
 
 ---
 
@@ -428,3 +428,52 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="조건부 콘텐츠 제목 조건"
 >abstract="TBC"
 
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_properties"
+>title="대상자 속성"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_count"
+>title="대상자 수"
+>abstract="TBC"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_testprofiles"
+>title="테스트 프로필 시뮬레이션"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_profiles_selection"
+>title="테스트 프로필 선택 시뮬레이션"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_send_testprofiles"
+>title="테스트 프로필 전송 시뮬레이션"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_email_log"
+>title="이메일 로그 시뮬레이션"
+>abstract="TBC"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_totalnumber_subscribers"
+>title="총 구독 수"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_overtheperiod_subscribers"
+>title="해당 기간 동안의 구독 수"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_overallevolution_subscribers"
+>title="구독 전반의 발전"
+>abstract="TBC"

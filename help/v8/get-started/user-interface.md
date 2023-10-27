@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
+source-git-commit: a875ba89417e5c50f7a1e767bf3430147fa7c4c0
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 98%
+source-wordcount: '1343'
+ht-degree: 97%
 
 ---
 
@@ -170,62 +170,62 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_list"
 >title="수신자 생성"
->abstract="TBC"
+>abstract="수신자 생성"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"
 >title="수신자 세부 정보"
->abstract="TBC"
+>abstract="수신자 세부 정보"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_contactinformation"
 >title="수신자 연락처 정보"
->abstract="TBC"
+>abstract="수신자 연락처 정보"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
 >title="수신자 주소"
->abstract="TBC"
+>abstract="수신자 주소"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_account"
 >title="수신자 계정"
->abstract="TBC"
+>abstract="수신자 계정"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_customfields"
 >title="수신자 사용자 정의 필드"
->abstract="TBC"
+>abstract="수신자 사용자 정의 필드"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="수신자 카드 개요"
->abstract="TBC"
+>abstract="수신자 카드 개요"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_touchpoints"
 >title="수신자 터치포인트"
->abstract="TBC"
+>abstract="수신자 터치포인트"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"
 >title="수신자 구독 목록"
->abstract="TBC"
+>abstract="수신자 구독 목록"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_selection"
 >title="수신자 구독 선택"
->abstract="TBC"
+>abstract="수신자 구독 선택"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_eligible_list"
 >title="수신자 오퍼 적격 목록"
->abstract="TBC"
+>abstract="수신자 오퍼 적격 목록"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_preview_proposition"
 >title="수신자 오퍼 미리보기"
->abstract="TBC"
+>abstract="수신자 오퍼 미리보기"
 
 
 
@@ -234,7 +234,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_delivery_template"
 >title="구독 게재 템플릿"
->abstract="TBC"
+>abstract="구독 게재 템플릿"
 
 
 
@@ -243,42 +243,42 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="랜딩 페이지"
->abstract="TBC"
+>abstract="랜딩 페이지"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
 >title="랜딩 페이지 속성"
->abstract="TBC"
+>abstract="랜딩 페이지 속성"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
 >title="랜딩 페이지 페이지"
->abstract="TBC"
+>abstract="랜딩 페이지 페이지"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
 >title="랜딩 페이지 일정"
->abstract="TBC"
+>abstract="랜딩 페이지 일정"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
 >title="랜딩 페이지 기본 페이지"
->abstract="TBC"
+>abstract="랜딩 페이지 기본 페이지"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_subscription"
 >title="랜딩 페이지 구독"
->abstract="TBC"
+>abstract="랜딩 페이지 구독"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_calltoaction"
 >title="랜딩 페이지 콜 투 액션"
->abstract="TBC"
+>abstract="랜딩 페이지 콜 투 액션"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_simulate"
 >title="랜딩 페이지 시뮬레이션"
->abstract="TBC"
+>abstract="랜딩 페이지 시뮬레이션"
 
 
 
@@ -286,7 +286,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_query_enrichment_noneditable"
 >title="활동 편집 불가"
->abstract="TBC"
+>abstract="활동 편집 불가"
 
 
 
@@ -294,37 +294,37 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="조각"
->abstract="TBC"
+>abstract="조각"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
 >title="조각 저장"
->abstract="TBC"
+>abstract="조각 저장"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_create"
 >title="조각 생성"
->abstract="TBC"
+>abstract="조각 생성"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_properties"
 >title="조각 속성"
->abstract="TBC"
+>abstract="조각 속성"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_type"
 >title="조각 유형"
->abstract="TBC"
+>abstract="조각 유형"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
 >title="조각 목록"
->abstract="TBC"
+>abstract="조각 목록"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
 >title="조각 세부 정보"
->abstract="TBC"
+>abstract="조각 세부 정보"
 
 
 
@@ -332,22 +332,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
 >title="콘텐츠 템플릿"
->abstract="TBC"
+>abstract="콘텐츠 템플릿"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="콘텐츠 템플릿 속성"
->abstract="TBC"
+>abstract="콘텐츠 템플릿 속성"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_design"
 >title="콘텐츠 템플릿 디자인"
->abstract="TBC"
+>abstract="콘텐츠 템플릿 디자인"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_selection"
 >title="콘텐츠 템플릿 선택"
->abstract="TBC"
+>abstract="콘텐츠 템플릿 선택"
 
 
 
@@ -357,7 +357,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="파일 활동 로드"
->abstract="TBC"
+>abstract="파일 활동 로드"
 
 
 
@@ -367,42 +367,42 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="조정 활동"
->abstract="TBC"
+>abstract="조정 활동"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
 >title="조정 타겟팅"
->abstract="TBC"
+>abstract="조정 타겟팅"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="조정 규칙"
->abstract="TBC"
+>abstract="조정 규칙"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
 >title="조정 타겟팅 차원"
->abstract="TBC"
+>abstract="조정 타겟팅 차원"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
 >title="조정 필드 선택"
->abstract="TBC"
+>abstract="조정 필드 선택"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"
 >title="조정 속성 선택"
->abstract="TBC"
+>abstract="조정 속성 선택"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_condition"
 >title="조정 생성 조건"
->abstract="TBC"
+>abstract="조정 생성 조건"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_complement"
 >title="조정 보조 항목 생성"
->abstract="TBC"
+>abstract="조정 보조 항목 생성"
 
 
 
@@ -411,22 +411,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_savefilter"
 >title="조건부 콘텐츠 저장 필터"
->abstract="TBC"
+>abstract="조건부 콘텐츠 저장 필터"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_selectfilter"
 >title="조건부 콘텐츠 선택 필터"
->abstract="TBC"
+>abstract="조건부 콘텐츠 선택 필터"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_subjectline"
 >title="조건부 제목 줄의 콘텐츠"
->abstract="TBC"
+>abstract="조건부 제목 줄의 콘텐츠"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_subjectlinecondition"
 >title="조건부 콘텐츠 제목 줄 조건"
->abstract="TBC"
+>abstract="조건부 콘텐츠 제목 줄 조건"
 
 
 
@@ -434,46 +434,46 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="대상자 속성"
->abstract="TBC"
+>abstract="대상자 속성"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
 >title="대상자 수"
->abstract="TBC"
+>abstract="대상자 수"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_testprofiles"
 >title="테스트 프로필 시뮬레이션"
->abstract="TBC"
+>abstract="테스트 프로필 시뮬레이션"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_profiles_selection"
 >title="테스트 프로필 선택 시뮬레이션"
->abstract="TBC"
+>abstract="테스트 프로필 선택 시뮬레이션"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_send_testprofiles"
 >title="테스트 프로필 전송 시뮬레이션"
->abstract="TBC"
+>abstract="테스트 프로필 전송 시뮬레이션"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_email_log"
 >title="이메일 로그 시뮬레이션"
->abstract="TBC"
+>abstract="이메일 로그 시뮬레이션"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
 >title="총 구독 수"
->abstract="TBC"
+>abstract="총 구독 수"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
 >title="해당 기간 동안의 구독 수"
->abstract="TBC"
+>abstract="해당 기간 동안의 구독 수"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="구독 전반의 발전"
->abstract="TBC"
+>abstract="구독 전반의 발전"

@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -252,7 +252,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
->title="랜딩 페이지"
+>title="랜딩 페이지 페이지"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -272,7 +272,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_calltoaction"
->title="랜딩 페이지 클릭 유도 문안"
+>title="랜딩 페이지 콜 투 액션"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -285,7 +285,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_query_enrichment_noneditable"
->title="활동을 편집할 수 없음"
+>title="활동 편집 불가"
 >abstract="TBC"
 
 
@@ -303,7 +303,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_create"
->title="조각 만들기"
+>title="조각 생성"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -323,7 +323,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
->title="조각 세부 사항"
+>title="조각 세부 정보"
 >abstract="TBC"
 
 
@@ -356,7 +356,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
->title="파일 로드 활동"
+>title="파일 활동 로드"
 >abstract="TBC"
 
 
@@ -371,7 +371,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
->title="조정 타기팅"
+>title="조정 타겟팅"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
@@ -386,22 +386,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
->title="조정 선택 필드"
+>title="조정 필드 선택"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"
->title="조정 선택 속성"
+>title="조정 속성 선택"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_condition"
->title="조정 만들기 조건"
+>title="조정 생성 조건"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_complement"
->title="조정 보조 생성"
+>title="조정 보조 항목 생성"
 >abstract="TBC"
 
 
@@ -420,12 +420,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_subjectline"
->title="제목 줄의 조건부 콘텐츠"
+>title="조건부 제목 줄의 콘텐츠"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_subjectlinecondition"
->title="조건부 콘텐츠 제목 조건"
+>title="조건부 콘텐츠 제목 줄 조건"
 >abstract="TBC"
 
 

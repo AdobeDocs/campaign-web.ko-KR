@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 6bca060efec14d287fac46fa7e7e721af7bfcb13
+source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
 workflow-type: tm+mt
-source-wordcount: '1397'
-ht-degree: 95%
+source-wordcount: '1376'
+ht-degree: 96%
 
 ---
 
@@ -32,24 +32,14 @@ ht-degree: 95%
 이 화면에는 주요 Campaign v8 Web 기능에 빠르게 액세스할 수 있는 주요 링크와 리소스가 포함되어 있습니다.
 
 >[!CONTEXTUALHELP]
->id="acw_home_recent"
+>id="acw_homepage_recent"
 >title="최근 항목"
 >abstract="**최근 항목** 목록은 최근 생성 및 수정된 게재에 대한 단축키를 제공합니다. 이 목록에는 채널, 상태, 소유자, 생성 및 수정일이 표시됩니다."
 
-#### 최근 게재에 액세스 {#user-interface-recent}
-
 **최근 항목** 목록은 최근 생성 및 수정된 게재에 대한 단축키를 제공합니다. 이 목록에는 채널, 상태, 소유자, 생성 및 수정일이 표시됩니다. 다음을 클릭합니다. **더 보기** 추가 게재를 로드하는 링크.
-
-#### 주요 지표 확인 {#user-interface-kpi}
 
 **주요 성과 지표**&#x200B;를 사용하면 공통 KPI를 통해 플랫폼 효율성을 확인할 수 있습니다. 이러한 KPI에 대한 자세한 내용은 [이 페이지](../reporting/kpis.md)를 참조하십시오.
 
-#### 설명서 액세스 {#user-interface-learn}
-
->[!CONTEXTUALHELP]
->id="acw_home_learn"
->title="학습"
->abstract="다음에서 Campaign v8 웹 주요 도움말 페이지에 액세스: **학습** 아래에 있는 상자입니다."
 
 홈 페이지 **학습** 섹션의 Campaign v8 Web 주요 도움말 페이지에 액세스합니다.
 

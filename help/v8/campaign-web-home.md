@@ -4,8 +4,8 @@ description: Campaign Web v8 도움말 센터
 title: Adobe Campaign Web v8 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
-workflow-type: ht
+source-git-commit: 6973a8c1bb4b590524d55d09cb0a88216e12eaf2
+workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Adobe Campaign v8 Web 설명서 {#campaign-documentation}
 
-![](assets/do-not-localize/banner-documentationv8.png)
+<!--![](assets/do-not-localize/banner-documentationv8.png)-->
 
 Campaign은 이제 개선된 사용 가능성, 접근성 및 새로운 디자인을 갖춘 새로운 웹 사용자 인터페이스(UI)를 제공하여 사용자 경험을 크게 향상시킵니다. 이 새로운 최신 UI는 Adobe Experience Platform을 비롯한 다른 Adobe 솔루션과 함께 마케팅 캠페인 디자인 및 게재를 간소화하고 일관성을 제공합니다. [자세히 알아보기](get-started/get-started.md)
 

@@ -3,14 +3,19 @@ title: 주요 성과 지표
 description: 주요 성능 지표를 이해하는 방법에 대해 알아봅니다.
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 6bca060efec14d287fac46fa7e7e721af7bfcb13
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 98%
+source-wordcount: '886'
+ht-degree: 97%
 
 ---
 
 # 주요 성과 지표 {#kpis}
+
+>[!CONTEXTUALHELP]
+>id="acw_home_kpi"
+>title="주요 성과 지표"
+>abstract="다음 **주요 성과 지표** 섹션에서는 일반적인 KPI를 통해 플랫폼 효율성을 확인할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"

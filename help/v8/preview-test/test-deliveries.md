@@ -4,9 +4,9 @@ title: 테스트 게재 전송
 description: 테스트 게재를 정의하고 전송하는 방법을 알아봅니다
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 2f065c6a0d4daef1cafbcb5f9d8d666fbe716932
+source-git-commit: 2618e36b5f42ca7e5c3791a15ac92847cdf3397a
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1146'
 ht-degree: 12%
 
 ---
@@ -79,6 +79,10 @@ ht-degree: 12%
    ![](assets/simulate-profile-mode.png)
 
 1. 이미 다음 프로필을 선택한 경우: [메시지 미리 보기](preview-content.md) 콘텐츠 시뮬레이션 화면에서 해당 프로필은 테스트 수신자로 미리 선택됩니다. 다음을 사용하여 선택 항목을 지우고 수신자를 추가할 수 있습니다. **[!UICONTROL 테스트 프로필 추가]** 단추를 클릭합니다.
+
+   >[!NOTE]
+   >
+   >테스트 프로필은에서 만들어집니다. [!DNL Campaign] 클라이언트 콘솔을 **[!UICONTROL 리소스]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 시드 주소]** 폴더를 삭제합니다. 에서 시드 주소를 만들고 관리하는 방법 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
 
 1. 테스트 게재의 수신자에게 최종 메시지를 보내려면 **[!UICONTROL 기본 대상에 테스트 모집단 포함]** 옵션을 선택합니다.
 

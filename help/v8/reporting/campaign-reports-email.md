@@ -20,7 +20,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="게재 개요"
->abstract="**게재 개요**&#x200B;는 방문자가 이메일 게재에 참여하는 방식에 대한 자세한 정보를 포함하는 주요 성과 지표(KPI)를 제공합니다."
+>abstract="**게재 개요** 는 방문자가 이메일 게재에 참여하는 방식에 대한 자세한 정보를 포함하는 주요 성과 지표(KPI)를 제공합니다."
 
 ### 게재 개요 {#delivery-summary-email-ovv}
 

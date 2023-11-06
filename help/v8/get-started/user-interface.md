@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
 workflow-type: tm+mt
 source-wordcount: '1376'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -481,5 +481,5 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"
->title="구독 전반의 발전"
->abstract="구독 전반의 발전"
+>title="구독의 전반적인 진화"
+>abstract="구독의 전반적인 진화"

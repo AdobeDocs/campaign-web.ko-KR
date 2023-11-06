@@ -50,7 +50,7 @@ ht-degree: 21%
 
 이제 워크플로우가 생성되어 워크플로우 목록에서 사용할 수 있습니다. 이제 해당 시각적 캔버스에 액세스하여 수행할 작업을 추가, 구성 및 오케스트레이션할 수 있습니다. 에서 워크플로우 활동을 오케스트레이션하는 방법을 알아봅니다 [이 페이지](orchestrate-activities.md).
 
-## 워크플로우 템플릿 작업 {#workflow-templates}
+## 워크플로 템플릿 작업 {#workflow-templates}
 
 
 >[!CONTEXTUALHELP]

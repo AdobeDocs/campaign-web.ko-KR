@@ -7,11 +7,11 @@ badge: label="Beta"
 source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 50%
+ht-degree: 51%
 
 ---
 
-# 게재 보고서 액세스 {#reports}
+# 게재 보고서에 액세스 {#reports}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"

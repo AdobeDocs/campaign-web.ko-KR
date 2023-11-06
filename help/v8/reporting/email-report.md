@@ -7,7 +7,7 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
 workflow-type: tm+mt
 source-wordcount: '2254'
-ht-degree: 39%
+ht-degree: 40%
 
 ---
 
@@ -356,7 +356,7 @@ ht-degree: 39%
 
 ## 열람수 분류 {#breakdown-opens}
 
-### 장치별 열기 분류 {#breakdown-opens-devices}
+### 디바이스별 열람수 분류 {#breakdown-opens-devices}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_device"
@@ -370,7 +370,7 @@ ht-degree: 39%
 ![](assets/reporting_email_13.png){align="center"}
 
 
-### OS별 열기 분류 {#breakdown-opens-os}
+### OS별 열람수 분류 {#breakdown-opens-os}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"
@@ -383,12 +383,12 @@ ht-degree: 39%
 
 ![](assets/reporting_email_13.1.png){align="center"}
 
-### 브라우저별 열기 분류 {#breakdown-opens-browser}
+### 브라우저별 열람수 분류 {#breakdown-opens-browser}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_browser"
 >title="브라우저별 분류"
->abstract="**브라우저별 분류**&#x200B;에는 관련 기간 동안 브라우저별로 열람의 분류가 표시됩니다. 첫 번째 차트에는 컴퓨터 및 모바일 디바이스에서의 열람과 관련된 통계가 표시됩니다. 두 번째에는 각 브라우저별로 정확한 숫자와 백분율이 표시됩니다."
+>abstract="**브라우저별 분류** 에는 관련 기간 동안 브라우저별로 열람의 분류가 표시됩니다. 첫 번째 차트에는 컴퓨터 및 모바일 디바이스에서의 열람과 관련된 통계가 표시됩니다. 두 번째에는 각 브라우저별로 정확한 숫자와 백분율이 표시됩니다."
 
 다음 **브라우저별 분류** 보고서는 Chrome, Safari, Internet Explorer 등의 브라우저별 열기 분류를 표시합니다.
 

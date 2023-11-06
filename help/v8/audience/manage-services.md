@@ -7,7 +7,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Campaign 웹을 사용하여 뉴스레터와 같은 서비스를 관리 �
 
 1. 이 서비스 이름 옆에 있는 세 점 아이콘을 사용하여 서비스를 삭제하거나 복제할 수 있습니다.<!--so all subscribers are unsuibscribed - need to mention?-->
 
-## 첫 번째 구독 서비스 만들기 {#create-service}
+## 첫 구독 서비스 만들기 {#create-service}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_properties"

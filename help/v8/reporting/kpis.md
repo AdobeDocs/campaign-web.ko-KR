@@ -3,10 +3,10 @@ title: 주요 성과 지표
 description: 주요 성능 지표를 이해하는 방법에 대해 알아봅니다.
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
+source-git-commit: 3c6d086c1941b5f2e29b2eb18f58ab1fc541464a
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 97%
+source-wordcount: '936'
+ht-degree: 92%
 
 ---
 
@@ -93,6 +93,10 @@ Adobe Campaign은 수신자가 이메일의 이미지를 다운로드할 때 메
 >id="acw_keyindicators_unsubscriptions"
 >title="구독 취소 건수"
 >abstract="이 지표에는 선택한 채널에 대해 서비스의 모든 구독 취소 건수의 합계와, 성공적으로 게재된 총 메시지 수에 대한 구독 취소 수의 비율이 표시됩니다."
+
+>[!NOTE]
+>
+> 구독 및 구독 취소 KPI는 서비스 유형에 따라 다릅니다. 예를 들어 이메일 구독 및 구독 취소는 수동 작업 또는 웹 양식에서 비롯된 모든 이메일 관련 서비스를 포함합니다. 이 접근 방식을 실제 구독 취소 사용자가 아닌 구독 취소 링크 클릭을 추적하는 게재 수준 구독 취소 지표와 구분하는 것이 중요합니다.
 
 수신자는 이메일 콘텐츠의 전용 구독 취소 링크를 통해 또는 SMS에 STOP이라고 답장하여 이메일 및 SMS를 옵트아웃할 수 있어야 합니다.
 

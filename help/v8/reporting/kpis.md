@@ -6,7 +6,7 @@ exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: 3c6d086c1941b5f2e29b2eb18f58ab1fc541464a
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_kpi"
 >title="주요 성과 지표"
->abstract="다음 **주요 성과 지표** 섹션에서는 일반적인 KPI를 통해 플랫폼 효율성을 확인할 수 있습니다."
+>abstract="**주요 성과 지표** 섹션을 사용하면 공통 KPI를 통해 플랫폼 효율성을 확인할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"

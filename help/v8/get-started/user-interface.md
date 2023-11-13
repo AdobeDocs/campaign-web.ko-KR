@@ -4,9 +4,9 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 2b0ca0f8f76c53752738078cbdbb1df3710cd931
+source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1405'
 ht-degree: 97%
 
 ---
@@ -367,13 +367,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
-
-
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="조정 활동"
->abstract="조정 활동"
+>abstract="사용 **조정** 활동을 통해 미식별 데이터를 기존 리소스에 연결할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"

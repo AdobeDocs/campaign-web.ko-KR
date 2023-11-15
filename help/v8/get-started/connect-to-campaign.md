@@ -2,57 +2,58 @@
 title: Adobe Campaign 웹 인터페이스에 연결
 description: Adobe Campaign v8 웹 사용자 인터페이스에 연결하는 방법 알아보기
 badge: label="Beta"
-source-git-commit: 2a2bd37461d2218b5187d2a0dd202df6c0724fee
-workflow-type: tm+mt
+exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
+source-git-commit: 7bed2a1a40da7f709daba1f91d1b3ffa3a2aa57f
+workflow-type: ht
 source-wordcount: '510'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
 # Adobe Campaign에 연결 {#connect-to-campaign}
 
-Experience Cloud은 Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다. 직관적인 인터페이스에서 클라우드 애플리케이션, 제품 기능 및 서비스에 빠르게 액세스할 수 있습니다. 이 페이지에서 Adobe Experience Cloud에 연결하고 Adobe Campaign v8 웹 인터페이스에 액세스하는 방법을 알아봅니다.
+Experience Cloud는 Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다. 직관적인 인터페이스에서 클라우드 애플리케이션, 제품 기능, 서비스에 빠르게 액세스할 수 있습니다. 이 페이지에서는 Adobe Experience Cloud에 접속하여 Adobe Campaign v8 웹 인터페이스에 액세스하는 방법을 알아봅니다.
 
 ## Adobe Experience Cloud에 로그인 {#sign-in-to-exc}
 
-일반적으로 Experience Cloud 관리자는 애플리케이션 및 서비스에 대한 액세스 권한을 부여합니다. Experience Cloud 초대 이메일의 단계를 따릅니다.
+보통은 Experience Cloud 관리자가 애플리케이션 및 서비스에 대한 액세스 권한을 부여합니다. Experience Cloud 초대 이메일에 나온 단계를 따르면 됩니다.
 
-Adobe Experience Cloud에 로그인하려면 다음 기본 단계를 수행하십시오.
+Adobe Experience Cloud에 로그인하기 위한 기본 단계는 다음과 같습니다.
 
 1. [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}로 이동합니다.
 
-1. Adobe ID 또는 Enterprise ID을 사용하여 로그인합니다. Adobe 시 ID 유형에 대해 자세히 알아보기 [이 문서](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
+1. Adobe ID 또는 Enterprise ID를 사용하여 로그인합니다. Adobe의 ID 종류에 대해 자세히 알아보려면 [이 문서](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}를 참조하십시오.
 
    Experience Cloud에 로그인하면 모든 솔루션 및 앱에 빠르게 액세스할 수 있습니다.
 
    ![](assets/exc-home.png)
 
-1. 올바른 조직에 속해 있는지 확인하십시오.
+1. 올바른 조직에 속해 있는지 확인해야 합니다.
 
    ![](assets/exc-orgs.png){width="50%" align="left"}
 
-   에서 Adobe Experience Cloud의 조직에 대해 자세히 알아보십시오. [이 문서](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko){target="_blank"}.
+   Adobe Experience Cloud의 조직에 대한 자세한 내용은 [이 문서](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko){target="_blank"}를 참조하십시오.
 
 
 ## Adobe Campaign 액세스 {#access-to-campaign}
 
-Campaign 환경에 액세스하려면 다음을 선택합니다. **캠페인** 다음에서 **빠른 액세스** Adobe Experience Cloud 섹션에 있는 마지막 항목이 될 필요가 없습니다.
+Campaign 환경에 액세스하려면 Adobe Experience Cloud 홈페이지의 **빠른 액세스** 섹션에서 **캠페인**&#x200B;을 선택합니다.
 
 다른 Adobe Experience Cloud 솔루션에 이미 연결된 경우 화면 오른쪽 상단의 솔루션 스위처에서 Campaign 환경으로 이동할 수도 있습니다.
 
 ![](assets/solution-switcher.png)
 
-Campaign Campaign 컨트롤 패널을 포함한 여러 환경에 액세스할 수 있는 경우 **시작** 단추를 클릭합니다.
+Campaign Campaign 컨트롤 패널을 포함한 여러 환경에 액세스할 수 있는 경우 적절한 인스턴스의 **시작** 버튼을 클릭합니다.
 
 ![](assets/launch-campaign.png)
 
 이제 Campaign에 연결되었습니다. [이 페이지](user-interface.md)에서 사용자 인터페이스 사용 방법에 대해 알아보십시오.
 
-## Adobe Experience Cloud 위쪽 탐색 {#top-bar}
+## Adobe Experience Cloud 상단 탐색 인터페이스 {#top-bar}
 
 인터페이스의 상단 막대를 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 
-* Beta 사용자로 피드백 공유
+* Beta 사용자 피드백 공유
 * 조직 간 전환
 * Adobe Experience Cloud 솔루션과 앱 간 전환
 
@@ -60,7 +61,7 @@ Campaign Campaign 컨트롤 패널을 포함한 여러 환경에 액세스할 �
 
 ## 지원되는 브라우저 {#browsers}
 
-Campaign v8 Web은 최신 버전의 Google Chrome, Safari 및 Microsoft Edge에서 최적으로 작동하도록 설계되었습니다. 이전 버전 또는 다른 브라우저에서 특정 기능을 사용하는 데 문제가 있을 수 있습니다.
+Campaign v8 웹은 최신 버전의 Google Chrome, Safari, Microsoft Edge에서 최적으로 작동하도록 디자인되었습니다. 이전 버전이나 다른 브라우저에서는 특정 기능 사용 시 문제가 발생할 수 있습니다.
 
 ## 언어 환경 설정 {#language-pref}
 
@@ -84,13 +85,12 @@ Campaign Web의 기본 언어는 사용자 프로필에 지정된 기본 언어�
 
 1. 오른쪽 상단의 프로필 아이콘을 클릭한 다음 **환경 설정**&#x200B;을 선택합니다.
 1. 그런 다음 이메일 주소 아래에 표시되는 언어 링크를 클릭합니다.
-1. 원하는 언어를 선택하고 **저장**&#x200B;을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되지 않은 경우 두 번째 언어를 선택할 수 있습니다.
+1. 원하는 언어를 선택하고 **저장**&#x200B;을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되어 있지 않은 경우 두 번째 언어를 선택할 수 있습니다.
 
 ## 어두운 테마 {#dark-theme}
 
 프로필 아이콘에서 어두운 테마로 전환할 수 있습니다. 토글을 사용하여 **어두운 테마**&#x200B;를 활성화/비활성화합니다.
 
-사용자 프로필 설정 및 계정 환경 설정에 대해서는 다음에서 자세히 설명합니다 [이 섹션](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#preferences){target="_blank"}.
+사용자 프로필 설정 및 계정 환경 설정은 [이 섹션](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=ko#preferences){target="_blank"}에서 자세히 설명합니다.
 
-에서 Experience Cloud 중앙 인터페이스 구성 요소에 대해 자세히 알아보십시오. [이 설명서](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html){target="_blank"}.
-
+Experience Cloud 중앙 인터페이스 구성 요소에 대한 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=ko){target="_blank"}를 참조하십시오.

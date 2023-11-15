@@ -5,9 +5,9 @@ description: Campaign v8 Web 시작하기
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Beta"
 source-git-commit: 2a2bd37461d2218b5187d2a0dd202df6c0724fee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Campaign은 크로스 채널 고객 경험을 디자인할 수 있는 플�
 >
 >현재 Campaign v8 Web은 Beta 버전입니다. 소수의 Beta 고객만 액세스할 수 있습니다. 제품 인터페이스, 기능 및 사용 흐름은 예고 없이 변경될 수 있습니다.
 
-에서 Adobe Campaign 웹에 연결하는 방법 알아보기 [이 페이지](connect-to-campaign.md).
+[이 페이지](connect-to-campaign.md)에서는 Adobe Campaign 웹 버전에 연결하는 방법을 알아봅니다.
 
 ## Campaign 클라이언트 콘솔 정보 {#ac-client}
 
@@ -44,4 +44,4 @@ Campaign 데이터는 애플리케이션 서버에 저장됩니다. 클라이언
 
 일부 오브젝트는 클라이언트 콘솔에서만 만들고 관리할 수 있습니다. 오브젝트는 Campaign Web UI에서 보고 사용할 수 있지만, 이 환경에서는 만들거나 수정할 수 없습니다. 모든 Campaign 오브젝트와 구성 요소는 탐색기 보기와 왼쪽 탐색 메뉴에서 사용할 수 있습니다.
 
-Campaign v8 사용 방법에 대한 자세한 내용은 [Campaign v8 (클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html){target="_blank"}를 참조하십시오.
+Campaign v8 사용 방법에 대한 자세한 내용은 [Campaign v8 (클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ko){target="_blank"}를 참조하십시오.

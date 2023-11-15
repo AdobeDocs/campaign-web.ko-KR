@@ -6,9 +6,9 @@ description: Campaign v8 Web 설명서
 breadcrumb-title: 캠페인 개요
 hide: true
 source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 97%
             + [미러 페이지에 대한 링크 추가](content/mirror-page.md)
             + [프리 헤더 추가](content/preheader.md)
             + [텍스트 버전 생성](content/text-version-email.md)
-            + [Adobe Experience Manager Assets를 as a Cloud Service으로 자산 관리](content/aem-assets.md)
+            + [Adobe Experience Manager Assets as a Cloud Service로 자산 관리](content/aem-assets.md)
          + 콘텐츠 지원 {#content-assistant}
             + [콘텐츠 지원 시작하기](content/generative-gs.md)
             + [콘텐츠 지원을 사용하여 텍스트 생성](content/generative-content.md)

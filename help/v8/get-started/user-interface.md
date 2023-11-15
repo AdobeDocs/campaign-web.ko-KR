@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
 workflow-type: tm+mt
 source-wordcount: '1405'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 98%
 >title="최근 항목"
 >abstract="**최근 항목** 목록은 최근 생성 및 수정된 게재에 대한 단축키를 제공합니다. 이 목록에는 채널, 상태, 소유자, 생성 및 수정일이 표시됩니다."
 
-**최근 항목** 목록은 최근 생성 및 수정된 게재에 대한 단축키를 제공합니다. 이 목록에는 채널, 상태, 소유자, 생성 및 수정일이 표시됩니다. 다음을 클릭합니다. **더 보기** 추가 게재를 로드하는 링크.
+**최근 항목** 목록은 최근 생성 및 수정된 게재에 대한 단축키를 제공합니다. 이 목록에는 채널, 상태, 소유자, 생성 및 수정일이 표시됩니다. **더 보기** 링크를 클릭하면 더 많은 게재가 로드됩니다.
 
 **주요 성과 지표**&#x200B;를 사용하면 공통 KPI를 통해 플랫폼 효율성을 확인할 수 있습니다. 이러한 KPI에 대한 자세한 내용은 [이 페이지](../reporting/kpis.md)를 참조하십시오.
 
@@ -56,7 +56,7 @@ ht-degree: 98%
 
 디스플레이를 개인화하고 필요한 모든 정보를 표시하도록 열을 구성할 수 있습니다. 이 [섹션](#list-screens)을 참조하십시오. [이 섹션](permissions.md#folders)에 설명된 대로 폴더와 하위 폴더를 추가할 수도 있습니다.
 
-Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}를 참조하십시오.
+Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=ko#ac-explorer-ui){target="_blank"}를 참조하십시오.
 
 ### 캠페인 관리 {#user-interface-campaign-management}
 
@@ -79,7 +79,7 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 
 * **수신자** - 수신자 데이터베이스에 액세스합니다. 기본적으로 이메일 주소, 이름 및 성을 볼 수 있습니다. [이 섹션](../audience/about-recipients.md)에서 수신자에 대해 자세히 알아보십시오.
 * **대상자** - 대상자 목록입니다. 기본적으로 유형, 원본, 생성/마지막 수정 일자 및 레이블을 볼 수 있습니다. 원본을 기준으로 목록을 필터링할 수 있습니다. [이 섹션](../audience/about-recipients.md)에서 대상자 및 목록에 대해 자세히 알아보십시오.
-* **구독** - 구독 목록을 탐색합니다. 기본적으로 해당 유형, 모드 및 레이블을 볼 수 있습니다. [Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}에서 구독 및 구독 취소를 관리하는 방법에 대해 알아봅니다.
+* **구독** - 구독 목록을 탐색합니다. 기본적으로 해당 유형, 모드 및 레이블을 볼 수 있습니다. [Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=ko){target="_blank"}에서 구독 및 구독 취소를 관리하는 방법에 대해 알아봅니다.
 
 ### 의사 결정 관리 {#decision-management}
 
@@ -87,7 +87,7 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 >id="acw_offers_list"
 >title="오퍼"
 >abstract="**상호 작용** 모듈을 사용하여 콘솔에서 생성된 오퍼 및 오퍼 템플릿 목록을 탐색합니다. 이 목록은 읽기 전용입니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="게재에 오퍼 추가"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html?lang=ko" text="게재에 오퍼 추가"
 
 의사 결정 관리 섹션에서 오퍼 및 오퍼 템플릿을 볼 수 있습니다. 이 목록은 읽기 전용입니다.
 
@@ -409,18 +409,18 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_complement"
->title="분할 생성 보조 항목"
->abstract="분할 생성 보조 항목"
+>title="보조 항목 분할 생성"
+>abstract="보조 항목 분할 생성"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
->title="결합 생성 보조 항목"
->abstract="결합 생성 보조 항목"
+>title="보조 항목 결합 생성"
+>abstract="보조 항목 결합 생성"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_segments"
->title="분할 활동용 세그먼트"
->abstract="분할 활동용 세그먼트"
+>title="분할 활동의 세그먼트"
+>abstract="분할 활동의 세그먼트"
 
 
 

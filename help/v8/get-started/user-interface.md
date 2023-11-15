@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
 workflow-type: tm+mt
 source-wordcount: '1405'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -409,13 +409,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_complement"
->title="보체 분할 생성"
->abstract="보체 분할 생성"
+>title="분할 생성 보조 항목"
+>abstract="분할 생성 보조 항목"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
->title="보조 항목 생성 결합"
->abstract="보조 항목 생성 결합"
+>title="결합 생성 보조 항목"
+>abstract="결합 생성 보조 항목"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_segments"

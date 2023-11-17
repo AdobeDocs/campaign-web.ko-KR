@@ -3,10 +3,10 @@ title: 주요 성과 지표
 description: 주요 성능 지표를 이해하는 방법에 대해 알아봅니다.
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 69550de063ad1713e78ab7e61e7ca073d6fc02c6
+source-git-commit: 53f1cc7776d56a42b4027f73cb3399a8c630cdfa
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 83%
+source-wordcount: '1196'
+ht-degree: 73%
 
 ---
 
@@ -141,3 +141,23 @@ Adobe Campaign 플랫폼에서 전송한 일부 메시지는 대상에 도달하
 * 게재될 총 메시지 수에 대한 오류 수의 비율
 
 * 게재 및 자동 리바운드 처리 중 누적된 총 오류 수
+
+## 메시지 전송됨 {#ui-sent-kpi}
+
+<!--DRAFT - This section requires a validation-->
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_sent"
+>title="전송됨"
+>abstract="이 지표는 DM 채널의 경우 게재 준비 단계 동안 준비된 총 메시지 수와 비교하여 보낸 모든 메시지의 합계 및 공급자에게 보낸 메시지의 비율을 보여 줍니다."
+
+준비 단계에서는 DM 추출 파일이 생성되지만 수신자 관련 정보(즉, 게재 로그)는 업데이트되지 않습니다.  캠페인 사용자가 게재 전송을 확인하는 경우 게재 보류 중 상태가 전송됨으로 이동했습니다. 그런 다음 게재가 완료됨으로 설정됩니다.
+
+일부 주소가 누락되거나 불완전할 수 있으므로 보낸 메시지의 100%는 준비된 총 메시지와 비교할 수 없습니다.
+
+다음 **전송됨** 표시기에는 DM 채널에 대한 다음 KPI가 표시됩니다.
+
+* 준비된 총 메시지 수와 비교한 보낸 메시지 수의 백분율입니다.
+
+* 보낸 모든 메시지 합계.
+

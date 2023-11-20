@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
+source-git-commit: 98004501d735e3690d3e78dd0b002d183c71f3a0
 workflow-type: tm+mt
-source-wordcount: '1405'
-ht-degree: 99%
+source-wordcount: '1415'
+ht-degree: 98%
 
 ---
 
@@ -406,6 +406,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_orchestration_reconciliation_complement"
 >title="조정 보조 항목 생성"
 >abstract="조정 보조 항목 생성"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_keep_unreconciled_data"
+>title="조정 미조정된 데이터 유지 옵션"
+>abstract="조정 미조정된 데이터 유지 옵션"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_complement"

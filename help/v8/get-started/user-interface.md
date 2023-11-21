@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 98004501d735e3690d3e78dd0b002d183c71f3a0
 workflow-type: tm+mt
 source-wordcount: '1415'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -370,7 +370,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="조정 활동"
->abstract="사용 **조정** 활동을 통해 미식별 데이터를 기존 리소스에 연결할 수 있습니다."
+>abstract="**조정** 활동을 사용하여 식별되지 않은 데이터를 기존 리소스에 연결합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"

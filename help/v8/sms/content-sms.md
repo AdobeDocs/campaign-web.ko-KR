@@ -4,9 +4,9 @@ title: SMS 게재 디자인
 description: SMS 게재를 디자인하는 방법 알아보기
 badge: label="Beta"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '175'
 ht-degree: 88%
 
 ---
@@ -18,10 +18,6 @@ ht-degree: 88%
 >title="SMS 콘텐츠"
 >abstract="SMS 게재 콘텐츠를 만들고 개인화 필드, 콘텐츠 블록과 동적 콘텐츠를 사용하여 개인화합니다."
 
->[!CONTEXTUALHELP]
->id="acw_sms_preview_option_app_target"
->title="앱 구독자"
->abstract="기본 대상에 앱 구독자를 추가하여 메시지를 미리 보고 테스트합니다."
 
 
 SMS 게재 콘텐츠를 디자인하려면 다음 단계를 따르십시오.

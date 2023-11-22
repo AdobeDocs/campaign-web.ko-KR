@@ -4,10 +4,10 @@ title: 분할 워크플로 활동 사용
 description: 분할 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="Beta"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 96%
+source-wordcount: '694'
+ht-degree: 97%
 
 ---
 
@@ -39,6 +39,10 @@ ht-degree: 96%
 >title="분할 활동 정렬"
 >abstract="하위 집합에 대해 모집단 제한을 설정할 때 특정 프로필 속성을 기준으로 선택한 프로필의 등급을 오름차순 또는 내림차순으로 지정할 수 있습니다. 이렇게 하려면 **정렬 활성화** 옵션을 토글합니다. 예를 들어 구매 금액이 가장 높은 상위 50개 프로필만 포함하도록 하위 집합을 제한할 수 있습니다."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_complement"
+>title="보조 항목 분할 생성"
+>abstract="모든 하위 집합을 구성한 후에는 하위 집합과 일치하지 않는 나머지 모집단을 선택하여 추가 아웃바운드 전환에 포함할 수 있습니다. 이렇게 하려면 **보조 항목 생성** 옵션을 토글합니다."
 
 **분할** 활동을 구성하려면 다음 단계를 따르십시오.
 

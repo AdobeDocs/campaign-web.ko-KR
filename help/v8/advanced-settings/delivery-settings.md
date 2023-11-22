@@ -4,10 +4,10 @@ title: 게재 설정
 description: Campaign 웹에서 게재 설정에 대해 자세히 알아보기
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
+source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
 workflow-type: tm+mt
-source-wordcount: '2112'
-ht-degree: 83%
+source-wordcount: '2159'
+ht-degree: 80%
 
 ---
 
@@ -30,13 +30,13 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="유형화"
->abstract="유형화 규칙을 통해 마케터는 모든 게재에 걸쳐 비즈니스 사례를 표준화할 수 있습니다. 유형화는 게재 전송에 대해 제어, 필터링 및 우선 순위 지정을 수행할 수 있는 유형화 규칙 모음입니다. 유형화 규칙 내의 기준과 일치하는 프로필은 준비 단계에 게재 대상자에서 제외됩니다."
+>abstract="유형화 규칙을 통해 마케터는 모든 게재에 걸쳐 비즈니스 사례를 표준화할 수 있습니다. 유형화는 게재 전송에 대해 제어, 필터링 및 우선 순위 지정을 수행할 수 있는 유형화 규칙 모음입니다. 유형화 규칙 내의 기준과 일치하는 프로필은 준비 단계에 게재 대상자에서 제외됩니다. 유형화 및 유형화 규칙은 Campaign 클라이언트 콘솔에서 만들어집니다."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
->title="유형화 게재에 대한 설정"
->abstract="유형화 규칙을 통해 마케터는 모든 게재에 걸쳐 비즈니스 사례를 표준화할 수 있습니다. 유형화는 게재 전송에 대해 제어, 필터링 및 우선 순위 지정을 수행할 수 있는 유형화 규칙 모음입니다. 유형화 규칙 내의 기준과 일치하는 프로필은 준비 단계에 게재 대상자에서 제외됩니다."
+>title="게재에 대한 유형화 설정"
+>abstract="유형화 규칙을 통해 마케터는 모든 게재에 걸쳐 비즈니스 사례를 표준화할 수 있습니다. 유형화는 게재 전송에 대해 제어, 필터링 및 우선 순위 지정을 수행할 수 있는 유형화 규칙 모음입니다. 유형화 규칙 내의 기준과 일치하는 프로필은 준비 단계에 게재 대상자에서 제외됩니다. 유형화 및 유형화 규칙은 Campaign 클라이언트 콘솔에서 만들어집니다."
 
 
 유형화는 다음 집합입니다. **유형화 규칙**: 준비 단계 동안 실행됩니다. 유형화 규칙을 통해 마케터는 모든 게재에 걸쳐 비즈니스 사례를 표준화할 수 있습니다. 유형화는 게재 전송에 대해 제어, 필터링 및 우선 순위 지정을 수행할 수 있는 유형화 규칙 모음입니다. 유형화 규칙 내의 기준과 일치하는 프로필은 게재 준비 단계의 게재 대상자에서 제외됩니다.  이메일에 항상 특정 요소(예: 구독 취소 링크 또는 제목 줄)가 포함되어 있는지 확인하거나 그룹을 의도한 타겟(구독 취소자, 경쟁 업체 또는 비충성 고객)에서 제외하는 필터링 규칙이 있는지 확인할 수 있습니다.
@@ -48,7 +48,9 @@ ht-degree: 83%
 ![](assets/delivery-settings-1.png)
 
 
-
+>[!NOTE]
+>
+>유형화 및 유형화 규칙은 Campaign 클라이언트 콘솔에서 만들어집니다. 압력 규칙 및 의 피로도 관리 구성 방법에 대해 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ko){target="_blank"}.
 
 ### 압력 매개변수 {#pressure-parameters}
 
@@ -83,7 +85,9 @@ ht-degree: 83%
 * **잠정 대상 예상 및 승인**
 * **대상 평가**
 
-피로도 관리는 **캠페인 최적화** 추가 기능과 함께 제공됩니다. 압력 규칙 및 의 피로도 관리 구성 방법에 대해 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
+>[!NOTE]
+>
+>피로도 관리는 Campaign 클라이언트 콘솔에 구성됩니다. 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
 
 ### 용량 설정 {#capacity-settings}
 
@@ -103,7 +107,9 @@ ht-degree: 83%
 
 **수신자 중요도** 필드는 용량 유형화 규칙 초과 시 유지되는 수신자를 결정하는 데 사용되는 공식입니다.
 
-일관성 및 용량 규칙과 이를 구성하는 방법에 대해 자세히 알아봅니다. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
+>[!NOTE]
+>
+>유형화 규칙은 Campaign 클라이언트 콘솔에 구성됩니다. 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
 
 
 ## 대상자 설정 {#audience}
@@ -145,7 +151,9 @@ ht-degree: 83%
 
 사용 중인 분석 도구와 공유되는 태그를 정의할 수도 있습니다.
 
-에서 웹 분석 및 캠페인에 대해 자세히 알아봅니다. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+>[!NOTE]
+>
+>웹 분석 기능은 Campaign 클라이언트 콘솔에 구성됩니다. 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 
 ### 재시도 {#retries}

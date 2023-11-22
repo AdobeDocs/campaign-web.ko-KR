@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 98004501d735e3690d3e78dd0b002d183c71f3a0
+source-git-commit: bc0659ba0577eb16500eb339a75a8362a2f3ec41
 workflow-type: tm+mt
-source-wordcount: '1415'
-ht-degree: 99%
+source-wordcount: '1443'
+ht-degree: 97%
 
 ---
 
@@ -501,3 +501,17 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="구독의 전반적인 진화"
 
 
+>[!CONTEXTUALHELP]
+>id="acw_directmail_content"
+>title="DM 콘텐츠"
+>abstract="DM 콘텐츠"
+
+>[!CONTEXTUALHELP]
+>id="acw_directmail_properties_file"
+>title="DM에 대한 파일 속성"
+>abstract="DM에 대한 파일 속성"
+
+>[!CONTEXTUALHELP]
+>id="acw_directmail_properties_content"
+>title="DM의 콘텐츠 속성"
+>abstract="DM의 콘텐츠 속성"

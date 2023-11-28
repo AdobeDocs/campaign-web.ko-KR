@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
+source-git-commit: 1f6fc0e2764fc4e083fe983f32f83ebe93594df1
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 97%
+source-wordcount: '1501'
+ht-degree: 93%
 
 ---
 
@@ -512,3 +512,47 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_directmail_properties_content"
 >title="DM의 콘텐츠 속성"
 >abstract="DM의 콘텐츠 속성"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile"
+>title="파일 활동 로드"
+>abstract="파일 활동 로드"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_samplefile"
+>title="샘플 파일"
+>abstract="샘플 파일"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_nameofthefile"
+>title="파일 이름"
+>abstract="파일 이름"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_targetdb"
+>title="대상 데이터베이스"
+>abstract="대상 데이터베이스"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_rejectmgt"
+>title="파일 로드 활동에 대한 관리 거부"
+>abstract="파일 로드 활동에 대한 관리 거부"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_outboundtransition"
+>title="관리 아웃바운드 전환 거부"
+>abstract="관리 아웃바운드 전환 거부"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_outboundtransition_reject"
+>title="거부에 대한 관리 아웃바운드 전환 거부"
+>abstract="거부에 대한 관리 아웃바운드 전환 거부"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_formatting"
+>title="파일 로드 활동의 서식 지정"
+>abstract="파일 로드 활동의 서식 지정"
+

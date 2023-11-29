@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: e2b8fb6607fbcf1c347e8926a167296812945d4e
 workflow-type: tm+mt
 source-wordcount: '1495'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -492,18 +492,18 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
->title="DM 콘텐츠"
->abstract="DM 콘텐츠"
+>title="다이렉트 메일의 콘텐츠"
+>abstract="다이렉트 메일의 콘텐츠"
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_file"
->title="DM에 대한 파일 속성"
->abstract="DM에 대한 파일 속성"
+>title="다이렉트 메일의 파일 속성"
+>abstract="다이렉트 메일의 파일 속성"
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_content"
->title="DM의 콘텐츠 속성"
->abstract="DM의 콘텐츠 속성"
+>title="다이렉트 메일의 콘텐츠 속성"
+>abstract="다이렉트 메일의 콘텐츠 속성"
 
 
 

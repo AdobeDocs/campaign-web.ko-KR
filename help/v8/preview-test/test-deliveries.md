@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
 workflow-type: tm+mt
 source-wordcount: '1190'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -71,8 +71,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
->title="기본 대상에 테스트 프로필 포함"
->abstract="이 옵션을 활성화하면 테스트 게재의 수신자에게 최종 메시지를 보낼 수도 있습니다."
+>title="주요 대상자에 테스트 프로필 포함"
+>abstract="테스트 게재 수신자에게도 최종 메시지를 보내려면 이 옵션을 활성화합니다."
 
 테스트 프로필은 데이터베이스의 추가 수신자인 시드 주소입니다. 에서 만들 수 있습니다. [!DNL Adobe Campaign] 클라이언트 콘솔입니다. 시드 주소로 테스트 메시지를 보내는 단계는 아래에 자세히 설명되어 있습니다.
 

@@ -9,7 +9,7 @@ exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: d9eb862d8fc5d03b26b230d8ffeb167e6c0b1f3b
 workflow-type: tm+mt
 source-wordcount: '1047'
-ht-degree: 21%
+ht-degree: 24%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
 >title="게재 템플릿 작업"
->abstract="게재 템플릿을 사용하여 나중에 캠페인 전반에서 사용할 수 있도록 게재 설정을 만들고 저장합니다. 처음부터 게재 템플릿을 만들거나, 기존 템플릿을 복제하거나, 게재를 템플릿으로 변환할 수 있습니다."
+>abstract="게재 템플릿을 사용하여 향후 캠페인 전체에서 사용할 수 있도록 게재 설정을 만들고 저장합니다. 게재 템플릿을 처음부터 만들거나, 기존 템플릿을 복제하거나, 게재를 템플릿으로 전환할 수 있습니다."
 
 
 콘텐츠 템플릿 목록에 액세스하려면 다음을 선택합니다. **[!UICONTROL Campaign Management]** > **[!UICONTROL 게재]** 왼쪽 메뉴에서 **템플릿** 탭.

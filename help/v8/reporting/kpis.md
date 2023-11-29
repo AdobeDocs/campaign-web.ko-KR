@@ -6,7 +6,7 @@ exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: 53f1cc7776d56a42b4027f73cb3399a8c630cdfa
 workflow-type: tm+mt
 source-wordcount: '1196'
-ht-degree: 73%
+ht-degree: 79%
 
 ---
 
@@ -87,12 +87,12 @@ Adobe Campaign은 수신자가 이메일의 이미지를 다운로드할 때 메
 이 지표는 통합 추적 테이블(`nms:trackingStats`)을 기반으로 합니다. 이 집계 테이블은 보고서를 표시할 때 수신자 추적 로그 테이블(`nms:trackingLogRcp`) 대신 성능상의 목적으로 사용되며 실시간으로 계산되지 않습니다. 추적 로그가 검색되고 몇 분 후에 테이블이 생성됩니다.
 
 
-## 구독 요금 {#ui-sub-kpi}
+## 구독 비율 {#ui-sub-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_subscriptions"
 >title="구독"
->abstract="이 지표는 선택한 채널에 대해 서비스에 대한 모든 구독의 합계 및 성공과 함께 제공된 총 메시지 수 대비 구독 비율을 보여 줍니다."
+>abstract="이 지표에는 선택한 채널에 대해 서비스의 모든 구독 건수의 합계와, 성공적으로 게재된 총 메시지 수에 대한 구독 수의 비율이 표시됩니다."
 
 
 수신자는 이메일 및 SMS 커뮤니케이션에 옵트인할 수 있습니다.
@@ -142,14 +142,14 @@ Adobe Campaign 플랫폼에서 전송한 일부 메시지는 대상에 도달하
 
 * 게재 및 자동 리바운드 처리 중 누적된 총 오류 수
 
-## 메시지 전송됨 {#ui-sent-kpi}
+## 메시지 전송 {#ui-sent-kpi}
 
 <!--DRAFT - This section requires a validation-->
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_sent"
->title="전송됨"
->abstract="이 지표는 DM 채널의 경우 게재 준비 단계 동안 준비된 총 메시지 수와 비교하여 보낸 모든 메시지의 합계 및 공급자에게 보낸 메시지의 비율을 보여 줍니다."
+>title="보냄"
+>abstract="이 지표는 다이렉트 메일 채널의 경우 전송된 모든 메시지의 합계와 제공자에게 전송된 메시지의 비율을 게재 준비 단계에서 준비된 총 메시지 수와 비교하여 표시합니다."
 
 준비 단계에서는 DM 추출 파일이 생성되지만 수신자 관련 정보(즉, 게재 로그)는 업데이트되지 않습니다.  캠페인 사용자가 게재 전송을 확인하는 경우 게재 보류 중 상태가 전송됨으로 이동했습니다. 그런 다음 게재가 완료됨으로 설정됩니다.
 

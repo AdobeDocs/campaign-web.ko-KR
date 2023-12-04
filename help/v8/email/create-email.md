@@ -4,10 +4,10 @@ title: 첫 이메일 보내기
 description: Campaign Web UI를 사용하여 첫 이메일을 전송하는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
+source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 70%
+source-wordcount: '1328'
+ht-degree: 69%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 70%
 >title="이메일 속성 정의"
 >abstract="속성은 게재 이름을 지정하고 분류하는 데 도움이 되는 일반적인 게재 매개변수입니다. 추가 설정은 선택 사항입니다. Adobe Campaign v8 Console에 정의된 확장된 스키마를 기반으로 하는 게재인 경우, 일부 특정 **사용자 정의 옵션** 필드를 사용할 수 있습니다."
 
-독립형 이메일 게재를 만들거나 캠페인 워크플로우의 컨텍스트에서 이메일을 만들 수 있습니다. 아래 단계에서는 독립 실행형(일회성) 이메일 게재 절차를 자세히 설명합니다. 캠페인 워크플로우의 컨텍스트에서 작업 중인 경우 만들기 단계는 의 세부 정보입니다. [이 섹션](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+독립형 이메일 게재를 만들거나 캠페인 워크플로우의 컨텍스트에서 이메일을 만들 수 있습니다. 아래 단계에서는 독립 실행형(일회성) 이메일 게재 절차를 자세히 설명합니다. Adobe Campaign의 게재 만들기 단계에 대해 자세히 알아보기 [이 페이지](../msg/gs-deliveries.md).
 
 새 독립 실행형 이메일 게재를 만들려면 아래 단계를 수행하십시오.
 
@@ -66,7 +66,7 @@ ht-degree: 70%
 
    ![](assets/email-properties.png)
 
-1. 또한 유형화 규칙 및 대상 매핑과 같은 고급 설정은 **[!UICONTROL 설정]** 화면 오른쪽 상단에 있는 단추입니다. 이러한 설정은 선택한 템플릿에 미리 구성되어 있지만 필요에 따라 이 특정 이메일에 대해 편집할 수 있습니다. [자세히 알아보기](../advanced-settings/delivery-settings.md)
+1. 또한 유형화 규칙 및 대상 매핑과 같은 고급 설정은 **[!UICONTROL 설정]** 화면 오른쪽 상단에 있는 단추입니다. 이러한 설정은 선택한 템플릿에 미리 구성되어 있지만, 필요에 따라 이 특정 이메일에 편집할 수 있습니다. [자세히 알아보기](../advanced-settings/delivery-settings.md)
 
 ## 대상자 정의 {#define-audience}
 
@@ -77,7 +77,7 @@ ht-degree: 70%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="기본 대상자 선택"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="컨트롤 그룹 설정"
 
-이 사용 사례에서는 기존 대상자에게 이메일을 전송합니다.
+이 사용 사례에서는 기존 대상자에게 이메일을 보냅니다.
 
 대상자와 작업하는 방법에 대한 추가적인 지침은 [이 섹션](../audience/about-recipients.md)에서 확인할 수 있습니다.
 

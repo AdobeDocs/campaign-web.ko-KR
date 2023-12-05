@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: e2b8fb6607fbcf1c347e8926a167296812945d4e
+source-git-commit: 24d62bab783e8a00b71d01e5bf44b206d52d6a4e
 workflow-type: tm+mt
-source-wordcount: '1495'
-ht-degree: 96%
+source-wordcount: '1503'
+ht-degree: 94%
 
 ---
 
@@ -204,6 +204,16 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="수신자 사용자 정의 필드"
 
 >[!CONTEXTUALHELP]
+>id="acw_recipients_creation_nolongercontact"
+>title="받는 사람이 더 이상 연락하지 않음"
+>abstract="받는 사람이 더 이상 연락하지 않음"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_othersfields"
+>title="수신자 기타"
+>abstract="수신자 기타"
+
+>[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="수신자 카드 개요"
 >abstract="수신자 카드 개요"
@@ -233,6 +243,19 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="수신자 오퍼 미리보기"
 >abstract="수신자 오퍼 미리보기"
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="수신자 읽기 전용 프로필"
+>abstract="수신자 읽기 전용 프로필"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_testprofiles_additionaldata"
+>title="테스트 프로필 추가 데이터"
+>abstract="테스트 프로필 추가 데이터"
 
 
 

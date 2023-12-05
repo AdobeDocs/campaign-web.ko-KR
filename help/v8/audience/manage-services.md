@@ -4,10 +4,10 @@ title: 구독 서비스 작업
 description: Adobe Campaign 웹에서 구독 서비스에 액세스하고, 만들고, 관리하는 방법을 알아봅니다
 badge: label="Beta"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 2524756d888fa62149beda92ead898a9130dfb66
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 19%
+source-wordcount: '760'
+ht-degree: 17%
 
 ---
 
@@ -94,7 +94,7 @@ Adobe Campaign 웹을 사용하여 뉴스레터와 같은 서비스를 관리 �
 
    >[!NOTE]
    >
-   >을(를) 선택하지 않으면  **[!UICONTROL 구독]** 대상 매핑에서 구독자가 확인 메시지를 받지 못합니다. 대상 매핑은 Campaign v8 콘솔에서 정의됩니다. 자세히 알아보기 [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+   >을(를) 선택하지 않으면  **[!UICONTROL 구독]** 대상 매핑에서 구독자가 확인 메시지를 받지 못합니다. Target 매핑은 Campaign v8 콘솔에 정의되어 있습니다. 자세히 알아보기 [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
 1. 게재 템플릿의 콘텐츠를 편집하고 저장하고 닫습니다.
 

@@ -4,9 +4,9 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 24d62bab783e8a00b71d01e5bf44b206d52d6a4e
+source-git-commit: c5eaa8f5db6135c6d921258f7e047c1ff1cc975d
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1521'
 ht-degree: 94%
 
 ---
@@ -571,3 +571,30 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="파일 로드 활동의 서식 지정"
 >abstract="파일 로드 활동의 서식 지정"
 
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_customcondition"
+>title="사용자 정의 상태"
+>abstract="사용자 정의 상태"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_ruleproperties"
+>title="규칙 속성"
+>abstract="규칙 속성"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_selectaudience"
+>title="대상자 선택"
+>abstract="대상자 선택"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_predefinedfilter"
+>title="미리 정의된 필터"
+>abstract="미리 정의된 필터"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_group"
+>title="그룹"
+>abstract="그룹"

@@ -4,10 +4,10 @@ title: 푸시 알림 게재 디자인
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 디자인하는 방법을 알아봅니다
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: dc42d01fa33de79ebee92910d6d236449d749fd5
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 37%
+source-wordcount: '1317'
+ht-degree: 35%
 
 ---
 
@@ -81,36 +81,36 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_critical"
->title="iOS용 중요 경고 모드"
+>title="중요 경고 모드"
 >abstract="사용자의 휴대폰이 포커스 모드로 설정되어 있거나 디바이스가 음소거된 경우에도 알림에 소리를 추가하려면 이 옵션을 활성화합니다. 이렇게 하면 어떠한 경우에도 사용자가 중요한 알림을 수신할 수 있습니다."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
->title="iOS용 배지 번호"
+>title="배지 번호"
 >abstract="앱 아이콘에 직접 표시할 읽지 않은 새 정보의 수를 설정하려면 이 옵션을 사용하십시오. 사용자는 이를 통해 보류 중인 알림 수를 빠르게 확인할 수 있습니다."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_mutable"
->title="iOS용 변경 가능한 콘텐츠"
+>title="변경 가능한 콘텐츠"
 >abstract="이 옵션을 사용하여 모바일 애플리케이션이 알림과 관련된 미디어 콘텐츠를 다운로드하도록 허용합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_score"
->title="iOS용 관련성 점수"
+>title="관련성 점수"
 >abstract="알림 요약에서 알림 순서의 우선 순위를 지정하려면 관련성 점수를 0에서 100 사이로 설정하십시오. 점수가 높을수록 더 중요한 알림입니다."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_app_variables"
->title="iOS용 애플리케이션 변수"
+>title="애플리케이션 변수"
 >abstract="애플리케이션 변수를 사용하여 알림 비헤이비어를 정의합니다. 이러한 변수는 완전히 사용자 정의할 수 있으며 모바일 디바이스로 전송되는 메시지 페이로드의 일부로 포함됩니다."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_category"
->title="iOS용 범주 ID"
+>title="범주 ID"
 >abstract="알림과 연결된 범주 ID의 이름을 지정합니다. 이렇게 하면 작업 버튼이 표시되어 사용자가 애플리케이션을 열지 않고도 알림에서 직접 다양한 작업을 수행할 수 있습니다."
 
 
@@ -123,7 +123,7 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 | 매개변수 | 설명 |
 |---------|---------|
 | **[!UICONTROL 사운드]** | 장치에서 알림을 받을 때 소리가 재생되도록 설정합니다. |
-| **[!UICONTROL 알림 횟수]** | 애플리케이션 아이콘에 직접 표시할 읽지 않은 새 정보의 수를 설정합니다. 사용자는 이를 통해 보류 중인 알림 수를 빠르게 확인할 수 있습니다. |
+| **[!UICONTROL 알림 수]** | 애플리케이션 아이콘에 직접 표시할 읽지 않은 새 정보의 수를 설정합니다. 사용자는 이를 통해 보류 중인 알림 수를 빠르게 확인할 수 있습니다. |
 | **[!UICONTROL 채널 ID]** | 알림의 채널 ID를 설정합니다. 이 채널 ID의 알림을 수신하려면 먼저 앱에서 이 채널 ID로 채널을 만들어야 합니다. |
 | **[!UICONTROL 클릭 동작]** | 알림에 대한 사용자 클릭과 관련된 작업을 정의합니다. 이는 사용자가 특정 화면을 열거나 앱에서 특정 작업을 수행하는 것과 같이 알림과 상호 작용할 때의 동작을 결정합니다. |
 | **[!UICONTROL 태그]** | 알림 대화 상자에서 기존 알림을 바꾸는 데 사용되는 식별자를 설정합니다. 이렇게 하면 여러 알림이 누적되는 것을 방지하고 최신 관련 알림만 표시됩니다. |
@@ -140,8 +140,8 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 |---------|---------|
 | **[!UICONTROL 중요 경고 모드]** | 사용자의 휴대폰이 포커스 모드로 설정되어 있거나 디바이스가 음소거된 경우에도 알림에 소리를 추가하려면 이 옵션을 활성화합니다. 이렇게 하면 중요한 알림을 사용자가 인지할 수 있습니다. |
 | **[!UICONTROL 정리 배지]** | 애플리케이션 아이콘에 표시된 배지 값을 새로 고치려면 이 옵션을 활성화합니다. 이는 배지가 읽지 않은 새로운 정보의 수를 정확하게 반영하도록 한다. |
-| **[!UICONTROL 알림 횟수]** | 읽지 않은 새 정보의 수를 나타내는 애플리케이션 아이콘에 직접 표시되는 숫자를 설정하십시오. 이를 통해 사용자에게 빠른 시각적 참조를 제공합니다. |
-| **[!UICONTROL 수량]** | 0~100의 사운드 볼륨입니다. |
+| **[!UICONTROL 알림 수]** | 읽지 않은 새 정보의 수를 나타내는 애플리케이션 아이콘에 직접 표시되는 숫자를 설정하십시오. 이를 통해 사용자에게 빠른 시각적 참조를 제공합니다. |
+| **[!UICONTROL 볼륨]** | 0~100의 사운드 볼륨입니다. |
 | **[!UICONTROL 변경 가능한 콘텐츠]** | 모바일 애플리케이션이 알림과 연관된 미디어 콘텐츠를 다운로드하도록 하려면 이 옵션을 활성화합니다. 자세한 내용은 [Apple 개발자 설명서](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)를 참조하십시오. |
 | **[!UICONTROL 관련성 점수]** | 알림 요약에서 알림 순서의 우선 순위를 지정하려면 관련성 점수를 0에서 100 사이로 설정하십시오. 점수가 높을수록 더 중요한 알림입니다. |
 | **[!UICONTROL 중단 수준]** | <ul> <li>**[!UICONTROL 활성]**: 기본적으로 설정되어 있으므로 시스템에서 알림을 즉시 표시하고 화면을 켜며 사운드를 재생할 수 있습니다. 알림은 포커스 모드를 통과하지 않습니다.</li><li>**[!UICONTROL 수동]**: 화면에 불이 들어오거나 소리가 재생되지 않고 알림 목록에 알림이 추가됩니다. 알림은 포커스 모드를 통과하지 않습니다.</li><li>**[!UICONTROL 시간에 민감함]**: 시스템에서 알림을 즉시 표시하고 화면을 켜며 사운드를 재생하고 포커스 모드를 중단할 수 있습니다. 이 수준에서는 Apple의 특별한 권한이 필요하지 않습니다.</li> <li>**[!UICONTROL 중요]**: 시스템에서 알림을 즉시 표시하고 화면을 켜며 음소거 스위치 또는 포커스 모드를 건너뜁니다. 이 수준에는 Apple의 특별한 권한이 필요합니다.</ul> |

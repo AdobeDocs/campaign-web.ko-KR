@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: c5eaa8f5db6135c6d921258f7e047c1ff1cc975d
 workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -548,13 +548,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
->title="대상 데이터베이스"
->abstract="대상 데이터베이스"
+>title="Target 데이터베이스"
+>abstract="Target 데이터베이스"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_rejectmgt"
->title="파일 로드 활동에 대한 관리 거부"
->abstract="파일 로드 활동에 대한 관리 거부"
+>title="파일 활동 로드에 대한 관리 거부"
+>abstract="파일 활동 로드에 대한 관리 거부"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
@@ -568,8 +568,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_formatting"
->title="파일 로드 활동의 서식 지정"
->abstract="파일 로드 활동의 서식 지정"
+>title="파일 활동 로드에 대한 서식 지정"
+>abstract="파일 활동 로드에 대한 서식 지정"
 
 
 

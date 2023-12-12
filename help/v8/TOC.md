@@ -5,7 +5,7 @@ title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: 캠페인 개요
 hide: true
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: acc8956c21c700b615bcd1b2a055a91b1d227f7b
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 95%
@@ -126,10 +126,10 @@ ht-degree: 95%
       + [예약](workflows/activities/scheduler.md)
       + [분할](workflows/activities/split.md)
       + [대기](workflows/activities/wait.md)
-   + 데이터베이스 쿼리 {#query-database}
-      + [쿼리 모델러를 사용하여 작업](query/query-modeler-overview.md)
-      + [첫 번째 쿼리 작성](query/build-query.md)
-      + [쿼리 샘플](query/query-samples.md)
++ 데이터베이스 쿼리 {#query-database}
+   + [쿼리 모델러를 사용하여 작업](query/query-modeler-overview.md)
+   + [첫 번째 쿼리 작성](query/build-query.md)
+   + [쿼리 샘플](query/query-samples.md)
 + 보고 {#reports}
    + [보고서 시작](reporting/gs-reports.md)
    + [주요 성과 지표](reporting/kpis.md)

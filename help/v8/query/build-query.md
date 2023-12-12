@@ -2,10 +2,10 @@
 audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: a974221fa5b46ea9463c98724b1f49a7edb0adb7
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 1%
+source-wordcount: '1354'
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,12 @@ ht-degree: 1%
 * **대상**: 기존 대상자를 사용하여 쿼리를 필터링합니다.
 * **미리 정의된 필터**: 기존의 사전 정의된 필터를 사용하여 쿼리를 필터링합니다.
 
-### 사용자 지정 조건 작성
+### 사용자 지정 조건 구성
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_customcondition"
+>title="사용자 정의 상태"
+>abstract="사용자 정의 상태"
 
 사용자 지정 조건을 사용하여 쿼리를 필터링하려면 다음 단계를 따르십시오.
 
@@ -96,6 +101,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 
 ### 대상자 선택
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_selectaudience"
+>title="대상자 선택"
+>abstract="대상자 선택"
+
 기존 대상자를 사용하여 쿼리를 필터링하려면 다음 단계를 따르십시오.
 
 1. 원하는 노드의 + 단추를 클릭하고 다음을 선택합니다. **[!UICONTROL 대상자 선택]**.
@@ -108,6 +118,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 
 ### 미리 정의된 필터 사용
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_predefinedfilter"
+>title="미리 정의된 필터"
+>abstract="미리 정의된 필터"
+
 사전 정의된 필터를 사용하여 쿼리를 필터링하려면 다음 단계를 수행합니다.
 
 1. 원하는 노드의 + 단추를 클릭하고 다음을 선택합니다. **[!UICONTROL 미리 정의된 필터]**.
@@ -119,6 +134,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
    ![](assets/query-predefined-filter.png)
 
 ## 필터링 구성 요소와 연산자 결합
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_group"
+>title="그룹"
+>abstract="그룹"
 
 쿼리에 필터링 구성 요소를 추가하면 쿼리 캔버스에 새 전환이 자동으로 만들어지고 새 필터링 구성 요소가 AND 연산자로 첫 번째 요소에 연결됩니다. 즉, 두 필터링 구성 요소의 결과가 모두 쿼리 결과로 결합됩니다.
 
@@ -137,6 +157,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 * 제외 (제외): 아웃바운드 전환의 모든 필터링 구성 요소에서 결과를 제외합니다.
 
 ## 쿼리 확인 및 유효성 검사
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_ruleproperties"
+>title="규칙 속성"
+>abstract="규칙 속성"
 
 캔버스에 쿼리를 빌드하면 오른쪽에 있는 규칙 속성 창을 사용하여 쿼리를 확인할 수 있습니다. 사용 가능한 작업은 다음과 같습니다.
 

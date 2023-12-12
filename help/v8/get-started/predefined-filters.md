@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '787'
 ht-degree: 100%
 
 ---
@@ -68,9 +68,7 @@ ht-degree: 100%
 
 이제 사용자 정의 필터를 **미리 정의된 필터** 목록에서 사용할 수 있으며 모든 Campaign 사용자가 액세스할 수 있습니다.
 
-
 ### 필터 목록에서 필터 만들기 {#create-filter-from-list}
-
 
 왼쪽 메뉴의 **미리 정의된 필터** 항목에서 필터를 생성할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
 
@@ -86,7 +84,6 @@ ht-degree: 100%
 
 1. 변경 내용을 저장합니다. 해당 필터가 미리 정의된 필터 목록에 추가됩니다.
 
-
 ## 필터를 즐겨찾기로 저장 {#fav-filter}
 
 미리 정의된 필터를 생성할 때 해당 미리 정의된 필터를 즐겨찾기에서 보려면 **즐겨찾기로 저장** 옵션을 활성화할 수 있습니다.
@@ -95,7 +92,6 @@ ht-degree: 100%
 필터를 즐겨찾기로 저장하면 아래와 같이 필터 생성 목록의 **자주 사용하는 필터** 섹션에서 모든 사용자가 사용할 수 있습니다.
 
 ![](assets/predefined-filters-favorite.png){width="30%" align="left"}
-
 
 ## 미리 정의된 필터 사용 {#use-predefined-filter}
 

@@ -2,19 +2,14 @@
 audience: end-user
 title: 쿼리 모델러를 사용하여 작업
 description: Adobe Campaign 웹 쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다.
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: 8bf82784c9a55f9eb91bf8eba8c959b229efeef9
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 7%
+source-wordcount: '339'
+ht-degree: 0%
 
 ---
 
 # 쿼리 모델러를 사용하여 작업 {#segment-builder}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="타깃 대상자"
->abstract="이제 그 어느 때보다 간단하게 게재 대상을 구축할 수 있습니다! 이제 최신 쿼리 모델러를 사용하여 수신자의 필터링 기준이나 데이터베이스의 다른 타겟팅 차원을 정의할 수 있습니다. Adobe Experience Platform 대상자를 활용하여 타깃 대상자를 더욱 세분화하고 캠페인 효과를 극대화하십시오."
 
 ## 쿼리 모델러 개요 {#overview}
 

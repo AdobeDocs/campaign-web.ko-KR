@@ -4,10 +4,10 @@ title: SMS 게재 디자인
 description: SMS 게재를 디자인하는 방법 알아보기
 badge: label="Beta"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
+source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 88%
+source-wordcount: '185'
+ht-degree: 61%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="SMS 콘텐츠"
->abstract="SMS 게재 콘텐츠를 만들고 개인화 필드, 콘텐츠 블록과 동적 콘텐츠를 사용하여 개인화합니다."
+>abstract="SMS 게재의 콘텐츠를 만들고 개인화 필드, 콘텐츠 블록 및 다이내믹 콘텐츠를 사용하여 개인화합니다. 메시지 작성을 시작하려면 **콘텐츠 편집** 단추를 클릭합니다."
 
 
 
@@ -30,7 +30,7 @@ SMS 게재 콘텐츠를 디자인하려면 다음 단계를 따르십시오.
 
    ![](assets/sms_content_1.png)
 
-1. 문자 메시지를 **[!UICONTROL 메시지 필드]**&#x200B;에 입력하거나, **[!UICONTROL 개인화 대화 상자 열기]** 옵션을 클릭하여 콘텐츠를 정의하고 정적 콘텐츠를 추가합니다. [자세히 알아보기](../personalization/gs-personalization.md)
+1. 다음 위치에 문자 메시지 입력 **[!UICONTROL 메시지]** 필드 또는 클릭 **[!UICONTROL 개인화 대화 상자 열기]** 컨텐츠를 정의하고 다이내믹 컨텐츠를 추가하는 옵션입니다. [자세히 알아보기](../personalization/gs-personalization.md)
 
    ![](assets/sms_content_2.png)
 

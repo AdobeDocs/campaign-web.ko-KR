@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 4bdf23ab5905602608f3982692c88d3a399ca76a
+source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 95%
+source-wordcount: '1513'
+ht-degree: 97%
 
 ---
 
@@ -576,11 +576,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_orchestration_loadfile_formatting"
 >title="파일 활동 로드에 대한 서식 지정"
 >abstract="파일 활동 로드에 대한 서식 지정"
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_querymessage"
->title="쿼리 모델러"
->abstract="수신자에 대한 필터링 기준 또는 데이터베이스에서 다른 타겟팅 차원을 정의합니다. Adobe Experience Platform 대상을 활용하여 타겟 대상을 더욱 세분화하고 캠페인의 효과를 극대화하십시오."

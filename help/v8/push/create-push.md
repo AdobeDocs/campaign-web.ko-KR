@@ -4,10 +4,10 @@ title: 푸시 알림 게재 만들기
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 만드는 방법을 알아봅니다
 badge: label="Beta"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
+source-git-commit: 057a6b360093bc314aed6d6b0d84bfba7af3f464
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 16%
+source-wordcount: '638'
+ht-degree: 15%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 16%
 
 아래에 자세히 설명된 대로 게재 설정을 구성합니다.
 
-1. 입력 **[!UICONTROL 레이블]** 게재용
+1. 입력 **[!UICONTROL 레이블]** 배달을 위해. 기본적으로 레이블은 선택한 템플릿의 레이블로 설정됩니다. 업데이트해야 합니다.
 
 1. 찾아보기 **[!UICONTROL 추가 옵션]** 필요한 경우 옵션을 사용자 지정하는 드롭다운입니다.
 

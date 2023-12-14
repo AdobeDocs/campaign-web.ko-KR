@@ -4,9 +4,9 @@ title: 푸시 알림 게재 만들기
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 만드는 방법을 알아봅니다
 badge: label="Beta"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 057a6b360093bc314aed6d6b0d84bfba7af3f464
+source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '653'
 ht-degree: 15%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 15%
 
 1. 다음으로 이동 **[!UICONTROL 게재]** 왼쪽 레일에서 메뉴를 클릭하고  **[!UICONTROL 게재 만들기]** 단추를 클릭합니다.
 
-1. 아래 **[!UICONTROL 채널]** 섹션, 선택 **푸시 알림** 을(를) 채널로 사용하고 템플릿을 선택합니다. 선택한 장치 운영 체제(Android 또는 iOS)에 따라 달라집니다. [템플릿에 대해 자세히 알아보기](../msg/delivery-template.md)
+1. 아래 **[!UICONTROL 채널]** 섹션, 선택 **푸시 알림** 을 채널로 선택한 다음 선택한 장치 운영 체제(Android 또는 iOS)에 따라 템플릿을 선택합니다. [템플릿에 대해 자세히 알아보기](../msg/delivery-template.md)
 
 1. **[!UICONTROL 게재 만들기]** 버튼을 클릭하여 확인합니다.
 
@@ -45,7 +45,7 @@ ht-degree: 15%
 
 1. 입력 **[!UICONTROL 레이블]** 배달을 위해. 기본적으로 레이블은 선택한 템플릿의 레이블로 설정됩니다. 업데이트해야 합니다.
 
-1. 찾아보기 **[!UICONTROL 추가 옵션]** 필요한 경우 옵션을 사용자 지정하는 드롭다운입니다.
+1. 찾아보기 **[!UICONTROL 추가 옵션]** 필요한 경우 옵션을 사용자 지정하는 드롭다운입니다. 게재가 확장된 스키마를 기반으로 하는 경우 **사용자 지정 옵션** 필드를 사용할 수 있습니다.
 
    +++요구 사항에 따라 다음 설정을 구성합니다.
    * **[!UICONTROL 내부 이름]**: 게재에 고유 식별자를 할당합니다.

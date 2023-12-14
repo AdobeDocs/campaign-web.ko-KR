@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 18%
+source-wordcount: '1068'
+ht-degree: 16%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
 >title="게재 템플릿"
->abstract="캠페인 실행 및 론칭을 보다 신속하게 수행하기 위해 게재 템플릿을 사용하여 크리에이티브 룩과 느낌을 표준화합니다"
+>abstract="디자인 프로세스를 가속화하고 개선하기 위해 게재 템플릿을 만들어 캠페인 전반에서 사용자 지정 콘텐츠 및 설정을 쉽게 재사용할 수 있습니다. 이 기능을 사용하면 크리에이티브 룩과 느낌을 표준화하여 캠페인 실행 및 론칭을 보다 신속하게 수행할 수 있습니다."
 
 디자인 프로세스를 가속화하고 개선하기 위해 게재 템플릿을 만들어 캠페인 전반에서 사용자 지정 콘텐츠 및 설정을 쉽게 재사용할 수 있습니다. 이 기능을 사용하면 크리에이티브 룩과 느낌을 표준화하여 캠페인 실행 및 론칭을 보다 신속하게 수행할 수 있습니다.
 
@@ -79,6 +79,7 @@ ht-degree: 18%
 ## 게재 템플릿 만들기 {#create-a-delivery-template}
 
 게재 템플릿을 만들려면 다음 작업을 수행할 수 있습니다.
+
 * 기존 템플릿 복제 - [자세히 알아보기](#copy-an-existing-template)
 * 기존 게재를 템플릿으로 변환 - [자세히 알아보기](#convert-an-existing-delivery)
 * 처음부터 게재 템플릿 만들기 - [자세히 알아보기](#create-a-new-template)

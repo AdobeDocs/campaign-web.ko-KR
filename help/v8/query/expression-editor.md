@@ -2,14 +2,16 @@
 audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
-source-git-commit: e620df0ff9af0d32fc353a904e3dde37501495d0
+source-git-commit: 7f491df76460e982c144c7ea324c9afa14901259
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 79%
+source-wordcount: '1797'
+ht-degree: 65%
 
 ---
 
 # 표현식 편집 {#expression}
+
+## 표현식 편집 {#edit}
 
 표현식을 편집하려면 수동으로 조건을 입력하여 규칙을 만듭니다. 이 모드에서는 고급 기능을 사용할 수 있습니다. 이러한 함수를 사용하면 날짜, 문자열, 숫자 필드, 정렬 등과 같은 특정 쿼리를 수행하는 데 사용되는 값을 조작할 수 있습니다.
 
@@ -25,152 +27,666 @@ ht-degree: 79%
 
 입력 필드에 직접 표현식을 입력하거나 사용 가능한 필드 및 함수 목록을 사용하여 표현식을 편집합니다. 이렇게 하려면 요소를 추가할 비표현식에 커서를 놓고 원하는 필드 또는 표현식을 두 번 클릭합니다.
 
-워크플로우의 이벤트 변수를 사용하여 표현식을 작성할 수 있습니다. 자세한 내용은 xxxx를 참조하십시오.
+## 도우미 기능
 
-## 표현식 구문 {#expression-syntax}
+쿼리 편집 도구를 사용하면 고급 함수를 사용하여 원하는 결과와 조작된 데이터 유형에 따라 복잡한 필터링을 수행할 수 있습니다. 다음 기능을 사용할 수 있습니다.
 
-### 표준 구문 {#standard-syntax}
+### 집계
 
-표준 표현식은 다음 구문 요소와 관련된 하나 또는 여러 조건으로 구성됩니다.
-
-* 각 조건은 **&lt;값1> &lt;비교 연산자> &lt;값2>** 형식을 취합니다.
-
-   * **&lt;값1>**&#x200B;은 필드 또는 함수입니다. 예를 들어 프로필이 생성된 날짜의 경우 **@created** 또는 프로필이 생성된 연도의 경우 **Year(@created)**&#x200B;가 있습니다.
-   * **&lt;comparison operator=&quot;&quot;>** 는 비교 연산자 섹션에 나열된 연산자 중 하나입니다. 이 연산자는 **&lt;값1>**&#x200B;과 **&lt;값2>** 간의 비교 방법을 정의합니다.
-   * **&lt;값2>**&#x200B;는 수동으로 입력되는 필드, 함수 또는 값입니다.
-
-  >[!NOTE]
-  >
-  >**&lt;값1>** 및 **&lt;값2>**&#x200B;의 형식 데이터는 동일해야 합니다. 예를 들어 **&lt;값1>**&#x200B;이 날짜인 경우 **&lt;값2>**&#x200B;도 날짜여야 합니다.
-
-* 여러 조건을 사용하려면 논리 연산자를 사용하여 결합할 수 있습니다.
-
-   * **[!UICONTROL 및]**: 두 가지 조건이 교차됩니다.
-   * **[!UICONTROL 또는]**: 두 가지 조건이 결합됩니다.
-
-예제:
-
-```
-Year(@created) = Year(GetDate()) AND Month(@created) = Month(GetDate())
-```
-
-이 예에서는 생성 날짜가 현재 월 및 연도인 프로필이 타겟팅됩니다.
-
-### JavaScript 구문 {#javascript-syntax}
-
-HTML 콘텐츠 편집기의 텍스트 유형 블록의 가시성 조건을 정의할 때는 JavaScript 유형 구문이 있는 표현식을 사용해야 합니다.
-
-JavaScript 표현식은 하나 이상의 조건으로 구성되며 다음 구문 요소를 사용합니다.
-
-* 각 조건은 **&lt;컨텍스트> &lt;비교 연산자> &lt;값2>** 형식을 취합니다.
-
-   * **&lt;컨텍스트>**&#x200B;는 컨텍스트를 지정할 수 있는 필드 또는 함수입니다. 예를 들어 **context.profile@email**&#x200B;의 프로필 이메일 주소 또는 **context.profile.firstName.length()**&#x200B;의 프로필 이름의 문자 수가 있습니다.
-   * **&lt;comparison operator=&quot;&quot;>** 는 비교 연산자 섹션에 나열된 연산자 중 하나입니다. 이 연산자는 **&lt;컨텍스트>**&#x200B;와 **&lt;값2>** 간의 비교 방법을 정의합니다.
-   * **&lt;값2>**&#x200B;는 수동으로 입력되는 필드, 함수 또는 값입니다.
-
-  >[!NOTE]
-  >
-  **&lt;컨텍스트>** 및 **&lt;값2>**&#x200B;의 형식 데이터는 동일해야 합니다. 예를 들어 **&lt;컨텍스트>**&#x200B;가 날짜인 경우 **&lt;값2>**&#x200B;도 날짜여야 합니다.
-
-* 여러 조건을 사용하려면 논리 연산자를 사용하여 결합할 수 있습니다.
-
-   * **[!UICONTROL &amp;&amp;]**: 두 가지 조건이 교차됩니다.
-   * **[!UICONTROL ||]**: 두 가지 조건이 결합됩니다.
-
-예제:
-
-```
-context.profile.age > 21 && context.profile.firstName.length() > 0
-```
-
-이 예제의 경우 21세 이상이고 이름이 제공된 프로필입니다(**firstName** 필드에 하나 이상의 문자 포함).
-
-## 비교 연산자 {#comparison-operators}
-
-일부 규칙의 경우 쿼리 편집기를 사용하여 조건을 정의할 값을 선택할 수 있습니다.
-
-다음 연산자 중 하나를 사용하여 조건을 값에 연결해야 합니다.
+집계 함수는 값 집합에 대한 계산을 수행하는 데 사용됩니다.
 
 <table> 
- <thead> 
-  <tr> 
-   <th> 연산자<br /> </th> 
-   <th> 표준 구문<br /> </th> 
-   <th> JavaScript 구문<br /> </th> 
-   <th> 설명<br /> </th> 
-   <th> 예제<br /> </th> 
-  </tr> 
- </thead> 
  <tbody> 
   <tr> 
-   <td> <span class="uicontrol">같음</span> <br /> </td> 
-   <td> =<br /> </td> 
-   <td> ==<br /> </td> 
-   <td> 첫 번째 값은 두 번째 값과 완전히 같아야 합니다.<br /> </td> 
-   <td> <strong>@lastName = Martin</strong>은 완전히 같은 문자만 사용하여 성이 'Martin'인 프로필을 검색합니다.<br /> </td> 
+   <td> <strong>이름</strong><br /> </td> 
+   <td> <strong>설명</strong><br /> </td> 
+   <td> <strong>구문</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">보다 큼</span> <br /> </td> 
-   <td> &gt;<br /> </td> 
-   <td> &gt;<br /> </td> 
-   <td> 첫 번째 값은 두 번째 값보다 명확히 커야 합니다.<br /> </td> 
-   <td> <strong>@age &gt; 50</strong> 은 '50'보다 나이가 많은 프로필을 검색하므로 '51', '52' 등을 검색합니다.<br /> </td> 
+   <td> <strong>평균</strong><br /> </td> 
+   <td> 숫자 유형 열의 평균 반환<br /> </td> 
+   <td> Avg(&lt;value&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">보다 작음</span> <br /> </td> 
-   <td> &lt;<br /> </td> 
-   <td> &lt;<br /> </td> 
-   <td> 첫 번째 값은 두 번째 값보다 명확히 작아야 합니다.<br /> </td> 
-   <td> <strong>@created &lt; DaysAgo(100)</strong>은 100일 전 데이터베이스에 생성된 모든 프로필을 검색합니다.<br /> </td> 
+   <td> <strong>카운트</strong><br /> </td> 
+   <td> 열의 null이 아닌 값 계산<br /> </td> 
+   <td> Count(&lt;value&gt;)<br /></td>  
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">크거나 같음</span> <br /> </td> 
-   <td> &gt;=<br /> </td> 
-   <td> &gt;=<br /> </td> 
-   <td> 첫 번째 값은 두 번째 값보다 크거나 같아야 합니다.<br /> </td> 
-   <td> <strong>@age &gt;= 30</strong>은 30세 이상의 프로필을 검색합니다.<br /> </td> 
+   <td> <strong>CountAll</strong><br /> </td> 
+   <td> 반환된 값 계산(모든 필드)<br /> </td> 
+   <td> CountAll()<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">작거나 같음</span> <br /> </td> 
-   <td> &lt;=<br /> </td> 
-   <td> &lt;=<br /> </td> 
-   <td> 첫 번째 값은 두 번째 값보다 작거나 같아야 합니다.<br /> </td> 
-   <td> <strong>@age &lt;= 60은</strong> 60세 이하의 프로필을 검색합니다.<br /> </td> 
+   <td> <strong>Countdistinct</strong><br /> </td> 
+   <td> 열의 null이 아닌 개별 값 계산<br /> </td> 
+   <td> Countdistinct(&lt;value&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">다름 </span> <br /> </td> 
-   <td> !=<br /> </td> 
-   <td> !=<br /> </td> 
-   <td> 첫 번째 값은 두 번째 값과 달라야 합니다.<br /> </td> 
-   <td> <strong>@language != English</strong>는 영어를 사용하지 않는 프로필을 검색합니다.<br /> </td> 
+   <td> <strong>최대</strong><br /> </td> 
+   <td> 숫자, 문자열 또는 날짜 유형 열의 최대값 반환<br /> </td> 
+   <td> Max(&lt;value&gt;)<br /></td>  
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">포함</span> <br /> </td> 
-   <td> IN<br /> </td> 
-   <td> N/A<br /> </td> 
-   <td> 첫 번째 값은 두 번째 값을 포함해야 합니다.<br /> </td> 
-   <td> <strong>@domain IN mail</strong>. 여기서 'mail' 값이 있는 모든 도메인 이름이 결과로 반환됩니다. 따라서 'gmail.com' 도메인 이름은 반환된 결과의 일부를 구성합니다.<br /> </td> 
+   <td> <strong>분</strong><br /> </td> 
+   <td> 숫자, 문자열 또는 날짜 유형 열의 최소값 반환<br /> </td> 
+   <td> Min(&lt;value&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">비슷함</span> <br /> </td> 
-   <td> LIKE<br /> </td> 
-   <td> N/A<br /> </td> 
-   <td> <span class="uicontrol">비슷함</span>은 <span class="uicontrol">포함</span> 연산자와 매우 유사합니다. 검색 중인 값에 <span class="uicontrol">%</span> 와일드카드 문자를 삽입할 수 있습니다.<br /> </td> 
-   <td> <strong>@lastName LIKE Mart%n</strong>. 여기서 대체 문자 <strong>%</strong> 는 철자가 틀린 가상의 사례에서 이름 "Martin"을 찾기 위해 "조커" 역할을 합니다.<br /> </td> 
+   <td> <strong>표준 개발</strong><br /> </td> 
+   <td> 숫자, 문자열 또는 날짜 열의 표준 편차 반환<br /> </td> 
+   <td> StdDev(&lt;value&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">비슷하지 않음</span> <br /> </td> 
-   <td> NOT<br /> </td> 
-   <td> N/A<br /> </td> 
-   <td> <span class="uicontrol">비슷함</span>과 유사합니다. 입력한 값을 복구할 수 없습니다. 여기서도 입력한 값은 <span class="uicontrol">%</span> 와일드카드 문자를 포함해야 합니다.<br /> </td> 
-   <td> <strong>@lastName NOT Smi%h</strong>. 여기에서 이름 'Smi%h'(Smith 등)에 해당하는 수신자는 결과로 반환되지 않습니다.<br /> </td> 
+   <td> <strong>합계</strong><br /> </td> 
+   <td> 숫자, 문자열 또는 날짜 유형 열 값의 합계 반환<br /> </td> 
+   <td> Sum(&lt;value&gt;)<br /></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### 날짜
+
+날짜 함수는 날짜 또는 시간 값을 조작하는 데 사용됩니다.
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>이름</strong><br /> </td> 
+   <td> <strong>설명</strong><br /> </td> 
+   <td> <strong>구문</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">비어 있음</span> <br /> </td> 
-   <td> IS NULL<br /> </td> 
-   <td> N/A<br /> </td> 
-   <td> 첫 번째 값은 빈 값에 해당해야 합니다.<br /> </td> 
-   <td> <strong>@mobilePhone IS NULL</strong>은 휴대전화 번호가 제공되지 않은 모든 프로필을 검색합니다.<br /> </td> 
+   <td> <strong>AddDays</strong><br /> </td> 
+   <td> 날짜에 일자 숫자 추가<br /> </td> 
+   <td> AddDays(&lt;날짜&gt;, &lt;숫자&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>AddHours</strong><br /> </td> 
+   <td> 날짜에 시간(시) 숫자 추가<br /> </td> 
+   <td> AddHours(&lt;날짜&gt;, &lt;숫자&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>AddMinutes</strong><br /> </td> 
+   <td> 날짜에 시간(분) 숫자 추가<br /> </td> 
+   <td> AddMinutes(&lt;날짜&gt;, &lt;숫자&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>AddMonths</strong><br /> </td> 
+   <td> 날짜에 개월 숫자 추가<br /> </td> 
+   <td> AddMonths(&lt;날짜&gt;, &lt;숫자&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>AddSeconds</strong><br /> </td> 
+   <td> 날짜에 시간(초) 숫자 추가<br /> </td> 
+   <td> AddSeconds(&lt;날짜&gt;, &lt;숫자&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>AddYears</strong><br /> </td> 
+   <td> 날짜에 연도 숫자 추가<br /> </td> 
+   <td> AddYears(&lt;날짜&gt;, &lt;숫자&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <td> <strong>DateOnly</strong><br /> </td> 
+   <td> 날짜만 반환(00:00 시간 포함)*<br /> </td> 
+   <td> DateOnly(&lt;날짜&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Day</strong><br /> </td> 
+   <td> 날짜의 일자를 나타내는 숫자 반환<br /> </td> 
+   <td> Day(&lt;날짜&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>DayOfYear</strong><br /> </td> 
+   <td> 날짜의 연도를 반환합니다.<br /> </td> 
+   <td> DayOfYear(&lt;날짜&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>DaysAgo</strong><br /> </td> 
+   <td> 현재 날짜에서 n일을 뺀 날짜 반환<br /> </td> 
+   <td> DaysAgo(&lt;숫자&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>DaysAgoInt</strong><br /> </td> 
+   <td> 현재 날짜에서 n일을 뺀 날짜(정수 yymmdd) 반환<br /> </td> 
+   <td> DaysAgoInt(&lt;숫자&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>DaysDiff</strong><br /> </td> 
+   <td> 두 날짜 사이의 일자 수<br /> </td> 
+   <td> DaysDiff(&lt;종료 날짜&gt;, &lt;시작 날짜&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>DaysOld</strong><br /> </td> 
+   <td> 날짜를 일 단위로 반환<br /> </td> 
+   <td> DaysOld(&lt;날짜&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>GetDate</strong><br /> </td> 
+   <td> 서버의 현재 시스템 날짜 반환<br /> </td> 
+   <td> GetDate()<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Hour</strong><br /> </td> 
+   <td> 날짜의 시간 반환<br /> </td> 
+   <td> Hour(&lt;날짜&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>HoursDiff</strong><br /> </td> 
+   <td> 두 날짜 사이의 시간(시) 숫자 반환<br /> </td> 
+   <td> HoursDiff(&lt;종료 날짜&gt;, &lt;시작 날짜&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Minute</strong><br /> </td> 
+   <td> 날짜의 시간(분) 반환<br /> </td> 
+   <td> Minute(&lt;날짜&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>MinutesDiff</strong><br /> </td> 
+   <td> 두 날짜 사이의 시간(분) 숫자 반환<br /> </td> 
+   <td> MinutesDiff(&lt;종료 날짜&gt;, &lt;시작 날짜&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Month</strong><br /> </td> 
+   <td> 날짜의 월을 나타내는 숫자 반환<br /> </td> 
+   <td> Month(&lt;날짜&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>MonthsAgo</strong><br /> </td> 
+   <td> 현재 날짜에서 n개월을 뺀 날짜 반환<br /> </td> 
+   <td> MonthsAgo(&lt;숫자&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>MonthsDiff</strong><br /> </td> 
+   <td> 두 날짜 사이의 개월 숫자 반환<br /> </td> 
+   <td> MonthsDiff(&lt;종료 날짜&gt;, &lt;시작 날짜&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>MonthsOld</strong><br /> </td> 
+   <td> 날짜를 월 단위로 반환<br /> </td> 
+   <td> MonthsOld(&lt;날짜&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Second</strong><br /> </td> 
+   <td> 날짜의 시간(초) 반환<br /> </td> 
+   <td> Second(&lt;날짜&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SecondsDiff</strong><br /> </td> 
+   <td> 두 날짜 사이의 시간(초) 숫자 반환<br /> </td> 
+   <td> SecondsDiff(&lt;종료 날짜&gt;, &lt;시작 날짜&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SubDays</strong><br /> </td> 
+   <td> 날짜에서 일자 숫자 빼기<br /> </td> 
+   <td> SubDays(&lt;날짜&gt;, &lt;숫자&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SubHours</strong><br /> </td> 
+   <td> 날짜에서 시간(시) 숫자 빼기<br /> </td> 
+   <td> SubHours(&lt;날짜&gt;, &lt;숫자&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SubMinutes</strong><br /> </td> 
+   <td> 날짜에서 시간(분) 숫자 빼기<br /> </td> 
+   <td> SubMinutes(&lt;날짜&gt;, &lt;숫자&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SubMonths</strong><br /> </td> 
+   <td> 날짜에서 개월 숫자 빼기<br /> </td> 
+   <td> SubMonths(&lt;날짜&gt;, &lt;숫자&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SubSeconds</strong><br /> </td> 
+   <td> 날짜에서 시간(초) 숫자 빼기<br /> </td> 
+   <td> SubSeconds(&lt;날짜&gt;, &lt;숫자&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SubYears</strong><br /> </td> 
+   <td> 날짜에서 연도 숫자 빼기<br /> </td> 
+   <td> SubYears(&lt;날짜&gt;, &lt;숫자&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToDate</strong><br /> </td> 
+   <td> 날짜 + 시간을 날짜로 변환<br /> </td> 
+   <td> ToDate(&lt;날짜 + 시간&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToDateTime</strong><br /> </td> 
+   <td> 문자열을 날짜 + 시간으로 변환<br /> </td> 
+   <td> ToDateTime(&lt;문자열&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>TruncDate</strong><br /> </td> 
+   <td> 날짜+시간을 가장 가까운 시간(초)으로 반올림<br /> </td> 
+   <td> TruncDate(@lastModified, &lt;시간(초) 숫자&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>TruncDateTZ</strong><br /> </td> 
+   <td> 날짜 + 시간을 초 단위의 특정 정밀도로 반올림<br /> </td> 
+   <td> TruncDateTZ(&lt;날짜&gt;, &lt;시간(초) 숫자&gt;, &lt;시간대&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>TruncQuarter</strong><br /> </td> 
+   <td> 날짜를 분기로 반올림<br /> </td> 
+   <td> TruncQuarter(&lt;날짜&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>TruncTime</strong><br /> </td> 
+   <td> 시간 부분을 가장 가까운 시간(초)으로 반올림<br /> </td> 
+   <td> TruncTime(e)&lt;date&gt;, &lt;number of="" seconds=""&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>TruncWeek</strong><br /> </td> 
+   <td> 날짜를 요일로 반올림<br /> </td> 
+   <td> TruncWeek(&lt;날짜&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>TruncYear</strong><br /> </td> 
+   <td> 날짜 + 시간을 연도의 1월 1일로 반올림<br /> </td> 
+   <td> TruncYear(&lt;날짜&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>TruncWeek</strong><br /> </td> 
+   <td> 날짜의 요일을 나타내는 숫자 반환<br /> </td> 
+   <td> WeekDay(&lt;날짜&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Year</strong><br /> </td> 
+   <td> 날짜의 연도를 나타내는 숫자 반환<br /> </td> 
+   <td> Year(&lt;날짜&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>YearAnd Month</strong><br /> </td> 
+   <td> 날짜의 연도 및 월을 나타내는 숫자 반환<br /> </td> 
+   <td> YearAndMonth(&lt;날짜&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>YearsDiff</strong><br /> </td> 
+   <td> 두 날짜 사이의 연도 숫자 반환<br /> </td> 
+   <td> YearsDiff(&lt;종료 날짜&gt;, &lt;시작 날짜&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>YearsOld</strong><br /> </td> 
+   <td> 날짜를 연 단위로 반환<br /> </td> 
+   <td> YearsOld(&lt;날짜&gt;)<br /> </td>  
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>다음 사항에 주의하십시오. **Dateonly** 함수는 연산자의 시간대가 아니라 서버의 시간대를 고려합니다.
+
+### 지오마케팅
+
+지오마케팅 함수는 지리적 값을 조작하는 데 사용됩니다.
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>이름</strong><br /> </td> 
+   <td> <strong>설명</strong><br /> </td> 
+   <td> <strong>구문</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Distance</strong><br /> </td> 
+   <td> 경도 및 위도로 정의된 두 지점 사이의 거리를 도 단위로 반환합니다.<br /> </td> 
+   <td> Distance(&lt;경도 A&gt;, &lt;위도 A&gt;, &lt;경도 B&gt;, &lt;위도 B&gt;)<br /> </td>  
+  </tr> 
+ </tbody> 
+</table>
+
+### 숫자
+
+숫자 함수는 텍스트를 숫자로 변환하는 데 사용됩니다.
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>이름</strong><br /> </td> 
+   <td> <strong>설명</strong><br /> </td> 
+   <td> <strong>구문</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Abs</strong><br /> </td> 
+   <td> 숫자의 절대값 반환<br /> </td> 
+   <td> Abs(&lt;숫자&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Ceil</strong><br /> </td> 
+   <td> 숫자보다 크거나 같은 최소 정수 반환<br /> </td> 
+   <td> Ceil(&lt;숫자&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Floor</strong><br /> </td> 
+   <td> 숫자보다 크거나 같은 최대 정수 반환<br /> </td> 
+   <td> Floor(&lt;숫자&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Greatest</strong><br /> </td> 
+   <td> 두 숫자 중 큰 숫자 반환<br /> </td> 
+   <td> Greatest(&lt;숫자 1&gt;, &lt;숫자 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Least</strong><br /> </td> 
+   <td> 두 숫자 중 작은 숫자 반환<br /> </td> 
+   <td> Least(&lt;숫자 1&gt;, &lt;숫자 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Mod</strong><br /> </td> 
+   <td> n1에서 n2까지 정수 분기의 나머지 반환<br /> </td> 
+   <td> Mod(&lt;숫자 1&gt;, &lt;숫자 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Percent</strong><br /> </td> 
+   <td> 백분율로 표현된 두 수의 비율 반환<br /> </td> 
+   <td> Percent(&lt;숫자 1&gt;, &lt;숫자 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Random</strong><br /> </td> 
+   <td> 임의 값 반환<br /> </td> 
+   <td> Random()<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Round</strong><br /> </td> 
+   <td> 숫자를 n개의 소수로 반올림<br /> </td> 
+   <td> Round(&lt;숫자&gt;, &lt;소수 자리수&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Sign</strong><br /> </td> 
+   <td> 숫자 기호 반환<br /> </td> 
+   <td> Sign(&lt;숫자&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToDouble</strong><br /> </td> 
+   <td> 정수를 실수로 변환<br /> </td> 
+   <td> ToDouble(&lt;숫자&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToInt64</strong><br /> </td> 
+   <td> 실수를 64비트 정수로 변환<br /> </td> 
+   <td> ToInt64(&lt;숫자&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToInteger</strong><br /> </td> 
+   <td> 실수를 정수로 변환<br /> </td> 
+   <td> ToInteger(&lt;숫자&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Trunc</strong><br /> </td> 
+   <td> n1에서 n2까지의 소수점 자르기<br /> </td> 
+   <td> Trunc(&lt;n1&gt;, &lt;n2&gt;)<br /> </td>  
+  </tr> 
+ </tbody> 
+</table>
+
+### 기타
+
+이 표에는 사용 가능한 나머지 함수가 포함되어 있습니다.
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>이름</strong><br /> </td> 
+   <td> <strong>설명</strong><br /> </td> 
+   <td> <strong>구문</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Case</strong><br /> </td> 
+   <td> 조건이 true이면 값 1 반환 그렇지 않으면 값 2를 반환합니다.<br /> </td> 
+   <td> Case(When(&lt;조건&gt;, &lt;값 1&gt;), Else(&lt;값 2&gt;))<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>ClearBit</strong><br /> </td> 
+   <td> 값에서 플래그 삭제<br /> </td> 
+   <td> ClearBit(&lt;식별자&gt;, &lt;플래그&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Coalesce</strong><br /> </td> 
+   <td> 값 1이 0이거나 null이면 값 2 반환, 그렇지 않으면 값 1 반환<br /> </td> 
+   <td> Coalesce(&lt;값 1&gt;, &lt;값 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Decode</strong><br /> </td> 
+   <td> 값 1 = 값 2이면 값 3 반환 가 아닌 경우 값 4를 반환합니다.<br /> </td> 
+   <td> Decode(&lt;값 1&gt;, &lt;값 2&gt;, &lt;값 3&gt;, &lt;값 4&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Else</strong><br /> </td> 
+   <td> 값 1 반환(case 함수의 매개 변수로만 사용할 수 있음)<br /> </td> 
+   <td> Else(&lt;value&gt;, &lt;value&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>GetEmailDomain</strong><br /> </td> 
+   <td> 이메일 주소에서 도메인 추출<br /> </td> 
+   <td> GetEmailDomain(&lt;값&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>GetMirrorURL</strong><br /> </td> 
+   <td> 미러 페이지 서버의 URL 검색<br /> </td> 
+   <td> GetMirrorURL(&lt;값&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Iif</strong><br /> </td> 
+   <td> 표현식이 true인 경우 값 1 반환 그렇지 않으면 값 2 반환<br /> </td> 
+   <td> Iif(&lt;조건&gt;, &lt;값 1&gt;, &lt;값 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>IsBitSet</strong><br /> </td> 
+   <td> 플래그가 값에 있는지 표시<br /> </td> 
+   <td> IsBitSet(&lt;식별자&gt;, &lt;플래그&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>IsEmptyString</strong><br /> </td> 
+   <td> 문자열 1이 비어 있으면 값 2 반환, 그렇지 않으면 값 3 반환<br /> </td> 
+   <td> IsEmptyString(&lt;value&gt;, &lt;value&gt;, &lt;value&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>NoNull</strong><br /> </td> 
+   <td> 인수가 NULL이면 빈 문자열 반환<br /> </td> 
+   <td> NoNull(&lt;값&gt;)<br /> </td>   
+  </tr> 
+  <tr> 
+   <td> <strong>RowId</strong><br /> </td> 
+   <td> 행 번호 반환<br /> </td> 
+   <td> RowId<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>SetBit</strong><br /> </td> 
+   <td> 값에 플래그 강제 적용<br /> </td> 
+   <td> SetBit(&lt;식별자&gt;, &lt;플래그&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToBoolean</strong><br /> </td> 
+   <td> 숫자를 부울로 변환<br /> </td> 
+   <td> ToBoolean(&lt;숫자&gt;)<br /> </td>   
+  </tr> 
+  <tr> 
+   <td> <strong>When</strong><br /> </td> 
+   <td> 표현식이 true인 경우 값 1 반환 그렇지 않으면 값 2 를 반환합니다(case 함수의 매개 변수로만 사용할 수 있음).<br /> </td> 
+   <td> When(&lt;조건&gt;, &lt;값 1&gt;)<br /> </td>  
+  </tr> 
+ </tbody> 
+</table>
+
+### 문자열
+
+문자열 함수는 문자열 집합을 조작하는 데 사용됩니다.
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>이름</strong><br /> </td> 
+   <td> <strong>설명</strong><br /> </td> 
+   <td> <strong>구문</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>AllNonNull2</strong><br /> </td> 
+   <td> 모든 매개 변수가 null이 아니고 비어 있지 않은지 표시<br /> </td> 
+   <td> AllNonNull2(&lt;string&gt;, &lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>AllNonNull3</strong><br /> </td> 
+   <td> 모든 매개 변수가 null이 아니고 비어 있지 않은지 표시<br /> </td> 
+   <td> AllNonNull3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Ascii</strong><br /> </td> 
+   <td> 문자열에서 첫 번째 문자의 ASCII 값을 반환합니다.<br /> </td> 
+   <td> Ascii(&lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Char</strong><br /> </td> 
+   <td> 'n' ASCII 코드에 해당하는 문자 반환<br /> </td> 
+   <td> Char(&lt;number&gt;)<br /></td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Charindex</strong><br /> </td> 
+   <td> 문자열 1에서 문자열 2의 위치를 반환합니다.<br /> </td> 
+   <td> Charindex(&lt;string&gt;, &lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>GetLine</strong><br /> </td> 
+   <td> 문자열의 n번째(1에서 n까지) 행 반환<br /> </td> 
+   <td> GetLine(&lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>IfEquals</strong><br /> </td> 
+   <td> 처음 두 매개 변수가 동일한 경우 세 번째 매개 변수를 반환합니다. 그렇지 않으면 마지막 매개 변수를 반환합니다.<br /> </td> 
+   <td> IfEquals(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>IsMemoNull</strong><br /> </td> 
+   <td> 매개 변수로 전달된 메모가 null인지 표시<br /> </td> 
+   <td> IsMemoNull(&lt;memo&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>JuxtWords</strong><br /> </td> 
+   <td> 매개 변수로 전달된 문자열을 연결합니다. 필요한 경우 문자열 사이에 공백을 추가합니다.<br /> </td> 
+   <td> JuxtWords(&lt;string&gt;, &lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>JuxtWords3</strong><br /> </td> 
+   <td> 매개 변수로 전달된 문자열을 연결합니다. 필요한 경우 문자열 사이에 공백을 추가합니다.<br /> </td> 
+   <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td>  
+  </tr> 
+  <tr> 
+   <td> <strong>LPad</strong><br /> </td> 
+   <td> 왼쪽에서 완성된 문자열 반환<br /> </td> 
+   <td> LPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Left</strong><br /> </td> 
+   <td> 문자열의 처음 n자 반환<br /> </td> 
+   <td> Left(&lt;string&gt;, &lt;number&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Length</strong><br /> </td> 
+   <td> 문자열의 길이 반환<br /> </td> 
+   <td> Length(&lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Lower</strong><br /> </td> 
+   <td> 문자열을 소문자로 반환<br /> </td> 
+   <td> Lower(&lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Ltrim</strong><br /> </td> 
+   <td> 문자열 왼쪽의 공백 제거<br /> </td> 
+   <td> Ltrim(&lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Md5Digest</strong><br /> </td> 
+   <td> 문자열의 MD5 키를 16진수로 반환<br /> </td> 
+   <td> Md5Digest(&lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>MemoContains</strong><br /> </td> 
+   <td> 메모에 매개 변수로 전달된 문자열이 포함되어 있는지 지정<br /> </td> 
+   <td> MemoContains(&lt;memo&gt;, &lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>RPad</strong><br /> </td> 
+   <td> 오른쪽에 완성된 문자열 반환<br /> </td> 
+   <td> RPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Right</strong><br /> </td> 
+   <td> 문자열의 마지막 n자 반환<br /> </td> 
+   <td> Right(&lt;문자열&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Rtrim</strong><br /> </td> 
+   <td> 문자열 오른쪽의 공백 제거<br /> </td> 
+   <td> Rtrim(&lt;문자열&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Smart</strong><br /> </td> 
+   <td> 각 단어의 첫 번째 문자가 대문자로 표시된 문자열 반환<br /> </td> 
+   <td> Smart(&lt;문자열&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Substring</strong><br /> </td> 
+   <td> 문자열의 문자 n1에서 시작하여 길이 n2의 하위 문자열 추출<br /> </td> 
+   <td> Substring(&lt;문자열&gt;, &lt;오프셋&gt;, &lt;길이&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToString</strong><br /> </td> 
+   <td> 숫자를 문자열로 변환<br /> </td> 
+   <td> ToString(&lt;number&gt;, &lt;number&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Upper</strong><br /> </td> 
+   <td> 문자열을 대문자로 반환<br /> </td> 
+   <td> Upper(&lt;문자열&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>VirtualLink</strong><br /> </td> 
+   <td> 다른 두 매개 변수가 동일한 경우 매개 변수로 전달된 링크의 외부 키 반환<br /> </td> 
+   <td> VirtualLink(&lt;숫자&gt;, &lt;&lt;숫자&gt;, &lt;숫자&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>VirtualLinkStr</strong><br /> </td> 
+   <td> 다른 두 매개 변수가 동일한 경우 매개 변수로 전달된 링크의 외부(텍스트) 키 반환<br /> </td> 
+   <td> VirtualLinkStr(&lt;문자열&gt;, &lt;숫자&gt;, &lt;숫자&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>dataLength</strong><br /> </td> 
+   <td> 문자열 크기 반환<br /> </td> 
+   <td> dataLength(&lt;string&gt;)<br /> </td>  
+  </tr> 
+ </tbody> 
+</table>
+
+### 창
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>이름</strong><br /> </td> 
+   <td> <strong>설명</strong><br /> </td> 
+   <td> <strong>구문</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Desc</strong><br /> </td> 
+   <td> 내림차순 정렬 적용<br /> </td> 
+   <td> Desc(&lt;값 1&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>OrderBy</strong><br /> </td> 
+   <td> 파티션 내의 결과 정렬<br /> </td> 
+   <td> OrderBy(&lt;값 1&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>PartitionBy</strong><br /> </td> 
+   <td> 테이블에서 쿼리 결과 분할<br /> </td> 
+   <td> PartitionBy(&lt;값 1&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>RowNum</strong><br /> </td> 
+   <td> 테이블 파티션 및 정렬 시퀀스에 따라 행 번호를 생성합니다.<br /> </td> 
+   <td> RowNum(PartitionBy(&lt;값 1&gt;), OrderBy(&lt;값 1&gt;))<br /> </td> 
   </tr> 
  </tbody> 
 </table>

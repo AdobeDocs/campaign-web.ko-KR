@@ -8,7 +8,7 @@ hide: true
 source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -127,7 +127,7 @@ ht-degree: 95%
       + [분할](workflows/activities/split.md)
       + [대기](workflows/activities/wait.md)
 + 데이터베이스 쿼리 {#query-database}
-   + [쿼리 모델러를 사용하여 작업](query/query-modeler-overview.md)
+   + [쿼리 모델러로 작업](query/query-modeler-overview.md)
    + [첫 번째 쿼리 작성](query/build-query.md)
    + [표현식 편집](query/expression-editor.md)
    + [쿼리 샘플](query/query-samples.md)

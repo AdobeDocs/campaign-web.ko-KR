@@ -134,8 +134,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_predefinedfilter"
->title="미리 정의된 필터"
->abstract="미리 정의된 필터"
+>title="사전 정의된 필터"
+>abstract="사전 정의된 필터"
 
 사전 정의된 필터를 사용하여 쿼리를 필터링하려면 다음 단계를 수행합니다.
 

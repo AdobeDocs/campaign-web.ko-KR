@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -205,8 +205,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
->title="받는 사람이 더 이상 연락하지 않음"
->abstract="받는 사람이 더 이상 연락하지 않음"
+>title="수신자 더 이상 연락하지 않음"
+>abstract="수신자 더 이상 연락하지 않음"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_othersfields"

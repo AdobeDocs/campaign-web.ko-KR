@@ -4,14 +4,20 @@ title: 콘텐츠 지원 시작하기
 description: Content Assistant 시작
 badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: a34454c3c160f6a962fe064f35c26580bb7a4d94
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '475'
 ht-degree: 34%
 
 ---
 
 # 콘텐츠 지원 시작하기 {#generative-gs}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_rn5"
+>title="이메일 콘텐츠용 Gen AI"
+>abstract="Gen AI 기술은 고급 알고리즘을 활용하여 매우 매력적이며 개인화된 콘텐츠를 생성합니다. Gen AI의 지능형 콘텐츠 생성을 통해 열람율, 클릭스루 비율 및 전환율을 높여 보십시오. 이메일 콘텐츠용 Gen AI를 통해 경쟁에서 앞서 나가고 이메일 마케팅을 개선하십시오."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
@@ -33,7 +39,7 @@ ht-degree: 34%
 
 >[!NOTE]
 >
->이 기능은 Alpha 버전에서 사용할 수 있으며 사전 통지 없이 변경될 수 있습니다. 10월 초에 활성화될 예정입니다.
+>이 기능은 Alpha 버전에서 사용할 수 있으며 사전 공지 없이 변경될 수 있습니다. 10월 초에 활성화될 예정입니다.
 
 ## 보호 기능 및 제한 사항 {#generative-guardrails}
 
@@ -60,7 +66,7 @@ Campaign Content Assistant에는 다음 제한 사항이 적용됩니다.
 <img alt="텍스트 생성" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-content.md"><strong>콘텐츠 지원을 사용하여 텍스트 생성</strong></a>
+<a href="generative-content.md"><strong>콘텐츠 도우미를 사용하여 텍스트 생성</strong></a>
 </div>
 <p>
 </td>
@@ -68,7 +74,7 @@ Campaign Content Assistant에는 다음 제한 사항이 적용됩니다.
 <a href="generative-image.md">
 <img alt="이미지 생성" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-image.md"><strong>콘텐츠 지원을 사용하여 이미지 생성</strong>
+<div><a href="generative-image.md"><strong>콘텐츠 도우미를 사용하여 이미지 생성</strong>
 </div>
 <p>
 </td>
@@ -77,7 +83,7 @@ Campaign Content Assistant에는 다음 제한 사항이 적용됩니다.
 <img alt="이메일 생성" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-email.md"><strong>콘텐츠 지원을 사용하여 이메일 생성</strong></a>
+<a href="generative-email.md"><strong>콘텐츠 도우미를 사용하여 이메일 생성</strong></a>
 </div>
 <p></td>
 </tr></table>

@@ -3,14 +3,20 @@ audience: end-user
 title: 이메일 콘텐츠 편집
 description: Campaign Web UI의 이메일 디자이너를 사용하여 콘텐츠 작성을 시작하는 방법에 대해 알아봅니다.
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '379'
-ht-degree: 100%
+exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+workflow-type: tm+mt
+source-wordcount: '421'
+ht-degree: 90%
 
 ---
 
 # 이메일 디자이너 시작 {#get-started-email-designer}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_rn3"
+>title="새 이메일 디자이너"
+>abstract="Campaign 이메일 디자이너를 사용하면 직관적인 드래그 앤 드롭 인터페이스를 통해 개인화된 매력적인 이메일을 만들 수 있습니다. 처음부터 빈 화면으로 시작하거나, 기존 콘텐츠를 가져오거나, 기존 템플릿을 활용하는 경우 모든 이메일에 대한 모든 콘텐츠를 디자인하고 구체화할 수 있습니다."
 
 Adobe Campaign에서 이메일을 만든 후에는 해당 콘텐츠를 정의해야 합니다.
 
@@ -45,4 +51,3 @@ The Email Designer allows you to create email content and email content template
 * 기본 제공 또는 사용자 정의 템플릿에서 **기존 콘텐츠를 선택합니다**. [이 섹션](email-sample-templates.md)에서 이메일 템플릿으로 작업하는 방법에 대해 알아봅니다.
 
   ![](assets/email_designer_create_options.png)
-

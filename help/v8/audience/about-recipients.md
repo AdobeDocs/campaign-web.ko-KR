@@ -3,10 +3,10 @@ title: 수신자 및 대상자 작업
 description: 수신자 Campaign 웹으로 작업하는 방법 알아보기
 badge: label="Beta"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: b06debf7fb36984ccd957125ad5597b5720d657a
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 19%
+source-wordcount: '1049'
+ht-degree: 17%
 
 ---
 
@@ -15,6 +15,12 @@ ht-degree: 19%
 Adobe Campaign에서 게재의 대상 모집단은 대상자입니다. 대상자는 유사한 행동 및/또는 특성을 공유하는 사람들의 집합입니다. 이 사람 컬렉션은 생성, 선택 또는 로드될 수 있습니다. [아래에 자세히 설명됨](#audiences). 대부분의 경우 대상자는 프로필로 구성되며, 프로필은 [수신자](#recipients) Adobe Campaign. 설명된 대로 차원을 변경하여 다른 대상 매핑과 작업할 수도 있습니다 [이 섹션에서](#targeting-dimensions).
 
 ## 수신자이란? {#recipients}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_rn4"
+>title="수신자"
+>abstract="새 수신자를 만들고 강력한 보고서와 도구를 통해 모니터링합니다. 수신자의 프로필에 액세스하고 필터링 옵션을 사용하여 수신자 목록을 검색하고 특성을 편집하고 업데이트합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -59,7 +65,7 @@ Adobe Campaign에서 게재의 대상 모집단은 대상자입니다. 대상자
 
 * [새 대상 만들기](create-audience.md) 다음에서 **[!UICONTROL 대상]** 메뉴,
 * [기존 대상자 선택](add-audience.md) 클라이언트 콘솔에 목록으로 만들어지거나 Adobe Experience Platform에서 가져옴
-* [필터링 기준을 정의 및 결합하여 규칙 빌더를 통해 새로운 대상자를 빌드합니다,](segment-builder.md)
+* [새 대상 작성](segment-builder.md) 필터링 기준을 정의하고 결합하여 규칙 빌더로
 * [외부 파일의 대상자 사용](file-audience.md). 이 옵션은 독립형 이메일 게재에만 사용할 수 있으며 캠페인 게재에는 사용할 수 없습니다.
 
 대상자를 타깃팅할 때 다음을 정의할 수도 있습니다. **컨트롤 그룹** 대상자의 일부에 메시지를 보내지 않도록 하고 캠페인의 영향을 측정합니다. [컨트롤 그룹을 설정하는 방법 알아보기](control-group.md)

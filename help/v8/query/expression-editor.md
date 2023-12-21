@@ -2,10 +2,10 @@
 audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
-source-git-commit: 7f491df76460e982c144c7ea324c9afa14901259
+source-git-commit: fdc86a99ce629a0fe2df1b5287a828b9bed3f1d5
 workflow-type: tm+mt
-source-wordcount: '1797'
-ht-degree: 65%
+source-wordcount: '1846'
+ht-degree: 62%
 
 ---
 
@@ -127,6 +127,11 @@ ht-degree: 65%
    <td> AddYears(&lt;날짜&gt;, &lt;숫자&gt;)<br /> </td>  
   </tr>
   <tr> 
+   <td> <strong>변환 NTZ</strong><br /> </td> 
+   <td> 타임스탬프 NTZ(timestamp without timezone)를 정의된 세션 TZ가 적용된 TZ(timestamp with timezone)로 변환<br/> </td> 
+   <td> ConvertNTZ(&lt;date time=""&gt;)<br /> </td>  
+  </tr>
+  <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
    <td> 날짜만 반환(00:00 시간 포함)*<br /> </td> 
    <td> DateOnly(&lt;날짜&gt;)<br /> </td>  
@@ -205,6 +210,11 @@ ht-degree: 65%
    <td> <strong>MonthsOld</strong><br /> </td> 
    <td> 날짜를 월 단위로 반환<br /> </td> 
    <td> MonthsOld(&lt;날짜&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Oldest</strong><br /> </td> 
+   <td> 범위에서 가장 오래된 날짜 반환<br /> </td> 
+   <td> 가장 오래된 항목 (&lt;date date=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Second</strong><br /> </td> 
@@ -287,8 +297,8 @@ ht-degree: 65%
    <td> TruncYear(&lt;날짜&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>TruncWeek</strong><br /> </td> 
-   <td> 날짜의 요일을 나타내는 숫자 반환<br /> </td> 
+   <td> <strong>WeekDay</strong><br /> </td> 
+   <td> 날짜의 요일을 나타내는 숫자 반환(0=Monday, 6=Sunday)<br /> </td> 
    <td> WeekDay(&lt;날짜&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -300,6 +310,11 @@ ht-degree: 65%
    <td> <strong>YearAnd Month</strong><br /> </td> 
    <td> 날짜의 연도 및 월을 나타내는 숫자 반환<br /> </td> 
    <td> YearAndMonth(&lt;날짜&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <td> <strong>YearsAgo</strong><br /> </td> 
+   <td> 지정된 두 날짜 사이의 연도 숫자 반환<br /> </td> 
+   <td> YearsAgo(&lt;end date=""&gt;, &lt;start date=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 

@@ -2,7 +2,7 @@
 audience: end-user
 title: 쿼리 모델러로 작업
 description: Adobe Campaign 웹 쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다.
-source-git-commit: c89760f342c270a9bb775db1c0b5ba2e92fd64f7
+source-git-commit: 3ee80257ded04bce0333396916df71ff296f3eca
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 16%
@@ -23,52 +23,52 @@ Adobe Campaign Web에는 다양한 기준에 따라 특정 대상을 선택하�
 
 쿼리 모델러는 데이터를 필터링할 규칙을 정의해야 하는 모든 컨텍스트에서 사용할 수 있습니다.
 
-* **대상자 정의**: 메시지 또는 워크플로우에서 타겟팅할 모집단을 지정하고 필요에 따라 새로운 대상자를 손쉽게 만들 수 있습니다.
+**대상자 정의**: 메시지 또는 워크플로우에서 타겟팅할 모집단을 지정하고 필요에 따라 새로운 대상자를 손쉽게 만들 수 있습니다. <!--(LINK TBD)-->
 
-  +++예
++++예
 
-  ![](assets/access-audience.png)
-
-+++
-
-* **워크플로우 활동 사용자 지정**: 분할 및 조정과 같은 워크플로우 활동 내에 규칙을 적용하여 특정 요구 사항에 맞게 조정합니다.
-
-  +++예
-
-  ![](assets/access-workflow.png)
+![](assets/access-audience.png)
 
 +++
 
-<!--* **Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
+**워크플로우 활동 사용자 지정**: 특정 요구 사항에 맞게 분할 및 조정과 같은 워크플로우 활동 내에 규칙을 적용합니다. <!--(LINK TBD)-->
 
-    +++Example
++++예
 
-    ![](assets/access-audience.png)
+![](assets/access-workflow.png)
 
-    +++
++++
+
+<!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
+
++++Example
+
+![](assets/access-audience.png)
+
+ +++
 -->
 
-* **사전 정의된 필터**: 데이터 목록을 사용하거나 게재 대상을 구성하는 경우와 상관없이 다양한 필터링 작업 중에 바로 가기 역할을 하는 사전 정의된 필터를 만듭니다.
+**사전 정의된 필터**: 데이터 목록을 사용하거나 게재 대상을 구성하는 경우와 상관없이 다양한 필터링 작업 중에 바로 가기 역할을 하는 사전 정의된 필터를 만듭니다. <!--(LINK TBD)-->
 
-  +++예
++++예
 
-  ![](assets/access-predefined-filter.png)
-
-+++
-
-* **보고서 데이터 필터링**: 보고서에 표시되는 데이터를 필터링하는 규칙을 추가합니다.
-
-  +++예
-
-  ![](assets/access-reports.png)
+![](assets/access-predefined-filter.png)
 
 +++
 
-* **목록 사용자 지정**: 사용자 지정 규칙을 만들어 수신자, 게재 목록 등과 같은 목록에 표시되는 데이터를 필터링합니다.
+**보고서 데이터 필터링**: 보고서에 표시되는 데이터를 필터링하는 규칙을 추가합니다. <!--(LINK TBD)-->
 
-  +++예
++++예
 
-  ![](assets/access-lists.png)
+![](assets/access-reports.png)
+
++++
+
+**목록 사용자 지정**: 사용자 지정 규칙을 만들어 수신자, 게재 목록 등과 같은 목록에 표시되는 데이터를 필터링합니다. <!--(LINK TBD)-->
+
++++예
+
+![](assets/access-lists.png)
 
 +++
 

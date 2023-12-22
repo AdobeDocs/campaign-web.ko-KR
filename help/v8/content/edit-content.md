@@ -4,10 +4,10 @@ title: 이메일 콘텐츠 편집
 description: Campaign Web UI에서 이메일 콘텐츠를 편집하는 방법 알아보기
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 50%
+source-wordcount: '624'
+ht-degree: 47%
 
 ---
 
@@ -35,6 +35,7 @@ ht-degree: 50%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="링크 추가 및 메시지 추적"
 
 이메일 **[!UICONTROL 콘텐츠 편집]** 화면에서 다음을 수행할 수 있습니다.
+
 * 보낸 사람의 주소 및 제목란과 같은 메시지의 기본 요소를 정의합니다.
 * 첨부 추가 또는 오퍼 설정과 같은 추가 작업 수행
 * 액세스 [이메일 디자이너](get-started-email-designer.md#start-authoring) 이메일의 적절한 콘텐츠 작성을 시작하려면
@@ -83,11 +84,11 @@ ht-degree: 50%
 
    <!--limitation on size + number of files?-->
 
-1. **[!UICONTROL 오퍼 설정]** 버튼으로 오퍼를 선택하여 이메일로 오퍼를 전송합니다.
+1. 이메일과 함께 오퍼를 보내려면 **[!UICONTROL 오퍼 설정]** 단추를 클릭합니다.
 
    그런 다음 개인화 필드를 사용하여 선택한 오퍼를 이메일에 삽입할 수 있습니다. [오퍼 전송 방법 알아보기](offers.md)
 
-1. 다음을 클릭합니다. **[!UICONTROL 이메일 본문 편집]** 단추를 사용하여 전자 메일 콘텐츠 구조 및 디자인 [이메일 디자이너](#start-authoring). 이메일 콘텐츠를 디자인하는 방법에 대한 추가 정보는 다음 섹션에서 확인할 수 있습니다.
+1. 다음을 클릭합니다. **[!UICONTROL 이메일 본문 편집]** 단추를 사용하여 전자 메일 콘텐츠 구조 및 디자인 [이메일 디자이너](get-started-email-designer.md#start-authoring). 이메일 콘텐츠를 디자인하는 방법에 대한 추가 정보는 다음 섹션에서 확인할 수 있습니다.
 
    * [처음부터 이메일 작성](create-email-content.md)
    * [콘텐츠 스타일 지정](get-started-email-style.md)

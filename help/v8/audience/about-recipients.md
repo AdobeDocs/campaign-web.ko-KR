@@ -3,9 +3,9 @@ title: 수신자 및 대상자 작업
 description: 수신자 Campaign 웹으로 작업하는 방법 알아보기
 badge: label="Beta"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
+source-git-commit: 30786dd96dbe74c12d9af19d1c1b46b67e3d909d
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1060'
 ht-degree: 17%
 
 ---
@@ -19,8 +19,8 @@ Adobe Campaign에서 게재의 대상 모집단은 대상자입니다. 대상자
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
->title="수신자"
->abstract="새 수신자를 만들고 강력한 보고서와 도구를 통해 모니터링합니다. 수신자의 프로필에 액세스하고 필터링 옵션을 사용하여 수신자 목록을 검색하고 특성을 편집하고 업데이트합니다."
+>title="수신자의 360 보기"
+>abstract="새 수신자를 만들고 강력한 보고서와 도구를 통해 모니터링합니다. 수신자의 속성, 상호 작용 및 로그에 액세스합니다. 필터링 옵션을 사용하여 수신자 목록을 검색하고 프로필을 편집하고 업데이트합니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="릴리스 정보 참조"
 
 

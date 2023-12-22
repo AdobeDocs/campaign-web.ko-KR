@@ -7,7 +7,7 @@ exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 33%
+ht-degree: 45%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
 >title="SMS 대상자 정의"
->abstract="다음을 클릭하여 새 대상을 만들거나 기존 대상을 선택할 수 있습니다. **대상자 선택** 단추를 클릭합니다. 필요한 경우 컨트롤 그룹을 추가하여 게재의 영향을 측정합니다."
+>abstract="**대상자 선택** 버튼을 클릭하여 새 대상자를 만들거나 기존 대상자를 선택할 수 있습니다. 필요한 경우 컨트롤 그룹을 추가하여 게재의 영향을 측정할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="컨트롤 그룹 설정"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
 >title="SMS 템플릿 선택"
->abstract="미리 정의된 템플릿을 선택하여 SMS 게재를 시작합니다. 게재 템플릿을 사용하면 캠페인 및 게재 전반에서 사용자 지정 콘텐츠 및 설정을 쉽게 재사용할 수 있습니다."
+>abstract="SMS 게재를 시작하려면 미리 정의된 템플릿을 선택합니다. 게재 템플릿을 사용하면 캠페인과 게재 전반에 걸쳐 사용자 정의 콘텐츠와 설정을 쉽게 재사용할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="게재 템플릿 사용"
 
 

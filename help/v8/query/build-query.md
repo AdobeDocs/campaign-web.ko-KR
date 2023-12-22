@@ -5,7 +5,7 @@ description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌�
 source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
 source-wordcount: '1462'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 3%
 * **대상**: 기존 대상자를 사용하여 쿼리를 필터링합니다.
 * **미리 정의된 필터**: 기존의 사전 정의된 필터를 사용하여 쿼리를 필터링합니다.
 
-### 사용자 지정 조건 구성
+### 사용자 정의 상태 구성
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_customcondition"
@@ -147,7 +147,7 @@ ht-degree: 3%
 
    ![](assets/query-predefined-filter.png)
 
-## 필터링 구성 요소와 연산자 결합 {#operators}
+## 필터링 구성 요소를 연산자와 결합 {#operators}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_group"
@@ -170,7 +170,7 @@ ht-degree: 3%
 
 ![](assets/query-operator-change.png)
 
-## 쿼리 확인 및 유효성 검사
+## 쿼리 확인 및 검증
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_ruleproperties"

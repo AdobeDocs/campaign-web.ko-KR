@@ -4,9 +4,9 @@ title: 대상자 만들기
 description: Adobe Campaign 웹에서 대상자를 만드는 방법을 알아봅니다
 badge: label="Beta"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '616'
 ht-degree: 10%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 10%
 >id="acw_homepage_rn1"
 >title="대상자 구성"
 >abstract="시각적 워크플로우 캔버스에 새 대상을 만듭니다. 처음부터 시작하여 간단한 대상을 만드는 것을 넘어 워크플로우 활동을 활용하여 대상을 세분화할 수도 있습니다. 여러 대상을 단일 대상으로 결합하거나, 외부 속성으로 대상을 보강하거나, 선택한 규칙에 따라 여러 대상으로 나눕니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="릴리스 정보 참조"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"

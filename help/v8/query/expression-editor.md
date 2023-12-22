@@ -2,10 +2,10 @@
 audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
-source-git-commit: fdc86a99ce629a0fe2df1b5287a828b9bed3f1d5
+source-git-commit: c3b9ab8cd9b234695f4aa730ca6cbd5d5bc4b186
 workflow-type: tm+mt
-source-wordcount: '1846'
-ht-degree: 62%
+source-wordcount: '1917'
+ht-degree: 60%
 
 ---
 
@@ -313,8 +313,8 @@ ht-degree: 62%
   </tr>
   <tr> 
    <td> <strong>YearsAgo</strong><br /> </td> 
-   <td> 지정된 두 날짜 사이의 연도 숫자 반환<br /> </td> 
-   <td> YearsAgo(&lt;end date=""&gt;, &lt;start date=""&gt;)<br /> </td>  
+   <td> 지정된 날짜와 현재 날짜 사이의 연도 수를 반환합니다.<br /> </td> 
+   <td> YearsAgo(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 
@@ -447,6 +447,11 @@ ht-degree: 62%
    <td> <strong>설명</strong><br /> </td> 
    <td> <strong>구문</strong><br /> </td> 
   </tr> 
+  <!--MISSING INFO<tr> 
+   <td> <strong>AESEncrypt</strong><br /> </td> 
+   <td> Returns value 1 if the condition is true. If not, it returns value 2.<br /> </td> 
+   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
+  </tr> -->
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
    <td> 조건이 true이면 값 1 반환 그렇지 않으면 값 2를 반환합니다.<br /> </td> 
@@ -467,6 +472,11 @@ ht-degree: 62%
    <td> 값 1 = 값 2이면 값 3 반환 가 아닌 경우 값 4를 반환합니다.<br /> </td> 
    <td> Decode(&lt;값 1&gt;, &lt;값 2&gt;, &lt;값 3&gt;, &lt;값 4&gt;)<br /> </td>  
   </tr> 
+  <!--<tr> 
+   <td> <strong>DefaultFolder</strong><br /> </td> 
+   <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
+   <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
+  </tr> -->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> 값 1 반환(case 함수의 매개 변수로만 사용할 수 있음)<br /> </td> 
@@ -497,6 +507,11 @@ ht-degree: 62%
    <td> 문자열 1이 비어 있으면 값 2 반환, 그렇지 않으면 값 3 반환<br /> </td> 
    <td> IsEmptyString(&lt;value&gt;, &lt;value&gt;, &lt;value&gt;)<br /> </td>  
   </tr> 
+  <!--<tr> 
+   <td> <strong>NewUUID</strong><br /> </td> 
+   <td> Returns the empty string if the argument is NULL<br /> </td> 
+   <td> NoNull(&lt;value&gt;)<br /> </td>  
+  </tr> -->
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
    <td> 인수가 NULL이면 빈 문자열 반환<br /> </td> 
@@ -562,6 +577,11 @@ ht-degree: 62%
    <td> Charindex(&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
+   <td> <strong>dataLength</strong><br /> </td> 
+   <td> 문자열의 크기(바이트) 반환<br /> </td> 
+   <td> dataLength(&lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
    <td> 문자열의 n번째(1에서 n까지) 행 반환<br /> </td> 
    <td> GetLine(&lt;string&gt;)<br /></td> 
@@ -587,11 +607,6 @@ ht-degree: 62%
    <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td>  
   </tr> 
   <tr> 
-   <td> <strong>LPad</strong><br /> </td> 
-   <td> 왼쪽에서 완성된 문자열 반환<br /> </td> 
-   <td> LPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /></td> 
-  </tr> 
-  <tr> 
    <td> <strong>Left</strong><br /> </td> 
    <td> 문자열의 처음 n자 반환<br /> </td> 
    <td> Left(&lt;string&gt;, &lt;number&gt;)<br /></td> 
@@ -601,10 +616,20 @@ ht-degree: 62%
    <td> 문자열의 길이 반환<br /> </td> 
    <td> Length(&lt;string&gt;)<br /></td> 
   </tr> 
+  <!--<tr> 
+   <td> <strong>Line</strong><br /> </td> 
+   <td> Returns the string in lowercase<br /> </td> 
+   <td> Lower(&lt;string&gt;)<br /></td> 
+  </tr> -->
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> 문자열을 소문자로 반환<br /> </td> 
    <td> Lower(&lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>LPad</strong><br /> </td> 
+   <td> 왼쪽에서 완성된 문자열 반환<br /> </td> 
+   <td> LPad (&lt;string&gt;, &lt;number&gt;, &lt;char&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
@@ -622,9 +647,9 @@ ht-degree: 62%
    <td> MemoContains(&lt;memo&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>RPad</strong><br /> </td> 
-   <td> 오른쪽에 완성된 문자열 반환<br /> </td> 
-   <td> RPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /></td> 
+   <td> <strong>NodeValue</strong><br /> </td> 
+   <td> XPath 및 필드 데이터에서 XML 필드의 값을 추출합니다.<br /> </td> 
+   <td> NodeValue (&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -632,9 +657,24 @@ ht-degree: 62%
    <td> Right(&lt;문자열&gt;)<br /> </td> 
   </tr> 
   <tr> 
+   <td> <strong>RPad</strong><br /> </td> 
+   <td> 오른쪽에 완성된 문자열 반환<br /> </td> 
+   <td> RPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /></td> 
+  </tr> 
+  <tr> 
    <td> <strong>Rtrim</strong><br /> </td> 
    <td> 문자열 오른쪽의 공백 제거<br /> </td> 
    <td> Rtrim(&lt;문자열&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Sha256Digest</strong><br /> </td> 
+   <td> 문자열의 SHA256 키를 16진수로 표시합니다.<br /> </td> 
+   <td> Sha256Digest (&lt;string&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Sha512Digest</strong><br /> </td> 
+   <td> 문자열의 SHA512 키의 16진수 표현입니다.<br /> </td> 
+   <td> Sha512Digest (&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -666,11 +706,6 @@ ht-degree: 62%
    <td> 다른 두 매개 변수가 동일한 경우 매개 변수로 전달된 링크의 외부(텍스트) 키 반환<br /> </td> 
    <td> VirtualLinkStr(&lt;문자열&gt;, &lt;숫자&gt;, &lt;숫자&gt;)<br /> </td>  
   </tr> 
-  <tr> 
-   <td> <strong>dataLength</strong><br /> </td> 
-   <td> 문자열 크기 반환<br /> </td> 
-   <td> dataLength(&lt;string&gt;)<br /> </td>  
-  </tr> 
  </tbody> 
 </table>
 
@@ -682,6 +717,11 @@ ht-degree: 62%
    <td> <strong>이름</strong><br /> </td> 
    <td> <strong>설명</strong><br /> </td> 
    <td> <strong>구문</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>_Over__</strong><br /> </td> 
+   <td> 첫 번째 매개 변수로 입력한 SQL 함수 호출 실행, 파티션 또는 두 번째 매개 변수로 입력한 정렬 기준 필드<br /> </td> 
+   <td> _Over_ (&lt;value&gt;, &lt;value&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="LA"
-source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
+source-git-commit: 28b6253cfd257c5522b728222aadc92a1736200d
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 7%
@@ -140,7 +140,7 @@ ht-degree: 7%
 
 이제 이 템플릿을 사용하여 내에서 이메일을 작성할 수 있습니다. [!DNL Adobe Campaign]. [방법 알아보기](use-email-templates.md)
 
-## 이메일 콘텐츠를 템플릿으로 저장 {#save-as-template}
+### 이메일 콘텐츠를 템플릿으로 저장 {#save-as-template}
 
 한 번 [이메일 디자인](create-email-content.md), 나중에 다시 사용할 수 있도록 이 콘텐츠를 템플릿으로 저장할 수 있습니다. Adobe Campaign 환경의 모든 사용자는 저장된 템플릿을 사용할 수 있습니다.
 

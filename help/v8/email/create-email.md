@@ -4,7 +4,7 @@ title: 첫 이메일 보내기
 description: Campaign Web UI를 사용하여 첫 이메일을 전송하는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+source-git-commit: 225585f572580bc724c0a955cc1c01da87f37ee2
 workflow-type: tm+mt
 source-wordcount: '1314'
 ht-degree: 70%
@@ -24,7 +24,7 @@ ht-degree: 70%
 
 첫 번째 타겟팅된 이메일을 작성하는 방법에 대해 알아봅니다. 이 사용 사례에서는 특정 일자에 실버 및 골드 충성도 회원에게 이메일을 전송하도록 예약합니다.
 
-사전 정의된 항목 기반 [디자인 템플릿](../content/email-sample-templates.md), 이메일에는 고객 프로필 속성에 따라 개인화된 콘텐츠도 포함되어 있습니다.
+사전 정의된 항목 기반 [디자인 템플릿](../content/create-email-templates.md), 이메일에는 고객 프로필 속성에 따라 개인화된 콘텐츠도 포함되어 있습니다.
 
 ## 이메일 게재 만들기 {#create-email}
 
@@ -120,7 +120,7 @@ ht-degree: 70%
 
 1. 이메일 콘텐츠를 디자인하려면 **[!UICONTROL 이메일 본문 편집]** 버튼을 클릭합니다.
 
-   이메일 콘텐츠를 만드는 데 사용할 방법을 선택합니다. 이 예에서는 [사전 정의된 콘텐츠 템플릿](../content/email-sample-templates.md).
+   이메일 콘텐츠를 만드는 데 사용할 방법을 선택합니다. 이 예에서는 [사전 정의된 콘텐츠 템플릿](../content/create-email-templates.md).
 
    ![](assets/select-template.png)
 

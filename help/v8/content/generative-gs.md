@@ -4,7 +4,7 @@ title: 콘텐츠 지원 시작하기
 description: Content Assistant 시작
 badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
+source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 34%
@@ -50,7 +50,7 @@ ht-degree: 34%
 * 생성된 콘텐츠의 품질은 사용자가 정의하는 마케팅 목표/프롬프트의 영향을 많이 받습니다. GenAI 모델이 정확하게 해석할 수 있도록 잘 정의된 프롬프트를 사용하십시오. 
 * 브랜드 에셋을 업로드하여 브랜드 콘텐츠에 정확하게 맞춥니다. 그 외의 경우 콘텐츠는 공개적으로 사용 가능한 정보를 기반으로 합니다. 업로드된 콘텐츠는 PDF, JPEG, PNG 또는 ZIP 파일(지원되는 파일 형식 포함) 형식일 수 있습니다.
 * 업로드된 브랜드 에셋의 권장 크기는 10MB 미만입니다. 파일이 크거나 이미지가 많으면 작동할 수 있지만 처리 시간은 늘어납니다.
-* Adobe Campaign 작성 이메일 템플릿 사용(권장 사항) [기본 제공 전자 메일 템플릿](../content/email-sample-templates.md) 이메일 콘텐츠를 만듭니다. 이메일 템플릿에는 최대 8~10개의 이미지가 권장됩니다.
+* Adobe Campaign 작성 이메일 템플릿 사용(권장 사항) [기본 제공 전자 메일 템플릿](../content/create-email-templates.md) 이메일 콘텐츠를 만듭니다. 이메일 템플릿에는 최대 8~10개의 이미지가 권장됩니다.
 
 
 Campaign Content Assistant에는 다음 제한 사항이 적용됩니다.

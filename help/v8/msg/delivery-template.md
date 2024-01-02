@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
+source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1075'
 ht-degree: 25%
 
 ---
@@ -33,14 +33,9 @@ ht-degree: 25%
 * 링크 대상 [미러 페이지](../content/mirror-page.md) 및 구독 취소 [링크](../content/message-tracking.md),
 * 리소스 유효성, 재시도 매개 변수 또는 격리 설정 등 다른 게재 속성입니다.
 
-<!--
 >[!NOTE]
 >
->Delivery templates are different from email content templates, which allow you to reuse only the content of your messages.-->
-
->[!NOTE]
->
->게재 템플릿은 과(와) 다릅니다. [콘텐츠 템플릿](../content/email-sample-templates.md)기본 제공되는 샘플 이메일 템플릿 중 하나를 사용하여 콘텐츠 작성을 시작할 수 있습니다.
+>게재 템플릿은 과(와) 다릅니다. [콘텐츠 템플릿](../content/create-email-templates.md)를 사용하면 이메일 콘텐츠만 재사용하고 즉시 사용할 수 있는 샘플 이메일 템플릿 중 하나를 사용하여 콘텐츠 작성을 시작할 수 있습니다.
 
 
 ## 게재 템플릿 액세스 및 관리 {#access-manage-templates}

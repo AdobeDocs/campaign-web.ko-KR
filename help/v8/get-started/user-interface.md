@@ -4,9 +4,9 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
+source-git-commit: 05dcd03ed7cec4ddb2628eb1c5c7182d7cafbc0f
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1360'
 ht-degree: 100%
 
 ---
@@ -357,36 +357,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_fragments_details"
 >title="조각 세부 정보"
 >abstract="조각 세부 정보"
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_menu"
->title="콘텐츠 템플릿"
->abstract="콘텐츠 템플릿"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_properties"
->title="콘텐츠 템플릿 속성"
->abstract="콘텐츠 템플릿 속성"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_design"
->title="콘텐츠 템플릿 디자인"
->abstract="콘텐츠 템플릿 디자인"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_selection"
->title="콘텐츠 템플릿 선택"
->abstract="콘텐츠 템플릿 선택"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_edition"
->title="콘텐츠 템플릿 편집"
->abstract="콘텐츠 템플릿 편집"
-
-
 
 
 >[!CONTEXTUALHELP]

@@ -6,7 +6,7 @@ exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 source-git-commit: 30786dd96dbe74c12d9af19d1c1b46b67e3d909d
 workflow-type: tm+mt
 source-wordcount: '1060'
-ht-degree: 17%
+ht-degree: 21%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 17%
 
 Adobe Campaign에서 게재의 대상 모집단은 대상자입니다. 대상자는 유사한 행동 및/또는 특성을 공유하는 사람들의 집합입니다. 이 사람 컬렉션은 생성, 선택 또는 로드될 수 있습니다. [아래에 자세히 설명됨](#audiences). 대부분의 경우 대상자는 프로필로 구성되며, 프로필은 [수신자](#recipients) Adobe Campaign. 설명된 대로 차원을 변경하여 다른 대상 매핑과 작업할 수도 있습니다 [이 섹션에서](#targeting-dimensions).
 
-## 수신자이란? {#recipients}
+## 수신자란 무엇입니까? {#recipients}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
->title="수신자의 360 보기"
->abstract="새 수신자를 만들고 강력한 보고서와 도구를 통해 모니터링합니다. 수신자의 속성, 상호 작용 및 로그에 액세스합니다. 필터링 옵션을 사용하여 수신자 목록을 검색하고 프로필을 편집하고 업데이트합니다."
+>title="수신자 자세히 살펴보기"
+>abstract="새로운 수신자를 생성하고, 강력한 보고서와 도구를 통해 모니터링합니다. 수신자의 속성, 상호 작용 및 로그에 액세스합니다. 필터링 옵션을 사용하여 수신자 목록을 찾아보고 프로필을 편집 및 업데이트합니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="릴리스 정보 참조"
 
 

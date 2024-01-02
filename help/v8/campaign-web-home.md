@@ -7,7 +7,7 @@ badge: label="제한 공개"
 source-git-commit: 544e56a43b03e954d5c9a1f8cce155212c1be180
 workflow-type: tm+mt
 source-wordcount: '528'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="도움말 및 설명서"
->abstract="Campaign은 이제 개선된 사용 가능성, 접근성 및 새로운 디자인을 갖춘 새로운 웹 사용자 인터페이스(UI)를 제공하여 사용자 경험을 크게 향상시킵니다. 이 새로운 최신 UI는 마케팅 캠페인 디자인과 게재를 단순화하고 다른 Adobe 솔루션과 함께 일관성을 제공합니다."
+>abstract="Campaign은 이제 개선된 사용 가능성, 접근성 및 새로운 디자인을 갖춘 새로운 웹 사용자 인터페이스(UI)를 제공하여 사용자 경험을 크게 향상시킵니다. 이 새로운 최신 UI는 다른 Adobe 솔루션과 함께 마케팅 캠페인 디자인 및 게재를 간소화하고 일관성을 제공합니다."
 
 Campaign은 이제 개선된 사용 가능성, 접근성 및 새로운 디자인을 갖춘 새로운 웹 사용자 인터페이스(UI)를 제공하여 사용자 경험을 크게 향상시킵니다. 이 새로운 최신 UI는 Adobe Experience Platform을 비롯한 다른 Adobe 솔루션과 함께 마케팅 캠페인 디자인 및 게재를 간소화하고 일관성을 제공합니다. [자세히 알아보기](get-started/get-started.md)
 

@@ -4,10 +4,10 @@ title: 파일에서 수신자 타겟팅
 description: 외부 파일에서 수신자를 사용하여 이메일 대상자를 빌드하는 방법 알아보기
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
+source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 40%
+source-wordcount: '612'
+ht-degree: 35%
 
 ---
 
@@ -21,26 +21,25 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="열 정의"
->abstract="로컬 파일에서 삽입할 열 형식을 확인합니다."
+>abstract="외부 파일의 열 형식을 확인합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="서식 지정 매개변수"
->abstract="파일에 대한 서식 지정 매개변수를 확인합니다."
+>abstract="외부 파일의 서식 매개 변수를 확인합니다."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="파일 미리보기"
->abstract="파일의 미리보기를 확인합니다. 이 화면에는 최대 30개까지의 레코드만 표시됩니다."
+>abstract="외부 파일의 열 미리보기를 확인합니다. 이 화면에는 최대 30개까지의 레코드만 표시됩니다."
 
 
-
-인터페이스에서 Campaign으로 직접 프로필을 업로드할 수 없지만 외부 파일에 저장된 프로필을 타겟팅할 수 있습니다. 프로필이 데이터베이스에 추가되지 않지만 입력 파일의 모든 필드를 사용할 수 있습니다. [개인화](../personalization/gs-personalization.md). 지원되는 파일 형식은 텍스트(TXT) 및 쉼표로 구분된 값(CSV)입니다. 
+외부 파일에 저장된 프로필을 타겟팅할 수 있습니다. 프로필이 데이터베이스에 추가되지 않지만 입력 파일의 모든 필드를 사용할 수 있습니다. [개인화](../personalization/gs-personalization.md). 지원되는 파일 형식은 텍스트(TXT) 및 쉼표로 구분된 값(CSV)입니다. 이 문서에서는 독립 실행형 이메일 게재를 만들 때 외부 프로필을 로드하는 방법을 설명합니다. 워크플로우의 파일에서 데이터를 로드하려면 다음을 참조하십시오. [이 페이지](../workflows/activities/load-file.md).
 
 >[!CAUTION]
 >
->* 이 기능은 에만 사용할 수 있습니다. **독립형 이메일 게재**. 워크플로우나 SMS 또는 푸시 게재에서는 사용할 수 없습니다.
+>* 이 기능은 에만 사용할 수 있습니다. **이메일 게재**. SMS 또는 푸시 게재에서는 사용할 수 없습니다.
 >
 >* 외부 파일에서 대상 모집단을 로드하면 [컨트롤 그룹](control-group.md)을 사용할 수 없습니다.
 >

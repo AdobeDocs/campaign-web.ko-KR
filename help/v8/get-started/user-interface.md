@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
+source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 99%
+source-wordcount: '1388'
+ht-degree: 100%
 
 ---
 
@@ -388,52 +388,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation"
->title="조정 활동"
->abstract="**조정** 활동을 사용하여 식별되지 않은 데이터를 기존 리소스에 연결합니다."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_targeting"
->title="조정 타겟팅"
->abstract="조정 타겟팅"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_rules"
->title="조정 규칙"
->abstract="조정 규칙"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_targeting_selection"
->title="조정 타겟팅 차원"
->abstract="조정 타겟팅 차원"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_field"
->title="조정 필드 선택"
->abstract="조정 필드 선택"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_attribute"
->title="조정 속성 선택"
->abstract="조정 속성 선택"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_condition"
->title="조정 생성 조건"
->abstract="조정 생성 조건"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_complement"
->title="조정 보조 항목 생성"
->abstract="조정 보조 항목 생성"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_keep_unreconciled_data"
->title="조정 미조정된 데이터 유지 옵션"
->abstract="조정 미조정된 데이터 유지 옵션"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
@@ -537,42 +491,4 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile"
->title="파일 활동 로드"
->abstract="파일 활동 로드"
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_samplefile"
->title="샘플 파일"
->abstract="샘플 파일"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_nameofthefile"
->title="파일 이름"
->abstract="파일 이름"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_targetdb"
->title="Target 데이터베이스"
->abstract="Target 데이터베이스"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_rejectmgt"
->title="파일 활동 로드에 대한 관리 거부"
->abstract="파일 활동 로드에 대한 관리 거부"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_outboundtransition"
->title="관리 아웃바운드 전환 거부"
->abstract="관리 아웃바운드 전환 거부"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_outboundtransition_reject"
->title="거부에 대한 관리 아웃바운드 전환 거부"
->abstract="거부에 대한 관리 아웃바운드 전환 거부"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_formatting"
->title="파일 활동 로드에 대한 서식 지정"
->abstract="파일 활동 로드에 대한 서식 지정"

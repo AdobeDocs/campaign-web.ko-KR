@@ -3,10 +3,10 @@ audience: end-user
 title: 파일 로드 워크플로우 활동 사용
 description: 파일 로드 워크플로우 활동을 사용하는 방법 알아보기
 badge: label="제한 공개"
-source-git-commit: 6068e3695ebed22a94a75b9aded59d1e5fb6b47a
+source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 34%
+source-wordcount: '294'
+ht-degree: 33%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="파일 활동 로드"
->abstract="다음 **파일 로드** 활동은 입니다. **데이터 관리** 활동. 이 활동을 사용하여 외부 파일에 저장된 프로필로 작업합니다."
+>abstract="다음 **파일 로드** 활동은 입니다. **데이터 관리** 활동. 이 활동을 사용하여 외부 파일에 저장된 데이터로 작업합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -53,7 +53,7 @@ ht-degree: 34%
 >abstract="파일 활동 로드에 대한 서식 지정"
 
 
-다음 **파일 로드** 활동은 입니다. **데이터 관리** 활동. 이 활동을 사용하여 외부 파일에 저장된 프로필로 작업합니다. 프로필이 데이터베이스에 추가되지 않지만 입력 파일의 모든 필드를 사용할 수 있습니다. [개인화](../../personalization/gs-personalization.md)또는 를 사용하여 프로필을 업데이트할 수 있습니다.
+다음 **파일 로드** 활동은 입니다. **데이터 관리** 활동. 이 활동을 사용하여 외부 파일에 저장된 프로필 및 데이터를 사용합니다. 프로필 및 데이터는 데이터베이스에 추가되지 않지만 입력 파일의 모든 필드는 다음에 사용할 수 있습니다. [개인화](../../personalization/gs-personalization.md)또는 를 사용하여 프로필 또는 기타 테이블을 업데이트할 수 있습니다.
 
 
 >[!NOTE]
@@ -69,7 +69,7 @@ ht-degree: 34%
 
 
 1. 드래그 앤 드롭 **파일 로드** 활동을 워크플로우에 추가합니다. 다음을 클릭합니다. **파일에서 선택** 단추를 클릭합니다.
-1. 사용할 로컬 파일을 선택합니다. 형식은 와(과) 일치해야 합니다. [샘플 파일](../../audience/file-audience.md#sample-file).
+1. 사용할 로컬 파일을 선택합니다. 형식은 다음과 일치해야 합니다. [샘플 파일](../../audience/file-audience.md#sample-file).
 1. 화면 중앙 섹션에서 데이터가 매핑되는 방식을 미리 보고 확인합니다.
 1. 열 설정과 사용 가능한 옵션에서 데이터 서식을 지정하는 방법을 조정합니다.
 1. 설정이 적절하면 **확인**&#x200B;을 클릭합니다.

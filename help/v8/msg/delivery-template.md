@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 25%
@@ -193,7 +193,7 @@ Campaign에는 각 채널용 이메일, 푸시, SMS 템플릿 세트가 기본 �
 
 >[!NOTE]
 >
->이메일 렌더링을 사용하거나 게재 템플릿에서 증명을 보낼 수 없습니다.
+>이메일 렌더링을 사용하거나 게재 템플릿에서 테스트를 전송할 수 없습니다.
 
 * [이메일 콘텐츠 미리 보기에 대한 자세한 정보](../preview-test/preview-content.md)
 

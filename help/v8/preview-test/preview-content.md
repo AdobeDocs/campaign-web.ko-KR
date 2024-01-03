@@ -3,11 +3,11 @@ audience: end-user
 title: 게재 콘텐츠 미리 보기
 description: Campaign 웹 UI를 사용하여 게재 콘텐츠를 미리 보는 방법 알아보기
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+badge: label="제한 공개"
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 10%
+source-wordcount: '342'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +18,7 @@ ht-degree: 10%
 
 게재 콘텐츠를 미리 보려면 아래 단계를 따르십시오.
 
-1. 게재의 콘텐츠 편집 화면으로 이동합니다.
-
-   <!--email [Edit content](../content/edit-content.md) screen or to the [Email Designer](../content/get-started-email-designer.md).-->
+1. 게재의 콘텐츠 편집 화면 또는 [이메일 디자이너](../content/get-started-email-designer.md).
 
 1. 다음을 클릭합니다. **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다.
 
@@ -34,15 +32,19 @@ ht-degree: 10%
 
 1. 테스트 프로필과 프로필을 결합하여 이메일 또는 SMS 메시지를 미리 볼 수 있습니다.
 
-   * **[!UICONTROL 테스트 프로필]** 탭에는 모든 시드 주소가 나열됩니다. 시드 주소는 데이터베이스의 추가 및 가상 수신자입니다.
+   * 다음 **[!UICONTROL 테스트 프로필]** 탭에는 데이터베이스의 추가 수신자와 가상 수신자인 모든 시드 주소가 나열됩니다.
+
+     ![](assets/simulate-select-profiles.png)
 
      >[!NOTE]
      >
-     >테스트 프로필은 [!DNL Campaign] 콘솔을 **[!UICONTROL 리소스]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 시드 주소]** 폴더를 삭제합니다. 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
+     >테스트 프로필은 **[!UICONTROL 고객 관리]** > **[!UICONTROL 프로필]** 메뉴 아래의 제품에서 사용할 수 있습니다. [자세히 알아보기](../audience/test-profiles.md#create-test-profiles)
 
-   * **[!UICONTROL 프로필]** 탭에는 콘솔의 **[!UICONTROL 프로필 및 대상]** 폴더에 저장된 모든 수신자가 나열됩니다. [!DNL Campaign] 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
+   * 다음 **[!UICONTROL 프로필]** 탭은에 저장된 모든 수신자를 나열합니다. **[!UICONTROL 프로필 및 타겟]** 폴더의 [!DNL Campaign] 콘솔. 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
 
-   ![](assets/simulate-select-profiles.png)
+     >[!NOTE]
+     >
+     >Campaign 웹 UI의 해당 탭에서 프로필을 보고 관리할 수도 있습니다. [자세히 알아보기](../audience/about-recipients.md)
 
 1. 클릭 **[!UICONTROL 선택]** 을 클릭하여 선택 항목을 확인합니다.
 
@@ -56,7 +58,7 @@ ht-degree: 10%
 
 1. 다음에서 **[!UICONTROL 시뮬레이트]** 화면 또한 다음 작업을 수행할 수 있습니다.
    * 유효성 검사를 위해 특정 수신자에게 테스트 게재 보내기 - [자세히 알아보기](test-deliveries.md)
-   * 전송된 테스트 게재의 로그에 액세스 - [자세히 알아보기](test-deliveries.md#access-proofs)
+   * 전송된 테스트 게재의 로그에 액세스 - [자세히 알아보기](test-deliveries.md#access-test-deliveries)
    * 이메일의 경우, 방문 빈도가 높은 이메일 클라이언트의 메시지 콘텐츠 렌더링 을 확인합니다. [자세히 알아보기](email-rendering.md)
 
 

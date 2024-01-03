@@ -4,9 +4,9 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 6ea9ab9a69f0eff5d996926e25dc679a43eca918
+source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1452'
 ht-degree: 100%
 
 ---
@@ -179,41 +179,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="수신자 생성"
 
 >[!CONTEXTUALHELP]
->id="acw_recipients_creation_details"
->title="수신자 세부 정보"
->abstract="수신자 세부 정보"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_contactinformation"
->title="수신자 연락처 정보"
->abstract="수신자 연락처 정보"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_address"
->title="수신자 주소"
->abstract="수신자 주소"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_account"
->title="수신자 계정"
->abstract="수신자 계정"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_customfields"
->title="수신자 사용자 정의 필드"
->abstract="수신자 사용자 정의 필드"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_nolongercontact"
->title="수신자 더 이상 연락하지 않음"
->abstract="수신자 더 이상 연락하지 않음"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_othersfields"
->title="수신자 기타"
->abstract="수신자 기타"
-
->[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="수신자 카드 개요"
 >abstract="수신자 카드 개요"
@@ -222,11 +187,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_recipients_creation_touchpoints"
 >title="수신자 터치포인트"
 >abstract="수신자 터치포인트"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_subscription_list"
->title="수신자 구독 목록"
->abstract="수신자 구독 목록"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_selection"

@@ -2,9 +2,10 @@
 audience: end-user
 title: 목록 필터링
 description: 기본 제공 및 사용자 지정 필터를 사용하여 Adobe Campaign 웹 목록을 필터링하는 방법을 알아봅니다.
-source-git-commit: 843f3ad906d81892f45281ef5734d512b4c8f3d6
+badge: label="제한 공개"
+source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '308'
 ht-degree: 6%
 
 ---

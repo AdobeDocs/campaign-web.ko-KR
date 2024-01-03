@@ -4,7 +4,7 @@ title: Campaign 규칙 빌더로 대상자 빌드
 description: 규칙 빌더로 작업하는 방법을 알아봅니다.
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: 9992ae7007b5af80e927dd96b6fff25840d8c3e1
+source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 60%
@@ -12,7 +12,6 @@ ht-degree: 60%
 ---
 
 # 규칙 빌더를 사용하여 작업 {#segment-builder}
-
 
 규칙 빌더를 사용하면 데이터베이스에 포함된 데이터를 필터링하여 게재 대상의 모집단을 정의할 수 있습니다. 워크플로우에서 를 사용하여 대상자를 만드는 데 사용할 수 있습니다 **[!UICONTROL 대상자 작성]** 활동 또는 게재를 만들 때 일회성 대상을 직접 만들 수 있습니다.
 

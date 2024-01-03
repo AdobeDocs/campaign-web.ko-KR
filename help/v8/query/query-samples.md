@@ -2,10 +2,11 @@
 audience: end-user
 title: 쿼리 샘플
 description: 규칙 빌더로 작업하는 방법을 알아봅니다.
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
+badge: label="제한 공개"
+source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 2%
+source-wordcount: '179'
+ht-degree: 3%
 
 ---
 

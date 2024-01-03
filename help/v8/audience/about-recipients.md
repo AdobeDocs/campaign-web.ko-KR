@@ -2,10 +2,10 @@
 title: 프로필 모니터링 및 관리
 description: Campaign 웹에서 프로필을 모니터링하고 관리하는 방법을 알아봅니다.
 badge: label="제한 공개"
-source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
+source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 10%
+source-wordcount: '662'
+ht-degree: 8%
 
 ---
 
@@ -38,12 +38,52 @@ Campaign 클라이언트 콘솔에서만 프로필을 추가할 수 있습니다
 
 ## 프로필 속성 액세스 및 편집 {#access}
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_details"
+>title="기본 세부 정보"
+>abstract="이 섹션에서는 프로필의 기본 세부 정보에 대한 통찰력을 제공합니다. 정보를 수정하려면 해당 필드에서 직접 변경하고 **저장** 화면의 오른쪽 상단에 있는 단추입니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_contactinformation"
+>title="연락처 정보"
+>abstract="이 섹션에서는 프로필의 연락처 정보에 대한 통찰력을 제공합니다. 정보를 수정하려면 해당 필드에서 직접 변경하고 **저장** 화면의 오른쪽 상단에 있는 단추입니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_address"
+>title= "Address"
+>abstract="이 섹션에서는 프로필의 우편 주소 및 주소 품질에 대한 통찰력을 제공합니다. 정보를 수정하려면 해당 필드에서 직접 변경하고 **저장** 화면의 오른쪽 상단에 있는 단추입니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_account"
+>title="계정 세부 정보"
+>abstract="이 섹션에서는 프로필의 계정 세부 정보에 대한 통찰력을 제공합니다. 정보를 수정하려면 해당 필드에서 직접 변경하고 **저장** 화면의 오른쪽 상단에 있는 단추입니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_nolongercontact"
+>title="수신자 더 이상 연락하지 않음"
+>abstract="이 섹션에서는 프로필의 연락처 환경 설정에 대한 통찰력을 제공합니다. 정보를 수정하려면 해당 필드에서 직접 변경하고 **저장** 화면의 오른쪽 상단에 있는 단추입니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_customfields"
+>title="사용자 정의 필드"
+>abstract="사용자 지정 필드는 인스턴스에 대해 구성된 요구 사항에 맞게 조정된 특정 속성입니다. 정보를 수정하려면 해당 필드에서 직접 변경하고 **저장** 화면의 오른쪽 상단에 있는 단추입니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_othersfields"
+>title="기타"
+>abstract="이 섹션에서는 추가 기본 속성을 제공합니다. 정보를 수정하려면 해당 필드에서 직접 변경하고 **저장** 화면의 오른쪽 상단에 있는 단추입니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_subscription_list"
+>title="수신자 구독 목록"
+>abstract="이 탭에는 프로필이 구독하는 모든 서비스가 나열됩니다."
+
 프로필 세부 정보에 액세스하려면 프로필 목록에서 해당 이름을 클릭합니다.
 
 ![](assets/profiles-details.png)
 
 이 화면에서 프로필의 자세한 정보에 액세스할 수 있습니다.
 
-* 다음 **[!UICONTROL 세부 사항]** 탭에서는 프로필의 속성을 찾아볼 수 있습니다. 속성을 편집하려면 원하는 필드를 변경하고 **[!UICONTROL 저장]** 단추를 클릭합니다.
+* 다음 **[!UICONTROL 세부 사항]** 탭에서는 프로필의 기본 제공 및 사용자 지정 특성을 찾아볼 수 있습니다. 속성을 편집하려면 원하는 필드를 변경하고 **[!UICONTROL 저장]** 단추를 클릭합니다.
 * 다음 **[!UICONTROL 구독]** 탭은 프로필이 구독되는 서비스에 대한 정보를 제공합니다. [구독 서비스 작업 방법 알아보기](manage-services.md)
 * 다음 **[!UICONTROL 로그]** 화면 오른쪽 상단에 있는 버튼을 사용하면 전송, 제외 및 추적 로그를 통해 프로필의 상호 작용 내역뿐만 아니라 프로필에 제공된 제안을 볼 수 있습니다.

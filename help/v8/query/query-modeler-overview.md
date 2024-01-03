@@ -2,10 +2,11 @@
 audience: end-user
 title: 쿼리 모델러로 작업
 description: Adobe Campaign 웹 쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다.
-source-git-commit: 9992ae7007b5af80e927dd96b6fff25840d8c3e1
+badge: label="제한 공개"
+source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 42%
+source-wordcount: '323'
+ht-degree: 43%
 
 ---
 

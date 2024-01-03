@@ -3,7 +3,7 @@ audience: end-user
 title: 조정 워크플로우 활동 사용
 description: 조정 워크플로우 활동을 사용하는 방법을 알아봅니다
 badge: label="제한 공개"
-source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
+source-git-commit: edd8ab0705bfdd0228c9c651787ce289283469f2
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 15%
@@ -64,7 +64,7 @@ ht-degree: 15%
 >id="acw_orchestration_reconciliation_targeting_selection"
 >title="타겟팅 차원 선택"
 >abstract="조정할 인바운드 데이터의 타겟팅 차원을 선택합니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/about-recipients.html?lang=en#targeting-dimensions" text="타겟팅 차원"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="타겟팅 차원"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_keep_unreconciled_data"

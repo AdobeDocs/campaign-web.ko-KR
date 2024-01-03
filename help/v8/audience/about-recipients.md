@@ -2,9 +2,9 @@
 title: 프로필 모니터링 및 관리
 description: Campaign 웹에서 프로필을 모니터링하고 관리하는 방법을 알아봅니다.
 badge: label="제한 공개"
-source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
+source-git-commit: 41c38ff3b18c28fbcb6fd07dd398600a207f53cb
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '663'
 ht-degree: 8%
 
 ---
@@ -50,7 +50,7 @@ Campaign 클라이언트 콘솔에서만 프로필을 추가할 수 있습니다
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
->title= "Address"
+>title="주소"
 >abstract="이 섹션에서는 프로필의 우편 주소 및 주소 품질에 대한 통찰력을 제공합니다. 정보를 수정하려면 해당 필드에서 직접 변경하고 **저장** 화면의 오른쪽 상단에 있는 단추입니다."
 
 >[!CONTEXTUALHELP]

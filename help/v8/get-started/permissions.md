@@ -2,11 +2,11 @@
 audience: end-user
 title: Campaign Web의 권한 관리
 description: Campaign Web v8의 권한에 대해 자세히 알아보기
-badge: label="Beta"
+badge: label="제한 공개"
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '592'
 ht-degree: 100%
 
 ---

@@ -2,16 +2,16 @@
 audience: end-user
 title: 캠페인 보고서
 description: 캠페인 보고서에 액세스하고 사용하는 방법을 알아봅니다
-badge: label="Beta"
+badge: label="제한 공개"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 12%
+source-wordcount: '89'
+ht-degree: 11%
 
 ---
 
-# 캠페인 보고서 {#campaign-reports}
+# 캠페인 보고서 시작 {#campaign-reports}
 
 <!-- CAN BE REMOVED___
 >[!CONTEXTUALHELP]

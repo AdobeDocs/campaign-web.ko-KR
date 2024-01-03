@@ -3,21 +3,20 @@ audience: end-user
 title: 게재 보고서
 description: 게재 보고서 액세스 및 사용 방법 알아보기
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-badge: label="Beta"
-source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
+badge: label="제한 공개"
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 51%
+source-wordcount: '207'
+ht-degree: 48%
 
 ---
 
-# 게재 보고서에 액세스 {#reports}
+# 게재 보고서 시작 {#reports}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
 >title="집계된 게재 보고"
 >abstract="집계된 데이터 보고서를 표시하려면 두 개 이상의 게재를 선택합니다."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"

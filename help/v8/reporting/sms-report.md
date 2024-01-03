@@ -2,12 +2,12 @@
 audience: end-user
 title: SMS 게재 보고서
 description: sms 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
-badge: label="Beta"
+badge: label="제한 공개"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: 23ca6ee9008587923fe0102612abf41a764214cc
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 44%
+source-wordcount: '506'
+ht-degree: 45%
 
 ---
 

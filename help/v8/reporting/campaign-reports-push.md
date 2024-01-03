@@ -2,12 +2,12 @@
 audience: end-user
 title: 푸시 채널에 대한 캠페인 보고서
 description: 푸시 채널에 대한 캠페인 보고서 이해
-badge: label="Beta"
+badge: label="제한 공개"
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 23%
+source-wordcount: '500'
+ht-degree: 19%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 23%
 >title="게재 개요"
 >abstract="**게재 개요** 보고서는 방문자가 푸시 알림 게재에 참여하는 방식에 대한 자세한 정보를 포함하는 주요 성과 지표(KPI)를 제공합니다."
 
-**[!UICONTROL 게재 개요]** 보고서는 방문자가 푸시 알림 게재에 참여하는 방식에 대한 자세한 정보를 포함하는 주요 성과 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
+다음 **[!UICONTROL 게재 개요]** 보고서는 방문자의 푸시 알림 전달 방식에 대한 자세한 정보를 제공하는 주요 성과 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
 ![](assets/campaign-reporting-push-summary.png)
 

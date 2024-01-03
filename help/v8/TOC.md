@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: 캠페인 개요
 hide: true
-source-git-commit: 6fbc6d477aac54e8cb7a1eeba40f7c32903c261f
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 89%
+source-wordcount: '508'
+ht-degree: 86%
 
 ---
 
@@ -143,17 +143,17 @@ ht-degree: 89%
    + [보고서 시작](reporting/gs-reports.md)
    + [주요 성과 지표](reporting/kpis.md)
    + 게재 보고서 {#delivery-report}
-      + [게재 보고서에 액세스](reporting/delivery-reports.md)
+      + [게재 보고서 시작](reporting/delivery-reports.md)
       + [이메일 게재 보고서](reporting/email-report.md)
       + [게재 보고서 푸시](reporting/push-report.md)
       + [SMS 게재 보고서](reporting/sms-report.md)
    + 캠페인 보고서 {#campaign-report}
-      + [캠페인 보고서에 액세스](reporting/campaign-reports.md)
+      + [캠페인 보고서 시작](reporting/campaign-reports.md)
       + [이메일 캠페인 보고서](reporting/campaign-reports-email.md)
       + [캠페인 보고서 푸시](reporting/campaign-reports-push.md)
       + [SMS 캠페인 보고서](reporting/campaign-reports-sms.md)
    + 글로벌 보고서 {#global-report}
-      + [글로벌 보고서 액세스](reporting/global-reports.md)
+      + [글로벌 보고서 시작](reporting/global-reports.md)
       + [이메일 글로벌 보고서](reporting/global-report-email.md)
       + [글로벌 보고서 푸시](reporting/global-report-push.md)
       + [SMS 글로벌 보고서](reporting/global-report-sms.md)

@@ -2,11 +2,11 @@
 audience: end-user
 title: 보고서 시작
 description: Campaign Web에서 보고서에 액세스하고 관리하는 방법 알아보기
-badge: label="Beta"
+badge: label="제한 공개"
 exl-id: b353bc86-2228-4e02-879c-ae9425c48489
-source-git-commit: 6fbc6d477aac54e8cb7a1eeba40f7c32903c261f
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '223'
 ht-degree: 60%
 
 ---

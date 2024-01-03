@@ -2,12 +2,12 @@
 audience: end-user
 title: 이메일 게재 보고서
 description: 이메일 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
-badge: label="Beta"
+badge: label="제한 공개"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '2254'
-ht-degree: 40%
+source-wordcount: '2245'
+ht-degree: 38%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 40%
 >abstract="**제외 이유** 그래프와 테이블에는 게재 준비 단계에서 거부된 메시지 규칙당 분류가 표시됩니다."
 
 
-**[!UICONTROL 제외 이유]** 그래프와 테이블에는 게재 준비 단계에서 거부된 메시지 규칙당 분류가 표시됩니다. 제외 규칙은 다음에 자세히 설명되어 있습니다. [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
+다음 **[!UICONTROL 제외 이유]** 그래프와 표는 게재를 준비하는 동안 거부된 메시지의 규칙별 분류를 보여 줍니다. 제외 규칙은 다음에 자세히 설명되어 있습니다. [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
 ![](assets/reporting_email_3.png){align="center" zoomable="yes"}
 
@@ -122,7 +122,7 @@ ht-degree: 40%
 >title="브로드캐스트 통계"
 >abstract="**브로드캐스트 통계** 보고서에는 각 도메인에서 발생한 잠재 오류에 대한 사용 가능한 데이터가 포함되어 있습니다."
 
-**[!UICONTROL 브로드캐스트 통계]** 표에는 각 도메인에서 발생한 잠재 오류에 대한 사용 가능한 데이터가 포함되어 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
+다음 **[!UICONTROL 브로드캐스트 통계]** 표에는 각 도메인에서 발생할 수 있는 오류에 대해 사용 가능한 데이터가 포함되어 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
 
 ![](assets/reporting_email_4.png){align="center" zoomable="yes"}
 

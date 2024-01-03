@@ -2,11 +2,11 @@
 audience: end-user
 title: 푸시 채널에 대한 글로벌 보고서
 description: 푸시 채널에 대한 글로벌 보고서 이해
-badge: label="제한된 가용성"
-source-git-commit: 6fbc6d477aac54e8cb7a1eeba40f7c32903c261f
+badge: label="제한 공개"
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 

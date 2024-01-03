@@ -2,12 +2,12 @@
 audience: end-user
 title: SMS 채널에 대한 캠페인 보고서
 description: SMS 채널에 대한 캠페인 보고서 이해
-badge: label="Beta"
+badge: label="제한 공개"
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 23%
+source-wordcount: '492'
+ht-degree: 19%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 23%
 >abstract="**게재 개요** 보고서는 방문자가 SMS 게재에 참여하는 방식에 대한 자세한 정보를 포함하는 주요 성과 지표(KPI)를 제공합니다."
 
 
-**[!UICONTROL 게재 개요]** 보고서는 방문자가 SMS 게재에 참여하는 방식에 대한 자세한 정보를 포함하는 주요 성과 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
+다음 **[!UICONTROL 게재 개요]** 보고서는 방문자의 SMS 게재 방법에 대한 자세한 정보를 제공하는 주요 성과 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
 ![](assets/campaign_report_sms_1.png)
 

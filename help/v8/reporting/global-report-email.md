@@ -2,8 +2,8 @@
 audience: end-user
 title: 이메일 채널에 대한 전역 보고서
 description: 이메일 채널에 대한 글로벌 보고서에 대해 자세히 알아보기
-badge: label="제한된 가용성"
-source-git-commit: 6fbc6d477aac54e8cb7a1eeba40f7c32903c261f
+badge: label="제한 공개"
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
 source-wordcount: '1188'
 ht-degree: 4%

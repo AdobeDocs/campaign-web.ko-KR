@@ -4,18 +4,16 @@ title: 목록 찾아보기, 검색 및 필터링
 description: Campaign Web v8 목록을 찾아보고 필터링하는 방법 살펴보기
 badge: label="제한된 가용성"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 564524185c6bea11d8159d57ee9c28b47df86f74
+source-git-commit: 843f3ad906d81892f45281ef5734d512b4c8f3d6
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 89%
+source-wordcount: '241'
+ht-degree: 81%
 
 ---
 
 # 목록 찾아보기, 검색 및 필터링 {#list-screens}
 
 왼쪽 탐색 메뉴의 대부분 링크에는 **게재** 또는 **캠페인** 목록 등 오브젝트 목록이 표시됩니다. 이들 중 일부 목록 화면은 읽기 전용입니다. 아래 설명대로 목록 표시를 사용자 정의하고 해당 목록을 필터링할 수 있습니다.
-
-필터를 제거하려면 **모두 지우기** 버튼을 클릭합니다.
 
 ## 목록 화면 사용자 정의 {#custom-lists}
 
@@ -39,23 +37,13 @@ ht-degree: 89%
 
 숫자 또는 날짜 열의 경우 **위쪽** 화살표는 목록이 오름차순으로 정렬됨을 나타내고 **아래쪽** 화살표는 내림차순으로 정렬됨을 나타냅니다. 문자열 또는 영숫자 열의 경우 값이 알파벳순으로 나열됩니다.
 
-## 내장 필터 {#list-built-in-filters}
+## 필터 {#list-built-in-filters}
 
-검색 창을 사용하거나 상황별 기준에 따라 목록을 필터링하여 항목을 더 빨리 찾을 수 있습니다.
+항목을 더 빨리 찾으려면 검색 막대 또는 기본 제공 및 사용자 지정 필터를 사용하여 상황별 기준에 따라 목록을 조정할 수 있습니다.
 
 ![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
-예를 들어 상태, 채널, 연락일 또는 폴더에서 게재를 필터링할 수 있습니다. 테스트를 숨길 수도 있습니다.
-
-## 사용자 정의 필터{#list-custom-filters}
-
-데이터에 사용자 정의 필터를 만들려면 필터 하단으로 이동하고 **규칙 추가** 버튼을 클릭하여 규칙 빌더에 액세스합니다.
-
-에서 필터 기준을 정의하고 결합합니다. **고급 필터** 화면.
-
-![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
-
-사용자 지정 필터는 Campaign 쿼리 모델러로 디자인되었습니다. 사용 방법에 대한 자세한 내용은에서 확인할 수 있습니다 [이 섹션](../query/query-modeler-overview.md).
+에서 사용할 수 있는 필터를 사용하고 자신만의 맞춤형 필터를 만드는 방법에 대한 자세한 정보 [이 섹션](../query/filter.md).
 
 <!--
 ## Use advanced attributes {#adv-attributes}

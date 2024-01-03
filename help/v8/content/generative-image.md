@@ -1,17 +1,19 @@
 ---
 audience: end-user
-title: 콘텐츠 도우미를 사용하여 이미지 생성
+title: 콘텐츠 지원을 사용하여 이미지 생성
 description: Content Assistant 시작
 badge: label="Alpha"
-source-git-commit: 2eea0827a1daf4af002587d09c11e2279aaf933c
+exl-id: 896d7e9b-0fa2-435b-b191-fa5db36e7ea0
+hide: true
+hidefromtoc: true
+source-git-commit: 794b2571f44d160ce06b91b46e7e2f0c8b2eee38
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 2%
+source-wordcount: '378'
+ht-degree: 5%
 
 ---
 
-
-# 콘텐츠 도우미를 사용하여 이미지 생성 {#generative-image}
+# 콘텐츠 지원을 사용하여 이미지 생성 {#generative-image}
 
 이메일을 만들고 개인화한 후에는 생성 AI에서 제공하는 콘텐츠 도우미를 사용하여 콘텐츠를 개선할 수 있습니다. 이 기능은 개인화 및 콘텐츠 개선 프로세스를 단순화합니다.
 

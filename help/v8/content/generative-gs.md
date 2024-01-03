@@ -4,7 +4,9 @@ title: 콘텐츠 지원 시작하기
 description: Content Assistant 시작
 badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
+hide: true
+hidefromtoc: true
+source-git-commit: 794b2571f44d160ce06b91b46e7e2f0c8b2eee38
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 34%
@@ -18,8 +20,6 @@ ht-degree: 34%
 >title="이메일 콘텐츠용 Gen AI"
 >abstract="Gen AI 기술은 고급 알고리즘을 활용하여 매우 매력적이며 개인화된 콘텐츠를 생성합니다. Gen AI의 지능형 콘텐츠 생성을 통해 열람율, 클릭스루 비율 및 전환율을 높여 보십시오. 이메일 콘텐츠용 Gen AI를 통해 경쟁에서 앞서 나가고 이메일 마케팅을 개선하십시오."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="릴리스 정보 참조"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"

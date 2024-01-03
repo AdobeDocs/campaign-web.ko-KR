@@ -3,17 +3,17 @@ audience: end-user
 title: 콘텐츠 도우미가 있는 텍스트
 description: Content Assistant 시작
 badge: label="Alpha"
-source-git-commit: 2eea0827a1daf4af002587d09c11e2279aaf933c
+exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
+hide: true
+hidefromtoc: true
+source-git-commit: 794b2571f44d160ce06b91b46e7e2f0c8b2eee38
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-
-# 콘텐츠 도우미를 사용하여 텍스트 생성 {#generative-content}
-
-
+# 콘텐츠 지원을 사용하여 텍스트 생성 {#generative-content}
 
 이메일을 만들고 개인화한 후에는 생성 AI에서 제공하는 콘텐츠 도우미를 사용하여 콘텐츠를 한 단계 더 발전시킵니다.
 
@@ -70,4 +70,3 @@ ht-degree: 2%
    ![](assets/text-genai-7.png)
 
 1. 콘텐츠, 대상자 및 일정을 정의했으면 이메일 게재를 준비할 준비가 되었습니다. [자세히 알아보기](../monitor/prepare-send.md)
-

@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: 캠페인 개요
 hide: true
-source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
+source-git-commit: 6ea9ab9a69f0eff5d996926e25dc679a43eca918
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 94%
+source-wordcount: '488'
+ht-degree: 93%
 
 ---
 
@@ -89,7 +89,9 @@ ht-degree: 94%
       + [이메일 렌더링](preview-test/email-rendering.md)
 + 대상자 및 수신자 {#audiences}
    + [수신자 및 대상자 시작](audience/gs-audiences-recipients.md)
-   + [수신자와 작업](audience/about-recipients.md)
+   + 수신자와 작업 {#work-with-recipients}
+      + [프로필 관리](audience/about-recipients.md)
+      + [테스트 프로필 만들기 및 관리](audience/test-profiles.md)
    + 대상자를 사용한 작업 {#audiences}
       + [대상자 만들기](audience/create-audience.md)
       + [대상자 모니터링 및 관리](audience/manage-audience.md)

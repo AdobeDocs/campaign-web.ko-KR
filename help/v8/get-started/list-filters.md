@@ -2,12 +2,12 @@
 audience: end-user
 title: 목록 찾아보기, 검색 및 필터링
 description: Campaign Web v8 목록을 찾아보고 필터링하는 방법 살펴보기
-badge: label="Beta"
+badge: label="제한된 가용성"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 3e94514060a501a3a359c38606e5532beaf20f10
+source-git-commit: 564524185c6bea11d8159d57ee9c28b47df86f74
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 98%
+source-wordcount: '303'
+ht-degree: 89%
 
 ---
 
@@ -33,8 +33,6 @@ ht-degree: 98%
 
 ![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
 
-**고급 속성 표시** 토글을 사용하여 현재 목록의 모든 속성을 확인합니다. [자세히 알아보기](#adv-attributes)
-
 ## 데이터 정렬 {#sort-lists}
 
 열 머리글을 클릭하여 목록의 항목을 정렬할 수도 있습니다. 목록이 해당 열에 정렬되어 있음을 나타내는 화살표(위 또는 아래)가 표시됩니다.
@@ -53,35 +51,35 @@ ht-degree: 98%
 
 데이터에 사용자 정의 필터를 만들려면 필터 하단으로 이동하고 **규칙 추가** 버튼을 클릭하여 규칙 빌더에 액세스합니다.
 
-속성을 드래그 앤 드롭하여 **고급 필터** 화면에서 필터 조건을 빌드합니다.
+에서 필터 기준을 정의하고 결합합니다. **고급 필터** 화면.
 
 ![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
-**고급 속성 표시** 토글을 사용하여 현재 목록의 모든 속성을 확인합니다. [자세히 알아보기](#adv-attributes)
+사용자 지정 필터는 Campaign 쿼리 모델러로 디자인되었습니다. 사용 방법에 대한 자세한 내용은에서 확인할 수 있습니다 [이 섹션](../query/query-modeler-overview.md).
 
-맞춤형 필터에 대한 규칙 빌더의 작동 원리는 대상자를 만드는 데 사용되는 규칙 빌더와 유사합니다. 사용 방법에 대한 자세한 내용은 [대상자 설명서](../audience/segment-builder.md)에서 확인할 수 있습니다.
-
-## 고급 속성 사용 {#adv-attributes}
+<!--
+## Use advanced attributes {#adv-attributes}
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
->title="고급 속성 표시"
->abstract="기본적으로 속성 목록에는 가장 일반적인 속성만 표시됩니다. **고급 속성 표시** 토글을 활성화하면 노드, 그룹화, 1-1 링크, 1-N 링크 등 규칙 작성기의 왼쪽 팔레트에 있는 현재 목록에 대해 사용 가능한 모든 속성을 확인할 수 있습니다."
+>title="Display advanced attributes"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
->title="규칙 빌더 고급 필드"
->abstract="기본적으로 속성 목록에는 가장 일반적인 속성만 표시됩니다. **고급 속성 표시** 토글을 활성화하면 노드, 그룹화, 1-1 링크, 1-N 링크 등 규칙 작성기의 왼쪽 팔레트에 있는 현재 목록에 대해 사용 가능한 모든 속성을 확인할 수 있습니다."
+>title="Rule builder advanced fields"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
->title="규칙 빌더 고급 속성"
->abstract="기본적으로 속성 목록에는 가장 일반적인 속성만 표시됩니다. **고급 속성 표시** 토글을 활성화하면 노드, 그룹화, 1-1 링크, 1-N 링크 등 규칙 작성기의 왼쪽 팔레트에 있는 현재 목록에 대해 사용 가능한 모든 속성을 확인할 수 있습니다."
+>title="Rule builder advanced attributes"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
 
 
-기본적으로 속성 목록과 필터 구성 화면에는 가장 일반적인 속성만 표시됩니다. 데이터 스키마의 `advanced` 속성으로 설정된 속성은 구성 화면에서 숨겨집니다.
+Only most common attributes are displayed by default in the attribute list and filter configuration screens. Attributes which were set as `advanced` attributes in the data schema are hidden from the configuration screens. 
 
-**고급 속성 표시** 토글을 활성화하면 노드, 그룹화, 1-1 링크, 1-N 링크 등 규칙 작성기의 왼쪽 팔레트에 있는 현재 목록에 대해 사용 가능한 모든 속성을 확인할 수 있습니다. 속성 목록이 즉시 업데이트됩니다.
+Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links. The attribute list is updated instantly.
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
+-->

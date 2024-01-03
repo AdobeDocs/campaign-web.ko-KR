@@ -4,9 +4,9 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 05dcd03ed7cec4ddb2628eb1c5c7182d7cafbc0f
+source-git-commit: 564524185c6bea11d8159d57ee9c28b47df86f74
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1506'
 ht-degree: 100%
 
 ---
@@ -461,4 +461,20 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
+<!--
+Deprecated IDs - to remove in GA: -->
 
+>[!CONTEXTUALHELP]
+>id="acw_attributepicker_advancedfields"
+>title="고급 속성 표시"
+>abstract="기본적으로 속성 목록에는 가장 일반적인 속성만 표시됩니다. **고급 속성 표시** 토글을 활성화하면 노드, 그룹화, 1-1 링크, 1-N 링크 등 규칙 작성기의 왼쪽 팔레트에 있는 현재 목록에 대해 사용 가능한 모든 속성을 확인할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="규칙 빌더 고급 필드"
+>abstract="기본적으로 속성 목록에는 가장 일반적인 속성만 표시됩니다. **고급 속성 표시** 토글을 활성화하면 노드, 그룹화, 1-1 링크, 1-N 링크 등 규칙 작성기의 왼쪽 팔레트에 있는 현재 목록에 대해 사용 가능한 모든 속성을 확인할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_properties_advanced"
+>title="규칙 빌더 고급 속성"
+>abstract="기본적으로 속성 목록에는 가장 일반적인 속성만 표시됩니다. **고급 속성 표시** 토글을 활성화하면 노드, 그룹화, 1-1 링크, 1-N 링크 등 규칙 작성기의 왼쪽 팔레트에 있는 현재 목록에 대해 사용 가능한 모든 속성을 확인할 수 있습니다."

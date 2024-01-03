@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: 캠페인 개요
 hide: true
-source-git-commit: 843f3ad906d81892f45281ef5734d512b4c8f3d6
+source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 96%
+source-wordcount: '482'
+ht-degree: 94%
 
 ---
 
@@ -88,15 +88,17 @@ ht-degree: 96%
       + [테스트 게재 전송](preview-test/test-deliveries.md)
       + [이메일 렌더링](preview-test/email-rendering.md)
 + 대상자 및 수신자 {#audiences}
-   + [수신자 및 대상자 작업](audience/about-recipients.md)
-   + [대상자 만들기](audience/create-audience.md)
+   + [수신자 및 대상자 시작](audience/gs-audiences-recipients.md)
+   + [수신자와 작업](audience/about-recipients.md)
+   + 대상자를 사용한 작업 {#audiences}
+      + [대상자 만들기](audience/create-audience.md)
+      + [대상자 모니터링 및 관리](audience/manage-audience.md)
    + 게재 수신자 선택 {#target-audiences}
       + [기존 대상자 선택](audience/add-audience.md)
       + [일회성 대상자 빌드](audience/one-time-audience.md)
       + [파일에서 대상자 로드](audience/file-audience.md)
       + [컨트롤 그룹 설정](audience/control-group.md)
    + [규칙 빌더를 사용하여 작업](audience/segment-builder.md)
-   + [대상자 모니터링 및 관리](audience/manage-audience.md)
    + 구독 서비스 작업 {#work-with-services}
       + [서비스 관리](audience/manage-services.md)
       + [구독자 관리](audience/manage-subscribers.md)

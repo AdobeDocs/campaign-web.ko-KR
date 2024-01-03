@@ -2,20 +2,14 @@
 title: 수신자 및 대상자 작업
 description: 수신자 Campaign 웹으로 작업하는 방법 알아보기
 badge: label="Beta"
-exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: 30786dd96dbe74c12d9af19d1c1b46b67e3d909d
+source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 21%
+source-wordcount: '449'
+ht-degree: 34%
 
 ---
 
 # 수신자 및 대상자 작업 {#about-recipients}
-
-Adobe Campaign에서 게재의 대상 모집단은 대상자입니다. 대상자는 유사한 행동 및/또는 특성을 공유하는 사람들의 집합입니다. 이 사람 컬렉션은 생성, 선택 또는 로드될 수 있습니다. [아래에 자세히 설명됨](#audiences). 대부분의 경우 대상자는 프로필로 구성되며, 프로필은 [수신자](#recipients) Adobe Campaign. 설명된 대로 차원을 변경하여 다른 대상 매핑과 작업할 수도 있습니다 [이 섹션에서](#targeting-dimensions).
-
-## 수신자란 무엇입니까? {#recipients}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
@@ -58,44 +52,3 @@ Adobe Campaign에서 게재의 대상 모집단은 대상자입니다. 대상자
 또한 뉴스레터와 같은 서비스에 대한 수신자의 구독 및 구독 취소를 관리할 수 있습니다. 에서 구독 서비스를 사용하여 작업하는 방법을 알아봅니다. [이 페이지](manage-services.md)
 
 중복 제거, 강화, 프로필 결합 및 대상자 구축을 위한 워크플로우를 구축할 수 있습니다. [이 섹션](../workflows/gs-workflows.md)에서 자세히 알아보십시오.
-
-## 대상이란 무엇입니까? {#audiences}
-
-대상자는 게재의 기본 대상, 즉 메시지를 받는 수신자입니다. 대상자의 유형은 게재 템플릿에 정의된 대상 매핑에 따라 다릅니다. 에서 게재 템플릿에 대해 자세히 알아보기 [이 페이지](../msg/delivery-template.md).
-
-대상자의 모집단을 정의하려면 다음을 수행할 수 있습니다.
-
-* [새 대상 만들기](create-audience.md) 다음에서 **[!UICONTROL 대상]** 메뉴,
-* [기존 대상자 선택](add-audience.md) 클라이언트 콘솔에 목록으로 만들어지거나 Adobe Experience Platform에서 가져옴
-* [새 대상 작성](segment-builder.md) 필터링 기준을 정의하고 결합하여 규칙 빌더로
-* [외부 파일의 대상자 사용](file-audience.md). 이 옵션은 독립형 이메일 게재에만 사용할 수 있으며 캠페인 게재에는 사용할 수 없습니다.
-
-대상자를 타깃팅할 때 다음을 정의할 수도 있습니다. **컨트롤 그룹** 대상자의 일부에 메시지를 보내지 않도록 하고 캠페인의 영향을 측정합니다. [컨트롤 그룹을 설정하는 방법 알아보기](control-group.md)
-
->[!NOTE]
->
->캠페인 워크플로우의 컨텍스트에서 메시지를 보낼 때 대상자는 특정 대상에 정의됩니다 **대상자 작성** 워크플로우 활동. 이 컨텍스트에서는 이메일 게재용 파일에서 대상자를 로드할 수 없으며, 대상자는 이 전용 활동에서만 정의됩니다. 캠페인 워크플로우에서 게재 대상을 정의하는 방법을 알아봅니다. [이 섹션](../workflows/activities/build-audience.md)
-
-## 타겟팅 차원 {#targeting-dimensions}
-
-타겟팅 차원(예: ) 대상 매핑은 작업에서 처리하는 데이터 유형입니다. 대상 모집단(수신자, 계약 수혜자, 운영자, 구독자 등)을 정의할 수 있습니다.
-
-워크플로우의 타겟팅 차원은 첫 번째 **[!UICONTROL 대상자 작성]** 활동 및 은 워크플로우가 끝날 때까지 모든 추가 활동에서 사용됩니다. 예를 들어, 데이터베이스의 수신자에 대해 쿼리를 수행하면 아웃바운드 전환에는 수신자 유형의 데이터가 포함되며 다음 활동으로 전송됩니다.
-
-를 사용하여 워크플로우에서 타겟팅 차원을 전환할 수 있습니다. [차원 활동 변경](../workflows/activities/change-dimension.md). 예를 들어 구매 또는 구독과 같은 특정 테이블에 대해 데이터베이스를 쿼리한 다음 타겟팅 차원을 수신자로 변경하여 해당 수신자에게 게재를 보낼 수 있습니다.
-
-기본적으로 이메일 및 SMS 게재 템플릿은 타겟팅됩니다 **[!UICONTROL 수신자]**. 따라서 대상 차원은 의 필드를 사용합니다 **nms:recipient** 테이블. 푸시 알림의 경우 기본 대상 차원은 입니다. **가입자 애플리케이션 nms:appSubscriptionRcp**: 수신자 테이블에 연결됩니다.
-
-아래에 나열된 워크플로우 및 게재에서 다른 내장 대상 매핑을 사용할 수도 있습니다.
-
-| 이름 | 사용 대상 | 스키마 |
-|---|---|---|
-| 수신자 | 수신자에게 게재(기본 제공 수신자 테이블) | nms:recipient |
-| 방문자 | 참조(바이럴 마케팅)를 통해 프로필이 수집된 방문자에게 제공합니다. | mns:visitor |
-| 구독 | 뉴스레터 등 정보 서비스를 구독한 수신자에게 게재 | nms:subscription |
-| 방문자 구독 | 정보 서비스를 구독한 방문자에게 게재 | nms:visitorSub |
-| 연산자 | Adobe Campaign 운영자에게 게재 | nms:operator |
-| 외부 파일 | 게재에 필요한 모든 정보가 포함된 파일을 통해 게재 | 연결된 스키마 없음, 입력된 대상 없음 |
-| 구독자 애플리케이션 | 애플리케이션을 구독한 수신자에게 게재 | nms:appSubscriptionRcp |
-
-또한 필요에 따라 새 대상 매핑을 만들 수 있습니다. 이 작업은 클라이언트 콘솔에서 수행됩니다. 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.

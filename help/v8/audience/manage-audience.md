@@ -4,10 +4,10 @@ title: 대상자 모니터링 및 관리
 description: Adobe Campaign 웹에서 대상자를 모니터링하고 관리하는 방법 알아보기
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 10%
+source-wordcount: '472'
+ht-degree: 16%
 
 ---
 
@@ -17,6 +17,21 @@ ht-degree: 10%
 >id="acw_audiences_workflow_error_data_execution"
 >title="대상자 오류"
 >abstract="대상자 데이터를 사용할 수 없습니다. 워크플로 실행이 종료될 때까지 기다려 주십시오."
+
+대상자는 게재의 기본 대상, 즉 메시지를 받는 수신자입니다. 대상자의 유형은 게재 템플릿에 정의된 대상 매핑에 따라 다릅니다. 에서 게재 템플릿에 대해 자세히 알아보기 [이 페이지](../msg/delivery-template.md).
+
+대상자의 모집단을 정의하려면 다음을 수행할 수 있습니다.
+
+* [새 대상 만들기](create-audience.md) 다음에서 **[!UICONTROL 대상]** 메뉴,
+* [기존 대상자 선택](add-audience.md) 클라이언트 콘솔에 목록으로 만들어지거나 Adobe Experience Platform에서 가져옴
+* [새 대상 작성](segment-builder.md) 필터링 기준을 정의하고 결합하여 규칙 빌더로
+* [외부 파일의 대상자 사용](file-audience.md). 이 옵션은 독립형 이메일 게재에만 사용할 수 있으며 캠페인 게재에는 사용할 수 없습니다.
+
+대상자를 타깃팅할 때 다음을 정의할 수도 있습니다. **컨트롤 그룹** 대상자의 일부에 메시지를 보내지 않도록 하고 캠페인의 영향을 측정합니다. [컨트롤 그룹을 설정하는 방법 알아보기](control-group.md)
+
+>[!NOTE]
+>
+>캠페인 워크플로우의 컨텍스트에서 메시지를 보낼 때 대상자는 특정 대상에 정의됩니다 **대상자 작성** 워크플로우 활동. 이 컨텍스트에서는 이메일 게재용 파일에서 대상자를 로드할 수 없으며, 대상자는 이 전용 활동에서만 정의됩니다. 캠페인 워크플로우에서 게재 대상을 정의하는 방법을 알아봅니다. [이 섹션](../workflows/activities/build-audience.md)
 
 Campaign 웹에서 사용할 수 있는 대상자 목록은 **[!UICONTROL 대상]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 

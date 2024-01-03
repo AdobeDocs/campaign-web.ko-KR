@@ -4,10 +4,10 @@ description: Adobe Campaign에서 테스트 프로필을 만들고 관리하는 
 feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
-adge: label="LA"
-source-git-commit: 6610095b2af486bf64a1d875b5fb793cbfdc391d
+badge: label="제한 공개"
+source-git-commit: 59094528cb3683dba7264e6b63b5166a0a91f8ed
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '545'
 ht-degree: 3%
 
 ---

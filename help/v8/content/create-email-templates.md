@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="LA"
-source-git-commit: 28b6253cfd257c5522b728222aadc92a1736200d
+source-git-commit: 1dce1bf18dd16f1e4a0f78c6b699275904de8e19
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '741'
 ht-degree: 7%
 
 ---
@@ -106,15 +106,13 @@ ht-degree: 7%
 
    ![](assets/content-template-create.png)
 
-1. 템플릿 세부 정보를 입력합니다.
+1. 템플릿 세부 정보를 입력합니다. 템플릿을 저장할 폴더를 선택할 수 있습니다. 기본적으로 콘텐츠 템플릿은 Adobe Campaign 계층의 전용 노드에 저장됩니다. **[!UICONTROL 탐색기]** > **[!UICONTROL 리소스]** > **[!UICONTROL 템플릿]** > **[!UICONTROL 콘텐츠 템플릿]**. [폴더 만들기 방법 알아보기](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
    >[!NOTE]
    >
    >현재는 **이메일** 채널 및 **HTML** 유형이 지원됩니다.
-
-1. 템플릿을 저장할 폴더를 선택합니다. 기본적으로 콘텐츠 템플릿은 Adobe Campaign 계층의 전용 노드에 저장됩니다. **[!UICONTROL 탐색기]** > **[!UICONTROL 리소스]** > **[!UICONTROL 템플릿]** > **[!UICONTROL 콘텐츠 템플릿]**. [폴더 만들기 방법 알아보기](../get-started/permissions.md#folders)
 
 1. 클릭 **[!UICONTROL 만들기]** 다양한 옵션에서 템플릿 디자인 방법을 선택합니다.
 

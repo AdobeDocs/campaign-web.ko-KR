@@ -4,7 +4,7 @@ title: 게재 보고서
 description: 게재 보고서 액세스 및 사용 방법 알아보기
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="제한 공개"
-source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
+source-git-commit: c6381387880cd967ff2c7687920c55d6936392ab
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 32%
@@ -45,7 +45,7 @@ Adobe Campaign은 각 게재에 대해 액세스할 수 있는 여러 유형의 
 
    또는 세 점을 사용할 수 있습니다 **추가 작업** 게재 목록의 게재 이름 옆에 있는 버튼을 클릭하고 을(를) 선택합니다. **[!UICONTROL 보고서 보기]**.
 
-   ![](assets/manage_delivery_report_2.png){width="50%" zoomable="yes"}
+   ![](assets/manage_delivery_report_2.png)
 
 1. 왼쪽 메뉴의 목록에서 보고서를 선택합니다.
 

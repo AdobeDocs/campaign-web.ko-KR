@@ -3,10 +3,11 @@ audience: end-user
 title: 게재를 위한 일회성 대상 구축
 description: 게재를 위한 일회성 대상을 구축하는 방법을 알아봅니다.
 badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 30%
+ht-degree: 28%
 
 ---
 
@@ -27,7 +28,7 @@ ht-degree: 30%
 
    ![](assets/segment-builder0.png)
 
-1. **직접 만들기**&#x200B;를 선택합니다. 규칙 빌더가 표시됩니다. 데이터베이스에 포함된 데이터를 필터링하여 게재 대상의 모집단을 정의할 수 있습니다. [규칙 빌더를 사용하는 방법을 알아봅니다](segment-builder.md)
+1. **직접 만들기**&#x200B;를 선택합니다. 규칙 빌더가 표시됩니다. 데이터베이스에 포함된 데이터를 필터링하여 게재 대상의 모집단을 정의할 수 있습니다. [규칙 빌더를 사용하는 방법을 알아봅니다](../query/query-modeler-overview.md)
 
    ![](assets/segment-builder.png)
 

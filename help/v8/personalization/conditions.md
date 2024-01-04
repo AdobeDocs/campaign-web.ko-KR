@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: d3afb758e11faf9c39fb14f0b30f1b9edc913ec3
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 11%
+source-wordcount: '550'
+ht-degree: 14%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 11%
 >title="조건부 콘텐츠 추가"
 >abstract="조건부 콘텐츠 필드를 구성하여 수신자 프로필 데이터를 기반으로 고급 동적 개인화를 만듭니다. 텍스트 블록, 링크, 제목 줄 및/또는 이미지는 특정 조건이 충족되면 메시지 콘텐츠에서 교체됩니다."
 
+## 조건부 콘텐츠 시작 {#gs}
+
 조건부 콘텐츠는 수신자의 프로필을 기반으로 동적 개인화를 만들 수 있는 강력한 기능으로, 특정 조건이 충족되면 자동으로 텍스트 블록 및 이미지를 대체합니다. 이 기능은 캠페인을 새로운 차원으로 끌어올리고 대상자에게 고도로 타겟팅되고 개인 맞춤화된 경험을 제공할 수 있습니다.
 
-조건부 콘텐츠 필드를 구성하여 예를 들어 수신자의 프로필을 기반으로 고급 동적 개인화를 만들 수 있습니다. 텍스트 블록, 링크, 제목 줄 및/또는 이미지는 특정 조건이 충족되면 메시지 콘텐츠에서 교체됩니다. 예를 들어 Adobe Campaign 데이터베이스의 Gender 필드 값에 따라 &#39;Mr&#39; 또는 &#39;Mrs&#39;를 표시하거나 수신자 기본 언어를 기반으로 다른 링크를 포함할 수 있습니다.
-
-## 조건부 콘텐츠를 작성하는 방법
+조건부 콘텐츠 필드를 구성하여 예를 들어 수신자의 프로필을 기반으로 고급 동적 개인화를 만들 수 있습니다. 특정 조건이 충족되면 메시지 콘텐츠에서 텍스트 블록, 링크, 제목란 및/또는 이미지가 교체됩니다. 예를 들어 Adobe Campaign 데이터베이스의 Gender 필드 값에 따라 &#39;Mr&#39; 또는 &#39;Mrs&#39;를 표시하거나 수신자 기본 언어를 기반으로 다른 링크를 포함할 수 있습니다.
 
 조건부 콘텐츠를 만들려면 **표현식 편집기** 특정 도우미 함수를 사용합니다. 이 방법은 제목란 또는 이메일 링크 및 텍스트/버튼 콘텐츠 구성 요소와 같이 표현식 편집기에 액세스할 수 있는 모든 필드의 모든 게재 채널에 사용할 수 있습니다. [표현식 편집기에 액세스하는 방법 알아보기](gs-personalization.md/#access)
 
-표현식 편집기 외에도 전용 을 활용할 수 있습니다 **조건부 콘텐츠 빌더** 프로필 속성만 사용하여 조건을 작성할 수 있는 이메일을 디자인할 때입니다. [이메일에서 조건부 콘텐츠를 만드는 방법을 알아봅니다](#condition-condition-builder)
+<!--In addition to the expression editor, you can leverage a dedicated **conditional content builder** when designing an email that allows you to build conditions using profile attributes only. [Learn how to create conditional content in emails](#condition-condition-builder)-->
 
 ## 표현식 편집기에서 조건 만들기 {#condition-perso-editor}
 
@@ -48,7 +48,7 @@ ht-degree: 11%
 1. 조건 작성을 시작하려면 옆에 있는 &#39;+&#39; 아이콘을 클릭합니다. **If** 함수. 다음 줄이 중앙 화면에 추가됩니다.`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 
    * 바꾸기 `<FIELD>` 수신자의 언어와 같은 개인화 필드 사용: `recipient.language`.
-   * 바꾸기 `<VALUE>` 를 만족시킬 값으로 채우십시오. 예제, `'French'`.
+   * 바꾸기 `<VALUE>` 를 만족시킬 값으로 채우십시오. 예를 들어, `'French'`.
    * 바꾸기 `Ìnsert content here` 지정된 조건을 충족하는 프로필에 표시할 콘텐츠로 대체합니다.
 
      ![](assets/condition-sample1.png){width="800" align="center"}
@@ -79,35 +79,38 @@ ht-degree: 11%
 
 1. 상태가 준비되면 콘텐츠를 저장하고 콘텐츠를 시뮬레이션하여 렌더링을 확인할 수 있습니다.
 
-## 이메일에 조건부 콘텐츠 만들기 {#condition-condition-builder}
+<!--SECTION REMOVED FOR LA > CONDITIONAL CONTENT NOT AVAILABLE ANYMORE FROM THE DEDICATED MENU IN THE EMAIL DESIGNER. ONLY THE EXPRESSION EDITOR IS AVAILABLE FOR NOW
 
-이메일의 조건부 콘텐츠는 다음 두 가지 방법으로 만들 수 있습니다.
-* 도우미 함수를 사용하여 조건을 빌드하여 표현식 편집기에서
-* 이메일을 디자인할 때 액세스할 수 있는 전용 조건부 콘텐츠 빌더에서.
+## Create conditional content in emails {#condition-condition-builder}
 
-표현식 편집기를 사용하여 조건을 만드는 방법에 대한 자세한 정보를 사용할 수 있습니다 [여기](#condition-perso-editor). 다음 섹션에서는 이메일 디자이너의 조건부 콘텐츠 기능을 사용하여 조건을 만드는 방법에 대한 단계별 지침을 제공합니다. 이 예제에서는 수신자의 언어를 기반으로 여러 변형이 있는 이메일 메시지를 만들려고 합니다. 다음 단계를 수행하십시오.
+Conditional content in emails can be created in two ways:
+* In the expression editor by building a condition with helper functions,
+* In a dedicated conditional content builder that is accessible when designing an email.
 
-1. 이메일 게재를 만들거나 열고 콘텐츠를 편집한 다음 **[!UICONTROL 이메일 본문 편집]** 단추를 클릭하여 전자 메일 디자인 작업 영역을 엽니다.
+Detailed information on how to create conditions using the expression editor is available [here](#condition-perso-editor). The following section provides step-by-step instructions on how to create conditions using the email designer's conditional content capability. In this example, we want to create an email message with multiple variants based on the recipients' language. Follow these steps:
 
-1. 콘텐츠 구성 요소를 선택하고 **[!UICONTROL 조건부 콘텐츠 활성화]** 아이콘.
+1. Create or open an email delivery, edit its content, and click the **[!UICONTROL Edit email body]** button to open the email designing workspace.
 
-   ![](assets/condition-email-enable.png){width="800" align="center"}
+1. Select a content component and click the **[!UICONTROL Enable conditional content]** icon.
 
-1. 다음 **[!UICONTROL 조건부 콘텐츠]** 창이 화면 왼쪽에서 열립니다. 이 창에서는 조건을 사용하여 선택한 콘텐츠 구성 요소의 변형을 여러 개 만들 수 있습니다.
+    ![](assets/condition-email-enable.png){width="800" align="center"}
 
-1. 첫 번째 변형을 구성합니다. 마우스로 가리키기 **[!UICONTROL 변형 - 1]** 다음에서 **[!UICONTROL 조건부 콘텐츠]** 창을 클릭하고 **[!UICONTROL 조건 추가]** 아이콘.
+1. The **[!UICONTROL Conditional Content]** pane opens on the left-hand side of the screen. In this pane, you can create multiple variants of the selected content component using conditions.
 
-1. 규칙 빌더가 표시됩니다. 프로필 속성을 사용하여 메시지의 첫 번째 변형에 대한 조건을 만들고 **[!UICONTROL 확인]**. 이 예제에서는 언어가 &#39;프랑스어&#39;인 수신자를 타겟팅하는 규칙을 만들고 있습니다.
+1. Configure your first variant. Hover over **[!UICONTROL Variant - 1]** in the **[!UICONTROL Conditional Content]** pane and click the **[!UICONTROL Add condition]** icon.
 
-   ![](assets/condition-email-rule.png){width="800" align="center"}
+1. A rule builder appears. Use profile attributes to create the condition for the first variant of the message and click **[!UICONTROL Confirm]**. In this example, we are creating a rule targeting recipients whose language is 'French'.
 
-1. 이제 규칙이 변형과 연결됩니다. 가독성을 높이기 위해 줄임표 메뉴를 클릭하여 변형 이름을 바꾸는 것이 좋습니다.
+    ![](assets/condition-email-rule.png){width="800" align="center"}
 
-1. 메시지를 보낼 때 규칙이 충족되는 경우 구성 요소가 표시되는 방식을 구성합니다. 이 예제에서는 수신자의 선호 언어인 경우 프랑스어로 텍스트를 표시하려고 합니다.
+1. The rule is now associated to the variant. For better readability, we recommend renaming the variant by clicking the ellipsis menu.
 
-   ![](assets/condition-email-variant1.png){width="800" align="center"}
+1. Configure how the component should display if the rule is met when sending the message. In this example, we want to display the text in French if it is the recipient's preferred language.
 
-1. 콘텐츠 구성 요소에 필요한 만큼 변형을 추가합니다. 언제든지 변형 간을 전환하여 조건부 규칙에 따라 콘텐츠 구성 요소가 표시되는 방식을 확인할 수 있습니다.
+    ![](assets/condition-email-variant1.png){width="800" align="center"}
 
-   >[!NOTE]
-   >메시지를 보낼 때 변형에 정의된 규칙을 충족하지 않는 경우 콘텐츠 구성 요소는에 정의된 콘텐츠를 표시합니다. **[!UICONTROL 기본 변형]** 다음에서 **[!UICONTROL 조건부 콘텐츠]** 창.
+1. Add as many variants as needed for the content component. You can switch between the variants at any time to check how the content component will display based on their conditional rules.
+
+    >[!NOTE]
+    >If none of the rules defined in the variants are met when sending the message, the content component will display the content defined in the **[!UICONTROL Default variant]** from the **[!UICONTROL Conditional Content]** pane.
+-->

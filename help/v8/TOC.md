@@ -5,9 +5,9 @@ title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: 캠페인 개요
 hide: true
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '504'
 ht-degree: 86%
 
 ---
@@ -87,10 +87,10 @@ ht-degree: 86%
       + [메시지 콘텐츠 미리보기](preview-test/preview-content.md)
       + [테스트 게재 전송](preview-test/test-deliveries.md)
       + [이메일 렌더링](preview-test/email-rendering.md)
-+ 대상자 및 수신자 {#audiences}
-   + [수신자 및 대상자 시작](audience/gs-audiences-recipients.md)
-   + 수신자와 작업 {#work-with-recipients}
-      + [프로필 관리](audience/about-recipients.md)
++ 프로필 및 대상자 {#audiences}
+   + [프로필 및 대상자 시작](audience/gs-audiences-recipients.md)
+   + 프로필 작업 {#work-with-profiles}
+      + [프로필 모니터링 및 관리](audience/about-recipients.md)
       + [테스트 프로필 만들기 및 관리](audience/test-profiles.md)
    + 대상자를 사용한 작업 {#audiences}
       + [대상자 만들기](audience/create-audience.md)
@@ -100,7 +100,6 @@ ht-degree: 86%
       + [일회성 대상자 빌드](audience/one-time-audience.md)
       + [파일에서 대상자 로드](audience/file-audience.md)
       + [컨트롤 그룹 설정](audience/control-group.md)
-   + [규칙 빌더를 사용하여 작업](audience/segment-builder.md)
    + 구독 서비스 작업 {#work-with-services}
       + [서비스 관리](audience/manage-services.md)
       + [구독자 관리](audience/manage-subscribers.md)

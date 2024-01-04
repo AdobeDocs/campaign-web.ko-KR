@@ -3,39 +3,55 @@ title: 프로필 및 대상자 시작
 description: Campaign 웹에서 프로필 및 대상자를 사용하여 작업하는 방법을 알아봅니다
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="제한 공개"
-source-git-commit: 9e6f0a5894ae0b31d275f978553d7fc73ba9c2eb
+source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 4%
+source-wordcount: '203'
+ht-degree: 17%
 
 ---
 
 # 프로필 및 대상자 시작 {#about-profiles}
 
-## 프로필 및 대상자 {#about}
+Adobe Campaign 웹에서 **프로필** 는 데이터베이스에 저장된 개인으로, 게재 대상을 만들고 콘텐츠에 개인화 데이터를 추가하는 주요 구성 요소 역할을 합니다. 데이터베이스에는 다음과 같은 다양한 유형의 프로필이 저장됩니다. **테스트 프로필**: 최종 대상자에게 전송되기 전에 게재를 테스트하도록 설계되었습니다.
 
-Adobe Campaign에서 게재의 대상 모집단은 대상자입니다. 대상자는 유사한 행동 및/또는 특성을 공유하는 프로필 세트입니다. 이 사람 컬렉션은 생성, 선택 또는 로드될 수 있습니다. [아래에 자세히 설명됨](#audiences).
+**대상** 는 유사한 비헤이비어 및/또는 특성을 공유하는 프로필 세트입니다. 이 사람 컬렉션은 생성, 선택 또는 로드될 수 있습니다.  대상자가 만들어지면 게재의 대상 모집단으로 활용할 수 있습니다.
 
-## 타겟팅 차원 {#targeting-dimensions}
+또한 Adobe Campaign 웹을 사용하여 를 관리하고 생성할 수 있습니다 **서비스** 예: 뉴스레터 및 이러한 서비스에 대한 구독 또는 구독 취소를 확인합니다. 완료되면 구독자를 추가하고, 프로필 구독을 취소하고, 서비스 구독자에게 메시지를 보낼 수 있습니다.
 
-타겟팅 차원(예: ) 대상 매핑은 작업에서 처리하는 데이터 유형입니다. 대상 모집단(프로필, 계약 수혜자, 운영자, 구독자 등)을 정의할 수 있습니다.
+Adobe Campaign Web을 통해 무엇을 할 수 있는지 이해했으므로 이제 해당 설명서 섹션을 자세히 살펴보고 기능을 사용하여 작업을 시작할 차례입니다.
 
-워크플로우의 타겟팅 차원은 첫 번째 **[!UICONTROL 대상자 작성]** 활동 및 은 워크플로우가 끝날 때까지 모든 추가 활동에서 사용됩니다. 예를 들어, 데이터베이스의 프로필에 대해 쿼리를 수행하면 아웃바운드 전환에 &#39;recipient&#39; 유형의 데이터가 포함되며 다음 활동으로 전송됩니다.
-
-를 사용하여 워크플로우에서 타겟팅 차원을 전환할 수 있습니다. [차원 활동 변경](../workflows/activities/change-dimension.md). 예를 들어 구매 또는 구독과 같은 특정 테이블에서 데이터베이스를 쿼리한 다음 타겟팅 차원을 수신자로 변경하여 해당 프로필로 게재를 보낼 수 있습니다.
-
-기본적으로 이메일 및 SMS 게재 템플릿은 프로필을 타겟팅합니다. 따라서 대상 차원은 의 필드를 사용합니다 **nms:recipient** 테이블. 푸시 알림의 경우 기본 대상 차원은 입니다. **가입자 애플리케이션 nms:appSubscriptionRcp**: 수신자 테이블에 연결됩니다.
-
-아래에 나열된 워크플로우 및 게재에서 다른 내장 대상 매핑을 사용할 수도 있습니다.
-
-| 이름 | 사용 대상 | 스키마 |
-|---|---|---|
-| 수신자 | 수신자에게 게재(기본 제공 수신자 테이블) | nms:recipient |
-| 방문자 | 참조(바이럴 마케팅)를 통해 프로필이 수집된 방문자에게 제공합니다. | mns:visitor |
-| 구독 | 뉴스레터 등 정보 서비스를 구독한 수신자에게 게재 | nms:subscription |
-| 방문자 구독 | 정보 서비스를 구독한 방문자에게 게재 | nms:visitorSub |
-| 연산자 | Adobe Campaign 운영자에게 게재 | nms:operator |
-| 외부 파일 | 게재에 필요한 모든 정보가 포함된 파일을 통해 게재 | 연결된 스키마 없음, 입력된 대상 없음 |
-| 구독자 애플리케이션 | 애플리케이션을 구독한 수신자에게 게재 | nms:appSubscriptionRcp |
-
-또한 필요에 따라 새 대상 매핑을 만들 수 있습니다. 이 작업은 클라이언트 콘솔에서 수행됩니다. 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="about-recipients.md">
+<img src="../assets/do-not-localize/profiles-audiences-profile.png">
+</a>
+<div>
+<a href="manage-audience.md"><strong>프로필 모니터링 및 관리</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="test-profiles.md">
+<img alt="리드" src="../assets/do-not-localize/profiles-audiences-audience.png">
+</a>
+<div><a href="conditions.md"><strong>대상자 만들기</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="manage-services.md">
+<img alt="저빈도" src="../assets/do-not-localize/profiles-audiences-service.png">
+</a>
+<div>
+<a href="content-blocks.md"><strong>서비스 관리</strong></a>
+</div>
+<p></td>
+<td>
+<a href="add-audience.md">
+<img alt="저빈도" src="../assets/do-not-localize/profiles-audiences-deliveries.png">
+</a>
+<div>
+<a href="content-blocks.md"><strong>게재 수신자 선택</strong></a>
+</div>
+<p></td>
+</tr></table>

@@ -5,9 +5,9 @@ title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: 캠페인 개요
 hide: true
-source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
+source-git-commit: 2685e1eb73adc72f468985aaf80e439ae3f46d34
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '506'
 ht-degree: 86%
 
 ---
@@ -35,32 +35,32 @@ ht-degree: 86%
    + 이메일 {#email}
       + [첫 이메일 만들기](email/create-email.md)
       + 이메일 콘텐츠 정의 {#content}
-         + [이메일 콘텐츠 구성](content/edit-content.md)
-         + [콘텐츠 템플릿 작업](content/create-email-templates.md)
+         + [이메일 콘텐츠 구성](email/edit-content.md)
+         + [콘텐츠 템플릿 작업](email/create-email-templates.md)
          + 이메일 구성 시작 {#start-design}
-            + [이메일 디자이너 시작](content/get-started-email-designer.md)
-            + [처음부터 시작하기](content/create-email-content.md)
-            + [이메일 콘텐츠 가져오기](content/existing-content.md)
-            + [자체 콘텐츠 코딩](content/code-content.md)
-            + [이메일 콘텐츠 템플릿 사용](content/use-email-templates.md)
+            + [이메일 디자이너 시작](email/get-started-email-designer.md)
+            + [처음부터 시작하기](email/create-email-content.md)
+            + [이메일 콘텐츠 가져오기](email/existing-content.md)
+            + [자체 콘텐츠 코딩](email/code-content.md)
+            + [이메일 콘텐츠 템플릿 사용](email/use-email-templates.md)
          + 이메일 콘텐츠 디자인 {#design-content}
-            + [콘텐츠 구성 요소 사용](content/content-components.md)
-            + [링크 추가 및 메시지 추적](content/message-tracking.md)
-            + [미러 페이지에 대한 링크 추가](content/mirror-page.md)
-            + [프리 헤더 추가](content/preheader.md)
-            + [텍스트 버전 생성](content/text-version-email.md)
-            + [Adobe Experience Manager Assets as a Cloud Service로 자산 관리](content/aem-assets.md)
+            + [콘텐츠 구성 요소 사용](email/content-components.md)
+            + [링크 추가 및 메시지 추적](email/message-tracking.md)
+            + [미러 페이지에 대한 링크 추가](email/mirror-page.md)
+            + [프리 헤더 추가](email/preheader.md)
+            + [텍스트 버전 생성](email/text-version-email.md)
+            + [Adobe Experience Manager Assets as a Cloud Service로 자산 관리](email/aem-assets.md)
          + 콘텐츠 지원 {#content-assistant}
-            + [콘텐츠 지원 시작하기](content/generative-gs.md)
-            + [콘텐츠 지원을 사용하여 텍스트 생성](content/generative-content.md)
-            + [콘텐츠 지원을 사용하여 이미지 생성](content/generative-image.md)
-            + [콘텐츠 지원을 사용하여 이메일 생성](content/generative-email.md)
+            + [콘텐츠 지원 시작하기](email/generative-gs.md)
+            + [콘텐츠 지원을 사용하여 텍스트 생성](email/generative-content.md)
+            + [콘텐츠 지원을 사용하여 이미지 생성](email/generative-image.md)
+            + [콘텐츠 지원을 사용하여 이메일 생성](email/generative-email.md)
          + 콘텐츠 스타일 지정 {#style}
-            + [이메일 스타일 시작하기](content/get-started-email-style.md)
-            + [배경 설정 편집](content/backgrounds.md)
-            + [수직 정렬 및 패딩 조정](content/alignment-and-padding.md)
-            + [링크 스타일 정의](content/styling-links.md)
-            + [인라인 스타일 속성 추가](content/inline-styling.md)
+            + [이메일 스타일 시작하기](email/get-started-email-style.md)
+            + [배경 설정 편집](email/backgrounds.md)
+            + [수직 정렬 및 패딩 조정](email/alignment-and-padding.md)
+            + [링크 스타일 정의](email/styling-links.md)
+            + [인라인 스타일 속성 추가](email/inline-styling.md)
       + 이메일 전송 및 모니터링 {#monitor}
          + [이메일 준비 및 전송](monitor/prepare-send.md)
          + [게재 로그 모니터링](monitor/delivery-logs.md)
@@ -80,8 +80,8 @@ ht-degree: 86%
       + [개인화 추가](personalization/personalize.md)
       + [조건부 콘텐츠 추가](personalization/conditions.md)
       + [내장된 콘텐츠 블록 추가](personalization/content-blocks.md)
-   + [메시지에 오퍼 추가](content/offers.md)
-   + [구독자에게 메시지 전송](content/send-to-subscribers.md)
+   + [메시지에 오퍼 추가](msg/offers.md)
+   + [구독자에게 메시지 전송](msg/send-to-subscribers.md)
    + 게재 미리보기 및 테스트 {#preview-test}
       + [미리보기 및 테스트 정보](preview-test/preview-test.md)
       + [메시지 콘텐츠 미리보기](preview-test/preview-content.md)
@@ -89,6 +89,7 @@ ht-degree: 86%
       + [이메일 렌더링](preview-test/email-rendering.md)
 + 프로필 및 대상자 {#audiences}
    + [프로필 및 대상자 시작](audience/gs-audiences-recipients.md)
+   + [타겟팅 차원](audience/targeting-dimensions.md)
    + 프로필 작업 {#work-with-profiles}
       + [프로필 모니터링 및 관리](audience/about-recipients.md)
       + [테스트 프로필 만들기 및 관리](audience/test-profiles.md)

@@ -4,7 +4,7 @@ title: 기존 대상자 선택
 description: 대상자 선택 방법 알아보기
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+source-git-commit: 7891ae64a8b5a5929a70974af317865b08cc0e68
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 34%
@@ -40,7 +40,7 @@ ht-degree: 34%
 
    ![](assets/select-audience-folder.png)
 
-1. 필터 섹션에서 필터링 옵션에 액세스하여 대상자 목록을 세분화할 수 있습니다. 이렇게 하려면 다음을 클릭하십시오. **규칙 추가** 대상자 목록에 대한 고급 필터를 만들 수 있는 규칙 빌더에 액세스하려면 . [규칙 빌더를 사용하는 방법을 알아봅니다](segment-builder.md)
+1. 필터 섹션에서 필터링 옵션에 액세스하여 대상자 목록을 세분화할 수 있습니다. 이렇게 하려면 다음을 클릭하십시오. **규칙 추가** 대상자 목록에 대한 고급 필터를 만들 수 있는 규칙 빌더에 액세스하려면 . [규칙 빌더를 사용하는 방법을 알아봅니다](../query/query-modeler-overview.md)
 
    ![](assets/create-audience4.png)
 

@@ -4,7 +4,7 @@ title: 첫 이메일 보내기
 description: Campaign Web UI를 사용하여 첫 이메일을 전송하는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 225585f572580bc724c0a955cc1c01da87f37ee2
+source-git-commit: 337f2f063e54e8b50446780a0ce89c529c8d743a
 workflow-type: tm+mt
 source-wordcount: '1314'
 ht-degree: 70%
@@ -24,7 +24,7 @@ ht-degree: 70%
 
 첫 번째 타겟팅된 이메일을 작성하는 방법에 대해 알아봅니다. 이 사용 사례에서는 특정 일자에 실버 및 골드 충성도 회원에게 이메일을 전송하도록 예약합니다.
 
-사전 정의된 항목 기반 [디자인 템플릿](../content/create-email-templates.md), 이메일에는 고객 프로필 속성에 따라 개인화된 콘텐츠도 포함되어 있습니다.
+사전 정의된 항목 기반 [디자인 템플릿](../email/create-email-templates.md), 이메일에는 고객 프로필 속성에 따라 개인화된 콘텐츠도 포함되어 있습니다.
 
 ## 이메일 게재 만들기 {#create-email}
 
@@ -104,13 +104,13 @@ ht-degree: 70%
 
 이메일 콘텐츠를 만들려면 아래 단계를 수행하십시오. 이 사용 사례에서는 사전 정의된 이메일을 사용합니다 [게재 템플릿](../msg/delivery-template.md) 이메일을 디자인할 수 있습니다.<!--TBC delivery template or email content template?-->
 
-<!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
+<!--Detailed instructions on how to configure the email content are available in [this section](../email/edit-content.md).-->
 
 1. 이메일 게재 대시보드에서 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭합니다.
 
    ![](assets/email-edit-content.png)
 
-   이렇게 하면 이메일 콘텐츠를 구성하고 이메일 디자이너에 액세스할 수 있는 전용 인터페이스로 이동합니다. [자세히 알아보기](../content/edit-content.md)
+   이렇게 하면 이메일 콘텐츠를 구성하고 이메일 디자이너에 액세스할 수 있는 전용 인터페이스로 이동합니다. [자세히 알아보기](edit-content.md)
 
    ![](assets/edit-content.png)
 
@@ -120,11 +120,11 @@ ht-degree: 70%
 
 1. 이메일 콘텐츠를 디자인하려면 **[!UICONTROL 이메일 본문 편집]** 버튼을 클릭합니다.
 
-   이메일 콘텐츠를 만드는 데 사용할 방법을 선택합니다. 이 예에서는 [사전 정의된 콘텐츠 템플릿](../content/create-email-templates.md).
+   이메일 콘텐츠를 만드는 데 사용할 방법을 선택합니다. 이 예에서는 [사전 정의된 콘텐츠 템플릿](create-email-templates.md).
 
    ![](assets/select-template.png)
 
-1. 템플릿을 선택하면 해당 템플릿이에 표시됩니다. [이메일 디자이너](../content/create-email-content.md)필요한 편집을 하고 개인화를 추가할 수 있는 곳입니다.
+1. 템플릿을 선택하면 해당 템플릿이에 표시됩니다. [이메일 디자이너](create-email-content.md)필요한 편집을 하고 개인화를 추가할 수 있는 곳입니다.
 
    예를 들어 이메일 제목에 개인화를 추가하려면 구성 요소 블록을 선택하고 **[!UICONTROL 개인화 추가]**&#x200B;를 클릭하십시오.
 

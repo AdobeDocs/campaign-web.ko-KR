@@ -3,7 +3,7 @@ audience: end-user
 title: 글로벌 보고서 시작
 description: 글로벌 보고서 이해
 badge: label="제한된 가용성"
-source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
+source-git-commit: 6470acfbba105097230b63d504f7a73c0a08484c
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 각 채널에 대한 보고서 및 관련 지표의 전체 목록은 다음 페이지에서 사용할 수 있습니다.
 
 * [이메일 글로벌 보고서](global-report-email.md)
-* [SMS 글로벌 보고서](global-report-email-sms.md)
+* [SMS 글로벌 보고서](global-report-sms.md)
 * [글로벌 보고서 푸시](global-report-push.md)
 
 ## 보고서 대시보드 관리 {#manage-reports}

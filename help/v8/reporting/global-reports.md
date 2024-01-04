@@ -3,9 +3,9 @@ audience: end-user
 title: 글로벌 보고서 시작
 description: 글로벌 보고서 이해
 badge: label="제한된 가용성"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,13 @@ ht-degree: 0%
 
 # 글로벌 보고서 시작 {#global-report-gs}
 
-글로벌 보고서는 모든 채널의 트래픽 및 참여에 대한 포괄적인 개요를 제공하며 캠페인 및 게재 성능에 대한 고유한 통찰력을 제공하는 다양한 위젯을 제공합니다.
+다음 **글로벌 보고서** 는 Campaign 인스턴스 내의 각 채널에 대한 트래픽 및 참여 지표에 대한 통합된 전체 요약을 제공하는 효과적인 도구입니다. 이러한 보고서는 다양한 위젯으로 구성되며, 각 위젯은 캠페인 또는 게재 성과에 대한 고유한 관점을 제공합니다.
+
+각 채널에 대한 보고서 및 관련 지표의 전체 목록은 다음 페이지에서 사용할 수 있습니다.
+
+* [이메일 글로벌 보고서](global-report-email.md)
+* [SMS 글로벌 보고서](global-report-email-sms.md)
+* [글로벌 보고서 푸시](global-report-push.md)
 
 ## 보고서 대시보드 관리 {#manage-reports}
 
@@ -29,7 +35,7 @@ ht-degree: 0%
 
    ![](assets/global_report_manage_2.png)
 
-1. 클릭 **[!UICONTROL 규칙 추가]** 보고 데이터를 더 잘 필터링하기 위한 쿼리 작성을 시작합니다.
+1. 클릭 **[!UICONTROL 규칙 추가]** 보고 데이터를 더 잘 필터링하기 위한 쿼리 작성을 시작합니다. [쿼리 모델러를 사용하는 방법 알아보기](../query/query-modeler-overview.md)
 
 1. 다음에서 **[!UICONTROL URL 및 클릭 스트림]**, 다음을 선택할 수도 있습니다. **[!UICONTROL 가장 많이 방문한 링크]** 또는 **[!UICONTROL 기간]**.
 

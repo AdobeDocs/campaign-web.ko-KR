@@ -3,7 +3,7 @@ title: 프로필 및 대상자 시작
 description: Campaign 웹에서 프로필 및 대상자를 사용하여 작업하는 방법을 알아봅니다
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="제한 공개"
-source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
+source-git-commit: f3e092abff7b1c84e20cce32be1011768cc96397
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 17%
@@ -26,15 +26,15 @@ Adobe Campaign Web을 통해 무엇을 할 수 있는지 이해했으므로 이�
 <img src="../assets/do-not-localize/profiles-audiences-profile.png">
 </a>
 <div>
-<a href="manage-audience.md"><strong>프로필 모니터링 및 관리</strong></a>
+<a href="about-recipients.md"><strong>프로필 모니터링 및 관리</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="test-profiles.md">
+<a href="create-audience.md">
 <img alt="리드" src="../assets/do-not-localize/profiles-audiences-audience.png">
 </a>
-<div><a href="conditions.md"><strong>대상자 만들기</strong>
+<div><a href="create-audience.md"><strong>대상자 만들기</strong>
 </div>
 <p>
 </td>
@@ -43,7 +43,7 @@ Adobe Campaign Web을 통해 무엇을 할 수 있는지 이해했으므로 이�
 <img alt="저빈도" src="../assets/do-not-localize/profiles-audiences-service.png">
 </a>
 <div>
-<a href="content-blocks.md"><strong>서비스 관리</strong></a>
+<a href="manage-services.md"><strong>서비스 관리</strong></a>
 </div>
 <p></td>
 <td>
@@ -51,7 +51,7 @@ Adobe Campaign Web을 통해 무엇을 할 수 있는지 이해했으므로 이�
 <img alt="저빈도" src="../assets/do-not-localize/profiles-audiences-deliveries.png">
 </a>
 <div>
-<a href="content-blocks.md"><strong>게재 수신자 선택</strong></a>
+<a href="add-audience.md"><strong>게재 수신자 선택</strong></a>
 </div>
 <p></td>
 </tr></table>

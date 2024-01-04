@@ -4,10 +4,10 @@ title: 게재 설정
 description: Campaign 웹에서 게재 설정에 대해 자세히 알아보기
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
+source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
 workflow-type: tm+mt
-source-wordcount: '2159'
-ht-degree: 80%
+source-wordcount: '2110'
+ht-degree: 81%
 
 ---
 
@@ -119,10 +119,9 @@ ht-degree: 80%
 >title="게재에 대한 대상자 설정"
 >abstract="사용 가능한 **대상 매핑** 중 원하는 옵션을 선택합니다. 대상 매핑은 Adobe Campaign v8 콘솔에서 정의됩니다. 게재에 대한 제외 매개변수를 설정할 수도 있습니다. "
 
-이 섹션에서는 사용 가능한 **대상 매핑** 중 원하는 옵션을 선택할 수 있습니다. 대상 매핑은 Adobe Campaign v8 콘솔에서 정의됩니다. 타겟팅 차원 또는 타겟 매핑은 작업에서 처리하는 데이터 유형입니다. 대상 모집단(수신자, 계약 수혜자, 운영자, 구독자 등)을 정의할 수 있습니다.
+이 섹션에서는 사용 가능한 **대상 매핑** 중 원하는 옵션을 선택할 수 있습니다. 대상 매핑은 Adobe Campaign v8 콘솔에서 정의됩니다. 대상 매핑은 작업에서 처리하는 데이터 유형입니다. 대상 모집단(수신자, 계약 수혜자, 운영자, 구독자 등)을 정의할 수 있습니다.
 
-
-다음에서 대상 매핑에 대해 자세히 알아보기: [이 섹션](../audience/about-recipients.md#targeting-dimensions).
+다음에서 대상 매핑에 대해 자세히 알아보기: [이 섹션](../audience/targeting-dimensions.md).
 
 ## 게재 {#delivery}
 
@@ -147,7 +146,7 @@ ht-degree: 80%
 >title="게재에 대한 웹 분석 설정"
 >abstract="웹 분석 계정을 선택합니다. 이 계정은 Campaign 클라이언트 콘솔에서 구성됩니다. 사용 중인 분석 도구와 공유되는 태그를 정의할 수도 있습니다."
 
-이 섹션에서 웹 분석 계정을 선택할 수 있습니다. 이 계정은 Campaign 클라이언트 콘솔에서 구성됩니다.
+이 섹션에서 웹 분석 계정을 선택할 수 있습니다. 이 계정은 Campaign 클라이언트 콘솔에 구성됩니다.
 
 사용 중인 분석 도구와 공유되는 태그를 정의할 수도 있습니다.
 

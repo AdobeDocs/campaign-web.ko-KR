@@ -4,7 +4,7 @@ title: Adobe Experience Manager Assets as a Cloud Service로 자산 관리
 description: Adobe Experience Manager Assets as a Cloud Service으로 자산을 관리하는 방법 알아보기
 badge: label="Beta"
 exl-id: c1e548b1-f4c6-4672-9724-edfc418063a6
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: f3295f2151c6c7d8a24bc2d7bc8bd48ebf071378
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 4%
@@ -17,13 +17,13 @@ ht-degree: 4%
 
 [!DNL Adobe Experience Manager Assets as a Cloud Service] 는 크리에이티브 워크플로를 간소화하고 디지털 자산을 중앙 집중화하여 원활한 경험 전달을 제공하도록 설계된 통합 협업 플랫폼입니다. 승인된 프로덕션 자산의 구성, 태깅 및 검색을 단순화하여 팀 간의 브랜드 일관성을 보장합니다. 사용자에게 친숙한 인터페이스를 통해 [!DNL Assets as Cloud Service] 을 사용하면 Adobe 크리에이티브 및 Experience Cloud 애플리케이션 내에서 자산에 즉시 액세스하고 공유할 수 있습니다.
 
-다음에서 자세히 알아보기 [Adobe Experience Manager Assets as a Cloud Service 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/email/assets/home.html){target="_blank"}.
+다음에서 자세히 알아보기 [Adobe Experience Manager Assets as a Cloud Service 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html){target="_blank"}.
 
 ## 에셋 업로드 및 삽입{#add-asset}
 
 파일을 가져올 위치 [!DNL Assets as Cloud Service], 먼저 저장하려는 폴더를 찾아보거나 만들어야 합니다. 그러면 이메일 콘텐츠에 삽입할 수 있습니다.
 
-에셋을 업로드하는 방법에 대한 자세한 내용은 [Adobe Experience Manager Assets as a Cloud Service 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/email/assets/assets-view/add-delete-assets-view.html){target="_blank"}.
+에셋을 업로드하는 방법에 대한 자세한 내용은 [Adobe Experience Manager Assets as a Cloud Service 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/add-delete-assets-view.html){target="_blank"}.
 
 1. 홈 페이지에서 고급 메뉴에 액세스하고 을 선택합니다. [!DNL Experience Manager Assets].
 
@@ -47,11 +47,11 @@ ht-degree: 4%
 
 1. 고급 에셋 관리 메뉴에 액세스하려면 방금 업로드한 에셋을 선택합니다.
 
-   에셋 관리 방법에 대한 자세한 내용은 다음을 참조하십시오. [페이지](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/email/assets/assets-view/manage-organize-assets-view.html).
+   에셋 관리 방법에 대한 자세한 내용은 다음을 참조하십시오. [페이지](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/manage-organize-assets-view.html).
 
    ![](assets/assets_4.png)
 
-1. Adobe Photoshop Express으로 에셋을 추가로 편집하려면 에셋을 더블 클릭합니다. 그런 다음 오른쪽 메뉴에서 **[!UICONTROL 편집 모드]** 아이콘. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/email/assets/assets-view/edit-images-assets-view.html#edit-using-express){target="_blank"}.
+1. Adobe Photoshop Express으로 에셋을 추가로 편집하려면 에셋을 더블 클릭합니다. 그런 다음 오른쪽 메뉴에서 **[!UICONTROL 편집 모드]** 아이콘. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/edit-images-assets-view.html#edit-using-express){target="_blank"}.
 
 1. 출처: [!DNL Adobe Campaign]를 선택하고 **[!UICONTROL 자산 선택기]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 

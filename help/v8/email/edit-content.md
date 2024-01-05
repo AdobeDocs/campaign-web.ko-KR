@@ -4,7 +4,7 @@ title: 이메일 콘텐츠 편집
 description: Campaign Web UI에서 이메일 콘텐츠를 편집하는 방법 알아보기
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 888fc53c85d0a3f1c28e7d4130cf94d48dea40c1
+source-git-commit: f3bb9f98a9f4c3e1b113b07aa868cd77b06588cb
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 47%
@@ -86,7 +86,7 @@ ht-degree: 47%
 
 1. 이메일과 함께 오퍼를 보내려면 **[!UICONTROL 오퍼 설정]** 단추를 클릭합니다.
 
-   그런 다음 개인화 필드를 사용하여 선택한 오퍼를 이메일에 삽입할 수 있습니다. [오퍼 전송 방법 알아보기](offers.md)
+   그런 다음 개인화 필드를 사용하여 선택한 오퍼를 이메일에 삽입할 수 있습니다. [오퍼 전송 방법 알아보기](../msg/offers.md)
 
 1. 다음을 클릭합니다. **[!UICONTROL 이메일 본문 편집]** 단추를 사용하여 전자 메일 콘텐츠 구조 및 디자인 [이메일 디자이너](get-started-email-designer.md#start-authoring). 이메일 콘텐츠를 디자인하는 방법에 대한 추가 정보는 다음 섹션에서 확인할 수 있습니다.
 

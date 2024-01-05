@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="제한 공개"
-source-git-commit: 78f9bba52f33fac0e444afb3476873d931a873d1
+source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 3%
+source-wordcount: '516'
+ht-degree: 2%
 
 ---
 
@@ -35,15 +35,25 @@ ht-degree: 3%
 
 ![](assets/test-profile-list.png)
 
-특정 항목을 필터링할 수 있습니다 [폴더](../get-started/permissions.md#folders) 드롭다운 목록 사용 또는 다음을 사용하여 규칙 추가 [쿼리 모델러](../query/query-modeler-overview.md).
+* 특정 항목을 필터링할 수 있습니다 [폴더](../get-started/permissions.md#folders) 드롭다운 목록 사용 또는 다음을 사용하여 규칙 추가 [쿼리 모델러](../query/query-modeler-overview.md).
 
-![](assets/test-profile-list-filters.png)
+  ![](assets/test-profile-list-filters.png)
 
-테스트 프로필을 편집하려면 목록에서 원하는 항목을 클릭합니다.
+* 테스트 프로필을 복제하고 필요에 따라 편집할 수 있습니다.
 
-테스트 프로필을 삭제하려면 **[!UICONTROL 추가 작업]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+* 테스트 프로필을 삭제하려면 **[!UICONTROL 추가 작업]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-![](assets/test-profile-list-delete.png)
+  ![](assets/test-profile-list-delete.png)
+
+* 테스트 프로필을 편집하려면 목록에서 원하는 항목을 클릭합니다.
+
+다음을 통해 테스트 프로필에 액세스할 수도 있습니다. **[!UICONTROL 탐색기]** 보기, 에서 **[!UICONTROL 리소스]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 시드 주소]** 노드.
+
+여기에서 폴더 또는 하위 폴더를 탐색, 생성 및 관리하고 관련 권한을 확인할 수 있습니다. [폴더 만들기 방법 알아보기](../get-started/permissions.md#folders)
+
+![](assets/test-profiles-folders.png)
+
+다음에서 **[!UICONTROL 탐색기]** 보기 필터링, 삭제, 편집 및 [만들기](#create-test-profile) 테스트 프로필.
 
 ## 테스트 프로필 만들기 {#create-test-profile}
 
@@ -66,7 +76,7 @@ ht-degree: 3%
    >
    >다음 **[!UICONTROL 레이블]** 필드는 사용자가 정의한 이름과 성으로 자동으로 채워집니다.
 
-1. 기본적으로 테스트 프로필은 **[!UICONTROL 시드 주소]** 폴더를 삭제합니다. 원하는 위치로 이동하여 변경할 수 있습니다. [자세히 알아보기](#seed-addresses-folders)
+1. 기본적으로 테스트 프로필은 **[!UICONTROL 시드 주소]** 폴더를 삭제합니다. 원하는 위치로 이동하여 변경할 수 있습니다. [폴더 작업 방법 알아보기](../get-started/permissions.md#folders)
 
    ![](assets/test-profile-folder.png)
 
@@ -78,7 +88,7 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
    ![](assets/test-profile-address.png)
 
-1. 을(를) 선택하는 경우 **[!UICONTROL 더 이상 연락하지 않음(모든 채널에서)]** 확인란, 프로필은 차단 목록에 있습니다. 이러한 수신자는 더 이상 채널(이메일, SMS 등)을 타겟팅하지 않습니다.
+1. 을(를) 선택하는 경우 **[!UICONTROL 더 이상 연락하지 않음(모든 채널에서)]** 확인란, 테스트 프로필은 차단 목록에 추가하다에 있습니다. 이러한 수신자는 더 이상 채널(이메일, SMS 등)을 타겟팅하지 않습니다.
 
 1. 다음에서 **[!UICONTROL 추가 데이터]** 탭에서 데이터 관리 워크플로우에서 만든 게재에 사용되고 특정 값을 지정할 개인화 데이터를 입력합니다. [워크플로우에 대해 자세히 알아보기](../workflows/gs-workflows.md)
 
@@ -92,16 +102,5 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
 
-## 시드 주소 폴더 관리 {#seed-addresses-folders}
-
-시드 주소는 Adobe Campaign 계층의 전용 노드에 저장됩니다. **[!UICONTROL 탐색기]** > **[!UICONTROL 리소스]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL 시드 주소]**.
-
-테스트 프로필을 구성하려면 추가 작업 드롭다운 목록에서 하위 폴더를 만들 수 있습니다. [폴더 만들기 방법 알아보기](../get-started/permissions.md#folders)
-
-![](assets/test-profile-sub-folders.png)
-
-다음 위치에서 테스트 프로필을 만들 수도 있습니다. **[!UICONTROL 시드 주소]** 폴더 또는 하위 폴더입니다. 모든 세부 정보를 다음에서 수행하는 것과 동일한 방식으로 입력합니다. **[!UICONTROL 고객 관리]** > **[!UICONTROL 프로필]** 메뉴 아래의 제품에서 사용할 수 있습니다. [자세히 알아보기](#create-test-profile)
-
-테스트 프로필을 편집하려면 **[!UICONTROL 테스트 프로필]** 또는 탭이 저장된 폴더에서 을 선택합니다.
 
 

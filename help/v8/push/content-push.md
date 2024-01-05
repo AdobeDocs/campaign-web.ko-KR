@@ -2,11 +2,11 @@
 audience: end-user
 title: 푸시 알림 게재 디자인
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 디자인하는 방법을 알아봅니다
-badge: label="Beta"
+badge: label="제한 공개"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1534'
 ht-degree: 38%
 
 ---
@@ -151,7 +151,7 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 | **[!UICONTROL 정리 배지]** | 애플리케이션 아이콘에 표시된 배지 값을 새로 고치려면 이 옵션을 활성화합니다. 이는 배지가 읽지 않은 새로운 정보의 수를 정확하게 반영하도록 한다. |
 | **[!UICONTROL 알림 수]** | 읽지 않은 새 정보의 수를 나타내는 애플리케이션 아이콘에 직접 표시되는 숫자를 설정하십시오. 이를 통해 사용자에게 빠른 시각적 참조를 제공합니다. |
 | **[!UICONTROL 볼륨]** | 0~100의 사운드 볼륨입니다. |
-| **[!UICONTROL 변경 가능한 콘텐츠]** | 모바일 애플리케이션이 알림과 연관된 미디어 콘텐츠를 다운로드하도록 하려면 이 옵션을 활성화합니다. 자세한 내용은 [Apple 개발자 설명서](https://developer.apple.com/library/email/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)를 참조하십시오. |
+| **[!UICONTROL 변경 가능한 콘텐츠]** | 모바일 애플리케이션이 알림과 연관된 미디어 콘텐츠를 다운로드하도록 하려면 이 옵션을 활성화합니다. 자세한 내용은 [Apple 개발자 설명서](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)를 참조하십시오. |
 | **[!UICONTROL 관련성 점수]** | 알림 요약에서 알림 순서의 우선 순위를 지정하려면 관련성 점수를 0에서 100 사이로 설정하십시오. 점수가 높을수록 더 중요한 알림입니다. |
 | **[!UICONTROL 중단 수준]** | <ul> <li>**[!UICONTROL 활성]**: 기본적으로 설정되어 있으므로 시스템에서 알림을 즉시 표시하고 화면을 켜며 사운드를 재생할 수 있습니다. 알림은 포커스 모드를 통과하지 않습니다.</li><li>**[!UICONTROL 수동]**: 화면에 불이 들어오거나 소리가 재생되지 않고 알림 목록에 알림이 추가됩니다. 알림은 포커스 모드를 통과하지 않습니다.</li><li>**[!UICONTROL 시간에 민감함]**: 시스템에서 알림을 즉시 표시하고 화면을 켜며 사운드를 재생하고 포커스 모드를 중단할 수 있습니다. 이 수준에서는 Apple의 특별한 권한이 필요하지 않습니다.</li> <li>**[!UICONTROL 중요]**: 시스템에서 알림을 즉시 표시하고 화면을 켜며 음소거 스위치 또는 포커스 모드를 건너뜁니다. 이 수준에는 Apple의 특별한 권한이 필요합니다.</ul> |
 | **[!UICONTROL Thread-id]** | 관련 알림을 함께 그룹화하는 데 사용되는 식별자. 스레드 ID가 동일한 알림은 알림 목록에서 단일 대화 또는 스레드로 구성됩니다. |

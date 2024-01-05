@@ -2,14 +2,14 @@
 title: 프로필 모니터링 및 관리
 description: Campaign 웹에서 프로필을 모니터링하고 관리하는 방법을 알아봅니다.
 badge: label="제한 공개"
-source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
+source-git-commit: e72069956490dc0febc2835568deb99cf41ead1c
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '900'
 ht-degree: 6%
 
 ---
 
-# 프로필 모니터링 및 관리 {#profiles}
+# 프로필 모니터링 및 편집 {#profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
@@ -96,9 +96,7 @@ Adobe Campaign 클라이언트 콘솔에서만 프로필을 만들 수 있습니
 
 1. 다음으로 이동 **[!UICONTROL 고객 관리]** > **[!UICONTROL 프로필]**.
 
-1. 에서 원하는 항목을 클릭합니다. **[!UICONTROL 프로필]** 목록을 표시합니다.
-
-1. 프로필의 세부 정보에 액세스할 수 있습니다.
+1. 에서 원하는 항목을 클릭합니다. **[!UICONTROL 프로필]** 목록을 표시합니다. 프로필에 대한 자세한 정보가 표시됩니다.
 
    ![](assets/profile-details.png)
 

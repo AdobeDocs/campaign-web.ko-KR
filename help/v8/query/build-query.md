@@ -3,10 +3,10 @@ audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
 badge: label="제한 공개"
-source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
+source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
 workflow-type: tm+mt
-source-wordcount: '1464'
-ht-degree: 4%
+source-wordcount: '1634'
+ht-degree: 3%
 
 ---
 
@@ -170,6 +170,28 @@ ht-degree: 4%
 * **제외(제외)**: 아웃바운드 전환의 모든 필터링 구성 요소와 일치하는 결과를 제외합니다.
 
 ![](assets/query-operator-change.png)
+
+### 복사-붙여넣기 필터링 구성 요소 {#copy}
+
+쿼리 모델러를 사용하면 하나 이상의 필터링 구성 요소를 복사하여 전환 끝에 붙여넣을 수 있습니다. 이 작업은 현재 쿼리 캔버스 내에서 또는 인스턴스 내의 캔버스에서 실행할 수 있습니다.
+
+>[!NOTE]
+>
+>복사된 선택 사항은 인스턴스에서 작업하는 동안 유지됩니다. 로그오프했다가 다시 로그인하면 더 이상 선택 항목을 붙여넣을 수 없습니다.
+
+필터링 구성 요소를 복사하여 붙여넣으려면 다음 단계를 수행합니다.
+
+1. 쿼리 캔버스에서 복사할 필터링 구성 요소를 클릭하여 선택합니다. 여러 구성 요소를 선택하려면 캔버스의 오른쪽 위 모서리에 있는 도구 모음에서 사용할 수 있는 다중 선택 도구를 사용합니다.
+
+1. 다음을 클릭합니다. **[!UICONTROL 복사]** 구성 요소의 속성 창 또는 여러 구성 요소를 선택한 경우 화면 맨 아래에 있는 파란색 리본에 있는 단추입니다.
+
+   | 단일 구성 요소 복사 | 여러 구성 요소 복사 |
+   |  ---  |  ---  |
+   | ![](assets/copy-single-component.png){width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){width="200" align="center" zoomable="yes"} |
+
+1. 구성 요소를 붙여넣으려면 원하는 전환 끝에 있는 + 단추를 클릭하고 다음을 선택합니다 **n개 항목 붙여넣기**.
+
+![](assets/copy-paste.png)
 
 ## 쿼리 확인 및 검증
 

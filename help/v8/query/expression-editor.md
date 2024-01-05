@@ -3,7 +3,7 @@ audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
 badge: label="제한 공개"
-source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
+source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
 workflow-type: tm+mt
 source-wordcount: '1909'
 ht-degree: 59%
@@ -26,9 +26,9 @@ ht-degree: 59%
 * 사용 가능한 목록 **필드 (2)** 표현식에서 사용할 수 있으며 쿼리의 타겟팅 차원에 해당합니다.
 * **도우미 기능 (3)**, 범주별로 정렬되었습니다.
 
-![](assets/expression-editor.png)
-
 입력 필드에 직접 표현식을 입력하여 표현식을 편집합니다. 필드나 도우미 함수를 추가하려면 추가할 식에 커서를 놓고 + 단추를 클릭합니다.
+
+![](assets/expression-editor.png)
 
 ## 도우미 기능
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 보고서 내보내기
 description: 보고서를 내보내는 방법 이해
 badge: label="제한된 가용성"
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 20%
+source-wordcount: '107'
+ht-degree: 19%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
->title="내보내기"
+>title="보고서 내보내기"
 >abstract="**내보내기** 버튼을 클릭하면 이러한 지표를 PDF 또는 CSV 포맷으로 내보내어 공유하거나 인쇄할 수 있습니다."
 
 서로 다른 보고서를 PDF 또는 CSV 형식으로 쉽게 내보내 공유, 조작 또는 인쇄할 수 있습니다.

@@ -5,7 +5,8 @@ description: Campaign 웹에서 첫 번째 게재를 만드는 방법을 알아�
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 98%
@@ -97,7 +98,7 @@ Adobe Campaign에서 제공하는 메시지는 다양한 방식으로 개인화�
 
 * **맞춤형 오퍼** 추가
 
-  수신자 위치, 현재 날씨 또는 마지막 구매 주문에 따라 메시지 콘텐츠에서 맞춤형 오퍼를 삽입합니다. [자세히 알아보기](../content/offers.md)
+  수신자 위치, 현재 날씨 또는 마지막 구매 주문에 따라 메시지 콘텐츠에서 맞춤형 오퍼를 삽입합니다. [자세히 알아보기](../msg/offers.md)
 
 ## 게재 미리보기 및 테스트
 

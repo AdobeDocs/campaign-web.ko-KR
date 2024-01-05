@@ -4,7 +4,7 @@ description: Campaign Web v8 도움말 센터
 title: Adobe Campaign Web v8 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="제한 공개"
-source-git-commit: 544e56a43b03e954d5c9a1f8cce155212c1be180
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 96%
@@ -68,11 +68,11 @@ Adobe Campaign Web을 통해 무엇을 할 수 있는지 이해했으므로 이�
 <p>
 </td>
 <td>
-<a href="content/get-started-email-designer.md">
+<a href="email/get-started-email-designer.md">
 <img alt="저빈도" src="assets/do-not-localize/menu-design.jpg">
 </a>
 <div>
-<a href="content/get-started-email-designer.md"><strong>이메일 디자이너와의 만남</strong></a>
+<a href="email/get-started-email-designer.md"><strong>이메일 디자이너와의 만남</strong></a>
 </div>
 <p></td>
 <td>

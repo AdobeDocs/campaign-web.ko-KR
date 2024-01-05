@@ -4,7 +4,7 @@ title: 게재 콘텐츠 미리 보기
 description: Campaign 웹 UI를 사용하여 게재 콘텐츠를 미리 보는 방법 알아보기
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="제한 공개"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 게재 콘텐츠를 미리 보려면 아래 단계를 따르십시오.
 
-1. 게재의 콘텐츠 편집 화면 또는 [이메일 디자이너](../content/get-started-email-designer.md).
+1. 게재의 콘텐츠 편집 화면 또는 [이메일 디자이너](../email/get-started-email-designer.md).
 
 1. 다음을 클릭합니다. **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다.
 

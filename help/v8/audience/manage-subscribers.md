@@ -3,19 +3,19 @@ audience: end-user
 title: 서비스 구독자 관리
 description: Adobe Campaign 웹에서 서비스 구독자를 관리하고 제공하는 방법에 대해 알아봅니다
 badge: label="Beta"
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
+exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 0%
 
 ---
 
-
 # 서비스 구독자 관리 {#manage-subscribers}
 
 한 번 [서비스를 만들었습니다.](manage-services.md#create-service), 가입자를 추가하고, 수신자의 가입을 해지하고, 해당 서비스 가입자에게 메시지를 보낼 수 있습니다.
 
-구독자 관리는 이 페이지에 자세히 설명되어 있습니다. 구독자에게 메시지를 보내는 방법에 대해 알아보려면 을 참조하십시오. [이 섹션](../content/send-to-subscribers.md).
+구독자 관리는 이 페이지에 자세히 설명되어 있습니다. 구독자에게 메시지를 보내는 방법에 대해 알아보려면 을 참조하십시오. [이 섹션](../msg/send-to-subscribers.md).
 
 ## 서비스에 구독자 추가 {#add-subscribers}
 

@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 25%
@@ -28,14 +28,14 @@ ht-degree: 25%
 * [유형화](../advanced-settings/delivery-settings.md#typology),
 * 발신자 주소,
 * An [대상자](../audience/about-recipients.md), 포함 [컨트롤 그룹](../audience/control-group.md),
-* 사용자 정의 [콘텐츠](../content/edit-content.md),
+* 사용자 정의 [콘텐츠](../email/edit-content.md),
 * [개인화된 필드](../personalization/personalize.md) 및 [조건부 콘텐츠](../personalization/conditions.md),
-* 링크 대상 [미러 페이지](../content/mirror-page.md) 및 구독 취소 [링크](../content/message-tracking.md),
+* 링크 대상 [미러 페이지](../email/mirror-page.md) 및 구독 취소 [링크](../email/message-tracking.md),
 * 리소스 유효성, 재시도 매개 변수 또는 격리 설정 등 다른 게재 속성입니다.
 
 >[!NOTE]
 >
->게재 템플릿은 과(와) 다릅니다. [콘텐츠 템플릿](../content/create-email-templates.md)를 사용하면 이메일 콘텐츠만 재사용하고 즉시 사용할 수 있는 샘플 이메일 템플릿 중 하나를 사용하여 콘텐츠 작성을 시작할 수 있습니다.
+>게재 템플릿은 과(와) 다릅니다. [콘텐츠 템플릿](../email/create-email-templates.md)를 사용하면 이메일 콘텐츠만 재사용하고 즉시 사용할 수 있는 샘플 이메일 템플릿 중 하나를 사용하여 콘텐츠 작성을 시작할 수 있습니다.
 
 
 ## 게재 템플릿 액세스 및 관리 {#access-manage-templates}

@@ -3,7 +3,7 @@ audience: end-user
 title: 푸시 채널에 대한 글로벌 보고서
 description: 푸시 채널에 대한 글로벌 보고서 이해
 badge: label="제한 공개"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 4%
@@ -80,7 +80,7 @@ ht-degree: 4%
 
 ## 게재 처리량 {#delivery-throughput-sms}
 
-![](assets/global_report_push_delivery_statistics.png)
+![](assets/global_report_push_delivery_throughput.png)
 
 이 보고서는 지정된 기간 내의 게재 처리량에 대한 포괄적인 세부 정보를 제공합니다.
 

@@ -4,10 +4,10 @@ title: 캠페인 보고서
 description: 캠페인 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: label="제한 공개"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 10%
+source-wordcount: '269'
+ht-degree: 13%
 
 ---
 
@@ -64,16 +64,3 @@ ht-degree: 10%
 1. 다음에서 **[!UICONTROL URL 및 클릭 스트림]**, 다음을 선택할 수도 있습니다. **[!UICONTROL 가장 많이 방문한 링크]** 또는 **[!UICONTROL 기간]**.
 
    다음 **[!UICONTROL 보기 기준]** 옵션을 사용하면 URL, 레이블 또는 범주를 필터링할 수 있습니다.
-
-## 보고서 내보내기 {#export-reports}
-
-서로 다른 보고서를 PDF 또는 CSV 형식으로 쉽게 내보내 공유, 조작 또는 인쇄할 수 있습니다.
-
-1. 보고서에서 **[!UICONTROL 내보내기]** 및 선택 **[!UICONTROL PDF 파일로 내보내기]** 또는 **[!UICONTROL CSV 파일로 내보내기]**.
-
-   ![](assets/export_campaign_report.png)
-
-1. 파일을 저장할 폴더를 찾아 필요한 경우 이름을 변경한 다음 를 클릭합니다 **[!UICONTROL 저장]**.
-
-이제 보고서를 PDF 또는 CSV 파일로 보거나 공유할 수 있습니다.
-

@@ -3,9 +3,9 @@ audience: end-user
 title: 글로벌 보고서 시작
 description: 글로벌 보고서 이해
 badge: label="제한된 가용성"
-source-git-commit: 6470acfbba105097230b63d504f7a73c0a08484c
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,10 @@ ht-degree: 0%
 
 1. 다음 위치로 이동 **[!UICONTROL 보고서]** 내 메뉴 **[!UICONTROL 보고]** 섹션.
 
+1. 왼쪽 메뉴에서 목록을 선택하고 탭을 통해 각 채널의 데이터를 표시합니다.
+
+   ![](assets/global_report_manage_3.png)
+
 1. 대시보드에서 을(를) 선택합니다 **시작** 및 **[!UICONTROL 종료 시간]** 특정 데이터를 대상으로 지정합니다.
 
    ![](assets/global_report_manage_1.png)
@@ -40,16 +44,3 @@ ht-degree: 0%
 1. 다음에서 **[!UICONTROL URL 및 클릭 스트림]**, 다음을 선택할 수도 있습니다. **[!UICONTROL 가장 많이 방문한 링크]** 또는 **[!UICONTROL 기간]**.
 
    다음 **[!UICONTROL 보기 기준]** 옵션을 사용하면 URL, 레이블 또는 범주를 필터링할 수 있습니다.
-
-## 보고서 내보내기 {#export-reports}
-
-서로 다른 보고서를 PDF 또는 CSV 형식으로 쉽게 내보내 공유, 조작 또는 인쇄할 수 있습니다.
-
-1. 보고서에서 **[!UICONTROL 내보내기]** 및 선택 **[!UICONTROL PDF 파일로 내보내기]** 또는 **[!UICONTROL CSV 파일로 내보내기]**.
-
-   ![](assets/global_report_export.png)
-
-1. 파일을 저장할 폴더를 찾아 필요한 경우 이름을 변경한 다음 를 클릭합니다 **[!UICONTROL 저장]**.
-
-이제 보고서를 PDF 또는 CSV 파일로 보거나 공유할 수 있습니다.
-

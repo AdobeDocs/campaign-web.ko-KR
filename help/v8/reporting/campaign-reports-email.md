@@ -4,7 +4,7 @@ title: 이메일 채널에 대한 캠페인 보고서
 description: 이메일 채널에 대한 캠페인 보고서에 대해 자세히 알아보기
 badge: label="제한 공개"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 21%
@@ -290,7 +290,7 @@ ht-degree: 21%
 
 다음 **[!UICONTROL 사용자 활동]** 보고서는 차트 형태로 열람 및 클릭 수를 분류하여 보여줍니다. 이 보고서에 대한 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign_report_email_10.png){align="center"}
+![](assets/campaign_report_email_user_activities.png){align="center"}
 
 +++이메일 게재 보고서 지표에 대해 자세히 알아보십시오.
 

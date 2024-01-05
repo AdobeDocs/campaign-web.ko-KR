@@ -5,10 +5,10 @@ title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: 캠페인 개요
 hide: true
-source-git-commit: 2685e1eb73adc72f468985aaf80e439ae3f46d34
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 86%
+source-wordcount: '509'
+ht-degree: 85%
 
 ---
 
@@ -141,6 +141,7 @@ ht-degree: 86%
    + [목록 필터링](query/filter.md)
 + 보고 {#reports}
    + [보고서 시작](reporting/gs-reports.md)
+   + [보고서 내보내기](reporting/export-reports.md)
    + [주요 성과 지표](reporting/kpis.md)
    + 게재 보고서 {#delivery-report}
       + [게재 보고서 시작](reporting/delivery-reports.md)

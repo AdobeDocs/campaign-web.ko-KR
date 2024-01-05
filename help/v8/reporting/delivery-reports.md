@@ -4,10 +4,10 @@ title: 게재 보고서
 description: 게재 보고서 액세스 및 사용 방법 알아보기
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="제한 공개"
-source-git-commit: c6381387880cd967ff2c7687920c55d6936392ab
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 32%
+source-wordcount: '260'
+ht-degree: 36%
 
 ---
 
@@ -17,11 +17,6 @@ ht-degree: 32%
 >id="acw_campaign_reporting_deliveries_selection"
 >title="집계된 게재 보고"
 >abstract="집계된 데이터 보고서를 표시하려면 두 개 이상의 게재를 선택합니다."
-
->[!CONTEXTUALHELP]
->id="acw_reporting_email_exportation"
->title="내보내기"
->abstract="**내보내기** 버튼을 클릭하면 이러한 지표를 PDF 또는 CSV 포맷으로 내보내어 공유하거나 인쇄할 수 있습니다."
 
 다음 **게재 보고서** 에만 초점을 맞춘 심층적인 통찰력과 데이터 제공 **게재** 모든 채널에 적용됩니다. 이러한 보고서는 개별 게재의 성과, 효율성 및 결과에 대해 자세한 정보와 함께 포괄적인 개요를 제공합니다.
 
@@ -62,16 +57,3 @@ Adobe Campaign은 각 게재에 대해 액세스할 수 있는 여러 유형의 
    다음 **[!UICONTROL 보기 기준]** 옵션을 사용하면 URL, 레이블 또는 범주를 필터링할 수 있습니다.
 
    ![](assets/manage_delivery_report_5.png)
-
-## 보고서 내보내기 {#export-reports}
-
-서로 다른 보고서를 PDF 또는 CSV 형식으로 쉽게 내보내 공유, 조작 또는 인쇄할 수 있습니다.
-
-1. 보고서에서 **[!UICONTROL 내보내기]** 및 선택 **[!UICONTROL PDF 파일로 내보내기]** 또는 **[!UICONTROL CSV 파일로 내보내기]**.
-
-   ![](assets/export_delivery_report.png)
-
-1. 파일을 저장할 폴더를 찾아 필요한 경우 이름을 변경한 다음 를 클릭합니다 **[!UICONTROL 저장]**.
-
-이제 보고서를 PDF 또는 CSV 파일로 보거나 공유할 수 있습니다.
-

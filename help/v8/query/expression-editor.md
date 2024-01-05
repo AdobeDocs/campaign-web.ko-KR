@@ -3,22 +3,28 @@ audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
 badge: label="제한 공개"
-source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
+source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
 workflow-type: tm+mt
-source-wordcount: '1909'
-ht-degree: 59%
+source-wordcount: '2008'
+ht-degree: 55%
 
 ---
 
 # 표현식 편집 {#expression}
 
-## 표현식 편집 {#edit}
+표현식을 편집하려면 수동으로 조건을 입력하여 규칙을 만듭니다. 이 모드에서는 날짜, 문자열, 숫자 필드, 정렬 등과 같은 특정 쿼리를 수행하는 데 사용되는 값을 조작할 수 있는 고급 함수를 사용할 수 있습니다.
 
-표현식을 편집하려면 수동으로 조건을 입력하여 규칙을 만듭니다. 이 모드에서는 고급 기능을 사용할 수 있습니다. 이러한 함수를 사용하면 날짜, 문자열, 숫자 필드, 정렬 등과 같은 특정 쿼리를 수행하는 데 사용되는 값을 조작할 수 있습니다.
+>[!IMPORTANT]
+>
+>아래 섹션에서는 표현식 편집기를 사용하여 규칙을 작성하는 방법에 대한 정보를 제공합니다. 규칙을 만드는 데 사용되는 구문은 개인화를 추가하는 데 사용되는 구문과 다릅니다.
 
-이러한 작업은 쿼리 모델러에서 사용할 수 있습니다 **[!UICONTROL 표현식 편집]** 버튼, 다음에 사용 가능 **[!UICONTROL 속성]** 및 **[!UICONTROL 값]** 사용자 지정 조건을 구성할 때 필드.
+## 표현식 편집기 작업 {#edit}
 
-![](assets/edit-expression.png)
+표현식 편집기는 쿼리 모델러에서 사용할 수 있습니다 **[!UICONTROL 표현식 편집]** 버튼, 다음에 사용 가능 **[!UICONTROL 속성]** 및 **[!UICONTROL 값]** 사용자 지정 조건을 구성할 때 필드.
+
+| 다음에서 액세스: **속성** 필드 | 다음에서 액세스: **값** 필드 |
+|  ---  |  ---  |
+| ![](assets/expression-editor-attribute.png){width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){width="200" align="center" zoomable="yes"} |
 
 표현식 편집기에서 제공하는 사항:
 
@@ -29,6 +35,12 @@ ht-degree: 59%
 입력 필드에 직접 표현식을 입력하여 표현식을 편집합니다. 필드나 도우미 함수를 추가하려면 추가할 식에 커서를 놓고 + 단추를 클릭합니다.
 
 ![](assets/expression-editor.png)
+
+표현식이 준비되면 **[!UICONTROL 확인]** 단추를 클릭합니다. 선택한 필드에 표현식이 표시됩니다. 편집하려면 표현식 편집기를 열고 원하는 대로 변경합니다.
+
+아래 예제는 다음에 대해 구성된 표현식을 보여줍니다. **[!UICONTROL 값]** 필드. 편집하려면 다음을 사용하여 표현식 편집기를 열어야 합니다. **[!UICONTROL 표현식 편집]** 단추를 클릭합니다.
+
+![](assets/edit-expression-value.png)
 
 ## 도우미 기능
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 이메일 디자이너에서 프리 헤더 추가
 description: 이메일 콘텐츠 디자인 방법 알아보기
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="제한 공개"
+source-git-commit: ffca12b85a7de30e90b0554560a4245337b35e6b
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '209'
 ht-degree: 47%
 
 ---

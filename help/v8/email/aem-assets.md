@@ -2,11 +2,11 @@
 audience: end-user
 title: Adobe Experience Manager Assets as a Cloud Service로 자산 관리
 description: Adobe Experience Manager Assets as a Cloud Service으로 자산을 관리하는 방법 알아보기
-badge: label="Beta"
+badge: label="제한 공개"
 exl-id: c1e548b1-f4c6-4672-9724-edfc418063a6
-source-git-commit: f3295f2151c6c7d8a24bc2d7bc8bd48ebf071378
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '381'
 ht-degree: 4%
 
 ---

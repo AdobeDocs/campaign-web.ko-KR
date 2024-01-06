@@ -3,11 +3,11 @@ audience: end-user
 title: 자체 이메일 콘텐츠 코딩
 description: 자체 이메일 콘텐츠를 코딩하는 방법 알아보기
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="제한 공개"
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 25%
+source-wordcount: '109'
+ht-degree: 26%
 
 ---
 

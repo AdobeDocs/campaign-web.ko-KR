@@ -42,8 +42,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_customcondition"
->title="사용자 정의 상태"
->abstract="사용자 정의 상태"
+>title="사용자 정의 조건"
+>abstract="사용자 정의 조건"
 
 사용자 지정 조건을 사용하여 쿼리를 필터링하려면 다음 단계를 따르십시오.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: SMS 채널에 대한 전역 보고서
 description: SMS 채널에 대한 글로벌 보고서 이해
 badge: label="제한 공개"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '585'
 ht-degree: 4%
 
 ---
@@ -19,6 +19,11 @@ ht-degree: 4%
 ## 게재 요약 {#delivery-summary-sms}
 
 ### 게재 개요 {#delivery-overview-sms}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_global_report_overview"
+>title="SMS 게재 개요"
+>abstract="다음 **SMS 게재 개요** KPI는 SMS 게재에 대한 철저한 요약을 제공하여 자세한 통찰력과 특정 데이터를 제공합니다. 게재의 성능, 효율성 및 결과에 대한 포괄적인 정보를 제공합니다."
 
 다음 **[!UICONTROL 게재 개요]** 보고서는 각 SMS 게재와 방문자의 상호 작용 패턴에 대한 심층적인 통찰력을 제공하는 포괄적인 KPI(주요 성과 지표)를 제공합니다. 다음 지표는 아래에 요약되어 있습니다.
 
@@ -38,6 +43,11 @@ ht-degree: 4%
 
 ### 타겟팅된 대상자 {#delivery-summary-sms-initial-target}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_sms_targeted_audience"
+>title="SMS 대상 모집단"
+>abstract="의 그래프 및 표 **목표 인구** 게재할 메시지 및 제외에 대한 정보를 포함하여 SMS 대상과 관련된 데이터를 제공합니다."
+
 다음 **[!UICONTROL 타깃팅된 대상]** 테이블 및 그래프는 전송된 각 SMS 게재에 대해 수신자와 관련된 데이터를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
 ![](assets/global_report_sms_targeted_audience.png)
@@ -53,6 +63,11 @@ ht-degree: 4%
 +++
 
 ### 게재 통계 {#delivery-summary-sms-exec-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_sms_delivery_stats"
+>title="SMS 게재 통계"
+>abstract="다음 **게재 통계** 보고서는 전송된 SMS에 대한 포괄적인 통찰력을 제공하여 성공률, 오류 발생 횟수 및 격리된 대상과 같은 다양한 지표에 대한 분류를 제공합니다. 이 상세한 프레젠테이션을 통해 SMS 게재 프로세스의 전반적인 성능 및 결과를 면밀히 검토할 수 있습니다."
 
 다음 **[!UICONTROL 게재 통계]** 표에는 모든 SMS 게재의 성공 여부가 자세히 나와 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
 
@@ -74,6 +89,11 @@ ht-degree: 4%
 
 ### 제외 이유 {#causes-exclusion}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_sms_exclusions"
+>title="SMS 제외 원인"
+>abstract="다음 **제외 이유** 그래프 및 표는 사용자 프로필에서 SMS 메시지를 수신하지 못하는 다양한 이유를 보여줍니다."
+
 다음 **[!UICONTROL 제외 이유]** 그래프 및 표에는 타겟팅 프로필에서 제외된 사용자 프로필에서 SMS 게재를 받을 수 없는 이유가 표시됩니다.
 
 오류 유형이에 나열되어 있습니다. [Adobe Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
@@ -82,6 +102,11 @@ ht-degree: 4%
 
 ## 게재 처리량 {#delivery-throughput-sms}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_throughput_sms"
+>title="SMS 게재 처리량"
+>abstract="다음 **게재 처리량** 보고서는 SMS 메시지 게재 시스템의 효율성에 대한 광범위한 통찰력을 제공하여 지정된 기간 내의 성공 및 오류율에 대한 자세한 개요를 제공합니다."
+
 ![](assets/global_report_sms_delivery_throughput.png)
 
-이 보고서는 지정된 기간 내의 게재 처리량에 대한 포괄적인 세부 정보를 제공합니다.
+다음 **[!UICONTROL 게재 처리량]** 보고서는 SMS 메시지 게재 시스템의 효과에 대한 포괄적인 통찰력을 제공하며, 지정된 기간 동안의 성공 및 오류율에 대한 자세한 요약을 제공합니다.

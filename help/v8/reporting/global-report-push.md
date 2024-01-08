@@ -3,9 +3,9 @@ audience: end-user
 title: 푸시 채널에 대한 글로벌 보고서
 description: 푸시 채널에 대한 글로벌 보고서 이해
 badge: label="제한 공개"
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '548'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,12 @@ ht-degree: 4%
 
 ## 게재 요약 {#delivery-summary-push}
 
-### 게재 요약 {#delivery-overview-push}
+### 게재 개요 {#delivery-overview-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_push_global_report_overview"
+>title="푸시 게재 개요"
+>abstract="푸시 **게재 개요** KPI는 푸시 게재에 대한 철저한 검사를 제공하여 자세한 통찰력과 특정 데이터를 제공합니다. 게재의 성능, 효율성 및 결과에 대한 포괄적인 세부 정보를 제공합니다."
 
 다음 **[!UICONTROL 게재 개요]** 보고서는 방문자가 모든 푸시 알림 전달을 수행하는 방법에 대한 자세한 정보를 제공하는 주요 성과 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
@@ -38,6 +43,11 @@ ht-degree: 4%
 
 ### 타겟팅된 대상자 {#delivery-summary-push-initial-target}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_push_targeted_audience"
+>title="푸시 대상 모집단"
+>abstract="다음 **대상 모집단** 그래프 및 표는 푸시 메시지 대상자와 관련된 데이터를 보여 주며 전달할 메시지 및 제외에 대한 정보를 제공합니다."
+
 다음 **[!UICONTROL 타깃팅된 대상]** 테이블 및 그래프는 전송된 각 푸시 알림 게재에 대해 수신자와 관련된 데이터를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
 ![](assets/global_report_push_targeted_audience.png)
@@ -53,6 +63,11 @@ ht-degree: 4%
 +++
 
 ### 게재 통계 {#delivery-summary-push-exec-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_push_delivery_stats"
+>title="푸시 게재 통계"
+>abstract="다음 **전체 통계** 보고서는 성공률, 오류 및 격리를 포함하여 푸시 알림에 대한 정보를 제공합니다."
 
 다음 **[!UICONTROL 게재 통계]** 표에서 모든 푸시 알림 전달의 성공 여부를 확인할 수 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
 
@@ -74,13 +89,23 @@ ht-degree: 4%
 
 ### 제외 이유 {#causes-exclusion}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_push_exclusion"
+>title="제외의 푸시 원인"
+>abstract="다음 **제외 이유** 그래프 및 표는 사용자 프로필에서 푸시 알림을 받지 못하던 다양한 이유를 보여줍니다."
+
 다음 **[!UICONTROL 제외 이유]** 그래프 및 표에는 타겟팅된 프로필에서 제외된 사용자 프로필에서 메시지를 받을 수 없는 이유가 표시됩니다.
 
 푸시 알림 오류 유형은 [Adobe Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 ## 게재 처리량 {#delivery-throughput-sms}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_throughput_push"
+>title="게재 처리량 보고서"
+>abstract="다음 **게재 처리량** 보고서는 지정된 기간 내에 전체 플랫폼의 푸시 알림 게재 처리량에 대한 자세한 정보를 제공합니다."
+
 ![](assets/global_report_push_delivery_throughput.png)
 
-이 보고서는 지정된 기간 내의 게재 처리량에 대한 포괄적인 세부 정보를 제공합니다.
+다음 **[!UICONTROL 게재 처리량]** 보고서는 푸시 알림 전달 시스템의 효과에 대한 포괄적인 통찰력을 제공하여 지정된 기간 동안의 성공 및 오류율에 대한 자세한 요약을 제공합니다.
 

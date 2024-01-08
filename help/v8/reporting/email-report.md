@@ -4,10 +4,10 @@ title: 이메일 게재 보고서
 description: 이메일 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: label="제한 공개"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '2245'
-ht-degree: 38%
+ht-degree: 37%
 
 ---
 
@@ -74,12 +74,10 @@ ht-degree: 38%
 
 ### 제외 이유  {#email-delivery-exclusions}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
 >title="제외 이유 게재"
 >abstract="**제외 이유** 그래프와 테이블에는 게재 준비 단계에서 거부된 메시지 규칙당 분류가 표시됩니다."
-
 
 다음 **[!UICONTROL 제외 이유]** 그래프와 표는 게재를 준비하는 동안 거부된 메시지의 규칙별 분류를 보여 줍니다. 제외 규칙은 다음에 자세히 설명되어 있습니다. [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
@@ -288,7 +286,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams_top10"
 >title="가장 많이 방문한 상위 링크 10개"
->abstract="**가장 많이 방문한 상위 링크 10개** 그래프와 테이블에는 링크당 수신자 비헤이비어와 관련하여 이용 가능한 데이터가 포함되어 있습니다."
+>abstract="다음 **가장 많이 방문한 상위 10개 링크** 그래프와 표에는 링크당 수신자 동작에 사용할 수 있는 데이터가 포함되어 있습니다."
 
 
 다음 **[!UICONTROL 가장 많이 방문한 상위 10개 링크]** 그래프와 표에는 링크당 수신자 동작에 사용할 수 있는 데이터가 포함되어 있습니다.

@@ -4,10 +4,10 @@ title: SMS 게재 보고서
 description: sms 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 badge: label="제한 공개"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 45%
+ht-degree: 42%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 45%
 
 ## 게재 요약 {#delivery-summary}
 
+### 게재 개요 {#sms-delivery-overview}
+
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="SMS 게재 개요"
 >abstract="**SMS 게재 요약** 은 SMS 게재에 대한 포괄적인 개요를 제공하여 광범위한 인사이트와 특정 데이터를 얻을 수 있습니다. 성과, 효율성 및 게재 결과에 대해 포괄적인 정보를 제공합니다."
-
-### 게재 개요 {#sms-delivery-overview}
 
 다음 **[!UICONTROL 게재 개요]** 보고서는 성공률 및 오류율과 방문자가 SMS 메시지에 참여하는 방식에 대한 자세한 정보를 제공하는 주요 성과 지표(KPI)를 제공합니다.
 
@@ -45,9 +45,7 @@ ht-degree: 45%
 
 +++
 
-
 ### 대상 모집단 {#sms-delivery-targeted-population}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_targeted_population"
@@ -67,7 +65,6 @@ ht-degree: 45%
 
 
 ### 전체 통계 {#sms-delivery-overall}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
@@ -89,12 +86,10 @@ ht-degree: 45%
 
 ### 제외 {#sms-delivery-exclusions}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
 >title="SMS 제외"
 >abstract="**제외** 그래프와 테이블에 대상 프로필에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 이유가 표시됩니다."
-
 
 다음 **[!UICONTROL 제외]** 그래프 및 표에는 타겟팅된 프로필에서 제외된 사용자 프로필에서 메시지를 받을 수 없는 이유가 표시됩니다. 제외 규칙은 다음에 자세히 설명되어 있습니다. [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
 
@@ -105,7 +100,7 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
 >title="SMS 게재 처리량"
->abstract="**게재 처리량** 보고서는 지정된 기간 내 게재 처리량에 대한 자세한 정보를 제공합니다.  메시지 게재 속도를 측정하는 데 사용되는 주요 지표는 시간당 전송된 메시지 수입니다."
+>abstract="다음 **게재 처리량** 보고서는 지정된 기간 내의 게재 처리량에 대한 자세한 정보를 제공합니다. 메시지 게재 속도를 측정하는 데 사용되는 주요 지표는 시간당 전송된 메시지 수입니다."
 
 이 보고서는 지정된 기간 내의 게재 처리량에 대한 자세한 정보를 제공합니다. 메시지 게재 속도를 측정하는 데 사용되는 주요 지표는 시간당 전송된 메시지 수입니다.
 

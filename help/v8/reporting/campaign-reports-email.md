@@ -4,7 +4,7 @@ title: 이메일 채널에 대한 캠페인 보고서
 description: 이메일 채널에 대한 캠페인 보고서에 대해 자세히 알아보기
 badge: label="제한 공개"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 21%
@@ -47,7 +47,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="초기 타깃 대상자 통계"
->abstract="초기 타깃 대상자 통계 테이블에는 수신자와 관련된 데이터가 표시됩니다."
+>abstract="초기 타겟 대상 통계 표에는 수신자와 관련된 데이터가 표시됩니다."
 
 다음 **[!UICONTROL 초기 타겟 대상 통계]** 테이블에는 수신자와 관련된 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 

@@ -7,7 +7,7 @@ exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 source-git-commit: 7e66d4e67ae14c8318bbda31bfdc90840390db01
 workflow-type: tm+mt
 source-wordcount: '1534'
-ht-degree: 38%
+ht-degree: 39%
 
 ---
 
@@ -96,7 +96,7 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
 >title="알림 횟수"
->abstract="이 옵션을 사용하여 읽지 않은 알림 수를 앱 아이콘에 바로 표시하도록 설정합니다. 사용자는 이를 통해 보류 중인 알림 수를 빠르게 확인할 수 있습니다."
+>abstract="앱 아이콘에 직접 표시할 읽지 않은 알림 수를 설정하려면 이 옵션을 사용하십시오. 사용자는 이를 통해 보류 중인 알림 수를 빠르게 확인할 수 있습니다."
 
 
 >[!CONTEXTUALHELP]

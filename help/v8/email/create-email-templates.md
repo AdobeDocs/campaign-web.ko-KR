@@ -11,7 +11,7 @@ badge: label="제한 공개"
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 7%
+ht-degree: 16%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
->title="나만의 콘텐츠 정의"
->abstract="독립 실행형 사용자 지정 템플릿을 처음부터 만들어 여러 이메일에서 콘텐츠를 재사용할 수 있도록 만듭니다."
+>title="자신만의 콘텐츠 정의"
+>abstract="여러 이메일에서 콘텐츠를 재사용할 수 있도록 처음부터 독립형 사용자 정의 템플릿을 만듭니다."
 
 디자인 프로세스를 가속화하고 개선하기 위해 독립 실행형 템플릿을 만들어 사용자 지정 콘텐츠를 여러 곳에서 쉽게 재사용할 수 있습니다 [!DNL Adobe Campaign].
 
@@ -35,7 +35,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_edition"
 >title="템플릿 콘텐츠 편집"
->abstract="다음을 클릭합니다. **콘텐츠 편집** 단추를 클릭하여 이메일 디자이너로 콘텐츠를 업데이트합니다."
+>abstract="이메일 디자이너로 콘텐츠를 업데이트하려면 **콘텐츠 편집** 버튼을 클릭합니다."
 
 콘텐츠 템플릿 목록에 액세스하려면 다음을 선택합니다. **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 콘텐츠 템플릿]** 왼쪽 메뉴에서
 
@@ -96,7 +96,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="템플릿 속성 정의"
->abstract="템플릿을 처음부터 새로 만들 때는 필요할 때 검색할 속성을 쉽게 정의할 수 있습니다."
+>abstract="템플릿을 처음부터 생성할 때 필요 시 쉽게 검색할 속성을 정의합니다."
 
 처음부터 콘텐츠 템플릿을 만들려면 아래 단계를 수행하십시오.
 

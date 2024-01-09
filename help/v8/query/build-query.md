@@ -34,7 +34,7 @@ ht-degree: 3%
 * **[대상](#audiences)**: 기존 대상자를 사용하여 쿼리를 필터링합니다.
 * **[미리 정의된 필터](#predefined-filters)**: 기존의 사전 정의된 필터를 사용하여 쿼리를 필터링합니다.
 
-### 사용자 정의 상태 구성 {#custom-condition}
+### 사용자 정의 조건 구성 {#custom-condition}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_customcondition"

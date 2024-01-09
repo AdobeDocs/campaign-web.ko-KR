@@ -8,7 +8,7 @@ badge: label="제한 공개"
 source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 2%
+ht-degree: 14%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
 >title="테스트 프로필 만들기"
->abstract="테스트 프로필은 시드 주소로 만들어집니다. 정의된 대상 기준과 일치하지 않는 가상 프로필을 타겟팅하는 데 사용되는 데이터베이스의 추가 수신자입니다."
+>abstract="테스트 프로필은 시드 주소로 만들어집니다. 정의된 대상 기준과 일치하지 않는 가상의 프로필을 대상으로 지정하는 데 사용되는 데이터베이스의 추가 수신자입니다."
 
 테스트 프로필은 시드 주소로 만들어집니다. 정의된 대상 기준과 일치하지 않는 가상 프로필을 타겟팅하는 데 사용되는 데이터베이스의 추가 수신자입니다. 증명을 전송하여 게재를 보내기 전에 개인화 및 렌더링을 미리 보고 테스트할 수 있습니다.
 
@@ -60,7 +60,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_additionaldata"
 >title="테스트 프로필 추가 데이터"
->abstract="데이터 관리 워크플로우에서 만들고 특정 값을 지정할 게재에 사용되는 개인화 데이터를 입력합니다."
+>abstract="데이터 관리 워크플로우에서 생성되고 특정 값을 할당하려는 게재에 사용되는 개인화 데이터를 입력합니다."
 
 테스트 프로필을 만들려면 아래 단계를 수행합니다.
 

@@ -7,7 +7,7 @@ exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 35%
+ht-degree: 40%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="서식 지정 매개변수"
->abstract="외부 파일의 서식 매개 변수를 확인합니다."
+>abstract="외부 파일에 대한 서식 지정 매개변수를 확인합니다."
 
 
 >[!CONTEXTUALHELP]

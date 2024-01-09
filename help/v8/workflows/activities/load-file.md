@@ -6,7 +6,7 @@ badge: label="제한 공개"
 source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
 workflow-type: tm+mt
 source-wordcount: '294'
-ht-degree: 33%
+ht-degree: 43%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="파일 활동 로드"
->abstract="다음 **파일 로드** 활동은 입니다. **데이터 관리** 활동. 이 활동을 사용하여 외부 파일에 저장된 데이터로 작업합니다."
+>abstract="**파일 로드** 활동은 **데이터 관리** 활동입니다. 이 활동을 사용하여 외부 파일에 저장된 데이터로 작업할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -53,7 +53,7 @@ ht-degree: 33%
 >abstract="파일 활동 로드에 대한 서식 지정"
 
 
-다음 **파일 로드** 활동은 입니다. **데이터 관리** 활동. 이 활동을 사용하여 외부 파일에 저장된 프로필 및 데이터를 사용합니다. 프로필 및 데이터는 데이터베이스에 추가되지 않지만 입력 파일의 모든 필드는 다음에 사용할 수 있습니다. [개인화](../../personalization/gs-personalization.md)또는 를 사용하여 프로필 또는 기타 테이블을 업데이트할 수 있습니다.
+**파일 로드** 활동은 **데이터 관리** 활동입니다. 이 활동을 사용하여 외부 파일에 저장된 프로필 및 데이터를 사용합니다. 프로필 및 데이터는 데이터베이스에 추가되지 않지만 입력 파일의 모든 필드는 다음에 사용할 수 있습니다. [개인화](../../personalization/gs-personalization.md)또는 를 사용하여 프로필 또는 기타 테이블을 업데이트할 수 있습니다.
 
 
 >[!NOTE]

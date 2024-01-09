@@ -2,14 +2,15 @@
 product: campaign
 title: 게재 작업
 description: Campaign 웹에서 첫 번째 게재를 만드는 방법을 알아봅니다
-feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
+feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
+badge: label="제한 공개"
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 74048d2e6001d2d9b4813a78096a481374233ea6
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 98%
+source-wordcount: '1203'
+ht-degree: 95%
 
 ---
 
@@ -36,14 +37,17 @@ ht-degree: 98%
 
    ![](assets/create-a-delivery.png)
 
-1. 게재를 위한 채널을 선택합니다. 게재 채널과 이 섹션에서 게재 콘텐츠를 정의하는 방법에 대해 자세히 알아보십시오.
+1. 게재할 채널을 선택합니다.
+1. 기본 대상 및 컨트롤 그룹의 게재 대상자를 정의합니다. [이 섹션](../audience/about-recipients.md)에서 대상자에 대해 자세히 알아보십시오.
+
+   ![](assets/select-audience.png){width="70%" align="left"}
+
+1. 메시지 콘텐츠를 정의합니다. 게재 채널과 이 섹션에서 게재 콘텐츠를 정의하는 방법에 대해 자세히 알아보십시오.
 
    * [이메일 채널](../email/create-email.md)
    * [푸시 알림 채널](../push/gs-push.md)
    * [SMS 채널](../sms/create-sms.md)
 
-1. 기본 대상 및 컨트롤 그룹의 게재 대상자를 정의합니다. [이 섹션](../audience/about-recipients.md)에서 대상자에 대해 자세히 알아보십시오.
-1. 메시지 콘텐츠를 정의합니다.
 1. (선택 사항) 게재 [일정](#gs-schedule)을 정의합니다. 일정이 정의되지 않은 경우 **[!UICONTROL 보내기]** 버튼을 클릭하면 메시지가 바로 전송됩니다.
 1. **[!UICONTROL 검토 및 전송]** 버튼을 클릭하여 설정을 확인합니다.
 1. **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 사용하여 게재 및 개인화 설정을 테스트합니다. [이 섹션](../preview-test/preview-test.md)에서 메시지 시뮬레이션에 대해 자세히 알아보십시오.
@@ -56,13 +60,11 @@ ht-degree: 98%
 워크플로에서 게재를 만들려면 다음 단계를 수행하십시오.
 
 1. 워크플로를 만들거나 기존 워크플로를 엽니다. 워크플로에 대한 자세한 내용은 [이 페이지](../workflows/gs-workflow-creation.md#gs-workflow-steps)를 참조하십시오.
-1. **[!UICONTROL 대상자 빌드]** 활동을 추가 및 구성하고 `+`버튼을 클릭합니다.
+1. 추가 및 구성 **[!UICONTROL 대상자 작성]** 활동. 에 대해 자세히 알아보기 **[!UICONTROL 대상자 작성]** 의 활동 [이 섹션](../workflows/activities/build-audience.md).
+1. 다음을 클릭합니다. `+` 아이콘을 클릭하고 게재 활동을 선택합니다. **[!UICONTROL 이메일]**, **[!UICONTROL SMS]**, **[!UICONTROL 푸시 알림(Android)]** 또는 **[!UICONTROL 푸시 알림(iOS)]**. 워크플로의 게재 채널과 [이 섹션](../workflows/activities/channels.md)에서 게재 콘텐츠를 정의하는 방법에 대해 자세히 알아보십시오.
 
    ![](assets/add-delivery-in-wf.png)
 
-   **[!UICONTROL 대상자 빌드]** 활동은 [이 섹션](../workflows/activities/build-audience.md)에 자세히 설명되어 있습니다.
-
-1. 게재 활동 선택: **[!UICONTROL 이메일]**, **[!UICONTROL SMS]**, **[!UICONTROL 푸시 알림(Android)]** 또는 **[!UICONTROL 푸시 알림(iOS)]**. 워크플로의 게재 채널과 [이 섹션](../workflows/activities/channels.md)에서 게재 콘텐츠를 정의하는 방법에 대해 자세히 알아보십시오.
 1. 워크플로를 시작하고 로그를 확인합니다.
 
 워크플로를 만들지 않고도 캠페인에서 게재를 추가할 수도 있습니다. 이를 실현하려면 캠페인의 **[!UICONTROL 게재]** 탭을 클릭하고 **[!UICONTROL 게재 만들기]** 버튼을 클릭합니다.

@@ -1,15 +1,15 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8 Web
-user-guide-description: Campaign v8 Web 설명서
+user-guide-description: Campaign v8 웹용 제품 설명서
 title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: Campaign v8 Web
 hide: true
-source-git-commit: 7498c1c398caa5ac8dfbe82045f37985a0727274
+source-git-commit: 0aac3074f54d319b93e9e1e83ae7a2c7820ac331
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 87%
+source-wordcount: '516'
+ht-degree: 86%
 
 ---
 

@@ -4,9 +4,9 @@ title: 워크플로 활동을 사용하여 작업
 description: 워크플로 활동을 사용하는 방법 알아보기
 badge: label="제한 공개"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '465'
 ht-degree: 39%
 
 ---
@@ -41,9 +41,7 @@ ht-degree: 39%
 
 ## 채널 활동 {#channel}
 
-Adobe Campaign 웹을 사용하면 여러 채널에서 마케팅 캠페인을 자동화하고 실행할 수 있습니다. 채널 활동을 캔버스에 결합하여 고객 행동에 따라 작업을 트리거할 수 있는 크로스 채널 워크플로우를 만들 수 있습니다. 다음 **채널** 활동을 사용할 수 있습니다. 이메일, SMS, Android 및 iOS 푸시 알림.
-
-워크플로우 컨텍스트에서 게재를 설정하는 방법 알아보기 [섹션](channels.md).
+Adobe Campaign 웹을 사용하면 여러 채널에서 마케팅 캠페인을 자동화하고 실행할 수 있습니다. 채널 활동을 캔버스에 결합하여 고객 행동에 따라 작업을 트리거할 수 있는 크로스 채널 워크플로우를 만들 수 있습니다. 다음 **채널** 활동을 사용할 수 있습니다. 이메일, SMS, Android 및 iOS 푸시 알림. [워크플로우 컨텍스트에서 게재를 설정하는 방법 알아보기](channels.md).
 
 ## 흐름 제어 활동 {#flow-control}
 

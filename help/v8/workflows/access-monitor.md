@@ -2,12 +2,12 @@
 audience: end-user
 title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 빌드하는 방법 알아보기
-badge: label="Beta"
+badge: label="제한 공개"
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
-source-git-commit: 5649745c4c1c43d8d4e02dc0fc98d0ea365fb83e
+source-git-commit: 6694976596909226cadbb0997c6663ec17a9e39b
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 29%
+source-wordcount: '360'
+ht-degree: 28%
 
 ---
 
@@ -50,4 +50,6 @@ ht-degree: 29%
 
 다음 **[!UICONTROL 템플릿]** 탭에는 사용 가능한 모든 워크플로우 템플릿이 나열됩니다.
 
-워크플로 템플릿에는 새 워크플로를 만드는 데 재사용할 수 있는 사전 구성된 활동 및 전체 속성 구성이 포함됩니다. 클라이언트 콘솔에서 생성됩니다. [템플릿 작업 방법 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+워크플로 템플릿에는 새 워크플로를 만드는 데 재사용할 수 있는 사전 구성된 활동 및 전체 속성 구성이 포함됩니다.
+
+기존 워크플로우나 처음부터 워크플로우 템플릿을 만들 수 있습니다. [워크플로우 템플릿을 만드는 방법 알아보기](create-workflow.md#work-with-workflow-templates-workflow-templates)

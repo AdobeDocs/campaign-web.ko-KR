@@ -2,11 +2,11 @@
 audience: end-user
 title: 게재 워크플로 활동 사용
 description: 게재 워크플로 활동(이메일, 푸시, SMS)을 추가하는 방법에 대해 알아봅니다.
-badge: label="Beta"
+badge: label="제한 공개"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '876'
 ht-degree: 70%
 
 ---
@@ -38,24 +38,20 @@ Adobe Campaign Web을 사용하여 이메일, SMS 또는 푸시 채널에서 마
 
 ## 채널 활동 구성 {#create-a-delivery-in-a-workflow}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_email"
 >title="이메일 활동"
 >abstract="이메일 활동은 워크플로 내에서 이메일 전송 과정을 원활하게 하며 일회성 메시지와 반복 메시지를 모두 사용할 수 있습니다. 이는 동일한 워크플로 내에서 계산된 대상으로 이메일을 전송하는 프로세스를 자동화하는 역할을 합니다. 채널 활동을 워크플로 캔버스에 결합하여 고객 행동 및 데이터에 따라 작업을 트리거할 수 있는 크로스 채널 워크플로를 만들 수 있습니다."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_sms"
 >title="SMS 활동"
 >abstract="SMS 활동은 워크플로 내에서 SMS 전송 과정을 원활하게 하며 일회성 메시지와 반복 메시지를 모두 사용할 수 있습니다. 이는 동일한 워크플로 내에서 계산된 대상으로 SMS를 전송하는 프로세스를 자동화하는 역할을 합니다. 채널 활동을 워크플로 캔버스에 결합하여 고객 행동 및 데이터에 따라 작업을 트리거할 수 있는 크로스 채널 워크플로를 만들 수 있습니다."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
 >title="푸시 iOS 활동"
 >abstract="푸시 iOS 활동은 워크플로의 일부로 iOS 푸시 알림을 전송하는 프로세스를 간소화합니다. 일회성 메시지와 반복 메시지 모두를 게재할 수 있으며, 동일한 워크플로 내에서 사전 정의된 대상으로 iOS 푸시 알림을 전송하는 프로세스를 자동화합니다. 채널 활동을 워크플로 캔버스에 결합하여 고객 행동 및 데이터에 따라 작업을 트리거할 수 있는 크로스 채널 워크플로를 만들 수 있습니다."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
@@ -75,11 +71,11 @@ Adobe Campaign Web을 사용하여 이메일, SMS 또는 푸시 채널에서 마
 
    ![](../assets/delivery-activity-in-wf.png)
 
-   채널 활동 구성 왼쪽 창에서 다른 템플릿을 선택할 수 있습니다. 이전에 선택한 대상자가 채널과 호환되지 않는 경우 템플릿을 선택할 수 없습니다. 이를 해결하려면 올바른 대상 매핑으로 대상을 선택하도록 **대상자 빌드** 활동을 업데이트하십시오. 다음에서 대상 매핑에 대해 자세히 알아보기: [Adobe Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+   채널 활동 구성 왼쪽 창에서 다른 템플릿을 선택할 수 있습니다. 이전에 선택한 대상자가 채널과 호환되지 않는 경우 템플릿을 선택할 수 없습니다. 이를 해결하려면 올바른 대상 매핑으로 대상을 선택하도록 **대상자 빌드** 활동을 업데이트하십시오. 다음에서 대상 매핑에 대해 자세히 알아보기: [Adobe Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}
 
 1. **게재 만들기**&#x200B;를 클릭합니다. 독립 실행형 게재를 만드는 것과 같은 방식으로 메시지 설정과 콘텐츠를 정의합니다. 콘텐츠를 예약하고 시뮬레이션할 수도 있습니다. [자세히 알아보기](../../msg/gs-messages.md)
 
-1. 워크플로우로 다시 이동합니다. 워크플로우를 계속하려면 선택하십시오. **아웃바운드 전환 생성** 채널 활동 뒤에 전환을 추가하려면
+1. 워크플로우로 다시 이동합니다. 워크플로우를 계속하려면 **아웃바운드 전환 생성** 채널 활동 뒤에 전환을 추가합니다.
 
 1. **시작**&#x200B;을 클릭하여 워크플로를 시작합니다.
 

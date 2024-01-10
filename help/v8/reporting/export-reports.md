@@ -2,11 +2,11 @@
 audience: end-user
 title: 보고서 내보내기
 description: 보고서를 내보내는 방법 이해
-badge: label="제한된 가용성"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+badge: label="제한 공개"
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 19%
+ht-degree: 21%
 
 ---
 

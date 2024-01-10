@@ -2,8 +2,8 @@
 audience: end-user
 title: 글로벌 보고서 시작
 description: 글로벌 보고서 이해
-badge: label="제한된 가용성"
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+badge: label="제한 공개"
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%

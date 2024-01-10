@@ -2,11 +2,11 @@
 audience: end-user
 title: 중복 제거 워크플로우 활동 사용
 description: 중복 제거 워크플로우 활동을 사용하는 방법 알아보기
-badge: label="Beta"
+badge: label="제한 공개"
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '597'
 ht-degree: 54%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 54%
 >id="acw_orchestration_deduplication"
 >title="중복 제거 활동"
 >abstract="**중복 제거** 활동을 통해 인바운드 활동의 결과에서 중복을 삭제할 수 있습니다. 주로 타겟팅 활동 이후에 사용되며, 타겟팅된 데이터의 사용을 허용하는 활동 이전에 사용됩니다."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
@@ -46,7 +45,7 @@ ht-degree: 54%
 
 1. **중복 항목을 식별할 수 있는 필드** 섹션에서 **속성 추가** 버튼을 클릭하여 동일한 값을 통해 중복 항목을 식별할 수 있는 필드(이메일 주소, 이름, 성 등)를 지정할 수 있습니다. 필드 순서를 사용하면 먼저 처리할 항목을 지정할 수 있습니다.
 
-1. 고유한 숫자 선택 **유지할 중복 항목**. 이 필드의 기본값은 1입니다. 값 0을 사용하면 모든 중복을 유지할 수 있습니다.
+1. 다음에서 **중복 제거 설정** 섹션에서 고유한 수를 선택합니다. **유지할 중복 항목**. 이 필드의 기본값은 1입니다. 값 0을 사용하면 모든 중복을 유지할 수 있습니다.
 
    예를 들어 레코드 A와 B가 레코드 Y의 중복으로 간주되고 레코드 C가 레코드 Z의 중복으로 간주되는 경우:
 

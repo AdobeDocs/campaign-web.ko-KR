@@ -4,10 +4,10 @@ title: 게재 워크플로 활동 사용
 description: 게재 워크플로 활동(이메일, 푸시, SMS)을 추가하는 방법에 대해 알아봅니다.
 badge: label="제한 공개"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 70%
+source-wordcount: '901'
+ht-degree: 68%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign Web을 사용하여 이메일, SMS 또는 푸시 채널에서 마
 >* [독립 실행형 SMS 게재 만들기](../../sms/create-sms.md)
 >* [독립 실행형 푸시 게재 만들기](../../push/create-push.md)
 
-## 워크플로우 구축{#build-your-workflow}
+## 워크플로우 구축 {#build-your-workflow}
 
 게재를 완료하기 전에 관련 활동을 사용하여 워크플로우 작성을 시작하십시오.
 
@@ -35,6 +35,10 @@ Adobe Campaign Web을 사용하여 이메일, SMS 또는 푸시 채널에서 마
 * 추가 **대상자 작성** 활동. 대상자는 게재의 기본 대상, 즉 메시지를 받는 수신자입니다. 캠페인 워크플로 컨텍스트에서 메시지를 전송할 때 메시지 대상자는 채널 활동에서 정의되지 않고 **대상자 빌드** 활동에서 정의됩니다. [이 섹션](build-audience.md)을 참조하십시오.
 
   ![](../../msg/assets/add-delivery-in-wf.png)
+
+  >[!NOTE]
+  >
+  >파일에서 로드한 대상자를 타깃팅할 수도 있습니다. 이렇게 하려면 **파일 로드** 활동 뒤에 다음 **조정** 활동. [자세히 알아보기](../../audience/about-recipients.md)
 
 ## 채널 활동 구성 {#create-a-delivery-in-a-workflow}
 

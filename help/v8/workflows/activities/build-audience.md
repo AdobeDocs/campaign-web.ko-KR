@@ -4,10 +4,10 @@ title: 대상자 빌드 워크플로 활동 사용
 description: 대상자 빌드 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="제한 공개"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 61%
+source-wordcount: '410'
+ht-degree: 71%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 61%
 
 >[!NOTE]
 >
->이 컨텍스트에서는 파일에서 대상자를 로드할 수 없습니다. 이를 위해 독립 실행형 이메일 게재를 만들어야 합니다. [자세히 알아보기](../../audience/about-recipients.md)
+>파일에서 로드한 대상은 대상 작성 활동을 사용하여 타깃팅할 수 없습니다. 이렇게 하려면 다음을 사용해야 합니다. **파일 로드** 활동 뒤에 다음 **조정** 활동. [자세히 알아보기](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -69,10 +69,6 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 1. **계속**&#x200B;을 클릭합니다.
 1. 새 게재를 디자인할 때 대상을 사용하는 것과 동일한 방법으로 대상을 선택합니다. 이 [섹션](../../audience/add-audience.md)을 참조하십시오.
 
->[!IMPORTANT]
->
->을(를) 사용하려면 **[!UICONTROL 대상자 작성]** 활동은 Experience Platform 대상자를 타겟팅하므로 **[!UICONTROL 차원 변경]** 활동 뒤에 활동을 추가하여 대상자의 타겟팅 차원이 &quot;수신자&quot;로 설정되도록 합니다. 워크플로우 예제는 이 페이지 맨 아래에서 확인할 수 있습니다.
-
 >[!ENDTABS]
 
 ## 예제{#build-audience-examples}
@@ -80,7 +76,3 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 다음은 두 가지 **대상자 빌드** 활동이 포함된 워크플로의 예입니다. 첫 번째는 포커 플레이어 대상자를 대상으로 하며 이메일 게재로 이어집니다. 두 번째는 VIP 클라이언트 대상자를 대상으로 하며 SMS 게재로 이어집니다.
 
 ![](../assets/workflow-audience-example.png)
-
-다음은 Adobe Experience Platform 대상자를 Adobe Campaign 대상자와 결합하는 또 다른 워크플로우 예입니다. 이러한 대상을 결합할 수 있으려면 **[!UICONTROL 차원 변경]** &quot;수신자&quot; 타겟팅 차원이 있는 활동이 Adobe Experience Platform 대상 뒤에 추가됩니다. [변경 차원 활동을 구성하는 방법 알아보기](change-dimension.md)
-
-![](../assets/workflow-audience-aep.png)

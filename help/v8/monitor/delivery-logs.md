@@ -3,11 +3,11 @@ audience: end-user
 title: 게재 로그 모니터링
 description: 게재 로그 모니터링 방법 알아보기
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+badge: label="제한 공개"
+source-git-commit: 07faf8255ce6db643534fb59f7c118eef04b39ef
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 74%
+source-wordcount: '359'
+ht-degree: 71%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 74%
 
 * 회색 아이콘은 유익한 메시지를 나타냅니다.
 * 노란색 아이콘은 중요하지 않은 처리 오류를 나타냅니다.
-* 빨간색 아이콘은 게재 전송을 방해하는 심각한 오류를 나타냅니다. 게재를 보내려면 중대 오류를 수정해야 합니다.
+* 빨간색 아이콘은 게재를 보낼 수 없는 심각한 오류를 나타냅니다. 게재를 보내려면 중대 오류를 수정해야 합니다.
 
 ![](assets/logs.png)
 

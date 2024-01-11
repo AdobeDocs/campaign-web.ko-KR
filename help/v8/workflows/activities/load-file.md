@@ -3,10 +3,10 @@ audience: end-user
 title: 파일 로드 워크플로우 활동 사용
 description: 파일 로드 워크플로우 활동을 사용하는 방법 알아보기
 badge: label="제한 공개"
-source-git-commit: 47fd0ab358a28ed09d9ab0de3b9dfab5a1592634
+source-git-commit: ae925f16aa39b2e1de9b9957c380d17d299ad114
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 43%
+source-wordcount: '323'
+ht-degree: 35%
 
 ---
 
@@ -52,7 +52,6 @@ ht-degree: 43%
 >title="파일 활동 로드에 대한 서식 지정"
 >abstract="파일 활동 로드에 대한 서식 지정"
 
-
 **파일 로드** 활동은 **데이터 관리** 활동입니다. 이 활동을 사용하여 외부 파일에 저장된 프로필 및 데이터를 사용합니다. 프로필 및 데이터는 데이터베이스에 추가되지 않지만 입력 파일의 모든 필드는 다음에 사용할 수 있습니다. [개인화](../../personalization/gs-personalization.md)또는 를 사용하여 프로필 또는 기타 테이블을 업데이트할 수 있습니다.
 
 >[!NOTE]
@@ -72,10 +71,12 @@ ht-degree: 43%
 
    ![](../assets/load-file.png)
 
-1. 열 설정과 사용 가능한 옵션에서 데이터 서식을 지정하는 방법을 조정합니다.
+1. 사용 **열** 왼쪽 창의 섹션에서 각 열의 데이터 유형과 너비를 조정할 수 있습니다.
+
+1. 다음에서 **서식** 열 구성 아래에 있는 섹션에서 데이터를 올바르게 가져오도록 외부 파일의 형식을 지정하는 방법을 지정합니다.
 
 1. 설정이 적절하면 **확인**&#x200B;을 클릭합니다.
 
 ## 예제{#load-example}
 
-외부 파일 로드 샘플은 **조정** 의 활동 [이 섹션](reconciliation.md#example).
+와 함께 사용되는 외부 파일 로드 샘플 **조정** 활동은에서 사용할 수 있습니다. [이 섹션](reconciliation.md#example).

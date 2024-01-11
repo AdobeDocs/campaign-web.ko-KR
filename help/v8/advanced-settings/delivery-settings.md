@@ -89,7 +89,7 @@ ht-degree: 81%
 >
 >피로도 관리는 Campaign 클라이언트 콘솔에 구성됩니다. 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
 
-### 용량 설정 {#capacity-settings}
+### 수용작업량 설정 {#capacity-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"

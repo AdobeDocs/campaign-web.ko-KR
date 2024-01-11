@@ -3,9 +3,9 @@ audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
 badge: label="제한 공개"
-source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
+source-git-commit: ed094259c71ed5da5e395d49598fe9f39980b07f
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1920'
 ht-degree: 3%
 
 ---
@@ -90,6 +90,8 @@ ht-degree: 3%
 
 의 경우 **1-1 링크**&#x200B;로 이동하여 연결된 테이블로 이동하고 원하는 속성을 선택한 다음 예상 값을 정의합니다.
 
+에서 표 링크를 직접 선택할 수도 있습니다. **값** 선택 및 확인. 이 경우 아래 예와 같이 전용 선택기를 사용하여 선택한 테이블에 사용할 수 있는 값을 선택해야 합니다.
+
 +++쿼리 예
 
 여기에서 쿼리는 레이블이 &quot;실행 중&quot;인 브랜드를 타겟팅합니다.
@@ -101,6 +103,10 @@ ht-degree: 3%
 1. 속성에 대한 예상 값을 정의합니다.
 
    ![](assets/1-1-table.png){width="85%" align="center"}
+
+다음은 테이블 링크가 직접 선택된 쿼리 샘플입니다. 이 테이블에 사용할 수 있는 값은 전용 선택기에서 선택해야 합니다.
+
+![](assets/1-1-table-direct.png){width="85%" align="center"}
 
 +++
 

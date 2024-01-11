@@ -2,12 +2,12 @@
 audience: end-user
 title: 예약 워크플로우 활동 사용
 description: 스케줄러 워크플로우 활동을 사용하는 방법 알아보기
-badge: label="Beta"
+badge: label="제한 공개"
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: dfe2360d4a05b959b1094ccffd131fd703650f3e
+source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 29%
+source-wordcount: '527'
+ht-degree: 30%
 
 ---
 

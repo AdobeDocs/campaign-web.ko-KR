@@ -2,12 +2,12 @@
 audience: end-user
 title: 대기 워크플로 활동 사용
 description: 대기 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
-badge: label="Beta"
+badge: label="제한 공개"
 exl-id: 970953a1-0091-477c-9f52-596af3a8857d
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '165'
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 1. 인바운드 전환과 아웃바운드 전환 사이의 대기 **기간**&#x200B;을 지정합니다.
 
-1. **기간** 필드에서 시간 단위(초, 분, 시간)를 선택합니다.
+1. 에서 시간 단위 선택 **마침표** 필드: 초, 분, 시간, 일.
 
 ## 예제{#wait-example}
 

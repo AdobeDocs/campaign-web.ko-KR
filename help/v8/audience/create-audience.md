@@ -4,7 +4,7 @@ title: 대상자 만들기
 description: Adobe Campaign 웹에서 대상자를 만드는 방법을 알아봅니다
 badge: label="Beta"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 22%
@@ -54,7 +54,7 @@ Campaign 웹을 사용하면 시각적 워크플로우 캔버스로 새로운 �
 
    * **[!UICONTROL 대상자 저장]**: 워크플로우의 마지막 단계를 나타내므로 워크플로우 결과를 새 대상자로 저장할 수 있습니다.
 
-1. 를 엽니다. **[!UICONTROL 대상자 작성]** 활동에 액세스하고 규칙 빌더를 사용하여 데이터베이스에 포함된 데이터를 필터링하여 대상에 포함할 모집단을 정의합니다. [대상자 빌드 활동을 구성하는 방법 알아보기](../workflows/activities/build-audience.md)
+1. 를 엽니다. **[!UICONTROL 대상자 작성]** 활동에 참여하고 쿼리 모델러를 사용하여 데이터베이스에 포함된 데이터를 필터링하여 대상자에 포함할 모집단을 정의합니다. [대상자 빌드 활동을 구성하는 방법 알아보기](../workflows/activities/build-audience.md)
 
 1. 워크플로우에 타겟팅된 모집단에서 추가 작업을 수행하려면 필요한 만큼 활동을 추가하고 함께 연결합니다. 워크플로우 활동 구성 방법에 대한 자세한 내용은 [워크플로우 설명서](../workflows/activities/about-activities.md).
 

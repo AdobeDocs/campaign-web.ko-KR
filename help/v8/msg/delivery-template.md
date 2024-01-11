@@ -7,7 +7,7 @@ role: User
 level: Beginner
 badge: label="Beta"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 67c41530b3992bca218b2c2ed04ebc963bf5b295
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '1076'
 ht-degree: 25%
@@ -53,7 +53,7 @@ ht-degree: 25%
 
 다음의 모든 템플릿 [생성됨](#create-a-delivery-template) 현재 환경에 표시됩니다.
 
-채널 및 폴더에서 콘텐츠 템플릿을 필터링할 수 있습니다. 게재 속성을 사용하여 규칙을 작성하여 고급 필터를 설정할 수도 있습니다. [규칙 빌더에 대해 자세히 알아보기](../audience/../query/query-modeler-overview.md)
+채널 및 폴더에서 콘텐츠 템플릿을 필터링할 수 있습니다. 게재 속성을 사용하여 규칙을 작성하여 고급 필터를 설정할 수도 있습니다. [쿼리 모델러에 대해 자세히 알아보기](../audience/../query/query-modeler-overview.md)
 
 ![](assets/templates-filters.png)
 

@@ -4,10 +4,10 @@ title: 컨트롤 그룹 설정
 description: Campaign Web UI에서 메시지에 대한 컨트롤 그룹을 설정하는 방법 알아보기
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Beta"
-source-git-commit: 2ff2411e34ef63c1ca4da355a577777394e2664f
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 41%
+ht-degree: 39%
 
 ---
 
@@ -114,7 +114,7 @@ ht-degree: 41%
 
 * 기존 대상자를 사용하려면 **대상자 선택**&#x200B;을 클릭합니다. [이 섹션](add-audience.md)에서 자세히 알아보십시오.
 
-* 새 쿼리를 정의하려면 **직접 만들기**&#x200B;를 선택하고 규칙 빌더를 사용하여 제외 기준을 정의합니다. [이 섹션](../query/query-modeler-overview.md)에서 자세히 알아보십시오.
+* 새 쿼리를 정의하려면 **나만의 콘텐츠 만들기** 쿼리 모델러를 사용하여 제외 기준을 정의합니다. [이 섹션](../query/query-modeler-overview.md)에서 자세히 알아보십시오.
 
 대상자에 포함되거나 쿼리 결과와 일치하는 프로필은 다음과 같습니다 **제외됨** 게재 대상에서: 메시지를 받지 않습니다.
 

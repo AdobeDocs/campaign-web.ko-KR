@@ -4,10 +4,10 @@ title: Adobe Experience Platform 대상자 사용
 description: Adobe Experience Platform에서 대상자를 사용하는 방법 알아보기
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 38%
+ht-degree: 32%
 
 ---
 
@@ -49,6 +49,6 @@ Adobe Experience Platform 대상자를 만들어 클라이언트 콘솔에서 �
 
    ![](assets/refine-audience.png)
 
-1. 규칙 빌더를 사용하면 추가 필터를 사용하거나 다른 대상자를 결합하여 대상자를 보강할 수 있습니다. 이 [섹션](../query/query-modeler-overview.md)을 참조하십시오.
+1. 쿼리 모델러를 사용하면 추가 필터로 대상자를 보강하거나 서로 다른 대상자를 결합하여 대상자를 보강할 수 있습니다. 이 [섹션](../query/query-modeler-overview.md)을 참조하십시오.
 
 1. **저장**&#x200B;을 클릭합니다.

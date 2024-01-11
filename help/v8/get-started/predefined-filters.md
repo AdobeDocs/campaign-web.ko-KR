@@ -3,10 +3,10 @@ title: 미리 정의된 필터 생성 및 사용
 description: Adobe Campaign Web UI에서 미리 정의된 필터를 만들고 관리하는 방법에 대해 알아봅니다.
 badge: label="제한 공개"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 86%
 
 ## 미리 정의된 필터 사용 {#use-predefined-filter}
 
-규칙 속성을 정의할 때 미리 정의된 필터를 사용할 수 있습니다. 미리 정의된 필터에 액세스하려면 규칙 빌더의 드롭다운에서 **사용자 정의 필터 선택** 옵션을 선택하십시오.
+규칙 속성을 정의할 때 미리 정의된 필터를 사용할 수 있습니다. 사전 정의된 필터에 액세스하려면 다음을 선택합니다. **사용자 정의 필터 선택** 쿼리 모델러의 드롭다운에 있는 옵션입니다.
 
 그런 다음 현재 컨텍스트에 사용 가능한 미리 정의된 필터의 전체 목록에 액세스할 수 있습니다.
 

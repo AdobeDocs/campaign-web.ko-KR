@@ -3,10 +3,10 @@ title: Campaign Web UI의 가드레일 및 제한 사항
 description: Campaign Web UI의 가드레일 및 제한 사항
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 441add3d624ab730c3dce39a4305107998c5cc62
-workflow-type: ht
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+workflow-type: tm+mt
 source-wordcount: '657'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -61,7 +61,7 @@ Campaign 클라이언트 콘솔에서 생성되거나 수정된 &#x200B;&#x200B;
 >[!CONTEXTUALHELP]
 >id="acw_predefined_filter_read_only"
 >title="이 필터는 읽기 전용입니다."
->abstract="일부 미리 정의된 필터는 해당 제품 버전의 사용자 인터페이스에서 사용할 수 없습니다. 이러한 필터는 읽기 전용으로 표시됩니다. 규칙 빌더에서 쿼리의 그래픽 표현을 볼 수 없고 필터를 편집할 수 없는 경우에도 필터를 사용할 수 있으며 화면의 **속성** 섹션에서 필터링 조건을 볼 수 있습니다."
+>abstract="일부 미리 정의된 필터는 해당 제품 버전의 사용자 인터페이스에서 사용할 수 없습니다. 이러한 필터는 읽기 전용으로 표시됩니다. 쿼리 모델러에서 쿼리의 그래픽 표현을 볼 수 없고 필터를 편집할 수 없는 경우에도 여전히 사용할 수 있으며 **속성** 섹션에 있는 마지막 항목이 될 필요가 없습니다."
 
 해당 버전의 제품에서는 게재 대상을 선택하거나 워크플로에서 대상자를 구성할 때 일부 미리 정의된 필터를 사용자 인터페이스에서 사용할 수 없습니다. 이러한 필터는 읽기 전용으로 표시됩니다.
 
@@ -69,7 +69,7 @@ Campaign 클라이언트 콘솔에서 생성되거나 수정된 &#x200B;&#x200B;
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
-규칙 빌더에서 쿼리의 그래픽 표현을 볼 수 없고 필터를 편집할 수 없는 경우에도 필터를 사용할 수 있으며 화면의 **속성** 섹션에서 필터링 조건을 볼 수 있습니다.
+쿼리 모델러에서 쿼리의 그래픽 표현을 볼 수 없고 필터를 편집할 수 없는 경우에도 여전히 사용할 수 있으며 **속성** 섹션에 있는 마지막 항목이 될 필요가 없습니다.
 
 ![](assets/rule-edit.png){width="70%" align="left"}
 

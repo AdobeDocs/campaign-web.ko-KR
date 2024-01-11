@@ -4,10 +4,10 @@ title: 첫 이메일 보내기
 description: Campaign Web UI를 사용하여 첫 이메일을 전송하는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="제한 공개"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '1315'
-ht-degree: 70%
+ht-degree: 67%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 70%
 
 1. 다음으로 이동 **[!UICONTROL 게재]** 왼쪽 레일에서 메뉴를 클릭하고  **[!UICONTROL 게재 만들기]** 단추를 클릭합니다.
 
-   ![](assets/delivery-list.png)
+   ![](../msg/assets/create-a-delivery.png)
 
 1. 선택 **[!UICONTROL 이메일]** 을(를) 채널로 설정하고 목록에서 이메일 게재 템플릿을 선택합니다.
 
@@ -73,7 +73,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="게재에 대한 대상자를 선택합니다."
->abstract="마케팅 메시지에 적합한 대상자를 선택합니다. Campaign v8 인스턴스 또는 Adobe Experience Platform에서 이미 정의된 기존 대상자를 선택하거나, 규칙 빌더를 사용하여 새 대상자를 만들거나, 대상자가 포함된 파일을 업로드할 수 있습니다. 컨트롤 그룹은 **“파일에서 선택”** 옵션에서는 활성화되지 않으며 그 반대의 경우도 마찬가지입니다."
+>abstract="마케팅 메시지에 적합한 대상자를 선택합니다. 기존 대상(Campaign v8 인스턴스 또는 Adobe Experience Platform에서 이미 정의됨)을 선택하거나, 쿼리 모델러를 사용하여 새 대상을 만들거나, 대상이 포함된 파일을 업로드할 수 있습니다. 컨트롤 그룹은 **“파일에서 선택”** 옵션에서는 활성화되지 않으며 그 반대의 경우도 마찬가지입니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="기본 대상자 선택"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="컨트롤 그룹 설정"
 

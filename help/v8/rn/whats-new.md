@@ -4,10 +4,10 @@ title: Campaign Web v8의 새로운 기능
 description: Campaign Web v8이 제공되는 새로운 기능 살펴보기
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="제한 공개"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '1337'
-ht-degree: 67%
+ht-degree: 66%
 
 ---
 
@@ -71,7 +71,7 @@ Adobe Campaign에서는 이메일, SMS, 푸시 알림 등 크로스 채널 캠�
 * 이메일, SMS 및 푸시 알림 만들기, 디자인, 개인화, 예약 및 보내기 - [자세히 알아보기](../msg/gs-messages.md)
 * 이메일 디자이너로 개인화된 이메일 콘텐츠 디자인 - [자세히 알아보기](../email/edit-content.md)
 * SMS 및 푸시 알림을 포함하여 크로스 채널 캠페인 보내기 - [자세히 알아보기](../workflows/activities/channels.md)
-* 규칙 빌더로 타겟 대상자 정의 - [자세히 알아보기](../audience/about-recipients.md)
+* 쿼리 모델러를 사용하여 타겟 대상자 정의 - [자세히 알아보기](../audience/about-recipients.md)
 * 메시지 미리보기, 테스트 및 전송 - [자세히 알아보기](../monitor/prepare-send.md)
 * 내장된 보고서로 전송 및 측정 결과 모니터링 - [자세히 알아보기](../reporting/delivery-reports.md)
 

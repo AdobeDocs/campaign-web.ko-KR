@@ -4,7 +4,7 @@ title: 게재를 위한 일회성 대상 구축
 description: 게재를 위한 일회성 대상을 구축하는 방법을 알아봅니다.
 badge: label="Beta"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 28%
@@ -13,7 +13,7 @@ ht-degree: 28%
 
 # 게재를 위한 일회성 대상 구축 {#sone-time}
 
-이 섹션에서는 새 게재를 만들 때 대상을 구축하는 방법을 설명합니다. 이 경우 게재 대상에 포함할 수신자는 규칙 빌더로 데이터베이스를 쿼리하여 타겟팅됩니다.
+이 섹션에서는 새 게재를 만들 때 대상을 구축하는 방법을 설명합니다. 이 경우 쿼리 모델러를 사용하여 데이터베이스를 쿼리하여 게재 대상에 포함할 수신자의 타겟이 지정됩니다.
 
 결과 대상자는 이 게재에 한 번만 사용됩니다. 대상자 목록에 저장되지 않습니다.
 
@@ -28,7 +28,7 @@ ht-degree: 28%
 
    ![](assets/segment-builder0.png)
 
-1. **직접 만들기**&#x200B;를 선택합니다. 규칙 빌더가 표시됩니다. 데이터베이스에 포함된 데이터를 필터링하여 게재 대상의 모집단을 정의할 수 있습니다. [규칙 빌더를 사용하는 방법을 알아봅니다](../query/query-modeler-overview.md)
+1. **직접 만들기**&#x200B;를 선택합니다. 쿼리 모델러가 표시됩니다. 데이터베이스에 포함된 데이터를 필터링하여 게재 대상의 모집단을 정의할 수 있습니다. [쿼리 모델러를 사용하는 방법 알아보기](../query/query-modeler-overview.md)
 
    ![](assets/segment-builder.png)
 

@@ -4,7 +4,7 @@ title: 기존 대상자 선택
 description: 대상자 선택 방법 알아보기
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 7891ae64a8b5a5929a70974af317865b08cc0e68
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 34%
@@ -21,7 +21,7 @@ ht-degree: 34%
 
 이 섹션에서는 게재의 대상 모집단을 정의할 때 기존 대상자를 선택하는 방법을 설명합니다. 게재의 기본 대상을 정의할 때 다음을 수행할 수도 있습니다.
 
-* [일회성 대상자 작성](one-time-audience.md) 규칙 빌더 사용.
+* [일회성 대상자 작성](one-time-audience.md) 쿼리 모델러를 사용하는 중입니다.
 * [외부 파일에서 대상자 로드](file-audience.md) (이메일에만 해당).
 
 게재에서 타겟팅할 수 있는 대상은에서 액세스할 수 있습니다. **대상자** 왼쪽 메뉴. 이는 클라이언트 콘솔, Campaign 웹 대상자 워크플로우 또는 Adobe Experience Platform과 같은 여러 소스에서 생성됩니다. [대상자 모니터링 및 관리 방법 알아보기](manage-audience.md)
@@ -40,11 +40,11 @@ ht-degree: 34%
 
    ![](assets/select-audience-folder.png)
 
-1. 필터 섹션에서 필터링 옵션에 액세스하여 대상자 목록을 세분화할 수 있습니다. 이렇게 하려면 다음을 클릭하십시오. **규칙 추가** 대상자 목록에 대한 고급 필터를 만들 수 있는 규칙 빌더에 액세스하려면 . [규칙 빌더를 사용하는 방법을 알아봅니다](../query/query-modeler-overview.md)
+1. 필터 섹션에서 필터링 옵션에 액세스하여 대상자 목록을 세분화할 수 있습니다. 이렇게 하려면 다음을 클릭하십시오. **규칙 추가** 대상자 목록에 대한 고급 필터를 만들 수 있는 쿼리 모델러에 액세스합니다. [쿼리 모델러를 사용하는 방법 알아보기](../query/query-modeler-overview.md)
 
    ![](assets/create-audience4.png)
 
-1. 클릭 **확인** 게재 주요 타겟으로 대상을 추가합니다. 완료되면 규칙 빌더를 사용하여 대상을 세분화할 수 있습니다. **규칙 편집** 단추를 클릭합니다.
+1. 클릭 **확인** 게재 주요 타겟으로 대상을 추가합니다. 완료되면 쿼리 모델러를 사용하여 대상을 세분화할 수 있습니다. **규칙 편집** 단추를 클릭합니다.
 
    ![](assets/refine-audience.png)
 

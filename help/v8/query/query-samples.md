@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: 쿼리 샘플
-description: 규칙 빌더로 작업하는 방법을 알아봅니다.
+description: 쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다.
 hide: true
 hidefromtoc: true
 badge: label="제한 공개"
-source-git-commit: e555a6aabab6a20a5b3f3ddecf9d63d49292d55a
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 3%

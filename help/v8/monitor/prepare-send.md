@@ -3,10 +3,10 @@ audience: end-user
 title: 이메일 준비 및 전송
 description: Campaign Web UI를 사용하여 이메일을 준비하고 전송하는 방법 알아보기
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="제한 공개"
+source-git-commit: 798675125820076d4e5e379a94a1d5575425f68c
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '892'
 ht-degree: 40%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 40%
 
 ## 전송 일시 중지 또는 중지 {#pause-stop-sending}
 
-게재 예약 여부에 관계없이 전송 프로세스 중에 언제든지 두 가지 작업을 수행할 수 있습니다.
+게재 예약 여부<!--TBC-->, 전송 프로세스 중에 언제든지 두 가지 작업을 수행할 수 있습니다.
 
 * 클릭 **[!UICONTROL 전송 일시 중지]** 메시지 전송을 중단합니다. 언제든지 전송을 재개할 수 있습니다.
 

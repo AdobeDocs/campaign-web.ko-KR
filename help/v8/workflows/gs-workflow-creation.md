@@ -2,15 +2,14 @@
 audience: end-user
 title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 빌드하는 방법 알아보기
-badge: label="Beta"
-exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 53148300ecb5d52d89875519c44ae979d29a4d76
-workflow-type: ht
-source-wordcount: '281'
-ht-degree: 100%
+badge: label="제한 공개"
+exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
+source-git-commit: 24521be2c796b5714712849355c3d033537847bc
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 99%
 
 ---
-
 
 # 워크플로 생성의 핵심 원칙 {#gs-workflow-creation}
 
@@ -21,7 +20,7 @@ Campaign v8 Web을 통해 워크플로를 시각적 캔버스에 빌드하여 �
 
 워크플로 다이어그램은 어떤 일이 발생할지를 나타냅니다. 앞으로 수행할 다양한 작업과 이러한 작업이 어떻게 서로 연결되어 있는지 설명합니다.
 
-![](assets/workflow-example.png)
+![](assets/workflow-example.png) {zoomable=&quot;yes&quot;}
 
 각 워크플로에는 다음이 포함됩니다.
 
@@ -57,4 +56,3 @@ Campaign v8 Web을 통해 워크플로를 시각적 캔버스에 빌드하여 �
 1. [활동 조율 및 구성](orchestrate-activities.md)
 1. [워크플로 고급 설정 구성](workflow-settings.md)
 1. [워크플로를 시작하고 실행을 모니터링](start-monitor-workflows.md)
-

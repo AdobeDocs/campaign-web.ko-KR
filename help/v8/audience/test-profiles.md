@@ -60,7 +60,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_additionaldata"
 >title="테스트 프로필 추가 데이터"
->abstract="데이터 관리 워크플로우에서 생성되고 특정 값을 할당하려는 게재에 사용되는 개인화 데이터를 입력합니다."
+>abstract="데이터 관리 워크플로에서 생성되고 특정 값을 할당하려는 게재에 사용되는 개인화 데이터를 입력합니다."
 
 테스트 프로필을 만들려면 아래 단계를 수행합니다.
 

@@ -3,14 +3,14 @@ title: Campaign 웹에서 AI 기반의 상황별 도움말 사용
 description: Campaign 웹 도움말 팝오버에서 질문하기
 badge: label="Alpha"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 453e19351459cc86c4cbaf671be4de7625555374
+source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 52%
+source-wordcount: '465'
+ht-degree: 49%
 
 ---
 
-# AI 기반의 상황별 도움말 사용 {#using-ai}
+# AI 기반의 상황별 도움말 {#using-ai}
 
 제품 상황별 도움말 상자에서 Q&amp;A AI 기반의 상황별 도움말을 확인할 수 있으므로 제품 설명서 및 현재 제품 컨텍스트를 기반으로 AI가 생성한 빠른 답변을 얻을 수 있습니다.
 
@@ -18,7 +18,7 @@ ht-degree: 52%
 >
 >이 기능은 Alpha 버전에서 사용할 수 있으며 사전 통지 없이 변경될 수 있습니다.
 >
->이 기능은 **영어**&#x200B;로만 사용할 수 있습니다. 이 버전에서는 다른 언어가 지원되지 않습니다.
+>이 기능은 **영어**&#x200B;로만 사용할 수 있습니다. 이 버전에서는 다른 언어가 지원되지 않습니다. 그 결과, [선호하는 언어](connect-to-campaign.md#language-pref) 이 기능을 사용하기 전에 를 영어로 설정합니다.
 
 
 다음 **Gen AI의 상황별 도움말** 상황별 도움말에 포함되어 방대한 설명서 저장소를 손쉽게 탐색하여 설명서 검색 및 사용 방법 질문에 대한 대답 기능을 혁신적으로 개선하고 필요한 정확한 정보를 즉시 정확하게 찾아냅니다.

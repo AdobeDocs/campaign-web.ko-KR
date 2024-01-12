@@ -6,10 +6,10 @@ title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: Campaign v8 Web
 hide: true
-source-git-commit: 20f8d2b31a3d2ebb8b4fee7a169fedc17ad1c9db
+source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 86%
    + [액세스 및 권한](get-started/permissions.md)
    + [가드레일 및 제한 사항](get-started/guardrails.md)
    + [지원되지 않는 기능](get-started/unsupported.md)
-   + [도움말 및 지침 찾기](get-started/using-ai.md)
+   + [AI 기반의 상황별 도움말](get-started/using-ai.md)
 + 메시지 및 게재 {#msg}
    + [메시지 시작](msg/gs-messages.md)
    + [게재 작업](msg/gs-deliveries.md)

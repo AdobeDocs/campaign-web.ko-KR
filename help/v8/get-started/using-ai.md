@@ -3,7 +3,7 @@ title: Campaign 웹에서 AI 기반의 상황별 도움말 사용
 description: Campaign 웹 도움말 팝오버에서 질문하기
 badge: label="Alpha"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
+source-git-commit: 856f855d88fe834f59665fc62e2b4df6f817cbab
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 49%

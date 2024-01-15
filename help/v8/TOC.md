@@ -6,10 +6,10 @@ title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: Campaign v8 Web
 hide: true
-source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 85%
+source-wordcount: '531'
+ht-degree: 82%
 
 ---
 
@@ -23,10 +23,10 @@ ht-degree: 85%
    + [시작하기](get-started/get-started.md)
    + [Campaign에 연결](get-started/connect-to-campaign.md)
    + [인터페이스 살펴보기](get-started/user-interface.md)
-   + [목록 찾아보기, 검색 및 필터링](get-started/list-filters.md)
+   + [목록 검색 및 필터링](get-started/list-filters.md)
    + [미리 정의된 필터 작업](get-started/predefined-filters.md)
    + [액세스 및 권한](get-started/permissions.md)
-   + [가드레일 및 제한 사항](get-started/guardrails.md)
+   + [보호 기능 및 제한 사항](get-started/guardrails.md)
    + [지원되지 않는 기능](get-started/unsupported.md)
    + [AI 기반의 상황별 도움말](get-started/using-ai.md)
 + 메시지 및 게재 {#msg}
@@ -70,7 +70,7 @@ ht-degree: 85%
       + [푸시 알림 시작하기](push/gs-push.md)
       + [푸시 알림 게재 만들기](push/create-push.md)
       + [푸시 게재 디자인](push/content-push.md)
-      + [푸시 알림 게재 미리보기 및 전송](push/send-push.md)
+      + [푸시 게재 미리 보기 및 보내기](push/send-push.md)
    + SMS {#sms}
       + [SMS 게재 시작하기](sms/gs-sms.md)
       + [SMS 게재 만들기](sms/create-sms.md)
@@ -79,7 +79,7 @@ ht-degree: 85%
    + 다이내믹 콘텐츠 만들기 {#dynamic-content}
       + [다이내믹 콘텐츠 시작](personalization/gs-personalization.md)
       + [개인화 추가](personalization/personalize.md)
-      + [조건부 콘텐츠 추가](personalization/conditions.md)
+      + [조건부 콘텐츠 작성](personalization/conditions.md)
       + [내장된 콘텐츠 블록 추가](personalization/content-blocks.md)
    + [메시지에 오퍼 추가](msg/offers.md)
    + [구독자에게 메시지 전송](msg/send-to-subscribers.md)
@@ -87,7 +87,7 @@ ht-degree: 85%
       + [미리보기 및 테스트 정보](preview-test/preview-test.md)
       + [메시지 콘텐츠 미리보기](preview-test/preview-content.md)
       + [테스트 게재 전송](preview-test/test-deliveries.md)
-      + [이메일 렌더링](preview-test/email-rendering.md)
+      + [이메일 렌더링 테스트](preview-test/email-rendering.md)
 + 프로필 및 대상자 {#audiences}
    + [프로필 및 대상자 시작](audience/gs-audiences-recipients.md)
    + [타겟팅 차원](audience/targeting-dimensions.md)
@@ -100,10 +100,10 @@ ht-degree: 85%
    + 게재 수신자 선택 {#target-audiences}
       + [기존 대상자 선택](audience/add-audience.md)
       + [일회성 대상자 빌드](audience/one-time-audience.md)
-      + [파일에서 대상자 로드](audience/file-audience.md)
+      + [파일에서 이메일 대상자 로드](audience/file-audience.md)
       + [컨트롤 그룹 설정](audience/control-group.md)
    + 구독 서비스 작업 {#work-with-services}
-      + [서비스 관리](audience/manage-services.md)
+      + [구독 서비스 만들기 및 관리](audience/manage-services.md)
       + [구독자 관리](audience/manage-subscribers.md)
 + 크로스 채널 캠페인 {#campaigns}
    + [캠페인 시작하기](campaigns/gs-campaigns.md)
@@ -112,12 +112,12 @@ ht-degree: 85%
 + 워크플로 {#wf}
    + [워크플로 시작](workflows/gs-workflows.md)
    + [워크플로 액세스 및 관리](workflows/access-monitor.md)
-   + 첫 워크플로 만들기 및 실행 {#create-workflow}
+   + 첫 번째 워크플로우 만들기 및 실행 {#create-workflow}
       + [워크플로 생성의 핵심 원칙](workflows/gs-workflow-creation.md)
       + [워크플로 만들기](workflows/create-workflow.md)
       + [활동 조율](workflows/orchestrate-activities.md)
       + [워크플로 설정 구성](workflows/workflow-settings.md)
-      + [워크플로 시작 및 모니터링](workflows/start-monitor-workflows.md)
+      + [워크플로우 시작 및 모니터링](workflows/start-monitor-workflows.md)
    + 워크플로 활동을 사용하여 작업 {#design-workflows}
       + [워크플로 활동 정보](workflows/activities/about-activities.md)
       + [AND-가입](workflows/activities/and-join.md)
@@ -145,12 +145,12 @@ ht-degree: 85%
    + [보고서 내보내기](reporting/export-reports.md)
    + [주요 성과 지표](reporting/kpis.md)
    + 게재 보고서 {#delivery-report}
-      + [게재 보고서 시작](reporting/delivery-reports.md)
+      + [게재 보고서 시작하기](reporting/delivery-reports.md)
       + [이메일 게재 보고서](reporting/email-report.md)
       + [게재 보고서 푸시](reporting/push-report.md)
       + [SMS 게재 보고서](reporting/sms-report.md)
    + 캠페인 보고서 {#campaign-report}
-      + [Campaign 보고서 시작](reporting/campaign-reports.md)
+      + [캠페인 보고서 시작하기](reporting/campaign-reports.md)
       + [이메일 캠페인 보고서](reporting/campaign-reports-email.md)
       + [캠페인 보고서 푸시](reporting/campaign-reports-push.md)
       + [SMS 캠페인 보고서](reporting/campaign-reports-sms.md)

@@ -4,10 +4,10 @@ title: Campaign 규칙 빌더로 대상자 빌드
 description: 규칙 빌더로 작업하는 방법을 알아봅니다.
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 60%
+source-wordcount: '563'
+ht-degree: 59%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 60%
 
 * **속성**: 이 탭에서는 스키마에서 사용 가능한 모든 필드에 액세스할 수 있습니다. 필드 목록은 이메일 템플릿에 정의된 타겟팅 스키마에 따라 다릅니다.
 
-* **대상**: 이 탭에서는 Campaign Classic 콘솔 또는 Adobe Experience Platform에 정의된 기존 대상자 중 하나를 사용하여 필터링할 수 있습니다. [대상자 모니터링 및 관리 방법 알아보기](manage-audience.md)
+* **대상**: 이 탭에서는 Campaign Classic 콘솔 또는 Adobe Experience Platform에 정의된 기존 대상자 중 하나를 사용하여 필터링할 수 있습니다. 에서 대상자를 모니터링하고 관리하는 방법 알아보기 [이 섹션](manage-audience.md)
 
   >[!NOTE]
   >

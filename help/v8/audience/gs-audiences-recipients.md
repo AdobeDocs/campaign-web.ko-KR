@@ -3,10 +3,10 @@ title: 프로필 및 대상자 시작
 description: Campaign 웹에서 프로필 및 대상자를 사용하여 작업하는 방법을 알아봅니다
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="제한 공개"
-source-git-commit: f3e092abff7b1c84e20cce32be1011768cc96397
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 17%
+source-wordcount: '204'
+ht-degree: 20%
 
 ---
 

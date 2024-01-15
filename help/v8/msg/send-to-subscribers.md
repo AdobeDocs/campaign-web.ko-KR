@@ -4,14 +4,14 @@ title: 서비스 구독자에게 메시지 보내기
 description: 서비스 구독자에게 메시지를 보내는 방법 알아보기
 badge: label="Beta"
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
 
 ---
 
-# 서비스 구독자에게 메시지 보내기
+# 서비스 구독자에게 메시지 보내기 {#send-to-subscribers}
 
 Adobe Campaign에서 구독 서비스를 만들고 구독자에게 메시지를 보낼 수 있습니다. 에서 구독 서비스를 만드는 방법 알아보기 [이 페이지](../audience//manage-services.md#create-service).
 

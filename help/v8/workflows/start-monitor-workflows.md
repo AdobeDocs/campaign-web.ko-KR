@@ -4,14 +4,14 @@ title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 빌드하는 방법 알아보기
 badge: label="제한 공개"
 exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
-source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '571'
 ht-degree: 4%
 
 ---
 
-# 워크플로 시작 및 모니터링 {#start-monitor}
+# 워크플로우 시작 및 모니터링 {#start-monitor}
 
 워크플로우를 만들고 캔버스에서 수행할 작업을 설계하면 워크플로우를 시작하고 실행 방법을 모니터링할 수 있습니다.
 

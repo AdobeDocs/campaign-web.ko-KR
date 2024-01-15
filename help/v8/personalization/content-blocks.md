@@ -7,14 +7,14 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 60%
+source-wordcount: '429'
+ht-degree: 61%
 
 ---
 
-# 내장된 콘텐츠 블록 {#ootb-content-blocks}
+# 내장된 콘텐츠 블록 추가 {#ootb-content-blocks}
 
 Adobe Campaign은 사전 구성된 콘텐츠 블록 목록을 제공합니다. 이러한 콘텐츠 블록은 동적이고 개인화된 블록이며 게재에 삽입할 수 있는 특정 렌더링을 포함합니다. 예를 들어 미러 페이지에 로고, 인사말 메시지 또는 링크를 추가할 수 있습니다.
 

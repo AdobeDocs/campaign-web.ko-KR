@@ -1,22 +1,22 @@
 ---
 audience: end-user
 product: campaign
-title: 이메일 템플릿 사용
-description: Adobe Campaign에서 이메일 템플릿을 사용하는 방법 알아보기
+title: 이메일 콘텐츠 템플릿 사용
+description: Adobe Campaign에서 이메일 콘텐츠 템플릿을 사용하는 방법 알아보기
 feature: Templates
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="제한 공개"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '254'
 ht-degree: 11%
 
 ---
 
-# 이메일 템플릿 사용 {#use-email-templates}
+# 이메일 콘텐츠 템플릿 사용 {#use-email-templates}
 
 날짜 [이메일 만들기](../email/create-email.md), 사용 **[!UICONTROL 디자인 템플릿 선택]** 의 섹션 **[!UICONTROL 이메일 만들기]** 템플릿에서 콘텐츠 작성을 시작하는 인터페이스입니다.
 

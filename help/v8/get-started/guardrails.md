@@ -3,14 +3,14 @@ title: Campaign Web UI의 가드레일 및 제한 사항
 description: Campaign Web UI의 가드레일 및 제한 사항
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '658'
 ht-degree: 88%
 
 ---
 
-# 가드레일 및 제한 사항 {#guardrails-limitations}
+# 보호 기능 및 제한 사항 {#guardrails-limitations}
 
 Campaign 클라이언트 콘솔에서 생성되거나 수정된 &#x200B;&#x200B;구성 요소를 사용하여 Campaign Web UI에서 작업할 때 아래에 나열된 가드레일 및 제한 사항이 적용됩니다.
 

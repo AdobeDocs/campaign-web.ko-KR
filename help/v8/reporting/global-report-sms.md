@@ -3,7 +3,7 @@ audience: end-user
 title: SMS 채널에 대한 전역 보고서
 description: SMS 채널에 대한 글로벌 보고서 이해
 badge: label="제한 공개"
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 4%

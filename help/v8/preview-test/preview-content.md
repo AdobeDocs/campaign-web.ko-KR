@@ -4,15 +4,15 @@ title: 게재 콘텐츠 미리 보기
 description: Campaign 웹 UI를 사용하여 게재 콘텐츠를 미리 보는 방법 알아보기
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="제한 공개"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 1%
+source-wordcount: '343'
+ht-degree: 2%
 
 ---
 
 
-# 게재 콘텐츠 미리 보기 {#preview-content}
+# 메시지 콘텐츠 미리보기 {#preview-content}
 
 사용 [!DNL Campaign] 콘텐츠 시뮬레이션 기능으로 메시지를 보내기 전에 메시지 콘텐츠를 미리 볼 수 있습니다. 이를 통해 개인화를 제어하고 수신자에게 표시되는 방식을 확인할 수 있습니다.
 

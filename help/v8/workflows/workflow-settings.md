@@ -1,15 +1,16 @@
 ---
 audience: end-user
-title: Adobe Campaign Web을 사용하여 워크플로 만들기
-description: Adobe Campaign Web을 사용하여 워크플로를 빌드하는 방법 알아보기
+title: 워크플로 설정 구성
+description: Adobe Campaign 웹을 사용하여 워크플로우 설정을 구성하는 방법 알아보기
 badge: label="제한 공개"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 29%
+source-wordcount: '911'
+ht-degree: 27%
 
 ---
+
 
 # 워크플로 설정 구성 {#workflow-settings}
 

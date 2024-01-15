@@ -4,14 +4,14 @@ title: 이메일 디자이너 콘텐츠 구성 요소 사용
 description: 이메일에 콘텐츠 구성 요소를 사용하는 방법 알아보기
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="제한 공개"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1167'
 ht-degree: 67%
 
 ---
 
-# 이메일 디자이너 콘텐츠 사용 {#content-components}
+# 콘텐츠 구성 요소 사용 {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"

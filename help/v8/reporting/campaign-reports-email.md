@@ -47,7 +47,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="초기 타깃 대상자 통계"
->abstract="초기 타겟 대상 통계 표에는 수신자와 관련된 데이터가 표시됩니다."
+>abstract="초기 타깃 대상자 통계 테이블에는 수신자와 관련된 데이터가 표시됩니다."
 
 다음 **[!UICONTROL 초기 타겟 대상 통계]** 테이블에는 수신자와 관련된 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 

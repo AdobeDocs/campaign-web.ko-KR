@@ -4,19 +4,85 @@ description: Campaign Web v8 도움말 센터
 title: Adobe Campaign Web v8 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="제한 공개"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 96%
+source-wordcount: '668'
+ht-degree: 93%
 
 ---
 
 # Adobe Campaign v8 Web 설명서 {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card1"
+>title="도움말 및 설명서"
+>abstract="Campaign은 이제 개선된 사용 가능성, 접근성 및 새로운 디자인을 갖춘 새로운 웹 사용자 인터페이스(UI)를 제공하여 사용자 경험을 크게 향상시킵니다. 이 새로운 최신 UI는 다른 Adobe 솔루션과 함께 마케팅 캠페인 디자인 및 게재를 간소화하고 일관성을 제공합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_title"
+>title="새로운 Adobe Campaign 사용자 인터페이스 경험"
+>abstract="보다 현대적이고 직관적이며 역동적입니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list1"
+>title="항목 1"
+>abstract="새로운 이메일, SMS 및 푸시 알림 디자인 경험"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list2"
+>title="항목 2"
+>abstract="간소화된 워크플로 캔버스 인터페이스"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list3"
+>title="항목 3"
+>abstract="대상자, 구독 및 서비스, AEM Assets용으로 재구성된 UX"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list4"
+>title="항목 4"
+>abstract="Email Gen AI: 프롬프트 기반 이메일 생성"
+
+<!--
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list5"
+>title="Item 5"
+>abstract="Additional Item"-->
+
+<!-- TO REMOVE BELOW-->
+
+>[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="도움말 및 설명서"
 >abstract="Campaign은 이제 개선된 사용 가능성, 접근성 및 새로운 디자인을 갖춘 새로운 웹 사용자 인터페이스(UI)를 제공하여 사용자 경험을 크게 향상시킵니다. 이 새로운 최신 UI는 다른 Adobe 솔루션과 함께 마케팅 캠페인 디자인 및 게재를 간소화하고 일관성을 제공합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_title"
+>title="새로운 Adobe Campaign 사용자 인터페이스 경험"
+>abstract="보다 현대적이고 직관적이며 역동적입니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list1"
+>title="항목 1"
+>abstract="새로운 이메일, SMS 및 푸시 알림 디자인 경험"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list2"
+>title="항목 2"
+>abstract="간소화된 워크플로 캔버스 인터페이스"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list3"
+>title="항목 3"
+>abstract="대상자, 구독 및 서비스, AEM Assets용으로 재구성된 UX"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list4"
+>title="항목 4"
+>abstract="Email Gen AI: 프롬프트 기반 이메일 생성"
+
+<!--TO REMOVE ABOVE-->
+
 
 Campaign은 이제 개선된 사용 가능성, 접근성 및 새로운 디자인을 갖춘 새로운 웹 사용자 인터페이스(UI)를 제공하여 사용자 경험을 크게 향상시킵니다. 이 새로운 최신 UI는 Adobe Experience Platform을 비롯한 다른 Adobe 솔루션과 함께 마케팅 캠페인 디자인 및 게재를 간소화하고 일관성을 제공합니다. [자세히 알아보기](get-started/get-started.md)
 

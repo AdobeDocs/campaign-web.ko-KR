@@ -7,7 +7,7 @@ exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 42%
+ht-degree: 45%
 
 ---
 
@@ -100,7 +100,7 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
 >title="SMS 게재 처리량"
->abstract="다음 **게재 처리량** 보고서는 지정된 기간 내의 게재 처리량에 대한 자세한 정보를 제공합니다. 메시지 게재 속도를 측정하는 데 사용되는 주요 지표는 시간당 전송된 메시지 수입니다."
+>abstract="**게재 처리량** 보고서는 지정된 기간 내 게재 처리량에 대한 자세한 정보를 제공합니다. 메시지 게재 속도를 측정하는 데 사용되는 주요 지표는 시간당 전송된 메시지 수입니다."
 
 이 보고서는 지정된 기간 내의 게재 처리량에 대한 자세한 정보를 제공합니다. 메시지 게재 속도를 측정하는 데 사용되는 주요 지표는 시간당 전송된 메시지 수입니다.
 

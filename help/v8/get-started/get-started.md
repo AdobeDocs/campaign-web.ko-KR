@@ -4,10 +4,10 @@ title: Campaign v8 Web 시작하기
 description: Campaign v8 Web 시작하기
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="제한 공개"
-source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 94%
+source-wordcount: '412'
+ht-degree: 95%
 
 ---
 
@@ -15,17 +15,17 @@ ht-degree: 94%
 
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_learnmore"
+>title="시작하기"
+>abstract="새로운 Campaign v8 Web 인터페이스는 통합되고 직관적이며, 일관된 사용자 경험을 제공합니다."
+
+<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="시작하기"
 >abstract="새로운 Campaign v8 Web 인터페이스는 통합되고 직관적이며, 일관된 사용자 경험을 제공합니다."
 
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_title"
->title="새로운 Adobe Campaign 사용자 인터페이스 경험"
->abstract="현대적, 직관적 및 동적."
-
-
+<!--TO REMOVE ABOVE-->
 
 Adobe Campaign은 크로스 채널 고객 경험을 디자인할 수 있는 플랫폼과 더불어 시각적 캠페인 오케스트레이션, 실시간 상호 작용 관리, 크로스 채널 실행을 위한 환경을 제공합니다.
 

@@ -1,21 +1,31 @@
 ---
-title: 미리 정의된 필터 생성 및 사용
+title: 미리 정의된 필터 작업
 description: Adobe Campaign Web UI에서 미리 정의된 필터를 만들고 관리하는 방법에 대해 알아봅니다.
 badge: label="제한 공개"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 84%
+source-wordcount: '822'
+ht-degree: 85%
 
 ---
 
 # 미리 정의된 필터 작업 {#predefined-filters}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card4"
+>title="미리 정의된 필터 관리"
+>abstract="이제 Campaign Web은 특정 요구 사항에 맞게 미리 정의된 필터를 손쉽게 관리하고 맞춤화할 수 있는 사용자 친화적인 인터페이스를 제공합니다. 한 번 제작하여 나중에 사용할 수 있도록 저장합니다."
+
+
+<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="미리 정의된 필터 관리"
 >abstract="이제 Campaign Web은 특정 요구 사항에 맞게 미리 정의된 필터를 손쉽게 관리하고 맞춤화할 수 있는 사용자 친화적인 인터페이스를 제공합니다. 한 번 제작하여 나중에 사용할 수 있도록 저장합니다."
+
+<!--TO REMOVE ABOVE-->
+
 
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"

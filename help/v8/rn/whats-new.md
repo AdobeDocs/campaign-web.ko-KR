@@ -4,10 +4,10 @@ title: Campaign Web v8의 새로운 기능
 description: Campaign Web v8이 제공되는 새로운 기능 살펴보기
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="제한 공개"
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 66%
+source-wordcount: '1368'
+ht-degree: 67%
 
 ---
 
@@ -15,9 +15,17 @@ ht-degree: 66%
 # 새로운 기능 {#new}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card2"
+>title="릴리스 정보"
+>abstract="최신 릴리스에는 맞춤형 크로스 채널 캠페인 생성을 간소화하고, 탁월한 결과를 도출하며, 모든 채널에서 경쟁 우위를 확보하도록 설계된 직관적인 기능이 포함되어 있습니다."
+
+<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="릴리스 정보"
 >abstract="최신 릴리스에는 맞춤형 크로스 채널 캠페인 생성을 간소화하고, 탁월한 결과를 도출하며, 모든 채널에서 경쟁 우위를 확보하도록 설계된 직관적인 기능이 포함되어 있습니다."
+
+<!--TO REMOVE ABOVE-->
 
 
 새로운 버전의 Adobe Campaign 웹 사용자 인터페이스를 소개하게 되어 기쁘게 생각합니다. 최신 릴리스에는 맞춤형 크로스 채널 캠페인 생성을 간소화하고, 탁월한 결과를 도출하며, 모든 채널에서 경쟁 우위를 확보하도록 설계된 직관적인 기능이 포함되어 있습니다.

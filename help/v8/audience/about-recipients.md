@@ -2,20 +2,30 @@
 title: 프로필 모니터링 및 관리
 description: Campaign 웹에서 프로필을 모니터링하고 관리하는 방법을 알아봅니다.
 badge: label="제한 공개"
-source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 43%
+source-wordcount: '943'
+ht-degree: 44%
 
 ---
 
-# 프로필 모니터링 및 편집 {#profiles}
+# 프로필 모니터링 및 관리 {#profiles}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="프로필 자세히 살펴보기"
+>abstract="새로운 프로필을 만들고, 강력한 보고서와 도구를 통해 모니터링합니다. 프로필 속성, 상호 작용 및 로그에 액세스합니다. 필터링 옵션을 사용하여 프로필 목록을 찾아보고 프로필을 편집 및 업데이트합니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="릴리스 정보 참조"
+
+<!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
 >title="프로필 자세히 살펴보기"
 >abstract="새로운 프로필을 만들고, 강력한 보고서와 도구를 통해 모니터링합니다. 프로필 속성, 상호 작용 및 로그에 액세스합니다. 필터링 옵션을 사용하여 프로필 목록을 찾아보고 프로필을 편집 및 업데이트합니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="릴리스 정보 참조"
+
+<!--TO REMOVE ABOVE-->
+
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"

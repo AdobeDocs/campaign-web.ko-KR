@@ -4,20 +4,31 @@ title: 첫 이메일 보내기
 description: Campaign Web UI를 사용하여 첫 이메일을 전송하는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="제한 공개"
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 67%
+source-wordcount: '1351'
+ht-degree: 71%
 
 ---
 
 
-# 첫 이메일 보내기 {#first-email}
+# 첫 이메일 만들기 {#first-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card3"
+>title="이메일 시작"
+>abstract="독립 실행형 이메일 게재를 만들거나 캠페인 워크플로의 컨텍스트에서 이메일을 작성할 수 있습니다. 게재를 만들고, 대상자를 선택하고, 이메일 콘텐츠를 디자인하는 방법에 대해 알아봅니다."
+
+
+<!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
 >title="이메일 시작"
 >abstract="독립 실행형 이메일 게재를 만들거나 캠페인 워크플로의 컨텍스트에서 이메일을 작성할 수 있습니다. 게재를 만들고, 대상자를 선택하고, 이메일 콘텐츠를 디자인하는 방법에 대해 알아봅니다."
+
+<!--TO REMOVE ABOVE-->
+
+
 
 첫 번째 타겟팅된 이메일을 작성하는 방법에 대해 알아봅니다. 이 사용 사례에서는 특정 일자에 실버 및 골드 충성도 회원에게 이메일을 전송하도록 예약합니다.
 
@@ -73,7 +84,7 @@ ht-degree: 67%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="게재에 대한 대상자를 선택합니다."
->abstract="마케팅 메시지에 적합한 대상자를 선택합니다. 기존 대상(Campaign v8 인스턴스 또는 Adobe Experience Platform에서 이미 정의됨)을 선택하거나, 쿼리 모델러를 사용하여 새 대상을 만들거나, 대상이 포함된 파일을 업로드할 수 있습니다. 컨트롤 그룹은 **“파일에서 선택”** 옵션에서는 활성화되지 않으며 그 반대의 경우도 마찬가지입니다."
+>abstract="마케팅 메시지에 적합한 대상자를 선택합니다. Campaign v8 인스턴스 또는 Adobe Experience Platform에서 이미 정의된 기존 대상자를 선택하거나, 쿼리 모델러를 사용하여 새 대상자를 만들거나, 대상자가 포함된 파일을 업로드할 수 있습니다. 컨트롤 그룹은 **“파일에서 선택”** 옵션에서는 활성화되지 않으며 그 반대의 경우도 마찬가지입니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="기본 대상자 선택"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="컨트롤 그룹 설정"
 

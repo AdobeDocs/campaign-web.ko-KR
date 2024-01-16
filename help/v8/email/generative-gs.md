@@ -6,20 +6,29 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 34%
+source-wordcount: '499'
+ht-degree: 31%
 
 ---
 
 # 콘텐츠 지원 시작하기 {#generative-gs}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="이메일 콘텐츠용 Gen AI"
+>abstract="Gen AI 기술은 고급 알고리즘을 활용하여 매우 매력적이며 개인화된 콘텐츠를 생성합니다. Gen AI의 지능형 콘텐츠 생성으로 더 높은 개방률, 클릭스루 비율 및 전환을 촉진합니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="릴리스 정보 참조"
+
+<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
 >id="acw_homepage_rn5"
 >title="이메일 콘텐츠용 Gen AI"
->abstract="Gen AI 기술은 고급 알고리즘을 활용하여 매우 매력적이며 개인화된 콘텐츠를 생성합니다. Gen AI의 지능형 콘텐츠 생성을 통해 열람율, 클릭스루 비율 및 전환율을 높여 보십시오. 이메일 콘텐츠용 Gen AI를 통해 경쟁에서 앞서 나가고 이메일 마케팅을 개선하십시오."
+>abstract="Gen AI 기술은 고급 알고리즘을 활용하여 매우 매력적이며 개인화된 콘텐츠를 생성합니다. Gen AI의 지능형 콘텐츠 생성으로 더 높은 개방률, 클릭스루 비율 및 전환을 촉진합니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="릴리스 정보 참조"
+
+<!--TO REMOVE ABOVE-->
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"

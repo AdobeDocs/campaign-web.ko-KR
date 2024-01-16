@@ -4,10 +4,10 @@ title: 대상자 만들기
 description: Adobe Campaign 웹에서 대상자를 만드는 방법을 알아봅니다
 badge: label="Beta"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 22%
+source-wordcount: '678'
+ht-degree: 29%
 
 ---
 
@@ -16,10 +16,21 @@ ht-degree: 22%
 
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_rn1"
+>id="acw_homepage_welcome_rn1"
 >title="대상자 구성"
 >abstract="시각적인 워크플로 캔버스에 새 대상자를 만듭니다. 처음부터 시작하여 간단한 대상자를 만드는 것 외에도 워크플로 활동을 활용하여 대상자를 세분화할 수도 있습니다. 여러 대상자를 하나로 결합하거나, 외부 속성으로 대상자를 강화하거나, 선택한 규칙에 따라 여러 대상자로 나눕니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="릴리스 정보 참조"
+
+<!--TO REMOVE BELOW-->
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage__rn1"
+>title="대상자 구성"
+>abstract="시각적인 워크플로 캔버스에 새 대상자를 만듭니다. 처음부터 시작하여 간단한 대상자를 만드는 것 외에도 워크플로 활동을 활용하여 대상자를 세분화할 수도 있습니다. 여러 대상자를 하나로 결합하거나, 외부 속성으로 대상자를 강화하거나, 선택한 규칙에 따라 여러 대상자로 나눕니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="릴리스 정보 참조"
+
+<!--TO REMOVE ABOVE-->
+
 
 
 >[!CONTEXTUALHELP]
@@ -68,7 +79,7 @@ Campaign 웹을 사용하면 시각적 워크플로우 캔버스로 새로운 �
 
 1. 워크플로우가 준비되면 **[!UICONTROL 시작]** 실행할 수 있습니다.
 
-워크플로는에 저장됩니다. **[!UICONTROL 워크플로]** 목록을에서 액세스할 수 있는 동안 **[!UICONTROL 대상]** 목록을 표시합니다. [대상자 모니터링 및 관리 방법 알아보기](manage-audience.md)
+워크플로는에 저장됩니다. **[!UICONTROL 워크플로]** 목록을에서 액세스할 수 있는 동안 **[!UICONTROL 대상]** 목록을 표시합니다. 대상자 모니터링 및 관리 방법 알아보기 [이 섹션](manage-audience.md)
 
 이제 이 대상을 게재의 주요 대상으로 사용할 수 있습니다. [자세히 알아보기](add-audience.md)
 

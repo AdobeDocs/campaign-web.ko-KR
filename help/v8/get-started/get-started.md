@@ -4,10 +4,10 @@ title: Campaign v8 Web 시작하기
 description: Campaign v8 Web 시작하기
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="제한 공개"
-source-git-commit: e968d63133adf5d5cc52124ce684047039f7232f
+source-git-commit: f12aebe0a87a15cf9560de61e28d68601e40bd2f
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 95%
+source-wordcount: '444'
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,20 @@ ht-degree: 95%
 >title="시작하기"
 >abstract="새로운 Campaign v8 Web 인터페이스는 통합되고 직관적이며, 일관된 사용자 경험을 제공합니다."
 
-<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
+>id="acw_homepage_learnmore"
+>title="시작하기"
+>abstract="새로운 Campaign v8 Web 인터페이스는 통합되고 직관적이며, 일관된 사용자 경험을 제공합니다."
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_learnmore"
 >title="시작하기"
 >abstract="새로운 Campaign v8 Web 인터페이스는 통합되고 직관적이며, 일관된 사용자 경험을 제공합니다."
 
-<!--TO REMOVE ABOVE-->
+>[!CONTEXTUALHELP]
+>id="acw_homepage_learnmore"
+>title="시작하기"
+>abstract="새로운 Campaign v8 Web 인터페이스는 통합되고 직관적이며, 일관된 사용자 경험을 제공합니다."
 
 Adobe Campaign은 크로스 채널 고객 경험을 디자인할 수 있는 플랫폼과 더불어 시각적 캠페인 오케스트레이션, 실시간 상호 작용 관리, 크로스 채널 실행을 위한 환경을 제공합니다.
 
@@ -40,7 +47,7 @@ Adobe Campaign은 크로스 채널 고객 경험을 디자인할 수 있는 플�
 
 >[!NOTE]
 >
->Campaign v8 Web은 현재 LA(Limited Availability) 버전입니다. 액세스 권한은 LA의 소규모 고객으로 제한됩니다. 제품 인터페이스, 기능 및 사용 흐름은 예고 없이 변경될 수 있습니다.
+>Campaign v8 Web은 현재 LA(제한 공개) 버전입니다. 소수의 LA 고객만 액세스할 수 있습니다. 제품 인터페이스, 기능 및 사용 흐름은 예고 없이 변경될 수 있습니다.
 
 [이 페이지](connect-to-campaign.md)에서는 Adobe Campaign 웹 버전에 연결하는 방법을 알아봅니다.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 조정 워크플로우 활동 사용
 description: 조정 워크플로우 활동을 사용하는 방법을 알아봅니다
 badge: label="제한 공개"
-source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 37%
+ht-degree: 35%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 37%
 
 다음 **조정** 활동은 입니다. **타겟팅** 활동 을 사용하면 Adobe Campaign 데이터베이스의 데이터와 작업 테이블의 데이터(예: 외부 파일에서 로드한 데이터) 간의 링크를 정의할 수 있습니다.
 
-예를 들어 **조정** 활동을 **대상자 로드** 활동 뒤에 놓아 비표준 데이터를 데이터베이스로 가져옵니다. 이 경우 **조정** 활동을 사용하면 Adobe Campaign 데이터베이스의 데이터와 작업 테이블의 데이터 간의 링크를 정의할 수 있습니다.
+예를 들어 **조정** 활동은 다음 뒤에 배치할 수 있습니다. **파일 로드** 비표준 데이터를 데이터베이스로 가져오는 활동. 이 경우 **조정** 활동을 사용하면 Adobe Campaign 데이터베이스의 데이터와 작업 테이블의 데이터 간의 링크를 정의할 수 있습니다.
 
 ## 모범 사례 {#reconciliation-best-practices}
 

@@ -4,9 +4,9 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
-workflow-type: ht
-source-wordcount: '1452'
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
+workflow-type: tm+mt
+source-wordcount: '1430'
 ht-degree: 100%
 
 ---
@@ -300,15 +300,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="조각 세부 정보"
 
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_combine_complement"
->title="보조 항목 결합 생성"
->abstract="보조 항목 결합 생성"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_split_segments"
->title="분할 활동의 세그먼트"
->abstract="분할 활동의 세그먼트"
 
 
 
@@ -335,16 +326,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
-
->[!CONTEXTUALHELP]
->id="acw_audiences_properties"
->title="대상자 속성"
->abstract="대상자 속성"
-
->[!CONTEXTUALHELP]
->id="acw_audiences_count"
->title="대상자 수"
->abstract="대상자 수"
 
 
 >[!CONTEXTUALHELP]

@@ -4,10 +4,10 @@ title: 분할 워크플로 활동 사용
 description: 분할 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="제한 공개"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 89%
+source-wordcount: '777'
+ht-degree: 83%
 
 ---
 
@@ -23,6 +23,11 @@ ht-degree: 89%
 ## 분할 활동 구성 {#split-configuration}
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_split_segments"
+>title="분할 활동의 세그먼트"
+>abstract="원하는 만큼 하위 집합을 추가하여 들어오는 모집단을 세그먼트화합니다.<br/></br>다음의 경우 **분할** 활동이 실행되며, 모집단은 활동에 추가된 순서로 다른 하위 집합에 대해 세그먼트화됩니다. 워크플로우를 시작하기 전에 화살표 버튼을 사용하여 필요에 맞는 순서로 하위 세트를 정렬했는지 확인합니다."
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
 >title="분할 활동 필터"
 >abstract="하위 집합에 필터링 조건을 적용하려면 **[!UICONTROL 필터 만들기]**&#x200B;를 클릭하고 원하는 필터링 조건을 구성합니다. 예를 들어 데이터베이스에 이메일 주소가 존재하는 수신 모집단의 프로필을 포함합니다."
@@ -31,7 +36,6 @@ ht-degree: 89%
 >id="acw_orchestration_split_limit"
 >title="분할 활동 제한"
 >abstract="하위 집합에서 선택한 프로필 수를 제한하려면 **[!UICONTROL 제한 활성화]** 옵션을 토글하고 포함할 모집단의 수 또는 백분율을 지정합니다."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_sorting"

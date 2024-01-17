@@ -2,10 +2,10 @@
 title: 프로필 모니터링 및 관리
 description: Campaign 웹에서 프로필을 모니터링하고 관리하는 방법을 알아봅니다.
 badge: label="제한 공개"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
 source-wordcount: '943'
-ht-degree: 44%
+ht-degree: 43%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="프로필"
->abstract="프로필은 Adobe Campaign에서 보낸 메시지를 수신하도록 대상으로 지정된 개인입니다. 권한에 따라 이 목록에서 프로필의 세부 정보를 볼 수 있습니다. 필터링 옵션을 사용하여 이 목록을 찾아볼 수 있습니다. 일부 프로필 속성을 편집하고 업데이트할 수 있습니다."
+>abstract="프로필은 Adobe Campaign에서 보낸 메시지를 받을 타겟이 되는 개인입니다. 권한에 따라 이 목록에서 프로필의 세부 정보를 볼 수 있습니다. 필터링 옵션을 사용하여 이 목록을 찾아볼 수 있습니다. 일부 프로필 속성을 편집하고 업데이트할 수 있습니다."
 
 ## 프로필 시작 {#gs}
 

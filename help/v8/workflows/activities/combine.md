@@ -4,10 +4,10 @@ title: 결합 워크플로 활동 사용
 description: 결합 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="Beta"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 85%
+source-wordcount: '912'
+ht-degree: 84%
 
 ---
 
@@ -97,7 +97,10 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >title="제외 규칙"
 >abstract="필요한 경우 인바운드 테이블을 조작할 수 있습니다. 다른 차원에서 대상을 제외하려면 이 대상을 기본 대상과 동일한 타겟팅 차원으로 반환해야 합니다. 이 작업을 수행하려면 제외 규칙 섹션에서 규칙 추가를 클릭하고 차원 변경 조건을 지정합니다. 데이터 조정은 속성 또는 참여를 통해 수행됩니다."
 
-
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_complement"
+>title="보조 항목 결합 생성"
+>abstract="보조 생성 옵션을 전환하여 추가 전환에서 나머지 모집단을 처리합니다."
 
 다음에서 **결합** 활동을 만들 수 있습니다. **제외**. 이를 위해 아래의 추가 단계를 수행해야 합니다.
 

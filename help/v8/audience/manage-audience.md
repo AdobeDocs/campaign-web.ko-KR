@@ -4,14 +4,24 @@ title: 대상자 모니터링 및 관리
 description: Adobe Campaign 웹에서 대상자를 모니터링하고 관리하는 방법 알아보기
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 14%
+source-wordcount: '538'
+ht-degree: 13%
 
 ---
 
 # 대상자 모니터링 및 관리 {#monitor}
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_properties"
+>title="속성"
+>abstract="여기에서 원본, 저장소 폴더 또는 상태와 같은 대상 속성에 대한 요약을 찾을 수 있습니다. 에서 링크를 클릭합니다. **마지막 워크플로우** 섹션을 통해 대상자를 만드는 데 사용된 워크플로우를 열 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_count"
+>title="대상자 크기"
+>abstract="여기에서 대상자 내의 총 프로필 수를 찾을 수 있습니다. 계산 버튼을 클릭하여 대상 결과를 업데이트하고 다시 계산합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"

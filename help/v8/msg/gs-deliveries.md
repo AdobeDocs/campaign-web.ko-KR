@@ -1,16 +1,16 @@
 ---
 product: campaign
 title: 게재 작업
-description: Campaign 웹에서 첫 번째 게재를 만드는 방법을 알아봅니다
+description: Campaign Web에서 첫 번째 게재를 생성하는 방법 알아보기
 feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 badge: label="제한 공개"
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: 74048d2e6001d2d9b4813a78096a481374233ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1203'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 95%
 
    ![](assets/create-a-delivery.png)
 
-1. 게재할 채널을 선택합니다.
+1. 게재를 위한 채널을 선택합니다.
 1. 기본 대상 및 컨트롤 그룹의 게재 대상자를 정의합니다. [이 섹션](../audience/about-recipients.md)에서 대상자에 대해 자세히 알아보십시오.
 
    ![](assets/select-audience.png){width="70%" align="left"}
@@ -60,8 +60,8 @@ ht-degree: 95%
 워크플로에서 게재를 만들려면 다음 단계를 수행하십시오.
 
 1. 워크플로를 만들거나 기존 워크플로를 엽니다. 워크플로에 대한 자세한 내용은 [이 페이지](../workflows/gs-workflow-creation.md#gs-workflow-steps)를 참조하십시오.
-1. 추가 및 구성 **[!UICONTROL 대상자 작성]** 활동. 에 대해 자세히 알아보기 **[!UICONTROL 대상자 작성]** 의 활동 [이 섹션](../workflows/activities/build-audience.md).
-1. 다음을 클릭합니다. `+` 아이콘을 클릭하고 게재 활동을 선택합니다. **[!UICONTROL 이메일]**, **[!UICONTROL SMS]**, **[!UICONTROL 푸시 알림(Android)]** 또는 **[!UICONTROL 푸시 알림(iOS)]**. 워크플로의 게재 채널과 [이 섹션](../workflows/activities/channels.md)에서 게재 콘텐츠를 정의하는 방법에 대해 자세히 알아보십시오.
+1. **[!UICONTROL 대상자 빌드]** 활동을 추가하고 구성합니다. [이 섹션](../workflows/activities/build-audience.md)에서 **[!UICONTROL 대상자 빌드]** 활동에 대해 자세히 알아보십시오.
+1. `+` 아이콘을 클릭한 다음 게재 활동을 선택합니다. **[!UICONTROL 이메일]**, **[!UICONTROL SMS]**, **[!UICONTROL 푸시 알림(Android)]** 또는 **[!UICONTROL 푸시 알림(iOS)]**. 워크플로의 게재 채널과 [이 섹션](../workflows/activities/channels.md)에서 게재 콘텐츠를 정의하는 방법에 대해 자세히 알아보십시오.
 
    ![](assets/add-delivery-in-wf.png)
 
@@ -80,7 +80,7 @@ ht-degree: 95%
 
 ## 개인화 추가 {#personalization}
 
-Adobe Campaign에서 제공하는 메시지는 다양한 방식으로 개인화할 수 있습니다. [개인화 기능에 대해 자세히 알아보기](../personalization/gs-personalization.md).
+Adobe Campaign에서 제공하는 메시지는 다양한 방식으로 개인화할 수 있습니다. [개인화 기능에 대해 자세히 알아보십시오](../personalization/gs-personalization.md).
 
 캠페인을 사용하여 동적 콘텐츠를 만들고 개인화된 메시지를 보냅니다. 개인화 기능을 결합하여 메시지를 개선하고 맞춤형 사용자 경험을 만들 수 있습니다.
 

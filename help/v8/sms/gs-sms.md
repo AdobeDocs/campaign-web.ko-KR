@@ -5,7 +5,7 @@ description: Adobe Campaign Web을 사용하여 SMS를 만들고 전송하는 �
 badge: label="제한 공개"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '151'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: Campaign Web v8의 권한에 대해 자세히 알아보기
 badge: label="제한 공개"
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '592'
 ht-degree: 100%
 

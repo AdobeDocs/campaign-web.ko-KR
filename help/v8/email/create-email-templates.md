@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="제한 공개"
-source-git-commit: 929edb45cb8f0c79b878e8b5e9f1f62e3679688b
+source-git-commit: 0d9d61e8561d21bca00cb5c274884624119eaa53
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 16%
+source-wordcount: '802'
+ht-degree: 15%
 
 ---
 
@@ -106,7 +106,7 @@ ht-degree: 16%
 
    ![](assets/content-template-create.png)
 
-1. 템플릿 세부 정보를 입력합니다. 템플릿을 저장할 폴더를 선택할 수 있습니다. 기본적으로 콘텐츠 템플릿은 Adobe Campaign 계층의 전용 노드에 저장됩니다. **[!UICONTROL 탐색기]** > **[!UICONTROL 리소스]** > **[!UICONTROL 템플릿]** > **[!UICONTROL 콘텐츠 템플릿]**. [폴더 만들기 방법 알아보기](../get-started/permissions.md#folders)
+1. 템플릿 세부 정보를 입력합니다. 템플릿을 저장할 폴더를 선택할 수 있습니다. 기본적으로 콘텐츠 템플릿은 Adobe Campaign 계층의 전용 폴더에 저장됩니다. **[!UICONTROL 탐색기]** > **[!UICONTROL 리소스]** > **[!UICONTROL 템플릿]** > **[!UICONTROL 콘텐츠 템플릿]**. [폴더 만들기 방법 알아보기](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
@@ -136,7 +136,11 @@ ht-degree: 16%
 
    ![](assets/content-template-save-back.png)
 
-이제 이 템플릿을 사용하여 내에서 이메일을 작성할 수 있습니다. [!DNL Adobe Campaign]. [방법 알아보기](use-email-templates.md)
+템플릿은 Adobe Campaign 계층 구조의 기본 폴더에 저장됩니다. (**[!UICONTROL 탐색기]** > **[!UICONTROL 리소스]** > **[!UICONTROL 템플릿]** > **[!UICONTROL 콘텐츠 템플릿]**). [폴더에 대해 자세히 알아보기](../get-started/permissions.md#folders)
+
+또한 **[!UICONTROL 콘텐츠 템플릿]** 목록을 표시합니다. [자세히 알아보기](#access-manage-templates)
+
+이제 이 템플릿을 사용하여 새 콘텐츠를 작성할 수 있습니다. 템플릿은에서 사용할 수 있습니다. **[!UICONTROL 저장된 템플릿]** 이메일 디자이너의 탭. [방법 알아보기](use-email-templates.md)
 
 ### 이메일 콘텐츠를 템플릿으로 저장 {#save-as-template}
 
@@ -154,11 +158,13 @@ ht-degree: 16%
 
    ![](assets/email_designer-template-name.png)
 
+템플릿은 Adobe Campaign 계층 구조의 기본 폴더에 저장됩니다. (**[!UICONTROL 탐색기]** > **[!UICONTROL 리소스]** > **[!UICONTROL 템플릿]** > **[!UICONTROL 콘텐츠 템플릿]**). [폴더에 대해 자세히 알아보기](../get-started/permissions.md#folders)
+
+또한 **[!UICONTROL 콘텐츠 템플릿]** 목록을 표시합니다. 이 템플릿은 목록에 있는 다른 항목으로 액세스, 편집 및 삭제할 수 있는 독립 실행형 콘텐츠 템플릿이 됩니다. [자세히 알아보기](#access-manage-templates)
+
 이제 이 템플릿을 사용하여 새 콘텐츠를 작성할 수 있습니다. 템플릿은에서 사용할 수 있습니다. **[!UICONTROL 저장된 템플릿]** 이메일 디자이너의 탭. [방법 알아보기](use-email-templates.md)
 
 ![](assets/email_designer-saved-template.png)
-
-템플릿이 **[!UICONTROL 콘텐츠 템플릿]** 목록, 액세스 가능 [!DNL Adobe Campaign] 전용 메뉴. 이 템플릿은 목록에 있는 다른 항목으로 액세스, 편집 및 삭제할 수 있는 독립 실행형 콘텐츠 템플릿이 됩니다. [자세히 알아보기](#access-manage-templates)
 
 >[!NOTE]
 >

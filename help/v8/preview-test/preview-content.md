@@ -4,9 +4,9 @@ title: 게재 콘텐츠 미리 보기
 description: Campaign 웹 UI를 사용하여 게재 콘텐츠를 미리 보는 방법 알아보기
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="제한 공개"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '384'
 ht-degree: 2%
 
 ---
@@ -45,6 +45,12 @@ ht-degree: 2%
      >[!NOTE]
      >
      >Campaign 웹 UI의 해당 탭에서 프로필을 보고 관리할 수도 있습니다. [자세히 알아보기](../audience/about-recipients.md)
+
+1. 테스트 프로필 또는 프로필 목록을 검색할 때 필터를 사용하여 검색을 구체화할 수 있습니다.
+
+   ![](assets/simulate-test-profile-filter.png)
+
+   예를 들어 다음과 같은 테스트 프로필을 모두 찾는 규칙을 정의할 수 있습니다. **[!UICONTROL 잠재 고객]** 상태. 를 사용하여 규칙을 추가하는 방법을 알아봅니다. [쿼리 모델러](../query/query-modeler-overview.md).
 
 1. 클릭 **[!UICONTROL 선택]** 을 클릭하여 선택 항목을 확인합니다.
 

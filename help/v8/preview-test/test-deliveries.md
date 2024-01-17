@@ -4,9 +4,9 @@ title: 테스트 게재 전송
 description: 테스트 게재를 정의하고 전송하는 방법을 알아봅니다
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="제한 공개"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1189'
 ht-degree: 13%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 13%
 
 1. 이미 다음 프로필을 선택한 경우: [메시지 미리 보기](preview-content.md) 콘텐츠 시뮬레이션 화면에서 해당 프로필은 테스트 수신자로 미리 선택됩니다. 다음을 사용하여 선택 항목을 지우고 수신자를 추가할 수 있습니다. **[!UICONTROL 테스트 프로필 추가]** 단추를 클릭합니다.
 
-1. 테스트 프로필 목록을 검색할 때 필터를 사용하여 검색을 구체화할 수 있습니다.
+1. 테스트 프로필 또는 프로필 목록을 검색할 때 필터를 사용하여 검색을 구체화할 수 있습니다.
 
    ![](assets/simulate-test-profile-filter.png)
 

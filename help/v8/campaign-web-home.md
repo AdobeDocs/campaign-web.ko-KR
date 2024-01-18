@@ -7,7 +7,7 @@ badge: label="제한 공개"
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 93%
 Campaign은 이제 개선된 사용 가능성, 접근성 및 새로운 디자인을 갖춘 새로운 웹 사용자 인터페이스(UI)를 제공하여 사용자 경험을 크게 향상시킵니다. 이 새로운 최신 UI는 Adobe Experience Platform을 비롯한 다른 Adobe 솔루션과 함께 마케팅 캠페인 디자인 및 게재를 간소화하고 일관성을 제공합니다. [자세히 알아보기](get-started/get-started.md)
 
 >[!AVAILABILITY]
-> Campaign v8 Web은 현재 LA(Limited Availability) 버전입니다. 액세스 권한은 LA의 소규모 고객으로 제한됩니다. 제품 인터페이스, 기능 및 사용 흐름은 예고 없이 변경될 수 있습니다. [자세히 알아보기](rn/whats-new.md)
+> Campaign v8 Web은 현재 LA(제한 공개) 버전입니다. 소수의 LA 고객만 액세스할 수 있습니다. 제품 인터페이스, 기능 및 사용 흐름은 예고 없이 변경될 수 있습니다. [자세히 알아보기](rn/whats-new.md)
 
 ## Campaign Web 새로운 기능
 

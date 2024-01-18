@@ -2,12 +2,12 @@
 audience: end-user
 title: 목록 검색 및 필터링
 description: Campaign Web v8 목록을 찾아보고 필터링하는 방법 살펴보기
-badge: label="제한된 가용성"
+badge: label="제한 공개"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 78%
+ht-degree: 96%
 
 ---
 
@@ -39,11 +39,11 @@ ht-degree: 78%
 
 ## 필터 {#list-built-in-filters}
 
-항목을 더 빨리 찾으려면 검색 막대 또는 기본 제공 및 사용자 지정 필터를 사용하여 상황별 기준에 따라 목록을 조정할 수 있습니다.
+검색 창을 사용하거나 내장된 필터 및 맞춤형 필터를 사용하여 상황별 기준에 따라 목록을 조정하여 항목을 더 빨리 찾을 수 있습니다.
 
 ![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
-에서 사용할 수 있는 필터를 사용하고 자신만의 맞춤형 필터를 만드는 방법에 대한 자세한 정보 [이 섹션](../query/filter.md).
+필터를 사용하고 나만의 맞춤형 필터를 만드는 방법에 대한 자세한 내용은 [이 섹션](../query/filter.md)에서 확인할 수 있습니다.
 
 <!--
 ## Use advanced attributes {#adv-attributes}

@@ -1,7 +1,7 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8 Web
-user-guide-description: Campaign v8 웹용 제품 설명서.
+user-guide-description: Campaign v8 Web 제품 설명서입니다.
 title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: Campaign v8 Web
@@ -9,7 +9,7 @@ hide: true
 source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 83%
+ht-degree: 91%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 83%
    + 프로필 작업 {#work-with-profiles}
       + [프로필 모니터링 및 관리](audience/about-recipients.md)
       + [테스트 프로필 만들기 및 관리](audience/test-profiles.md)
-   + 대상자를 사용한 작업 {#audiences}
+   + 대상자 작업 {#audiences}
       + [대상자 만들기](audience/create-audience.md)
       + [대상자 모니터링 및 관리](audience/manage-audience.md)
    + 게재 수신자 선택 {#target-audiences}
@@ -139,7 +139,7 @@ ht-degree: 83%
    + [첫 번째 쿼리 작성](query/build-query.md)
    + [표현식 편집](query/expression-editor.md)
    + [쿼리 샘플](query/query-samples.md)
-   + [목록 필터링](query/filter.md)
+   + [필터 목록](query/filter.md)
 + 보고 {#reports}
    + [보고서 시작](reporting/gs-reports.md)
    + [보고서 내보내기](reporting/export-reports.md)
@@ -152,10 +152,10 @@ ht-degree: 83%
    + 캠페인 보고서 {#campaign-report}
       + [캠페인 보고서 시작하기](reporting/campaign-reports.md)
       + [이메일 캠페인 보고서](reporting/campaign-reports-email.md)
-      + [캠페인 보고서 푸시](reporting/campaign-reports-push.md)
+      + [푸시 캠페인 보고서](reporting/campaign-reports-push.md)
       + [SMS 캠페인 보고서](reporting/campaign-reports-sms.md)
    + 글로벌 보고서 {#global-report}
       + [글로벌 보고서 시작](reporting/global-reports.md)
       + [이메일 글로벌 보고서](reporting/global-report-email.md)
-      + [글로벌 보고서 푸시](reporting/global-report-push.md)
+      + [푸시 글로벌 보고서](reporting/global-report-push.md)
       + [SMS 글로벌 보고서](reporting/global-report-sms.md)

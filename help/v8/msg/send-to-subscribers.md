@@ -2,12 +2,12 @@
 audience: end-user
 title: 서비스 구독자에게 메시지 보내기
 description: 서비스 구독자에게 메시지를 보내는 방법 알아보기
-badge: label="Beta"
+badge: label="제한 공개"
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 0%
+source-wordcount: '186'
+ht-degree: 1%
 
 ---
 

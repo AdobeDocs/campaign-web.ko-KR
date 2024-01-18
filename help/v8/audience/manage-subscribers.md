@@ -2,12 +2,12 @@
 audience: end-user
 title: 구독자 관리
 description: Adobe Campaign 웹에서 서비스 구독자를 관리하고 제공하는 방법에 대해 알아봅니다
-badge: label="Beta"
+badge: label="제한 공개"
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 0%
+source-wordcount: '306'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 1. 에서 기존 서비스 선택 **[!UICONTROL 구독 서비스]** 목록을 표시합니다.
 
-1. 다음 항목 선택 **[!UICONTROL 구독자]** tab 키를 누른 다음 클릭 **[!UICONTROL 프로필 추가]**.
+1. 로 이동 **[!UICONTROL 구독자]** tab 키를 누른 다음 클릭 **[!UICONTROL 구독자 추가]**.
 
    ![](assets/service-subscribers-tab.png)
 
@@ -31,11 +31,15 @@ ht-degree: 0%
 
    ![](assets/service-subscribers-select-profiles.png)
 
-1. 클릭 **[!UICONTROL 보내기]**.<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> 선택한 수신자는 구독을 받게 됩니다. [확인 메시지](manage-services.md#create-confirmation-message) 다음 경우에 선택함: [서비스 만들기](manage-services.md#create-service).
+1. 클릭 **[!UICONTROL 보내기]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> 선택한 수신자가 구독을 받도록 하려면 [확인 메시지](manage-services.md#create-confirmation-message) 다음을 정의한 경우: [서비스 만들기](manage-services.md#create-service).
 
    ![](assets/service-subscribers-confirmation-msg.png)
 
-추가된 프로필은 **[!UICONTROL 구독자]** 목록을 표시합니다. 이제 서비스를 구독합니다.
+   >[!NOTE]
+   >
+   >다음을 선택하는 경우 **[!UICONTROL 취소]**, 선택한 프로필에 확인 메시지가 전송되지 않지만 구독합니다.
+
+추가된 프로필은 **[!UICONTROL 구독자]** 탭. 이제 서비스를 구독합니다.
 
 ## 서비스에서 구독자 제거 {#remove-subscribers}
 
@@ -49,11 +53,13 @@ ht-degree: 0%
 
    ![](assets/service-subscribers-delete.png)
 
-1. 삭제를 확인하고 를 클릭합니다. **[!UICONTROL 보내기]**. 선택한 수신자는 구독 취소를 받게 됩니다. [확인 메시지](manage-services.md#create-confirmation-message) 다음 경우에 선택함: [서비스 만들기](manage-services.md#create-service).
+1. 삭제를 확인합니다.
+
+1. 클릭 **[!UICONTROL 보내기]** 선택한 수신자가 구독 취소를 받도록 하려면 [확인 메시지](manage-services.md#create-confirmation-message) 다음을 정의한 경우: [서비스 만들기](manage-services.md#create-service).
 
    ![](assets/service-subscribers-delete-confirmation.png)
 
-수신자가 다음에서 제거됨: **[!UICONTROL 구독자]** 을(를) 나열하고 더 이상 서비스를 구독하지 않습니다.
+수신자가 다음에서 제거됨: **[!UICONTROL 구독자]** 및 은(는) 더 이상 서비스에 구독되지 않습니다.
 
 ### 수신자 자동 구독 취소 {#automatic-unsubscription}
 

@@ -4,10 +4,10 @@ description: Campaign Web v8 도움말 센터
 title: Adobe Campaign Web v8 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="제한 공개"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: f92ab1561bc4ed06276b6fd8bc9c329999e4410c
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 96%
+source-wordcount: '669'
+ht-degree: 93%
 
 ---
 
@@ -36,12 +36,12 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="항목 3"
->abstract="대상자, 구독 및 서비스, AEM Assets용으로 재구성된 UX"
+>abstract="대상, 구독, AEM Assets, 랜딩 페이지를 위한 UX 이미지 재작성"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="항목 4"
->abstract="Email Gen AI: 프롬프트 기반 이메일 생성"
+>abstract="차세대 쿼리 모델러 및 이메일 디자이너"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -50,7 +50,7 @@ ht-degree: 96%
 >abstract="Additional Item"-->
 
 <!-- TO REMOVE BELOW-->
-
+L
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="도움말 및 설명서"

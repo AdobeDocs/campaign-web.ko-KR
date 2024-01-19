@@ -4,9 +4,9 @@ title: Campaign Web v8의 새로운 기능
 description: Campaign Web v8이 제공되는 새로운 기능 살펴보기
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="제한 공개"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: f92ab1561bc4ed06276b6fd8bc9c329999e4410c
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1295'
 ht-degree: 99%
 
 ---
@@ -116,13 +116,13 @@ Campaign Web 제한 공개 릴리스에 포함된 주요 기능은 다음과 같
     
     Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
 -->
+<!--
+* **Gen AI for Email content**
 
-* **이메일 콘텐츠용 Gen AI**
+    Say goodbye to manual content creation and hello to efficient, data-driven campaigns with the power of Gen AI.  Our Gen AI technology utilizes advanced algorithms to **generate highly engaging and personalized content**. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation. Stay ahead of the competition and elevate your email marketing game with Gen AI on email content.
 
-  수동적인 콘텐츠 생성을 뒤로 하고 Gen AI의 기능을 사용하여 효율적인 데이터 기반 캠페인을 시작하십시오. Gen AI 기술은 고급 알고리즘을 활용하여 **매우 매력적이며 개인화된 콘텐츠를 생성합니다**. Gen AI의 지능형 콘텐츠 생성을 통해 열람율, 클릭스루 비율 및 전환율을 높여 보십시오. 이메일 콘텐츠용 Gen AI를 통해 경쟁에서 앞서 나가고 이메일 마케팅을 개선하십시오.
-
-  [이 섹션](../email/generative-gs.md)에서 자세히 알아보십시오.
-
+    Learn more in [this section](../email/generative-gs.md).
+-->
 
 * **AI 기반 상황별 도움말**
 

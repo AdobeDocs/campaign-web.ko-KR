@@ -4,10 +4,10 @@ description: Campaign Web v8 도움말 센터
 title: Adobe Campaign Web v8 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="제한 공개"
-source-git-commit: f92ab1561bc4ed06276b6fd8bc9c329999e4410c
+source-git-commit: 2e0386cbab15d076400fc86490f68f5229b1b779
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 93%
+source-wordcount: '668'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_title"
 >title="새로운 Adobe Campaign 사용자 인터페이스 경험"
->abstract="보다 현대적이고 직관적이며 역동적입니다."
+>abstract="보다 현대적이고 직관적이며 동적입니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
@@ -31,7 +31,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
 >title="항목 2"
->abstract="간소화된 워크플로 캔버스 인터페이스"
+>abstract="간소화된 워크플로우 캔버스 인터페이스"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
@@ -50,7 +50,7 @@ ht-degree: 93%
 >abstract="Additional Item"-->
 
 <!-- TO REMOVE BELOW-->
-L
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="도움말 및 설명서"
@@ -59,7 +59,7 @@ L
 >[!CONTEXTUALHELP]
 >id="acw_homepage_title"
 >title="새로운 Adobe Campaign 사용자 인터페이스 경험"
->abstract="보다 현대적이고 직관적이며 역동적입니다."
+>abstract="보다 현대적이고 직관적이며 동적입니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list1"
@@ -69,7 +69,7 @@ L
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list2"
 >title="항목 2"
->abstract="간소화된 워크플로 캔버스 인터페이스"
+>abstract="간소화된 워크플로우 캔버스 인터페이스"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list3"

@@ -3,10 +3,10 @@ title: Adobe Campaign 웹 인터페이스에 연결
 description: Adobe Campaign v8 웹 사용자 인터페이스에 연결하는 방법 알아보기
 badge: label="제한 공개"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: a93e6e5e651935271badad51109ca57bb9232703
+source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 96%
+source-wordcount: '563'
+ht-degree: 95%
 
 ---
 
@@ -53,13 +53,14 @@ Campaign 컨트롤 패널을 포함한 여러 환경에 액세스할 수 있는 
 
 인터페이스의 상단 막대를 탐색하여 다음과 같은 작업을 수행할 수 있습니다.
 
+* campaign 웹 UI에 대한 피드백 공유
 * 조직 간 전환
 * Adobe Experience Cloud 솔루션과 앱 간 전환
 * [Adobe Experience League](https://experienceleague.adobe.com/docs/)에서 도움말 검색{target="_blank"}
 * 제품 알림 확인
 * Adobe 프로필을 편집 및 [선호하는 언어 업데이트](#language-pref) 또는 [밝은/어두운 테마로 전환](#dark-theme) 등의 설정 관리
 
-![](assets/unified-shell.png){width="50%" align="left"}
+![](assets/do-not-localize/unified-shell.png){width="50%" align="left"}
 
 ## 지원되는 브라우저 {#browsers}
 

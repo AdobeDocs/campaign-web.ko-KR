@@ -4,10 +4,10 @@ title: Campaign v8 Web 시작하기
 description: Campaign v8 Web 시작하기
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="제한 공개"
-source-git-commit: 119060c56d8541724871a5e4f0289ca775bc0039
+source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 100%
+source-wordcount: '569'
+ht-degree: 80%
 
 ---
 
@@ -31,13 +31,22 @@ ht-degree: 100%
 
 Adobe Campaign은 크로스 채널 고객 경험을 디자인할 수 있는 플랫폼과 더불어 시각적 캠페인 오케스트레이션, 실시간 상호 작용 관리, 크로스 채널 실행을 위한 환경을 제공합니다.
 
+Adobe Campaign v8은 이메일, 푸시 알림, SMS 및 DM(Direct Mail)과 같은 다양한 마케팅 채널을 위해 구축된 차세대 캠페인 도구입니다. 완벽한 캠페인을 제작 및 큐레이션하는 데 도움이 되는 강력한 ETL 및 데이터 관리 기능을 제공합니다. 오케스트레이션 엔진은 배치 기반 여정을 핵심으로 집중하는 풍부한 멀티 터치 마케팅 프로그램을 제공합니다. 또한 마케팅 팀이 암호 재설정, 주문 확인, 전자 수신 등의 통신을 위해 모든 IT 시스템의 모든 포함 페이로드를 기반으로 사전 정의된 메시지를 전송할 수 있도록 지원하는 확장 가능한 실시간 메시징 서버와 나란히 제공됩니다.
+
+Campaign을 사용하여 다음을 수행할 수 있습니다.
+
+* 고객에 대한 접근성 높은 단일 관점을 통한 개인화 및 참여 **촉진**
+* 이메일, 모바일, 온라인 및 오프라인 채널을 고객 여정에 **통합**
+* 의미 있고 시의적절한 메시지 및 오퍼 게재 **자동화**
+
+
 초기에는 리치 [클라이언트 콘솔](#ac-client)을 통해서만 사용할 수 있었던 Campaign은 이제 개선된 사용 가능성, 접근성 및 새로운 디자인을 갖춘 새로운 웹 사용자 인터페이스(UI)를 제공하여 사용자 경험을 크게 향상시킵니다. 이 새로운 최신 UI는 Adobe Experience Platform을 비롯한 다른 Adobe 솔루션과 함께 마케팅 캠페인 디자인 및 게재를 간소화하고 일관성을 제공합니다.
 
 ![](assets/home.png)
 
 이 새로운 UI는 먼저 **비즈니스 전문가**&#x200B;의 요구 사항을 충족합니다. 이 첫 번째 버전에서는 일부 일반 관리 작업을 사용할 수 없지만 후속 버전에서 이러한 문제가 해결될 것입니다. 현재 클라이언트 콘솔에서 사용할 수 있는 단일 기능 또는 옵션 중 일부는 새 UI에서는 사용할 수 없습니다. 새 사용 사례, 옵션 및 기능은 향후 릴리스에서 사용할 수 있습니다.
 
-웹 UI에서 사용할 수 없는 Campaign v8 기능에 액세스해야 하는 경우 [클라이언트 콘솔](#ac-client)을 사용할 수 있습니다.
+관리자 또는 전문가 사용자로서 웹 UI에서 사용할 수 없는 Campaign v8 기능에 액세스해야 하는 경우 [클라이언트 콘솔](#ac-client).
 
 
 >[!NOTE]
@@ -54,4 +63,4 @@ Campaign 데이터는 애플리케이션 서버에 저장됩니다. 클라이언
 
 일부 오브젝트는 클라이언트 콘솔에서만 만들고 관리할 수 있습니다. 오브젝트는 Campaign Web UI에서 보고 사용할 수 있지만, 이 환경에서는 만들거나 수정할 수 없습니다. 모든 Campaign 오브젝트와 구성 요소는 탐색기 보기와 왼쪽 탐색 메뉴에서 사용할 수 있습니다.
 
-Campaign v8 사용 방법에 대한 자세한 내용은 [Campaign v8 (클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ko){target="_blank"}를 참조하십시오.
+클라이언트 콘솔에 Campaign v8을 사용하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ko){target="_blank"}.

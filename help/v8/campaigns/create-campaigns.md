@@ -2,12 +2,12 @@
 audience: end-user
 title: Adobe Campaign Web을 사용하여 캠페인 만들기
 description: Adobe Campaign Web을 사용하여 크로스 채널 캠페인을 구축하는 방법 알아보기
-badge: label="Beta"
+badge: label="제한 공개"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 72065d4cbc3ce18caf88c7032660d944459463ed
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 40%
+source-wordcount: '444'
+ht-degree: 36%
 
 ---
 
@@ -24,23 +24,28 @@ ht-degree: 40%
 >title="캠페인 속성"
 >abstract="이 화면에서 캠페인 설정(레이블, 내부 이름, 폴더, 설명)을 확인하고 업데이트할 수 있습니다. 어떤 사용자에게 할당되었는지도 확인할 수 있습니다."
 
-새 캠페인을 만들려면 속성, 일정을 정의하고 워크플로우 및 게재를 포함해야 합니다.
+새 캠페인을 만들려면 해당 설정, 일정을 정의하고 워크플로우 및 게재를 포함해야 합니다.
 
-## 캠페인 만들기{#campaign-create}
+## 캠페인 만들기 {#campaign-create}
 
 새 캠페인을 만들려면 다음 단계를 수행합니다.
 
 1. 다음을 클릭합니다. **[!UICONTROL 캠페인]** 메뉴를 클릭하고 **[!UICONTROL 캠페인 만들기]** 단추를 클릭합니다.
+
+   ![새 캠페인 만들기](assets/create-campaign-button.png)
+
 1. 다음 항목 선택 **템플릿** 을 입력하여 캠페인에 대한 레이블을 제공합니다. [자세히 보기](manage-campaigns.md#manage-campaign-templates).
 1. 필요한 경우 다음을 변경할 수 있습니다 **추가 옵션**: 내부 이름, 폴더, 할당자, 설명 및 특성.
 1. 다음을 정의합니다. **예약** 을 참조하십시오. 에서 캠페인 일정을 설정하는 방법 알아보기 [이 섹션](#campaign-schedule)
-1. Click **Create**.
+1. 클릭 **만들기**.
+
+   ![캠페인 속성 만들기](assets/create-a-campaign-properties.png)
+
 1. 캠페인에 워크플로우 및 게재 추가:
 
    * 다음에서 **워크플로** 탭을 클릭하고 **워크플로우 만들기**. 캠페인을 만들 때 기본 워크플로우가 자동으로 추가됩니다. 방법에 대한 자세한 내용 [워크플로우 만들기](../workflows/create-workflow.md).
-   * 다음에서 **게재** 탭을 클릭하고 **게재 만들기**. [자세히 알아보기](../msg/gs-messages.md)
 
-1. 사용 **로그** 및 **보고** 캠페인의 성과를 분석하는 단추입니다.
+   * 다음에서 **게재** 탭을 클릭하고 **게재 만들기**. [자세히 알아보기](../msg/gs-messages.md)
 
 ## 캠페인 모니터링 및 추적{#campaign-monitoring}
 
@@ -51,7 +56,6 @@ ht-degree: 40%
 
 ## 캠페인 일정 정의 {#campaign-schedule}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="캠페인 일정"
@@ -60,9 +64,7 @@ ht-degree: 40%
 
 시작 날짜에 도달하면 캠페인이 시작됩니다. 시작 날짜에 도달하지 않는 한 캠페인에 다음 항목이 포함됩니다. **[!UICONTROL 초안]** 상태. 그런 다음 시작 날짜에 도달하면 로 바뀝니다. **[!UICONTROL 진행 중]**. 종료 날짜에 도달하면 캠페인이 다음으로 설정됩니다. **[!UICONTROL 완료됨]**.
 
-시작 일자와 종료 일자는 캠페인 목록에 표시되고 필터로 사용할 수 있습니다. 이 [섹션](manage-campaigns.md#access-campaigns)을 참조하십시오.
-
-![캠페인 속성 정의](assets/campaign-properties.png)
+시작 및 종료 날짜가 캠페인 목록에 표시되며 필터로 사용할 수 있습니다. 이 [섹션](manage-campaigns.md#access-campaigns)을 참조하십시오.
 
 >[!NOTE]
 >

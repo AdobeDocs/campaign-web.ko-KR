@@ -4,10 +4,10 @@ title: Campaign Web v8의 새로운 기능
 description: Campaign Web v8이 제공되는 새로운 기능 살펴보기
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="제한 공개"
-source-git-commit: f92ab1561bc4ed06276b6fd8bc9c329999e4410c
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
 source-wordcount: '1295'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ Adobe Campaign Web에는 다양한 기준에 따라 특정 대상을 선택하�
 * 메시지나 워크플로에서 타겟팅할 대상자를 정의하고 요구 사항에 맞는 새 대상자를 간편하게 생성
 * 특정 요구 사항에 맞게 분할 및 조정과 같은 워크플로 활동 내에서 규칙 적용
 * 데이터 목록 작업을 수행하거나 게재 대상자를 구성하는 등 다양한 필터링 작업 중에 단축키 역할을 하는 미리 정의된 필터 생성
-* 보고서에 표시되는 데이터를 필터링하는 규칙 추가
+* 보고서에 표시되는 데이터를 필터링할 규칙 추가
 * 수신자, 게재 목록 등과 같은 목록에 표시되는 데이터를 필터링하는 사용자 정의 규칙 생성
 
 [이 섹션](../query/query-modeler-overview.md)에서 자세히 알아보십시오.

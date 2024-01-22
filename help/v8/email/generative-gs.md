@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 31%
+ht-degree: 37%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="이메일 콘텐츠용 Gen AI"
->abstract="Gen AI 기술은 고급 알고리즘을 활용하여 매우 매력적이며 개인화된 콘텐츠를 생성합니다. Gen AI의 지능형 콘텐츠 생성으로 더 높은 개방률, 클릭스루 비율 및 전환을 촉진합니다."
+>abstract="Gen AI 기술은 고급 알고리즘을 활용하여 매우 매력적이며 개인화된 콘텐츠를 생성합니다. Gen AI의 지능형 콘텐츠 생성을 통해 열람률, 클릭스루 비율 및 전환율을 높여 보십시오."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="릴리스 정보 참조"
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn5"
 >title="이메일 콘텐츠용 Gen AI"
->abstract="Gen AI 기술은 고급 알고리즘을 활용하여 매우 매력적이며 개인화된 콘텐츠를 생성합니다. Gen AI의 지능형 콘텐츠 생성으로 더 높은 개방률, 클릭스루 비율 및 전환을 촉진합니다."
+>abstract="Gen AI 기술은 고급 알고리즘을 활용하여 매우 매력적이며 개인화된 콘텐츠를 생성합니다. Gen AI의 지능형 콘텐츠 생성을 통해 열람률, 클릭스루 비율 및 전환율을 높여 보십시오."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="릴리스 정보 참조"
 
 <!--TO REMOVE ABOVE-->

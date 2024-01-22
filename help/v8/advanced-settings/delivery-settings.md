@@ -7,7 +7,7 @@ badge: label="제한 공개"
 source-git-commit: 93402a91511cff9cb6510f696238e667ec812f8d
 workflow-type: tm+mt
 source-wordcount: '2260'
-ht-degree: 55%
+ht-degree: 59%
 
 ---
 
@@ -91,7 +91,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="게재에 대한 수용작업량 설정"
->abstract="메시지를 게재하기 전에 수용작업량 규칙을 사용하여 조직이 게재, 게재로 인해 생성될 수 있는 인바운드 메시지와 구독자에게 문의할 수 있는 통화 수를 처리할 수 있는지 확인합니다. 용량 규칙은 Adobe Campaign v8 콘솔에서 정의됩니다. 이 화면에서 이메일 채널과 연계된 규칙을 선택합니다."
+>abstract="메시지를 게재하기 전에 수용작업량 규칙을 사용하여 조직이 게재, 게재로 인해 생성될 수 있는 인바운드 메시지와 구독자에게 문의할 수 있는 통화 수를 처리할 수 있는지 확인합니다. 수용작업량 규칙은 Adobe Campaign v8 콘솔에 정의되어 있습니다. 이 화면에서 이메일 채널과 연계된 규칙을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
@@ -210,12 +210,12 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
 >title="설정 유효성"
->abstract="**게재 기간** 필드를 통해 글로벌 게재 재시도에 대한 제한 값을 입력할 수 있습니다. 즉, Adobe Campaign은 시작 날짜부터 메시지를 전송하고 나서 메시지가 오류만 반환하는 경우 유효성 검사 제한에 도달할 때까지 구성 가능한 일반 재시도를 수행합니다.<br>다음 **리소스 유효성 검사 제한** 필드는 미러 페이지나 이미지와 같은 업로드된 리소스에 사용됩니다. 한도에 도달하면 리소스를 더 이상 사용할 수 없습니다."
+>abstract="**게재 기간** 필드를 통해 글로벌 게재 재시도에 대한 제한 값을 입력할 수 있습니다. 즉, Adobe Campaign은 시작 날짜부터 메시지를 전송하고 나서 메시지가 오류만 반환하는 경우 유효성 검사 제한에 도달할 때까지 구성 가능한 일반 재시도를 수행합니다.<br>**리소스 유효성 검사 제한** 필드는 미러 페이지나 이미지와 같이 업로드된 리소스에 사용됩니다. 제한에 도달하면 리소스를 더 이상 사용할 수 없습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_resources_validity"
 >title="리소스 유효성 검사 제한"
->abstract="다음 **리소스 유효성 검사 제한** 필드는 미러 페이지나 이미지와 같이 업로드된 리소스에 사용됩니다. 이러한 리소스는 제한된 시간 동안만 유효합니다. 한도에 도달하면 리소스를 더 이상 사용할 수 없습니다."
+>abstract="**리소스 유효성 검사 제한** 필드는 미러 페이지나 이미지와 같이 업로드된 리소스에 사용됩니다. 이러한 리소스는 제한된 시간 동안만 유효합니다. 한도에 도달하면 리소스를 더 이상 사용할 수 없습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
@@ -279,7 +279,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_testsettings"
 >title="게재에 대한 증명 설정 정의"
->abstract="제외 매개 변수를 선택하고 증명 레이블을 사용자 지정합니다."
+>abstract="제외 매개변수를 선택하고 증명의 레이블을 사용자 정의합니다."
 
 <!--Test to be replaced with Proof everywhere - currently not consistent within UI > changed to Proof to reflect UI here but not consistent in documentation either-->
 

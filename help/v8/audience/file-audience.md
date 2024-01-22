@@ -7,7 +7,7 @@ exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 38%
+ht-degree: 41%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="서식 지정 매개변수"
->abstract="데이터를 올바르게 가져오는지 확인하기 위해 외부 파일의 형식을 지정하는 방법을 지정합니다."
+>abstract="데이터를 올바르게 가져올 수 있도록 외부 파일의 형식을 지정하는 방법을 지정합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"

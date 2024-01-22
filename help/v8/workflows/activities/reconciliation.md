@@ -3,10 +3,11 @@ audience: end-user
 title: 조정 워크플로우 활동 사용
 description: 조정 워크플로우 활동을 사용하는 방법을 알아봅니다
 badge: label="제한 공개"
-source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
+exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 35%
+ht-degree: 43%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="조정 활동"
->abstract="다음 **조정** 활동은 입니다. **타겟팅** 활동을 통해 Adobe Campaign 데이터베이스의 데이터와 작업 테이블의 데이터 간의 링크를 정의할 수 있습니다. 예를 들어 **조정** 활동은 다음 뒤에 배치할 수 있습니다. **파일 로드** 비표준 데이터를 데이터베이스로 가져오는 활동. 이 경우 **조정** 활동을 통해 Adobe Campaign 데이터베이스의 데이터와 외부 테이블에 있는 데이터 간의 링크를 정의할 수 있습니다."
+>abstract="**조정** 활동은 Adobe Campaign 데이터베이스의 데이터 간 링크와 작업 테이블의 데이터를 정의할 수 있는 **타겟팅** 활동입니다. 예를 들어 **조정** 활동을 **파일 로드** 활동 뒤에 놓아 비표준 데이터를 데이터베이스로 가져옵니다. 이 경우 **조정** 활동을 통해 Adobe Campaign 데이터베이스의 데이터와 외부 테이블에 있는 데이터 간의 링크를 정의할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
@@ -34,7 +35,7 @@ ht-degree: 35%
 
 다음 **조정** 활동은 입니다. **타겟팅** 활동 을 사용하면 Adobe Campaign 데이터베이스의 데이터와 작업 테이블의 데이터(예: 외부 파일에서 로드한 데이터) 간의 링크를 정의할 수 있습니다.
 
-예를 들어 **조정** 활동은 다음 뒤에 배치할 수 있습니다. **파일 로드** 비표준 데이터를 데이터베이스로 가져오는 활동. 이 경우 **조정** 활동을 사용하면 Adobe Campaign 데이터베이스의 데이터와 작업 테이블의 데이터 간의 링크를 정의할 수 있습니다.
+예를 들어 **조정** 활동을 **파일 로드** 활동 뒤에 놓아 비표준 데이터를 데이터베이스로 가져옵니다. 이 경우 **조정** 활동을 사용하면 Adobe Campaign 데이터베이스의 데이터와 작업 테이블의 데이터 간의 링크를 정의할 수 있습니다.
 
 ## 모범 사례 {#reconciliation-best-practices}
 

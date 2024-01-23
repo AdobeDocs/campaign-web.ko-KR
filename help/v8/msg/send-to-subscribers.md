@@ -4,10 +4,10 @@ title: 서비스 구독자에게 메시지 보내기
 description: 서비스 구독자에게 메시지를 보내는 방법 알아보기
 badge: label="제한 공개"
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
-source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
+source-git-commit: ad8d99ca73bebccae9ee7466bda566cdc465fb26
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 1%
+source-wordcount: '231'
+ht-degree: 0%
 
 ---
 
@@ -17,15 +17,20 @@ Adobe Campaign에서 구독 서비스를 만들고 구독자에게 메시지를 
 
 구독자에게 메시지를 보내려면 특정 대상을 만들어 구독자를 식별한 다음 아래에 설명된 대로 게재를 만듭니다.
 
-1. 대상자를 만듭니다. 에서 대상자에 대해 자세히 알아보기 [이 페이지](../audience/create-audience.md).
+1. 대상자를 만듭니다. 새 워크플로우는 자동으로 만들어집니다. [대상자에 대해 자세히 알아보기](../audience/create-audience.md)
 
-1. 다음에서 **[!UICONTROL 대상자 작성]** 활동, 고급 속성 표시 및 선택 **[!UICONTROL 수신자]** > **[!UICONTROL 구독]** > **[!UICONTROL 서비스]**.
+1. 가독성을 높이려면 워크플로 설정에서 워크플로 이름을 변경합니다. **레이블** 필드. [워크플로우 설정 구성 방법 알아보기](../workflows/workflow-settings.md)
 
-   이 예에서는 다음과 같은 서비스를 구독한 사용자를 선택합니다. **Luma 뉴스레터** 레이블.
+1. 를 엽니다. **[!UICONTROL 대상자 작성]** 활동 및 선택 **[!UICONTROL 대상자 만들기]**. [대상자 빌드 활동을 구성하는 방법 알아보기](../workflows/activities/build-audience.md)
+
+   ![](assets/service-create-audience.png)
+
+1. 대상자 만들기 흐름에서 다음 사용자 지정 조건을 선택합니다. **[!UICONTROL 구독]** 다음과 같이 존재합니다. **[!UICONTROL 서비스]** 은(는) 정의한 서비스와 같습니다. 이 예에서 **Luma 요가 뉴스레터**.
 
    ![](assets/service-audience-subscribers.png)
 
-1. 대상자를 저장합니다.
+1. 선택 **[!UICONTROL 확인]** 및 클릭 **[!UICONTROL 시작]** 워크플로우를 실행합니다.
+
 1. 게재를 만듭니다. 게재를 만드는 단계는에 자세히 설명되어 있습니다. [이 페이지](../msg/gs-messages.md#create-delivery).
 1. 게재 설정으로 이동하여 기본 대상 매핑을 다음으로 변경 **구독(nms:subscriptions)**.
 

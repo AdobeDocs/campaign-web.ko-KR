@@ -4,10 +4,10 @@ title: 게재 워크플로 활동 사용
 description: 게재 워크플로 활동(이메일, 푸시, SMS)을 추가하는 방법에 대해 알아봅니다.
 badge: label="제한 공개"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
+source-git-commit: f77b0771d51506d6685fd2c9c4135ef57352fc27
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 58%
+source-wordcount: '898'
+ht-degree: 59%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign Web을 사용하여 이메일, SMS 또는 푸시 채널에서 마
 >* [독립 실행형 SMS 게재 만들기](../../sms/create-sms.md)
 >* [독립 실행형 푸시 게재 만들기](../../push/create-push.md)
 
-## 워크플로우 구축 {#build-your-workflow}
+## 필수 구성 요소 {#channel-activity-prereq}
 
 관련 활동을 사용하여 워크플로우 작성을 시작합니다.
 

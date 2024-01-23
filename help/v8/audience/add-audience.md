@@ -3,11 +3,11 @@ audience: end-user
 title: 기존 대상자 선택
 description: 대상자 선택 방법 알아보기
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="Beta"
-source-git-commit: 68c3a19122912d730b739549ed5b37e8a34a61df
+badge: label="제한 공개"
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 34%
+source-wordcount: '317'
+ht-degree: 31%
 
 ---
 
@@ -28,15 +28,15 @@ ht-degree: 34%
 
 메시지의 기존 대상자를 선택하려면 아래 단계를 따르십시오.
 
-1. 다음에서 **대상자** 게재 만들기 도우미의 섹션에서 **[!UICONTROL 대상자 선택]** 버튼을 누른 다음 선택
+1. 다음에서 **대상자** 게재 만들기 도우미의 섹션에서 **[!UICONTROL 대상자 선택]** 버튼을 누른 다음 선택 **[!UICONTROL 대상자 선택]** 기존 대상을 사용합니다.
 
    ![](assets/create-audience.png)
 
-1. 기존 대상자를 사용하려면 **[!UICONTROL 대상자 선택]**&#x200B;을 선택합니다. 이 화면에는 현재 폴더의 기존 대상이 모두 표시됩니다.
+1. 이 화면에는 현재 폴더의 기존 대상이 모두 표시됩니다.
 
    ![](assets/create-audience2.png)
 
-   Adobe Experience Platform에서 대상을 선택하려면 `AEP Audiences folder` 을 클릭합니다.
+   Adobe Experience Platform에서 대상을 선택하려면 `AEP Audiences folder` 을 클릭합니다. [Adobe Experience Platform 대상 사용 방법 알아보기](aep-audience.md)
 
    ![](assets/select-audience-folder.png)
 

@@ -2,12 +2,12 @@
 audience: end-user
 title: Adobe Experience Platform 대상자 사용
 description: Adobe Experience Platform에서 대상자를 사용하는 방법 알아보기
-badge: label="Beta"
+badge: label="제한 공개"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 32%
+source-wordcount: '327'
+ht-degree: 28%
 
 ---
 
@@ -40,6 +40,8 @@ Adobe Experience Platform 대상자를 만들어 클라이언트 콘솔에서 �
    ![](assets/select-audience-folder.png)
 
    다음과 같이 대상의 출처를 기준으로 필터링하는 규칙을 정의할 수도 있습니다.
+
+   필터 섹션에서 필터링 옵션에 액세스하여 대상자 목록을 세분화할 수 있습니다. 이렇게 하려면 다음을 클릭하십시오. **규칙 추가** 대상자 목록에 대한 고급 필터를 만들 수 있는 쿼리 모델러에 액세스합니다. [쿼리 모델러를 사용하는 방법 알아보기](../query/query-modeler-overview.md)
 
    ![](assets/filter-on-aep-audience.png)
 

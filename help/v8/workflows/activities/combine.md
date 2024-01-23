@@ -2,11 +2,11 @@
 audience: end-user
 title: 결합 워크플로 활동 사용
 description: 결합 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
-badge: label="Beta"
+badge: label="제한 공개"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
+source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '913'
 ht-degree: 84%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 84%
 >id="acw_orchestration_combine"
 >title="활동 결합"
 >abstract="**결합** 활동을 통해 인바운드 모집단에 대한 세분화를 수행할 수 있습니다. 따라서 여러 모집단을 결합하거나, 일부를 제외하거나, 데이터를 여러 대상에 공통으로 유지할 수 있습니다."
-
 
 다음 **결합** 활동은 입니다. **타겟팅** 활동. 이 활동을 통해 인바운드 모집단에 대한 세분화를 수행할 수 있습니다. 따라서 여러 모집단을 결합하거나, 일부를 제외하거나, 데이터를 여러 대상에 공통으로 유지할 수 있습니다. 사용 가능한 세분화 유형은 다음과 같습니다.
 

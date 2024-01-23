@@ -2,11 +2,11 @@
 audience: end-user
 title: 게재를 위한 일회성 대상 구축
 description: 게재를 위한 일회성 대상을 구축하는 방법을 알아봅니다.
-badge: label="Beta"
+badge: label="제한 공개"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '228'
 ht-degree: 30%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 30%
 
 1. **직접 만들기**&#x200B;를 선택합니다. 쿼리 모델러가 표시됩니다. 데이터베이스에 포함된 데이터를 필터링하여 게재 대상의 모집단을 정의할 수 있습니다. [쿼리 모델러를 사용하는 방법 알아보기](../query/query-modeler-overview.md)
 
-   ![](assets/segment-builder.png)
+   ![](assets/query-modeler.png)
 
 1. 쿼리가 준비되면 **확인** 게재의 주요 타겟으로 대상자를 사용합니다.
 

@@ -4,7 +4,7 @@ title: 기존 대상자 선택
 description: 대상자 선택 방법 알아보기
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 68c3a19122912d730b739549ed5b37e8a34a61df
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 34%
@@ -41,8 +41,6 @@ ht-degree: 34%
    ![](assets/select-audience-folder.png)
 
 1. 필터 섹션에서 필터링 옵션에 액세스하여 대상자 목록을 세분화할 수 있습니다. 이렇게 하려면 다음을 클릭하십시오. **규칙 추가** 대상자 목록에 대한 고급 필터를 만들 수 있는 쿼리 모델러에 액세스합니다. [쿼리 모델러를 사용하는 방법 알아보기](../query/query-modeler-overview.md)
-
-   ![](assets/create-audience4.png)
 
 1. 클릭 **확인** 게재 주요 타겟으로 대상을 추가합니다. 완료되면 쿼리 모델러를 사용하여 대상을 세분화할 수 있습니다. **규칙 편집** 단추를 클릭합니다.
 

@@ -2,7 +2,8 @@
 title: 타겟팅 차원
 description: Adobe Campaign 웹의 타겟팅 차원에 대해 자세히 알아보십시오
 badge: label="제한 공개"
-source-git-commit: 2770ddc3d0253d40c4432f71d2b192570e632a8e
+exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
+source-git-commit: 0f420559fa49efbe7eea79474d2db7341e51fca8
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 5%

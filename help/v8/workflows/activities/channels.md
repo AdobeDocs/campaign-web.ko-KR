@@ -4,9 +4,9 @@ title: 게재 워크플로 활동 사용
 description: 게재 워크플로 활동(이메일, 푸시, SMS)을 추가하는 방법에 대해 알아봅니다.
 badge: label="제한 공개"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 0f420559fa49efbe7eea79474d2db7341e51fca8
+source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '900'
 ht-degree: 58%
 
 ---
@@ -28,15 +28,18 @@ Adobe Campaign Web을 사용하여 이메일, SMS 또는 푸시 채널에서 마
 
 ## 워크플로우 구축 {#build-your-workflow}
 
-채널 활동을 삽입하기 전에 관련 활동을 사용하여 워크플로우 작성을 시작하십시오.
+관련 활동을 사용하여 워크플로우 작성을 시작합니다.
 
-* 게재 활동을 삽입하기 전에 대상자를 정의해야 합니다. 대상자는 게재의 주요 타겟인 메시지를 받는 프로필입니다. 캠페인 워크플로우의 컨텍스트에서 메시지를 보낼 때 메시지 대상자는 채널 활동에 정의되지 않고 다음과 같은 전용 활동 내에 정의됩니다.
+* 채널 활동을 삽입하기 전에 대상자를 정의해야 합니다. 대상자는 게재의 주요 타겟인 메시지를 받는 프로필입니다. 캠페인 워크플로우의 컨텍스트에서 메시지를 보낼 때 메시지 대상자는 채널 활동에 정의되지 않고 다음과 같은 전용 활동 내에 정의됩니다.
 
    * A **대상자 작성** 활동. [자세히 알아보기](build-audience.md)
 
-  ![](../../msg/assets/add-delivery-in-wf.png)
+     ![](../../msg/assets/add-delivery-in-wf.png)
 
    * A **파일 로드** 활동 뒤에 다음 **조정** 활동. [자세히 알아보기](load-file.md)
+
+     ![](../assets/workflow-reconciliation-criteria.png)
+
 
 
 * 반복 게재를 보내려면 **스케줄러** 활동. 다음을 사용할 수도 있습니다. **스케줄러** 일회성 단일 게재의 활동 을 사용하여 해당 게재의 연락 날짜를 설정합니다. 연락 날짜는 게재 설정에서 설정할 수도 있습니다. [이 섹션](scheduler.md)을 참조하십시오.

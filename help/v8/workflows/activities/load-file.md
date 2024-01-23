@@ -3,7 +3,8 @@ audience: end-user
 title: 파일 로드 워크플로우 활동 사용
 description: 파일 로드 워크플로우 활동을 사용하는 방법 알아보기
 badge: label="제한 공개"
-source-git-commit: f88c3cd200aa92f4db7a2ab36c85d778a07a4dc3
+exl-id: 230177e2-1926-451a-8a66-0db962ada514
+source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 35%
@@ -79,4 +80,4 @@ ht-degree: 35%
 
 ## 예제{#load-example}
 
-와 함께 사용되는 외부 파일 로드 샘플 **조정** 활동은에서 사용할 수 있습니다. [이 섹션](reconciliation.md#example).
+와 함께 사용되는 외부 파일 로드 샘플 **조정** 활동은에서 사용할 수 있습니다. [이 섹션](reconciliation.md#reconciliation-example).

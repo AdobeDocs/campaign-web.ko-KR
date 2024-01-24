@@ -4,9 +4,9 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="제한 공개"
-source-git-commit: 59929983859687081859e007b4e3b48a6279edee
+source-git-commit: db318411c9271688b1982acd7f0a23349f18b984
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1654'
 ht-degree: 80%
 
 ---
@@ -405,4 +405,7 @@ Deprecated IDs - to remove in GA: -->
 >title="이 템플릿은 준비만 되었습니다."
 >abstract="TBC"
 
-
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_generatesubsets"
+>title="동일 테이블의 모든 하위 집합 생성"
+>abstract="TBC"

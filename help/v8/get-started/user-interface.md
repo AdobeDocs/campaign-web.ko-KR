@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Campaign v8 Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="제한 공개"
-source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
+source-git-commit: 59929983859687081859e007b4e3b48a6279edee
 workflow-type: tm+mt
-source-wordcount: '1640'
-ht-degree: 81%
+source-wordcount: '1646'
+ht-degree: 80%
 
 ---
 
@@ -397,3 +397,12 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_rulebuilder_properties_advanced"
 >title="규칙 빌더 고급 속성"
 >abstract="기본적으로 속성 목록에는 가장 일반적인 속성만 표시됩니다. **고급 속성 표시** 토글을 활성화하면 노드, 그룹화, 1-1 링크, 1-N 링크 등 규칙 작성기의 왼쪽 팔레트에 있는 현재 목록에 대해 사용 가능한 모든 속성을 확인할 수 있습니다."
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_readonlymode"
+>title="이 템플릿은 준비만 되었습니다."
+>abstract="TBC"
+
+

@@ -1,12 +1,12 @@
 ---
 title: 미리 정의된 필터 작업
-description: Adobe Campaign Web UI에서 미리 정의된 필터를 만들고 관리하는 방법에 대해 알아봅니다.
+description: Adobe Campaign 웹에서 사전 정의된 필터를 만들고 관리하는 방법 알아보기
 badge: label="제한 공개"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 97%
+source-wordcount: '821'
+ht-degree: 96%
 
 ---
 

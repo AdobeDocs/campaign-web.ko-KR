@@ -1,16 +1,16 @@
 ---
 title: 조건부 콘텐츠 만들기
-description: Adobe Campaign Web UI에서 조건을 정의하여 콘텐츠를 개인화하는 방법 알아보기
+description: Adobe Campaign 웹에서 콘텐츠를 개인화할 조건을 정의하는 방법을 알아봅니다
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="제한 공개"
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 14%
+source-wordcount: '550'
+ht-degree: 11%
 
 ---
 

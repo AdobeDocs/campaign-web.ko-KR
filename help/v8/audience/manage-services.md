@@ -4,10 +4,10 @@ title: 구독 서비스 작업
 description: Adobe Campaign 웹에서 구독 서비스에 액세스하고, 만들고, 관리하는 방법을 알아봅니다
 badge: label="제한 공개"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 14%
 >title="서비스 만들기 및 관리"
 >abstract="Adobe Campaign을 사용하면 뉴스레터와 같은 서비스를 생성 및 모니터링하고 이러한 서비스에 대한 구독 또는 구독 취소를 확인할 수 있습니다. 구독은 이메일 및 SMS 게재에만 적용됩니다."
 
-Adobe Campaign 웹을 사용하여 뉴스레터와 같은 서비스를 관리 및 생성하고, 이러한 서비스에 대한 구독 또는 구독 취소를 확인하십시오.
+Adobe Campaign 웹을 사용하여 뉴스레터와 같은 서비스를 관리 및 생성하고, 이러한 서비스의 구독 또는 구독 취소를 확인하십시오.
 
 >[!NOTE]
 >

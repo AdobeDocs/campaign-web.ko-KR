@@ -1,16 +1,16 @@
 ---
 title: Campaign 콘텐츠 개인화
-description: Adobe Campaign Web UI에서 콘텐츠를 개인화하는 방법 알아보기
+description: Adobe Campaign 웹에서 콘텐츠를 개인화하는 방법을 알아봅니다
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 61%
+source-wordcount: '428'
+ht-degree: 58%
 
 ---
 

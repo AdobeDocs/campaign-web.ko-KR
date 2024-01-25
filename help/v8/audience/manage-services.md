@@ -4,10 +4,10 @@ title: 구독 서비스 작업
 description: Adobe Campaign 웹에서 구독 서비스에 액세스하고, 만들고, 관리하는 방법을 알아봅니다
 badge: label="제한 공개"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 23%
+source-wordcount: '951'
+ht-degree: 21%
 
 ---
 
@@ -91,6 +91,17 @@ Adobe Campaign 웹을 사용하여 뉴스레터와 같은 서비스를 관리 �
 * 이 서비스의 구독자에게 메시지를 보냅니다. [방법 알아보기](../msg/send-to-subscribers.md)
 
 ## 확인 메시지 만들기 {#create-confirmation-message}
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_delivery_template"
+>title="구독 게재 템플릿 선택"
+>abstract="서비스를 구독하는 사용자에게 확인 메시지를 보내려면 다음을 기반으로 특정 게재 템플릿을 선택해야 합니다. **[!UICONTROL 구독]** 정의된 대상 없이 대상 매핑."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_unsubscriptions_delivery_template"
+>title="구독 취소 게재 템플릿 선택"
+>abstract="서비스에서 구독을 취소하는 사용자에게 확인 메시지를 보내려면 다음을 기반으로 특정 게재 템플릿을 선택해야 합니다. **[!UICONTROL 구독]** 정의된 대상 없이 대상 매핑."
 
 서비스를 구독하거나 구독 취소하는 사용자에게 확인 메시지를 보내려면 **[!UICONTROL 구독]** 정의된 대상 없이 대상 매핑. 이렇게 하려면 아래 단계를 수행합니다.
 

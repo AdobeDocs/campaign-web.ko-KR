@@ -4,10 +4,10 @@ title: 기존 대상자 선택
 description: 대상자 선택 방법 알아보기
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="제한 공개"
-source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
+source-git-commit: 2c002620fbfeba140b6f80a37116b06d2199c93c
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 31%
+source-wordcount: '326'
+ht-degree: 30%
 
 ---
 
@@ -36,11 +36,15 @@ ht-degree: 31%
 
    ![](assets/create-audience2.png)
 
-   Adobe Experience Platform에서 대상을 선택하려면 `AEP Audiences folder` 을 클릭합니다. [Adobe Experience Platform 대상 사용 방법 알아보기](aep-audience.md)
+   Adobe Experience Platform에서 대상을 선택하려면 `AEP Audiences folder` 을 클릭합니다.
 
    ![](assets/select-audience-folder.png)
 
 1. 필터 섹션에서 필터링 옵션에 액세스하여 대상자 목록을 세분화할 수 있습니다. 이렇게 하려면 다음을 클릭하십시오. **규칙 추가** 대상자 목록에 대한 고급 필터를 만들 수 있는 쿼리 모델러에 액세스합니다. [쿼리 모델러를 사용하는 방법 알아보기](../query/query-modeler-overview.md)
+
+   예를 들어 아래와 같이 대상의 출처를 기준으로 필터링하는 규칙을 정의할 수 있습니다.
+
+   ![](assets/filter-on-aep-audience.png)
 
 1. 클릭 **확인** 게재 주요 타겟으로 대상을 추가합니다. 완료되면 쿼리 모델러를 사용하여 대상을 세분화할 수 있습니다. **규칙 편집** 단추를 클릭합니다.
 

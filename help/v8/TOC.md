@@ -6,9 +6,9 @@ title: Adobe Campaign v8 Web 설명서
 description: Campaign v8 Web 설명서
 breadcrumb-title: Campaign v8 Web
 hide: true
-source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
+source-git-commit: 2c002620fbfeba140b6f80a37116b06d2199c93c
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '536'
 ht-degree: 92%
 
 ---
@@ -103,7 +103,6 @@ ht-degree: 92%
       + [기존 대상자 선택](audience/add-audience.md)
       + [일회성 대상자 빌드](audience/one-time-audience.md)
       + [파일에서 이메일 대상자 로드](audience/file-audience.md)
-      + [Adobe Experience Platform 대상자 사용](audience/aep-audience.md)
       + [컨트롤 그룹 설정](audience/control-group.md)
    + 구독 서비스 작업 {#work-with-services}
       + [구독 서비스 만들기 및 관리](audience/manage-services.md)

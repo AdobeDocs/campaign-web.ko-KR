@@ -7,7 +7,7 @@ exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
 source-wordcount: '913'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -99,7 +99,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
 >title="보조 항목 결합 생성"
->abstract="보조 생성 옵션을 전환하여 추가 전환에서 나머지 모집단을 처리합니다."
+>abstract="추가 전환에서 나머지 집단을 처리하려면 ‘보조 항목 생성’ 옵션을 토글합니다."
 
 다음에서 **결합** 활동을 만들 수 있습니다. **제외**. 이를 위해 아래의 추가 단계를 수행해야 합니다.
 

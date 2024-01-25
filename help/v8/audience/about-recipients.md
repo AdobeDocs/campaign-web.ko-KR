@@ -5,7 +5,7 @@ badge: label="제한 공개"
 source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 29%
+ht-degree: 33%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="프로필"
->abstract="프로필은 Adobe Campaign에서 보낸 메시지를 받을 타겟이 되는 개인입니다. 권한에 따라 이 목록에서 프로필의 세부 정보를 볼 수 있습니다. 필터링 옵션을 사용하여 이 목록을 찾아볼 수 있습니다. 일부 프로필 속성을 편집하고 업데이트할 수 있습니다."
+>abstract="프로필은 Adobe Campaign에서 보낸 메시지를 수신하도록 대상으로 지정된 개인입니다. 권한에 따라 이 목록에서 프로필의 세부 정보를 볼 수 있습니다. 필터링 옵션을 사용하여 이 목록을 찾아볼 수 있습니다. 일부 프로필 속성을 편집하고 업데이트할 수 있습니다."
 
 ## 프로필이란? {#what}
 

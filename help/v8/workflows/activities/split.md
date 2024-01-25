@@ -7,7 +7,7 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 83%
+ht-degree: 90%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_segments"
 >title="분할 활동의 세그먼트"
->abstract="원하는 만큼 하위 집합을 추가하여 들어오는 모집단을 세그먼트화합니다.<br/></br>다음의 경우 **분할** 활동이 실행되며, 모집단은 활동에 추가된 순서로 다른 하위 집합에 대해 세그먼트화됩니다. 워크플로우를 시작하기 전에 화살표 버튼을 사용하여 필요에 맞는 순서로 하위 세트를 정렬했는지 확인합니다."
+>abstract="수신 집단을 세분화하려면 원하는 만큼 하위 집합을 추가합니다.<br/></br>**분할** 활동이 실행되면 집단이 활동에 추가된 순서대로 여러 하위 집합에 걸쳐 세분화됩니다. 워크플로우를 시작하기 전에 화살표 버튼을 사용하여 필요에 맞게 하위 집합의 순서를 지정했는지 확인해야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"

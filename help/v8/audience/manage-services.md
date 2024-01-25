@@ -7,7 +7,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 15%
+ht-degree: 23%
 
 ---
 
@@ -121,17 +121,17 @@ Adobe Campaign 웹을 사용하여 뉴스레터와 같은 서비스를 관리 �
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
 >title="총 구독자 수"
->abstract="클릭 **계산** 이 서비스의 총 구독자 수를 가져옵니다."
+>abstract="이 서비스의 총 구독자 수를 확인하려면 **계산**&#x200B;을 클릭합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
->title="해당 기간에 대한 구독 수"
->abstract="드롭다운 목록을 사용하여 시간 범위를 변경하고 선택한 기간 동안의 구독 및 구독 취소 수를 확인합니다."
+>title="해당 기간의 구독 수"
+>abstract="드롭다운 목록을 사용하여 기간을 변경하고 선택한 기간 동안의 구독 및 구독 취소 수를 확인합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="구독의 전반적인 진화"
->abstract="이 그래프는 구독, 구독 취소, 숫자 진화 및 충성도 비율을 포함하여 기간별 분류를 보여 줍니다."
+>abstract="이 그래프는 구독, 구독 취소, 숫자 변화, 충성도 비율 등 기간별 분류를 보여 줍니다."
 
 SMS 및 이메일 채널에 대한 구독 서비스의 효과를 측정하기 위해 주어진 서비스에 대한 로그 및 보고서에 액세스할 수 있습니다.
 

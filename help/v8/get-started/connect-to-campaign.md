@@ -1,18 +1,18 @@
 ---
 title: Adobe Campaign 웹 인터페이스에 연결
-description: Adobe Campaign v8 웹 사용자 인터페이스에 연결하는 방법 알아보기
+description: Adobe Campaign 웹 사용자 인터페이스에 연결하는 방법 알아보기
 badge: label="제한 공개"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 95%
+source-wordcount: '561'
+ht-degree: 85%
 
 ---
 
 # Adobe Campaign에 연결 {#connect-to-campaign}
 
-Experience Cloud는 Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다. 직관적인 인터페이스에서 클라우드 애플리케이션, 제품 기능, 서비스에 빠르게 액세스할 수 있습니다. 이 페이지에서는 Adobe Experience Cloud에 접속하여 Adobe Campaign v8 웹 인터페이스에 액세스하는 방법을 알아봅니다.
+Experience Cloud는 Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다. 직관적인 인터페이스에서 클라우드 애플리케이션, 제품 기능, 서비스에 빠르게 액세스할 수 있습니다. 이 페이지에서 Adobe Experience Cloud에 연결하고 Adobe Campaign 웹 인터페이스에 액세스하는 방법을 알아봅니다.
 
 ## Adobe Experience Cloud에 로그인 {#sign-in-to-exc}
 
@@ -64,11 +64,11 @@ Campaign 컨트롤 패널을 포함한 여러 환경에 액세스할 수 있는 
 
 ## 지원되는 브라우저 {#browsers}
 
-Campaign v8 웹은 최신 버전의 Google Chrome, Safari, Microsoft Edge에서 최적으로 작동하도록 디자인되었습니다. 이전 버전이나 다른 브라우저에서는 특정 기능 사용 시 문제가 발생할 수 있습니다.
+Adobe Campaign 웹은 최신 버전의 Google Chrome, Safari 및 Microsoft Edge에서 최적으로 작동하도록 설계되었습니다. 이전 버전이나 다른 브라우저에서는 특정 기능 사용 시 문제가 발생할 수 있습니다.
 
 ## 언어 환경 설정 {#language-pref}
 
-Campaign v8 Web은 현재 다음 언어로 제공됩니다.
+Adobe Campaign 웹은 현재 다음 언어로 제공됩니다.
 
 * 영어(미국) - EN-US
 * 프랑스어 - FR

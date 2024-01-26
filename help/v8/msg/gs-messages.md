@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Campaign v8 Web에서 메시지 및 게재 시작하기
+title: Adobe Campaign 웹에서 메시지 및 게재 시작
 description: Campaign Web으로 게재 작업을 수행하고 메시지를 전송하는 방법 알아보기
 badge: label="제한 공개"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 51cde630b5867662c40f79109f40f78a08eb758f
-workflow-type: ht
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 

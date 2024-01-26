@@ -1,22 +1,22 @@
 ---
 audience: end-user
-user-guide-title: Campaign v8 Web
-user-guide-description: Campaign v8 Web 제품 설명서입니다.
-title: Adobe Campaign v8 Web 설명서
-description: Campaign v8 Web 설명서
-breadcrumb-title: Campaign v8 Web
+user-guide-title: Adobe Campaign 웹
+user-guide-description: Adobe Campaign 웹에 대한 제품 설명서입니다.
+title: Adobe Campaign 웹 설명서
+description: Campaign 웹 설명서
+breadcrumb-title: Campaign 웹
 hide: true
-source-git-commit: 2c002620fbfeba140b6f80a37116b06d2199c93c
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 92%
+source-wordcount: '532'
+ht-degree: 87%
 
 ---
 
 
-# Adobe Campaign v8 Web 설명서 {#v8}
+# Adobe Campaign 웹 설명서 {#v8}
 
-+ [Campaign v8 Web 설명서](campaign-web-home.md)
++ [Adobe Campaign 웹 설명서](campaign-web-home.md)
 + [새로운 기능](rn/whats-new.md)
 + [설명서 업데이트 정보](rn/documentation-updates.md)
 + Adobe Campaign 시작하기 {#start}

@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 96%
+source-wordcount: '659'
+ht-degree: 92%
 
 ---
 
@@ -45,7 +45,7 @@ Campaign Web 표현식 편집기에 JavaScript 구성을 삽입하여 메시지 
 
 ## 표현식 편집기에 액세스 {#access}
 
-Adobe Campaign V8 Web에서 제공하는 표현식 편집기를 통해 모든 데이터를 선택하고, 배열하고, 사용자 정의하고 검증하여 개인 맞춤화 콘텐츠를 경험할 수 있습니다. 표현식 편집기는 제목 줄 필드나 이메일 링크 및 텍스트/버튼 콘텐츠 구성 요소 등 **[!UICONTROL 개인화 대화 상자 열기]** 아이콘과 함께 모든 필드의 모든 채널에서 사용할 수 있습니다.
+Adobe Campaign 웹은 모든 데이터를 선택, 정렬, 사용자 지정 및 검증하여 콘텐츠에 대한 사용자 지정 경험을 만들 수 있는 표현식 편집기를 제공합니다. 표현식 편집기는 제목 줄 필드나 이메일 링크 및 텍스트/버튼 콘텐츠 구성 요소 등 **[!UICONTROL 개인화 대화 상자 열기]** 아이콘과 함께 모든 필드의 모든 채널에서 사용할 수 있습니다.
 
 다음은 다이내믹 콘텐츠에 따라 표현식 편집기에 액세스하는 방법에 대한 몇 가지 예입니다.
 

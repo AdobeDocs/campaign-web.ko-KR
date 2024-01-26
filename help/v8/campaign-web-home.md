@@ -1,17 +1,17 @@
 ---
 keywords: Campaign Web;홈;인기 있는 주제
-description: Campaign Web v8 도움말 센터
-title: Adobe Campaign Web v8 제품 설명서
+description: Campaign 웹 도움말 센터
+title: Adobe Campaign 웹 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="제한 공개"
-source-git-commit: ab58d8901da1b90609794ccd488b8d3a965675ec
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 62%
+source-wordcount: '688'
+ht-degree: 59%
 
 ---
 
-# Adobe Campaign v8 Web 설명서 {#campaign-documentation}
+# Adobe Campaign 웹 설명서 {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -86,11 +86,11 @@ ht-degree: 62%
 Adobe Campaign Web 사용자 인터페이스의 새로운 버전을 소개합니다. 최신 릴리스에는 개인화된 크로스 채널 캠페인 생성을 단순화하고, 탁월한 결과를 도출하며, 모든 채널에서 경쟁 우위를 확보할 수 있도록 설계된 직관적인 기능이 포함되어 있습니다. 이 새로운 최신 UI는 Adobe Experience Platform을 비롯한 다른 Adobe 솔루션과 함께 마케팅 캠페인 디자인 및 게재를 간소화하고 일관성을 제공합니다.
 
 >[!AVAILABILITY]
-> Campaign v8 Web은 현재 LA(제한 공개) 버전입니다. 소수의 LA 고객만 액세스할 수 있습니다. 제품 인터페이스, 기능 및 사용 흐름은 예고 없이 변경될 수 있습니다.
+> Adobe Campaign 웹은 현재 LA(Limited Availability) 버전입니다. 소수의 LA 고객만 액세스할 수 있습니다. 제품 인터페이스, 기능 및 사용 흐름은 예고 없이 변경될 수 있습니다.
 
 ## 새로운 기능
 
-Adobe Campaign v8 웹 제품 및 설명서의 최신 개선 사항을 살펴보십시오. 주요 기능 및 릴리스 업데이트 기능에 대한 포괄적인 목록이 필요하면 다음을 확인하십시오 [이 페이지](rn/whats-new.md).
+Adobe Campaign 웹 제품 및 설명서의 최신 개선 사항을 살펴보십시오. 주요 기능 및 릴리스 업데이트 기능에 대한 포괄적인 목록이 필요하면 다음을 확인하십시오 [이 페이지](rn/whats-new.md).
 
 >[!BEGINTABS]
 
@@ -126,7 +126,7 @@ Campaign 이메일 디자이너를 사용하여 직관적인 드래그 앤 드�
   <tr style="border: 0;">
     <td>
     <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
-    <div><strong>새 사용자 인터페이스 살펴보기</strong><br/>Adobe Experience Platform과 통합된 Campaign v8 Web의 새로운 인터페이스 및 탐색 환경을 살펴보십시오.</div>
+    <div><strong>새 사용자 인터페이스 살펴보기</strong><br/>Adobe Campaign Web의 새로운 인터페이스 및 Adobe Experience Platform과 통합된 탐색 환경을 살펴보십시오.</div>
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>

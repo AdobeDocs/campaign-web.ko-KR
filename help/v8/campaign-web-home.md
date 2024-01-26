@@ -4,10 +4,10 @@ description: Campaign Web v8 도움말 센터
 title: Adobe Campaign Web v8 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="제한 공개"
-source-git-commit: 7c1776f71885cc6e7cea14af6bba9ec1c0f664b2
+source-git-commit: ab58d8901da1b90609794ccd488b8d3a965675ec
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 66%
+ht-degree: 62%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="항목 3"
->abstract="대상자, 구독, AEM Assets, 랜딩 페이지용으로 재구성된 UX"
+>abstract="대상자, 구독, AEM Assets, 랜딩 페이지를 위한 UX 이미지 재작성"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"

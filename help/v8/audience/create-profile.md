@@ -34,8 +34,8 @@ ht-degree: 48%
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
->title="수신자 더 이상 연락하지 않음"
->abstract="이 섹션에서는 프로필의 연락처 환경 설정에 대한 인사이트를 제공합니다. 정보를 수정하려면 해당 필드에서 직접 변경한 다음 화면 오른쪽 상단에 있는 **저장** 버튼을 클릭합니다."
+>title="수신자에게 더 이상 연락하지 않음"
+>abstract="이 섹션에서는 프로필의 연락 환경 설정에 대한 인사이트를 제공합니다. 정보를 수정하려면 해당 필드에서 직접 변경한 다음 화면 오른쪽 상단에 있는 **저장** 버튼을 클릭합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_customfields"

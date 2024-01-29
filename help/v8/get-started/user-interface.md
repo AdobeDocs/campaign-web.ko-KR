@@ -4,10 +4,10 @@ title: 인터페이스 살펴보기
 description: Adobe Campaign 웹 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="제한 공개"
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
 workflow-type: tm+mt
-source-wordcount: '1697'
-ht-degree: 76%
+source-wordcount: '1648'
+ht-degree: 78%
 
 ---
 
@@ -153,22 +153,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_overview_edit"
 >title="권한 필요"
 >abstract="세그먼트를 만들려면 먼저 관리자가 권한을 부여해야 합니다."
-
-
-<!-- Waves-->
-
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_waves_definition"
->title="예약된 일괄 처리 정의"
->abstract="동시에 대량의 메시지를 전송하는 대신 여러 배치로 게재를 분할할 웨이브를 정의합니다."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_waves_size"
->title="웨이브 크기"
->abstract="예약된 일괄 처리 크기는 필수입니다. 크기 필드에 숫자 값(메시지 수) 또는 백분율(0-100%)을 입력합니다."
-
-
 
 <!-- Workflows-->
 

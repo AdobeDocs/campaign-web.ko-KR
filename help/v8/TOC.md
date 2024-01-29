@@ -6,9 +6,9 @@ title: Adobe Campaign 웹 설명서
 description: Campaign 웹 설명서
 breadcrumb-title: Campaign 웹
 hide: true
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '536'
 ht-degree: 87%
 
 ---
@@ -64,8 +64,9 @@ ht-degree: 87%
             + [인라인 스타일 속성 추가](email/inline-styling.md)
       + 이메일 전송 및 모니터링 {#monitor}
          + [이메일 준비 및 전송](monitor/prepare-send.md)
-         + [게재 로그 모니터링](monitor/delivery-logs.md)
          + [이메일 게재 설정](advanced-settings/delivery-settings.md)
+         + [예약된 일괄 처리를 사용해 보내기](advanced-settings/send-using-waves.md)
+         + [게재 로그 모니터링](monitor/delivery-logs.md)
    + 푸시 알림 {#push}
       + [푸시 알림 시작하기](push/gs-push.md)
       + [푸시 알림 게재 만들기](push/create-push.md)

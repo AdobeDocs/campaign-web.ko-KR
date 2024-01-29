@@ -16,7 +16,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="속성"
->abstract="여기에서 원본, 스토리지 폴더 또는 상태 등 대상자 속성에 대한 요약을 확인할 수 있습니다. 대상자를 만드는 데 사용된 워크플로우를 열려면 **마지막 워크플로우** 섹션의 링크를 클릭합니다."
+>abstract="여기에서 원본, 스토리지 폴더 또는 상태 등 대상자 속성에 대한 요약을 확인할 수 있습니다. 대상자를 만드는 데 사용된 워크플로를 열려면 **마지막 워크플로** 섹션의 링크를 클릭합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"

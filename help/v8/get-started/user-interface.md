@@ -4,9 +4,9 @@ title: 인터페이스 살펴보기
 description: Adobe Campaign 웹 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="제한 공개"
-source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
+source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1596'
 ht-degree: 78%
 
 ---
@@ -178,14 +178,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- delivery settings-->
 
 
-
-
-
-
 <!-- FOR BETA (alignment) -->
 <!--https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CBETA%3E-+Official+list-->
-
-
 
 
 <!-- FOR GA -->
@@ -227,55 +221,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="수신자 읽기 전용 프로필"
 
 
->[!CONTEXTUALHELP]
->id="acw_landingpages_menu"
->title="랜딩 페이지"
->abstract="랜딩 페이지"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_properties"
->title="랜딩 페이지 속성"
->abstract="랜딩 페이지 속성"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_pages_list"
->title="랜딩 페이지 페이지"
->abstract="랜딩 페이지 페이지"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_schedule"
->title="랜딩 페이지 일정"
->abstract="랜딩 페이지 일정"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_primarypage"
->title="랜딩 페이지 기본 페이지"
->abstract="랜딩 페이지 기본 페이지"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_subscription"
->title="랜딩 페이지 구독"
->abstract="랜딩 페이지 구독"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_calltoaction"
->title="랜딩 페이지 콜 투 액션"
->abstract="랜딩 페이지 콜 투 액션"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_simulate"
->title="랜딩 페이지 시뮬레이션"
->abstract="랜딩 페이지 시뮬레이션"
-
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_query_enrichment_noneditable"
 >title="활동 편집 불가"
 >abstract="활동 편집 불가"
-
-
 
 
 >[!CONTEXTUALHELP]
@@ -312,8 +262,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_fragments_details"
 >title="조각 세부 정보"
 >abstract="조각 세부 정보"
-
-
 
 
 

@@ -6,10 +6,10 @@ title: Adobe Campaign 웹 설명서
 description: Campaign 웹 설명서
 breadcrumb-title: Campaign 웹
 hide: true
-source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
+source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 87%
+source-wordcount: '558'
+ht-degree: 84%
 
 ---
 
@@ -89,6 +89,11 @@ ht-degree: 87%
       + [메시지 콘텐츠 미리보기](preview-test/preview-content.md)
       + [테스트 게재 전송](preview-test/test-deliveries.md)
       + [이메일 렌더링 테스트](preview-test/email-rendering.md)
++ 랜딩 페이지 {#landing-pages}
+   + [랜딩 페이지 시작](landing-pages/get-started-lp.md)
+   + [랜딩 페이지 만들기 및 게시](landing-pages/create-lp.md)
+   + [랜딩 페이지 콘텐츠 디자인](landing-pages/lp-content.md)
+   + [랜딩 페이지 템플릿 작업](landing-pages/lp-templates.md)
 + 프로필 및 대상자 {#audiences}
    + [프로필 및 대상자 시작](audience/gs-audiences-recipients.md)
    + [타겟팅 차원](audience/targeting-dimensions.md)

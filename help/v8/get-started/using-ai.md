@@ -4,13 +4,13 @@ description: Campaign 웹 도움말 팝오버에서 질문하기
 badge: label="Alpha"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 source-git-commit: 93b2be1309e451d151a44867a3ae22b62e00c8e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '463'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# AI 기반의 상황별 도움말 {#using-ai}
+# AI 기반 상황별 도움말 {#using-ai}
 
 제품 상황별 도움말 상자에서 사용할 수 있는 Q&amp;A AI 기반 상황별 도움말을 사용하여 제품 설명서 및 현재 제품 컨텍스트를 기반으로 AI 생성 답변을 빠르게 얻을 수 있습니다.
 
@@ -18,7 +18,7 @@ ht-degree: 89%
 >
 >이 기능은 Alpha 버전에서 사용할 수 있으며 사전 통지 없이 변경될 수 있습니다.
 >
->이 기능은 **영어**&#x200B;로만 사용할 수 있습니다. 이 버전에서는 다른 언어가 지원되지 않습니다. 그 결과, [선호하는 언어](connect-to-campaign.md#language-pref) 이 기능을 사용하기 전에 를 영어로 설정합니다.
+>이 기능은 **영어**&#x200B;로만 사용할 수 있습니다. 이 버전에서는 다른 언어가 지원되지 않습니다. 따라서 이 기능을 사용하기 전에 [선호 언어](connect-to-campaign.md#language-pref)를 영어로 설정해야 합니다.
 
 
 상황별 도움말에 임베드된 **생성형 AI 기반 상황별 도움말**&#x200B;은 설명서 검색을 혁신하고 방대한 설명서 저장소를 손쉽게 선별하여 필요한 정확한 정보를 즉시 찾아내는 방법에 대한 질문의 답변을 제공합니다.
@@ -45,7 +45,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 Adobe Campaign AI 기반 상황별 도움말에서 도움을 제공하지만 사실을 확인해야 합니다. 잘못된 정보, 부정확하거나 오해의 소지가 있는 답변이 출력될 수 있습니다. 모든 도움말 상자에 링크된 제품 설명서를 확인하십시오.
 
-인공 지능 및 머신 러닝 모델은 시간이 지남에 따라 개선되어 특정 사용 사례를 보다 잘 처리하게 됩니다. Campaign AI 기반 상황별 도움말은 향후 몇 개월에 걸쳐 계속해서 개선될 예정입니다. 다음을 사용할 것을 강력히 권장합니다. <img src="assets/do-not-localize/thumb.png" width="10%"/> 단추를 클릭하면 응답을 읽을 때마다 엔지니어에 부적절한 응답을 표시합니다.
+인공 지능 및 머신 러닝 모델은 시간이 지남에 따라 개선되어 특정 사용 사례를 보다 잘 처리하게 됩니다. Campaign AI 기반 상황별 도움말은 향후 몇 개월에 걸쳐 계속해서 개선될 예정입니다. 답변을 읽을 때 부적절한 응답이 있는 경우 <img src="assets/do-not-localize/thumb.png" width="10%"/> 버튼을 사용해 바로 엔지니어에게 알려주세요.
 
 ## 권장 사항  {#recommendations-ai}
 

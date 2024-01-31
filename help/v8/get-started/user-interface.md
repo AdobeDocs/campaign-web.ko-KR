@@ -7,7 +7,7 @@ badge: label="제한 공개"
 source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
 workflow-type: tm+mt
 source-wordcount: '1596'
-ht-degree: 78%
+ht-degree: 96%
 
 ---
 
@@ -15,23 +15,23 @@ ht-degree: 78%
 
 새로운 Adobe Campaign 웹 인터페이스는 마케팅 캠페인 디자인 및 게재를 단순화하는 현대적이고 직관적인 사용자 경험을 제공합니다. 이 새로운 인터페이스는 Adobe Experience Cloud 앱 및 솔루션과 통합됩니다.
 
-Adobe Campaign에 연결하고 Experience Cloud 탐색 기본 사항을 알아봅니다. [이 문서에서](connect-to-campaign.md).
+Adobe Campaign에 연결하는 방법과 Experience Cloud 탐색의 기본 사항은 [이 문서](connect-to-campaign.md)에서 알아볼 수 있습니다.
 
 
 >[!NOTE]
 >
 >이 설명서는 제품 사용자 인터페이스의 최신 변경 내용을 반영하여 자주 업데이트됩니다. 단, 실제 사용자 인터페이스와 약간 다른 스크린샷도 있습니다.
 
-## 캠페인 홈 페이지 {#user-interface-home}
+## Campaign 홈페이지 {#user-interface-home}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_recent"
 >title="최근 항목"
 >abstract="**최근 항목** 목록은 최근에 생성되고 수정된 게재에 대한 바로가기를 제공합니다. 이 목록에는 채널, 상태, 소유자, 생성 및 수정일이 표시됩니다."
 
-Campaign 홈 페이지를 사용하면 주요 리소스, 표시기 및 구성 요소를 빠르고 쉽게 검색할 수 있습니다.
+Campaign 홈페이지를 사용하면 주요 리소스, 지표, 구성 요소를 빠르고 쉽게 검색할 수 있습니다.
 
-홈 페이지의 상단 섹션에서는 릴리스 노트 및 세부 설명서에 대한 링크와 함께 제품에서 사용할 수 있는 최신 업데이트 및 새 기능에 대한 세부 정보를 제공합니다. 왼쪽 화살표를 사용하여 기능 카드를 스크롤합니다.
+홈페이지의 상단 섹션에서 릴리스 정보와 세부 설명서로 가는 링크가 있습니다. 또 제품에서 사용할 수 있는 최신 업데이트 및 새로운 기능의 자세한 내용을 볼 수 있습니다. 왼쪽 화살표를 사용하여 기능 카드를 스크롤할 수 있습니다.
 
 ![](assets/home.png)
 
@@ -78,9 +78,9 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 
 ### 콘텐츠 관리 {#user-interface-content-management}
 
-콘텐츠 관리 섹션에서 콘텐츠 템플릿 및 조각을 볼 수 있습니다.
+콘텐츠 관리 섹션에서는 콘텐츠 템플릿과 조각을 볼 수 있습니다. 
 
-* **콘텐츠 템플릿** - 디자인 프로세스를 가속화하고 개선하기 위해 독립 실행형 템플릿을 만들어 사용자 정의 콘텐츠를 여러 곳에서 쉽게 재사용할 수 있습니다. [!DNL Adobe Campaign]. 이메일에만 사용할 수 있는 이 기능을 통해 콘텐츠 중심 사용자는 독립 실행형 템플릿에서 작업할 수 있으므로 마케팅 사용자는 자신의 이메일 캠페인 내에서 이를 재사용하고 조정할 수 있습니다. [이 섹션](../email/create-email-templates.md)에서 자세히 알아보십시오.
+* **콘텐츠 템플릿** - 디자인 프로세스를 가속화하고 개선하기 위해 독립 실행형 템플릿을 만들어 사용자 정의 콘텐츠를 [!DNL Adobe Campaign] 쉽게 재사용할 수 있습니다. 이 기능은 이메일에서만 사용할 수 있고, 콘텐츠에 중점을 둔 작업자가 독립 실행형 템플릿에 작업하면 마케팅 작업자가 이메일 캠페인 내에서 이를 재사용하고 조정할 수 있습니다. [이 섹션](../email/create-email-templates.md)에서 자세히 알아보십시오.
 
 <!--
 * **Fragments** -
@@ -88,12 +88,12 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 
 ### 고객 관리 {#user-interface-customer-management}
 
-고객 관리 섹션에서 프로필, 대상자 및 구독을 볼 수 있습니다. 이 목록은 읽기 전용입니다.
+고객 관리 섹션에서는 프로필, 대상자, 구독을 볼 수 있습니다. 이 목록은 읽기 전용입니다.
 
-* **프로필** - 프로필을 만들고 관리하며 수신자 데이터베이스에 액세스합니다. 기본적으로 이메일 주소, 이름 및 성을 볼 수 있습니다. 에서 프로필에 대해 자세히 알아보기 [이 섹션](../audience/about-recipients.md).
+* **프로필** - 프로필을 만들고 관리하며 수신자 데이터베이스에 액세스합니다. 기본적으로 이메일 주소, 이름 및 성을 볼 수 있습니다. [이 섹션](../audience/about-recipients.md)에서 프로필에 대해 자세히 알아볼 수 있습니다.
 * **대상자** - 대상자 목록입니다. 기본적으로 유형, 원본, 생성/마지막 수정 일자 및 레이블을 볼 수 있습니다. 원본을 기준으로 목록을 필터링할 수 있습니다. [이 섹션](../audience/about-recipients.md)에서 대상자 및 목록에 대해 자세히 알아보십시오.
-* **구독 서비스** - 구독 목록을 탐색합니다. 기본적으로 해당 유형, 모드 및 레이블을 볼 수 있습니다. [Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=ko){target="_blank"}에서 구독 및 구독 취소를 관리하는 방법에 대해 알아봅니다.
-* **사전 정의된 필터** - 사전 정의된 필터는 나중에 사용할 수 있도록 작성 및 저장되는 사용자 지정 필터입니다. 쿼리 모델러를 사용하는 필터링 작업 중에 바로 가기로 사용할 수 있습니다. 예를 들어 데이터 목록을 필터링하거나 게재 대상을 만들 때 바로 가기를 사용할 수 있습니다. [이 섹션](predefined-filters.md)에서 자세히 알아보십시오.
+* **구독 서비스** - 구독 목록을 찾아봅니다. 기본적으로 해당 유형, 모드 및 레이블을 볼 수 있습니다. [Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=ko){target="_blank"}에서 구독 및 구독 취소를 관리하는 방법에 대해 알아봅니다.
+* **미리 정의된 필터** - 미리 정의된 필터는 만들어서 나중에 사용할 수 있도록 저장하는 사용자 정의 필터입니다. 예를 들어 데이터 목록을 필터링하거나 게재 대상자를 생성할 때와 같이 쿼리 모델러를 사용한 필터링 작업 중에 단축키로 사용할 수 있습니다. [이 섹션](predefined-filters.md)에서 자세히 알아보십시오.
 
 
 ### 의사 결정 관리 {#decision-management}
@@ -112,7 +112,7 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 
 ### 보고 {#left-nav-reporting}
 
-* **보고서** - **보고서** 시작 은 Campaign 환경 내의 각 채널에 대한 트래픽 및 참여 지표에 대한 통합된 전체 요약을 제공합니다. 이러한 보고서는 다양한 위젯으로 구성되며, 각 위젯은 캠페인 또는 게재 성과에 대한 고유한 관점을 제공합니다. [이 섹션](../reporting/global-reports.md)에서 자세히 알아보십시오.
+* **보고서** - **보고서** 항목은 Campaign 환경 내의 각 채널의 트래픽 및 참여 지표를 종합하여 전반적 요약을 제공합니다. 이러한 보고서는 다양한 위젯으로 구성되어 있으며, 각 위젯은 캠페인 또는 게재 성과에 대한 고유한 관점을 제공합니다. [이 섹션](../reporting/global-reports.md)에서 자세히 알아보십시오.
 
 
 ## 상황별 도움말 {#user-interface-help}
@@ -121,7 +121,7 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 
 ![](assets/do-not-localize/context-help.png){width="40%" align="left"}
 
-현재 새 Campaign 웹 UI 내에 베타 버전으로 출시된 **AI 기반 기술 지원** 상황별 도움말에 포함되어 방대한 설명서 저장소를 손쉽게 탐색하여 설명서 검색 및 사용 방법 질문에 대한 대답 기능을 혁신적으로 개선하고 필요한 정확한 정보를 즉시 정확하게 찾아냅니다.
+새 Campaign 웹 UI에 현재 Beta 버전으로 릴리스된 **AI 기반 Knowledge Assistant**&#x200B;가 상황별 도움말에 포함되었습니다. 이를 통해 설명서 검색과 방법을 알아보는 질의응답이 혁신되어, 방대한 설명서 저장소에서 손쉽게 필요한 정보를 선별하여 정확하고 빠르게 찾아낼 수 있습니다.
 
 Campaign Gen AI의 기능 덕분에 이 Assistant는 사용자의 경험을 변화시켜 정보 검색 및 문제 해결을 용이하게 합니다. 복잡한 작업에서 지침을 구하거나 광범위한 문서를 탐색할 때 AI 기반 Knowledge Assistant는 모든 상호 작용에서 비교할 수 없는 효율성과 정확성을 제공하는 최고의 보조 앱입니다.
 
@@ -346,7 +346,7 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"
->title="이 템플릿은 준비만 되었습니다."
+>title="이 템플릿은 준비 전용입니다"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]

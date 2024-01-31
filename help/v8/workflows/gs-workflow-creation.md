@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: 워크플로 생성의 핵심 원칙
-description: Adobe Campaign 웹을 사용한 워크플로우의 주요 원칙 알아보기
+description: Adobe Campaign Web의 워크플로우 주요 원칙 알아보기
 badge: label="제한 공개"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 87%
+ht-degree: 91%
 
 ---
 

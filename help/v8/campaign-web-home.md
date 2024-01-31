@@ -7,7 +7,7 @@ badge: label="제한 공개"
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 59%
+ht-degree: 84%
 
 ---
 
@@ -83,14 +83,14 @@ ht-degree: 59%
 
 <!--TO REMOVE ABOVE-->
 
-Adobe Campaign Web 사용자 인터페이스의 새로운 버전을 소개합니다. 최신 릴리스에는 개인화된 크로스 채널 캠페인 생성을 단순화하고, 탁월한 결과를 도출하며, 모든 채널에서 경쟁 우위를 확보할 수 있도록 설계된 직관적인 기능이 포함되어 있습니다. 이 새로운 최신 UI는 Adobe Experience Platform을 비롯한 다른 Adobe 솔루션과 함께 마케팅 캠페인 디자인 및 게재를 간소화하고 일관성을 제공합니다.
+Adobe Campaign Web 사용자 인터페이스의 새로운 버전을 소개합니다. 최신 릴리스에는 맞춤형 크로스 채널 캠페인 생성을 간소화하고, 탁월한 결과를 도출하며, 모든 채널에서 경쟁 우위를 확보하도록 설계된 직관적인 기능이 포함되어 있습니다. 이 새로운 최신 UI에서는 Adobe Experience Platform을 비롯한 다른 Adobe 솔루션과 함께 마케팅 캠페인 디자인 및 게재를 간소화하고 일관성을 제공합니다.
 
 >[!AVAILABILITY]
 > Adobe Campaign 웹은 현재 LA(Limited Availability) 버전입니다. 소수의 LA 고객만 액세스할 수 있습니다. 제품 인터페이스, 기능 및 사용 흐름은 예고 없이 변경될 수 있습니다.
 
 ## 새로운 기능
 
-Adobe Campaign 웹 제품 및 설명서의 최신 개선 사항을 살펴보십시오. 주요 기능 및 릴리스 업데이트 기능에 대한 포괄적인 목록이 필요하면 다음을 확인하십시오 [이 페이지](rn/whats-new.md).
+Adobe Campaign 웹 제품 및 설명서의 최신 개선 사항을 살펴보십시오. 주요 기능 및 릴리스 업데이트 기능에 대한 종합적 목록은 [이 페이지](rn/whats-new.md)를 확인하십시오.
 
 >[!BEGINTABS]
 
@@ -130,7 +130,7 @@ Campaign 이메일 디자이너를 사용하여 직관적인 드래그 앤 드�
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
-    <div><strong>다시 상상한 워크플로우 캔버스</strong><br/>워크플로우를 만들어 전체 프로세스 및 작업을 조정하고 마케팅 캠페인의 모든 측면에 대한 속도와 규모를 개선하는 방법을 알아봅니다.</div><br/>
+    <div><strong>워크플로우 캔버스 리메이크</strong><br/>워크플로우를 만들어 전체 프로세스 및 작업을 오케스트레이션하고 마케팅 캠페인의 모든 측면에서 속도와 규모를 개선하는 방법을 알아봅니다.</div><br/>
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
@@ -138,7 +138,7 @@ Campaign 이메일 디자이너를 사용하여 직관적인 드래그 앤 드�
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>콘텐츠를 동적으로 만들기</strong><br/>콘텐츠를 더 매력적으로 만들고 읽을 가능성을 높이기 위해 수신자에 대해 수집한 정보를 기반으로 콘텐츠를 사용자 지정하는 방법을 알아봅니다.</div>
+    <div><strong>다이내믹해진 콘텐츠</strong><br/>수신자에 대해 수집한 정보를 기반으로 콘텐츠를 사용자 정의하여 콘텐츠를 보다 매력적으로 만들고 수신자가 읽을 가능성을 높이는 방법을 알아봅니다.</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -156,12 +156,12 @@ Campaign 이메일 디자이너를 사용하여 직관적인 드래그 앤 드�
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>시작</strong><br/><a href="get-started/user-interface.md">사용자 인터페이스</a> - <a href="get-started/connect-to-campaign.md">Campaign에 연결</a> - <a href="get-started/using-ai.md">AI 기반의 상황별 도움말</a> - <a href="get-started/permissions.md">액세스 및 권한</a>
+      <strong>시작</strong><br/><a href="get-started/user-interface.md">사용자 인터페이스</a> - <a href="get-started/connect-to-campaign.md">Campaign에 연결</a> - <a href="get-started/using-ai.md">AI 기반 상황별 도움말</a> - <a href="get-started/permissions.md">액세스 및 권한</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>고객 경험</strong><br/><a href="workflows/gs-workflows.md" target="_blank">워크플로우 자동화</a> - <a href="campaigns/gs-campaigns.md" target="_blank">캠페인 오케스트레이션</a> - <a href="personalization/gs-personalization.md">다이내믹 콘텐츠</a> - <a href="reporting/gs-reports.md">보고 및 분석</a>
+      <strong>고객 경험</strong><br/><a href="workflows/gs-workflows.md" target="_blank">워크플로우로 자동화</a> - <a href="campaigns/gs-campaigns.md" target="_blank">캠페인 오케스트레이션</a> - <a href="personalization/gs-personalization.md">다이내믹 콘텐츠</a> - <a href="reporting/gs-reports.md">보고 및 분석</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
@@ -178,5 +178,5 @@ Campaign 이메일 디자이너를 사용하여 직관적인 드래그 앤 드�
 
 ## 추가 리소스
 
-* [Adobe Campaign 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [Adobe Campaign V8 설명서](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ko){target="_blank"}
+* [Adobe Campaign 제품 설명서](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ko){target="_blank"}

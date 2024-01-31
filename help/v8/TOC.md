@@ -9,7 +9,7 @@ hide: true
 source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 84%
+ht-degree: 89%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 84%
    + [시작하기](get-started/get-started.md)
    + [Campaign에 연결](get-started/connect-to-campaign.md)
    + [인터페이스 살펴보기](get-started/user-interface.md)
-   + [목록 검색 및 필터링](get-started/list-filters.md)
+   + [목록 찾아보기 및 필터링](get-started/list-filters.md)
    + [미리 정의된 필터 작업](get-started/predefined-filters.md)
    + [액세스 및 권한](get-started/permissions.md)
    + [보호 기능 및 제한 사항](get-started/guardrails.md)
    + [지원되지 않는 기능](get-started/unsupported.md)
-   + [AI 기반의 상황별 도움말](get-started/using-ai.md)
+   + [AI 기반 상황별 도움말](get-started/using-ai.md)
 + 메시지 및 게재 {#msg}
    + [메시지 시작](msg/gs-messages.md)
    + [게재 작업](msg/gs-deliveries.md)
@@ -120,7 +120,7 @@ ht-degree: 84%
 + 워크플로 {#wf}
    + [워크플로 시작](workflows/gs-workflows.md)
    + [워크플로 액세스 및 관리](workflows/access-monitor.md)
-   + 첫 번째 워크플로우 만들기 및 실행 {#create-workflow}
+   + 첫 워크플로우 만들고 실행하기 {#create-workflow}
       + [워크플로 생성의 핵심 원칙](workflows/gs-workflow-creation.md)
       + [워크플로 만들기](workflows/create-workflow.md)
       + [활동 조율](workflows/orchestrate-activities.md)

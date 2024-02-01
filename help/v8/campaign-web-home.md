@@ -7,11 +7,11 @@ badge: label="제한 공개"
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 84%
+ht-degree: 88%
 
 ---
 
-# Adobe Campaign 웹 설명서 {#campaign-documentation}
+# Adobe Campaign Web 설명서 {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -36,7 +36,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="항목 3"
->abstract="대상자, 구독, AEM Assets, 랜딩 페이지를 위한 UX 이미지 재작성"
+>abstract="대상자, 구독, AEM Assets, 랜딩 페이지용으로 재구성된 UX"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"

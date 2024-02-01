@@ -1,15 +1,15 @@
 ---
-title: 프로필 세부 정보 탐색
+title: 프로필 세부 정보 살펴보기
 description: 프로필의 세부 정보를 탐색하는 방법을 알아봅니다.
 badge: label="제한 공개"
 source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
-# 프로필 세부 정보 탐색 {#profile-view}
+# 프로필 세부 정보 살펴보기 {#profile-view}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"

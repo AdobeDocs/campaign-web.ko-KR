@@ -1,32 +1,32 @@
 ---
 audience: end-user
-title: Adobe Campaign 웹 시작
-description: Adobe Campaign 웹 시작
+title: Adobe Campaign Web 시작하기
+description: Adobe Campaign Web 시작하기
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="제한 공개"
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 87%
+ht-degree: 98%
 
 ---
 
-# Adobe Campaign 웹 시작 {#get-started}
+# Adobe Campaign Web 시작하기 {#get-started}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_learnmore"
 >title="시작하기"
->abstract="새로운 Adobe Campaign 웹 인터페이스는 통합적이고 직관적이며 일관적인 사용자 경험을 제공합니다."
+>abstract="새로운 Adobe Campaign Web 인터페이스는 통합되고 직관적이며, 일관된 사용자 경험을 제공합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_learnmore"
 >title="시작하기"
->abstract="새로운 Adobe Campaign 웹 인터페이스는 통합적이고 직관적이며 일관적인 사용자 경험을 제공합니다."
+>abstract="새로운 Adobe Campaign Web 인터페이스는 통합되고 직관적이며, 일관된 사용자 경험을 제공합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="시작하기"
->abstract="새로운 Adobe Campaign 웹 인터페이스는 통합적이고 직관적이며 일관적인 사용자 경험을 제공합니다."
+>abstract="새로운 Adobe Campaign Web 인터페이스는 통합되고 직관적이며, 일관된 사용자 경험을 제공합니다."
 
 Adobe Campaign은 크로스 채널 고객 경험을 디자인할 수 있는 플랫폼과 더불어 시각적 캠페인 오케스트레이션, 실시간 상호 작용 관리, 크로스 채널을 실행할 수 있는 환경을 제공합니다.
 

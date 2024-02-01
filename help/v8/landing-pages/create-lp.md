@@ -5,7 +5,7 @@ badge: label="제한 공개"
 source-git-commit: 2a02015d9d7a7de67f0bcffd328d37080c0f50c4
 workflow-type: tm+mt
 source-wordcount: '1005'
-ht-degree: 6%
+ht-degree: 27%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="랜딩 페이지 만들기 및 관리"
->abstract="Adobe Campaign을 사용하면 랜딩 페이지를 만들고 디자인하여 커뮤니케이션 수신을 옵트인 또는 옵트아웃하거나 뉴스레터 등 특정 서비스를 구독할 수 있는 온라인 양식으로 사용자를 안내할 수 있습니다."
+>abstract="Adobe Campaign에서는 랜딩 페이지를 만들고 디자인하여 사용자를 커뮤니케이션 수신에 옵트인/옵트아웃하거나 뉴스레터와 같은 특정 서비스에 가입할 수 있는 온라인 양식으로 보낼 수 있습니다."
 
 고객이 특정 링크를 클릭할 때 표시할 정의된 웹 페이지로 안내하려면 [!DNL Adobe Campaign], 콘텐츠를 디자인하고 테스트한 다음 게시합니다.
 
@@ -43,28 +43,28 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
 >title="랜딩 페이지 속성 정의"
->abstract="레이블과 같은 속성 필드를 입력하고 필요한 경우 스키마를 수정합니다. 또한 내부 이름을 편집하고 랜딩 페이지가 저장된 폴더를 변경하고 설명을 제공할 수 있습니다."
+>abstract="레이블과 같은 속성 필드를 입력하고 필요한 경우 스키마를 수정합니다. 내부 이름을 편집하고, 랜딩 페이지가 저장되는 폴더를 변경하고, 설명을 제공할 수도 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
->title="페이지의 콘텐츠 정의"
->abstract="이 랜딩 페이지에 포함된 각 페이지의 콘텐츠를 편집합니다."
+>title="페이지 콘텐츠 정의"
+>abstract="이 랜딩 페이지의 일부인 각 페이지의 콘텐츠를 편집합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
->title="랜딩 페이지 예약"
+>title="랜딩 페이지 일정 예약"
 >abstract="랜딩 페이지의 시작 날짜와 종료 날짜를 정의할 수 있습니다. 페이지가 만료되면 **만료** 페이지가 표시됩니다."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
->title="기본 페이지 설정 정의"
+>title="기본 페이지의 설정 정의"
 >abstract="사용자가 이메일 또는 웹 사이트 등 랜딩 페이지 링크를 클릭하면 기본 페이지가 바로 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_subscription"
 >title="구독 랜딩 페이지 설정"
->abstract="구독 페이지를 통해 고객은 서비스를 구독할 수 있습니다."
+>abstract="고객은 구독 페이지를 통해 서비스를 구독할 수 있습니다."
 
 <!--The main steps to create landing pages are as follows:
 
@@ -113,7 +113,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_simulate"
 >title="랜딩 페이지 시뮬레이션"
->abstract="Campaign 웹 사용자 인터페이스에서 랜딩 페이지의 미리보기를 보거나 새 웹 브라우저 탭에서 열 수 있습니다."
+>abstract="Campaign Web 사용자 인터페이스에서 랜딩 페이지의 미리보기를 보거나 새 웹 브라우저 탭에서 열 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_lp_profiles"

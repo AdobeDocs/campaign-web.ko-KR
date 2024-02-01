@@ -6,22 +6,22 @@ badge: label="제한 공개"
 source-git-commit: 1d3e2ccbf4db5eb23531351572a4400754982e2d
 workflow-type: tm+mt
 source-wordcount: '609'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
 
-# 웨이브를 사용하여 보내기 {#send-using-waves}
+# 예약된 일괄 처리를 사용하여 보내기 {#send-using-waves}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_definition"
 >title="예약된 일괄 처리 정의"
->abstract="동시에 대량의 메시지를 전송하는 대신 여러 배치로 게재를 분할할 웨이브를 정의합니다."
+>abstract="동시에 많은 양의 메시지를 보내는 대신 게재를 여러 배치로 분할하는 예약된 일괄 처리를 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_size"
->title="웨이브 크기"
->abstract="예약된 일괄 처리 크기는 필수입니다. 크기 필드에 숫자 값(메시지 수) 또는 백분율(0-100%)을 입력합니다."
+>title="예약된 일괄 처리 크기"
+>abstract="예약된 일괄 처리 크기는 필수입니다. 크기 필드에 숫자 값(메시지 수) 또는 백분율(0~100%)을 입력합니다."
 
 로드 밸런싱을 위해 게재를 여러 배치로 나눌 수 있습니다. 전체 게재에 대한 배치 수와 배치 비율을 구성합니다.
 

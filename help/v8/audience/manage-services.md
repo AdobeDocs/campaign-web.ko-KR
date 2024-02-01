@@ -7,7 +7,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
 workflow-type: tm+mt
 source-wordcount: '951'
-ht-degree: 21%
+ht-degree: 29%
 
 ---
 
@@ -95,13 +95,13 @@ Adobe Campaign 웹을 사용하여 뉴스레터와 같은 서비스를 관리 �
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_delivery_template"
 >title="구독 게재 템플릿 선택"
->abstract="서비스를 구독하는 사용자에게 확인 메시지를 보내려면 다음을 기반으로 특정 게재 템플릿을 선택해야 합니다. **[!UICONTROL 구독]** 정의된 대상 없이 대상 매핑."
+>abstract="서비스를 구독하는 사용자에게 확인 메시지를 보내려면 정의된 대상 없이 **[!UICONTROL 구독]** 대상 매핑을 기반으로 특정 게재 템플릿을 선택해야 합니다."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_unsubscriptions_delivery_template"
 >title="구독 취소 게재 템플릿 선택"
->abstract="서비스에서 구독을 취소하는 사용자에게 확인 메시지를 보내려면 다음을 기반으로 특정 게재 템플릿을 선택해야 합니다. **[!UICONTROL 구독]** 정의된 대상 없이 대상 매핑."
+>abstract="서비스 구독을 취소하는 사용자에게 확인 메시지를 보내려면 정의된 대상 없이 **[!UICONTROL 구독]** 대상 매핑을 기반으로 특정 게재 템플릿을 선택해야 합니다."
 
 서비스를 구독하거나 구독 취소하는 사용자에게 확인 메시지를 보내려면 **[!UICONTROL 구독]** 정의된 대상 없이 대상 매핑. 이렇게 하려면 아래 단계를 수행합니다.
 

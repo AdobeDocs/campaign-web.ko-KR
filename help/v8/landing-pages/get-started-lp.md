@@ -3,7 +3,7 @@ audience: end-user
 title: 랜딩 페이지 시작
 description: Campaign 웹의 랜딩 페이지에 대해 알아보기
 badge: label="제한 공개"
-source-git-commit: 05fff2623f1ddac7c2d39794e6c6c480bbd9486c
+source-git-commit: 93fe9fbaa38ae278ebbc2562e6d48c4c680cdfe8
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 7%
@@ -15,8 +15,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="랜딩 페이지"
->abstract="새로운 랜딩 페이지 경험을 살펴보십시오. 랜딩 페이지를 즉시 만들고, 디자인하고, 공유하여 프로필 데이터 획득 및 옵트인/옵트아웃 흐름을 빠르고 원활하게 관리할 수 있는 온라인 웹 페이지로 사용자를 안내합니다.
-."
+>abstract="새로운 랜딩 페이지 경험을 살펴보십시오. 랜딩 페이지를 즉시 만들고, 디자인하고, 공유하여 프로필 데이터 획득 및 옵트인/옵트아웃 흐름을 빠르고 원활하게 관리할 수 있는 온라인 웹 페이지로 사용자를 안내합니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ko" text="릴리스 정보 참조"
 
 

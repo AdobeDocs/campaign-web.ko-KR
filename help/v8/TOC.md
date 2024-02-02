@@ -1,14 +1,14 @@
 ---
 audience: end-user
-user-guide-title: Adobe Campaign 웹
-user-guide-description: Adobe Campaign 웹에 대한 제품 설명서입니다.
-title: Adobe Campaign 웹 설명서
+user-guide-title: Adobe Campaign 웹 사용자 인터페이스
+user-guide-description: Adobe Campaign 웹 사용자 인터페이스에 대한 제품 설명서입니다.
+title: Adobe Campaign Web 설명서
 description: Campaign 웹 설명서
-breadcrumb-title: Campaign 웹
+breadcrumb-title: Campaign 웹 사용자 인터페이스
 hide: true
-source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
+source-git-commit: 895494c976fbdf727b9c2a7466d83bf1a30eddfc
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '566'
 ht-degree: 89%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 89%
 
 # Adobe Campaign 웹 설명서 {#v8}
 
-+ [Adobe Campaign 웹 설명서](campaign-web-home.md)
++ [Adobe Campaign 웹 사용자 인터페이스 설명서](campaign-web-home.md)
 + [새로운 기능](rn/whats-new.md)
 + [설명서 업데이트 정보](rn/documentation-updates.md)
 + Adobe Campaign 시작하기 {#start}
@@ -99,7 +99,7 @@ ht-degree: 89%
    + [타겟팅 차원](audience/targeting-dimensions.md)
    + 프로필 작업 {#work-with-profiles}
       + [프로필 시작](audience/about-recipients.md)
-      + [프로필 세부 정보 탐색](audience/profile-view.md)
+      + [프로필 세부 정보 살펴보기](audience/profile-view.md)
       + [프로필 만들기](audience/create-profile.md)
       + [테스트 프로필 작업](audience/test-profiles.md)
    + 대상자 작업 {#audiences}

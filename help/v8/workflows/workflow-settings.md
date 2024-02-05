@@ -4,7 +4,7 @@ title: 워크플로 설정 구성
 description: Adobe Campaign 웹을 사용하여 워크플로우 설정을 구성하는 방법 알아보기
 badge: label="제한 공개"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 973ae7191e75f549cebe0eea954e9cfc29fb43c4
+source-git-commit: 34931a776ef9c7b06afb0276576da685bc54726b
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 24%
@@ -20,7 +20,7 @@ ht-degree: 24%
 
 이렇게 하려면 **[!UICONTROL 설정]** 워크플로 캔버스 위의 작업 표시줄에서 사용할 수 있는 단추입니다.
 
-![](assets/workflow-settings.png)
+![](assets/workflow-settings-button.png){width="70%" align="left"}
 
 ## 워크플로 속성 {#properties}
 
@@ -29,10 +29,15 @@ ht-degree: 24%
 >title="워크플로 속성"
 >abstract="이 섹션에서는 워크플로를 생성할 때도 액세스할 수 있는 일반 워크플로 속성을 제공합니다. 워크플로를 만들고 레이블을 지정하는 데 사용할 템플릿을 선택할 수 있습니다. 폴더 또는 시간대를 저장하는 워크플로와 같은 특정 설정을 구성하려면 추가 옵션 섹션을 확장합니다."
 
-다음 **[!UICONTROL 속성]** 섹션은 워크플로우를 만들 때도 액세스할 수 있는 일반 설정을 제공합니다. 이러한 속성은 다음과 같습니다.
+다음 **[!UICONTROL 속성]** 섹션은 워크플로우를 만들 때도 액세스할 수 있는 일반 설정을 제공합니다.
+
+![](assets/workflow-settings.png){width="70%" align="left"}
+
+
+이러한 속성은 다음과 같습니다.
 
 * 다음 **[!UICONTROL 레이블]** 목록에 표시되는 워크플로의 수입니다.
-* 내부 **[!UICONTROL 이름]** 워크플로.
+* 다음 **[!UICONTROL 내부 이름]** 워크플로.
 * 다음 **[!UICONTROL 폴더]** 워크플로우를 저장해야 하는 위치입니다.
 * 기본값 **[!UICONTROL 시간대]** 을 입력하여 모든 워크플로우의 활동에서 사용할 수 있습니다. 기본적으로 워크플로우의 시간대는 현재 캠페인 연산자에 대해 정의된 시간대입니다.
 가능한 값:

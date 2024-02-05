@@ -3,7 +3,7 @@ audience: end-user
 title: 웨이브를 사용하여 보내기
 description: Campaign 웹에서 게재 설정에 대해 자세히 알아보기
 badge: label="제한 공개"
-source-git-commit: 1d3e2ccbf4db5eb23531351572a4400754982e2d
+source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 9%
@@ -34,7 +34,11 @@ ht-degree: 9%
 
 1. 웨이브를 구성하려면 다음 중 하나를 수행할 수 있습니다.
 
-   * **[!UICONTROL 동일한 크기의 예약된 일괄 처리]**. 예를 들어, **[!UICONTROL 30%]** 해당 필드에서 각 웨이브는 게재에 포함된 메시지의 30%를 나타내며, 마지막 웨이브는 메시지의 10%를 나타냅니다.
+   * **[!UICONTROL 동일한 크기의 예약된 일괄 처리]**.
+
+     예를 들어, **[!UICONTROL 30%]** 해당 필드에서 각 웨이브는 게재에 포함된 메시지의 30%를 나타내며, 마지막 웨이브는 메시지의 10%를 나타냅니다.
+
+     ![](assets/waves-same-size.png)
 
      다음에서 **[!UICONTROL 간격]** 섹션에서 연속되는 두 웨이브의 시작 사이의 지연 시간을 지정합니다. 예를 들어, **[!UICONTROL 2d]**&#x200B;이제 곧 바로 첫 번째 물결이 시작될 것이고 두 번째 물결이 이틀 만에, 세 번째 물결이 나흘 만에 시작될 것이다.
 
@@ -44,7 +48,9 @@ ht-degree: 9%
 
      아래 예에서 첫 번째 웨이브는 게재에 포함된 총 메시지 수의 25%를 나타내며 즉시 시작됩니다. 다음 두 파동은 배달을 완료하고 6시간 간격으로 시작하도록 설정된다.
 
-     특정 유형화 제어 규칙, **[!UICONTROL 예약된 일괄 처리 확인]**&#x200B;를 사용하면 게재 유효성 검사 제한 전에 마지막 웨이브가 계획되도록 할 수 있습니다. 캠페인 유형화 및 해당 규칙은 **[!UICONTROL 유형화]** 게재 설정 탭. 의 제어 규칙에 대해 자세히 알아보십시오. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html)
+     ![](assets/waves-calendar.png)
+
+     특정 유형화 제어 규칙, **[!UICONTROL 예약된 일괄 처리 확인]**&#x200B;를 사용하면 게재 유효성 검사 제한 전에 마지막 웨이브가 계획되도록 할 수 있습니다. 캠페인 유형화 및 해당 규칙은 **[!UICONTROL 유형화]** 게재 설정 탭. 의 제어 규칙에 대해 자세히 알아보십시오. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
 
      >[!IMPORTANT]
      >
@@ -66,6 +72,8 @@ ht-degree: 9%
 
   이렇게 하려면 **[!UICONTROL 일정에 따라 예약된 예약된 예약된 예약된 예약된 일괄 처리]** 옵션을 선택합니다. 예를 들어 첫 번째 물결을 10%로 설정하고 두 번째 물결을 15%로 설정하는 식입니다.
 
+  ![](assets/waves-ramp-up.png)
+
 * **콜 센터 관련 캠페인**
 
   전화 충성도 캠페인을 관리할 때 조직에서는 구독자에게 연락하는 호출 수를 처리하는 데 제한이 있습니다.
@@ -73,3 +81,5 @@ ht-degree: 9%
   웨이브를 사용하여 메시지 수를 콜센터의 일일 처리 용량인 하루에 20개로 제한할 수 있습니다.
 
   이렇게 하려면 **[!UICONTROL 동일한 크기의 예약된 일괄 처리]** 옵션을 선택합니다. 입력 **[!UICONTROL 20]** 파도의 크기와 **[!UICONTROL 1d]** 다음에서 **[!UICONTROL 기간]** 필드.
+
+  ![](assets/waves-call-center.png)

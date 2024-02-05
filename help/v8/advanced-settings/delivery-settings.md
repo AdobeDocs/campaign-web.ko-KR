@@ -4,10 +4,10 @@ title: 게재 설정
 description: Campaign 웹에서 게재 설정에 대해 자세히 알아보기
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="제한 공개"
-source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
+source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
 workflow-type: tm+mt
-source-wordcount: '2316'
-ht-degree: 58%
+source-wordcount: '2326'
+ht-degree: 57%
 
 ---
 
@@ -125,9 +125,11 @@ ht-degree: 58%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="게재에 대한 게재 설정"
->abstract="게재 매개변수는 게재에 적용되는 기술 설정입니다. 게재를 위한 BCC를 활성화하고 게재 및 일반 모드를 변경할 수 있습니다. 이 옵션은 숙련된 사용자로만 제한됩니다."
+>abstract="게재 매개변수는 게재에 적용되는 기술 설정입니다. 게재 및 루틴 모드를 변경하고, 이메일 BCC를 활성화하고, 웨이브를 사용하여 전송할 수 있으며, 전송된 이메일 메시지의 형식도 선택할 수 있습니다. 이 옵션은 숙련된 사용자로만 제한됩니다."
 
 **[!UICONTROL 게재]** 매개 변수는 게재에 적용되는 기술 설정입니다.
+
+![](assets/delivery-settings-delivery.png)
 
 통합 이메일 **[!UICONTROL 라우팅]** 기본적으로 외부 계정이 제공됩니다. 애플리케이션이 이메일을 전송할 수 있는 기술 매개변수가 포함되어 있습니다.
 

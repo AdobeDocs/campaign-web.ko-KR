@@ -4,7 +4,7 @@ title: 워크플로 설정 구성
 description: Adobe Campaign 웹을 사용하여 워크플로우 설정을 구성하는 방법 알아보기
 badge: label="제한 공개"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 1611278f759fb29d014b918e5d1e0f792a4b05a0
+source-git-commit: 55bfca002618dfae53c4a9700087daa5cfd314f2
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 23%
@@ -46,7 +46,7 @@ ht-degree: 23%
    * **데이터베이스의 시간대** 데이터베이스 서버의 시간대를 사용하려면
    * 특정 시간대
 * 워크플로우가 실패하면 다음에서 연산자 그룹에 속하는 연산자가 선택됩니다. **[!UICONTROL 감독자]** 필드는 이메일로 알림을 받습니다.
-* *다음을 입력할 수도 있습니다 **[!UICONTROL 설명]** 워크플로 내.
+* 다음을 입력할 수도 있습니다. **[!UICONTROL 설명]** 워크플로 내.
 
 워크플로가 다음과 같은 경우 [캠페인에 연결됨](create-workflow.md)에 표시됩니다. **[!UICONTROL 연결된 캠페인]** 필드. 해당 필드에서 연결된 캠페인을 열 수 있습니다.
 

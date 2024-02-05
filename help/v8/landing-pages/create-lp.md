@@ -2,10 +2,10 @@
 title: 랜딩 페이지 만들기
 description: Campaign 웹에서 랜딩 페이지를 구성하고 게시하는 방법을 알아봅니다
 badge: label="제한 공개"
-source-git-commit: 2a02015d9d7a7de67f0bcffd328d37080c0f50c4
+source-git-commit: 7d28b76b824d8bac1364e29e83bc07af51c9ac56
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 27%
+source-wordcount: '1003'
+ht-degree: 23%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="랜딩 페이지 만들기 및 관리"
->abstract="Adobe Campaign에서는 랜딩 페이지를 만들고 디자인하여 사용자를 커뮤니케이션 수신에 옵트인/옵트아웃하거나 뉴스레터와 같은 특정 서비스에 가입할 수 있는 온라인 양식으로 보낼 수 있습니다."
+>abstract="Adobe Campaign을 사용하면 기본 제공 템플릿을 기반으로 사용자를 관리, 획득, 구독/구독 취소 및 차단 목록 사용 사례를 관리할 수 있는 온라인 웹 페이지로 안내하기 위해 랜딩 페이지를 만들고 디자인하고 공유할 수 있습니다."
 
-고객이 특정 링크를 클릭할 때 표시할 정의된 웹 페이지로 안내하려면 [!DNL Adobe Campaign], 콘텐츠를 디자인하고 테스트한 다음 게시합니다.
+Adobe Campaign을 사용하면 기본 제공 템플릿을 기반으로 사용자를 관리, 획득, 구독/구독 취소 및 차단 목록 사용 사례를 관리할 수 있는 온라인 웹 페이지로 안내하기 위해 랜딩 페이지를 만들고 디자인하고 공유할 수 있습니다.
 
 ## 랜딩 페이지 액세스 {#access-landing-pages}
 

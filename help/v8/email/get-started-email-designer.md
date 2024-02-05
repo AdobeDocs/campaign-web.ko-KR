@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: 이메일 콘텐츠 편집
-description: Campaign Web UI의 이메일 디자이너를 사용하여 콘텐츠 작성을 시작하는 방법에 대해 알아봅니다.
+description: Campaign 웹 사용자 인터페이스에서 이메일 디자이너를 사용하여 콘텐츠 작성을 시작하는 방법을 알아봅니다
 badge: label="제한 공개"
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
-workflow-type: ht
-source-wordcount: '472'
-ht-degree: 100%
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 96%
 
 ---
 

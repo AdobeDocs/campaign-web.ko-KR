@@ -4,9 +4,9 @@ title: 조정 워크플로우 활동 사용
 description: 조정 워크플로우 활동을 사용하는 방법을 알아봅니다
 badge: label="제한 공개"
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '829'
 ht-degree: 43%
 
 ---
@@ -125,4 +125,4 @@ ht-degree: 43%
 
 ## 호환성 {#reconciliation-compat}
 
-다음 **조정** 활동이 클라이언트 콘솔에 없습니다. 모두 **강화** 조정 옵션이 활성화된 클라이언트 콘솔에서 생성된 활동은 다음과 같이 표시됩니다. **조정** Campaign 웹 UI의 활동.
+다음 **조정** 활동이 클라이언트 콘솔에 없습니다. 모두 **강화** 조정 옵션이 활성화된 클라이언트 콘솔에서 생성된 활동은 다음과 같이 표시됩니다. **조정** Campaign 웹 사용자 인터페이스의 활동.

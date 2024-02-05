@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: 첫 이메일 보내기
-description: Campaign Web UI를 사용하여 첫 이메일을 전송하는 방법 알아보기
+description: Campaign 웹 사용자 인터페이스를 사용하여 첫 번째 이메일을 보내는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="제한 공개"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 71%
+source-wordcount: '1352'
+ht-degree: 70%
 
 ---
 

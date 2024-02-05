@@ -3,10 +3,10 @@ title: 미리 정의된 필터 작업
 description: Adobe Campaign 웹에서 사전 정의된 필터를 만들고 관리하는 방법 알아보기
 badge: label="제한 공개"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 98%
+source-wordcount: '822'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card4"
 >title="미리 정의된 필터 관리"
->abstract="이제 Campaign Web은 특정 요구 사항에 맞게 미리 정의된 필터를 손쉽게 관리하고 맞춤화할 수 있는 사용자 친화적인 인터페이스를 제공합니다. 한 번 제작하여 나중에 사용할 수 있도록 저장합니다."
+>abstract="Campaign 웹 사용자 인터페이스는 특정 요구 사항에 맞게 사전 정의된 필터를 손쉽게 관리하고 사용자 정의할 수 있는 사용자 친화적인 인터페이스를 제공합니다. 한 번 제작하여 나중에 사용할 수 있도록 저장합니다."
 
 
 <!--TO REMOVE BELOW-->
@@ -30,7 +30,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"
 >title="미리 정의된 필터"
->abstract="이제 Campaign Web은 특정 요구 사항에 맞게 미리 정의된 필터를 손쉽게 관리하고 맞춤화할 수 있는 사용자 친화적인 인터페이스를 제공합니다. 한 번 제작하여 나중에 사용할 수 있도록 저장합니다."
+>abstract="Campaign 웹 사용자 인터페이스는 특정 요구 사항에 맞게 사전 정의된 필터를 손쉽게 관리하고 사용자 정의할 수 있는 사용자 친화적인 인터페이스를 제공합니다. 한 번 제작하여 나중에 사용할 수 있도록 저장합니다."
 
 미리 정의된 필터는 나중에 사용할 수 있도록 제작하여 저장되는 사용자 정의 필터입니다. 예를 들어 데이터 목록을 필터링하거나 게재 대상자를 생성할 때와 같이 쿼리 모델러를 사용한 필터링 작업 중에 단축키로 사용할 수 있습니다.
 

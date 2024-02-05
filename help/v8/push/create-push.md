@@ -4,10 +4,10 @@ title: 푸시 알림 게재 만들기
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 만드는 방법을 알아봅니다
 badge: label="제한 공개"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 37%
+source-wordcount: '706'
+ht-degree: 32%
 
 ---
 
@@ -89,10 +89,21 @@ ht-degree: 37%
 
 ## 게재 보내기 예약 {#schedule-push}
 
-특정 일자 및 시간에 게재를 예약하려면 **[!UICONTROL 예약 활성화]** 옵션을 켭니다. 게재를 시작하면 메시지가 수신자를 위해 정의한 정확한 날짜 및 시간에 자동으로 전송됩니다. 에서 게재 예약에 대해 자세히 알아보기 [이 섹션](../msg/gs-messages.md#gs-schedule)
+워크플로우의 컨텍스트에서 게재를 보낼 때 다음을 사용해야 합니다 **스케줄러** 활동. 다음에서 자세히 알아보기 [이 페이지](../workflows/activities/scheduler.md). 아래 단계는 독립형 게재에만 적용됩니다.
+
+독립 실행형 푸시 게재를 특정 날짜 및 시간으로 예약하려면 다음 단계를 따르십시오.
+
+1. 다음으로 이동 **[!UICONTROL 예약]** 섹션에 있는 마지막 항목이 될 필요가 없습니다.
+
+1. 사용 **[!UICONTROL 예약 활성화]** 활성화하려면 전환하십시오.
+
+1. 원하는 전송 날짜 및 시간을 설정합니다.
+
+게재를 시작하면 메시지가 수신자에 대해 정의한 정확한 날짜 및 시간에 자동으로 전송됩니다.
 
 ![](assets/push_create_3.png)
 
+에서 게재 예약에 대해 자세히 알아보기 [이 섹션](../msg/gs-messages.md#gs-schedule)
 
 ## 게재 고급 설정 {#adv-push}
 

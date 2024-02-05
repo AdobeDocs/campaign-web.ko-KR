@@ -4,10 +4,10 @@ title: 첫 이메일 보내기
 description: Campaign 웹 사용자 인터페이스를 사용하여 첫 번째 이메일을 보내는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="제한 공개"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 70%
+source-wordcount: '1367'
+ht-degree: 68%
 
 ---
 
@@ -144,11 +144,9 @@ ht-degree: 70%
 
 ## 전송 예약 {#schedule}
 
-이메일 전송을 예약하려면 아래 단계를 따르십시오.
+워크플로우의 컨텍스트에서 게재를 보낼 때 다음을 사용해야 합니다 **스케줄러** 활동. 다음에서 자세히 알아보기 [이 페이지](../workflows/activities/scheduler.md). 아래 단계는 독립형 게재에만 적용됩니다.
 
-게재 전송을 예약하는 방법에 대한 추가 지침은 다음에서 자세히 설명합니다. [이 섹션](../msg/gs-messages.md#gs-schedule).
-
-1. 다음으로 이동 **[!UICONTROL 예약]** 섹션.
+1. 다음으로 이동 **[!UICONTROL 예약]** 섹션에 있는 마지막 항목이 될 필요가 없습니다.
 
 1. 사용 **[!UICONTROL 예약 활성화]** 활성화하려면 전환하십시오.
 
@@ -156,7 +154,9 @@ ht-degree: 70%
 
    ![](assets/schedule.png)
 
-게재를 전송하면 정의한 연락 일자부터 실제 전송이 시작됩니다.
+게재를 전송하면 정의한 연락 날짜에 실제 전송이 시작됩니다.
+
+에서 게재 예약에 대해 자세히 알아보기 [이 섹션](../msg/gs-deliveries.md#schedule-the-delivery-sending).
 
 ## 이메일 미리보기 및 테스트 {#preview-test}
 

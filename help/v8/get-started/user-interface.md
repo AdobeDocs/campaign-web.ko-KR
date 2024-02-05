@@ -4,9 +4,9 @@ title: 인터페이스 살펴보기
 description: Adobe Campaign 웹 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="제한 공개"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 5e5580c8dd7ddd4d545d7e77c9ed26e9500ec313
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1601'
 ht-degree: 93%
 
 ---
@@ -352,4 +352,9 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_generatesubsets"
 >title="동일 테이블의 모든 하위 집합 생성"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_defaultlp"
+>title="기본 랜딩 페이지"
 >abstract="TBC"

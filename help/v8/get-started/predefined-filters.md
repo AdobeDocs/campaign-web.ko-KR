@@ -3,9 +3,9 @@ title: 미리 정의된 필터 작업
 description: Adobe Campaign 웹에서 사전 정의된 필터를 만들고 관리하는 방법 알아보기
 badge: label="제한 공개"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 5e5580c8dd7ddd4d545d7e77c9ed26e9500ec313
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '824'
 ht-degree: 93%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 93%
 
 기존 내장 필터를 사용하여 데이터의 특정 하위 집합에 액세스하거나 미리 정의된 필터를 직접 만들어 저장할 수 있습니다.
 
-![](assets/predefined-filters-menu.png)
+![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}
 
 >[!IMPORTANT]
 >

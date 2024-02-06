@@ -2,12 +2,13 @@
 audience: end-user
 title: 게재 설정
 description: Campaign 웹에서 게재 설정에 대해 자세히 알아보기
+feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="제한 공개"
-source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
+source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
 workflow-type: tm+mt
-source-wordcount: '2326'
-ht-degree: 57%
+source-wordcount: '2425'
+ht-degree: 53%
 
 ---
 
@@ -133,15 +134,23 @@ ht-degree: 57%
 
 통합 이메일 **[!UICONTROL 라우팅]** 기본적으로 외부 계정이 제공됩니다. 애플리케이션이 이메일을 전송할 수 있는 기술 매개변수가 포함되어 있습니다.
 
-다음을 정의할 수 있습니다 **[!UICONTROL 전송 중]** 설정:
+다음을 정의할 수 있습니다. **[!UICONTROL 전송 중]** 아래 설정.
 
-* **[!UICONTROL SMTP 게재 테스트]**: 이 옵션은 SMTP를 통한 전송을 테스트하는 데 사용됩니다. 게재는 SMTP 서버에 연결될 때까지 처리되지만 전송되지는 않습니다. 게재의 모든 수신자에 대해 Campaign은 SMTP 공급자 서버에 연결하고 SMTP RCPT TO 명령을 실행한 다음 SMTP DATA 명령 전에 연결을 종료합니다.
+* **[!UICONTROL 게재 우선 순위]**: 이 옵션을 사용하여 우선순위 수준을 보통, 높음 또는 낮음으로 설정하여 게재의 전송 순서를 변경할 수 있습니다.
+
+* **[!UICONTROL 메시지 일괄 처리 수량]**: 이 옵션을 사용하여 동일한 XML 게재 패키지 내에 그룹화된 메시지 수를 정의합니다. 매개 변수를 0으로 설정하면 메시지가 자동으로 그룹화됩니다. 패키지 크기는 계산에 의해 정의됩니다 `<delivery size>/1024`패키지로 최소 8개, 최대 256개의 메시지 전송
+
+  >[!IMPORTANT]
+  >
+  >기존 게재를 복제하여 게재를 만들 때 이 매개 변수는 재설정됩니다.
+
+* **[!UICONTROL SMTP 게재 테스트]**: 이 옵션은 SMTP를 통한 전송을 테스트하는 데 사용됩니다. 게재는 SMTP 서버 연결까지 처리되지만 전송되지 않습니다. 게재의 모든 수신자에 대해 Campaign은 SMTP 공급자 서버에 연결하고 SMTP RCPT TO 명령을 실행하고 SMTP DATA 명령 전에 연결을 닫습니다.
 
 * **[!UICONTROL 이메일 BCC]**: 이 옵션은 메시지 대상에 BCC 이메일 주소를 추가하여 BCC를 통해 외부 시스템에 이메일을 저장하는 데 사용됩니다. 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
-* **[!UICONTROL 여러 웨이브를 사용하여 보내기]**: 웨이브를 사용하여 전송되는 볼륨을 점진적으로 늘릴 수 있습니다. 이렇게 하면 메시지가 스팸으로 표시되거나 하루에 메시지 수를 제한하려는 경우를 방지할 수 있습니다. 웨이브를 사용하여 동시에 대량의 메시지를 전송하는 대신 게재를 여러 배치로 나눌 수 있습니다. [자세히 알아보기](send-using-waves.md)
+다음에서 **[!UICONTROL 예약된 일괄 처리 정의]** 섹션에서 **[!UICONTROL 여러 웨이브를 사용하여 보내기]** 웨이브를 사용하여 전송되는 볼륨을 점진적으로 늘리는 옵션입니다. 이렇게 하면 메시지가 스팸으로 표시되거나 하루에 메시지 수를 제한하려는 경우를 방지할 수 있습니다. 웨이브를 사용하여 동시에 대량의 메시지를 전송하는 대신 게재를 여러 배치로 나눌 수 있습니다. [자세히 알아보기](send-using-waves.md)
 
-또한 보낸 이메일 메시지의 형식을 변경할 수 있습니다.
+을 변경할 수도 있습니다. **[!UICONTROL 메일 형식]** 아래에 자세히 설명된 대로 보낸 이메일 메시지.
 
 * **[!UICONTROL 수신자 환경 설정 사용]** (기본 모드)
 

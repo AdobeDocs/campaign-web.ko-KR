@@ -2,10 +2,11 @@
 audience: end-user
 title: 웨이브를 사용하여 보내기
 description: Campaign 웹에서 게재 설정에 대해 자세히 알아보기
+feature: Email
 badge: label="제한 공개"
-source-git-commit: 6676aa00e3ed7ea54f1ecd9b3e87d317e5208712
+source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '767'
 ht-degree: 4%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 4%
 >title="각 웨이브의 크기 정의"
 >abstract="추가하는 모든 물결의 크기를 입력해야 합니다. 숫자 값(각 웨이브에 대한 메시지 수) 또는 백분율(0-100%)을 입력합니다."
 
-로드 밸런싱을 위해 게재를 여러 배치로 나눌 수 있습니다. 두 예약된 일괄 처리 수와 전체 게재 대비 배치 수 및 배치 비율을 구성하고 예약된 일괄 처리 간격을 구성합니다.
+로드 밸런싱을 위해 이메일 게재를 여러 배치로 나눌 수 있습니다. 두 예약된 일괄 처리 수와 전체 게재 대비 배치 수 및 배치 비율을 구성하고 예약된 일괄 처리 간격을 구성합니다.
 
 >[!NOTE]
 >
@@ -46,15 +47,11 @@ ht-degree: 4%
 
    >[!CAUTION]
    >
-   >마지막 예약된 일괄 처리가 **[!UICONTROL 유효성]** 탭. 그렇지 않으면 일부 메시지가 전송되지 않을 수 있습니다. [자세히 알아보기](delivery-settings.md#validity)
+   >마지막 예약된 일괄 처리가 다음에 정의된 배달 기한을 초과하지 않도록 합니다. [유효성](delivery-settings.md#validity) 탭으로 설정되지 않은 경우 일부 메시지가 전송되지 않을 수 있습니다. 특정 유형화 제어 규칙, **[!UICONTROL 예약된 일괄 처리 확인]**&#x200B;를 사용하면 게재 유효성 검사 제한 전에 마지막 웨이브가 계획되도록 할 수 있습니다. 의 제어 규칙에 대해 자세히 알아보십시오. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
    >
    >마지막 웨이브를 구성할 때 재시도 시간도 충분히 허용해야 합니다. [자세히 알아보기](delivery-settings.md#retries)
 
-1. 전송을 모니터링하려면 [게재 로그](../monitor/delivery-logs.md).
-
-   처리된 웨이브에서 이미 전송된 게재를 볼 수 있습니다(**[!UICONTROL 전송됨]** 상태) 및 나머지 웨이브로 전송할 게재(**[!UICONTROL 보류 중]** 상태).
-
-특정 유형화 제어 규칙, **[!UICONTROL 예약된 일괄 처리 확인]**&#x200B;를 사용하면 게재 유효성 검사 제한 전에 마지막 웨이브가 계획되도록 할 수 있습니다. 캠페인 유형화 및 해당 규칙은 **[!UICONTROL 유형화]** 게재 설정 탭. 의 제어 규칙에 대해 자세히 알아보십시오. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
+1. 전송을 모니터링하려면 [게재 로그](../monitor/delivery-logs.md). 처리된 웨이브에서 이미 전송된 게재를 볼 수 있습니다(**[!UICONTROL 전송됨]** 상태) 및 나머지 웨이브로 전송할 게재(**[!UICONTROL 보류 중]** 상태).
 
 ## 동일한 크기의 예약된 일괄 처리 예약 {#waves-same-size}
 
@@ -64,7 +61,7 @@ ht-degree: 4%
 
 * 게재를 분할할 모든 웨이브의 크기를 지정합니다. 백분율이나 숫자 값을 입력할 수 있습니다. 마지막 웨이브만 나머지 메시지 수를 포함해야 하므로 크기가 달라질 수 있습니다.
 
-  예를 들어, **[!UICONTROL 30%]** 해당 필드에서 첫 번째 3개의 웨이브는 게재에 포함된 모든 메시지의 30%를 나타내고 네 번째 웨이브는 나머지 10%를 나타냅니다.
+  예를 들어, **[!UICONTROL 30%]** 다음에서 **[!UICONTROL 예약된 일괄 처리 크기]** 필드, 첫 번째 3개의 웨이브는 게재에 포함된 모든 메시지의 30%를 나타내며, 네 번째 웨이브는 나머지 10%를 나타냅니다.
 
 * 다음에서 **[!UICONTROL 간격]** 섹션에서 연속되는 두 웨이브의 시작 사이의 지연 시간을 지정합니다. 예를 들어, **[!UICONTROL 2일]**&#x200B;이제 1차 파도는 바로 시작되고, 2차 파도는 이틀 만에, 3차 파도는 나흘 만에 시작하는 상황이 되겠습니다.
 
@@ -80,7 +77,7 @@ ht-degree: 4%
 
 이 옵션을 선택하는 경우 전송할 각 웨이브의 시작 날짜/시간과 각 웨이브의 크기를 정의해야 합니다.
 
-* 다음에서 **[!UICONTROL 시작]** 열에서 연속되는 두 예약된 일괄 처리 시작 사이의 지연 시간을 지정합니다.
+* 다음에서 **[!UICONTROL 시작]** 필드에서는 연속되는 두 예약된 일괄 처리 시작 사이의 지연 시간을 지정합니다.
 
 * 다음에서 **[!UICONTROL 크기]** 열에서 고정 숫자 또는 백분율을 입력합니다.
 

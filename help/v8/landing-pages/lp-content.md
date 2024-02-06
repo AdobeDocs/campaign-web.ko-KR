@@ -1,8 +1,9 @@
 ---
 title: 랜딩 페이지별 콘텐츠 정의
 description: Campaign 웹에서 랜딩 페이지별 콘텐츠를 디자인하는 방법을 알아봅니다
+feature: Landing Pages
 badge: label="제한 공개"
-source-git-commit: 2a02015d9d7a7de67f0bcffd328d37080c0f50c4
+source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 13%

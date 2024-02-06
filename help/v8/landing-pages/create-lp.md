@@ -1,8 +1,9 @@
 ---
 title: 랜딩 페이지 만들기
 description: Campaign 웹에서 랜딩 페이지를 구성하고 게시하는 방법을 알아봅니다
+feature: Landing Pages
 badge: label="제한 공개"
-source-git-commit: 2a7c7589e7b9d64c7a0f42dc5dc5d5dc01b39a3c
+source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 22%

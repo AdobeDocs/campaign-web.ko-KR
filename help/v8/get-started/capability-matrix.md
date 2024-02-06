@@ -5,9 +5,9 @@ description: Campaign 웹 사용자 인터페이스에서 지원되는 기능 �
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+source-git-commit: c7ced55fff91a480b58e033cc9a3d03d8f9f4115
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1281'
 ht-degree: 8%
 
 ---
@@ -35,7 +35,7 @@ Campaign 웹 사용자 인터페이스를 사용하면 크로스채널 캠페인
 * MRM(마케팅 리소스 관리), 목표, 시뮬레이션 및 비용 제어 [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
 * 작업 관리. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
 
-## 소통 채널{ #channels-capabilities}
+## 소통 채널 {#channels-capabilities}
 
 Campaign 웹 사용자 인터페이스를 사용하면 이메일, SMS 및 푸시 알림을 만들고 디자인하고 전송할 수 있으며 다양한 전용 보고서를 사용하여 자세한 정보를 확인할 수 있습니다 [이 섹션에서](../msg/gs-messages.md). 그러나 이 버전에서는 다음 채널을 사용할 수 없습니다.
 

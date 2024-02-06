@@ -2,9 +2,9 @@
 title: 랜딩 페이지 만들기
 description: Campaign 웹에서 랜딩 페이지를 구성하고 게시하는 방법을 알아봅니다
 badge: label="제한 공개"
-source-git-commit: 7d28b76b824d8bac1364e29e83bc07af51c9ac56
+source-git-commit: 7635ab284900c8a4cd5ceca5675e57dbedb39f3a
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1006'
 ht-degree: 23%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="랜딩 페이지 만들기 및 관리"
->abstract="Adobe Campaign을 사용하면 기본 제공 템플릿을 기반으로 사용자를 관리, 획득, 구독/구독 취소 및 차단 목록 사용 사례를 관리할 수 있는 온라인 웹 페이지로 안내하기 위해 랜딩 페이지를 만들고 디자인하고 공유할 수 있습니다."
+>abstract="Adobe Campaign을 사용하면 랜딩 페이지를 만들고, 디자인하고, 공유하여 기본 제공 템플릿을 기반으로 획득, 구독/구독 취소 및 차단 목록 사용 사례를 관리할 수 있는 온라인 웹 페이지로 사용자를 안내할 수 있습니다."
 
-Adobe Campaign을 사용하면 기본 제공 템플릿을 기반으로 사용자를 관리, 획득, 구독/구독 취소 및 차단 목록 사용 사례를 관리할 수 있는 온라인 웹 페이지로 안내하기 위해 랜딩 페이지를 만들고 디자인하고 공유할 수 있습니다.
+Adobe Campaign을 사용하면 랜딩 페이지를 만들고, 디자인하고, 공유하여 기본 제공 템플릿을 기반으로 획득, 구독/구독 취소 및 차단 목록 사용 사례를 관리할 수 있는 온라인 웹 페이지로 사용자를 안내할 수 있습니다.
 
 ## 랜딩 페이지 액세스 {#access-landing-pages}
 
@@ -30,9 +30,9 @@ Adobe Campaign을 사용하면 기본 제공 템플릿을 기반으로 사용자
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
->[!NOTE]
+>[!CAUTION]
 >
->Campaign 웹의 클라이언트 콘솔에서 만든 랜딩 페이지는 표시할 수 없습니다. 다음에서 자세히 알아보기 [Campaign 콘솔 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>Campaign 웹의 클라이언트 콘솔에서 만든 랜딩 페이지는 표시하거나 편집할 수 없습니다. 다음에서 자세히 알아보기 [Campaign 콘솔 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
@@ -98,7 +98,7 @@ Adobe Campaign을 사용하면 기본 제공 템플릿을 기반으로 사용자
 
    ![](assets/lp-pages.png)
 
-1. 다음 **[!UICONTROL 미리 로드된 레코드 업데이트]** 기본적으로 가 선택되어 있습니다. 랜딩 페이지를 통해 데이터베이스에 저장된 프로필을 업데이트하려면 미리 로드 상자를 사용할 수 있습니다. 미리 로드 상자를 사용하여 데이터베이스에서 업데이트할 레코드를 찾는 방법을 표시할 수 있습니다. 랜딩 페이지의 현재 컨텍스트에 있는 필드 중에서 데이터베이스에서 해당 프로필을 찾는 데 사용할 필드를 선택할 수도 있습니다.
+1. 다음 **[!UICONTROL 미리 로드된 레코드 업데이트]** 기본적으로 옵션이 선택되어 있습니다. 랜딩 페이지를 통해 데이터베이스에 저장된 프로필을 업데이트하려면 미리 로드 상자를 사용할 수 있습니다. 미리 로드 상자를 사용하여 데이터베이스에서 업데이트할 레코드를 찾는 방법을 표시할 수 있습니다. 랜딩 페이지의 현재 컨텍스트에 있는 필드 중에서 데이터베이스에서 해당 프로필을 찾는 데 사용할 필드를 선택할 수도 있습니다.
 
    ![](assets/lp-storage-schedule.png)
 

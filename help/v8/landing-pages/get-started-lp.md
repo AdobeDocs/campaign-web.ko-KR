@@ -3,9 +3,9 @@ audience: end-user
 title: 랜딩 페이지 시작
 description: Campaign 웹의 랜딩 페이지에 대해 알아보기
 badge: label="제한 공개"
-source-git-commit: bf4ee4b5f672dc91b7f5a494026c7df934a806f4
+source-git-commit: 8d4a6e0139ee0199796ddd8c971c35a71b631e55
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '189'
 ht-degree: 15%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="랜딩 페이지"
->abstract="새로운 랜딩 페이지 경험을 탐색해 보십시오. 즉시 랜딩 페이지를 만들고, 디자인하고, 공유하여 기본 제공 템플릿을 기반으로 사용자를 관리, 획득, 구독/구독 취소 및 차단 목록 사용 사례를 할 수 있는 온라인 웹 페이지로 안내합니다."
+>abstract="새로운 랜딩 페이지 경험을 탐색해 보십시오. 즉시 랜딩 페이지를 만들고, 디자인하고, 공유하여 내장된 템플릿을 기반으로 획득, 구독/구독 취소 및 차단 목록 사용 사례를 관리할 수 있는 온라인 웹 페이지로 사용자를 안내합니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ko" text="릴리스 정보 참조"
 
 
@@ -27,7 +27,7 @@ ht-degree: 15%
 * 설정 **옵트인 및 옵트아웃 흐름** 빠르고 매끄럽게
 * 구독 서비스를 만들어 다음을 수행할 수 있습니다. **서비스 구독**. [자세히 알아보기](../audience/manage-services.md)
 * 수신자에게 다음을 제공하십시오. **구독 취소 기능** 을(를) 통해 메시지를 받을 수 있습니다.
-* 보내기 **확인 이메일** 옵트인 또는 옵트아웃 시.
+  <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

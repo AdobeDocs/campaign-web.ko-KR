@@ -4,9 +4,9 @@ title: 웨이브를 사용하여 보내기
 description: Campaign 웹에서 게재 설정에 대해 자세히 알아보기
 feature: Email
 badge: label="제한 공개"
-source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
+source-git-commit: 3f4f09ddae3a2e46adf99f288642acee561ce1f5
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '790'
 ht-degree: 4%
 
 ---
@@ -81,7 +81,11 @@ ht-degree: 4%
 
 * 다음에서 **[!UICONTROL 크기]** 열에서 고정 숫자 또는 백분율을 입력합니다.
 
-필요한 만큼 웨이브를 추가합니다.
+원하는 만큼 웨이브를 추가합니다. 필요에 따라 순서를 변경할 수 있습니다.
+
+>[!NOTE]
+>
+>백분율을 사용하는 경우 모든 파동의 합계는 100%를 초과할 수 없습니다.
 
 아래 예에서, 제1 웨이브는 게재에 포함된 총 메시지 수의 25%를 나타내며 즉시 시작한다. 다음 두 파동은 배달을 완료하고 6시간 간격으로 시작하도록 설정된다.
 

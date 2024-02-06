@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Campaign Web v8의 새로운 기능
-description: Campaign Web v8이 제공되는 새로운 기능 살펴보기
+title: Campaign 웹 사용자 인터페이스의 새로운 기능
+description: Campaign 웹 사용자 인터페이스와 함께 제공되는 새로운 기능 살펴보기
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="제한 공개"
-source-git-commit: 4b197f29898fcdad294cd03696a907ca665909b7
+source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
 workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 82%
+source-wordcount: '1313'
+ht-degree: 79%
 
 ---
 
@@ -19,7 +19,12 @@ ht-degree: 82%
 >title="릴리스 정보"
 >abstract="최신 릴리스에는 맞춤형 크로스 채널 캠페인 생성을 간소화하고, 탁월한 결과를 도출하며, 모든 채널에서 경쟁 우위를 확보하도록 설계된 직관적인 기능이 포함되어 있습니다."
 
-Adobe Campaign Web 사용자 인터페이스의 새로운 버전을 소개합니다. 최신 릴리스에는 맞춤형 크로스 채널 캠페인 생성을 간소화하고, 탁월한 결과를 도출하며, 모든 채널에서 경쟁 우위를 확보하도록 설계된 직관적인 기능이 포함되어 있습니다. Campaign 웹 사용자 인터페이스는 통합 경험을 위해 Adobe Experience Platform과 연결된 캔버스를 제공합니다. 이 버전은 Campaign v8.6 릴리스를 시작하는 모든 사용자가 사용할 수 있습니다.
+의 새로운 버전을 소개하게 되어 기쁘게 생각합니다. **Adobe Campaign 웹 사용자 인터페이스**. 최신 릴리스에는 맞춤형 크로스 채널 캠페인 생성을 간소화하고, 탁월한 결과를 도출하며, 모든 채널에서 경쟁 우위를 확보하도록 설계된 직관적인 기능이 포함되어 있습니다. Campaign 웹 UI(사용자 인터페이스)는 통합 경험을 위해 Adobe Experience Platform과 연결된 캔버스를 제공합니다.
+
+
+>[!AVAILABILITY]
+>
+>이 버전은 Campaign v8.6 릴리스를 시작하는 모든 사용자가 사용할 수 있습니다. 에서 Adobe Campaign 릴리스에 대해 자세히 알아보기 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 
 ## 주요 기능 {#key-features}
@@ -28,7 +33,7 @@ Adobe Campaign Web 사용자 인터페이스의 새로운 버전을 소개합니
 
 **현대적이고 친숙하며 통합된 경험**
 
-Campaign의 새로운 웹 사용자 인터페이스는 모든 Adobe Experience Cloud 솔루션 및 앱과 연계된 새로운 사용자 경험을 제공합니다. 제공되는 기능은 다음과 같습니다.
+Campaign의 새로운 웹 사용자 인터페이스는 모든 Adobe Experience Cloud 솔루션 및 앱과 연결된 새로운 사용자 경험을 제공합니다. 제공되는 기능은 다음과 같습니다.
 
 * 단일 및 공유 사용자 세션이 있는 새로운 Campaign 인터페이스 및 기타 Adobe 솔루션에 대한 액세스 권한
 * 왼쪽 레일에서 모든 메뉴와 폴더를 사용할 수 있는 새로운 탐색 환경

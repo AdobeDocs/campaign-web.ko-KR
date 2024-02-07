@@ -3,14 +3,19 @@ title: 타겟팅 차원
 description: Adobe Campaign 웹의 타겟팅 차원에 대해 자세히 알아보십시오
 badge: label="제한 공개"
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: 0f420559fa49efbe7eea79474d2db7341e51fca8
+source-git-commit: c26e050ef4933833425e21556c07d66ead72c5a3
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 5%
+source-wordcount: '428'
+ht-degree: 11%
 
 ---
 
 # 타겟팅 차원 {#targeting-dimensions}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_build_audience_dimension"
+>title="타겟팅 차원 선택"
+>abstract="타겟팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타겟팅하는 모집단을 정의할 수 있습니다. 기본적으로 대상은 수신자 중에서 선택됩니다."
 
 타겟팅 차원(예: ) 대상 매핑은 작업에서 처리하는 데이터 유형입니다. 대상 모집단(프로필, 계약 수혜자, 운영자, 구독자 등)을 정의할 수 있습니다.
 

@@ -4,10 +4,10 @@ title: 대상자 빌드 워크플로 활동 사용
 description: 대상자 빌드 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 badge: label="제한 공개"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
+source-git-commit: c26e050ef4933833425e21556c07d66ead72c5a3
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 71%
+source-wordcount: '379'
+ht-degree: 69%
 
 ---
 
@@ -35,11 +35,6 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 -->
 
 ## 대상자 빌드 활동 구성{#build-audience-configuration}
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_build_audience_dimension"
->title="타겟팅 차원 선택"
->abstract="타겟팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타겟팅하는 모집단을 정의할 수 있습니다. 기본적으로 대상은 수신자 중에서 선택됩니다."
 
 **대상자 빌드** 활동을 구성하려면 다음 단계를 따르십시오.
 

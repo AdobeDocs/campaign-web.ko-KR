@@ -5,9 +5,9 @@ description: Campaign 웹 사용자 인터페이스에서 지원되는 기능 �
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 3de864b097a3754d3a1bacf4c563ad62b1b46bc0
+source-git-commit: 7fa6d8e7afadbfb74e1d764ba8314eb284ffad65
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1512'
 ht-degree: 3%
 
 ---
@@ -184,8 +184,13 @@ Campaign 사용자는 Adobe Identity Management System(IMS)을 통해서만 Adob
 
 Campaign 플랫폼 모니터링 기능은 클라이언트 콘솔과 Campaign 컨트롤 패널에서만 사용할 수 있습니다. 이 매개 변수는 Campaign 웹 사용자 인터페이스에 표시되지 않습니다.
 
-제공된 링크를 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ko){target="_blank"} 자세히 알아보십시오.
+제공된 Campaign v8(클라이언트 콘솔) 설명서 및 컨트롤 패널 설명서에 대한 링크를 탐색하여 자세한 내용을 알아보십시오.
 
 * [워크플로우 모니터링](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html){target="_blank"}
 * [워크플로우 열 지도](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}
+* [성능 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ko){target="_blank"}
+* [게재 기능 모니터링](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html){target="_blank"}
+
+
+
 

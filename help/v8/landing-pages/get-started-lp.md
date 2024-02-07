@@ -4,10 +4,10 @@ title: 랜딩 페이지 시작
 description: Campaign 웹의 랜딩 페이지에 대해 알아보기
 feature: Landing Pages
 badge: label="제한 공개"
-source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
+source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 13%
+source-wordcount: '249'
+ht-degree: 12%
 
 ---
 
@@ -16,14 +16,22 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="랜딩 페이지"
->abstract="새로운 랜딩 페이지 경험을 탐색해 보십시오. 즉시 랜딩 페이지를 만들고, 디자인하고, 공유하여 내장된 템플릿을 기반으로 획득, 구독/구독 취소 및 차단 목록 사용 사례를 관리할 수 있는 온라인 웹 페이지로 사용자를 안내합니다."
+>abstract="새로운 랜딩 페이지 경험을 탐색해 보십시오. 즉시 랜딩 페이지를 만들고 공유하여 내장된 템플릿을 기반으로 획득 구독/구독 취소, 차단 목록에 추가하다 사용 사례를 관리할 수 있는 온라인 웹 페이지로 사용자를 안내합니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ko" text="릴리스 정보 참조"
 
-Adobe Campaign을 사용하면 랜딩 페이지를 만들고, 디자인하고, 공유할 수 있습니다. 마케팅 캠페인의 컨텍스트에서 랜딩 페이지는 방문자가 이메일, SMS, 푸시 게재 또는 웹 사이트에서 링크를 클릭한 후 리디렉션되는 독립 실행형 웹 페이지입니다.
+[!DNL Adobe Campaign] 랜딩 페이지를 만들고, 디자인하고, 공유할 수 있습니다.
 
-[!DNL Adobe Campaign] 에서는 랜딩 페이지를 만들고 디자인하여 커뮤니케이션 수신을 옵트인/옵트아웃하거나 뉴스레터 등 특정 서비스를 구독할 수 있는 온라인 양식으로 사용자를 안내할 수 있습니다. Adobe Campaign에는 획득, 구독, 구독 취소 및 차단 목록 사용 사례를 관리하는 4개의 템플릿이 포함되어 있습니다.
+마케팅 캠페인의 맥락에서 랜딩 페이지는 방문자가 이메일, SMS, 푸시 게재 또는 웹 사이트에서 링크를 클릭한 후 리디렉션되는 독립 실행형 웹 페이지입니다.
 
-주요 기능은 아래에 나와 있습니다.
+랜딩 페이지를 사용하여 커뮤니케이션 수신을 옵트인/옵트아웃하거나 뉴스레터 등 특정 서비스를 구독할 수 있는 온라인 양식으로 사용자를 안내할 수 있습니다.
+
+>[!CAUTION]
+>
+>Campaign 웹 사용자 인터페이스에서 만드는 랜딩 페이지는 클라이언트 콘솔에서 만든 웹 양식과 다릅니다. Campaign 웹 사용자 인터페이스에서는 웹 양식을 표시하거나 편집할 수 없습니다.
+>
+>웹 양식에 대한 자세한 내용 [Campaign 콘솔 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+
+랜딩 페이지의 주요 기능은 다음과 같습니다.
 
 * 활용 [!DNL Adobe Campaign] 손쉽게 빌드할 수 있는 콘텐츠 디자인 기능 **반응형 랜딩 페이지**.
 * 설정 **옵트인 및 옵트아웃 흐름** 빠르고 매끄럽게

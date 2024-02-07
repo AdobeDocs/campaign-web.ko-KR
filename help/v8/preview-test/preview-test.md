@@ -4,10 +4,10 @@ title: 게재 미리 보기 및 테스트 정보
 description: 게재 미리 보기 및 테스트 방법 알아보기
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="제한 공개"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 19%
+source-wordcount: '202'
+ht-degree: 9%
 
 ---
 
@@ -15,10 +15,11 @@ ht-degree: 19%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
->title="메시지 미리보기 및 테스트"
->abstract="메시지가 정의되면 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다."
+>title="콘텐츠 미리보기 및 테스트"
+>abstract="콘텐츠가 정의되면 테스트 프로필을 사용하여 콘텐츠를 미리 보고 테스트할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="메시지 콘텐츠 미리보기"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="테스트 게재 전송"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="랜딩 페이지 테스트"
 
 게재 콘텐츠가 정의되면 테스트 프로필을 사용하여 메시지를 보내기 전에 미리 보고 테스트할 수 있습니다.
 
@@ -29,6 +30,7 @@ ht-degree: 19%
 * [메시지 콘텐츠 및 개인화 미리 보기](preview-content.md)
 * [테스트 게재 보내기](test-deliveries.md) (증명) 테스트 및 유효성 검사를 위해 특정 수신자 또는 구독자에게
 * [이메일 렌더링 확인](email-rendering.md) 인기 있는 데스크탑, 모바일 및 웹 기반 클라이언트
+* [랜딩 페이지 미리보기 및 테스트](../landing-pages/create-lp.md#test-landing-page)
 
 이러한 작업은 다음을 사용하여 수행할 수 있습니다 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼은 게재의 콘텐츠 편집 화면 또는 [이메일 디자이너](../email/get-started-email-designer.md).
 

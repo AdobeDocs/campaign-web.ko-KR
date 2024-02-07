@@ -3,10 +3,10 @@ title: Adobe Campaign 웹 인터페이스에 연결
 description: Adobe Campaign 웹 사용자 인터페이스에 연결하는 방법 알아보기
 badge: label="제한 공개"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 88%
+source-wordcount: '573'
+ht-degree: 87%
 
 ---
 
@@ -16,7 +16,7 @@ Experience Cloud는 Adobe의 디지털 마케팅 애플리케이션, 제품 및 
 
 ## Adobe Experience Cloud에 로그인 {#sign-in-to-exc}
 
-보통은 Experience Cloud 관리자가 애플리케이션 및 서비스에 대한 액세스 권한을 부여합니다. Experience Cloud 초대 이메일에 나온 단계를 따르면 됩니다.
+SSO(Single Sign-On)만 사용하여 Campaign에 연결할 수 있습니다. 보통은 Experience Cloud 관리자가 애플리케이션 및 서비스에 대한 액세스 권한을 부여합니다. Experience Cloud 초대 이메일에 나온 단계를 따르면 됩니다.
 
 Adobe Experience Cloud에 로그인하기 위한 기본 단계는 다음과 같습니다.
 

@@ -5,10 +5,10 @@ description: Campaign 웹 사용자 인터페이스에서 지원되는 기능 �
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: c7ced55fff91a480b58e033cc9a3d03d8f9f4115
+source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 8%
+source-wordcount: '1469'
+ht-degree: 4%
 
 ---
 
@@ -48,11 +48,9 @@ Campaign 웹 사용자 인터페이스를 사용하면 이메일, SMS 및 푸시
 
 ## 랜딩 페이지 및 웹 애플리케이션 {#Webapps-capabilities}
 
-Adobe Campaign을 사용하면 랜딩 페이지를 만들고, 디자인하고, 공유할 수 있습니다.  Campaign 웹 사용자 인터페이스의 랜딩 페이지에 대해 자세히 알아보기 [이 섹션에서](../landing-pages/get-started-lp.md).
+Adobe Campaign을 사용하면 랜딩 페이지를 만들고, 디자인하고, 공유할 수 있습니다. 랜딩 페이지 경험이 새 인터페이스에서 완전히 다시 상상되었습니다. Campaign 웹 사용자 인터페이스에서 랜딩 페이지를 만들고, 디자인하고, 게시하는 방법을 살펴봅니다 [이 섹션에서](../landing-pages/get-started-lp.md).
 
-랜딩 페이지는 Campaign 웹 사용자 인터페이스에서 완전히 다시 디자인되었습니다. 따라서 Campaign 클라이언트 콘솔에서는 웹 인터페이스에서 만든 랜딩 페이지를 편집, 업데이트 또는 수정할 수 없으며, 반대로 편집할 수도 없습니다.
-
-또한 다음 유형의 웹 애플리케이션은 Campaign 웹 사용자 인터페이스에서 사용할 수 없습니다. 하지만 랜딩 페이지 목록에 표시됩니다. 제공된 링크를 사용하여 Campaign Classic v7 설명서를 탐색하고 이러한 웹 앱에 대해 자세히 알아보십시오.
+따라서 Campaign 클라이언트 콘솔에서는 웹 인터페이스에서 만든 랜딩 페이지를 편집, 업데이트 또는 수정할 수 없으며, 반대로 편집할 수도 없습니다. 다음 유형의 웹 애플리케이션은 Campaign 웹 사용자 인터페이스에서 사용할 수 없습니다. 하지만 랜딩 페이지 목록에 표시됩니다. 제공된 링크를 사용하여 Campaign Classic v7 설명서를 탐색하고 다음 웹 앱에 대해 자세히 알아보십시오.
 
 * 웹 애플리케이션. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html){target="_blank"}
 * 웹 양식입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ko){target="_blank"}
@@ -61,15 +59,19 @@ Adobe Campaign을 사용하면 랜딩 페이지를 만들고, 디자인하고, �
 
 ## 프로필, 테스트 프로필 및 대상자 {#profiles-audiences-capabilities}
 
-Campaign 클라이언트 콘솔과 Campaign 웹 사용자 인터페이스 모두에서 프로필과 테스트 프로필을 만들고, 관리하고, 업데이트할 수 있습니다. 한 UI에서 수행된 모든 변경 사항은 다른 UI에서 표시됩니다. 새 웹 사용자 인터페이스에서 &#39;수신자&#39;라는 용어가 &#39;프로필&#39;로 변경되었습니다. 그러나 새 Campaign 웹 사용자 인터페이스에서 일부 특정 수신자 설정 및 고급 매개 변수가 누락될 수 있습니다.
+Campaign 클라이언트 콘솔과 Campaign 웹 사용자 인터페이스 모두에서 프로필과 테스트 프로필을 만들고, 관리하고, 업데이트할 수 있습니다. 한 UI에서 수행된 모든 변경 사항은 다른 UI에서 표시됩니다. 그러나 새 Campaign 웹 사용자 인터페이스에서 일부 특정 수신자 설정 및 고급 매개 변수가 누락될 수 있습니다.  새 웹 사용자 인터페이스에서 &#39;수신자&#39;라는 용어가 &#39;프로필&#39;로 변경되었습니다.
 
-대상자 구성은 Campaign 웹 사용자 인터페이스와 함께 제공되는 새로운 기능입니다. 따라서 Campaign 클라이언트 콘솔에서는 를 편집, 업데이트 또는 수정할 수 없습니다. [쿼리 모델러로 만든 대상자](../query/query-modeler-overview.md). Campaign 클라이언트 콘솔 또는 Adobe Experience Platform에서 만든 모든 대상은 Campaign 웹 사용자 인터페이스에서 사용할 수 있습니다.
+대상자 구성은 Campaign 웹 사용자 인터페이스와 함께 제공되는 새로운 기능입니다. 따라서 Campaign 클라이언트 콘솔에서는 를 편집, 업데이트 또는 수정할 수 없습니다. [쿼리 모델러로 만든 대상자](../query/query-modeler-overview.md).
+
+Campaign 클라이언트 콘솔 또는 Adobe Experience Platform에서 만든 모든 대상은 Campaign 웹 사용자 인터페이스에서 사용할 수 있습니다.
 
 에 설명된 대로 일회성 가져오기/내보내기 작업 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/import-profiles.html#import-jobs){target="_blank"} 은 Campaign 웹 사용자 인터페이스에서 사용할 수 없습니다. <!--To import profiles into Campaign Web user interface, you must create a workflow as detailed in [this section]().-->
 
 ## 트랜잭션 메시지 {#mc-capabilities}
 
-이 버전의 새 Campaign 웹 사용자 인터페이스에서는 메시지 센터 제품 패키지와 함께 제공되는 트랜잭션 메시지 기능을 사용할 수 없습니다. 찾아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} 및 다음과 같은 실시간 메시징 기능에 대해 자세히 알아보십시오.
+이 버전의 새 Campaign 웹 사용자 인터페이스에서는 메시지 센터 제품 패키지와 함께 제공되는 트랜잭션 메시지 기능을 사용할 수 없습니다.
+
+찾아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} 및 다음과 같은 실시간 메시징 기능에 대해 자세히 알아보십시오.
 
 * 이메일, SMS 및 푸시에 대한 실시간 메시지 작성 및 실행
 * 메시지 보강 및 개인화
@@ -85,7 +87,7 @@ Adobe Campaign 웹 사용자 인터페이스와 함께 제공되는 새로운 �
 이 버전의 제품에서는 다음 기능을 사용할 수 없습니다. 제공된 링크를 사용하여 Campaign v8(클라이언트 콘솔) 설명서를 탐색하고 이러한 기능(에 `*` 는 Campaign 클라이언트 콘솔에서 지원되지 않습니다.
 
 * 이메일용 AMP.  [자세한 내용은 Campaign Classic v7 설명서 를 참조하세요](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
-* 퍼블릭 리소스의 콘텐츠
+* 공개 리소스의 콘텐츠 - 확인을 위한 SCOPË
 * 사용자 지정 개인화 블록 만들기. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
 * 사용자 정의 양식의 콘텐츠(콘텐츠 관리 모듈). [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
 * URL의 콘텐츠`*`
@@ -93,9 +95,11 @@ Adobe Campaign 웹 사용자 인터페이스와 함께 제공되는 새로운 �
 * 이메일 조각`*`
 * 다변형/다국어 사용 사례`*`
 
-## 유형화 규칙 {#rules-capabilities}
+## 유형화 및 유형화 규칙 {#rules-capabilities}
 
-유형화 규칙은 Campaign 웹 사용자 인터페이스에서 게재 또는 게재 템플릿을 위해 선택할 수 있지만, 규칙 및 유형화 규칙 만들기, 관리 및 사용자 지정은 Campaign 클라이언트 콘솔에서만 사용할 수 있습니다.
+유형화는 여러 필터링 규칙을 한 번에 쉽게 게재에 적용하기 위해 준비 단계 동안 실행되는 유형화 규칙 세트입니다. 이를 통해 마케터는 게재 전송을 제어, 필터링 및 우선 순위를 지정할 수 있으므로 모든 게재에서 비즈니스 사례를 표준화할 수 있습니다.
+
+유형화 규칙은 Campaign 웹 사용자 인터페이스에서 세부 정보에 따라 게재에 대해 선택하거나 게재 템플릿을 선택할 수 있습니다 [이 섹션에서](../advanced-settings/delivery-settings.md#typology). 하지만 규칙 및 유형화 규칙 생성, 관리 및 사용자 지정은 Campaign 클라이언트 콘솔에서만 사용할 수 있습니다.
 
 제공된 링크를 사용하여 Campaign v8(클라이언트 콘솔) 설명서를 탐색하고 유형화 규칙에 대해 자세히 알아보십시오.
 
@@ -115,6 +119,8 @@ Adobe Campaign 웹 사용자 인터페이스와 함께 제공되는 새로운 �
 * 워크플로의 스크립팅
 * ETL 활동: 내보내기, 스키마 편집, 데이터 로드, 데이터 추출, SQL 코드
 
+사용 가능한 워크플로우 활동에 대한 자세한 내용은 Adobe Campaign v8(콘솔) 워크플로우 설명서를 참조하십시오 [여기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html){target="_blank"}.
+
 ## 오퍼 관리 {#offer-capabilities}
 
 Adobe Campaign 웹을 사용하면 콘솔에서 만들어진 게재 오퍼와 함께 **[!UICONTROL 상호 작용]** 모듈. 오퍼 디자인, 자격 규칙 및 오퍼 관리는 Campaign 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](../msg/offers.md)
@@ -125,9 +131,7 @@ Adobe Campaign 웹을 사용하면 콘솔에서 만들어진 게재 오퍼와 �
 
 새로운 Campaign의 최신 UI는 마케팅 캠페인 디자인과 게재를 간소화하며, Adobe Experience Platform 및 Adobe Experience Manager을 비롯한 기타 Adobe 솔루션과 함께 일관성을 제공합니다.
 
-다음 통합은 Adobe Campaign 클라이언트 콘솔에서 사용할 수 있으며 현재 버전의 Campaign 웹 사용자 인터페이스에서는 아직 사용할 수 없습니다.
-
-제공된 링크를 사용하여 Campaign v8(클라이언트 콘솔) 설명서를 탐색하고 유형화 규칙에 대해 자세히 알아보십시오.
+다음 통합은 Adobe Campaign 클라이언트 콘솔에서 사용할 수 있으며 현재 버전의 Campaign 웹 사용자 인터페이스에서는 아직 사용할 수 없습니다. 제공된 링크를 사용하여 Campaign v8(클라이언트 콘솔) 설명서를 탐색하고 이러한 통합에 대해 자세히 알아보십시오.
 
 * Adobe Analytics 데이터 사용 및 KPI 공유. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html){target="_blank"}
 * Adobe Experience Cloud(Adobe Audience Manager)와 공유하는 대상. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html){target="_blank"}
@@ -151,17 +155,28 @@ Adobe Campaign 웹을 사용하면 콘솔에서 만들어진 게재 오퍼와 �
 
 Campaign 웹 사용자 인터페이스에 다음 기능이 표시되지 않습니다. 클라이언트 콘솔에서만 사용할 수 있습니다.
 
-* 외부 계정
-* 스키마 확장 기능
-* 데이터 관리 워크플로 활동: 데이터 로딩, 추출(파일), 데이터 업데이트, 스키마 편집, 기술 워크플로 가져오기/내보내기
-* 캠페인 구성 및 외부 시스템에 연결
+제공된 링크를 찾아 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ko){target="_blank"} 자세히 알아보기.
+
+* 외부 계정. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
+* 스키마 생성 및 확장. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
+* 데이터 관리 워크플로우 활동: 데이터 로드, 추출(파일), 데이터 업데이트, 스키마 편집, 기술 워크플로우 가져오기/내보내기. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#data-management){target="_blank"}
+* Campaign 구성 및 외부 시스템에 대한 연결. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
 
 ## 승인 {#approvals-capabilities}
 
-Campaign 웹 사용자 인터페이스에 다음 기능이 표시되지 않습니다. 클라이언트 콘솔에서만 사용할 수 있습니다.
+Campaign 웹 사용자 인터페이스에는 콘텐츠, 게재, 워크플로우, 캠페인 및 타겟에 대한 승인 관리가 표시되지 않습니다. 클라이언트 콘솔에서만 사용할 수 있습니다.
 
-* 콘텐츠 승인
-* 게재 승인
-* 캠페인 승인
-* 대상 승인
+워크플로우에서 승인을 관리하는 방법 알아보기  [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/define-approvals.html){target="_blank"}.
+
+
+캠페인에서 게재, 콘텐츠 및 타겟 승인을 관리하는 방법 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html){target="_blank"}.
+
+
+## 사용 권한  {#permissions-capabilities}
+
+Campaign 사용자는 Adobe Identity Management System(IMS)을 통해서만 Adobe ID으로 Campaign 웹 사용자 인터페이스에 액세스할 수 있습니다.
+
+권한은 Adobe Admin Console 및 Adobe Campaign 클라이언트 콘솔에 자세히 정의되어 있습니다 [이 섹션에서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html). Adobe Campaign 웹 사용자 인터페이스에서 사용 권한에 대한 작업을 수행할 수 없습니다.
+
+
 

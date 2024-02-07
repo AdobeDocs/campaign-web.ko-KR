@@ -4,7 +4,7 @@ title: 대상자 만들기
 description: Adobe Campaign 웹에서 대상자를 만드는 방법을 알아봅니다
 badge: label="제한 공개"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 1206da29f9987b55b957b6845e3dbf1e71ef03ed
+source-git-commit: 4b50a20f2ba60017b97d49df8b3d84c44c15ea8c
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 22%
@@ -17,7 +17,7 @@ ht-degree: 22%
 >id="acw_homepage_welcome_rn1"
 >title="대상자 구성"
 >abstract="시각적인 워크플로 캔버스에 새 대상자를 만듭니다. 처음부터 시작하여 간단한 대상자를 만드는 것 외에도 워크플로 활동을 활용하여 대상자를 세분화할 수도 있습니다. 여러 대상자를 하나로 결합하거나, 외부 속성으로 대상자를 강화하거나, 선택한 규칙에 따라 여러 대상자로 나눕니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ko" text="릴리스 정보 참조"
 
 <!--TO REMOVE BELOW-->
 
@@ -25,7 +25,7 @@ ht-degree: 22%
 >id="acw_homepage_rn1"
 >title="대상자 구성"
 >abstract="시각적인 워크플로 캔버스에 새 대상자를 만듭니다. 처음부터 시작하여 간단한 대상자를 만드는 것 외에도 워크플로 활동을 활용하여 대상자를 세분화할 수도 있습니다. 여러 대상자를 하나로 결합하거나, 외부 속성으로 대상자를 강화하거나, 선택한 규칙에 따라 여러 대상자로 나눕니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ko" text="릴리스 정보 참조"
 
 <!--TO REMOVE ABOVE-->
 

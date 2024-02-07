@@ -6,7 +6,7 @@ title: Adobe Campaign Web 설명서
 description: Campaign 웹 설명서
 breadcrumb-title: Campaign 웹 사용자 인터페이스
 hide: true
-source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+source-git-commit: 4b50a20f2ba60017b97d49df8b3d84c44c15ea8c
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 90%
@@ -26,7 +26,6 @@ ht-degree: 90%
    + [목록 찾아보기 및 필터링](get-started/list-filters.md)
    + [미리 정의된 필터 작업](get-started/predefined-filters.md)
    + [액세스 및 권한](get-started/permissions.md)
-   + [보호 기능 및 제한 사항](get-started/guardrails.md)
    + [지원되지 않는 기능](get-started/capability-matrix.md)
    + [AI 기반 상황별 도움말](get-started/using-ai.md)
 + 메시지 및 게재 {#msg}
@@ -119,6 +118,7 @@ ht-degree: 90%
    + [첫 캠페인 만들어 보기](campaigns/create-campaigns.md)
 + 워크플로 {#wf}
    + [워크플로 시작](workflows/gs-workflows.md)
+   + [보호 기능 및 제한 사항](get-started/guardrails.md)
    + [워크플로 액세스 및 관리](workflows/access-monitor.md)
    + 첫 워크플로우 만들고 실행하기 {#create-workflow}
       + [워크플로 생성의 핵심 원칙](workflows/gs-workflow-creation.md)

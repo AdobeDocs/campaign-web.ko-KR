@@ -4,7 +4,7 @@ title: 인터페이스 살펴보기
 description: Adobe Campaign 웹 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="제한 공개"
-source-git-commit: f4caa10d14dca0e24efca8f7b8e118ce7c32158a
+source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
 workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 92%
@@ -126,7 +126,6 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 Campaign Gen AI의 기능 덕분에 이 Assistant는 사용자의 경험을 변화시켜 정보 검색 및 문제 해결을 용이하게 합니다. 복잡한 작업에서 지침을 구하거나 광범위한 문서를 탐색할 때 AI 기반 Knowledge Assistant는 모든 상호 작용에서 비교할 수 없는 효율성과 정확성을 제공하는 최고의 보조 앱입니다.
 
 [이 섹션](using-ai.md)에서 자세히 알아보십시오.
-
 
 
 ## 자세히 알아보기 {#learn-more}

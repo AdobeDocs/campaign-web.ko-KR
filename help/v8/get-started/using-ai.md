@@ -1,12 +1,12 @@
 ---
 title: Campaign Web에서 AI 기반 상황별 도움말 사용
 description: Campaign 웹 도움말 팝오버에서 질문하기
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 93b2be1309e451d151a44867a3ae22b62e00c8e3
-workflow-type: ht
-source-wordcount: '463'
-ht-degree: 100%
+source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
+workflow-type: tm+mt
+source-wordcount: '476'
+ht-degree: 94%
 
 ---
 
@@ -14,18 +14,21 @@ ht-degree: 100%
 
 제품 상황별 도움말 상자에서 사용할 수 있는 Q&amp;A AI 기반 상황별 도움말을 사용하여 제품 설명서 및 현재 제품 컨텍스트를 기반으로 AI 생성 답변을 빠르게 얻을 수 있습니다.
 
->[!CAUTION]
->
->이 기능은 Alpha 버전에서 사용할 수 있으며 사전 통지 없이 변경될 수 있습니다.
->
->이 기능은 **영어**&#x200B;로만 사용할 수 있습니다. 이 버전에서는 다른 언어가 지원되지 않습니다. 따라서 이 기능을 사용하기 전에 [선호 언어](connect-to-campaign.md#language-pref)를 영어로 설정해야 합니다.
-
-
 상황별 도움말에 임베드된 **생성형 AI 기반 상황별 도움말**&#x200B;은 설명서 검색을 혁신하고 방대한 설명서 저장소를 손쉽게 선별하여 필요한 정확한 정보를 즉시 찾아내는 방법에 대한 질문의 답변을 제공합니다.
 
 Campaign 생성형 AI의 기능 덕분에 이 구성 요소는 사용자의 경험을 변화시켜 정보 검색 및 문제 해결을 용이하게 합니다. 복잡한 작업에서 지침을 구하거나 광범위한 문서를 탐색할 때 AI 기반 상황별 도움말은 모든 상호 작용에서 비교할 수 없는 효율성과 정확성을 제공하는 최고의 보조 앱입니다.
 
 <img src="assets/AI_CH.gif" width="80%"/>
+
+
+>[!AVAILABILITY]
+>
+>AI 기반의 상황별 도움말은 해당 베타 버전에서 사용할 수 있으며 사전 공지 없이 변경될 수 있습니다.
+>
+>이 기능은 **영어**&#x200B;로만 사용할 수 있습니다. 이 버전에서는 다른 언어가 지원되지 않습니다. 따라서 이 기능을 사용하기 전에 [선호 언어](connect-to-campaign.md#language-pref)를 영어로 설정해야 합니다.
+>
+>AI 기반의 상황별 도움말은 현재 Campaign 이메일 디자이너에서 사용할 수 없습니다.
+
 
 <!--
 ## Consent {#consent-ai}
@@ -46,6 +49,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 Adobe Campaign AI 기반 상황별 도움말에서 도움을 제공하지만 사실을 확인해야 합니다. 잘못된 정보, 부정확하거나 오해의 소지가 있는 답변이 출력될 수 있습니다. 모든 도움말 상자에 링크된 제품 설명서를 확인하십시오.
 
 인공 지능 및 머신 러닝 모델은 시간이 지남에 따라 개선되어 특정 사용 사례를 보다 잘 처리하게 됩니다. Campaign AI 기반 상황별 도움말은 향후 몇 개월에 걸쳐 계속해서 개선될 예정입니다. 답변을 읽을 때 부적절한 응답이 있는 경우 <img src="assets/do-not-localize/thumb.png" width="10%"/> 버튼을 사용해 바로 엔지니어에게 알려주세요.
+
 
 ## 권장 사항  {#recommendations-ai}
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign 웹 사용자 인터페이스/클라이언트 콘솔 기능 매트릭스
 description: Campaign 웹 사용자 인터페이스에서 지원되는 기능 목록
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 4da0df82cf95a23cce0d6bcee4e09d92833943db
+source-git-commit: a144814b4bea95d2272ccaa32de4ff49e14ac60c
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '2143'
 ht-degree: 3%
 
 ---
@@ -43,8 +43,8 @@ Campaign 웹 사용자 인터페이스를 사용하면 이메일, SMS 및 푸시
 
 * **다이렉트 메일**. 다이렉트 메일 채널을 통해 고객, 고객, 공급자 또는 통지, 송장, 명세서, 마케팅 오퍼 등과 같은 다른 사람에게 실제 서신을 보낼 수 있습니다. 이 채널은 클라이언트 콘솔에서만 사용할 수 있습니다.  [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html){target="_blank"}
 * **LINE 메시징**. LINE은 무료 인스턴트 메시징, 음성 및 화상 통화를 위한 응용 프로그램으로 모든 모바일 장치와 PC에서 사용할 수 있습니다. Adobe Campaign에서는 클라이언트 콘솔에서만 LINE 메시지를 보낼 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
-* 콜 센터 및 사용자 지정 채널. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
-* X를 사용하는 소셜 마케팅(Twitter). [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html){target="_blank"}
+* **콜 센터 및 맞춤형 채널**. Campaign 환경에서 콜 센터 및 기타 사용자 지정 채널을 구현할 수 있습니다. 이러한 채널은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세한 내용은 Campaign Classic v7 설명서 를 참조하세요](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
+* **소셜 마케팅** X를 사용하는 경우(Twitter). X (Twitter)를 통해 메시지를 게시하고 직접 메시지를 전송하여 고객과 상호 작용합니다. 소셜 마케팅 추가 기능과 함께 제공되는 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html){target="_blank"}
 
 ## 랜딩 페이지 및 웹 애플리케이션 {#Webapps-capabilities}
 
@@ -52,9 +52,9 @@ Adobe Campaign을 사용하면 랜딩 페이지를 만들고, 디자인하고, �
 
 따라서 Campaign 클라이언트 콘솔에서는 웹 인터페이스에서 만든 랜딩 페이지를 편집, 업데이트 또는 수정할 수 없으며, 반대로 편집할 수도 없습니다. 다음 유형의 웹 애플리케이션은 Campaign 웹 사용자 인터페이스에서 사용할 수 없습니다. 하지만 랜딩 페이지 목록에 표시됩니다. 제공된 링크를 사용하여 Campaign Classic v7 설명서를 탐색하고 다음 웹 앱에 대해 자세히 알아보십시오.
 
-* 웹 애플리케이션. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html){target="_blank"}
-* 웹 양식입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ko){target="_blank"}
-* 온라인 설문 조사. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/online-surveys/about-surveys.html){target="_blank"}
+* **웹 애플리케이션**. Adobe Campaign을 사용하면 데이터베이스의 미리 로드된 데이터와 연결된 사용자의 권한에 맞게 조정된 콘텐츠가 있는 동적 및 대화형 웹 애플리케이션을 만들고 게시할 수 있습니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세한 내용은 Campaign Classic v7 설명서 를 참조하세요](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html){target="_blank"}
+* **웹 양식**. 클라이언트 콘솔에서 디자인된 웹 및 랜딩 페이지는 Campaign 웹 사용자 인터페이스에 표시되지만 편집하거나 수정할 수 없습니다. Campaign 웹 사용자 인터페이스와 함께 제공되는 클라이언트 콘솔 웹 페이지 디자이너와 랜딩 페이지 디자이너 간에 일부 옵션이 다를 수 있습니다. [자세한 내용은 Campaign Classic v7 설명서 를 참조하세요](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ko){target="_blank"}
+* **온라인 설문 조사**. 온라인 설문 조사를 만들고 클라이언트 콘솔에서만 답변을 수집할 수 있습니다. 이 기능은 Campaign 웹 사용자 인터페이스에서 사용할 수 없습니다.  [자세한 내용은 Campaign Classic v7 설명서 를 참조하세요](https://experienceleague.adobe.com/docs/campaign-classic/using/online-surveys/about-surveys.html){target="_blank"}
 
 
 ## 프로필, 테스트 프로필 및 대상자 {#profiles-audiences-capabilities}
@@ -88,9 +88,9 @@ Adobe Campaign 웹 사용자 인터페이스와 함께 제공되는 새로운 �
 
 Campaign 웹 사용자 인터페이스에서는 현재 다음 기능을 사용할 수 없습니다. 제공된 링크를 사용하여 Campaign v8(클라이언트 콘솔) 설명서를 탐색하고 이러한 기능에 대해 자세히 알아보십시오.
 
-* 사용자 지정 개인화 블록 만들기. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
-* 사용자 정의 양식의 콘텐츠(콘텐츠 관리 모듈). [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
-* 이메일용 AMP. [자세한 내용은 Campaign Classic v7 설명서 를 참조하세요](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
+* **사용자 지정 개인화 블록 만들기**. 기본 개인화 블록 외에도 클라이언트 콘솔에서 사용자 지정 블록을 만들 수 있습니다. 이 기능은 Campaign 웹 사용자 인터페이스에서 사용할 수 없습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
+* **사용자 정의 양식의 콘텐츠**. 콘텐츠 관리 모듈을 사용하면 Campaign에서 콘텐츠를 만들 때 사용자를 지원하는 양식을 만들고 관리할 수 있습니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세한 내용은 Campaign Classic v7 설명서 를 참조하세요](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
+* **이메일용 AMP**. AMP for Email 새로운 포맷을 사용하면 메시지에 AMP 구성 요소를 포함하고 풍부하고 실행 가능한 콘텐츠로 이메일 경험을 개선할 수 있습니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세한 내용은 Campaign Classic v7 설명서 를 참조하세요](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
 <!--
 * Content from a URL`*`
 * Email fragments`*`
@@ -157,10 +157,10 @@ Campaign 웹 사용자 인터페이스에 다음 기능이 표시되지 않습�
 
 에서 제공된 링크 찾아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ko){target="_blank"} 자세히 알아보십시오.
 
-* 외부 계정. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
-* 스키마 생성 및 확장. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
-* 데이터 관리 워크플로우 활동: 데이터 로드, 추출(파일), 데이터 업데이트, 스키마 편집, 기술 워크플로우 가져오기/내보내기. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#data-management){target="_blank"}
-* Campaign 구성 및 외부 시스템에 대한 연결. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
+* **외부 계정**. Adobe Campaign에는 외부 시스템과 연결하기 위해 사전 정의된 외부 계정 집합이 포함되어 있습니다. Campaign 시스템 관리자는 클라이언트 콘솔에서만 외부 계정을 만들고 관리할 수 있습니다.[자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
+* **스키마 생성 및 확장**. 스키마 생성, 수정 및 확장은 고급 사용자로 제한됩니다. 이러한 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
+* **데이터 관리** 워크플로우 활동. 데이터 관리는 보다 효율적이고 유연한 도구를 제공하여 복잡한 타겟팅 문제를 해결하기 위한 일련의 활동을 결합합니다. 이러한 활동에는 데이터 로드, 추출(파일), 데이터 업데이트, 스키마 편집, 가져오기/내보내기 기술 워크플로우가 포함됩니다. 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#data-management){target="_blank"}
+* **페더레이션 데이터 액세스**. Campaign 구성 및 외부 시스템에 대한 연결은 고급 사용자로 제한되며 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
 
 ## 승인 {#approvals-capabilities}
 

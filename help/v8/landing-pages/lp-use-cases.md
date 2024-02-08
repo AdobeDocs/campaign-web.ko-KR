@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 랜딩, 랜딩 페이지, 사용 사례
-source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
+source-git-commit: 7c6a485496dcac65722375d0c55402abe1ebbf59
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1279'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,8 @@ ht-degree: 0%
 
 ## 구독 취소 {#lp-unsubscription}
 
+고객은 랜딩 페이지를 사용하여 서비스 구독을 취소할 수 있습니다.
+
 1. 서비스를 만들 때 사용자가 쉽게 선택할 수 있도록 서비스에서 구독 취소하는 사용자에 대한 확인 템플릿을 만들었는지 확인하십시오. [자세히 알아보기](../audience/manage-services.md#create-confirmation-message)
 
 1. 내 [구독 서비스](../audience/manage-services.md)을(를) 통해 사용자가 구독 취소 시 받게 되는 확인 이메일로 만든 템플릿을 선택합니다.
@@ -167,11 +169,11 @@ ht-degree: 0%
 
 1. 검토 및 [게시](create-lp.md#publish-landing-page) 랜딩 페이지입니다.
 
-1. 만들기 [이메일](../email/create-email.md) 및 [링크 추가](../email/message-tracking.md#insert-links) 를 클릭하여 등록 랜딩 페이지로 트래픽을 유도합니다.
+1. 만들기 [이메일](../email/create-email.md) 및 [링크 추가](../email/message-tracking.md#insert-links) 랜딩 페이지로 이동합니다.
 
-이메일을 수신하면 수신자가 랜딩 페이지 링크를 클릭하고 양식을 제출하면 구독 취소 확인 페이지로 이동되고 구독 목록에서 제거됩니다.
+이메일을 수신하면 수신자가 랜딩 페이지 링크를 클릭하고 양식을 제출하면 구독 취소 확인 페이지로 이동되고 해당 구독 서비스에서 제거됩니다.
 
-## 옵트아웃 랜딩 페이지 설정 {#lp-denylist}
+## 차단 목록에 추가 {#lp-denylist}
 
 수신자가 브랜드로부터 커뮤니케이션 수신을 거부할 수 있는 기능을 제공하는 것은 법적 요구 사항입니다. 따라서 항상 **구독 취소 링크** 을(를) 수신자에게 보내는 모든 이메일에 표시합니다. 이 링크를 클릭하면 수신자는 옵트아웃을 확인하는 버튼이 포함된 랜딩 페이지로 이동합니다.
 

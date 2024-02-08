@@ -6,7 +6,7 @@ title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign 웹 사용자 인터페이스
 hide: true
-source-git-commit: 06ec541924c906980ed0e318556177e26a9f00b0
+source-git-commit: 7c6a485496dcac65722375d0c55402abe1ebbf59
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 94%
@@ -93,7 +93,7 @@ ht-degree: 94%
    + [랜딩 페이지 만들고 게시](landing-pages/create-lp.md)
    + [랜딩 페이지 콘텐츠 디자인](landing-pages/lp-content.md)
    + [랜딩 페이지 템플릿 작업](landing-pages/lp-templates.md)
-   + [사용 사례와 함께 알아보기](landing-pages/lp-use-cases.md)
+   + [사용 사례를 통해 알아보기](landing-pages/lp-use-cases.md)
 + 프로필 및 대상자 {#audiences}
    + [프로필 및 대상자 시작](audience/gs-audiences-recipients.md)
    + [타겟팅 차원](audience/targeting-dimensions.md)

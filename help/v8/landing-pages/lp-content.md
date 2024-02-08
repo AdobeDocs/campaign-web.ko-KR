@@ -3,9 +3,9 @@ title: 랜딩 페이지별 콘텐츠 정의
 description: Campaign 웹에서 랜딩 페이지별 콘텐츠를 디자인하는 방법을 알아봅니다
 feature: Landing Pages
 badge: label="제한 공개"
-source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
+source-git-commit: e8b59db0608e1e307c4603b32d1dde3b176fc036
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '750'
 ht-degree: 13%
 
 ---
@@ -19,22 +19,11 @@ ht-degree: 13%
 
 랜딩 페이지의 콘텐츠를 편집할 때 이미 미리 채워져 있습니다.
 
-기본 페이지는 이메일이나 웹 사이트 등과 같이 사용자가 랜딩 페이지에 대한 링크를 클릭한 후 즉시 표시되는 페이지입니다. 기본 페이지는 이미 다음으로 채워져 있습니다. [랜딩 페이지별 양식 구성 요소](#use-form-component) 을 사용하여 사용자가 자신의 선택 항목을 선택하고 제출할 수 있습니다. 다음을 정의할 수도 있습니다. [랜딩 페이지별 스타일](#lp-form-styles).
+사용자가 랜딩 페이지 링크를 클릭한 후 사용자에게 즉시 표시되는 첫 번째 페이지는 이미 로 채워져 있습니다. [랜딩 페이지별 양식 구성 요소](#use-form-component) 사용자가 선택 항목을 선택하고 제출할 수 있도록 선택한 템플릿에 대해 를 설정합니다. 다음을 정의할 수도 있습니다. [랜딩 페이지별 스타일](#lp-form-styles).
 
 랜딩 페이지 콘텐츠를 추가로 디자인하기 위해 이메일과 동일한 구성 요소를 사용할 수 있습니다. [자세히 알아보기](../email/content-components.md#add-content-components)
 
-<!--
-The content of the **[!UICONTROL Confirmation]**, **[!UICONTROL Error]** and **[!UICONTROL Expiration]** pages is also pre-filled. Edit them as needed.
-
-Set the subscription form to the appropriate fields from the database to make sure it will work correctly.
-
-The landing page default fields are already there for the selected template.
-
->[!NOTE]
->
->You can also create a click-through landing page without a **[!UICONTROL Form]** component. In that case, the landing page will be displayed to users, but they will not be required to submit any form. This can be useful if you only want to showcase a landing page without requiring any action from your recipients such as opt-in or opt out, or want to provide information that doesn't require user input.
-
-Using the landing page content designer, you can also leverage contextual data coming from the primary page in a subpage. [Learn more](#use-primary-page-context)-->
+의 콘텐츠 **[!UICONTROL 확인]**, **[!UICONTROL 오류]** 및 **[!UICONTROL 만료]** 페이지도 미리 채워집니다. 필요에 따라 편집합니다.
 
 ## 양식 구성 요소 사용 {#use-form-component}
 
@@ -80,7 +69,7 @@ Using the landing page content designer, you can also leverage contextual data c
 
    이 확인란이 사용자를 옵트인 또는 옵트아웃할지 여부를 정의합니다. 아래 두 옵션 중에서 선택합니다.
 
-   * **[!UICONTROL 선택한 경우 구독]**: 사용자가 동의(옵트인)하려면 확인란을 선택해야 합니다.
+   * **[!UICONTROL 선택한 경우 가입]**: 사용자가 동의(옵트인)하려면 확인란을 선택해야 합니다.
    * **[!UICONTROL 선택한 경우 구독 취소]**: 동의를 제거(옵트아웃)하려면 사용자가 확인란을 선택해야 합니다.
 
 1. 필요한 만큼 텍스트 필드 및/또는 확인란을 삭제하고 추가할 수 있습니다.

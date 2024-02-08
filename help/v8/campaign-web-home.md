@@ -1,13 +1,13 @@
 ---
 keywords: Campaign Web;홈;인기 있는 주제
-description: Campaign 웹 도움말 센터
-title: Adobe Campaign 웹 제품 설명서
+description: Campaign Web 도움말 센터
+title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="제한 공개"
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -86,11 +86,11 @@ ht-degree: 88%
 Adobe Campaign Web 사용자 인터페이스의 새로운 버전을 소개합니다. 최신 릴리스에는 맞춤형 크로스 채널 캠페인 생성을 간소화하고, 탁월한 결과를 도출하며, 모든 채널에서 경쟁 우위를 확보하도록 설계된 직관적인 기능이 포함되어 있습니다. 이 새로운 최신 UI에서는 Adobe Experience Platform을 비롯한 다른 Adobe 솔루션과 함께 마케팅 캠페인 디자인 및 게재를 간소화하고 일관성을 제공합니다.
 
 >[!AVAILABILITY]
-> Adobe Campaign 웹은 현재 LA(Limited Availability) 버전입니다. 소수의 LA 고객만 액세스할 수 있습니다. 제품 인터페이스, 기능 및 사용 흐름은 예고 없이 변경될 수 있습니다.
+> Adobe Campaign Web은 현재 LA(제한 공개) 버전입니다. 소수의 LA 고객만 액세스할 수 있습니다. 제품 인터페이스, 기능 및 사용 흐름은 예고 없이 변경될 수 있습니다.
 
 ## 새로운 기능
 
-Adobe Campaign 웹 제품 및 설명서의 최신 개선 사항을 살펴보십시오. 주요 기능 및 릴리스 업데이트 기능에 대한 종합적 목록은 [이 페이지](rn/whats-new.md)를 확인하십시오.
+Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확인할 수 있습니다! 주요 기능 및 릴리스 업데이트 기능에 대한 종합적 목록은 [이 페이지](rn/whats-new.md)를 확인하십시오.
 
 >[!BEGINTABS]
 
@@ -126,7 +126,7 @@ Campaign 이메일 디자이너를 사용하여 직관적인 드래그 앤 드�
   <tr style="border: 0;">
     <td>
     <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
-    <div><strong>새 사용자 인터페이스 살펴보기</strong><br/>Adobe Campaign Web의 새로운 인터페이스 및 Adobe Experience Platform과 통합된 탐색 환경을 살펴보십시오.</div>
+    <div><strong>새 사용자 인터페이스 살펴보기</strong><br/>Adobe Experience Platform과 통합된 Adobe Campaign Web의 새로운 인터페이스 및 탐색 환경을 살펴봅니다.</div>
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
@@ -134,7 +134,7 @@ Campaign 이메일 디자이너를 사용하여 직관적인 드래그 앤 드�
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
-    <div><strong>이메일 디자이너를 만나보십시오.</strong><br/>템플릿에서 시작하거나 Adobe Campaign의 새 이메일 디자이너를 사용하여 코드 한 줄을 작성하지 않고도 이메일을 만드는 방법을 알아봅니다.
+    <div><strong>이메일 디자이너 만나 보기</strong><br/>템플릿에서 시작하거나 Adobe Campaign의 새로운 이메일 디자이너를 사용하면 코드는 한 줄도 쓸 필요 없이 이메일을 만들 수 있습니다. 
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>

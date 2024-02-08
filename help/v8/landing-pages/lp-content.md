@@ -3,10 +3,10 @@ title: 랜딩 페이지별 콘텐츠 정의
 description: Campaign 웹에서 랜딩 페이지별 콘텐츠를 디자인하는 방법을 알아봅니다
 feature: Landing Pages
 badge: label="제한 공개"
-source-git-commit: e8b59db0608e1e307c4603b32d1dde3b176fc036
+source-git-commit: 5e5c731fa76684407080d9a1aa6f8a81de7ebc92
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 13%
+source-wordcount: '861'
+ht-degree: 11%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 13%
 
 랜딩 페이지의 콘텐츠를 편집할 때 이미 미리 채워져 있습니다.
 
-사용자가 랜딩 페이지 링크를 클릭한 후 사용자에게 즉시 표시되는 첫 번째 페이지는 이미 로 채워져 있습니다. [랜딩 페이지별 양식 구성 요소](#use-form-component) 사용자가 선택 항목을 선택하고 제출할 수 있도록 선택한 템플릿에 대해 를 설정합니다. 다음을 정의할 수도 있습니다. [랜딩 페이지별 스타일](#lp-form-styles).
+사용자가 랜딩 페이지 링크를 클릭한 후 사용자에게 즉시 표시되는 첫 번째 페이지는 이미 로 채워져 있습니다. [랜딩 페이지별 양식 구성 요소](#use-form-component) 선택한 템플릿<!-- to enable users to select and submit their choices-->. 다음을 정의할 수도 있습니다. [랜딩 페이지의 스타일](#lp-form-styles).
 
 랜딩 페이지 콘텐츠를 추가로 디자인하기 위해 이메일과 동일한 구성 요소를 사용할 수 있습니다. [자세히 알아보기](../email/content-components.md#add-content-components)
 
@@ -53,7 +53,7 @@ ht-degree: 13%
    >
    >다음으로 전환 **[!UICONTROL 스타일]** 언제든지 탭을 클릭하여 양식 구성 요소 콘텐츠의 스타일을 편집할 수 있습니다. [자세히 알아보기](#lp-form-styles)
 
-1. 첫 번째 텍스트 필드를 확장합니다. 다음에서 **[!UICONTROL 텍스트 필드 1]** 섹션에서 필드 유형, 데이터베이스의 필드, 레이블 및 사용자가 필드를 채우기 전에 필드 내부에 표시되는 텍스트를 편집할 수 있습니다.
+1. 필요한 경우 첫 번째 텍스트 필드를 확장하거나 **[!UICONTROL 추가]** 단추를 클릭합니다. 다음에서 **[!UICONTROL 텍스트 필드 1]** 섹션에서 필드 유형, 업데이트할 데이터베이스 필드, 레이블 및 사용자가 값을 입력하기 전에 필드 내에 표시될 텍스트를 편집할 수 있습니다.
 
    ![](assets/lp-form-text-field.png)
 
@@ -63,18 +63,24 @@ ht-degree: 13%
    >
    >필수 필드를 입력하지 않으면 사용자가 페이지를 제출할 때 오류 메시지가 표시됩니다.
 
-1. 확인란을 추가합니다. 해당 확인란이 데이터베이스의 서비스 또는 필드를 업데이트해야 하는지 선택합니다.
+1. 확인란이 있는 경우 확장하거나 **[!UICONTROL 추가]** 단추를 클릭합니다. 해당 확인란이 데이터베이스의 서비스 또는 필드를 업데이트해야 하는지 선택합니다.
 
    ![](assets/lp-form-checkbox.png)
 
-   이 확인란이 사용자를 옵트인 또는 옵트아웃할지 여부를 정의합니다. 아래 두 옵션 중에서 선택합니다.
+   다음을 선택하는 경우 **[!UICONTROL 구독 및 서비스]**&#x200B;목록에서 서비스를 선택하고 아래 두 옵션 중 하나를 선택합니다.
 
    * **[!UICONTROL 선택한 경우 가입]**: 사용자가 동의(옵트인)하려면 확인란을 선택해야 합니다.
    * **[!UICONTROL 선택한 경우 구독 취소]**: 동의를 제거(옵트아웃)하려면 사용자가 확인란을 선택해야 합니다.
 
-1. 필요한 만큼 텍스트 필드 및/또는 확인란을 삭제하고 추가할 수 있습니다.
+   다음을 선택하는 경우 **[!UICONTROL 필드]**&#x200B;를 클릭하고 속성 목록에서 필드를 선택한 다음, 아래 두 옵션 중에서 선택합니다.
 
-1. 원하는 확인란 및/또는 텍스트 필드를 모두 추가한 후 **[!UICONTROL 클릭 유도 문안]** 를 클릭하여 해당 섹션을 확장합니다. 에서 버튼의 동작을 정의할 수 있습니다 **[!UICONTROL 양식]** 구성 요소.
+   * **[!UICONTROL 선택한 경우 예]**<!--TBC-->
+
+   * **[!UICONTROL 선택된 경우 아니요]**<!--TBC-->
+
+1. 텍스트 필드, 라디오 버튼, 확인란, 드롭다운 목록 등 필드를 삭제하거나 추가할 수 있습니다. 필요한 경우.
+
+1. 모든 필드가 추가되거나 업데이트되면 **[!UICONTROL 클릭 유도 문안]** 를 클릭하여 해당 섹션을 확장합니다. 에서 버튼의 동작을 정의할 수 있습니다 **[!UICONTROL 양식]** 구성 요소.
 
    ![](assets/lp-call-to-action.png)
 
@@ -84,38 +90,34 @@ ht-degree: 13%
 
    * **[!UICONTROL 리디렉션 URL]**: 사용자를 리디렉션할 페이지의 URL을 입력합니다.
 
-1. 양식을 제출할 때 추가로 업데이트하려면 을(를) 선택합니다 **[!UICONTROL 추가 업데이트]**, 선택 **[!UICONTROL 옵트인]** 또는 **[!UICONTROL 옵트아웃]**&#x200B;을 클릭하고 구독 목록을 업데이트하려는 경우 사용되는 채널 또는 이메일 주소만 정의합니다.
+1. 양식을 제출할 때 추가로 업데이트하려면 을(를) 선택합니다 **[!UICONTROL 추가 업데이트]**&#x200B;을 클릭하고 업데이트할 항목을 선택합니다.
+   * 구독 서비스 - 이 경우 양식 제출 시 사용자를 옵트인 또는 옵트아웃할지 여부를 정의합니다.
+   * 양식 작성 시 사용되는 이메일 주소.
+   * 모든 채널 - 양식 제출 시 사용자가 모든 채널에서 브랜드의 모든 통신으로/으로부터 옵트인 또는 옵트아웃(선택한 템플릿에 따라 다름)됩니다
+   * 데이터베이스의 필드 - 속성 목록에서 필드를 선택하고 양식 제출 시 True 또는 False로 설정해야 하는지 여부를 정의합니다.
 
    ![](assets/lp-form-additionnal-updates.png)
 
-1. 콘텐츠를 저장하여 다음으로 돌아가기 [랜딩 페이지 속성](create-lp.md).
+1. 콘텐츠를 저장하여 다음으로 돌아가기 [랜딩 페이지 속성](create-lp.md#create-landing-page).
 
 ## 랜딩 페이지 양식 스타일 정의 {#lp-form-styles}
 
 1. 양식 구성 요소 콘텐츠의 스타일을 수정하려면 언제든지 **[!UICONTROL 스타일]** 탭.
 
-   ![](assets/lp_designer-form-style.png)
+1. 다음 **[!UICONTROL 텍스트 필드]** 섹션은 기본적으로 확장되어 있습니다. 레이블 글꼴, 레이블의 위치, 필드 배경색 또는 필드 테두리와 같은 텍스트 필드의 모양을 편집할 수 있습니다.
 
-1. 다음 **[!UICONTROL 필드]** 섹션은 기본적으로 확장되며 레이블 및 자리 표시자 글꼴, 레이블의 위치, 필드 배경색 또는 필드 테두리와 같은 텍스트 필드의 모양을 편집할 수 있습니다.
+   ![](assets/lp-text-styles.png)
 
-   ![](assets/lp_designer-form-style-fields.png)
+1. 확장 **[!UICONTROL 확인란]** 확인란 및 해당 텍스트의 모양을 정의하는 섹션입니다. 예를 들어 글꼴 패밀리와 크기 또는 확인란 테두리 색상을 조정할 수 있습니다.
 
-1. 확장 **[!UICONTROL 확인란]** 확인란 및 해당 텍스트의 모양을 정의하는 섹션입니다. 예를 들어 글꼴 모음이나 크기 또는 확인란 테두리 색상을 조정할 수 있습니다.
+   ![](assets/lp-checkbox-style.png)
 
-   ![](assets/lp_designer-form-style-checkboxes.png)
+1. 추가한 다른 필드(라디오 버튼, 드롭다운 목록, 날짜 및 시간 등)에 해당하는 다른 섹션을 확장하거나 편집합니다. 양식입니다.
 
-1. 확장 **[!UICONTROL 단추]** 구성 요소 양식에서 단추의 모양을 수정하는 섹션입니다. 예를 들어 글꼴을 변경하거나, 테두리를 추가하거나, 마우스로 가리키면 레이블 색상을 편집하거나, 단추의 정렬을 조정할 수 있습니다.
+1. 확장 **[!UICONTROL 클릭 유도 문안]** 구성 요소 양식에서 단추의 모양을 수정하는 섹션입니다. 예를 들어 글꼴을 변경하거나, 테두리를 추가하거나, 마우스로 가리키면 레이블 색상을 편집하거나, 단추의 정렬을 조정할 수 있습니다.
 
-   ![](assets/lp_designer-form-style-buttons.png)
+   ![](assets/lp-call-to-action-style.png)
 
-   마우스로 가리키면 표시되는 단추 레이블 색상과 같은 일부 설정을 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다. 랜딩 페이지 테스트에 대한 자세한 정보 [여기](create-lp.md#test-landing-page).
+   마우스로 가리키면 표시되는 단추 레이블 색상과 같은 일부 설정을 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다. [자세히 알아보기](create-lp.md#test-landing-page)
 
-1. 확장 **[!UICONTROL 양식 레이아웃]** 섹션 : 배경색, 패딩 또는 여백 등 레이아웃 설정을 편집합니다.
-
-   ![](assets/lp_designer-form-style-layout.png)
-
-<!--
-1. Expand the **[!UICONTROL Form error]** section to adjust the display of the error message that displays in case a problem occurs. Check the corresponding option to preview the error text on the form.
-
-    ![](assets/lp_designer-form-error-preview.png)-->
-
+1. 변경 내용을 저장합니다.

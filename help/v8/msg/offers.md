@@ -4,17 +4,18 @@ title: 메시지에 오퍼 추가
 description: 오퍼 추가 및 전송 방법 알아보기
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="제한 공개"
-source-git-commit: 4da0df82cf95a23cce0d6bcee4e09d92833943db
+source-git-commit: 0eae2b7f6890061a33ae2d75c0ebbe3f9f217759
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 36%
+source-wordcount: '762'
+ht-degree: 35%
 
 ---
 
 
 # 메시지에 오퍼 추가 {#offers-content}
 
-Adobe Campaign 웹 사용자 인터페이스에서 게재에 오퍼를 추가할 수 있습니다. 이러한 오퍼는 Campaign 클라이언트 콘솔에서 다음을 사용하여 생성되어야 합니다. **[!UICONTROL 상호 작용]** 모듈. 상호 작용 및 콘솔에서 오퍼 카탈로그를 관리하는 방법에 대한 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+Adobe Campaign 웹 사용자 인터페이스에서 게재에 오퍼를 추가할 수 있습니다. 다음 오퍼는 **오퍼** 오퍼 목록에 액세스할 수 있는 왼쪽 메뉴 이러한 모든 오퍼는 읽기 전용이며 Campaign 클라이언트 콘솔에서 다음을 사용하여 작성해야 합니다. **[!UICONTROL 상호 작용]** 모듈. 상호 작용 및 콘솔에서 오퍼 카탈로그를 관리하는 방법에 대한 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+
 
 게재와 함께 오퍼를 보내는 단계는 다음과 같습니다.
 

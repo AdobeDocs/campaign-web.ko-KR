@@ -4,7 +4,7 @@ title: 랜딩 페이지 시작
 description: Campaign 웹의 랜딩 페이지에 대해 알아보기
 feature: Landing Pages
 badge: label="제한 공개"
-source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
+source-git-commit: b0ceaeaa3660f5723582365f78fc7870b81a4726
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 12%

@@ -4,9 +4,9 @@ title: 이메일 렌더링 테스트
 description: Campaign 웹 사용자 인터페이스에서 전자 메일 렌더링을 테스트하는 방법을 알아봅니다
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="제한 공개"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '231'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 3%
 이메일 렌더링 기능에 액세스하려면 다음을 수행해야 합니다.
 
 * Litmus 계정이 있음
-* 테스트 프로필 선택 - 방법 알아보기 [이 섹션](preview-content.md)
+* 프로필 및/또는 테스트 프로필 선택 - 방법 알아보기 [이 섹션](preview-content.md)
 
 그런 다음 아래 단계를 수행합니다.
 

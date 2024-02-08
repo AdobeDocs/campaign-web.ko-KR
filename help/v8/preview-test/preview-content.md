@@ -4,10 +4,10 @@ title: 게재 콘텐츠 미리 보기
 description: Campaign 웹 사용자 인터페이스를 사용하여 게재 콘텐츠를 미리 보는 방법 알아보기
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="제한 공개"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 2%
+source-wordcount: '352'
+ht-degree: 1%
 
 ---
 
@@ -32,22 +32,17 @@ ht-degree: 2%
 
 1. 프로필과 테스트 프로필을 결합하여 이메일 또는 SMS 메시지를 미리 볼 수 있습니다.
 
-   * 다음 **[!UICONTROL 테스트 프로필]** 탭에는 데이터베이스의 추가 수신자와 가상 수신자인 모든 시드 주소가 나열됩니다.
-     ![](assets/simulate-select-profiles.png)
+   * 다음 **[!UICONTROL 테스트 프로필]** 탭에는 데이터베이스의 추가 수신자와 가상 수신자인 모든 테스트 프로필이 나열됩니다. [테스트 프로필 작업 방법 알아보기](../audience/test-profiles.md)
 
-     테스트 프로필은 **[!UICONTROL 고객 관리]** > **[!UICONTROL 프로필]** 메뉴 아래의 제품에서 사용할 수 있습니다. [자세히 알아보기](../audience/test-profiles.md#create-test-profiles)
+   * 다음 **[!UICONTROL 프로필]** 탭에는 데이터베이스에 저장된 모든 프로필이 나열됩니다. [프로필 작업 방법 알아보기](../audience/about-recipients.md)
 
-
-   * 다음 **[!UICONTROL 프로필]** 탭은에 저장된 모든 수신자를 나열합니다. **[!UICONTROL 프로필 및 타겟]** 폴더의 [!DNL Campaign] 클라이언트 콘솔입니다. 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
-
-     에서 프로필을 보고 만들고 관리할 수 있습니다. **[!UICONTROL 프로필]** 탭. [자세히 알아보기](../audience/about-recipients.md)
-
+   ![](assets/simulate-select-profiles.png)
 
 1. 테스트 프로필 또는 프로필 목록을 검색할 때 필터를 사용하여 검색을 구체화할 수 있습니다.
 
    ![](assets/simulate-test-profile-filter.png)
 
-   예를 들어 다음과 같은 테스트 프로필을 모두 찾는 규칙을 정의할 수 있습니다. **[!UICONTROL 잠재 고객]** 상태. 를 사용하여 규칙을 추가하는 방법을 알아봅니다. [쿼리 모델러](../query/query-modeler-overview.md).
+   예를 들어 다음과 같은 테스트 프로필을 모두 찾는 규칙을 정의할 수 있습니다. **[!UICONTROL 잠재 고객]** 상태. [쿼리 모델러를 사용하여 규칙을 추가하는 방법을 알아봅니다](../query/query-modeler-overview.md).
 
 1. 클릭 **[!UICONTROL 선택]** 을 클릭하여 선택 항목을 확인합니다.
 

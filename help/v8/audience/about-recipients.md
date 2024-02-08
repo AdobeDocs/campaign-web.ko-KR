@@ -2,10 +2,10 @@
 title: 프로필 시작
 description: Campaign 웹에서 프로필을 모니터링하고 관리하는 방법을 알아봅니다.
 badge: label="제한 공개"
-source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 33%
+source-wordcount: '527'
+ht-degree: 26%
 
 ---
 
@@ -15,14 +15,14 @@ ht-degree: 33%
 >id="acw_homepage_welcome_rn4"
 >title="프로필 자세히 살펴보기"
 >abstract="새로운 프로필을 만들고, 강력한 보고서와 도구를 통해 모니터링합니다. 프로필 속성, 상호 작용 및 로그에 액세스합니다. 필터링 옵션을 사용하여 프로필 목록을 찾아보고 프로필을 편집 및 업데이트합니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ko" text="릴리스 정보 참조"
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
 >title="프로필 자세히 살펴보기"
 >abstract="새로운 프로필을 만들고, 강력한 보고서와 도구를 통해 모니터링합니다. 프로필 속성, 상호 작용 및 로그에 액세스합니다. 필터링 옵션을 사용하여 프로필 목록을 찾아보고 프로필을 편집 및 업데이트합니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ko" text="릴리스 정보 참조"
 
 <!--TO REMOVE ABOVE-->
 
@@ -33,17 +33,15 @@ ht-degree: 33%
 
 ## 프로필이란? {#what}
 
-Adobe Campaign 웹의 프로필은 데이터베이스에 저장된 개인으로서 의 주요 구성 요소 역할을 합니다 [대상자 만들기](create-audience.md) 게재 및 [개인화 추가](../personalization/personalize.md) 데이터를 콘텐츠에 추가합니다.
+A **프로필**&#x200B;클라이언트 콘솔에서 &quot;수신자&quot;라고도 하는 는 Campaign 데이터베이스에 저장된 개인을 나타내며 의 주요 구성 요소 역할을 합니다. [대상자 만들기](create-audience.md) 게재 및 [개인화 추가](../personalization/personalize.md) 데이터를 콘텐츠에 추가합니다. Adobe Campaign을 사용하면 Campaign 웹 사용자 인터페이스를 통해 새 항목 만들기에서 모든 프로필의 속성 및 서비스 구독에 대한 포괄적인 보기에 액세스하는 등 프로필을 원활하게 관리할 수 있습니다.
 
-Adobe Campaign을 사용하면 인터페이스에서 직접 프로필을 만들고 모니터링할 수 있습니다. 여기에서 프로필을 만들고, 프로필의 세부 보기에 액세스하고, 프로필을 편집할 수 있습니다.
+또한 **[!UICONTROL 테스트 프로필]**&#x200B;클라이언트 콘솔에서 &quot;시드 프로필&quot;로 식별된 를 사용하면 주어진 게재의 타겟팅 기준과 일치하지 않는 추가 수신자를 타겟팅할 수 있습니다. 이러한 프로필에는 가상 연락처 정보 또는 발신자가 제어하는 연락처 정보가 포함되어 있습니다. 수신자 데이터베이스의 부정 사용을 감지하거나 이메일이 받은 편지함에 도착하는지 확인하기 위해 메시지 대상자에 추가할 수 있습니다. [테스트 프로필 작업 방법 알아보기](test-profiles.md)
 
-다음과 같은 다른 유형의 프로필이 데이터베이스에 저장됩니다. **[!UICONTROL 테스트 프로필]**: 최종 대상자에게 전송되기 전에 게재를 테스트하도록 설계되었습니다. [테스트 프로필 작업 방법 알아보기](test-profiles.md)
+프로필과 테스트 프로필 모두 의도한 대상자에게 도달하기 전에 게재를 테스트하는 데 사용할 수 있습니다. 이를 통해 메시지 콘텐츠 및 개인화를 미리 보고, 테스트 및 유효성 검사를 위한 증명을 보내고, 다양한 플랫폼 및 디바이스에서 이메일 렌더링을 평가하고, 랜딩 페이지를 테스트할 수 있습니다. [게재 미리 보기 및 테스트 방법 알아보기](../preview-test/preview-test.md)
 
 ## 프로필 목록 액세스 {#access}
 
-프로필은 Adobe Campaign 웹에서 액세스하고 편집할 수 있습니다. **[!UICONTROL 고객 관리]** > **프로필** 왼쪽 탐색 레일의 항목.
-
-다음을 통해 액세스할 수도 있습니다. **[!UICONTROL 탐색기]** 보기, 에서 **[!UICONTROL 프로필 및 타겟]** > **[!UICONTROL 수신자]** 노드. 여기에서 폴더 또는 하위 폴더를 탐색, 생성 및 관리하고 관련 권한을 확인할 수 있습니다. [폴더 만들기 방법 알아보기](../get-started/permissions.md#folders)
+프로필은 Adobe Campaign 웹에서 액세스하고 편집할 수 있습니다. **[!UICONTROL 고객 관리]** > **프로필** 왼쪽 탐색 레일의 항목. 다음에서 액세스할 수도 있습니다. **[!UICONTROL 탐색기]** 보기, 에서 **[!UICONTROL 프로필 및 타겟]** > **[!UICONTROL 수신자]** 노드. 여기에서 폴더 또는 하위 폴더를 탐색, 생성 및 관리하고 관련 권한을 확인할 수 있습니다. [폴더 만들기 방법 알아보기](../get-started/permissions.md#folders)
 
 >[!NOTE]
 >

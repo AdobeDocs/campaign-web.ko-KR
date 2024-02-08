@@ -6,10 +6,10 @@ title: Adobe Campaign Web 설명서
 description: Campaign 웹 설명서
 breadcrumb-title: Campaign 웹 사용자 인터페이스
 hide: true
-source-git-commit: 4b50a20f2ba60017b97d49df8b3d84c44c15ea8c
+source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 90%
+source-wordcount: '570'
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 90%
    + [목록 찾아보기 및 필터링](get-started/list-filters.md)
    + [미리 정의된 필터 작업](get-started/predefined-filters.md)
    + [액세스 및 권한](get-started/permissions.md)
-   + [지원되지 않는 기능](get-started/capability-matrix.md)
+   + [Campaign 웹 및 Campaign 클라이언트 콘솔](get-started/capability-matrix.md)
    + [AI 기반 상황별 도움말](get-started/using-ai.md)
 + 메시지 및 게재 {#msg}
    + [메시지 시작](msg/gs-messages.md)

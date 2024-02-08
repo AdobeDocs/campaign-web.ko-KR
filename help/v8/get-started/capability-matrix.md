@@ -2,17 +2,15 @@
 audience: end-user
 title: Campaign 웹 사용자 인터페이스/클라이언트 콘솔 기능 매트릭스
 description: Campaign 웹 사용자 인터페이스에서 지원되는 기능 목록
-hide: true
-hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 3c011a8f0958b7d0875fc18ec59309ef4b1f4103
+source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1500'
 ht-degree: 3%
 
 ---
 
-# Campaign 웹 사용자 인터페이스/클라이언트 콘솔 기능 매트릭스 {#capabilities-matrix}
+# Campaign 웹 및 Campaign 클라이언트 콘솔 {#capabilities-matrix}
 
 Campaign 웹 사용자 인터페이스에서 Campaign의 주요 기능을 사용할 수 있습니다. 이 인터페이스는 마케터가 마케팅 캠페인을 계획, 실행 및 측정할 수 있도록 기본 설계되었습니다. 모든 기능이 나열됩니다. [이 페이지에서](../rn/whats-new.md).
 
@@ -61,7 +59,9 @@ Adobe Campaign을 사용하면 랜딩 페이지를 만들고, 디자인하고, �
 
 ## 프로필, 테스트 프로필 및 대상자 {#profiles-audiences-capabilities}
 
-Campaign 클라이언트 콘솔과 Campaign 웹 사용자 인터페이스 모두에서 프로필과 테스트 프로필을 만들고, 관리하고, 업데이트할 수 있습니다. 한 UI에서 수행된 모든 변경 사항은 다른 UI에서 표시됩니다. 그러나 새 Campaign 웹 사용자 인터페이스에서 일부 특정 수신자 설정 및 고급 매개 변수가 누락될 수 있습니다. 새 웹 사용자 인터페이스에서 &#39;수신자&#39;라는 용어가 &#39;프로필&#39;로 변경되었습니다.
+Campaign 클라이언트 콘솔과 Campaign 웹 사용자 인터페이스 모두에서 프로필과 테스트 프로필을 만들고, 관리하고, 업데이트할 수 있습니다. 한 UI에서 수행된 모든 변경 사항은 다른 UI에서 표시됩니다. 그러나 새 Campaign 웹 사용자 인터페이스에서 일부 특정 수신자 설정 및 고급 매개 변수가 누락될 수 있습니다.
+
+새 웹 사용자 인터페이스에서 &#39;수신자&#39;라는 용어가 &#39;프로필&#39;로 변경되었으며 &#39;시드 주소&#39;가 이제 &#39;테스트 프로필&#39;입니다.
 
 <!--Audience composition is a new capability coming with Campaign Web user interface. As a consequence, in Campaign client console, you cannot edit, update or modify an [audience created with the Query modeler](../query/query-modeler-overview.md). -->
 
@@ -155,7 +155,7 @@ Adobe Campaign 웹을 사용하면 콘솔에서 만들어진 게재 오퍼와 �
 
 Campaign 웹 사용자 인터페이스에 다음 기능이 표시되지 않습니다. 클라이언트 콘솔에서만 사용할 수 있습니다.
 
-에서 제공된 링크 찾아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ko){target="_blank"} 자세히 알아보기.
+에서 제공된 링크 찾아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ko){target="_blank"} 자세히 알아보십시오.
 
 * 외부 계정. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
 * 스키마 생성 및 확장. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}

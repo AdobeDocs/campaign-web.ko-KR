@@ -4,10 +4,10 @@ title: Campaign 웹 사용자 인터페이스의 새로운 기능
 description: Campaign 웹 사용자 인터페이스와 함께 제공되는 새로운 기능 살펴보기
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="제한 공개"
-source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 79%
+source-wordcount: '1290'
+ht-degree: 75%
 
 ---
 
@@ -158,20 +158,20 @@ Campaign 웹 사용자 인터페이스를 사용하면 사용자 인터페이스
 
 기존 캠페인 사용자는 최신 용어 표준에 맞게 일부 개념의 이름이 변경되었음을 참고하십시오. 이러한 변경 사항은 Campaign 웹 사용자 인터페이스에만 적용되며 클라이언트 콘솔에는 반영되지 않습니다. 이는 아래에 요약되어 있습니다.
 
-* 증명은 이제 **테스트 이메일**&#x200B;입니다. 증명을 전송하려면 이메일 게재 UI에 있는 **테스트** 버튼을 사용하십시오. 증명의 대상은 이제 **테스트 프로필**&#x200B;입니다. [자세히 알아보기](../preview-test/test-deliveries.md)
-* 시드 주소는 이제 **테스트 프로필**&#x200B;로 사용됩니다. 데이터베이스의 추가 수신자인 시드 주소로 테스트 이메일을 전송하십시오. [자세히 알아보기](../preview-test/test-deliveries.md)
+* 이제 수신자가 **프로필**. [자세히 알아보기](../audience/gs-audiences-recipients.md)
+* 이제 시드 주소 **테스트 프로필**. [자세히 알아보기](../preview-test/test-deliveries.md)
 * 게재 분석은 이제 **게재 준비**&#x200B;입니다. 메시지 준비를 실행해야 하는 경우 **준비** 버튼을 클릭하십시오. [자세히 알아보기](../monitor/prepare-send.md)
 * 이제 **콘텐츠 시뮬레이션** 버튼을 통해 이메일 미리보기 기능을 사용할 수 있습니다. [자세히 알아보기](../preview-test/preview-test.md)
-* 목록은 이제 **대상자**&#x200B;입니다. [자세히 알아보기](../audience/about-recipients.md)
+* 목록은 이제 **대상자**&#x200B;입니다. [자세히 알아보기](../audience/gs-audiences-recipients.md)
 
 ## 제한 사항{#limitations-beta}
 
 아래는 이 버전에 적용되는 제한 사항입니다.
 
 * 편집 가능한 오브젝트는 수신자, 게재, 캠페인, 워크플로, 대상자, 구독 서비스, 미리 정의된 필터 및 템플릿입니다. 다른 오브젝트는 읽기 전용입니다. 필터를 사용하고 규칙을 만들어 모두 탐색해 보십시오.
-* 관리 사용자 인터페이스는 사용할 수 없습니다.
+* 관리 및 고급 구성 기능은 Campaign 웹 사용자 인터페이스에서 사용할 수 없습니다.
 * 보고 지표(예: 열람 및 추적 데이터)는 매시간 업데이트됩니다.
 * 게재 대시보드 KPI는 5분마다 업데이트됩니다. 단, 게재 준비는 실시간입니다.
 * 상단 막대에서 사용할 수 있는 Adobe Experience Cloud 알림 및 통합 도움말은 아직 통합되지 않았습니다.
 
-더 많은 가드레일과 제한 사항을 알아보려면 [이 페이지](../get-started/guardrails.md)를 참조하십시오.
+지원되는/지원되지 않는 기능과 Campaign 웹 사용자 인터페이스와 Campaign 클라이언트 콘솔 간의 상호 운용성에 대해 자세히 알아보십시오. [이 페이지에서](../get-started/capability-matrix.md).

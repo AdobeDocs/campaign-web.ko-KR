@@ -1,31 +1,31 @@
 ---
 audience: end-user
-title: Adobe Campaign Web 시작하기
-description: Adobe Campaign Web 시작하기
+title: Adobe Campaign Web 시작
+description: Adobe Campaign Web 시작
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="제한 공개"
 source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 74%
+ht-degree: 76%
 
 ---
 
-# Adobe Campaign Web 시작하기 {#get-started}
+# Adobe Campaign Web 시작 {#get-started}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_learnmore"
->title="시작하기"
+>title="시작"
 >abstract="새로운 Adobe Campaign Web 인터페이스는 통합되고 직관적이며, 일관된 사용자 경험을 제공합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_learnmore"
->title="시작하기"
+>title="시작"
 >abstract="새로운 Adobe Campaign Web 인터페이스는 통합되고 직관적이며, 일관된 사용자 경험을 제공합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
->title="시작하기"
+>title="시작"
 >abstract="새로운 Adobe Campaign Web 인터페이스는 통합되고 직관적이며, 일관된 사용자 경험을 제공합니다."
 
 Adobe Campaign은 크로스 채널 고객 경험을 디자인할 수 있는 플랫폼과 더불어 시각적 캠페인 오케스트레이션, 실시간 상호 작용 관리, 크로스 채널을 실행할 수 있는 환경을 제공합니다.
@@ -50,7 +50,7 @@ Campaign을 사용하여 다음을 수행할 수 있습니다.
 
 >[!NOTE]
 >
->Adobe Campaign 웹은 현재 LA(Limited Availability) 버전입니다. 소수의 LA 고객만 액세스할 수 있습니다. 제품 인터페이스, 기능 및 사용 흐름은 예고 없이 변경될 수 있습니다.
+>Adobe Campaign Web은 현재 LA(제한 공개) 버전입니다. 소수의 LA 고객만 액세스할 수 있습니다. 제품 인터페이스, 기능 및 사용 흐름은 예고 없이 변경될 수 있습니다.
 
 [이 페이지](connect-to-campaign.md)에서는 Adobe Campaign 웹 버전에 연결하는 방법을 알아봅니다.
 

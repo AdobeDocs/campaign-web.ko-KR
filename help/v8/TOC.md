@@ -3,24 +3,24 @@ audience: end-user
 user-guide-title: Adobe Campaign 웹 사용자 인터페이스
 user-guide-description: Adobe Campaign 웹 사용자 인터페이스에 대한 제품 설명서입니다.
 title: Adobe Campaign Web 설명서
-description: Campaign 웹 설명서
+description: Campaign Web 설명서
 breadcrumb-title: Campaign 웹 사용자 인터페이스
 hide: true
 source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
 
-# Adobe Campaign 웹 설명서 {#v8}
+# Adobe Campaign Web 설명서 {#v8}
 
 + [Adobe Campaign 웹 사용자 인터페이스 설명서](campaign-web-home.md)
 + [새로운 기능](rn/whats-new.md)
-+ [설명서 업데이트 정보](rn/documentation-updates.md)
++ [설명서 업데이트](rn/documentation-updates.md)
 + Adobe Campaign 시작하기 {#start}
-   + [시작하기](get-started/get-started.md)
+   + [시작](get-started/get-started.md)
    + [Campaign에 연결](get-started/connect-to-campaign.md)
    + [인터페이스 살펴보기](get-started/user-interface.md)
    + [목록 찾아보기 및 필터링](get-started/list-filters.md)
@@ -90,7 +90,7 @@ ht-degree: 89%
       + [이메일 렌더링 테스트](preview-test/email-rendering.md)
 + 랜딩 페이지 {#landing-pages}
    + [랜딩 페이지 시작](landing-pages/get-started-lp.md)
-   + [랜딩 페이지 만들기 및 게시](landing-pages/create-lp.md)
+   + [랜딩 페이지 만들고 게시](landing-pages/create-lp.md)
    + [랜딩 페이지 콘텐츠 디자인](landing-pages/lp-content.md)
    + [랜딩 페이지 템플릿 작업](landing-pages/lp-templates.md)
 + 프로필 및 대상자 {#audiences}
@@ -121,7 +121,7 @@ ht-degree: 89%
    + [보호 기능 및 제한 사항](get-started/guardrails.md)
    + [워크플로 액세스 및 관리](workflows/access-monitor.md)
    + 첫 워크플로우 만들고 실행하기 {#create-workflow}
-      + [워크플로 생성의 핵심 원칙](workflows/gs-workflow-creation.md)
+      + [워크플로우를 만드는 핵심 원칙](workflows/gs-workflow-creation.md)
       + [워크플로 만들기](workflows/create-workflow.md)
       + [활동 조율](workflows/orchestrate-activities.md)
       + [워크플로 설정 구성](workflows/workflow-settings.md)

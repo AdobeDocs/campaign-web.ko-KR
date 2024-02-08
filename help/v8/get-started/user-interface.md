@@ -1,19 +1,19 @@
 ---
 audience: end-user
 title: 인터페이스 살펴보기
-description: Adobe Campaign 웹 사용자 인터페이스
+description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="제한 공개"
 source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
 workflow-type: tm+mt
 source-wordcount: '1636'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
 # 인터페이스 살펴보기 {#user-interface}
 
-새로운 Adobe Campaign 웹 인터페이스는 마케팅 캠페인 디자인 및 게재를 단순화하는 현대적이고 직관적인 사용자 경험을 제공합니다. 이 새로운 인터페이스는 Adobe Experience Cloud 앱 및 솔루션과 통합됩니다.
+새로운 Adobe Campaign Web 인터페이스는 현대적이고 직관적인 사용자 경험을 제공하여 마케팅 캠페인 디자인 및 게재를 간소화합니다. 이 새로운 인터페이스는 Adobe Experience Cloud 앱 및 솔루션과 통합됩니다.
 
 Adobe Campaign에 연결하는 방법과 Experience Cloud 탐색의 기본 사항은 [이 문서](connect-to-campaign.md)에서 알아볼 수 있습니다.
 
@@ -39,11 +39,11 @@ Campaign 홈페이지를 사용하면 주요 리소스, 지표, 구성 요소를
 
 **최근 항목** 목록은 최근에 생성되고 수정된 게재에 대한 바로가기를 제공합니다. 이 목록에는 채널, 상태, 소유자, 생성 및 수정일이 표시됩니다. **더 보기** 링크를 클릭하면 더 많은 게재가 로드됩니다.
 
-또한 다음에서 Adobe Campaign 웹 키 도움말 페이지에 액세스할 수 있습니다. **학습** 섹션에 있는 마지막 항목이 될 필요가 없습니다.
+또한 페이지의 **학습** 섹션에서 Adobe Campaign Web 주요 도움말 페이지에 액세스할 수 있습니다.
 
 ## 왼쪽 탐색 메뉴 {#user-interface-left-nav}
 
-왼쪽의 링크를 열어 Adobe Campaign 웹 기능에 액세스합니다. 여러 링크에 정렬 및 필터링할 수 있는 오브젝트 목록이 표시됩니다. 필요한 모든 정보를 표시하도록 열을 구성할 수도 있습니다. 이 [섹션](#list-screens)을 참조하십시오. 일부 목록 화면은 읽기 전용입니다. 왼쪽 탐색 메뉴와 목록에 표시되는 항목은 사용자 권한에 따라 다릅니다. [이 섹션](permissions.md)에서 권한에 대해 자세히 알아보십시오.
+왼쪽에 있는 링크를 찾아Adobe Campaign Web 기능에 액세스합니다. 여러 링크에 정렬 및 필터링할 수 있는 오브젝트 목록이 표시됩니다. 필요한 모든 정보를 표시하도록 열을 구성할 수도 있습니다. 이 [섹션](#list-screens)을 참조하십시오. 일부 목록 화면은 읽기 전용입니다. 왼쪽 탐색 메뉴와 목록에 표시되는 항목은 사용자 권한에 따라 다릅니다. [이 섹션](permissions.md)에서 권한에 대해 자세히 알아보십시오.
 
 
 ### 탐색기 {#user-interface-explorer}

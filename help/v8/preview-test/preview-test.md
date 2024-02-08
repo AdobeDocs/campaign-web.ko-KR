@@ -4,10 +4,10 @@ title: 게재 미리 보기 및 테스트 정보
 description: 게재 미리 보기 및 테스트 방법 알아보기
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="제한 공개"
-source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
+source-git-commit: 17274023326462882f487c75de5df9fe2ba5df22
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 9%
+source-wordcount: '197'
+ht-degree: 7%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 9%
 >id="acw_deliveries_simulate"
 >title="콘텐츠 미리보기 및 테스트"
 >abstract="콘텐츠가 정의되면 테스트 프로필을 사용하여 콘텐츠를 미리 보고 테스트할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="메시지 콘텐츠 미리보기"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="테스트 게재 전송"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="랜딩 페이지 테스트"
 

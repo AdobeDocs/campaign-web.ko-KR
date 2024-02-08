@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign 웹 사용자 인터페이스/클라이언트 콘솔 기능 매트릭스
 description: Campaign 웹 사용자 인터페이스에서 지원되는 기능 목록
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 552f9d8fb3e7a4907f9c9830920e1c311fcecd5c
+source-git-commit: 969c6c76654d4fb84cdf4a885b44924a1e46f524
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1772'
 ht-degree: 3%
 
 ---
@@ -41,8 +41,8 @@ Campaign 웹 사용자 인터페이스를 사용하면 이메일, SMS 및 푸시
 
 제공된 링크를 사용하여 Campaign v8(클라이언트 콘솔) 설명서를 탐색하고 이러한 채널에 대해 자세히 알아보십시오.
 
-* 다이렉트 메일. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html){target="_blank"}
-* LINE 메시지. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
+* **다이렉트 메일**. 다이렉트 메일 채널을 통해 고객, 고객, 공급자 또는 통지, 송장, 명세서, 마케팅 오퍼 등과 같은 다른 사람에게 실제 서신을 보낼 수 있습니다. 이 채널은 클라이언트 콘솔에서만 사용할 수 있습니다.  [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html){target="_blank"}
+* **LINE 메시징**. LINE은 무료 인스턴트 메시징, 음성 및 화상 통화를 위한 응용 프로그램으로 모든 모바일 장치와 PC에서 사용할 수 있습니다. Adobe Campaign에서는 클라이언트 콘솔에서만 LINE 메시지를 보낼 수 있습니다.[자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
 * 콜 센터 및 사용자 지정 채널. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
 * X를 사용하는 소셜 마케팅(Twitter). [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html){target="_blank"}
 

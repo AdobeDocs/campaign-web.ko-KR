@@ -8,8 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 랜딩, 랜딩 페이지, 사용 사례
-exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
+source-git-commit: 40c1ac49e9c297e0431331df612cc4a1ae804723
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 0%
@@ -170,8 +169,6 @@ ht-degree: 0%
 사용자에게 모든 게재에서 옵트아웃할 수 있는 기능을 제공하려면 을(를) 만들고 게시해야 합니다 **[!UICONTROL 차단 목록]** 랜딩 페이지.
 
 사용자가 랜딩 페이지 링크를 클릭하면 **[!UICONTROL 더 이상 연락하지 않음(모든 채널에서)]** 프로필의 옵션이 자동으로 선택됩니다.
-
-![](assets/blocklisting_allchannels.png)
 
 정의 **[!UICONTROL 옵트아웃]** 확인란 및 업데이트를 선택합니다. **[!UICONTROL 채널(이메일)]**: 랜딩 페이지에서 옵트아웃 상자를 확인하는 프로필은 모든 통신에서 옵트아웃됩니다.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign 웹 사용자 인터페이스/클라이언트 콘솔 기능 매트릭스
 description: Campaign 웹 사용자 인터페이스에서 지원되는 기능 목록
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 0a7fbd4a316359915eedfc33ffb78515a233793c
+source-git-commit: 45e5b528837614cdbd537d0a92e71265f65f97db
 workflow-type: tm+mt
-source-wordcount: '2156'
-ht-degree: 3%
+source-wordcount: '2151'
+ht-degree: 2%
 
 ---
 
@@ -77,7 +77,6 @@ Campaign 클라이언트 콘솔 또는 Adobe Experience Platform에서 만든 �
 
 * 이메일, SMS 및 푸시에 대한 실시간 메시지 작성 및 실행
 * 메시지 보강 및 개인화
-* 트리거(Adobe Analytics 장바구니 포기)
 * 트랜잭션 메시지에 대한 보고 및 모니터링
 
 ## 콘텐츠 디자인 {#content-capabilities}

@@ -3,7 +3,7 @@ title: Campaign Web에서 AI 기반 상황별 도움말 사용
 description: Campaign 웹 도움말 팝오버에서 질문하기
 badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: a37745e89a6faf9ff3e986da311cd7cf25a4f05b
+source-git-commit: 27abc0c532ce6957eae55d5db342093efc8fe0a5
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 82%
@@ -23,11 +23,11 @@ Campaign 생성형 AI의 기능 덕분에 이 구성 요소는 사용자의 경�
 
 >[!AVAILABILITY]
 >
->AI 기반의 상황별 도움말은 해당 베타 버전에서 사용할 수 있으며 사전 공지 없이 변경될 수 있습니다.
+>* AI 기반의 상황별 도움말은 해당 베타 버전에서 사용할 수 있으며 사전 공지 없이 변경될 수 있습니다.
 >
->이 기능은 **영어**&#x200B;로만 사용할 수 있습니다. 이 버전에서는 다른 언어가 지원되지 않습니다. 따라서 이 기능을 사용하기 전에 [선호 언어](connect-to-campaign.md#language-pref)를 영어로 설정해야 합니다.
+>* 이 기능은 **영어**&#x200B;로만 사용할 수 있습니다. 이 버전에서는 다른 언어가 지원되지 않습니다. 따라서 이 기능을 사용하기 전에 [선호 언어](connect-to-campaign.md#language-pref)를 영어로 설정해야 합니다.
 >
->AI 기반의 상황별 도움말은 현재 Campaign 이메일 디자이너에서 사용할 수 없습니다.
+>* AI 기반의 상황별 도움말은 현재 Campaign 이메일 디자이너에서 사용할 수 없습니다.
 
 
 <!--

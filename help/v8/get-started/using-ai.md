@@ -3,10 +3,10 @@ title: Campaign Web에서 AI 기반 상황별 도움말 사용
 description: Campaign 웹 도움말 팝오버에서 질문하기
 badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
+source-git-commit: a37745e89a6faf9ff3e986da311cd7cf25a4f05b
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 84%
+source-wordcount: '541'
+ht-degree: 82%
 
 ---
 
@@ -48,11 +48,17 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 입력 필드에서 Adobe Campaign AI 기반의 상황별 도움말은 3가지 제안 질문을 제공합니다. 이러한 질문은 AI가 생성한 것입니다. 도움말 상자 및 현재 제품 컨텍스트와 관련되어 있습니다. 질문을 선택하여 답변을 얻습니다.
 
+![상황별 도움말 제안 질문](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
+
+
 ## 답변 {#answers-ai}
 
 Adobe Campaign AI 기반 상황별 도움말에서 도움을 제공하지만 사실을 확인해야 합니다. 잘못된 정보, 부정확하거나 오해의 소지가 있는 답변이 출력될 수 있습니다. 모든 도움말 상자에 링크된 제품 설명서를 확인하십시오.
 
 다음을 사용하여 클립보드에 답변을 복사할 수 있습니다. **복사** ( 도움말 팝오버 하단에 있음) 아이콘을 클릭합니다.
+
+![상황별 도움말 답변 복사](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
+
 
 ## 피드백 {#feedback-ai}
 

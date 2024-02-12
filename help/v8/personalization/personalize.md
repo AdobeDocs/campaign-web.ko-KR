@@ -6,10 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-badge: label="제한 공개"
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '444'
 ht-degree: 2%
 
 ---
@@ -33,18 +32,18 @@ ht-degree: 2%
 
 1. 를 사용하여 표현식 편집기를 엽니다. **[!UICONTROL 개인화 대화 상자 열기]** 제목 줄이나 SMS 본문과 같은 텍스트 유형 편집 필드에서 액세스할 수 있는 아이콘 [표현식 편집기에 액세스하는 방법 알아보기](gs-personalization.md/#access)
 
-   ![](assets/perso-access.png){width="800" align="center"}
+   ![](assets/perso-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. 표현식 편집기가 열립니다. Adobe Campaign 데이터베이스에서 사용할 수 있는 개인화 필드는 화면 왼쪽에 있는 여러 메뉴로 구성됩니다.
 
-   ![](assets/perso-insert-field.png){width="800" align="center"}
+   ![](assets/perso-insert-field.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
    | 메뉴 | 설명 |
    |-----|------------|
-   | ![](assets/do-not-localize/perso-subscribers-menu.png) | 다음 **[!UICONTROL 구독자 애플리케이션]** 메뉴에는 사용 단말 또는 운영 체제와 같은 애플리케이션의 가입자와 관련된 필드가 나열됩니다. *이 메뉴는 푸시 알림에만 사용할 수 있습니다.* |
-   | ![](assets/do-not-localize/perso-recipients-menu.png) | 다음 **[!UICONTROL 수신자]** 메뉴에는 수신자의 이름, 나이 또는 주소와 같이 수신자 표에 정의된 필드가 나열됩니다. 날짜 [외부 파일에서 연락처 업로드](../audience/file-audience.md) 독립 실행형 이메일 게재의 경우 이 메뉴에는 입력 파일에서 사용할 수 있는 모든 필드가 나열됩니다. |
-   | ![](assets/do-not-localize/perso-message-menu.png) | 다음 **[!UICONTROL 메시지]** 메뉴에는 지정된 수신자가 있는 마지막 이벤트의 날짜 등 모든 채널에서 수신자 또는 장치에 전송된 모든 메시지를 포함하여 게재 로그와 관련된 필드가 나열됩니다 |
-   | ![](assets/do-not-localize/perso-delivery-menu.png) | 다음 **[!UICONTROL 게재]** 메뉴에는 게재 채널 또는 레이블과 같은 게재 수행에 필요한 매개 변수와 관련된 필드가 나열됩니다. |
+   | ![](assets/do-not-localize/perso-subscribers-menu.png){zoomable=&quot;yes&quot;} | 다음 **[!UICONTROL 구독자 애플리케이션]** 메뉴에는 사용 단말 또는 운영 체제와 같은 애플리케이션의 가입자와 관련된 필드가 나열됩니다. *이 메뉴는 푸시 알림에만 사용할 수 있습니다.* |
+   | ![](assets/do-not-localize/perso-recipients-menu.png){zoomable=&quot;yes&quot;} | 다음 **[!UICONTROL 수신자]** 메뉴에는 수신자의 이름, 나이 또는 주소와 같이 수신자 표에 정의된 필드가 나열됩니다. 날짜 [외부 파일에서 연락처 업로드](../audience/file-audience.md) 독립 실행형 이메일 게재의 경우 이 메뉴에는 입력 파일에서 사용할 수 있는 모든 필드가 나열됩니다. |
+   | ![](assets/do-not-localize/perso-message-menu.png){zoomable=&quot;yes&quot;} | 다음 **[!UICONTROL 메시지]** 메뉴에는 지정된 수신자가 있는 마지막 이벤트의 날짜 등 모든 채널에서 수신자 또는 장치에 전송된 모든 메시지를 포함하여 게재 로그와 관련된 필드가 나열됩니다 |
+   | ![](assets/do-not-localize/perso-delivery-menu.png){zoomable=&quot;yes&quot;} | 다음 **[!UICONTROL 게재]** 메뉴에는 게재 채널 또는 레이블과 같은 게재 수행에 필요한 매개 변수와 관련된 필드가 나열됩니다. |
 
    >[!NOTE]
    >
@@ -54,6 +53,6 @@ ht-degree: 2%
 
 1. 콘텐츠가 준비되면 콘텐츠를 시뮬레이트하여 저장하고 개인화 렌더링을 테스트할 수 있습니다. 아래 예는 수신자의 이름을 사용하는 SMS 메시지의 개인화를 보여 줍니다.
 
-   ![](assets/perso-preview1.png){width="800" align="center"}
+   ![](assets/perso-preview1.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
-   ![](assets/perso-preview2.png){width="800" align="center"}
+   ![](assets/perso-preview2.png){zoomable=&quot;yes&quot;}{width="800" align="center"}

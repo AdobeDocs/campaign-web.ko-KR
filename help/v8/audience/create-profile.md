@@ -1,12 +1,11 @@
 ---
 title: 프로필 만들기
 description: Campaign 웹에서 프로필을 만드는 방법을 알아봅니다.
-badge: label="제한 공개"
 exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
-source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 48%
+ht-degree: 47%
 
 ---
 
@@ -53,7 +52,7 @@ ht-degree: 48%
 
 1. 아래 표에 설명된 다른 섹션으로 구성된 프로필 표시에 사용할 수 있는 속성 목록입니다.
 
-   ![](assets/create-profile.png)
+   ![](assets/create-profile.png){zoomable=&quot;yes&quot;}
 
    | 속성 섹션 | 설명 |
    |  ---  |  ---  |

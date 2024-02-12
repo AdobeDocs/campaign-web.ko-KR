@@ -3,11 +3,10 @@ audience: end-user
 title: 이메일 콘텐츠 편집
 description: Campaign 웹 사용자 인터페이스에서 이메일 콘텐츠를 편집하는 방법을 알아봅니다
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-badge: label="제한 공개"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 45%
+source-wordcount: '630'
+ht-degree: 44%
 
 ---
 
@@ -48,11 +47,11 @@ ht-degree: 45%
 
 1. 다음을 클릭합니다. **[!UICONTROL 콘텐츠 편집]** 단추 [이메일 게재 대시보드](../email/create-email.md) 화면.
 
-   ![](assets/email-edit-content-button.png)
+   ![](assets/email-edit-content-button.png){zoomable=&quot;yes&quot;}
 
 1. 이메일 콘텐츠 편집 화면이 열립니다.
 
-   ![](assets/email-edit-content-dashboard.png)
+   ![](assets/email-edit-content-dashboard.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -72,7 +71,7 @@ ht-degree: 45%
 
 1. 확장 **[!UICONTROL 회신 주소 필드]** 섹션. 보낸 사람의 이름과 주소는 기본적으로 회신에 사용됩니다. 그러나 Adobe은 브랜드의 고객 지원 센터와 같은 기존 실제 주소를 사용하는 것을 권장합니다. 이 경우 수신자가 회신을 보내면 고객 지원 센터에서 이를 처리할 수 있습니다.
 
-   ![](assets/email-edit-content-reply-to.png)
+   ![](assets/email-edit-content-reply-to.png){zoomable=&quot;yes&quot;}
 
 1. 이메일 **[!UICONTROL 제목 줄]**&#x200B;을 정의합니다. 전용 필드에 제목을 직접 입력하거나 표현식 편집기를 열어 추가합니다 [개인화](../personalization/personalize.md) 다양한 속성 및 콘텐츠 블록 또는 오퍼 사용.
 

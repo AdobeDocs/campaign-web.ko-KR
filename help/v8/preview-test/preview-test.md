@@ -3,11 +3,10 @@ audience: end-user
 title: 게재 미리 보기 및 테스트 정보
 description: 게재 미리 보기 및 테스트 방법 알아보기
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-badge: label="제한 공개"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -33,7 +32,7 @@ ht-degree: 7%
 
 이러한 작업은 다음을 사용하여 수행할 수 있습니다 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼은 게재의 콘텐츠 편집 화면 또는 [이메일 디자이너](../email/get-started-email-designer.md).
 
-![](assets/simulate-button.png)
+![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >

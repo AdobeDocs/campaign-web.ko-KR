@@ -3,11 +3,10 @@ audience: end-user
 title: 이메일의 텍스트 버전 만들기
 description: 이메일의 텍스트 버전을 만드는 방법
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-badge: label="제한 공개"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '172'
+ht-degree: 96%
 
 ---
 
@@ -21,15 +20,15 @@ ht-degree: 100%
 
 1. 이메일에서 **[!UICONTROL 일반 텍스트]** 탭을 선택합니다.
 
-   ![](assets/text_version_3.png)
+   ![](assets/text_version_3.png){zoomable=&quot;yes&quot;}
 
 1. **[!UICONTROL HTML과 동기화]** 토글을 사용하여 동기화를 비활성화합니다.
 
-   ![](assets/text_version_1.png)
+   ![](assets/text_version_1.png){zoomable=&quot;yes&quot;}
 
 1. 확인 표시를 클릭하여 선택을 확인합니다.
 
-   ![](assets/text_version_2.png)
+   ![](assets/text_version_2.png){zoomable=&quot;yes&quot;}
 
 1. 그런 다음에는 원하는 대로 일반 텍스트 버전을 편집할 수 있습니다.
 

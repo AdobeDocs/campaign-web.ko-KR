@@ -3,11 +3,10 @@ audience: end-user
 title: 이메일 렌더링 테스트
 description: Campaign 웹 사용자 인터페이스에서 전자 메일 렌더링을 테스트하는 방법을 알아봅니다
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-badge: label="제한 공개"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 3%
+source-wordcount: '237'
+ht-degree: 2%
 
 ---
 
@@ -33,21 +32,21 @@ ht-degree: 3%
 
 1. 다음 항목 선택 **[!UICONTROL 이메일 렌더링]** 단추를 클릭합니다.
 
-   ![](assets/simulate-rendering-button.png)
+   ![](assets/simulate-rendering-button.png){zoomable=&quot;yes&quot;}
 
 1. 클릭 **Litmus 계정 연결** 오른쪽 상단에 있습니다.
 
-   ![](assets/simulate-rendering-litmus.png)
+   ![](assets/simulate-rendering-litmus.png){zoomable=&quot;yes&quot;}
 
 1. 자격 증명을 입력하고 로그인하십시오.
 
-   ![](assets/simulate-rendering-credentials.png)
+   ![](assets/simulate-rendering-credentials.png){zoomable=&quot;yes&quot;}
 
 1. 다음을 클릭합니다. **테스트 실행** 이메일 미리 보기를 생성하는 단추입니다.
 
 1. 인기 있는 데스크탑, 모바일 및 웹 기반 클라이언트에서 이메일 콘텐츠를 확인합니다.
 
-   ![](assets/simulate-rendering-previews.png)
+   ![](assets/simulate-rendering-previews.png){zoomable=&quot;yes&quot;}
 
 <!--
 TO CHECK IF user is directed to Litmus or if the email rendering is shown directly in the Campaign UI.
@@ -64,7 +63,7 @@ To test the email rendering, follow these steps:
 
     The left pane provides various desktop, mobile and web-based email clients. Select the desired email client to display a preview of your email in the right pane. 
 
-    ![](assets/render-context.png)
+    ![](assets/render-context.png){zoomable="yes"}
 
     >[!NOTE]
     >

@@ -3,10 +3,9 @@ keywords: Campaign Web;홈;인기 있는 주제
 description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-badge: label="제한 공개"
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
-workflow-type: ht
-source-wordcount: '688'
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+workflow-type: tm+mt
+source-wordcount: '686'
 ht-degree: 100%
 
 ---

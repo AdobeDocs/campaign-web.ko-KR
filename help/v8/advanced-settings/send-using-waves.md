@@ -3,10 +3,9 @@ audience: end-user
 title: 웨이브를 사용하여 보내기
 description: Campaign 웹에서 게재 설정에 대해 자세히 알아보기
 feature: Email
-badge: label="제한 공개"
-source-git-commit: 3f4f09ddae3a2e46adf99f288642acee561ce1f5
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '796'
 ht-degree: 4%
 
 ---
@@ -57,7 +56,7 @@ ht-degree: 4%
 
 이 옵션을 선택하면 모든 물결의 크기가 같고(마지막 물결 제외) 각 물결 사이의 지연 시간은 항상 동일합니다.
 
-![](assets/waves-same-size.png)
+![](assets/waves-same-size.png){zoomable=&quot;yes&quot;}
 
 * 게재를 분할할 모든 웨이브의 크기를 지정합니다. 백분율이나 숫자 값을 입력할 수 있습니다. 마지막 웨이브만 나머지 메시지 수를 포함해야 하므로 크기가 달라질 수 있습니다.
 
@@ -71,7 +70,7 @@ ht-degree: 4%
 
 이렇게 하려면 **[!UICONTROL 동일한 크기의 예약된 일괄 처리]** 옵션을 선택합니다. 입력 **[!UICONTROL 20]** 예약된 일괄 처리 크기 및 **[!UICONTROL 1일]** 다음에서 **[!UICONTROL 간격]** 필드.
 
-![](assets/waves-call-center.png)
+![](assets/waves-call-center.png){zoomable=&quot;yes&quot;}
 
 ## 캘린더에 따라 일괄 처리 예약 {#waves-calendar}
 
@@ -89,7 +88,7 @@ ht-degree: 4%
 
 아래 예에서, 제1 웨이브는 게재에 포함된 총 메시지 수의 25%를 나타내며 즉시 시작한다. 다음 두 파동은 배달을 완료하고 6시간 간격으로 시작하도록 설정된다.
 
-![](assets/waves-calendar.png)
+![](assets/waves-calendar.png){zoomable=&quot;yes&quot;}
 
 캘린더에 따라 여러 웨이브를 사용하는 일반적인 사용 사례 중 하나는 램프 업 프로세스입니다.
 
@@ -99,7 +98,7 @@ ht-degree: 4%
 
 이렇게 하려면 **[!UICONTROL 일정에 따라 예약된 예약된 예약된 예약된 예약된 일괄 처리]** 옵션을 선택합니다. 예를 들어 첫 번째 물결을 10%로 설정하고, 두 번째 물결을 15%로 설정하고, 세 번째 물결을 20%로 설정하는 식입니다.
 
-![](assets/waves-ramp-up.png)
+![](assets/waves-ramp-up.png){zoomable=&quot;yes&quot;}
 
 
 

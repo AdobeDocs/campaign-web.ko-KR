@@ -2,12 +2,11 @@
 audience: end-user
 title: SMS 게재 보고서
 description: sms 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
-badge: label="제한 공개"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 45%
+source-wordcount: '514'
+ht-degree: 44%
 
 ---
 
@@ -31,7 +30,7 @@ ht-degree: 45%
 
 다음 **[!UICONTROL 게재 개요]** 보고서는 성공률 및 오류율과 방문자가 SMS 메시지에 참여하는 방식에 대한 자세한 정보를 제공하는 주요 성과 지표(KPI)를 제공합니다.
 
-![](assets/reporting_sms_3.png)
+![](assets/reporting_sms_3.png){zoomable=&quot;yes&quot;}
 
 +++SMS 게재 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -54,7 +53,7 @@ ht-degree: 45%
 
 다음 **대상 모집단** 그래프 및 표는 대상자를 기준으로 데이터를 표시합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/reporting_sms_4.png)
+![](assets/reporting_sms_4.png){zoomable=&quot;yes&quot;}
 
 +++SMS 게재 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -73,7 +72,7 @@ ht-degree: 45%
 
 다음 **전체 통계** 보고서는 보낸 SMS 메시지에 대한 데이터를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/reporting_sms_5.png)
+![](assets/reporting_sms_5.png){zoomable=&quot;yes&quot;}
 
 +++SMS 게재 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -93,7 +92,7 @@ ht-degree: 45%
 
 다음 **[!UICONTROL 제외]** 그래프 및 표에는 타겟팅된 프로필에서 제외된 사용자 프로필에서 메시지를 받을 수 없는 이유가 표시됩니다. 제외 규칙은 다음에 자세히 설명되어 있습니다. [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
 
-![](assets/reporting_sms_6.png)
+![](assets/reporting_sms_6.png){zoomable=&quot;yes&quot;}
 
 ## 게재 처리량 {#delivery-throughput}
 
@@ -104,4 +103,4 @@ ht-degree: 45%
 
 이 보고서는 지정된 기간 내의 게재 처리량에 대한 자세한 정보를 제공합니다. 메시지 게재 속도를 측정하는 데 사용되는 주요 지표는 시간당 전송된 메시지 수입니다.
 
-![](assets/reporting_sms_2.png)
+![](assets/reporting_sms_2.png){zoomable=&quot;yes&quot;}

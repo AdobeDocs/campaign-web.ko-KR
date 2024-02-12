@@ -2,11 +2,11 @@
 audience: end-user
 title: 이메일 채널에 대한 전역 보고서
 description: 이메일 채널에 대한 글로벌 보고서에 대해 자세히 알아보기
-badge: label="제한 공개"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1594'
-ht-degree: 25%
+source-wordcount: '1618'
+ht-degree: 24%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 25%
 
 다음 **[!UICONTROL 게재 개요]** 은 방문자와 각 이메일 게재의 상호 작용에 대한 심층적인 통찰력을 제공하는 주요 성능 지표(KPI)를 제공합니다. 지표는 아래에 요약되어 있습니다.
 
-![](assets/global_report_email_delivery_overview.png){align="center"}
+![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++게재 개요 지표에 대해 자세히 알아보십시오.
 
@@ -53,7 +53,7 @@ ht-degree: 25%
 
 에 대한 테이블 및 그래프 **[!UICONTROL 타깃팅된 대상]** 아래에 제공된 세부 지표를 사용하여 수신자와 관련된 데이터를 표시합니다.
 
-![](assets/global_report_email_targeted_audience.png){align="center"}
+![](assets/global_report_email_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++타깃팅된 대상 지표에 대해 자세히 알아보십시오.
 
@@ -74,7 +74,7 @@ ht-degree: 25%
 
 다음 **[!UICONTROL 게재 통계]** 표에는 모든 이메일 게재의 성공 사례가 자세히 설명되어 있습니다.
 
-![](assets/global_report_email_delivery_statistics.png){align="center"}
+![](assets/global_report_email_delivery_statistics.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++게재 통계 지표에 대해 자세히 알아보십시오.
 
@@ -95,7 +95,7 @@ ht-degree: 25%
 >title="제외 이유"
 >abstract="**제외 이유** 그래프와 표는 게재 준비 중 메시지가 거부되는 구체적인 이유를 보여 주며, 규칙별로 자세한 분류를 제공합니다."
 
-![](assets/global_report_email_exclusions.png){align="center"}
+![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
 제외 그래프 및 표는 타겟팅된 프로필에서 제외된 사용자 프로필이 메시지를 받지 못하는 이유를 설명합니다.
 
@@ -108,7 +108,7 @@ ht-degree: 25%
 >title="게재 처리량"
 >abstract="이 **게재 처리량**&#x200B;은 게재 처리량에 대한 포괄적인 인사이트를 제공하며, 지정된 일정 내의 성공 및 오류율을 강조하여 보여 줍니다."
 
-![](assets/global_report_email_delivery_throughput.png){align="center"}
+![](assets/global_report_email_delivery_throughput.png){zoomable=&quot;yes&quot;}{align="center"}
 
 게재 처리량 보고서는 게재 프로세스의 효율성에 대한 심층적인 통찰력을 제공하여 지정된 기간 내의 성공 및 오류율에 대한 자세한 개요를 제공합니다.
 
@@ -129,7 +129,7 @@ ht-degree: 25%
 >title="유형별 오류 분류"
 >abstract="**유형별 오류 분류**&#x200B;를 자세히 설명하는 표와 그래프에는 알 수 없는 사용자, 사서함 가득 참, 잘못된 도메인 등을 포함하여 프로세스 중에 발생한 다양한 오류 유형에 대한 정보가 포함되어 있습니다."
 
-![](assets/global_report_email_breakdown_type.png){align="center"}
+![](assets/global_report_email_breakdown_type.png){zoomable=&quot;yes&quot;}{align="center"}
 
 다음 **[!UICONTROL 유형별 오류 분류]** 표 및 그래프는 다양한 도메인에서 경험하는 잠재적 오류와 관련된 데이터를 나타내며, 아래에 특정 지표가 제공됩니다.
 
@@ -160,7 +160,7 @@ ht-degree: 25%
 >title="도메인별 오류 분류"
 >abstract="**도메인별 오류 분류**&#x200B;를 보여 주는 표와 그래프는 발생한 각 오류 유형에 해당하는 데이터를 특정 도메인별로 분류하여 나타냅니다."
 
-![](assets/global_report_email_breakdown_domain.png){align="center"}
+![](assets/global_report_email_breakdown_domain.png){zoomable=&quot;yes&quot;}{align="center"}
 
 다음 **[!UICONTROL 도메인별 오류 분류]** 표 및 그래프는 각 도메인 내의 잠재적 오류와 관련된 데이터를 보여 줍니다. 지표는 **[!UICONTROL 유형별 오류 분류]** 위에 자세히 설명된 표 및 그래프입니다.
 
@@ -175,7 +175,7 @@ ht-degree: 25%
 
 다음 **[!UICONTROL 게재 통계]** 지표는 모든 이메일 게재와 관련된 데이터에 대한 자세한 정보를 제공하는 주요 성능 지표(KPI)를 제공합니다. 이러한 지표에 대한 자세한 내용은 아래에 나와 있습니다.
 
-![](assets/global_report_email_delivery_statistics_tracking.png){align="center"}
+![](assets/global_report_email_delivery_statistics_tracking.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++게재 통계 지표에 대해 자세히 알아보십시오.
 
@@ -203,7 +203,7 @@ ht-degree: 25%
 
 다음 **[!UICONTROL 열람 및 클릭스루 비율]** 테이블에는 수신자와 관련된 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/global_report_email_opens.png){align="center"}
+![](assets/global_report_email_opens.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++열기 및 클릭스루 비율 지표에 대해 자세히 알아보십시오.
 
@@ -229,7 +229,7 @@ ht-degree: 25%
 
 다음 **[!UICONTROL URL 및 클릭 스트림]** 보고서는 게재 중 가장 많은 클릭 수를 받은 URL에 대한 자세한 통찰력을 제공하는 주요 성능 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign_report_email_9.png){align="center"}
+![](assets/campaign_report_email_9.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++URL 및 클릭 스트림 지표에 대해 자세히 알아보십시오.
 
@@ -251,7 +251,7 @@ ht-degree: 25%
 
 다음 **[!UICONTROL 가장 많이 방문한 상위 10개 링크]** 그래프와 표에는 링크당 수신자 동작에 사용할 수 있는 데이터가 포함되어 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/global_report_email_top10.png){align="center"}
+![](assets/global_report_email_top10.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++이장 많이 방문한 상위 10개 링크 지표에 대해 자세히 알아보십시오.
 
@@ -270,7 +270,7 @@ ht-degree: 25%
 
 다음 **[!UICONTROL 시간 경과에 따른 클릭 수 분류]** 그래프에는 링크당 수신자 동작에 사용할 수 있는 데이터가 포함되어 있습니다.
 
-![](assets/global_report_email_breakdown_clicks.png){align="center"}
+![](assets/global_report_email_breakdown_clicks.png){zoomable=&quot;yes&quot;}{align="center"}
 
 ## 사용자 활동 {#user-activities-email}
 
@@ -281,7 +281,7 @@ ht-degree: 25%
 
 다음 **[!UICONTROL 사용자 활동]** 보고서는 차트 형태로 열람 및 클릭 수를 분류하여 보여줍니다. 이 보고서에 대한 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/global_report_email_user.png){align="center"}
+![](assets/global_report_email_user.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++사용자 활동 지표에 대해 자세히 알아보십시오.
 

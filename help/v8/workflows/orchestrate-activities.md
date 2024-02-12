@@ -2,12 +2,11 @@
 audience: end-user
 title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 빌드하는 방법 알아보기
-badge: label="제한 공개"
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 24521be2c796b5714712849355c3d033537847bc
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 5%
+source-wordcount: '643'
+ht-degree: 4%
 
 ---
 
@@ -21,11 +20,11 @@ ht-degree: 5%
 
 다이어그램에 추가할 수 있는 활동 목록이 나타납니다. 사용 가능한 활동은 워크플로우 다이어그램 내의 위치에 따라 다릅니다. 예를 들어 첫 번째 활동을 추가할 때 대상을 타겟팅하거나, 워크플로우 경로를 분할하거나, 을(를) 설정하여 워크플로우를 시작할 수 있습니다. **대기** 워크플로우 실행을 지연시키는 활동. 반면에, 다음 **대상자 작성** 활동에서는 타겟팅 활동을 통해 타겟을 세분화하고, 채널 활동을 통해 대상자에게 게재를 보내거나, 흐름 제어 활동을 통해 워크플로우 프로세스를 구성할 수 있습니다.
 
-![](assets/workflow-start.png)
+![](assets/workflow-start.png){zoomable=&quot;yes&quot;}
 
 활동이 다이어그램에 추가되면 특정 설정으로 새로 추가된 활동을 구성할 수 있는 오른쪽 창이 나타납니다. 각 활동을 구성하는 방법에 대한 자세한 내용은에서 확인할 수 있습니다 [이 섹션](activities/about-activities.md).
 
-![](assets/workflow-configure-activities.png)
+![](assets/workflow-configure-activities.png){zoomable=&quot;yes&quot;}
 
 이 프로세스를 반복하여 워크플로우에서 수행하려는 작업에 따라 원하는 만큼 활동을 추가합니다. 두 활동 사이에 새 활동을 삽입할 수도 있습니다. 이렇게 하려면 **+** 활동 간 전환 버튼을 클릭하고 원하는 활동을 선택한 다음 오른쪽 창에서 구성합니다.
 
@@ -45,13 +44,13 @@ ht-degree: 5%
 * 활동에 액세스 **로그 및 작업**.
 * **일시 중지/다시 시작** 활동. 워크플로우가 실행되면 일시 중지된 활동에서 일시 중지됩니다. 동일한 경로에서 해당 작업을 따르는 모든 작업은 실행되지 않습니다.
 
-![](assets/activity-action.png){width="50%"}
+![](assets/activity-action.png){zoomable=&quot;yes&quot;}{width="50%"}
 
 ## 예제 {#example}
 
 다음은 커피 머신에 관심이 있는 모든 고객(VIP 고객 제외)에게 이메일을 보내도록 설계된 워크플로우 예입니다.
 
-![](assets/workflow-example.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-example.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
 
 이를 위해 아래 활동이 추가되었습니다.
 

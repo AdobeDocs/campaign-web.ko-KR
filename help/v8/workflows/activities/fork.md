@@ -2,11 +2,10 @@
 audience: end-user
 title: 포크 워크플로 활동 사용
 description: 포크 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
-badge: label="제한 공개"
 exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
-source-git-commit: 47fd0ab358a28ed09d9ab0de3b9dfab5a1592634
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '164'
 ht-degree: 97%
 
 ---

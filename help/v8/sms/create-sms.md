@@ -2,12 +2,11 @@
 audience: end-user
 title: SMS 게재 만들기
 description: Adobe Campaign Web을 사용하여 SMS를 만들고 전송하는 방법 알아보기
-badge: label="제한 공개"
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 45%
+source-wordcount: '506'
+ht-degree: 44%
 
 ---
 
@@ -42,7 +41,7 @@ ht-degree: 45%
 
 1. **[!UICONTROL 게재 만들기]** 버튼을 클릭하여 확인합니다.
 
-   ![](assets/sms_create_1.png)
+   ![](assets/sms_create_1.png){zoomable=&quot;yes&quot;}
 
 1. 입력 **[!UICONTROL 레이블]** 게재 및 액세스 **[!UICONTROL 추가 옵션]** 드롭다운. 게재가 확장된 스키마를 기반으로 하는 경우 **사용자 지정 옵션** 필드를 사용할 수 있습니다.
 
@@ -56,7 +55,7 @@ ht-degree: 45%
 
 1. **[!UICONTROL 대상자 선택]** 버튼을 클릭하여 기존 대상자를 타겟팅하거나 나만의 대상자를 만듭니다. [대상자에 대해 자세히 알아보기](../audience/about-recipients.md).
 
-   ![](assets/sms_create_2.png)
+   ![](assets/sms_create_2.png){zoomable=&quot;yes&quot;}
 
    에서 기존 대상자를 선택하는 방법 알아보기 [이 페이지](../audience/add-audience.md)
 
@@ -66,7 +65,7 @@ ht-degree: 45%
 
 1. 클릭 **[!UICONTROL 콘텐츠 편집]** sms 메시지의 콘텐츠 디자인을 시작합니다. [자세히 알아보기](content-sms.md)
 
-   ![](assets/sms_create_4.png)
+   ![](assets/sms_create_4.png){zoomable=&quot;yes&quot;}
 
    이 화면에서 다음을 수행할 수도 있습니다. [콘텐츠 시뮬레이션](../preview-test/preview-test.md) 및 [오퍼 설정](../msg/offers.md).
 
@@ -78,4 +77,4 @@ ht-degree: 45%
 
 1. 클릭 **[!UICONTROL 설정]** 게재 템플릿과 관련된 고급 옵션에 액세스 [자세히 알아보기](../advanced-settings/delivery-settings.md)
 
-   ![](assets/sms_create_3.png)
+   ![](assets/sms_create_3.png){zoomable=&quot;yes&quot;}

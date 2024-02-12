@@ -6,9 +6,9 @@ badge: label="Alpha"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '396'
 ht-degree: 4%
 
 ---
@@ -35,13 +35,13 @@ ht-degree: 4%
 
 1. 다음 항목 선택 **[!UICONTROL 텍스트 구성 요소]** 경험 생성 메뉴를 업데이트하고 액세스하려고 합니다.
 
-   ![](assets/text-genai-1.png)
+   ![](assets/text-genai-1.png){zoomable=&quot;yes&quot;}
 
 1. 생성하려는 내용을 설명하여 콘텐츠를 미세 조정합니다.
 
    활성화 **[!UICONTROL 현재 컨텍스트로 개선]** 콘텐츠 도우미가 게재, 게재명 및 선택한 대상을 기반으로 새 콘텐츠를 개인화할 수 있는 옵션입니다.
 
-   ![](assets/text-genai-3.png)
+   ![](assets/text-genai-3.png){zoomable=&quot;yes&quot;}
 
 1. 선택 **[!UICONTROL 파일 업로드]** 추가 컨텍스트를 제공할 수 있는 컨텐츠가 포함된 브랜드 자산을 컨텐츠 도우미에 추가합니다.
 
@@ -51,7 +51,7 @@ ht-degree: 4%
 
 1. 다음을 선택합니다. **[!UICONTROL 언어]** 및 **[!UICONTROL 톤]** 생성된 텍스트에 포함할 텍스트입니다. 이렇게 하면 텍스트가 대상자와 목적에 맞게 조정됩니다.
 
-   ![](assets/text-genai-4.png)
+   ![](assets/text-genai-4.png){zoomable=&quot;yes&quot;}
 
 1. 생성된 텍스트의 길이를 설정하려면 슬라이더 컨트롤을 사용합니다.
 
@@ -59,14 +59,14 @@ ht-degree: 4%
 
 1. 생성된 를 통해 찾아보기 **[!UICONTROL 변형]** 및 클릭 **[!UICONTROL 적용]** 적절한 콘텐츠를 찾았으면
 
-   ![](assets/text-genai-5.png)
+   ![](assets/text-genai-5.png){zoomable=&quot;yes&quot;}
 
 1. 개인화 필드를 삽입하여 프로필 데이터를 기반으로 이메일 콘텐츠를 사용자 정의합니다. [콘텐츠 개인화에 대해 자세히 알아보기](../personalization/personalize.md)
 
-   ![](assets/text-genai-6.png)
+   ![](assets/text-genai-6.png){zoomable=&quot;yes&quot;}
 
 1. 메시지 콘텐츠를 정의한 후 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 렌더링을 제어하고 테스트 프로필로 개인화 설정을 확인합니다. [자세히 알아보기](../preview-test/preview-content.md)
 
-   ![](assets/text-genai-7.png)
+   ![](assets/text-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. 콘텐츠, 대상자 및 일정을 정의했으면 이메일 게재를 준비할 준비가 되었습니다. [자세히 알아보기](../monitor/prepare-send.md)

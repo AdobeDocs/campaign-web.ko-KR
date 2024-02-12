@@ -3,10 +3,9 @@ audience: end-user
 title: 메시지에 오퍼 추가
 description: 오퍼 추가 및 전송 방법 알아보기
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-badge: label="제한 공개"
-source-git-commit: 0eae2b7f6890061a33ae2d75c0ebbe3f9f217759
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '768'
 ht-degree: 35%
 
 ---
@@ -40,13 +39,13 @@ Adobe Campaign을 사용하면 하나 또는 여러 개의 특정 오퍼를 제�
 
 1. 다음을 클릭합니다. **[!UICONTROL 오퍼 설정]** [게재 콘텐츠 편집] 화면의 단추
 
-   ![](assets/offer-setup.png)
+   ![](assets/offer-setup.png){zoomable=&quot;yes&quot;}
 
 1. 수신자에게 제안할 오퍼를 구성합니다.
 
    먼저 **[!UICONTROL 오퍼 공간]** 오퍼 환경과 일치합니다. 에서 오퍼 공간을 만드는 방법을 알아봅니다. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}.
 
-   ![](assets/offer-create-content.png)
+   ![](assets/offer-create-content.png){zoomable=&quot;yes&quot;}
 
 1. 엔진의 오퍼 선택을 세분화하려면 오퍼가 정렬되어 있는 특정 **[!UICONTROL 오퍼 범주]**&#x200B;를 선택합니다.
 
@@ -90,7 +89,7 @@ Adobe Campaign을 사용하면 하나 또는 여러 개의 특정 오퍼를 제�
 
 1. 오퍼를 삽입할 위치에 마우스 커서를 놓고 개인화 아이콘을 사용하여 표현식 편집기를 엽니다.
 
-   ![](assets/offer-insert-perso-icon.png)
+   ![](assets/offer-insert-perso-icon.png){zoomable=&quot;yes&quot;}
 
 1. 다음 항목 선택 **[!UICONTROL 제안]** 메뉴 아래의 제품에서 사용할 수 있습니다. 사용 가능한 제안이 목록에 표시됩니다.
 
@@ -100,7 +99,7 @@ Adobe Campaign을 사용하면 하나 또는 여러 개의 특정 오퍼를 제�
 
 1. 개인화 필드, 렌더링 함수 또는 오퍼 속성을 사용하여 각 제안을 정의합니다.
 
-   ![](assets/offer-inserted.png)
+   ![](assets/offer-inserted.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >

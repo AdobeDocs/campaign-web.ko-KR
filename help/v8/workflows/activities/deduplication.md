@@ -2,11 +2,10 @@
 audience: end-user
 title: 중복 제거 워크플로우 활동 사용
 description: 중복 제거 워크플로우 활동을 사용하는 방법 알아보기
-badge: label="제한 공개"
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '595'
 ht-degree: 54%
 
 ---

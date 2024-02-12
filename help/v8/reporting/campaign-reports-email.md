@@ -2,11 +2,10 @@
 audience: end-user
 title: 이메일 채널에 대한 캠페인 보고서
 description: 이메일 채널에 대한 캠페인 보고서에 대해 자세히 알아보기
-badge: label="제한 공개"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1595'
 ht-degree: 21%
 
 ---
@@ -26,7 +25,7 @@ ht-degree: 21%
 
 다음 **[!UICONTROL 게재 개요]** 보고서는 방문자의 이메일 게재 참여도에 대한 자세한 정보를 제공하는 주요 성과 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign_report_email_1.png)
+![](assets/campaign_report_email_1.png){zoomable=&quot;yes&quot;}
 
 +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -51,7 +50,7 @@ ht-degree: 21%
 
 다음 **[!UICONTROL 초기 타겟 대상 통계]** 테이블에는 수신자와 관련된 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign_report_email_2.png)
+![](assets/campaign_report_email_2.png){zoomable=&quot;yes&quot;}
 
 +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -72,7 +71,7 @@ ht-degree: 21%
 
 다음 **[!UICONTROL 실행 통계]** 게재의 성공 여부를 표로 자세히 설명합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign_report_email_3.png)
+![](assets/campaign_report_email_3.png){zoomable=&quot;yes&quot;}
 
 +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -97,7 +96,7 @@ ht-degree: 21%
 
 다음 **[!UICONTROL 반응 통계]** 표에는 게재를 위한 수신자 활동에 사용 가능한 데이터가 포함되어 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign_report_email_4.png)
+![](assets/campaign_report_email_4.png){zoomable=&quot;yes&quot;}
 
 +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -121,7 +120,7 @@ ht-degree: 21%
 
 다음 **[!UICONTROL 생성된 클릭 스트림]** 테이블에는 수신자와 게재의 상호 작용 방식에 따른 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign_report_email_5.png)
+![](assets/campaign_report_email_5.png){zoomable=&quot;yes&quot;}
 
 +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -146,7 +145,7 @@ ht-degree: 21%
 
 이 보고서에 표시된 오류는 격리 프로세스를 트리거합니다. 격리 관리에 대한 자세한 내용은 다음을 참조하십시오. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
-![](assets/campaign_report_email_6.png)
+![](assets/campaign_report_email_6.png){zoomable=&quot;yes&quot;}
 
 +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -186,7 +185,7 @@ ht-degree: 21%
 
 다음 **[!UICONTROL 게재 통계]** 지표는 보낸 이메일에 사용할 수 있는 데이터에 대한 자세한 정보를 제공하는 주요 성능 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign_report_email_7.png)
+![](assets/campaign_report_email_7.png){zoomable=&quot;yes&quot;}
 
 +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -212,7 +211,7 @@ ht-degree: 21%
 
 다음 **[!UICONTROL 열람 및 클릭스루 비율]** 테이블에는 수신자와 관련된 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign_report_email_8.png)
+![](assets/campaign_report_email_8.png){zoomable=&quot;yes&quot;}
 
 +++ 이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -237,7 +236,7 @@ ht-degree: 21%
 
 다음 **[!UICONTROL URL 및 클릭 스트림]** 보고서는 게재 중 가장 많이 클릭한 URL에 대한 자세한 정보를 제공하는 주요 성과 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign_report_email_9.png)
+![](assets/campaign_report_email_9.png){zoomable=&quot;yes&quot;}
 
 +++ 이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -260,7 +259,7 @@ ht-degree: 21%
 
 다음 **[!UICONTROL 가장 많이 방문한 상위 10개 링크]** 그래프와 표에는 링크당 수신자 동작에 사용할 수 있는 데이터가 포함되어 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign_report_email_10.png)
+![](assets/campaign_report_email_10.png){zoomable=&quot;yes&quot;}
 
 +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -279,7 +278,7 @@ ht-degree: 21%
 
 다음 **[!UICONTROL 시간 경과에 따른 클릭 수 분류]** 그래프에는 링크당 수신자 동작에 사용할 수 있는 데이터가 포함되어 있습니다.
 
-![](assets/campaign_report_email_11.png)
+![](assets/campaign_report_email_11.png){zoomable=&quot;yes&quot;}
 
 ## 사용자 활동 {#user-activities-email}
 
@@ -290,7 +289,7 @@ ht-degree: 21%
 
 다음 **[!UICONTROL 사용자 활동]** 보고서는 차트 형태로 열람 및 클릭 수를 분류하여 보여줍니다. 이 보고서에 대한 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign_report_email_user_activities.png){align="center"}
+![](assets/campaign_report_email_user_activities.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++이메일 게재 보고서 지표에 대해 자세히 알아보십시오.
 

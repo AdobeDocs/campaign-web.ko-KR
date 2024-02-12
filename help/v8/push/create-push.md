@@ -2,12 +2,11 @@
 audience: end-user
 title: 푸시 알림 게재 만들기
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 만드는 방법을 알아봅니다
-badge: label="제한 공개"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 32%
+source-wordcount: '714'
+ht-degree: 31%
 
 ---
 
@@ -37,7 +36,7 @@ ht-degree: 32%
 
 1. **[!UICONTROL 게재 만들기]** 버튼을 클릭하여 확인합니다.
 
-   ![](assets/push_create_1.png)
+   ![](assets/push_create_1.png){zoomable=&quot;yes&quot;}
 
 ## 게재 설정 구성 {#configure-push-settings}
 
@@ -69,7 +68,7 @@ ht-degree: 32%
 
 1. 다음에서 **[!UICONTROL 대상자]** 섹션에서 이 게재에 사용할 애플리케이션을 선택합니다. 기본적으로 푸시 알림은 애플리케이션의 모든 구독자에게 전송됩니다. 다음을 클릭하여 특정 대상자로 세분화할 수 있습니다. **[!UICONTROL 대상자 선택]** 단추를 클릭합니다.
 
-   ![](assets/push_create_2.png)
+   ![](assets/push_create_2.png){zoomable=&quot;yes&quot;}
 
 1. 기존 대상자를 선택하거나 고유한 대상자를 만들어 푸시 게재의 대상 모집단을 세분화합니다. 푸시 알림의 경우 기본값 [대상 차원](../audience/about-recipients.md#targeting-dimensions) 은(는) **구독자 애플리케이션** (nms:appSubscriptionRcp) - 수신자 테이블에 연결됩니다.
 
@@ -83,7 +82,7 @@ ht-degree: 32%
 
 알림의 콘텐츠를 정의하려면 **[!UICONTROL 콘텐츠 편집]**. [자세히 알아보기](content-push.md)
 
-![](assets/push_create_5.png)
+![](assets/push_create_5.png){zoomable=&quot;yes&quot;}
 
 이 화면에서 다음을 수행할 수도 있습니다. [콘텐츠 시뮬레이션](../preview-test/preview-test.md) 및 [오퍼 설정](../msg/offers.md).
 
@@ -101,7 +100,7 @@ ht-degree: 32%
 
 게재를 시작하면 메시지가 수신자에 대해 정의한 정확한 날짜 및 시간에 자동으로 전송됩니다.
 
-![](assets/push_create_3.png)
+![](assets/push_create_3.png){zoomable=&quot;yes&quot;}
 
 에서 게재 예약에 대해 자세히 알아보기 [이 섹션](../msg/gs-messages.md#gs-schedule)
 
@@ -109,4 +108,4 @@ ht-degree: 32%
 
 클릭 **[!UICONTROL 게재 설정 구성]** 게재 템플릿과 관련된 고급 옵션에 액세스 [자세히 알아보기](../advanced-settings/delivery-settings.md)
 
-![](assets/push_create_4.png)
+![](assets/push_create_4.png){zoomable=&quot;yes&quot;}

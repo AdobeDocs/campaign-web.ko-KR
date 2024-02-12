@@ -2,11 +2,10 @@
 audience: end-user
 title: 결합 워크플로 활동 사용
 description: 결합 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
-badge: label="제한 공개"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '911'
 ht-degree: 85%
 
 ---

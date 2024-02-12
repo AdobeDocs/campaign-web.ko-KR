@@ -4,10 +4,9 @@ title: 게재 설정
 description: Campaign 웹에서 게재 설정에 대해 자세히 알아보기
 feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="제한 공개"
-source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2429'
 ht-degree: 53%
 
 ---
@@ -44,7 +43,7 @@ ht-degree: 53%
 
 유형화를 사용하면 이메일에 항상 특정 요소(예: 구독 취소 링크 또는 제목 줄)가 포함되어 있는지 확인하거나 그룹을 의도한 타겟(구독 취소자, 경쟁 업체 또는 비충성 고객)에서 제외하는 필터링 규칙이 있는지 확인할 수 있습니다.
 
-![](assets/delivery-settings-typology.png)
+![](assets/delivery-settings-typology.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -130,7 +129,7 @@ ht-degree: 53%
 
 **[!UICONTROL 게재]** 매개 변수는 게재에 적용되는 기술 설정입니다.
 
-![](assets/delivery-settings-delivery.png)
+![](assets/delivery-settings-delivery.png){zoomable=&quot;yes&quot;}
 
 통합 이메일 **[!UICONTROL 라우팅]** 기본적으로 외부 계정이 제공됩니다. 애플리케이션이 이메일을 전송할 수 있는 기술 매개변수가 포함되어 있습니다.
 
@@ -250,7 +249,7 @@ ht-degree: 53%
 
 **[!UICONTROL 리소스 유효성 검사 제한]** 주로 미러 페이지와 이미지에 대해 업로드된 리소스에 사용됩니다. 이 페이지의 리소스는 제한된 시간 동안 유효합니다(디스크 공간을 절약하기 위함). 이 제한이 지나면 이러한 리소스를 더 이상 사용할 수 없습니다.
 
-![](assets/delivery-settings-validity.png)
+![](assets/delivery-settings-validity.png){zoomable=&quot;yes&quot;}
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 

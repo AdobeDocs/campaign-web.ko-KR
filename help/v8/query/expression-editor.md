@@ -2,10 +2,10 @@
 audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
-badge: label="제한 공개"
-source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
+exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '2014'
 ht-degree: 55%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 55%
 
 | 다음에서 액세스: **속성** 필드 | 다음에서 액세스: **값** 필드 |
 |  ---  |  ---  |
-| ![](assets/expression-editor-attribute.png){width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){width="200" align="center" zoomable="yes"} |
+| ![](assets/expression-editor-attribute.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
 
 표현식 편집기에서 제공하는 사항:
 
@@ -34,13 +34,13 @@ ht-degree: 55%
 
 입력 필드에 직접 표현식을 입력하여 표현식을 편집합니다. 필드나 도우미 함수를 추가하려면 추가할 식에 커서를 놓고 + 단추를 클릭합니다.
 
-![](assets/expression-editor.png)
+![](assets/expression-editor.png){zoomable=&quot;yes&quot;}
 
 표현식이 준비되면 **[!UICONTROL 확인]** 단추를 클릭합니다. 선택한 필드에 표현식이 표시됩니다. 편집하려면 표현식 편집기를 열고 원하는 대로 변경합니다.
 
 아래 예제는 다음에 대해 구성된 표현식을 보여줍니다. **[!UICONTROL 값]** 필드. 편집하려면 다음을 사용하여 표현식 편집기를 열어야 합니다. **[!UICONTROL 표현식 편집]** 단추를 클릭합니다.
 
-![](assets/edit-expression-value.png)
+![](assets/edit-expression-value.png){zoomable=&quot;yes&quot;}
 
 ## 도우미 기능
 

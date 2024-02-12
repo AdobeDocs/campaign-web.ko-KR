@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '432'
 ht-degree: 58%
 
 ---
@@ -24,13 +24,13 @@ Adobe Campaign은 사전 구성된 콘텐츠 블록 목록을 제공합니다. �
 
 1. 콘텐츠 블록을 추가할 필드를 찾은 다음 **[!UICONTROL 개인화 대화 상자 열기]** 아이콘을 클릭하여 표현식 편집기를 엽니다.
 
-   ![](assets/content-block-access.png){width="800" align="center"}
+   ![](assets/content-block-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. 표현식 편집기에서 **[!UICONTROL 콘텐츠 블록]** 왼쪽 메뉴.
 
 1. 콘텐츠 블록을 추가하려면 콘텐츠 내에서 원하는 위치에 커서를 놓고 &#39;+&#39; 단추를 클릭하여 삽입합니다.
 
-   ![](assets/content-blocks.png){width="800" align="center"}
+   ![](assets/content-blocks.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 내장된 콘텐츠 블록은 다음과 같습니다.
 

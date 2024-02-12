@@ -2,11 +2,10 @@
 audience: end-user
 title: 대상자 저장 워크플로우 활동 사용
 description: 포크 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
-badge: label="제한 공개"
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
-source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '424'
 ht-degree: 13%
 
 ---

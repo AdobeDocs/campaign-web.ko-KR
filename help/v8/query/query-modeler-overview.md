@@ -2,11 +2,11 @@
 audience: end-user
 title: 쿼리 모델러로 작업
 description: Adobe Campaign 웹 쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다.
-badge: label="제한 공개"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 39%
+source-wordcount: '495'
+ht-degree: 38%
 
 ---
 
@@ -40,17 +40,17 @@ Adobe Campaign Web에는 다양한 기준에 따라 특정 대상을 선택하�
 
 | 사용 | 예제 |
 |  ---  |  ---  |
-| **대상자 정의**: 메시지 또는 워크플로우에서 타겟팅할 모집단을 지정하고 필요에 따라 새로운 대상자를 손쉽게 만들 수 있습니다. | ![](assets/access-audience.png){width="200" align="center" zoomable="yes"} |
-| **워크플로우 활동 사용자 지정**: 특정 요구 사항에 맞게 분할 및 조정과 같은 워크플로우 활동 내에 규칙을 적용합니다. | ![](assets/access-workflow.png){width="200" align="center" zoomable="yes"} |
-| **사전 정의된 필터**: 데이터 목록을 사용하거나 게재 대상을 구성하는 경우와 상관없이 다양한 필터링 작업 중에 바로 가기 역할을 하는 사전 정의된 필터를 만듭니다. | ![](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"} |
-| **보고서 데이터 필터링**: 보고서에 표시되는 데이터를 필터링하는 규칙을 추가합니다. | ![](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
-| **목록 사용자 지정**: 사용자 지정 규칙을 만들어 수신자, 게재 목록 등과 같은 목록에 표시되는 데이터를 필터링합니다. | ![](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
+| **대상자 정의**: 메시지 또는 워크플로우에서 타겟팅할 모집단을 지정하고 필요에 따라 새로운 대상자를 손쉽게 만들 수 있습니다. | ![](assets/access-audience.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **워크플로우 활동 사용자 지정**: 특정 요구 사항에 맞게 분할 및 조정과 같은 워크플로우 활동 내에 규칙을 적용합니다. | ![](assets/access-workflow.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **사전 정의된 필터**: 데이터 목록을 사용하거나 게재 대상을 구성하는 경우와 상관없이 다양한 필터링 작업 중에 바로 가기 역할을 하는 사전 정의된 필터를 만듭니다. | ![](assets/access-predefined-filter.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **보고서 데이터 필터링**: 보고서에 표시되는 데이터를 필터링하는 규칙을 추가합니다. | ![](assets/access-reports.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **목록 사용자 지정**: 사용자 지정 규칙을 만들어 수신자, 게재 목록 등과 같은 목록에 표시되는 데이터를 필터링합니다. | ![](assets/access-lists.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
 
 <!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
 
 +++Example
 
-![](assets/access-audience.png)
+![](assets/access-audience.png){zoomable="yes"}
 
  +++
 -->
@@ -59,7 +59,7 @@ Adobe Campaign Web에는 다양한 기준에 따라 특정 대상을 선택하�
 
 쿼리 모델러는 쿼리를 작성하는 중앙 캔버스와 쿼리에 대한 정보를 제공하는 오른쪽 창을 제공합니다.
 
-![](assets/query-interface.png)
+![](assets/query-interface.png){zoomable=&quot;yes&quot;}
 
 ### 중앙 캔버스 {#canvas}
 

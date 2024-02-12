@@ -2,12 +2,11 @@
 audience: end-user
 title: Adobe Campaign Web을 사용하여 캠페인 만들기
 description: Adobe Campaign Web을 사용하여 크로스 채널 캠페인을 구축하는 방법 알아보기
-badge: label="제한 공개"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 36%
+source-wordcount: '442'
+ht-degree: 35%
 
 ---
 

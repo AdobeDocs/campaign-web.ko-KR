@@ -2,12 +2,11 @@
 audience: end-user
 title: SMS 게재 보내기
 description: Adobe Campaign 웹으로 SMS를 보내는 방법 알아보기
-badge: label="제한 공개"
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 14%
+source-wordcount: '430'
+ht-degree: 13%
 
 ---
 
@@ -26,18 +25,18 @@ SMS 게재를 미리 보는 주요 단계는 다음과 같습니다. 게재 미�
 
 1. 게재 콘텐츠 페이지에서 **[!UICONTROL 콘텐츠 시뮬레이션]** 개인화된 콘텐츠를 미리 볼 수 있습니다.
 
-   ![](assets/sms_send_1.png)
+   ![](assets/sms_send_1.png){zoomable=&quot;yes&quot;}
 
 1. **[!UICONTROL 테스트 프로필 추가]**&#x200B;를 클릭하여 하나 또는 여러 테스트 프로필 또는 프로필을 선택합니다.
 
    <!--
     Once your test profiles are selected, click **[!UICONTROL Select]**.
-    ![](assets/sms_send_2.png)
+    ![](assets/sms_send_2.png){zoomable="yes"}
     -->
 
 1. 오른쪽 창에는 개인화된 요소가 선택한 프로필의 데이터로 동적으로 대체되는 SMS 게재 미리보기가 있습니다.
 
-   ![](assets/sms_send_3.png)
+   ![](assets/sms_send_3.png){zoomable=&quot;yes&quot;}
 
 이제 SMS 메시지를 검토하고 대상자에게 전송할 수 있습니다.
 
@@ -49,13 +48,13 @@ SMS 게재를 미리 보는 주요 단계는 다음과 같습니다. 게재 미�
 
 ![](../assets/do-not-localize/book.png) 에서 테스트 SMS를 보내는 방법 알아보기 [이 섹션](../preview-test/test-deliveries.md).
 
-![](assets/sms_send_6.png)
+![](assets/sms_send_6.png){zoomable=&quot;yes&quot;}
 
 ## SMS 게재 보내기 {#send-sms}
 
 1. SMS 콘텐츠를 개인화한 후 을(를) 클릭합니다 **[!UICONTROL 검토 및 보내기]** (으)로부터 **[!UICONTROL 게재]** 페이지를 가리키도록 업데이트하는 중입니다.
 
-   ![](assets/sms_send_4.png)
+   ![](assets/sms_send_4.png){zoomable=&quot;yes&quot;}
 
 1. 클릭 **[!UICONTROL 준비]** 진행 상황 및 통계를 모니터링합니다.
 
@@ -63,7 +62,7 @@ SMS 게재를 미리 보는 주요 단계는 다음과 같습니다. 게재 미�
 
 1. 을(를) 클릭하여 메시지 보내기 **[!UICONTROL 보내기]** 최종 전송 프로세스를 진행합니다.
 
-   ![](assets/sms_send_5.png)
+   ![](assets/sms_send_5.png){zoomable=&quot;yes&quot;}
 
    SMS 게재가 예약된 경우 **[!UICONTROL 예약된 대로 보내기]** 단추를 클릭합니다. 에서 게재 예약에 대해 자세히 알아보기 [이 섹션](../msg/gs-messages.md#schedule-the-delivery-sending).
 

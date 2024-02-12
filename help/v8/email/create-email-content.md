@@ -3,11 +3,10 @@ audience: end-user
 title: 이메일 디자이너에서 이메일 디자인
 description: 이메일 콘텐츠를 처음부터 디자인하는 방법 알아보기
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-badge: label="제한 공개"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 71%
+source-wordcount: '595'
+ht-degree: 69%
 
 ---
 
@@ -60,7 +59,7 @@ ht-degree: 71%
 
 1. 다음에서 [이메일 디자이너](get-started-email-designer.md#start-authoring) 홈 페이지에서 **[!UICONTROL 처음부터 디자인]** 옵션을 선택합니다.
 
-   ![](assets/email_designer-from-scratch.png)
+   ![](assets/email_designer-from-scratch.png){zoomable=&quot;yes&quot;}
 
 1. 끌어다 놓기 방식으로 이메일 콘텐츠 디자인 시작 **[!UICONTROL 구조]** 을 캔버스에 추가하여 이메일 레이아웃을 정의할 수 있습니다.
 
@@ -70,7 +69,7 @@ ht-degree: 71%
 
 1. 개수만큼 추가 **[!UICONTROL 구조]** 필요에 따라 오른쪽의 전용 창에서 설정을 편집합니다.
 
-   ![](assets/email_designer_structure_components.png)
+   ![](assets/email_designer_structure_components.png){zoomable=&quot;yes&quot;}
 
 1. 다음을 선택할 수 있습니다. **[!UICONTROL n:n 열]** 선택한 열의 수를 정의하는 구성 요소(3~10개). 각 열의 아래쪽에 있는 화살표를 이동하여 각 열의 폭을 정의할 수도 있습니다.
 
@@ -82,7 +81,7 @@ ht-degree: 71%
 
 1. 다음을 사용하여 각 구성 요소를 추가로 사용자 정의할 수 있습니다. **[!UICONTROL 설정]** 또는 **[!UICONTROL 스타일]** 오른쪽 탭 예를 들어 각 구성 요소의 텍스트 스타일, 패딩 또는 여백을 변경할 수 있습니다. [정렬 및 패딩에 대해 자세히 알아보기](alignment-and-padding.md)
 
-   ![](assets/email_designer-styles.png)
+   ![](assets/email_designer-styles.png){zoomable=&quot;yes&quot;}
 
 1. 개인화 필드를 삽입하여 프로필 데이터를 기반으로 이메일 콘텐츠를 사용자 정의합니다. [콘텐츠 개인화에 대해 자세히 알아보기](../personalization/personalize.md)
 
@@ -92,7 +91,7 @@ ht-degree: 71%
 
 [링크 및 메시지 추적에 대해 자세히 알아보기](message-tracking.md)
 
-   ![](assets/email_designer-links.png)
+   ![](assets/email_designer-links.png){zoomable=&quot;yes&quot;}
 
 1. 필요한 경우 고급 메뉴에서 **[!UICONTROL 코드 편집기로 전환]**&#x200B;을 클릭하여 이메일을 추가로 개인화할 수 있습니다. 이를 통해 이메일 소스 코드를 편집할 수 있습니다(예: 추적 또는 사용자 정의 HTML 태그 추가). [코드 편집기에 대해 자세히 알아보기](code-content.md)
 
@@ -102,7 +101,7 @@ ht-degree: 71%
 
 1. 콘텐츠가 준비되면 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을 클릭하여 이메일 렌더링을 확인합니다. 데스크탑 또는 모바일 보기 중 선택할 수 있습니다. [이메일 미리보기에 대해 자세히 알아보기](../preview-test/preview-test.md)
 
-   ![](assets/email_designer-simulate.png)
+   ![](assets/email_designer-simulate.png){zoomable=&quot;yes&quot;}
 
 1. 이메일이 준비되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 

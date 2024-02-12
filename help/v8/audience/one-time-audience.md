@@ -2,12 +2,11 @@
 audience: end-user
 title: 게재를 위한 일회성 대상 구축
 description: 게재를 위한 일회성 대상을 구축하는 방법을 알아봅니다.
-badge: label="제한 공개"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 30%
+source-wordcount: '230'
+ht-degree: 29%
 
 ---
 
@@ -26,11 +25,11 @@ ht-degree: 30%
 
 1. 게재 생성 도우미의 **대상자** 섹션에서 **[!UICONTROL 대상자 선택]** 버튼을 클릭합니다.
 
-   ![](assets/segment-builder0.png)
+   ![](assets/segment-builder0.png){zoomable=&quot;yes&quot;}
 
 1. **직접 만들기**&#x200B;를 선택합니다. 쿼리 모델러가 표시됩니다. 데이터베이스에 포함된 데이터를 필터링하여 게재 대상의 모집단을 정의할 수 있습니다. [쿼리 모델러를 사용하는 방법 알아보기](../query/query-modeler-overview.md)
 
-   ![](assets/query-modeler.png)
+   ![](assets/query-modeler.png){zoomable=&quot;yes&quot;}
 
 1. 쿼리가 준비되면 **확인** 게재의 주요 타겟으로 대상자를 사용합니다.
 

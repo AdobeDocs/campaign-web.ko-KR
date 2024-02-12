@@ -2,11 +2,10 @@
 audience: end-user
 title: 워크플로 시작
 description: 워크플로를 시작하는 방법 알아보기
-badge: label="제한 공개"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
-workflow-type: ht
-source-wordcount: '437'
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+workflow-type: tm+mt
+source-wordcount: '435'
 ht-degree: 100%
 
 ---
@@ -17,7 +16,7 @@ ht-degree: 100%
 >id="acw_homepage_welcome_rn2"
 >title="크로스 채널 워크플로"
 >abstract="자동화 및 최적화를 위한 새로운 가능성을 열어 더욱 동적이고 개인화된 고객 여정을 창출할 수 있습니다. 고급 세분화에서 조건부 트리거에 이르기까지 추가적인 워크플로 활동을 통해 타겟팅된 메시지를 전달하고 캠페인 성과를 높일 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ko" text="릴리스 정보 참조"
 
 
 <!--TO REMOVE BELOW-->
@@ -25,7 +24,7 @@ ht-degree: 100%
 >id="acw_homepage_rn2"
 >title="크로스 채널 워크플로"
 >abstract="자동화 및 최적화를 위한 새로운 가능성을 열어 더욱 동적이고 개인화된 고객 여정을 창출할 수 있습니다. 고급 세분화에서 조건부 트리거에 이르기까지 추가적인 워크플로 활동을 통해 타겟팅된 메시지를 전달하고 캠페인 성과를 높일 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ko" text="릴리스 정보 참조"
 
 <!--TO REMOVE ABOVE-->
 

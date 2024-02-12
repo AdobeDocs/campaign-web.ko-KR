@@ -3,10 +3,9 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="제한 공개"
-source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1640'
 ht-degree: 95%
 
 ---
@@ -33,7 +32,7 @@ Campaign 홈페이지를 사용하면 주요 리소스, 지표, 구성 요소를
 
 홈페이지의 상단 섹션에서 릴리스 정보와 세부 설명서로 가는 링크가 있습니다. 또 제품에서 사용할 수 있는 최신 업데이트 및 새로운 기능의 자세한 내용을 볼 수 있습니다. 왼쪽 화살표를 사용하여 기능 카드를 스크롤할 수 있습니다.
 
-![](assets/home.png)
+![](assets/home.png){zoomable=&quot;yes&quot;}
 
 **주요 성과 지표**&#x200B;를 사용하면 공통 KPI를 통해 플랫폼 효율성을 확인할 수 있습니다. 이러한 KPI에 대한 자세한 내용은 [이 페이지](../reporting/kpis.md)를 참조하십시오.
 
@@ -71,7 +70,7 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 
   **추가 작업**&#x200B;을 사용하여 게재를 삭제하거나 복제할 수 있습니다.
 
-  ![](assets/more-actions.png){width="70%" align="left"}
+  ![](assets/more-actions.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 * **워크플로** - 이 화면에서 워크플로 전체 목록 및 워크플로 템플릿에 액세스할 수 있습니다. 상태, 마지막/다음 실행 일자를 확인하고 새 워크플로 또는 새 워크플로 템플릿을 만들 수 있습니다. 다른 오브젝트와 동일한 기준으로 목록을 필터링할 수 있습니다. 또한 캠페인에 속한 워크플로 또는 속하지 않은 워크플로를 필터링할 수 있습니다. [이 섹션에서](../workflows/gs-workflows.md) 워크플로에 대해 자세히 알아보십시오.
 
@@ -119,7 +118,7 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 
 인터페이스에서 상황별 도움말을 사용할 수 있습니다. 사용 가능한 경우 `?` 아이콘을 클릭하면 도움말 정보 및 관련 설명서 링크가 표시됩니다.
 
-![](assets/do-not-localize/context-help.png){width="40%" align="left"}
+![](assets/do-not-localize/context-help.png){zoomable=&quot;yes&quot;}{width="40%" align="left"}
 
 현재 새 Campaign 웹 사용자 인터페이스 내에 베타 버전으로 출시된 **AI 기반 기술 지원** 상황별 도움말에 포함되어 방대한 설명서 저장소를 손쉽게 탐색하여 설명서 검색 및 사용 방법 질문에 대한 대답 기능을 혁신적으로 개선하고 필요한 정확한 정보를 즉시 정확하게 찾아냅니다.
 

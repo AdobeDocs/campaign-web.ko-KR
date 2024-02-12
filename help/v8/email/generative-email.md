@@ -6,9 +6,9 @@ badge: label="Alpha"
 exl-id: f6c9c940-ae85-44e6-a23e-9133df87e67e
 hide: true
 hidefromtoc: true
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '463'
 ht-degree: 3%
 
 ---
@@ -36,7 +36,7 @@ Content Assistant는 전체 이메일 콘텐츠를 자동으로 생성하여 시
 
 1. 오른쪽 메뉴에서 **[!UICONTROL 경험 생성]**.
 
-   ![](assets/email-genai-1.png)
+   ![](assets/email-genai-1.png){zoomable=&quot;yes&quot;}
 
 1. 생성하려는 내용을 설명하여 콘텐츠를 미세 조정합니다.
 
@@ -46,7 +46,7 @@ Content Assistant는 전체 이메일 콘텐츠를 자동으로 생성하여 시
    * 피드백 및 설문 조사: 고객이 최근 소프트웨어 경험에 대한 피드백을 제공하고 제품 개선 설문 조사에 참여할 수 있도록 초대하는 이메일을 만듭니다.
    * 기념일 또는 생일 이메일의 경우: 생일 이메일을 생성하여 고객의 특별한 날을 축하하고 생일 할인을 제공합니다.
 
-   ![](assets/email-genai-2.png)
+   ![](assets/email-genai-2.png){zoomable=&quot;yes&quot;}
 
 1. 선택 **[!UICONTROL 파일 업로드]** 추가 컨텍스트를 제공할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가하려면 콘텐츠 도우미를 사용하십시오.
 
@@ -56,7 +56,7 @@ Content Assistant는 전체 이메일 콘텐츠를 자동으로 생성하여 시
 
 1. 다음을 선택합니다. **[!UICONTROL 언어]** 및 **[!UICONTROL 톤]** 생성된 텍스트에 포함할 텍스트입니다. 이렇게 하면 텍스트가 대상자와 목적에 맞게 조정됩니다.
 
-   ![](assets/email-genai-3.png)
+   ![](assets/email-genai-3.png){zoomable=&quot;yes&quot;}
 
 1. 사용자 지정 **[!UICONTROL 컨텐츠 유형]** 원하는 에셋 특성과 일치하도록 에셋 설정.
 
@@ -64,16 +64,16 @@ Content Assistant는 전체 이메일 콘텐츠를 자동으로 생성하여 시
 
 1. 찾아보기 **[!UICONTROL 변형 제안]** 원하는 이메일을 찾습니다. 클릭 **[!UICONTROL 미리 보기]** 선택한 변형의 전체 화면 버전을 보려면 다음과 같이 하십시오.
 
-   ![](assets/email-genai-4.png)
+   ![](assets/email-genai-4.png){zoomable=&quot;yes&quot;}
 
 1. 클릭 **[!UICONTROL 선택]** 적절한 콘텐츠를 찾았으면
 
-   ![](assets/email-genai-5.png)
+   ![](assets/email-genai-5.png){zoomable=&quot;yes&quot;}
 
 1. 개인화 필드를 삽입하여 프로필 데이터를 기반으로 이메일 콘텐츠를 사용자 정의하거나 필요한 경우 콘텐츠를 추가로 개인화합니다. [콘텐츠 개인화에 대해 자세히 알아보기](../personalization/personalize.md)
 
 1. 이메일 콘텐츠를 정의한 후 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 렌더링을 제어하고 테스트 프로필로 개인화 설정을 확인합니다.  [자세히 알아보기](../preview-test/preview-content.md)
 
-   ![](assets/email-genai-6.png)
+   ![](assets/email-genai-6.png){zoomable=&quot;yes&quot;}
 
 1. 콘텐츠, 대상자 및 일정을 정의했으면 이메일 게재를 준비할 준비가 되었습니다. [자세히 알아보기](../monitor/prepare-send.md)

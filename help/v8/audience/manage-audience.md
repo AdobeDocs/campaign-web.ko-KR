@@ -2,11 +2,10 @@
 audience: end-user
 title: 대상자 모니터링 및 관리
 description: Adobe Campaign 웹에서 대상자를 모니터링하고 관리하는 방법 알아보기
-badge: label="제한 공개"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '541'
 ht-degree: 26%
 
 ---
@@ -45,7 +44,7 @@ ht-degree: 26%
 
 Campaign 웹에서 사용할 수 있는 대상자 목록은 **[!UICONTROL 대상]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-![](assets/audiences-list.png)
+![](assets/audiences-list.png){zoomable=&quot;yes&quot;}
 
 대상은 여러 소스에서 발생할 수 있습니다. 다음 **[!UICONTROL 원본]** 열은 지정된 대상이 만들어진 위치를 나타냅니다.
 
@@ -63,6 +62,6 @@ Campaign 웹에서 사용할 수 있는 대상자 목록은 **[!UICONTROL 대상
 
 다음 **[!UICONTROL 데이터]** 탭에서는 대상의 일부인 프로필을 표시할 수 있습니다. 열을 더 추가하여 이 보기를 사용자 지정하거나 고급 필터를 활용하여 표시된 데이터를 구체화할 수 있습니다.
 
-![](assets/audiences-details.png)
+![](assets/audiences-details.png){zoomable=&quot;yes&quot;}
 
 대상을 복제하거나 삭제하려면 **[!UICONTROL 추가 작업]** 버튼은 대상자 이름 옆의 대상자 목록 또는 대상자 세부 사항 화면 내에서 사용할 수 있습니다.

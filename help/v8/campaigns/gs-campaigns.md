@@ -2,11 +2,10 @@
 audience: end-user
 title: 캠페인 시작하기
 description: 크로스 채널 캠페인 시작 방법 알아보기
-badge: label="제한 공개"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
-workflow-type: ht
-source-wordcount: '214'
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+workflow-type: tm+mt
+source-wordcount: '212'
 ht-degree: 100%
 
 ---

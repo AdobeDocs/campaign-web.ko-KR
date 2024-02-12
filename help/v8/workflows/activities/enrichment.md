@@ -2,11 +2,10 @@
 audience: end-user
 title: 보강 워크플로 활동 사용
 description: 보강 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
-badge: label="제한 공개"
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '722'
 ht-degree: 81%
 
 ---

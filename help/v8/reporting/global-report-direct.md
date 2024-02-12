@@ -2,10 +2,9 @@
 audience: end-user
 title: DM 채널에 대한 전역 보고서
 description: DM 채널에 대한 글로벌 보고서에 대해 자세히 알아보기
-badge: label="제한 공개"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '634'
 ht-degree: 4%
 
 ---
@@ -22,7 +21,7 @@ ht-degree: 4%
 
 다음 **[!UICONTROL 게재 개요]** 은 방문자와 각 이메일 게재의 상호 작용에 대한 심층적인 통찰력을 제공하는 주요 성능 지표(KPI)를 제공합니다. 지표는 아래에 요약되어 있습니다.
 
-![](assets/global_report_email_delivery_overview.png){align="center"}
+![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++게재 개요 지표에 대해 자세히 알아보십시오.
 
@@ -39,7 +38,7 @@ ht-degree: 4%
 
 에 대한 테이블 및 그래프 **[!UICONTROL 타깃팅된 대상]** 아래에 제공된 세부 지표를 사용하여 수신자와 관련된 데이터를 표시합니다.
 
-![](assets/global_report_email_targeted_audience.png){align="center"}
+![](assets/global_report_email_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++타깃팅된 대상 지표에 대해 자세히 알아보십시오.
 
@@ -55,7 +54,7 @@ ht-degree: 4%
 
 다음 **[!UICONTROL 게재 통계]** 표는 모든 DM 게재의 성공 사례를 아래에 요약된 세부 지표와 함께 제공합니다.
 
-![](assets/global_report_email_delivery_statistics.png){align="center"}
+![](assets/global_report_email_delivery_statistics.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++게재 통계 지표에 대해 자세히 알아보십시오.
 
@@ -71,7 +70,7 @@ ht-degree: 4%
 
 ### 제외 이유 {#causes-exclusion}
 
-![](assets/global_report_email_exclusions.png){align="center"}
+![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
 제외 그래프 및 표는 타겟팅된 프로필에서 제외된 사용자 프로필이 메시지를 받지 못하는 이유를 설명합니다.
 

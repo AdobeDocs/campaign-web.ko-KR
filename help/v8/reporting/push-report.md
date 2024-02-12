@@ -2,12 +2,11 @@
 audience: end-user
 title: 푸시 게재 보고서
 description: 푸시 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
-badge: label="제한 공개"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: 9d3485293a6576e87e03d8691c403fcaeafbbeb1
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 38%
+source-wordcount: '486'
+ht-degree: 37%
 
 ---
 
@@ -31,7 +30,7 @@ ht-degree: 38%
 
 다음 **[!UICONTROL 게재 개요]** 보고서는 방문자가 푸시 메시지에 참여하는 방식에 대한 자세한 정보를 제공하는 주요 성능 지표(KPI)를 제공합니다.
 
-![](assets/reporting_push_3.png)
+![](assets/reporting_push_3.png){zoomable=&quot;yes&quot;}
 
 +++푸시 게재 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -54,7 +53,7 @@ ht-degree: 38%
 
 다음 **대상 모집단** 그래프 및 표는 대상자를 기준으로 데이터를 표시합니다(게재할 메시지 및 제외). 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/reporting_push_4.png)
+![](assets/reporting_push_4.png){zoomable=&quot;yes&quot;}
 
 +++푸시 게재 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -73,7 +72,7 @@ ht-degree: 38%
 
 다음 **전체 통계** 보고서는 전송된 푸시 알림에 대한 데이터(성공, 오류 및 격리)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/reporting_push_5.png)
+![](assets/reporting_push_5.png){zoomable=&quot;yes&quot;}
 
 +++푸시 게재 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -95,7 +94,7 @@ ht-degree: 38%
 다음 **[!UICONTROL 제외]** 그래프와 표에는 타겟팅된 프로필에서 제외된 사용자 프로필에서 메시지를 받지 못하게 한 다양한 이유가 표시됩니다. 제외 규칙은 다음에 자세히 설명되어 있습니다. [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
 
 
-![](assets/reporting_push_6.png)
+![](assets/reporting_push_6.png){zoomable=&quot;yes&quot;}
 
 ## 게재 처리량 {#delivery-throughput}
 
@@ -106,4 +105,4 @@ ht-degree: 38%
 
 다음 **게재 처리량** 보고서는 지정된 기간 내에 전체 플랫폼의 게재 처리량에 대한 자세한 정보를 제공합니다. 메시지 게재 속도를 측정하는 데 사용되는 주요 지표는 시간당 전송된 메시지 수입니다.
 
-![](assets/reporting_push_2.png)
+![](assets/reporting_push_2.png){zoomable=&quot;yes&quot;}

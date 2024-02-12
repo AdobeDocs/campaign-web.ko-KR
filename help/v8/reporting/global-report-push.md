@@ -2,11 +2,11 @@
 audience: end-user
 title: 푸시 채널에 대한 글로벌 보고서
 description: 푸시 채널에 대한 글로벌 보고서 이해
-badge: label="제한 공개"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 26%
+source-wordcount: '554'
+ht-degree: 25%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 26%
 
 다음 **[!UICONTROL 게재 개요]** 보고서는 방문자가 모든 푸시 알림 전달을 수행하는 방법에 대한 자세한 정보를 제공하는 주요 성과 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/global_report_push_delivery_overview.png)
+![](assets/global_report_push_delivery_overview.png){zoomable=&quot;yes&quot;}
 
 +++게재 개요 지표에 대해 자세히 알아보십시오.
 
@@ -50,7 +50,7 @@ ht-degree: 26%
 
 다음 **[!UICONTROL 타깃팅된 대상]** 테이블 및 그래프는 전송된 각 푸시 알림 게재에 대해 수신자와 관련된 데이터를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/global_report_push_targeted_audience.png)
+![](assets/global_report_push_targeted_audience.png){zoomable=&quot;yes&quot;}
 
 +++타깃팅된 대상 지표에 대해 자세히 알아보십시오.
 
@@ -71,7 +71,7 @@ ht-degree: 26%
 
 다음 **[!UICONTROL 게재 통계]** 표에서 모든 푸시 알림 전달의 성공 여부를 확인할 수 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/global_report_push_delivery_statistics.png)
+![](assets/global_report_push_delivery_statistics.png){zoomable=&quot;yes&quot;}
 
 +++게재 통계 지표에 대해 자세히 알아보십시오.
 
@@ -105,7 +105,6 @@ ht-degree: 26%
 >title="게재 처리량 보고서"
 >abstract="**게재 처리량** 보고서는 지정된 기간 내 전체 플랫폼의 푸시 알림 게재 처리량에 대한 자세한 정보를 제공합니다."
 
-![](assets/global_report_push_delivery_throughput.png)
+![](assets/global_report_push_delivery_throughput.png){zoomable=&quot;yes&quot;}
 
 다음 **[!UICONTROL 게재 처리량]** 보고서는 푸시 알림 전달 시스템의 효과에 대한 포괄적인 통찰력을 제공하여 지정된 기간 동안의 성공 및 오류율에 대한 자세한 요약을 제공합니다.
-

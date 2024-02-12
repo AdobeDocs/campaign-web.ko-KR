@@ -3,10 +3,9 @@ audience: end-user
 title: 게재 콘텐츠 미리 보기
 description: Campaign 웹 사용자 인터페이스를 사용하여 게재 콘텐츠를 미리 보는 방법 알아보기
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="제한 공개"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '358'
 ht-degree: 1%
 
 ---
@@ -22,7 +21,7 @@ ht-degree: 1%
 
 1. 다음을 클릭합니다. **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다.
 
-   ![](assets/simulate-button.png)
+   ![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 
 1. 개인화된 콘텐츠를 미리 보는 데 사용할 프로필을 선택하려면 다음을 사용합니다.
 
@@ -36,11 +35,11 @@ ht-degree: 1%
 
    * 다음 **[!UICONTROL 프로필]** 탭에는 데이터베이스에 저장된 모든 프로필이 나열됩니다. [프로필 작업 방법 알아보기](../audience/about-recipients.md)
 
-   ![](assets/simulate-select-profiles.png)
+   ![](assets/simulate-select-profiles.png){zoomable=&quot;yes&quot;}
 
 1. 테스트 프로필 또는 프로필 목록을 검색할 때 필터를 사용하여 검색을 구체화할 수 있습니다.
 
-   ![](assets/simulate-test-profile-filter.png)
+   ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
 
    예를 들어 다음과 같은 테스트 프로필을 모두 찾는 규칙을 정의할 수 있습니다. **[!UICONTROL 잠재 고객]** 상태. [쿼리 모델러를 사용하여 규칙을 추가하는 방법을 알아봅니다](../query/query-modeler-overview.md).
 
@@ -48,7 +47,7 @@ ht-degree: 1%
 
    게재 콘텐츠 미리보기가 의 오른쪽 창에 표시됩니다. **[!UICONTROL 시뮬레이트]** 화면. 개인화된 요소는 왼쪽 창에서 선택한 프로필의 데이터로 바뀝니다.
 
-   ![](assets/simulate-preview.png)
+   ![](assets/simulate-preview.png){zoomable=&quot;yes&quot;}
 
 1. 여러 프로필을 추가한 경우 목록에서 전환하여 해당 게재 콘텐츠를 미리 볼 수 있습니다. 왼쪽 창의 해당 단추를 사용하여 테스트 프로필을 더 추가하고 선택을 취소할 수도 있습니다.
 

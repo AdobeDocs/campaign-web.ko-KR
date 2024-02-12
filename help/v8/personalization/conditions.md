@@ -5,11 +5,10 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
-badge: label="제한 공개"
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 9f5d3d8ea7441641e037545d5bf22dda09a1f881
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '994'
 ht-degree: 6%
 
 ---
@@ -41,7 +40,7 @@ ht-degree: 6%
 
 1. 다음을 클릭합니다. **[!UICONTROL 개인화 대화 상자 열기]** 필드 옆에 있는 아이콘을 클릭하여 표현식 편집기를 엽니다.
 
-   ![](assets/open-perso-editor-sms.png)
+   ![](assets/open-perso-editor-sms.png){zoomable=&quot;yes&quot;}
 
 1. 개인화 편집기에서 **[!UICONTROL 도우미 함수]** 왼쪽에 있는 메뉴입니다.
 
@@ -51,7 +50,7 @@ ht-degree: 6%
    * 바꾸기 `<VALUE>` 를 만족시킬 값으로 채우십시오. 예를 들어, `'French'`.
    * 바꾸기 `Ìnsert content here` 지정된 조건을 충족하는 프로필에 표시할 콘텐츠로 대체합니다.
 
-     ![](assets/condition-sample1.png){width="800" align="center"}
+     ![](assets/condition-sample1.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. 수신자가 조건을 충족하지 않을 경우 표시되어야 하는 콘텐츠를 지정합니다. 이렇게 하려면 다음을 사용하십시오. **else** 도우미 함수:
 
@@ -59,11 +58,11 @@ ht-degree: 6%
 
    1. 바꾸기 `Ìnsert content here` if 함수의 조건을 충족하지 않는 프로필에 표시할 콘텐츠로 식별됩니다.
 
-   ![](assets/condition-sample2.png){width="800" align="center"}
+   ![](assets/condition-sample2.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
    다음을 사용할 수도 있습니다 **else if** 여러 콘텐츠 변형을 사용하여 조건을 빌드하는 도우미 함수입니다. 예를 들어 아래 표현식은 수신자의 언어에 따라 메시지의 세 가지 변형을 표시합니다.
 
-   ![](assets/condition-sample3.png){width="800" align="center"}
+   ![](assets/condition-sample3.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
    >[!NOTE]
    >
@@ -93,29 +92,29 @@ ht-degree: 6%
 
 1. 콘텐츠 구성 요소를 선택하고 **[!UICONTROL 조건부 콘텐츠 활성화]** 아이콘.
 
-   ![](assets/condition-email-enable.png){width="800" align="center"}
+   ![](assets/condition-email-enable.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. 다음 **[!UICONTROL 조건부 콘텐츠]** 창이 화면 왼쪽에서 열립니다. 이 창에서는 조건을 사용하여 선택한 콘텐츠 구성 요소의 변형을 여러 개 만들 수 있습니다.
 
 1. 첫 번째 변형을 구성합니다. 마우스로 가리키기 **[!UICONTROL 변형 - 1]** 다음에서 **[!UICONTROL 조건부 콘텐츠]** 창을 클릭하고 **[!UICONTROL 조건 추가]** 단추를 클릭합니다.
 
-   ![](assets/condition-add-condition.png){width="800" align="center"}
+   ![](assets/condition-add-condition.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. 규칙 빌더가 표시됩니다. 다음을 제공합니다. **프로필**, **메시지**, 및 **게재** 조건을 만들기 위해 활용할 수 있는 속성입니다.
 
    또한 **조건** 메뉴는 캔버스에 추가하여 변형을 쉽게 작성할 수 있는 사전 빌드된 조건을 제공합니다. 이를 사용하려면 **추가** 단추를 클릭한 다음 다음 다음 사이에 요소 바꾸기 `<` 및 `>`원하는 요소에 의한 기호. 에 지정하는 값이 `<value>` 개체가 따옴표로 묶여 있습니다.
 
-   ![](assets/condition-syntax.png){width="800" align="center"}
+   ![](assets/condition-syntax.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. 메시지의 첫 번째 변형에 대한 조건이 준비되면 **[!UICONTROL 확인]**. 이 예제에서는 언어가 &#39;프랑스어&#39;인 수신자를 타겟팅하는 규칙을 만들고 있습니다.
 
-   ![](assets/condition-example.png){width="800" align="center"}
+   ![](assets/condition-example.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. 이제 규칙이 변형과 연결됩니다. 가독성을 높이기 위해 줄임표 메뉴를 클릭하여 변형 이름을 바꾸는 것이 좋습니다.
 
 1. 메시지를 보낼 때 규칙이 충족되는 경우 구성 요소가 표시되는 방식을 구성합니다. 이 예제에서는 수신자의 선호 언어인 경우 프랑스어로 텍스트를 표시하려고 합니다.
 
-   ![](assets/condition-email-variant1.png){width="800" align="center"}
+   ![](assets/condition-email-variant1.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. 콘텐츠 구성 요소에 필요한 만큼 변형을 추가합니다. 언제든지 변형 간을 전환하여 조건부 규칙에 따라 콘텐츠 구성 요소가 표시되는 방식을 확인할 수 있습니다.
 

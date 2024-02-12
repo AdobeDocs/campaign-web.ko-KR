@@ -2,11 +2,10 @@
 audience: end-user
 title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 빌드하는 방법 알아보기
-badge: label="제한 공개"
 exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '583'
 ht-degree: 4%
 
 ---
@@ -23,7 +22,7 @@ ht-degree: 4%
 
 시각적인 흐름을 사용하여 실시간으로 타겟팅된 프로필의 진행 상황을 추적할 수 있습니다. 이렇게 하면 각 활동의 상태와 활동 간에 전환되는 프로필 수를 빠르게 식별할 수 있습니다.
 
-![](assets/workflow-execution.png)
+![](assets/workflow-execution.png){zoomable=&quot;yes&quot;}
 
 ## 워크플로우 전환 {#transitions}
 
@@ -32,7 +31,7 @@ ht-degree: 4%
 * 클릭 **[!UICONTROL 스키마 미리 보기]** 작업 테이블의 스키마를 표시합니다.
 * 클릭 **[!UICONTROL 결과 미리보기]** 을 클릭하여 선택한 전환으로 전송된 데이터를 시각화합니다.
 
-![](assets/transition.png)
+![](assets/transition.png){zoomable=&quot;yes&quot;}
 
 ## 활동 실행 모니터링 {#activities}
 
@@ -40,10 +39,10 @@ ht-degree: 4%
 
 | 시각적 표시기 | 설명 |
 |-----|------------|
-| ![](assets/activity-status-pending.png){width="70%"} | 활동이 현재 실행 중입니다. |
-| ![](assets/activity-status-orange.png){width="70%"} | 이 활동에는 주의가 필요합니다. 여기에는 게재 전송을 확인하거나 필요한 조치를 취하는 작업이 포함될 수 있습니다. |
-| ![](assets/activity-status-red.png){width="70%"} | 활동에 오류가 발생했습니다. 문제를 해결하려면 워크플로우 로그에서 자세한 내용을 엽니다. |
-| ![](assets/activity-status-green.png){width="70%"} | 활동이 정상적으로 실행되었습니다. |
+| ![](assets/activity-status-pending.png){zoomable=&quot;yes&quot;}{width="70%"} | 활동이 현재 실행 중입니다. |
+| ![](assets/activity-status-orange.png){zoomable=&quot;yes&quot;}{width="70%"} | 이 활동에는 주의가 필요합니다. 여기에는 게재 전송을 확인하거나 필요한 조치를 취하는 작업이 포함될 수 있습니다. |
+| ![](assets/activity-status-red.png){zoomable=&quot;yes&quot;}{width="70%"} | 활동에 오류가 발생했습니다. 문제를 해결하려면 워크플로우 로그에서 자세한 내용을 엽니다. |
+| ![](assets/activity-status-green.png){zoomable=&quot;yes&quot;}{width="70%"} | 활동이 정상적으로 실행되었습니다. |
 
 ## 로그 및 작업 모니터링 {#logs-tasks}
 
@@ -51,7 +50,7 @@ ht-degree: 4%
 
 다음 **[!UICONTROL 로그 및 작업]** 메뉴에서는 모든 사용자 작업을 기록하고 오류가 발생한 워크플로우 실행 기록을 제공합니다. 이 기록은 워크플로우에 지정된 기간 동안 저장됩니다. [실행 옵션](workflow-settings.md). 이 기간 동안에는 워크플로우를 다시 시작한 후에도 모든 메시지가 저장됩니다. 이전 실행에서 메시지를 저장하지 않으려면 **[!UICONTROL 제거 내역]** 단추를 클릭합니다.
 
-![](assets/workflow-logs.png)
+![](assets/workflow-logs.png){zoomable=&quot;yes&quot;}
 
 다음 두 가지 유형의 정보를 사용할 수 있습니다.
 

@@ -3,10 +3,9 @@ audience: end-user
 title: 테스트 게재 전송
 description: 테스트 게재를 정의하고 전송하는 방법을 알아봅니다
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="제한 공개"
-source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1209'
 ht-degree: 13%
 
 ---
@@ -37,7 +36,7 @@ ht-degree: 13%
 1. 다음을 클릭합니다. **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다.
 1. 다음을 클릭합니다. **[!UICONTROL 테스트]** 테스트 게재를 전송하는 버튼입니다.
 
-   ![](assets/simulate-test-button-email.png)
+   ![](assets/simulate-test-button-email.png){zoomable=&quot;yes&quot;}
 
 1. 테스트 수신자를 선택합니다.
 
@@ -81,7 +80,7 @@ ht-degree: 13%
 
 1. 다음에서 **[!UICONTROL 모드]** 드롭다운 목록에서 선택 **[!UICONTROL 테스트 프로필]** 테스트 이메일 또는 SMS 게재를 수신할 가상 수신자를 타겟팅하려면 다음을 수행하십시오.
 
-   ![](assets/simulate-profile-mode.png)
+   ![](assets/simulate-profile-mode.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -91,13 +90,13 @@ ht-degree: 13%
 
 1. 테스트 프로필 또는 프로필 목록을 검색할 때 필터를 사용하여 검색을 구체화할 수 있습니다.
 
-   ![](assets/simulate-test-profile-filter.png)
+   ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
 
    예를 들어 다음과 같은 테스트 프로필을 모두 찾는 규칙을 정의할 수 있습니다. **[!UICONTROL 잠재 고객]** 상태. 를 사용하여 규칙을 추가하는 방법을 알아봅니다. [쿼리 모델러](../query/query-modeler-overview.md).
 
 1. 테스트 게재의 수신자에게 최종 메시지를 보내려면 **[!UICONTROL 기본 대상에 테스트 모집단 포함]** 옵션을 선택합니다.
 
-   ![](assets/simulate-include-test.png)
+   ![](assets/simulate-include-test.png){zoomable=&quot;yes&quot;}
 
 1. 테스트 프로필을 선택하면 다음과 같은 작업을 수행할 수 있습니다. [테스트 게재 보내기](#send-test).
 
@@ -118,7 +117,7 @@ ht-degree: 13%
 
 1. 다음을 클릭합니다. **[!UICONTROL 주소 추가]** 버튼을 클릭하고 테스트 게재를 받을 이메일 주소 또는 전화 번호를 지정합니다.
 
-   ![](assets/simulate-add-substitution-address.png)
+   ![](assets/simulate-add-substitution-address.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -128,7 +127,7 @@ ht-degree: 13%
 
 1. 수신자를 확인하고 작업을 반복하여 이메일 주소 또는 전화 번호를 필요한 만큼 추가합니다.
 
-   ![](assets/simulate-profile-substitute.png)
+   ![](assets/simulate-profile-substitute.png){zoomable=&quot;yes&quot;}
 
 1. 테스트 게재의 수신자에게 최종 메시지를 보내려면 **[!UICONTROL 기본 대상에 테스트 모집단 포함]** 옵션을 선택합니다.
 
@@ -140,13 +139,13 @@ ht-degree: 13%
 
 1. 푸시 게재의 콘텐츠에서 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추 및 **[!UICONTROL 테스트]** 단추를 클릭합니다.
 
-   ![](assets/simulate-test-button-push.png)
+   ![](assets/simulate-test-button-push.png){zoomable=&quot;yes&quot;}
 
 1. 다음에 대한 구독자를 이미 선택한 경우: [게재 미리 보기](preview-content.md) 콘텐츠 시뮬레이션 화면에서 이러한 프로필은 테스트 구독자로 미리 선택됩니다.
 
    전용 버튼을 사용하여 선택 사항을 지우고 가입자를 추가할 수 있습니다.
 
-   ![](assets/simulate-test-subscribers.png)
+   ![](assets/simulate-test-subscribers.png){zoomable=&quot;yes&quot;}
 
 1. 테스트 구독자에게 최종 푸시 알림을 보내려면 **[!UICONTROL 기본 대상에 테스트 모집단 포함]** 옵션을 선택합니다.
 
@@ -160,7 +159,7 @@ ht-degree: 13%
 
 1. 전송을 확인합니다.
 
-   ![](assets/simulate-send-test.png)
+   ![](assets/simulate-send-test.png){zoomable=&quot;yes&quot;}
 
 1. 게재 콘텐츠를 완료할 때까지 필요한 만큼 테스트를 전송합니다.
 
@@ -176,8 +175,8 @@ ht-degree: 13%
 
 이러한 로그를 사용하여 선택한 게재에 대해 전송된 모든 테스트에 액세스하고 해당 전송과 관련된 특정 통계를 시각화할 수 있습니다. [게재 로그 모니터링 방법 알아보기](../monitor/delivery-logs.md)
 
-![](assets/simulate-test-log.png)
+![](assets/simulate-test-log.png){zoomable=&quot;yes&quot;}
 
 다음 위치에서 전송된 테스트에 액세스할 수도 있습니다 [게재 목록](../msg/gs-messages.md)다른 게재와 마찬가지로
 
-![](assets/simulate-deliveries-list.png)
+![](assets/simulate-deliveries-list.png){zoomable=&quot;yes&quot;}

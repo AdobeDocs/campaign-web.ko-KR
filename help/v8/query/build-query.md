@@ -2,10 +2,10 @@
 audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
-badge: label="제한 공개"
-source-git-commit: ed094259c71ed5da5e395d49598fe9f39980b07f
+exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '1960'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 3%
 
   *&quot;스포츠&quot; 뉴스레터를 구독한 수신자&#x200B;**및**뉴욕에 사는 사람&#x200B;**또는**샌프란시스코*.
 
-![](assets/query-add-component.png)
+![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
 
 ## 필터링 구성 요소 추가 {#filtering}
 
@@ -47,7 +47,7 @@ ht-degree: 3%
 
 1. 다음에서 **속성** 필드에서 조건을 만드는 데 활용할 데이터베이스에서 속성을 선택합니다. 속성 목록에는 연결된 테이블의 속성을 포함하여 Campaign 데이터베이스의 모든 속성이 포함됩니다.
 
-   ![](assets/query-custom-condition-fields.png)
+   ![](assets/query-custom-condition-fields.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -82,7 +82,7 @@ ht-degree: 3%
 
    *쿼리 예제가 21세 이상의 모든 프로필을 반환합니다.*
 
-   ![](assets/query-custom-condition.png)
+   ![](assets/query-custom-condition.png){zoomable=&quot;yes&quot;}
 
 #### 연결된 테이블에 대한 사용자 지정 조건(1-1 및 1-N 링크){#links}
 
@@ -98,15 +98,15 @@ ht-degree: 3%
 
 1. 내부 탐색 **브랜드** 표 및 선택 **레이블** 특성.
 
-   ![](assets/1-1-attribute.png){width="85%" align="center"}
+   ![](assets/1-1-attribute.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. 속성에 대한 예상 값을 정의합니다.
 
-   ![](assets/1-1-table.png){width="85%" align="center"}
+   ![](assets/1-1-table.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 다음은 테이블 링크가 직접 선택된 쿼리 샘플입니다. 이 테이블에 사용할 수 있는 값은 전용 선택기에서 선택해야 합니다.
 
-![](assets/1-1-table-direct.png){width="85%" align="center"}
+![](assets/1-1-table-direct.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 +++
 
@@ -118,19 +118,19 @@ ht-degree: 3%
 
 1. 다음 항목 선택 **구매** 테이블 및 확인합니다.
 
-   ![](assets/1-N-collection.png){width="50%" align="center"}
+   ![](assets/1-N-collection.png){zoomable=&quot;yes&quot;}{width="50%" align="center"}
 
 1. 아웃바운드 전환이 추가되어 하위 조건을 만들 수 있습니다.
 
-   ![](assets/1-n-subcondition.png){width="85%" align="center"}
+   ![](assets/1-n-subcondition.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. 다음 항목 선택 **가격** 1000$ 이상의 특성 및 대상 구매
 
-   ![](assets/1-n-price.png){width="85%" align="center"}
+   ![](assets/1-n-price.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. 필요에 따라 하위 조건을 추가합니다. 여기에서는 BrewMaster 제품을 구매한 대상 프로필에 조건을 추가했습니다.
 
-   ![](assets/custom-condition-1-N.png){width="85%" align="center"}
+   ![](assets/custom-condition-1-N.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 +++
 
@@ -140,11 +140,11 @@ ht-degree: 3%
 
 1. 원하는 수집 테이블 내부로 이동하여 합계 작업을 수행할 속성을 선택합니다.
 
-   ![](assets/aggregate-attribute.png){width="85%" align="center"}
+   ![](assets/aggregate-attribute.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. 속성 창에서 **집계 데이터** 옵션을 선택하고 원하는 집계 함수를 선택합니다.
 
-   ![](assets/aggregate.png){width="85%" align="center"}
+   ![](assets/aggregate.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 ### 대상자 선택 {#audiences}
 
@@ -161,7 +161,7 @@ ht-degree: 3%
 
    *쿼리 예제가 &quot;축제 방문자&quot; 대상에 속하는 모든 프로필을 반환합니다.*
 
-   ![](assets/query-audience.png)
+   ![](assets/query-audience.png){zoomable=&quot;yes&quot;}
 
 ### 미리 정의된 필터 사용 {#predefined-filters}
 
@@ -178,7 +178,7 @@ ht-degree: 3%
 
    *쿼리 예제가 &quot;비활성 고객&quot; 사전 정의된 필터에 해당하는 모든 프로필을 반환합니다.*
 
-   ![](assets/query-predefined-filter.png)
+   ![](assets/query-predefined-filter.png){zoomable=&quot;yes&quot;}
 
 ### 구성 요소 복사-붙여넣기 {#copy}
 
@@ -196,11 +196,11 @@ ht-degree: 3%
 
    | 단일 구성 요소 복사 | 여러 구성 요소 복사 |
    |  ---  |  ---  |
-   | ![](assets/copy-single-component.png){width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){width="200" align="center" zoomable="yes"} |
+   | ![](assets/copy-single-component.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
 
 1. 구성 요소를 붙여넣으려면 원하는 전환 끝에 있는 + 단추를 클릭하고 다음을 선택합니다 **n개 항목 붙여넣기**.
 
-   ![](assets/copy-paste.png)
+   ![](assets/copy-paste.png){zoomable=&quot;yes&quot;}
 
 ## 필터링 구성 요소를 연산자와 결합 {#operators}
 
@@ -213,7 +213,7 @@ ht-degree: 3%
 
 이 예제에서는 두 번째 전환에 새로운 대상자 유형 필터링 구성 요소를 추가했습니다. 구성 요소는 다음을 사용하여 사전 정의된 필터 유형 조건에 연결됩니다. **및** 연산자 - 쿼리 결과에 &quot;Madridians&quot; 사전 정의된 필터 AND가 타겟팅한 수신자가 포함됨을 의미하며 &quot;Discount hunters&quot; 대상에 속합니다.
 
-![](assets/query-operator.png)
+![](assets/query-operator.png){zoomable=&quot;yes&quot;}
 
 필터링 조건을 함께 연결하는 데 사용되는 연산자를 변경하려면 해당 연산자를 클릭하고 **그룹** 오른쪽에 열리는 창입니다.
 
@@ -223,13 +223,13 @@ ht-degree: 3%
 * **OR(결합)**: 아웃바운드 전환의 필터링 구성 요소 중 하나 이상과 일치하는 결과를 포함합니다.
 * **제외(제외)**: 아웃바운드 전환의 모든 필터링 구성 요소와 일치하는 결과를 제외합니다.
 
-![](assets/query-operator-change.png)
+![](assets/query-operator-change.png){zoomable=&quot;yes&quot;}
 
 또한 **+** 전환 단추 이렇게 하면 이 특정 위치에 연산자를 추가하여 여러 구성 요소를 함께 그룹화하고 쿼리를 구체화할 수 있습니다.
 
 아래 예에서는 &quot;VIP to reward&quot; 또는 &quot;Super VIP&quot; 대상의 결과를 포함하는 중간 그룹을 만들었습니다.
 
-![](assets/query-intermediate-group.png)
+![](assets/query-intermediate-group.png){zoomable=&quot;yes&quot;}
 
 ## 쿼리 확인 및 검증
 
@@ -253,4 +253,4 @@ ht-degree: 3%
 
 쿼리를 열면 언제든지 수정할 수 있습니다. 기존 쿼리를 열면 의 가시성 없이 간소화된 보기로 표시됩니다.  **+** 단추. 쿼리에 새 요소를 추가하려면 캔버스에서 구성 요소 또는 연산자를 선택하여 **+** 단추.
 
-![](assets/edit-audience.png)
+![](assets/edit-audience.png){zoomable=&quot;yes&quot;}

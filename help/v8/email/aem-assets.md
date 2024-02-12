@@ -2,11 +2,10 @@
 audience: end-user
 title: Adobe Experience Manager Assets as a Cloud Service로 자산 관리
 description: Adobe Experience Manager Assets as a Cloud Service으로 자산을 관리하는 방법 알아보기
-badge: label="제한 공개"
 exl-id: c1e548b1-f4c6-4672-9724-edfc418063a6
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '393'
 ht-degree: 4%
 
 ---
@@ -27,7 +26,7 @@ ht-degree: 4%
 
 1. 홈 페이지에서 고급 메뉴에 액세스하고 을 선택합니다. [!DNL Experience Manager Assets].
 
-   ![](assets/assets_1.png)
+   ![](assets/assets_1.png){zoomable=&quot;yes&quot;}
 
 1. 아래 **Assets 관리**, 클릭 **에셋** Adobe Campaign에서 에셋에 대한 저장소를 선택합니다.
 
@@ -37,25 +36,25 @@ ht-degree: 4%
 
 1. 선택한 폴더 또는 만든 폴더에서 **[!UICONTROL 에셋 추가]** 을 클릭하여 새 에셋을 폴더에 업로드합니다.
 
-   ![](assets/assets_2.png)
+   ![](assets/assets_2.png){zoomable=&quot;yes&quot;}
 
 1. 다음에서 **[!UICONTROL 파일 업로드]**, 클릭 **[!UICONTROL 찾아보기]** 원하는 경우 선택 **[!UICONTROL 파일 찾아보기]** 또는 **[!UICONTROL 폴더 찾아보기]**.
 
 1. 업로드할 파일을 선택합니다. 완료되면 다음을 클릭합니다. **[!UICONTROL 업로드]**.
 
-   ![](assets/assets_3.png)
+   ![](assets/assets_3.png){zoomable=&quot;yes&quot;}
 
 1. 고급 에셋 관리 메뉴에 액세스하려면 방금 업로드한 에셋을 선택합니다.
 
    에셋 관리 방법에 대한 자세한 내용은 다음을 참조하십시오. [페이지](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/manage-organize-assets-view.html).
 
-   ![](assets/assets_4.png)
+   ![](assets/assets_4.png){zoomable=&quot;yes&quot;}
 
 1. Adobe Photoshop Express으로 에셋을 추가로 편집하려면 에셋을 더블 클릭합니다. 그런 다음 오른쪽 메뉴에서 **[!UICONTROL 편집 모드]** 아이콘. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/edit-images-assets-view.html#edit-using-express){target="_blank"}.
 
 1. 출처: [!DNL Adobe Campaign]를 선택하고 **[!UICONTROL 자산 선택기]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-   ![](assets/assets_6.png)
+   ![](assets/assets_6.png){zoomable=&quot;yes&quot;}
 
 1. 이전에 만든 항목 선택 **[!UICONTROL 에셋]** 폴더를 삭제합니다. 검색 창에서 에셋 또는 폴더를 검색할 수도 있습니다.
 
@@ -63,8 +62,8 @@ ht-degree: 4%
 
 1. 이메일 콘텐츠에서 에셋을 끌어다 놓습니다.
 
-   ![](assets/assets_5.png)
+   ![](assets/assets_5.png){zoomable=&quot;yes&quot;}
 
 1. 를 사용하여 외부 링크 또는 텍스트 추가와 같은 에셋을 추가로 사용자 정의할 수 있습니다. **[!UICONTROL 설정]** 및 **[!UICONTROL 스타일]** 탭. [구성 요소 설정에 대해 자세히 알아보기](../email/content-components.md)
 
-   ![](assets/assets_7.png)
+   ![](assets/assets_7.png){zoomable=&quot;yes&quot;}

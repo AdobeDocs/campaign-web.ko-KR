@@ -2,12 +2,11 @@
 audience: end-user
 title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign 웹으로 워크플로우를 만드는 방법을 알아봅니다
-badge: label="제한 공개"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: c18f73c08d0cc2590c1c59f05a710a1f25db040e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 26%
+source-wordcount: '802'
+ht-degree: 25%
 
 ---
 
@@ -33,7 +32,7 @@ ht-degree: 26%
 
 1. 다음을 클릭합니다. **[!UICONTROL 워크플로우 만들기]** 화면의 오른쪽 상단에 있는 단추입니다.
 
-   ![](assets/workflow-create.png)
+   ![](assets/workflow-create.png){zoomable=&quot;yes&quot;}
 
 1. 워크플로우 내 **속성** 대화 상자에서 워크플로를 만드는 데 사용할 템플릿을 선택합니다(기본 내장 템플릿을 사용할 수도 있음). [워크플로우 템플릿에 대해 자세히 알아보기](#workflow-templates).
 
@@ -41,7 +40,7 @@ ht-degree: 26%
 
 1. 확장 **[!UICONTROL 추가 옵션]** 섹션에 자세히 설명되어 있습니다. 에서 워크플로우 속성을 구성하는 방법을 알아봅니다. [이 페이지](workflow-settings.md#properties)
 
-   ![](assets/workflow-additional-options.png)
+   ![](assets/workflow-additional-options.png){zoomable=&quot;yes&quot;}
 
 1. 다음을 클릭합니다. **[!UICONTROL 워크플로우 만들기]** 단추를 클릭하여 워크플로우 만들기를 확인합니다.
 
@@ -72,14 +71,14 @@ ht-degree: 26%
 1. 에 열기 **워크플로** 메뉴를 클릭하고 워크플로우를 찾아 템플릿으로 저장합니다.
 1. 워크플로의 이름 오른쪽에 있는 세 점을 클릭하고 을(를) 선택합니다 **템플릿으로 복사**.
 
-   ![](assets/wf-copy-as-template.png)
+   ![](assets/wf-copy-as-template.png){zoomable=&quot;yes&quot;}
 
 1. 팝업 창에서 템플릿 만들기를 확인합니다.
 1. 워크플로 템플릿 캔버스에서 필요에 따라 활동을 선택, 추가 및 구성합니다.
 1. 에서 설정을 찾아봅니다. **설정** 워크플로 템플릿의 이름을 변경하고 설명을 입력합니다.
 1. 다음 항목 선택 **폴더** 및 **실행 폴더** 템플릿의 일부입니다. 폴더는 워크플로 템플릿이 저장되는 위치입니다. 실행 폴더는 이 템플릿을 기반으로 만든 워크플로우가 저장되는 폴더입니다.
 
-   ![](assets/wf-settings-template.png)
+   ![](assets/wf-settings-template.png){zoomable=&quot;yes&quot;}
 
    다른 속성은 워크플로와 공통됩니다. [이 페이지](workflow-settings.md#properties)에서 자세히 알아보기
 
@@ -98,14 +97,14 @@ ht-degree: 26%
 1. 레이블을 입력하고 추가 옵션을 열어 워크플로 템플릿에 대한 설명을 입력합니다.
 1. 템플릿의 폴더 및 실행 폴더를 선택합니다. 폴더는 워크플로 템플릿이 저장되는 위치입니다. 실행 폴더는 이 템플릿을 기반으로 만든 워크플로우가 저장되는 폴더입니다.
 
-   ![](assets/new-wf-template.png)
+   ![](assets/new-wf-template.png){zoomable=&quot;yes&quot;}
 
    다른 속성은 워크플로와 공통됩니다. [이 페이지](workflow-settings.md#properties)에서 자세히 알아보기
 
 1. 다음을 클릭합니다. **만들기** 단추를 클릭하여 설정을 확인합니다.
 1. 워크플로 템플릿 캔버스에서 필요에 따라 활동을 추가하고 구성합니다.
 
-   ![](assets/wf-template-activities.png)
+   ![](assets/wf-template-activities.png){zoomable=&quot;yes&quot;}
 
 1. 변경 내용을 저장합니다.
 

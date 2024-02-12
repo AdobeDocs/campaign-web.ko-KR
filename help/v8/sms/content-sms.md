@@ -2,12 +2,11 @@
 audience: end-user
 title: SMS 게재 디자인
 description: SMS 게재를 디자인하는 방법 알아보기
-badge: label="제한 공개"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 79%
+source-wordcount: '260'
+ht-degree: 77%
 
 ---
 
@@ -31,11 +30,11 @@ SMS 게재 콘텐츠를 디자인하려면 다음 단계를 따르십시오.
 
    또한 **[!UICONTROL 개인화 대화 상자 열기]**&#x200B;를 클릭하여 메시지에 개인화 필드, 콘텐츠 블록과 동적 콘텐츠를 포함할 수 있습니다.
 
-   ![](assets/sms_content_1.png)
+   ![](assets/sms_content_1.png){zoomable=&quot;yes&quot;}
 
 1. 다음 위치에 문자 메시지 입력 **[!UICONTROL 메시지]** 필드 또는 클릭 **[!UICONTROL 개인화 대화 상자 열기]** 컨텐츠를 정의하고 다이내믹 컨텐츠를 추가하는 옵션입니다. [자세히 알아보기](../personalization/gs-personalization.md)
 
-   ![](assets/sms_content_2.png)
+   ![](assets/sms_content_2.png){zoomable=&quot;yes&quot;}
 
 1. 기본적으로 게재에 대해 추적 기능이 활성화되어 있습니다. **[!UICONTROL 선택 기능 섹션에서 이 옵션을 비활성화할 수 있습니다]**.
 

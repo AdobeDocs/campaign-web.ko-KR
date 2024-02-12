@@ -2,11 +2,10 @@
 audience: end-user
 title: 분할 워크플로 활동 사용
 description: 분할 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
-badge: label="제한 공개"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '775'
 ht-degree: 90%
 
 ---

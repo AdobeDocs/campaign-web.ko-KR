@@ -1,12 +1,11 @@
 ---
 title: Campaign 웹 사용자 인터페이스의 보호 및 제한 사항
 description: Campaign 웹 사용자 인터페이스의 보호 및 제한 사항
-badge: label="제한 공개"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 22%
+source-wordcount: '374'
+ht-degree: 20%
 
 ---
 
@@ -24,19 +23,19 @@ Campaign 웹 사용자 인터페이스에서 아직 지원되지 않는 워크�
 
 | 콘솔 | 웹 |
 | --- | --- |
-| ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-activities-console.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
 
 다음과 같은 경우 **쿼리** 또는 **데이터 보강** 활동은 콘솔에 추가 데이터로 구성되어 있으며 데이터 보강 데이터는 Campaign 웹에서 고려되어 아웃바운드 전환으로 전달되지만 편집할 수 없습니다.
 
 | 콘솔 | 웹 |
 | --- | --- |
-| ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-options-console.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
 
 콘솔에서 **보강** 활동을 통해 조정 및 보강을 모두 수행할 수 있습니다. 클라이언트 콘솔에서 을 정의한 경우 **데이터 보강** 활동은 다음과 같이 표시됩니다. **조정** Campaign 웹 사용자 인터페이스의 활동.
 
 | 콘솔 | 웹 |
 | --- | --- |
-| ![](assets/limitations-enrichment-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-enrichment-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-enrichment-console.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-enrichment-web.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
 
 ## 워크플로 캔버스 {#wkf-canvas}
 
@@ -44,10 +43,10 @@ Campaign 웹 사용자 인터페이스에서 새 워크플로우를 만들 때 �
 
 | 콘솔 | 웹 |
 | --- | --- |
-| ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-multiple-console.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
 
 활동이 추가되거나 제거될 때마다 노드 위치가 새로 고쳐집니다. 콘솔에서 워크플로우를 만들고 Campaign 웹 사용자 인터페이스를 사용하여 수정한 후 콘솔에서 다시 열면 몇 가지 사소한 위치 지정 불완결성을 볼 수 있습니다. 이는 워크플로의 프로세스 및 작업에 영향을 주지 않습니다.
 
 | 초기 워크플로 | 위치 변경 |
 | --- | --- |
-| ![](assets/limitations-positioning1.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-positioning2.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-positioning1.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-positioning2.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |

@@ -2,11 +2,10 @@
 audience: end-user
 title: 푸시 알림 시작하기
 description: Adobe Campaign Web을 사용하여 푸시 알림을 만들고 전송하는 방법 알아보기
-badge: label="제한 공개"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: 73b87f94a2ac8478e44efb4ae74caf511baf0061
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '193'
 ht-degree: 100%
 
 ---

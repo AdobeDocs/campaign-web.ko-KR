@@ -2,9 +2,8 @@
 audience: end-user
 title: 이메일 콘텐츠 편집
 description: Campaign 웹 사용자 인터페이스에서 이메일 디자이너를 사용하여 콘텐츠 작성을 시작하는 방법을 알아봅니다
-badge: label="제한 공개"
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 96%
@@ -61,4 +60,4 @@ The Email Designer allows you to create email content and email content template
 
 * 기본 제공 또는 사용자 정의 템플릿에서 **기존 콘텐츠를 선택합니다**. [이 섹션](create-email-templates.md)에서 이메일 템플릿으로 작업하는 방법에 대해 알아봅니다.
 
-  ![](assets/email_designer_create_options.png)
+  ![](assets/email_designer_create_options.png){zoomable=&quot;yes&quot;}

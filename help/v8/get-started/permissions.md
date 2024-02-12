@@ -2,12 +2,11 @@
 audience: end-user
 title: Campaign 웹 사용자 인터페이스의 권한 관리
 description: Campaign 웹 사용자 인터페이스의 권한에 대해 자세히 알아보기
-badge: label="제한 공개"
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 97%
+source-wordcount: '601'
+ht-degree: 96%
 
 ---
 
@@ -67,11 +66,11 @@ Campaign Web 사용자 인터페이스를 탐색할 때 주어진 권한에 따�
 1. **탐색기** 왼쪽 탐색 메뉴에서 폴더를 선택합니다.
 1. 오른쪽 상단에 있는 세 개의 점을 클릭하고 **폴더 권한**&#x200B;을 선택합니다.
 
-   ![](assets/permissions-view-menu.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-menu.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 1. 아래와 같이 화면에서 자세한 내용을 확인하십시오.
 
-   ![](assets/permissions-view-screen.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-screen.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
    그룹 또는 운영자는 선택한 폴더에 저장된 데이터에 대한 읽기, 쓰기 및/또는 삭제 권한을 가질 수 있습니다.
 
@@ -96,8 +95,8 @@ Campaign Web 사용자 인터페이스를 탐색할 때 주어진 권한에 따�
 1. 오른쪽 상단에 있는 세 개의 점을 클릭하고 **새 하위 폴더 만들기**&#x200B;를 선택합니다.
 1. 폴더 이름을 입력하고 저장합니다.
 
-   ![](assets/create-new-subfolder.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
    폴더가 현재 폴더의 하위 폴더로 추가됩니다. 새 폴더를 찾아 해당 폴더에 직접 구성 요소를 만듭니다. 또한 게재에 대해 아래와 같이 속성의 **추가 옵션** 섹션에 있는 임의의 폴더에서 구성 요소를 만들고 해당 새 폴더에 저장할 수도 있습니다.
 
-   ![](assets/delivery-properties-folder.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}

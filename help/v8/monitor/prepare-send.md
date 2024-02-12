@@ -3,11 +3,10 @@ audience: end-user
 title: 이메일 준비 및 전송
 description: Campaign 웹 사용자 인터페이스를 사용하여 이메일을 준비하고 보내는 방법 알아보기
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="제한 공개"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 38%
+source-wordcount: '911'
+ht-degree: 37%
 
 ---
 
@@ -26,12 +25,12 @@ ht-degree: 38%
 
 1. 게재 대시보드에서 **[!UICONTROL 검토 및 보내기]**.
 
-   ![](assets/email-review-and-send.png)
+   ![](assets/email-review-and-send.png){zoomable=&quot;yes&quot;}
 
 
 1. 다음을 클릭합니다. **[!UICONTROL 준비]** 오른쪽 상단 모서리에 있는 버튼을 확인하고 확인합니다.
 
-   ![](assets/email-prepare.png)
+   ![](assets/email-prepare.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -41,14 +40,14 @@ ht-degree: 38%
 
    다음을 사용하여 언제든지 준비를 중지할 수 있습니다. **[!UICONTROL 준비 중지]** 단추를 클릭합니다.
 
-   ![](assets/email-stop-preparation.png)
+   ![](assets/email-stop-preparation.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >준비 단계 중에는 메시지가 전송되지 않습니다. 따라서 영향을 미칠 위험 없이 준비를 시작하거나 중지할 수 있습니다.
 
 1. 준비가 끝나면 KPI를 확인합니다. 전송할 메시지 수가 예상과 일치하지 않으면 대상자를 수정하고 준비를 다시 시작하십시오.
 
-   ![](assets/email-preparation-complete.png)
+   ![](assets/email-preparation-complete.png){zoomable=&quot;yes&quot;}
 
    표시되는 다양한 KPI는 다음과 같습니다.
 
@@ -58,11 +57,11 @@ ht-degree: 38%
 
 1. **[!UICONTROL 로그]** 버튼을 클릭하고 오류가 없는지 확인하십시오. 마지막 로그 메시지에는 오류 메시지와 오류 수가 표시됩니다. [자세히 알아보기](delivery-logs.md)
 
-   ![](assets/email-prepare-logs.png)
+   ![](assets/email-prepare-logs.png){zoomable=&quot;yes&quot;}
 
 1. 준비 과정에서 게재 전송을 방해하는 심각한 오류가 감지되면 게재 대시보드에 준비 상태가 실패로 표시됩니다.
 
-   ![](assets/email-prepare-error.png)
+   ![](assets/email-prepare-error.png){zoomable=&quot;yes&quot;}
 
 1. 준비 후 게재를 변경하는 경우 이러한 변경 사항을 고려하기 위해 준비를 다시 시작해야 합니다.
 
@@ -81,7 +80,7 @@ ht-degree: 38%
 
 1. 게재 대시보드에서 **[!UICONTROL 보내기]** 오른쪽 상단의 버튼입니다.
 
-   ![](assets/email-send.png)
+   ![](assets/email-send.png){zoomable=&quot;yes&quot;}
 
 1. 메시지를 기본 타겟에게 즉시 보내려면 이 작업을 확인하십시오.
 
@@ -95,7 +94,7 @@ ht-degree: 38%
 
 1. 게재 대시보드에서 **[!UICONTROL 예약됨으로 보내기 단추]** 오른쪽 상단의 버튼입니다.
 
-   ![](assets/email-send-as-scheduled.png)
+   ![](assets/email-send-as-scheduled.png){zoomable=&quot;yes&quot;}
 
 1. 클릭 **[!UICONTROL 전송 확인]**. 게재는 예약된 날짜에 주요 타겟에게 전송됩니다.
 
@@ -111,7 +110,7 @@ ht-degree: 38%
 
 * 클릭 **[!UICONTROL 전송 중지]** 즉시 전송을 중단합니다. 일단 중지되면 준비나 전송을 재개할 수 없습니다.
 
-![](assets/email-send-pause-or-stop.png)
+![](assets/email-send-pause-or-stop.png){zoomable=&quot;yes&quot;}
 
 ## KPI 확인 {#check-kpis}
 
@@ -151,7 +150,7 @@ ht-degree: 38%
 
 전송이 완료되면 표시된 KPI를 확인할 수 있습니다.
 
-![](assets/email-send-kpis.png)
+![](assets/email-send-kpis.png){zoomable=&quot;yes&quot;}
 
 * **[!UICONTROL 전송됨]**: 게재된 메시지 수. 표시되는 비율은 게재할 총 메시지 수를 기반으로 합니다.
 

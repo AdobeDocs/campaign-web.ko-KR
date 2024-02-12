@@ -3,11 +3,10 @@ audience: end-user
 title: 컨트롤 그룹 설정
 description: Campaign 웹 사용자 인터페이스에서 메시지의 컨트롤 그룹을 설정하는 방법을 알아봅니다
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="제한 공개"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 37%
+source-wordcount: '797'
+ht-degree: 36%
 
 ---
 
@@ -67,7 +66,7 @@ ht-degree: 37%
 1. 추가 **제작일** 필드. (으)로 변경 **내림차순** 정렬 옵션을 선택합니다.
 1. 에서 100을 임계값으로 정의 **크기 제한** 섹션.
 
-   ![](assets/control-group2.png)
+   ![](assets/control-group2.png){zoomable=&quot;yes&quot;}
 
 그런 다음 이 100명의 새로운 최연소 수신자는 주요 대상에서 제외됩니다.
 
@@ -75,27 +74,27 @@ ht-degree: 37%
 
 로그를 보고 제외된 프로필을 확인하고 식별할 수 있습니다. 5개 프로필에 대한 무작위 제외로 예를 들어 보겠습니다.
 
-![](assets/control-group4.png)
+![](assets/control-group4.png){zoomable=&quot;yes&quot;}
 
 게재를 준비한 후 제외가 적용된 방법을 검토할 수 있습니다.
 
 * 게재 대시보드에서 보내기 전에 **제외하려면** KPI.
 
-  ![](assets/control-group5.png)
+  ![](assets/control-group5.png){zoomable=&quot;yes&quot;}
 
 * 게재 로그의 로그 탭에 제외 단계가 표시됩니다.
 
-  ![](assets/control-group-sample-logs.png)
+  ![](assets/control-group-sample-logs.png){zoomable=&quot;yes&quot;}
 <!--
 
  * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
 
-    ![](assets/control-group6.png)
+    ![](assets/control-group6.png){zoomable="yes"}
 -->
 
 * 다음 **제외 원인** 탭에는 각 유형화 규칙에 대해 제외된 프로필 수가 표시됩니다.
 
-  ![](assets/control-group7.png)
+  ![](assets/control-group7.png){zoomable=&quot;yes&quot;}
 
 게재 로그에 대한 자세한 내용은 이 [섹션](../monitor/delivery-logs.md)을 참조하십시오.
 
@@ -110,7 +109,7 @@ ht-degree: 37%
 
 **컨트롤 그룹** 정의 화면의 **추가 모집단** 섹션에서 **[!UICONTROL 대상자 선택]** 버튼을 클릭합니다.
 
-![](assets/control-group3.png)
+![](assets/control-group3.png){zoomable=&quot;yes&quot;}
 
 * 기존 대상자를 사용하려면 **대상자 선택**&#x200B;을 클릭합니다. [이 섹션](add-audience.md)에서 자세히 알아보십시오.
 

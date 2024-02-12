@@ -1,12 +1,11 @@
 ---
 title: Adobe Campaign 웹 인터페이스에 연결
 description: Adobe Campaign Web 사용자 인터페이스에 접속하는 방법 알아보기
-badge: label="제한 공개"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 96%
+source-wordcount: '581'
+ht-degree: 95%
 
 ---
 
@@ -26,11 +25,11 @@ Adobe Experience Cloud에 로그인하기 위한 기본 단계는 다음과 같�
 
    Experience Cloud에 로그인하면 모든 솔루션 및 앱에 빠르게 액세스할 수 있습니다.
 
-   ![](assets/exc-home.png)
+   ![](assets/exc-home.png){zoomable=&quot;yes&quot;}
 
 1. 올바른 조직에 속해 있는지 확인해야 합니다.
 
-   ![](assets/exc-orgs.png){width="50%" align="left"}
+   ![](assets/exc-orgs.png){zoomable=&quot;yes&quot;}{width="50%" align="left"}
 
    Adobe Experience Cloud의 조직에 대한 자세한 내용은 [이 문서](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko){target="_blank"}를 참조하십시오.
 
@@ -41,11 +40,11 @@ Campaign 환경에 액세스하려면 Adobe Experience Cloud 홈페이지의 **�
 
 다른 Adobe Experience Cloud 솔루션에 이미 연결된 경우 화면 오른쪽 상단의 솔루션 스위처에서 Campaign 환경으로 이동할 수도 있습니다.
 
-![](assets/solution-switcher.png)
+![](assets/solution-switcher.png){zoomable=&quot;yes&quot;}
 
 Campaign 컨트롤 패널을 포함한 여러 환경에 액세스할 수 있는 경우 적절한 인스턴스의 **시작** 버튼을 클릭합니다.
 
-![](assets/launch-campaign.png)
+![](assets/launch-campaign.png){zoomable=&quot;yes&quot;}
 
 이제 Campaign에 연결되었습니다. [이 페이지](user-interface.md)에서 사용자 인터페이스 사용 방법에 대해 알아보십시오.
 
@@ -60,7 +59,7 @@ Campaign 컨트롤 패널을 포함한 여러 환경에 액세스할 수 있는 
 * 제품 알림 확인
 * Adobe 프로필을 편집 및 [선호하는 언어 업데이트](#language-pref) 또는 [밝은/어두운 테마로 전환](#dark-theme) 등의 설정 관리
 
-![](assets/do-not-localize/unified-shell.png){width="50%" align="left"}
+![](assets/do-not-localize/unified-shell.png){zoomable=&quot;yes&quot;}{width="50%" align="left"}
 
 ## 지원되는 브라우저 {#browsers}
 

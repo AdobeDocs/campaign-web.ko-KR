@@ -2,11 +2,10 @@
 audience: end-user
 title: 워크플로 설정 구성
 description: Adobe Campaign 웹을 사용하여 워크플로우 설정을 구성하는 방법 알아보기
-badge: label="제한 공개"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 55bfca002618dfae53c4a9700087daa5cfd314f2
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '959'
 ht-degree: 23%
 
 ---
@@ -20,7 +19,7 @@ ht-degree: 23%
 
 이렇게 하려면 **[!UICONTROL 설정]** 워크플로 캔버스 위의 작업 표시줄에서 사용할 수 있는 단추입니다.
 
-![](assets/workflow-settings-button.png){width="70%" align="left"}
+![](assets/workflow-settings-button.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 ## 워크플로 속성 {#properties}
 
@@ -31,7 +30,7 @@ ht-degree: 23%
 
 다음 **[!UICONTROL 속성]** 섹션은 워크플로우를 만들 때도 액세스할 수 있는 일반 설정을 제공합니다.
 
-![](assets/workflow-settings.png){width="70%" align="left"}
+![](assets/workflow-settings.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 
 이러한 속성은 다음과 같습니다.

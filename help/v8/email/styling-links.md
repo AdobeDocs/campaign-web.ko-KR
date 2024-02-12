@@ -3,11 +3,10 @@ audience: end-user
 title: 링크 스타일 정의
 description: 링크 스타일을 정의하는 방법 알아보기
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-badge: label="제한 공개"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 100%
+source-wordcount: '145'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +19,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL 설정]** 탭에서 **[!UICONTROL 링크에 밑줄 긋기]**&#x200B;를 선택하여 레이블에 밑줄을 긋습니다.
 
-   ![](assets/link_1.png)
+   ![](assets/link_1.png){zoomable=&quot;yes&quot;}
 
 1. **[!UICONTROL 대상]** 드롭다운을 사용하여 대상자가 리디렉션되는 방식을 선택합니다.
 
@@ -30,10 +29,10 @@ ht-degree: 100%
    * **[!UICONTROL Parent]**: 상위 프레임에서 링크를 엽니다.
    * **[!UICONTROL Top]**: 최상위 창에서 링크를 엽니다.
 
-   ![](assets/link_2.png)
+   ![](assets/link_2.png){zoomable=&quot;yes&quot;}
 
 1. 링크 색상을 변경하려면 **[!UICONTROL 스타일]** 탭에서 **[!UICONTROL 링크 색상]**&#x200B;을 클릭합니다.
 
-   ![](assets/link_3.png)
+   ![](assets/link_3.png){zoomable=&quot;yes&quot;}
 
 1. 변경 내용을 저장합니다.

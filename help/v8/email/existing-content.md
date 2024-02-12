@@ -3,11 +3,10 @@ audience: end-user
 title: 이메일 콘텐츠 가져오기
 description: 이메일 콘텐츠를 가져오는 방법 알아보기
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-badge: label="제한 공개"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 48%
+source-wordcount: '244'
+ht-degree: 47%
 
 ---
 
@@ -31,7 +30,7 @@ HTML 콘텐츠가 포함된 파일을 가져오려면 다음 단계를 따르십
 
 1. 다음에서 [이메일 디자이너](get-started-email-designer.md) 홈 페이지, 선택 **[!UICONTROL 가져오기 HTML]**.
 
-   ![](assets/html-import.png)
+   ![](assets/html-import.png){zoomable=&quot;yes&quot;}
 
 1. HTML 콘텐츠가 포함된 HTML 또는 .zip 파일을 드래그 앤 드롭하고 **[!UICONTROL 가져오기]**&#x200B;를 클릭합니다.
 
@@ -39,11 +38,11 @@ HTML 콘텐츠가 포함된 파일을 가져오려면 다음 단계를 따르십
 
    이 모드에서는 텍스트를 개인화하거나, 링크를 추가하거나, 콘텐츠에 에셋을 포함할 수 있습니다.
 
-   ![](assets/html-imported.png)
+   ![](assets/html-imported.png){zoomable=&quot;yes&quot;}
 
 1. 이메일 디자이너 콘텐츠 구성 요소를 활용하려면 **[!UICONTROL HTML 변환기]** tab 키를 누른 다음 클릭 **[!UICONTROL 전환]**.
 
-   ![](assets/html-imported-2.png)
+   ![](assets/html-imported-2.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >

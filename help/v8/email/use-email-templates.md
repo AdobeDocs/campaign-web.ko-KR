@@ -8,11 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-badge: label="제한 공개"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 11%
+source-wordcount: '260'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +19,7 @@ ht-degree: 11%
 
 날짜 [이메일 만들기](../email/create-email.md), 사용 **[!UICONTROL 디자인 템플릿 선택]** 의 섹션 **[!UICONTROL 이메일 만들기]** 템플릿에서 콘텐츠 작성을 시작하는 인터페이스입니다.
 
-![](assets/email_designer-templates.png)
+![](assets/email_designer-templates.png){zoomable=&quot;yes&quot;}
 
 다음 중에서 선택할 수 있습니다.
 
@@ -42,17 +41,17 @@ ht-degree: 11%
 
 1. 기존 사용자 지정 템플릿을 사용하려면 **[!UICONTROL 저장된 템플릿]** 탭.
 
-   ![](assets/email_designer-saved-templates-tab.png)
+   ![](assets/email_designer-saved-templates-tab.png){zoomable=&quot;yes&quot;}
 
 1. [저장된 모든 템플릿](#save-as-template) 목록이 표시됩니다. **[!UICONTROL 이름]**, **[!UICONTROL 마지막 수정일]** 및 **[!UICONTROL 마지막 생성일]**&#x200B;을 기준으로 템플릿을 정렬할 수 있습니다.
 
-   ![](assets/email_designer-saved-templates.png)
+   ![](assets/email_designer-saved-templates.png){zoomable=&quot;yes&quot;}
 
 1. 목록에서 템플릿을 선택하여 해당 콘텐츠를 표시합니다.
 
 1. 오른쪽 및 왼쪽 화살표를 사용하여 템플릿(선택에 따라 샘플 또는 저장) 간을 탐색합니다.
 
-   ![](assets/email_designer-saved-templates-navigate.png)
+   ![](assets/email_designer-saved-templates-navigate.png){zoomable=&quot;yes&quot;}
 
 1. 클릭 **[!UICONTROL 이 템플릿 사용]** 화면 오른쪽 상단에 있습니다.
 

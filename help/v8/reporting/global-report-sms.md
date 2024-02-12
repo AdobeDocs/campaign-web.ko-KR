@@ -2,11 +2,11 @@
 audience: end-user
 title: SMS 채널에 대한 전역 보고서
 description: SMS 채널에 대한 글로벌 보고서 이해
-badge: label="제한 공개"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 31%
+source-wordcount: '593'
+ht-degree: 30%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 31%
 
 다음 **[!UICONTROL 게재 개요]** 보고서는 각 SMS 게재와 방문자의 상호 작용 패턴에 대한 심층적인 통찰력을 제공하는 포괄적인 KPI(주요 성과 지표)를 제공합니다. 다음 지표는 아래에 요약되어 있습니다.
 
-![](assets/global_report_sms_delivery_overview.png)
+![](assets/global_report_sms_delivery_overview.png){zoomable=&quot;yes&quot;}
 
 +++게재 개요 지표에 대해 자세히 알아보십시오.
 
@@ -50,7 +50,7 @@ ht-degree: 31%
 
 다음 **[!UICONTROL 타깃팅된 대상]** 테이블 및 그래프는 전송된 각 SMS 게재에 대해 수신자와 관련된 데이터를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/global_report_sms_targeted_audience.png)
+![](assets/global_report_sms_targeted_audience.png){zoomable=&quot;yes&quot;}
 
 +++타깃팅된 대상 지표에 대해 자세히 알아보십시오.
 
@@ -71,7 +71,7 @@ ht-degree: 31%
 
 다음 **[!UICONTROL 게재 통계]** 표에는 모든 SMS 게재의 성공 여부가 자세히 나와 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/global_report_sms_delivery_statistics.png)
+![](assets/global_report_sms_delivery_statistics.png){zoomable=&quot;yes&quot;}
 
 +++게재 통계 지표에 대해 자세히 알아보십시오.
 
@@ -98,7 +98,7 @@ ht-degree: 31%
 
 오류 유형이에 나열되어 있습니다. [Adobe Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
-![](assets/global_report_sms_causes_exclusion.png)
+![](assets/global_report_sms_causes_exclusion.png){zoomable=&quot;yes&quot;}
 
 ## 게재 처리량 {#delivery-throughput-sms}
 
@@ -107,6 +107,6 @@ ht-degree: 31%
 >title="SMS 게재 처리량"
 >abstract="**게재 처리량** 보고서는 SMS 메시지 게재 시스템의 효율성에 대한 광범위한 인사이트를 제공하여 지정된 일정 내의 성공 및 오류 비율에 대한 자세한 개요를 제시합니다."
 
-![](assets/global_report_sms_delivery_throughput.png)
+![](assets/global_report_sms_delivery_throughput.png){zoomable=&quot;yes&quot;}
 
 다음 **[!UICONTROL 게재 처리량]** 보고서는 SMS 메시지 게재 시스템의 효과에 대한 포괄적인 통찰력을 제공하며, 지정된 기간 동안의 성공 및 오류율에 대한 자세한 요약을 제공합니다.

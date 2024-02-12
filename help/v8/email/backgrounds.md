@@ -3,11 +3,10 @@ audience: end-user
 title: 이메일 배경 개인화
 description: 이메일 배경 개인화 방법 알아보기
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-badge: label="제한 공개"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 100%
+source-wordcount: '310'
+ht-degree: 96%
 
 ---
 
@@ -28,15 +27,15 @@ ht-degree: 100%
 
 * 이메일 전체에 대한 **[!UICONTROL 배경색]**&#x200B;을 설정합니다. 왼쪽 창에서 액세스할 수 있는 탐색 트리에서 본문 설정을 선택했는지 확인하십시오.
 
-  ![](assets/background_1.png)
+  ![](assets/background_1.png){zoomable=&quot;yes&quot;}
 
 * 모든 구조 구성 요소에 대해 동일한 배경색을 설정하려면 **[!UICONTROL 뷰포트 배경색]**&#x200B;을 선택합니다. 이 옵션을 사용하면 배경색과 다른 설정을 선택할 수 있습니다.
 
-  ![](assets/background_2.png)
+  ![](assets/background_2.png){zoomable=&quot;yes&quot;}
 
 * 각 구조 구성 요소에 대해 서로 다른 배경색을 설정합니다. 해당 구조에만 특정 배경색을 적용하려면 왼쪽 창의 탐색 트리에서 구조를 선택합니다.
 
-  ![](assets/background_3.png)
+  ![](assets/background_3.png){zoomable=&quot;yes&quot;}
 
   >[!NOTE]
   >
@@ -44,7 +43,7 @@ ht-degree: 100%
 
 * 구조 구성 요소의 콘텐츠에 대해 **[!UICONTROL 배경 이미지]**&#x200B;를 설정합니다.
 
-  ![](assets/background_4.png)
+  ![](assets/background_4.png){zoomable=&quot;yes&quot;}
 
   >[!NOTE]
   >
@@ -52,7 +51,7 @@ ht-degree: 100%
 
 * 열 수준에서 배경색을 설정합니다.
 
-  ![](assets/background_5.png)
+  ![](assets/background_5.png){zoomable=&quot;yes&quot;}
 
   >[!NOTE]
   >

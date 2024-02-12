@@ -2,12 +2,11 @@
 audience: end-user
 title: 파일에서 수신자 타겟팅
 description: 외부 파일에서 수신자를 사용하여 이메일 대상자를 빌드하는 방법 알아보기
-badge: label="제한 공개"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 41%
+source-wordcount: '626'
+ht-degree: 40%
 
 ---
 
@@ -50,7 +49,7 @@ ht-degree: 41%
 1. 기존 이메일 게재를 열거나 [새 이메일 게재 만들기](../email/create-email.md).
 1. **대상자** 섹션의 이메일 게재 생성 창에서 **대상자 선택** 버튼을 클릭하고 **파일에서 선택** 옵션을 선택합니다.
 
-   ![](assets/select-from-file.png)
+   ![](assets/select-from-file.png){zoomable=&quot;yes&quot;}
 
 1. 사용할 로컬 파일을 선택합니다. 형식은 와 일치해야 합니다. [샘플 파일](#sample-file).
 1. 화면 중앙 섹션에서 데이터가 매핑되는 방식을 미리 보고 확인합니다.
@@ -60,7 +59,7 @@ ht-degree: 41%
 
 메시지 콘텐츠를 만들고 개인화할 때 의 입력 파일에서 필드를 선택할 수 있습니다. [개인화 편집기](../personalization/gs-personalization.md).
 
-![](assets/select-external-perso.png)
+![](assets/select-external-perso.png){zoomable=&quot;yes&quot;}
 
 ## 샘플 파일 {#sample-file}
 
@@ -93,7 +92,7 @@ Campaign 웹을 사용하면 파일에서 업로드한 대상자를 사용할 �
 
 1. 게재 콘텐츠 미리보기가 화면의 오른쪽 창에 표시됩니다. 개인화된 요소는 왼쪽 창에서 선택한 프로필의 데이터로 바뀝니다. [게재 콘텐츠 미리 보기에 대해 자세히 알아보기](../preview-test/preview-content.md)
 
-   ![](assets/file-upload-preview.png)
+   ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
 
 1. 테스트 이메일을 보내려면 **[!UICONTROL 테스트]** 단추를 클릭합니다.
 
@@ -105,6 +104,6 @@ Campaign 웹을 사용하면 파일에서 업로드한 대상자를 사용할 �
 
 1. 증명 수신자가 추가되고 증명을 보낼 준비가 되면 **[!UICONTROL 테스트 이메일 보내기]** 단추를 클릭하고 전송을 확인합니다.
 
-   ![](assets/file-upload-test.png)
+   ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 
 1. 다음을 사용하여 테스트 이메일 전송을 모니터링할 수 있습니다. **[!UICONTROL 테스트 이메일 로그 보기]** 언제든지 버튼을 누릅니다. [테스트 이메일 모니터링에 대해 자세히 알아보기](../preview-test/test-deliveries.md#access-test-deliveries)

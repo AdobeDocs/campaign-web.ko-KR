@@ -3,11 +3,10 @@ audience: end-user
 title: 랜딩 페이지 시작
 description: Campaign 웹의 랜딩 페이지에 대해 알아보기
 feature: Landing Pages
-badge: label="제한 공개"
-source-git-commit: 7e9195929c8e408b039da9f84594f5066f0c24fb
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 14%
+source-wordcount: '269'
+ht-degree: 13%
 
 ---
 

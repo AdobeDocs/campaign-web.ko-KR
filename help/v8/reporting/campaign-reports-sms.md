@@ -2,12 +2,11 @@
 audience: end-user
 title: SMS 채널에 대한 캠페인 보고서
 description: SMS 채널에 대한 캠페인 보고서 이해
-badge: label="제한 공개"
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 19%
+source-wordcount: '498'
+ht-degree: 18%
 
 ---
 
@@ -25,7 +24,7 @@ ht-degree: 19%
 
 다음 **[!UICONTROL 게재 개요]** 보고서는 방문자의 SMS 게재 방법에 대한 자세한 정보를 제공하는 주요 성과 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign_report_sms_1.png)
+![](assets/campaign_report_sms_1.png){zoomable=&quot;yes&quot;}
 
 +++SMS 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -50,7 +49,7 @@ ht-degree: 19%
 다음 **[!UICONTROL 초기 타겟 대상 통계]** 테이블에는 수신자와 관련된 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 
 
-![](assets/campaign_report_sms_2.png)
+![](assets/campaign_report_sms_2.png){zoomable=&quot;yes&quot;}
 
 +++SMS 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -75,7 +74,7 @@ ht-degree: 19%
 다음 **[!UICONTROL 실행 통계]** 게재의 성공 여부를 표로 자세히 설명합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
 
-![](assets/campaign_report_sms_3.png)
+![](assets/campaign_report_sms_3.png){zoomable=&quot;yes&quot;}
 
 +++SMS 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -101,7 +100,7 @@ ht-degree: 19%
 
 다음 **[!UICONTROL 생성된 클릭 스트림]** 테이블에는 수신자와 게재의 상호 작용 방식에 따른 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign_report_sms_4.png)
+![](assets/campaign_report_sms_4.png){zoomable=&quot;yes&quot;}
 
 +++SMS 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 

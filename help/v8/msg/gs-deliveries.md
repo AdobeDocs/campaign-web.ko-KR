@@ -5,12 +5,11 @@ description: Campaign Web에서 첫 번째 게재를 생성하는 방법 알아�
 feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
-badge: label="제한 공개"
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: 74048d2e6001d2d9b4813a78096a481374233ea6
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 100%
+source-wordcount: '1211'
+ht-degree: 99%
 
 ---
 
@@ -35,12 +34,12 @@ ht-degree: 100%
 
 1. 왼쪽 탐색 영역에서 **[!UICONTROL 게재]** 메뉴로 이동한 다음 **[!UICONTROL 게재 만들기]** 버튼을 클릭합니다.
 
-   ![](assets/create-a-delivery.png)
+   ![](assets/create-a-delivery.png){zoomable=&quot;yes&quot;}
 
 1. 게재를 위한 채널을 선택합니다.
 1. 기본 대상 및 컨트롤 그룹의 게재 대상자를 정의합니다. [이 섹션](../audience/about-recipients.md)에서 대상자에 대해 자세히 알아보십시오.
 
-   ![](assets/select-audience.png){width="70%" align="left"}
+   ![](assets/select-audience.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 1. 메시지 콘텐츠를 정의합니다. 게재 채널과 이 섹션에서 게재 콘텐츠를 정의하는 방법에 대해 자세히 알아보십시오.
 
@@ -63,13 +62,13 @@ ht-degree: 100%
 1. **[!UICONTROL 대상자 빌드]** 활동을 추가하고 구성합니다. [이 섹션](../workflows/activities/build-audience.md)에서 **[!UICONTROL 대상자 빌드]** 활동에 대해 자세히 알아보십시오.
 1. `+` 아이콘을 클릭한 다음 게재 활동을 선택합니다. **[!UICONTROL 이메일]**, **[!UICONTROL SMS]**, **[!UICONTROL 푸시 알림(Android)]** 또는 **[!UICONTROL 푸시 알림(iOS)]**. 워크플로의 게재 채널과 [이 섹션](../workflows/activities/channels.md)에서 게재 콘텐츠를 정의하는 방법에 대해 자세히 알아보십시오.
 
-   ![](assets/add-delivery-in-wf.png)
+   ![](assets/add-delivery-in-wf.png){zoomable=&quot;yes&quot;}
 
 1. 워크플로를 시작하고 로그를 확인합니다.
 
 워크플로를 만들지 않고도 캠페인에서 게재를 추가할 수도 있습니다. 이를 실현하려면 캠페인의 **[!UICONTROL 게재]** 탭을 클릭하고 **[!UICONTROL 게재 만들기]** 버튼을 클릭합니다.
 
-![](assets/new-campaign-delivery.png)
+![](assets/new-campaign-delivery.png){zoomable=&quot;yes&quot;}
 
 구성 단계는 독립 실행형 게재와 비슷합니다.
 
@@ -117,7 +116,7 @@ Adobe Campaign에서 제공하는 메시지는 다양한 방식으로 개인화�
 
 게재를 예약하려면 게재를 열고 **[!UICONTROL 예약]** 섹션을 찾습니다. **[!UICONTROL 예약 활성화]** 토글을 사용하여 예약을 활성화하고 원하는 전송 일자 및 시간을 설정합니다. 게재를 전송하면 정의한 연락 일자부터 실제 전송이 시작됩니다.
 
-![](assets/schedule.png)
+![](assets/schedule.png){zoomable=&quot;yes&quot;}
 
 기본적으로 **[!UICONTROL 전송 전에 확인 활성화]** 옵션이 활성화되어 있습니다. 이 옵션을 활성화하면 게재가 예약된 날짜 및 시간에 전송되기 전에 전송을 확인해야 합니다. 예약된 일자 및 시간에 자동으로 게재를 전송해야 하는 경우 이 옵션을 비활성화하면 됩니다.
 

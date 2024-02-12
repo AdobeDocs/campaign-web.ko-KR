@@ -2,12 +2,11 @@
 audience: end-user
 title: 대상자 만들기
 description: Adobe Campaign 웹에서 대상자를 만드는 방법을 알아봅니다
-badge: label="제한 공개"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 4b50a20f2ba60017b97d49df8b3d84c44c15ea8c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 22%
+source-wordcount: '902'
+ht-degree: 21%
 
 ---
 
@@ -55,7 +54,7 @@ Campaign 웹을 사용하면 시각적 워크플로우 캔버스로 새로운 �
 
    * &quot;새 대상&quot; **[!UICONTROL 대상자 저장]** 활동은 워크플로우의 마지막 단계를 나타내므로 결과를 새 대상자로 저장할 수 있습니다.
 
-   ![](assets/create-audience-blank.png)
+   ![](assets/create-audience-blank.png){zoomable=&quot;yes&quot;}
 
    >[!IMPORTANT]
    >
@@ -71,7 +70,7 @@ Campaign 웹을 사용하면 시각적 워크플로우 캔버스로 새로운 �
    >
    >채널 활동은 대상자 워크플로우에서 사용할 수 없습니다.
 
-   ![](assets/audience-creation-canvas.png)
+   ![](assets/audience-creation-canvas.png){zoomable=&quot;yes&quot;}
 
 1. 구성 **[!UICONTROL 대상자 저장]** 활동으로 워크플로우에서 업스트림으로 계산한 모집단을 저장하는 방법을 지정합니다. [대상자 저장 활동을 구성하는 방법 알아보기](../workflows/activities/save-audience.md)
 
@@ -85,7 +84,7 @@ Campaign 웹을 사용하면 시각적 워크플로우 캔버스로 새로운 �
 
 아래 예제는 뉴욕에 거주하는 여성 고객을 타겟팅하고 최신 구매 내역(요가 또는 러닝 기어)에 따라 두 개의 새 대상을 만들도록 구성된 대상 워크플로우를 보여 줍니다.
 
-![](assets/audiences-example.png)
+![](assets/audiences-example.png){zoomable=&quot;yes&quot;}
 
 1. 다음 **[!UICONTROL 대상자 작성]** 활동은 뉴욕에 사는 모든 여성 프로필을 타겟으로 합니다.
 1. 다음 **[!UICONTROL 데이터 보강]** 활동은 구매 테이블의 정보를 통해 고객을 강화하여 고객이 구매한 제품 유형을 식별합니다.
@@ -104,4 +103,4 @@ Campaign 웹을 사용하면 시각적 워크플로우 캔버스로 새로운 �
 
 기존 대상 결과를 바꾸지 않으려면 **대상자 저장** 요구 사항에 맞는 활동. 예를 들어 **대상 레이블** 새 결과를 새 대상에 저장하거나 이전 데이터를 지우는 일 없이 기존 대상 콘텐츠에 새 결과를 추가하는 필드. [대상자 저장 활동을 구성하는 방법 알아보기](../workflows/activities/save-audience.md)
 
-![](assets/edit-audience-save.png)
+![](assets/edit-audience-save.png){zoomable=&quot;yes&quot;}

@@ -3,11 +3,10 @@ audience: end-user
 title: 메시지 추적
 description: 링크를 추가하고 전송된 메시지를 추적하는 방법 알아보기
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-badge: label="제한 공개"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 100%
+source-wordcount: '375'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +26,7 @@ ht-degree: 100%
 
 1. 요소를 선택하고 상황별 도구 모음에서 **[!UICONTROL 링크 삽입]**&#x200B;을 클릭합니다.
 
-   ![](assets/message-tracking-insert-link.png)
+   ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
 
 1. **[!UICONTROL 레이블]**&#x200B;과 **[!UICONTROL 링크]**&#x200B;를 추가합니다.
 
@@ -38,7 +37,7 @@ ht-degree: 100%
    * 링크를 편집하고 **[!UICONTROL 대상]**&#x200B;을 변경할 수 있습니다.
    * 해당 옵션을 선택하여 링크에 밑줄을 표시할지 여부를 선택할 수 있습니다.
 
-   ![](assets/message-tracking-link-settings.png)
+   ![](assets/message-tracking-link-settings.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -56,11 +55,11 @@ ht-degree: 100%
 
 1. 링크를 편집하려면 해당 연필 아이콘을 클릭합니다.
 
-   ![](assets/message-tracking-edit-links.png)
+   ![](assets/message-tracking-edit-links.png){zoomable=&quot;yes&quot;}
 
 1. 필요한 경우 **[!UICONTROL 추적 유형]**&#x200B;을 수정할 수 있습니다.
 
-   ![](assets/message-tracking-edit-a-link.png)
+   ![](assets/message-tracking-edit-a-link.png){zoomable=&quot;yes&quot;}
 
    추적된 각 URL에 대해 추적 모드를 다음 중 원하는 값으로 설정할 수 있습니다.
 
@@ -71,6 +70,6 @@ ht-degree: 100%
 
 1. 추적된 링크를 그룹화하려면 링크에 **[!UICONTROL 범주]**&#x200B;를 추가하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-   ![](assets/message-tracking-edit-a-link_2.png)
+   ![](assets/message-tracking-edit-a-link_2.png){zoomable=&quot;yes&quot;}
 
 1. 게재를 전송한 후 게재 보고서에 액세스합니다. **[!UICONTROL 추적]** 메뉴의 **[!UICONTROL URL 및 클릭스트림]** 보고서에는 게재에서 가장 많이 방문한 URL이 표시됩니다. [자세히 알아보기](../reporting/gs-reports.md)

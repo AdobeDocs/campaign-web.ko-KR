@@ -1,17 +1,16 @@
 ---
 audience: end-user
-title: 목록 필터링
+title: 필터 목록
 description: 기본 제공 및 사용자 지정 필터를 사용하여 Adobe Campaign 웹 목록을 필터링하는 방법을 알아봅니다.
-badge: label="제한 공개"
-source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
+exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 6%
+source-wordcount: '310'
+ht-degree: 7%
 
 ---
 
-
-# 목록 필터링 {#filter-lists}
+# 필터 목록 {#filter-lists}
 
 Adobe Campaign 웹은 각 객체 목록 내에 필터를 제공하므로 특정 컨텍스트 기준에 따라 정보를 필터링할 수 있습니다. 예를 들어 상태, 채널, 연락일 또는 폴더에서 게재를 필터링할 수 있습니다. 테스트를 숨길 수도 있습니다.
 
@@ -21,7 +20,7 @@ Adobe Campaign 웹은 각 객체 목록 내에 필터를 제공하므로 특정 
 
 선택한 목록에 사용할 수 있는 필터를 표시하는 필터 창이 열립니다. 예를 들어 캠페인의 상태, 시작 및 종료 날짜 또는 저장소 폴더에 대해 캠페인을 필터링할 수 있으며, 구독 서비스 목록은 캠페인의 채널 및 저장소 폴더에서 필터링될 수 있습니다.
 
-![](assets/filters-pane.png){width="70%" align="left" zoomable="yes"}
+![](assets/filters-pane.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 자체 기준에 따라 목록을 필터링하려면 사용자 지정 필터를 만듭니다. 이렇게 하려면 필터 창 맨 아래로 이동하여 **규칙 추가** 단추를 클릭합니다. [맞춤형 필터를 만드는 방법 알아보기](#custom)
 
@@ -36,6 +35,6 @@ Adobe Campaign 웹은 각 객체 목록 내에 필터를 제공하므로 특정 
 
    아래 예제는 실행 또는 요가 부서의 운영자가 실행한 SMS 캠페인을 캠페인 목록에 표시하도록 디자인된 사용자 지정 필터를 보여줍니다.
 
-   ![](assets/filters-sample.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/filters-sample.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 1. 사용자 지정 필터가 구성되면 **[!UICONTROL 확인]** 목록에 적용합니다.

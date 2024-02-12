@@ -2,12 +2,11 @@
 audience: end-user
 title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 빌드하는 방법 알아보기
-badge: label="제한 공개"
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
@@ -20,7 +19,7 @@ ht-degree: 28%
 
 다음 **[!UICONTROL 워크플로]** 메뉴를 사용하면 전체 워크플로 목록에 액세스할 수 있습니다. 이 목록에는 두 항목이 모두 포함됩니다. **독립 실행형 워크플로** 이 화면에서 만들어짐 **캠페인 워크플로우**: 캠페인 내에서 생성됩니다.
 
-![](assets/workflow-list.png)
+![](assets/workflow-list.png){zoomable=&quot;yes&quot;}
 
 목록의 각 워크플로에는 현재 워크플로에 대한 정보가 표시됩니다 [상태](#status)마지막으로 실행되거나 수정된 시간과 다음에 예약된 실행 날짜 및 시간입니다.
 

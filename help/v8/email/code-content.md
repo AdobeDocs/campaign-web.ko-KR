@@ -3,11 +3,10 @@ audience: end-user
 title: 자체 이메일 콘텐츠 코딩
 description: 자체 이메일 콘텐츠를 코딩하는 방법 알아보기
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-badge: label="제한 공개"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 26%
+source-wordcount: '111'
+ht-degree: 24%
 
 ---
 
@@ -21,13 +20,13 @@ ht-degree: 26%
 
 1. 다음에서 [이메일 디자이너](get-started-email-designer.md) 홈 페이지, 선택 **[!UICONTROL 나만의 코드 작성]**.
 
-   ![](assets/code-your-own.png)
+   ![](assets/code-your-own.png){zoomable=&quot;yes&quot;}
 
 1. 원시 HTML 코드를 입력하거나 기본 캔버스에 붙여넣습니다.
 
 1. 왼쪽 창을 사용하여 개인화 기능을 활용합니다. [자세히 알아보기](../personalization/gs-personalization.md)
 
-   ![](assets/code-editor-personalization.png)
+   ![](assets/code-editor-personalization.png){zoomable=&quot;yes&quot;}
 
 1. 다음을 클릭합니다. **[!UICONTROL 콘텐츠 시뮬레이션]** 테스트 프로필을 사용하여 메시지 디자인 및 개인화를 확인하는 버튼입니다. [자세히 알아보기](../preview-test/preview-test.md)
 

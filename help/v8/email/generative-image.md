@@ -6,9 +6,9 @@ badge: label="Alpha"
 exl-id: 896d7e9b-0fa2-435b-b191-fa5db36e7ea0
 hide: true
 hidefromtoc: true
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '390'
 ht-degree: 5%
 
 ---
@@ -35,11 +35,11 @@ ht-degree: 5%
 
 1. 오른쪽 메뉴에서 **[!UICONTROL 경험 생성]**.
 
-   ![](assets/image-genai-1.png)
+   ![](assets/image-genai-1.png){zoomable=&quot;yes&quot;}
 
 1. 결과를 보다 세밀하게 조정하려면 프롬프트를 추가하십시오.
 
-   ![](assets/image-genai-2.png)
+   ![](assets/image-genai-2.png){zoomable=&quot;yes&quot;}
 
 1. 선택 **[!UICONTROL 파일 업로드]** 추가 컨텍스트를 제공할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가하려면 콘텐츠 도우미를 사용하십시오.
 
@@ -51,20 +51,20 @@ ht-degree: 5%
 
 1. 사용자 지정 **[!UICONTROL 색상 및 톤]**, **[!UICONTROL 컨텐츠 유형]**, **[!UICONTROL 조명]** 및 **[!UICONTROL 컴포지션]** 원하는 에셋 특성과 일치하는 설정입니다.
 
-   ![](assets/image-genai-3.png)
+   ![](assets/image-genai-3.png){zoomable=&quot;yes&quot;}
 
 1. 프롬프트 구성이 만족스러우면 **[!UICONTROL 생성]**.
 
 1. 찾아보기 **[!UICONTROL 변형 제안]** 원하는 자산을 찾습니다. 클릭 **[!UICONTROL 미리 보기]** 선택한 변형의 전체 화면 버전을 보려면 다음과 같이 하십시오.
 
-   ![](assets/image-genai-5.png)
+   ![](assets/image-genai-5.png){zoomable=&quot;yes&quot;}
 
 1. 클릭 **[!UICONTROL 선택]** 적절한 콘텐츠를 찾았으면
 
-   ![](assets/image-genai-6.png)
+   ![](assets/image-genai-6.png){zoomable=&quot;yes&quot;}
 
 1. 메시지 콘텐츠를 정의한 후 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 렌더링을 제어하고 테스트 프로필로 개인화 설정을 확인합니다.  [자세히 알아보기](../preview-test/preview-content.md)
 
-   ![](assets/image-genai-7.png)
+   ![](assets/image-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. 콘텐츠, 대상자 및 일정을 정의했으면 이메일 게재를 준비할 준비가 되었습니다. [자세히 알아보기](../monitor/prepare-send.md)

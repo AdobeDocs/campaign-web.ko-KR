@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 랜딩, 랜딩 페이지, 사용 사례
-source-git-commit: 7c6a485496dcac65722375d0c55402abe1ebbf59
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1307'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,13 @@ ht-degree: 0%
 
 1. 랜딩 페이지 속성 및 설정을 정의합니다.
 
-   ![](assets/lp-uc-properties.png)
+   ![](assets/lp-uc-properties.png){zoomable=&quot;yes&quot;}
 
 1. 경우에 따라 **[!UICONTROL 고객 확보]**, **[!UICONTROL 구독]**, **[!UICONTROL 구독 취소]** 또는 **[!UICONTROL 차단 목록]** 페이지를 가리키도록 업데이트하는 중입니다.
 
 1. 페이지의 콘텐츠가 표시됩니다. 랜딩 페이지 양식에 해당하는 부분을 선택합니다.
 
-   ![](assets/lp-uc-form.png)
+   ![](assets/lp-uc-form.png){zoomable=&quot;yes&quot;}
 
 1. 선택한 템플릿에 따라 콘텐츠를 편집합니다.
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 편집 **[!UICONTROL 확인]** 필요에 따라 페이지를 **[!UICONTROL 오류]** 및 **[!UICONTROL 만료]** 페이지. 다음 **[!UICONTROL 확인]** 양식을 제출하면 수신자에게 페이지가 표시됩니다.
 
-   ![](assets/lp-uc-confirmation-page.png)
+   ![](assets/lp-uc-confirmation-page.png){zoomable=&quot;yes&quot;}
 
 1. [테스트](create-lp.md#test-landing-page) 및 [게시](create-lp.md#publish-landing-page) 랜딩 페이지입니다.
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 1. [링크 삽입](../email/message-tracking.md#insert-links) 을 메시지 콘텐츠에 추가합니다. 선택 **[!UICONTROL 랜딩 페이지]** (으)로 **[!UICONTROL 링크 유형]** 만든 랜딩 페이지를 선택합니다.
 
-   ![](assets/lp-uc-email-link.png)
+   ![](assets/lp-uc-email-link.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 1. 또한 고객이 뉴스레터 서비스를 구독하도록 초대하는 확인란을 추가할 수 있습니다. [서비스를 만드는 방법 알아보기](../audience/manage-services.md)
 
-   ![](assets/lp-uc-acquisition-page.png)
+   ![](assets/lp-uc-acquisition-page.png){zoomable=&quot;yes&quot;}
 
 1. 필요에 따라 콘텐츠를 조정하고 변경 사항을 저장합니다.
 
@@ -99,11 +99,11 @@ ht-degree: 0%
 
 이메일을 수신하면 수신자가 랜딩 페이지 링크를 클릭하고 양식을 제출하면 프로필이 Campaign 데이터베이스에 추가되거나 제공된 정보로 업데이트됩니다.
 
-![](assets/lp-uc-profile-updated.png)
+![](assets/lp-uc-profile-updated.png){zoomable=&quot;yes&quot;}
 
 고객이 뉴스레터를 수신하도록 옵트인한 경우 해당 서비스를 구독하게 됩니다.
 
-![](assets/lp-uc-newsletter-subscriber.png)
+![](assets/lp-uc-newsletter-subscriber.png){zoomable=&quot;yes&quot;}
 
 ## 서비스 구독 {#lp-subscription}
 
@@ -113,13 +113,13 @@ ht-degree: 0%
 
 1. 서비스를 만들 때 이벤트를 쉽게 선택할 수 있도록 이벤트를 구독하는 사용자에 대한 확인 템플릿을 만드는 것부터 시작합니다. [자세히 알아보기](../audience/manage-services.md#create-confirmation-message)
 
-   ![](assets/lp-uc-confirmation-email.png)
+   ![](assets/lp-uc-confirmation-email.png){zoomable=&quot;yes&quot;}
 
 1. 등록된 사용자를 이벤트에 저장하는 구독 서비스를 만듭니다. [서비스를 만드는 방법 알아보기](../audience/manage-services.md)
 
 1. 구독 시 사용자가 받게 되는 확인 이메일로 만든 템플릿을 선택합니다.
 
-   ![](assets/lp-uc-subscription-service.png)
+   ![](assets/lp-uc-subscription-service.png){zoomable=&quot;yes&quot;}
 
 1. [랜딩 페이지 만들기](create-lp.md#create-landing-page) 을 클릭하여 수신자가 이벤트에 등록할 수 있도록 합니다. 다음 항목 선택 **[!UICONTROL 구독]** 템플릿.
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 
 1. 다음에서 **[!UICONTROL 구독 및 서비스]** 필드에서 이벤트에 대해 만든 서비스를 선택합니다. 나가기 **[!UICONTROL 선택한 경우 가입]** 옵션이 활성화되었습니다.
 
-   ![](assets/lp-uc-subscription-checkbox-1.png)
+   ![](assets/lp-uc-subscription-checkbox-1.png){zoomable=&quot;yes&quot;}
 <!--
 1. You can add an additional checkbox to offer subscription to your newsletter for example.-->
 
@@ -159,11 +159,11 @@ ht-degree: 0%
 
 1. 다음을 추가할 수 있습니다. **[!UICONTROL 확인란]** 섹션에서 서비스를 선택하고 **[!UICONTROL 선택한 경우 구독 취소]** 옵션을 선택합니다.
 
-   ![](assets/lp-uc-unsubscription-checkbox-1.png)
+   ![](assets/lp-uc-unsubscription-checkbox-1.png){zoomable=&quot;yes&quot;}
 
 1. 또한 를 **[!UICONTROL 클릭 유도 문안]** 섹션을 선택하고 **[!UICONTROL 추가 업데이트]** 옵션을 선택합니다. 서비스를 선택하고 다음을 확인합니다. **[!UICONTROL 옵트아웃]** 옵션을 선택합니다.
 
-   ![](assets/lp-uc-unsubscription-call-to-action.png)
+   ![](assets/lp-uc-unsubscription-call-to-action.png){zoomable=&quot;yes&quot;}
 
 1. 필요에 따라 콘텐츠를 조정하고 변경 사항을 저장합니다.
 
@@ -187,7 +187,7 @@ ht-degree: 0%
 
 1. 해당 드롭다운 목록에서 을(를) 선택합니다 **[!UICONTROL 채널(이메일)]** 수신자가 이메일 커뮤니케이션에서만 옵트아웃할 수 있도록 합니다. 다음을 선택할 수도 있습니다. **[!UICONTROL 모든 채널별]** 모든 채널의 모든 통신에서 모두를 선택.
 
-   ![](assets/lp-uc-denylist.png)
+   ![](assets/lp-uc-denylist.png){zoomable=&quot;yes&quot;}
 
 1. 필요에 따라 콘텐츠를 조정하고 변경 사항을 저장합니다.
 
@@ -201,7 +201,7 @@ ht-degree: 0%
 
 예를 들어 를 업데이트하도록 선택한 경우 **[!UICONTROL 채널(이메일)]** 랜딩 페이지의 옵션 **[!UICONTROL 더 이상 연락하지 않음(이메일)]** 옵션이 선택됩니다.
 
-![](assets/lp-uc-denylist-profile.png)
+![](assets/lp-uc-denylist-profile.png){zoomable=&quot;yes&quot;}
 
 이 프로필은 다시 구독하지 않으면 브랜드로부터 이메일 통신을 받지 않습니다.
 

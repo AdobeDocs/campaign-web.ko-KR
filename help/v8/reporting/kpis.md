@@ -1,9 +1,8 @@
 ---
 title: 주요 성과 지표
 description: 주요 성능 지표를 이해하는 방법에 대해 알아봅니다.
-badge: label="제한 공개"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 79%
@@ -28,7 +27,7 @@ ht-degree: 79%
 
 표시할 채널을 선택할 수 있습니다. 기본적으로 이러한 표시기는 이메일 채널에 대한 지표를 반영합니다.
 
-![](assets/kpi.png)
+![](assets/kpi.png){zoomable=&quot;yes&quot;}
 
 ## 게재된 메시지 {#ui-delivered-kpi}
 

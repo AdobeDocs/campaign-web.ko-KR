@@ -2,12 +2,11 @@
 audience: end-user
 title: 푸시 채널에 대한 캠페인 보고서
 description: 푸시 채널에 대한 캠페인 보고서 이해
-badge: label="제한 공개"
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 19%
+source-wordcount: '506'
+ht-degree: 18%
 
 ---
 
@@ -24,7 +23,7 @@ ht-degree: 19%
 
 다음 **[!UICONTROL 게재 개요]** 보고서는 방문자의 푸시 알림 전달 방식에 대한 자세한 정보를 제공하는 주요 성과 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign-reporting-push-summary.png)
+![](assets/campaign-reporting-push-summary.png){zoomable=&quot;yes&quot;}
 
 
 +++푸시 캠페인 보고서 지표에 대해 자세히 알아보십시오.
@@ -49,7 +48,7 @@ ht-degree: 19%
 
 다음 **[!UICONTROL 초기 타겟 대상 통계]** 테이블에는 수신자와 관련된 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign-reporting-push-target.png)
+![](assets/campaign-reporting-push-target.png){zoomable=&quot;yes&quot;}
 
 
 +++푸시 캠페인 보고서 지표에 대해 자세히 알아보십시오.
@@ -71,7 +70,7 @@ ht-degree: 19%
 
 다음 **[!UICONTROL 실행 통계]** 게재의 성공 여부를 표로 자세히 설명합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign-reporting-push-exec.png)
+![](assets/campaign-reporting-push-exec.png){zoomable=&quot;yes&quot;}
 
 
 +++푸시 캠페인 보고서 지표에 대해 자세히 알아보십시오.
@@ -97,7 +96,7 @@ ht-degree: 19%
 
 다음 **[!UICONTROL 생성된 클릭 스트림]** 테이블에는 수신자와 게재의 상호 작용 방식에 따른 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign-reporting-push-clicks.png)
+![](assets/campaign-reporting-push-clicks.png){zoomable=&quot;yes&quot;}
 
 +++푸시 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 

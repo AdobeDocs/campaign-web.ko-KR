@@ -4,10 +4,10 @@ title: Campaign 규칙 빌더로 대상자 빌드
 description: 규칙 빌더로 작업하는 방법을 알아봅니다.
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: 51f29840941974f05a930023e41adb1bb2558974
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 59%
+source-wordcount: '583'
+ht-degree: 57%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 59%
 
 왼쪽에 있는 팔레트에는 대상자를 만들기 위해 필터링할 수 있는 모든 요소가 포함되어 있습니다. 검색 창을 사용하여 요소를 빠르게 찾을 수 있습니다. 팔레트에 포함된 타일을 구성하고 고려하려면 중앙 캔버스로 이동해야 합니다.
 
-![](assets/segment-builder2.png){width="70%" align="left"}
+![](assets/segment-builder2.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 팔레트는 두 개의 탭으로 나뉩니다.
 
@@ -38,13 +38,13 @@ ht-degree: 59%
 
 캔버스는 팔레트에서 추가한 요소를 기반으로 규칙을 구성하고 결합할 수 있는 중앙 영역입니다. 새 규칙을 추가하려면 팔레트에서 타일을 드래그하여 캔버스에 놓습니다. 이렇게 하면 추가되는 데이터 유형에 따라 상황에 맞는 옵션을 볼 수 있습니다.
 
-![](assets/segment-builder4.png){width="70%" align="left"}
+![](assets/segment-builder4.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 ## 규칙 속성 창
 
 오른쪽에는 **규칙 속성** 창에서는 아래 나열된 작업을 수행할 수 있습니다.
 
-![](assets/segment-builder5.png){width="70%" align="left"}
+![](assets/segment-builder5.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 * **결과 보기:** 대상자에 의해 타겟팅되는 수신자 목록을 표시합니다.
 * **코드 보기**: SQL에 대상자의 코드 기반 버전을 표시합니다.
@@ -64,26 +64,26 @@ ht-degree: 59%
 
 1. 팔레트의 **속성** 탭에서 **생년월일** 필드를 검색합니다. 타일을 드래그하여 캔버스에 놓습니다.
 
-   ![](assets/segment-builder6.png)
+   ![](assets/segment-builder6.png){zoomable=&quot;yes&quot;}
 
 1. 캔버스에서 **다음 날짜 이후** 연산자를 선택하고 원하는 날짜를 입력합니다.
 
-   ![](assets/segment-builder7.png)
+   ![](assets/segment-builder7.png){zoomable=&quot;yes&quot;}
 
 1. 팔레트에서 **도시** 필드를 검색한 다음 첫 번째 규칙 아래 캔버스에 추가합니다.
 
-   ![](assets/segment-builder8.png)
+   ![](assets/segment-builder8.png){zoomable=&quot;yes&quot;}
 
 1. 텍스트 필드에 첫 번째 도시 이름을 입력한 다음 Enter 키를 누릅니다.
 
-   ![](assets/segment-builder9.png)
+   ![](assets/segment-builder9.png){zoomable=&quot;yes&quot;}
 
 1. 두 번째 도시 이름에 대해 이 작업을 반복합니다.
 
-   ![](assets/segment-builder10.png)
+   ![](assets/segment-builder10.png){zoomable=&quot;yes&quot;}
 
 1. **결과 보기**&#x200B;를 클릭하여 쿼리와 일치하는 수신자 목록 및 수를 표시합니다. 열을 추가하여 데이터를 시각화하고 확인할 수도 있습니다. 이 예제에서는 **도시** 열을 추가하면 “애틀랜타”와 “시애틀”이 표시되어야 합니다.
 
-   ![](assets/segment-builder11.png)
+   ![](assets/segment-builder11.png){zoomable=&quot;yes&quot;}
 
 1. **확인**&#x200B;을 클릭합니다.

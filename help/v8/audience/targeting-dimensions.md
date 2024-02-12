@@ -1,9 +1,8 @@
 ---
 title: 타겟팅 차원
 description: Adobe Campaign 웹의 타겟팅 차원에 대해 자세히 알아보십시오
-badge: label="제한 공개"
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: d040dddb143c2dbf4e9f47d762f7359ec7a18e16
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 11%
@@ -27,7 +26,7 @@ ht-degree: 11%
 
 타겟팅 차원 선택 시(워크플로우 설정 또는 과 같은 활동에서) **대상자 작성**, **조정** 또는 **차원 변경**) 일반적으로 사용되는 스키마는 기본적으로 목록에 표시됩니다. 사용 가능한 모든 스키마를 표시하려면 **[!UICONTROL 모든 스키마 표시]** 단추를 클릭합니다. 옵션 선택은 각 사용자에 대해 저장됩니다.
 
-![](assets/targeting-dimension-show-all.png)
+![](assets/targeting-dimension-show-all.png){zoomable=&quot;yes&quot;}
 
 ## 타겟팅 차원 {#list}
 

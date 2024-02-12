@@ -5,12 +5,11 @@ description: Campaign 웹에서 게재 템플릿을 만들고 사용하는 방�
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-badge: label="제한 공개"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: f8f29849bbd3e97b4168a0bac175a3cdc3e651df
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 25%
+source-wordcount: '1109'
+ht-degree: 24%
 
 ---
 
@@ -49,24 +48,24 @@ ht-degree: 25%
 
 콘텐츠 템플릿 목록에 액세스하려면 다음을 선택합니다. **[!UICONTROL Campaign Management]** > **[!UICONTROL 게재]** 왼쪽 메뉴에서 **템플릿** 탭.
 
-![](assets/templates-tab.png)
+![](assets/templates-tab.png){zoomable=&quot;yes&quot;}
 
 다음의 모든 템플릿 [생성됨](#create-a-delivery-template) 현재 환경에 표시됩니다.
 
 채널 및 폴더에서 콘텐츠 템플릿을 필터링할 수 있습니다. 게재 속성을 사용하여 규칙을 작성하여 고급 필터를 설정할 수도 있습니다. [쿼리 모델러에 대해 자세히 알아보기](../audience/../query/query-modeler-overview.md)
 
-![](assets/templates-filters.png)
+![](assets/templates-filters.png){zoomable=&quot;yes&quot;}
 
 템플릿을 편집하려면 목록에서 원하는 항목을 클릭합니다. 여기에서:
 
 * 콘텐츠, 속성, 대상자 및 여기에 첨부된 모든 오퍼를 수정할 수 있습니다.
 * 템플릿을 테스트할 수도 있습니다. [자세히 알아보기](#test-template)
 
-![](assets/templates-edition.png)
+![](assets/templates-edition.png){zoomable=&quot;yes&quot;}
 
 또는 삭제 [복제](#copy-an-existing-template) 템플릿에서 해당 작업을 선택합니다. **[!UICONTROL 추가 작업]** 메뉴(다음 중 하나)에서 **[!UICONTROL 템플릿]** 템플릿 편집 화면에서 또는 을 나열합니다.
 
-![](assets/templates-more-actions.png)
+![](assets/templates-more-actions.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -97,15 +96,15 @@ Campaign에는 각 채널용 이메일, 푸시, SMS 템플릿 세트가 기본 �
 
 1. 복제를 확인합니다.
 
-   ![](assets/templates-duplicate-confirm.png)
+   ![](assets/templates-duplicate-confirm.png){zoomable=&quot;yes&quot;}
 
 1. 새 템플릿 대시보드가 중앙 화면에 열립니다. 필요에 따라 템플릿 설정을 편집합니다.
 
-   ![](assets/templates-duplicated-item.png)
+   ![](assets/templates-duplicated-item.png){zoomable=&quot;yes&quot;}
 
 1. 다음을 클릭합니다. **[!UICONTROL 리뷰]** 단추를 클릭하여 템플릿을 저장하고 검토합니다. 모든 설정을 편집하고, 삭제하고, 복제할 수 있습니다.
 
-   ![](assets/templates-review-screen.png)
+   ![](assets/templates-review-screen.png){zoomable=&quot;yes&quot;}
 
 1. 필요한 경우 템플릿 렌더링을 테스트합니다. [자세히 알아보기](#test-template)
 
@@ -120,7 +119,7 @@ Campaign에는 각 채널용 이메일, 푸시, SMS 템플릿 세트가 기본 �
 1. 다음으로 이동 **[!UICONTROL 캠페인 관리]** > **[!UICONTROL 게재]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 1. 다음에서 **[!UICONTROL 찾아보기]** 탭을 클릭하고 **[!UICONTROL 추가 작업]** 원하는 게재 이름의 오른쪽에 있는 버튼을 클릭하고 **[!UICONTROL 템플릿으로 복사]**.
 
-   ![](assets/templates-convert-delivery.png)
+   ![](assets/templates-convert-delivery.png){zoomable=&quot;yes&quot;}
 
    목록에서 템플릿을 선택하고 템플릿 편집 화면에서 이 옵션을 선택할 수도 있습니다.
 
@@ -145,12 +144,12 @@ Campaign에는 각 채널용 이메일, 푸시, SMS 템플릿 세트가 기본 �
 1. 다음으로 이동 **템플릿** 탭, **게재** 왼쪽 메뉴. [자세히 알아보기](#access-manage-templates)
 1. 다음을 클릭합니다. **[!UICONTROL 템플릿 만들기]** 단추를 클릭합니다.
 
-   ![](assets/templates-create-button.png)
+   ![](assets/templates-create-button.png){zoomable=&quot;yes&quot;}
 
 1. 템플릿에 사용할 채널을 선택합니다.
 1. 해당 채널의 기본 제공 게재 템플릿은 기본적으로 자체 템플릿을 작성하는 데 사용됩니다. 필요한 경우 선택한 채널 오른쪽에 있는 전용 버튼을 사용하여 다른 템플릿을 선택합니다.
 
-   ![](assets/templates-channel-browse.png)
+   ![](assets/templates-channel-browse.png){zoomable=&quot;yes&quot;}
 
 1. 다음을 클릭합니다. **[!UICONTROL 템플릿 만들기]** 단추를 다시 클릭합니다.
 
@@ -180,7 +179,7 @@ Campaign에는 각 채널용 이메일, 푸시, SMS 템플릿 세트가 기본 �
 
 1. 다음을 클릭합니다. **[!UICONTROL 콘텐츠 시뮬레이션]** 화면 오른쪽 상단의 단추.
 
-   ![](assets/templates-simulate-button.png)
+   ![](assets/templates-simulate-button.png){zoomable=&quot;yes&quot;}
 
 1. 하나 이상의 테스트 프로필을 선택하여 이메일 렌더링을 확인합니다. 데이터베이스에서 실제 프로필을 선택할 수도 있습니다. [테스트 프로필에 대해 자세히 알아보기](../audience/test-profiles.md)
 
@@ -188,7 +187,7 @@ Campaign에는 각 채널용 이메일, 푸시, SMS 템플릿 세트가 기본 �
 
 [콘텐츠 미리 보기에 대한 자세한 정보](../preview-test/preview-content.md)
 
-   ![](assets/templates-stimulate.png)
+   ![](assets/templates-stimulate.png){zoomable=&quot;yes&quot;}
 
 1. 템플릿 편집 화면으로 돌아가려면 창을 닫습니다.
 

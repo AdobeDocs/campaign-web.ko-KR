@@ -3,10 +3,10 @@ audience: end-user
 title: 쿼리 모델러로 작업
 description: Adobe Campaign 웹 쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 4de9a8afea6a07971ebd23982a1a1ab98bc70045
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 38%
+source-wordcount: '551'
+ht-degree: 30%
 
 ---
 
@@ -32,7 +32,9 @@ ht-degree: 38%
 >title="쿼리 모델러"
 >abstract="데이터베이스의 수신자 또는 기타 타겟팅 차원에 대한 필터링 기준을 정의합니다. Adobe Experience Platform 대상자를 활용하여 타깃 대상자를 더욱 세분화하고 캠페인 효과를 극대화하십시오."
 
-Adobe Campaign Web에는 다양한 기준에 따라 특정 대상을 선택하기 위해 데이터베이스 필터링 프로세스를 단순화하는 쿼리 모델러가 있습니다. 여기에는 고급 표현식 및 연산자 사용이 포함됩니다.
+Adobe Campaign 웹 사용자 인터페이스에는 다양한 기준을 기반으로 데이터베이스를 필터링하는 프로세스를 간소화하는 쿼리 모델러가 포함되어 있습니다. 클라이언트 콘솔에서 생성된 쿼리와 완벽하게 호환되므로 웹 사용자 인터페이스로 원활하게 전환할 수 있습니다.
+
+또한 쿼리 모델러는 매우 복잡하고 긴 쿼리를 효율적으로 관리하여 향상된 유연성과 정밀도를 제공합니다. 또한 조건 내에 사전 정의된 필터를 지원하므로 포괄적인 대상 타기팅 및 세그멘테이션 전략에 고급 표현식 및 연산자를 활용하는 동시에 쿼리를 쉽게 세분화할 수 있습니다.
 
 ## 쿼리 모델러에 액세스
 

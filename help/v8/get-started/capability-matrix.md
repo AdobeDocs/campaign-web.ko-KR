@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign 웹 사용자 인터페이스/클라이언트 콘솔 기능 매트릭스
 description: Campaign 웹 사용자 인터페이스에서 지원되는 기능 목록
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: a144814b4bea95d2272ccaa32de4ff49e14ac60c
+source-git-commit: 0a7fbd4a316359915eedfc33ffb78515a233793c
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2156'
 ht-degree: 3%
 
 ---
@@ -37,7 +37,7 @@ Campaign 웹 사용자 인터페이스를 사용하면 크로스채널 캠페인
 
 ## 소통 채널 {#channels-capabilities}
 
-Campaign 웹 사용자 인터페이스를 사용하면 이메일, SMS 및 푸시 알림을 만들고 디자인하고 전송할 수 있으며 다양한 전용 보고서를 사용하여 자세한 정보를 확인할 수 있습니다 [이 섹션에서](../msg/gs-messages.md). 그러나 현재 다음 채널은 사용할 수 없습니다.
+Campaign 웹 사용자 인터페이스를 사용하면 를 만들고 디자인하고 보낼 수 있습니다 **이메일**, **SMS** 및 **푸시 알림**, 다양한 전용 보고서를 사용하여 자세한 대로 영향을 측정할 수 있습니다 [이 섹션에서](../msg/gs-messages.md). 하지만 현재 다음 채널이 있습니다 **아님** 사용 가능: 인앱, DM, LINE, 콜 센터/사용자 지정 채널, X(Twitter)가 있는 소셜 마케팅.
 
 제공된 링크를 사용하여 Campaign v8(클라이언트 콘솔) 설명서를 탐색하고 이러한 채널에 대해 자세히 알아보십시오.
 

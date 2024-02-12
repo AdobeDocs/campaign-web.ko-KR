@@ -3,9 +3,9 @@ audience: end-user
 title: 랜딩 페이지 시작
 description: Campaign 웹의 랜딩 페이지에 대해 알아보기
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '275'
 ht-degree: 13%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 13%
 
 >[!CAUTION]
 >
->Campaign 웹 사용자 인터페이스에서 만드는 랜딩 페이지는 클라이언트 콘솔에서 만든 웹 양식과 다릅니다. Campaign 웹 사용자 인터페이스에서는 웹 양식을 표시하거나 편집할 수 없습니다.
+>Campaign 웹 사용자 인터페이스에서 만드는 랜딩 페이지는 클라이언트 콘솔에서 만든 웹 양식과 다릅니다. Campaign 웹 사용자 인터페이스에서는 클라이언트 콘솔에서 만든 웹 양식을 표시하거나 편집할 수 없습니다.
 >
->웹 양식에 대한 자세한 내용 [Campaign 콘솔 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>웹 양식에 대한 자세한 내용 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 랜딩 페이지의 주요 기능은 다음과 같습니다.
 

@@ -2,9 +2,9 @@
 title: 랜딩 페이지별 콘텐츠 정의
 description: Campaign 웹에서 랜딩 페이지별 콘텐츠를 디자인하는 방법을 알아봅니다
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '872'
 ht-degree: 11%
 
 ---
@@ -16,13 +16,16 @@ ht-degree: 11%
 >title="콘텐츠 구성 요소 사용"
 >abstract="콘텐츠 구성 요소는 랜딩 페이지 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다. 사용자가 선택 사항을 선택하고 제출할 수 있는 특정 콘텐츠를 정의하려면 양식 구성 요소를 사용합니다."
 
-랜딩 페이지의 콘텐츠를 편집할 때 이미 미리 채워져 있습니다.
+랜딩 페이지의 모든 페이지 콘텐츠를 편집할 수 있습니다.
 
-사용자가 랜딩 페이지 링크를 클릭한 후 사용자에게 즉시 표시되는 첫 번째 페이지는 이미 로 채워져 있습니다. [랜딩 페이지별 양식 구성 요소](#use-form-component) 선택한 템플릿<!-- to enable users to select and submit their choices-->. 다음을 정의할 수도 있습니다. [랜딩 페이지의 스타일](#lp-form-styles).
 
-랜딩 페이지 콘텐츠를 추가로 디자인하기 위해 이메일과 동일한 구성 요소를 사용할 수 있습니다. [자세히 알아보기](../email/content-components.md#add-content-components)
+사용자가 랜딩 페이지 링크를 클릭한 후 사용자에게 즉시 표시되는 첫 번째 페이지는 이미 로 채워져 있습니다. [랜딩 페이지별 양식 구성 요소](#use-form-component) 선택한 템플릿<!-- to enable users to select and submit their choices-->.
 
 의 콘텐츠 **[!UICONTROL 확인]**, **[!UICONTROL 오류]** 및 **[!UICONTROL 만료]** 페이지도 미리 채워집니다. 필요에 따라 편집합니다.
+
+다음을 정의할 수도 있습니다. [랜딩 페이지의 스타일](#lp-form-styles).
+
+랜딩 페이지 콘텐츠를 추가로 디자인하기 위해 이메일과 동일한 구성 요소를 사용할 수 있습니다. [자세히 알아보기](../email/content-components.md#add-content-components)
 
 ## 양식 구성 요소 사용 {#use-form-component}
 
@@ -36,7 +39,7 @@ ht-degree: 11%
 >title="버튼 클릭 시 나타나는 결과"
 >abstract="사용자가 랜딩 페이지 양식을 제출할 때 나타나는 결과를 정의합니다."
 
-사용자가 랜딩 페이지에서 선택 사항을 선택하고 제출할 수 있도록 하는 특정 콘텐츠를 정의하려면 **[!UICONTROL 양식]** 구성 요소. 이렇게 하려면 아래 단계를 수행합니다.
+사용자가 랜딩 페이지에서 선택 사항을 선택하고 제출할 수 있도록 해 주는 특정 콘텐츠를 정의하려면 **[!UICONTROL 양식]** 구성 요소. 이렇게 하려면 아래 단계를 수행합니다.
 
 1. 랜딩 페이지별 **[!UICONTROL 양식]** 선택한 템플릿에 대한 구성 요소가 캔버스에 이미 표시됩니다.
 

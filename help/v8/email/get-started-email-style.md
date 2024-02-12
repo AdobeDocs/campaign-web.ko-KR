@@ -3,7 +3,7 @@ audience: end-user
 title: 이메일 스타일 시작하기
 description: 이메일 콘텐츠 스타일을 조정할 수 있는 다양한 방법 살펴보기
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 98%

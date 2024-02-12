@@ -3,7 +3,7 @@ audience: end-user
 title: 파일에서 수신자 타겟팅
 description: 외부 파일에서 수신자를 사용하여 이메일 대상자를 빌드하는 방법 알아보기
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 40%

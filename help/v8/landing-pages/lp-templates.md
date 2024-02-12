@@ -3,7 +3,7 @@ audience: end-user
 title: 랜딩 페이지 콘텐츠 템플릿 작업
 description: 랜딩 페이지 콘텐츠를 디자인 템플릿으로 저장하고 Campaign 웹에서 다시 사용하는 방법에 대해 알아봅니다
 feature: Landing Pages
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 12%

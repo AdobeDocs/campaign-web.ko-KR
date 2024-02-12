@@ -3,7 +3,7 @@ audience: end-user
 title: Campaign 웹 사용자 인터페이스의 새로운 기능
 description: Campaign 웹 사용자 인터페이스와 함께 제공되는 새로운 기능 살펴보기
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '1290'
 ht-degree: 74%

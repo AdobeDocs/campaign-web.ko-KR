@@ -3,7 +3,7 @@ audience: end-user
 title: 이메일의 텍스트 버전 만들기
 description: 이메일의 텍스트 버전을 만드는 방법
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 96%

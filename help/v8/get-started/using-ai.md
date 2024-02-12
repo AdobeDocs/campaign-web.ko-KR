@@ -3,10 +3,10 @@ title: Campaign Web에서 AI 기반 상황별 도움말 사용
 description: Campaign 웹 도움말 팝오버에서 질문하기
 badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
+source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 94%
+source-wordcount: '532'
+ht-degree: 84%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 94%
 
 Campaign 생성형 AI의 기능 덕분에 이 구성 요소는 사용자의 경험을 변화시켜 정보 검색 및 문제 해결을 용이하게 합니다. 복잡한 작업에서 지침을 구하거나 광범위한 문서를 탐색할 때 AI 기반 상황별 도움말은 모든 상호 작용에서 비교할 수 없는 효율성과 정확성을 제공하는 최고의 보조 앱입니다.
 
-<img src="assets/AI_CH.gif" width="80%"/>
+<img src="assets/do-not-localize/CH+AI-BETA.gif" width="80%"/>
 
 
 >[!AVAILABILITY]
@@ -44,19 +44,25 @@ The knowledge assistant AI capability does not use your data to train our models
 For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/products/sensei/adobe-sensei.html){target="_blank"}.
 -->
 
+## 제안되는 질문 {#questions-ai}
+
+입력 필드에서 Adobe Campaign AI 기반의 상황별 도움말은 3가지 제안 질문을 제공합니다. 이러한 질문은 AI가 생성한 것입니다. 도움말 상자 및 현재 제품 컨텍스트와 관련되어 있습니다. 질문을 선택하여 답변을 얻습니다.
+
 ## 답변 {#answers-ai}
 
 Adobe Campaign AI 기반 상황별 도움말에서 도움을 제공하지만 사실을 확인해야 합니다. 잘못된 정보, 부정확하거나 오해의 소지가 있는 답변이 출력될 수 있습니다. 모든 도움말 상자에 링크된 제품 설명서를 확인하십시오.
 
-인공 지능 및 머신 러닝 모델은 시간이 지남에 따라 개선되어 특정 사용 사례를 보다 잘 처리하게 됩니다. Campaign AI 기반 상황별 도움말은 향후 몇 개월에 걸쳐 계속해서 개선될 예정입니다. 답변을 읽을 때 부적절한 응답이 있는 경우 <img src="assets/do-not-localize/thumb.png" width="10%"/> 버튼을 사용해 바로 엔지니어에게 알려주세요.
+다음을 사용하여 클립보드에 답변을 복사할 수 있습니다. **복사** ( 도움말 팝오버 하단에 있음) 아이콘을 클릭합니다.
 
+## 피드백 {#feedback-ai}
+
+인공 지능 및 머신 러닝 모델은 시간이 지남에 따라 개선되어 특정 사용 사례를 보다 잘 처리하게 됩니다. Campaign AI 기반 상황별 도움말은 향후 몇 개월에 걸쳐 계속해서 개선될 예정입니다. 답변을 읽을 때 부적절한 응답이 있는 경우 <img src="assets/do-not-localize/thumb.png" width="10%"/> 버튼을 사용해 바로 엔지니어에게 알려주세요.
 
 ## 권장 사항  {#recommendations-ai}
 
 AI 기반 상황별 도움말에 질문할 때 현재 제품 컨텍스트, 즉 현재 화면과 현재 도움말 상자의 내용이 고려됩니다.
 
 결과적으로 가장 좋은 방법은 사용자 인터페이스 컨텍스트와 관련된 질문을 하는 것입니다. 예를 들어 워크플로에서 푸시 게재를 보내는 방법에 대해 알아보려면 **워크플로** 왼쪽 메뉴 항목을 찾은 다음 해당 특정 컨텍스트에서 상황별 도움말 상자를 사용하십시오. 보고 지표에 대해 자세히 알아보려면 캠페인 또는 게재 보고서를 찾은 다음 시작하십시오.
-
 
 또한 AI 기반 상황별 도움말을 최대한 활용하려면 질문할 때 다음과 같은 사항이 권장됩니다.
 

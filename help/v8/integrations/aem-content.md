@@ -3,9 +3,9 @@ audience: end-user
 title: Adobe Experience Manager as a Cloud Service를 사용하여 에셋 관리
 description: Adobe Experience Manager as a Cloud Service로 콘텐츠를 관리하는 방법 알아보기
 badge: label="제한 공개"
-source-git-commit: 46892e8033fca051db898f81f041bb3d59ecac27
+source-git-commit: 6fd2fa72e482883802c96f0888ea79f2b16b7152
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '503'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Adobe Campaign 웹 인터페이스와 Adobe Experience Manager의 통합을 통�
 
 1. 다음으로 이동 [!DNL Adobe Experience Manager] 작성자 인스턴스를 클릭하고 페이지의 왼쪽 상단 모서리에 있는 Adobe 경험 을 클릭합니다. 선택 **[!UICONTROL 사이트]** 메뉴에서 삭제할 수 있습니다.
 
-1. 액세스 **[!UICONTROL 캠페인 > 브랜드 이름 > 메인 영역 > 이메일]**.
+1. 액세스 **[!UICONTROL 캠페인 > 브랜드 이름 > 메인 영역 > 페이지 이름]**.
 
 1. 클릭 **[!UICONTROL 만들기]** 및 선택 **[!UICONTROL 페이지]** 드롭다운 메뉴를 통해 액세스합니다.
 

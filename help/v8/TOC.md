@@ -6,10 +6,10 @@ title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign 웹 사용자 인터페이스
 hide: true
-source-git-commit: 7c6a485496dcac65722375d0c55402abe1ebbf59
+source-git-commit: 46892e8033fca051db898f81f041bb3d59ecac27
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 94%
+source-wordcount: '585'
+ht-degree: 92%
 
 ---
 
@@ -49,7 +49,6 @@ ht-degree: 94%
             + [미러 페이지에 대한 링크 추가](email/mirror-page.md)
             + [프리 헤더 추가](email/preheader.md)
             + [텍스트 버전 생성](email/text-version-email.md)
-            + [Adobe Experience Manager Assets as a Cloud Service로 자산 관리](email/aem-assets.md)
          + 콘텐츠 지원 {#content-assistant}
             + [콘텐츠 지원 시작하기](email/generative-gs.md)
             + [콘텐츠 지원을 사용하여 텍스트 생성](email/generative-content.md)
@@ -168,3 +167,7 @@ ht-degree: 94%
       + [이메일 글로벌 보고서](reporting/global-report-email.md)
       + [푸시 글로벌 보고서](reporting/global-report-push.md)
       + [SMS 글로벌 보고서](reporting/global-report-sms.md)
++ 통합 {#integrations}
+   + [Adobe Experience Manager Assets as a Cloud Service로 자산 관리](integrations/aem-assets.md)
+   + [Adobe Experience Manager as a Cloud Service를 사용하여 템플릿 관리](integrations/aem-content.md)
+

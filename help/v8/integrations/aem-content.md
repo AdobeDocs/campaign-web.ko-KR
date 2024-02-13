@@ -1,0 +1,99 @@
+---
+audience: end-user
+title: Adobe Experience Manager as a Cloud Service를 사용하여 에셋 관리
+description: Adobe Experience Manager as a Cloud Service로 콘텐츠를 관리하는 방법 알아보기
+badge: label="제한 공개"
+source-git-commit: 46892e8033fca051db898f81f041bb3d59ecac27
+workflow-type: tm+mt
+source-wordcount: '500'
+ht-degree: 1%
+
+---
+
+# 템플릿 관리 [!DNL Adobe Experience Manager as a Cloud service]{#aem-assets}
+
+## [!DNL Adobe Experience Manager as a Cloud service] 시작{#create-aem}
+
+Adobe Campaign 웹 인터페이스와 Adobe Experience Manager의 통합을 통해 Adobe Experience Manager 플랫폼 내에서 직접 이메일 게재 콘텐츠 및 양식을 간소화할 수 있습니다.
+
+![](assets/do-not-localize/book.png)[Adobe Experience Manager as a Cloud Service에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
+
+## 템플릿 만들기 [!DNL Adobe Experience Manager as a Cloud service]{#create-aem-template}
+
+1. 다음으로 이동 [!DNL Adobe Experience Manager] 작성자 인스턴스를 클릭하고 페이지의 왼쪽 상단 모서리에 있는 Adobe 경험 을 클릭합니다. 선택 **[!UICONTROL 사이트]** 메뉴에서 삭제할 수 있습니다.
+
+1. 액세스 **[!UICONTROL 캠페인 > 브랜드 이름 > 메인 영역 > 이메일]**.
+
+1. 클릭 **[!UICONTROL 만들기]** 및 선택 **[!UICONTROL 페이지]** 드롭다운 메뉴를 통해 액세스합니다.
+
+   ![](assets/aem_1.png)
+
+1. 다음 항목 선택 **[!UICONTROL Adobe Campaign 이메일]** 템플릿을 만들고 뉴스레터 이름을 지정합니다.
+
+   ![](assets/aem_2.png)
+
+1. Adobe Campaign의 개인화 필드와 같은 구성 요소를 추가하여 이메일 콘텐츠를 사용자 지정합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=en#editing-email-content)
+
+1. 이메일이 준비되면 다음 위치로 이동합니다. **[!UICONTROL 페이지 정보]** 메뉴 및 클릭 **[!UICONTROL 워크플로우 시작]**.
+
+   ![](assets/aem_3.png)
+
+1. 첫 번째 드롭다운에서 **[!UICONTROL Adobe Campaign 승인]** 워크플로우 모델로 사용하고 클릭 **[!UICONTROL 워크플로우 시작]**.
+
+1. 페이지 맨 위에 다음과 같은 내용이 면책조항이 나타납니다. `This page is subject to the workflow Approve for Adobe Campaign`. 클릭 **[!UICONTROL 완료]** 면책조항 옆에 있는 을 클릭하여 검토를 확인하고 **[!UICONTROL 확인]**.
+
+   ![](assets/aem_4.png)
+
+1. 클릭 **[!UICONTROL 완료]** 다시 한 번 선택 **[!UICONTROL 뉴스레터 승인]** 다음에서 **[!UICONTROL 다음 단계]** 드롭다운.
+
+이제 뉴스레터가 준비되었으며 Adobe Campaign에서 동기화되었습니다.
+
+## Adobe Experience Manager as a Cloud Service 템플릿 가져오기{#aem-templates-perso}
+
+Experience Manager 템플릿을 Adobe Campaign 웹에서 콘텐츠 템플릿으로 사용할 수 있게 되면 개인화를 포함하여 이메일에 필요한 콘텐츠를 식별하고 통합할 수 있습니다.
+
+1. Campaign 웹에서 **[!UICONTROL 게재]** 메뉴, 클릭 **[!UICONTROL 게재 만들기]**.
+
+1. 이메일 템플릿 창에서 기본 제공 을 선택합니다 **[!UICONTROL AEM 콘텐츠를 사용한 이메일 게재]** 템플릿.
+
+   ![](assets/aem_5.png)
+
+1. 입력 **[!UICONTROL 레이블]** 를 게재하고 필요에 따라 추가 옵션을 구성합니다.
+
+   * **[!UICONTROL 내부 이름]**: 게재에 고유 식별자를 할당합니다.
+
+   * **[!UICONTROL 폴더]**: 특정 폴더에 게재를 저장합니다.
+
+   * **[!UICONTROL 게재 코드]**: 이 필드를 사용하여 고유한 명명 규칙에 따라 게재를 구성할 수 있습니다.
+
+   * **[!UICONTROL 설명]**: 게재에 대한 설명을 지정합니다.
+
+   * **[!UICONTROL 특성]**: 분류 목적으로 이메일의 특성을 지정합니다.
+
+1. 정의 **[!UICONTROL 대상자]** (으)로 가져왔습니다. [자세히 알아보기](../email/create-email.md#define-audience)
+
+1. 클릭 **[!UICONTROL 콘텐츠 편집]**.
+
+1. 다음에서 **[!UICONTROL 콘텐츠 편집]** 메뉴, 클릭 **[!UICONTROL AEM 콘텐츠 선택]**.
+
+   ![](assets/aem_6.png)
+
+1. AEM 템플릿을 검색하고 Campaign 웹으로 가져올 템플릿을 선택합니다.
+
+   ![](assets/aem_8.png)
+
+1. Adobe Experience Manager에서 직접 템플릿을 변경하는 경우 다음을 선택하면 됩니다. **[!UICONTROL AEM 콘텐츠 새로 고침]** 최신 버전의 템플릿을 사용할 수 있습니다.
+
+1. Experience Manager과 캠페인 간의 연결을 제거하거나 이메일 디자이너에서 Experience Manager 템플릿을 추가로 개인화하려면 다음을 클릭하십시오. **[!UICONTROL AEM 콘텐츠 연결 해제]**.
+
+   ![](assets/aem_9.png)
+
+1. Experience Manager 템플릿에 개인화된 콘텐츠를 추가한 경우 **[!UICONTROL 콘텐츠 시뮬레이션]** 테스트 프로필을 사용하여 메시지에 표시되는 방식을 미리 봅니다.
+
+[미리 보기 및 테스트 프로필에 대해 자세히 알아보기](../preview-test/preview-content.md)
+
+1. 메시지 미리 보기를 볼 때 개인화된 요소는 자동으로 선택한 테스트 프로필의 해당 데이터로 바뀝니다.
+
+   필요한 경우 다음을 통해 추가 테스트 프로필을 추가할 수 있습니다. **[!UICONTROL 테스트 프로필 관리]** 단추를 클릭합니다.
+
+이제 게재를 보낼 준비가 되었습니다.

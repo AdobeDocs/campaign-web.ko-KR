@@ -49,7 +49,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_email"
 >title="초기 타깃 대상자 통계"
->abstract="**타겟팅된 대상자** 표와 그래프는 수신자 참여에 대한 인사이트를 제공하므로 캠페인 및 게재의 효과를 평가하는 데 도움이 됩니다."
+>abstract="**타겟팅된 대상자** 테이블과 그래프는 수신자 참여에 대한 인사이트를 제공하므로 캠페인 및 게재의 효과를 평가하는 데 도움이 됩니다."
 
 에 대한 테이블 및 그래프 **[!UICONTROL 타깃팅된 대상]** 아래에 제공된 세부 지표를 사용하여 수신자와 관련된 데이터를 표시합니다.
 
@@ -70,7 +70,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_email_delivery_stats"
 >title="게재 통계"
->abstract="**게재 통계** 그래프와 표는 성공적인 게재, 오류, 새로운 격리를 포함한 주요 지표를 간략하게 설명하여 게재 성과를 평가하기 위한 간결한 개요를 제공합니다."
+>abstract="**게재 통계** 그래프와 테이블은 성공적인 게재, 오류, 새로운 격리를 포함한 주요 지표를 간략하게 설명하여 게재 성과를 평가하기 위한 간결한 개요를 제공합니다."
 
 다음 **[!UICONTROL 게재 통계]** 표에는 모든 이메일 게재의 성공 사례가 자세히 설명되어 있습니다.
 
@@ -93,7 +93,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_exclusion_email"
 >title="제외 이유"
->abstract="**제외 이유** 그래프와 표는 게재 준비 중 메시지가 거부되는 구체적인 이유를 보여 주며, 규칙별로 자세한 분류를 제공합니다."
+>abstract="**제외 이유** 그래프와 테이블은 게재 준비 중 메시지가 거부되는 구체적인 이유를 보여 주며, 규칙별로 자세한 분류를 제공합니다."
 
 ![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
@@ -127,7 +127,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_error_type_email"
 >title="유형별 오류 분류"
->abstract="**유형별 오류 분류**&#x200B;를 자세히 설명하는 표와 그래프에는 알 수 없는 사용자, 사서함 가득 참, 잘못된 도메인 등을 포함하여 프로세스 중에 발생한 다양한 오류 유형에 대한 정보가 포함되어 있습니다."
+>abstract="**유형별 오류 분류**&#x200B;를 자세히 설명하는 테이블과 그래프에는 알 수 없는 사용자, 사서함 가득 참, 잘못된 도메인 등을 포함하여 프로세스 중에 발생한 다양한 오류 유형에 대한 정보가 포함되어 있습니다."
 
 ![](assets/global_report_email_breakdown_type.png){zoomable=&quot;yes&quot;}{align="center"}
 
@@ -158,7 +158,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_error_domain_email"
 >title="도메인별 오류 분류"
->abstract="**도메인별 오류 분류**&#x200B;를 보여 주는 표와 그래프는 발생한 각 오류 유형에 해당하는 데이터를 특정 도메인별로 분류하여 나타냅니다."
+>abstract="**도메인별 오류 분류**&#x200B;를 보여 주는 테이블과 그래프는 발생한 각 오류 유형에 해당하는 데이터를 특정 도메인별로 분류하여 나타냅니다."
 
 ![](assets/global_report_email_breakdown_domain.png){zoomable=&quot;yes&quot;}{align="center"}
 
@@ -199,7 +199,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_open_clickthrough_email"
 >title="열람 및 클릭스루 비율"
->abstract="**열람 및 클릭스루 비율** 표는 빠르고 유용한 인사이트가 있는 개요를 위해 열람 비율 및 클릭스루 비율에 대한 데이터를 표시하여 게재에 대한 수신자의 참여도를 보여 줍니다."
+>abstract="**열람 및 클릭스루 비율** 테이블은 빠르고 유용한 인사이트가 있는 개요를 위해 열람 비율 및 클릭스루 비율에 대한 데이터를 표시하여 게재에 대한 수신자의 참여도를 보여 줍니다."
 
 다음 **[!UICONTROL 열람 및 클릭스루 비율]** 테이블에는 수신자와 관련된 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 
@@ -247,7 +247,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_top10_email"
 >title="가장 많이 방문한 상위 링크 10개"
->abstract="**가장 많이 방문한 상위 링크 10개** 그래프와 표는 수신자와 각 링크의 상호 작용에 대한 포괄적인 데이터를 제공합니다."
+>abstract="**가장 많이 방문한 상위 링크 10개** 그래프와 테이블은 수신자와 각 링크의 상호 작용에 대한 포괄적인 데이터를 제공합니다."
 
 다음 **[!UICONTROL 가장 많이 방문한 상위 10개 링크]** 그래프와 표에는 링크당 수신자 동작에 사용할 수 있는 데이터가 포함되어 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
 

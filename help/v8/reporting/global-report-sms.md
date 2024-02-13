@@ -46,7 +46,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_targeted_audience"
 >title="SMS 대상 모집단"
->abstract="**타겟팅된 집단**&#x200B;에 대한 그래프와 표는 게재될 메시지 및 제외에 대한 정보를 포함하여 SMS 대상자와 관련된 데이터를 나타냅니다."
+>abstract="**타겟팅된 집단**&#x200B;에 대한 그래프와 테이블은 게재될 메시지 및 제외에 대한 정보를 포함하여 SMS 대상자와 관련된 데이터를 나타냅니다."
 
 다음 **[!UICONTROL 타깃팅된 대상]** 테이블 및 그래프는 전송된 각 SMS 게재에 대해 수신자와 관련된 데이터를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
@@ -92,7 +92,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_exclusions"
 >title="SMS 제외 이유"
->abstract="**제외 이유** 그래프와 표는 사용자 프로필이 SMS 메시지를 받지 못한 다양한 이유를 보여 줍니다."
+>abstract="**제외 이유** 그래프와 테이블은 사용자 프로필이 SMS 메시지를 받지 못한 다양한 이유를 보여 줍니다."
 
 다음 **[!UICONTROL 제외 이유]** 그래프 및 표에는 타겟팅 프로필에서 제외된 사용자 프로필에서 SMS 게재를 받을 수 없는 이유가 표시됩니다.
 

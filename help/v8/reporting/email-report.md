@@ -19,7 +19,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_email"
 >title="보고 전송"
->abstract="보고서 내의 **전송** 탭은 방문자와 게재 간의 상호 작용 및 방문자가 경험할 수 있는 잠재적인 오류에 대한 심층적인 통찰력을 제공합니다."
+>abstract="보고서 내의 **전송** 탭은 방문자와 게재 간의 상호 작용 및 방문자가 경험할 수 있는 잠재적인 오류에 대한 심층적인 인사이트를 제공합니다."
 
 ### 초기 대상 집단 {#email-delivery-targeted-population}
 

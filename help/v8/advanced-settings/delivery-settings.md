@@ -7,7 +7,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '2429'
-ht-degree: 53%
+ht-degree: 54%
 
 ---
 
@@ -125,7 +125,7 @@ ht-degree: 53%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="게재에 대한 게재 설정"
->abstract="게재 매개변수는 게재에 적용되는 기술 설정입니다. 게재 및 루틴 모드를 변경하고, 이메일 BCC를 활성화하고, 웨이브를 사용하여 전송할 수 있으며, 전송된 이메일 메시지의 형식도 선택할 수 있습니다. 이 옵션은 숙련된 사용자로만 제한됩니다."
+>abstract="게재 매개변수는 게재에 적용되는 기술 설정입니다. 게재 및 일반 모드를 변경하고, 이메일 BCC를 활성화하고, 예약된 일괄 처리를 사용하여 전송하고, 전송된 이메일 메시지의 형식을 선택할 수도 있습니다. 이 옵션은 숙련된 사용자로만 제한됩니다."
 
 **[!UICONTROL 게재]** 매개 변수는 게재에 적용되는 기술 설정입니다.
 

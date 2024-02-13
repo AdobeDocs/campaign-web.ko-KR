@@ -364,7 +364,7 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
->title="구독 서비스 매개 변수"
+>title="구독 서비스 매개변수"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]

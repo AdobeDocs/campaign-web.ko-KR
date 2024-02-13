@@ -6,7 +6,7 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '959'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="오류 관리 설정"
->abstract="이 섹션에서는 실행 중에 워크플로우가 오류를 관리하는 방법을 정의할 수 있습니다. 프로세스를 일시 중지하거나 특정 오류 수를 무시하거나 워크플로우 실행을 중지하도록 선택할 수 있습니다."
+>abstract="이 섹션에서는 워크플로를 통해 실행 중 오류를 관리하는 방법을 정의할 수 있습니다. 프로세스를 일시 중지하거나, 특정 수의 오류를 무시하거나, 워크플로 실행을 중지하도록 선택할 수 있습니다."
 
 * **[!UICONTROL 오류 관리]**: 이 필드에서는 워크플로우 작업에 오류가 있을 경우 수행할 작업을 정의할 수 있습니다. 다음과 같은 세 가지 옵션이 있습니다.
 

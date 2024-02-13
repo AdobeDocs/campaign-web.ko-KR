@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign 웹 사용자 인터페이스의 권한 관리
 description: Campaign 웹 사용자 인터페이스의 권한에 대해 자세히 알아보기
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 96%
+ht-degree: 91%
 
 ---
 
@@ -97,6 +97,6 @@ Campaign Web 사용자 인터페이스를 탐색할 때 주어진 권한에 따�
 
    ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
-   폴더가 현재 폴더의 하위 폴더로 추가됩니다. 새 폴더를 찾아 해당 폴더에 직접 구성 요소를 만듭니다. 또한 게재에 대해 아래와 같이 속성의 **추가 옵션** 섹션에 있는 임의의 폴더에서 구성 요소를 만들고 해당 새 폴더에 저장할 수도 있습니다.
+   폴더가 현재 폴더의 하위 폴더로 추가됩니다. 새 폴더를 찾아 해당 폴더에 직접 구성 요소를 만듭니다. 또한 모든 폴더에서 구성 요소를 만들어 새 폴더의 **추가 옵션** 속성 섹션에 자세히 설명되어 있습니다.
 
    ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}

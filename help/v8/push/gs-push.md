@@ -4,7 +4,7 @@ title: 푸시 알림 시작하기
 description: Adobe Campaign Web을 사용하여 푸시 알림을 만들고 전송하는 방법 알아보기
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
 ht-degree: 100%
 

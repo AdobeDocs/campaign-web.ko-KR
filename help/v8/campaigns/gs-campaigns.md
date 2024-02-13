@@ -4,7 +4,7 @@ title: 캠페인 시작하기
 description: 크로스 채널 캠페인 시작 방법 알아보기
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '212'
 ht-degree: 100%
 

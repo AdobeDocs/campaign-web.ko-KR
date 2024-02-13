@@ -4,7 +4,7 @@ title: SMS 게재 시작하기
 description: Adobe Campaign Web을 사용하여 SMS를 만들고 전송하는 방법 알아보기
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '149'
 ht-degree: 100%
 

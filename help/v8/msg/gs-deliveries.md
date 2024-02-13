@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '1211'
-ht-degree: 99%
+source-wordcount: '1195'
+ht-degree: 95%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 99%
    ![](assets/create-a-delivery.png){zoomable=&quot;yes&quot;}
 
 1. 게재를 위한 채널을 선택합니다.
-1. 기본 대상 및 컨트롤 그룹의 게재 대상자를 정의합니다. [이 섹션](../audience/about-recipients.md)에서 대상자에 대해 자세히 알아보십시오.
+1. 기본 대상 및 컨트롤 그룹의 게재 대상자를 정의합니다. [대상자에 대해 자세히 알아보기](../audience/about-recipients.md).
 
    ![](assets/select-audience.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
@@ -51,16 +51,16 @@ ht-degree: 99%
 1. **[!UICONTROL 검토 및 전송]** 버튼을 클릭하여 설정을 확인합니다.
 1. **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 사용하여 게재 및 개인화 설정을 테스트합니다. [이 섹션](../preview-test/preview-test.md)에서 메시지 시뮬레이션에 대해 자세히 알아보십시오.
 1. **[!UICONTROL 준비]** 버튼을 클릭하여 대상 모집단을 계산하고 메시지를 생성합니다. 준비 단계는 몇 분 정도 소요될 수 있습니다. 준비가 완료되면 메시지를 전송할 준비가 되어 있습니다. 오류가 발생한 경우 **로그**&#x200B;로 이동하여 경고를 확인합니다.
-1. 결과를 확인하고 **[!UICONTROL 보내기]** 버튼을 클릭하여 메시지 전송을 시작합니다.
+1. 결과를 확인하고 **[!UICONTROL 보내기]** 단추를 클릭하여 메시지 전송을 시작합니다.
 1. 메시지가 전송되면 **보고서** 섹션으로 이동하여 주요 지표에 액세스합니다. [이 섹션](../reporting/delivery-reports.md)에서 게재 보고서에 대해 자세히 알아보십시오.
 
 >[!TAB 워크플로에서 게재 만들기]
 
 워크플로에서 게재를 만들려면 다음 단계를 수행하십시오.
 
-1. 워크플로를 만들거나 기존 워크플로를 엽니다. 워크플로에 대한 자세한 내용은 [이 페이지](../workflows/gs-workflow-creation.md#gs-workflow-steps)를 참조하십시오.
-1. **[!UICONTROL 대상자 빌드]** 활동을 추가하고 구성합니다. [이 섹션](../workflows/activities/build-audience.md)에서 **[!UICONTROL 대상자 빌드]** 활동에 대해 자세히 알아보십시오.
-1. `+` 아이콘을 클릭한 다음 게재 활동을 선택합니다. **[!UICONTROL 이메일]**, **[!UICONTROL SMS]**, **[!UICONTROL 푸시 알림(Android)]** 또는 **[!UICONTROL 푸시 알림(iOS)]**. 워크플로의 게재 채널과 [이 섹션](../workflows/activities/channels.md)에서 게재 콘텐츠를 정의하는 방법에 대해 자세히 알아보십시오.
+1. 워크플로를 만들거나 기존 워크플로를 엽니다. [워크플로우에 대해 자세히 알아보기](../workflows/gs-workflow-creation.md#gs-workflow-steps)
+1. 추가 및 구성 [**[!UICONTROL 대상자 작성]**](../workflows/activities/build-audience.md) 활동.
+1. `+` 아이콘을 클릭한 다음 게재 활동을 선택합니다. **[!UICONTROL 이메일]**, **[!UICONTROL SMS]**, **[!UICONTROL 푸시 알림(Android)]** 또는 **[!UICONTROL 푸시 알림(iOS)]**. 워크플로우의 게재 채널 활동 및 에서 게재 콘텐츠를 정의하는 방법에 대해 자세히 알아보십시오 [이 섹션](../workflows/activities/channels.md).
 
    ![](assets/add-delivery-in-wf.png){zoomable=&quot;yes&quot;}
 

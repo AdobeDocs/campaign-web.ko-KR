@@ -2,9 +2,9 @@
 audience: end-user
 title: Adobe Experience Manager as a Cloud Service를 사용하여 에셋 관리
 description: Adobe Experience Manager as a Cloud Service로 콘텐츠를 관리하는 방법 알아보기
-source-git-commit: d1b562c346d99a94254e5a24e635c75509a6347c
+source-git-commit: 0c7c96308c5fe3516ed1fd33603c54c6da8248c1
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '508'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ Experience Manager 템플릿을 Adobe Campaign 웹에서 콘텐츠 템플릿으�
 
    ![](assets/aem_8.png)
 
-1. Adobe Experience Manager에서 직접 템플릿을 변경하는 경우 다음을 선택하면 됩니다. **[!UICONTROL AEM 콘텐츠 새로 고침]** 최신 버전의 템플릿을 사용할 수 있습니다.
+1. 콘텐츠는 자동으로 동기화되지 않습니다. Adobe Experience Manager에서 직접 템플릿을 변경하는 경우 다음을 선택하면 됩니다. **[!UICONTROL AEM 콘텐츠 새로 고침]** 최신 버전의 템플릿을 사용할 수 있습니다.
 
 1. Experience Manager과 캠페인 간의 연결을 제거하거나 이메일 디자이너에서 Experience Manager 템플릿을 추가로 개인화하려면 다음을 클릭하십시오. **[!UICONTROL AEM 콘텐츠 연결 해제]**.
 

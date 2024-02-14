@@ -3,10 +3,10 @@ audience: end-user
 title: Adobe Campaign Web 시작
 description: Adobe Campaign Web 시작
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 45e8a863f542be862773a7ec3a49b1e94236d453
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 75%
+source-wordcount: '543'
+ht-degree: 74%
 
 ---
 
@@ -46,10 +46,6 @@ Campaign을 사용하여 다음을 수행할 수 있습니다.
 
 관리자 또는 전문가 사용자로서 Campaign 웹 사용자 인터페이스에서 사용할 수 없는 Campaign v8 기능에 액세스해야 하는 경우 [클라이언트 콘솔](#ac-client).
 
-
->[!NOTE]
->
->Adobe Campaign Web은 현재 LA(제한 공개) 버전입니다. 소수의 LA 고객만 액세스할 수 있습니다. 제품 인터페이스, 기능 및 사용 흐름은 예고 없이 변경될 수 있습니다.
 
 [이 페이지](connect-to-campaign.md)에서는 Adobe Campaign 웹 버전에 연결하는 방법을 알아봅니다.
 

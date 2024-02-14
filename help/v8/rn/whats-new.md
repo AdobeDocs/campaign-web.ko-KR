@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign 웹 사용자 인터페이스의 새로운 기능
 description: Campaign 웹 사용자 인터페이스와 함께 제공되는 새로운 기능 살펴보기
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: a516a5aba56dbbff213d9a61b47144d6b4d801ff
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1291'
 ht-degree: 74%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 74%
 
 >[!AVAILABILITY]
 >
->이 버전은 Campaign v8.6 릴리스를 시작하는 모든 사용자가 사용할 수 있습니다. 에서 Adobe Campaign 릴리스에 대해 자세히 알아보기 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
+>이 버전은 다음을 시작하는 모든 사용자가 사용할 수 있습니다. [Campaign v8.6 릴리스](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html). 에서 Adobe Campaign 릴리스에 대해 자세히 알아보기 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}.
 
 
 ## 주요 기능 {#key-features}

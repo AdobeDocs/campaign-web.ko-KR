@@ -1,16 +1,15 @@
 ---
-solution: Journey Optimizer, Campaign, Campaign v8 Web User Interface
-product: journey optimizer
+solution: Campaign, Campaign v8 Web User Interface
 title: 랜딩 페이지 사용 사례
-description: Journey Optimizer의 랜딩 페이지에서 가장 일반적인 사용 사례를 살펴봅니다
+description: Campaign 웹 사용자 인터페이스의 랜딩 페이지에서 가장 일반적인 사용 사례를 살펴봅니다
 feature: Landing Pages, Subscriptions
 topic: Content Management
 role: User
 level: Intermediate
 keywords: 랜딩, 랜딩 페이지, 사용 사례
-source-git-commit: 3dcd4631a79ce2752e829f8259e0de1177f21984
+source-git-commit: 22d9615947b1a7dbbbd4cd740ab8c91e0d388f41
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1309'
 ht-degree: 0%
 
 ---

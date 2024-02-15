@@ -3,10 +3,10 @@ audience: end-user
 title: Adobe Campaign Web 시작
 description: Adobe Campaign Web 시작
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 45e8a863f542be862773a7ec3a49b1e94236d453
+source-git-commit: a678175e34a633d5de258e64899ba4b10b6b674f
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 74%
+source-wordcount: '580'
+ht-degree: 69%
 
 ---
 
@@ -37,6 +37,7 @@ Campaign을 사용하여 다음을 수행할 수 있습니다.
 * 이메일, 모바일, 온라인 및 오프라인 채널을 고객 여정에 **통합**
 * 의미 있고 시의적절한 메시지 및 오퍼 게재 **자동화**
 
+## Campaign 웹 사용 인터페이스 살펴보기 {#web}
 
 초기에는 리치 [클라이언트 콘솔](#ac-client)을 통해서만 사용할 수 있었던 Campaign은 이제 개선된 사용 가능성, 접근성 및 새로운 디자인을 갖춘 새로운 웹 사용자 인터페이스(UI)를 제공하여 사용자 경험을 크게 향상시킵니다. 이 새로운 최신 UI에서는 Adobe Experience Platform을 비롯한 다른 Adobe 솔루션과 함께 마케팅 캠페인 디자인 및 게재를 간소화하고 일관성을 제공합니다.
 
@@ -46,8 +47,9 @@ Campaign을 사용하여 다음을 수행할 수 있습니다.
 
 관리자 또는 전문가 사용자로서 Campaign 웹 사용자 인터페이스에서 사용할 수 없는 Campaign v8 기능에 액세스해야 하는 경우 [클라이언트 콘솔](#ac-client).
 
-
 [이 페이지](connect-to-campaign.md)에서는 Adobe Campaign 웹 버전에 연결하는 방법을 알아봅니다.
+
+➡️ [비디오에서 Campaign 웹 검색](#video)
 
 ## Campaign 클라이언트 콘솔 정보 {#ac-client}
 
@@ -58,3 +60,9 @@ Campaign 데이터는 애플리케이션 서버에 저장됩니다. 데이터는
 일부 오브젝트는 클라이언트 콘솔에서만 만들고 관리할 수 있습니다. Campaign 웹 사용자 인터페이스에서 보고 사용할 수 있지만 이 환경에서 만들거나 수정할 수 없습니다. 모든 Campaign 오브젝트와 구성 요소는 탐색기 보기와 왼쪽 탐색 메뉴에서 사용할 수 있습니다.
 
 클라이언트 콘솔로 Campaign v8을 사용하는 자세한 방법은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ko){target="_blank"}를 참조하십시오.
+
+## 방법 비디오 {#video}
+
+Campaign 웹 사용자 인터페이스에 액세스하고 탐색하는 방법과 인벤토리 목록을 사용자 지정하는 방법을 알아봅니다. AI 기반의 Knowledge Assistant를 살펴보십시오.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12)

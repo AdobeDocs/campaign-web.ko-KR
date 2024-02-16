@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '1640'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -319,7 +319,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
 >title="데이터 소스 변경"
->abstract="다음 **데이터 소스 변경** 활동을 사용하면 워크플로우의 작업 표에 대해 다른 데이터 소스를 선택할 수 있습니다."
+>abstract="**데이터 소스 변경** 활동을 사용하면 워크플로의 작업 테이블에 대해 다른 데이터 소스를 선택할 수 있습니다."
 
 
 <!--

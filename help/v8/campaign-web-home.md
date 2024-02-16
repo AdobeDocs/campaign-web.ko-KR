@@ -3,14 +3,14 @@ keywords: Campaign Web;홈;인기 있는 주제
 description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
+source-git-commit: 9849ab42d9dcbe34036f5677c674cb96aaf1a246
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 99%
+source-wordcount: '672'
+ht-degree: 92%
 
 ---
 
-# Adobe Campaign 웹 사용자 인터페이스 설명서 {#campaign-documentation}
+# Adobe Campaign Web 사용자 인터페이스 설명서 {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -90,6 +90,12 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 
 >[!BEGINTABS]
 
+>[!TAB Adobe Experience Manager as a Cloud Service 통합]
+
+Adobe Campaign Web Interface와 Adobe Experience Manager as a Cloud Service을 통합하면 이메일 콘텐츠 관리를 간소화할 수 있습니다. 이제 Adobe Experience Manager에서 직접 이메일 콘텐츠를 만들고 편집한 다음, 완성된 템플릿을 Adobe Campaign으로 원활하게 가져와 전송할 수 있습니다.
+
+[![이미지](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
+
 >[!TAB 크로스 채널 워크플로우]
 
 자동화 및 최적화를 위한 새로운 가능성을 열어 더욱 동적이고 개인화된 고객 여정을 창출할 수 있습니다. 고급 세분화에서 조건부 트리거에 이르기까지 추가적인 워크플로 활동을 통해 타겟팅된 메시지를 전달하고 캠페인 성과를 높일 수 있습니다.
@@ -107,12 +113,6 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 Campaign 이메일 디자이너를 사용하여 직관적인 드래그 앤 드롭 인터페이스를 통해 매력적인 개별 맞춤형 이메일을 만들 수 있습니다. 처음부터 빈 화면으로 시작하고 기존 콘텐츠를 가져오거나 기존 템플릿을 활용하는 경우 모든 이메일 콘텐츠를 디자인하고 세부적으로 조정할 수 있습니다.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
-
->[!TAB 프로필 360]
-
-새로운 프로필을 만들고, 강력한 보고서와 도구를 통해 모니터링합니다. 프로필 속성, 상호 작용 및 로그에 액세스합니다. 필터링 옵션을 사용하여 프로필 목록을 찾아보고 프로필을 편집 및 업데이트합니다.
-
-[![이미지](assets/do-not-localize/learn-more-button.svg)](audience/gs-audiences-recipients.md)
 
 >[!ENDTABS]
 

@@ -3,16 +3,18 @@ audience: end-user
 title: 글로벌 보고서 시작
 description: 글로벌 보고서 이해
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: fe47c50bc257832fc9d6ddefdcb3217b73559d82
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 24%
+source-wordcount: '244'
+ht-degree: 21%
 
 ---
 
 # 글로벌 보고서 시작 {#global-report-gs}
 
 **글로벌 보고서**&#x200B;는 Campaign 인스턴스 내의 각 채널에 대한 트래픽 및 참여 지표에 대한 통합된 전체 요약을 제공하는 효과적인 도구 역할을 합니다. 이러한 보고서는 다양한 위젯으로 구성되어 있으며, 각 위젯은 캠페인 또는 게재 성과에 대한 고유한 관점을 제공합니다.
+
+주요 성능 지표(KPI)는 매시간 새로 고쳐지며 최신 통찰력을 확보할 수 있습니다. 기본적으로 데이터는 지난 30일을 포함하도록 필터링되어 캠페인 및 게재 성과에 대한 최신 및 관련 관점을 제공합니다.
 
 각 채널에 대한 보고서 및 관련 지표의 전체 목록은 다음 페이지에서 사용할 수 있습니다.
 

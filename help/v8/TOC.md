@@ -1,14 +1,14 @@
 ---
 audience: end-user
-user-guide-title: Adobe Campaign 웹 사용자 인터페이스
-user-guide-description: Adobe Campaign 웹 사용자 인터페이스에 대한 제품 설명서입니다.
+user-guide-title: Adobe Campaign Web 사용자 인터페이스
+user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 설명서입니다.
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
-breadcrumb-title: Campaign 웹 사용자 인터페이스
+breadcrumb-title: Campaign Web 사용자 인터페이스
 source-git-commit: 23127900a70e0a6e6873141448dc9f8e365ea0f5
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 파일 로드 워크플로우 활동 사용
 description: 파일 로드 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 84ac68615b0ab88c54b22dd5b400e94e194be7ca
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 35%
+source-wordcount: '345'
+ht-degree: 33%
 
 ---
 
@@ -51,6 +51,17 @@ ht-degree: 35%
 >id="acw_orchestration_loadfile_formatting"
 >title="파일 활동 로드에 대한 서식 지정"
 >abstract="파일 활동 로드에 대한 서식 지정"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_targetfile"
+>title="파일 로드 활동을 위한 대상 파일"
+>abstract="파일 로드 활동을 위한 대상 파일"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_valueremapping"
+>title="파일 로드 활동에 대한 값 재매핑"
+>abstract="파일 로드 활동에 대한 값 재매핑"
+
 
 **파일 로드** 활동은 **데이터 관리** 활동입니다. 이 활동을 사용하여 외부 파일에 저장된 프로필 및 데이터를 사용합니다. 프로필 및 데이터는 데이터베이스에 추가되지 않지만 입력 파일의 모든 필드는 다음에 사용할 수 있습니다. [개인화](../../personalization/gs-personalization.md)또는 를 사용하여 프로필 또는 기타 테이블을 업데이트할 수 있습니다.
 

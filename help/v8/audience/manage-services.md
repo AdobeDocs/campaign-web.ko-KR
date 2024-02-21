@@ -3,9 +3,9 @@ audience: end-user
 title: 구독 서비스 작업
 description: Adobe Campaign 웹에서 구독 서비스에 액세스하고, 만들고, 관리하는 방법을 알아봅니다
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: ee105288a1e2e9671688ebe33092d92d4673a04d
+source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '960'
 ht-degree: 29%
 
 ---
@@ -128,8 +128,13 @@ Adobe Campaign 웹을 사용하여 뉴스레터와 같은 서비스를 관리 �
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
->title="총 구독자 수"
+>title="구독자 수"
 >abstract="이 서비스의 총 구독자 수를 확인하려면 **계산**&#x200B;을 클릭합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_totalnumber_subscribers_report"
+>title="총 구독자 수"
+>abstract="KPI(주요 성과 지표)는 이 서비스에 가입한 개인의 총 수를 보여 주는 구독자 기반의 포괄적인 보기를 제공합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"

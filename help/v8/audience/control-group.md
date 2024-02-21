@@ -3,9 +3,9 @@ audience: end-user
 title: 컨트롤 그룹 설정
 description: Campaign 웹 사용자 인터페이스에서 메시지의 컨트롤 그룹을 설정하는 방법을 알아봅니다
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '803'
 ht-degree: 36%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 36%
 # 컨트롤 그룹 설정 {#control-group}
 
 컨트롤 그룹은 게재에서 제외된 하위 모집단입니다. 대상자의 일부에 메시지를 보내지 않도록 컨트롤 그룹을 정의하고 게재 후 동작을 기본 대상과 비교할 수 있습니다. 이 옵션은 캠페인의 영향을 측정하는 데 도움이 됩니다.
+
+➡️ [비디오에서 이 기능 살펴보기](create-audience.md#video)
 
 ## 컨트롤 그룹 활성화{#add-a-control-group}
 
@@ -122,5 +124,3 @@ ht-degree: 36%
 게재가 전송되면 전송 로그를 추출하여 커뮤니케이션을 받지 않은 프로필과 유효 대상 간의 동작을 비교할 수 있습니다. 게재 로그를 사용하여 새 타겟팅을 작성할 수도 있습니다.
 
 대상에서 제거된 프로필을 보려면 **게재 로그**. 자세히 알아보기 [이 섹션에서](#check-control-group).
-
-

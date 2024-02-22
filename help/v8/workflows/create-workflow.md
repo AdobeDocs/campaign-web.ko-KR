@@ -3,20 +3,16 @@ audience: end-user
 title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign 웹으로 워크플로우를 만드는 방법을 알아봅니다
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 0250ab3bd05023bddbf3a0104631cc7bb40acadc
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 25%
+source-wordcount: '745'
+ht-degree: 20%
 
 ---
 
 
 # 워크플로 만들기 {#create-first-workflow}
 
->[!CONTEXTUALHELP]
->id="acw_workflow_creation_properties"
->title="워크플로 속성"
->abstract="이 화면에서 워크플로를 만들고 레이블을 지정하는 데 사용할 템플릿을 선택합니다. 추가 옵션 섹션을 확장하여 워크플로 내부 이름, 해당 폴더, 시간대, 감독자 그룹 등의 추가적인 설정을 구성합니다. 오류가 발생할 경우 운영자에게 경고할 수 있도록 감독자 그룹을 선택하는 것을 권장하여 드립니다."
 
 
 >[!CONTEXTUALHELP]

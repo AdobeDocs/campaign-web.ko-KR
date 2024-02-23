@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 3f47e23a40030ce11ae2389134f42f56ddf4f019
 workflow-type: tm+mt
 source-wordcount: '1687'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -120,7 +120,7 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 
 ![](assets/do-not-localize/context-help.png){zoomable=&quot;yes&quot;}{width="40%" align="left"}
 
-현재 새 Campaign 웹 사용자 인터페이스 내에 베타 버전으로 출시된 **AI 기반 기술 지원** 상황별 도움말에 포함되어 방대한 설명서 저장소를 손쉽게 탐색하여 설명서 검색 및 사용 방법 질문에 대한 대답 기능을 혁신적으로 개선하고 필요한 정확한 정보를 즉시 정확하게 찾아냅니다.
+새 Campaign Web 사용자 인터페이스에 현재 Beta 버전으로 릴리스된 **AI 기반 Knowledge Assistant**&#x200B;가 상황별 도움말에 포함되었습니다. 이를 통해 설명서 검색과 방법을 알아보는 질의응답이 혁신되어, 방대한 설명서 저장소에서 손쉽게 필요한 정보를 선별하여 정확하고 빠르게 찾아낼 수 있습니다.
 
 Campaign Gen AI의 기능 덕분에 이 Assistant는 사용자의 경험을 변화시켜 정보 검색 및 문제 해결을 용이하게 합니다. 복잡한 작업에서 지침을 구하거나 광범위한 문서를 탐색할 때 AI 기반 Knowledge Assistant는 모든 상호 작용에서 비교할 수 없는 효율성과 정확성을 제공하는 최고의 보조 앱입니다.
 
@@ -319,7 +319,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
 >title="데이터 소스 변경"
->abstract="**데이터 소스 변경** 활동을 사용하면 워크플로의 작업 테이블에 대해 다른 데이터 소스를 선택할 수 있습니다."
+>abstract="**데이터 소스 변경** 활동을 사용하면 워크플로우의 작업 테이블에 대해 다른 데이터 소스를 선택할 수 있습니다."
 
 
 <!--
@@ -345,32 +345,32 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"
 >title="이 템플릿은 준비 전용입니다"
->abstract="TBC"
+>abstract="변경 예정"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_generatesubsets"
 >title="동일 테이블의 모든 하위 집합 생성"
->abstract="TBC"
+>abstract="변경 예정"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
 >title="기본 랜딩 페이지"
->abstract="TBC"
+>abstract="변경 예정"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
 >title="구독 서비스"
->abstract="TBC"
+>abstract="변경 예정"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
 >title="구독 서비스 매개변수"
->abstract="TBC"
+>abstract="변경 예정"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="구독 서비스 아웃바운드 전환"
->abstract="TBC"
+>abstract="변경 예정"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
@@ -385,35 +385,35 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata"
 >title="데이터 업데이트"
->abstract="TBC"
+>abstract="변경 예정"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
 >title="데이터 업데이트"
->abstract="TBC"
+>abstract="변경 예정"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
 >title="데이터 업데이트"
->abstract="TBC"
+>abstract="변경 예정"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
 >title="데이터 업데이트"
->abstract="TBC"
+>abstract="변경 예정"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
 >title="데이터 업데이트"
->abstract="TBC"
+>abstract="변경 예정"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
 >title="데이터 업데이트"
->abstract="TBC"
+>abstract="변경 예정"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
 >title="데이터 업데이트"
->abstract="TBC"
+>abstract="변경 예정"
 

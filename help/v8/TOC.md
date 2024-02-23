@@ -8,14 +8,14 @@ breadcrumb-title: Campaign Web 사용자 인터페이스
 source-git-commit: 23127900a70e0a6e6873141448dc9f8e365ea0f5
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # Adobe Campaign Web 설명서 {#v8}
 
-+ [Adobe Campaign 웹 사용자 인터페이스 설명서](campaign-web-home.md)
++ [Adobe Campaign Web 사용자 인터페이스 설명서](campaign-web-home.md)
 + [새로운 기능](rn/whats-new.md)
 + [설명서 업데이트](rn/documentation-updates.md)
 + Adobe Campaign 시작하기 {#start}
@@ -25,7 +25,7 @@ ht-degree: 95%
    + [목록 찾아보기 및 필터링](get-started/list-filters.md)
    + [미리 정의된 필터 작업](get-started/predefined-filters.md)
    + [액세스 및 권한](get-started/permissions.md)
-   + [Campaign 웹 및 Campaign 클라이언트 콘솔](get-started/capability-matrix.md)
+   + [Campaign Web 및 Campaign 클라이언트 콘솔](get-started/capability-matrix.md)
    + [AI 기반 상황별 도움말](get-started/using-ai.md)
 + 메시지 및 게재 {#msg}
    + [메시지 시작](msg/gs-messages.md)
@@ -91,7 +91,7 @@ ht-degree: 95%
    + [랜딩 페이지 만들고 게시](landing-pages/create-lp.md)
    + [랜딩 페이지 콘텐츠 디자인](landing-pages/lp-content.md)
    + [랜딩 페이지 템플릿 작업](landing-pages/lp-templates.md)
-   + [사용 사례를 통해 알아보기](landing-pages/lp-use-cases.md)
+   + [사용 사례를 통한 학습](landing-pages/lp-use-cases.md)
 + 프로필 및 대상자 {#audiences}
    + [프로필 및 대상자 시작](audience/gs-audiences-recipients.md)
    + [타겟팅 차원](audience/targeting-dimensions.md)
@@ -168,5 +168,5 @@ ht-degree: 95%
       + [SMS 글로벌 보고서](reporting/global-report-sms.md)
 + 통합 {#integrations}
    + [Adobe Experience Manager Assets as a Cloud Service로 자산 관리](integrations/aem-assets.md)
-   + [Adobe Experience Manager as a Cloud Service를 사용하여 템플릿 관리](integrations/aem-content.md)
+   + [Adobe Experience Manager as a Cloud service로 템플릿 관리](integrations/aem-content.md)
 

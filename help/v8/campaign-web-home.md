@@ -10,7 +10,7 @@ ht-degree: 92%
 
 ---
 
-# Adobe Campaign Web 사용자 인터페이스 설명서 {#campaign-documentation}
+# Adobe Campaign Web 사용자 인터페이스  {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -82,7 +82,7 @@ ht-degree: 92%
 
 <!--TO REMOVE ABOVE-->
 
-Adobe Campaign Web 사용자 인터페이스의 새로운 버전을 소개합니다. 최신 릴리스에는 맞춤형 크로스 채널 캠페인 생성을 간소화하고, 탁월한 결과를 도출하며, 모든 채널에서 경쟁 우위를 확보하도록 설계된 직관적인 기능이 포함되어 있습니다. 이 새로운 최신 UI에서는 Adobe Experience Platform을 비롯한 다른 Adobe 솔루션과 함께 마케팅 캠페인 디자인 및 게재를 간소화하고 일관성을 제공합니다.
+Adobe Campaign Web 사용자 인터페이스의 새로운 버전을 소개합니다. 최신 릴리스에는 맞춤형 크로스 채널 캠페인 만들기를 간소화하고, 탁월한 결과를 도출하며, 모든 채널에서 경쟁 우위를 확보하도록 설계된 직관적인 기능이 포함되어 있습니다. 이 새로운 최신 UI에서는 Adobe Experience Platform을 비롯한 다른 Adobe 솔루션과 함께 마케팅 캠페인 디자인 및 게재를 간소화하고 일관성을 제공합니다.
 
 ## 새로운 기능
 

@@ -4,9 +4,9 @@ description: Campaign 웹 도움말 팝오버에서 질문하기
 badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 source-git-commit: 27abc0c532ce6957eae55d5db342093efc8fe0a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Campaign 생성형 AI의 기능 덕분에 이 구성 요소는 사용자의 경�
 
 >[!AVAILABILITY]
 >
->* AI 기반의 상황별 도움말은 해당 베타 버전에서 사용할 수 있으며 사전 공지 없이 변경될 수 있습니다.
+>* AI 기반 상황별 도움말 기능은 Beta 버전으로 사용할 수 있으며 사전 통지 없이 변경될 수 있습니다.
 >
 >* 이 기능은 **영어**&#x200B;로만 사용할 수 있습니다. 이 버전에서는 다른 언어가 지원되지 않습니다. 따라서 이 기능을 사용하기 전에 [선호 언어](connect-to-campaign.md#language-pref)를 영어로 설정해야 합니다.
 >
->* AI 기반의 상황별 도움말은 현재 Campaign 이메일 디자이너에서 사용할 수 없습니다.
+>* 현재 Campaign 이메일 디자이너에서는 AI 기반 상황별 도움말을 사용할 수 없습니다.
 
 
 <!--
@@ -44,18 +44,18 @@ The knowledge assistant AI capability does not use your data to train our models
 For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/products/sensei/adobe-sensei.html){target="_blank"}.
 -->
 
-## 제안되는 질문 {#questions-ai}
+## 추천 질문 {#questions-ai}
 
-입력 필드에서 Adobe Campaign AI 기반의 상황별 도움말은 3가지 제안 질문을 제공합니다. 이러한 질문은 AI가 생성한 것입니다. 도움말 상자 및 현재 제품 컨텍스트와 관련되어 있습니다. 질문을 선택하여 답변을 얻습니다.
+입력 필드에서 Adobe Campaign AI 기반 상황별 도움말이 세 가지 추천 질문을 제공합니다. 이 질문은 AI에서 생성되며 도움말 상자 및 현재 제품 전후 상황과 관련이 있습니다. 답변을 확인하려면 질문을 선택합니다.
 
-![상황별 도움말 제안 질문](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
+![상황별 도움말 추천 질문](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
 
 
 ## 답변 {#answers-ai}
 
 Adobe Campaign AI 기반 상황별 도움말에서 도움을 제공하지만 사실을 확인해야 합니다. 잘못된 정보, 부정확하거나 오해의 소지가 있는 답변이 출력될 수 있습니다. 모든 도움말 상자에 링크된 제품 설명서를 확인하십시오.
 
-다음을 사용하여 클립보드에 답변을 복사할 수 있습니다. **복사** ( 도움말 팝오버 하단에 있음) 아이콘을 클릭합니다.
+도움말 팝오버 아래쪽에 있는 **복사** 아이콘을 사용하여 답변을 클립보드에 복사할 수 있습니다.
 
 ![상황별 도움말 답변 복사](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
 

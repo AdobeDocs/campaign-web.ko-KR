@@ -3,9 +3,9 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 3f47e23a40030ce11ae2389134f42f56ddf4f019
+source-git-commit: c005ed49c8f19274f339f9c256fe648ed34a8ca5
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1692'
 ht-degree: 97%
 
 ---
@@ -376,6 +376,11 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_loadfile_command"
 >title="파일 로드 명령"
 >abstract="사전 처리에 대해 임의의 명령을 허용하는 것은 보안 문제입니다. 보안 옵션 XtkSecurity_Disable_Preproc를 비활성화하여 미리 정의된 명령 목록을 사용하도록 강제하십시오."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_delete"
+>title="가져오기 후 파일 삭제"
+>abstract="변경 예정"
 
 
 

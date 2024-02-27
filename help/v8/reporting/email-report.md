@@ -6,7 +6,7 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
 workflow-type: tm+mt
 source-wordcount: '2329'
-ht-degree: 36%
+ht-degree: 41%
 
 ---
 
@@ -144,12 +144,12 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="유형별 오류 분류"
->abstract="다음 **유형별 오류 분류** 그래프에는 알 수 없는 사용자, 사서함 가득 참, 잘못된 도메인 등의 각 오류 유형에 사용할 수 있는 데이터가 포함되어 있습니다."
+>abstract="**유형별 오류 분류** 그래프에는 발생한 각 오류 유형(알 수 없는 사용자, 사서함 가득 참, 잘못된 도메인 등)과 관련하여 이용 가능한 데이터가 포함되어 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type_table"
 >title="유형별 오류 분류"
->abstract="다음 **유형별 오류 분류** 표에서는 각 오류 유형의 발생 상황을 종합적으로 설명합니다."
+>abstract="**유형별 오류 분류** 표는 각 오류 유형의 발생에 대한 포괄적인 분석을 제공합니다."
 
 다음 **[!UICONTROL 유형별 오류 분류]** 테이블 및 그래프에는 오류 유형에 사용할 수 있는 데이터가 포함되어 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
 
@@ -180,12 +180,12 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="도메인별 오류 분류"
->abstract="다음 **도메인별 오류 분류** 그래프는 각 도메인에 따라 발생한 각 오류 유형에 대해 사용 가능한 데이터를 표시합니다."
+>abstract="**도메인별 오류 분류** 그래프에는 각 도메인에 따라 발생한 각 오류 유형에 대해 사용 가능한 데이터가 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain_table"
 >title="도메인별 오류 분류"
->abstract="다음 **도메인별 오류 분류** 표는 사용된 도메인에 따라 각 오류의 발생에 대한 포괄적인 분석을 제공합니다."
+>abstract="**도메인별 오류 분류** 표는 사용된 도메인에 따라 각 오류 발생에 대한 포괄적인 분석을 제공합니다."
 
 다음 **[!UICONTROL 도메인별 오류 분류]** 표 및 그래프는 각 도메인에서 발생할 수 있는 오류에 대해 사용 가능한 데이터를 표시합니다.
 

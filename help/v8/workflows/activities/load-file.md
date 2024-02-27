@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: 84ac68615b0ab88c54b22dd5b400e94e194be7ca
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 33%
+ht-degree: 40%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
->title="파일 활동 로드"
+>title="파일 로드 활동"
 >abstract="**파일 로드** 활동은 **데이터 관리** 활동입니다. 이 활동을 사용하여 외부 파일에 저장된 데이터로 작업할 수 있습니다."
 
 >[!CONTEXTUALHELP]
@@ -34,8 +34,8 @@ ht-degree: 33%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_rejectmgt"
->title="파일 활동 로드에 대한 관리 거부"
->abstract="파일 활동 로드에 대한 관리 거부"
+>title="파일 로드 활동에 대한 관리 거부"
+>abstract="파일 로드 활동에 대한 관리 거부"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
@@ -49,13 +49,13 @@ ht-degree: 33%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_formatting"
->title="파일 활동 로드에 대한 서식 지정"
->abstract="파일 활동 로드에 대한 서식 지정"
+>title="파일 로드 활동에 대한 서식 지정"
+>abstract="파일 로드 활동에 대한 서식 지정"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetfile"
->title="파일 로드 활동을 위한 대상 파일"
->abstract="파일 로드 활동을 위한 대상 파일"
+>title="파일 로드 활동에 대한 대상 파일"
+>abstract="파일 로드 활동에 대한 대상 파일"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"

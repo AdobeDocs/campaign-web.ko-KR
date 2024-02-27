@@ -64,7 +64,7 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_keep_unreconciled_data"
 >title="조정되지 않은 데이터 유지"
->abstract="기본적으로 조정되지 않은 데이터는 아웃바운드 전환에 보관되며, 나중에 작업 테이블에서 사용할 수 있습니다. 조정되지 않은 데이터를 제거하려면 **조정되지 않은 데이터 유지** 옵션을 비활성화합니다."
+>abstract="기본적으로 조정되지 않은 데이터는 아웃바운드 전환에 보관되며 나중에 작업 테이블에서 사용할 수 있습니다. 조정되지 않은 데이터를 제거하려면 **조정되지 않은 데이터 유지** 옵션을 비활성화합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"

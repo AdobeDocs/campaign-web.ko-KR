@@ -15,17 +15,17 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_learnmore"
 >title="시작"
->abstract="새로운 Adobe Campaign Web 인터페이스는 통합되고 직관적이며, 일관된 사용자 경험을 제공합니다."
+>abstract="새로운 Adobe Campaign Web 인터페이스는 통합되고 직관적이며 일관된 사용자 경험을 제공합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_learnmore"
 >title="시작"
->abstract="새로운 Adobe Campaign Web 인터페이스는 통합되고 직관적이며, 일관된 사용자 경험을 제공합니다."
+>abstract="새로운 Adobe Campaign Web 인터페이스는 통합되고 직관적이며 일관된 사용자 경험을 제공합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="시작"
->abstract="새로운 Adobe Campaign Web 인터페이스는 통합되고 직관적이며, 일관된 사용자 경험을 제공합니다."
+>abstract="새로운 Adobe Campaign Web 인터페이스는 통합되고 직관적이며 일관된 사용자 경험을 제공합니다."
 
 Adobe Campaign은 크로스 채널 고객 경험을 디자인할 수 있는 플랫폼과 더불어 시각적 캠페인 오케스트레이션, 실시간 상호 작용 관리, 크로스 채널을 실행할 수 있는 환경을 제공합니다.
 

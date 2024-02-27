@@ -6,7 +6,7 @@ exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '1618'
-ht-degree: 24%
+ht-degree: 26%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_exclusion_email"
 >title="제외 이유"
->abstract="**제외 이유** 그래프와 테이블은 게재 준비 중 메시지가 거부되는 구체적인 이유를 보여 주며, 규칙별로 자세한 분류를 제공합니다."
+>abstract="**제외 이유** 그래프와 테이블은 게재 준비 중 메시지가 거부되는 구체적인 이유를 보여 주며 규칙별로 자세한 분류를 제공합니다."
 
 ![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
@@ -106,7 +106,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_throughput_email"
 >title="게재 처리량"
->abstract="이 **게재 처리량**&#x200B;은 게재 처리량에 대한 포괄적인 인사이트를 제공하며, 지정된 일정 내의 성공 및 오류율을 강조하여 보여 줍니다."
+>abstract="이 **게재 처리량**&#x200B;은 게재 처리량에 대한 포괄적인 인사이트를 제공하며 지정된 일정 내의 성공 및 오류율을 강조하여 보여 줍니다."
 
 ![](assets/global_report_email_delivery_throughput.png){zoomable=&quot;yes&quot;}{align="center"}
 

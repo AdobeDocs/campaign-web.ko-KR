@@ -6,7 +6,7 @@ exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 25%
+ht-degree: 26%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_push_targeted_audience"
 >title="푸시 대상 모집단"
->abstract="**타겟팅된 집단** 그래프와 테이블은 푸시 메시지 대상자와 관련된 데이터를 보여 주며, 게재할 메시지와 제외 항목에 대한 정보를 제공합니다."
+>abstract="**타겟팅된 집단** 그래프와 테이블은 푸시 메시지 대상자와 관련된 데이터를 보여 주며 게재할 메시지와 제외 항목에 대한 정보를 제공합니다."
 
 다음 **[!UICONTROL 타깃팅된 대상]** 테이블 및 그래프는 전송된 각 푸시 알림 게재에 대해 수신자와 관련된 데이터를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 

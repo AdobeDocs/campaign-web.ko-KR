@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 랜딩, 랜딩 페이지, 사용 사례
-source-git-commit: 22d9615947b1a7dbbbd4cd740ab8c91e0d388f41
+source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 5%
+source-wordcount: '1381'
+ht-degree: 8%
 
 ---
 
@@ -21,11 +21,17 @@ ht-degree: 5%
 >title="URL 복사 시 주의"
 >abstract="랜딩 페이지를 완전히 테스트하거나 활용하려는 경우, 이 링크를 웹 브라우저나 게재에 직접 복사하여 붙여넣을 수 없습니다. 대신 **콘텐츠 시뮬레이션** 기능을 사용하여 랜딩 페이지를 테스트하고 설명서에 기재된 단계에 따라 랜딩 페이지를 적절하게 활용하면 됩니다."
 
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_templates"
+>title="URL 복사 시 주의"
+>abstract="랜딩 페이지를 만들 때, 4개의 기본 템플릿을 사용하여 Campaign 데이터베이스에 프로필 추가 또는 업데이트, 서비스 구독, 서비스 구독 취소 또는 사용자 옵트아웃 등 다양한 사용 사례를 구현할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page" text="랜딩 페이지 만들기"
+
 랜딩 페이지를 적절히 사용하려면 전용 옵션을 사용하여 게재에서 링크로 참조해야 합니다.
 
 >[!CAUTION]
 >
->랜딩 페이지를 완전히 활용하려면 게시된 게재 대시보드에 표시된 링크를 게재 또는 웹 페이지에 바로 복사하여 붙여넣을 수 없습니다.
+>랜딩 페이지를 완전히 활용하려면 게시된 게재 대시보드에 표시된 링크를 게재 또는 웹 페이지에 바로 복사하여 붙여넣을 수 없습니다. 이 섹션에서 이 작업을 올바르게 수행하는 방법을 알아봅니다.
 
 다음에서 [!DNL Adobe Campaign Web] 4가지 기본 템플릿을 사용하면 다양한 사용 사례를 구현할 수 있습니다. 그러나 주요 단계는 동일하게 유지되며 아래에 자세히 설명되어 있습니다.
 
@@ -105,6 +111,11 @@ ht-degree: 5%
 ![](assets/lp-uc-newsletter-subscriber.png){zoomable=&quot;yes&quot;}
 
 ## 서비스 구독 {#lp-subscription}
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_subscription"
+>title="구독 랜딩 페이지 설정"
+>abstract="고객은 구독 페이지를 통해 서비스를 구독할 수 있습니다."
 
 가장 일반적인 사용 사례 중 하나는 고객을 다음으로 초대하는 것입니다. [서비스 구독](../audience/manage-services.md) (뉴스레터 또는 이벤트 등) 랜딩 페이지를 통해. 아래 단계를 수행합니다.
 

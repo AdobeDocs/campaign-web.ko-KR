@@ -2,10 +2,10 @@
 title: 랜딩 페이지 만들기
 description: Campaign 웹에서 랜딩 페이지를 구성하고 게시하는 방법을 알아봅니다
 feature: Landing Pages
-source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
+source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
 workflow-type: tm+mt
-source-wordcount: '1340'
-ht-degree: 24%
+source-wordcount: '1376'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 24%
 
 Campaign 웹 사용자 인터페이스를 사용하면 랜딩 페이지를 만들고 디자인하고 게시할 수 있습니다. 게시되면 게재에 양식에 대한 링크를 삽입할 수 있습니다. 수신자가 해당 링크를 클릭하면 해당 랜딩 페이지로 이동합니다.
 
-[!DNL Adobe Campaign] 에는 다음 사용 사례를 관리할 수 있는 4개의 템플릿이 포함되어 있습니다. **acquisition**, **구독**, **구독 취소**, 및 **차단 목록**.
+[!DNL Adobe Campaign] 에는 다음 사용 사례를 관리할 수 있는 4개의 템플릿이 포함되어 있습니다. **acquisition**, **구독**, **구독 취소**, 및 **차단 목록**. [자세히 알아보기](lp-use-cases.md)
 
 ## 랜딩 페이지 액세스 {#access-landing-pages}
 
@@ -34,7 +34,7 @@ Campaign 웹 사용자 인터페이스를 사용하면 랜딩 페이지를 만�
 
 >[!CAUTION]
 >
->Campaign 웹 사용자 인터페이스에서는 클라이언트 콘솔에서 만든 랜딩 페이지(웹 양식)를 표시하거나 편집할 수 없습니다. 다음에서 자세히 알아보기 [Campaign 콘솔 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>Campaign 웹 사용자 인터페이스에서는 클라이언트 콘솔에서 만든 랜딩 페이지(웹 양식)를 표시하거나 편집할 수 없습니다. 다음에서 자세히 알아보기 [Campaign 콘솔 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=ko){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
@@ -58,14 +58,14 @@ Campaign 웹 사용자 인터페이스를 사용하면 랜딩 페이지를 만�
 >abstract="랜딩 페이지의 시작 날짜와 종료 날짜를 정의할 수 있습니다. 페이지의 유효 기간이 끝나면 해당 양식을 더 이상 사용할 수 없습니다. 대신 **만료** 페이지가 표시됩니다."
 
 >[!CONTEXTUALHELP]
->id="acw_landingpages_primarypage"
->title="기본 페이지의 설정 정의"
->abstract="사용자가 이메일 또는 웹 사이트 등 랜딩 페이지 링크를 클릭하면 기본 페이지가 바로 표시됩니다."
+>id="acw_landingpages_preload"
+>title="사전 로드 옵션 정의"
+>abstract="다음의 경우 **양식에 참조된 데이터로 미리 채우기** 옵션을 선택하면 랜딩 페이지의 방문자가 데이터베이스의 프로필과 일치하면 프로필 정보가 양식에 자동으로 미리 로드됩니다. 포함 **ID가 없는 경우 미리 로드 건너뛰기** 옵션을 선택하면 양식 승인 후 입력한 각 프로필이 데이터베이스에 추가됩니다."
 
 >[!CONTEXTUALHELP]
->id="acw_landingpages_subscription"
->title="구독 랜딩 페이지 설정"
->abstract="고객은 구독 페이지를 통해 서비스를 구독할 수 있습니다."
+>id="acw_landingpages_storage"
+>title="저장소 옵션 정의"
+>abstract="미리 로드 섹션에서는 데이터베이스에서 업데이트할 레코드를 찾는 방법을 지정할 수 있습니다."
 
 <!--The main steps to create landing pages are as follows:
 

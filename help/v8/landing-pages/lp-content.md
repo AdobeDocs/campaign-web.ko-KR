@@ -2,10 +2,10 @@
 title: 랜딩 페이지별 콘텐츠 정의
 description: Campaign 웹에서 랜딩 페이지별 콘텐츠를 디자인하는 방법을 알아봅니다
 feature: Landing Pages
-source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
+source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 11%
+source-wordcount: '887'
+ht-degree: 14%
 
 ---
 
@@ -16,8 +16,12 @@ ht-degree: 11%
 >title="콘텐츠 구성 요소 사용"
 >abstract="콘텐츠 구성 요소는 랜딩 페이지 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다. 사용자가 선택 사항을 선택하고 제출할 수 있는 특정 콘텐츠를 정의하려면 양식 구성 요소를 사용합니다."
 
-랜딩 페이지의 모든 페이지 콘텐츠를 편집할 수 있습니다.
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_primarypage"
+>title="기본 페이지의 설정 정의"
+>abstract="사용자가 이메일 또는 웹 사이트 등 랜딩 페이지 링크를 클릭하면 기본 페이지가 바로 표시됩니다."
 
+랜딩 페이지의 모든 페이지 콘텐츠를 편집할 수 있습니다.
 
 사용자가 랜딩 페이지 링크를 클릭한 후 사용자에게 즉시 표시되는 첫 번째 페이지는 이미 로 채워져 있습니다. [랜딩 페이지별 양식 구성 요소](#use-form-component) 선택한 템플릿<!-- to enable users to select and submit their choices-->.
 
@@ -49,7 +53,7 @@ ht-degree: 11%
 
 1. 선택합니다. 다음 **[!UICONTROL 양식 콘텐츠]** 양식의 여러 필드를 편집할 수 있는 탭이 오른쪽 팔레트에 표시됩니다.
 
-   ![](assets/lp-form-component.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-form-component.png)
 
    >[!NOTE]
    >
@@ -57,7 +61,7 @@ ht-degree: 11%
 
 1. 필요한 경우 첫 번째 텍스트 필드를 확장하거나 **[!UICONTROL 추가]** 단추를 클릭합니다. 다음에서 **[!UICONTROL 텍스트 필드 1]** 섹션에서 필드 유형, 업데이트할 데이터베이스 필드, 레이블 및 사용자가 값을 입력하기 전에 필드 내에 표시될 텍스트를 편집할 수 있습니다.
 
-   ![](assets/lp-form-text-field.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-form-text-field.png)
 
 1. 다음 확인: **[!UICONTROL 양식 필드를 필수 항목으로 설정]** 필요한 경우 옵션을 선택합니다. 이 경우 랜딩 페이지는 사용자가 이 필드를 입력한 경우에만 제출할 수 있습니다.
 
@@ -67,7 +71,7 @@ ht-degree: 11%
 
 1. 확인란이 있는 경우 확장하거나 **[!UICONTROL 추가]** 단추를 클릭합니다. 해당 확인란이 데이터베이스의 서비스 또는 필드를 업데이트해야 하는지 선택합니다.
 
-   ![](assets/lp-form-checkbox.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-form-checkbox.png)
 
    다음을 선택하는 경우 **[!UICONTROL 구독 및 서비스]**&#x200B;목록에서 서비스를 선택하고 아래 두 옵션 중 하나를 선택합니다.
 
@@ -76,15 +80,15 @@ ht-degree: 11%
 
    다음을 선택하는 경우 **[!UICONTROL 필드]**&#x200B;를 클릭하고 속성 목록에서 필드를 선택한 다음, 아래 두 옵션 중에서 선택합니다.
 
-   * **[!UICONTROL 선택한 경우 예]**<!--TBC-->
+   * **[!UICONTROL 선택한 경우 예]**.<!--TBC-->
 
-   * **[!UICONTROL 선택된 경우 아니요]**<!--TBC-->
+   * **[!UICONTROL 선택된 경우 아니요]**.<!--TBC-->
 
 1. 텍스트 필드, 라디오 버튼, 확인란, 드롭다운 목록 등 필드를 삭제하거나 추가할 수 있습니다. 필요한 경우.
 
 1. 모든 필드가 추가되거나 업데이트되면 **[!UICONTROL 클릭 유도 문안]** 를 클릭하여 해당 섹션을 확장합니다. 에서 버튼의 동작을 정의할 수 있습니다 **[!UICONTROL 양식]** 구성 요소.
 
-   ![](assets/lp-call-to-action.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-call-to-action.png)
 
 1. 버튼을 클릭하면 발생할 작업을 정의합니다.
 
@@ -95,10 +99,10 @@ ht-degree: 11%
 1. 양식을 제출할 때 추가로 업데이트하려면 을(를) 선택합니다 **[!UICONTROL 추가 업데이트]**&#x200B;을 클릭하고 업데이트할 항목을 선택합니다.
    * 구독 서비스 - 이 경우 양식 제출 시 사용자를 옵트인 또는 옵트아웃할지 여부를 정의합니다.
    * 양식 작성 시 사용되는 이메일 주소.
-   * 모든 채널 - 양식 제출 시 사용자가 모든 채널에서 브랜드의 모든 통신으로/으로부터 옵트인 또는 옵트아웃(선택한 템플릿에 따라 다름)됩니다
+   * 모든 채널 - 양식 제출 시 사용자가 모든 채널에서 브랜드의 모든 통신으로/으로부터 옵트인 또는 옵트아웃(선택한 템플릿에 따라 다름)됩니다.
    * 데이터베이스의 필드 - 속성 목록에서 필드를 선택하고 양식 제출 시 True 또는 False로 설정해야 하는지 여부를 정의합니다.
 
-   ![](assets/lp-form-additionnal-updates.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-form-additionnal-updates.png)
 
 1. 콘텐츠를 저장하여 다음으로 돌아가기 [랜딩 페이지 속성](create-lp.md#create-landing-page).
 
@@ -108,17 +112,17 @@ ht-degree: 11%
 
 1. 다음 **[!UICONTROL 텍스트 필드]** 섹션은 기본적으로 확장되어 있습니다. 레이블 글꼴, 레이블의 위치, 필드 배경색 또는 필드 테두리와 같은 텍스트 필드의 모양을 편집할 수 있습니다.
 
-   ![](assets/lp-text-styles.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-text-styles.png)
 
 1. 확장 **[!UICONTROL 확인란]** 확인란 및 해당 텍스트의 모양을 정의하는 섹션입니다. 예를 들어 글꼴 패밀리와 크기 또는 확인란 테두리 색상을 조정할 수 있습니다.
 
-   ![](assets/lp-checkbox-style.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-checkbox-style.png)
 
 1. 추가한 다른 필드(라디오 버튼, 드롭다운 목록, 날짜 및 시간 등)에 해당하는 다른 섹션을 확장하거나 편집합니다. 양식입니다.
 
 1. 확장 **[!UICONTROL 클릭 유도 문안]** 구성 요소 양식에서 단추의 모양을 수정하는 섹션입니다. 예를 들어 글꼴을 변경하거나, 테두리를 추가하거나, 마우스로 가리키면 레이블 색상을 편집하거나, 단추의 정렬을 조정할 수 있습니다.
 
-   ![](assets/lp-call-to-action-style.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-call-to-action-style.png)
 
    마우스로 가리키면 표시되는 단추 레이블 색상과 같은 일부 설정을 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다. [자세히 알아보기](create-lp.md#test-landing-page)
 

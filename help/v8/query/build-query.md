@@ -3,10 +3,10 @@ audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 50780c7b551d01a088cfc88a44304b96bf120f41
 workflow-type: tm+mt
-source-wordcount: '1960'
-ht-degree: 3%
+source-wordcount: '2030'
+ht-degree: 4%
 
 ---
 
@@ -236,7 +236,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_ruleproperties"
 >title="규칙 속성"
->abstract="규칙 속성"
+>abstract="캔버스에 쿼리를 빌드한 후에는 **규칙 속성** 오른편에 있는 창입니다.<br/>이 창에서는 결과 데이터를 표시하고 쿼리의 SQL 코드 버전을 검색하고 타겟팅된 레코드 수를 확인할 수 있습니다.<br/>사용 **필터 선택 또는 저장** 단추를 클릭하여 쿼리를 사전 정의된 필터로 저장하거나 캔버스 콘텐츠를 기존 필터로 바꿉니다."
 
 캔버스에 쿼리를 빌드한 후에는 **규칙 속성** 오른편에 있는 창입니다. 사용 가능한 작업은 다음과 같습니다.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c005ed49c8f19274f339f9c256fe648ed34a8ca5
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '1692'
-ht-degree: 97%
+source-wordcount: '1637'
+ht-degree: 99%
 
 ---
 
@@ -163,11 +163,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="글로벌 보고서 추적"
 >abstract="보고 추적 지표가 이 화면에 표시됩니다."
 
->[!CONTEXTUALHELP]
->id="acw_campaign_workflow_list"
->title="캠페인의 워크플로 목록"
->abstract="캠페인의 워크플로 목록"
-
 
 <!-- FOR BETA (alignment) -->
 <!--https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CBETA%3E-+Official+list-->
@@ -205,19 +200,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_recipients_offers_preview_proposition"
 >title="수신자 오퍼 미리보기"
 >abstract="수신자 오퍼 미리보기"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_readonlyprofile"
->title="수신자 읽기 전용 프로필"
->abstract="수신자 읽기 전용 프로필"
-
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_query_enrichment_noneditable"
->title="활동 편집 불가"
->abstract="활동 편집 불가"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
@@ -283,21 +265,28 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="테스트 프로필 시뮬레이션"
 >abstract="테스트 프로필 시뮬레이션"
 
+<!--ML: not visible in UI-->
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_profiles_selection"
 >title="테스트 프로필 선택 시뮬레이션"
 >abstract="테스트 프로필 선택 시뮬레이션"
+
+<!-- ML: beta wiki page - not visible in UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_send_testprofiles"
 >title="테스트 프로필 전송 시뮬레이션"
 >abstract="테스트 프로필 전송 시뮬레이션"
 
+<!-- ML: beta wiki page - not visible in UI-->
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_email_log"
 >title="이메일 로그 시뮬레이션"
 >abstract="이메일 로그 시뮬레이션"
 
+<!-- ML: beta wiki page - not visible in UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
@@ -352,6 +341,11 @@ Deprecated IDs - to remove in GA: -->
 >title="동일 테이블의 모든 하위 집합 생성"
 >abstract="변경 예정"
 
+<!-- ML: not found in wiki pages-->
+
+
+<!-- Subscription activity-->
+
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
 >title="기본 랜딩 페이지"
@@ -371,18 +365,6 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_subscription_outboundtransition"
 >title="구독 서비스 아웃바운드 전환"
 >abstract="변경 예정"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_command"
->title="파일 로드 명령"
->abstract="사전 처리에 대해 임의의 명령을 허용하는 것은 보안 문제입니다. 보안 옵션 XtkSecurity_Disable_Preproc를 비활성화하여 미리 정의된 명령 목록을 사용하도록 강제하십시오."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_delete"
->title="가져오기 후 파일 삭제"
->abstract="변경 예정"
-
-
 
 
 <!--Update file-->

@@ -3,7 +3,7 @@ audience: end-user
 title: 워크플로 활동을 사용하여 작업
 description: 워크플로 활동을 사용하는 방법 알아보기
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 35%
@@ -36,7 +36,6 @@ ht-degree: 35%
 * 사용 [중복 제거](deduplication.md) 활동은 인바운드 활동의 결과에서 중복을 삭제합니다.
 * 사용 [차원 변경](change-dimension.md) 활동을 통해 워크플로우를 빌드할 때 타겟팅 차원을 변경합니다.
 * 사용 [파일 로드](load-file.md) 활동은 외부 파일에 저장된 프로필 및 데이터로 작업합니다.
-
 
 ## 채널 활동 {#channel}
 

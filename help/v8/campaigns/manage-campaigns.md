@@ -3,10 +3,10 @@ audience: end-user
 title: 캠페인 시작하기
 description: 크로스 채널 캠페인 시작 방법 알아보기
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 39%
+source-wordcount: '719'
+ht-degree: 40%
 
 ---
 
@@ -45,6 +45,11 @@ ht-degree: 39%
 >id="acw_campaign_delivery_list"
 >title="캠페인 게재 목록"
 >abstract="**게재** 탭에는 현재 캠페인에 연결된 게재가 모두 나열됩니다. 편집하려면 게재 이름을 클릭하십시오. 이 캠페인에 대한 새 게재를 추가하려면 게재 만들기 버튼을 사용하십시오."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_workflow_list"
+>title="캠페인의 워크플로 목록"
+>abstract="캠페인의 워크플로 목록"
 
 다음에서 **찾아보기** 캠페인 목록의 탭에서 캠페인 이름을 클릭하여 세부 정보를 표시합니다.
 

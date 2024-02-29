@@ -3,7 +3,7 @@ audience: end-user
 title: 워크플로 설정 구성
 description: Adobe Campaign 웹을 사용하여 워크플로우 설정을 구성하는 방법 알아보기
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 0250ab3bd05023bddbf3a0104631cc7bb40acadc
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 28%
@@ -13,7 +13,6 @@ ht-degree: 28%
 
 # 워크플로 설정 구성 {#workflow-settings}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="워크플로 속성"
@@ -22,7 +21,6 @@ ht-degree: 28%
 캔버스에서 워크플로우를 만들거나 워크플로우 활동을 오케스트레이션할 때 워크플로우와 관련된 고급 설정에 액세스할 수 있습니다. 예를 들어 워크플로우에 대한 특정 시간대를 설정하거나, 오류 발생 시 워크플로우의 동작 방식을 관리하거나, 워크플로우 내역을 삭제해야 하는 지연 시간을 관리할 수 있습니다.
 
 이러한 설정은 워크플로우를 만들 때 선택한 템플릿에 미리 구성되어 있지만, 필요에 따라 이 특정 워크플로우에 대해 편집할 수 있습니다.
-
 
 ![](assets/workflow-settings-button.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 파일 로드 워크플로우 활동 사용
 description: 파일 로드 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 84ac68615b0ab88c54b22dd5b400e94e194be7ca
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 40%
+source-wordcount: '376'
+ht-degree: 36%
 
 ---
 
@@ -62,6 +62,15 @@ ht-degree: 40%
 >title="파일 로드 활동에 대한 값 재매핑"
 >abstract="파일 로드 활동에 대한 값 재매핑"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_command"
+>title="파일 로드 명령"
+>abstract="사전 처리에 대해 임의의 명령을 허용하는 것은 보안 문제입니다. 보안 옵션 XtkSecurity_Disable_Preproc를 비활성화하여 미리 정의된 명령 목록을 사용하도록 강제하십시오."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_delete"
+>title="가져오기 후 파일 삭제"
+>abstract="변경 예정"
 
 **파일 로드** 활동은 **데이터 관리** 활동입니다. 이 활동을 사용하여 외부 파일에 저장된 프로필 및 데이터를 사용합니다. 프로필 및 데이터는 데이터베이스에 추가되지 않지만 입력 파일의 모든 필드는 다음에 사용할 수 있습니다. [개인화](../../personalization/gs-personalization.md)또는 를 사용하여 프로필 또는 기타 테이블을 업데이트할 수 있습니다.
 

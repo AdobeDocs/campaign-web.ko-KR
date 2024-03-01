@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 36%
+ht-degree: 44%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
 >title="파일 로드 명령"
->abstract="사전 처리에 대해 임의의 명령을 허용하는 것은 보안 문제입니다. 보안 옵션 XtkSecurity_Disable_Preproc를 비활성화하여 미리 정의된 명령 목록을 사용하도록 강제하십시오."
+>abstract="사전 처리를 위해 임의 명령을 허용하는 것은 보안과 관련된 문제이므로 보안 옵션인 XtkSecurity_Disable_Preproc을 비활성화하여 사전 정의된 명령 목록을 강제로 사용하도록 하십시오."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"

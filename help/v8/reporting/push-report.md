@@ -6,7 +6,7 @@ exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 37%
+ht-degree: 39%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="푸시 게재 개요"
->abstract="**푸시 게재 요약** 은 푸시 게재에 대한 포괄적인 개요를 제공하여 광범위한 인사이트와 특정 데이터를 얻을 수 있습니다. 성과, 효율성 및 게재 결과에 대해 포괄적인 정보를 제공합니다."
+>abstract="**푸시 게재 요약**&#x200B;은 푸시 게재에 대한 포괄적인 개요를 제공하여 광범위한 인사이트와 특정 데이터를 얻을 수 있습니다. 성과, 효율성 및 게재 결과에 대해 포괄적인 정보를 제공합니다."
 
 다음 **[!UICONTROL 게재 개요]** 보고서는 방문자가 푸시 메시지에 참여하는 방식에 대한 자세한 정보를 제공하는 주요 성능 지표(KPI)를 제공합니다.
 

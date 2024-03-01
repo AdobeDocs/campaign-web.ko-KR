@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 사용자 인터페이스/클라이언트 콘솔 기능 매트릭스
 description: Campaign Web 사용자 인터페이스에서 지원되는 기능 목록
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 45e5b528837614cdbd537d0a92e71265f65f97db
-workflow-type: ht
-source-wordcount: '2151'
-ht-degree: 100%
+source-git-commit: 81ee3c7ce46826089f68d2da1ff1a45e7fa93473
+workflow-type: tm+mt
+source-wordcount: '2179'
+ht-degree: 95%
 
 ---
 
@@ -152,14 +152,27 @@ Adobe Campaign Web 사용자 인터페이스에서 만든 게재를 통해 오�
 
 ## 데이터 모델링 및 데이터 수집 {#data-capabilities}
 
-Campaign Web 사용자 인터페이스에는 다음 기능이 표시되지 않습니다. 클라이언트 콘솔에서만 사용할 수 있습니다.
+Campaign Web 사용자 인터페이스에는 다음 기능이 표시되지 않습니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다.
 
-자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ko){target="_blank"}의 제공된 링크를 찾아보십시오.
+### 외부 계정 {#external}
 
-* **외부 계정**. Adobe Campaign에는 외부 시스템과 연결하기 위해 사전 정의된 외부 계정 세트가 함께 제공됩니다. Campaign 시스템 관리자는 클라이언트 콘솔에서만 외부 계정을 만들고 관리할 수 있습니다.[자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html?lang=ko){target="_blank"}
-* **스키마 만들기 및 확장**. 스키마를 만들고 수정 및 확장하는 작업은 고급 사용자만 가능합니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html?lang=ko){target="_blank"}
-* **데이터 관리** 워크플로우 활동. [데이터 관리]를 통해 보다 효율적이고 유연한 도구를 제공하여 복잡한 타겟팅 문제를 해결하는 여러 활동을 활용할 수 있습니다. 이 활동에는 데이터 로딩, 추출(파일), 데이터 업데이트, 스키마 편집, 기술 워크플로우 가져오기/내보내기 등이 있습니다. 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=ko#data-management){target="_blank"}
-* **페더레이션 데이터 액세스(FDA)**.  Campaign 구성 및 외부 시스템에 대한 연결은 고급 사용자로 제한되며 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ko){target="_blank"}
+Adobe Campaign에는 외부 시스템과 연결하기 위해 사전 정의된 외부 계정 세트가 함께 제공됩니다. Campaign 시스템 관리자는 클라이언트 콘솔에서만 외부 계정을 만들고 관리할 수 있습니다.[자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html?lang=ko){target="_blank"}
+
+### 스키마 생성 및 확장 {#schema}
+
+스키마를 만들고 수정 및 확장하는 작업은 고급 사용자만 가능합니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html?lang=ko){target="_blank"}
+
+### 워크플로우 데이터 관리 기능 {#data}
+
+데이터 관리는 데이터 로드, 추출(파일), 데이터 업데이트, 스키마 편집 또는 가져오기/내보내기 기술 워크플로우와 같은 보다 효율적이고 유연한 도구를 제공하여 복잡한 타겟팅 문제를 해결하기 위한 일련의 활동을 결합합니다. [클라이언트 콘솔에서 워크플로우 데이터 관리 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=ko#data-management){target="_blank"}
+
+>[!NOTE]
+>
+>이러한 활동 중 일부는 클라이언트 콘솔에서만 사용할 수 있지만 일부는 다음과 같은 Campaign 웹 사용자 인터페이스에서 사용할 수 있습니다. **데이터 보강**, **파일 로드** 또는 **차원 변경** 활동. [Campaign 웹 사용자 인터페이스에서 타기팅 및 데이터 관리 활동에 대해 자세히 알아보십시오](../workflows/activities/about-activities.md#targeting)
+
+### Federated Data Access 구성 {#fda}
+
+Campaign 구성 및 외부 시스템에 대한 연결은 고급 사용자로 제한되며 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ko){target="_blank"}
 
 ## 승인 {#approvals-capabilities}
 

@@ -4,7 +4,7 @@ title: 워크플로우를 만드는 핵심 원칙
 description: Adobe Campaign Web의 워크플로우 주요 원칙 알아보기
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '289'
 ht-degree: 100%
 

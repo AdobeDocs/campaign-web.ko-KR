@@ -6,7 +6,7 @@ title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
 source-git-commit: 23127900a70e0a6e6873141448dc9f8e365ea0f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '585'
 ht-degree: 100%
 

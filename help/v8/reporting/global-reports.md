@@ -3,14 +3,19 @@ audience: end-user
 title: 글로벌 보고서 시작
 description: 글로벌 보고서 이해
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: fe47c50bc257832fc9d6ddefdcb3217b73559d82
+source-git-commit: 35e63ac1ab4be1e24a0477c4dbb3370726d8392e
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 21%
+source-wordcount: '277'
+ht-degree: 20%
 
 ---
 
 # 글로벌 보고서 시작 {#global-report-gs}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_global_report"
+>title="글로벌 보고서"
+>abstract="글로벌 보고서는 캠페인 성과를 분석하는 강력하고 효율적인 방법을 제공합니다. 이러한 보고서는 캠페인 내의 각 채널에 대한 주요 트래픽 및 참여 지표에 대한 통합된 보기를 제공합니다."
 
 **글로벌 보고서**&#x200B;는 Campaign 인스턴스 내의 각 채널에 대한 트래픽 및 참여 지표에 대한 통합된 전체 요약을 제공하는 효과적인 도구 역할을 합니다. 이러한 보고서는 다양한 위젯으로 구성되어 있으며, 각 위젯은 캠페인 또는 게재 성과에 대한 고유한 관점을 제공합니다.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 게재 미리 보기 및 테스트 정보
 description: 게재 미리 보기 및 테스트 방법 알아보기
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 17%
+source-wordcount: '196'
+ht-degree: 18%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 17%
 >id="acw_deliveries_simulate"
 >title="콘텐츠 미리보기 및 테스트"
 >abstract="콘텐츠가 정의되면 프로필 및 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=ko-KR" text="테스트 게재 전송"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=ko-KR" text="증명 보내기"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=ko-KR#test-landing-page" text="테스트 랜딩 페이지"
 
 게재 콘텐츠가 정의되면 프로필 및 테스트 프로필을 사용하여 메시지를 보내기 전에 미리 보고 테스트할 수 있습니다. 이는 정확하면서도 컨텐츠 및 개인화 설정 모두에서 오류가 없는지 확인하는 중요한 단계입니다.
@@ -24,7 +24,7 @@ ht-degree: 17%
 [!DNL Adobe Campaign Web user interface] 을 통해 다음을 수행할 수 있습니다.
 
 * [메시지 콘텐츠 및 개인화 미리 보기](preview-content.md)
-* [테스트 게재 보내기](test-deliveries.md) (증명) 테스트 및 유효성 검사를 위해 특정 수신자 또는 구독자에게
+* [증명 보내기](test-deliveries.md) (증명) 테스트 및 유효성 검사를 위해 특정 수신자 또는 구독자에게
 * [이메일 렌더링 확인](email-rendering.md) 인기 있는 데스크탑, 모바일 및 웹 기반 클라이언트
 * [랜딩 페이지 미리보기 및 테스트](../landing-pages/create-lp.md#test-landing-page)
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 미러 페이지에 대한 링크 추가
 description: 미러 페이지에 대한 링크를 추가하고 관리하는 방법 알아보기
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 98%
+source-wordcount: '445'
+ht-degree: 96%
 
 ---
 
@@ -52,7 +52,7 @@ Adobe Campaign에서는 전용 **개인 맞춤화 블록**&#x200B;을 사용하�
 
 >[!NOTE]
 >
->테스트 프로필로 전송된 테스트 이메일에서는 미러 페이지에 대한 링크가 활성화되지 않으며 최종 메시지에서만 활성화됩니다.
+>테스트 프로필로 전송된 증명에서 미러 페이지에 대한 링크가 활성화되지 않았습니다. 최종 메시지에서만 활성화됩니다.
 
 기본적으로 미러 페이지의 유지 기간은 60일입니다. 해당 기간 이후에는 미러 페이지를 더 이상 사용할 수 없습니다.
 

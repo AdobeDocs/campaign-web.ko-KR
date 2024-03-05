@@ -3,10 +3,10 @@ audience: end-user
 title: 첫 이메일 보내기
 description: Campaign 웹 사용자 인터페이스를 사용하여 첫 번째 이메일을 보내는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 66%
+source-wordcount: '1393'
+ht-degree: 58%
 
 ---
 
@@ -157,17 +157,17 @@ ht-degree: 66%
 
 에서 게재 예약에 대해 자세히 알아보기 [이 섹션](../msg/gs-deliveries.md#schedule-the-delivery-sending).
 
-## 이메일 미리보기 및 테스트 {#preview-test}
+## 이메일 미리 보기 및 증명 보내기 {#preview-test}
 
 이메일을 전송하기 전에 미리 보고 테스트하여 기대치를 충족하는지 확인할 수 있습니다.
 
-이 사용 사례에서는 일부 타겟팅된 프로필을 가장하여 이메일을 미리 보고 특정 이메일 주소로 테스트 버전을 전송합니다.
+이 사용 사례에서는 타겟팅된 프로필 중 일부를 가장하는 동안 이메일을 미리 보고 특정 이메일 주소로 증명을 보냅니다.
 
-이메일을 미리 보고 테스트하는 방법에 대한 추가 정보는 [이 섹션](../preview-test/preview-test.md)에서 확인할 수 있습니다.
+이메일을 미리 보고 증명을 보내는 방법에 대한 추가 정보는에서 사용할 수 있습니다. [이 섹션](../preview-test/preview-test.md).
 
 1. 이메일을 검토하려면 **[!UICONTROL 검토 및 전송]**&#x200B;을 클릭합니다. 이렇게 하면 구성된 모든 속성, 대상자 및 일정과 함께 이메일 미리보기가 표시됩니다. 수정 버튼을 클릭하여 이 중 원하는 요소를 편집할 수 있습니다.
 
-1. 이메일을 미리 보고 테스트 버전을 보내려면 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다.
+1. 이메일을 미리 보고 증명을 보내려면 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다.
 
    ![](assets/review-email.png){zoomable=&quot;yes&quot;}
 
@@ -180,25 +180,25 @@ ht-degree: 66%
    <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
     -->
 
-1. 이메일의 테스트 버전을 전송하려면 **[!UICONTROL 테스트]** 버튼을 클릭한 다음 사용할 모드를 선택합니다.
+1. 증명을 보내려면 **[!UICONTROL 증명 보내기]** 버튼을 클릭하고 사용할 모드를 선택합니다.
 
-   이 예에서는 이메일에 의해 타겟팅된 프로필 중 일부를 가장하면서 특정 이메일 주소로 테스트 버전을 전송하는 **[!UICONTROL 기본 대상에서 대체]** 모드를 사용합니다.
+   이 예제에서는 **[!UICONTROL 주 대상에서 대체]** 모드는 이메일이 타겟팅한 프로필 중 일부를 가장하는 동안 특정 이메일 주소에 증명을 보냅니다.
 
    ![](assets/proof-mode.png){zoomable=&quot;yes&quot;}
 
-1. **[!UICONTROL 주소 추가]**&#x200B;를 클릭하고 테스트 버전을 수신하는 이메일 주소를 지정합니다.
+1. 클릭 **[!UICONTROL 주소 추가]** 증명을 받을 이메일 주소를 지정합니다.
 
    각 이메일 주소에 대해 가장할 프로필을 선택합니다. Adobe Campaign이 대상에서 임의 프로필을 선택하도록 할 수도 있습니다.
 
    ![](assets/proof-test-profile.png){zoomable=&quot;yes&quot;}
 
-1. **[!UICONTROL 테스트 이메일 전송]**&#x200B;을 클릭하고 전송을 확인합니다.
+1. 클릭 **[!UICONTROL 증명 보내기]** 전송을 확인합니다.
 
-   테스트 버전이 선택한 프로필을 사용하여 **[Proof x]** 접두사와 함께 지정된 이메일 주소로 전송됩니다.
+   선택한 프로필에 을(를) 추가하여 지정된 이메일 주소로 증명을 보냅니다. **[증명 x]** 접두사입니다.
 
    ![](assets/proof-sent.png){zoomable=&quot;yes&quot;}
 
-   콘텐츠 시뮬레이션 화면의 **[!UICONTROL 테스트 이메일 로그 보기]** 버튼을 클릭하여 언제든지 전송 상태를 확인하고 전송된 테스트 이메일에 액세스할 수 있습니다.
+   언제든지 을(를) 클릭하여 전송 상태를 확인하고 전송된 증명에 액세스할 수 있습니다. **[!UICONTROL 증명 보기]** [콘텐츠 시뮬레이션] 화면의 단추
 
 ## 이메일 전송 및 모니터링 {#prepare-send}
 

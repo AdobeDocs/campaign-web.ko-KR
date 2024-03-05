@@ -3,7 +3,7 @@ audience: end-user
 title: 필터 목록
 description: 기본 제공 및 사용자 지정 필터를 사용하여 Adobe Campaign 웹 목록을 필터링하는 방법을 알아봅니다.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 7%
@@ -12,7 +12,7 @@ ht-degree: 7%
 
 # 필터 목록 {#filter-lists}
 
-Adobe Campaign 웹은 각 객체 목록 내에 필터를 제공하므로 특정 컨텍스트 기준에 따라 정보를 필터링할 수 있습니다. 예를 들어 상태, 채널, 연락일 또는 폴더에서 게재를 필터링할 수 있습니다. 테스트를 숨길 수도 있습니다.
+Adobe Campaign 웹은 각 객체 목록 내에 필터를 제공하므로 특정 컨텍스트 기준에 따라 정보를 필터링할 수 있습니다. 예를 들어 상태, 채널, 연락일 또는 폴더에서 게재를 필터링할 수 있습니다. 증명을 숨길 수도 있습니다.
 
 ## 필터 적용{#apply}
 

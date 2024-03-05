@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 13%
+source-wordcount: '567'
+ht-degree: 16%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 13%
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
-시드 주소로 테스트 메시지를 보내는 단계는에 자세히 설명되어 있습니다. [이 섹션](../preview-test/test-deliveries.md#test-profiles).
+시드 주소로 증명을 보내는 단계는에 자세히 설명되어 있습니다. [이 섹션](../preview-test/test-deliveries.md#test-profiles).
 
 >[!NOTE]
 >
@@ -100,6 +100,6 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. 다음을 클릭합니다. **[!UICONTROL 저장]** 단추를 클릭합니다.
 
-방금 만든 테스트 프로필을 이제 테스트 전송에 사용할 준비가 되었습니다. [자세히 알아보기](../preview-test/test-deliveries.md#test-profiles)
+방금 만든 테스트 프로필을 이제 증명 전송에 사용할 준비가 되었습니다. [자세히 알아보기](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->

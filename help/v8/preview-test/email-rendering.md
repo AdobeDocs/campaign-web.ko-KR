@@ -3,10 +3,10 @@ audience: end-user
 title: 이메일 렌더링 테스트
 description: Campaign 웹 사용자 인터페이스에서 전자 메일 렌더링을 테스트하는 방법을 알아봅니다
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 2%
+source-wordcount: '235'
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->Campaign에서 이메일 렌더링을 사용하면 테스트 이메일을 서드파티 시스템으로 전송합니다. Litmus 계정을 [!DNL Campaign], 사용자는 Adobe이 해당 서드파티에게 보낼 수 있는 데이터에 대해 책임을 지지 않는다는 것을 확인합니다. Litmus 데이터 보존 이메일 정책은 이러한 테스트 메시지에 포함할 수 있는 개인화 데이터를 포함하여 이러한 이메일에 적용됩니다. 이러한 데이터에 액세스하거나 삭제하려면 Litmus에 직접 문의해야 합니다.
+>Campaign에서 이메일 렌더링을 사용하면 서드파티 시스템으로 증명을 보냅니다. Litmus 계정을 [!DNL Campaign], 사용자는 Adobe이 해당 서드파티에게 보낼 수 있는 데이터에 대해 책임을 지지 않는다는 것을 확인합니다. Litmus 데이터 보존 이메일 정책은 이러한 증명에 포함할 수 있는 개인화 데이터를 포함하여 이러한 이메일에 적용됩니다. 이러한 데이터에 액세스하거나 삭제하려면 Litmus에 직접 문의해야 합니다.
 
 이메일 렌더링 기능에 액세스하려면 다음을 수행해야 합니다.
 

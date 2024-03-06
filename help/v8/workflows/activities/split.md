@@ -3,10 +3,10 @@ audience: end-user
 title: 분할 워크플로 활동 사용
 description: 분할 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 8fbb54145bf266f149fb20e72bfc5e8486a70fe3
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 90%
+source-wordcount: '796'
+ht-degree: 89%
 
 ---
 
@@ -46,6 +46,11 @@ ht-degree: 90%
 >title="보조 항목 분할 생성"
 >abstract="모든 하위 집합을 구성한 후에는 하위 집합과 일치하지 않는 나머지 모집단을 선택하여 추가 아웃바운드 전환에 포함할 수 있습니다. 이렇게 하려면 **보조 항목 생성** 옵션을 토글합니다."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_generatesubsets"
+>title="동일 테이블의 모든 하위 집합 생성"
+>abstract="모든 하위 집합을 단일 출력 전환으로 그룹화하려면 이 옵션을 토글합니다."
+
 **분할** 활동을 구성하려면 다음 단계를 따르십시오.
 
 1. **분할** 활동을 워크플로에 추가합니다.
@@ -76,7 +81,6 @@ ht-degree: 90%
       >[!NOTE]
       >
       >하위 집합에 대해 모집단 제한을 설정할 때 특정 프로필 속성을 기준으로 선택한 프로필의 등급을 오름차순 또는 내림차순으로 지정할 수 있습니다. 이렇게 하려면 **[!UICONTROL 정렬 활성화]** 옵션을 토글합니다. 예를 들어 구매 금액이 가장 높은 상위 50개 프로필만 포함하도록 하위 집합을 제한할 수 있습니다.
-
 
 1. 모든 하위 집합을 구성한 후에는 하위 집합과 일치하지 않는 나머지 모집단을 선택하여 추가 아웃바운드 전환에 포함할 수 있습니다. 이렇게 하려면 **[!UICONTROL 보조 항목 생성]** 옵션을 토글합니다.
 

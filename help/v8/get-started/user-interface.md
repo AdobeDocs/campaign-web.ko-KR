@@ -3,10 +3,10 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: 5abbfc29b926aafaaceb68e806b6435bf0722f35
 workflow-type: tm+mt
-source-wordcount: '1637'
-ht-degree: 99%
+source-wordcount: '1629'
+ht-degree: 100%
 
 ---
 
@@ -335,13 +335,6 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_contenttemplate_readonlymode"
 >title="이 템플릿은 준비 전용입니다"
 >abstract="변경 예정"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_split_generatesubsets"
->title="동일 테이블의 모든 하위 집합 생성"
->abstract="변경 예정"
-
-<!-- ML: not found in wiki pages-->
 
 
 <!-- Subscription activity-->

@@ -10,7 +10,7 @@ keywords: 랜딩, 랜딩 페이지, 사용 사례
 source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
 workflow-type: tm+mt
 source-wordcount: '1381'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_templates"
 >title="URL 복사 시 주의"
->abstract="랜딩 페이지를 만들 때, 4개의 기본 템플릿을 사용하여 Campaign 데이터베이스에 프로필 추가 또는 업데이트, 서비스 구독, 서비스 구독 취소 또는 사용자 옵트아웃 등 다양한 사용 사례를 구현할 수 있습니다."
+>abstract="랜딩 페이지를 생성할 때 기본으로 제공되는 4가지 템플릿을 사용하면 Campaign 데이터베이스에 프로필을 추가 &#x200B;&#x200B;또는 업데이트하고, 고객을 서비스에 구독시키고, 고객의 서비스 구독을 취소하고, 사용자를 옵트아웃하는 등 다양한 사용 사례를 구현할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page" text="랜딩 페이지 만들기"
 
 랜딩 페이지를 적절히 사용하려면 전용 옵션을 사용하여 게재에서 링크로 참조해야 합니다.

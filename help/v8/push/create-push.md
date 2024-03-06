@@ -3,7 +3,7 @@ audience: end-user
 title: 푸시 알림 게재 만들기
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 만드는 방법을 알아봅니다
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 31%
@@ -51,7 +51,7 @@ ht-degree: 31%
    * **[!UICONTROL 폴더]**: 게재를 특정 폴더에 저장합니다.
    * **[!UICONTROL 게재 코드]**: 고유한 명명 규칙을 사용하여 게재를 구성합니다.
    * **[!UICONTROL 설명]**: 게재에 대한 설명을 입력합니다.
-   * **[!UICONTROL 특성]**: 분류 목적으로 이메일의 특성을 지정합니다.
+   * **[!UICONTROL 특성]**: 분류 목적으로 게재의 특성을 지정합니다.
 +++
 
 

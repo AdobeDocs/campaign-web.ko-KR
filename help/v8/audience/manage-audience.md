@@ -3,29 +3,16 @@ audience: end-user
 title: 대상자 모니터링 및 관리
 description: Adobe Campaign 웹에서 대상자를 모니터링하고 관리하는 방법 알아보기
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 0f83fa69847bbabbf725f95ff29ed9b09db915b6
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 26%
+source-wordcount: '568'
+ht-degree: 25%
 
 ---
 
-# 대상자 모니터링 및 관리 {#monitor}
+# 대상자 모니터링 및 관리 {#monitor-manage}
 
->[!CONTEXTUALHELP]
->id="acw_audiences_properties"
->title="속성"
->abstract="여기에서 원본, 스토리지 폴더 또는 상태 등 대상자 속성에 대한 요약을 확인할 수 있습니다. 대상자를 만드는 데 사용된 워크플로를 열려면 **마지막 워크플로** 섹션의 링크를 클릭합니다."
-
->[!CONTEXTUALHELP]
->id="acw_audiences_count"
->title="대상자 크기"
->abstract="여기서 대상자 내의 총 프로필 수를 확인할 수 있습니다. 대상자 결과를 업데이트하고 다시 계산하려면 ‘계산’ 버튼을 클릭합니다."
-
->[!CONTEXTUALHELP]
->id="acw_audiences_workflow_error_data_execution"
->title="대상자 오류"
->abstract="대상자 데이터를 사용할 수 없습니다. 워크플로 실행이 종료될 때까지 기다려 주십시오."
+## 대상자란 무엇입니까? {#what}
 
 대상자는 게재의 기본 대상, 즉 메시지를 받는 수신자입니다. 대상자의 유형은 게재 템플릿에 정의된 대상 매핑에 따라 다릅니다. 에서 게재 템플릿에 대해 자세히 알아보기 [이 페이지](../msg/delivery-template.md).
 
@@ -42,6 +29,23 @@ ht-degree: 26%
 >
 >캠페인 워크플로우의 컨텍스트에서 메시지를 보낼 때 대상자는 특정 대상에 정의됩니다 **대상자 작성** 워크플로우 활동. 이 컨텍스트에서는 이메일 게재용 파일에서 대상자를 로드할 수 없으며, 대상자는 이 전용 활동에서만 정의됩니다. 캠페인 워크플로우에서 게재 대상을 정의하는 방법을 알아봅니다. [이 섹션](../workflows/activities/build-audience.md)
 
+## 대상자 모니터링 {#monitor}
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_properties"
+>title="속성"
+>abstract="여기에서 원본, 스토리지 폴더 또는 상태 등 대상자 속성에 대한 요약을 확인할 수 있습니다. 대상자를 만드는 데 사용된 워크플로를 열려면 **마지막 워크플로** 섹션의 링크를 클릭합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_count"
+>title="대상자 크기"
+>abstract="여기서 대상자 내의 총 프로필 수를 확인할 수 있습니다. 대상자 결과를 업데이트하고 다시 계산하려면 ‘계산’ 버튼을 클릭합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_workflow_error_data_execution"
+>title="대상자 오류"
+>abstract="대상자 데이터를 사용할 수 없습니다. 워크플로 실행이 종료될 때까지 기다려 주십시오."
+
 Campaign 웹에서 사용할 수 있는 대상자 목록은 **[!UICONTROL 대상]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
 ![](assets/audiences-list.png){zoomable=&quot;yes&quot;}
@@ -52,9 +56,7 @@ Campaign 웹에서 사용할 수 있는 대상자 목록은 **[!UICONTROL 대상
 
 * **[!UICONTROL Adobe Experience Platform:]** 이러한 대상은 Adobe Experience Platform 내에서 생성되며 Adobe 소스 및 대상 통합을 사용하여 Campaign 웹에 통합됩니다. 에서 이 통합을 설정하는 방법에 대해 알아봅니다. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
->[!NOTE]
->
->Campaign에서 Adobe Experience Platform 대상을 사용하려면 Adobe 소스 및 대상과의 통합을 구성해야 합니다. 을(를) 참조하십시오 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+  ➡️ [비디오에서 이 기능 살펴보기](#video)
 
 * **[!UICONTROL Adobe Campaign WebUI]**: 이러한 대상자는 Campaign 웹 대상자 워크플로우를 사용하여 만들어집니다. [대상자를 만드는 방법 알아보기](create-audience.md)
 
@@ -65,3 +67,11 @@ Campaign 웹에서 사용할 수 있는 대상자 목록은 **[!UICONTROL 대상
 ![](assets/audiences-details.png){zoomable=&quot;yes&quot;}
 
 대상을 복제하거나 삭제하려면 **[!UICONTROL 추가 작업]** 버튼은 대상자 이름 옆의 대상자 목록 또는 대상자 세부 사항 화면 내에서 사용할 수 있습니다.
+
+## 방법 비디오 {#video}
+
+Adobe Campaign 웹 사용자 인터페이스에서 Experience Platform 대상을 사용할 대상을 만드는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
+
+Adobe 소스 및 대상 통합을 설정하는 방법에 대한 자세한 내용은에서 확인할 수 있습니다 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.

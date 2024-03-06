@@ -3,10 +3,10 @@ audience: end-user
 title: 푸시 알림 게재 디자인
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 디자인하는 방법을 알아봅니다
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: a2d374012f22480ca78a20056baa2c066a0a3c19
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 39%
+source-wordcount: '1545'
+ht-degree: 40%
 
 ---
 
@@ -21,6 +21,12 @@ ht-degree: 39%
 >id="acw_deliveries_push_ios_content"
 >title="iOS 콘텐츠 푸시"
 >abstract="iOS 디바이스에 대한 푸시 알림 내용을 정의합니다. 메시지 작성을 시작하려면 **콘텐츠 편집** 버튼을 클릭합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_remind_later"
+>title="나중에 알림 단추"
+>abstract="TBD"
+
 
 ## 알림 콘텐츠 정의 {#push-message}
 

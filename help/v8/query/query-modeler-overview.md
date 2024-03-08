@@ -3,10 +3,10 @@ audience: end-user
 title: 쿼리 모델러로 작업
 description: Adobe Campaign 웹 쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 32bffad5ea6641a723887ca9fa3e58b8cc428c00
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 30%
+source-wordcount: '500'
+ht-degree: 25%
 
 ---
 
@@ -16,14 +16,6 @@ ht-degree: 30%
 >id="acw_homepage_learning_card5"
 >title="새 쿼리 모델러"
 >abstract="Adobe Campaign Web에는 다양한 기준에 따라 특정 대상을 선택하기 위해 데이터베이스 필터링 프로세스를 단순화하는 쿼리 모델러가 있습니다. 여기에는 고급 표현식 및 연산자의 사용이 포함됩니다. 쿼리 모델러는 데이터를 필터링하기 위한 규칙을 정의해야 하는 모든 상황에서 사용할 수 있습니다."
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="새 쿼리 모델러"
->abstract="Adobe Campaign Web에는 다양한 기준에 따라 특정 대상을 선택하기 위해 데이터베이스 필터링 프로세스를 단순화하는 쿼리 모델러가 있습니다. 여기에는 고급 표현식 및 연산자의 사용이 포함됩니다. 쿼리 모델러는 데이터를 필터링하기 위한 규칙을 정의해야 하는 모든 상황에서 사용할 수 있습니다."
-
-<!--TO REMOVE ABOVE-->
 
 
 >[!CONTEXTUALHELP]

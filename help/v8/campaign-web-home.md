@@ -3,10 +3,10 @@ keywords: Campaign Web;홈;인기 있는 주제
 description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 87%
+source-wordcount: '580'
+ht-degree: 85%
 
 ---
 
@@ -42,45 +42,6 @@ ht-degree: 87%
 >title="항목 4"
 >abstract="차세대 쿼리 모델러 및 이메일 디자이너"
 
-<!--
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_list5"
->title="Item 5"
->abstract="Additional Item"-->
-
-<!-- TO REMOVE BELOW-->
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card1"
->title="도움말 및 설명서"
->abstract="Campaign은 이제 개선된 사용 가능성, 접근성 및 새로운 디자인을 갖춘 새로운 웹 사용자 인터페이스(UI)를 제공하여 사용자 경험을 크게 향상시킵니다. 이 새로운 최신 UI는 다른 Adobe 솔루션과 함께 마케팅 캠페인 디자인 및 게재를 간소화하고 일관성을 제공합니다."
-
->[!CONTEXTUALHELP]
->id="acw_homepage_title"
->title="새로운 Adobe Campaign 사용자 인터페이스 경험"
->abstract="보다 현대적이고 직관적이며 동적입니다."
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list1"
->title="항목 1"
->abstract="새로운 이메일, SMS 및 푸시 알림 디자인 경험"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list2"
->title="항목 2"
->abstract="간소화된 워크플로 캔버스 인터페이스"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list3"
->title="항목 3"
->abstract="대상자, 구독 및 서비스, AEM Assets용으로 재구성된 UX"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list4"
->title="항목 4"
->abstract="Email Gen AI: 프롬프트 기반 이메일 생성"
-
-<!--TO REMOVE ABOVE-->
 
 Adobe Campaign Web 사용자 인터페이스의 새로운 버전을 소개합니다. 최신 릴리스에는 맞춤형 크로스 채널 캠페인 만들기를 간소화하고, 탁월한 결과를 도출하며, 모든 채널에서 경쟁 우위를 확보하도록 설계된 직관적인 기능이 포함되어 있습니다. 이 새로운 최신 UI에서는 Adobe Experience Platform을 비롯한 다른 Adobe 솔루션과 함께 마케팅 캠페인 디자인 및 게재를 간소화하고 일관성을 제공합니다.
 

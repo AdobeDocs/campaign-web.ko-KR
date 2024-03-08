@@ -3,10 +3,10 @@ audience: end-user
 title: 첫 이메일 보내기
 description: Campaign 웹 사용자 인터페이스를 사용하여 첫 번째 이메일을 보내는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '1393'
-ht-degree: 58%
+source-wordcount: '1357'
+ht-degree: 57%
 
 ---
 
@@ -17,17 +17,6 @@ ht-degree: 58%
 >id="acw_homepage_learning_card3"
 >title="이메일 시작"
 >abstract="독립 실행형 이메일 게재를 만들거나 캠페인 워크플로의 컨텍스트에서 이메일을 작성할 수 있습니다. 게재를 만들고, 대상자를 선택하고, 이메일 콘텐츠를 디자인하는 방법에 대해 알아봅니다."
-
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="이메일 시작"
->abstract="독립 실행형 이메일 게재를 만들거나 캠페인 워크플로의 컨텍스트에서 이메일을 작성할 수 있습니다. 게재를 만들고, 대상자를 선택하고, 이메일 콘텐츠를 디자인하는 방법에 대해 알아봅니다."
-
-<!--TO REMOVE ABOVE-->
-
-
 
 첫 번째 타겟팅된 이메일을 작성하는 방법에 대해 알아봅니다. 이 사용 사례에서는 특정 일자에 실버 및 골드 충성도 회원에게 이메일을 전송하도록 예약합니다.
 

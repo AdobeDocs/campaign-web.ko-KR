@@ -3,9 +3,9 @@ audience: end-user
 title: 워크플로 시작
 description: 워크플로를 시작하는 방법 알아보기
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
-workflow-type: ht
-source-wordcount: '435'
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+workflow-type: tm+mt
+source-wordcount: '391'
 ht-degree: 100%
 
 ---
@@ -18,14 +18,6 @@ ht-degree: 100%
 >abstract="자동화 및 최적화를 위한 새로운 가능성을 열어 더욱 동적이고 개인화된 고객 여정을 창출할 수 있습니다. 고급 세분화에서 조건부 트리거에 이르기까지 추가적인 워크플로 활동을 통해 타겟팅된 메시지를 전달하고 캠페인 성과를 높일 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ko" text="릴리스 정보 참조"
 
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_rn2"
->title="크로스 채널 워크플로"
->abstract="자동화 및 최적화를 위한 새로운 가능성을 열어 더욱 동적이고 개인화된 고객 여정을 창출할 수 있습니다. 고급 세분화에서 조건부 트리거에 이르기까지 추가적인 워크플로 활동을 통해 타겟팅된 메시지를 전달하고 캠페인 성과를 높일 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ko" text="릴리스 정보 참조"
-
-<!--TO REMOVE ABOVE-->
 
 ## 워크플로란?
 

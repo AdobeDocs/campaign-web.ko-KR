@@ -2,10 +2,10 @@
 title: 프로필 만들기
 description: Campaign 웹에서 프로필을 만드는 방법을 알아봅니다.
 exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 47%
+source-wordcount: '568'
+ht-degree: 48%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 47%
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
->title="수신자에게 더 이상 연락하지 않음"
+>title="더 이상 연락하지 않음"
 >abstract="이 섹션에서는 프로필의 연락 환경 설정에 대한 인사이트를 제공합니다. 정보를 수정하려면 해당 필드에서 직접 변경한 다음 화면 오른쪽 상단에 있는 **저장** 버튼을 클릭합니다."
 
 >[!CONTEXTUALHELP]

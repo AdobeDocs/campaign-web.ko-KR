@@ -3,9 +3,9 @@ audience: end-user
 title: 푸시 알림 게재 보내기
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 보내는 방법 알아보기
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '398'
 ht-degree: 5%
 
 ---
@@ -36,8 +36,9 @@ ht-degree: 5%
 
 ## 푸시 알림 게재 테스트 {#test-push}
 
-사용 **Adobe Campaign**를 통해 주요 대상자에게 증명을 보내기 전에 보낼 수 있습니다. 이 단계는 게재의 유효성을 검사하고 문제를 식별하는 데 중요합니다.
-테스트 수신자는 링크, 이미지 및 개인화 설정과 같은 요소를 검토할 수 있으므로 최적의 성능을 보장하고 오류를 감지할 수 있습니다. 이 프로세스는 주요 대상에게 도달하기 전에 푸시 알림을 세분화하고 최적화하는 데 도움이 됩니다. [증명을 보내는 방법 알아보기](../preview-test/test-deliveries.md#subscribers)
+사용 **Adobe Campaign**&#x200B;를 통해 주요 대상자에게 증명을 보내기 전에 보낼 수 있습니다. 이 단계는 게재의 유효성을 검사하고 문제를 식별하는 데 중요합니다.
+
+테스트 프로필은 증명 수신자입니다. 구성 요소와 링크, 이미지 및 개인화와 같은 설정을 검토하고 유효성을 검사하여 최적의 성능을 보장하고 오류를 감지할 수 있습니다. 이 프로세스는 주요 대상에게 도달하기 전에 푸시 알림을 세분화하고 최적화하는 데 도움이 됩니다. [증명을 보내는 방법 알아보기](../preview-test/test-deliveries.md#subscribers)
 
 ![](assets/push_send_6.png){zoomable=&quot;yes&quot;}
 

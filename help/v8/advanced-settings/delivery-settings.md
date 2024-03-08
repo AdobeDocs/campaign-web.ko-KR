@@ -4,10 +4,10 @@ title: 게재 설정 구성
 description: Campaign 웹에서 게재 설정을 구성하는 방법 알아보기
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: e4e1a7eee0f4a48366e711feb2a8bd107f3320bd
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '2417'
-ht-degree: 50%
+source-wordcount: '2420'
+ht-degree: 49%
 
 ---
 
@@ -70,7 +70,9 @@ ht-degree: 50%
 
 **[!UICONTROL 게재 가중치]** 필드를 사용하여 게재 우선 순위를 정의합니다. 각 게재에는 우선 순위 수준을 나타내는 가중치가 있습니다. 기본적으로 게재 가중치는 5로 설정되어 있습니다. 압력 규칙을 사용하면 적용되는 게재의 가중치를 정의할 수 있습니다. 가중치는 수신자에 맞게 공식을 통해 설정하거나 계산할 수 있습니다. 예를 들어 수신자의 관심사에 따라 게재 가중치를 정의할 수 있습니다.
 
-대상 평가 모드를 선택하려면 **[!UICONTROL 게재 모드]**&#x200B;를 사용합니다. 다음 세 가지 모드를 사용할 수 있습니다.
+사용 **[!UICONTROL 게재 모드]** 대상 평가 모드를 선택하는 필드입니다.
+
+다음 세 가지 모드를 사용할 수 있습니다.
 
 * **[!UICONTROL 대상 예상 및 메시지 개인화]**
 * **[!UICONTROL 잠정 대상 예상 및 승인]**
@@ -78,7 +80,7 @@ ht-degree: 50%
 
 >[!NOTE]
 >
->피로도 관리는 Campaign 클라이언트 콘솔에서 구성됩니다. 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
+>피로도 관리 및 압력 규칙은 Campaign 클라이언트 콘솔에 구성됩니다. 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
 
 ### 수용작업량 설정 {#capacity-settings}
 
@@ -90,11 +92,11 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
 >title="수신자 중요도"
->abstract="수신자 중요도는 용량 유형화 규칙 초과 시 유지되는 수신자를 결정하는 데 사용되는 공식입니다."
+>abstract="수신자의 중요도는 용량 유형화 규칙을 초과할 때 어떤 프로필이 유지되는지 결정하는 데 사용되는 수식입니다."
 
 이 섹션에서는 Adobe Campaign v8 콘솔에 정의된 용량 규칙을 선택할 수 있습니다. 이 규칙은 채널과 연결되어 있습니다.
 
-다음 **[!UICONTROL 수신자의 중요도]** 필드는 용량 유형화 규칙을 초과할 때 어떤 수신자를 유지할지 결정하는 데 사용되는 수식입니다.
+다음 **[!UICONTROL 수신자의 중요도]** 필드는 용량 유형화 규칙을 초과할 때 어떤 프로필이 유지되는지 결정하는 데 사용되는 수식입니다.
 
 >[!NOTE]
 >
@@ -109,7 +111,7 @@ ht-degree: 50%
 
 이 섹션에서는 사용 가능한 **대상 매핑** 중 원하는 옵션을 선택할 수 있습니다. 대상 매핑은 Adobe Campaign v8 콘솔에서 정의됩니다. 대상 매핑은 작업에서 처리하는 데이터 유형입니다. 대상 모집단(수신자, 계약 수혜자, 운영자, 구독자 등)을 정의할 수 있습니다. [대상 매핑에 대해 자세히 알아보기](../audience/targeting-dimensions.md).
 
-다음에서 **[!UICONTROL 제외]** 필드에서는 더 이상 연락을 원치 않거나 격리된 수신자를 제외하도록 선택할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+다음에서 **[!UICONTROL 제외]** 필드에서는 더 이상 연락을 원치 않거나 격리된 프로필을 제외하도록 선택할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## 게재 {#delivery}
 
@@ -276,7 +278,7 @@ ht-degree: 50%
 
 이 섹션에서는 제외 매개변수를 설정할 수 있습니다. 사용 가능한 옵션은 다음과 같습니다.
 
-* **[!UICONTROL 중복 요소 보관]** 여러 타겟팅 기준을 충족하는 수신자에게 여러 게재를 승인할 수 있습니다.
+* **[!UICONTROL 중복 요소 보관]** 여러 타겟팅 기준을 충족하는 프로필에 여러 게재를 승인할 수 있습니다.
 * **[!UICONTROL 차단 목록에 추가된 주소 보관]** 옵션을 사용하면 구독 취소(옵트아웃) 후와 같이 게재에서 더 이상 대상으로 지정되지 않는 프로필을 대상에서 유지할 수 있습니다.
 * **[!UICONTROL 격리된 주소 보관]** 옵션을 사용하면 주소가 응답하지 않는 프로필을 대상에서 유지할 수 있습니다.
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 구독 서비스 작업
 description: Adobe Campaign 웹에서 구독 서비스에 액세스하고, 만들고, 관리하는 방법을 알아봅니다
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 34%
@@ -70,7 +70,7 @@ Adobe Campaign 웹을 사용하여 뉴스레터와 같은 서비스를 관리 �
 1. 기본적으로 구독은 무제한입니다.
 
    다음을 비활성화할 수 있습니다. **[!UICONTROL 무제한 유효 기간]** 서비스의 유효 기간을 정의하는 옵션. 유효 기간이 종료되면:
-   * 더 이상 이 서비스에 가입할 수 있는 수신자가 없습니다.
+   * 더 이상 이 서비스를 구독할 수 있는 프로필이 없습니다.
    * 이 서비스의 모든 구독자는 자동으로 구독 취소됩니다.
 
    ![](assets/service-create-validity-period.png){zoomable=&quot;yes&quot;}
@@ -83,7 +83,7 @@ Adobe Campaign 웹을 사용하여 뉴스레터와 같은 서비스를 관리 �
 
 이제 다음을 수행할 수 있습니다.
 
-* 이 서비스에 가입자를 추가하고 수신자의 가입을 취소합니다. [자세히 알아보기](../msg/send-to-subscribers.md)
+* 이 서비스에 가입자를 추가하고 프로필 가입을 취소합니다. [자세히 알아보기](../msg/send-to-subscribers.md)
 
 * 이 서비스의 구독자에게 메시지를 보냅니다. [방법 알아보기](../msg/send-to-subscribers.md)
 

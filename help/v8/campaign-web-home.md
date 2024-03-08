@@ -3,10 +3,10 @@ keywords: Campaign Web;홈;인기 있는 주제
 description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 9849ab42d9dcbe34036f5677c674cb96aaf1a246
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 92%
+ht-degree: 87%
 
 ---
 
@@ -134,7 +134,7 @@ Campaign 이메일 디자이너를 사용하여 직관적인 드래그 앤 드�
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>다이내믹해진 콘텐츠</strong><br/>수신자에 대해 수집한 정보를 기반으로 콘텐츠를 사용자 정의하여 콘텐츠를 보다 매력적으로 만들고 수신자가 읽을 가능성을 높이는 방법을 알아봅니다.</div>
+    <div><strong>콘텐츠를 동적으로 만들기</strong><br/>프로필에 대해 수집한 정보를 기반으로 콘텐츠를 사용자 정의하여 콘텐츠의 매력을 높이고 읽기 가능성을 높이는 방법에 대해 알아봅니다.</div>
     </td>
   </tr>
   <tr style="border: 0;">

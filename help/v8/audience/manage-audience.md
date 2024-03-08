@@ -3,10 +3,10 @@ audience: end-user
 title: 대상자 모니터링 및 관리
 description: Adobe Campaign 웹에서 대상자를 모니터링하고 관리하는 방법 알아보기
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 0f83fa69847bbabbf725f95ff29ed9b09db915b6
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 ## 대상자란 무엇입니까? {#what}
 
-대상자는 게재의 기본 대상, 즉 메시지를 받는 수신자입니다. 대상자의 유형은 게재 템플릿에 정의된 대상 매핑에 따라 다릅니다. 에서 게재 템플릿에 대해 자세히 알아보기 [이 페이지](../msg/delivery-template.md).
+대상자는 게재의 주요 타겟인 메시지를 받는 프로필입니다. 대상자의 유형은 게재 템플릿에 정의된 대상 매핑에 따라 다릅니다. 에서 게재 템플릿에 대해 자세히 알아보기 [이 페이지](../msg/delivery-template.md).
 
 대상자의 모집단을 정의하려면 다음을 수행할 수 있습니다.
 

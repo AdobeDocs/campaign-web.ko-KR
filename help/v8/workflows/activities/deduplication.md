@@ -3,7 +3,7 @@ audience: end-user
 title: 중복 제거 워크플로우 활동 사용
 description: 중복 제거 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 54%
@@ -62,6 +62,6 @@ ht-degree: 54%
 
 ## 예제{#deduplication-example}
 
-다음 예제에서는 중복 제거 활동을 사용하여 게재를 보내기 전에 대상에서 중복을 제외합니다. 식별된 중복 수신자는 전용 대상에 추가되며 필요한 경우 재사용할 수 있습니다. 다음을 선택합니다. **이메일** 중복을 식별할 주소입니다. 항목 1개를 유지하고 **무작위** 중복 제거 방법을 참조하십시오.
+다음 예제에서는 중복 제거 활동을 사용하여 게재를 보내기 전에 대상에서 중복을 제외합니다. 식별된 중복 프로필은 전용 대상에 추가되며 필요한 경우 재사용할 수 있습니다. 다음을 선택합니다. **이메일** 중복을 식별할 주소입니다. 항목 1개를 유지하고 **무작위** 중복 제거 방법을 참조하십시오.
 
 ![](../assets/workflow-deduplication-example.png)

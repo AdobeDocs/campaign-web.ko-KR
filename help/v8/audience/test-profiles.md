@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 16%
+source-wordcount: '608'
+ht-degree: 9%
 
 ---
 
@@ -17,17 +17,19 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
 >title="테스트 프로필 만들기"
->abstract="테스트 프로필은 시드 주소로 만들어집니다. 정의된 대상 기준과 일치하지 않는 가상의 프로필을 대상으로 지정하는 데 사용되는 데이터베이스의 추가 수신자입니다."
+>abstract="테스트 프로필은 메시지를 보내기 전에 개인화 및 렌더링을 미리 보고 테스트할 수 있는 추가 수신자입니다. 메시지 콘텐츠를 미리 볼 때 테스트 프로필을 선택하고 테스트 프로필에 증명을 전송하여 메시지 콘텐츠와 설정을 제어하고 확인할 수 있습니다."
 
-테스트 프로필은 시드 주소로 만들어집니다. 정의된 대상 기준과 일치하지 않는 가상 프로필을 타겟팅하는 데 사용되는 데이터베이스의 추가 수신자입니다. 증명을 전송하여 게재를 보내기 전에 개인화 및 렌더링을 미리 보고 테스트할 수 있습니다.
+테스트 프로필은 증명을 보내고 메시지 콘텐츠와 설정을 확인하는 데 사용됩니다. 이러한 프로필은 메시지를 보내기 전에 개인화 및 렌더링을 미리 보고 테스트할 수 있는 추가 수신자입니다. 메시지 콘텐츠를 미리 볼 때 테스트 프로필을 선택하고 테스트 프로필에 증명을 전송하여 메시지 콘텐츠와 설정을 제어하고 확인할 수 있습니다.
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
-시드 주소로 증명을 보내는 단계는에 자세히 설명되어 있습니다. [이 섹션](../preview-test/test-deliveries.md#test-profiles).
+테스트 프로필에 증명을 보내는 단계는에 자세히 설명되어 있습니다. [이 섹션](../preview-test/test-deliveries.md#test-profiles).
 
 >[!NOTE]
 >
->테스트 프로필은 다음 게재 통계에 대한 보고서에서 자동으로 제외됩니다. **[!UICONTROL 클릭수]**, **[!UICONTROL 열림]**, **[!UICONTROL 구독 취소]**. [보고서에 대해 자세히 알아보기]
+>* 테스트 프로필은 클라이언트 콘솔에서 시드 주소로 만들어집니다.
+>
+>* 테스트 프로필은 다음 게재 통계에 대한 보고서에서 자동으로 제외됩니다. **[!UICONTROL 클릭수]**, **[!UICONTROL 열림]**, **[!UICONTROL 구독 취소]**.
 
 ## 테스트 프로필 액세스 및 관리 {#access-test-profiles}
 

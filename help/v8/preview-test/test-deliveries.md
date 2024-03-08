@@ -3,10 +3,10 @@ audience: end-user
 title: 증명 보내기
 description: 증명 정의 및 전송 방법 알아보기
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 14%
+ht-degree: 13%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 14%
 
 메시지 콘텐츠 또는 개인화 설정에서 발생할 수 있는 오류를 탐지하려면 대상 대상자에게 보내기 전에 테스트 프로필에 증명을 보냅니다. 최신 콘텐츠의 유효성을 검사하려면 변경 사항이 있을 때마다 증명을 보내야 합니다. 증명을 보내는 것은 캠페인을 확인하고 잠재적인 문제를 식별하는 중요한 단계입니다. 증명 수신자는 링크, 옵트아웃 링크, 이미지 또는 미러 페이지와 같은 다양한 요소를 확인할 수 있을 뿐만 아니라 렌더링, 콘텐츠, 개인화 설정 및 게재 구성의 오류를 감지할 수 있습니다.
 
-## 테스트 수신자와 콘텐츠 시뮬레이션 {#simulate-content-test-deliveries}
+## 테스트 프로필로 콘텐츠 시뮬레이션 {#simulate-content-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"

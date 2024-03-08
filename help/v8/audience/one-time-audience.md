@@ -3,16 +3,16 @@ audience: end-user
 title: 게재를 위한 일회성 대상 구축
 description: 게재를 위한 일회성 대상을 구축하는 방법을 알아봅니다.
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 
 # 일회성 대상자 빌드 {#one-time}
 
-이 섹션에서는 새 게재를 만들 때 대상을 구축하는 방법을 설명합니다. 이 경우 쿼리 모델러를 사용하여 데이터베이스를 쿼리하여 게재 대상에 포함할 수신자의 타겟이 지정됩니다.
+이 섹션에서는 새 게재를 만들 때 대상을 구축하는 방법을 설명합니다. 이 경우 쿼리 모델러를 사용하여 데이터베이스를 쿼리하여 게재 대상자에 포함할 프로필을 타겟팅합니다.
 
 결과 대상자는 이 게재에 한 번만 사용됩니다. 대상자 목록에 저장되지 않습니다.
 

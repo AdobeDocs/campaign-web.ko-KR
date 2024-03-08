@@ -1,10 +1,11 @@
 ---
 title: 프로필 세부 정보 살펴보기
 description: 프로필의 세부 정보를 탐색하는 방법을 알아봅니다.
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 11%
+source-wordcount: '179'
+ht-degree: 12%
 
 ---
 
@@ -12,7 +13,7 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"
->title="수신자 구독 목록"
+>title="구독 목록"
 >abstract="이 탭에는 프로필에서 구독하는 모든 서비스가 나열됩니다."
 
 프로필의 세부 정보에 액세스하려면 다음으로 이동합니다. **[!UICONTROL 고객 관리]** > **[!UICONTROL 프로필]** 그런 다음 액세스할 프로필을 클릭합니다.

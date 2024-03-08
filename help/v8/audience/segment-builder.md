@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign 규칙 빌더로 대상자 빌드
 description: 규칙 빌더로 작업하는 방법을 알아봅니다.
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 57%
+ht-degree: 58%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 57%
 
 ![](assets/segment-builder5.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
-* **결과 보기:** 대상자에 의해 타겟팅되는 수신자 목록을 표시합니다.
+* **결과 보기:** 대상별로 타겟팅된 프로필 목록을 표시합니다.
 * **코드 보기**: SQL에 대상자의 코드 기반 버전을 표시합니다.
 * **고급 속성 표시**: 왼쪽 팔레트에서 노드, 그룹화, 1-1 링크, 1-N 링크와 같은 속성의 전체 목록을 보려면 이 옵션을 선택하십시오.
 * **계산**: 쿼리가 타겟팅한 프로필 수를 업데이트하고 표시합니다.

@@ -3,10 +3,10 @@ audience: end-user
 title: 구독자 관리
 description: Adobe Campaign 웹에서 서비스 구독자를 관리하고 제공하는 방법에 대해 알아봅니다
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ## 서비스에서 구독자 제거 {#remove-subscribers}
 
-### 수신자의 수동 구독 취소 {#manual-unsubscription}
+### 수동으로 프로필 구독 취소 {#manual-unsubscription}
 
 한 번 [구독자 추가됨](#add-subscribers) 서비스에 대해 각 가입을 수동으로 해지할 수 있습니다. 아래 단계를 수행합니다.
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ### 수신자 자동 구독 취소 {#automatic-unsubscription}
 
-구독 서비스의 기간은 제한될 수 있습니다. 유효 기간이 만료되면 수신자는 자동으로 구독 취소됩니다.
+구독 서비스의 기간은 제한될 수 있습니다. 유효 기간이 만료되면 프로필의 가입이 자동으로 취소됩니다.
 
 이 기간은 다음과 같은 경우에 지정됩니다. [서비스 만들기](manage-services.md#create-service). 다음에서 **[!UICONTROL 추가 옵션]**, 비활성화 **[!UICONTROL 무제한 유효 기간]** 서비스를 선택하고 유효 기간을 정의합니다.
 

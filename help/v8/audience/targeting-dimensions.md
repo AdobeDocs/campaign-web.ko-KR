@@ -2,10 +2,10 @@
 title: 타겟팅 차원
 description: Adobe Campaign 웹의 타겟팅 차원에 대해 자세히 알아보십시오
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 11%
+source-wordcount: '447'
+ht-degree: 9%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
 >title="타겟팅 차원 선택"
->abstract="타겟팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타겟팅하는 모집단을 정의할 수 있습니다. 기본적으로 대상은 수신자 중에서 선택됩니다."
+>abstract="타겟팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타겟팅하는 모집단을 정의할 수 있습니다. 기본적으로 이메일 및 SMS의 경우, 수신자 기본 제공 테이블에서 대상이 선택됩니다. 푸시 알림의 경우 기본 대상 차원은 구독자 애플리케이션입니다."
 
 타겟팅 차원(예: ) 대상 매핑은 작업에서 처리하는 데이터 유형입니다. 대상 모집단(프로필, 계약 수혜자, 운영자, 구독자 등)을 정의할 수 있습니다.
 
@@ -36,12 +36,12 @@ ht-degree: 11%
 
 | 이름 | 사용 대상 | 스키마 |
 |---|---|---|
-| 수신자 | 수신자에게 게재(기본 제공 수신자 테이블) | nms:recipient |
+| 수신자 | 프로필/수신자에게 게재(기본 제공 수신자 테이블) | nms:recipient |
 | 방문자 | 참조(바이럴 마케팅)를 통해 프로필이 수집된 방문자에게 제공합니다. | mns:visitor |
-| 구독 | 뉴스레터 등 정보 서비스를 구독한 수신자에게 게재 | nms:subscription |
+| 구독 | 뉴스레터와 같은 정보 서비스를 구독한 프로필에 게재 | nms:subscription |
 | 방문자 구독 | 정보 서비스를 구독한 방문자에게 게재 | nms:visitorSub |
 | 연산자 | Adobe Campaign 운영자에게 게재 | nms:operator |
 | 외부 파일 | 게재에 필요한 모든 정보가 포함된 파일을 통해 게재 | 연결된 스키마 없음, 입력된 대상 없음 |
-| 구독자 애플리케이션 | 애플리케이션을 구독한 수신자에게 게재 | nms:appSubscriptionRcp |
+| 구독자 애플리케이션 | 애플리케이션을 구독하는 프로필에 게재 | nms:appSubscriptionRcp |
 
-또한 필요에 따라 새 대상 매핑을 만들 수 있습니다. 이 작업은 클라이언트 콘솔에서 수행됩니다. 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.
+또한 필요에 따라 새 대상 매핑을 만들 수 있습니다. 이 작업은 클라이언트 콘솔에서만 수행됩니다. 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.

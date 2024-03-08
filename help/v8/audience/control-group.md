@@ -3,10 +3,10 @@ audience: end-user
 title: 컨트롤 그룹 설정
 description: Campaign 웹 사용자 인터페이스에서 메시지의 컨트롤 그룹을 설정하는 방법을 알아봅니다
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 36%
+ht-degree: 37%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 36%
 
 ### 컨트롤 그룹 샘플{#control-group-sample}
 
-예를 들어 가장 최신 수신자가 100명인 컨트롤 그룹을 만들려면 다음 단계를 수행합니다.
+예를 들어 가장 최신 프로필 100개를 사용하여 컨트롤 그룹을 만들려면 다음 단계를 수행합니다.
 
 1. 다음 항목 선택 **나이** 필드를 정렬 기준으로 사용합니다. 나가기 **오름차순** 정렬 옵션을 선택합니다.
 1. 추가 **제작일** 필드. (으)로 변경 **내림차순** 정렬 옵션을 선택합니다.
@@ -70,7 +70,7 @@ ht-degree: 36%
 
    ![](assets/control-group2.png){zoomable=&quot;yes&quot;}
 
-그런 다음 이 100명의 새로운 최연소 수신자는 주요 대상에서 제외됩니다.
+그런 다음 이 100개의 새로운 최신 프로필은 주요 대상에서 제외됩니다.
 
 ### 컨트롤 그룹 확인 {#check-control-group}
 

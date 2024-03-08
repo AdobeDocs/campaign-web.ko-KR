@@ -1,23 +1,24 @@
 ---
 audience: end-user
-title: Adobe Experience Manager as a Cloud Service를 사용하여 에셋 관리
-description: Adobe Experience Manager as a Cloud Service로 콘텐츠를 관리하는 방법 알아보기
-source-git-commit: 0c7c96308c5fe3516ed1fd33603c54c6da8248c1
+title: Adobe Experience Manager as a Cloud Service을 사용하여 에셋 관리
+description: Adobe Experience Manager as a Cloud Service을 사용하여 콘텐츠를 관리하는 방법 알아보기
+exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
+source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 1%
 
 ---
 
-# 템플릿 관리 [!DNL Adobe Experience Manager as a Cloud service]{#aem-assets}
+# 템플릿 관리 [!DNL Adobe Experience Manager as a Cloud Service]{#aem-assets}
 
-## [!DNL Adobe Experience Manager as a Cloud service] 시작{#create-aem}
+## [!DNL Adobe Experience Manager as a Cloud Service] 시작{#create-aem}
 
 Adobe Campaign 웹 인터페이스와 Adobe Experience Manager의 통합을 통해 Adobe Experience Manager 플랫폼 내에서 직접 이메일 게재 콘텐츠 및 양식을 간소화할 수 있습니다.
 
 ![](assets/do-not-localize/book.png)[Adobe Experience Manager as a Cloud Service에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
 
-## 템플릿 만들기 [!DNL Adobe Experience Manager as a Cloud service]{#create-aem-template}
+## 템플릿 만들기 [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem-template}
 
 1. 다음으로 이동 [!DNL Adobe Experience Manager] 작성자 인스턴스를 클릭하고 페이지의 왼쪽 상단 모서리에 있는 Adobe 경험 을 클릭합니다. 선택 **[!UICONTROL 사이트]** 메뉴에서 삭제할 수 있습니다.
 

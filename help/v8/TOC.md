@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: f63df9adfba8fa571319a3bf5e32d0869240c51f
+source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 99%
+source-wordcount: '589'
+ht-degree: 96%
 
 ---
 
@@ -167,6 +167,7 @@ ht-degree: 99%
       + [푸시 글로벌 보고서](reporting/global-report-push.md)
       + [SMS 글로벌 보고서](reporting/global-report-sms.md)
 + 통합 {#integrations}
+   + [다른 Adobe 솔루션 사용](integrations/integration.md)
    + [Adobe Experience Manager Assets as a Cloud Service로 자산 관리](integrations/aem-assets.md)
-   + [Adobe Experience Manager as a Cloud service로 템플릿 관리](integrations/aem-content.md)
+   + [Adobe Experience Manager as a Cloud Service을 사용하여 템플릿 관리](integrations/aem-content.md)
 

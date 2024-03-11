@@ -6,7 +6,7 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 3804b1a518d1f1699abeaf6de36ce9e56123e14d
+source-git-commit: 80af4bda06dbeda2c9123d21384771b9458c8b51
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 24%
@@ -17,7 +17,7 @@ ht-degree: 24%
 
 
 >[!CONTEXTUALHELP]
->id="acw_emagica_generate"
+>id="acw_emagica_generate_test"
 >title="Adobe 생성형 AI 약관"
 >abstract="이 기능에 대한 액세스는 Adobe Experience Cloud 생성 AI 사용자 지침에 대한 귀하의 동의에 따라 달라집니다. 이 기능에 제공하는 모든 프롬프트, 컨텍스트 또는 추가 정보 또는 기타 입력은 특정 컨텍스트에 연결되어야 하며 여기에는 브랜딩 자료, 웹 사이트 콘텐츠, 데이터, 이러한 데이터에 대한 스키마, 템플릿 또는 기타 신뢰할 수 있는 문서가 포함될 수 있습니다"
 

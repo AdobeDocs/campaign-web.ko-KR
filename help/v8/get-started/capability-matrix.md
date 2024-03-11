@@ -4,9 +4,9 @@ title: Campaign Web 사용자 인터페이스/클라이언트 콘솔 기능 매�
 description: Campaign Web 사용자 인터페이스에서 지원되는 기능 목록
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 81ee3c7ce46826089f68d2da1ff1a45e7fa93473
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2179'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -152,13 +152,13 @@ Adobe Campaign Web 사용자 인터페이스에서 만든 게재를 통해 오�
 
 ## 데이터 모델링 및 데이터 수집 {#data-capabilities}
 
-Campaign Web 사용자 인터페이스에는 다음 기능이 표시되지 않습니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다.
+Campaign Web 사용자 인터페이스에는 다음 기능이 표시되지 않습니다. 클라이언트 콘솔에서만 사용할 수 있습니다.
 
 ### 외부 계정 {#external}
 
 Adobe Campaign에는 외부 시스템과 연결하기 위해 사전 정의된 외부 계정 세트가 함께 제공됩니다. Campaign 시스템 관리자는 클라이언트 콘솔에서만 외부 계정을 만들고 관리할 수 있습니다.[자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html?lang=ko){target="_blank"}
 
-### 스키마 생성 및 확장 {#schema}
+### 스키마 만들기 및 확장  {#schema}
 
 스키마를 만들고 수정 및 확장하는 작업은 고급 사용자만 가능합니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html?lang=ko){target="_blank"}
 
@@ -168,9 +168,9 @@ Adobe Campaign에는 외부 시스템과 연결하기 위해 사전 정의된 �
 
 >[!NOTE]
 >
->이러한 활동 중 일부는 클라이언트 콘솔에서만 사용할 수 있지만 일부는 다음과 같은 Campaign 웹 사용자 인터페이스에서 사용할 수 있습니다. **데이터 보강**, **파일 로드** 또는 **차원 변경** 활동. [Campaign 웹 사용자 인터페이스에서 타기팅 및 데이터 관리 활동에 대해 자세히 알아보십시오](../workflows/activities/about-activities.md#targeting)
+>이러한 활동 중 일부는 클라이언트 콘솔에서만 사용할 수 있지만 **데이터 보강**, **파일 로드** 또는 **차원 변경** 활동 등 일부는 Campaign Web 사용자 인터페이스에서 사용할 수 있습니다. [Campaign Web 사용자 인터페이스의 타겟팅 및 데이터 관리 활동에 대해 자세히 알아보기](../workflows/activities/about-activities.md#targeting)
 
-### Federated Data Access 구성 {#fda}
+### 페더레이션 데이터 액세스(FDA) 구성 {#fda}
 
 Campaign 구성 및 외부 시스템에 대한 연결은 고급 사용자로 제한되며 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ko){target="_blank"}
 

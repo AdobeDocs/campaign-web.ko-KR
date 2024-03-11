@@ -1,15 +1,15 @@
 ---
-title: Campaign 웹 사용자 인터페이스 워크플로의 보호 및 제한 사항
-description: Campaign 웹 사용자 인터페이스에서 워크플로 작업 시 보호 및 제한 사항
+title: Campaign Web 사용자 인터페이스 워크플로우의 보호 기능 및 제한 사항
+description: Campaign Web 사용자 인터페이스에서 워크플로우 작업 시 보호 기능 및 제한 사항
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# 워크플로우에 대한 보호 및 제한 사항 {#guardrails-limitations}
+# 워크플로우에 대한 보호 기능 및 제한 사항 {#guardrails-limitations}
 
 Campaign 클라이언트 콘솔에서 생성되거나 수정된 워크플로우를 사용하여 Campaign Web 사용자 인터페이스에서 작업할 때 아래에 나열된 보호 기능 및 제한 사항이 적용됩니다.
 

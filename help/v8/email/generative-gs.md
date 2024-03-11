@@ -6,10 +6,10 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: a404a404207b095a0745768bfe596021dcdcad56
+source-git-commit: 61a15b297c8f9b36e195e173dd394dd83bd58bf1
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 21%
+source-wordcount: '450'
+ht-degree: 30%
 
 ---
 
@@ -19,9 +19,12 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Adobe 생성형 AI 약관"
->abstract="이 기능에 대한 액세스는 Adobe Experience Cloud Generative AI 사용자 지침에 대한 동의에 따르며, 다음과 같습니다. (a) 이 기능에 제공하는 프롬프트, 컨텍스트, 보충 정보 또는 기타 입력은 특정 컨텍스트에 연결되어야 하며, 여기에는 브랜딩 자료, 웹 사이트 콘텐츠, 데이터, 이러한 데이터에 대한 스키마, 템플릿 또는 기타 신뢰할 수 있는 문서가 포함될 수 있으며, (b) 개인 정보는 포함되지 않아야 합니다(개인 정보는 특정 개인에게 다시 연결될 수 있는 모든 것을 포함). 이 기능의 출력을 정확하게 검토하고 사용 사례에 적합한지 확인해야 합니다."
->additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 생성 AI 사용자 지침"
+>abstract="이 기능의 이용에는 Adobe Experience Cloud 생성형 AI 사용자 가이드라인 및 다음 사항에 대한 동의가 적용됩니다."
 
+<!--
+ Any prompts, context, or supplemental information, or other input you provide to this feature (a) must be tied to specific context, which can include your branding materials, website content, data, schemas for such data, templates, or other trusted documents, and (b) must not contain any personal information (personal information includes anything that can be linked back to a specific invidual). You should review any output from this feature for accuracy and ensure that it is appropriate for your use case."
+>additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
+-->
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"

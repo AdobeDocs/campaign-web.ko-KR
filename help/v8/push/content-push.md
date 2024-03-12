@@ -24,7 +24,7 @@ ht-degree: 40%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
->title="나중에 알림 단추"
+>title="나중에 알림 버튼"
 >abstract="TBD"
 
 

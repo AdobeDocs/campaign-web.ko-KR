@@ -7,7 +7,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '2420'
-ht-degree: 49%
+ht-degree: 50%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 49%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="게재에 대한 수용작업량 설정"
->abstract="메시지를 게재하기 전에 수용작업량 규칙을 사용하여 조직이 게재, 게재로 인해 생성될 수 있는 인바운드 메시지와 구독자에게 문의할 수 있는 통화 수를 처리할 수 있는지 확인합니다. 수용작업량 규칙은 Adobe Campaign v8 콘솔에 정의되어 있습니다. 이 화면에서 채널과 연결된 규칙을 선택합니다."
+>abstract="메시지를 게재하기 전에 수용작업량 규칙을 사용하여 조직이 게재, 게재로 인해 생성될 수 있는 인바운드 메시지와 구독자에게 문의할 수 있는 통화 수를 처리할 수 있는지 확인합니다. 수용작업량 규칙은 Adobe Campaign v8 콘솔에 정의되어 있습니다. 이 화면에서 채널과 연계된 규칙을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
@@ -180,7 +180,7 @@ ht-degree: 49%
 
 소프트 또는 무시됨 오류로 인해 일시적으로 게재되지 않은 메시지는 자동 재시도의 적용을 받습니다. 기본적으로 5번의 다시 시도가 배달 첫 날에 예약되며 하루 중 24시간 동안 최소 1시간 간격으로 분산됩니다.
 
-## 승인(이메일 채널) {#approval}
+## 승인 (이메일 채널) {#approval}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"

@@ -6,7 +6,7 @@ exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '1595'
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="게재 개요"
->abstract="**게재 개요** 는 방문자가 이메일 게재에 참여하는 방식에 대한 자세한 정보를 포함하는 주요 성과 지표(KPI)를 제공합니다."
+>abstract="**게재 개요**&#x200B;는 방문자가 이메일 게재에 참여하는 방식에 대한 자세한 정보를 포함하는 주요 성과 지표(KPI)를 제공합니다."
 
 ### 게재 개요 {#delivery-summary-email-ovv}
 

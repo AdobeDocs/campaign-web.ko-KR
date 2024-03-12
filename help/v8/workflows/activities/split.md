@@ -6,7 +6,7 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 8fbb54145bf266f149fb20e72bfc5e8486a70fe3
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 89%
+ht-degree: 90%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_generatesubsets"
 >title="동일 테이블의 모든 하위 집합 생성"
->abstract="모든 하위 집합을 단일 출력 전환으로 그룹화하려면 이 옵션을 토글합니다."
+>abstract="모든 하위 집합을 단일 출력 전환으로 그룹화하려면 이 옵션을 토글하십시오."
 
 **분할** 활동을 구성하려면 다음 단계를 따르십시오.
 

@@ -6,7 +6,7 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
 source-wordcount: '869'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="대상자"
->abstract="이 화면에서 게재에서 타겟팅할 수 있는 모든 대상자 목록에 액세스할 수 있습니다. **만들기** 를 클릭하여 **분할** 또는 **제외**&#x200B;와 같은 다양한 워크플로 활동을 통해 새 대상자를 시각적 캔버스에 만듭니다."
+>abstract="이 화면에서 게재에서 타겟팅할 수 있는 모든 대상자 목록에 액세스할 수 있습니다. **만들기**&#x200B;를 클릭하여 **분할** 또는 **제외**&#x200B;와 같은 다양한 워크플로 활동을 통해 새 대상자를 시각적 캔버스에 만듭니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"
@@ -97,7 +97,7 @@ Campaign 웹을 사용하면 시각적 워크플로우 캔버스로 새로운 �
 
 ![](assets/edit-audience-save.png){zoomable=&quot;yes&quot;}
 
-## 방법 비디오 {#video}
+## 사용법 비디오 {#video}
 
 대상을 빌드 및 관리하고, 게재할 대상을 선택하고, 컨트롤 그룹을 정의하는 방법에 대해 알아봅니다.
 

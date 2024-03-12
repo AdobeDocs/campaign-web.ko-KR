@@ -6,7 +6,7 @@ exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="주요 대상자에 테스트 프로필 포함"
->abstract="이 옵션을 활성화하면 증명 수신자에게 최종 메시지를 보낼 수도 있습니다."
+>abstract="증명 수신자에게도 최종 메시지를 보내려면 이 옵션을 활성화합니다."
 
 테스트 프로필은 데이터베이스의 추가 수신자입니다. 이러한 속성은 다음에서 생성됩니다. **[!UICONTROL 고객 관리]** > **[!UICONTROL 프로필]** 메뉴 아래의 제품에서 사용할 수 있습니다. [자세히 알아보기](../audience/test-profiles.md#create-test-profiles)
 

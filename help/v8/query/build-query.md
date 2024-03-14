@@ -6,7 +6,7 @@ exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 source-git-commit: decdf1619f4d5c3e5514544144086f82df6b7b21
 workflow-type: tm+mt
 source-wordcount: '2053'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_customcondition"
 >title="사용자 정의 조건"
->abstract="사용자 지정 조건은 데이터베이스 및 고급 표현식의 특성을 사용하여 자체 조건을 작성하여 쿼리를 필터링할 수 있는 필터링 구성 요소입니다."
+>abstract="사용자 정의 조건은 데이터베이스 및 고급 표현식의 속성으로 고유한 조건을 빌드하여 쿼리를 필터링할 수 있는 필터링 구성 요소입니다."
 
 사용자 지정 조건을 사용하여 쿼리를 필터링하려면 다음 단계를 따르십시오.
 

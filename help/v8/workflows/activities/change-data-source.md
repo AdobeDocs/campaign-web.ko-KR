@@ -2,14 +2,21 @@
 audience: end-user
 title: 데이터 소스 변경 워크플로우 활동 사용
 description: 데이터 소스 변경 워크플로우 활동을 사용하는 방법을 알아봅니다
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '343'
 ht-degree: 9%
 
 ---
 
 # 데이터 소스 변경 {#change-data-source}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="워크플로우에서 데이터 소스 변경"
+>abstract="데이터 소스 타깃팅 변경 활동을 사용하면 워크플로우의 작업 테이블에서 사용되는 데이터 소스를 변경할 수 있습니다. 이 활동을 통해 다양한 데이터베이스에서 데이터를 관리하고 성능을 향상시킬 수 있으므로 보다 유연하게 작업할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"

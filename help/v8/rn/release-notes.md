@@ -1,7 +1,7 @@
 ---
 title: 최신 릴리스 정보
 description: Campaign Web 사용자 인터페이스에서 제공하는 새로운 기능 살펴보기
-source-git-commit: 45795b35fd2c02f7b513b0d4952504ca3f5f45c3
+source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 9%
@@ -9,6 +9,7 @@ ht-degree: 9%
 ---
 
 # 릴리스 정보 {#latest-release}
+
 
 <!--Last update: **March 19, 2024**-->
 

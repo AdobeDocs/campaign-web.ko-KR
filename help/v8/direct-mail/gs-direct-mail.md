@@ -2,15 +2,22 @@
 audience: end-user
 title: DM 게재 시작
 description: Adobe Campaign 웹을 사용하여 DM 게재를 만들고 보내는 방법 알아보기
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 0%
+source-wordcount: '264'
+ht-degree: 1%
 
 ---
 
 
 # DM 게재 시작 {#gs-direct-mail}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="DM"
+>abstract="이제 DM 채널을 워크플로우에서 독립 실행형 게재로 사용할 수 있습니다. DM은 추출 파일을 만들고, 개인화하고, 생성하고, DM 공급자와 공유하여 고객에게 메일을 보낼 수 있는 오프라인 채널입니다."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="릴리스 정보 참조"
+
 
 다이렉트 메일은 엽서, 전단지 또는 카탈로그와 같은 개인화된 편지를 고객에게 대량 게재할 파일을 생성할 수 있는 오프라인 채널입니다.
 

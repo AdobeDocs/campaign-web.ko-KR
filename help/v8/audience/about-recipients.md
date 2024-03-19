@@ -2,19 +2,15 @@
 title: 프로필 시작
 description: Campaign 웹에서 프로필을 모니터링하고 관리하는 방법을 알아봅니다.
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 19%
+source-wordcount: '456'
+ht-degree: 13%
 
 ---
 
 # 프로필 시작 {#profiles}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="프로필 자세히 살펴보기"
->abstract="새로운 프로필을 만들고, 강력한 보고서와 도구를 통해 모니터링합니다. 프로필 속성, 상호 작용 및 로그에 액세스합니다. 필터링 옵션을 사용하여 프로필 목록을 찾아보고 프로필을 편집 및 업데이트합니다."
 
 <!--additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new" text="See release notes"-->
 

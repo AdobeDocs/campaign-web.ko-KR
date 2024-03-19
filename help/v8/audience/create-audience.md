@@ -3,7 +3,7 @@ audience: end-user
 title: 대상자 만들기
 description: Adobe Campaign 웹에서 대상자를 만드는 방법을 알아봅니다
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 17%
@@ -13,10 +13,10 @@ ht-degree: 17%
 # 대상자 만들기 {#create-audiences}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
+>id="acw_homepage_welcome_rn3"
 >title="대상자 구성"
 >abstract="시각적인 워크플로 캔버스에 새 대상자를 만듭니다. 처음부터 시작하여 간단한 대상자를 만드는 것 외에도 워크플로 활동을 활용하여 대상자를 세분화할 수도 있습니다. 여러 대상자를 하나로 결합하거나, 외부 속성으로 대상자를 강화하거나, 선택한 규칙에 따라 여러 대상자로 나눕니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ko" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"

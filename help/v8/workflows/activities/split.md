@@ -3,10 +3,10 @@ audience: end-user
 title: 분할 워크플로 활동 사용
 description: 분할 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 8fbb54145bf266f149fb20e72bfc5e8486a70fe3
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 90%
+source-wordcount: '839'
+ht-degree: 81%
 
 ---
 
@@ -29,7 +29,8 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
 >title="분할 활동 필터"
->abstract="하위 집합에 필터링 조건을 적용하려면 **[!UICONTROL 필터 만들기]**&#x200B;를 클릭하고 원하는 필터링 조건을 구성합니다. 예를 들어 데이터베이스에 이메일 주소가 존재하는 수신 모집단의 프로필을 포함합니다."
+>abstract="필터링 조건을 하위 집합에 적용하려면 다음을 클릭하십시오. **[!UICONTROL 필터 만들기]** 쿼리 모델러를 사용하여 원하는 필터링 규칙을 구성합니다. 예를 들어 데이터베이스에 이메일 주소가 존재하는 수신 모집단의 프로필을 포함합니다."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="쿼리 모델러로 작업"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"
@@ -71,7 +72,7 @@ ht-degree: 90%
 
    1. 하위 집합을 열어 해당 속성을 표시합니다.
 
-   1. 하위 집합에 필터링 조건을 적용하려면 **[!UICONTROL 필터 만들기]**&#x200B;를 클릭하고 원하는 필터링 조건을 구성합니다. 예를 들어 데이터베이스에 이메일 주소가 존재하는 수신 모집단의 프로필을 포함합니다.
+   1. 필터링 조건을 하위 집합에 적용하려면 다음을 클릭하십시오. **[!UICONTROL 필터 만들기]** 쿼리 모델러를 사용하여 원하는 필터링 규칙을 구성합니다. 예를 들어 데이터베이스에 이메일 주소가 있는 수신 모집단의 프로필을 포함합니다. [쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다](../../query/query-modeler-overview.md)
 
    1. 하위 집합에서 선택한 프로필 수를 제한하려면 **[!UICONTROL 제한 활성화]** 옵션을 토글하고 포함할 모집단의 수 또는 백분율을 지정합니다.
 
@@ -85,6 +86,10 @@ ht-degree: 90%
 1. 모든 하위 집합을 구성한 후에는 하위 집합과 일치하지 않는 나머지 모집단을 선택하여 추가 아웃바운드 전환에 포함할 수 있습니다. 이렇게 하려면 **[!UICONTROL 보조 항목 생성]** 옵션을 토글합니다.
 
    ![](../assets/workflow-split-complement.png)
+
+   >[!NOTE]
+   >
+   >다음 **[!UICONTROL 동일한 테이블의 모든 하위 집합 생성]** 옵션을 사용하면 모든 하위 집합을 단일 출력 전환으로 그룹화할 수 있습니다.
 
 이제 활동이 구성되었습니다. 워크플로 실행 시 모집단은 활동에 추가된 순서대로 여러 하위 집합으로 세그먼트화됩니다.
 

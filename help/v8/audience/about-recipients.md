@@ -2,10 +2,10 @@
 title: 프로필 시작
 description: Campaign 웹에서 프로필을 모니터링하고 관리하는 방법을 알아봅니다.
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 20%
+source-wordcount: '493'
+ht-degree: 19%
 
 ---
 
@@ -15,7 +15,8 @@ ht-degree: 20%
 >id="acw_homepage_welcome_rn4"
 >title="프로필 자세히 살펴보기"
 >abstract="새로운 프로필을 만들고, 강력한 보고서와 도구를 통해 모니터링합니다. 프로필 속성, 상호 작용 및 로그에 액세스합니다. 필터링 옵션을 사용하여 프로필 목록을 찾아보고 프로필을 편집 및 업데이트합니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ko" text="릴리스 정보 참조"
+
+<!--additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new" text="See release notes"-->
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -48,7 +49,7 @@ A **프로필**&#x200B;클라이언트 콘솔에서 &quot;수신자&quot;라고�
 
 프로파일을 삭제하려면 다음 목록에서 해당 옵션을 선택합니다 **[!UICONTROL 추가 작업]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-## 방법 비디오 {#video}
+## 사용법 비디오 {#video}
 
 Campaign 웹 사용자 인터페이스를 사용하여 프로필에 액세스, 관리 및 탐색하는 방법을 알아봅니다.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 조정 워크플로우 활동 사용
 description: 조정 워크플로우 활동을 사용하는 방법을 알아봅니다
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 43%
+source-wordcount: '860'
+ht-degree: 40%
 
 ---
 
@@ -53,7 +53,8 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="조정 규칙"
->abstract="중복 제거에 사용할 조정 필드를 선택합니다. 조정 기준을 하나 이상 사용할 수 있습니다."
+>abstract="중복 제거에 사용할 조정 규칙을 선택합니다. 속성을 사용하려면 **단순 속성** 옵션을 선택하고 소스 및 대상 필드를 선택합니다. 쿼리 모델러를 사용하여 자신의 조정 조건을 만들려면 **고급 조정 조건** 옵션을 선택합니다."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="쿼리 모델러로 작업"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
@@ -85,9 +86,9 @@ ht-degree: 43%
 
       ![](../assets/workflow-reconciliation-criteria.png)
 
-   1. 다른 속성을 사용하여 데이터를 조정하려면 **고급 조정 조건** 옵션을 선택합니다. 그런 다음 쿼리 모델러를 사용하여 자신의 조정 조건을 만들 수 있습니다. 에서 쿼리 모델러를 사용하는 방법 알아보기 [이 섹션](../../query/query-modeler-overview.md).
+   1. 다른 속성을 사용하여 데이터를 조정하려면 **고급 조정 조건** 옵션을 선택합니다. 그런 다음 쿼리 모델러를 사용하여 자신의 조정 조건을 만들 수 있습니다. [쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다](../../query/query-modeler-overview.md).
 
-1. 를 사용하여 조정할 데이터를 필터링할 수 있습니다. **필터 만들기** 단추를 클릭합니다. 이렇게 하면 를 사용하여 사용자 지정 조건을 만들 수 있습니다. [쿼리 모델러](../../query/query-modeler-overview.md).
+1. 를 사용하여 조정할 데이터를 필터링할 수 있습니다. **필터 만들기** 단추를 클릭합니다. 이렇게 하면 쿼리 모델러를 사용하여 사용자 지정 조건을 만들 수 있습니다. [쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다](../../query/query-modeler-overview.md)
 
 기본적으로, 조정되지 않은 데이터는 아웃바운드 전환에 유지되고 나중에 사용할 수 있도록 작업 테이블에서 사용할 수 있습니다. 조정되지 않은 데이터를 제거하려면 **조정되지 않은 데이터 유지** 옵션을 비활성화합니다.
 

@@ -2,7 +2,7 @@
 audience: end-user
 title: DM 게재 시작
 description: Adobe Campaign 웹을 사용하여 DM 게재를 만들고 보내는 방법 알아보기
-source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
+source-git-commit: f4919f9955e098630e596cf68e2b51088fde68dc
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 1%

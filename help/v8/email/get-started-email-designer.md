@@ -3,7 +3,7 @@ audience: end-user
 title: 이메일 콘텐츠 편집
 description: Campaign Web 사용자 인터페이스의 이메일 디자이너를 사용하여 콘텐츠 작성을 시작하는 방법에 대해 알아봅니다.
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
+source-git-commit: f4919f9955e098630e596cf68e2b51088fde68dc
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 99%

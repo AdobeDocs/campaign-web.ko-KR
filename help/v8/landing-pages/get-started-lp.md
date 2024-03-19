@@ -4,7 +4,7 @@ title: 랜딩 페이지 시작
 description: Campaign Web의 랜딩 페이지에 대해 알아보기
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
-source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
+source-git-commit: f4919f9955e098630e596cf68e2b51088fde68dc
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 99%

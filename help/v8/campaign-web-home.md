@@ -3,10 +3,10 @@ keywords: Campaign Web;홈;인기 있는 주제
 description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: b1bf540f3622c11752d29aa52dad62903a6cc197
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 92%
+source-wordcount: '512'
+ht-degree: 70%
 
 ---
 
@@ -51,29 +51,27 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 
 >[!BEGINTABS]
 
->[!TAB Adobe Experience Manager as a Cloud Service 통합]
+>[!TAB 다이렉트 메일 채널]
 
-Adobe Campaign Web 인터페이스와 Adobe Experience Manager as a Cloud Service를 통합하면 이메일 콘텐츠 관리를 간소화할 수 있습니다. 이제 Adobe Experience Manager에서 직접 이메일 콘텐츠를 만들고 편집한 다음, 완성된 템플릿을 Adobe Campaign으로 원활하게 가져와 전송할 수 있습니다.
+**다이렉트 메일** 이제 채널은 워크플로우에서 독립 실행형 게재로 사용할 수 있습니다. DM은 추출 파일을 만들고, 개인화하고, 생성하고, DM 공급자와 공유하여 고객에게 메일을 보낼 수 있는 오프라인 채널입니다.
 
-[![이미지](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
+![이미지](assets/do-not-localize/direct-mail.gif)
 
->[!TAB 크로스 채널 워크플로우]
+[![이미지](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
 
-자동화 및 최적화를 위한 새로운 가능성을 열어 더욱 동적이고 개인화된 고객 여정을 창출할 수 있습니다. 고급 세분화에서 조건부 트리거에 이르기까지 추가적인 워크플로 활동을 통해 타겟팅된 메시지를 전달하고 캠페인 성과를 높일 수 있습니다.
+>[!TAB 이메일 디자이너의 쿼리 모델러]
 
-[![이미지](assets/do-not-localize/learn-more-button.svg)](workflows/gs-workflows.md)
+이제 쿼리 모델러를 이메일 디자이너에서 사용할 수 있습니다. 조건부 콘텐츠를 만들 때 조건을 작성할 수 있도록 해 줍니다.
 
->[!TAB 대상자 구성]
+[![이미지](assets/do-not-localize/learn-more-button.svg)](personalization/conditions.md)
 
-시각적인 워크플로 캔버스에 새 대상자를 만듭니다. 처음부터 시작하여 간단한 대상자를 만드는 것 외에도 워크플로 활동을 활용하여 대상자를 세분화할 수도 있습니다. 여러 대상자를 하나로 결합하거나, 외부 속성으로 대상자를 강화하거나, 선택한 규칙에 따라 여러 대상자로 나눕니다.
+>[!TAB 새로운 데이터 소스 변경 워크플로우 활동]
 
-[![이미지](assets/do-not-localize/learn-more-button.svg)](audience/create-audience.md)
+다음 **데이터 소스 변경** 타겟팅 활동을 사용하면 워크플로우의 작업 테이블에서 사용되는 데이터 소스를 변경할 수 있습니다. 이 활동을 통해 다양한 데이터베이스에서 데이터를 관리하고 성능을 향상시킬 수 있으므로 보다 유연하게 작업할 수 있습니다.
 
->[!TAB 이메일 디자이너]
+![이미지](assets/do-not-localize/change-data-source.gif)
 
-Campaign 이메일 디자이너를 사용하여 직관적인 드래그 앤 드롭 인터페이스를 통해 매력적인 개별 맞춤형 이메일을 만들 수 있습니다. 처음부터 빈 화면으로 시작하고 기존 콘텐츠를 가져오거나 기존 템플릿을 활용하는 경우 모든 이메일 콘텐츠를 디자인하고 세부적으로 조정할 수 있습니다.
-
-[![이미지](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
+[![이미지](assets/do-not-localize/learn-more-button.svg)](workflows/activities/change-data-source.md)
 
 >[!ENDTABS]
 

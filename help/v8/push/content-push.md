@@ -3,7 +3,7 @@ audience: end-user
 title: 푸시 알림 게재 디자인
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 디자인하는 방법을 알아봅니다
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: a2d374012f22480ca78a20056baa2c066a0a3c19
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 40%
@@ -40,8 +40,6 @@ ht-degree: 40%
 >id="acw_deliveries_push_android_msg"
 >title="Android 메시지 푸시"
 >abstract="Android 디바이스에 대한 푸시 알림 내용을 정의합니다. 메시지를 작성하려면 **제목** 및 **메시지** 필드를 클릭합니다. 표현식 편집기를 사용하여 데이터를 개인화하고 동적 콘텐츠를 추가합니다. 푸시 알림을 추가로 개인화하려면 푸시 알림에 추가할 이미지, 프로필 디바이스에 표시할 알림 아이콘 및 색상을 선택할 수 있습니다. 더 많은 사용자 정의 구성을 보려면 **고급 설정** 섹션으로 이동합니다."
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"

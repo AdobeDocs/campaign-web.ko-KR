@@ -3,10 +3,10 @@ audience: end-user
 title: 캠페인 보고서
 description: 캠페인 보고서에 액세스하고 사용하는 방법을 알아봅니다
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 21%
+source-wordcount: '281'
+ht-degree: 24%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 21%
 * [이메일 캠페인 채널](campaign-reports-email.md)
 * [SMS 캠페인 채널](campaign-reports-sms.md)
 * [캠페인 채널 푸시](campaign-reports-push.md)
+* [다이렉트 메일 캠페인 채널](campaign-reports-direct-mail.md)
 
 ## 보고서 대시보드 관리 {#manage-reports}
 

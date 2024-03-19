@@ -3,7 +3,7 @@ audience: end-user
 title: 필터 목록
 description: 기본 제공 및 사용자 지정 필터를 사용하여 Adobe Campaign 웹 목록을 필터링하는 방법을 알아봅니다.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 7%
@@ -31,6 +31,7 @@ Adobe Campaign 웹은 각 객체 목록 내에 필터를 제공하므로 특정 
 맞춤형 필터를 사용하면 고유한 특정 기준에 따라 목록을 세분화할 수 있습니다. Campaign 쿼리 모델러를 사용하여 디자인되었습니다. 사용자 지정 필터를 만들려면 다음 단계를 수행합니다.
 
 1. 필터 창을 열고 **규칙 추가** 창 하단에 있는 단추입니다.
+
 1. 쿼리 모델러가 열립니다. 필요에 맞게 필터 기준을 정의하고 결합합니다. 쿼리 모델러를 사용하는 방법에 대한 자세한 내용은 [이 섹션](../query/query-modeler-overview.md).
 
    아래 예제는 실행 또는 요가 부서의 운영자가 실행한 SMS 캠페인을 캠페인 목록에 표시하도록 디자인된 사용자 지정 필터를 보여줍니다.

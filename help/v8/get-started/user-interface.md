@@ -3,9 +3,9 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 5abbfc29b926aafaaceb68e806b6435bf0722f35
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1578'
 ht-degree: 100%
 
 ---
@@ -288,27 +288,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- ML: beta wiki page - not visible in UI-->
 
->[!CONTEXTUALHELP]
->id="acw_directmail_content"
->title="다이렉트 메일의 콘텐츠"
->abstract="다이렉트 메일의 콘텐츠"
-
->[!CONTEXTUALHELP]
->id="acw_directmail_properties_file"
->title="다이렉트 메일의 파일 속성"
->abstract="다이렉트 메일의 파일 속성"
-
->[!CONTEXTUALHELP]
->id="acw_directmail_properties_content"
->title="다이렉트 메일의 콘텐츠 속성"
->abstract="다이렉트 메일의 콘텐츠 속성"
-
 <!-- FOR POST-GA -->
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_change_data_source"
->title="데이터 소스 변경"
->abstract="**데이터 소스 변경** 활동을 사용하면 워크플로우의 작업 테이블에 대해 다른 데이터 소스를 선택할 수 있습니다."
 
 
 <!--
@@ -328,8 +309,6 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_rulebuilder_properties_advanced"
 >title="규칙 빌더 고급 속성"
 >abstract="기본적으로 속성 목록에는 가장 일반적인 속성만 표시됩니다. **고급 속성 표시** 토글을 활성화하면 노드, 그룹화, 1-1 링크, 1-N 링크 등 규칙 작성기의 왼쪽 팔레트에 있는 현재 목록에 대해 사용 가능한 모든 속성을 확인할 수 있습니다."
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"

@@ -3,10 +3,10 @@ audience: end-user
 title: 이메일 디자이너에서 이메일 디자인
 description: 이메일 콘텐츠를 처음부터 디자인하는 방법 알아보기
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 69%
+source-wordcount: '627'
+ht-degree: 71%
 
 ---
 
@@ -54,6 +54,8 @@ ht-degree: 69%
 >abstract="이메일 디자이너를 통해 열 구조를 정의하여 템플릿 레이아웃을 쉽게 정의할 수 있습니다."
 
 이메일 디자이너를 통해 이메일 구조를 쉽게 정의할 수 있습니다. 간단한 드래그 앤 드롭 작업으로 구조적 요소를 추가하고 이동하면 몇 초 만에 이메일 본문을 디자인할 수 있습니다.
+
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 이메일 콘텐츠 작성을 시작하려면 아래 단계를 따르십시오.
 
@@ -105,3 +107,8 @@ ht-degree: 69%
 
 1. 이메일이 준비되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
+## 사용법 비디오 {#video}
+
+이메일 디자이너를 탐색하는 방법을 이해합니다. 이메일의 구조를 처음부터 만들고 디자인하는 방법, 이메일을 개인화하고 테스트하는 방법에 대해 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

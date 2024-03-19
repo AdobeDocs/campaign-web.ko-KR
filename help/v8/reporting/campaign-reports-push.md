@@ -3,10 +3,10 @@ audience: end-user
 title: 푸시 채널에 대한 캠페인 보고서
 description: 푸시 채널에 대한 캠페인 보고서 이해
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 18%
+source-wordcount: '507'
+ht-degree: 19%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 18%
 
 +++푸시 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
-* **[!UICONTROL 총 전송됨]**: 게재를 준비하는 동안 처리된 총 메시지 수입니다.
+* **[!UICONTROL 게재할 메시지]**: 게재를 준비하는 동안 처리된 총 메시지 수입니다.
 
 * **[!UICONTROL 전달됨]**: 성공적으로 전송된 메시지 수와 총 전송된 메시지 수
 
@@ -71,7 +71,6 @@ ht-degree: 18%
 다음 **[!UICONTROL 실행 통계]** 게재의 성공 여부를 표로 자세히 설명합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
 ![](assets/campaign-reporting-push-exec.png){zoomable=&quot;yes&quot;}
-
 
 +++푸시 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 

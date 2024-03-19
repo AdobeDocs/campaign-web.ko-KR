@@ -3,9 +3,9 @@ audience: end-user
 title: 글로벌 보고서 시작
 description: 글로벌 보고서 이해
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: 35e63ac1ab4be1e24a0477c4dbb3370726d8392e
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '281'
 ht-degree: 32%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 32%
 * [이메일 글로벌 보고서](global-report-email.md)
 * [SMS 글로벌 보고서](global-report-sms.md)
 * [글로벌 보고서 푸시](global-report-push.md)
+* [DM 글로벌 보고서](global-report-direct.md)
 
 ## 보고서 대시보드 관리 {#manage-reports}
 

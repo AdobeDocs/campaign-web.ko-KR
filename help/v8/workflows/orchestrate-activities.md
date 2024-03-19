@@ -3,10 +3,10 @@ audience: end-user
 title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 빌드하는 방법 알아보기
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 4%
+source-wordcount: '699'
+ht-degree: 5%
 
 ---
 
@@ -45,6 +45,10 @@ ht-degree: 4%
 * **일시 중지/다시 시작** 활동. 워크플로우가 실행되면 일시 중지된 활동에서 일시 중지됩니다. 동일한 경로에서 해당 작업을 따르는 모든 작업은 실행되지 않습니다.
 
 ![](assets/activity-action.png){zoomable=&quot;yes&quot;}{width="50%"}
+
+여러 개 **타겟팅** 다음과 같은 활동 **결합** 또는 **중복 제거**&#x200B;을(를) 사용하면 나머지 모집단을 처리하고 추가 아웃바운드 전환에 포함할 수 있습니다. 예를 들어 **분할** 활동, 보체는 이전에 정의된 하위 집합 중 어느 것과도 일치하지 않는 모집단으로 구성됩니다. 이 기능을 사용하려면 를 활성화합니다. **보조 항목 생성** 옵션을 선택합니다.
+
+![](assets/workflow-split-complement.png)
 
 ## 예제 {#example}
 

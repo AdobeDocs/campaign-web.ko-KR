@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 97%
+source-wordcount: '632'
+ht-degree: 93%
 
 ---
 
@@ -16,8 +16,10 @@ ht-degree: 97%
 # Adobe Campaign Web 설명서 {#v8}
 
 + [Adobe Campaign Web 사용자 인터페이스 설명서](campaign-web-home.md)
-+ [새로운 기능](rn/whats-new.md)
-+ [설명서 업데이트](rn/documentation-updates.md)
++ 릴리스 정보 {#release-notes}
+   + [새로운 기능](rn/whats-new.md)
+   + [최신 릴리스](rn/release-notes.md)
+   + [설명서 업데이트](rn/documentation-updates.md)
 + Adobe Campaign 시작하기 {#start}
    + [시작](get-started/get-started.md)
    + [Campaign에 연결](get-started/connect-to-campaign.md)
@@ -73,6 +75,11 @@ ht-degree: 97%
       + [SMS 게재 만들기](sms/create-sms.md)
       + [SMS 게재 디자인](sms/content-sms.md)
       + [SMS 게재 미리보기 및 전송](sms/send-sms.md)
+   + DM {#direct-mail}
+      + [DM 게재 시작](direct-mail/gs-direct-mail.md)
+      + [DM 게재 만들기](direct-mail/create-direct-mail.md)
+      + [추출 파일 디자인](direct-mail/content-direct-mail.md)
+      + [DM 게재 미리 보기 및 보내기](direct-mail/send-direct-mail.md)
    + 다이내믹 콘텐츠 만들기 {#dynamic-content}
       + [다이내믹 콘텐츠 시작](personalization/gs-personalization.md)
       + [개인화 추가](personalization/personalize.md)
@@ -129,6 +136,7 @@ ht-degree: 97%
       + [워크플로 활동 정보](workflows/activities/about-activities.md)
       + [AND-가입](workflows/activities/and-join.md)
       + [대상자 빌드](workflows/activities/build-audience.md)
+      + [데이터 소스 변경](workflows/activities/change-data-source.md)
       + [차원 변경](workflows/activities/change-dimension.md)
       + [결합](workflows/activities/combine.md)
       + [중복 제거](workflows/activities/deduplication.md)
@@ -156,16 +164,19 @@ ht-degree: 97%
       + [이메일 게재 보고서](reporting/email-report.md)
       + [게재 보고서 푸시](reporting/push-report.md)
       + [SMS 게재 보고서](reporting/sms-report.md)
+      + [DM 게재 보고서](reporting/direct-mail.md)
    + 캠페인 보고서 {#campaign-report}
       + [캠페인 보고서 시작하기](reporting/campaign-reports.md)
       + [이메일 캠페인 보고서](reporting/campaign-reports-email.md)
       + [푸시 캠페인 보고서](reporting/campaign-reports-push.md)
       + [SMS 캠페인 보고서](reporting/campaign-reports-sms.md)
+      + [다이렉트 메일 캠페인 보고서](reporting/campaign-reports-direct-mail.md)
    + 글로벌 보고서 {#global-report}
       + [글로벌 보고서 시작](reporting/global-reports.md)
       + [이메일 글로벌 보고서](reporting/global-report-email.md)
       + [푸시 글로벌 보고서](reporting/global-report-push.md)
       + [SMS 글로벌 보고서](reporting/global-report-sms.md)
+      + [DM 글로벌 보고서](reporting/global-report-direct.md)
 + 통합 {#integrations}
    + [다른 Adobe 솔루션 사용](integrations/integration.md)
    + [Adobe Experience Manager Assets as a Cloud Service로 자산 관리](integrations/aem-assets.md)

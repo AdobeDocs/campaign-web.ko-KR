@@ -3,10 +3,10 @@ audience: end-user
 title: 이메일 콘텐츠 가져오기
 description: 이메일 콘텐츠를 가져오는 방법 알아보기
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 47%
+source-wordcount: '278'
+ht-degree: 40%
 
 ---
 
@@ -26,7 +26,9 @@ ht-degree: 47%
   >
   >.zip 파일 구조에는 제한 사항이 없습니다. 그러나 참조는 상대적이어야 하며 .zip 폴더의 트리 구조 내에 맞춰져야 합니다.
 
-HTML 콘텐츠가 포함된 파일을 가져오려면 다음 단계를 따르십시오.
+➡️ [비디오에서 이 기능 살펴보기](#video)
+
+HTML 콘텐츠가 포함된 파일을 가져오려면 아래 단계를 따르십시오.
 
 1. 다음에서 [이메일 디자이너](get-started-email-designer.md) 홈 페이지, 선택 **[!UICONTROL 가져오기 HTML]**.
 
@@ -50,3 +52,8 @@ HTML 콘텐츠가 포함된 파일을 가져오려면 다음 단계를 따르십
 
 1. 이제 이메일 디자이너 기능을 사용하여 필요에 따라 가져온 파일을 개인화할 수 있습니다 [자세히 알아보기](content-components.md).
 
+## 사용법 비디오 {#video}
+
+HTML을 업로드하여 이메일을 만드는 방법, 이메일 디자이너와 호환되도록 하는 방법 및 템플릿으로 변환하는 방법에 대해 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

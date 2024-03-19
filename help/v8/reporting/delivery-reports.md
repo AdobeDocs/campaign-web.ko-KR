@@ -3,10 +3,10 @@ audience: end-user
 title: 게재 보고서
 description: 게재 보고서 액세스 및 사용 방법 알아보기
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 42%
+source-wordcount: '272'
+ht-degree: 45%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 42%
 * [이메일 게재 보고서](email-report.md)
 * [SMS 게재 보고서](sms-report.md)
 * [푸시 게재 보고서](push-report.md)
+* [DM 게재 보고서](direct-mail.md)
 
 ## 보고서 대시보드 관리 {#manage-reports}
 

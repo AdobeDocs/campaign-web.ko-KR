@@ -3,9 +3,9 @@ audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: decdf1619f4d5c3e5514544144086f82df6b7b21
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '2053'
+source-wordcount: '2088'
 ht-degree: 9%
 
 ---
@@ -16,15 +16,17 @@ ht-degree: 9%
 
 다음 두 가지 유형의 요소를 추가할 수 있습니다.
 
-* **구성 요소 필터링** (사용자 지정 조건, 대상 선택, 사전 정의된 필터)를 사용하면 자체 규칙을 작성하고, 대상 또는 사전 정의된 필터를 선택하여 쿼리를 구체화할 수 있습니다. [필터링 구성 요소로 작업하는 방법 알아보기](#filtering)
+* **구성 요소 필터링** (사용자 지정 조건, 대상 선택, 사전 정의된 필터)를 사용하면 자체 규칙을 작성하고, 대상 또는 사전 정의된 필터를 선택하여 쿼리를 구체화할 수 있습니다. 쿼리의 시작과 점선 전환에 추가됩니다. [필터링 구성 요소로 작업하는 방법 알아보기](#filtering)
 
-  *&#39;Sports&#39; 뉴스레터를 구독한 수신자*. *뉴욕에 사는 수신자*, *샌프란시스코에 사는 수신자*
+  예: *&#39;Sports&#39; 뉴스레터를 구독한 수신자*. *뉴욕에 사는 수신자*, *샌프란시스코에 사는 수신자*
 
-* **그룹 연산자** (AND, OR, EXCEPT)를 사용하면 필요에 따라 다이어그램에서 필터링 구성 요소를 함께 그룹화할 수 있습니다. [운영자를 사용한 작업 방법 알아보기](#filtering)
+  ![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
 
-  *&quot;스포츠&quot; 뉴스레터를 구독한 수신자&#x200B;**및**뉴욕에 사는 사람&#x200B;**또는**샌프란시스코*.
+* **그룹 연산자** (AND, OR, EXCEPT)를 사용하면 다이어그램에서 필터링 구성 요소를 함께 그룹화할 수 있습니다. 필터링 구성 요소 전의 기존 전환에 추가됩니다. [운영자를 사용한 작업 방법 알아보기](#filtering)
 
-![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
+  예: *&quot;스포츠&quot; 뉴스레터를 구독한 수신자&#x200B;**및**뉴욕에 사는 사람&#x200B;**또는**샌프란시스코*.
+
+  ![](assets/query-add-operator.png){zoomable=&quot;yes&quot;}
 
 ## 필터링 구성 요소 추가 {#filtering}
 
@@ -51,7 +53,7 @@ ht-degree: 9%
 
    >[!NOTE]
    >
-   >표현식 편집 단추를 사용하면 Campaign 웹 표현식 편집기를 활용하여 데이터베이스 및 도우미 함수의 필드를 사용하여 표현식을 수동으로 정의할 수 있습니다. [표현식 편집 방법 알아보기](expression-editor.md)
+   >다음 **표현식 편집** 단추를 사용하면 Campaign 웹 표현식 편집기를 활용하여 데이터베이스 및 도우미 함수의 필드를 사용하여 표현식을 수동으로 정의할 수 있습니다. [표현식 편집 방법 알아보기](expression-editor.md)
 
 1. 드롭다운 목록에서 적용할 연산자를 선택합니다. 다양한 연산자를 사용할 수 있습니다. 드롭다운 목록에서 사용할 수 있는 연산자는 속성의 데이터 유형에 따라 다릅니다.
 
@@ -83,6 +85,10 @@ ht-degree: 9%
    *쿼리 예제가 21세 이상의 모든 프로필을 반환합니다.*
 
    ![](assets/query-custom-condition.png){zoomable=&quot;yes&quot;}
+
+   날짜 유형 속성의 경우 다음을 사용하여 사전 정의된 값을 사용할 수 있습니다 **[!UICONTROL 사전 설정]** 옵션을 선택합니다.
+
+   ![](assets/date-presets.png){zoomable=&quot;yes&quot;}
 
 #### 연결된 테이블에 대한 사용자 지정 조건(1-1 및 1-N 링크){#links}
 
@@ -211,7 +217,7 @@ ht-degree: 9%
 
 쿼리에 새 필터링 구성 요소를 추가할 때마다 는 다음을 통해 다른 구성 요소에 자동으로 연결됩니다. **및** 연산자. 즉, 두 필터링 구성 요소의 결과가 결합됩니다.
 
-이 예제에서는 두 번째 전환에 새로운 대상자 유형 필터링 구성 요소를 추가했습니다. 구성 요소는 다음을 사용하여 사전 정의된 필터 유형 조건에 연결됩니다. **및** 연산자 - 쿼리 결과에 &quot;Madridians&quot; 사전 정의된 필터 AND가 타겟팅한 수신자가 포함됨을 의미하며 &quot;Discount hunters&quot; 대상에 속합니다.
+이 예제에서는 두 번째 전환에 새로운 대상자 유형 필터링 구성 요소를 추가했습니다. 구성 요소는 을 사용하여 사전 정의된 필터 조건에 연결됩니다. **및** 연산자 - 쿼리 결과에 &quot;Madridians&quot; 사전 정의된 필터 AND가 타겟팅한 수신자가 포함됨을 의미합니다. &quot;Discount hunters&quot; 대상에 속합니다.
 
 ![](assets/query-operator.png){zoomable=&quot;yes&quot;}
 

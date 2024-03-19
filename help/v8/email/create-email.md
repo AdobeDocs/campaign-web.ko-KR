@@ -3,9 +3,9 @@ audience: end-user
 title: 첫 이메일 보내기
 description: Campaign 웹 사용자 인터페이스를 사용하여 첫 번째 이메일을 보내는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1386'
 ht-degree: 57%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 57%
 첫 번째 타겟팅된 이메일을 작성하는 방법에 대해 알아봅니다. 이 사용 사례에서는 특정 일자에 실버 및 골드 충성도 회원에게 이메일을 전송하도록 예약합니다.
 
 사전 정의된 항목 기반 [디자인 템플릿](../email/create-email-templates.md), 이메일에는 고객 프로필 속성에 따라 개인화된 콘텐츠도 포함되어 있습니다.
+
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 ## 이메일 게재 만들기 {#create-email}
 
@@ -211,3 +213,9 @@ ht-degree: 57%
 1. 이메일이 전송된 다음에는 **[!UICONTROL 보고]** 버튼을 클릭하여 추가 분석을 위해 전용 보고서에 액세스할 수 있습니다.
 
 ![](assets/reports.png){zoomable=&quot;yes&quot;}
+
+## 사용법 비디오 {#video}
+
+이메일 게재를 처음부터 새로 만들고, 대상자를 정의하고, 콘텐츠를 디자인하고, 미리 보기를 시뮬레이션하고, 증명을 보내는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

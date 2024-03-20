@@ -6,7 +6,7 @@ exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: da861a0777a316e210b229d823e3f15b5a13ab2f
 workflow-type: tm+mt
 source-wordcount: '1265'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -66,7 +66,7 @@ Adobe Campaign에서는 이메일, SMS, 푸시 알림 등 크로스 채널 캠�
 
 * 이메일, SMS 및 푸시 알림 생성, 디자인, 개인화, 예약 및 전송 - [자세히 알아보기](../msg/gs-messages.md)
 * 이메일 디자이너로 개인화된 이메일 콘텐츠 디자인 - [자세히 알아보기](../email/edit-content.md)
-* SMS 및 푸시 알림을 포함한 크로스 채널 캠페인 보내기 - [자세히 알아보기](../workflows/activities/channels.md)
+* SMS 및 푸시 알림을 포함하여 크로스 채널 캠페인 보내기 - [자세히 알아보기](../workflows/activities/channels.md)
 * 쿼리 모델러로 타겟 대상자 정의 - [자세히 알아보기](../audience/about-recipients.md)
 * 메시지 미리보기, 테스트 및 전송 - [자세히 알아보기](../monitor/prepare-send.md)
 * 내장된 보고서로 전송 및 측정 결과 모니터링 - [자세히 알아보기](../reporting/delivery-reports.md)

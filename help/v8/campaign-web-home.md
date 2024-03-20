@@ -6,7 +6,7 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
 workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 71%
+ht-degree: 78%
 
 ---
 
@@ -93,7 +93,7 @@ Adobe Campaign Web User Interface 24.3 릴리스의 새로운 기능과 향상�
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>콘텐츠를 동적으로 만들기</strong><br/>프로필에 대해 수집한 정보를 기반으로 콘텐츠를 사용자 정의하여 콘텐츠의 매력을 높이고 읽기 가능성을 높이는 방법에 대해 알아봅니다.</div>
+    <div><strong>다이내믹해진 콘텐츠</strong><br/>프로필에 대해 수집한 정보를 기반으로 콘텐츠를 사용자 정의하여 콘텐츠를 보다 매력적으로 만들고 수신자가 읽을 가능성을 높이는 방법을 알아봅니다.</div>
     </td>
   </tr>
   <tr style="border: 0;">

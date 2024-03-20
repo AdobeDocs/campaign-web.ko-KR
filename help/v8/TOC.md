@@ -8,7 +8,7 @@ breadcrumb-title: Campaign Web 사용자 인터페이스
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -178,7 +178,7 @@ ht-degree: 93%
       + [SMS 글로벌 보고서](reporting/global-report-sms.md)
       + [DM 글로벌 보고서](reporting/global-report-direct.md)
 + 통합 {#integrations}
-   + [다른 Adobe 솔루션 사용](integrations/integration.md)
+   + [다른 Adobe 솔루션 사용 작업](integrations/integration.md)
    + [Adobe Experience Manager Assets as a Cloud Service로 자산 관리](integrations/aem-assets.md)
-   + [Adobe Experience Manager as a Cloud Service을 사용하여 템플릿 관리](integrations/aem-content.md)
+   + [Adobe Experience Manager as a Cloud Service로 템플릿 관리](integrations/aem-content.md)
 

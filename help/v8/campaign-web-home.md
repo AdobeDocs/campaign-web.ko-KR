@@ -3,10 +3,10 @@ keywords: Campaign Web;홈;인기 있는 주제
 description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: b1bf540f3622c11752d29aa52dad62903a6cc197
+source-git-commit: 63fc6fd1b3f12c97fbe9e2c83a0044878e3e5c38
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 70%
+source-wordcount: '503'
+ht-degree: 71%
 
 ---
 
@@ -51,6 +51,12 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 
 >[!BEGINTABS]
 
+>[!TAB 3월 릴리스가 시작되었습니다.]
+
+Adobe Campaign Web User Interface 24.3 릴리스의 새로운 기능과 향상된 기능을 살펴보십시오.
+
+[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+
 >[!TAB 다이렉트 메일 채널]
 
 **다이렉트 메일** 이제 채널은 워크플로우에서 독립 실행형 게재로 사용할 수 있습니다. DM은 추출 파일을 만들고, 개인화하고, 생성하고, DM 공급자와 공유하여 고객에게 메일을 보낼 수 있는 오프라인 채널입니다.
@@ -58,12 +64,6 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 ![이미지](assets/do-not-localize/direct-mail.gif)
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
-
->[!TAB 이메일 디자이너의 쿼리 모델러]
-
-이제 쿼리 모델러를 이메일 디자이너에서 사용할 수 있습니다. 조건부 콘텐츠를 만들 때 조건을 작성할 수 있도록 해 줍니다.
-
-[![이미지](assets/do-not-localize/learn-more-button.svg)](personalization/conditions.md)
 
 >[!TAB 새로운 데이터 소스 변경 워크플로우 활동]
 

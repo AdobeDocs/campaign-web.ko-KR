@@ -3,9 +3,9 @@ keywords: Campaign Web;홈;인기 있는 주제
 description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 63fc6fd1b3f12c97fbe9e2c83a0044878e3e5c38
+source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '502'
 ht-degree: 71%
 
 ---
@@ -55,7 +55,7 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 
 Adobe Campaign Web User Interface 24.3 릴리스의 새로운 기능과 향상된 기능을 살펴보십시오.
 
-[![자세히 알아보기](using/assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+[![이미지](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
 >[!TAB 다이렉트 메일 채널]
 

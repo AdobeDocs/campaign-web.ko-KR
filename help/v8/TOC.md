@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 464898f69be64a99ac1729c486ada95d2ea872a4
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 95%
+source-wordcount: '634'
+ht-degree: 94%
 
 ---
 
@@ -140,7 +140,7 @@ ht-degree: 95%
       + [차원 변경](workflows/activities/change-dimension.md)
       + [결합](workflows/activities/combine.md)
       + [중복 제거](workflows/activities/deduplication.md)
-      + [이메일, SMS, 푸시](workflows/activities/channels.md)
+      + [이메일, SMS, 푸시, DM](workflows/activities/channels.md)
       + [보강](workflows/activities/enrichment.md)
       + [포크](workflows/activities/fork.md)
       + [파일 로드](workflows/activities/load-file.md)

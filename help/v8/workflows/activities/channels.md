@@ -3,7 +3,7 @@ audience: end-user
 title: 게재 워크플로 활동 사용
 description: 게재 워크플로우 활동(이메일, 푸시, SMS, DM)을 추가하는 방법을 알아봅니다
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 6df7a483ea178abade4bb15256dbd120d556085e
+source-git-commit: 298b1e17e70eae7da98fd5ac60fbcad32ce5c44f
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 51%

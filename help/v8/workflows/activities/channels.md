@@ -1,20 +1,20 @@
 ---
 audience: end-user
 title: 게재 워크플로 활동 사용
-description: 게재 워크플로 활동(이메일, 푸시, SMS)을 추가하는 방법에 대해 알아봅니다.
+description: 게재 워크플로우 활동(이메일, 푸시, SMS, DM)을 추가하는 방법을 알아봅니다
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 6df7a483ea178abade4bb15256dbd120d556085e
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 59%
+source-wordcount: '971'
+ht-degree: 51%
 
 ---
 
-# 이메일, SMS, 푸시 활동 {#channel}
+# 이메일, SMS, 푸시, DM 활동 {#channel}
 
-Adobe Campaign Web을 사용하여 이메일, SMS 또는 푸시 채널에서 마케팅 캠페인을 자동화하고 실행할 수 있습니다. 채널 활동을 워크플로 캔버스에 결합하여 고객 행동 및 데이터에 따라 작업을 트리거할 수 있는 크로스 채널 워크플로를 만들 수 있습니다.
+Adobe Campaign 웹을 사용하면 이메일, SMS, DM 및 푸시 채널에서 마케팅 캠페인을 자동화하고 실행할 수 있습니다. 채널 활동을 워크플로 캔버스에 결합하여 고객 행동 및 데이터에 따라 작업을 트리거할 수 있는 크로스 채널 워크플로를 만들 수 있습니다.
 
-예를 들어 이메일, SMS 및 푸시 등 여러 채널에서 일련의 메시지를 포함하는 시작 이메일 캠페인을 만들 수 있습니다. 고객이 구매를 완료하면 후속 이메일을 보내거나, SMS를 통해 고객에게 맞춤형 생일 메시지를 보낼 수도 있습니다.
+예를 들어 이메일, SMS, 푸시 및 DM과 같은 다양한 채널에 걸친 일련의 메시지를 포함하는 환영 이메일 캠페인을 만들 수 있습니다. 고객이 구매를 완료하면 후속 이메일을 보내거나, SMS를 통해 고객에게 맞춤형 생일 메시지를 보낼 수도 있습니다.
 
 채널 활동을 사용하여 여러 터치포인트에서 고객을 참여시키고 전환을 유도하는 포괄적인 맞춤형 캠페인을 만들 수 있습니다.
 
@@ -24,6 +24,7 @@ Adobe Campaign Web을 사용하여 이메일, SMS 또는 푸시 채널에서 마
 >* [독립 실행형 이메일 게재 만들기](../../email/create-email.md)
 >* [독립 실행형 SMS 게재 만들기](../../sms/create-sms.md)
 >* [독립 실행형 푸시 게재 만들기](../../push/create-push.md)
+>* [독립 실행형 DM 게재 만들기](../../direct-mail/create-direct-mail.md)
 
 ## 필수 구성 요소 {#channel-activity-prereq}
 
@@ -39,10 +40,7 @@ Adobe Campaign Web을 사용하여 이메일, SMS 또는 푸시 채널에서 마
 
      ![](../assets/workflow-reconciliation-criteria.png)
 
-
-
 * 반복 게재를 보내려면 **스케줄러** 활동. 다음을 사용할 수도 있습니다. **스케줄러** 일회성 단일 게재의 활동 을 사용하여 해당 게재의 연락 날짜를 설정합니다. 연락 날짜는 게재 설정에서 설정할 수도 있습니다. [이 섹션](scheduler.md)을 참조하십시오.
-
 
 ## 채널 활동 구성 {#create-a-delivery-in-a-workflow}
 
@@ -66,9 +64,14 @@ Adobe Campaign Web을 사용하여 이메일, SMS 또는 푸시 채널에서 마
 >title="푸시 Android 활동"
 >abstract="푸시 Android 활동은 워크플로의 일부로 Android 푸시 알림을 전송하는 프로세스를 간소화합니다. 일회성 메시지와 반복 메시지 모두를 게재할 수 있으며 동일한 워크플로 내에서 사전 정의된 대상으로 Android 푸시 알림을 전송하는 프로세스를 자동화합니다. 채널 활동을 워크플로 캔버스에 결합하여 고객 행동 및 데이터에 따라 작업을 트리거할 수 있는 크로스 채널 워크플로를 만들 수 있습니다."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_directmail"
+>title="DM 활동"
+>abstract="DM 활동은 워크플로우 내에서 DM 전송을 용이하게 하여 일회성 메시지와 반복 메시지를 모두 허용합니다. DM 공급자가 요구하는 추출 파일 생성 프로세스를 자동화하는 역할을 한다. 채널 활동을 워크플로 캔버스에 결합하여 고객 행동 및 데이터에 따라 작업을 트리거할 수 있는 크로스 채널 워크플로를 만들 수 있습니다."
+
 워크플로우 컨텍스트에서 게재를 설정하려면 아래 단계를 따르십시오.
 
-1. 채널 활동 추가: **[!UICONTROL 이메일]**, **[!UICONTROL SMS]**, **[!UICONTROL 푸시 알림(Android)]** 또는 **[!UICONTROL 푸시 알림(iOS)]**.
+1. 채널 활동 추가: **[!UICONTROL 이메일]**, **[!UICONTROL SMS]**, **[!UICONTROL 푸시 알림(Android)]**, **[!UICONTROL 푸시 알림(iOS)]** 또는 **[!UICONTROL 다이렉트 메일]**.
 
 1. 다음 항목 선택 **게재 유형**: 단일 또는 반복.
 

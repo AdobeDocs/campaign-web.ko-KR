@@ -1,10 +1,10 @@
 ---
 title: 최신 릴리스 정보
 description: Campaign Web 사용자 인터페이스에서 제공하는 새로운 기능 살펴보기
-source-git-commit: 5b0e59e8bb7e4a8ee3ce648c4af7dd9e41be7a81
+source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 85%
+source-wordcount: '342'
+ht-degree: 99%
 
 ---
 
@@ -26,19 +26,6 @@ Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대�
 >이 버전은 [Campaign (콘솔) v8.6 릴리스](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ko)를 시작하는 모든 사용자가 사용할 수 있습니다. [Campaign v8 (콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=ko){target="_blank"}에서 Adobe Campaign 클라이언트 콘솔 릴리스 및 업그레이드에 대해 자세히 알아보십시오.
 
 ## 3월 릴리스 정보 {#24-3-release}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="DM"
->abstract="이제 워크플로우 및 독립 실행형 게재에서 DM 채널을 사용할 수 있습니다. DM 오프라인 채널을 사용하여 추출 파일을 만들고, 개인화하고, 생성한 다음 DM 공급자와 공유하여 고객에게 메일을 보낼 수 있습니다."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="릴리스 정보 참조"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="데이터 소스 변경"
->abstract="새로운 데이터 소스 변경 워크플로우 타깃팅 활동을 사용하여 워크플로우의 작업 테이블에서 사용되는 데이터 소스를 변경합니다. 이 활동을 통해 다양한 데이터베이스에서 데이터를 관리하고 성능을 향상할 수 있어 유연성이 향상됩니다."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="릴리스 정보 참조"
-
 
 **릴리스 일자**: 2024년 3월 19~20일
 

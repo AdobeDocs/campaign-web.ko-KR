@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: 464898f69be64a99ac1729c486ada95d2ea872a4
+source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '635'
 ht-degree: 94%
 
 ---
@@ -50,11 +50,6 @@ ht-degree: 94%
             + [미러 페이지에 대한 링크 추가](email/mirror-page.md)
             + [프리 헤더 추가](email/preheader.md)
             + [텍스트 버전 생성](email/text-version-email.md)
-         + 콘텐츠 지원 {#content-assistant}
-            + [콘텐츠 지원 시작하기](email/generative-gs.md)
-            + [콘텐츠 지원을 사용하여 텍스트 생성](email/generative-content.md)
-            + [콘텐츠 지원을 사용하여 이미지 생성](email/generative-image.md)
-            + [콘텐츠 지원을 사용하여 이메일 생성](email/generative-email.md)
          + 콘텐츠 스타일 지정 {#style}
             + [이메일 스타일 시작하기](email/get-started-email-style.md)
             + [배경 설정 편집](email/backgrounds.md)
@@ -76,10 +71,15 @@ ht-degree: 94%
       + [SMS 게재 디자인](sms/content-sms.md)
       + [SMS 게재 미리보기 및 전송](sms/send-sms.md)
    + DM {#direct-mail}
-      + [DM 게재 시작](direct-mail/gs-direct-mail.md)
+      + [다이렉트 메일 게재 시작하기](direct-mail/gs-direct-mail.md)
       + [DM 게재 만들기](direct-mail/create-direct-mail.md)
-      + [추출 파일 디자인](direct-mail/content-direct-mail.md)
-      + [DM 게재 미리 보기 및 보내기](direct-mail/send-direct-mail.md)
+      + [추출 파일 설계](direct-mail/content-direct-mail.md)
+      + [다이렉트 메일 게재 미리보기 및 전송](direct-mail/send-direct-mail.md)
+   + AI Assistant {#ai-assistant}
+      + [AI Assistant 시작](email/generative-gs.md)
+      + [AI Assistant를 사용하여 이메일 생성](email/generative-content.md)
+      + [AI Assistant를 사용하여 SMS 생성](email/generative-sms.md)
+      + [AI Assistant를 사용하여 푸시 알림 생성](email/generative-push.md)
    + 다이내믹 콘텐츠 만들기 {#dynamic-content}
       + [다이내믹 콘텐츠 시작](personalization/gs-personalization.md)
       + [개인화 추가](personalization/personalize.md)
@@ -126,12 +126,12 @@ ht-degree: 94%
    + [워크플로 시작](workflows/gs-workflows.md)
    + [보호 기능 및 제한 사항](get-started/guardrails.md)
    + [워크플로 액세스 및 관리](workflows/access-monitor.md)
-   + 첫 워크플로우 만들고 실행하기 {#create-workflow}
-      + [워크플로우를 만드는 핵심 원칙](workflows/gs-workflow-creation.md)
+   + 첫 워크플로 만들고 실행하기 {#create-workflow}
+      + [워크플로를 만드는 핵심 원칙](workflows/gs-workflow-creation.md)
       + [워크플로 만들기](workflows/create-workflow.md)
       + [활동 조율](workflows/orchestrate-activities.md)
       + [워크플로 설정 구성](workflows/workflow-settings.md)
-      + [워크플로우 시작 및 모니터링](workflows/start-monitor-workflows.md)
+      + [워크플로 시작 및 모니터링](workflows/start-monitor-workflows.md)
    + 워크플로 활동을 사용하여 작업 {#design-workflows}
       + [워크플로 활동 정보](workflows/activities/about-activities.md)
       + [AND-가입](workflows/activities/and-join.md)
@@ -164,7 +164,7 @@ ht-degree: 94%
       + [이메일 게재 보고서](reporting/email-report.md)
       + [게재 보고서 푸시](reporting/push-report.md)
       + [SMS 게재 보고서](reporting/sms-report.md)
-      + [DM 게재 보고서](reporting/direct-mail.md)
+      + [다이렉트 메일 게재 보고서](reporting/direct-mail.md)
    + 캠페인 보고서 {#campaign-report}
       + [캠페인 보고서 시작하기](reporting/campaign-reports.md)
       + [이메일 캠페인 보고서](reporting/campaign-reports-email.md)
@@ -176,7 +176,7 @@ ht-degree: 94%
       + [이메일 글로벌 보고서](reporting/global-report-email.md)
       + [푸시 글로벌 보고서](reporting/global-report-push.md)
       + [SMS 글로벌 보고서](reporting/global-report-sms.md)
-      + [DM 글로벌 보고서](reporting/global-report-direct.md)
+      + [다이렉트 메일 글로벌 보고서](reporting/global-report-direct.md)
 + 통합 {#integrations}
    + [다른 Adobe 솔루션 사용 작업](integrations/integration.md)
    + [Adobe Experience Manager Assets as a Cloud Service로 자산 관리](integrations/aem-assets.md)

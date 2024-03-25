@@ -1,28 +1,28 @@
 ---
 audience: end-user
-title: 콘텐츠 지원을 사용하여 이메일 생성
-description: Content Assistant 시작
+title: Campaign에서 AI Assistant를 사용하여 이메일 생성
+description: Campaign에서 AI Assistant 시작
 badge: label="Alpha"
 exl-id: f6c9c940-ae85-44e6-a23e-9133df87e67e
 hide: true
 hidefromtoc: true
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 3%
+source-wordcount: '469'
+ht-degree: 4%
 
 ---
 
-# 콘텐츠 도우미를 사용하여 이메일 생성 {#generative-email}
+# AI Assistant를 사용하여 이메일 생성 {#generative-email}
 
-Content Assistant는 전체 이메일 콘텐츠를 자동으로 생성하여 시간을 절약하고 품질을 일관되게 유지함으로써 커뮤니케이션의 영향을 강화합니다. 생성형 AI를 사용하면 대상자와 공감하는 매력적인 이메일을 손쉽게 제작하여 커뮤니케이션을 보다 효과적이고 효율적으로 수행할 수 있습니다.
+Campaign의 AI Assistant는 전체 이메일 콘텐츠를 자동으로 생성하여 시간을 절약하고 일관된 품질을 보장함으로써 커뮤니케이션의 영향을 강화합니다. 생성형 AI를 사용하면 대상자와 공감하는 매력적인 이메일을 손쉽게 제작하여 커뮤니케이션을 보다 효과적이고 효율적으로 수행할 수 있습니다.
 
 >[!NOTE]
 >
 >이 기능의 사용을 시작하기 전에 관련 항목을 읽어 보십시오. [보호 및 제한 사항](generative-gs.md#guardrails-and-limitations).
 
 
-콘텐츠 도우미를 사용하여 이메일 콘텐츠를 생성하려면 아래 단계를 수행하십시오. 에 설명된 대로 콘텐츠 도우미를 사용하여 기존 콘텐츠를 개선할 수도 있습니다. [이 페이지](generative-content.md).
+AI Assistant를 사용하여 이메일 콘텐츠를 생성하려면 아래 단계를 수행합니다. 에 설명된 대로 AI 어시스턴트를 사용하여 기존 콘텐츠를 개선할 수도 있습니다. [이 페이지](generative-content.md).
 
 1. 이메일 게재를 만들고 구성한 후 **[!UICONTROL 콘텐츠 만들기]**.
 
@@ -30,7 +30,7 @@ Content Assistant는 전체 이메일 콘텐츠를 자동으로 생성하여 시
 
 1. 다음을 입력합니다. **[!UICONTROL 기본 세부 정보]** 게재를 위해. 완료되면 다음을 클릭합니다. **[!UICONTROL 이메일 본문 편집]**.
 
-1. 콘텐츠 도우미에서 생성된 이메일의 기반으로 사용할 디자인 템플릿을 선택합니다.
+1. 생성된 이메일의 기반으로 AI 비서가 사용할 디자인 템플릿을 선택합니다.
 
    HTML 파일을 가져올 수도 있습니다.
 
@@ -48,7 +48,7 @@ Content Assistant는 전체 이메일 콘텐츠를 자동으로 생성하여 시
 
    ![](assets/email-genai-2.png){zoomable=&quot;yes&quot;}
 
-1. 선택 **[!UICONTROL 파일 업로드]** 추가 컨텍스트를 제공할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가하려면 콘텐츠 도우미를 사용하십시오.
+1. 선택 **[!UICONTROL 파일 업로드]** 추가 컨텍스트를 제공할 수 있는 콘텐츠가 포함된 브랜드 에셋을 추가하려면 AI 어시스턴트를 사용하십시오.
 
    다음을 클릭할 수도 있습니다. **[!UICONTROL 업로드된 콘텐츠]** 를 클릭하여 이전에 업데이트한 파일을 찾습니다. 업로드된 콘텐츠는 현재 사용자만 재사용할 수 있습니다.
 

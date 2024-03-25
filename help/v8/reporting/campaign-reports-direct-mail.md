@@ -2,10 +2,11 @@
 audience: end-user
 title: DM 채널에 대한 캠페인 보고서
 description: DM 채널에 대한 캠페인 보고서 이해
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 9%
+ht-degree: 22%
 
 ---
 
@@ -20,9 +21,9 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_delivery_overview_direct_mail"
 >title="게재 개요"
->abstract="다음 **게재 개요** 에서는 방문자와 각 dm 게재의 상호 작용에 대한 심도 있는 통찰력을 제공하는 주요 성과 지표(KPI)를 보여 줍니다. 지표는 아래에 요약되어 있습니다."
+>abstract="**게재 개요**&#x200B;는 각 다이렉트 메일 게재와 방문자의 상호 작용에 대한 심층적인 인사이트를 제공하는 핵심 성과 지표(KPI)를 제시합니다. 지표는 아래에 설명되어 있습니다."
 
-다음 **[!UICONTROL 게재 개요]** 에서는 방문자와 각 DM 게재의 상호 작용에 대한 심도 있는 통찰력을 제공하는 주요 성과 지표(KPI)를 보여 줍니다. 지표는 아래에 요약되어 있습니다.
+다음 **[!UICONTROL 게재 개요]** 에서는 방문자와 각 DM 게재의 상호 작용에 대한 심도 있는 통찰력을 제공하는 주요 성과 지표(KPI)를 보여 줍니다. 지표는 아래에 설명되어 있습니다.
 
 ![](assets/direct-mail-campaign-overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
@@ -43,7 +44,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_target_audience_direct_mail"
 >title="초기 타깃 대상자 통계"
->abstract="수신자 데이터 및 메시지 정보가 **초기 타겟 대상 통계** 게재 준비 분석을 반영하는 표."
+>abstract="수신자 데이터 및 메시지 정보는 게재 준비 분석을 반영하여 **초기 타깃 대상자 통계** 테이블에 표시됩니다."
 
 다음 **[!UICONTROL 초기 타겟 대상 통계]** 테이블에는 수신자와 관련된 데이터가 표시됩니다. 지표는 게재를 준비하는 동안 계산되며 초기 대상자, 보낼 메시지 수, 제외된 수신자 수를 표시합니다.
 
@@ -64,7 +65,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_execution_statistics_direct_mail"
 >title="게재 통계"
->abstract="다음 **실행 통계** 표에서는 DM 게재의 성공 및 발생한 오류를 자세히 설명합니다."
+>abstract="**실행 통계** 테이블에는 다이렉트 메일 게재의 성공과 발생한 오류가 자세히 설명되어 있습니다."
 
 ![](assets/direct-mail-campaign-exec.png)
 

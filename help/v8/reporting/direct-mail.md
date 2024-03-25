@@ -2,14 +2,15 @@
 audience: end-user
 title: DM 보고서
 description: DM 보고서에 액세스하고 사용하는 방법을 알아봅니다
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '670'
-ht-degree: 11%
+ht-degree: 25%
 
 ---
 
-# DM 게재 보고서 {#direct-mail-report}
+# 다이렉트 메일 게재 보고서 {#direct-mail-report}
 
 다음 **DM 게재 보고서** 는 DM 게재와 관련된 포괄적인 통찰력과 데이터를 제공합니다. 개별 게재의 성과, 효율성 및 결과에 대해 자세한 정보와 함께 포괄적인 개요를 제공합니다.
 
@@ -20,9 +21,9 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_overview_direct_mail"
 >title="게재 개요"
->abstract="다음 **게재 개요** 에서는 방문자와 각 dm 게재의 상호 작용에 대한 심도 있는 통찰력을 제공하는 주요 성과 지표(KPI)를 보여 줍니다. 지표는 아래에 요약되어 있습니다."
+>abstract="**게재 개요**&#x200B;는 각 다이렉트 메일 게재와 방문자의 상호 작용에 대한 심층적인 인사이트를 제공하는 핵심 성과 지표(KPI)를 제시합니다. 지표는 아래에 설명되어 있습니다."
 
-다음 **[!UICONTROL 게재 개요]** 에서는 방문자가 각 dm 게재와 상호 작용하는 방법에 대한 자세한 통찰력을 제공하여 필수 KPI(주요 성과 지표)를 보여줍니다.  지표는 아래에 요약되어 있습니다.
+다음 **[!UICONTROL 게재 개요]** 에서는 방문자가 각 dm 게재와 상호 작용하는 방법에 대한 자세한 통찰력을 제공하여 필수 KPI(주요 성과 지표)를 보여줍니다.  지표는 아래에 설명되어 있습니다.
 
 ![](assets/direct-overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
@@ -64,7 +65,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary_direct_mail"
 >title="게재 통계"
->abstract="다음 **게재 통계** 그래프는 DM 게재의 성공 및 발생한 오류를 자세히 설명합니다."
+>abstract="**게재 통계** 그래프에는 다이렉트 메일 게재 성공과 발생한 오류가 자세히 표시됩니다."
 
 다음 **[!UICONTROL 게재 통계]** 그래프는 게재 성능에 대한 포괄적인 개요를 제공하며, 성공 및 효과를 측정하는 자세한 지표를 제공합니다.
 
@@ -87,7 +88,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_causes_exclusion_direct_mail"
 >title="제외 이유 게재"
->abstract="다음 **제외 이유** 그래프는 게재를 준비하는 동안 각 규칙으로 분류하여 거부된 메시지의 분포를 보여 줍니다."
+>abstract="**제외 원인** 그래프는 게재 준비 과정에서 거부된 메시지의 분포를 각 규칙별로 분류하여 보여 줍니다."
 
 다음 **[!UICONTROL 제외 이유]** 그래프는 게재를 준비하는 동안 메시지가 거부되는 이유에 대한 자세한 분류를 제공합니다. 이 분류는 다양한 규칙에 따라 구성되어 메시지 제외에 기여하는 요소를 종합적으로 볼 수 있습니다. 제외 규칙은 다음에 자세히 설명되어 있습니다. [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
@@ -116,7 +117,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusions_direct_mail"
 >title="제외"
->abstract="다음 **[!UICONTROL 제외]** 테이블에는 게재 준비 프로세스 중에 거부된 메시지의 자세한 분류가 규칙별로 표시됩니다."
+>abstract="**[!UICONTROL 제외]** 테이블에는 게재 준비 과정에서 거부된 메시지를 규칙별로 자세히 분석한 내용이 표시됩니다."
 
 다음 **[!UICONTROL 제외]** 표는 게재 준비 단계 동안 거부된 메시지에 대해 특정 규칙으로 분류한 심층적인 분류를 제공합니다. 이러한 포괄적인 분석을 통해 게재 프로세스에서 이러한 메시지를 제외하는 이유를 명확하게 이해할 수 있습니다.
 

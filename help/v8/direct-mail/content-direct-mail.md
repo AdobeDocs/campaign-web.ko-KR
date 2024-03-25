@@ -2,30 +2,30 @@
 audience: end-user
 title: DM 게재 디자인
 description: Adobe Campaign 웹을 사용하여 DM 게재를 디자인하는 방법을 알아봅니다
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 3%
+ht-degree: 22%
 
 ---
-
 
 # 추출 파일 설계 {#design-direct-mail}
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
 >title="추출 파일 콘텐츠"
->abstract="다음을 클릭합니다. **콘텐츠 편집** dm 공급자에 필요한 추출 파일 디자인을 시작하는 단추입니다. 이렇게 하면 레이블 및 형식과 같은 파일 속성을 정의하고 파일에 포함할 열을 지정할 수 있습니다."
+>abstract="**콘텐츠 편집** 버튼을 클릭하여 다이렉트 메일 제공업체에서 요구하는 추출 파일 설계를 시작합니다. 이를 통해 레이블 및 형식과 같은 파일 속성을 정의하고 파일에 포함할 열을 지정할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_file"
 >title="파일 속성"
->abstract="이름 및 형식 등 추출 파일의 속성을 구성합니다. 표현식 편집기를 사용하여 데이터베이스의 속성을 사용하여 파일 이름을 개인화할 수 있습니다."
+>abstract="이름, 형식 등 추출 파일의 속성을 구성합니다. 표현식 편집기를 사용하여 데이터베이스의 속성을 사용해 파일 이름을 개인화할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_content"
 >title="콘텐츠"
->abstract="이 섹션에서 추출 파일에 표시할 열을 지정합니다. 완료되면 다음을 사용하여 추출 파일의 미리보기를 가져올 수 있습니다. **콘텐츠 시뮬레이션** 단추를 클릭합니다."
+>abstract="이 섹션에서는 추출 파일에 표시할 열을 지정합니다. 완료하면 **콘텐츠 시뮬레이션** 버튼을 사용하여 추출 파일의 미리보기를 확인할 수 있습니다."
 
 DM 게재에서 생성된 추출 파일의 콘텐츠를 디자인하려면 **[!UICONTROL 콘텐츠 편집]** 게재 페이지에서 버튼을 클릭한 다음 파일 속성 및 콘텐츠를 구성합니다.
 

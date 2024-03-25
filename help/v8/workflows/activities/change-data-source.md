@@ -2,10 +2,11 @@
 audience: end-user
 title: 데이터 소스 변경 워크플로우 활동 사용
 description: 데이터 소스 변경 워크플로우 활동을 사용하는 방법을 알아봅니다
-source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
+exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 15%
+ht-degree: 21%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
 >title="데이터 소스 변경"
->abstract="다음 **데이터 소스 변경** 활동을 사용하면 워크플로우의 작업 표에 대해 다른 데이터 소스를 선택할 수 있습니다."
+>abstract="**데이터 소스 변경** 활동을 사용하면 워크플로의 작업 테이블에 대해 다른 데이터 소스를 선택할 수 있습니다."
 
 다음 **데이터 소스 변경** 활동은 입니다. **타겟팅** 활동. 이 활동을 사용하면 워크플로우의 작업 테이블에서 사용되는 데이터 소스를 변경할 수 있습니다. 이를 통해 다양한 데이터베이스에서 데이터를 관리하고 성능을 향상시킬 수 있으므로 보다 유연하게 작업할 수 있습니다.
 

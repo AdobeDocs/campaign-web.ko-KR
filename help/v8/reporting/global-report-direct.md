@@ -2,10 +2,11 @@
 audience: end-user
 title: DM 채널에 대한 전역 보고서
 description: DM 채널에 대한 글로벌 보고서에 대해 자세히 알아보기
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: a42536fe-375b-4169-8775-d47ed26692f8
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '627'
-ht-degree: 5%
+ht-degree: 33%
 
 ---
 
@@ -22,9 +23,9 @@ DM 글로벌 보고서는 채널 수준의 트래픽 및 참여 지표에 대한
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_delivery_overview_direct_mail"
 >title="게재 개요"
->abstract="다음 **게재 개요** 에서는 방문자와 각 dm 게재의 상호 작용에 대한 심도 있는 통찰력을 제공하는 주요 성과 지표(KPI)를 보여 줍니다. 지표는 아래에 요약되어 있습니다."
+>abstract="**게재 개요**&#x200B;는 각 다이렉트 메일 게재와 방문자의 상호 작용에 대한 심층적인 인사이트를 제공하는 핵심 성과 지표(KPI)를 제시합니다. 지표는 아래에 설명되어 있습니다."
 
-다음 **[!UICONTROL 게재 개요]** 에서는 방문자와 각 dm 게재의 상호 작용에 대한 심도 있는 통찰력을 제공하는 주요 성과 지표(KPI)를 보여 줍니다. 지표는 아래에 요약되어 있습니다.
+**[!UICONTROL 게재 개요]**&#x200B;는 각 다이렉트 메일 게재와 방문자의 상호 작용에 대한 심층적인 인사이트를 제공하는 핵심 성과 지표(KPI)를 제시합니다. 지표는 아래에 설명되어 있습니다.
 
 ![](assets/global_report_direct_mail_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
@@ -44,12 +45,12 @@ DM 글로벌 보고서는 채널 수준의 트래픽 및 참여 지표에 대한
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_direct_mail_graph"
 >title="타겟팅된 대상자"
->abstract="수신자 데이터 및 메시지 정보가 **타깃팅된 대상** 게재 준비 분석을 반영하는 그래프."
+>abstract="수신자 데이터와 메시지 정보는 게재 준비 분석을 반영하여 **타겟팅된 대상자** 그래프에 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_direct_mail_table"
 >title="타겟팅된 대상자"
->abstract="다음 **타깃팅된 대상** 표는 게재 준비 프로세스의 결과를 기반으로 수신자와 해당 메시지에 대한 세부 분류를 제공합니다."
+>abstract="**타겟팅된 대상자** 테이블은 게재 준비 프로세스의 결과에 따라 수신자와 해당 메시지에 대한 자세한 분석을 제공합니다."
 
 에 대한 테이블 및 그래프 **[!UICONTROL 타깃팅된 대상]** 아래에 제공된 세부 지표를 사용하여 수신자와 관련된 데이터를 표시합니다.
 
@@ -70,12 +71,12 @@ DM 글로벌 보고서는 채널 수준의 트래픽 및 참여 지표에 대한
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_delivery_statistics_summary_direct_mail_graph"
 >title="게재 통계"
->abstract="다음 **게재 통계** 그래프는 성공적인 게재 및 발생한 오류를 포함하여 DM 게재의 효과에 대한 통찰력을 제공합니다."
+>abstract="**게재 통계** 그래프는 성공적인 게재 및 발생한 오류를 포함하여 다이렉트 메일 전송의 효율성에 대한 인사이트를 제공합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_delivery_statistics_summary_direct_mail_table"
 >title="게재 통계"
->abstract="다음 **게재 통계** 표에서는 DM 게재의 성공 및 발생한 오류를 자세히 설명합니다."
+>abstract="**게재 통계** 테이블에는 다이렉트 메일 게재 성공과 발생한 오류가 자세히 표시됩니다."
 
 다음 **[!UICONTROL 게재 통계]** 그래프 및 표는 모든 DM 게재의 성공 사례를 아래에 요약된 세부 지표와 함께 제공합니다.
 
@@ -96,12 +97,12 @@ DM 글로벌 보고서는 채널 수준의 트래픽 및 참여 지표에 대한
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_exclusions_direct_mail_table"
 >title="제외"
->abstract="다음 **제외 이유** 테이블에는 게재 준비 프로세스 중에 거부된 메시지의 자세한 분류가 규칙별로 표시됩니다."
+>abstract="**제외 이유** 테이블에는 게재 준비 과정에서 거부된 메시지를 규칙별로 자세히 분석한 내용이 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_causes_exclusion_direct_mail_graph"
 >title="제외 이유 게재"
->abstract="다음 **제외 이유** 그래프는 게재를 준비하는 동안 각 규칙으로 분류하여 거부된 메시지의 분포를 보여 줍니다."
+>abstract="**제외 원인** 그래프는 게재 준비 과정에서 거부된 메시지의 분포를 각 규칙별로 분류하여 보여 줍니다."
 
 ![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
@@ -124,4 +125,3 @@ DM 글로벌 보고서는 채널 수준의 트래픽 및 참여 지표에 대한
 * **[!UICONTROL 크기가 제한된 대상]**: 수신자의 최대 게재 크기에 도달했습니다.
 
 +++
-

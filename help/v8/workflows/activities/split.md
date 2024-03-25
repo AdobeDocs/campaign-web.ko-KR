@@ -6,7 +6,7 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 81%
+ht-degree: 86%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
 >title="분할 활동 필터"
->abstract="필터링 조건을 하위 집합에 적용하려면 다음을 클릭하십시오. **[!UICONTROL 필터 만들기]** 쿼리 모델러를 사용하여 원하는 필터링 규칙을 구성합니다. 예를 들어 데이터베이스에 이메일 주소가 존재하는 수신 모집단의 프로필을 포함합니다."
+>abstract="하위 집합에 필터링 조건을 적용하려면 **[!UICONTROL 필터 만들기]**&#x200B;를 클릭하고 쿼리 모델러를 사용하여 원하는 필터링 조건을 구성합니다. 예를 들어 데이터베이스에 이메일 주소가 존재하는 수신 모집단의 프로필을 포함합니다."
 >additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="쿼리 모델러로 작업"
 
 >[!CONTEXTUALHELP]
@@ -72,7 +72,7 @@ ht-degree: 81%
 
    1. 하위 집합을 열어 해당 속성을 표시합니다.
 
-   1. 필터링 조건을 하위 집합에 적용하려면 다음을 클릭하십시오. **[!UICONTROL 필터 만들기]** 쿼리 모델러를 사용하여 원하는 필터링 규칙을 구성합니다. 예를 들어 데이터베이스에 이메일 주소가 있는 수신 모집단의 프로필을 포함합니다. [쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다](../../query/query-modeler-overview.md)
+   1. 하위 집합에 필터링 조건을 적용하려면 **[!UICONTROL 필터 만들기]**&#x200B;를 클릭하고 쿼리 모델러를 사용하여 원하는 필터링 조건을 구성합니다. 예를 들어 데이터베이스에 이메일 주소가 있는 수신 모집단의 프로필을 포함합니다. [쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다](../../query/query-modeler-overview.md)
 
    1. 하위 집합에서 선택한 프로필 수를 제한하려면 **[!UICONTROL 제한 활성화]** 옵션을 토글하고 포함할 모집단의 수 또는 백분율을 지정합니다.
 

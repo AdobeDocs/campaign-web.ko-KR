@@ -3,9 +3,9 @@ audience: end-user
 title: 대상자 빌드 워크플로 활동 사용
 description: 대상자 빌드 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: ff9abf39f5df8052a114168993df5dd472ea2a19
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '379'
 ht-degree: 69%
 
 ---
@@ -34,6 +34,11 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 -->
 
 ## 대상자 빌드 활동 구성{#build-audience-configuration}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_build_audience_audienceselector"
+>title="대상자"
+>abstract="변경 예정"
 
 **대상자 빌드** 활동을 구성하려면 다음 단계를 따르십시오.
 

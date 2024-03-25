@@ -4,13 +4,13 @@ description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '502'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
-# Adobe Campaign Web 사용자 인터페이스  {#campaign-documentation}
+# Adobe Campaign Web 사용자 인터페이스 {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -51,23 +51,23 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 
 >[!BEGINTABS]
 
->[!TAB 3월 릴리스가 시작되었습니다.]
+>[!TAB 3월 릴리스가 공개되었습니다!]
 
-Adobe Campaign Web User Interface 24.3 릴리스의 새로운 기능과 향상된 기능을 살펴보십시오.
+Adobe Campaign Web 사용자 인터페이스 24.3 릴리스에 포함된 새로운 기능과 개선 사항을 살펴보십시오.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
 >[!TAB 다이렉트 메일 채널]
 
-**다이렉트 메일** 이제 채널은 워크플로우에서 독립 실행형 게재로 사용할 수 있습니다. DM은 추출 파일을 만들고, 개인화하고, 생성하고, DM 공급자와 공유하여 고객에게 메일을 보낼 수 있는 오프라인 채널입니다.
+이제 **다이렉트 메일** 채널을 워크플로 및 독립 실행형 게재에 사용할 수 있습니다. 다이렉트 메일은 다이렉트 메일 공급자가 고객에게 메일을 보내는 데 사용하는 추출 파일을 만들고, 개인화하고, 생성하여 해당 공급자와 공유할 수 있는 오프라인 채널입니다.
 
 ![이미지](assets/do-not-localize/direct-mail.gif)
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
 
->[!TAB 새로운 데이터 소스 변경 워크플로우 활동]
+>[!TAB 데이터 소스 워크플로 활동 신규 변경]
 
-다음 **데이터 소스 변경** 타겟팅 활동을 사용하면 워크플로우의 작업 테이블에서 사용되는 데이터 소스를 변경할 수 있습니다. 이 활동을 통해 다양한 데이터베이스에서 데이터를 관리하고 성능을 향상시킬 수 있으므로 보다 유연하게 작업할 수 있습니다.
+**데이터 소스 변경** 타겟팅 활동을 사용하면 워크플로의 작업 테이블에서 사용하는 데이터 소스를 변경할 수 있습니다. 이 활동을 통해 다양한 데이터베이스에서 데이터를 관리하고 성능을 향상할 수 있어 유연성이 향상됩니다.
 
 ![이미지](assets/do-not-localize/change-data-source.gif)
 
@@ -85,11 +85,11 @@ Adobe Campaign Web User Interface 24.3 릴리스의 새로운 기능과 향상�
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
-    <div><strong>워크플로우 캔버스 리메이크</strong><br/>워크플로우를 만들어 전체 프로세스 및 작업을 오케스트레이션하고 마케팅 캠페인의 모든 측면에서 속도와 규모를 개선하는 방법을 알아봅니다.</div><br/>
+    <div><strong>워크플로 캔버스 리메이크</strong><br/>워크플로를 만들어 전체 프로세스 및 작업을 오케스트레이션하고 마케팅 캠페인의 모든 측면에서 속도와 규모를 개선하는 방법을 알아봅니다.</div><br/>
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
-    <div><strong>이메일 디자이너 만나 보기</strong><br/>템플릿에서 시작하거나 Adobe Campaign의 새로운 이메일 디자이너를 사용하면 코드는 한 줄도 쓸 필요 없이 이메일을 만들 수 있습니다. 
+    <div><strong>이메일 디자이너 만나 보기</strong><br/>템플릿에서 시작하거나 Adobe Campaign의 새로운 이메일 디자이너를 사용하면 코드는 한 줄도 쓸 필요 없이 이메일을 만들 수 있습니다.
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
@@ -116,7 +116,7 @@ Adobe Campaign Web User Interface 24.3 릴리스의 새로운 기능과 향상�
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>고객 경험</strong><br/><a href="workflows/gs-workflows.md" target="_blank">워크플로우로 자동화</a> - <a href="campaigns/gs-campaigns.md" target="_blank">캠페인 오케스트레이션</a> - <a href="personalization/gs-personalization.md">다이내믹 콘텐츠</a> - <a href="reporting/gs-reports.md">보고 및 분석</a>
+      <strong>고객 경험</strong><br/><a href="workflows/gs-workflows.md" target="_blank">워크플로로 자동화</a> - <a href="campaigns/gs-campaigns.md" target="_blank">캠페인 오케스트레이션</a> - <a href="personalization/gs-personalization.md">다이내믹 콘텐츠</a> - <a href="reporting/gs-reports.md">보고 및 분석</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">

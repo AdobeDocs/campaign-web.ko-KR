@@ -1,17 +1,17 @@
 ---
 audience: end-user
 title: 리치 푸시 알림 게재 디자인
-description: Adobe Campaign 웹을 사용하여 풍부한 푸시 알림 게재를 디자인하는 방법을 알아봅니다
+description: Adobe Campaign 웹을 사용하여 Android 리치 푸시 알림 게재를 디자인하는 방법을 알아봅니다
 hide: true
 hidefromtoc: true
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 23519e1d50b963761bd65a2ded6fa8c1bc7106f3
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1394'
 ht-degree: 4%
 
 ---
 
-# Android 리치 푸시 게재 디자인 {#content-push}
+# Android 리치 푸시 게재 디자인 {#rich-push}
 
 Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에서 선택할 수 있습니다.
 
@@ -23,9 +23,7 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 ## 알림 콘텐츠 정의 {#push-message}
 
-푸시 게재가 만들어지면 해당 콘텐츠를 정의할 수 있습니다. 아래 탭을 탐색하여 각 템플릿에 대한 메시지를 작성하는 방법을 알아보십시오.
-
-세 가지 템플릿을 사용할 수 있습니다.
+푸시 게재가 만들어지면 해당 콘텐츠를 정의할 수 있습니다. 세 가지 템플릿을 사용할 수 있습니다.
 
 * **기본 템플릿** 간단한 아이콘과 함께 제공되는 이미지를 사용하여 알림을 보낼 수 있습니다.
 

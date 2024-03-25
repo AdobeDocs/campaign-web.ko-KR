@@ -5,7 +5,7 @@ description: Campaign에서 AI Assistant 시작
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
+source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 5%
@@ -75,7 +75,7 @@ ht-degree: 5%
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
 
-1. 개인화 필드를 삽입하여 프로필 데이터를 기반으로 이메일 콘텐츠를 사용자 정의합니다. [콘텐츠 개인화에 대해 자세히 알아보기](../personalization/personalize.md)
+1. 개인화 필드를 삽입하여 프로필 데이터를 기반으로 SMS 콘텐츠를 사용자 지정합니다. [콘텐츠 개인화에 대해 자세히 알아보기](../personalization/personalize.md)
 
    ![](assets/sms-genai-5.png){zoomable=&quot;yes&quot;}
 
@@ -83,4 +83,4 @@ ht-degree: 5%
 
    ![](assets/sms-genai-6.png){zoomable=&quot;yes&quot;}
 
-1. 콘텐츠, 대상자 및 일정을 정의했으면 이메일 게재를 준비할 준비가 되었습니다. [자세히 알아보기](../monitor/prepare-send.md)
+1. 콘텐츠, 대상자 및 일정을 정의했으면 SMS 게재를 준비할 준비가 되었습니다. [자세히 알아보기](../monitor/prepare-send.md)

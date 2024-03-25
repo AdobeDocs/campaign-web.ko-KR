@@ -3,10 +3,10 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: adb373464e654667354dbaf5470abc86a1bf3b72
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 100%
+source-wordcount: '1602'
+ht-degree: 99%
 
 ---
 
@@ -376,3 +376,49 @@ Deprecated IDs - to remove in GA: -->
 >title="데이터 업데이트"
 >abstract="변경 예정"
 
+
+
+<!--External Signal End-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_externalsignal"
+>title="외부 신호"
+>abstract="변경 예정"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_externalsignal_parameters"
+>title="외부 신호 매개 변수"
+>abstract="변경 예정"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_end"
+>title="종료"
+>abstract="변경 예정"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_end_trigger"
+>title="트리거 종료"
+>abstract="변경 예정"
+
+
+<!--Javascript-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript"
+>title="Javascript 코드"
+>abstract="변경 예정"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_snippet"
+>title="Javascript 코드 조각"
+>abstract="변경 예정"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_execution"
+>title="Javascript 실행"
+>abstract="변경 예정"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_transition"
+>title="Javascript 전환"
+>abstract="변경 예정"

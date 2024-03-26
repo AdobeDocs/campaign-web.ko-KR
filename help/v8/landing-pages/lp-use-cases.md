@@ -7,7 +7,8 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 랜딩, 랜딩 페이지, 사용 사례
-source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
+exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
+source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
 source-wordcount: '1381'
 ht-degree: 11%
@@ -214,14 +215,3 @@ ht-degree: 11%
 ![](assets/lp-uc-denylist-profile.png){zoomable=&quot;yes&quot;}
 
 이 프로필은 다시 구독하지 않으면 브랜드로부터 이메일 통신을 받지 않습니다.
-
-
-
-
-
-
-
-
-
-
-

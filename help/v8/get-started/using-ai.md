@@ -4,7 +4,7 @@ description: Campaign 웹 도움말 팝오버에서 질문하기
 badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 source-git-commit: 27abc0c532ce6957eae55d5db342093efc8fe0a5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 100%
 

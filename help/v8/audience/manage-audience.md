@@ -34,7 +34,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="속성"
->abstract="여기에서 원본, 스토리지 폴더 또는 상태 등 대상자 속성에 대한 요약을 확인할 수 있습니다. 대상자를 만드는 데 사용된 워크플로를 열려면 **마지막 워크플로** 섹션의 링크를 클릭합니다."
+>abstract="여기에서 원본, 스토리지 폴더 또는 상태 등 대상자 속성에 대한 요약을 확인할 수 있습니다. 대상자를 만드는 데 사용된 워크플로우를 열려면 **마지막 워크플로우** 섹션의 링크를 클릭합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
@@ -44,7 +44,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
 >title="대상자 오류"
->abstract="대상자 데이터를 사용할 수 없습니다. 워크플로 실행이 종료될 때까지 기다려 주십시오."
+>abstract="대상자 데이터를 사용할 수 없습니다. 워크플로우 실행이 종료될 때까지 기다려 주십시오."
 
 Campaign 웹에서 사용할 수 있는 대상자 목록은 **[!UICONTROL 대상]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
@@ -68,7 +68,7 @@ Campaign 웹에서 사용할 수 있는 대상자 목록은 **[!UICONTROL 대상
 
 대상을 복제하거나 삭제하려면 **[!UICONTROL 추가 작업]** 버튼은 대상자 이름 옆의 대상자 목록 또는 대상자 세부 사항 화면 내에서 사용할 수 있습니다.
 
-## 방법 비디오 {#video}
+## 사용법 비디오 {#video}
 
 Adobe Campaign 웹 사용자 인터페이스에서 Experience Platform 대상을 사용할 대상을 만드는 방법을 알아봅니다.
 

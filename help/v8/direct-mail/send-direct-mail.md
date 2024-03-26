@@ -2,13 +2,13 @@
 audience: end-user
 title: DM 게재 미리 보기 및 보내기
 description: Adobe Campaign 웹을 사용하여 DM 게재를 미리 보고 보내는 방법 알아보기
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: 06ce7535-e84d-4aed-bea9-b85b4ee0d008
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 3%
 
 ---
-
 
 # DM 게재 미리 보기 및 보내기 {#send-direct-mail}
 

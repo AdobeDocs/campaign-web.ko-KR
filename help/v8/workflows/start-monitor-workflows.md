@@ -6,11 +6,11 @@ exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
-# 워크플로우 시작 및 모니터링 {#start-monitor}
+# 워크플로 시작 및 모니터링 {#start-monitor}
 
 워크플로우를 만들고 캔버스에서 수행할 작업을 설계하면 워크플로우를 시작하고 실행 방법을 모니터링할 수 있습니다.
 

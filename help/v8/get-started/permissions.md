@@ -4,8 +4,8 @@ title: Campaign Web 사용자 인터페이스의 권한 관리
 description: Campaign Web 사용자 인터페이스의 권한에 대해 자세히 알아보기
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '623'
 ht-degree: 100%
 
 ---
@@ -45,13 +45,13 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"
->title="이 워크플로는 읽기 전용입니다."
->abstract="이 워크플로를 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
+>title="이 워크플로우는 읽기 전용입니다."
+>abstract="이 워크플로우를 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only_canvas"
->title="이 워크플로는 읽기 전용입니다."
->abstract="지원되지 않거나 호환되지 않는 캔버스로 인해 이 워크플로를 편집할 수 없습니다."
+>title="이 워크플로우는 읽기 전용입니다."
+>abstract="지원되지 않거나 호환되지 않는 캔버스로 인해 이 워크플로우를 편집할 수 없습니다."
 
 액세스 제어를 통해 게재, 수신자 또는 워크플로와 같은 주요 목록의 오브젝트 및 데이터에 대한 액세스를 제한할 수 있습니다. 이러한 제한 사항은 **탐색기**&#x200B;의 탐색 트리에도 적용됩니다. 또한 사용자 인터페이스에서 오브젝트를 생성, 삭제, 복제 및 편집하려면 권한이 필요합니다.
 

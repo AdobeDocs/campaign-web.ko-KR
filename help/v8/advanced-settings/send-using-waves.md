@@ -3,13 +3,13 @@ audience: end-user
 title: 웨이브를 사용하여 보내기
 description: Campaign 웹에서 게재 설정에 대해 자세히 알아보기
 feature: Email
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
+source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
-
 
 # 예약된 일괄 처리를 사용하여 보내기 {#send-using-waves}
 
@@ -46,7 +46,7 @@ ht-degree: 13%
 
    >[!CAUTION]
    >
-   >마지막 예약된 일괄 처리가 다음에 정의된 배달 기한을 초과하지 않도록 합니다. [유효성](delivery-settings.md#validity) 탭으로 설정되지 않은 경우 일부 메시지가 전송되지 않을 수 있습니다. 특정 유형화 제어 규칙, **[!UICONTROL 예약된 일괄 처리 확인]**&#x200B;를 사용하면 게재 유효성 검사 제한 전에 마지막 웨이브가 계획되도록 할 수 있습니다. 의 제어 규칙에 대해 자세히 알아보십시오. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
+   >마지막 예약된 일괄 처리가 다음에 정의된 배달 기한을 초과하지 않도록 합니다. [유효성](delivery-settings.md#validity) 탭으로 설정되지 않은 경우 일부 메시지가 전송되지 않을 수 있습니다. 특정 유형화 제어 규칙, **[!UICONTROL 예약된 일괄 처리 확인]**&#x200B;를 사용하면 게재 유효성 검사 제한 전에 마지막 웨이브가 계획되도록 할 수 있습니다. 의 제어 규칙에 대해 자세히 알아보십시오. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=ko).
    >
    >마지막 웨이브를 구성할 때 재시도 시간도 충분히 허용해야 합니다. [자세히 알아보기](delivery-settings.md#retries)
 
@@ -99,6 +99,3 @@ ht-degree: 13%
 이렇게 하려면 **[!UICONTROL 일정에 따라 예약된 예약된 예약된 예약된 예약된 일괄 처리]** 옵션을 선택합니다. 예를 들어 첫 번째 물결을 10%로 설정하고, 두 번째 물결을 15%로 설정하고, 세 번째 물결을 20%로 설정하는 식입니다.
 
 ![](assets/waves-ramp-up.png){zoomable=&quot;yes&quot;}
-
-
-

@@ -25,7 +25,7 @@ ht-degree: 26%
 >title="게재 개요"
 >abstract="**게재 개요**&#x200B;에는 귀하가 보내는 이메일 게재 및 캠페인과 대상자가 어떻게 상호 작용하는지에 대한 심층적인 인사이트를 제공하는 주요 성과 지표(KPI)가 표시됩니다."
 
-다음 **[!UICONTROL 게재 개요]** 은 방문자와 각 이메일 게재의 상호 작용에 대한 심층적인 통찰력을 제공하는 주요 성능 지표(KPI)를 제공합니다. 지표는 아래에 요약되어 있습니다.
+다음 **[!UICONTROL 게재 개요]** 은 방문자와 각 이메일 게재의 상호 작용에 대한 심층적인 통찰력을 제공하는 주요 성능 지표(KPI)를 제공합니다. 지표는 아래에 설명되어 있습니다.
 
 ![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 

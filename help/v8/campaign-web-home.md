@@ -4,7 +4,7 @@ description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
 >title="항목 2"
->abstract="간소화된 워크플로 캔버스 인터페이스"
+>abstract="간소화된 워크플로우 캔버스 인터페이스"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"

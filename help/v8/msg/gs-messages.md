@@ -4,7 +4,7 @@ title: Adobe Campaign Web의 메시지 및 게재 시작
 description: Campaign Web으로 게재 작업을 수행하고 메시지를 전송하는 방법 알아보기
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 100%
 

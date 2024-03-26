@@ -2,13 +2,13 @@
 audience: end-user
 title: DM 게재 만들기
 description: Adobe Campaign 웹을 사용하여 DM 게재를 만드는 방법을 알아봅니다
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 21%
 
 ---
-
 
 # DM 게재 만들기 {#create-direct-mail}
 
@@ -64,4 +64,3 @@ ht-degree: 21%
    ![](assets/dm-settings.png){zoomable=&quot;yes&quot;}
 
 1. DM 게재가 준비되면 **[!UICONTROL 검토 및 보내기]** 버튼을 클릭하여 게재의 유효성을 검사하고 전송하며 추출 파일을 생성합니다. [DM 게재를 미리 보고 보내는 방법 알아보기](send-direct-mail.md)
-

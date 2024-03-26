@@ -6,7 +6,7 @@ exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
 >title="AND-결합 활동"
->abstract="**AND-결합** 활동을 사용하면 워크플로의 여러 실행 분기를 동기화할 수 있습니다. 이전 활동이 모두 완료되면 트리거됩니다. 이로써 워크플로를 계속 실행하기 전에 특정 활동이 완료되었는지 확인할 수 있습니다."
+>abstract="**AND-결합** 활동을 사용하면 워크플로우의 여러 실행 분기를 동기화할 수 있습니다. 이전 활동이 모두 완료되면 트리거됩니다. 이로써 워크플로우를 계속 실행하기 전에 특정 활동이 완료되었는지 확인할 수 있습니다."
 
 **AND-결합** 활동은 **흐름 제어** 활동입니다. 이를 통해 워크플로의 여러 실행 분기를 동기화할 수 있습니다.
 

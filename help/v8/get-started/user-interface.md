@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 027cdc70abb0263631883ecde382577d41bf4a41
 workflow-type: tm+mt
 source-wordcount: '1600'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -387,12 +387,12 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
->title="외부 신호 매개 변수"
+>title="외부 신호 매개변수"
 >abstract="변경 예정"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end_trigger"
->title="트리거 종료"
+>title="종료 트리거"
 >abstract="변경 예정"
 
 
@@ -400,20 +400,20 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
->title="Javascript 코드"
+>title="JavaScript 코드"
 >abstract="변경 예정"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
->title="Javascript 코드 조각"
+>title="JavaScript 스니펫"
 >abstract="변경 예정"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
->title="Javascript 실행"
+>title="JavaScript 실행"
 >abstract="변경 예정"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
->title="Javascript 전환"
+>title="JavaScript 전환"
 >abstract="변경 예정"

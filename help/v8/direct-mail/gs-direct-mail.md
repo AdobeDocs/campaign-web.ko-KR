@@ -6,7 +6,7 @@ exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 15%
+ht-degree: 32%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="DM"
->abstract="이제 워크플로우 및 독립 실행형 게재에서 DM 채널을 사용할 수 있습니다. DM 오프라인 채널을 사용하여 추출 파일을 만들고, 개인화하고, 생성한 다음 DM 공급자와 공유하여 고객에게 메일을 보낼 수 있습니다."
+>abstract="이제 다이렉트 메일 채널을 워크플로 및 독립 실행형 게재용으로 사용할 수 있습니다. 다이렉트 메일 오프라인 채널을 사용하여 추출 파일을 만들고, 개인화하고, 생성하고, 다이렉트 메일 공급자와 공유하여 고객에게 메일을 전송할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
 
 

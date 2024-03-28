@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: AI Assistant 시작
+title: AI 어시스턴트 시작하기
 description: AI Assistant 시작
 badge: label="Beta"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
@@ -9,11 +9,11 @@ hidefromtoc: true
 source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 33%
+ht-degree: 40%
 
 ---
 
-# AI Assistant 시작 {#generative-gs}
+# AI 어시스턴트 시작하기 {#generative-gs}
 
 >[!BEGINSHADEBOX]
 
@@ -28,13 +28,13 @@ ht-degree: 33%
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
->title="AI Assistant"
->abstract="게재를 제작하고 개인화하면 AI Assistant를 사용하여 콘텐츠를 개선할 수 있습니다. 이 기능은 생성하려는 내용을 설명하여 콘텐츠를 미세 조정할 수 있도록 함으로써 개인화 및 콘텐츠 개선 프로세스를 간소화합니다."
+>title="AI 어시스턴트"
+>abstract="게재 내용을 작성하고 개인화한 후 AI 어시스턴트를 사용하여 콘텐츠를 개선할 수 있습니다. 이 기능은 생성하려는 내용을 설명하여 콘텐츠를 미세 조정할 수 있도록 함으로써 개인화 및 콘텐츠 개선 프로세스를 간소화합니다."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
->title="Campaign에서 AI Assistant를 사용하여 컨텍스트 정의"
+>title="Campaign에서 AI 어시스턴트로 컨텍스트 정의"
 >abstract="선택한 콘텐츠를 콘텐츠 생성을 위한 입력으로 사용하려면 **현재 콘텐츠로 개선** 토글을 활성화합니다. 또한 브랜드 자산을 업로드하여 소스로 사용할 수도 있습니다. 선택한 콘텐츠를 사용하지 않는 경우 브랜드 자산 업로드와 브랜드 자산 선택이 필수입니다."
 
 

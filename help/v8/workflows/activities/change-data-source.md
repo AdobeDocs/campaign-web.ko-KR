@@ -6,7 +6,7 @@ exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 21%
+ht-degree: 27%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="데이터 소스 변경"
->abstract="새로운 데이터 소스 변경 워크플로우 타깃팅 활동을 사용하여 워크플로우의 작업 테이블에서 사용되는 데이터 소스를 변경합니다. 이 활동을 통해 다양한 데이터베이스에서 데이터를 관리하고 성능을 향상할 수 있어 유연성이 향상됩니다."
+>abstract="새로운 데이터 소스 변경 워크플로 타겟팅 활동을 사용하여 워크플로의 작업 테이블에서 사용하는 데이터 소스를 변경할 수 있습니다. 이 활동을 통해 다양한 데이터베이스에서 데이터를 관리하고 성능을 향상할 수 있어 유연성이 향상됩니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]

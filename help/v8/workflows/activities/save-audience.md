@@ -3,9 +3,9 @@ audience: end-user
 title: 대상자 저장 워크플로우 활동 사용
 description: 포크 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 48eef836bc75e12a9e72f4ba8f6ce2ebb5de5f5b
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '443'
 ht-degree: 13%
 
 ---
@@ -15,7 +15,12 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_save_audience"
 >title="대상자 저장"
->abstract="이 활동을 사용하여 워크플로우에서 업스트림으로 계산한 모집단에서 기존 대상자를 업데이트하거나 새 대상자를 만들 수 있습니다. 생성된 대상자는 대상자 목록에 추가되며 **대상자** 메뉴를 통해 사용할 수 있습니다."
+>abstract="이 활동을 사용하여 워크플로에서 업스트림으로 계산한 모집단에서 기존 대상자를 업데이트하거나 새 대상자를 만들 수 있습니다. 생성된 대상자는 대상자 목록에 추가되며 **대상자** 메뉴를 통해 사용할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_saveaudience_outbound"
+>title="아웃바운드 전환 생성"
+>abstract="다음 항목 뒤에 전환을 추가하려면 이 옵션을 사용합니다. **대상자 저장** 활동."
 
 다음 **대상자 저장** 활동은 입니다. **타겟팅** 활동. 이 활동을 사용하면 워크플로우에서 업스트림으로 계산한 모집단에서 기존 대상자를 업데이트하거나 새 대상자를 만들 수 있습니다. 생성된 대상자는 애플리케이션 대상자 목록에 추가되고, 를 통해 사용할 수 있습니다. **대상** 메뉴 아래의 제품에서 사용할 수 있습니다.
 

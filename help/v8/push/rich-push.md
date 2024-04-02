@@ -4,14 +4,20 @@ title: 리치 푸시 알림 게재 디자인
 description: Adobe Campaign 웹을 사용하여 Android 리치 푸시 알림 게재를 디자인하는 방법을 알아봅니다
 hide: true
 hidefromtoc: true
-source-git-commit: 23519e1d50b963761bd65a2ded6fa8c1bc7106f3
+exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
+source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1417'
 ht-degree: 4%
 
 ---
 
 # Android 리치 푸시 게재 디자인 {#rich-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_remind_later"
+>title="나중에 알림 버튼"
+>abstract="다음 **나중에 알림** 버튼은 미리 알림을 예약하는 옵션을 제공합니다. Timestamp 필드에는 epoch(초)를 나타내는 값이 필요합니다."
 
 Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에서 선택할 수 있습니다.
 
@@ -99,7 +105,7 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 1. 클릭 **[!UICONTROL 나중에 알림 추가]** 푸시 알림에 [나중에 알림] 옵션을 추가하는 버튼. 입력 **[!UICONTROL 레이블]** 및 **[!UICONTROL 타임스탬프]**.
 
-   타임스탬프 필드에는 에포크를 나타내는 값(초)이 필요합니다.
+   타임스탬프 필드에는 에포크(초)를 나타내는 값이 필요합니다.
 
    ![](assets/rich_push_basic_5.png)
 

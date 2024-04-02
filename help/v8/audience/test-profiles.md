@@ -8,7 +8,7 @@ exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 9%
+ht-degree: 21%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
 >title="테스트 프로필 만들기"
->abstract="테스트 프로필은 메시지를 보내기 전에 개인화 및 렌더링을 미리 보고 테스트할 수 있는 추가 수신자입니다. 메시지 콘텐츠를 미리 볼 때 테스트 프로필을 선택하고 테스트 프로필에 증명을 전송하여 메시지 콘텐츠와 설정을 제어하고 확인할 수 있습니다."
+>abstract="테스트 프로필은 메시지를 보내기 전에 개인화 및 렌더링을 미리 보고 테스트할 수 있도록 해 주는 추가 수신자입니다. 메시지 내용을 미리 볼 때 테스트 프로필을 선택하고 테스트 프로필에 증명을 보내 메시지 내용과 설정을 제어하고 검증할 수 있습니다."
 
-테스트 프로필은 증명을 보내고 메시지 콘텐츠와 설정을 확인하는 데 사용됩니다. 이러한 프로필은 메시지를 보내기 전에 개인화 및 렌더링을 미리 보고 테스트할 수 있는 추가 수신자입니다. 메시지 콘텐츠를 미리 볼 때 테스트 프로필을 선택하고 테스트 프로필에 증명을 전송하여 메시지 콘텐츠와 설정을 제어하고 확인할 수 있습니다.
+테스트 프로필은 증명을 보내고 메시지 콘텐츠와 설정을 확인하는 데 사용됩니다. 이러한 프로필은 메시지를 보내기 전에 개인화 및 렌더링을 미리 보고 테스트할 수 있는 추가 수신자입니다. 메시지 내용을 미리 볼 때 테스트 프로필을 선택하고 테스트 프로필에 증명을 보내 메시지 내용과 설정을 제어하고 검증할 수 있습니다.
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 

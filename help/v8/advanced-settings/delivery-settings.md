@@ -92,7 +92,7 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
 >title="수신자 중요도"
->abstract="수신자의 중요도는 용량 유형화 규칙을 초과할 때 어떤 프로필이 유지되는지 결정하는 데 사용되는 수식입니다."
+>abstract="수신자 중요도는 용량 유형화 규칙 초과 시 유지되는 프로필을 결정하는 데 사용되는 공식입니다."
 
 이 섹션에서는 Adobe Campaign v8 콘솔에 정의된 용량 규칙을 선택할 수 있습니다. 이 규칙은 채널과 연결되어 있습니다.
 

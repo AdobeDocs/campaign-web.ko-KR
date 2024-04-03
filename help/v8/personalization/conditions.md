@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: c0b032539397d4f06c0e34981ed9e76bccb9cfd1
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '946'
 ht-degree: 8%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 8%
 
    ![](assets/open-perso-editor-sms.png){zoomable=&quot;yes&quot;}
 
-1. 개인화 편집기에서 **[!UICONTROL 도우미 함수]** 왼쪽에 있는 메뉴입니다.
+1. 개인화 편집기에서 **[!UICONTROL 조건]** 왼쪽에 있는 메뉴입니다.
 
 1. 조건 작성을 시작하려면 옆에 있는 &#39;+&#39; 아이콘을 클릭합니다. **If** 함수. 다음 줄이 중앙 화면에 추가됩니다.`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 

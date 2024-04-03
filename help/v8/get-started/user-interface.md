@@ -3,10 +3,10 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 271f23fb042e1580b9e34fa868ec1f021c12f097
+source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
 workflow-type: tm+mt
-source-wordcount: '1619'
-ht-degree: 99%
+source-wordcount: '1970'
+ht-degree: 82%
 
 ---
 
@@ -313,30 +313,29 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"
 >title="이 템플릿은 준비 전용입니다"
->abstract="변경 예정"
-
+>abstract="이 템플릿을 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
 
 <!-- Subscription activity-->
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
 >title="기본 랜딩 페이지"
->abstract="변경 예정"
+>abstract="이 구독 서비스에 연결된 기본 랜딩 페이지를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="구독 서비스"
->abstract="변경 예정"
+>title="구독 서비스 활동"
+>abstract="Adobe Campaign을 사용하면 뉴스레터와 같은 서비스를 생성 및 모니터링하고 이러한 서비스에 대한 구독 또는 구독 취소를 확인할 수 있습니다. 구독은 이메일 및 SMS 게재에만 적용됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
->title="구독 서비스 매개변수"
->abstract="변경 예정"
+>title="구독 서비스 매개 변수"
+>abstract="구독 서비스 설정을 선택하고 확인합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="구독 서비스 아웃바운드 전환"
->abstract="변경 예정"
+>abstract="전환 **아웃바운드 전환 생성** 활동 뒤에 전환을 추가하는 옵션입니다."
 
 
 <!--Update file-->
@@ -344,37 +343,37 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata"
 >title="데이터 업데이트"
->abstract="변경 예정"
+>abstract="다음 **데이터 업데이트** 활동은 데이터베이스의 필드에 대한 대량 업데이트를 수행합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
->title="데이터 업데이트"
->abstract="변경 예정"
+>title="데이터 업데이트 방법 선택"
+>abstract="다음 **작업 유형** 필드를 사용하면 데이터베이스의 데이터에 대해 수행할 프로세스를 선택할 수 있습니다. 데이터를 추가하거나 업데이트할 첫 번째 옵션을 선택합니다(이미 추가된 경우). 데이터만 추가하거나, 데이터만 업데이트하거나, 데이터를 삭제할 수도 있습니다. 다음 항목 선택 **컬렉션 업데이트 및 병합** 을(를) 클릭하여 중복을 연결할 기본 레코드를 선택하고 해당 중복을 안전하게 삭제합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
->title="데이터 업데이트"
->abstract="변경 예정"
+>title="레코드 식별"
+>abstract="데이터베이스에서 레코드를 식별하는 방법을 지정합니다. 데이터가 기존 타겟팅 차원과 관련된 경우 다음을 선택합니다. **타겟팅 차원 사용** 옵션을 선택하고 업데이트할 타겟팅 차원과 필드를 선택합니다. 그렇지 않으면 하나 이상의 사용자 지정 링크를 지정하여 데이터베이스의 데이터를 식별하거나 조정 키를 직접 사용하십시오."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
->title="데이터 업데이트"
->abstract="변경 예정"
+>title="업데이트할 필드 선택"
+>abstract="업데이트할 필드와 조정 설정을 선택합니다. 다음을 사용할 수 있습니다. **자동 매핑** 업데이트할 필드를 자동으로 식별하는 옵션."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
->title="데이터 업데이트"
->abstract="변경 예정"
+>title="데이터 업데이트를 위한 고급 옵션"
+>abstract="다음 **고급 옵션** 섹션에서는 데이터 및 중복을 관리하기 위한 추가 설정을 지정할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
->title="데이터 업데이트"
->abstract="변경 예정"
+>title="아웃바운드 전환 생성"
+>abstract="전환 **아웃바운드 전환 생성** 실행 종료 시 활성화될 아웃바운드 전환을 추가하는 옵션 **데이터 업데이트** 활동. 업데이트는 일반적으로 타겟팅 워크플로우의 끝을 표시하므로 옵션이 기본적으로 활성화되지 않습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
->title="데이터 업데이트"
->abstract="변경 예정"
+>title="거부에 대한 아웃바운드 전환을 생성합니다."
+>abstract="전환 **거부에 대한 아웃바운드 전환 생성** 업데이트 후 올바르게 처리되지 않은 레코드가 포함된 아웃바운드 전환을 추가하는 옵션(예: 중복이 있는 경우). 업데이트는 일반적으로 타겟팅 워크플로우의 끝을 표시하므로 옵션이 기본적으로 활성화되지 않습니다."
 
 
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 대상자 빌드 워크플로 활동 사용
 description: 대상자 빌드 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: ff9abf39f5df8052a114168993df5dd472ea2a19
+source-git-commit: 706d42661375c7ef7f95d1e8bf22db235500308d
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 69%
@@ -15,9 +15,9 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
 >title="대상자 빌드 활동"
->abstract="**대상자 빌드** 활동을 통해 워크플로우에 참여할 대상자를 정의할 수 있습니다. 워크플로우 컨텍스트에서 메시지를 전송할 때 메시지 대상자는 채널 활동에서 정의되지 않고 **대상자 빌드** 활동에서 정의됩니다."
+>abstract="**대상자 빌드** 활동을 통해 워크플로에 참여할 대상자를 정의할 수 있습니다. 워크플로 컨텍스트에서 메시지를 전송할 때 메시지 대상자는 채널 활동에서 정의되지 않고 **대상자 빌드** 활동에서 정의됩니다."
 
-**대상자 빌드** 활동은 **타겟팅** 활동입니다. 이 활동을 통해 워크플로에 참여할 대상자를 정의할 수 있습니다. 워크플로우 컨텍스트에서 메시지를 전송할 때 메시지 대상자는 채널 활동에서 정의되지 않고 **대상자 빌드** 활동에서 정의됩니다.
+**대상자 빌드** 활동은 **타겟팅** 활동입니다. 이 활동을 통해 워크플로에 참여할 대상자를 정의할 수 있습니다. 워크플로 컨텍스트에서 메시지를 전송할 때 메시지 대상자는 채널 활동에서 정의되지 않고 **대상자 빌드** 활동에서 정의됩니다.
 
 대상자 모집단을 정의하기 위해 수행할 수 있는 작업은 다음과 같습니다.
 
@@ -38,7 +38,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_audienceselector"
 >title="대상자"
->abstract="변경 예정"
+>abstract="대상자"
 
 **대상자 빌드** 활동을 구성하려면 다음 단계를 따르십시오.
 

@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 58%
+ht-degree: 54%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Campaign은 사전 구성된 콘텐츠 블록 목록을 제공합니다. �
 
 * **[!UICONTROL 기본 옵트아웃 배너]**
 * **[!UICONTROL Adobe Campaign에 의해 활성화됨]**: “Adobe Campaign에서 활성화됨” 로고를 삽입합니다.
-* **[!UICONTROL 고유 명사 서식 지정 기능]**: **[!UICONTROL toSmartCase]** 자바스크립트 기능을 생성합니다. 이 기능은 각 단어의 첫 글자를 대문자로 바꿉니다.
+* **[!UICONTROL 고유 명사 서식 함수]**: 를 생성합니다. **[!UICONTROL toSmartCase]** 각 단어의 첫 번째 문자를 대문자로 변경하는 JavaScript 함수입니다.
 * **[!UICONTROL 인사말]**: 수신자의 전체 이름과 함께 쉼표가 뒤따르는 인사말을 삽입합니다. 예: “안녕하세요 John Doe 님,”
 * **[!UICONTROL 로고 삽입]**: 인스턴스 설정에 정의된 로고를 삽입합니다.
 * **[!UICONTROL 미러 페이지 링크]**: [미러 페이지](../email/mirror-page.md)에 대한 링크를 삽입합니다. 기본 형식은 “이 메시지가 제대로 표시되지 않는 경우 여기를 클릭하십시오.”입니다.

@@ -3,10 +3,10 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
+source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 82%
+source-wordcount: '2108'
+ht-degree: 76%
 
 ---
 
@@ -382,12 +382,13 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="외부 신호"
->abstract="변경 예정"
+>abstract="다음 **외부 신호** 활동을 사용하면 API 또는 다른 워크플로우에서 워크플로우의 작업 집합 실행을 트리거할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
 >title="외부 신호 매개변수"
 >abstract="변경 예정"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end_trigger"
@@ -395,27 +396,29 @@ Deprecated IDs - to remove in GA: -->
 >abstract="변경 예정"
 
 
-<!--Javascript-->
+<!--JavaScript-->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="JavaScript 코드"
->abstract="변경 예정"
+>abstract="다음 **JavaScript 코드** 활동은 워크플로우 컨텍스트에서 JavaScript 코드를 실행합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="JavaScript 스니펫"
->abstract="변경 예정"
+>abstract="실행할 코드를 구성합니다."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="자세한 내용은 Campaign v8(콘솔) 설명서 를 참조하세요"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
 >title="JavaScript 실행"
->abstract="변경 예정"
+>abstract="기본적으로 실행 단계는 1시간을 초과할 수 없습니다. 이 지연 후에 프로세스가 중단되고 오류 메시지가 표시되며 활동 실행이 실패합니다. 전환 **다음 이후 실행 중지** 사용자 지정 지연을 정의하는 옵션입니다. 이 제한을 무시하려면 값을 0으로 설정합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
->title="JavaScript 전환"
->abstract="변경 예정"
+>title="프로세스 오류"
+>abstract="전환 **프로세스 오류** 옵션을 사용하여 오류가 포함된 아웃바운드 전환을 추가합니다."
 
 
 <!--ExtractFile-->
@@ -423,29 +426,29 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="파일 추출"
->abstract="변경 예정"
+>abstract="파일 추출 활동"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_file"
 >title="추출할 파일"
->abstract="변경 예정"
+>abstract="추출할 파일을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="대상 형식"
->abstract="변경 예정"
+>abstract="형식을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="사후 처리"
->abstract="변경 예정"
+>abstract="후 처리 단계 정의"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_outbound"
 >title="아웃바운드 전환"
->abstract="변경 예정"
+>abstract="전환 **아웃바운드 전환 생성** 현재 활동 뒤에 아웃바운드 전환을 추가하는 옵션입니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
 >title="프로세스 오류"
->abstract="변경 예정"
+>abstract="전환 **프로세스 오류** 옵션을 사용하여 오류가 포함된 아웃바운드 전환을 추가합니다."

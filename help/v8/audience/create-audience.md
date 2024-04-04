@@ -3,10 +3,10 @@ audience: end-user
 title: 대상자 만들기
 description: Adobe Campaign 웹에서 대상자를 만드는 방법을 알아봅니다
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
+source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 17%
+source-wordcount: '898'
+ht-degree: 10%
 
 ---
 
@@ -15,20 +15,21 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="대상자 구성"
->abstract="시각적인 워크플로우 캔버스에 새 대상자를 만듭니다. 처음부터 시작하여 간단한 대상자를 만드는 것 외에도 워크플로우 활동을 활용하여 대상자를 세분화할 수도 있습니다. 여러 대상자를 하나로 결합하거나, 외부 속성으로 대상자를 강화하거나, 선택한 규칙에 따라 여러 대상자로 나눕니다."
+>abstract="시각적인 워크플로 캔버스에 새 대상자를 만듭니다. 처음부터 시작하여 간단한 대상자를 만드는 것 외에도 워크플로 활동을 활용하여 대상자를 세분화할 수도 있습니다. 여러 대상자를 하나로 결합하거나, 외부 속성으로 대상자를 강화하거나, 선택한 규칙에 따라 여러 대상자로 나눕니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="대상자"
->abstract="이 화면에서 게재에서 타겟팅할 수 있는 모든 대상자 목록에 액세스할 수 있습니다. **만들기**&#x200B;를 클릭하여 **분할** 또는 **제외**&#x200B;와 같은 다양한 워크플로우 활동을 통해 새 대상자를 시각적 캔버스에 만듭니다."
+>abstract="이 화면에서 워크플로우 또는 독립 실행형 게재에서 타깃팅할 수 있는 모든 대상자 목록에 액세스할 수 있습니다. 클릭 **만들기** 과 같은 다양한 워크플로우 활동을 사용하여 시각적 캔버스로 새로운 대상을 만들려면 **분할** 또는 **제외**.<br/><br/>다음 **[!UICONTROL 원본]** 열은 대상자의 출처를 나타냅니다. **[!UICONTROL Adobe Campaign]** 대상자는 Adobe Campaign v8 콘솔 또는 웹 사용자 인터페이스로 만들어졌지만 **[!UICONTROL Adobe Experience Platform:]** 대상은 Adobe Experience Platform 내에서 만들어지고 Adobe 소스 및 대상 통합을 사용하여 Campaign에 통합되었습니다."
 
->[!CONTEXTUALHELP]
+<!--
+[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"
->title="대상자 설정"
->abstract="대상자 이름과 추가 옵션을 입력한 후 **대상자 만들기** 버튼을 클릭합니다."
+>title="Audience settings"
+>abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
 
-Campaign 웹을 사용하면 시각적 워크플로우 캔버스로 새로운 대상을 만들 수 있습니다. 처음부터 시작하여 간단한 대상자를 만드는 것 외에도 워크플로우 활동을 활용하여 대상자를 세분화할 수도 있습니다. 예를 들어 여러 대상을 하나의 대상으로 결합하거나, 외부 속성으로 대상을 보강하거나, 선택한 규칙에 따라 대상을 여러 대상으로 나눌 수 있습니다.
+Campaign 웹을 사용하면 시각적 워크플로우 캔버스로 새로운 대상을 만들 수 있습니다. 처음부터 시작하여 간단한 대상자를 만드는 것 외에도 워크플로 활동을 활용하여 대상자를 세분화할 수도 있습니다. 예를 들어 여러 대상을 하나의 대상으로 결합하거나, 외부 속성으로 대상을 보강하거나, 선택한 규칙에 따라 대상을 여러 대상으로 나눌 수 있습니다.
 
 워크플로우를 만들면 결과 대상자가 기존 대상자와 함께 Campaign 데이터베이스 내에 자동으로 저장됩니다. 그런 다음 워크플로우 또는 독립 실행형 게재에서 이러한 대상을 타기팅할 수 있습니다.
 

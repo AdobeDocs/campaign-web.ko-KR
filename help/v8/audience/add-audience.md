@@ -3,10 +3,10 @@ audience: end-user
 title: 기존 대상자 선택
 description: 대상자 선택 방법 알아보기
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 1d639f16c470297d115443b5579547419413a3d3
+source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 31%
+source-wordcount: '333'
+ht-degree: 33%
 
 ---
 
@@ -19,15 +19,14 @@ ht-degree: 31%
 >abstract="목록을 찾아 기존 대상자를 선택합니다. “필터 표시” 아이콘을 사용하여 목록을 필터링하거나 특정 폴더를 선택합니다."
 
 이 섹션에서는 게재의 대상 모집단을 정의할 때 기존 대상자를 선택하는 방법을 설명합니다. 게재의 기본 대상을 정의할 때 다음을 수행할 수도 있습니다.
-
 * [일회성 대상자 작성](one-time-audience.md) 쿼리 모델러를 사용하는 중입니다.
 * [외부 파일에서 대상자 로드](file-audience.md) (이메일에만 해당).
 
-게재에서 타겟팅할 수 있는 대상은에서 액세스할 수 있습니다. **대상자** 왼쪽 메뉴. 이는 클라이언트 콘솔, Campaign 웹 대상자 워크플로우 또는 Adobe Experience Platform과 같은 여러 소스에서 생성됩니다. [대상자 모니터링 및 관리 방법 알아보기](manage-audience.md)
+게재에서 타겟팅할 수 있는 대상은에서 액세스할 수 있습니다. **대상자** 왼쪽 메뉴. 이는 클라이언트 콘솔, Campaign 웹 대상자 워크플로우 또는 Adobe Experience Platform과 같은 여러 소스에서 생성됩니다. [대상자에 대해 자세히 알아보기](manage-audience.md)
 
 메시지의 기존 대상자를 선택하려면 아래 단계를 따르십시오.
 
-1. 다음에서 **대상자** 게재 만들기 도우미의 섹션에서 **[!UICONTROL 대상자 선택]** 버튼을 누른 다음 선택 **[!UICONTROL 대상자 선택]** 기존 대상을 사용합니다.
+1. 다음에서 **대상자** 게재 만들기 도우미의 섹션에서 **[!UICONTROL 대상자 선택]** 버튼을 누른 다음 선택 **[!UICONTROL 대상자 선택]**.
 
    ![](assets/create-audience.png){zoomable=&quot;yes&quot;}
 

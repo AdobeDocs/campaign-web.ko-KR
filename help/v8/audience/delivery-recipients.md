@@ -2,13 +2,13 @@
 audience: end-user
 title: 게재 수신자 선택
 description: 게재 수신자 선택 방법 알아보기
-source-git-commit: e0a5a5d8d24df05e3bdb98ecb57eb89d26c8bf3d
+exl-id: 33366af1-17b5-4ef7-8e0c-b7a8ae6e1e82
+source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%
 
 ---
-
 
 # 게재 수신자 선택 {#add-audience}
 
@@ -19,3 +19,4 @@ ht-degree: 0%
 * [외부 파일에서 대상자 로드](file-audience.md). 이 옵션은 독립형 이메일 게재에만 사용할 수 있습니다.
 
 대상자를 타깃팅할 때 다음을 정의할 수도 있습니다. **컨트롤 그룹** 대상자의 일부에 메시지를 보내지 않도록 하고 캠페인의 영향을 측정합니다. [컨트롤 그룹을 설정하는 방법 알아보기](control-group.md)
+

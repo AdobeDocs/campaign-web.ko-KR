@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: 6f47779bf0bf39de5481063851a4c2c13731d33f
+source-git-commit: 2573cacff81ab4dfab1c685ac2f532252eedca63
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '646'
 ht-degree: 94%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 94%
       + [추출 파일 설계](direct-mail/content-direct-mail.md)
       + [다이렉트 메일 게재 미리보기 및 전송](direct-mail/send-direct-mail.md)
    + AI Assistant {#ai-assistant}
-      + [AI Assistant 시작](email/generative-gs.md)
+      + [AI 어시스턴트 시작하기](email/generative-gs.md)
       + [AI Assistant를 사용하여 이메일 생성](email/generative-content.md)
       + [AI Assistant를 사용하여 SMS 생성](email/generative-sms.md)
       + [AI Assistant를 사용하여 푸시 알림 생성](email/generative-push.md)
@@ -109,9 +109,10 @@ ht-degree: 94%
       + [프로필 만들기](audience/create-profile.md)
       + [테스트 프로필 작업](audience/test-profiles.md)
    + 대상자 작업 {#audiences}
+      + [대상자 시작하기](audience/manage-audience.md)
       + [대상자 만들기](audience/create-audience.md)
-      + [대상자 모니터링 및 관리](audience/manage-audience.md)
    + 게재 수신자 선택 {#target-audiences}
+      + [대상자 선택 시작](audience/delivery-recipients.md)
       + [기존 대상자 선택](audience/add-audience.md)
       + [일회성 대상자 빌드](audience/one-time-audience.md)
       + [파일에서 이메일 대상자 로드](audience/file-audience.md)

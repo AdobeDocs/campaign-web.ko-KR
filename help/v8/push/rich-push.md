@@ -8,7 +8,7 @@ exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
 workflow-type: tm+mt
 source-wordcount: '1417'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
 >title="나중에 알림 버튼"
->abstract="다음 **나중에 알림** 버튼은 미리 알림을 예약하는 옵션을 제공합니다. Timestamp 필드에는 epoch(초)를 나타내는 값이 필요합니다."
+>abstract="**나중에 알림** 버튼은 알림을 예약하는 옵션을 제공합니다. 타임스탬프 필드에는 에포크를 초 단위로 나타내는 값이 필요합니다."
 
 Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에서 선택할 수 있습니다.
 

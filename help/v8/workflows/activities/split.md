@@ -3,10 +3,10 @@ audience: end-user
 title: 분할 워크플로 활동 사용
 description: 분할 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 86%
+source-wordcount: '845'
+ht-degree: 85%
 
 ---
 
@@ -51,6 +51,11 @@ ht-degree: 86%
 >id="acw_orchestration_split_generatesubsets"
 >title="동일 테이블의 모든 하위 집합 생성"
 >abstract="모든 하위 집합을 단일 출력 전환으로 그룹화하려면 이 옵션을 토글하십시오."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_emptytransition"
+>title="빈 전환 건너뛰기"
+>abstract="빈 전환을 건너뜁니다."
 
 **분할** 활동을 구성하려면 다음 단계를 따르십시오.
 

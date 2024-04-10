@@ -30,7 +30,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
 >title="항목 2"
->abstract="간소화된 워크플로우 캔버스 인터페이스"
+>abstract="간소화된 워크플로 캔버스 인터페이스"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"

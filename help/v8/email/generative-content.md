@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 **목차**
 
-* [AI Assistant 시작](generative-gs.md)
+* [AI 어시스턴트 시작하기](generative-gs.md)
 * **[AI Assistant를 사용하여 이메일 생성](generative-content.md)**
 * [AI Assistant를 사용하여 SMS 생성](generative-sms.md)
 * [AI Assistant를 사용하여 푸시 알림 생성](generative-push.md)

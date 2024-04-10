@@ -8,7 +8,7 @@ breadcrumb-title: Campaign Web 사용자 인터페이스
 source-git-commit: 2573cacff81ab4dfab1c685ac2f532252eedca63
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 

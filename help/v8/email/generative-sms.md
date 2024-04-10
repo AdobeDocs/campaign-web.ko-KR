@@ -5,10 +5,11 @@ description: Campaign에서 AI Assistant 시작
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
+exl-id: db0459e5-8759-42d9-8945-8c9667450527
+source-git-commit: 886fd47b52d08b0a1bfcbeca03929d48b5bc2a3f
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 5%
 
 **목차**
 
-* [AI Assistant 시작](generative-gs.md)
+* [AI 어시스턴트 시작하기](generative-gs.md)
 * [AI Assistant를 사용하여 이메일 생성](generative-content.md)
 * **[AI Assistant를 사용하여 SMS 생성](generative-sms.md)**
 * [AI Assistant를 사용하여 푸시 알림 생성](generative-push.md)

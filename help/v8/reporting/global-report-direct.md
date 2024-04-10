@@ -3,9 +3,9 @@ audience: end-user
 title: DM 채널에 대한 전역 보고서
 description: DM 채널에 대한 글로벌 보고서에 대해 자세히 알아보기
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: 98a0ce67682f8e1ab412be91b5af01e35c638f99
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '626'
 ht-degree: 33%
 
 ---
@@ -101,7 +101,7 @@ DM 글로벌 보고서는 채널 수준의 트래픽 및 참여 지표에 대한
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_causes_exclusion_direct_mail_graph"
->title="제외 이유 게재"
+>title="제외 이유"
 >abstract="**제외 원인** 그래프는 게재 준비 과정에서 거부된 메시지의 분포를 각 규칙별로 분류하여 보여 줍니다."
 
 ![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}

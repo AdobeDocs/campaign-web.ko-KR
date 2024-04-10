@@ -3,10 +3,10 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
+source-git-commit: 35d7872ceb79a43cf24d8c9cc01dbfaed62c22f3
 workflow-type: tm+mt
-source-wordcount: '2129'
-ht-degree: 76%
+source-wordcount: '2209'
+ht-degree: 98%
 
 ---
 
@@ -320,7 +320,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
 >title="기본 랜딩 페이지"
->abstract="이 구독 서비스에 연결된 기본 랜딩 페이지를 선택합니다."
+>abstract="이 구독 서비스와 연결된 기본 랜딩 페이지를 선택하십시오."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
@@ -329,13 +329,13 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
->title="구독 서비스 매개 변수"
->abstract="구독 서비스 설정을 선택하고 확인합니다."
+>title="구독 서비스 매개변수"
+>abstract="구독 서비스에 대한 설정을 선택하고 확인합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="구독 서비스 아웃바운드 전환"
->abstract="전환 **아웃바운드 전환 생성** 활동 뒤에 전환을 추가하는 옵션입니다."
+>abstract="**아웃바운드 전환 생성** 옵션을 토글하여 활동 뒤에 전환을 추가합니다."
 
 
 <!--Update file-->
@@ -343,37 +343,37 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata"
 >title="데이터 업데이트"
->abstract="다음 **데이터 업데이트** 활동은 데이터베이스의 필드에 대한 대량 업데이트를 수행합니다."
+>abstract="**데이터 업데이트** 활동은 데이터베이스에서 필드의 대량 업데이트를 수행합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
 >title="데이터 업데이트 방법 선택"
->abstract="다음 **작업 유형** 필드를 사용하면 데이터베이스의 데이터에 대해 수행할 프로세스를 선택할 수 있습니다. 데이터를 추가하거나 업데이트할 첫 번째 옵션을 선택합니다(이미 추가된 경우). 데이터만 추가하거나, 데이터만 업데이트하거나, 데이터를 삭제할 수도 있습니다. 다음 항목 선택 **컬렉션 업데이트 및 병합** 을(를) 클릭하여 중복을 연결할 기본 레코드를 선택하고 해당 중복을 안전하게 삭제합니다."
+>abstract="**작업 유형** 필드를 사용하면 데이터베이스의 데이터에 대해 수행할 프로세스를 선택할 수 있습니다. 데이터를 추가하거나 업데이트하려면 첫 번째 옵션을 선택하십시오(이미 추가된 경우). 데이터를 추가만 하거나, 데이터를 업데이트만 하거나, 데이터를 삭제할 수도 있습니다. **컬렉션 업데이트 및 병합**&#x200B;을 선택하여 중복 항목을 연결할 기본 레코드를 선택하고 해당 중복 항목을 안전하게 삭제할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
 >title="레코드 식별"
->abstract="데이터베이스에서 레코드를 식별하는 방법을 지정합니다. 데이터가 기존 타겟팅 차원과 관련된 경우 다음을 선택합니다. **타겟팅 차원 사용** 옵션을 선택하고 업데이트할 타겟팅 차원과 필드를 선택합니다. 그렇지 않으면 하나 이상의 사용자 지정 링크를 지정하여 데이터베이스의 데이터를 식별하거나 조정 키를 직접 사용하십시오."
+>abstract="데이터베이스에서 레코드를 식별하는 방법을 지정합니다. 데이터가 기존 타겟팅 차원과 관련된 경우 **타겟팅 차원 사용** 옵션을 선택하고 업데이트할 타겟팅 차원과 필드를 선택합니다. 그렇지 않으면 하나 이상의 사용자 정의 링크를 지정하여 데이터베이스의 데이터를 식별하거나 조정 키를 직접 사용하십시오."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
 >title="업데이트할 필드 선택"
->abstract="업데이트할 필드와 조정 설정을 선택합니다. 다음을 사용할 수 있습니다. **자동 매핑** 업데이트할 필드를 자동으로 식별하는 옵션."
+>abstract="업데이트할 필드와 조정 설정을 선택합니다. **자동 매핑** 옵션을 사용하여 업데이트할 필드를 자동으로 식별할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
 >title="데이터 업데이트를 위한 고급 옵션"
->abstract="다음 **고급 옵션** 섹션에서는 데이터 및 중복을 관리하기 위한 추가 설정을 지정할 수 있습니다."
+>abstract="**고급 옵션** 섹션에서는 데이터 및 중복 항목을 관리하기 위한 추가 설정을 지정할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
 >title="아웃바운드 전환 생성"
->abstract="전환 **아웃바운드 전환 생성** 실행 종료 시 활성화될 아웃바운드 전환을 추가하는 옵션 **데이터 업데이트** 활동. 업데이트는 일반적으로 타겟팅 워크플로우의 끝을 표시하므로 옵션이 기본적으로 활성화되지 않습니다."
+>abstract="**아웃바운드 전환 생성** 옵션을 토글하여 **데이터 업데이트** 활동의 실행이 종료될 때 활성화될 아웃바운드 전환을 추가합니다. 업데이트는 일반적으로 타겟팅 워크플로의 끝을 표시하므로 해당 옵션은 기본적으로 활성화되지 않습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
 >title="거부에 대한 아웃바운드 전환을 생성합니다."
->abstract="전환 **거부에 대한 아웃바운드 전환 생성** 업데이트 후 올바르게 처리되지 않은 레코드가 포함된 아웃바운드 전환을 추가하는 옵션(예: 중복이 있는 경우). 업데이트는 일반적으로 타겟팅 워크플로우의 끝을 표시하므로 옵션이 기본적으로 활성화되지 않습니다."
+>abstract="**거부에 대한 아웃바운드 전환 생성** 옵션을 토글하여 업데이트 후 올바르게 처리되지 않은 레코드가 포함된 아웃바운드 전환을 추가합니다(예: 중복 항목이 있는 경우). 업데이트는 일반적으로 타겟팅 워크플로의 끝을 표시하므로 해당 옵션은 기본적으로 활성화되지 않습니다."
 
 
 
@@ -382,7 +382,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="외부 신호"
->abstract="다음 **외부 신호** 활동을 사용하면 API 또는 다른 워크플로우에서 워크플로우의 작업 집합 실행을 트리거할 수 있습니다."
+>abstract="**외부 신호** 활동을 사용하면 API 또는 다른 워크플로의 워크플로에 있는 작업 집합의 실행을 트리거할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
@@ -401,24 +401,25 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="JavaScript 코드"
->abstract="다음 **JavaScript 코드** 활동은 워크플로우 컨텍스트에서 JavaScript 코드를 실행합니다."
+>abstract="**JavaScript 코드** 활동은 워크플로의 컨텍스트에서 JavaScript 코드를 실행합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="JavaScript 스니펫"
 >abstract="실행할 코드를 구성합니다."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="자세한 내용은 Campaign v8(콘솔) 설명서 를 참조하세요"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="Campaign v8 (콘솔) 설명서에서 자세히 알아보십시오."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
 >title="JavaScript 실행"
->abstract="기본적으로 실행 단계는 1시간을 초과할 수 없습니다. 이 지연 후에 프로세스가 중단되고 오류 메시지가 표시되며 활동 실행이 실패합니다. 전환 **다음 이후 실행 중지** 사용자 지정 지연을 정의하는 옵션입니다. 이 제한을 무시하려면 값을 0으로 설정합니다."
+>abstract="기본적으로 실행 단계는 1시간을 초과할 수 없습니다. 이 지연 후에는 오류 메시지와 함께 프로세스가 중단되고 활동 실행이 실패합니다. 사용자 정의 지연을 정의하려면 **다음 이후 실행 중단** 옵션을 토글하십시오. 이 제한을 무시하려면 값을 0으로 설정하십시오."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
->title="프로세스 오류"
->abstract="전환 **프로세스 오류** 옵션을 사용하여 오류가 포함된 아웃바운드 전환을 추가합니다."
+>title="오류 처리"
+>abstract="**오류 처리** 옵션을 토글하여 오류가 포함된 아웃바운드 전환을 추가할 수 있습니다."
+
 
 
 <!--ExtractFile-->
@@ -426,7 +427,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="파일 추출"
->abstract="파일 추출 활동"
+>abstract="파일 활동 추출"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_file"
@@ -441,17 +442,17 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="사후 처리"
->abstract="후 처리 단계 정의"
+>abstract="사후 처리 단계 정의"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_outbound"
 >title="아웃바운드 전환"
->abstract="전환 **아웃바운드 전환 생성** 현재 활동 뒤에 아웃바운드 전환을 추가하는 옵션입니다."
+>abstract="**아웃바운드 전환 생성** 옵션을 토글하여 현재 활동 뒤에 아웃바운드 전환을 추가할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
->title="프로세스 오류"
->abstract="전환 **프로세스 오류** 옵션을 사용하여 오류가 포함된 아웃바운드 전환을 추가합니다."
+>title="오류 처리"
+>abstract="**오류 처리** 옵션을 토글하여 오류가 포함된 아웃바운드 전환을 추가할 수 있습니다."
 
 <!-- Workflow settings -->
 
@@ -474,3 +475,74 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_workflow_settings_execution_initscript"
 >title="실행 초기화 스크립트"
 >abstract="실행 초기화 스크립트"
+
+
+<!--incremental querry -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery"
+>title="증분 쿼리"
+>abstract="증분 쿼리"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery_history"
+>title="증분 쿼리 내역"
+>abstract="증분 쿼리 내역"
+
+
+<!-- Transfer file activity -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile"
+>title="파일 전송"
+>abstract="파일 전송"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_options"
+>title="파일 전송 옵션"
+>abstract="파일 전송 옵션"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_activity"
+>title="파일 전송 활동"
+>abstract="파일 전송 활동"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_remoteserver"
+>title="파일 원격 서버 전송"
+>abstract="파일 원격 서버 전송"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_source"
+>title="파일 소스 전송"
+>abstract="파일 소스 전송"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_delete_file"
+>title="전송 후 소스 파일 삭제"
+>abstract="전송 후 소스 파일 삭제"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_display_logs"
+>title="세션 로그 표시"
+>abstract="세션 로그 표시"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_list_files"
+>title="파일 모두 나열"
+>abstract="파일 모두 나열"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_historization"
+>title="파일 기록"
+>abstract="파일 기록"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_missing_file"
+>title="누락된 파일 처리"
+>abstract="누락된 파일 처리"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_errors"
+>title="오류 처리"
+>abstract="오류 처리"

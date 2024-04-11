@@ -6,9 +6,9 @@ title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
 source-git-commit: 2573cacff81ab4dfab1c685ac2f532252eedca63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -76,11 +76,11 @@ ht-degree: 95%
       + [DM 게재 만들기](direct-mail/create-direct-mail.md)
       + [추출 파일 설계](direct-mail/content-direct-mail.md)
       + [다이렉트 메일 게재 미리보기 및 전송](direct-mail/send-direct-mail.md)
-   + AI Assistant {#ai-assistant}
+   + AI 어시스턴트 {#ai-assistant}
       + [AI 어시스턴트 시작하기](email/generative-gs.md)
-      + [AI Assistant를 사용하여 이메일 생성](email/generative-content.md)
-      + [AI Assistant를 사용하여 SMS 생성](email/generative-sms.md)
-      + [AI Assistant를 사용하여 푸시 알림 생성](email/generative-push.md)
+      + [AI 어시스턴트로 이메일 생성](email/generative-content.md)
+      + [AI 어시스턴트와 함께하는 SMS 세대](email/generative-sms.md)
+      + [AI 어시스턴트로 푸시 알림 생성](email/generative-push.md)
    + 다이내믹 콘텐츠 만들기 {#dynamic-content}
       + [다이내믹 콘텐츠 시작](personalization/gs-personalization.md)
       + [개인화 추가](personalization/personalize.md)
@@ -112,7 +112,7 @@ ht-degree: 95%
       + [대상자 시작하기](audience/manage-audience.md)
       + [대상자 만들기](audience/create-audience.md)
    + 게재 수신자 선택 {#target-audiences}
-      + [대상자 선택 시작](audience/delivery-recipients.md)
+      + [대상자 선택 시작하기](audience/delivery-recipients.md)
       + [기존 대상자 선택](audience/add-audience.md)
       + [일회성 대상자 빌드](audience/one-time-audience.md)
       + [파일에서 이메일 대상자 로드](audience/file-audience.md)
@@ -142,7 +142,7 @@ ht-degree: 95%
       + [차원 변경](workflows/activities/change-dimension.md)
       + [결합](workflows/activities/combine.md)
       + [중복 제거](workflows/activities/deduplication.md)
-      + [이메일, SMS, 푸시, DM](workflows/activities/channels.md)
+      + [이메일, SMS, 푸시, 다이렉트 메일](workflows/activities/channels.md)
       + [보강](workflows/activities/enrichment.md)
       + [포크](workflows/activities/fork.md)
       + [파일 로드](workflows/activities/load-file.md)

@@ -4,9 +4,9 @@ title: Campaign Web 사용자 인터페이스/클라이언트 콘솔 기능 매�
 description: Campaign Web 사용자 인터페이스에서 지원되는 기능 목록
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2141'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Campaign v8(클라이언트 콘솔) 설명서를 찾아보고 이 기능을 사�
 * **마케팅 캘린더**. 캠페인 달력에는 모든 프로그램, 기획, 캠페인, 게재가 통합 타임라인으로 표시됩니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ko#campaign-calendar){target="_blank"}
 * **프로그램 및 기획**. 각 캠페인은 프로그램에 속하며, 프로그램은 기획에 속합니다. Campaign Web 사용자 인터페이스에서 모든 캠페인은 기본 내장 기획 및 프로그램과 연결되어 있습니다. 클라이언트 콘솔에서만 기획과 프로그램을 만들고 관리할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ko#work-with-plan-and-program){target="_blank"}
 * **공급자, 예산, 비용 관리**. 캠페인 내에서 수행하는 작업에 참여하는 서비스 공급자를 구성(비용 구조 포함)하고 각 프로그램 및 캠페인 내에서 예산을 관리할 수 있습니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html?lang=ko){target="_blank"}
-* **분산 마케팅**(중앙/로컬 마케팅). Adobe Campaign은 중앙 엔터티(본사, 마케팅 부서 등) 간 협력 캠페인을 구현하기 위한 [분산 마케팅] 앱을 제공합니다. 공동 캠페인을 실시할 수 있습니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ko){target="_blank"}
+* **분산 마케팅**(중앙/로컬 마케팅). Adobe Campaign은 중앙 엔티티(본사, 마케팅 부서 등) 간 협력 캠페인을 구현하기 위한 [분산 마케팅] 앱을 제공합니다. 공동 캠페인을 실시할 수 있습니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ko){target="_blank"}
 * **마케팅 리소스 관리**(MRM), 목표, 시뮬레이션, 원가 관리. Adobe Campaign은 관련 작업, 예산, 마케팅 리소스에 대한 완전한 관리 및 실시간 추적으로 공동 작업 모드에서 마케팅 활동을 제어할 수 있는 마케팅 리소스 관리(MRM) 앱을 제공합니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=ko){target="_blank"}
 * **작업 관리**.  MRM 앱의 일부로 Campaign 작업을 캠페인 대시보드에서 만들고 할당, 추적, 모니터링할 수 있습니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=ko){target="_blank"}
 
@@ -107,7 +107,7 @@ Campaign v8(클라이언트 콘솔) 설명서를 찾아보고 유형 규칙에 �
 * 필터링 규칙 만들기. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html?lang=ko){target="_blank"}
 * 유형화 규칙 관리. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html?lang=ko){target="_blank"}
 * 캠페인 시뮬레이션. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html?lang=ko){target="_blank"}
-* 유형화 규칙 작성을 위한 JavaScript 코딩 [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ko#use-cases-on-pressure-rules){target="_blank"}
+* 유형화 규칙 작성을 위한 JavaScript 코딩. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ko#use-cases-on-pressure-rules){target="_blank"}
 
 ## 워크플로 {#wf-capabilities}
 
@@ -133,7 +133,7 @@ Adobe Campaign Web 사용자 인터페이스에서 만든 게재를 통해 오�
 다음 통합 기능은 Adobe Campaign 클라이언트 콘솔에서 사용할 수 있으며 Campaign Web 사용자 인터페이스에서는 아직 사용할 수 없습니다. Campaign v8(클라이언트 콘솔) 설명서를 찾아보고 이 통합에 대해 자세히 알아보려면 제공된 링크를 사용하십시오.
 
 * Adobe Analytics 데이터 사용 및 KPI 공유. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=ko){target="_blank"}
-* Adobe Experience Cloud(Adobe Audience Manager)를 통한 대상 공유. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ko){target="_blank"}
+* Adobe Experience Cloud(Adobe Audience Manager)를 통한 대상자 공유. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ko){target="_blank"}
 * Adobe Target과 통합. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-at.html?lang=ko){target="_blank"}
 * Adobe Experience Cloud 트리거와 통합. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-triggers.html?lang=ko){target="_blank"}
 

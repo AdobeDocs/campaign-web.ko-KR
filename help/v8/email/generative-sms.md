@@ -6,23 +6,23 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 886fd47b52d08b0a1bfcbeca03929d48b5bc2a3f
+source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 6%
+source-wordcount: '473'
+ht-degree: 10%
 
 ---
 
-# AI Assistant를 사용하여 SMS 생성 {#generative-sms}
+# AI 어시스턴트와 함께하는 SMS 세대 {#generative-sms}
 
 >[!BEGINSHADEBOX]
 
 **목차**
 
 * [AI 어시스턴트 시작하기](generative-gs.md)
-* [AI Assistant를 사용하여 이메일 생성](generative-content.md)
+* [AI 어시스턴트로 이메일 생성](generative-content.md)
 * **[AI Assistant를 사용하여 SMS 생성](generative-sms.md)**
-* [AI Assistant를 사용하여 푸시 알림 생성](generative-push.md)
+* [AI 어시스턴트로 푸시 알림 생성](generative-push.md)
 
 >[!ENDSHADEBOX]
 
@@ -46,35 +46,42 @@ ht-degree: 6%
 
    ![](assets/sms-genai-1.png){zoomable=&quot;yes&quot;}
 
+1. 활성화 **[!UICONTROL 원본 컨텐츠 사용]** ai 비서가 게재, 게재명 및 선택한 대상자를 기반으로 새 콘텐츠를 개인화할 수 있는 옵션.
+
+   >[!IMPORTANT]
+   >
+   > 브랜드 자산을 업로드하거나 를 활성화하여 프롬프트를 항상 특정 컨텍스트에 연결해야 합니다. **[!UICONTROL 현재 콘텐츠 향상]** 옵션을 선택합니다.
+
 1. 에서 생성하려는 내용을 설명하여 콘텐츠를 미세 조정합니다. **[!UICONTROL 프롬프트]** 필드.
 
    메시지를 작성하는 데 도움이 필요한 경우 **[!UICONTROL 프롬프트 라이브러리]** 게재를 개선하기 위한 다양한 신속한 아이디어를 제공합니다.
 
    ![](assets/sms-genai-2.png){zoomable=&quot;yes&quot;}
 
-1. 활성화 **[!UICONTROL 현재 컨텍스트로 개선]** ai 비서가 게재, 게재명 및 선택한 대상자를 기반으로 새 콘텐츠를 개인화할 수 있는 옵션.
-
-   >[!IMPORTANT]
-   >
-   > 브랜드 자산을 업로드하거나 를 활성화하여 프롬프트를 항상 특정 컨텍스트에 연결해야 합니다. **[!UICONTROL 현재 콘텐츠 향상]** 옵션을 선택합니다.
-
 1. 선택 **[!UICONTROL 브랜드 자산 업로드]** 추가 컨텍스트를 제공할 수 있는 콘텐츠가 포함된 브랜드 자산을 AI Assistant에 추가합니다.
 
-1. 다음 항목 선택 **[!UICONTROL 커뮤니케이션 전략]** 그것은 너의 요구에 가장 잘 맞는다. 생성된 텍스트의 색조와 스타일에 영향을 줍니다.
+1. 프롬프트를 다음과 같은 다양한 옵션으로 사용자 지정합니다.
 
-1. 다음을 선택합니다. **[!UICONTROL 언어]** 및 **[!UICONTROL 톤]** 생성된 텍스트에 포함할 텍스트입니다. 이렇게 하면 텍스트가 대상자와 목적에 맞게 조정됩니다.
+   * **[!UICONTROL 커뮤니케이션 전략]**: 생성된 텍스트에 대해 원하는 통신 접근 방식을 선택합니다.
+   * **[!UICONTROL 언어]**: 변형 콘텐츠의 언어를 선택합니다.
+   * **[!UICONTROL 톤]**: 텍스트가 대상자 및 목적에 적합한지 확인합니다.
+   * **[!UICONTROL 길이]**: 범위 슬라이더를 사용하여 콘텐츠의 길이를 선택합니다.
 
    ![](assets/sms-genai-3.png){zoomable=&quot;yes&quot;}
 
-1. 생성된 텍스트의 길이를 설정하려면 슬라이더 컨트롤을 사용합니다.
-
 1. 프롬프트가 준비되면 다음을 클릭합니다. **[!UICONTROL 생성]**.
 
-1. 생성된 를 통해 찾아보기 **[!UICONTROL 변형]** 및 클릭 **[!UICONTROL 적용]** 적절한 콘텐츠를 찾았으면
+1. 생성된 를 통해 찾아보기 **[!UICONTROL 변형]** 및 클릭 **[!UICONTROL 미리 보기]** 선택한 변형의 전체 화면 버전을 보려면 다음과 같이 하십시오.
 
-   클릭 **[!UICONTROL 미리 보기]** 선택한 변형의 전체 화면 버전을 보려면 다음과 같이 하십시오.
+1. 다음 위치로 이동 **[!UICONTROL 세부 조정]** 내의 옵션 **[!UICONTROL 미리 보기]** 추가 사용자 정의 기능에 액세스하고 변형을 환경 설정에 맞게 세부 조정할 수 있는 창:
+
+   * **언어 단순화**: AI 도우미는 모든 사람이 이해할 수 있는 명확하고 간결한 메시지를 작성할 수 있도록 도와줍니다.
+
+   * **구문 변경**: AI 도우미는 다양한 대상자가 흥미를 갖도록 메시지를 다시 표현합니다.
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
+
+1. 클릭 **[!UICONTROL 선택]** 적절한 콘텐츠를 찾았으면
 
 1. 개인화 필드를 삽입하여 프로필 데이터를 기반으로 SMS 콘텐츠를 사용자 지정합니다. [콘텐츠 개인화에 대해 자세히 알아보기](../personalization/personalize.md)
 
@@ -84,4 +91,4 @@ ht-degree: 6%
 
    ![](assets/sms-genai-6.png){zoomable=&quot;yes&quot;}
 
-1. 콘텐츠, 대상자 및 일정을 정의했으면 SMS 게재를 준비할 준비가 되었습니다. [자세히 알아보기](../monitor/prepare-send.md)
+콘텐츠, 대상자 및 일정을 정의했으면 SMS 게재를 준비할 준비가 되었습니다. [자세히 알아보기](../monitor/prepare-send.md)

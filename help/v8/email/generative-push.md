@@ -6,33 +6,42 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 886fd47b52d08b0a1bfcbeca03929d48b5bc2a3f
+source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 7%
+source-wordcount: '546'
+ht-degree: 9%
 
 ---
 
-# AI Assistant를 사용하여 푸시 알림 생성 {#generative-push}
+# AI 어시스턴트로 푸시 알림 생성 {#generative-push}
 
 >[!BEGINSHADEBOX]
 
 **목차**
 
 * [AI 어시스턴트 시작하기](generative-gs.md)
-* [AI Assistant를 사용하여 이메일 생성](generative-content.md)
-* [AI Assistant를 사용하여 SMS 생성](generative-sms.md)
+* [AI 어시스턴트로 이메일 생성](generative-content.md)
+* [AI 어시스턴트와 함께하는 SMS 세대](generative-sms.md)
 * **[AI Assistant를 사용하여 푸시 알림 생성](generative-push.md)**
 
 >[!ENDSHADEBOX]
 
-이메일을 만들고 개인화한 후에는 생성 AI에서 제공하는 Campaign의 AI Assistant를 사용하여 콘텐츠를 한 차원 끌어올리십시오.
 
 AI 도우미는 대상자에게 반향을 일으킬 가능성이 높은 다양한 콘텐츠를 제안하여 게재의 영향을 최적화하는 데 도움이 됩니다.
+
+AI 도우미를 통해 콘텐츠를 새로운 수준으로 끌어올릴 수 있습니다. 예를 들어 다음을 수행하는 데 사용할 수 있습니다.
+
+* **요약**: 푸시 알림에 대해 긴 컨텐츠를 간결한 요약으로 축약합니다. 정확하게 파악하고 수신자가 주요 메시지를 즉시 파악할 수 있도록 합니다.
+* **정교하**: 푸시 알림 내의 주제를 확장하여 추가적인 세부 정보와 컨텍스트를 제공하므로 더 잘 이해할 수 있습니다.
+* **언어 단순화**: 명확하고 간결한 언어를 사용하여 더 많은 사용자가 푸시 알림에 액세스할 수 있도록 합니다.
+* **구문 변경**: AI 도우미가 메시지를 다른 방식으로 다시 구문 분석하도록 하여 반복 방지
+* **색조 변경**: 푸시 알림의 감성적인 톤 변경. AI 어시스턴트는 유익하거나, 장난스럽거나, 긴급하게 들리고자 하는 경우 해당 메시지를 적절히 조정할 수 있습니다.
 
 >[!NOTE]
 >
 >이 기능의 사용을 시작하기 전에 관련 항목을 읽어 보십시오. [보호 및 제한 사항](generative-gs.md#guardrails-and-limitations).
+
+다음 예에서는 AI Assistant를 활용하여 보다 매력적인 고객 경험을 구축하기 위해 매력적인 메시지를 작성하겠습니다.
 
 1. 푸시 알림 게재를 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**.
 
@@ -87,3 +96,4 @@ AI 도우미는 대상자에게 반향을 일으킬 가능성이 높은 다양�
    ![](assets/push-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. 콘텐츠, 대상 및 일정을 정의했으면 푸시 게재를 준비할 준비가 되었습니다. [자세히 알아보기](../monitor/prepare-send.md)
+

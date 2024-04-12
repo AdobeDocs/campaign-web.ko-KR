@@ -6,7 +6,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
+source-git-commit: cc73a638980b9dd6e56d630ad94d70475356e390
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 10%
@@ -65,7 +65,7 @@ ht-degree: 10%
    * **[!UICONTROL 커뮤니케이션 전략]**: 생성된 텍스트에 대해 원하는 통신 접근 방식을 선택합니다.
    * **[!UICONTROL 언어]**: 변형 콘텐츠의 언어를 선택합니다.
    * **[!UICONTROL 톤]**: 텍스트가 대상자 및 목적에 적합한지 확인합니다.
-   * **[!UICONTROL 길이]**: 범위 슬라이더를 사용하여 콘텐츠의 길이를 선택합니다.
+   * **[!UICONTROL Length]**: 범위 슬라이더를 사용하여 콘텐츠의 길이를 선택합니다.
 
    ![](assets/sms-genai-3.png){zoomable=&quot;yes&quot;}
 

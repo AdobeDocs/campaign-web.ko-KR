@@ -6,10 +6,10 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: cc73a638980b9dd6e56d630ad94d70475356e390
+source-git-commit: 3fff275bbd3695440e47417e131e66b6ddafbf1b
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -81,9 +81,9 @@ AI Assistant를 사용하면 전체 이메일, 타겟팅된 텍스트 콘텐츠 
 
 1. 다음 위치로 이동 **[!UICONTROL 세부 조정]** 내의 옵션 **[!UICONTROL 미리 보기]** 추가 사용자 지정 기능에 액세스하기 위한 창:
 
-   * **구문 변경**: AI Assistant는 다양한 방식으로 메시지를 고쳐 써서 다양한 대상자를 유혹할 수 있습니다.
+   * **[!UICONTROL 구문 변경]**: AI Assistant는 다양한 방식으로 메시지를 고쳐 써서 다양한 대상자를 유혹할 수 있습니다.
 
-   * **간단한 언어 사용**: AI Assistant를 사용하여 언어를 단순화함으로써, 보다 많은 대상자가 명확하고 쉽게 사용할 수 있습니다.
+   * **[!UICONTROL 간단한 언어 사용]**: AI Assistant를 사용하여 언어를 단순화함으로써, 보다 많은 대상자가 명확하고 쉽게 사용할 수 있습니다.
 
    ![](assets/full-email-5.png){zoomable=&quot;yes&quot;}
 

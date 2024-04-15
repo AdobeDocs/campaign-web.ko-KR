@@ -3,9 +3,9 @@ audience: end-user
 title: 조정 워크플로우 활동 사용
 description: 조정 워크플로우 활동을 사용하는 방법을 알아봅니다
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 935fba929c26d6d7b3057ee7c24148215a04e45e
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '858'
 ht-degree: 44%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 44%
 
 다음 단계에 따라 **조정** 활동:
 
-1. 드래그 앤 드롭 **조정** 활동을 워크플로우에 추가합니다. 이 활동은 타겟팅 차원이 Adobe Campaign에서 바로 제공되지 않는 모집단이 포함된 전환 후에 추가해야 합니다.
+1. 추가 **조정** 활동을 워크플로우에 추가합니다. 이 활동은 타겟팅 차원이 Adobe Campaign에서 바로 제공되지 않는 모집단이 포함된 전환 후에 추가해야 합니다.
 
 1. 새로운 타겟팅 차원을 선택합니다. 차원을 사용하여 대상 모집단(수신자, 앱 구독자, 운영자, 구독자 등)을 정의할 수 있습니다. [타겟팅 차원에 대해 자세히 알아보기](../../audience/about-recipients.md#targeting-dimensions).
 

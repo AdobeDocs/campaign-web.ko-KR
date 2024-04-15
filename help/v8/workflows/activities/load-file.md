@@ -3,9 +3,9 @@ audience: end-user
 title: 파일 로드 워크플로우 활동 사용
 description: 파일 로드 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
+source-git-commit: 935fba929c26d6d7b3057ee7c24148215a04e45e
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '392'
 ht-degree: 47%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 47%
 
 다음 단계에 따라 **파일 로드** 활동:
 
-1. 드래그 앤 드롭 **파일 로드** 활동을 워크플로우에 추가합니다. 다음을 클릭합니다. **파일에서 선택** 단추를 클릭합니다.
+1. 추가 **파일 로드** 활동을 워크플로우에 추가합니다. 다음을 클릭합니다. **파일에서 선택** 단추를 클릭합니다.
 
 1. 사용할 로컬 파일을 선택합니다. 형식은 다음과 일치해야 합니다. [샘플 파일](../../audience/file-audience.md#sample-file).
 

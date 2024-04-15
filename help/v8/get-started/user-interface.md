@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 35d7872ceb79a43cf24d8c9cc01dbfaed62c22f3
 workflow-type: tm+mt
 source-wordcount: '2209'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -486,8 +486,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery_history"
->title="증분 쿼리 내역"
->abstract="증분 쿼리 내역"
+>title="증분 쿼리 기록"
+>abstract="증분 쿼리 기록"
 
 
 <!-- Transfer file activity -->
@@ -509,13 +509,13 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_remoteserver"
->title="파일 원격 서버 전송"
->abstract="파일 원격 서버 전송"
+>title="파일 전송 원격 서버"
+>abstract="파일 전송 원격 서버"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
->title="파일 소스 전송"
->abstract="파일 소스 전송"
+>title="파일 전송 소스"
+>abstract="파일 전송 소스"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
@@ -529,8 +529,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"
->title="파일 모두 나열"
->abstract="파일 모두 나열"
+>title="모든 파일 나열"
+>abstract="모든 파일 나열"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"

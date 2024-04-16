@@ -17,7 +17,7 @@ ht-degree: 100%
 >id="acw_homepage_welcome_rn5"
 >title="랜딩 페이지"
 >abstract="새로운 랜딩 페이지 경험을 탐색해 보십시오. 기본 제공된 템플릿을 기반으로 확보, 구독/구독 취소 및 차단 목록 사용 사례를 관리할 수 있는 온라인 웹 페이지로 이동하는 랜딩 페이지를 즉시 만들고 디자인 및 공유할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 [!DNL Adobe Campaign]을(를) 사용하면 랜딩 페이지를 만들고 디자인하고 공유할 수 있습니다.
 

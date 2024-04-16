@@ -16,7 +16,7 @@ ht-degree: 32%
 >id="acw_homepage_welcome_rn1"
 >title="DM"
 >abstract="이제 다이렉트 메일 채널을 워크플로 및 독립 실행형 게재용으로 사용할 수 있습니다. 다이렉트 메일 오프라인 채널을 사용하여 추출 파일을 만들고, 개인화하고, 생성하고, 다이렉트 메일 공급자와 공유하여 고객에게 메일을 전송할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 
 다이렉트 메일은 엽서, 전단지 또는 카탈로그와 같은 개인화된 편지를 고객에게 대량 게재할 파일을 생성할 수 있는 오프라인 채널입니다.

@@ -3,9 +3,9 @@ audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
 workflow-type: tm+mt
-source-wordcount: '2014'
+source-wordcount: '2015'
 ht-degree: 55%
 
 ---

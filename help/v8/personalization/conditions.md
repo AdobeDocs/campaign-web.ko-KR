@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: c0b032539397d4f06c0e34981ed9e76bccb9cfd1
+source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
 workflow-type: tm+mt
 source-wordcount: '946'
 ht-degree: 8%
@@ -26,7 +26,7 @@ ht-degree: 8%
 
 조건부 콘텐츠 필드를 구성하여 예를 들어 수신자의 프로필을 기반으로 고급 동적 개인화를 만들 수 있습니다. 특정 조건이 충족되면 메시지 콘텐츠에서 텍스트 블록, 링크, 제목란 및/또는 이미지가 교체됩니다. 예를 들어 Adobe Campaign 데이터베이스의 Gender 필드 값에 따라 &#39;Mr&#39; 또는 &#39;Mrs&#39;를 표시하거나 수신자 기본 언어를 기반으로 다른 링크를 포함할 수 있습니다.
 
-조건부 콘텐츠를 만들려면 **표현식 편집기** 특정 도우미 함수를 사용합니다. 이 방법은 제목란 또는 이메일 링크 및 텍스트/버튼 콘텐츠 구성 요소와 같이 표현식 편집기에 액세스할 수 있는 모든 필드의 모든 게재 채널에 사용할 수 있습니다. [표현식 편집기에 액세스하는 방법 알아보기](gs-personalization.md/#access)
+조건부 콘텐츠를 만들려면 **표현식 편집기** 특정 도우미 함수를 사용합니다. 이 방법은 제목란 또는 이메일 링크 및 텍스트/버튼 콘텐츠 구성 요소와 같이 표현식 편집기에 액세스할 수 있는 모든 필드의 모든 게재 채널에 사용할 수 있습니다. [표현식 편집기에 액세스하는 방법 알아보기](gs-personalization.md#access)
 
 표현식 편집기 외에도 전용 을 활용할 수 있습니다 **조건부 콘텐츠 빌더** 이메일 본문의 요소에 대해 여러 변형을 만들 수 있는 이메일을 디자인할 때. [이메일에서 조건부 콘텐츠를 만드는 방법을 알아봅니다](#condition-condition-builder)
 

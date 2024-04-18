@@ -3,7 +3,7 @@ audience: end-user
 title: 대상자 빌드 워크플로 활동 사용
 description: 대상자 빌드 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 706d42661375c7ef7f95d1e8bf22db235500308d
+source-git-commit: a98203e983fec6e55f8c60e254f965f20ffe7dea
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 69%
@@ -58,7 +58,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 1. **직접 만들기(쿼리)**&#x200B;를 선택합니다.
 1. **차원 타겟팅**&#x200B;을 선택합니다. 타겟팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타겟팅하는 모집단을 정의할 수 있습니다. 기본적으로 대상은 수신자 중에서 선택됩니다. [타겟팅 차원에 대해 자세히 알아보기](../../audience/about-recipients.md#targeting-dimensions)
 1. **계속**&#x200B;을 클릭합니다.
-1. 새 이메일을 디자인할 때 대상을 만드는 것과 같은 방식으로 쿼리 모델러를 사용하여 쿼리를 정의합니다. [쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다](../../audience/../query/query-modeler-overview.md)
+1. 새 이메일을 디자인할 때 대상을 만드는 것과 같은 방식으로 쿼리 모델러를 사용하여 쿼리를 정의합니다. [쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다](../../query/query-modeler-overview.md)
 
 >[!TAB 대상자 읽기]
 

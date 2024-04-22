@@ -6,9 +6,9 @@ title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
 source-git-commit: 313b5688eee169612007b9704036ce1d8b89dd86
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '649'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ ht-degree: 99%
 + 워크플로 {#wf}
    + [워크플로 시작](workflows/gs-workflows.md)
    + [보호 기능 및 제한 사항](get-started/guardrails.md)
-   + [워크플로우 이벤트 변수](workflows/event-variables.md)
+   + [워크플로 이벤트 변수](workflows/event-variables.md)
    + [워크플로 액세스 및 관리](workflows/access-monitor.md)
    + 첫 워크플로 만들고 실행하기 {#create-workflow}
       + [워크플로를 만드는 핵심 원칙](workflows/gs-workflow-creation.md)

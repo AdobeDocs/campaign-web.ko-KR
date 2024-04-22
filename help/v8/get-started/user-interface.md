@@ -4,9 +4,9 @@ title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 3a50c1bec5da58c7cca6c7334ae054e10c3c99df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2279'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -586,12 +586,12 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_general"
->title="게재 경고 일반 매개 변수"
+>title="게재 경고 일반 매개변수"
 >abstract="게재 경고"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
->title="게재 경고 기준 매개 변수"
+>title="게재 경고 기준 매개변수"
 >abstract="게재 경고"
 
 >[!CONTEXTUALHELP]
@@ -601,5 +601,5 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_history"
->title="게재 경고 내역"
->abstract="게재 경고 내역"
+>title="게재 경고 기록"
+>abstract="게재 경고 기록"

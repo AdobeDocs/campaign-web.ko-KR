@@ -6,10 +6,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
+source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 9%
+source-wordcount: '490'
+ht-degree: 8%
 
 ---
 
@@ -78,9 +78,11 @@ AI 도우미는 대상자에게 반향을 일으킬 가능성이 높은 다양�
 
 1. 다음 위치로 이동 **[!UICONTROL 세부 조정]** 내의 옵션 **[!UICONTROL 미리 보기]** 추가 사용자 지정 기능에 액세스하기 위한 창:
 
+   * **[!UICONTROL 참조 콘텐츠로 사용]**: 선택한 변형은 다른 결과를 생성하기 위한 참조 콘텐츠 역할을 합니다.
+
    * **[!UICONTROL 구문 변경]**: AI Assistant는 다양한 방식으로 메시지를 고쳐 써서 다양한 대상자를 유혹할 수 있습니다.
 
-   * **[!UICONTROL 간단한 언어 사용]**: AI Assistant를 사용하여 언어를 단순화함으로써, 보다 많은 대상자가 명확하고 쉽게 사용할 수 있습니다.
+   * **[!UICONTROL 더 간결한 언어 사용]**: AI Assistant를 사용하여 언어를 단순화함으로써, 보다 많은 대상자가 명확하고 쉽게 사용할 수 있습니다.
 
    ![](assets/push-genai-5.png){zoomable=&quot;yes&quot;}
 

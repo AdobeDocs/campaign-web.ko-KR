@@ -6,9 +6,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
+source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '479'
 ht-degree: 10%
 
 ---
@@ -75,9 +75,11 @@ ht-degree: 10%
 
 1. 다음 위치로 이동 **[!UICONTROL 세부 조정]** 내의 옵션 **[!UICONTROL 미리 보기]** 추가 사용자 정의 기능에 액세스하고 변형을 환경 설정에 맞게 세부 조정할 수 있는 창:
 
-   * **언어 단순화**: AI 도우미는 모든 사람이 이해할 수 있는 명확하고 간결한 메시지를 작성할 수 있도록 도와줍니다.
+   * **[!UICONTROL 참조 콘텐츠로 사용]**: 선택한 변형은 다른 결과를 생성하기 위한 참조 콘텐츠 역할을 합니다.
 
-   * **구문 변경**: AI 도우미는 다양한 대상자가 흥미를 갖도록 메시지를 다시 표현합니다.
+   * **[!UICONTROL 더 간결한 언어 사용]**: AI 도우미는 모든 사람이 이해할 수 있는 명확하고 간결한 메시지를 작성할 수 있도록 도와줍니다.
+
+   * **[!UICONTROL 구문 변경]**: AI 도우미는 다양한 대상자가 흥미를 갖도록 메시지를 다시 표현합니다.
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
 

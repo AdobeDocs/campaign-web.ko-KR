@@ -6,9 +6,9 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
+source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1368'
 ht-degree: 5%
 
 ---
@@ -81,9 +81,11 @@ AI Assistant를 사용하면 전체 이메일, 타겟팅된 텍스트 콘텐츠 
 
 1. 다음 위치로 이동 **[!UICONTROL 세부 조정]** 내의 옵션 **[!UICONTROL 미리 보기]** 추가 사용자 지정 기능에 액세스하기 위한 창:
 
+   * **[!UICONTROL 참조 콘텐츠로 사용]**: 선택한 변형은 다른 결과를 생성하기 위한 참조 콘텐츠 역할을 합니다.
+
    * **[!UICONTROL 구문 변경]**: AI Assistant는 다양한 방식으로 메시지를 고쳐 써서 다양한 대상자를 유혹할 수 있습니다.
 
-   * **[!UICONTROL 간단한 언어 사용]**: AI Assistant를 사용하여 언어를 단순화함으로써, 보다 많은 대상자가 명확하고 쉽게 사용할 수 있습니다.
+   * **[!UICONTROL 더 간결한 언어 사용]**: AI Assistant를 사용하여 언어를 단순화함으로써, 보다 많은 대상자가 명확하고 쉽게 사용할 수 있습니다.
 
    ![](assets/full-email-5.png){zoomable=&quot;yes&quot;}
 
@@ -136,15 +138,15 @@ AI Assistant를 사용하면 전체 이메일, 타겟팅된 텍스트 콘텐츠 
 
 1. 다음 위치로 이동 **[!UICONTROL 세부 조정]** 내의 옵션 **[!UICONTROL 미리 보기]** 추가 사용자 지정 기능에 액세스하기 위한 창:
 
-   * **참조 콘텐츠로 사용**: 선택한 변형은 다른 결과를 생성하기 위한 참조 콘텐츠 역할을 합니다.
+   * **[!UICONTROL 참조 콘텐츠로 사용]**: 선택한 변형은 다른 결과를 생성하기 위한 참조 콘텐츠 역할을 합니다.
 
-   * **정교하**: AI Assistant를 사용하면 특정 주제를 확장하고 더 나은 이해와 참여를 위해 추가 세부 정보를 제공할 수 있습니다.
+   * **[!UICONTROL 정교하]**: AI Assistant를 사용하면 특정 주제를 확장하고 더 나은 이해와 참여를 위해 추가 세부 정보를 제공할 수 있습니다.
 
-   * **요약**: 정보가 길면 이메일 수신자에게 과부하가 걸릴 수 있습니다. AI Assistant를 사용하여 주요 사항을 명확하고 간결한 요약으로 요약하여 주목 받고 더 자세히 읽을 수 있도록 장려합니다.
+   * **[!UICONTROL 요약]**: 정보가 길면 이메일 수신자에게 과부하가 걸릴 수 있습니다. AI Assistant를 사용하여 주요 사항을 명확하고 간결한 요약으로 요약하여 주목 받고 더 자세히 읽을 수 있도록 장려합니다.
 
-   * **구문 변경**:AI Assistant는 다양한 방식으로 메시지를 고쳐 써서 다양한 대상자를 유혹할 수 있습니다.
+   * **[!UICONTROL 구문 변경]**:AI Assistant는 다양한 방식으로 메시지를 고쳐 써서 다양한 대상자를 유혹할 수 있습니다.
 
-   * **간단한 언어 사용**: AI Assistant를 사용하여 언어를 단순화함으로써, 보다 많은 대상자가 명확하고 쉽게 사용할 수 있습니다.
+   * **[!UICONTROL 더 간결한 언어 사용]**: AI Assistant를 사용하여 언어를 단순화함으로써, 보다 많은 대상자가 명확하고 쉽게 사용할 수 있습니다.
 
    ![](assets/text-genai-5.png){zoomable=&quot;yes&quot;}
 

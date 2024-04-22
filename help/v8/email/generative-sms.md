@@ -6,9 +6,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: cc73a638980b9dd6e56d630ad94d70475356e390
+source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '461'
 ht-degree: 10%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 10%
 
    >[!IMPORTANT]
    >
-   > 브랜드 자산을 업로드하거나 를 활성화하여 프롬프트를 항상 특정 컨텍스트에 연결해야 합니다. **[!UICONTROL 현재 콘텐츠 향상]** 옵션을 선택합니다.
+   > 프롬프트는 항상 현재 콘텐츠에 연결되어야 합니다.
 
 1. 에서 생성하려는 내용을 설명하여 콘텐츠를 미세 조정합니다. **[!UICONTROL 프롬프트]** 필드.
 

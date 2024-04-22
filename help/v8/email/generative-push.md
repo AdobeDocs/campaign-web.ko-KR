@@ -6,9 +6,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: bc27d8e6e41cb59a7221a893d4c00d3647db887b
+source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '473'
 ht-degree: 9%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 9%
 * **[AI Assistant를 사용하여 푸시 알림 생성](generative-push.md)**
 
 >[!ENDSHADEBOX]
-
 
 AI 도우미는 대상자에게 반향을 일으킬 가능성이 높은 다양한 콘텐츠를 제안하여 게재의 영향을 최적화하는 데 도움이 됩니다.
 
@@ -51,7 +50,7 @@ AI 도우미는 대상자에게 반향을 일으킬 가능성이 높은 다양�
 
    >[!IMPORTANT]
    >
-   > 브랜드 자산을 업로드하거나 를 활성화하여 프롬프트를 항상 특정 컨텍스트에 연결해야 합니다. **[!UICONTROL 현재 콘텐츠 향상]** 옵션을 선택합니다.
+   > 프롬프트는 항상 현재 콘텐츠에 연결되어야 합니다.
 
    ![](assets/push-genai-3.png){zoomable=&quot;yes&quot;}
 

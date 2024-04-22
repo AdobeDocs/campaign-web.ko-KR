@@ -6,10 +6,10 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: 923fdb1d82e36e9cd56b8d0020074a224c822215
+source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1351'
+ht-degree: 5%
 
 ---
 
@@ -52,7 +52,7 @@ AI Assistant를 사용하면 전체 이메일, 타겟팅된 텍스트 콘텐츠 
 
 1. 활성화 **[!UICONTROL 원본 컨텐츠 사용]** ai 비서가 게재, 게재명 및 선택한 대상자를 기반으로 새 콘텐츠를 개인화할 수 있는 옵션.
 
-   브랜드 자산을 업로드하거나 를 활성화하여 프롬프트를 항상 특정 컨텍스트에 연결해야 합니다. **[!UICONTROL 현재 콘텐츠 향상]** 옵션을 선택합니다.
+   프롬프트는 항상 현재 콘텐츠에 연결되어야 합니다.
 
 1. 에서 생성하려는 내용을 설명하여 콘텐츠를 미세 조정합니다. **[!UICONTROL 프롬프트]** 필드.
 
@@ -109,7 +109,7 @@ AI Assistant를 사용하면 전체 이메일, 타겟팅된 텍스트 콘텐츠 
 
 1. 활성화 **[!UICONTROL 원본 컨텐츠 사용]** ai 비서가 게재, 게재명 및 선택한 대상자를 기반으로 새 콘텐츠를 개인화할 수 있는 옵션.
 
-   브랜드 자산을 업로드하거나 를 활성화하여 프롬프트를 항상 특정 컨텍스트에 연결해야 합니다. **[!UICONTROL 현재 콘텐츠 향상]** 옵션을 선택합니다.
+   프롬프트는 항상 현재 콘텐츠에 연결되어야 합니다.
 
 1. 에서 생성하려는 내용을 설명하여 콘텐츠를 미세 조정합니다. **[!UICONTROL 프롬프트]** 필드.
 

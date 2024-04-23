@@ -48,7 +48,7 @@ ht-degree: 39%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_targeted_population"
->title="푸시 대상 모집단"
+>title="푸시 타기팅된 집단"
 >abstract="**대상 모집단** 그래프와 테이블에 푸시 메시지 대상자(게재할 메시지 및 제외)와 관련된 데이터가 표시됩니다."
 
 다음 **대상 모집단** 그래프 및 표는 대상자를 기준으로 데이터를 표시합니다(게재할 메시지 및 제외). 지표는 아래에 자세히 설명되어 있습니다.

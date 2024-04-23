@@ -3,9 +3,9 @@ audience: end-user
 title: 분할 워크플로 활동 사용
 description: 분할 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
+source-git-commit: 1637a88b1dcd299f5cdc11f030cdf3f6eec8ad97
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '855'
 ht-degree: 86%
 
 ---
@@ -56,6 +56,11 @@ ht-degree: 86%
 >id="acw_orchestration_split_emptytransition"
 >title="빈 전환 건너뛰기"
 >abstract="빈 전환을 건너뜁니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_enable_overlapping"
+>title="출력 집단의 중복 활성화"
+>abstract="출력 집단의 중복 활성화"
 
 **분할** 활동을 구성하려면 다음 단계를 따르십시오.
 

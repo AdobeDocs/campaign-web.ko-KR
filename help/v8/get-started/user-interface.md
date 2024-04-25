@@ -3,10 +3,10 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 3a50c1bec5da58c7cca6c7334ae054e10c3c99df
+source-git-commit: b8541fa0fe3a7ce905a202b719087132b7b8da14
 workflow-type: tm+mt
-source-wordcount: '2279'
-ht-degree: 100%
+source-wordcount: '2287'
+ht-degree: 99%
 
 ---
 
@@ -488,6 +488,11 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_incrementalquery_history"
 >title="증분 쿼리 기록"
 >abstract="증분 쿼리 기록"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery_processeddata"
+>title="증분 쿼리가 처리된 데이터"
+>abstract="증분 쿼리가 처리된 데이터"
 
 
 <!-- Transfer file activity -->

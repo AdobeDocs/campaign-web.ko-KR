@@ -5,8 +5,8 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: 313b5688eee169612007b9704036ce1d8b89dd86
-workflow-type: ht
+source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 100%
 

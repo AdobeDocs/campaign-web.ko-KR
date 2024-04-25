@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: 워크플로우 이벤트 변수
+title: 워크플로 이벤트 변수
 description: 워크플로우에서 이벤트 변수를 활용하는 방법을 알아봅니다.
 exl-id: 526dc98f-391d-4f3f-a687-c980bf60b93b
-source-git-commit: b33c3c2424c1cd07c7bb6fd4c2ffcab9592354c7
+source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 워크플로우 이벤트 변수 {#event-variables}
+# 워크플로 이벤트 변수 {#event-variables}
 
 일부 워크플로우 활동을 사용하면 표현식 편집기에서 스크립트를 편집하여 이전 활동에서 얻은 데이터 검색, 조건 작성 또는 이벤트 변수를 기반으로 파일 이름 계산과 같은 특정 작업을 수행할 수 있습니다.
 

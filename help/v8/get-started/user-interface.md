@@ -3,9 +3,9 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 145fce5cfaafd0178ca9e85aea6996370c36da9d
+source-git-commit: 435e0ab87fa46a699b6df8f9983b5c2d86b19805
 workflow-type: tm+mt
-source-wordcount: '2295'
+source-wordcount: '2122'
 ht-degree: 99%
 
 ---
@@ -172,11 +172,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- Aligned with https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CGA%3E-+Official+list -->
 
 >[!CONTEXTUALHELP]
->id="acw_recipients_creation_list"
->title="수신자 생성"
->abstract="수신자 생성"
-
->[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="수신자 카드 개요"
 >abstract="수신자 카드 개요"
@@ -289,31 +284,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- ML: beta wiki page - not visible in UI-->
 
 <!-- FOR POST-GA -->
-
-
-
-<!--
-Deprecated IDs - to remove in GA: -->
-
->[!CONTEXTUALHELP]
->id="acw_attributepicker_advancedfields"
->title="고급 속성 표시"
->abstract="기본적으로 속성 목록에는 가장 일반적인 속성만 표시됩니다. **고급 속성 표시** 토글을 활성화하면 노드, 그룹화, 1-1 링크, 1-N 링크 등 규칙 작성기의 왼쪽 팔레트에 있는 현재 목록에 대해 사용 가능한 모든 속성을 확인할 수 있습니다."
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_advancedfields"
->title="규칙 빌더 고급 필드"
->abstract="기본적으로 속성 목록에는 가장 일반적인 속성만 표시됩니다. **고급 속성 표시** 토글을 활성화하면 노드, 그룹화, 1-1 링크, 1-N 링크 등 규칙 작성기의 왼쪽 팔레트에 있는 현재 목록에 대해 사용 가능한 모든 속성을 확인할 수 있습니다."
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_properties_advanced"
->title="규칙 빌더 고급 속성"
->abstract="기본적으로 속성 목록에는 가장 일반적인 속성만 표시됩니다. **고급 속성 표시** 토글을 활성화하면 노드, 그룹화, 1-1 링크, 1-N 링크 등 규칙 작성기의 왼쪽 팔레트에 있는 현재 목록에 대해 사용 가능한 모든 속성을 확인할 수 있습니다."
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_readonlymode"
->title="이 템플릿은 준비 전용입니다"
->abstract="이 템플릿을 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
 
 <!-- Subscription activity-->
 

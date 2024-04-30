@@ -30,7 +30,7 @@ ht-degree: 86%
 >id="acw_orchestration_split_filter"
 >title="분할 활동 필터"
 >abstract="하위 집합에 필터링 조건을 적용하려면 **[!UICONTROL 필터 만들기]**&#x200B;를 클릭하고 쿼리 모델러를 사용하여 원하는 필터링 조건을 구성합니다. 예를 들어 데이터베이스에 이메일 주소가 존재하는 수신 모집단의 프로필을 포함합니다."
->additional-url="https://experienceleague.adobe.com/en/docs/ko/campaign-web/v8/query-database/query-modeler-overview" text="쿼리 모델러로 작업"
+>additional-url="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/query-database/query-modeler-overview" text="쿼리 모델러로 작업"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"

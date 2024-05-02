@@ -2,9 +2,9 @@
 title: Adobe Campaign 웹 인터페이스에 연결
 description: Adobe Campaign Web 사용자 인터페이스에 접속하는 방법 알아보기
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '559'
 ht-degree: 100%
 
 ---
@@ -89,11 +89,12 @@ Campaign Web의 기본 언어는 사용자 프로필에 지정된 기본 언어�
 1. 그런 다음 이메일 주소 아래에 표시되는 언어 링크를 클릭합니다.
 1. 원하는 언어를 선택하고 **저장**&#x200B;을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되어 있지 않은 경우 두 번째 언어를 선택할 수 있습니다.
 
+<!--
 >[!CAUTION]
 >
->[AI 기반 상황별 도움말](using-ai.md) 기능을 사용하려면 기본 언어를 영어로 설정해야 합니다. 다른 언어는 지원되지 않습니다.
+>If you plan to use [AI-powered contextual help](using-ai.md) capabilities, you must set your prefered language to English. Other languages are not supported.
 >
-
+-->
 
 ## 어두운 테마 및 밝은 테마 {#dark-theme}
 

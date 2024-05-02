@@ -3,9 +3,9 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 435e0ab87fa46a699b6df8f9983b5c2d86b19805
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '2122'
+source-wordcount: '1670'
 ht-degree: 99%
 
 ---
@@ -113,19 +113,20 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 
 * **보고서** - **보고서** 항목은 Campaign 환경 내의 각 채널의 트래픽 및 참여 지표를 종합하여 전반적 요약을 제공합니다. 이러한 보고서는 다양한 위젯으로 구성되어 있으며, 각 위젯은 캠페인 또는 게재 성과에 대한 고유한 관점을 제공합니다. [이 섹션](../reporting/global-reports.md)에서 자세히 알아보십시오.
 
+<!--
+## Contextual Help {#user-interface-help} 
 
-## 상황별 도움말 {#user-interface-help}
+A contextual help is available in the interface. When available, click on the `?` icon to display help information and related documentation links. 
 
-인터페이스에서 상황별 도움말을 사용할 수 있습니다. 사용 가능한 경우 `?` 아이콘을 클릭하면 도움말 정보 및 관련 설명서 링크가 표시됩니다.
+![](assets/do-not-localize/context-help.png){zoomable="yes"}{width="40%" align="left"}
 
-![](assets/do-not-localize/context-help.png){zoomable=&quot;yes&quot;}{width="40%" align="left"}
+Currently released as a Beta version within the new Campaign Web user interface, the **AI-powered Knowledge Assistant** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
 
-새 Campaign Web 사용자 인터페이스에 현재 Beta 버전으로 릴리스된 **AI 기반 Knowledge Assistant**&#x200B;가 상황별 도움말에 임베드되었습니다. 이를 통해 설명서 검색과 방법을 알아보는 질의응답이 혁신되어 방대한 설명서 저장소에서 손쉽게 필요한 정보를 선별하여 정확하고 빠르게 찾아낼 수 있습니다.
+Thanks to Campaign Gen AI's capabilities, this assistant transforms your experience, making information retrieval and problem-solving a breeze. Whether you're seeking guidance in a complex task or navigating extensive documents, our AI-powered Knowledge Assistant is your ultimate companion, providing unmatched efficiency and accuracy in every interaction.
 
-Campaign Gen AI의 기능 덕분에 이 Assistant는 사용자의 경험을 변화시켜 정보 검색 및 문제 해결을 용이하게 합니다. 복잡한 작업에서 지침을 구하거나 광범위한 문서를 탐색할 때 AI 기반 Knowledge Assistant는 모든 상호 작용에서 비교할 수 없는 효율성과 정확성을 제공하는 최고의 보조 앱입니다.
+Learn more in [this section](using-ai.md).
 
-[이 섹션](using-ai.md)에서 자세히 알아보십시오.
-
+-->
 
 ## 자세히 알아보기 {#learn-more}
 
@@ -285,29 +286,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- FOR POST-GA -->
 
-<!-- Subscription activity-->
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_defaultlp"
->title="기본 랜딩 페이지"
->abstract="이 구독 서비스와 연결된 기본 랜딩 페이지를 선택하십시오."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription"
->title="구독 서비스 활동"
->abstract="Adobe Campaign을 사용하면 뉴스레터와 같은 서비스를 생성 및 모니터링하고 이러한 서비스에 대한 구독 또는 구독 취소를 확인할 수 있습니다. 구독은 이메일 및 SMS 게재에만 적용됩니다."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription_general"
->title="구독 서비스 매개변수"
->abstract="구독 서비스에 대한 설정을 선택하고 확인합니다."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription_outboundtransition"
->title="구독 서비스 아웃바운드 전환"
->abstract="**아웃바운드 전환 생성** 옵션을 토글하여 활동 뒤에 전환을 추가합니다."
-
-
 <!--Update file-->
 
 >[!CONTEXTUALHELP]
@@ -345,85 +323,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="거부에 대한 아웃바운드 전환을 생성합니다."
 >abstract="**거부에 대한 아웃바운드 전환 생성** 옵션을 토글하여 업데이트 후 올바르게 처리되지 않은 레코드가 포함된 아웃바운드 전환을 추가합니다(예: 중복 항목이 있는 경우). 업데이트는 일반적으로 타겟팅 워크플로의 끝을 표시하므로 해당 옵션은 기본적으로 활성화되지 않습니다."
 
-
-
-<!--External Signal End-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_externalsignal"
->title="외부 신호"
->abstract="**외부 신호** 활동을 사용하면 API 또는 다른 워크플로의 워크플로에 있는 작업 집합의 실행을 트리거할 수 있습니다."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_externalsignal_parameters"
->title="외부 신호 매개변수"
->abstract="외부 신호 매개변수"
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_end_trigger"
->title="종료 트리거"
->abstract="종료 트리거"
-
-
-<!--JavaScript-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript"
->title="JavaScript 코드"
->abstract="**JavaScript 코드** 활동은 워크플로의 컨텍스트에서 JavaScript 코드를 실행합니다."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_snippet"
->title="JavaScript 스니펫"
->abstract="실행할 코드를 구성합니다."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="Campaign v8 (콘솔) 설명서에서 자세히 알아보십시오."
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_execution"
->title="JavaScript 실행"
->abstract="기본적으로 실행 단계는 1시간을 초과할 수 없습니다. 이 지연 후에는 오류 메시지와 함께 프로세스가 중단되고 활동 실행이 실패합니다. 사용자 정의 지연을 정의하려면 **다음 이후 실행 중단** 옵션을 토글하십시오. 이 제한을 무시하려면 값을 0으로 설정하십시오."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_transition"
->title="오류 처리"
->abstract="**오류 처리** 옵션을 토글하여 오류가 포함된 아웃바운드 전환을 추가할 수 있습니다."
-
-
-
-<!--ExtractFile-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile"
->title="파일 추출"
->abstract="파일 활동 추출"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_file"
->title="추출할 파일"
->abstract="추출할 파일을 선택합니다."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_destinationformat"
->title="대상 형식"
->abstract="형식을 선택합니다."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_postprocessing"
->title="사후 처리"
->abstract="사후 처리 단계 정의"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_outbound"
->title="아웃바운드 전환"
->abstract="**아웃바운드 전환 생성** 옵션을 토글하여 현재 활동 뒤에 아웃바운드 전환을 추가할 수 있습니다."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_error"
->title="오류 처리"
->abstract="**오류 처리** 옵션을 토글하여 오류가 포함된 아웃바운드 전환을 추가할 수 있습니다."
-
 <!-- Workflow settings -->
 
 >[!CONTEXTUALHELP]
@@ -445,82 +344,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_settings_execution_initscript"
 >title="실행 초기화 스크립트"
 >abstract="실행 초기화 스크립트"
-
-
-<!--incremental querry -->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery"
->title="증분 쿼리"
->abstract="증분 쿼리"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery_history"
->title="증분 쿼리 기록"
->abstract="증분 쿼리 기록"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery_processeddata"
->title="증분 쿼리가 처리된 데이터"
->abstract="증분 쿼리가 처리된 데이터"
-
-
-<!-- Transfer file activity -->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile"
->title="파일 전송"
->abstract="파일 전송"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_options"
->title="파일 전송 옵션"
->abstract="파일 전송 옵션"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_activity"
->title="파일 전송 활동"
->abstract="파일 전송 활동"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_remoteserver"
->title="파일 전송 원격 서버"
->abstract="파일 전송 원격 서버"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_source"
->title="파일 전송 소스"
->abstract="파일 전송 소스"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_delete_file"
->title="전송 후 소스 파일 삭제"
->abstract="전송 후 소스 파일 삭제"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_display_logs"
->title="세션 로그 표시"
->abstract="세션 로그 표시"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_list_files"
->title="모든 파일 나열"
->abstract="모든 파일 나열"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_historization"
->title="파일 기록"
->abstract="파일 기록"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_missing_file"
->title="누락된 파일 처리"
->abstract="누락된 파일 처리"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_errors"
->title="오류 처리"
->abstract="오류 처리"
 
 <!-- Delivery alerting -->
 
@@ -565,6 +388,9 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="게재 경고"
 
 >[!CONTEXTUALHELP]
+>id="acw_subscriptions_defaultlp"
+>title="기본 랜딩 페이지"
+>abstract="이 구독 서비스와 연결된 기본 랜딩 페이지를 선택하십시오."
 >id="acw_delivery_alerting_create_criteria_parameters"
 >title="게재 경고 기준 매개변수"
 >abstract="게재 경고"

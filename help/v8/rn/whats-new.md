@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign Web 사용자 인터페이스의 새로운 기능
 description: Campaign Web 사용자 인터페이스에서 제공하는 새로운 기능 살펴보기
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: da861a0777a316e210b229d823e3f15b5a13ab2f
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1193'
 ht-degree: 100%
 
 ---
@@ -100,10 +100,10 @@ Adobe Campaign Web에는 다양한 기준에 따라 특정 대상을 선택하�
 
     Learn more in [this section](../email/generative-gs.md).
 -->
+<!--
+**AI-powered Contextual Help**
 
-**AI 기반 상황별 도움말**
-
-제품 사용자 인터페이스에서 직접 질문하고 지침을 찾아보십시오. 새로운 **AI 기반 상황별 도움말**&#x200B;은 새로운 Campaign 기능에 대한 전문 지식을 배우고 발전시키는 데 도움이 됩니다. 최신 제품 설명서를 기반으로 사용 사례를 구축하는 동안 즉시 도움말을 찾고 단계별 지침을 얻을 수 있도록 지원합니다. 이 기능은 현재 제한된 사용자 집단에게 Beta 버전으로 제공됩니다. [이 섹션](../get-started/using-ai.md)에서 자세히 알아보십시오.
+Ask questions and find guidance directly from the product user interface. The new **AI-powered Contextual Help** helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. This feature is currently available in Beta, for a limited set of users. Learn more in [this section](../get-started/using-ai.md).-->
 
 **미리 정의된 필터**
 

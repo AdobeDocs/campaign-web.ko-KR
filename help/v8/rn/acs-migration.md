@@ -2,9 +2,9 @@
 audience: end-user
 title: Campaign Standard에서 Adobe Campaign 웹으로 전환
 description: Campaign 웹 사용자 인터페이스 살펴보기
-source-git-commit: 4c1f68f0e89b2b84b8845b2759ef3b0dc9b12033
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '588'
 ht-degree: 7%
 
 ---
@@ -40,7 +40,6 @@ Campaign v8이 제공하는 주요 기능에 대해 자세히 알아보겠습니
 * 새롭고 재설계된 캠페인 워크플로우 활동. [자세히 알아보기](../workflows/gs-workflows.md)
 * 쿼리 모델러를 사용하여 대상자를 타깃팅합니다. [자세히 알아보기](../query/query-modeler-overview.md)
 * 간편한 프로필 생성 및 관리 [자세히 알아보기](../audience/about-recipients.md)
-* AI 기반의 상황별 도움말. [자세히 알아보기](../get-started/using-ai.md)
 * 사전 정의된 필터. [자세히 알아보기](../get-started/predefined-filters.md)
 * 이메일 디자인용 HTML 변환기. [자세히 알아보기](../email/existing-content.md)
 * 오퍼가 있는 SMS. [자세히 알아보기](../msg/offers.md)

@@ -3,10 +3,10 @@ keywords: Campaign Web;홈;인기 있는 주제
 description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 100%
+source-wordcount: '499'
+ht-degree: 98%
 
 ---
 
@@ -111,7 +111,7 @@ Adobe Campaign Web 사용자 인터페이스 24.3 릴리스에 포함된 새로�
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>시작</strong><br/><a href="get-started/user-interface.md">사용자 인터페이스</a> - <a href="get-started/connect-to-campaign.md">Campaign에 연결</a> - <a href="get-started/using-ai.md">AI 기반 상황별 도움말</a> - <a href="get-started/permissions.md">액세스 및 권한</a>
+      <strong>시작</strong><br/><a href="get-started/user-interface.md">사용자 인터페이스</a> - <a href="get-started/connect-to-campaign.md">Campaign에 연결</a> - <a href="get-started/permissions.md">액세스 및 권한</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">

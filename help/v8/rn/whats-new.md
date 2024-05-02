@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 사용자 인터페이스의 새로운 기능
 description: Campaign Web 사용자 인터페이스에서 제공하는 새로운 기능 살펴보기
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 1b27527865f8927ce31c2b962a43ffcd033dbef8
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 100%
+source-wordcount: '1206'
+ht-degree: 98%
 
 ---
 
@@ -129,6 +129,8 @@ Campaign 사용자는 여전히 클라이언트 콘솔에 액세스하여 Campai
 Campaign Web 사용자 인터페이스를 사용하면 사용자 인터페이스에 사용자 권한이 반영됩니다. 권한에 대한 자세한 내용은 [이 페이지](../get-started/permissions.md)를 참조하십시오.
 
 지원/미지원 기능 및 Campaign Web 사용자 인터페이스와 Campaign 클라이언트 콘솔 간 상호 운용성에 대한 자세한 내용은 [이 페이지에서](../get-started/capability-matrix.md) 확인할 수 있습니다.
+
+Campaign v8로 전환하는 Campaign Standard 사용자는 [이 페이지 참조](../rn/acs-migration.md).
 
 ## 용어 업데이트 {#terminology-updates}
 

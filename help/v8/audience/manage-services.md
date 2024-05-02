@@ -3,10 +3,10 @@ audience: end-user
 title: 구독 서비스 작업
 description: Adobe Campaign 웹에서 구독 서비스에 액세스하고, 만들고, 관리하는 방법을 알아봅니다
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 15418cd8de3ce640340eb3551786682173752910
+source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 34%
+source-wordcount: '1074'
+ht-degree: 31%
 
 ---
 
@@ -53,6 +53,11 @@ Adobe Campaign 웹을 사용하여 뉴스레터와 같은 서비스를 관리 �
 >title="확인 메시지 선택"
 >abstract="사용자가 서비스를 구독하거나 구독 취소하면 확인 메시지를 전송할 수 있습니다. 확인 메시지에 사용할 템플릿을 선택합니다."
 
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_defaultlp"
+>title="기본 랜딩 페이지"
+>abstract="이 서비스와 연결된 기본 랜딩 페이지를 선택합니다."
+
 구독 서비스를 만들려면 아래 단계를 수행하십시오.
 
 1. 다음 항목 선택 **[!UICONTROL 구독 서비스 만들기]** 단추를 클릭합니다.
@@ -81,9 +86,25 @@ Adobe Campaign 웹을 사용하여 뉴스레터와 같은 서비스를 관리 �
 
 1. 클릭 **[!UICONTROL 저장 및 검토]**. 새 서비스가 다음에 추가됩니다. **[!UICONTROL 구독 서비스]** 목록을 표시합니다.
 
+1. 이 서비스와 연결된 기본 구독 및 구독 취소 랜딩 페이지를 선택할 수도 있습니다.
+
+   >[!AVAILABILITY]
+   >
+   >이 기능은 LA(Limited Availability)에 있습니다. 고객 마이그레이션에 제한됩니다. **Adobe Campaign Standard에서 Adobe Campaign v8까지**, 및 은 다른 환경에 배포할 수 없습니다.
+
+   ![](assets/service-create-default-lp.png){zoomable=&quot;yes&quot;}
+
+   완료 후, 시기 [링크 삽입](../email/message-tracking.md) 이메일에서 다음을 선택합니다. **[!UICONTROL 구독 링크]** 또는 **[!UICONTROL 구독 취소 링크]**. 해당 링크를 클릭하면 서비스에서 참조한 구독 또는 구독 취소 랜딩 페이지로 이동합니다. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
+
+   ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+
+1. 변경 사항을 저장하고 검토합니다.
+
 이제 다음을 수행할 수 있습니다.
 
-* 이 서비스에 가입자를 추가하고 프로필 가입을 취소합니다. [자세히 알아보기](../msg/send-to-subscribers.md)
+* 이 서비스에 가입자를 수동으로 추가하고 프로필 가입을 취소합니다. [자세히 알아보기](../audience/manage-subscribers.md)
+
+* 고객을 랜딩 페이지를 통해 이 서비스에 가입하도록 초대합니다. [자세히 알아보기](../landing-pages/lp-use-cases.md#lp-subscription)
 
 * 이 서비스의 구독자에게 메시지를 보냅니다. [방법 알아보기](../msg/send-to-subscribers.md)
 

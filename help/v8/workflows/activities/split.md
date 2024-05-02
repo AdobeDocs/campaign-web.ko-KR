@@ -3,10 +3,10 @@ audience: end-user
 title: 분할 워크플로 활동 사용
 description: 분할 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 1637a88b1dcd299f5cdc11f030cdf3f6eec8ad97
+source-git-commit: 575219c7bcef303e211f504d13227183933924cc
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 86%
+source-wordcount: '905'
+ht-degree: 81%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 86%
 >id="acw_orchestration_split_filter"
 >title="분할 활동 필터"
 >abstract="하위 집합에 필터링 조건을 적용하려면 **[!UICONTROL 필터 만들기]**&#x200B;를 클릭하고 쿼리 모델러를 사용하여 원하는 필터링 조건을 구성합니다. 예를 들어 데이터베이스에 이메일 주소가 존재하는 수신 모집단의 프로필을 포함합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/query-database/query-modeler-overview" text="쿼리 모델러로 작업"
+>additional-url="https://experienceleague.adobe.com/en/docs/ko/campaign-web/v8/query-database/query-modeler-overview" text="쿼리 모델러로 작업"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"
@@ -55,7 +55,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_emptytransition"
 >title="빈 전환 건너뛰기"
->abstract="빈 전환을 건너뜁니다."
+>abstract="전환 **[!UICONTROL 빈 전환 건너뛰기]** 수신 모집단이 비어 있는 경우 이 하위 집합에 대한 출력 전환을 비활성화하려면 옵션을 사용합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
@@ -85,6 +85,8 @@ ht-degree: 86%
    1. 하위 집합에 필터링 조건을 적용하려면 **[!UICONTROL 필터 만들기]**&#x200B;를 클릭하고 쿼리 모델러를 사용하여 원하는 필터링 조건을 구성합니다. 예를 들어 데이터베이스에 이메일 주소가 있는 수신 모집단의 프로필을 포함합니다. [쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다](../../query/query-modeler-overview.md)
 
    1. 하위 집합에서 선택한 프로필 수를 제한하려면 **[!UICONTROL 제한 활성화]** 옵션을 토글하고 포함할 모집단의 수 또는 백분율을 지정합니다.
+
+   1. 들어오는 모집단이 비어 있을 경우 전환을 비활성화하려면 **[!UICONTROL 빈 전환 건너뛰기]** 옵션입니다. 하위 집합과 일치하는 프로필이 없으면 워크플로우가 다음 활동으로 전환되지 않습니다.
 
       ![](../assets/workflow-split-subset.png)
 

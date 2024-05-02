@@ -3,10 +3,10 @@ audience: end-user
 title: 메시지 추적
 description: 링크를 추가하고 전송된 메시지를 추적하는 방법 알아보기
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: a95a70aa56061106a920584a3501cd4b1434ec8a
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 100%
+source-wordcount: '549'
+ht-degree: 66%
 
 ---
 
@@ -26,7 +26,29 @@ ht-degree: 100%
 
 1. 요소를 선택하고 상황별 도구 모음에서 **[!UICONTROL 링크 삽입]**&#x200B;을 클릭합니다.
 
+1. 만들려는 링크의 유형을 선택합니다.
+
    ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
+
+   * **[!UICONTROL 외부 링크]**: 외부 URL에 대한 링크를 삽입합니다.
+
+     >[!AVAILABILITY]
+     >
+     >다음 기능 (링크: **[!UICONTROL 랜딩 페이지]**, **[!UICONTROL 구독 링크]** 및 **[!UICONTROL 구독 취소 링크]**)은 LA(Limited Availability)에 있습니다. 고객은 마이그레이션하는 것으로 제한됩니다. **Adobe Campaign Standard에서 Adobe Campaign v8까지**, 및 은 다른 환경에 배포할 수 없습니다.
+
+   * **[!UICONTROL 랜딩 페이지]**: 랜딩 페이지에 링크를 삽입합니다. 동적 랜딩 페이지를 선택하는 경우( **[!UICONTROL URL의 서비스]** 옵션 선택), 목록에서 원하는 서비스를 선택할 수 있습니다. [자세히 알아보기](../landing-pages/create-lp.md#define-actions-on-form-submission)
+
+     ![](assets/email-link-to-landing-page.png){zoomable=&quot;yes&quot;}
+
+   * **[!UICONTROL 구독 링크]**: 구독 서비스에 대한 링크를 삽입합니다. 사용자가 링크를 클릭하면 선택한 서비스에서 참조한 구독 랜딩 페이지로 이동됩니다. [자세히 알아보기](../audience/manage-services.md#create-service)
+
+     ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+
+   * **[!UICONTROL 구독 취소 링크]**: 구독 취소 서비스에 대한 링크를 삽입합니다. 구독자가 링크를 클릭하면 선택한 서비스에서 참조되는 구독 취소 랜딩 페이지로 이동됩니다. [자세히 알아보기](../audience/manage-services.md#create-service)
+
+   <!--* **[!UICONTROL Mirror page]**: Add a link to display the email content in a web browser. [Learn more]-->
+
+1. 해당 필드에 원하는 URL을 입력하거나 랜딩 페이지 또는 서비스를 선택하고 링크 설정 및 스타일을 정의합니다.
 
 1. **[!UICONTROL 레이블]**&#x200B;과 **[!UICONTROL 링크]**&#x200B;를 추가합니다.
 
@@ -41,7 +63,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->마케팅 유형 이메일 메시지에는 트랜잭션 메시지에 필요하지 않은 옵트아웃 링크를 포함해야 합니다. 메시지 범주(**[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**)는 메시지 생성 시 채널 표면(즉, 메시지 사전 설정) 수준에서 정의됩니다.
+>마케팅 유형 이메일 메시지에는 트랜잭션 메시지에 필요하지 않은 옵트아웃 링크를 포함해야 합니다. 메시지 카테고리(**[!UICONTROL 마케팅]** 또는 **[!UICONTROL 트랜잭션]**)는 채널 표면 수준에서 메시지를 만들 때 정의됩니다.
 
 모든 이메일 메시지에는 미러 페이지에 대한 특정 링크를 추가해야 합니다. [이 섹션](mirror-page.md)에서 미러 페이지에 대해 자세히 알아보십시오.
 

@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+source-git-commit: 575219c7bcef303e211f504d13227183933924cc
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 100%
+source-wordcount: '674'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 100%
    + [새로운 기능](rn/whats-new.md)
    + [최신 릴리스](rn/release-notes.md)
    + [설명서 업데이트](rn/documentation-updates.md)
+   + [Campaign v8로 Campaign Standard 전환](rn/acs-migration.md)
 + Adobe Campaign 시작하기 {#start}
    + [시작](get-started/get-started.md)
    + [Campaign에 연결](get-started/connect-to-campaign.md)
@@ -145,12 +146,20 @@ ht-degree: 100%
       + [중복 제거](workflows/activities/deduplication.md)
       + [이메일, SMS, 푸시, 다이렉트 메일](workflows/activities/channels.md)
       + [보강](workflows/activities/enrichment.md)
+      + [외부 신호](workflows/activities/external-signal.md)
+      + [파일 추출](workflows/activities/extract-file.md)
       + [포크](workflows/activities/fork.md)
+      + [증분 쿼리](workflows/activities/incremental-query.md)
+      + [JavaScript 코드](workflows/activities/javascript-code.md)
       + [파일 로드](workflows/activities/load-file.md)
       + [조정](workflows/activities/reconciliation.md)
       + [대상자 저장](workflows/activities/save-audience.md)
       + [예약](workflows/activities/scheduler.md)
       + [분할](workflows/activities/split.md)
+      + [구독 서비스](workflows/activities/subscription-services.md)
+      + [테스트](workflows/activities/test.md)
+      + [파일 전송](workflows/activities/transfer-file.md)
+      + [데이터 업데이트](workflows/activities/update-data.md)
       + [대기](workflows/activities/wait.md)
 + 데이터베이스 쿼리 {#query-database}
    + [쿼리 모델러로 작업](query/query-modeler-overview.md)
@@ -184,4 +193,6 @@ ht-degree: 100%
    + [다른 Adobe 솔루션 사용 작업](integrations/integration.md)
    + [Adobe Experience Manager Assets as a Cloud Service로 자산 관리](integrations/aem-assets.md)
    + [Adobe Experience Manager as a Cloud Service로 템플릿 관리](integrations/aem-content.md)
++ 관리 {#administration}
+   + [사용자 정의 필드 구성](administration/custom-fields.md)
 

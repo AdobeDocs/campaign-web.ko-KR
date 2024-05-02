@@ -5,9 +5,9 @@ description: Adobe Campaign 웹을 사용하여 Android 리치 푸시 알림 게
 hide: true
 hidefromtoc: true
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
+source-git-commit: 42bab8450d78516f6db0d491759b5a46e13d8a46
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1424'
 ht-degree: 6%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 6%
 >id="acw_deliveries_push_remind_later"
 >title="나중에 알림 버튼"
 >abstract="**나중에 알림** 버튼은 알림을 예약하는 옵션을 제공합니다. 타임스탬프 필드에는 에포크를 초 단위로 나타내는 값이 필요합니다."
+
+>[!AVAILABILITY]
+>
+>이 기능은 다음 위치에 있습니다. **제한된 가용성** (LA)
 
 Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에서 선택할 수 있습니다.
 

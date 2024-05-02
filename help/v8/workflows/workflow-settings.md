@@ -3,10 +3,10 @@ audience: end-user
 title: 워크플로 설정 구성
 description: Adobe Campaign 웹을 사용하여 워크플로우 설정을 구성하는 방법 알아보기
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: d4eef621d2287881bfa7ef57e5d90026adceb49c
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 30%
+source-wordcount: '1067'
+ht-degree: 29%
 
 ---
 
@@ -103,3 +103,8 @@ ht-degree: 30%
    * **[!UICONTROL 프로세스 중단]**: 워크플로우가 자동으로 중지되고 상태가 (으)로 변경됩니다. **[!UICONTROL 실패]**. 문제가 해결되면 워크플로우를 다시 시작합니다. **[!UICONTROL 시작]** 단추.
 
 * **[!UICONTROL 연속 오류]**: 이 필드는 다음과 같은 경우에 사용할 수 있습니다. **[!UICONTROL 무시]** 다음에서 값이 선택됨: **[!UICONTROL 오류가 있는 경우]** 필드. 프로세스가 중지되기 전에 무시할 수 있는 오류 수를 지정할 수 있습니다. 이 수에 도달하면 워크플로 상태가 (으)로 변경됩니다. **[!UICONTROL 실패]**. 이 필드의 값이 0인 경우 오류 수에 관계없이 워크플로가 중지되지 않습니다.
+
+## 초기화 스크립트 {#initialization-script}
+
+다음 **초기화 스크립트** 변수를 초기화하거나 활동 속성을 수정할 수 있습니다. 다음을 클릭합니다. **코드 편집** 을(를) 클릭하고 실행할 코드 조각을 입력합니다. 워크플로가 실행될 때 스크립트가 호출됩니다. 관련 섹션을 참조하십시오. [이벤트 변수](../workflows/event-variables.md).
+

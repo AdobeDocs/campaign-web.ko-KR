@@ -3,9 +3,9 @@ audience: end-user
 title: 워크플로 활동을 사용하여 작업
 description: 워크플로 활동을 사용하는 방법 알아보기
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: 5947d7f6b2fd39ede6322273e7497744f9aff953
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '685'
 ht-degree: 26%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 26%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
->title="파일 추출 및 파일 로드 활동"
+>title="파일 추출 및 로드 활동"
 >abstract="워크플로우에서 새로운 데이터 관리 활동을 사용할 수 있습니다. 파일 추출 활동을 사용하여 Adobe Campaign의 데이터를 다른 시스템으로 외부 파일로 내보냅니다. 파일 로드 활동을 사용하여 외부 파일에 저장된 프로필 및 데이터로 작업합니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 

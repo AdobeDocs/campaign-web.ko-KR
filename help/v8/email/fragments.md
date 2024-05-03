@@ -1,16 +1,17 @@
 ---
 audience: end-user
-title: 조각을 사용한 작업
-description: 조각을 사용하여 작업하는 방법 알아보기
+title: 콘텐츠 조각 만들기
+description: 콘텐츠 조각을 사용하여 만드는 방법 알아보기
 hidefromtoc: true
-source-git-commit: a882087bc608ea4029e53ed38ecf699e127be065
+hide: true
+source-git-commit: 341e2a5ab073405d3be19068f85b9ea917b32a69
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '843'
 ht-degree: 5%
 
 ---
 
-# 조각을 사용한 작업 {#fragments}
+# 콘텐츠 조각 만들기 {#fragments}
 
 
 >[!CONTEXTUALHELP]

@@ -3,7 +3,8 @@ audience: end-user
 title: 이메일에 비주얼 조각 추가
 description: 이메일에 시각적 조각을 추가하는 방법 알아보기
 hide: true
-source-git-commit: a882087bc608ea4029e53ed38ecf699e127be065
+hidefromtoc: true
+source-git-commit: 341e2a5ab073405d3be19068f85b9ea917b32a69
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 4%

@@ -3,10 +3,10 @@ audience: end-user
 title: 파일 로드 워크플로우 활동 사용
 description: 파일 로드 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: ba187eaebf299e5d2ee303c4e15180d35a9e6180
+source-git-commit: 4518f7a2f280eca70f799b941c5d28bdc39c1def
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 13%
+source-wordcount: '1227'
+ht-degree: 14%
 
 ---
 
@@ -42,10 +42,6 @@ ht-degree: 13%
 ![](../assets/workflow-load-file.png)
 
 ### 샘플 파일 구성 {#sample}
-
->[!AVAILABILITY]
->
->이 기능은 LA(Limited Availability)에 있습니다. Campaign 서버 v8.7을 실행하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -122,6 +118,8 @@ ht-degree: 13%
 >
 >대상 파일을 로드하기 전에 해당 파일이 샘플 파일 형식을 준수하는지 확인하십시오. 파일 형식, 열 구조 또는 열 수가 일치하지 않으면 워크플로우 실행 중에 오류가 발생할 수 있습니다.
 
+업로드할 대상 파일을 정의하려면 다음 단계를 수행합니다.
+
 1. 다음에서 **[!UICONTROL 대상 파일]** 섹션에서 서버에 업로드할 파일을 검색할 때 수행할 작업을 지정합니다.
 
    * **[!UICONTROL 로컬 컴퓨터에서 파일 업로드]**: 컴퓨터에서 업로드할 파일을 선택합니다.
@@ -150,10 +148,6 @@ ht-degree: 13%
 >title="가져오기 후 파일 삭제"
 >abstract="파일을 가져온 후 서버에서 원본 파일을 삭제하려면 **가져오기 후 파일 삭제**&#x200B;를 토글하십시오."
 
-
->[!AVAILABILITY]
->
->이러한 옵션은 LA(Limited Availability)에 있습니다. Campaign 서버 v8.7을 실행하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 
 1. 다음에서 **관리 거부** 섹션에서 오류 발생 시 활동이 어떻게 동작해야 하는지 지정합니다.
 

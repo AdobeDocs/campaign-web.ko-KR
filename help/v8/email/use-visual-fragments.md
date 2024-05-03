@@ -3,17 +3,16 @@ audience: end-user
 title: 이메일에 비주얼 조각 추가
 description: 이메일에 시각적 조각을 추가하는 방법 알아보기
 hide: true
-source-git-commit: 2abbe837197980b4eacb0b5171dc29637fd19dfc
+source-git-commit: a882087bc608ea4029e53ed38ecf699e127be065
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '418'
 ht-degree: 4%
 
 ---
 
 # 이메일에 비주얼 조각 추가 {#use-visual-fragments}
 
-에서 시각적 조각을 사용할 수 있습니다. [이메일 게재](get-started-email-designer.md)또는 [콘텐츠 템플릿](use-email-templates.md).
-
+에서 시각적 조각을 사용할 수 있습니다. [이메일 게재](get-started-email-designer.md)또는 [콘텐츠 템플릿](use-email-templates.md). 단계는 아래에 자세히 설명되어 있습니다.
 
 
 >[!NOTE]

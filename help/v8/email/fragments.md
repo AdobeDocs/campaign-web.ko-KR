@@ -3,9 +3,9 @@ audience: end-user
 title: 조각을 사용한 작업
 description: 조각을 사용하여 작업하는 방법 알아보기
 hidefromtoc: true
-source-git-commit: 2abbe837197980b4eacb0b5171dc29637fd19dfc
+source-git-commit: a882087bc608ea4029e53ed38ecf699e127be065
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '842'
 ht-degree: 5%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 5%
 조각을 최대한 활용하려면 다음을 수행하십시오.
 
 * 아래에 자세히 설명된 대로 고유한 시각적 조각을 만듭니다.
-* 이메일 디자이너를 통해 콘텐츠에서 필요한 횟수만큼 사용합니다. 다음을 참조하십시오 [시각적 조각 추가](../email/use-visual-fragments.md)
+* 이메일 디자이너를 통해 콘텐츠에서 필요한 횟수만큼 사용합니다. 다음을 참조하십시오 [이메일에 시각적 조각 추가](../email/use-visual-fragments.md).
 
 ## 시각적 조각 만들기 {#create-fragments}
 
@@ -102,8 +102,6 @@ ht-degree: 5%
    ![](assets/fragment-designer.png)
 
 1. 조각이 준비되면 **[!UICONTROL 저장 및 닫기]**. 에 추가됩니다. [조각 목록](#access-manage-fragments).
-
-1. 필요한 경우 조각 이름 옆에 있는 화살표를 클릭하여 로 돌아갑니다. **[!UICONTROL 세부 사항]** 화면을 표시하고 편집합니다.
 
 이제 이 조각을 작성할 때 사용할 준비가 되었습니다. [이메일](../email/get-started-email-designer.md) 또는 [콘텐츠 템플릿](use-email-templates.md) Campaign 내에서 [방법 알아보기](../email/use-visual-fragments.md)
 

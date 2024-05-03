@@ -2,14 +2,21 @@
 audience: end-user
 title: 증분 쿼리 워크플로우 활동 사용
 description: 증분 쿼리 워크플로우 활동을 사용하는 방법을 알아봅니다
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 16%
+source-wordcount: '786'
+ht-degree: 18%
 
 ---
 
 # 증분 쿼리 {#incremental-query}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="증분 쿼리 활동"
+>abstract="새 증분 쿼리 활동을 사용하여 일정에 따라 데이터베이스를 쿼리합니다. 이 활동이 실행될 때마다 이전 실행의 결과가 제외됩니다. 이를 통해 새 요소만 타겟팅할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"

@@ -2,14 +2,23 @@
 audience: end-user
 title: 구독 서비스 활동 사용
 description: 구독 서비스 워크플로우 활동을 사용하는 방법 알아보기
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '992'
 ht-degree: 13%
 
 ---
 
 # 구독 서비스 {#subscriptipon-services}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="구독 서비스 활동"
+>abstract="새로운 구독 서비스 워크플로우 활동을 사용하여 서비스 구독을 관리합니다. 모집단을 구독하거나 구독을 취소할 수 있으며 외부 파일에서 여러 구독을 업데이트할 수도 있습니다. 옵션으로, 가입자에게 알리기 위해 확인 메시지를 보내는 것도 가능합니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"

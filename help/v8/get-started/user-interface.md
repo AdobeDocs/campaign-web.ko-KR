@@ -3,10 +3,10 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: b1dc684593011729ab1a3214c3b87709cceb61e3
 workflow-type: tm+mt
-source-wordcount: '1670'
-ht-degree: 99%
+source-wordcount: '1644'
+ht-degree: 100%
 
 ---
 
@@ -197,40 +197,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="수신자 오퍼 미리보기"
 >abstract="수신자 오퍼 미리보기"
 
->[!CONTEXTUALHELP]
->id="acw_fragments_menu"
->title="조각"
->abstract="조각"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_save"
->title="조각 저장"
->abstract="조각 저장"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_create"
->title="조각 생성"
->abstract="조각 생성"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_properties"
->title="조각 속성"
->abstract="조각 속성"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_type"
->title="조각 유형"
->abstract="조각 유형"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_list"
->title="조각 목록"
->abstract="조각 목록"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_details"
->title="조각 세부 정보"
->abstract="조각 세부 정보"
 
 
 

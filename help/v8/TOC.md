@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 5fee5f9c0d055bb2936c0744a24a1671d8257e78
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 98%
+source-wordcount: '684'
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,10 @@ ht-degree: 98%
       + [첫 이메일 만들기](email/create-email.md)
       + 이메일 콘텐츠 정의 {#content}
          + [이메일 콘텐츠 구성](email/edit-content.md)
-         + [콘텐츠 템플릿 작업](email/create-email-templates.md)
+         + 재사용 가능한 콘텐츠 관리 {#manage-reusable-content}
+            + [콘텐츠 템플릿 작업](email/create-email-templates.md)
+            + [조각을 사용한 작업](email/fragments.md)
+            + [이메일에 시각적 조각 추가](email/use-visual-fragments.md)
          + 이메일 구성 시작 {#start-design}
             + [이메일 디자이너 시작](email/get-started-email-designer.md)
             + [처음부터 시작하기](email/create-email-content.md)

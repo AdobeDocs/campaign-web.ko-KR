@@ -3,10 +3,10 @@ keywords: Campaign Web;홈;인기 있는 주제
 description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 98%
+source-wordcount: '474'
+ht-degree: 82%
 
 ---
 
@@ -51,27 +51,23 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 
 >[!BEGINTABS]
 
->[!TAB 3월 릴리스가 공개되었습니다!]
+>[!TAB 4월 릴리스 예정일]
 
-Adobe Campaign Web 사용자 인터페이스 24.3 릴리스에 포함된 새로운 기능과 개선 사항을 살펴보십시오.
+Adobe Campaign Web 사용자 인터페이스 24.4 릴리스에 포함된 새로운 기능과 개선 사항을 살펴보십시오.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB 다이렉트 메일 채널]
+>[!TAB 새 워크플로우 활동]
 
-이제 **다이렉트 메일** 채널을 워크플로 및 독립 실행형 게재에 사용할 수 있습니다. 다이렉트 메일은 다이렉트 메일 공급자가 고객에게 메일을 보내는 데 사용하는 추출 파일을 만들고, 개인화하고, 생성하여 해당 공급자와 공유할 수 있는 오프라인 채널입니다.
+이 릴리스는 데이터 업데이트, 구독 서비스, 파일 추출, 파일 전송, 테스트, JavaScript 코드, 외부 신호, 증분 쿼리 워크플로우 활동과 함께 제공됩니다.
 
-![이미지](assets/do-not-localize/direct-mail.gif)
+[![이미지](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
-[![이미지](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
+>[!TAB 리치 푸시 알림]
 
->[!TAB 데이터 소스 워크플로 활동 신규 변경]
+이제 Android를 통해 리치 푸시 알림을 전송할 수 있습니다. 리치 푸시 알림은 이미지, 대화형 버튼 또는 기타 리치 미디어 컨텐츠와 같은 멀티미디어 요소를 통합하여 간단한 텍스트 메시지를 넘어 향상된 형태의 모바일 알림입니다.
 
-**데이터 소스 변경** 타겟팅 활동을 사용하면 워크플로의 작업 테이블에서 사용하는 데이터 소스를 변경할 수 있습니다. 이 활동을 통해 다양한 데이터베이스에서 데이터를 관리하고 성능을 향상할 수 있어 유연성이 향상됩니다.
-
-![이미지](assets/do-not-localize/change-data-source.gif)
-
-[![이미지](assets/do-not-localize/learn-more-button.svg)](workflows/activities/change-data-source.md)
+[![이미지](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
 
 >[!ENDTABS]
 

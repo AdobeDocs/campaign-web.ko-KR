@@ -2,13 +2,13 @@
 audience: end-user
 title: Campaign Standard에서 Adobe Campaign 웹으로 전환
 description: Campaign 웹 사용자 인터페이스 살펴보기
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
+source-git-commit: 8cd743d7feafe9093790c3f631ffbfe19d1413e2
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 7%
 
 ---
-
 
 # Campaign v8로 Campaign Standard 전환{#welcome}
 
@@ -64,10 +64,10 @@ Campaign 웹 사용자 인터페이스와 Campaign 클라이언트 콘솔 간의
 * 사용자 지정 리소스는 다음과 같습니다 **스키마** Campaign 웹 사용자 인터페이스에서 다음을 수행합니다.
 * 마케팅 활동이 더 이상 존재하지 않습니다.
 * 메시지: **게재**.
-* 연산자는 **사용자**.
-* 명명된 권한: **역할**.
-* 연산자 그룹은 다음과 같습니다 **보안 그룹**.
-* 폴더 권한은 **조직 단위**
+* 사용자는 **연산자**.
+* 역할은 **명명된 권한**.
+* 보안 그룹은 **운영자 그룹**.
+* 조직 단위: **폴더 권한**
 
 ## 새로운 기능 {#new-features}
 

@@ -2,14 +2,19 @@
 title: 최신 릴리스 정보
 description: Campaign Web 사용자 인터페이스에서 제공하는 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: f6a1ebcb5a77798f738e2a4ac0b45454d941d7c7
+source-git-commit: d50dfc4ea433fa48301707b40164e2fdf9fa64fd
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 25%
+source-wordcount: '1185'
+ht-degree: 26%
 
 ---
 
 # 릴리스 정보 {#latest-release}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card2"
+>title="릴리스 정보"
+>abstract="Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 연속 게재 모델에서 작동합니다. 이에 따라 Campaign 릴리스 정보는 매달 여러 번 업데이트되며 최신 기능, 개선 사항 및 수정 사항이 포함되어 있습니다. 정기적으로 확인하는 것이 좋습니다."
 
 <!--Last update: **March 19, 2024**-->
 

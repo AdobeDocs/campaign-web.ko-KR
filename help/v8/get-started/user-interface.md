@@ -3,10 +3,10 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: b1dc684593011729ab1a3214c3b87709cceb61e3
+source-git-commit: fbbad6abf6b43159ed8111ae3ee58834b2270fc2
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 100%
+source-wordcount: '1650'
+ht-degree: 99%
 
 ---
 
@@ -375,3 +375,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_alerting_dashboard_create"
 >title="게재 경고 대시보드 만들기"
 >abstract="게재 경고 대시보드 만들기"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields"
+>title="사용자 지정 속성 편집"
+>abstract="사용자 지정 속성 편집"

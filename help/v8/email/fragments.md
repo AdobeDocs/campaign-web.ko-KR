@@ -4,9 +4,10 @@ title: 콘텐츠 조각 만들기
 description: 콘텐츠 조각을 사용하여 만드는 방법 알아보기
 hidefromtoc: true
 hide: true
-source-git-commit: 341e2a5ab073405d3be19068f85b9ea917b32a69
+exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
+source-git-commit: fff3c40cf62cb72981fe02cc5443e8eec006777c
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '870'
 ht-degree: 5%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="나만의 조각 정의"
->abstract="조각은 캠페인 간 하나 이상의 이메일에서 참조할 수 있는 재사용 가능한 구성 요소입니다."
+>abstract="조각은 캠페인 간 하나 이상의 이메일에서 참조할 수 있는 재사용 가능한 구성 요소입니다. 이 기능은 마케팅 사용자가 향상된 디자인 프로세스에서 이메일 콘텐츠를 빠르게 조합하는 데 사용할 수 있는 여러 사용자 지정 콘텐츠 블록을 미리 빌드하는 데 사용됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"

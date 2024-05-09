@@ -4,7 +4,8 @@ title: 이메일에 비주얼 조각 추가
 description: 이메일에 시각적 조각을 추가하는 방법 알아보기
 hide: true
 hidefromtoc: true
-source-git-commit: 341e2a5ab073405d3be19068f85b9ea917b32a69
+exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 4%
@@ -52,9 +53,10 @@ ht-degree: 4%
    다음에서 **[!UICONTROL 설정]** 탭에서 다음 작업을 수행할 수 있습니다.
 
    * 조각을 표시할 장치를 선택합니다.
-   * 필요한 경우 새 탭에서 조각을 열어 편집합니다. [자세히 알아보기](../email/fragments.md#edit-fragments)
+   * 
+      1. 다음을 클릭합니다. **콘텐츠 편집** 버튼을 클릭하여 이 조각의 콘텐츠를 엽니다. [자세히 알아보기](../email/fragments.md#edit-fragments)
 
-   다음을 사용하여 조각을 추가로 사용자 정의할 수 있습니다. **[!UICONTROL 스타일]** 탭.
+     다음을 사용하여 조각을 추가로 사용자 정의할 수 있습니다. **[!UICONTROL 스타일]** 탭.
 
 1. 필요한 경우 원본 조각으로 상속을 중단할 수 있습니다. [자세히 알아보기](#break-inheritance)
 콘텐츠에서 조각을 삭제하거나 복제할 수도 있습니다. 이러한 작업은 조각 위에 표시되는 상황별 메뉴에서 직접 수행할 수 있습니다.

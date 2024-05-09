@@ -5,10 +5,10 @@ description: 콘텐츠 조각을 사용하여 만드는 방법 알아보기
 hidefromtoc: true
 hide: true
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: fff3c40cf62cb72981fe02cc5443e8eec006777c
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 5%
+source-wordcount: '887'
+ht-degree: 4%
 
 ---
 
@@ -167,7 +167,7 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->콘텐츠 조각을 삭제하면 이메일 게재 및 이를 사용하는 템플릿이 업데이트되고 해당 조각이 메시지 콘텐츠에서 제거됩니다. 필요한 경우 상속을 중단할 수 있습니다. [자세히 알아보기](use-visual-fragments.md#break-inheritance)
+>콘텐츠 조각을 삭제하면 이메일 게재 및 이를 사용하는 템플릿이 업데이트됩니다. 조각은 이메일 콘텐츠에서 제거되지만 여전히 참조됩니다. 해당 게재 및 템플릿에서 조각 콘텐츠를 유지하려면 조각을 삭제하기 전에 상속을 중단해야 합니다. [이 섹션에 자세히 설명됨](use-visual-fragments.md#break-inheritance).
 >
 
 ### 조각 복제 {#duplicate-fragments}

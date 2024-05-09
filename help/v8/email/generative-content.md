@@ -6,9 +6,9 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: e94f76ef9a90c98c67de29ce8f6b428f18bfc44b
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1369'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
 **목차**
 
 * [AI 어시스턴트 시작하기](generative-gs.md)
-* **[AI Assistant를 사용하여 이메일 생성](generative-content.md)**
+* AI 어시스턴트로 이메일 생성
 * [AI 어시스턴트와 함께하는 SMS 세대](generative-sms.md)
 * [AI 어시스턴트로 푸시 알림 생성](generative-push.md)
 
@@ -216,10 +216,10 @@ AI Assistant를 사용하면 전체 이메일, 타겟팅된 텍스트 콘텐츠 
 
 >[!ENDTABS]
 
-<!--
-## How-to video {#video}
 
-Learn how to use the AI assistant to generate full email, text or images.
+## 사용법 비디오 {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3428341)
--->
+AI Assistant를 사용하여 전체 이메일 콘텐츠, 텍스트 및 이미지를 생성하는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428984)
+

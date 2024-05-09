@@ -6,10 +6,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 10%
 
 * [AI 어시스턴트 시작하기](generative-gs.md)
 * [AI 어시스턴트로 이메일 생성](generative-content.md)
-* **[AI Assistant를 사용하여 SMS 생성](generative-sms.md)**
+* AI 어시스턴트와 함께하는 SMS 세대
 * [AI 어시스턴트로 푸시 알림 생성](generative-push.md)
 
 >[!ENDSHADEBOX]

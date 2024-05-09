@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: 5fee5f9c0d055bb2936c0744a24a1671d8257e78
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 96%
+source-wordcount: '685'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
    + [새로운 기능](rn/whats-new.md)
    + [최신 릴리스](rn/release-notes.md)
    + [설명서 업데이트](rn/documentation-updates.md)
-   + [Campaign Standard에서 v8까지](rn/acs-migration.md)
+   + [Campaign Standard에서 v8로의 전환](rn/acs-migration.md)
 + Adobe Campaign 시작하기 {#start}
    + [시작](get-started/get-started.md)
    + [Campaign에 연결](get-started/connect-to-campaign.md)
@@ -28,7 +28,7 @@ ht-degree: 96%
    + [목록 찾아보기 및 필터링](get-started/list-filters.md)
    + [미리 정의된 필터 작업](get-started/predefined-filters.md)
    + [액세스 및 권한](get-started/permissions.md)
-   + [Campaign 웹 및 클라이언트 콘솔](get-started/capability-matrix.md)
+   + [Campaign Web 및 클라이언트 콘솔](get-started/capability-matrix.md)
    + [AI 기반 상황별 도움말](get-started/using-ai.md)
 + 메시지 및 게재 {#msg}
    + [메시지 시작](msg/gs-messages.md)
@@ -40,7 +40,7 @@ ht-degree: 96%
          + [이메일 콘텐츠 구성](email/edit-content.md)
          + 재사용 가능한 콘텐츠 관리 {#manage-reusable-content}
             + [콘텐츠 템플릿 작업](email/create-email-templates.md)
-            + [조각을 사용한 작업](email/fragments.md)
+            + [시각적 조각을 사용한 작업](email/fragments.md)
             + [이메일에 시각적 조각 추가](email/use-visual-fragments.md)
          + 이메일 구성 시작 {#start-design}
             + [이메일 디자이너 시작](email/get-started-email-designer.md)

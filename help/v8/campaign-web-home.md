@@ -4,13 +4,13 @@ description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
-# Adobe Campaign Web 사용자 인터페이스 {#campaign-documentation}
+# Adobe Campaign Web 사용자 인터페이스 설명서 {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -51,21 +51,21 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 
 >[!BEGINTABS]
 
->[!TAB 4월 릴리스 예정일]
+>[!TAB 4월 릴리스가 공개되었습니다!]
 
 Adobe Campaign Web 사용자 인터페이스 24.4 릴리스에 포함된 새로운 기능과 개선 사항을 살펴보십시오.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB 새 워크플로우 활동]
+>[!TAB 새 워크플로 활동]
 
-이 릴리스는 데이터 업데이트, 구독 서비스, 파일 추출, 파일 전송, 테스트, JavaScript 코드, 외부 신호, 증분 쿼리 워크플로우 활동과 함께 제공됩니다.
+이 릴리스에는 데이터 업데이트, 구독 서비스, 파일 추출, 전송 파일, 테스트, JavaScript 코드, 외부 신호, 증분 쿼리 등의 워크플로 활동이 포함되어 있습니다.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
 >[!TAB 리치 푸시 알림]
 
-이제 Android를 통해 리치 푸시 알림을 전송할 수 있습니다. 리치 푸시 알림은 이미지, 대화형 버튼 또는 기타 리치 미디어 컨텐츠와 같은 멀티미디어 요소를 통합하여 간단한 텍스트 메시지를 넘어 향상된 형태의 모바일 알림입니다.
+이제 Android를 통해 리치 푸시 알림을 보낼 수 있습니다. 리치 푸시 알림은 이미지, 대화형 버튼 또는 기타 리치 미디어 콘텐츠와 같은 멀티미디어 요소를 통합하여 단순한 문자 메시지를 넘어서는 향상된 형태의 모바일 알림입니다.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
 
@@ -107,7 +107,7 @@ Adobe Campaign Web 사용자 인터페이스 24.4 릴리스에 포함된 새로�
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>시작</strong><br/><a href="get-started/user-interface.md">사용자 인터페이스</a> - <a href="get-started/connect-to-campaign.md">Campaign에 연결</a> - <a href="get-started/permissions.md">액세스 및 권한</a>
+      <strong>시작하기</strong><br/><a href="get-started/user-interface.md">사용자 인터페이스</a> - <a href="get-started/connect-to-campaign.md">캠페인에 연결</a> - <a href="get-started/permissions.md">액세스 및 권한</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">

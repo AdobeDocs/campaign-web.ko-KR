@@ -4,7 +4,7 @@ description: Adobe Campaign Web 사용자 인터페이스에 접속하는 방법
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '559'
 ht-degree: 100%
 
 ---

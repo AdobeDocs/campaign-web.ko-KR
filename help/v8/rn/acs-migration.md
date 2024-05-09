@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Campaign Standard에서 Adobe Campaign 웹으로 전환
-description: Campaign 웹 사용자 인터페이스 살펴보기
+title: Campaign Standard에서 Adobe Campaign Web으로의 전환
+description: Campaign Web 사용자 인터페이스 살펴보기
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 source-git-commit: 8cd743d7feafe9093790c3f631ffbfe19d1413e2
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 7%
+ht-degree: 97%
 
 ---
 
-# Campaign v8로 Campaign Standard 전환{#welcome}
+# Campaign Standard에서 Campaign v8로의 전환{#welcome}
 
 <!--
 We are thrilled to annonce that you, as a Campaign Standard user, can now benefit from the new version of Adobe Campaign Web User Interface. The migration is seemless and will allow you to use all the intuitive features designed to simplify the creation of personalized cross-channel campaigns. Campaign Web User Interface also brings a connected canvas with Adobe Experience Platform for a unified experience.
@@ -18,12 +18,12 @@ We are thrilled to annonce that you, as a Campaign Standard user, can now benefi
 
 Adobe Campaign Managed Cloud Services v8에 오신 것을 환영합니다!
 
-Adobe Campaign Standard 사용자가 이제 Adobe Campaign Managed Cloud Services v8로 전환할 수 있음을 발표하게 되어 기쁘게 생각합니다. 이러한 전환은 다음과 같은 많은 이점을 제공합니다.
+이제부터는 Adobe Campaign Standard 사용자가 Adobe Campaign Managed Cloud Services v8로 전환할 수 있게 되었음을 알려드리게 되어 기쁩니다. 이러한 전환은 다음과 같은 많은 이점을 제공합니다.
 
-* 강력한 IT 인프라: 관리 Cloud Service v8을 통해 고객은 보다 강력한 IT 인프라를 활용하여 캠페인에 대한 성능, 안정성 및 확장성을 향상시킬 수 있습니다.
-* 향상된 지원: 당사의 관리 Cloud Service 팀은 귀하의 플랫폼을 원활하게 전환하고 지속적으로 모니터링할 수 있도록 최고 수준의 지원을 제공하기 위해 최선을 다하고 있습니다. 문제 해결에서 사전 유지 관리에 이르기까지 모든 문제를 해결해 드립니다.
-* Adobe Experience Platform과 통합: 관리 Cloud Service v8은 Adobe Experience Platform과 원활하게 연결되어 고객이 데이터의 모든 잠재력을 활용하고 채널 전반에 개인화되고 영향력 있는 캠페인을 제공할 수 있습니다.
-* 일관된 사용자 인터페이스 및 경험: 관리 Cloud Service v8로 전환해도 워크플로우가 중단되지 않으므로 안심할 수 있습니다. 친숙한 사용자 인터페이스와 사용자 경험을 계속 활용하여 팀에 대한 최소한의 학습 곡선을 보장할 수 있습니다.
+* 강력한 IT 인프라: Managed Cloud Services v8을 통해 클라이언트는 보다 강력한 IT 인프라를 활용하여 캠페인에 향상된 성능, 신뢰성 및 확장성을 보장할 수 있습니다.
+* 향상된 지원: 당사의 Managed Cloud Services 팀은 플랫폼의 원활한 전환과 지속적인 모니터링을 보장하는 최상의 지원을 제공하기 위해 최선을 다하고 있습니다. 문제 해결에서 사전 유지 관리에 이르기까지 다양한 서비스를 제공합니다.
+* Adobe Experience Platform과의 통합: Managed Cloud Services v8은 Adobe Experience Platform과 원활하게 연결되어 클라이언트가 데이터의 잠재력을 최대한 활용하고 채널 전반에 걸쳐 개인화되고 영향력 있는 캠페인을 제공할 수 있도록 지원합니다.
+* 일관된 사용자 인터페이스 및 경험: Managed Cloud Services v8로 전환해도 워크플로가 중단되지 않으니 안심하셔도 됩니다. 친숙한 사용자 인터페이스와 사용자 경험을 계속 즐길 수 있어 팀의 학습 곡선을 최소화할 수 있습니다.
 
 <!--
 As a Campaign Standard user, we now offer you a way to migrate to Adobe Campaign v8. You will benefit from both the new Campaign Web interface and the v8 console.
@@ -33,26 +33,26 @@ As a Campaign Standard user, we now offer you a way to migrate to Adobe Campaign
 
 Campaign v8이 제공하는 주요 기능에 대해 자세히 알아보겠습니다.
 
-* 현대적이고 친근하며 통합된 경험. [자세히 알아보기](../get-started/connect-to-campaign.md)
-* 새로운 강력한 기능과 원활한 프로세스 [자세히 알아보기](../get-started/user-interface.md)
-* 단순하고 직관적인 새 쿼리 모델러입니다. [자세히 알아보기](../query/query-modeler-overview.md)
+* 현대적이고 친숙하며 통합된 경험. [자세히 알아보기](../get-started/connect-to-campaign.md)
+* 강력한 새로운 기능 및 원활한 프로세스. [자세히 알아보기](../get-started/user-interface.md)
+* 간편하고 직관적인 새로운 쿼리 모델러. [자세히 알아보기](../query/query-modeler-overview.md)
 * 내장된 크로스 채널 캠페인 관리 기능. [자세히 알아보기](../msg/gs-messages.md)
-* 새롭고 재설계된 캠페인 워크플로우 활동. [자세히 알아보기](../workflows/gs-workflows.md)
-* 쿼리 모델러를 사용하여 대상자를 타깃팅합니다. [자세히 알아보기](../query/query-modeler-overview.md)
-* 간편한 프로필 생성 및 관리 [자세히 알아보기](../audience/about-recipients.md)
-* 사전 정의된 필터. [자세히 알아보기](../get-started/predefined-filters.md)
+* 새롭고 재설계된 캠페인 워크플로 활동. [자세히 알아보기](../workflows/gs-workflows.md)
+* 쿼리 모델러를 사용한 타깃 대상자. [자세히 알아보기](../query/query-modeler-overview.md)
+* 간편한 프로필 생성 및 관리. [자세히 알아보기](../audience/about-recipients.md)
+* 미리 정의된 필터. [자세히 알아보기](../get-started/predefined-filters.md)
 * 이메일 디자인용 HTML 변환기. [자세히 알아보기](../email/existing-content.md)
-* 오퍼가 있는 SMS. [자세히 알아보기](../msg/offers.md)
+* SMS와 오퍼. [자세히 알아보기](../msg/offers.md)
 
 ## 콘솔 및 웹 인터페이스 {#console}
 
-Campaign v8 사용자는 새로운 Campaign 웹 인터페이스와 v8 콘솔 모두에 액세스할 수 있습니다. 데이터와 설정은 한 환경에서 다른 환경으로 동기화됩니다. 클라이언트 콘솔에서 사용할 수 있는 모든 데이터와 설정은 Explorer 왼쪽 탐색에서 Campaign 웹 사용자 인터페이스에 표시됩니다. [자세히 알아보기](../get-started/user-interface.md#user-interface-explorer)
+Campaign v8 사용자는 새로운 Campaign Web 인터페이스와 v8 콘솔 모두에 액세스할 수 있습니다. 데이터와 설정은 한 환경에서 다른 환경으로 동기화됩니다. 클라이언트 콘솔에 제공된 모든 데이터 및 설정이 탐색기 왼쪽 탐색 메뉴의 Campaign Web 사용자 인터페이스에 표시됩니다. [자세히 알아보기](../get-started/user-interface.md#user-interface-explorer)
 
-Campaign 웹 사용자 인터페이스와 Campaign 클라이언트 콘솔 간의 지원 및 지원되지 않는 기능 및 상호 운용성 [이 페이지에서](../get-started/capability-matrix.md)
+지원/미지원 기능 및 Campaign Web 사용자 인터페이스와 Campaign 클라이언트 콘솔 간 상호 운용성에 대한 자세한 내용은 [이 페이지에서](../get-started/capability-matrix.md) 확인할 수 있습니다.
 
-## Terminology {#terminology}
+## 용어 {#terminology}
 
-대부분의 개념은 Campaign 웹 인터페이스와 Campaign Standard 간에 유사합니다. 그러나 몇 가지 차이점이 있습니다. 다음은 Campaign Standard과 Campaign 웹 인터페이스 간의 용어 차이점에 대한 몇 가지 예입니다.
+대부분의 개념은 Campaign Web 인터페이스와 Campaign Standard 간에 유사합니다. 단, 몇 가지 차이점이 있습니다. 다음은 Campaign Standard와 Campaign Web 인터페이스 간의 용어 차이 예입니다.
 
 <!--
 * Profiles are **Recipients** in the console. [Learn more](../audience/gs-audiences-recipients.md).
@@ -61,9 +61,9 @@ Campaign 웹 사용자 인터페이스와 Campaign 클라이언트 콘솔 간의
 * Audiences are **Lists**. [Learn more](../audience/gs-audiences-recipients.md).
 -->
 
-* 사용자 지정 리소스는 다음과 같습니다 **스키마** Campaign 웹 사용자 인터페이스에서 다음을 수행합니다.
-* 마케팅 활동이 더 이상 존재하지 않습니다.
-* 메시지: **게재**.
+* 사용자 정의 리소스는 Campaign Web 사용자 인터페이스의 **스키마**&#x200B;입니다.
+* 마케팅 활동은 더 이상 존재하지 않습니다.
+* 메시지는 **게재**&#x200B;됩니다.
 * 사용자는 **연산자**.
 * 역할은 **명명된 권한**.
 * 보안 그룹은 **운영자 그룹**.
@@ -71,15 +71,15 @@ Campaign 웹 사용자 인터페이스와 Campaign 클라이언트 콘솔 간의
 
 ## 새로운 기능 {#new-features}
 
-전환할 수 있도록 다음을 추가했습니다. [주요 기능](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html) Campaign Standard에서 v8까지:
+전환할 수 있도록 Campaign Standard에서 v8로 다음의 [주요 기능](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html)을 추가했습니다.
 
-* **다이내믹 보고**: 동적 보고는 마케팅 활동의 영향을 측정하기 위한 사용자 지정 및 실시간 보고서를 제공합니다. 프로필 데이터에 대한 액세스를 추가하여 열기 및 클릭과 같은 실용적인 이메일 캠페인 데이터 외에도 성별, 도시 및 연령 등의 프로필 차원별 인구 통계 분석을 활성화합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
+* **동적 보고**: 동적 보고는 마케팅 활동의 영향을 측정하기 위해 완전히 사용자 정의 가능한 실시간 보고서를 제공합니다. 프로필 데이터에 대한 액세스를 추가하여 열기 및 클릭과 같은 기능적인 이메일 캠페인 데이터뿐만 아니라 성별, 도시, 연령과 같은 프로필 차원별 인구 통계 분석을 가능하게 합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
 
-* **중앙 집중식 브랜딩**: 모든 회사에는 브랜드 시각적 및 기술적 지침이 있습니다. Adobe Campaign을 사용하면 로고부터 이메일 발신자, URL 또는 도메인과 같은 기술적 측면까지 일관된 브랜드를 고객에게 제시하기 위해 일련의 사양을 정의할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
+* **중앙 집중식 브랜딩**: 모든 회사에는 브랜드 시각적 및 기술적 지침이 있습니다. Adobe Campaign을 사용하면 로고에서부터 이메일 발신자, URL 또는 도메인과 같은 기술적 측면까지 일관된 브랜드를 고객에게 제시하기 위해 일련의 사양을 정의할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
 
-* **나머지 API** - Campaign Stardard를 마이그레이션한 사용자는 Rest API를 사용하여 Adobe Campaign을 위한 통합을 만들고 사용 중인 기술 패널과 Adobe Campaign을 연결하여 고유한 에코시스템을 구축할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html)
+* **REST API** - Campaign Standard 마이그레이션 사용자인 경우 REST API를 사용하여 Adobe Campaign을 통합하고 사용하는 기술 패널과 Adobe Campaign을 인터페이스하여 자체 에코시스템을 구축할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html)
 
-* **랜딩 페이지** - Campaign v8에서는 기능을 잃지 않도록 많은 기능이 개선되었습니다. 다음에서 자세히 알아보기 [릴리스 정보](../rn/release-notes.md#new-24-4) 및 랜딩 페이지 [설명서](../landing-pages/get-started-lp.md).
+* **랜딩 페이지** - 기능이 손실되지 않도록 Campaign v8에 많은 개선이 이루어졌습니다. [릴리스 정보](../rn/release-notes.md#new-24-4) 및 랜딩 페이지 [설명서](../landing-pages/get-started-lp.md)에서 자세한 내용을 확인하십시오.
 
 <!--
 * Delivery Alerting: In addition to viewing notifications directly in Campaign, Adobe Campaign also provides an email alerting system to trigger email alerts to users or external stakeholders of important system activities. Create, manage, and receive customizable alerts and dashboards to keep track of delivery successes or failures. Adobe Campaign Delivery Alerting boosts efficiency by keeping all involved Adobe Campaign users in a company automatically informed about the delivery execution status, via email and dashboard. 

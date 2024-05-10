@@ -8,7 +8,7 @@ exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
 source-wordcount: '887'
-ht-degree: 4%
+ht-degree: 18%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="나만의 조각 정의"
->abstract="조각은 캠페인 간 하나 이상의 이메일에서 참조할 수 있는 재사용 가능한 구성 요소입니다. 이 기능은 마케팅 사용자가 향상된 디자인 프로세스에서 이메일 콘텐츠를 빠르게 조합하는 데 사용할 수 있는 여러 사용자 지정 콘텐츠 블록을 미리 빌드하는 데 사용됩니다."
+>abstract="조각은 캠페인에서 하나 이상의 이메일에 참조할 수 있는 재사용 가능한 구성 요소입니다. 이 기능은 마케팅 사용자가 향상된 디자인 프로세스에서 이메일 콘텐츠를 빠르게 조합하는 데 사용할 수 있는 여러 사용자 지정 콘텐츠 블록을 미리 빌드하는 데 사용됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
@@ -28,7 +28,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_create"
 >title="나만의 조각 정의"
->abstract="조각은 캠페인 간 하나 이상의 이메일에서 참조할 수 있는 재사용 가능한 구성 요소입니다."
+>abstract="조각은 캠페인에서 하나 이상의 이메일에 참조할 수 있는 재사용 가능한 구성 요소입니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_properties"
@@ -38,12 +38,12 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_type"
 >title="조각 유형"
->abstract="조각 유형을 선택합니다. 지금은 이메일에 대한 시각적 조각만 사용할 수 있습니다."
+>abstract="조각 유형을 선택합니다. 현재는 이메일의 시각적 조각만 사용할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
 >title="나만의 조각 정의"
->abstract="조각은 캠페인 간 하나 이상의 이메일에서 참조할 수 있는 재사용 가능한 구성 요소입니다. 이메일 템플릿에서 조각을 사용할 수도 있습니다. 현재 시각적 조각만 사용할 수 있습니다."
+>abstract="조각은 캠페인에서 하나 이상의 이메일에 참조할 수 있는 재사용 가능한 구성 요소입니다. 이메일 템플릿에서 조각을 사용할 수도 있습니다. 현재는 시각적 조각만 사용할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
@@ -53,9 +53,9 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_create_fragment"
 >title="나만의 조각 정의"
->abstract="조각은 캠페인 간 하나 이상의 이메일에서 참조할 수 있는 재사용 가능한 구성 요소입니다."
+>abstract="조각은 캠페인에서 하나 이상의 이메일에 참조할 수 있는 재사용 가능한 구성 요소입니다."
 
-조각은 캠페인 간 하나 이상의 이메일에서 참조할 수 있는 재사용 가능한 구성 요소입니다. 조각을 수정할 때 조각을 사용하는 모든 콘텐츠가 업데이트됩니다.
+조각은 캠페인에서 하나 이상의 이메일에 참조할 수 있는 재사용 가능한 구성 요소입니다. 조각을 수정할 때 조각을 사용하는 모든 콘텐츠가 업데이트됩니다.
 
 이 기능을 사용하면 마케팅 사용자가 향상된 디자인 프로세스에서 이메일 콘텐츠를 빠르게 조합하는 데 사용할 수 있는 여러 사용자 지정 콘텐츠 블록을 미리 빌드할 수 있습니다.
 

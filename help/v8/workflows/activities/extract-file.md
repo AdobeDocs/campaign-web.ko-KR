@@ -2,10 +2,11 @@
 audience: end-user
 title: 파일 추출 워크플로우 활동 사용
 description: 파일 추출 워크플로우 활동을 사용하는 방법 알아보기
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 7%
+ht-degree: 16%
 
 ---
 
@@ -14,9 +15,9 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="파일 추출"
->abstract="다음 **파일 추출** 활동을 사용하면 Adobe Campaign의 데이터를 외부 파일 형태로 내보낼 수 있습니다. 그런 다음 파일 전송 활동을 사용하여 데이터를 SFTP, 클라우드 스토리지 또는 캠페인 서버와 같은 서버 위치로 내보낼 수 있습니다."
+>abstract="**파일 추출** 활동을 사용하면 Adobe Campaign의 데이터를 외부 파일 형태로 내보낼 수 있습니다. 그런 다음 파일 전송 활동을 사용하여 SFTP, 클라우드 스토리지 또는 캠페인 서버와 같은 서버 위치로 데이터를 내보낼 수 있습니다."
 
-다음 **파일 추출** 활동은 입니다. **데이터 관리** 활동. 이 활동을 사용하여 Adobe Campaign의 데이터를 외부 파일 형태로 내보냅니다. 그런 다음 파일 전송 활동을 사용하여 데이터를 SFTP, 클라우드 스토리지 또는 캠페인 서버와 같은 서버 위치로 내보낼 수 있습니다.
+다음 **파일 추출** 활동은 입니다. **데이터 관리** 활동. 이 활동을 사용하여 Adobe Campaign의 데이터를 외부 파일 형태로 내보냅니다. 그런 다음 파일 전송 활동을 사용하여 SFTP, 클라우드 스토리지 또는 캠페인 서버와 같은 서버 위치로 데이터를 내보낼 수 있습니다.
 
 을(를) 구성하려면 다음을 수행하십시오. **파일 추출** 활동, 추가 **파일 추출** 활동을 워크플로우에 포함시킨 다음 아래 단계를 수행합니다.
 
@@ -76,7 +77,7 @@ ht-degree: 7%
 
    ![](../assets/extract-file-format.png)
 
-## 후 처리 단계 추가 {#script}
+## 사후 처리 단계 추가 {#script}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"

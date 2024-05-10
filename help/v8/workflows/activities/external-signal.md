@@ -2,10 +2,11 @@
 audience: end-user
 title: 외부 신호 활동 사용
 description: 외부 신호 워크플로우 활동을 사용하는 방법 알아보기
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: e4244ecc-5e37-41a6-a4dd-6e32da6d5512
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="외부 신호"
->abstract="다음 **외부 신호** 활동을 사용하면 다른 워크플로우 또는 API 호출에서 워크플로우 실행을 트리거할 수 있습니다."
+>abstract="**외부 신호** 활동을 사용하면 API 호출 또는 다른 워크플로에서 워크플로의 실행을 트리거할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"

@@ -6,7 +6,7 @@ exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
 source-wordcount: '992'
-ht-degree: 13%
+ht-degree: 24%
 
 ---
 
@@ -16,19 +16,19 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="구독 서비스 활동"
->abstract="새로운 구독 서비스 워크플로우 활동을 사용하여 서비스 구독을 관리합니다. 모집단을 구독하거나 구독을 취소할 수 있으며 외부 파일에서 여러 구독을 업데이트할 수도 있습니다. 옵션으로, 가입자에게 알리기 위해 확인 메시지를 보내는 것도 가능합니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+>abstract="새 구독 서비스 워크플로 활동을 사용하여 서비스 구독을 관리합니다. 모집단을 구독하거나 구독 취소할 수 있으며, 외부 파일에서 여러 구독을 업데이트할 수도 있습니다. 옵션으로 구독자에게 알리기 위해 확인 메시지를 보낼 수도 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko-KR" text="릴리스 정보 참조"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
 >title="구독 서비스 활동"
->abstract="구독 서비스 활동을 통해 한 번의 작업으로 여러 프로필을 서비스 구독 또는 구독 취소할 수 있습니다."
+>abstract="구독 서비스 활동을 통해 한 번의 작업으로 서비스에서 여러 프로필을 구독하거나 구독 취소할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
->title="구독 서비스 일반 매개 변수"
->abstract="원하는 서비스를 선택하고 수행할 작업(구독 또는 구독 취소)을 선택합니다. 전환 **확인 메시지 보내기** 옵션을 켜면 선택한 서비스에 대해 구독 또는 구독 취소했음을 모집단에 알립니다."
+>title="구독 서비스 일반 매개변수"
+>abstract="원하는 서비스를 선택하고 수행할 작업(구독 또는 구독 취소)을 선택합니다. **확인 메시지 보내기** 옵션을 토글하여 선택한 서비스에 구독하거나 또는 구독 취소되었음을 모집단에 알립니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"

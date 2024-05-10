@@ -6,7 +6,7 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 575219c7bcef303e211f504d13227183933924cc
 workflow-type: tm+mt
 source-wordcount: '905'
-ht-degree: 81%
+ht-degree: 83%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_emptytransition"
 >title="빈 전환 건너뛰기"
->abstract="전환 **[!UICONTROL 빈 전환 건너뛰기]** 수신 모집단이 비어 있는 경우 이 하위 집합에 대한 출력 전환을 비활성화하려면 옵션을 사용합니다."
+>abstract="수신 모집단이 비어 있는 경우, **[!UICONTROL 빈 전환 건너뛰기]** 옵션을 토글하여 이 하위 집합에 대한 출력 전환을 비활성화합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"

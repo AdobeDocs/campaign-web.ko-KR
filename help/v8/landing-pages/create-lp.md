@@ -6,7 +6,7 @@ exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 source-git-commit: bedd313fc12d9d221a60ec624257a9a766285252
 workflow-type: tm+mt
 source-wordcount: '1504'
-ht-degree: 27%
+ht-degree: 31%
 
 ---
 
@@ -61,7 +61,7 @@ Campaign 웹 사용자 인터페이스를 사용하면 랜딩 페이지를 만�
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
 >title="미리 로드 옵션 정의"
->abstract="**양식에서 참조된 데이터로 미리 채우기** 옵션을 선택한 경우 랜딩 페이지 방문자가 데이터베이스의 프로필과 일치하면 프로필 정보가 자동으로 양식에 미리 로드됩니다. 포함 **ID 부재 승인** 옵션을 선택하면 익명 사용자를 포함한 모든 방문자가 랜딩 페이지에 액세스할 수 있습니다."
+>abstract="**양식에서 참조된 데이터로 미리 채우기** 옵션을 선택한 경우 랜딩 페이지 방문자가 데이터베이스의 프로필과 일치하면 프로필 정보가 자동으로 양식에 미리 로드됩니다. **ID 부재 승인** 옵션을 선택하면 익명 사용자를 포함한 모든 방문자가 랜딩 페이지에 액세스할 수 있습니다."
 
 <!--With the **Skip preloading if no ID** option selected, each profile entered will be added to the database after approval of the form."-->
 
@@ -114,7 +114,7 @@ Campaign 웹 사용자 인터페이스를 사용하면 랜딩 페이지를 만�
 
      >[!AVAILABILITY]
      >
-     >이 기능은 LA(Limited Availability)에 있습니다. 고객 마이그레이션에 제한됩니다. **Adobe Campaign Standard에서 Adobe Campaign v8까지**, 및 은 다른 환경에 배포할 수 없습니다.
+     >이 기능은 LA(Limited Availability)에 있습니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 
      의 경우 **[!UICONTROL 고객 확보]** 및 **[!UICONTROL 구독]** 템플릿 - 기본적으로 이 옵션이 선택되어 있습니다. 의 경우 **[!UICONTROL 구독 취소]** 및 **[!UICONTROL 차단 목록]** 템플릿, 이 옵션은 기본적으로 선택되지 않으며 수정할 수 없습니다<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
 
@@ -132,7 +132,7 @@ Campaign 웹 사용자 인터페이스를 사용하면 랜딩 페이지를 만�
 
    >[!AVAILABILITY]
    >
-   >이 기능은 LA(Limited Availability)에 있습니다. 고객 마이그레이션에 제한됩니다. **Adobe Campaign Standard에서 Adobe Campaign v8까지**, 및 은 다른 환경에 배포할 수 없습니다.
+   >이 기능은 LA(Limited Availability)에 있습니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 
    ![](assets/lp-additional-data.png){zoomable=&quot;yes&quot;}
 

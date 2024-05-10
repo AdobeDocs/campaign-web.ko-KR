@@ -2,10 +2,11 @@
 audience: end-user
 title: 파일 전송 활동 사용
 description: 파일 전송 워크플로우 활동을 사용하는 방법 알아보기
-source-git-commit: 6fe8be5510e13cdb9e9e1bce44aadb80619275e4
+exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 11%
+ht-degree: 15%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile"
 >title="파일 전송"
->abstract="다음 **파일 전송** 활동을 사용하면 파일을 받거나 보내고, 파일의 존재를 테스트하거나 서버에 있는 파일을 나열할 수 있습니다. 사용되는 프로토콜은 서버 간 프로토콜 또는 HTTP 프로토콜일 수 있습니다."
+>abstract="**파일 전송** 활동을 통해 파일을 수신 또는 전송하거나, 파일 존재 여부를 테스트하거나, 서버에서 파일을 나열할 수 있습니다. 사용되는 프로토콜은 서버 간 프로토콜 또는 HTTP 프로토콜일 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_options"

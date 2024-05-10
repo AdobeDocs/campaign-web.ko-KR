@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: 4518f7a2f280eca70f799b941c5d28bdc39c1def
 workflow-type: tm+mt
 source-wordcount: '1227'
-ht-degree: 14%
+ht-degree: 38%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="파일 로드 활동"
->abstract="**파일 로드** 활동은 **데이터 관리** 활동입니다. 이 활동을 사용하여 외부 파일에 저장된 데이터로 작업합니다. 프로필 및 데이터는 데이터베이스에 추가되지 않지만 입력 파일의 모든 필드는 개인화하거나 프로필 또는 다른 테이블을 업데이트하는 데 사용할 수 있습니다. "
+>abstract="**파일 로드** 활동은 **데이터 관리** 활동입니다. 이 활동을 사용하여 외부 파일에 저장된 데이터로 작업할 수 있습니다. 프로필과 데이터는 데이터베이스에 추가되지 않지만, 입력 파일의 모든 필드를 개인화하거나 프로필 또는 기타 테이블을 업데이트하는 데 사용할 수 있습니다. "
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
@@ -46,17 +46,17 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
 >title="샘플 파일"
->abstract="샘플 파일을 업로드하여 예상 파일 구조를 선택합니다."
+>abstract="샘플 파일을 업로드하여 예상되는 파일 구조를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_formatting"
 >title="파일 로드 활동에 대한 서식 지정"
->abstract="다음에서 **서식** 섹션에서 데이터를 올바르게 가져오는지 확인하기 위해 파일의 형식을 지정하는 방법을 지정합니다."
+>abstract="**서식** 섹션에서 데이터를 올바르게 가져올 수 있도록 파일의 형식을 지정하는 방법을 지정합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
 >title="파일 로드 활동에 대한 값 재매핑"
->abstract="이 옵션을 사용하여 로드된 파일의 특정 값을 새 값으로 매핑합니다. 예를 들어 열에 &quot;True&quot;/&quot;False&quot; 값이 포함된 경우 매핑을 추가하여 해당 값을 자동으로 &quot;0&quot;/&quot;1&quot; 문자로 바꿀 수 있습니다."
+>abstract="이 옵션을 사용하여 로드된 파일의 특정 값을 새 값으로 매핑합니다. 예를 들어 열에 “True”/“False” 값이 포함된 경우, 매핑을 추가하여 해당 값을 “0”/“1” 문자로 자동으로 바꿀 수 있습니다."
 
 예상 파일 구조를 정의하는 데 사용되는 샘플 파일을 구성하려면 다음 단계를 따르십시오.
 
@@ -86,28 +86,28 @@ ht-degree: 14%
    * **[!UICONTROL 구분 기호]** (날짜, 시간, 정수 및 숫자 데이터 형식)*: 구분 기호로 사용할 문자를 지정합니다.
    * **[!UICONTROL NULL 허용]**: 열에서 빈 값을 관리하는 방법을 지정합니다. 빈 값이 있으면 &quot;Adobe Campaign 기본값&quot; 옵션에서 오류가 발생합니다.
    * **[!UICONTROL 오류 처리 중]** (문자열 데이터 유형): 라인 중 하나에서 오류가 발생하는 경우 동작을 지정합니다.
-   * **[!UICONTROL 값 재매핑]**: 이 옵션을 사용하면 특정 값을 새 값과 매핑할 수 있습니다. 예를 들어 열에 &quot;True&quot;/&quot;False&quot; 값이 포함된 경우 매핑을 추가하여 해당 값을 자동으로 &quot;0&quot;/&quot;1&quot; 문자로 바꿀 수 있습니다.
+   * **[!UICONTROL 값 재매핑]**: 이 옵션을 사용하면 특정 값을 새 값과 매핑할 수 있습니다. 예를 들어 열에 “True”/“False” 값이 포함된 경우, 매핑을 추가하여 해당 값을 “0”/“1” 문자로 자동으로 바꿀 수 있습니다.
 
 +++
 
-1. 다음에서 **서식** 섹션에서 데이터를 올바르게 가져오는지 확인하기 위해 파일의 형식을 지정하는 방법을 지정합니다.
+1. **서식** 섹션에서 데이터를 올바르게 가져올 수 있도록 파일의 형식을 지정하는 방법을 지정합니다.
 
 ### 업로드할 대상 파일 정의 {#target}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetfile"
 >title="파일 로드 활동에 대한 대상 파일"
->abstract="다음에서 **[!UICONTROL 대상 파일]** 섹션에서 서버에 업로드할 파일을 검색하는 방법을 지정합니다."
+>abstract="**[!UICONTROL 대상 파일]** 섹션에서 서버에 업로드할 파일을 검색하는 방법을 지정합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_nameofthefile"
 >title="파일 이름"
->abstract="서버에 업로드할 필드의 이름을 지정합니다. 다음을 클릭합니다. **[!UICONTROL 개인화 대화 상자 열기]** ( 이벤트 변수를 포함한 표현식 편집기를 활용하여 파일 이름을 계산하는 아이콘)"
+>abstract="서버에 업로드할 필드 이름을 지정합니다. 이벤트 변수를 포함한 표현식 편집기를 활용하여 파일 이름을 계산하려면 **[!UICONTROL 개인화 대화 상자 열기]** 아이콘을 클릭합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
 >title="Target 데이터베이스"
->abstract="에 액세스하는 경우 **[!UICONTROL 파일 로드]** 활동은 클라이언트 콘솔에서 이미 설정되어 있습니다. **[!UICONTROL 대상 데이터베이스]** 섹션은 파일을 외부 데이터베이스에 업로드하도록 활동을 구성한 경우에 사용할 수 있습니다."
+>abstract="클라이언트 콘솔에 이미 설정된 **[!UICONTROL 파일 로드]** 활동에 액세스할 때 추가 **[!UICONTROL 대상 데이터베이스]** 섹션은 파일을 외부 데이터베이스에 업로드하도록 활동을 구성한 경우에 사용할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
@@ -128,7 +128,7 @@ ht-degree: 14%
 
    * **[!UICONTROL 파일 사전 처리]**: 이전 전환에 지정된 파일을 업로드하고 다음과 같은 전처리 명령을 적용합니다. **[!UICONTROL 압축 풀기]** 또는 **[!UICONTROL 암호 해독]**.
 
-   * **[!UICONTROL 계산됨]**: 다음에서 이름이 지정된 파일을 업로드합니다. **[!UICONTROL 파일 이름]** 필드. 다음을 클릭합니다. **[!UICONTROL 개인화 대화 상자 열기]** ( 이벤트 변수를 포함한 표현식 편집기를 활용하여 파일 이름을 계산하는 아이콘)
+   * **[!UICONTROL 계산됨]**: 다음에서 이름이 지정된 파일을 업로드합니다. **[!UICONTROL 파일 이름]** 필드. 이벤트 변수를 포함한 표현식 편집기를 활용하여 파일 이름을 계산하려면 **[!UICONTROL 개인화 대화 상자 열기]** 아이콘을 클릭합니다.
 
    ![](../assets/workflow-load-file-config.png)
 
@@ -141,7 +141,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_rejectmgt"
 >title="파일 로드 활동에 대한 관리 거부"
->abstract="다음에서 **관리 거부** 섹션에서 오류 발생 시 활동이 어떻게 동작해야 하는지 지정합니다. 허용할 최대 오류 수를 정의하고 **[!UICONTROL 파일에 거부 유지]** 가져올 때 발생한 오류가 포함된 파일을 서버에 다운로드하는 옵션입니다."
+>abstract="**거부 관리** 섹션에서 오류 발생 시 활동이 작동하는 방식을 지정합니다. 허용할 최대 오류 수를 정의하고 **[!UICONTROL 파일에 거부 보관]** 옵션을 토글하여 가져오는 동안 발생한 오류가 포함된 파일을 서버에 다운로드할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"

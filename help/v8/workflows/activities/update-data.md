@@ -6,7 +6,7 @@ exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
 source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 17%
+ht-degree: 24%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="데이터 업데이트 활동"
->abstract="이제 데이터 업데이트 활동을 워크플로우에서 사용할 수 있습니다. 데이터 업데이트 활동을 사용하여 데이터베이스의 필드에 대한 대량 업데이트를 수행합니다. 업데이트 유형을 개인화하기 위해 몇 가지 옵션이 제안됩니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+>abstract="이제 데이터 업데이트 활동을 워크플로에서 사용할 수 있습니다. 데이터 업데이트 활동을 사용하여 데이터베이스 필드에 대한 대량 업데이트를 수행합니다. 업데이트 유형을 개인화하기 위한 몇 가지 옵션이 제안됩니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko-KR" text="릴리스 정보 참조"
 
 
 

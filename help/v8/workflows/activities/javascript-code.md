@@ -2,10 +2,11 @@
 audience: end-user
 title: JavaScript 코드 워크플로우 활동 사용
 description: JavaScript 코드 워크플로우 활동을 사용하는 방법에 대해 알아봅니다
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
 workflow-type: tm+mt
 source-wordcount: '968'
-ht-degree: 8%
+ht-degree: 29%
 
 ---
 
@@ -14,22 +15,22 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="JavaScript 코드"
->abstract="다음 **JavaScript 코드** 활동을 사용하면 워크플로우 컨텍스트에서 JavaScript 스크립트를 실행할 수 있습니다. 이렇게 하면 작업을 수행하거나 데이터베이스에서 정보를 수집할 수 있습니다. 사용 **단순** 워크플로우 실행 시 하나의 코드 조각을 실행하는 JavaScript 코드 활동. **고급** Javascript 코드 활동을 사용하면 두 개의 서로 다른 코드 조각을 순차적 순서로 실행하여 보다 복잡한 작업을 수행할 수 있습니다. 워크플로우가 처음 시작되면 첫 번째 호출이 실행됩니다. 워크플로우가 다시 실행될 때마다 두 번째 호출에 정의된 코드가 실행됩니다."
+>abstract="**JavaScript 코드** 활동을 통해 워크플로 컨텍스트에서 JavaScript 스크립트를 실행할 수 있습니다. 이를 통해 작업을 수행하거나 데이터베이스에서 정보를 수집할 수 있습니다. 워크플로 실행 시 하나의 코드 조각을 실행하려면 **단순한** JavaScript 코드 활동을 사용합니다. **고급** Javascript 코드 활동을 사용하면 서로 다른 두 코드 조각을 순차적으로 실행하여 복잡한 작업을 수행할 수 있습니다. 워크플로가 처음 시작되면 첫 번째 호출이 실행됩니다. 워크플로가 다시 실행될 때마다 두 번째 호출에 정의된 코드가 실행됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
->title="JavaScript 코드 조각"
->abstract="활동을 실행할 때 실행할 스크립트를 정의합니다. 다음을 구성하는 경우 **고급** JavaScript 활동에서는 두 개의 코드 조각(워크플로우의 첫 번째 실행 시 실행할 첫 번째 호출 코드 및 워크플로우의 다음 호출 시 실행할 다음 호출 코드)을 편집해야 합니다."
+>title="JavaScript 스니펫"
+>abstract="활동을 실행할 때 실행할 스크립트를 정의합니다. **고급** JavaScript 활동을 구성하는 경우, 두 개의 코드 조각, 즉 워크플로의 첫 번째 실행 시 실행할 첫 번째 호출 코드와 워크플로의 다음 호출에서 실행할 다음 호출 코드를 편집해야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
 >title="JavaScript 실행"
->abstract="실행 기간 후에 활동을 중지하도록 실행 지연을 구성합니다. 기본적으로 실행 단계는 1시간을 초과할 수 없습니다. 이 지연 후에는 오류 메시지와 함께 프로세스가 중단되고 활동 실행이 실패합니다. 이 제한을 무시하려면 값을 0으로 설정하십시오."
+>abstract="일정 기간 실행 후 활동을 중지하도록 실행 지연을 구성합니다. 기본적으로 실행 단계는 1시간을 초과할 수 없습니다. 이 지연 후에는 오류 메시지와 함께 프로세스가 중단되고 활동 실행이 실패합니다. 이 제한을 무시하려면 값을 0으로 설정하십시오."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="JavaScript 전환"
->abstract="여러 출력 전환을 추가하려면 **[!UICONTROL 전환 추가]** 단추를 클릭합니다. 예를 들어 JavaScript 코드 활동에 정의된 특정 조건을 기반으로 특정 전환을 트리거할 수 있습니다. 이 옵션은 다음 경우에 사용할 수 있습니다. **고급** JavaScript 코드 활동만 해당됩니다."
+>abstract="여러 출력 전환을 추가하려면 **[!UICONTROL 전환 추가]** 버튼을 클릭합니다. 예를 들어 이를 통해 JavaScript 코드 활동에 정의된 특정 조건을 기반으로 특정 전환을 트리거할 수 있습니다. 이 옵션은 **고급** JavaScript 코드 활동에만 사용할 수 있습니다."
 
 다음 **JavaScript 코드** 활동은 입니다. **데이터 관리** 활동. 이 활동을 사용하여 워크플로우 컨텍스트에서 JavaScript 스크립트를 실행합니다. 이렇게 하면 데이터베이스에서 정보를 수집하거나 다른 복잡한 작업을 수행할 수 있습니다.
 

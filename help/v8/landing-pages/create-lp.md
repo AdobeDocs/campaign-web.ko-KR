@@ -3,7 +3,7 @@ title: 랜딩 페이지 만들기
 description: Campaign 웹에서 랜딩 페이지를 구성하고 게시하는 방법을 알아봅니다
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: bedd313fc12d9d221a60ec624257a9a766285252
+source-git-commit: 9dbdc657c319dd3260e763bc4f25778d3e2ad58a
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 31%
@@ -27,7 +27,7 @@ Campaign 웹 사용자 인터페이스를 사용하면 랜딩 페이지를 만�
 
 ![](assets/lp-inventory.png){zoomable=&quot;yes&quot;}
 
-다음 **[!UICONTROL 랜딩 페이지]** 인벤토리는 생성된 모든 품목을 표시합니다. 다음을 사용하여 필터링할 수 있습니다. **필터 표시** 단추를 클릭합니다. 결과를 특정 항목으로 제한할 수 있습니다 [폴더](../get-started/permissions.md#folders) 드롭다운 목록을 사용하거나 [쿼리 모델러](../query/query-modeler-overview.md).
+다음 **[!UICONTROL 랜딩 페이지]** 인벤토리는 생성된 모든 품목을 표시합니다. 다음을 사용하여 필터링할 수 있습니다. **[!UICONTROL 필터 표시]** 단추를 클릭합니다. 결과를 특정 항목으로 제한할 수 있습니다 [폴더](../get-started/permissions.md#folders) 드롭다운 목록을 사용하거나 [쿼리 모델러](../query/query-modeler-overview.md).
 
 ![](assets/lp-inventory-filter.png){zoomable=&quot;yes&quot;}
 

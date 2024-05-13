@@ -3,9 +3,9 @@ audience: end-user
 title: 보강 워크플로 활동 사용
 description: 보강 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 2f39b200df146762fdff6e6a76aecb039d1fab6b
+source-git-commit: f40c68591168e098fd004d098f1152189aee6c47
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '730'
 ht-degree: 81%
 
 ---
@@ -21,6 +21,11 @@ ht-degree: 81%
 >id="acw_orchestration_enrichment_data"
 >title="보강 활동"
 >abstract="보강 데이터를 워크플로에 추가한 다음에는 이를 보강 활동 다음에 추가된 활동에서 사용하여 고객을 행동, 선호도 및 요구 사항에 따라 고유한 그룹으로 세분화하거나, 타깃 대상자의 마음을 움직일 수 있는 개인화된 마케팅 메시지 및 캠페인을 만들 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_reconciliation"
+>title="데이터 보강 조정"
+>abstract="데이터 보강 조정"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"

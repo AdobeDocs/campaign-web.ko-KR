@@ -1,18 +1,18 @@
 ---
 audience: end-user
-title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
-description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
+title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성Build your first query using the query modeler
+description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드 하는 방법에 대해 알아보십시오.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
+source-git-commit: 664876e479b0580f99b77be5fbf31a18b3bfcecb
 workflow-type: tm+mt
-source-wordcount: '2015'
-ht-degree: 55%
+source-wordcount: '2106'
+ht-degree: 53%
 
 ---
 
 # 표현식 편집 {#expression}
 
-표현식을 편집하려면 수동으로 조건을 입력하여 규칙을 만듭니다. 이 모드에서는 날짜, 문자열, 숫자 필드, 정렬 등과 같은 특정 쿼리를 수행하는 데 사용되는 값을 조작할 수 있는 고급 함수를 사용할 수 있습니다.
+표현식 편집에는 조건을 수동으로 입력하여 규칙 형성이 포함됩니다. 이 모드에서는 고급 기능을 사용할 수 있으며, 이를 통해 날짜, 문자열, 숫자 필드, 정렬 등과 같은 특정 쿼리를 수행하는 데 사용되는 값을 조작할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -20,9 +20,9 @@ ht-degree: 55%
 
 ## 표현식 편집기 작업 {#edit}
 
-표현식 편집기는 쿼리 모델러에서 사용할 수 있습니다 **[!UICONTROL 표현식 편집]** 버튼, 다음에 사용 가능 **[!UICONTROL 속성]** 및 **[!UICONTROL 값]** 사용자 지정 조건을 구성할 때 필드.
+표현식 편집기는 쿼리 모델러 **[!UICONTROL 표현식]** 편집 버튼에서 사용할 수 있으며, 사용자 정의 조건을 구성할 때 속성&#x200B;]**및**[!UICONTROL &#x200B;값&#x200B;]**필드에 사용할 수**[!UICONTROL &#x200B;있습니다.
 
-| 다음에서 액세스: **속성** 필드 | 다음에서 액세스: **값** 필드 |
+| 속성&#x200B;**필드에서**&#x200B;액세스 | 값&#x200B;**필드에서**&#x200B;액세스 |
 |  ---  |  ---  |
 | ![](assets/expression-editor-attribute.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
 
@@ -79,7 +79,7 @@ ht-degree: 55%
   </tr> 
   <tr> 
    <td> <strong>최대</strong><br /> </td> 
-   <td> 숫자, 문자열 또는 날짜 유형 열의 최대값 반환<br /> </td> 
+   <td> 숫자, 문자열 또는 날짜 유형 열의 최대값을 반환합니다<br /> </td> 
    <td> Max(&lt;value&gt;)<br /></td>  
   </tr> 
   <tr> 
@@ -91,6 +91,11 @@ ht-degree: 55%
    <td> <strong>표준 개발</strong><br /> </td> 
    <td> 숫자, 문자열 또는 날짜 열의 표준 편차 반환<br /> </td> 
    <td> StdDev(&lt;value&gt;)<br /></td> 
+  </tr>
+  <tr> 
+   <td> <strong>문자열 집계</strong><br /> </td> 
+   <td> 두 번째 인수의 문자로 구분된 문자열 형식 열의 값 연결을 반환합니다.<br /> </td> 
+   <td> StringAg(&lt;value&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>합계</strong><br /> </td> 
@@ -145,6 +150,16 @@ ht-degree: 55%
    <td> <strong>변환 NTZ</strong><br /> </td> 
    <td> 타임스탬프 NTZ(timestamp without timezone)를 정의된 세션 TZ가 적용된 TZ(timestamp with timezone)로 변환<br/> </td> 
    <td> ConvertNTZ(&lt;date time=""&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <!--<td> <strong>ConvertTimezone</strong><br /> </td> 
+   <td> <br/> </td> 
+   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
+  </tr>-->
+  <tr> 
+   <td> <strong>DateCmp</strong><br /> </td> 
+   <td> 두 날짜 비교<br/> </td> 
+   <td> DateCmp(&lt;date&gt;,&lt;date&gt;)<br /> </td>  
   </tr>
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
@@ -282,6 +297,16 @@ ht-degree: 55%
    <td> ToDateTime(&lt;문자열&gt;)<br /> </td>  
   </tr> 
   <tr> 
+   <td> <strong>타임스탬프 지정</strong><br /> </td> 
+   <td> 문자열을 타임스탬프로 변환<br /> </td> 
+   <td> To타임스탬프(&lt;string&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>시간대 지정</strong><br /> </td> 
+   <td> 날짜 + 시간을 표준 시간대로 변환<br /> </td> 
+   <td> ToTimezone(&lt;date&gt;,&lt;time zone=""&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
    <td> 날짜+시간을 가장 가까운 시간(초)으로 반올림<br /> </td> 
    <td> TruncDate(@lastModified, &lt;시간(초) 숫자&gt;)<br /> </td> 
@@ -327,9 +352,9 @@ ht-degree: 55%
    <td> YearAndMonth(&lt;날짜&gt;)<br /> </td>  
   </tr>
   <tr> 
-   <td> <strong>YearsAgo</strong><br /> </td> 
-   <td> 지정된 날짜와 현재 날짜 사이의 연도 수를 반환합니다.<br /> </td> 
-   <td> YearsAgo(&lt;date&gt;)<br /> </td>  
+   <td> <strong>몇 년 전</strong><br /> </td> 
+   <td> 지정된 날짜와 현재 날짜 사이의 년 수를 반환합니다<br /> </td> 
+   <td> 년전(&lt;date&gt;)<br />&lt;/date&gt; </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 
@@ -462,11 +487,11 @@ ht-degree: 55%
    <td> <strong>설명</strong><br /> </td> 
    <td> <strong>구문</strong><br /> </td> 
   </tr> 
-  <!--MISSING INFO<tr> 
+  <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> Returns value 1 if the condition is true. If not, it returns value 2.<br /> </td> 
-   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
-  </tr> -->
+   <td> 인수에 제공된 암호화 문자열<br /> </td> 
+   <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
+  </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
    <td> 조건이 true이면 값 1 반환 그렇지 않으면 값 2를 반환합니다.<br /> </td> 
@@ -522,11 +547,11 @@ ht-degree: 55%
    <td> 문자열 1이 비어 있으면 값 2 반환, 그렇지 않으면 값 3 반환<br /> </td> 
    <td> IsEmptyString(&lt;value&gt;, &lt;value&gt;, &lt;value&gt;)<br /> </td>  
   </tr> 
-  <!--<tr> 
+  <tr> 
    <td> <strong>NewUUID</strong><br /> </td> 
-   <td> Returns the empty string if the argument is NULL<br /> </td> 
-   <td> NoNull(&lt;value&gt;)<br /> </td>  
-  </tr> -->
+   <td> 고유 ID 반환<br /> </td> 
+   <td> NewUUID()<br /> </td>  
+  </tr> 
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
    <td> 인수가 NULL이면 빈 문자열 반환<br /> </td> 
@@ -549,7 +574,7 @@ ht-degree: 55%
   </tr> 
   <tr> 
    <td> <strong>When</strong><br /> </td> 
-   <td> 표현식이 true인 경우 값 1 반환 그렇지 않으면 값 2 를 반환합니다(case 함수의 매개 변수로만 사용할 수 있음).<br /> </td> 
+   <td> 표현식이 true이면 값 1을 반환합니다. 그렇지 않은 경우 값 2를 반환합니다(case 함수의 매개 변수로만 사용할 수 있음).<br /> </td> 
    <td> When(&lt;조건&gt;, &lt;값 1&gt;)<br /> </td>  
   </tr> 
  </tbody> 
@@ -631,11 +656,11 @@ ht-degree: 55%
    <td> 문자열의 길이 반환<br /> </td> 
    <td> Length(&lt;string&gt;)<br /></td> 
   </tr> 
-  <!--<tr> 
-   <td> <strong>Line</strong><br /> </td> 
-   <td> Returns the string in lowercase<br /> </td> 
-   <td> Lower(&lt;string&gt;)<br /></td> 
-  </tr> -->
+  <tr> 
+   <td> <strong>라인</strong><br /> </td> 
+   <td> 문자열에서 n행 추출<br /> </td> 
+   <td> Line(&lt;string&gt;,&lt;number&gt;)<br /></td> 
+  </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> 문자열을 소문자로 반환<br /> </td> 
@@ -649,22 +674,27 @@ ht-degree: 55%
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
    <td> 문자열 왼쪽의 공백 제거<br /> </td> 
-   <td> Ltrim(&lt;string&gt;)<br /></td> 
+   <td> 엘트림(&lt;string&gt;)&lt;/string&gt;<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Md5Digest</strong><br /> </td> 
    <td> 문자열의 MD5 키를 16진수로 반환<br /> </td> 
-   <td> Md5Digest(&lt;string&gt;)<br /></td> 
+   <td> md5다이제스트(&lt;string&gt;)&lt;/string&gt;<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>MemoContains</strong><br /> </td> 
    <td> 메모에 매개 변수로 전달된 문자열이 포함되어 있는지 지정<br /> </td> 
-   <td> MemoContains(&lt;memo&gt;, &lt;string&gt;)<br /></td> 
+   <td> 메모 포함(&lt;memo&gt;, &lt;string&gt;)&lt;/string&gt;&lt;/memo&gt;<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>NodeValue</strong><br /> </td> 
+   <td> <strong>노드 값</strong><br /> </td> 
    <td> XPath 및 필드 데이터에서 XML 필드의 값을 추출합니다.<br /> </td> 
-   <td> NodeValue (&lt;string&gt;, &lt;string&gt;)<br /></td> 
+   <td> 노드 값(&lt;String&gt;, &lt;String&gt;)&lt;/String&gt;&lt;/String&gt;<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Replace</strong><br /> </td> 
+   <td> 지정된 문자열 값의 모든 발생 항목을 다른 문자열 값으로 바꿉니다.<br /> </td> 
+   <td> Replace(&lt;string&gt;,&lt;string&gt;,&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -683,13 +713,13 @@ ht-degree: 55%
   </tr> 
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
-   <td> 문자열의 SHA256 키를 16진수로 표시합니다.<br /> </td> 
-   <td> Sha256Digest (&lt;string&gt;)<br /> </td> 
+   <td> 문자열의 SHA256 키에 대한 16진수 표현입니다.<br /> </td> 
+   <td> Sha256다이제스트 (&lt;String&gt;)<br />&lt;/String&gt; </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
-   <td> 문자열의 SHA512 키의 16진수 표현입니다.<br /> </td> 
-   <td> Sha512Digest (&lt;string&gt;)<br /> </td> 
+   <td> 문자열 SHA512 키의 16진수 표현입니다.<br /> </td> 
+   <td> Sha512다이제스트 (&lt;String&gt;)<br />&lt;/String&gt; </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -755,7 +785,7 @@ ht-degree: 55%
   </tr> 
   <tr> 
    <td> <strong>RowNum</strong><br /> </td> 
-   <td> 테이블 파티션 및 정렬 시퀀스에 따라 행 번호를 생성합니다.<br /> </td> 
+   <td> 테이블 파티션과 정렬 시퀀스 기반으로 줄 번호를 생성합니다.<br /> </td> 
    <td> RowNum(PartitionBy(&lt;값 1&gt;), OrderBy(&lt;값 1&gt;))<br /> </td> 
   </tr> 
  </tbody> 

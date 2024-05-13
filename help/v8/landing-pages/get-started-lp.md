@@ -5,7 +5,7 @@ description: Campaign Web의 랜딩 페이지에 대해 알아보기
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
 source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
 ht-degree: 100%
 

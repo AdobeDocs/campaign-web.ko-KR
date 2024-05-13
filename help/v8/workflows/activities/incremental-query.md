@@ -3,10 +3,10 @@ audience: end-user
 title: 증분 쿼리 워크플로우 활동 사용
 description: 증분 쿼리 워크플로우 활동을 사용하는 방법을 알아봅니다
 exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: fc872fd3975cd15a10845185c87152e2a473df8f
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 23%
+source-wordcount: '794'
+ht-degree: 24%
 
 ---
 
@@ -27,6 +27,11 @@ ht-degree: 23%
 >id="acw_orchestration_incrementalquery_history"
 >title="증분 쿼리 기록"
 >abstract="증분 쿼리 기록"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery_processeddata"
+>title="증분 쿼리 처리된 데이터"
+>abstract="증분 쿼리 처리된 데이터"
 
 다음 **증분 쿼리** 활동은 입니다. **타겟팅** 활동을 통해 일정에 따라 데이터베이스를 쿼리할 수 있습니다. 이 활동이 실행될 때마다 이전 실행의 결과가 제외됩니다. 이를 통해 새 요소만 타겟팅할 수 있습니다.
 

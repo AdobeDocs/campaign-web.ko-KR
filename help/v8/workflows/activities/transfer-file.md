@@ -3,10 +3,10 @@ audience: end-user
 title: 파일 전송 활동 사용
 description: 파일 전송 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+source-git-commit: 160ae5704601d1f8de41ebadde353a7097d9606c
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 15%
+source-wordcount: '1175'
+ht-degree: 13%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_remoteserver"
 >title="파일 전송 원격 서버"
->abstract="파일 전송 원격 서버"
+>abstract="연결할 서버를 지정합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
@@ -40,17 +40,17 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
 >title="전송 후 소스 파일 삭제"
->abstract="전송 후 소스 파일 삭제"
+>abstract="성공적으로 전송한 후 소스 파일을 지웁니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
 >title="세션 로그 표시"
->abstract="세션 로그 표시"
+>abstract="전송 작업과 관련된 정보가 워크플로우 로그에 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"
 >title="모든 파일 나열"
->abstract="모든 파일 나열"
+>abstract="이 옵션은 서버에 있는 모든 파일을 **vars.filenames** 이벤트 변수를 채우는 방법을 설명합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
@@ -60,12 +60,12 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="누락된 파일 처리"
->abstract="누락된 파일 처리"
+>abstract="이 옵션을 사용하면 활동 후에 &quot;파일 없음&quot; 아웃바운드 전환을 활성화할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="오류 처리"
->abstract="오류 처리"
+>abstract="이 옵션을 사용하면 활동 후에 &quot;오류&quot; 아웃바운드 전환을 활성화할 수 있습니다."
 
 다음 **파일 전송** 활동은 입니다. **데이터 관리** 활동. 파일을 받거나 보내고, 파일의 존재를 테스트하거나, 서버에 있는 파일을 나열할 수 있습니다. 사용되는 프로토콜은 서버 간 프로토콜 또는 HTTP 프로토콜일 수 있습니다.
 
@@ -145,7 +145,7 @@ ht-degree: 15%
    +++추가 옵션 **[!UICONTROL 파일 전송]** 유형 활동
 
    * **[!UICONTROL 전송 후 소스 파일 삭제]**: 성공적으로 전송한 후 소스 파일을 지웁니다.
-   * **[!UICONTROL 세션 로그 표시]**: 이 옵션이 활성화되면 워크플로우가 실행된 후 워크플로우 로그에 전송 작업과 관련된 정보가 표시됩니다.
+   * **[!UICONTROL 세션 로그 표시]**: 이 옵션이 활성화되면 워크플로우가 실행되면 전송 작업과 관련된 정보가 워크플로우 로그에 표시됩니다.
    * **[!UICONTROL 모든 파일 나열]** (파일 목록 작업): 이 옵션은 서버에 있는 모든 파일을 `vars.filenames` 이벤트 변수. 여기서 파일 이름은 `n` 자. [이벤트 변수를 사용하여 작업하는 방법에 대해 알아봅니다](../event-variables.md)
 
 +++

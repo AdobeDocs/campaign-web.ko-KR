@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 20%
+source-wordcount: '968'
+ht-degree: 19%
 
 ---
 
@@ -53,12 +53,12 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_design"
 >title="콘텐츠 템플릿 디자인"
->abstract="콘텐츠 템플릿 디자인"
+>abstract="이메일 콘텐츠 템플릿을 디자인합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_selection"
 >title="콘텐츠 템플릿 선택"
->abstract="콘텐츠 템플릿 선택"
+>abstract="이메일 콘텐츠 템플릿을 선택합니다."
 
 콘텐츠 템플릿은 다음 방법으로 만들 수 있습니다. [기존 이메일을 템플릿으로 저장](#save-as-template)또는 이메일 템플릿 목록에서 **콘텐츠 템플릿 만들기** 단추, [아래에 자세히 설명됨](#create-template-from-scratch).
 

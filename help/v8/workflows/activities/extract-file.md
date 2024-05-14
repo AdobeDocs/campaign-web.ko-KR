@@ -3,10 +3,10 @@ audience: end-user
 title: 파일 추출 워크플로우 활동 사용
 description: 파일 추출 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 16%
+source-wordcount: '875'
+ht-degree: 15%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="대상 형식"
->abstract="형식을 선택합니다."
+>abstract="추출된 파일의 형식을 구성하려면 다른 옵션을 선택합니다."
 
 다음 **[!UICONTROL 대상]** 형식 섹션에서 추출된 파일의 형식을 지정할 수 있습니다.
 
@@ -82,7 +82,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="사후 처리"
->abstract="사후 처리 단계 정의"
+>abstract="압축 또는 암호화와 같이 적용할 후 처리 단계를 정의합니다."
 
 다음 **[!UICONTROL 수정 스크립트 내보내기]** 를 사용하면 압축 또는 암호화와 같은 데이터 추출 중에 실행할 처리 단계를 적용할 수 있습니다. 이렇게 하려면 **[!UICONTROL 스크립트 편집]** 단추를 클릭합니다.
 

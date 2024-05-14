@@ -3,9 +3,9 @@ audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '2088'
+source-wordcount: '2138'
 ht-degree: 9%
 
 ---
@@ -157,7 +157,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_selectaudience"
 >title="대상자 선택"
->abstract="대상자 선택"
+>abstract="를 사용하여 **대상자 선택** 옵션을 사용하면 쿼리를 필터링하는 데 사용할 대상을 선택할 수 있습니다."
 
 기존 대상자를 사용하여 쿼리를 필터링하려면 다음 단계를 따르십시오.
 
@@ -174,7 +174,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_predefinedfilter"
 >title="사전 정의된 필터"
->abstract="사전 정의된 필터"
+>abstract="를 사용하여 **미리 정의된 필터** 옵션을 사용하면 사용자 지정 필터 목록 또는 즐겨찾기에서 사전 정의된 필터를 선택할 수 있습니다."
 
 사전 정의된 필터를 사용하여 쿼리를 필터링하려면 다음 단계를 수행합니다.
 
@@ -213,7 +213,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_group"
 >title="그룹"
->abstract="그룹"
+>abstract="이 창에서는 필터링 조건을 함께 연결하는 데 사용되는 연산자를 변경할 수 있습니다."
 
 쿼리에 새 필터링 구성 요소를 추가할 때마다 는 다음을 통해 다른 구성 요소에 자동으로 연결됩니다. **및** 연산자. 즉, 두 필터링 구성 요소의 결과가 결합됩니다.
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 캠페인 보고서
 description: 캠페인 보고서에 액세스하고 사용하는 방법을 알아봅니다
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 24%
@@ -11,18 +11,6 @@ ht-degree: 24%
 ---
 
 # 캠페인 보고서 시작하기 {#campaign-reports}
-
-<!-- CAN BE REMOVED___
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_sending"
->title="Reporting Sending"
->abstract="The Sending tab within your report provides in-depth insights into your visitors' interactions with your deliveries and any potential errors they may have encountered."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_tracking"
->title="Reporting tracking"
->abstract="The Tracking tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
--->
 
 **캠페인 보고서**&#x200B;는 다양한 게재와 관련된 모든 정보를 통합하여 **캠페인**&#x200B;에 대한 포괄적인 개요를 제공합니다. 이러한 보고서는 채널별 성공률, 대상자 참여 및 기타 필수 지표 등 각 게재의 성과에 대한 철저한 분석을 제공합니다. 이를 통해 캠페인에 미치는 전반적인 효과와 영향을 평가할 수 있습니다.
 

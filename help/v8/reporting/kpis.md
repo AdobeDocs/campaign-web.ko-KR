@@ -2,7 +2,7 @@
 title: 주요 성과 지표
 description: 주요 성능 지표를 이해하는 방법에 대해 알아봅니다.
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 79%
@@ -16,6 +16,7 @@ ht-degree: 79%
 >title="주요 성과 지표"
 >abstract="**주요 성과 지표** 섹션을 사용하면 공통 KPI를 통해 플랫폼 효율성을 확인할 수 있습니다."
 
+<!-- à enlever? -->
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
 >title="스팸"

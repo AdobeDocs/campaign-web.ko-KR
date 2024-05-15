@@ -4,9 +4,9 @@ title: Campaign Standard에서 Adobe Campaign Web으로의 전환
 description: Campaign Web 사용자 인터페이스 살펴보기
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 source-git-commit: 8cd743d7feafe9093790c3f631ffbfe19d1413e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '588'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -63,11 +63,11 @@ Campaign v8 사용자는 새로운 Campaign Web 인터페이스와 v8 콘솔 모
 
 * 사용자 정의 리소스는 Campaign Web 사용자 인터페이스의 **스키마**&#x200B;입니다.
 * 마케팅 활동은 더 이상 존재하지 않습니다.
-* 메시지는 **게재**&#x200B;됩니다.
-* 사용자는 **연산자**.
-* 역할은 **명명된 권한**.
-* 보안 그룹은 **운영자 그룹**.
-* 조직 단위: **폴더 권한**
+* 메시지는 **게재**&#x200B;입니다.
+* 사용자는 **운영자**&#x200B;입니다.
+* 역할은 **명명된 권한**&#x200B;입니다.
+* 보안 그룹은 **운영자 그룹**&#x200B;입니다.
+* 조직 유닛은 **폴더 권한**&#x200B;입니다.
 
 ## 새로운 기능 {#new-features}
 

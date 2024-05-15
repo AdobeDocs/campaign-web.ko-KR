@@ -4,9 +4,9 @@ title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 7b04c6a9b425054690209bc3d3d8d0c29e038e31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1650'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -381,5 +381,5 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
->title="사용자 지정 속성 편집"
->abstract="사용자 지정 속성 편집"
+>title="사용자 정의 속성 편집"
+>abstract="사용자 정의 속성 편집"

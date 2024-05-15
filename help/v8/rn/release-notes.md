@@ -3,7 +3,7 @@ title: 최신 릴리스 정보
 description: Campaign Web 사용자 인터페이스에서 제공하는 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: d50dfc4ea433fa48301707b40164e2fdf9fa64fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1185'
 ht-degree: 100%
 

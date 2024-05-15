@@ -3,7 +3,7 @@ audience: end-user
 title: 차원 변경 워크플로우 활동 사용
 description: 차원 변경 워크플로우 활동을 사용하는 방법을 알아봅니다
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
-source-git-commit: 99bdd5220cceb4ab67c3bd4e3a788a28cbe40f8f
+source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 26%
@@ -28,7 +28,7 @@ ht-degree: 26%
 
 >[!IMPORTANT]
 >
->다음 사항에 유의하십시오. **[!UICONTROL 차원 변경]** 및 **[!UICONTROL 데이터 소스 변경]** 활동은 한 행에 추가해서는 안 됩니다. 두 활동을 연속해서 사용해야 하는 경우 다음을 포함해야 합니다. **[!UICONTROOL 강화]** 활동. 이렇게 하면 적절한 실행이 보장되며 잠재적인 충돌 또는 오류가 방지됩니다.
+>다음 사항에 유의하십시오. **[!UICONTROL 차원 변경]** 및 **[!UICONTROL 데이터 소스 변경]** 활동은 한 행에 추가해서는 안 됩니다. 두 활동을 연속해서 사용해야 하는 경우 다음을 포함해야 합니다. **[!UICONTROL 강화]** 활동. 이렇게 하면 적절한 실행이 보장되며 잠재적인 충돌 또는 오류가 방지됩니다.
 
 ## 차원 변경 활동 구성 {#configure}
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 데이터 소스 변경 워크플로우 활동 사용
 description: 데이터 소스 변경 워크플로우 활동을 사용하는 방법을 알아봅니다
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: 99bdd5220cceb4ab67c3bd4e3a788a28cbe40f8f
+source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 13%
@@ -27,7 +27,7 @@ Campaign 아키텍처에 대한 자세한 내용은 [Campaign v8(클라이언트
 
 >[!IMPORTANT]
 >
->다음 사항에 유의하십시오. **[!UICONTROL 차원 변경]** 및 **[!UICONTROL 데이터 소스 변경]** 활동은 한 행에 추가해서는 안 됩니다. 두 활동을 연속해서 사용해야 하는 경우 다음을 포함해야 합니다. **[!UICONTROOL 강화]** 활동. 이렇게 하면 적절한 실행이 보장되며 잠재적인 충돌 또는 오류가 방지됩니다.
+>다음 사항에 유의하십시오. **[!UICONTROL 차원 변경]** 및 **[!UICONTROL 데이터 소스 변경]** 활동은 한 행에 추가해서는 안 됩니다. 두 활동을 연속해서 사용해야 하는 경우 다음을 포함해야 합니다. **[!UICONTROL 강화]** 활동. 이렇게 하면 적절한 실행이 보장되며 잠재적인 충돌 또는 오류가 방지됩니다.
 
 <!--
 

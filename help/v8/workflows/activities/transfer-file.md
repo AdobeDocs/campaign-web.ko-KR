@@ -3,10 +3,10 @@ audience: end-user
 title: 파일 전송 활동 사용
 description: 파일 전송 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 160ae5704601d1f8de41ebadde353a7097d9606c
+source-git-commit: 1494db73b1a91825a2ca57ea1881eb04e95d8da2
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 13%
+source-wordcount: '1177'
+ht-degree: 12%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
 >title="파일 전송 소스"
->abstract="파일 전송 소스"
+>abstract="원하는 파일 이름을 입력합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
@@ -60,12 +60,12 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="누락된 파일 처리"
->abstract="이 옵션을 사용하면 활동 후에 &quot;파일 없음&quot; 아웃바운드 전환을 활성화할 수 있습니다."
+>abstract="이 옵션을 사용하면 다음을 활성화할 수 있습니다. **파일 없음** 활동 이후의 아웃바운드 전환입니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="오류 처리"
->abstract="이 옵션을 사용하면 활동 후에 &quot;오류&quot; 아웃바운드 전환을 활성화할 수 있습니다."
+>abstract="이 옵션을 사용하면 다음을 활성화할 수 있습니다. **오류** 활동 이후의 아웃바운드 전환입니다."
 
 다음 **파일 전송** 활동은 입니다. **데이터 관리** 활동. 파일을 받거나 보내고, 파일의 존재를 테스트하거나, 서버에 있는 파일을 나열할 수 있습니다. 사용되는 프로토콜은 서버 간 프로토콜 또는 HTTP 프로토콜일 수 있습니다.
 

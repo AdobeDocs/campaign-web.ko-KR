@@ -8,7 +8,7 @@ exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
 source-wordcount: '887'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="나만의 조각 정의"
->abstract="조각은 캠페인에서 하나 이상의 이메일에 참조할 수 있는 재사용 가능한 구성 요소입니다. 이 기능은 마케팅 사용자가 향상된 디자인 프로세스에서 이메일 콘텐츠를 빠르게 조합하는 데 사용할 수 있는 여러 사용자 지정 콘텐츠 블록을 미리 빌드하는 데 사용됩니다."
+>abstract="조각은 캠페인에서 하나 이상의 이메일에 참조할 수 있는 재사용 가능한 구성 요소입니다. 이 기능은 여러 사용자 정의 콘텐츠 블록을 사전 빌드하는 데 사용되며, 마케팅 사용자는 이러한 콘텐츠 블록을 사용하여 향상된 디자인 프로세스로 이메일 콘텐츠를 신속하게 조합할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"

@@ -2,9 +2,9 @@
 title: 최신 릴리스 정보
 description: Campaign Web 사용자 인터페이스에서 제공하는 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: d50dfc4ea433fa48301707b40164e2fdf9fa64fd
-workflow-type: ht
-source-wordcount: '1185'
+source-git-commit: 3f4b2c83b5c651e473de9e32656aaf83af6fe8c6
+workflow-type: tm+mt
+source-wordcount: '1124'
 ht-degree: 100%
 
 ---
@@ -91,10 +91,9 @@ The Audit trail feature constantly records a detailed log of actions and events 
 
 * **분할 활동**&#x200B;의 “모집단이 비어 있는 경우 전환을 활성화하지 않음” 옵션을 사용하면 세그먼트 결과가 비어 있는 경우 워크플로를 다음 활동으로 전환할지 여부를 선택할 수 있습니다. [자세히 보기](../workflows/activities/split.md)
 
-<!--* **Support of custom fields**-->
-
-* **사용자 정의 필드**&#x200B;는 Adobe Campaign 콘솔을 통해 기본 스키마에 추가되는 추가 속성입니다. Campaign 웹 사용자 인터페이스에서 이러한 사용자 정의 필드는 이제 프로필 또는 테스트 프로필의 세부 정보와 같은 다양한 화면에 표시됩니다. 웹 사용자 인터페이스에서는 사용자 정의 필드를 만들 수 없지만 이제 사용자 정의 필드가 표시되는 방식을 수정할 수 있습니다. [자세히 보기](../administration/custom-fields.md)
-
+<!--* **Support of custom fields**
+* **Custom fields** are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web user interface, these custom fields are now visible in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. [Read more](../administration/custom-fields.md)
+-->
 
 ## 3월 릴리스 정보 {#24-3-release}
 

@@ -3,10 +3,10 @@ audience: end-user
 title: DM 게재 디자인
 description: Adobe Campaign 웹을 사용하여 DM 게재를 디자인하는 방법을 알아봅니다
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: 60484d08a68a5caaf91074c9ce543d8a44d44ab7
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 22%
+source-wordcount: '563'
+ht-degree: 21%
 
 ---
 
@@ -52,14 +52,18 @@ DM 게재에서 생성된 추출 파일의 콘텐츠를 디자인하려면 **[!U
 
 1. 전환 **[!UICONTROL 요청 수량]** 게재할 수신자 수를 제한하는 옵션.
 
-   ![](assets/dm-content-details.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-content-details.png){zoomable="yes"}
 
 ## 추출 파일 열 구성 {#content}
 
 다음에서 **[!UICONTROL 콘텐츠]** 섹션에서 추출 파일에 표시할 열을 지정합니다. 이렇게 하려면 다음 단계를 수행합니다.
 
 1. 다음을 클릭합니다. **[!UICONTROL 속성 추가]** 단추를 클릭하여 새 열을 만듭니다.
-1. 열에 표시할 속성을 선택한 다음 확인합니다. 열이 추가되면 해당 레이블을 변경하고 편집 아이콘을 사용하여 관련 속성을 수정할 수 있습니다.
+1. 열에 표시할 속성을 선택한 다음 확인합니다. 표현식 편집기를 사용하여 사용할 속성을 선택할 수 있습니다. **[!UICONTROL 표현식 편집]** 단추를 클릭합니다.
+
+   ![](assets/dm-add-attribute.png)
+
+1. 열이 추가되면 해당 레이블을 변경하고 편집 아이콘을 사용하여 관련 속성을 수정할 수 있습니다.
 1. 추출 파일에 필요한 수만큼 열을 추가하려면 이 단계를 반복합니다.
 1. 열 중 하나를 사용하여 추출 파일을 정렬하려면 **[!UICONTROL 정렬]** 열을 만들고 원하는 정렬 방법을 선택합니다.
 1. 열의 위치를 변경하려면 위쪽 및 아래쪽 화살표를 사용합니다.

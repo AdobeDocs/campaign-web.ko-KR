@@ -3,10 +3,10 @@ audience: end-user
 title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 빌드하는 방법 알아보기
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: acc2383edbca7b528098c1ddbd18efb3110d4354
+source-git-commit: 3d566c03795dbb0a9ad31dba1037f2a559fa8e31
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 5%
+source-wordcount: '1068'
+ht-degree: 4%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 5%
 
 다이어그램에 추가할 수 있는 활동 목록이 나타납니다. 사용 가능한 활동은 워크플로우 다이어그램 내의 위치에 따라 다릅니다. 예를 들어 첫 번째 활동을 추가할 때 대상을 타겟팅하거나, 워크플로우 경로를 분할하거나, 을(를) 설정하여 워크플로우를 시작할 수 있습니다. **대기** 워크플로우 실행을 지연시키는 활동. 반면에, 다음 **대상자 작성** 활동: 타겟팅 활동을 통해 타겟을 세분화하고, 채널 활동을 통해 대상자에게 게재를 보내거나, 흐름 제어 활동을 통해 워크플로우 프로세스를 구성할 수 있습니다.
 
-![](assets/workflow-start.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-start.png){zoomable="yes"}
 
 활동이 다이어그램에 추가되면 특정 설정으로 새로 추가된 활동을 구성할 수 있는 오른쪽 창이 나타납니다. 각 활동을 구성하는 방법에 대한 자세한 내용은에서 확인할 수 있습니다 [이 섹션](activities/about-activities.md).
 
-![](assets/workflow-configure-activities.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-configure-activities.png){zoomable="yes"}
 
 이 프로세스를 반복하여 워크플로우에서 수행하려는 작업에 따라 원하는 만큼 활동을 추가합니다. 두 활동 사이에 새 활동을 삽입할 수도 있습니다. 이렇게 하려면 **+** 활동 간 전환 버튼을 클릭하고 원하는 활동을 선택한 다음 오른쪽 창에서 구성합니다.
 
@@ -44,7 +44,7 @@ ht-degree: 5%
 * **축소** / **확대**: 캔버스를 축소하거나 축소합니다.
 * **맵 표시**: 현재 위치를 보여주는 캔버스의 스냅샷을 엽니다.
 
-![](assets/workflow-toolbar.png){zoomable=&quot;yes&quot;}{width="50%"}
+![](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
 
 ## 활동 관리 {#manage}
 
@@ -56,7 +56,7 @@ ht-degree: 5%
 * 활동에 액세스 **로그 및 작업**.
 * **일시 중지/다시 시작** 활동. 워크플로우가 실행되면 일시 중지된 활동에서 일시 중지됩니다. 동일한 경로에서 해당 작업을 따르는 모든 작업은 실행되지 않습니다.
 
-![](assets/activity-action.png){zoomable=&quot;yes&quot;}{width="50%"}
+![](assets/activity-action.png){zoomable="yes"}{width="50%"}
 
 여러 개 **타겟팅** 다음과 같은 활동 **결합** 또는 **중복 제거**&#x200B;을(를) 사용하면 나머지 모집단을 처리하고 추가 아웃바운드 전환에 포함할 수 있습니다. 예를 들어 **분할** 활동, 보체는 이전에 정의된 하위 집합 중 어느 것과도 일치하지 않는 모집단으로 구성됩니다. 이 기능을 사용하려면 를 활성화합니다. **보조 항목 생성** 옵션을 선택합니다.
 
@@ -70,21 +70,21 @@ ht-degree: 5%
 
 * 작업 버튼을 사용하여 활동 하나를 복사합니다.
 
-  ![](assets/workflow-copy.png){zoomable=&quot;yes&quot;}{width="70%"}
+  ![](assets/workflow-copy.png){zoomable="yes"}{width="70%"}
 
 * 도구 모음 버튼을 사용하여 여러 활동을 복사합니다.
 
-  ![](assets/workflow-copy-2.png){zoomable=&quot;yes&quot;}{width="70%"}
+  ![](assets/workflow-copy-2.png){zoomable="yes"}{width="70%"}
 
 복사한 활동을 붙여넣으려면 **+** 전환 버튼을 클릭하고 &quot;X 활동 붙여넣기&quot;를 선택합니다.
 
-![](assets/workflow-copy-3.png){zoomable=&quot;yes&quot;}{width="50%"}
+![](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
 
 ## 실행 옵션 {#execution}
 
-모든 활동을 통해 실행 옵션을 관리할 수 있습니다. 활동을 선택하고 **실행 옵션** 단추를 클릭합니다. 이를 통해 오류 발생 시 활동의 실행 모드 및 동작을 정의할 수 있습니다.
+모든 활동을 통해 실행 옵션을 관리할 수 있습니다. 활동을 선택하고 **실행 옵션** 단추를 클릭합니다. 이를 통해 오류 발생 시 활동의 실행 모드와 비헤이비어를 정의할 수 있습니다.
 
-![](assets/workflow-execution-options.png){zoomable=&quot;yes&quot;}{width="70%"}
+![](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
 ### 속성
 
@@ -110,7 +110,7 @@ ht-degree: 5%
 
 다음은 커피 머신에 관심이 있는 모든 고객(VIP 고객 제외)에게 이메일을 보내도록 설계된 워크플로우 예입니다.
 
-![](assets/workflow-example.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
+![](assets/workflow-example.png){zoomable="yes"}{zoomable="yes"}
 
 이를 위해 아래 활동이 추가되었습니다.
 

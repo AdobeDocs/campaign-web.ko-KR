@@ -3,10 +3,10 @@ keywords: Campaign Web;홈;인기 있는 주제
 description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
-workflow-type: ht
-source-wordcount: '474'
-ht-degree: 100%
+source-git-commit: 35d803b7e409c38b9b29150aa4d8c1849f994c2c
+workflow-type: tm+mt
+source-wordcount: '485'
+ht-degree: 83%
 
 ---
 
@@ -51,23 +51,29 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 
 >[!BEGINTABS]
 
->[!TAB 4월 릴리스가 공개되었습니다!]
+>[!TAB 5월 릴리스 예정일]
 
 Adobe Campaign Web 사용자 인터페이스 24.4 릴리스에 포함된 새로운 기능과 개선 사항을 살펴보십시오.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB 새 워크플로 활동]
+>[!TAB 감사 추적]
 
-이 릴리스에는 데이터 업데이트, 구독 서비스, 파일 추출, 전송 파일, 테스트, JavaScript 코드, 외부 신호, 증분 쿼리 등의 워크플로 활동이 포함되어 있습니다.
+새로운 감사 추적 기능은 Adobe Campaign 인스턴스에 실시간으로 수행된 모든 작업 및 이벤트에 대한 세부 시간 기록을 제공합니다.
 
-[![이미지](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+[![이미지](assets/do-not-localize/learn-more-button.svg)](reporting/audit-trail.md)
 
->[!TAB 리치 푸시 알림]
+>[!TAB 사용자 정의 필드]
 
-이제 Android를 통해 리치 푸시 알림을 보낼 수 있습니다. 리치 푸시 알림은 이미지, 대화형 버튼 또는 기타 리치 미디어 콘텐츠와 같은 멀티미디어 요소를 통합하여 단순한 문자 메시지를 넘어서는 향상된 형태의 모바일 알림입니다.
+사용자 지정 필드는 Adobe Campaign 콘솔을 통해 기본 스키마에 추가된 추가 속성입니다. 이제 웹 사용자 인터페이스에서 사용할 수 있습니다.
 
-[![이미지](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
+[![이미지](assets/do-not-localize/learn-more-button.svg)](administration/custom-fields.md)
+
+>[!TAB 테이블 연결]
+
+이제 데이터 보강 워크플로우 활동에서 작업 테이블 데이터와 Adobe Campaign 데이터베이스 간의 연결을 만들 수 있습니다.
+
+[![이미지](assets/do-not-localize/learn-more-button.svg)](workflows/activities/enrichment.md#create-links)
 
 >[!ENDTABS]
 

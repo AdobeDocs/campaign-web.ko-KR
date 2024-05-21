@@ -3,21 +3,28 @@ product: campaign
 title: 감사 추적
 description: Campaign 감사 추적을 사용하여 인스턴스를 모니터링하는 방법 알아보기
 feature: Audit Trail, Monitoring, Workflows
-source-git-commit: 4f7dd30f02f83624a00b3d0e6ac7ba74c1c242e0
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 1%
+source-wordcount: '615'
+ht-degree: 2%
 
 ---
 
 # 감사 추적{#audit-trail}
 
->[!IMPORTANT]
->
->Adobe Campaign 웹 사용자 인터페이스는 사용자 권한, 템플릿, 개인화 또는 캠페인 내에서 변경된 사항을 감사하지 않습니다.\
->감사 추적은 인스턴스 관리자만 관리할 수 있습니다.
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="감사 추적"
+>abstract="새로운 감사 추적 기능은 Adobe Campaign 인스턴스에 실시간으로 수행된 모든 작업 및 이벤트에 대한 세부 시간 기록을 제공합니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko-KR" text="릴리스 정보 참조"
+
 
 Adobe Campaign 웹 사용자 인터페이스에서 **[!UICONTROL 감사 추적]** 기능은 인스턴스 내의 중요한 엔티티에 대한 모든 수정 사항(일반적으로 인스턴스의 원활한 작업에 큰 영향을 주는 엔티티)을 사용자가 완전히 볼 수 있도록 합니다.
+
+>[!IMPORTANT]
+>
+>* Adobe Campaign 웹 사용자 인터페이스는 사용자 권한, 템플릿, 개인화 또는 캠페인 내에서 변경된 사항을 감사하지 않습니다.
+>* 감사 추적은 인스턴스 관리자만 관리할 수 있습니다.
 
 **[!UICONTROL 감사 추적]** 이 기능은 Adobe Campaign 인스턴스 내에서 발생하는 작업 및 이벤트의 세부 로그를 실시간으로 지속적으로 기록합니다. 편리한 방법을 사용하여 데이터의 시간 기록 레코드에 액세스하고, 워크플로 상태, 이를 수정할 최신 개인 또는 인스턴스 내에서 사용자가 수행한 활동과 같은 쿼리를 해결합니다.
 

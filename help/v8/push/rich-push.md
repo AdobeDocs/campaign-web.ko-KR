@@ -3,14 +3,22 @@ audience: end-user
 title: 리치 푸시 알림 게재 디자인
 description: Adobe Campaign 웹을 사용하여 Android 리치 푸시 알림 게재를 디자인하는 방법을 알아봅니다
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1444'
 ht-degree: 6%
 
 ---
 
 # Android 리치 푸시 게재 디자인 {#rich-push}
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="리치 푸시 게재"
+>abstract="이제 Android를 통해 리치 푸시 알림을 보낼 수 있습니다. 현재 이 기능은 제한된 가용성입니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko-KR" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
@@ -27,7 +35,7 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 * 다음 **[!UICONTROL 알림 메시지]** FCM SDK에 의해 자동으로 처리됩니다. FCM은 클라이언트 앱을 대신하여 사용자의 장치에 메시지를 자동으로 표시합니다. 알림 메시지에는 사전 정의된 매개 변수 및 옵션 세트가 포함되어 있지만 사용자 지정 애플리케이션 변수를 사용하여 추가로 개인화할 수 있습니다.
 
-![](assets/rich_push.png){zoomable=&quot;yes&quot;}
+![](assets/rich_push.png){zoomable="yes"}
 
 ## 알림 콘텐츠 정의 {#push-message}
 
@@ -168,7 +176,7 @@ Firebase Cloud Messaging을 사용하면 두 가지 유형의 메시지 중에�
 
 ## 푸시 알림 고급 설정 {#push-advanced}
 
-![](assets/push_content_5.png){zoomable=&quot;yes&quot;}
+![](assets/push_content_5.png){zoomable="yes"}
 
 | 매개변수 | 설명 |
 |---------|---------|

@@ -3,10 +3,10 @@ audience: end-user
 title: 보강 워크플로 활동 사용
 description: 보강 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: fa2d596a36652f504112c7a8543453d845462021
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 47%
+source-wordcount: '1251'
+ht-degree: 46%
 
 ---
 
@@ -76,6 +76,12 @@ ht-degree: 47%
    ![](../assets/workflow-enrichment1.png)
 
 ## 표 사이에 링크 만들기 {#create-links}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="표 간 링크"
+>abstract="이제 데이터 보강 워크플로우 활동에서 작업 테이블 데이터와 Adobe Campaign 데이터베이스 간의 연결을 만들 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko-KR" text="릴리스 정보 참조"
 
 다음 **[!UICONTROL 링크 정의]** 섹션에서는 작업 테이블 데이터와 Adobe Campaign 데이터베이스 간에 링크를 생성할 수 있습니다. 예를 들어 수신자의 계정 번호, 국가 및 이메일이 포함된 파일에서 데이터를 로드하는 경우 프로필에서 이 정보를 업데이트하려면 국가 테이블에 대한 링크를 만들어야 합니다.
 

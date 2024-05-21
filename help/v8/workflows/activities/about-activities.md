@@ -3,10 +3,10 @@ audience: end-user
 title: 워크플로 활동을 사용하여 작업
 description: 워크플로 활동을 사용하는 방법 알아보기
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 5947d7f6b2fd39ede6322273e7497744f9aff953
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 43%
+source-wordcount: '567'
+ht-degree: 32%
 
 ---
 
@@ -40,12 +40,6 @@ ht-degree: 43%
 
 ## 데이터 관리 활동 {#data}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="파일 추출 및 로드 활동"
->abstract="워크플로에서 새로운 데이터 관리 활동을 사용할 수 있습니다. 파일 추출 활동을 통해 Adobe Campaign의 데이터를 외부 파일로 다른 시스템으로 내보낼 수 있습니다. 파일 로드 활동을 사용하여 외부 파일에 저장된 프로필 및 데이터로 작업합니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko-KR" text="릴리스 정보 참조"
-
 이러한 활동은 모집단 데이터를 조작하고 보강하는 데 특정적입니다.
 
 * [파일 추출](extract-file.md): Adobe Campaign에서 다른 시스템으로 데이터를 외부 파일로 내보냅니다.
@@ -60,15 +54,6 @@ ht-degree: 43%
 Adobe Campaign 웹을 사용하면 여러 채널에서 마케팅 캠페인을 자동화하고 실행할 수 있습니다. 채널 활동을 캔버스에 결합하여 고객 행동에 따라 작업을 트리거할 수 있는 크로스 채널 워크플로우를 만들 수 있습니다. 다음 **채널** 활동을 사용할 수 있습니다. 이메일, SMS, Android 및 iOS 푸시 알림. [워크플로우 컨텍스트에서 게재를 설정하는 방법 알아보기](channels.md).
 
 ## 흐름 제어 활동 {#flow-control}
-
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="고급 워크플로 활동"
->abstract="이제 워크플로에서 테스트, JavaScript 코드 및 외부 신호 활동을 구성할 수 있습니다. 테스트 활동을 통해 조건에 따라 워크플로 전환을 활성화합니다. JavaScript 코드 활동을 추가하여 워크플로의 컨텍스트에서 JS 코드 스니펫을 실행합니다. 외부 신호 활동을 구성하여 다른 워크플로 또는 API에서 워크플로 실행을 트리거합니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko-KR" text="릴리스 정보 참조"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"

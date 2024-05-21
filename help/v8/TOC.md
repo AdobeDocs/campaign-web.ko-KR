@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: e2dda5632081e74ecc17626b9d56ec1546adf2af
+source-git-commit: b3eb0a2864ab68f224a78344956e3e3eb4323403
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '695'
 ht-degree: 99%
 
 ---
@@ -20,7 +20,6 @@ ht-degree: 99%
    + [새로운 기능](rn/whats-new.md)
    + [최신 릴리스](rn/release-notes.md)
    + [설명서 업데이트](rn/documentation-updates.md)
-   + [Campaign Standard에서 v8로의 전환](rn/acs-migration.md)
 + Adobe Campaign 시작하기 {#start}
    + [시작](get-started/get-started.md)
    + [Campaign에 연결](get-started/connect-to-campaign.md)
@@ -29,6 +28,7 @@ ht-degree: 99%
    + [미리 정의된 필터 작업](get-started/predefined-filters.md)
    + [액세스 및 권한](get-started/permissions.md)
    + [Campaign Web 및 클라이언트 콘솔](get-started/capability-matrix.md)
+   + [Campaign Standard에서 v8로의 전환](rn/acs-migration.md)
    + [AI 기반 상황별 도움말](get-started/using-ai.md)
 + 메시지 및 게재 {#msg}
    + [메시지 시작](msg/gs-messages.md)
@@ -133,6 +133,7 @@ ht-degree: 99%
    + [보호 기능 및 제한 사항](get-started/guardrails.md)
    + [워크플로 이벤트 변수](workflows/event-variables.md)
    + [워크플로 액세스 및 관리](workflows/access-monitor.md)
+   + [읽기 전용 워크플로 기본 정보](workflows/readonly-workflows.md)
    + 첫 워크플로 만들고 실행하기 {#create-workflow}
       + [워크플로를 만드는 핵심 원칙](workflows/gs-workflow-creation.md)
       + [워크플로 만들기](workflows/create-workflow.md)
@@ -172,6 +173,7 @@ ht-degree: 99%
    + [필터 목록](query/filter.md)
 + 보고 {#reports}
    + [보고서 시작](reporting/gs-reports.md)
+   + [감사 추적](reporting/audit-trail.md)
    + [보고서 내보내기](reporting/export-reports.md)
    + [주요 성과 지표](reporting/kpis.md)
    + 게재 보고서 {#delivery-report}
@@ -198,4 +200,4 @@ ht-degree: 99%
    + [Adobe Experience Manager as a Cloud Service로 템플릿 관리](integrations/aem-content.md)
 + 구성 {#conf}
    + [사용자 정의 필드 구성](administration/custom-fields.md)
-+ [Campaign v8(콘솔) 설명서 >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
++ [Campaign v8 (콘솔) 설명서 >](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/campaign-home)

@@ -1,7 +1,7 @@
 ---
 audience: end-user
 product: campaign
-title: 콘텐츠 템플릿 작업
+title: 콘텐츠 템플릿으로 작업
 description: 템플릿을 만들어 Adobe Campaign 이메일의 콘텐츠를 재사용하는 방법 알아보기
 feature: Templates
 topic: Content Management
@@ -10,12 +10,12 @@ level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 19%
+source-wordcount: '948'
+ht-degree: 18%
 
 ---
 
-# 콘텐츠 템플릿 작업 {#content-templates}
+# 콘텐츠 템플릿으로 작업 {#content-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
@@ -39,11 +39,11 @@ ht-degree: 19%
 
 콘텐츠 템플릿 목록에 액세스하려면 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 콘텐츠 템플릿]** 왼쪽 레일의 메뉴
 
-![](assets/content-template-list.png){zoomable=&quot;yes&quot;}
+![](assets/content-template-list.png){zoomable="yes"}
 
 이 대시보드는 사용 가능한 모든 콘텐츠 템플릿을 목록으로 표시합니다. 특정 항목을 필터링할 수 있습니다 [폴더](../get-started/permissions.md#folders) 드롭다운 목록 사용 또는 다음을 사용하여 규칙 추가 [쿼리 모델러](../query/query-modeler-overview.md).
 
-![](assets/content-template-list-filters.png){zoomable=&quot;yes&quot;}
+![](assets/content-template-list-filters.png){zoomable="yes"}
 
 목록에서 기존 콘텐츠 템플릿을 편집, 복제 또는 삭제할 수 있습니다. 상위 섹션의 버튼을 사용하여 콘텐츠 템플릿을 만듭니다.
 
@@ -53,12 +53,12 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_design"
 >title="콘텐츠 템플릿 디자인"
->abstract="이메일 콘텐츠 템플릿을 디자인합니다."
+>abstract="이메일 콘텐츠 템플릿을 디자인하십시오."
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_selection"
 >title="콘텐츠 템플릿 선택"
->abstract="이메일 콘텐츠 템플릿을 선택합니다."
+>abstract="이메일 콘텐츠 템플릿을 선택하십시오."
 
 콘텐츠 템플릿은 다음 방법으로 만들 수 있습니다. [기존 이메일을 템플릿으로 저장](#save-as-template)또는 이메일 템플릿 목록에서 **콘텐츠 템플릿 만들기** 단추, [아래에 자세히 설명됨](#create-template-from-scratch).
 
@@ -83,11 +83,11 @@ ht-degree: 19%
 
 1. 선택 **[!UICONTROL 템플릿 만들기]**.
 
-   ![](assets/content-template-create.png){zoomable=&quot;yes&quot;}
+   ![](assets/content-template-create.png){zoomable="yes"}
 
 1. 템플릿 레이블 및 속성을 입력합니다. 템플릿을 저장할 폴더를 선택할 수 있습니다. 기본적으로 콘텐츠 템플릿은 Adobe Campaign 계층의 전용 폴더에 저장됩니다. **[!UICONTROL 탐색기]** > **[!UICONTROL 리소스]** > **[!UICONTROL 템플릿]** > **[!UICONTROL 콘텐츠 템플릿]**. 의 폴더에 대해 자세히 알아보기 [이 페이지](../get-started/permissions.md#folders)
 
-   ![](assets/content-template-details.png){zoomable=&quot;yes&quot;}
+   ![](assets/content-template-details.png){zoomable="yes"}
 
 1. 클릭 **[!UICONTROL 만들기]** 다양한 옵션에서 템플릿 디자인 방법을 선택합니다.
 
@@ -99,7 +99,7 @@ ht-degree: 19%
 
    * 기본 제공 또는 사용자 지정 템플릿 목록의 기존 콘텐츠를 사용합니다. 이메일에서 콘텐츠 템플릿을 사용하는 단계는에 설명되어 있습니다 [이 섹션](use-email-templates.md).
 
-   ![](assets/email_designer-templates.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-templates.png){zoomable="yes"}
 
 1. 이메일 디자이너가 표시됩니다. 선택한 옵션에 따라 이메일에 대해 수행하는 것과 동일한 방식으로 콘텐츠를 필요에 따라 편집합니다. 에서 이메일 디자이너를 사용하는 방법을 알아봅니다. [이 섹션](get-started-email-designer.md).
 
@@ -109,7 +109,7 @@ ht-degree: 19%
 
    필요한 경우 템플릿 이름 옆에 있는 화살표를 클릭하여 로 돌아갑니다. **[!UICONTROL 세부 사항]** 템플릿을 스크린하고 편집합니다.
 
-   ![](assets/content-template-save-back.png){zoomable=&quot;yes&quot;}
+   ![](assets/content-template-save-back.png){zoomable="yes"}
 
 템플릿은에서 사용할 수 있습니다 **[!UICONTROL 콘텐츠 템플릿]** 목록을 표시합니다. [자세히 알아보기](#access-templates)
 
@@ -125,17 +125,17 @@ ht-degree: 19%
 
 1. 선택 **[!UICONTROL 콘텐츠 템플릿으로 저장]** 드롭다운 메뉴에서 을(를) 선택합니다.
 
-   ![](assets/email_designer-save-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-save-template.png){zoomable="yes"}
 
 1. 이 템플릿의 이름을 입력하고 저장합니다.
 
-   ![](assets/email_designer-template-name.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-template-name.png){zoomable="yes"}
 
 템플릿이에 저장되고 표시됩니다. **[!UICONTROL 콘텐츠 템플릿]** 목록을 표시합니다. 이 템플릿은 목록에 있는 다른 항목으로 액세스, 편집 및 삭제할 수 있는 독립 실행형 콘텐츠 템플릿이 됩니다. [자세히 알아보기](#access-manage-templates)
 
 이제 이 템플릿을 사용하여 새 콘텐츠를 작성할 수 있습니다. 템플릿은에서 사용할 수 있습니다. **[!UICONTROL 저장된 템플릿]** 이메일 디자이너의 탭. [방법 알아보기](use-email-templates.md)
 
-![](assets/email_designer-saved-template.png){zoomable=&quot;yes&quot;}
+![](assets/email_designer-saved-template.png){zoomable="yes"}
 
 
 >[!NOTE]
@@ -167,7 +167,7 @@ You can test the rendering of any email content template, whether created from s
 
 1. 다음을 클릭합니다. **[!UICONTROL 콘텐츠 편집]** 단추를 클릭하여 콘텐츠를 [이메일 디자이너](get-started-email-designer.md).
 
-![](assets/content-template-edition.png){zoomable=&quot;yes&quot;}
+![](assets/content-template-edition.png){zoomable="yes"}
 
 >[!NOTE]
 >

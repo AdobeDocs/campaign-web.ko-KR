@@ -6,7 +6,7 @@ exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 39%
+ht-degree: 41%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
 >title="캠페인의 워크플로 목록"
->abstract="다음 **워크플로** 탭에는 현재 캠페인에 연결된 모든 워크플로우가 나열됩니다."
+>abstract="**워크플로** 탭에는 현재 캠페인에 연결된 모든 워크플로가 나열됩니다."
 
 다음에서 **찾아보기** 캠페인 목록의 탭에서 캠페인 이름을 클릭하여 세부 정보를 표시합니다.
 

@@ -6,7 +6,7 @@ exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 66%
+ht-degree: 70%
 
 ---
 
@@ -38,7 +38,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_audienceselector"
 >title="대상자"
->abstract="새 게재를 디자인할 때 대상을 사용하는 것과 동일한 방법으로 대상을 선택합니다."
+>abstract="새 게재를 디자인할 때 대상자를 사용하는 것과 같은 방식으로 대상자를 선택합니다."
 
 **대상자 빌드** 활동을 구성하려면 다음 단계를 따르십시오.
 

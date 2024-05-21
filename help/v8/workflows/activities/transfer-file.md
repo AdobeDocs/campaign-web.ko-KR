@@ -6,7 +6,7 @@ exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 source-git-commit: 1494db73b1a91825a2ca57ea1881eb04e95d8da2
 workflow-type: tm+mt
 source-wordcount: '1177'
-ht-degree: 12%
+ht-degree: 18%
 
 ---
 
@@ -35,22 +35,22 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
 >title="파일 전송 소스"
->abstract="원하는 파일 이름을 입력합니다."
+>abstract="원하는 파일 이름을 입력하십시오."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
 >title="전송 후 소스 파일 삭제"
->abstract="성공적으로 전송한 후 소스 파일을 지웁니다."
+>abstract="전송이 성공적으로 완료되면 소스 파일을 삭제합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
 >title="세션 로그 표시"
->abstract="전송 작업과 관련된 정보가 워크플로우 로그에 표시됩니다."
+>abstract="전송 작업과 관련된 정보가 워크플로 로그에 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"
 >title="모든 파일 나열"
->abstract="이 옵션은 서버에 있는 모든 파일을 **vars.filenames** 이벤트 변수를 채우는 방법을 설명합니다."
+>abstract="이 옵션은 **vars.filenames** 이벤트 변수에서 서버에 있는 모든 파일의 색인을 생성합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
@@ -60,12 +60,12 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="누락된 파일 처리"
->abstract="이 옵션을 사용하면 다음을 활성화할 수 있습니다. **파일 없음** 활동 이후의 아웃바운드 전환입니다."
+>abstract="이 옵션을 사용하면 활동 후 **파일 없음** 아웃바운드 전환을 활성화할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="오류 처리"
->abstract="이 옵션을 사용하면 다음을 활성화할 수 있습니다. **오류** 활동 이후의 아웃바운드 전환입니다."
+>abstract="이 옵션을 사용하면 활동 후 **오류** 아웃바운드 전환을 활성화할 수 있습니다."
 
 다음 **파일 전송** 활동은 입니다. **데이터 관리** 활동. 파일을 받거나 보내고, 파일의 존재를 테스트하거나, 서버에 있는 파일을 나열할 수 있습니다. 사용되는 프로토콜은 서버 간 프로토콜 또는 HTTP 프로토콜일 수 있습니다.
 

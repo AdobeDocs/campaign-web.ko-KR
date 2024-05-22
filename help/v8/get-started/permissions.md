@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 사용자 인터페이스의 권한 관리
 description: Campaign Web 사용자 인터페이스의 권한에 대해 자세히 알아보기
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: dcbaa5df0b6fa82a3cdd0ddf70538f22ecdee249
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 100%
+source-wordcount: '629'
+ht-degree: 91%
 
 ---
 
@@ -48,10 +48,7 @@ ht-degree: 100%
 >title="이 워크플로는 읽기 전용입니다."
 >abstract="이 워크플로를 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
 
->[!CONTEXTUALHELP]
->id="acw_wf_read_only_canvas"
->title="이 워크플로는 읽기 전용입니다."
->abstract="지원되지 않거나 호환되지 않는 캔버스로 인해 이 워크플로를 편집할 수 없습니다."
+
 
 액세스 제어를 통해 게재, 수신자 또는 워크플로와 같은 주요 목록의 오브젝트 및 데이터에 대한 액세스를 제한할 수 있습니다. 이러한 제한 사항은 **탐색기**&#x200B;의 탐색 트리에도 적용됩니다. 또한 사용자 인터페이스에서 오브젝트를 생성, 삭제, 복제 및 편집하려면 권한이 필요합니다.
 
@@ -68,11 +65,11 @@ Campaign Web 사용자 인터페이스를 탐색할 때 주어진 권한에 따�
 1. **탐색기** 왼쪽 탐색 메뉴에서 폴더를 선택합니다.
 1. 오른쪽 상단에 있는 세 개의 점을 클릭하고 **폴더 권한**&#x200B;을 선택합니다.
 
-   ![](assets/permissions-view-menu.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-menu.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 1. 아래와 같이 화면에서 자세한 내용을 확인하십시오.
 
-   ![](assets/permissions-view-screen.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-screen.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
    그룹 또는 운영자는 선택한 폴더에 저장된 데이터에 대한 읽기, 쓰기 및/또는 삭제 권한을 가질 수 있습니다.
 
@@ -94,11 +91,17 @@ Campaign Web 사용자 인터페이스를 탐색할 때 주어진 권한에 따�
 폴더를 만들려면 다음 단계를 따르십시오.
 
 1. **탐색기** 왼쪽 탐색 메뉴에서 폴더를 선택합니다.
-1. 오른쪽 상단에 있는 세 개의 점을 클릭하고 **새 하위 폴더 만들기**&#x200B;를 선택합니다.
-1. 폴더 이름을 입력하고 저장합니다.
+1. 오른쪽 위 모서리에 있는 세 개의 점을 클릭하고 **새 폴더 만들기**.
+1. 폴더 이름을 입력합니다.
 
-   ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/create-new-subfolder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+
+1. 폴더 유형을 선택합니다. 기본적으로 이 예제에서는 상위 폴더 유형, &quot;게재&quot;가 선택됩니다. 폴더 유형을 변경하려면 폴더 아이콘을 클릭하고 다른 유형을 선택합니다.
+
+   ![](assets/create-new-subfolder2.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+
+1. 클릭 **만들기**.
 
    폴더가 현재 폴더의 하위 폴더로 추가됩니다. 새 폴더를 찾아 해당 폴더에 직접 구성 요소를 만듭니다. 또한 게재에 대해 아래와 같이 속성의 **추가 옵션** 섹션에 있는 임의의 폴더에서 구성 요소를 만들고 해당 새 폴더에 저장할 수도 있습니다.
 
-   ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/delivery-properties-folder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}

@@ -1,11 +1,11 @@
 ---
-title: 최신 릴리스 정보
-description: Campaign Web 사용자 인터페이스에서 제공하는 새로운 기능 살펴보기
+title: Campaign v8 웹 사용자 인터페이스 릴리스 정보
+description: 최신 Campaign Web User Interface 릴리스의 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 3f4b2c83b5c651e473de9e32656aaf83af6fe8c6
-workflow-type: ht
-source-wordcount: '1124'
-ht-degree: 100%
+source-git-commit: 4df01bae0d2099f38012fb082e249bc060e4ce6b
+workflow-type: tm+mt
+source-wordcount: '1461'
+ht-degree: 81%
 
 ---
 
@@ -16,9 +16,45 @@ ht-degree: 100%
 >title="릴리스 정보"
 >abstract="Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 연속 게재 모델에서 작동합니다. 따라서 Campaign 릴리스 정보는 최신 기능, 개선 사항 및 수정 사항을 포함하여 한 달에 여러 번 업데이트됩니다. 정기적으로 확인하는 것이 좋습니다."
 
-<!--Last update: **March 19, 2024**-->
-
 Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 연속 게재 모델에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+
+## 5월 릴리스 정보 {#24-5-release}
+
+**릴리스 일자**: 2024년 5월 21일 수요일
+
+다음 기능 및 개선 사항은 5월 릴리스부터 모든 사용자가 사용할 수 있습니다.
+
+### 감사 추적  {#24-5-1}
+
+새로운 **감사 추적** 은 실시간으로 Adobe Campaign 인스턴스에 수행된 모든 작업 및 이벤트에 대한 세부 시간 기록을 제공합니다. 편리한 방법을 사용하여 Campaign 데이터의 모든 변경 사항을 추적하고 워크플로우 상태, 수정할 최신 개인 또는 인스턴스 내에서 사용자가 수행한 활동과 같은 쿼리를 해결합니다. [자세히 보기](../reporting/audit-trail.md)
+
+### 사용자 정의 필드 {#24-5-2}
+
+**사용자 정의 필드**&#x200B;는 Adobe Campaign 콘솔을 통해 기본 스키마에 추가되는 추가 속성입니다. Campaign 웹 사용자 인터페이스에서 이러한 사용자 정의 필드는 이제 프로필 또는 테스트 프로필의 세부 정보와 같은 다양한 화면에 표시됩니다. 웹 사용자 인터페이스에서는 사용자 정의 필드를 만들 수 없지만 이제 사용자 정의 필드가 표시되는 방식을 수정할 수 있습니다. [자세히 보기](../administration/custom-fields.md)
+
+### 표 사이에 링크 만들기 {#24-5-3}
+
+이제 의 다른 테이블과 링크를 만들 수 있습니다 **데이터 보강** 워크플로우 활동. 새 항목 사용 **링크 정의** 작업 테이블 데이터와 Adobe Campaign 데이터베이스 간의 링크를 만드는 활동 매개 변수의 섹션입니다. 예를 들어, 이제 수신자의 계정 번호, 국가 및 이메일이 포함된 파일에서 데이터를 로드하는 경우 국가 테이블에 대한 링크를 만들어 프로필에서 이 정보를 업데이트할 수 있습니다. [자세히 보기](../workflows/activities/enrichment.md#create-links)
+
+<!--
+### Content fragments {#24-5-4}
+
+* You can now author, use, and save **visual fragments** to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process. [Learn more](../email/fragments.md)
+
+* You can now author, use, and manage **expression fragments** to quickly build personalized content. A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.-->
+
+
+### 일반 개선 사항 {#improvements-24-5}
+
+* **다이렉트 메일** - 이제 표현식 편집기를 사용하여 DM 추출 파일에 표시할 속성을 선택할 수 있습니다. [자세히 보기](../direct-mail/content-direct-mail.md)
+
+* **폴더 관리** - 이제 상위 폴더와 다른 유형의 하위 폴더를 만들 수 있습니다. [자세히 보기](../get-started/permissions.md#folders)
+
+
+<!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
+
+* **세계화** - 통합 사용자 경험을 제공하기 위한 지속적인 노력의 일환으로 Adobe Experience Cloud 제품 및 앱에서 사용되는 용어를 조화롭게 작성합니다. 이것은 객체의 이름과 관련된 경우 &quot;레이블&quot;로 변경되는 독일어 &quot;제목&quot;에 영향을 줍니다. 변경 사항은 UI 및 설명서에서 점진적으로 롤아웃됩니다.
+
 
 ## 4월 릴리스 정보 {#april-24-4-release}
 
@@ -45,11 +81,6 @@ Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대�
 
 이 기능은 **제한 공개**(LA)되어 있습니다.
 
-<!--
-* **Audit Trail**
-
-The Audit trail feature constantly records a detailed log of actions and events taking place within the Adobe Campaign instance in real-time. It offers a convenient method to access a chronological record of data, addressing queries such as: the status of workflows, the latest individuals to modify them, or the activities performed by users within the instance.
--->
 
 ### 제한 공개된 새로운 기능 {#acs-24-4}
 
@@ -91,9 +122,7 @@ The Audit trail feature constantly records a detailed log of actions and events 
 
 * **분할 활동**&#x200B;의 “모집단이 비어 있는 경우 전환을 활성화하지 않음” 옵션을 사용하면 세그먼트 결과가 비어 있는 경우 워크플로를 다음 활동으로 전환할지 여부를 선택할 수 있습니다. [자세히 보기](../workflows/activities/split.md)
 
-<!--* **Support of custom fields**
-* **Custom fields** are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web user interface, these custom fields are now visible in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. [Read more](../administration/custom-fields.md)
--->
+
 
 ## 3월 릴리스 정보 {#24-3-release}
 

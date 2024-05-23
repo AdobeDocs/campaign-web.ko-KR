@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 사용자 인터페이스의 권한 관리
 description: Campaign Web 사용자 인터페이스의 권한에 대해 자세히 알아보기
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 87afb93edd625659d3dcddefc402f8b67a38b580
+source-git-commit: b173afc12a5d8a7c57c688fe92e2c5628323fcad
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 91%
+source-wordcount: '645'
+ht-degree: 89%
 
 ---
 
@@ -81,6 +81,26 @@ Campaign Web 사용자 인터페이스를 탐색할 때 주어진 권한에 따�
 
 
 ## 폴더 작업 {#folders}
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_properties"
+>title="폴더 속성"
+>abstract="폴더 속성"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_security"
+>title="폴더 보안"
+>abstract="폴더 보안"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_restrictions"
+>title="폴더 제한 사항"
+>abstract="폴더 제한 사항"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_schedule"
+>title="폴더 일정"
+>abstract="폴더 일정"
 
 폴더를 만들고, 이름을 바꾸고, 순서를 변경하고, 이동하여 구성 요소 및 데이터를 정리할 수 있습니다. 또한 동일한 메뉴에서 폴더를 삭제할 수 있습니다.
 

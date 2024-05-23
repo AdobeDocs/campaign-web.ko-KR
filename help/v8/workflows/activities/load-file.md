@@ -3,9 +3,9 @@ audience: end-user
 title: 파일 로드 워크플로우 활동 사용
 description: 파일 로드 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 4518f7a2f280eca70f799b941c5d28bdc39c1def
+source-git-commit: ac22df907233000bada45ac2c382f1a247f7d21a
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1230'
 ht-degree: 38%
 
 ---
@@ -151,7 +151,7 @@ ht-degree: 38%
 
 1. 다음에서 **관리 거부** 섹션에서 오류 발생 시 활동이 어떻게 동작해야 하는지 지정합니다.
 
-   * 다음에서 **[!UICONTROL Dele]** 필드에서는 로드할 파일을 처리할 때 권한이 부여된 최대 오류 수를 지정합니다. 예를 들어 이 값을 &quot;20&quot;으로 설정하면 파일을 로드할 때 20개가 넘는 오류가 있는 경우 워크플로우 실행이 실패합니다.
+   * 다음에서 **[!UICONTROL 허용되는 오류 수]** 필드에서는 로드할 파일을 처리할 때 권한이 부여된 최대 오류 수를 지정합니다. 예를 들어 이 값을 &quot;20&quot;으로 설정하면 파일을 로드할 때 20개가 넘는 오류가 있는 경우 워크플로우 실행이 실패합니다.
 
    * 파일을 로드할 때 발생한 오류를 유지하려면 **[!UICONTROL 파일에 거부 유지]** 옵션을 켜고 파일에서 원하는 이름을 지정합니다. **[!UICONTROL 거부 파일]** 필드.
 

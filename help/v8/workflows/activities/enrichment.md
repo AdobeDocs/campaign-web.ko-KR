@@ -3,10 +3,10 @@ audience: end-user
 title: 보강 워크플로 활동 사용
 description: 보강 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: 490c2723f8e06f7360b21c8101c65961b0cfdfc3
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 46%
+source-wordcount: '1300'
+ht-degree: 47%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 46%
 >abstract="보강 데이터를 워크플로에 추가한 다음에는 이를 보강 활동 다음에 추가된 활동에서 사용하여 고객을 행동, 선호도 및 요구 사항에 따라 고유한 그룹으로 세분화하거나, 타깃 대상자의 마음을 움직일 수 있는 개인화된 마케팅 메시지 및 캠페인을 만들 수 있습니다."
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_reconciliation"
->title="데이터 보강 조정"
->abstract="데이터 보강 조정"
+>id="acw_orchestration_enrichment_simplejoin"
+>title="작업 테이블 데이터와 Adobe Campaign 데이터베이스 사이에 링크를 만듭니다. 예를 들어 수신자의 계정 번호, 국가 및 이메일이 포함된 파일에서 데이터를 로드하는 경우 프로필에서 이 정보를 업데이트하려면 국가 테이블에 대한 링크를 만들어야 합니다."
+>abstract="링크 정의"
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_simplejoin"
->title="링크 정의"
->abstract="단순 가입"
+>id="acw_orchestration_enrichment_reconciliation"
+>title="보강 조정"
+>abstract="보강 조정"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
@@ -75,12 +75,12 @@ ht-degree: 46%
 
    ![](../assets/workflow-enrichment1.png)
 
-## 표 사이에 링크 만들기 {#create-links}
+## 테이블 간 링크 만들기 {#create-links}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
->title="표 간 링크"
->abstract="이제 데이터 보강 워크플로우 활동에서 작업 테이블 데이터와 Adobe Campaign 데이터베이스 간의 연결을 만들 수 있습니다."
+>title="테이블 간 링크"
+>abstract="이제 보강 워크플로 활동에서 작업 테이블 데이터와 Adobe Campaign 데이터베이스 간의 링크를 만들 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko-KR" text="릴리스 정보 참조"
 
 다음 **[!UICONTROL 링크 정의]** 섹션에서는 작업 테이블 데이터와 Adobe Campaign 데이터베이스 간에 링크를 생성할 수 있습니다. 예를 들어 수신자의 계정 번호, 국가 및 이메일이 포함된 파일에서 데이터를 로드하는 경우 프로필에서 이 정보를 업데이트하려면 국가 테이블에 대한 링크를 만들어야 합니다.

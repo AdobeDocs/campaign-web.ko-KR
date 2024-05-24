@@ -6,7 +6,7 @@ feature: Audit Trail, Monitoring, Workflows
 source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
 source-wordcount: '615'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="감사 추적"
->abstract="새로운 감사 추적 기능은 Adobe Campaign 인스턴스에 실시간으로 수행된 모든 작업 및 이벤트에 대한 세부 시간 기록을 제공합니다."
+>abstract="새로운 감사 추적 기능은 Adobe Campaign 인스턴스에 발생한 모든 작업과 이벤트에 대한 자세한 시간순 기록을 실시간으로 제공합니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko-KR" text="릴리스 정보 참조"
 
 

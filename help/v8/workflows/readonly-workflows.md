@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: 읽기 전용 워크플로 기본 정보
+title: 읽기 전용 워크플로 정보
 description: 워크플로우가 읽기 전용 모드인 이유를 알아봅니다.
 source-git-commit: 6985e8cb11f12ab7818cc71441a4d3b41f1a0493
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 4%
+ht-degree: 13%
 
 ---
 
-# 읽기 전용 워크플로 기본 정보 {#readonly-workflows}
+# 읽기 전용 워크플로 정보 {#readonly-workflows}
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only_canvas"
 >title="이 워크플로는 읽기 전용입니다."
->abstract="권한 또는 워크플로 유형 때문에 이 워크플로를 편집할 수 없습니다."
+>abstract="귀하의 권리 또는 워크플로 유형으로 인해 이 워크플로를 편집할 수 없습니다."
 
 일부 워크플로우는 읽기 전용 모드일 수 있습니다. 다음에서 볼 수 있습니다.
 

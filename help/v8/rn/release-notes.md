@@ -1,11 +1,11 @@
 ---
-title: Campaign v8 웹 사용자 인터페이스 릴리스 정보
-description: 최신 Campaign Web User Interface 릴리스의 새로운 기능 살펴보기
+title: Campaign v8 Web 사용자 인터페이스 릴리스 정보
+description: 최신 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 4df01bae0d2099f38012fb082e249bc060e4ce6b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1461'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -20,21 +20,21 @@ Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대�
 
 ## 5월 릴리스 정보 {#24-5-release}
 
-**릴리스 일자**: 2024년 5월 21일 수요일
+**릴리스 일자**: 2024년 5월 21일
 
-다음 기능 및 개선 사항은 5월 릴리스부터 모든 사용자가 사용할 수 있습니다.
+다음 기능 및 개선 사항은 5월 릴리스 이후 모든 사용자가 이용할 수 있습니다.
 
 ### 감사 추적  {#24-5-1}
 
-새로운 **감사 추적** 은 실시간으로 Adobe Campaign 인스턴스에 수행된 모든 작업 및 이벤트에 대한 세부 시간 기록을 제공합니다. 편리한 방법을 사용하여 Campaign 데이터의 모든 변경 사항을 추적하고 워크플로우 상태, 수정할 최신 개인 또는 인스턴스 내에서 사용자가 수행한 활동과 같은 쿼리를 해결합니다. [자세히 보기](../reporting/audit-trail.md)
+새로운 **감사 추적** 기능은 Adobe Campaign 인스턴스에 발생한 모든 액션과 이벤트에 대한 자세한 시간순 기록을 실시간으로 제공합니다. 이는 캠페인 데이터의 모든 변경 사항을 추적하고 워크플로 상태, 최근 수정한 개인 또는 인스턴스 내에서 사용자가 수행한 활동과 같은 쿼리를 처리하는 편리한 방법을 제공합니다. [자세히 보기](../reporting/audit-trail.md)
 
 ### 사용자 정의 필드 {#24-5-2}
 
 **사용자 정의 필드**&#x200B;는 Adobe Campaign 콘솔을 통해 기본 스키마에 추가되는 추가 속성입니다. Campaign 웹 사용자 인터페이스에서 이러한 사용자 정의 필드는 이제 프로필 또는 테스트 프로필의 세부 정보와 같은 다양한 화면에 표시됩니다. 웹 사용자 인터페이스에서는 사용자 정의 필드를 만들 수 없지만 이제 사용자 정의 필드가 표시되는 방식을 수정할 수 있습니다. [자세히 보기](../administration/custom-fields.md)
 
-### 표 사이에 링크 만들기 {#24-5-3}
+### 테이블 간 링크 만들기 {#24-5-3}
 
-이제 의 다른 테이블과 링크를 만들 수 있습니다 **데이터 보강** 워크플로우 활동. 새 항목 사용 **링크 정의** 작업 테이블 데이터와 Adobe Campaign 데이터베이스 간의 링크를 만드는 활동 매개 변수의 섹션입니다. 예를 들어, 이제 수신자의 계정 번호, 국가 및 이메일이 포함된 파일에서 데이터를 로드하는 경우 국가 테이블에 대한 링크를 만들어 프로필에서 이 정보를 업데이트할 수 있습니다. [자세히 보기](../workflows/activities/enrichment.md#create-links)
+이제 **보강** 워크플로 활동에서 다른 테이블과의 링크를 생성할 수 있습니다. 활동 매개변수에서 새로운 **링크 정의** 섹션을 사용하여 작업 테이블 데이터와 Adobe Campaign 데이터베이스 간의 링크를 생성합니다. 예를 들어 수신자의 계정 번호, 국가 및 이메일이 포함된 파일에서 데이터를 로드하는 경우 이제 국가 테이블에 대한 링크를 생성하여 프로필에서 이 정보를 업데이트할 수 있습니다. [자세히 보기](../workflows/activities/enrichment.md#create-links)
 
 <!--
 ### Content fragments {#24-5-4}
@@ -46,14 +46,14 @@ Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대�
 
 ### 일반 개선 사항 {#improvements-24-5}
 
-* **다이렉트 메일** - 이제 표현식 편집기를 사용하여 DM 추출 파일에 표시할 속성을 선택할 수 있습니다. [자세히 보기](../direct-mail/content-direct-mail.md)
+* **다이렉트 메일** - 이제 표현식 편집기를 활용하여 다이렉트 메일 추출 파일에 표시할 속성을 선택할 수 있습니다. [자세히 보기](../direct-mail/content-direct-mail.md)
 
-* **폴더 관리** - 이제 상위 폴더와 다른 유형의 하위 폴더를 만들 수 있습니다. [자세히 보기](../get-started/permissions.md#folders)
+* **폴더 관리** - 이제 상위 폴더와 다른 유형의 하위 폴더를 생성할 수 있습니다. [자세히 보기](../get-started/permissions.md#folders)
 
 
 <!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
 
-* **세계화** - 통합 사용자 경험을 제공하기 위한 지속적인 노력의 일환으로 Adobe Experience Cloud 제품 및 앱에서 사용되는 용어를 조화롭게 작성합니다. 이것은 객체의 이름과 관련된 경우 &quot;레이블&quot;로 변경되는 독일어 &quot;제목&quot;에 영향을 줍니다. 변경 사항은 UI 및 설명서에서 점진적으로 롤아웃됩니다.
+* **글로벌화** - 통합된 사용자 경험을 제공하기 위한 지속적인 노력의 일환으로 Adobe Experience Cloud 제품 및 앱에서 사용되는 용어가 통합되었습니다. 이는 오브젝트의 이름과 관련될 때 “레이블”로 변경되는 독일어 용어 “Titel”에 영향을 미칩니다. 변경 사항은 UI와 설명서에 점진적으로 적용됩니다.
 
 
 ## 4월 릴리스 정보 {#april-24-4-release}
@@ -88,13 +88,13 @@ Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대�
 >
 >다음 기능은 제한 공개(LA)로 제공됩니다. **Adobe Campaign Standard에서 Adobe Campaign v8로** 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 >
->[Campaign Standard에서 Campaign v8로의 전환](../rn/acs-migration.md) 및 [Campaign Standard 사용자를 위한 기능](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html) 설명서 페이지를 참조하십시오.
+>[Campaign Standard에서 Campaign v8로의 전환](../rn/acs-migration.md) 및 [Campaign Standard 사용자를 위한 기능](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ko) 설명서 페이지를 참조하십시오.
 
 * **브랜딩** - Campaign Standard의 마이그레이션된 사용자로서 기술 관리자는 이제 브랜드의 정체성에 영향을 미치는 매개변수를 중앙 집중화하기 위해 하나 이상의 브랜드를 정의할 수 있습니다. 여기에는 브랜드 로고, 랜딩 페이지의 액세스 URL의 도메인 또는 메시지 추적 설정이 포함됩니다. 이러한 브랜드를 만들어 메시지 또는 랜딩 페이지에 연결할 수 있습니다. 이 구성은 템플릿에서 관리됩니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=ko)
 
 * **Rest API** - Campaign Standard를 마이그레이션한 사용자는 Rest API를 사용하여 Adobe Campaign을 위한 통합을 만들고 사용하는 기술 패널과 Adobe Campaign을 연결하여 고유한 에코시스템을 구축할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=ko)
 
-* **다이내믹 보고** - Campaign Standard를 마이그레이션한 사용자는 완전히 맞춤화가 가능한 실시간 보고서를 제공하는 다이내믹 보고에 액세스하여 마케팅 활동의 영향을 측정할 수 있습니다. 이 기능은 프로필 데이터에 대한 액세스를 추가하여 열기 및 클릭과 같은 기능적 이메일 캠페인 데이터 외에도 성별, 도시, 연령과 같은 프로필 차원별로 인구통계학적 분석을 지원합니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
+* **다이내믹 보고** - Campaign Standard를 마이그레이션한 사용자는 완전히 맞춤화가 가능한 실시간 보고서를 제공하는 다이내믹 보고에 액세스하여 마케팅 활동의 영향을 측정할 수 있습니다. 이 기능은 프로필 데이터에 대한 액세스를 추가하여 열기 및 클릭과 같은 기능적 이메일 캠페인 데이터 외에도 성별, 도시, 연령과 같은 프로필 차원별로 인구통계학적 분석을 지원합니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=ko)
 
 * **랜딩 페이지** - 랜딩 페이지에 대한 다음과 같은 개선 사항은 Campaign Standard에서 전환하는 사용자에게만 제공됩니다.
 

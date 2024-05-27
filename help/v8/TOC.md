@@ -6,9 +6,9 @@ title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
 source-git-commit: b3eb0a2864ab68f224a78344956e3e3eb4323403
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '695'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -100,7 +100,7 @@ ht-degree: 99%
       + [이메일 렌더링 테스트](preview-test/email-rendering.md)
 + 랜딩 페이지 {#landing-pages}
    + [랜딩 페이지 시작](landing-pages/get-started-lp.md)
-   + [랜딩 페이지 만들고 게시](landing-pages/create-lp.md)
+   + [랜딩 페이지 만들기 및 게시하기](landing-pages/create-lp.md)
    + [랜딩 페이지 콘텐츠 디자인](landing-pages/lp-content.md)
    + [랜딩 페이지 템플릿 작업](landing-pages/lp-templates.md)
    + [사용 사례를 통한 학습](landing-pages/lp-use-cases.md)
@@ -127,14 +127,14 @@ ht-degree: 99%
 + 크로스 채널 캠페인 {#campaigns}
    + [캠페인 시작하기](campaigns/gs-campaigns.md)
    + [캠페인 액세스 및 관리](campaigns/manage-campaigns.md)
-   + [첫 캠페인 만들어 보기](campaigns/create-campaigns.md)
+   + [첫 캠페인 만들기](campaigns/create-campaigns.md)
 + 워크플로 {#wf}
    + [워크플로 시작](workflows/gs-workflows.md)
    + [보호 기능 및 제한 사항](get-started/guardrails.md)
    + [워크플로 이벤트 변수](workflows/event-variables.md)
    + [워크플로 액세스 및 관리](workflows/access-monitor.md)
-   + [읽기 전용 워크플로 기본 정보](workflows/readonly-workflows.md)
-   + 첫 워크플로 만들고 실행하기 {#create-workflow}
+   + [읽기 전용 워크플로 정보](workflows/readonly-workflows.md)
+   + 첫 워크플로 만들기 및 실행하기 {#create-workflow}
       + [워크플로를 만드는 핵심 원칙](workflows/gs-workflow-creation.md)
       + [워크플로 만들기](workflows/create-workflow.md)
       + [활동 조율](workflows/orchestrate-activities.md)

@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: b3eb0a2864ab68f224a78344956e3e3eb4323403
-workflow-type: ht
-source-wordcount: '695'
-ht-degree: 100%
+source-git-commit: a42594d3c1e248e835608c99c168655e9f34890c
+workflow-type: tm+mt
+source-wordcount: '701'
+ht-degree: 99%
 
 ---
 
@@ -64,6 +64,7 @@ ht-degree: 100%
          + [이메일 준비 및 전송](monitor/prepare-send.md)
          + [예약된 일괄 처리를 사용해 보내기](advanced-settings/send-using-waves.md)
          + [게재 로그 모니터링](monitor/delivery-logs.md)
+         + [게재 전송 예약](monitor/schedule-sending.md)
    + 푸시 알림 {#push}
       + [푸시 알림 시작하기](push/gs-push.md)
       + [푸시 알림 게재 만들기](push/create-push.md)

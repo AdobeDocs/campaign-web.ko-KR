@@ -3,10 +3,10 @@ audience: end-user
 title: DM 게재 만들기
 description: Adobe Campaign 웹을 사용하여 DM 게재를 만드는 방법을 알아봅니다
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 21%
+source-wordcount: '460'
+ht-degree: 19%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 21%
 
 1. **[!UICONTROL 게재 만들기]** 버튼을 클릭하여 확인합니다.
 
-   ![](assets/dm-create.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-create.png){zoomable="yes"}
 
 1. 입력 **[!UICONTROL 레이블]** 게재 및 액세스 **[!UICONTROL 추가 옵션]** 드롭다운. 게재가 확장된 스키마를 기반으로 하는 경우 **사용자 지정 옵션** 필드를 사용할 수 있습니다.
 
-   ![](assets/dm-properties.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-properties.png){zoomable="yes"}
 
    +++요구 사항에 따라 다음 설정을 구성합니다.
    * **[!UICONTROL 내부 이름]**: 게재에 고유 식별자를 할당합니다.
@@ -41,7 +41,7 @@ ht-degree: 21%
    * [기존 대상자를 선택하는 방법 알아보기](../audience/add-audience.md)
    * [새 대상자를 만드는 방법 알아보기](../audience/one-time-audience.md)
 
-   ![](assets/dm-audience.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-audience.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -51,9 +51,9 @@ ht-degree: 21%
 
 1. 클릭 **[!UICONTROL 콘텐츠 편집]** 추출 파일로 내보낼 정보(열)를 정의합니다. [자세히 알아보기](content-direct-mail.md)
 
-   ![](assets/dm-content.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-content.png){zoomable="yes"}
 
-1. 특정 일자 및 시간에 게재를 예약하려면 **[!UICONTROL 예약 활성화]** 옵션을 켭니다. 게재를 시작하면 정의한 정확한 날짜 및 시간에 추출 파일이 자동으로 생성됩니다. [게재 예약 방법 알아보기](../msg/gs-messages.md#gs-schedule).
+1. 특정 일자 및 시간에 게재를 예약하려면 **[!UICONTROL 예약 활성화]** 옵션을 켭니다. 게재를 시작하면 정의한 정확한 날짜 및 시간에 추출 파일이 자동으로 생성됩니다. [게재 예약 방법 알아보기](../msg/gs-deliveries.md#gs-schedule).
 
    >[!NOTE]
    >
@@ -61,6 +61,6 @@ ht-degree: 21%
 
 1. 클릭 **[!UICONTROL 설정]** 게재 템플릿과 관련된 고급 옵션에 액세스 [자세히 알아보기](../advanced-settings/delivery-settings.md)
 
-   ![](assets/dm-settings.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-settings.png){zoomable="yes"}
 
 1. DM 게재가 준비되면 **[!UICONTROL 검토 및 보내기]** 버튼을 클릭하여 게재의 유효성을 검사하고 전송하며 추출 파일을 생성합니다. [DM 게재를 미리 보고 보내는 방법 알아보기](send-direct-mail.md)

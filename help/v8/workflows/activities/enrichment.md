@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: 490c2723f8e06f7360b21c8101c65961b0cfdfc3
 workflow-type: tm+mt
 source-wordcount: '1300'
-ht-degree: 47%
+ht-degree: 54%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 47%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
->title="작업 테이블 데이터와 Adobe Campaign 데이터베이스 사이에 링크를 만듭니다. 예를 들어 수신자의 계정 번호, 국가 및 이메일이 포함된 파일에서 데이터를 로드하는 경우 프로필에서 이 정보를 업데이트하려면 국가 테이블에 대한 링크를 만들어야 합니다."
+>title="작업 테이블 데이터와 Adobe Campaign 데이터베이스 간의 링크를 만듭니다. 예를 들어 수신자의 계정 번호, 국가 및 이메일이 포함된 파일에서 데이터를 로드하는 경우 이제 국가 테이블에 대한 링크를 생성하여 프로필에서 이 정보를 업데이트해야 합니다."
 >abstract="링크 정의"
 
 >[!CONTEXTUALHELP]
@@ -83,7 +83,7 @@ ht-degree: 47%
 >abstract="이제 보강 워크플로 활동에서 작업 테이블 데이터와 Adobe Campaign 데이터베이스 간의 링크를 만들 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko-KR" text="릴리스 정보 참조"
 
-다음 **[!UICONTROL 링크 정의]** 섹션에서는 작업 테이블 데이터와 Adobe Campaign 데이터베이스 간에 링크를 생성할 수 있습니다. 예를 들어 수신자의 계정 번호, 국가 및 이메일이 포함된 파일에서 데이터를 로드하는 경우 프로필에서 이 정보를 업데이트하려면 국가 테이블에 대한 링크를 만들어야 합니다.
+다음 **[!UICONTROL 링크 정의]** 섹션에서는 작업 테이블 데이터와 Adobe Campaign 데이터베이스 간에 링크를 생성할 수 있습니다. 예를 들어 수신자의 계정 번호, 국가 및 이메일이 포함된 파일에서 데이터를 로드하는 경우 이제 국가 테이블에 대한 링크를 생성하여 프로필에서 이 정보를 업데이트해야 합니다.
 
 사용 가능한 링크에는 몇 가지 유형이 있습니다.
 

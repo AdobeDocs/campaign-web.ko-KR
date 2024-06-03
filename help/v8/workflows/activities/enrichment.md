@@ -3,7 +3,7 @@ audience: end-user
 title: 보강 워크플로 활동 사용
 description: 보강 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 490c2723f8e06f7360b21c8101c65961b0cfdfc3
+source-git-commit: 26c51246755ee409b586fcfe2ced61fd0ed536a0
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 54%
@@ -24,8 +24,8 @@ ht-degree: 54%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
->title="작업 테이블 데이터와 Adobe Campaign 데이터베이스 간의 링크를 만듭니다. 예를 들어 수신자의 계정 번호, 국가 및 이메일이 포함된 파일에서 데이터를 로드하는 경우 이제 국가 테이블에 대한 링크를 생성하여 프로필에서 이 정보를 업데이트해야 합니다."
->abstract="링크 정의"
+>title="링크 정의"
+>abstract="작업 테이블 데이터와 Adobe Campaign 데이터베이스 간의 링크를 만듭니다. 예를 들어 수신자의 계정 번호, 국가 및 이메일이 포함된 파일에서 데이터를 로드하는 경우 이제 국가 테이블에 대한 링크를 생성하여 프로필에서 이 정보를 업데이트해야 합니다.
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_reconciliation"

@@ -3,9 +3,9 @@ audience: end-user
 title: 구독 서비스 활동 사용
 description: 구독 서비스 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 9cd2d3c7ac4c0ff3c9939cd43606400011fce739
+source-git-commit: e2579a65130ba580054cd23b1b525a46de2e752a
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '598'
 ht-degree: 17%
 
 ---
@@ -26,6 +26,11 @@ ht-degree: 17%
 >id="acw_orchestration_subscription_outboundtransition"
 >title="아웃바운드 전환 생성"
 >abstract="**아웃바운드 전환 생성** 옵션을 토글하여 활동 뒤에 전환을 추가합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_subscription_additionalinfo"
+>title="추가 정보"
+>abstract="추가 정보"
 
 다음 **구독 서비스** 활동은 입니다. **데이터 관리** 활동. 전환에 지정된 모집단에 대한 정보 서비스 구독을 만들거나 삭제할 수 있습니다.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 7b04c6a9b425054690209bc3d3d8d0c29e038e31
+source-git-commit: fefa85dd3d0445772759bf53c7b6f8f9b9881a87
 workflow-type: tm+mt
-source-wordcount: '1650'
-ht-degree: 100%
+source-wordcount: '1673'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ Campaign 홈페이지를 사용하면 주요 리소스, 지표, 구성 요소를
 
 홈페이지의 상단 섹션에서 릴리스 정보와 세부 설명서로 가는 링크가 있습니다. 또 제품에서 사용할 수 있는 최신 업데이트 및 새로운 기능의 자세한 내용을 볼 수 있습니다. 왼쪽 화살표를 사용하여 기능 카드를 스크롤할 수 있습니다.
 
-![](assets/home.png){zoomable=&quot;yes&quot;}
+![](assets/home.png){zoomable="yes"}
 
 **주요 성과 지표**&#x200B;를 사용하면 공통 KPI를 통해 플랫폼 효율성을 확인할 수 있습니다. 이러한 KPI에 대한 자세한 내용은 [이 페이지](../reporting/kpis.md)를 참조하십시오.
 
@@ -70,7 +70,7 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 
   **추가 작업**&#x200B;을 사용하여 게재를 삭제하거나 복제할 수 있습니다.
 
-  ![](assets/more-actions.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+  ![](assets/more-actions.png){zoomable="yes"}{width="70%" align="left"}
 
 * **워크플로** - 이 화면에서 워크플로 전체 목록 및 워크플로 템플릿에 액세스할 수 있습니다. 상태, 마지막/다음 실행 일자를 확인하고 새 워크플로 또는 새 워크플로 템플릿을 만들 수 있습니다. 다른 오브젝트와 동일한 기준으로 목록을 필터링할 수 있습니다. 또한 캠페인에 속한 워크플로 또는 속하지 않은 워크플로를 필터링할 수 있습니다. [이 섹션에서](../workflows/gs-workflows.md) 워크플로에 대해 자세히 알아보십시오.
 
@@ -357,6 +357,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_subscriptions_defaultlp"
 >title="기본 랜딩 페이지"
 >abstract="이 구독 서비스와 연결된 기본 랜딩 페이지를 선택하십시오."
+
+>[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
 >title="게재 경고 기준 매개변수"
 >abstract="게재 경고"
@@ -375,6 +377,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_alerting_dashboard_create"
 >title="게재 경고 대시보드 만들기"
 >abstract="게재 경고 대시보드 만들기"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_filter"
+>title="경고 기준 만들기"
+>abstract="고유한 게재 필터를 만들려면 Campaign v8 콘솔에서 사전 정의된 새 필터를 만듭니다. **관리** > **구성** > **사전 정의된 필터** 노드."
 
 <!-- IDs -->
 

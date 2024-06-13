@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: a42594d3c1e248e835608c99c168655e9f34890c
+source-git-commit: 0e7990ac491d8c96d328a4fa414af1c8c8ac2f9f
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '704'
 ht-degree: 99%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 99%
 + [Adobe Campaign Web 사용자 인터페이스 설명서](campaign-web-home.md)
 + 릴리스 정보 {#release-notes}
    + [새로운 기능](rn/whats-new.md)
+   + [초기 릴리스 정보](rn/e-release-notes.md)
    + [최신 릴리스](rn/release-notes.md)
    + [설명서 업데이트](rn/documentation-updates.md)
 + Adobe Campaign 시작하기 {#start}

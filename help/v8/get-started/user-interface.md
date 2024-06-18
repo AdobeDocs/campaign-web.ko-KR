@@ -3,10 +3,10 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 178d17b81db4ee3f3a445812ac1af6e5f9adbc57
+source-git-commit: 5c9a428eb5fabdb25f4b1f1474884e62f33fb720
 workflow-type: tm+mt
-source-wordcount: '1660'
-ht-degree: 98%
+source-wordcount: '1555'
+ht-degree: 100%
 
 ---
 
@@ -310,73 +310,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_settings_execution_initscript"
 >title="실행 초기화 스크립트"
 >abstract="실행 초기화 스크립트"
-
-<!-- Delivery alerting -->
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria"
->title="게재 경고 기준 대시보드"
->abstract="게재 경고 기준 대시보드"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboards"
->title="게재 경고 대시보드"
->abstract="게재 경고 대시보드"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create"
->title="게재 경고 기준 만들기"
->abstract="게재 경고 기준 만들기"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_indicators"
->title="경고에 추가할 표시기"
->abstract="경고에 추가할 표시기"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_alert"
->title="경고 유형"
->abstract="경고 유형"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_frequency"
->title="기준 빈도"
->abstract="기준 빈도"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_criteria_add"
->title="게재 경고 기준"
->abstract="게재 경고 기준"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_general"
->title="게재 경고 일반 매개변수"
->abstract="게재 경고"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_criteria_parameters"
->title="게재 경고 기준 매개변수"
->abstract="게재 경고"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_alerts"
->title="게재 경고 전송됨"
->abstract="게재 경고 전송됨"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_history"
->title="게재 경고 기록"
->abstract="게재 경고 기록"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_create"
->title="게재 경고 대시보드 만들기"
->abstract="게재 경고 대시보드 만들기"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_filter"
->title="경고 기준 만들기"
->abstract="고유한 게재 필터를 만들려면 Campaign v8 콘솔에서 사전 정의된 새 필터를 만듭니다. **관리** > **구성** > **사전 정의된 필터** 노드."
 
 <!-- IDs -->
 

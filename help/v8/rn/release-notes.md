@@ -2,10 +2,10 @@
 title: Campaign v8 Web 사용자 인터페이스 릴리스 정보
 description: 최신 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 4df01bae0d2099f38012fb082e249bc060e4ce6b
-workflow-type: ht
-source-wordcount: '1461'
-ht-degree: 100%
+source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
+workflow-type: tm+mt
+source-wordcount: '1623'
+ht-degree: 90%
 
 ---
 
@@ -17,6 +17,32 @@ ht-degree: 100%
 >abstract="Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 연속 게재 모델에서 작동합니다. 따라서 Campaign 릴리스 정보는 최신 기능, 개선 사항 및 수정 사항을 포함하여 한 달에 여러 번 업데이트됩니다. 정기적으로 확인하는 것이 좋습니다."
 
 Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 연속 게재 모델에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
+
+## 6월 릴리스 정보 {#24-6-release}
+
+**릴리스 날짜**: 2024년 6월 18~19일
+
+다음 기능 및 개선 사항은 6월 릴리스부터 모든 사용자가 사용할 수 있습니다.
+<!--
+### Visual fragments {#24-6-1}
+
+You can now author, use, and manage **visual** fragments to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process.
+
+### Seed lists {#24-6-2}
+
+A seed list, aka. **Trap group**, is a list of seed addresses. It is used to include specific addresses in your deliveries, and then target profiles who do not match the defined target criteria. This way, recipients who are out of the delivery audience can receive the delivery, as any other target recipient would. You can use seed addresses when sending proofs, or to protect your mailing list.-->
+
+### 게재 경고 {#24-6-3}
+
+게재 경고 기능은 사용자 그룹이 게재 실행에 대한 정보가 포함된 알림을 자동으로 수신할 수 있는 경고 관리 시스템입니다. [자세히 보기](../msg/delivery-alerting.md)
+
+### 계획 및 프로그램 {#24-6-4}
+
+이제 플랜과 프로그램을 만들어 캠페인을 구성할 수 있습니다. 폴더 계층 구조를 정의하여 캠페인을 프로그램으로 구성하고 프로그램을 계획으로 구성할 수 있습니다. [자세히 보기](../msg/delivery-alerting.md)
+
+### 개선 사항 {#improvements-24-6}
+
+* **데이터 보강 활동의 조정**: 이제 데이터 보강 활동을 사용하여 Campaign 데이터베이스 스키마의 데이터를 다른 스키마의 데이터와 조정하거나 파일 로드 활동을 사용하여 업로드한 데이터와 같은 임시 스키마에서 가져온 데이터를 조정할 수 있습니다. 예를 들어 이 옵션을 사용하여 업로드된 파일에 지정된 프로필의 국가를 Campaign 데이터베이스의 전용 테이블에서 사용할 수 있는 국가 중 하나와 조정할 수 있습니다. [자세히 보기](../workflows/activities/enrichment.md)
 
 ## 5월 릴리스 정보 {#24-5-release}
 

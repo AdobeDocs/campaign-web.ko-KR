@@ -3,10 +3,10 @@ audience: end-user
 title: 보강 워크플로 활동 사용
 description: 보강 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 3d39027faa1253ddeb2a0273eca3aa980a0a36f2
+source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 54%
+source-wordcount: '1664'
+ht-degree: 42%
 
 ---
 
@@ -111,6 +111,36 @@ ht-degree: 54%
 
 링크를 사용하는 워크플로 예제는 [예](#link-example) 섹션.
 
+## 데이터 조정 {#reconciliation}
+
+다음 **데이터 보강** 활동은 Campaign 데이터베이스 스키마의 데이터를 다른 스키마의 데이터와 조정하거나 파일 로드 활동을 사용하여 업로드한 데이터와 같은 임시 스키마에서 가져온 데이터로 조정하는 데 사용할 수 있습니다. 이 유형의 링크는 고유 레코드에 대한 조정을 정의합니다. Adobe Campaign은 고유 레코드에 대한 참조를 저장하기 위해 대상 테이블에 외래 키를 추가하여 대상 테이블에 대한 링크를 만듭니다.
+
+예를 들어 이 옵션을 사용하여 업로드된 파일에 지정된 프로필의 국가를 Campaign 데이터베이스의 전용 테이블에서 사용할 수 있는 국가 중 하나와 조정할 수 있습니다.
+
+다음 단계에 따라 을(를) 구성합니다 **데이터 보강** 조정 링크가 있는 활동:
+
+1. 다음을 클릭합니다. **링크 추가** 의 단추 **조정** 섹션.
+1. 조정 링크를 만들 데이터를 식별합니다.
+
+   * Campaign 데이터베이스의 데이터를 사용하여 조정 링크를 만들려면 다음을 선택합니다. **데이터베이스 스키마** 타겟이 저장되는 스키마를 선택합니다.
+   * 입력 전환에서 가져온 데이터로 조정 링크를 만들려면 다음을 선택합니다. **임시 스키마** 대상 데이터가 저장되는 워크플로우 전환을 선택합니다.
+
+1. 다음 **레이블** 및 **이름** 필드는 선택한 대상 스키마를 기반으로 자동으로 채워집니다. 필요한 경우 해당 값을 변경할 수 있습니다.
+
+1. 다음에서 **조정 기준** 섹션에서 소스 및 대상 테이블의 데이터를 조정하는 방법을 지정합니다.
+
+   * **단순 조인**: 소스 테이블의 특정 필드를 대상 테이블의 다른 필드와 조정합니다. 이렇게 하려면 **조인 추가** 단추 및 지정 **소스** 및 **대상** 조정에 사용할 필드입니다.
+
+     >[!NOTE]
+     >
+     >하나 이상을 사용할 수 있습니다. **단순 조인** 기준. 이 경우 데이터를 함께 연결할 수 있도록 모두 확인해야 합니다.
+
+   * **고급 조인**: 쿼리 모델러를 사용하여 조정 기준을 구성합니다. 이렇게 하려면 **조건 만들기** 버튼을 클릭한 다음 AND 및 OR 작업을 사용하여 고유한 규칙을 작성하여 조정 기준을 정의합니다.
+
+아래 예제는 Adobe Campaign 데이터베이스 수신자 테이블과 **파일 로드** 활동. 이 예에서 데이터 보강 활동은 전자 메일 주소를 조정 기준으로 사용하여 두 테이블을 조정합니다.
+
+![](../assets/enrichment-reconciliation.png)
+
 ## 예제 {#example}
 
 ### 단일 보강 속성 {#single-attribute}
@@ -177,48 +207,17 @@ ht-degree: 54%
 
 ![](../assets/workflow-enrichment7.png)
 
-
 ### 연결된 데이터를 사용한 데이터 보강 {#link-example}
 
-아래 예제는 두 전환 사이에 링크를 만들도록 구성된 워크플로우를 보여 줍니다. 첫 번째 전환은 쿼리 활동을 사용하여 프로필 데이터를 타겟팅하는 반면, 두 번째 전환은 파일 로드 활동을 통해 로드된 파일에 저장된 구매 데이터를 포함합니다.
+아래 예제는 두 전환 사이에 링크를 만들도록 구성된 워크플로우를 보여 줍니다. 첫 번째 전환은 다음을 사용하여 프로필 데이터를 타겟팅합니다 **쿼리** 반면에 두 번째 전환에는 파일 로드 활동을 통해 로드된 파일에 저장된 구매 데이터가 포함됩니다.
+
+![](../assets/enrichment-uc-link.png)
 
 * 첫 번째 **데이터 보강** 활동은 기본 세트(의 데이터)를 연결합니다. **쿼리** 작업)을 참조하십시오. **파일 로드** 활동. 이를 통해 쿼리가 타겟팅한 각 프로필을 해당 구매 데이터와 일치시킬 수 있습니다.
+
+  ![](../assets/enrichment-uc-link-purchases.png)
+
 * 1초 **데이터 보강** 워크플로우 테이블의 데이터를 다음에서 가져오는 구매 데이터로 보강하기 위해 활동이 추가됩니다. **파일 로드** 활동. 이를 통해 이러한 데이터를 추가 활동에서 사용할 수 있습니다. 예를 들어, 구매 정보를 통해 고객에게 전송된 메시지를 개인화할 수 있습니다.
 
-  ![](../assets/workflow-enrichment-example.png)
+  ![](../assets/enrichment-uc-link-data.png)
 
-
-
-
-
-<!--
-
-Add other fields
-use it in delivery
-
-
-cardinality between the tables (1-N)
-1. select attribute to use as enrichment data
-
-    display advanced fields option
-    i button
-
-    note: attributes from the target dimension
-
-1. Select how the data is collected
-1. number of records to retrieve if want to retrieve a collection of multiple records
-1. Apply filters and build rule
-
-    select an existing filter
-    save the filter for reuse
-    view results of the filter visually or in code view
-
-1. sort records using an attribute
-
-leverage enrichment data in campaign
-
-where we can use the enrichment data: personalize email, other use cases?
-
-## Example
-
--->

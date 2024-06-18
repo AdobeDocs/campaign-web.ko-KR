@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: 0e7990ac491d8c96d328a4fa414af1c8c8ac2f9f
+source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 99%
+source-wordcount: '725'
+ht-degree: 97%
 
 ---
 
@@ -100,6 +100,10 @@ ht-degree: 99%
       + [메시지 콘텐츠 미리보기](preview-test/preview-content.md)
       + [증명 보내기](preview-test/test-deliveries.md)
       + [이메일 렌더링 테스트](preview-test/email-rendering.md)
+   + 게재 경고 {#delivery-alerting}
+      + [게재 경고 시작](msg/delivery-alerting.md)
+      + [게재 경고 대시보드](msg/delivery-alerting-dashboards.md)
+      + [게재 경고 기준](msg/delivery-alerting-criteria.md)
 + 랜딩 페이지 {#landing-pages}
    + [랜딩 페이지 시작](landing-pages/get-started-lp.md)
    + [랜딩 페이지 만들기 및 게시하기](landing-pages/create-lp.md)
@@ -130,6 +134,7 @@ ht-degree: 99%
    + [캠페인 시작하기](campaigns/gs-campaigns.md)
    + [캠페인 액세스 및 관리](campaigns/manage-campaigns.md)
    + [첫 캠페인 만들기](campaigns/create-campaigns.md)
+   + [계획 및 프로그램](administration/plans-programs.md)
 + 워크플로 {#wf}
    + [워크플로 시작](workflows/gs-workflows.md)
    + [보호 기능 및 제한 사항](get-started/guardrails.md)
@@ -202,4 +207,5 @@ ht-degree: 99%
    + [Adobe Experience Manager as a Cloud Service로 템플릿 관리](integrations/aem-content.md)
 + 구성 {#conf}
    + [사용자 정의 필드 구성](administration/custom-fields.md)
+   + [폴더 만들기 및 관리](administration/create-manage-folder.md)
 + [Campaign v8 (콘솔) 설명서 >](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/campaign-home)

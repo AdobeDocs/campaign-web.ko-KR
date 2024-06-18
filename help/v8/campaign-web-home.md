@@ -3,10 +3,10 @@ keywords: Campaign Web;홈;인기 있는 주제
 description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 35d803b7e409c38b9b29150aa4d8c1849f994c2c
-workflow-type: ht
-source-wordcount: '485'
-ht-degree: 100%
+source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
+workflow-type: tm+mt
+source-wordcount: '447'
+ht-degree: 89%
 
 ---
 
@@ -51,29 +51,24 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 
 >[!BEGINTABS]
 
->[!TAB 5월 릴리스가 공개되었습니다!]
+>[!TAB 6월 릴리스 예정일]
 
-Adobe Campaign Web 사용자 인터페이스 24.4 릴리스에 포함된 새로운 기능과 개선 사항을 살펴보십시오.
+Adobe Campaign Web 사용자 인터페이스 24.6 릴리스에 포함된 새로운 기능과 개선 사항을 살펴보십시오.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB 감사 추적]
+>[!TAB 게재 경고]
 
-새로운 감사 추적 기능은 Adobe Campaign 인스턴스에 발생한 모든 액션과 이벤트에 대한 자세한 시간순 기록을 실시간으로 제공합니다.
+게재 경고는 사용자 그룹이 게재 실행에 대한 정보가 포함된 이메일 알림을 자동으로 수신할 수 있는 경고 관리 시스템입니다.
 
-[![이미지](assets/do-not-localize/learn-more-button.svg)](reporting/audit-trail.md)
+[![이미지](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
 
->[!TAB 사용자 정의 필드]
+>[!TAB 플랜 및 프로그램]
 
-사용자 정의 필드는 Adobe Campaign 콘솔을 통해 기본 스키마에 추가되는 추가 속성입니다. 이제 웹 사용자 인터페이스에서 사용할 수 있습니다.
+Adobe Campaign을 사용하면 마케팅 계획 및 프로그램에 대한 폴더 계층 구조를 구성할 수 있습니다.
 
-[![이미지](assets/do-not-localize/learn-more-button.svg)](administration/custom-fields.md)
+[![이미지](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
 
->[!TAB 테이블 링크]
-
-이제 보강 워크플로 활동에서 작업 테이블 데이터와 Adobe Campaign 데이터베이스 간의 링크를 만들 수 있습니다.
-
-[![이미지](assets/do-not-localize/learn-more-button.svg)](workflows/activities/enrichment.md#create-links)
 
 >[!ENDTABS]
 

@@ -2,7 +2,7 @@
 title: Campaign v8 Web 사용자 인터페이스 릴리스 정보
 description: 최신 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
+source-git-commit: 385c931c9fae7386c2a2f1ef471a9cd7c4a47696
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 90%
@@ -38,7 +38,7 @@ A seed list, aka. **Trap group**, is a list of seed addresses. It is used to inc
 
 ### 계획 및 프로그램 {#24-6-4}
 
-이제 플랜과 프로그램을 만들어 캠페인을 구성할 수 있습니다. 폴더 계층 구조를 정의하여 캠페인을 프로그램으로 구성하고 프로그램을 계획으로 구성할 수 있습니다. [자세히 보기](../msg/delivery-alerting.md)
+이제 플랜과 프로그램을 만들어 캠페인을 구성할 수 있습니다. 폴더 계층 구조를 정의하여 캠페인을 프로그램으로 구성하고 프로그램을 계획으로 구성할 수 있습니다. [자세히 보기](../administration/plans-programs.md)
 
 ### 개선 사항 {#improvements-24-6}
 

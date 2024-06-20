@@ -3,7 +3,8 @@ product: campaign
 title: 감사 추적
 description: Campaign 감사 추적을 사용하여 인스턴스를 모니터링하는 방법 알아보기
 feature: Audit Trail, Monitoring, Workflows
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 6%
@@ -13,9 +14,9 @@ ht-degree: 6%
 # 감사 추적{#audit-trail}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
+>id="acw_homepage_welcome_rn5"
 >title="감사 추적"
->abstract="새로운 감사 추적 기능은 Adobe Campaign 인스턴스에 발생한 모든 작업과 이벤트에 대한 자세한 시간순 기록을 실시간으로 제공합니다."
+>abstract="새로운 감사 추적 기능은 Adobe Campaign 인스턴스에 발생한 모든 액션과 이벤트에 대한 자세한 시간순 기록을 실시간으로 제공합니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko-KR" text="릴리스 정보 참조"
 
 
@@ -100,4 +101,3 @@ Adobe Campaign 웹 사용자 인터페이스에서 **[!UICONTROL 감사 추적]*
    코드 블록은 엔티티에서 정확히 변경된 사항에 대한 자세한 정보를 제공합니다.
 
    ![](assets/audit-trail-2.png)
-

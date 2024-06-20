@@ -3,10 +3,10 @@ audience: end-user
 title: 보강 워크플로 활동 사용
 description: 보강 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 42%
+source-wordcount: '1681'
+ht-degree: 40%
 
 ---
 
@@ -77,12 +77,6 @@ ht-degree: 42%
 
 ## 테이블 간 링크 만들기 {#create-links}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="테이블 간 링크"
->abstract="이제 보강 워크플로 활동에서 작업 테이블 데이터와 Adobe Campaign 데이터베이스 간의 링크를 만들 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko-KR" text="릴리스 정보 참조"
-
 다음 **[!UICONTROL 링크 정의]** 섹션에서는 작업 테이블 데이터와 Adobe Campaign 데이터베이스 간에 링크를 생성할 수 있습니다. 예를 들어 수신자의 계정 번호, 국가 및 이메일이 포함된 파일에서 데이터를 로드하는 경우 이제 국가 테이블에 대한 링크를 생성하여 프로필에서 이 정보를 업데이트해야 합니다.
 
 사용 가능한 링크에는 몇 가지 유형이 있습니다.
@@ -112,6 +106,14 @@ ht-degree: 42%
 링크를 사용하는 워크플로 예제는 [예](#link-example) 섹션.
 
 ## 데이터 조정 {#reconciliation}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="데이터 조정"
+>abstract="이제 워크플로우 보강 활동을 사용하여 Campaign 데이터베이스 스키마의 데이터를 다른 스키마의 데이터와 조정하거나 파일 로드 활동을 사용하여 업로드한 데이터와 같은 임시 스키마에서 가져온 데이터를 조정할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko-KR" text="릴리스 정보 참조"
+
 
 다음 **데이터 보강** 활동은 Campaign 데이터베이스 스키마의 데이터를 다른 스키마의 데이터와 조정하거나 파일 로드 활동을 사용하여 업로드한 데이터와 같은 임시 스키마에서 가져온 데이터로 조정하는 데 사용할 수 있습니다. 이 유형의 링크는 고유 레코드에 대한 조정을 정의합니다. Adobe Campaign은 고유 레코드에 대한 참조를 저장하기 위해 대상 테이블에 외래 키를 추가하여 대상 테이블에 대한 링크를 만듭니다.
 

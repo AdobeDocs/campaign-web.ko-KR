@@ -2,14 +2,21 @@
 audience: end-user
 title: 계획 및 프로그램
 description: Adobe Campaign에서 계획 및 프로그램을 만들고 구성하는 방법에 대해 알아봅니다
-source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
+exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
-# 계획 및 프로그램
+# 계획 및 프로그램 {#plan-and-programs}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="계획 및 프로그램"
+>abstract="이제 Campaign 웹 사용자 인터페이스에서 마케팅 계획 및 프로그램에 대한 폴더 계층 구조를 구성할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko-KR" text="릴리스 정보 참조"
 
 Adobe Campaign을 사용하면 마케팅 계획 및 프로그램에 대한 폴더 계층 구조를 구성할 수 있습니다.
 

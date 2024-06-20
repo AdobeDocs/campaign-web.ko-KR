@@ -3,22 +3,15 @@ audience: end-user
 title: 리치 푸시 알림 게재 디자인
 description: Adobe Campaign 웹을 사용하여 Android 리치 푸시 알림 게재를 디자인하는 방법을 알아봅니다
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 7%
+source-wordcount: '1420'
+ht-degree: 5%
 
 ---
 
 # Android 리치 푸시 게재 디자인 {#rich-push}
 
-
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="풍부한 푸시 게재"
->abstract="이제 Android를 통해 리치 푸시 알림을 보낼 수 있습니다. 현재 이 기능은 제한적으로 공개됩니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko-KR" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"

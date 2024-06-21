@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
+source-git-commit: 76c1f708991934e4ef525559359fe732b0fa486a
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '726'
 ht-degree: 97%
 
 ---
@@ -113,6 +113,7 @@ ht-degree: 97%
 + 프로필 및 대상자 {#audiences}
    + [프로필 및 대상자 시작](audience/gs-audiences-recipients.md)
    + [타겟팅 차원](audience/targeting-dimensions.md)
+   + [격리](audience/quarantine.md)
    + 프로필 작업 {#work-with-profiles}
       + [프로필 시작](audience/about-recipients.md)
       + [프로필 세부 정보 살펴보기](audience/profile-view.md)

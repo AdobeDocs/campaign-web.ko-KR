@@ -2,10 +2,11 @@
 audience: end-user
 title: 게재 경고
 description: 게재 경고 작업 방법을 알아봅니다.
-source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
+exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
+source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
 workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -38,7 +39,7 @@ Campaign 웹 사용자 인터페이스에서 사전 정의된 경고 기준을 �
 >
 >위의 기준에 대한 모든 매개 변수에 기본값이 적용됩니다. 이러한 값은 다음에서 사용자 지정할 수 있습니다 **기준 매개 변수** 게재 경고 대시보드의 섹션. 여기서 사용 중입니다. [대시보드 작업 방법 알아보기](../msg/delivery-alerting-dashboards.md)
 
-## 경고 기준 만들기 {#criteria}
+## 알림 기준 만들기 {#criteria}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create"
@@ -62,8 +63,8 @@ Campaign 웹 사용자 인터페이스에서 사전 정의된 경고 기준을 �
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_filter"
->title="경고 기준 만들기"
->abstract="고유한 게재 필터를 만들려면 Campaign v8 콘솔에서 사전 정의된 새 필터를 만듭니다. **관리** > **구성** > **사전 정의된 필터** 노드."
+>title="알림 기준 만들기"
+>abstract="자체 게재 필터를 생성하려면 Campaign v8 콘솔의 **관리** > **구성** > **미리 정의된 필터** 노드에서 생성합니다."
 
 새 기준을 만들려면 다음 단계를 수행하십시오.
 

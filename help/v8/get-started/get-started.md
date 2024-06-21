@@ -5,7 +5,7 @@ description: Adobe Campaign Web 시작
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: a678175e34a633d5de258e64899ba4b10b6b674f
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '578'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ Campaign을 사용하여 다음을 수행할 수 있습니다.
 
 초기에는 리치 [클라이언트 콘솔](#ac-client)을 통해서만 사용할 수 있었던 Campaign은 이제 개선된 사용 가능성, 접근성 및 새로운 디자인을 갖춘 새로운 웹 사용자 인터페이스(UI)를 제공하여 사용자 경험을 크게 향상시킵니다. 이 새로운 최신 UI에서는 Adobe Experience Platform을 비롯한 다른 Adobe 솔루션과 함께 마케팅 캠페인 디자인 및 게재를 간소화하고 일관성을 제공합니다.
 
-![](assets/home.png){zoomable=&quot;yes&quot;}
+![](assets/home.png){zoomable="yes"}
 
 이 새로운 웹 사용자 인터페이스는 먼저 **비즈니스 전문가**&#x200B;의 요구 사항을 충족합니다. 이 첫 번째 버전에서는 일부 일반 관리 작업을 사용할 수 없지만 후속 버전에서 이러한 문제가 해결될 것입니다. 현재 클라이언트 콘솔에서 사용할 수 있는 단일 기능 또는 옵션 중 일부는 새 UI에서는 사용할 수 없습니다. 새 사용 사례, 옵션 및 기능은 향후 릴리스에서 사용할 수 있습니다.
 

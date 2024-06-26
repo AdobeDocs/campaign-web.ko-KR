@@ -4,9 +4,9 @@ description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 
 >[!BEGINTABS]
 
->[!TAB 6월 릴리스 예정일]
+>[!TAB 6월 릴리스가 공개되었습니다!]
 
 Adobe Campaign Web 사용자 인터페이스 24.6 릴리스에 포함된 새로운 기능과 개선 사항을 살펴보십시오.
 
@@ -59,13 +59,13 @@ Adobe Campaign Web 사용자 인터페이스 24.6 릴리스에 포함된 새로�
 
 >[!TAB 게재 경고]
 
-게재 경고는 사용자 그룹이 게재 실행에 대한 정보가 포함된 이메일 알림을 자동으로 수신할 수 있는 경고 관리 시스템입니다.
+게재 경고 기능은 사용자 그룹이 게재 실행에 대한 정보가 포함된 이메일 알림을 자동으로 수신할 수 있는 경고 관리 시스템입니다.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
 
 >[!TAB 플랜 및 프로그램]
 
-Adobe Campaign을 사용하면 마케팅 계획 및 프로그램에 대한 폴더 계층 구조를 구성할 수 있습니다.
+Adobe Campaign을 사용하면 마케팅 플랜 및 프로그램에 대한 폴더 계층 구조를 구성할 수 있습니다.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
 

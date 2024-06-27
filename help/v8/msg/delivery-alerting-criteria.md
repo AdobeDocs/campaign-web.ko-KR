@@ -6,7 +6,7 @@ exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
 source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
 workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 7%
+ht-degree: 26%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"
 >title="게재 경고 기준 대시보드"
->abstract="Campaign 웹 사용자 인터페이스는 대시보드에 추가할 수 있는 미리 정의된 경고 기준(낮은 처리량을 가진 게재, 준비에 실패한 게재...)을 제공합니다. 필요에 따라 고유한 기준을 만들 수도 있습니다."
+>abstract="Campaign Web 사용자 인터페이스는 대시보드에 추가할 수 있는 사전 정의된 경고 기준(처리량이 낮은 게재, 준비에 실패한 게재 등)을 제공합니다. 필요에 따라 자체 기준을 만들 수도 있습니다."
 
-Campaign 웹 사용자 인터페이스는 대시보드에 추가할 수 있는 미리 정의된 경고 기준(낮은 처리량을 가진 게재, 준비에 실패한 게재...)을 제공합니다. 필요에 따라 고유한 기준을 만들 수도 있습니다.
+Campaign 웹 사용자 인터페이스는 대시보드에 추가할 수 있는 미리 정의된 경고 기준(낮은 처리량을 가진 게재, 준비에 실패한 게재...)을 제공합니다. 필요에 따라 자체 기준을 만들 수도 있습니다.
 
 경고 기준은 **게재 경고** 왼쪽 탐색 창의 메뉴 아래에서 **기준** 탭.
 
@@ -39,31 +39,31 @@ Campaign 웹 사용자 인터페이스에서 사전 정의된 경고 기준을 �
 >
 >위의 기준에 대한 모든 매개 변수에 기본값이 적용됩니다. 이러한 값은 다음에서 사용자 지정할 수 있습니다 **기준 매개 변수** 게재 경고 대시보드의 섹션. 여기서 사용 중입니다. [대시보드 작업 방법 알아보기](../msg/delivery-alerting-dashboards.md)
 
-## 알림 기준 만들기 {#criteria}
+## 경고 기준 만들기 {#criteria}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create"
 >title="게재 경고 기준 만들기"
->abstract="Adobe Campaign에서 제공하는 사전 정의된 경고 기준 외에도 필요에 따라 고유한 기준을 만들 수 있습니다."
+>abstract="Adobe Campaign에서 제공하는 사전 정의된 경고 기준 외에도 필요에 맞는 자체 기준을 만들 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_indicators"
 >title="경고에 추가할 표시기"
->abstract="전자 메일 경고의 &quot;세부 정보&quot; 섹션에 열로 표시할 지표를 선택합니다."
+>abstract="이메일 경고의 “세부 사항” 섹션에 열로 표시할 지표를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_alert"
 >title="경고 유형"
->abstract="다음을 지정합니다. **경고 유형** (기준의 경우) 경고의 &quot;요약&quot; 섹션에서 게재 기준 옆에 표시할 레이블과 색상을 의미합니다."
+>abstract="기준에 대한 **경고 유형**&#x200B;을 지정합니다. 경고의 “요약” 섹션에서 게재 기준 옆에 표시할 라벨과 색상을 의미합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_frequency"
 >title="기준 빈도"
->abstract="기준을 충족하는 각 게재에 대해 일별 경고 빈도를 제어합니다."
+>abstract="기준을 충족하는 각 게재에 대해 일일 경고 빈도를 제어합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_filter"
->title="알림 기준 만들기"
+>title="경고 기준 만들기"
 >abstract="자체 게재 필터를 생성하려면 Campaign v8 콘솔의 **관리** > **구성** > **미리 정의된 필터** 노드에서 생성합니다."
 
 새 기준을 만들려면 다음 단계를 수행하십시오.
@@ -85,7 +85,7 @@ Campaign 웹 사용자 인터페이스에서 사전 정의된 경고 기준을 �
 
 1. 다음에서 **경고에 추가할 지표** 섹션에서 전자 메일 경고의 &quot;세부 정보&quot; 섹션에 열로 표시할 지표를 선택합니다.
 
-1. 다음을 지정합니다. **경고 유형** (기준의 경우) 경고의 &quot;요약&quot; 섹션에서 게재 기준 옆에 표시할 레이블과 색상을 의미합니다.
+1. 기준에 대한 **경고 유형**&#x200B;을 지정합니다. 경고의 “요약” 섹션에서 게재 기준 옆에 표시할 라벨과 색상을 의미합니다.
 
 1. 다음 **기준 빈도** 섹션에서 기준을 충족하는 각 게재에 대해 매일 경고 빈도를 제어할 수 있습니다.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 5c9a428eb5fabdb25f4b1f1474884e62f33fb720
-workflow-type: ht
-source-wordcount: '1555'
-ht-degree: 100%
+source-git-commit: 42250b21910556759b8d7fd561dbc7bc62e9852e
+workflow-type: tm+mt
+source-wordcount: '1627'
+ht-degree: 95%
 
 ---
 
@@ -318,3 +318,63 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_schema_editcustomfields"
 >title="사용자 정의 속성 편집"
 >abstract="사용자 정의 속성 편집"
+
+
+
+<!-- transac messages-->
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages"
+>title="트랜잭션 메시지"
+>abstract="트랜잭션 메시지"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_properties"
+>title="트랜잭션 메시지 속성"
+>abstract="트랜잭션 메시지 속성"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_event"
+>title="트랜잭션 메시지 이벤트"
+>abstract="트랜잭션 메시지 이벤트"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_context"
+>title="트랜잭션 메시지 컨텍스트"
+>abstract="트랜잭션 메시지 컨텍스트"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_content"
+>title="트랜잭션 메시지 콘텐츠"
+>abstract="트랜잭션 메시지 콘텐츠"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_personalization"
+>title="트랜잭션 메시지 개인화"
+>abstract="트랜잭션 메시지 개인화"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_personalization"
+>title="트랜잭션 메시지 개인화"
+>abstract="트랜잭션 메시지 개인화"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_exclusionlogs"
+>title="트랜잭션 메시지 제외 로그"
+>abstract="트랜잭션 메시지 제외 로그"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_context"
+>title="트랜잭션 메시지 컨텍스트"
+>abstract="트랜잭션 메시지 컨텍스트"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_eventhistory"
+>title="트랜잭션 메시지 이벤트 내역"
+>abstract="트랜잭션 메시지 이벤트 내역"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_eventhistory_preview"
+>title="트랜잭션 메시지 이벤트 내역 미리 보기"
+>abstract="트랜잭션 메시지 이벤트 내역 미리 보기"
+

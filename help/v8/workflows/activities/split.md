@@ -5,8 +5,8 @@ description: 분할 워크플로 활동을 사용하는 방법에 대해 알아�
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 6ae019bf9f4775dc7eb58e9429a75a8ad69026ff
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 70%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 70%
 >id="acw_orchestration_split_filter"
 >title="분할 활동 필터"
 >abstract="하위 집합에 필터링 조건을 적용하려면 **[!UICONTROL 필터 만들기]**&#x200B;를 클릭하고 쿼리 모델러를 사용하여 원하는 필터링 조건을 구성합니다. 예를 들어 데이터베이스에 이메일 주소가 존재하는 수신 모집단의 프로필을 포함합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/query-database/query-modeler-overview" text="쿼리 모델러로 작업"
+>additional-url="https://experienceleague.adobe.com/kr/docs/campaign-web/v8/query-database/query-modeler-overview" text="쿼리 모델러로 작업"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"
@@ -60,7 +60,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
 >title="출력 모집단의 중복 활성화"
->abstract=" 다음 **[!UICONTROL 출력 모집단의 중복 활성화]** 옵션을 사용하면 여러 하위 집합에 속하는 모집단을 관리할 수 있습니다. 상자를 선택하지 않으면 분할 활동은 수신자가 여러 하위 집합의 기준을 만족하더라도 여러 출력 전환에 있을 수 없도록 합니다. 첫 번째 탭의 타겟에서 기준이 일치합니다. 상자를 선택하면 수신자가 필터 기준을 충족하면 여러 하위 집합에서 찾을 수 있습니다. Adobe Campaign에서는 제외 기준을 사용하는 것이 좋습니다."
+>abstract=" **[!UICONTROL 출력 모집단 중복 활성화]** 옵션을 사용하면 여러 하위 집합에 속하는 모집단을 관리할 수 있습니다. 확인란을 선택하지 않으면 분할 활동은 수신자가 여러 하위 집합의 기준을 충족하더라도 여러 출력 전환에 표시되지 않습니다. 기준이 일치하는 첫 번째 탭의 대상에 포함됩니다. 확인란을 선택하면 필터 기준을 충족하는 경우 여러 하위 집합에서 수신자를 찾을 수 있습니다. Adobe Campaign에서는 전용 기준을 사용할 것을 권장합니다."
 
 **분할** 활동을 구성하려면 다음 단계를 따르십시오.
 
@@ -105,8 +105,8 @@ ht-degree: 70%
 
 1. 다음 **[!UICONTROL 출력 모집단의 중복 활성화]** 옵션을 사용하면 여러 하위 집합에 속하는 모집단을 관리할 수 있습니다.
 
-   * 상자를 선택하지 않으면 분할 활동은 수신자가 여러 하위 집합의 기준을 만족하더라도 여러 출력 전환에 있을 수 없도록 합니다. 첫 번째 탭의 타겟에서 기준이 일치합니다.
-   * 상자를 선택하면 수신자가 필터 기준을 충족하면 여러 하위 집합에서 찾을 수 있습니다. Adobe Campaign에서는 제외 기준을 사용하는 것이 좋습니다.
+   * 확인란을 선택하지 않으면 분할 활동은 수신자가 여러 하위 집합의 기준을 충족하더라도 여러 출력 전환에 표시되지 않습니다. 첫 번째 탭의 타겟에서 기준이 일치합니다.
+   * 확인란을 선택하면 필터 기준을 충족하는 경우 여러 하위 집합에서 수신자를 찾을 수 있습니다. Adobe Campaign에서는 전용 기준을 사용할 것을 권장합니다.
 
 이제 활동이 구성되었습니다. 워크플로 실행 시 모집단은 활동에 추가된 순서대로 여러 하위 집합으로 세그먼트화됩니다.
 

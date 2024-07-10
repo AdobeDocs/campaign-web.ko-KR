@@ -5,8 +5,8 @@ description: 조정 워크플로우 활동을 사용하는 방법을 알아봅�
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
 source-git-commit: 935fba929c26d6d7b3057ee7c24148215a04e45e
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 44%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 44%
 >id="acw_orchestration_reconciliation_rules"
 >title="조정 규칙"
 >abstract="중복 제거에 사용할 조정 규칙을 선택합니다. 속성을 사용하려면 **단순 속성** 옵션을 선택하고 소스 및 대상 필드를 선택합니다. 쿼리 모델러를 사용하여 자체 조정 조건을 만들려면 **고급 조정 조건** 옵션을 선택합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/query-database/query-modeler-overview" text="쿼리 모델러로 작업"
+>additional-url="https://experienceleague.adobe.com/kr/docs/campaign-web/v8/query-database/query-modeler-overview" text="쿼리 모델러로 작업"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
@@ -80,7 +80,7 @@ ht-degree: 44%
 
 1. 조정에 사용할 필드를 선택합니다. 조정 기준을 하나 이상 사용할 수 있습니다.
 
-   1. 속성을 사용하여 데이터를 조정하려면 **단순 속성** 옵션을 선택합니다. 다음 **소스** 필드는 조정할 입력 전환에서 사용할 수 있는 필드를 나열합니다. 다음 **대상** 필드는 선택한 타겟팅 차원의 필드에 해당합니다. 소스와 대상이 같을 때 데이터가 조정됩니다. 예를 들어 **이메일** 이메일 주소를 기반으로 프로필을 중복 제거하는 필드입니다.
+   1. 속성을 사용하여 데이터를 조정하려면 **단순 속성** 옵션을 선택합니다. 다음 **Source** 필드는 조정할 입력 전환에서 사용할 수 있는 필드를 나열합니다. 다음 **대상** 필드는 선택한 타겟팅 차원의 필드에 해당합니다. 소스와 대상이 같을 때 데이터가 조정됩니다. 예를 들어 **이메일** 이메일 주소를 기반으로 프로필을 중복 제거하는 필드입니다.
 
       다른 조정 기준을 추가하려면 **규칙 추가** 단추를 클릭합니다. 여러 조인 조건이 지정된 경우 데이터를 함께 연결할 수 있도록 모두 를 확인해야 합니다.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 14fd007c2fc57a246905cc31800913536fea5734
+source-git-commit: 810ff236b28141d09f3a4d1ff8d102da7de9a0ef
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1629'
 ht-degree: 95%
 
 ---
@@ -332,6 +332,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_transacmessages_properties"
 >title="트랜잭션 메시지 속성"
 >abstract="트랜잭션 메시지 속성"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_mobileapp"
+>title="트랜잭션 메시지 모바일 앱"
+>abstract="트랜잭션 메시지 모바일 앱"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_event"

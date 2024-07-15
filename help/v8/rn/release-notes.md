@@ -3,9 +3,9 @@ title: Campaign v8 Web 사용자 인터페이스 릴리스 정보
 description: 최신 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1623'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ A seed list, aka. **Trap group**, is a list of seed addresses. It is used to inc
 
 ### 개선 사항 {#improvements-24-6}
 
-* **데이터 보강 활동의 조정**: **데이터 보강** 이제 활동을 사용하여 Campaign 데이터베이스 스키마의 데이터를 다른 스키마의 데이터와 조정하거나 파일 로드 활동을 사용하여 업로드한 데이터와 같은 임시 스키마에서 가져온 데이터를 조정할 수 있습니다. 예를 들면 이 옵션을 사용하여 업로드된 파일에 지정된 프로필 국가를 Campaign 데이터베이스의 전용 테이블에 있는 국가 중 하나와 조정할 수 있습니다. [자세히 보기](../workflows/activities/enrichment.md)
+* **보강 활동 조정**: 이제 **보강** 활동을 사용하여 Campaign 데이터베이스 스키마의 데이터를 다른 스키마의 데이터와 조정하거나 파일 로드 활동을 사용하여 업로드한 데이터 등 임시 스키마에서 가져온 데이터와 조정할 수 있습니다. 예를 들면 이 옵션을 사용하여 업로드된 파일에 지정된 프로필 국가를 Campaign 데이터베이스의 전용 테이블에 있는 국가 중 하나와 조정할 수 있습니다. [자세히 보기](../workflows/activities/enrichment.md)
 
 ## 5월 릴리스 정보 {#24-5-release}
 

@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 810ff236b28141d09f3a4d1ff8d102da7de9a0ef
 workflow-type: tm+mt
 source-wordcount: '1629'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -326,7 +326,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages"
 >title="트랜잭션 메시지"
->abstract="트랜잭션 메시지"
+>abstract="트랜잭션 메시지 "
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_properties"
@@ -370,11 +370,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory"
->title="트랜잭션 메시지 이벤트 내역"
->abstract="트랜잭션 메시지 이벤트 내역"
+>title="트랜잭션 메시지 이벤트 기록"
+>abstract="트랜잭션 메시지 이벤트 기록"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory_preview"
->title="트랜잭션 메시지 이벤트 내역 미리 보기"
->abstract="트랜잭션 메시지 이벤트 내역 미리 보기"
+>title="트랜잭션 메시지 이벤트 기록 미리보기"
+>abstract="트랜잭션 메시지 이벤트 기록 미리보기"
 

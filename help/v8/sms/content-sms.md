@@ -5,8 +5,8 @@ description: SMS 게재를 디자인하는 방법 알아보기
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 79%
+source-wordcount: '256'
+ht-degree: 78%
 
 ---
 
@@ -30,17 +30,17 @@ SMS 게재 콘텐츠를 디자인하려면 다음 단계를 따르십시오.
 
    또한 **[!UICONTROL 개인화 대화 상자 열기]**&#x200B;를 클릭하여 메시지에 개인화 필드, 콘텐츠 블록과 동적 콘텐츠를 포함할 수 있습니다.
 
-   ![](assets/sms_content_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_content_1.png){zoomable="yes"}
 
-1. 다음 위치에 문자 메시지 입력 **[!UICONTROL 메시지]** 필드 또는 클릭 **[!UICONTROL 개인화 대화 상자 열기]** 컨텐츠를 정의하고 다이내믹 컨텐츠를 추가하는 옵션입니다. [자세히 알아보기](../personalization/gs-personalization.md)
+1. **[!UICONTROL 메시지]** 필드에 문자 메시지를 입력하거나 **[!UICONTROL 개인화 대화 상자 열기]** 옵션을 클릭하여 콘텐츠를 정의하고 다이내믹 콘텐츠를 추가하십시오. [자세히 알아보기](../personalization/gs-personalization.md)
 
-   ![](assets/sms_content_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_content_2.png){zoomable="yes"}
 
 1. 기본적으로 게재에 대해 추적 기능이 활성화되어 있습니다. **[!UICONTROL 선택 기능 섹션에서 이 옵션을 비활성화할 수 있습니다]**.
 
-1. 클릭 **[!UICONTROL 설정]** 게재 템플릿과 관련된 고급 옵션에 액세스 [자세히 알아보기](../advanced-settings/delivery-settings.md)
+1. **[!UICONTROL 설정]**&#x200B;을 클릭하여 게재 템플릿과 관련된 고급 옵션에 액세스합니다. [자세히 알아보기](../advanced-settings/delivery-settings.md)
 
-1. 액세스 **[!UICONTROL 콘텐츠 시뮬레이션]** 메뉴를 사용하여 개인화된 콘텐츠를 미리 볼 수 있습니다. [자세히 알아보기](send-sms.md#preview-sms)
+1. **[!UICONTROL 콘텐츠 시뮬레이션]** 메뉴에 액세스하여 개인화된 콘텐츠를 미리 봅니다. [자세히 알아보기](send-sms.md#preview-sms)
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하고 미리보기에서 메시지를 확인합니다.
 

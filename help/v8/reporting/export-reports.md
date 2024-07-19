@@ -5,8 +5,8 @@ description: 보고서를 내보내는 방법 이해
 exl-id: ac48e541-7735-4961-80ee-ce9d24c8b9ad
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 29%
+source-wordcount: '105'
+ht-degree: 28%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 29%
 
 서로 다른 보고서를 PDF 또는 CSV 형식으로 쉽게 내보내 공유, 조작 또는 인쇄할 수 있습니다.
 
-1. 보고서에서 **[!UICONTROL 내보내기]** 및 선택 **[!UICONTROL PDF 파일로 내보내기]** 또는 **[!UICONTROL CSV 파일로 내보내기]**.
+1. 보고서에서 **[!UICONTROL 내보내기]**&#x200B;를 클릭하고 **[!UICONTROL PDF 파일로 내보내기]** 또는 **[!UICONTROL CSV 파일로 내보내기]**&#x200B;를 선택합니다.
 
-   ![](assets/global_report_export.png){zoomable=&quot;yes&quot;}
+   ![](assets/global_report_export.png){zoomable="yes"}
 
-1. 파일을 저장할 폴더를 찾아 필요한 경우 이름을 변경한 다음 를 클릭합니다 **[!UICONTROL 저장]**.
+1. 파일을 저장할 폴더를 찾은 다음 필요한 경우 이름을 바꾸고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 이제 보고서를 PDF 또는 CSV 파일로 보거나 공유할 수 있습니다.

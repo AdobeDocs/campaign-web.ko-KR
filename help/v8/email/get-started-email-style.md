@@ -5,7 +5,7 @@ description: 이메일 콘텐츠 스타일을 조정할 수 있는 다양한 방
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 이메일 본문, 구조 구성 요소 또는 콘텐츠 구성 요소에 변경 내용을 적용할 수 있습니다.
 
-![](assets/email_designer_content_components_settings.png){zoomable=&quot;yes&quot;}
+![](assets/email_designer_content_components_settings.png){zoomable="yes"}
 
 아래 링크를 따라 이메일에서 몇 가지 스타일 설정을 조정하는 방법에 대해 알아보십시오.
 

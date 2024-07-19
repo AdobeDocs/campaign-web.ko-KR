@@ -5,8 +5,8 @@ description: 이메일 콘텐츠 디자인 방법 알아보기
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 48%
+source-wordcount: '207'
+ht-degree: 47%
 
 ---
 
@@ -27,21 +27,21 @@ ht-degree: 48%
 
 이메일 사전 헤더를 정의하려면 아래 단계를 수행합니다.
 
-1. 다음에서 [이메일 디자이너](create-email-content.md), 최소 1개 이상 추가 **[!UICONTROL 구조]** 이메일 디자인을 시작할 구성 요소입니다.
+1. [이메일 Designer](create-email-content.md)에서 **[!UICONTROL 구조]** 구성 요소 이상을 추가하여 이메일 디자인을 시작합니다.
 
 1. 왼쪽 창에서 **[!UICONTROL 탐색 트리]** 아이콘을 클릭하고 **[!UICONTROL 본문]**&#x200B;을 선택합니다.
 
-   ![](assets/preheader_body.png){zoomable=&quot;yes&quot;}
+   ![](assets/preheader_body.png){zoomable="yes"}
 
-1. 다음에서 **[!UICONTROL 설정]** 탭에서 사전 헤더에 사용할 텍스트를 입력합니다.
+1. **[!UICONTROL 설정]** 탭에서 사전 헤더에 사용할 텍스트를 입력하십시오.
 
-1. 추가로 개인화하려면 **[!UICONTROL 개인화 추가]** 아이콘(왼쪽) **[!UICONTROL 사전 머리글]** 필드.
+1. 추가로 개인화하려면 **[!UICONTROL 사전 머리글]** 필드 왼쪽에 있는 **[!UICONTROL 개인화 추가]** 아이콘을 클릭하십시오.
 
-   ![](assets/preheader_body_settings.png){zoomable=&quot;yes&quot;}
+   ![](assets/preheader_body_settings.png){zoomable="yes"}
 
-1. 다음에서 **[!UICONTROL 개인화 편집]** 창, 다음을 추가할 수 있습니다. [개인화 필드](../personalization/personalize.md), [콘텐츠 블록](../personalization/content-blocks.md) 및 [조건부 콘텐츠](../personalization/conditions.md) 왼쪽의 전용 항목을 사용합니다.
+1. **[!UICONTROL Personalization 편집]** 창에서 왼쪽의 전용 항목을 사용하여 [개인화 필드](../personalization/personalize.md), [콘텐츠 블록](../personalization/content-blocks.md) 및 [조건부 콘텐츠](../personalization/conditions.md)를 추가할 수 있습니다.
 
-   ![](assets/preheader_body_personalization.png){zoomable=&quot;yes&quot;}
+   ![](assets/preheader_body_personalization.png){zoomable="yes"}
 
 1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 

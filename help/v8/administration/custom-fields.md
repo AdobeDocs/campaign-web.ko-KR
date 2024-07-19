@@ -19,7 +19,7 @@ ht-degree: 19%
 
 
 
-사용자 정의 필드는 Adobe Campaign 콘솔을 통해 기본 스키마에 추가되는 추가 속성입니다. 다음에서 자세히 알아보기 [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}
+사용자 정의 필드는 Adobe Campaign 콘솔을 통해 기본 스키마에 추가되는 추가 속성입니다. 자세한 내용은 [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}를 참조하세요.
 
 이러한 사용자 정의 필드는 프로필 또는 테스트 프로필의 세부 사항 등 다양한 화면에 표시됩니다.
 
@@ -38,28 +38,28 @@ ht-degree: 19%
 
 사용자 정의 필드를 구성하려면 다음 단계를 수행합니다.
 
-1. 아래 **관리**, 클릭 **스키마**.
+1. **관리**&#x200B;에서 **스키마**&#x200B;를 클릭합니다.
 
    ![](assets/custom-fields.png){zoomable="yes"}
 
-1. 원하는 스키마(예: ) 찾기 **수신자 (nms)** 스키마.
+1. 원하는 스키마(예: **수신자(nms)** 스키마)를 찾습니다.
 
    ![](assets/custom-fields2.png){zoomable="yes"}
 
-1. 다음을 클릭합니다. **추가 작업** 단추 및 선택 **사용자 정의 세부 정보 편집**.
+1. **추가 작업** 단추를 클릭하고 **사용자 지정 세부 정보 편집**&#x200B;을 선택합니다.
 
    ![](assets/custom-fields3.png){zoomable="yes"}
 
-   다음 **사용자 정의 세부 정보 편집** 화면에 모든 사용자 정의 필드와 해당 유형이 표시됩니다.
+   **사용자 지정 세부 정보 편집** 화면에 모든 사용자 지정 필드와 해당 형식이 표시됩니다.
 
    ![](assets/custom-fields4.png){zoomable="yes"}
 
    이 화면에서는 다음 작업을 수행할 수 있습니다.
 
    * 위쪽 및 아래쪽 화살표를 사용하여 여러 필드의 순서를 변경합니다.
-   * 필수 필수로 설정: 다음을 확인합니다. **필수** 상자.
-   * 필드를 표시하거나 숨깁니다. **표시** 단추를 클릭합니다.
-   * 가시성 조건 추가: **다음의 경우 표시:** 사용 가능한 xtk 함수를 사용하여 xtk 표현식을 편집하고 씁니다.
+   * 필수 필드 만들기: **필수** 상자를 선택합니다.
+   * 필드를 표시하거나 숨깁니다. **표시** 단추를 클릭하십시오.
+   * 가시성 조건 추가: **다음의 경우 표시** 단추를 클릭하고 사용 가능한 xtk 함수를 사용하여 xtk 식을 작성합니다.
 
 1. 사용자 정의 필드를 표시하는 화면으로 이동합니다. 이 예에서는 프로필 세부 사항 화면입니다.
 

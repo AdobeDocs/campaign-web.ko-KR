@@ -10,8 +10,8 @@ role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
 source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
-workflow-type: ht
-source-wordcount: '671'
+workflow-type: tm+mt
+source-wordcount: '659'
 ht-degree: 100%
 
 ---
@@ -33,15 +33,15 @@ Campaign Web 표현식 편집기에 JavaScript 구성을 삽입하여 메시지 
 
 * **메시지 개인화** 이름, 관심 분야, 거주지, 구매 제품 등의 프로필 데이터를 활용하여 각 특정 수신자에게 게재합니다. 수신자, 메시지 또는 게재와 관련하여 개인화 편집기의 데이터베이스에서 사용 가능한 모든 필드를 선택할 수 있습니다. 이러한 개인화 속성은 메시지의 제목 줄이나 본문에 삽입할 수 있습니다. 다음 구문은 콘텐츠에 수신자의 도시를 삽입합니다. &lt;%= recipient.location.city %>
 
-  ![](assets/perso-subject-line.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/perso-subject-line.png){zoomable="yes"}{width="800" align="center"}
 
 * **조건부 콘텐츠 만들기** 각 수신자에 맞게 게재를 조정하고 고객에 대한 정보를 기반으로 특정 고객과 관련된 콘텐츠만 표시합니다. 이를 통해 조건에 &#x200B;&#x200B;따라 특정 텍스트 블록 및/또는 이미지를 표시할 수 있습니다. 예를 들어 특정 서비스에 대한 수신자 구독을 기반으로 이메일 배너를 조정합니다.
 
-  ![](assets/condition-sample.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
 
 * **개인화 블록 사용** 시간을 절약하고 쉽게 재사용 가능한 개인화된 콘텐츠를 메시지에 활용할 수 있습니다. Campaign에는 게재에 삽입할 수 있는 특정 렌더링이 포함된 개인화 블록 세트가 제공됩니다. 예를 들어 로고, 인사말 메시지 또는 이메일 메시지 미러 페이지에 대한 링크를 추가할 수 있습니다. 콘텐츠 블록은 개인화 편집기의 전용 항목에서 사용할 수 있습니다.
 
-  ![](assets/content-blocks.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/content-blocks.png){zoomable="yes"}{width="800" align="center"}
 
 ## 표현식 편집기에 액세스 {#access}
 
@@ -51,15 +51,15 @@ Adobe Campaign Web에서 제공하는 표현식 편집기를 통해 모든 데�
 
 * *발신자 이름 필드에서 표현식 편집기에 액세스*
 
-  ![](assets/expression-editor-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/expression-editor-access.png){zoomable="yes"}{width="800" align="center"}
 
 * *이메일 텍스트 구성 요소에서 표현식 편집기에 액세스*
 
-  ![](assets/expression-editor-access-email.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/expression-editor-access-email.png){zoomable="yes"}{width="800" align="center"}
 
 * *이메일의 링크에서 표현식 편집기에 액세스*
 
-  ![](assets/perso-link-insert-icon.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/perso-link-insert-icon.png){zoomable="yes"}{width="800" align="center"}
 
 >[!NOTE]
 >

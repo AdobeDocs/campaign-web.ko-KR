@@ -8,7 +8,7 @@ level: Beginner
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
 source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '427'
 ht-degree: 54%
 
 ---
@@ -23,19 +23,19 @@ Adobe Campaign은 사전 구성된 콘텐츠 블록 목록을 제공합니다. �
 
 1. 콘텐츠 블록을 추가할 필드를 찾은 다음 **[!UICONTROL 개인화 대화 상자 열기]** 아이콘을 클릭하여 표현식 편집기를 엽니다.
 
-   ![](assets/content-block-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/content-block-access.png){zoomable="yes"}{width="800" align="center"}
 
-1. 표현식 편집기에서 **[!UICONTROL 콘텐츠 블록]** 왼쪽 메뉴.
+1. 표현식 편집기에서 **[!UICONTROL 콘텐츠 블록]** 왼쪽 메뉴를 찾습니다.
 
 1. 콘텐츠 블록을 추가하려면 콘텐츠 내에서 원하는 위치에 커서를 놓고 &#39;+&#39; 단추를 클릭하여 삽입합니다.
 
-   ![](assets/content-blocks.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/content-blocks.png){zoomable="yes"}{width="800" align="center"}
 
 내장된 콘텐츠 블록은 다음과 같습니다.
 
 * **[!UICONTROL 기본 옵트아웃 배너]**
 * **[!UICONTROL Adobe Campaign에 의해 활성화됨]**: “Adobe Campaign에서 활성화됨” 로고를 삽입합니다.
-* **[!UICONTROL 고유 명사 서식 함수]**: 를 생성합니다. **[!UICONTROL toSmartCase]** 각 단어의 첫 번째 문자를 대문자로 변경하는 JavaScript 함수입니다.
+* **[!UICONTROL 적절한 명사의 서식 함수]**: 각 단어의 첫 글자를 대문자로 바꾸는 **[!UICONTROL toSmartCase]** JavaScript 함수를 생성합니다.
 * **[!UICONTROL 인사말]**: 수신자의 전체 이름과 함께 쉼표가 뒤따르는 인사말을 삽입합니다. 예: “안녕하세요 John Doe 님,”
 * **[!UICONTROL 로고 삽입]**: 인스턴스 설정에 정의된 로고를 삽입합니다.
 * **[!UICONTROL 미러 페이지 링크]**: [미러 페이지](../email/mirror-page.md)에 대한 링크를 삽입합니다. 기본 형식은 “이 메시지가 제대로 표시되지 않는 경우 여기를 클릭하십시오.”입니다.
@@ -52,4 +52,4 @@ Adobe Campaign은 사전 구성된 콘텐츠 블록 목록을 제공합니다. �
 
 >[!NOTE]
 >
->게재 개인화를 최적화할 수 있도록 Adobe Campaign v8 콘솔에서 새 블록을 정의할 수 있습니다. 다음에서 자세히 알아보기 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}.
+>게재 개인화를 최적화할 수 있도록 Adobe Campaign v8 콘솔에서 새 블록을 정의할 수 있습니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}를 참조하세요.

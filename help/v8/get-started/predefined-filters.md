@@ -4,7 +4,7 @@ description: Adobe Campaign Web에서 미리 정의된 필터를 만들고 관�
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '762'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 기존 내장 필터를 사용하여 데이터의 특정 하위 집합에 액세스하거나 미리 정의된 필터를 직접 만들어 저장할 수 있습니다.
 
-![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
+![](assets/predefined-filters-menu.png){zoomable="yes"}{zoomable="yes"}
 
 ## 미리 정의된 필터 만들기 {#create-predefined-filter}
 
@@ -47,11 +47,11 @@ ht-degree: 100%
 1. 쿼리 모델러를 열고 필터링 조건을 정의합니다. 아래 예에서는 마드리드에 거주하고 뉴스레터를 구독하는 수신자를 필터링합니다.
 1. **필터 선택 또는 저장** 버튼을 클릭하고 **필터로 저장**&#x200B;을 선택합니다.
 
-   ![](assets/predefined-filters-save.png){zoomable=&quot;yes&quot;}
+   ![](assets/predefined-filters-save.png){zoomable="yes"}
 
 1. **새 필터 만들기**&#x200B;를 선택하고 해당 필터의 이름 및 설명을 입력합니다.
 
-   ![](assets/predefined-filters-save-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/predefined-filters-save-filter.png){zoomable="yes"}
 
    필요한 경우 필터를 즐겨찾기로 저장할 수 있습니다. [이 섹션](#fav-filter)에서 자세히 알아보십시오.
 
@@ -71,12 +71,12 @@ ht-degree: 100%
 
 1. 필터에 대한 규칙을 정의합니다. 예를 들어 30일 이상 지난 프로필입니다.
 
-   ![](assets/filter-30+.png){zoomable=&quot;yes&quot;}
+   ![](assets/filter-30+.png){zoomable="yes"}
 
 
 1. 변경 내용을 저장합니다.
 
-   ![](assets/new-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/new-filter.png){zoomable="yes"}
 
 
 해당 필터가 미리 정의된 필터 목록에 추가됩니다. 필요한 경우 필터를 즐겨찾기로 저장할 수 있습니다. [이 섹션](#fav-filter)에서 자세히 알아보십시오.
@@ -89,7 +89,7 @@ ht-degree: 100%
 
 필터를 즐겨찾기로 저장하면 아래와 같이 필터 생성 목록의 **자주 사용하는 필터** 섹션에서 모든 사용자가 사용할 수 있습니다.
 
-![](assets/predefined-filters-favorite.png){zoomable=&quot;yes&quot;}{width="30%" align="left"}
+![](assets/predefined-filters-favorite.png){zoomable="yes"}{width="30%" align="left"}
 
 ## 미리 정의된 필터 사용 {#use-predefined-filter}
 
@@ -103,21 +103,21 @@ ht-degree: 100%
 1. 대상자 이름을 입력하고 **대상자 만들기** 버튼을 클릭합니다.
 1. **쿼리** 활동을 선택하고 오른쪽 창에서 **대상자 만들기** 버튼을 클릭합니다.
 
-   ![](assets/build-audience-from-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/build-audience-from-filter.png){zoomable="yes"}
 
 1. **필터 선택 또는 저장** 버튼에서 **사용자 정의 필터 선택** 옵션을 선택합니다.
 
-   ![](assets/build-audience-select-custom-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/build-audience-select-custom-filter.png){zoomable="yes"}
 
 1. 대상자를 만드는 데 사용할 미리 정의된 필터를 찾아 선택하고 확인합니다.
 
-   ![](assets/build-audience-filter-list.png){zoomable=&quot;yes&quot;}
+   ![](assets/build-audience-filter-list.png){zoomable="yes"}
 
 1. 이 필터의 규칙 속성을 검토하고 확인합니다.
 
    이제 필터가 **쿼리** 활동에서 쿼리로 사용됩니다.
 
-   ![](assets/build-audience-confirm.png){zoomable=&quot;yes&quot;}
+   ![](assets/build-audience-confirm.png){zoomable="yes"}
 
 1. 변경 사항을 저장하고 **시작** 버튼을 클릭하여 대상자를 빌드하고 대상자 목록에서 사용할 수 있도록 합니다.
 
@@ -125,7 +125,7 @@ ht-degree: 100%
 
 미리 정의된 필터는 모두 왼쪽 탐색 메뉴의 전용 항목에 그룹화됩니다.
 
-![](assets/list-of-filters.png){zoomable=&quot;yes&quot;}
+![](assets/list-of-filters.png){zoomable="yes"}
 
 이 목록에서 위에서 설명한 대로 새 필터를 만들고 다음과 같은 작업을 수행할 수 있습니다.
 

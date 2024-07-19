@@ -27,7 +27,7 @@ ht-degree: 70%
 
 >[!NOTE]
 >
->파일에서 로드한 대상은 대상 작성 활동을 사용하여 타깃팅할 수 없습니다. 이렇게 하려면 다음을 사용해야 합니다. **파일 로드** 활동 뒤에 다음 **조정** 활동. [자세히 알아보기](../../audience/about-recipients.md)
+>파일에서 로드한 대상은 대상 작성 활동을 사용하여 타깃팅할 수 없습니다. 이렇게 하려면 **파일 로드** 활동 다음에 **조정** 활동을 사용해야 합니다. [자세히 알아보기](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -51,7 +51,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 >[!BEGINTABS]
 
->[!TAB 나만의 쿼리 만들기]
+>[!TAB 직접 만들기(쿼리)]
 
 자체 쿼리를 만들려면 다음 단계를 수행합니다.
 

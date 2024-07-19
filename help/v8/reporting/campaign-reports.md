@@ -5,8 +5,8 @@ description: 캠페인 보고서에 액세스하고 사용하는 방법을 알�
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 24%
+source-wordcount: '271'
+ht-degree: 21%
 
 ---
 
@@ -25,30 +25,30 @@ ht-degree: 24%
 
 캠페인 보고서에 액세스하고 관리하려면 다음 단계를 수행합니다.
 
-1. 다음 위치로 이동 **[!UICONTROL 캠페인]** 메뉴 아래의 제품에서 사용할 수 있습니다. 다음을 클릭합니다. **보고서** 캠페인의 대시보드에서 버튼을 클릭합니다.
+1. **[!UICONTROL 캠페인]** 메뉴로 이동합니다. 캠페인 대시보드에서 **보고서** 단추를 클릭합니다.
 
-   ![](assets/manage_campaign_report_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_campaign_report_2.png){zoomable="yes"}
 
-   또는 세 점을 사용할 수 있습니다 **추가 작업** 캠페인 목록에서 캠페인 이름 옆에 있는 버튼을 클릭하고 **[!UICONTROL 보고서 보기]**.
+   또는 캠페인 목록에서 캠페인 이름 옆에 있는 세 점 **추가 작업** 단추를 사용하고 **[!UICONTROL 보고서 보기]**&#x200B;를 선택할 수 있습니다.
 
-   ![](assets/manage_campaign_report_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_campaign_report_1.png){zoomable="yes"}
 
 1. 왼쪽 메뉴에서 목록에서 보고서를 선택하고 탭을 통해 각 채널의 데이터를 표시합니다.
 
-   ![](assets/manage_campaign_report_4.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_campaign_report_4.png){zoomable="yes"}
 
-1. 대시보드에서 를 클릭합니다. **[!UICONTROL 게재 선택]** 캠페인에 포함된 하나의 특정 게재를 타겟팅하려는 경우.
+1. 캠페인에 포함된 특정 게재를 대상으로 지정하려면 대시보드에서 **[!UICONTROL 게재 선택]**&#x200B;을 클릭합니다.
 
-1. 다음에서 **[!UICONTROL 게재 처리량]** 메뉴, 선택 **시작** 및 **[!UICONTROL 종료 시간]** 특정 데이터를 대상으로 지정합니다.
+1. **[!UICONTROL 게재 처리량]** 메뉴에서 특정 데이터를 타겟팅할 **시작** 및 **[!UICONTROL 종료 시간]**&#x200B;을(를) 선택하십시오.
 
-   ![](assets/manage_campaign_report_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_campaign_report_3.png){zoomable="yes"}
 
-1. 다음에서 **[!UICONTROL 폴더 선택]** 필드에서 특정 폴더의 게재 또는 캠페인을 타겟팅하려면 선택합니다.
+1. **[!UICONTROL 폴더 선택]** 필드에서 특정 폴더의 게재 또는 캠페인을 타겟팅할지 여부를 선택합니다.
 
-   다음을 선택할 수도 있습니다. **[!UICONTROL 규칙 추가]** 보고 데이터를 더 잘 필터링하기 위한 쿼리 작성을 시작합니다. [쿼리 모델러를 사용하는 방법 알아보기](../query/query-modeler-overview.md)
+   **[!UICONTROL 규칙 추가]**&#x200B;를 선택하여 보고 데이터를 더 잘 필터링할 수 있는 쿼리 작성을 시작할 수도 있습니다. [쿼리 모델러를 사용하는 방법을 알아봅니다](../query/query-modeler-overview.md)
 
-   ![](assets/manage_campaign_report_4.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_campaign_report_4.png){zoomable="yes"}
 
-1. 다음에서 **[!UICONTROL URL 및 클릭 스트림]**, 다음을 선택할 수도 있습니다. **[!UICONTROL 가장 많이 방문한 링크]** 또는 **[!UICONTROL 기간]**.
+1. **[!UICONTROL URL 및 클릭 스트림]**&#x200B;에서 **[!UICONTROL 가장 많이 방문한 링크]** 또는 **[!UICONTROL 기간]**&#x200B;을 선택할 수도 있습니다.
 
-   다음 **[!UICONTROL 보기 기준]** 옵션을 사용하면 URL, 레이블 또는 범주를 필터링할 수 있습니다.
+   **[!UICONTROL 보기 기준]** 옵션을 사용하면 URL, 레이블 또는 범주를 필터링할 수 있습니다.

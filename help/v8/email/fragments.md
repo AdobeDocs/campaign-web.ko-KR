@@ -8,7 +8,7 @@ exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
 source-wordcount: '887'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
@@ -65,27 +65,27 @@ ht-degree: 21%
 조각을 최대한 활용하려면 다음을 수행하십시오.
 
 * 아래에 자세히 설명된 대로 고유한 시각적 조각을 만듭니다.
-* 이메일 디자이너를 통해 콘텐츠에서 필요한 횟수만큼 사용합니다. 다음을 참조하십시오 [이메일에 시각적 조각 추가](../email/use-visual-fragments.md).
+* 이메일 Designer을 통해 콘텐츠에서 필요한 만큼 사용합니다. [전자 메일에 시각적 조각 추가](../email/use-visual-fragments.md)를 참조하십시오.
 
 ## 시각적 조각 만들기 {#create-fragments}
 
 조각을 만드는 방법에는 두 가지가 있습니다.
 
-* 조각을 사용하여 처음부터 새로 만들기 **[!UICONTROL 조각]** 전용 메뉴. [방법 알아보기](#create-from-scratch)
+* **[!UICONTROL 조각]** 전용 메뉴를 사용하여 처음부터 조각을 만드십시오. [방법 알아보기](#create-from-scratch)
 
 * 콘텐츠를 디자인할 때 콘텐츠의 일부를 조각으로 저장합니다. [방법 알아보기](#save-as-fragment)
 
-저장되면 이메일 또는 이메일 템플릿에서 조각을 사용할 수 있습니다. 처음부터 만들거나 기존 콘텐츠에서 만든 경우 이제 Campaign 내에서 콘텐츠를 작성할 때 이 조각을 사용할 수 있습니다. 다음을 참조하십시오 [시각적 조각 추가](../email/use-visual-fragments.md).
+저장되면 이메일 또는 이메일 템플릿에서 조각을 사용할 수 있습니다. 처음부터 만들거나 기존 콘텐츠에서 만든 경우 이제 Campaign 내에서 콘텐츠를 작성할 때 이 조각을 사용할 수 있습니다. [시각적 조각 추가](../email/use-visual-fragments.md)를 참조하십시오.
 
 ### 처음부터 조각 만들기 {#create-from-scratch}
 
 조각을 처음부터 만들려면 아래 단계를 수행합니다.
 
-1. [조각 목록 액세스](#access-manage-fragments) 다음을 통해 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 조각]** 왼쪽 메뉴.
+1. [콘텐츠 관리&#x200B;]**>**[!UICONTROL &#x200B;조각&#x200B;]**왼쪽 메뉴를 통해 조각 목록에 액세스](#access-manage-fragments)합니다.**[!UICONTROL 
 
    ![](assets/fragments-list.png)
 
-1. 선택 **[!UICONTROL 조각 만들기]**.
+1. **[!UICONTROL 조각 만들기]**&#x200B;를 선택합니다.
 
 1. 조각 레이블을 입력합니다.
 
@@ -97,28 +97,28 @@ ht-degree: 21%
    >
    >지금은 시각적 조각만 만들 수 있습니다.
 
-1. 다음을 클릭합니다. **만들기** 버튼을 클릭하여 조각의 콘텐츠를 구성합니다.
+1. 조각의 콘텐츠를 구성하려면 **만들기** 단추를 클릭하십시오.
 
-1. 다음 [이메일 디자이너](../email/get-started-email-designer.md) 표시됩니다. 캠페인 내의 이메일에 대해 수행하는 것과 동일한 방식으로 필요에 따라 콘텐츠를 편집합니다. 이미지, 링크, 개인화 필드 및 다이내믹 콘텐츠를 추가할 수 있습니다.
+1. [전자 메일 Designer](../email/get-started-email-designer.md)이 표시됩니다. 캠페인 내의 이메일에 대해 수행하는 것과 동일한 방식으로 필요에 따라 콘텐츠를 편집합니다. 이미지, 링크, 개인화 필드 및 다이내믹 콘텐츠를 추가할 수 있습니다.
 
    ![](assets/fragment-designer.png)
 
-1. 조각이 준비되면 **[!UICONTROL 저장 및 닫기]**. 에 추가됩니다. [조각 목록](#access-manage-fragments).
+1. 조각이 준비되면 **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭합니다. [조각 목록](#access-manage-fragments)에 추가됩니다.
 
-이제 이 조각을 작성할 때 사용할 준비가 되었습니다. [이메일](../email/get-started-email-designer.md) 또는 [콘텐츠 템플릿](use-email-templates.md) Campaign 내에서 [방법 알아보기](../email/use-visual-fragments.md)
+이제 Campaign 내에서 [전자 메일](../email/get-started-email-designer.md) 또는 [콘텐츠 템플릿](use-email-templates.md)을(를) 빌드할 때 이 조각을 사용할 준비가 되었습니다. [방법 알아보기](../email/use-visual-fragments.md)
 
 
 ### 콘텐츠를 조각으로 저장 {#save-as-fragment}
 
-모든 이메일 콘텐츠는 나중에 다시 사용할 수 있도록 조각으로 저장할 수 있습니다. 디자인 시 [콘텐츠 템플릿](use-email-templates.md) 또는 [이메일](../email/get-started-email-designer.md) 게재를 사용하면 콘텐츠의 일부를 시각적 조각으로 저장할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
+모든 이메일 콘텐츠는 나중에 다시 사용할 수 있도록 조각으로 저장할 수 있습니다. [콘텐츠 템플릿](use-email-templates.md) 또는 [이메일](../email/get-started-email-designer.md) 게재를 디자인할 때 콘텐츠의 일부를 시각적 조각으로 저장할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
 
-1. 다음에서 [이메일 디자이너](../email/get-started-email-designer.md)를 클릭하고 **자세히** 화면 오른쪽 상단의 단추.
+1. [전자 메일 Designer](../email/get-started-email-designer.md)에서 화면 오른쪽 상단의 **자세히** 단추를 클릭합니다.
 
-1. 선택 **[!UICONTROL 조각으로 저장]** 드롭다운 메뉴에서 을(를) 선택합니다.
+1. 드롭다운 메뉴에서 **[!UICONTROL 조각으로 저장]**&#x200B;을(를) 선택합니다.
 
    ![](assets/fragment-save-as.png)
 
-1. 다음 **[!UICONTROL 조각으로 저장]** 화면이 표시됩니다. 여기에서 개인화 필드 및 다이내믹 콘텐츠를 포함하여 조각에 포함할 요소를 선택합니다.
+1. **[!UICONTROL 조각으로 저장]** 화면이 표시됩니다. 여기에서 개인화 필드 및 다이내믹 콘텐츠를 포함하여 조각에 포함할 요소를 선택합니다.
 
    >[!CAUTION]
    >
@@ -130,7 +130,7 @@ ht-degree: 21%
 
    ![](assets/fragment-save-confirm.png)
 
-   이 콘텐츠는 이제 독립 실행형 조각 이므로 [조각 목록](#manage-fragments)전용 메뉴에서 액세스할 수 있습니다. 이제 작성할 때 이 조각을 사용할 수 있습니다. [이메일](../email/get-started-email-designer.md) 또는 [콘텐츠 템플릿](use-email-templates.md) Campaign 내에서 [방법 알아보기](../email/use-visual-fragments.md)
+   이 콘텐츠는 이제 독립 실행형 조각으로, [조각 목록](#manage-fragments)에 추가되고 전용 메뉴에서 액세스할 수 있습니다. 이제 Campaign 내에서 [이메일](../email/get-started-email-designer.md) 또는 [콘텐츠 템플릿](use-email-templates.md)을(를) 빌드할 때 이 조각을 사용할 수 있습니다. [방법 알아보기](../email/use-visual-fragments.md)
 
 >[!NOTE]
 >
@@ -144,8 +144,8 @@ ht-degree: 21%
 
 조각을 편집하려면 아래 단계를 따르십시오.
 
-1. 에서 편집할 조각의 이름을 클릭합니다. **[!UICONTROL 조각]** 목록을 표시합니다.
-1. 다음을 클릭합니다. **콘텐츠 편집** 버튼을 클릭하여 이 조각의 콘텐츠를 엽니다.
+1. **[!UICONTROL 조각]** 목록에서 편집할 조각의 이름을 클릭합니다.
+1. **콘텐츠 편집** 단추를 클릭하여 이 조각의 콘텐츠를 엽니다.
 
    ![](assets/fragment-edit-content.png)
 
@@ -160,22 +160,22 @@ ht-degree: 21%
 
 조각을 삭제하려면 다음 단계를 수행합니다.
 
-1. 조각 목록으로 이동한 다음 **[!UICONTROL 추가 작업]** 삭제할 조각 옆에 있는 단추입니다.
-1. 클릭 **삭제** 확인.
+1. 조각 목록으로 이동한 후 삭제할 조각 옆에 있는 **[!UICONTROL 추가 작업]** 단추를 클릭합니다.
+1. **삭제**&#x200B;를 클릭하고 확인하십시오.
 
    ![](assets/fragment-list-more-actions.png)
 
 >[!CAUTION]
 >
->콘텐츠 조각을 삭제하면 이메일 게재 및 이를 사용하는 템플릿이 업데이트됩니다. 조각은 이메일 콘텐츠에서 제거되지만 여전히 참조됩니다. 해당 게재 및 템플릿에서 조각 콘텐츠를 유지하려면 조각을 삭제하기 전에 상속을 중단해야 합니다. [이 섹션에 자세히 설명됨](use-visual-fragments.md#break-inheritance).
+>콘텐츠 조각을 삭제하면 이메일 게재 및 이를 사용하는 템플릿이 업데이트됩니다. 조각은 이메일 콘텐츠에서 제거되지만 여전히 참조됩니다. 해당 게재 및 템플릿에 조각 콘텐츠를 유지하려면 이 섹션에 자세히 설명된 대로 [조각을 삭제하기 전에 상속을 중단해야 합니다](use-visual-fragments.md#break-inheritance).
 >
 
 ### 조각 복제 {#duplicate-fragments}
 
 조각을 쉽게 복제하여 새 조각을 만들 수 있습니다. 기존 조각을 복제하려면 다음 단계를 수행합니다.
 
-1. 조각 목록으로 이동한 다음 **[!UICONTROL 추가 작업]** 삭제할 조각 옆에 있는 단추입니다.
-1. 클릭 **복제** 확인.
+1. 조각 목록으로 이동한 후 삭제할 조각 옆에 있는 **[!UICONTROL 추가 작업]** 단추를 클릭합니다.
+1. **복제**&#x200B;를 클릭하고 확인하십시오.
 1. 새 조각의 레이블을 입력하고 변경 사항을 저장합니다.
 
    조각이 조각 목록에 추가됩니다. 필요에 따라 편집하고 구성할 수 있습니다.

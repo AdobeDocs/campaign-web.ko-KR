@@ -29,23 +29,23 @@ ht-degree: 9%
 >title="종료 트리거"
 >abstract="종료 트리거"
 
-다음 **외부 신호** 활동은 입니다. **흐름 제어** 활동. 다른 워크플로우 또는 API 호출에서 워크플로우 실행을 트리거할 수 있습니다.
+**외부 신호** 활동은 **흐름 제어** 활동입니다. 다른 워크플로우 또는 API 호출에서 워크플로우 실행을 트리거할 수 있습니다.
 
 >[!NOTE]
 >
->이 페이지에서는 을(를) 구성하는 주요 단계를 설명합니다. **[!UICONTROL 외부 신호]** campaign 웹 사용자 인터페이스의 활동으로 다른 워크플로우 또는 API 호출에서 트리거합니다. 워크플로우를 트리거하는 방법, 모범 사례 및 Campaign API로 작업하는 방법에 대한 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example)
+>이 페이지에서는 Campaign 웹 사용자 인터페이스에서 **[!UICONTROL 외부 신호]** 활동을 구성하고 다른 워크플로우 또는 API 호출에서 트리거하는 주요 단계를 제공합니다. 워크플로우를 트리거하는 방법, 모범 사례 및 Campaign API로 작업하는 방법에 대한 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example)를 참조하세요.
 
-다음 단계에 따라 **외부 신호** 활동 및 그 실행 트리거:
+**외부 신호** 활동을 구성하고 실행을 트리거하려면 다음 단계를 따르십시오.
 
-1. 추가 **외부 신호** 활동을 워크플로우에 추가합니다.
+1. 워크플로우에 **외부 신호** 활동을 추가합니다.
 
-1. 워크플로우의 구성을 완료하고 실행을 시작합니다. 다음 **[!UICONTROL 외부 신호]** 활동이 &quot;보류 중&quot;으로 표시되며 트리거되기를 기다립니다.
+1. 워크플로우의 구성을 완료하고 실행을 시작합니다. **[!UICONTROL 외부 신호]** 활동이 &quot;보류 중&quot;으로 표시되어 트리거되기를 기다립니다.
 
    ![](../assets/external-signal-pending.png)
 
 1. 아래 정보를 검색하십시오.
 
-   * 다음 **워크플로우의 내부 이름**&#x200B;레이블 옆에 표시되는 변수입니다.
+   * 레이블 옆에 표시되는 **워크플로의 내부 이름**&#x200B;입니다.
 
      +++보기 예
 
@@ -53,7 +53,7 @@ ht-degree: 9%
 
 +++
 
-   * 다음 **외부 신호 활동 이름**: 워크플로우에 표시됩니다. **[!UICONTROL 실행 옵션]**.
+   * 워크플로우의 **[!UICONTROL 실행 옵션]**&#x200B;에 표시되는 **외부 신호 활동의 이름**&#x200B;입니다.
 
      +++보기 예
 
@@ -61,11 +61,11 @@ ht-degree: 9%
 
 +++
 
-1. 워크플로우를 트리거하려면 다음을 실행해야 합니다. `PostEvent` JavaScript 함수. 이 함수를 사용하면 선택한 값과 함께 변수를 전달하고 트리거된 워크플로우에서 활용할 수 있습니다.
+1. 워크플로우를 트리거하려면 `PostEvent` JavaScript 함수를 실행해야 합니다. 이 함수를 사용하면 선택한 값과 함께 변수를 전달하고 트리거된 워크플로우에서 활용할 수 있습니다.
 
-   다음 `PostEvent` 함수는 다른 워크플로우 또는 API 호출에서 실행할 수 있습니다.
+   `PostEvent` 함수는 다른 워크플로우 또는 API 호출에서 실행할 수 있습니다.
 
-   * 를 트리거하려면 **[!UICONTROL 외부 신호]** 워크플로우의 활동으로, 다음에서 PostEvent 함수를 실행합니다. **[!UICONTROL 초기화 스크립트]** 창에서 액세스할 수 있습니다. **[!UICONTROL 실행 옵션]**. 의 경우 **[!UICONTROL JavaScript 코드]** 활동, 활동의 스크립트에서 함수를 실행합니다.
+   * 워크플로우에서 **[!UICONTROL 외부 신호]** 활동을 트리거하려면 활동의 **[!UICONTROL 실행 옵션]**&#x200B;에서 액세스할 수 있는 **[!UICONTROL 초기화 스크립트]** 창에서 PostEvent 함수를 실행하십시오. **[!UICONTROL JavaScript 코드]** 활동의 경우 해당 활동의 스크립트에서 함수를 실행하십시오.
 
      구문은 다음과 같습니다.
 
@@ -81,4 +81,4 @@ ht-degree: 9%
 
 +++
 
-   * 를 트리거하려면 **[!UICONTROL 외부 신호]** API 호출의 활동은 Campaign API 설명서에 자세히 설명된 단계를 따릅니다. [정적 을 사용하는 방법 알아보기 `PostEvent` 방법](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html)
+   * API 호출에서 **[!UICONTROL 외부 신호]** 활동을 트리거하려면 Campaign API 설명서에 설명된 단계를 따르십시오. [정적 `PostEvent` 메서드를 사용하는 방법을 알아봅니다](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html)

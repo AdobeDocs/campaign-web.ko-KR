@@ -5,7 +5,7 @@ description: 인라인 스타일 속성 추가 방법 알아보기
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '123'
 ht-degree: 100%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 100%
 
 1. **[!UICONTROL 스타일]** 탭에서 **[!UICONTROL 고급]** 드롭다운을 클릭합니다.
 
-   ![](assets/styles_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/styles_1.png){zoomable="yes"}
 
 1. 기존 속성의 값을 수정합니다.
 
 1. **+** 버튼을 사용하여 새 속성을 추가할 수 있습니다. CSS와 호환되는 모든 속성과 값을 추가할 수 있습니다.
 
-   ![](assets/styles_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/styles_2.png){zoomable="yes"}
 
 선택한 요소에 스타일이 적용됩니다.
 

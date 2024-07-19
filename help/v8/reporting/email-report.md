@@ -5,14 +5,14 @@ description: 이메일 게재 보고서에 액세스하고 사용하는 방법�
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
 workflow-type: tm+mt
-source-wordcount: '2329'
-ht-degree: 41%
+source-wordcount: '2289'
+ht-degree: 40%
 
 ---
 
 # 이메일 게재 보고서 {#email-report}
 
-다음 **이메일 게재 보고서** 은 이메일 채널과 관련된 포괄적인 통찰력과 데이터를 제공합니다. 개별 게재의 성과, 효율성 및 결과에 대해 자세한 정보와 함께 포괄적인 개요를 제공합니다.
+**전자 메일 게재 보고서**&#x200B;는 전자 메일 채널과 관련된 포괄적인 통찰력과 데이터를 제공합니다. 개별 게재의 성과, 효율성 및 결과에 대해 자세한 정보와 함께 포괄적인 개요를 제공합니다.
 
 ## 게재 요약 {#delivery-summary-email}
 
@@ -28,21 +28,21 @@ ht-degree: 41%
 >title="초기 대상 집단"
 >abstract="**초기 대상 집단** 그래프에는 게재 준비의 결과를 바탕으로 수신자 및 메시지 관련 데이터가 표시됩니다."
 
-다음 **[!UICONTROL 초기 대상 모집단]** 그래프는 수신자와 관련된 데이터를 표시합니다. 지표는 게재를 준비하는 동안 계산되며 초기 대상자, 보낼 메시지 수, 제외된 수신자 수를 표시합니다.
+**[!UICONTROL 초기 대상 모집단]** 그래프는 수신자와 관련된 데이터를 표시합니다. 지표는 게재를 준비하는 동안 계산되며 초기 대상자, 보낼 메시지 수, 제외된 수신자 수를 표시합니다.
 
-![](assets/reporting_email_1.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_email_1.png){zoomable="yes"}
 
 정확한 숫자를 표시하려면 마우스를 그래프의 일부 위에 놓습니다.
 
-![](assets/reporting_email_1.1.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_email_1.1.png){zoomable="yes"}
 
 +++이메일 게재 보고서 지표에 대해 자세히 알아보십시오.
 
-* **[!UICONTROL 초기 대상자]**: 타겟팅된 총 수신자 수.
+* **[!UICONTROL 초기 대상]**: 타깃팅된 총 받는 사람 수
 
-* **[!UICONTROL 게재하기]**: 게재를 준비한 후 게재할 총 메시지 수
+* **[!UICONTROL 게재]**: 게재를 준비한 후 게재할 총 메시지 수
 
-* **[!UICONTROL 제외]**: 대상 모집단에서 제외된 총 수신자 수입니다.
+* **[!UICONTROL 제외]**: 대상 모집단에서 제외된 총 받는 사람 수입니다.
 +++
 
 ### 게재 통계 {#email-delivery-stats}
@@ -52,19 +52,19 @@ ht-degree: 41%
 >title="게재 통계"
 >abstract="**게재 통계** 그래프에 게재 성공과 발생한 오류가 자세히 표시됩니다."
 
-다음 **[!UICONTROL 게재 통계]** 그래프는 게재의 성공을 자세히 설명합니다. 지표는 아래에 자세히 설명되어 있습니다.
+**[!UICONTROL 게재 통계]** 그래프는 게재 성공 여부를 자세히 설명합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/reporting_email_2.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_email_2.png){zoomable="yes"}
 
 +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
-* **[!UICONTROL 메시지 전송됨]**: 게재를 준비한 후 게재할 총 메시지 수
+* **[!UICONTROL 보낸 메시지]**: 게재를 준비한 후 배달할 총 메시지 수입니다.
 
-* **[!UICONTROL 성공]**: 배달할 메시지 수와 관련하여 성공적으로 처리된 메시지 수입니다.
+* **[!UICONTROL 성공]**: 배달할 메시지 수와 관련하여 처리된 메시지 수입니다.
 
-* **[!UICONTROL 오류]**: 게재할 메시지 수와 관련하여 게재 및 자동 반동 처리 중에 누적된 총 오류 수입니다.
+* **[!UICONTROL 오류]**: 배달할 메시지 수와 관련하여 게재 및 자동 반동 처리 중에 누적된 총 오류 수입니다.
 
-* **[!UICONTROL 새로운 격리]**: 배달할 메시지 수와 관련하여 배달 실패 후 격리된 총 주소 수(사용자 알 수 없음, 잘못된 도메인)입니다.
+* **[!UICONTROL 새 격리]**: 배달할 메시지 수와 관련하여 배달 실패(사용자 알 수 없음, 잘못된 도메인) 후에 격리된 총 주소 수입니다.
 
 +++
 
@@ -75,25 +75,25 @@ ht-degree: 41%
 >title="제외 이유 게재"
 >abstract="**제외 이유** 그래프와 테이블에는 게재 준비 단계에서 거부된 메시지 규칙당 분류가 표시됩니다."
 
-다음 **[!UICONTROL 제외 이유]** 그래프와 표는 게재를 준비하는 동안 거부된 메시지의 규칙별 분류를 보여 줍니다. 제외 규칙은 다음에 자세히 설명되어 있습니다. [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
+**[!UICONTROL 제외 원인]** 그래프 및 표는 게재를 준비하는 동안 거부된 메시지의 규칙별 분류를 보여 줍니다. 제외 규칙은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}에 자세히 설명되어 있습니다.
 
-![](assets/reporting_email_3.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
+![](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++이메일 게재 보고서 지표에 대해 자세히 알아보십시오.
 
-* **[!UICONTROL 알 수 없는 사용자]**: 이메일 주소가 잘못되었음을 나타내기 위해 게재 중에 생성된 오류 유형.
+* **[!UICONTROL 사용자 알 수 없음]**: 전자 메일 주소가 잘못되었음을 나타내기 위해 배달하는 동안 오류 유형이 생성되었습니다.
 
-* **[!UICONTROL 잘못된 도메인]**: 이메일 주소의 도메인이 잘못되었거나 존재하지 않음을 나타내기 위해 게재를 보낼 때 생성되는 오류 유형입니다.
+* **[!UICONTROL 잘못된 도메인]**: 전자 메일 주소의 도메인이 잘못되었거나 존재하지 않음을 나타내기 위해 게재를 보낼 때 생성되는 오류 유형입니다.
 
-* **[!UICONTROL 사서함 가득 참]**: 5회 게재 시도 후 생성된 오류 유형은 수신자의 받은 편지함에 메시지가 너무 많음을 나타냅니다.
+* **[!UICONTROL 사서함 가득 참]**: 받는 사람의 받은 편지함에 메시지가 너무 많음을 나타내기 위해 다섯 번 배달을 시도한 후에 생성된 오류 형식입니다.
 
-* **[!UICONTROL 계정 비활성화]**: 주소가 더 이상 존재하지 않음을 나타내기 위해 게재를 보낼 때 생성된 오류 유형.
+* **[!UICONTROL 계정 사용 안 함]**: 주소가 더 이상 존재하지 않음을 나타내기 위해 게재를 보낼 때 오류 유형이 생성되었습니다.
 
-* **[!UICONTROL 거부됨]**: IAP(인터넷 액세스 공급자)에서 주소를 거부할 때 오류 유형 이 생성됩니다(예: 보안 규칙 적용 후).
+* **[!UICONTROL 거부됨]**: IAP(인터넷 액세스 공급자)에서 주소를 거부할 때 생성되는 오류 형식(예: 보안 규칙(스팸 방지 소프트웨어) 적용 후)입니다.
 
-* **[!UICONTROL 연결할 수 없음]**: 메시지 배포 문자열에서 발생하는 오류 유형: SMTP 릴레이 장애, 일시적으로 도메인에 연결할 수 없음 등
+* **[!UICONTROL 연결할 수 없음]**: 메시지 배포 문자열에서 발생하는 오류 유형: SMTP 릴레이에 문제 발생, 일시적으로 도메인에 연결할 수 없음 등
 
-* **[!UICONTROL 연결되지 않음]**: 전송 시 수신자의 휴대폰이 꺼져 있거나 네트워크에서 연결이 끊겼음을 나타내는 오류 유형입니다.
+* **[!UICONTROL 연결되지 않음]**: 전송 시 받는 사람의 휴대폰이 꺼져 있거나 네트워크에서 연결이 끊어져 있음을 나타내는 오류 형식입니다.
 
 +++
 
@@ -106,7 +106,7 @@ ht-degree: 41%
 
 이 보고서는 지정된 기간 내에 전체 플랫폼의 게재 처리량에 대한 자세한 정보를 제공합니다. 메시지 게재 속도를 측정하는 데 사용되는 주요 지표는 시간당 전송된 메시지 수입니다.
 
-![](assets/reporting_email_3.1.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
+![](assets/reporting_email_3.1.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 
 ## 브로드캐스트 통계 {#broadcast-statistics}
@@ -116,23 +116,23 @@ ht-degree: 41%
 >title="브로드캐스트 통계"
 >abstract="**브로드캐스트 통계** 보고서에는 각 도메인에서 발생한 잠재 오류에 대한 사용 가능한 데이터가 포함되어 있습니다."
 
-다음 **[!UICONTROL 브로드캐스트 통계]** 표에는 각 도메인에서 발생할 수 있는 오류에 대해 사용 가능한 데이터가 포함되어 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
+**[!UICONTROL 브로드캐스트 통계]** 표에는 각 도메인에서 발생한 오류에 대해 사용 가능한 데이터가 포함되어 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/reporting_email_4.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
+![](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++이메일 게재 보고서 지표에 대해 자세히 알아보십시오.
 
-* **[!UICONTROL 처리된 이메일]**: 게재 서버에서 처리된 총 메시지 수입니다.
+* **[!UICONTROL 처리된 전자 메일]**: 게재 서버에서 처리된 총 메시지 수입니다.
 
-* **[!UICONTROL 전달됨]**: 처리된 총 메시지 수와 비교하여 성공적으로 처리된 메시지 수의 백분율입니다.
+* **[!UICONTROL 배달됨]**: 처리된 총 메시지 수와 비교하여 성공적으로 처리된 메시지 수의 백분율입니다.
 
-* **[!UICONTROL 하드 바운스]**: 처리된 총 메시지 수와 비교하여 잘못된 이메일 주소와 같은 영구적인 &quot;하드&quot; 바운스 수 비율입니다.
+* **[!UICONTROL 하드 바운스]**: 처리된 총 메시지 수와 비교하여 &quot;하드&quot; 바운스 수, 잘못된 이메일 주소와 같은 영구 오류의 비율입니다.
 
-* **[!UICONTROL 소프트 바운스]**: 처리된 총 메시지 수 대비 전체 받은 편지함과 같은 일시적인 오류인 &quot;소프트&quot; 바운스 수의 비율입니다
+* **[!UICONTROL 소프트 바운스]**: 처리된 총 메시지 수와 비교하여 &quot;소프트&quot; 바운스 수, 전체 받은 편지함과 같은 임시 오류의 비율
 
-* **[!UICONTROL 열림]**: 성공적으로 처리된 메시지 수와 비교하여 메시지를 한 번 이상 연 타겟팅된 수신자 수의 백분율입니다.
+* **[!UICONTROL 열기]**: 메시지를 한 번 이상 연 대상 받는 사람 수와 성공적으로 처리된 메시지 수의 비율입니다.
 
-* **[!UICONTROL 클릭수]**: 성공적으로 처리된 메시지 수와 비교하여 게재를 한 번 이상 클릭한 사람 수의 백분율입니다.
+* **[!UICONTROL 클릭 수]**: 배달을 한 번 이상 클릭한 사람 수와 성공적으로 처리된 메시지 수의 비율입니다.
 
 * **[!UICONTROL 구독 취소]**: 성공적으로 처리된 메시지 수와 비교한 구독 취소 링크의 클릭 수의 백분율입니다.
 +++
@@ -151,27 +151,27 @@ ht-degree: 41%
 >title="유형별 오류 분류"
 >abstract="**유형별 오류 분류** 표는 각 오류 유형의 발생에 대한 포괄적인 분석을 제공합니다."
 
-다음 **[!UICONTROL 유형별 오류 분류]** 테이블 및 그래프에는 오류 유형에 사용할 수 있는 데이터가 포함되어 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
+**[!UICONTROL 유형별 오류 분석]** 테이블 및 그래프에 오류 유형에 사용할 수 있는 데이터가 포함되어 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-이 보고서에 표시된 오류는 격리 프로세스를 트리거합니다. 격리 관리에 대한 자세한 내용은 다음을 참조하십시오. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
+이 보고서에 표시된 오류는 격리 프로세스를 트리거합니다. 격리 관리에 대한 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}를 참조하세요.
 
-![](assets/campaign_report_email_6.png){zoomable=&quot;yes&quot;}{align="left" zoomable="yes"}
+![](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 +++이메일 게재 보고서 지표에 대해 자세히 알아보십시오.
 
-* **[!UICONTROL 알 수 없는 사용자]**: 이메일 주소가 잘못되었음을 나타내기 위해 게재 중에 생성된 오류 유형.
+* **[!UICONTROL 사용자 알 수 없음]**: 전자 메일 주소가 잘못되었음을 나타내기 위해 배달하는 동안 오류 유형이 생성되었습니다.
 
-* **[!UICONTROL 잘못된 도메인]**: 이메일 주소의 도메인이 잘못되었거나 존재하지 않음을 나타내기 위해 게재를 보낼 때 생성되는 오류 유형입니다.
+* **[!UICONTROL 잘못된 도메인]**: 전자 메일 주소의 도메인이 잘못되었거나 존재하지 않음을 나타내기 위해 게재를 보낼 때 생성되는 오류 유형입니다.
 
-* **[!UICONTROL 사서함 가득 참]**: 5회 게재 시도 후 생성된 오류 유형은 수신자의 받은 편지함에 메시지가 너무 많음을 나타냅니다.
+* **[!UICONTROL 사서함 가득 참]**: 받는 사람의 받은 편지함에 메시지가 너무 많음을 나타내기 위해 다섯 번 배달을 시도한 후에 생성된 오류 형식입니다.
 
-* **[!UICONTROL 계정 비활성화]**: 주소가 더 이상 존재하지 않음을 나타내기 위해 게재를 보낼 때 생성된 오류 유형.
+* **[!UICONTROL 계정 사용 안 함]**: 주소가 더 이상 존재하지 않음을 나타내기 위해 게재를 보낼 때 오류 유형이 생성되었습니다.
 
-* **[!UICONTROL 거부됨]**: IAP(인터넷 액세스 공급자)에서 주소를 거부할 때 오류 유형 이 생성됩니다(예: 보안 규칙 적용 후).
+* **[!UICONTROL 거부됨]**: IAP(인터넷 액세스 공급자)에서 주소를 거부할 때 생성되는 오류 형식(예: 보안 규칙(스팸 방지 소프트웨어) 적용 후)입니다.
 
-* **[!UICONTROL 연결할 수 없음]**: 메시지 배포 문자열에서 발생하는 오류 유형: SMTP 릴레이 장애, 일시적으로 도메인에 연결할 수 없음 등
+* **[!UICONTROL 연결할 수 없음]**: 메시지 배포 문자열에서 발생하는 오류 유형: SMTP 릴레이에 문제 발생, 일시적으로 도메인에 연결할 수 없음 등
 
-* **[!UICONTROL 연결되지 않음]**: 전송 시 수신자의 휴대폰이 꺼져 있거나 네트워크에서 연결이 끊겼음을 나타내는 오류 유형입니다.
+* **[!UICONTROL 연결되지 않음]**: 전송 시 받는 사람의 휴대폰이 꺼져 있거나 네트워크에서 연결이 끊어져 있음을 나타내는 오류 형식입니다.
 
 +++
 
@@ -187,15 +187,15 @@ ht-degree: 41%
 >title="도메인별 오류 분류"
 >abstract="**도메인별 오류 분류** 표는 사용된 도메인에 따라 각 오류 발생에 대한 포괄적인 분석을 제공합니다."
 
-다음 **[!UICONTROL 도메인별 오류 분류]** 표 및 그래프는 각 도메인에서 발생할 수 있는 오류에 대해 사용 가능한 데이터를 표시합니다.
+**[!UICONTROL 도메인당 오류 분석]** 테이블 및 그래프는 각 도메인에서 발생한 오류에 대해 사용 가능한 데이터를 표시합니다.
 
-![](assets/campaign_report_email_6.1.png){zoomable=&quot;yes&quot;}{align="left" zoomable="yes"}
+![](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 각 도메인 이름 옆에 있는 아이콘을 클릭하여 세부 정보를 확인합니다.
 
-![](assets/campaign_report_email_6.1.png){zoomable=&quot;yes&quot;}{align="left" zoomable="yes"}
+![](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 
-사용 가능한 지표는 와 동일합니다. [유형별 오류 분류](#email-delivery-breakdown-type) 위에서 설명했습니다.
+사용 가능한 지표는 위에서 설명한 유형별 [오류 분류](#email-delivery-breakdown-type)와 동일합니다.
 
 ## 지표 추적 {#tracking-indicators-email}
 
@@ -214,23 +214,23 @@ ht-degree: 41%
 >abstract="**게재 통계** 보고서는 보낸 이메일에 사용할 수 있는 데이터에 대한 자세한 정보를 포함하는 주요 성과 지표(KPI, 예: 성공, 열람 수, 클릭 수 등)를 제공합니다."
 
 
-다음 **[!UICONTROL 게재 통계]** 보고서는 보낸 이메일에 사용할 수 있는 데이터에 대한 자세한 정보를 제공하는 주요 성능 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
+**[!UICONTROL 게재 통계]** 보고서는 보낸 전자 메일에 사용할 수 있는 데이터에 대한 자세한 정보를 제공하는 주요 성능 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/reporting_email_5.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_5.png){zoomable="yes"}{align="center"}
 
 +++이메일 게재 보고서 지표에 대해 자세히 알아보십시오.
 
-* **[!UICONTROL 성공]**: 배달할 메시지 수와 관련하여 성공적으로 처리된 메시지 수입니다.
+* **[!UICONTROL 성공]**: 배달할 메시지 수와 관련하여 처리된 메시지 수입니다.
 
-* **[!UICONTROL 고유 열람 수]**: 메시지를 한 번 이상 연 타겟팅된 총 수신자 수입니다.
+* **[!UICONTROL 고유 열기 수]**: 메시지를 한 번 이상 연 총 대상 받는 사람 수입니다.
 
-* **[!UICONTROL 열림]**: 이 도메인에 대해 최소 한 번 이상 메시지를 연 고유한 타겟팅된 수신자 수입니다.
+* **[!UICONTROL 열기]**: 메시지를 한 번 이상 연 이 도메인의 개별 대상 받는 사람 수입니다.
 
-* **[!UICONTROL 옵트아웃 링크 클릭]**: 구독 취소 링크의 클릭 수입니다.
+* **[!UICONTROL 옵트아웃 링크 클릭 수]**: 구독 취소 링크 클릭 수.
 
-* **[!UICONTROL 미러 링크 클릭]**: 미러 페이지 링크를 클릭한 횟수.
+* **[!UICONTROL 미러 링크 클릭 수]**: 미러 페이지 링크 클릭 수.
 
-* **[!UICONTROL 발송 예측]**: 타겟팅된 수신자가 전달한 이메일 수 예상.
+* **[!UICONTROL 전달 예상]**: 대상 받는 사람이 전달한 전자 메일 수를 예상합니다.
 +++
 
 ### 열람 및 클릭스루 비율 {#email-tracking-click-through}
@@ -242,21 +242,21 @@ ht-degree: 41%
 
 
 
-다음 **[!UICONTROL 열람 및 클릭스루 비율]** 테이블에는 수신자와 관련된 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
+**[!UICONTROL 열기 및 클릭스루 비율]** 테이블에는 수신자와 관련된 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/reporting_email_6.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
 
 +++이메일 게재 보고서 지표에 대해 자세히 알아보십시오.
 
-* **[!UICONTROL 전송됨]**: 전송된 총 메시지 수입니다.
+* **[!UICONTROL 전송됨]**: 보낸 총 메시지 수
 
-* **[!UICONTROL 컴플레인]**: 수신자가 원치 않는 것으로 보고한 이 도메인에 대한 메시지 수입니다.
+* **[!UICONTROL 컴플레인]**: 받는 사람이 원치 않는 것으로 보고한 이 도메인에 대한 메시지 수입니다.
 
-* **[!UICONTROL 열림]**: 이 도메인에 대해 최소 한 번 이상 메시지를 연 고유한 타겟팅된 수신자 수입니다.
+* **[!UICONTROL 열기]**: 메시지를 한 번 이상 연 이 도메인의 개별 대상 받는 사람 수입니다.
 
-* **[!UICONTROL 클릭수]**: 동일한 게재를 한 번 이상 클릭한 고유한 타깃팅된 수신자 수입니다.
+* **[!UICONTROL 클릭 수]**: 같은 게재를 한 번 이상 클릭한 고유한 대상 받는 사람의 수입니다.
 
-* **[!UICONTROL 원시 재활동]**: 게재를 한 번 이상 클릭한 수신자 수와 게재를 한 번 이상 연 수신자 수의 비율입니다.
+* **[!UICONTROL 원시 재활동]**: 게재를 한 번 이상 클릭한 수신자 수와 한 번 이상 연 수신자 수의 비율입니다.
 +++
 
 ## URL 및 클릭 스트림 {#url-email}
@@ -269,17 +269,17 @@ ht-degree: 41%
 
 **[!UICONTROL URL 및 클릭스트림]** 보고서는 게재 중 가장 많이 클릭한 URL에 대한 자세한 정보를 포함하는 주요 성과 지표(KPI)를 제공합니다.
 
-![](assets/reporting_email_7.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
 
 +++이메일 게재 보고서 지표에 대해 자세히 알아보십시오.
 
-* **[!UICONTROL 반응성]**: 게재를 연 예상 대상 수신자 수와 관련하여 게재에서 클릭한 대상 수신자 수의 비율입니다.
+* **[!UICONTROL 반응성]**: 게재를 연 예상 대상 받는 사람 수와 관련하여 게재를 클릭한 대상 받는 사람 수의 비율입니다.
 
-* **[!UICONTROL 고유 클릭 수]**: 한 번 이상 게재를 클릭한 총 고유 수신자 수입니다.
+* **[!UICONTROL 고유 클릭 수]**: 게재를 한 번 이상 클릭한 총 고유 수신자 수입니다.
 
-* **[!UICONTROL 클릭수]**: 게재의 총 링크 클릭 수입니다.
+* **[!UICONTROL 클릭 수]**: 게재의 총 링크 클릭 수입니다.
 
-* **[!UICONTROL 플랫폼 평균]** : 각 비율(반응성, 개별 클릭 및 누적된 클릭)에 표시되는 이 평균 비율은 이전 6개월 동안 전송된 게재에 대해 계산됩니다. 유형화가 동일한 게재 및 동일한 채널의 게재만 고려됩니다. 증명이 제외됩니다.
+* **[!UICONTROL 플랫폼 평균]** : 각 비율(반응성, 개별 클릭 수 및 누적된 클릭 수) 아래에 표시되는 이 평균 비율은 이전 6개월 동안 전송된 게재에 대해 계산됩니다. 유형화가 동일한 게재 및 동일한 채널의 게재만 고려됩니다. 증명이 제외됩니다.
 
 +++
 
@@ -294,13 +294,13 @@ ht-degree: 41%
 
 **[!UICONTROL 가장 많이 방문한 상위 링크 10개]** 그래프와 테이블에는 링크당 수신자 비헤이비어와 관련하여 이용 가능한 데이터가 포함되어 있습니다.
 
-![](assets/reporting_email_8.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
 
 +++이메일 게재 보고서 지표에 대해 자세히 알아보십시오.
 
-* **[!UICONTROL 클릭수]**: 게재의 총 링크 클릭 수입니다.
+* **[!UICONTROL 클릭 수]**: 게재의 총 링크 클릭 수입니다.
 
-* **[!UICONTROL 백분율]**: 게재와 상호 작용한 사용자의 백분율입니다.
+* **[!UICONTROL 백분율]**: 게재와 상호 작용한 사용자의 비율입니다.
 
 +++
 
@@ -313,9 +313,9 @@ ht-degree: 41%
 >abstract="**시간 경과에 따른 클릭 분류** 그래프는 링크당 수신자 비헤이비어와 관련하여 이용 가능한 데이터를 보여 줍니다."
 
 
-다음 **[!UICONTROL 시간 경과에 따른 클릭 수 분류]** 그래프에는 링크당 수신자 동작에 사용할 수 있는 데이터가 포함되어 있습니다.
+**[!UICONTROL 시간 경과에 따른 클릭 수 분석]** 그래프에는 링크당 받는 사람 동작에 사용할 수 있는 데이터가 포함되어 있습니다.
 
-![](assets/reporting_email_9.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_9.png){zoomable="yes"}{align="center"}
 
 ## 사용자 활동 {#user-activities-email}
 
@@ -324,15 +324,15 @@ ht-degree: 41%
 >title="사용자 활동"
 >abstract="**사용자 활동** 그래프에 열람 및 클릭의 분류가 차트 형식으로 표시됩니다. 데이터를 타겟팅할 기간을 마지막 날, 시간 또는 30분 중에서 선택할 수 있습니다."
 
-다음 **[!UICONTROL 사용자 활동]** 보고서는 차트 형태로 열람 및 클릭 수를 분류하여 보여줍니다. 데이터를 타겟팅할 기간을 마지막 날, 시간 또는 30분 중에서 선택할 수 있습니다.
+**[!UICONTROL 사용자 활동]** 보고서는 차트 형식으로 열린 횟수와 클릭수의 분류를 표시합니다. 데이터를 타겟팅할 기간을 마지막 날, 시간 또는 30분 중에서 선택할 수 있습니다.
 
-![](assets/reporting_email_10.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
 
 +++이메일 게재 보고서 지표에 대해 자세히 알아보십시오.
 
-* **[!UICONTROL 클릭수]**: 게재의 총 링크 클릭 수입니다.
+* **[!UICONTROL 클릭 수]**: 게재의 총 링크 클릭 수입니다.
 
-* **[!UICONTROL 열림]**: 이 도메인에 대해 최소 한 번 이상 메시지를 연 고유한 타겟팅된 수신자 수입니다.
+* **[!UICONTROL 열기]**: 메시지를 한 번 이상 연 이 도메인의 개별 대상 받는 사람 수입니다.
 
 +++
 
@@ -345,13 +345,13 @@ ht-degree: 41%
 
 **[!UICONTROL 추적 통계]**: 그래프는 열람 및 클릭에 대한 통계를 제공합니다. 데이터 타겟팅을 위한 특정 시간대를 선택할 수 있는 옵션이 있습니다.
 
-![](assets/reporting_email_11.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
 
 +++이메일 게재 보고서 지표에 대해 자세히 알아보십시오.
 
-* **[!UICONTROL 클릭수]**: 게재의 총 링크 클릭 수입니다.
+* **[!UICONTROL 클릭 수]**: 게재의 총 링크 클릭 수입니다.
 
-* **[!UICONTROL 열림]**: 이 도메인에 대해 최소 한 번 이상 메시지를 연 고유한 타겟팅된 수신자 수입니다.
+* **[!UICONTROL 열기]**: 메시지를 한 번 이상 연 이 도메인의 개별 대상 받는 사람 수입니다.
 
 +++
 
@@ -364,11 +364,11 @@ ht-degree: 41%
 >title="디바이스별 분류"
 >abstract="**디바이스별 분류** 보고서에 관련 기간 동안 디바이스별로 열람의 분류가 표시됩니다. 각 범주별로 두 개의 차트가 사용됩니다. 첫 번째 차트에는 컴퓨터 및 모바일 디바이스에서의 열람과 관련된 통계가 표시됩니다. 두 번째에는 각 디바이스 유형별로 정확한 숫자와 백분율이 표시됩니다."
 
-다음 **장치별 분류** 이 보고서는 개인용 컴퓨터, Android 장치, Apple 장치 또는 기타 장치와 같은 기간에 대한 장치별 열기 분류를 보여줍니다.
+**장치별 분류** 보고서는 개인 컴퓨터, Android 장치, Apple 장치 또는 기타 장치의 기간별 열림 분류를 표시합니다.
 
 각 범주별로 두 개의 차트가 사용됩니다. 첫 번째 차트에는 컴퓨터 및 모바일 디바이스에서의 열람과 관련된 통계가 표시됩니다. 두 번째에는 각 디바이스 유형별로 정확한 숫자와 백분율이 표시됩니다.
 
-![](assets/reporting_email_13.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_13.png){zoomable="yes"}{align="center"}
 
 
 ### OS별 열람수 분류 {#breakdown-opens-os}
@@ -378,11 +378,11 @@ ht-degree: 41%
 >title="운영 체제별 분류"
 >abstract="**OS별 분류** 보고서에는 관련 기간 동안 운영 체제별로 열람의 분류가 표시됩니다. 첫 번째 차트에는 컴퓨터 및 모바일 디바이스에서의 열람과 관련된 통계가 표시됩니다. 두 번째에는 각 운영 체제별로 정확한 숫자와 백분율이 표시됩니다."
 
-다음 **OS별 분류** 이 보고서는 Windows 시스템, Android 시스템, iOS 시스템 또는 기타 운영 체제별 열기 분류를 보여줍니다.
+**OS별 분류** 보고서는 Windows 시스템, Android 시스템, iOS 시스템 또는 기타 운영 체제별 열기 분류를 표시합니다.
 
 각 범주별로 두 개의 차트가 사용됩니다. 첫 번째 화면에 컴퓨터 및 모바일 운영 체제의 열림에 대한 통계가 표시됩니다. 두 번째는 각 운영 체제에 대한 정확한 숫자와 백분율을 표시합니다.
 
-![](assets/reporting_email_13.1.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_13.1.png){zoomable="yes"}{align="center"}
 
 ### 브라우저별 열람수 분류 {#breakdown-opens-browser}
 
@@ -391,11 +391,11 @@ ht-degree: 41%
 >title="브라우저별 분류"
 >abstract="**브라우저별 분류**&#x200B;에는 관련 기간 동안 브라우저별로 열람의 분류가 표시됩니다. 첫 번째 차트에는 컴퓨터 및 모바일 디바이스에서의 열람과 관련된 통계가 표시됩니다. 두 번째에는 각 브라우저별로 정확한 숫자와 백분율이 표시됩니다."
 
-다음 **브라우저별 분류** 보고서는 Chrome, Safari, Internet Explorer 등의 브라우저별 열기 분류를 표시합니다.
+**브라우저별 분류** 보고서는 Chrome, Safari, Internet Explorer 등의 브라우저별 열기 분류를 표시합니다.
 
 각 범주별로 두 개의 차트가 사용됩니다. 첫 번째 화면에 컴퓨터 및 모바일 운영 체제의 열림에 대한 통계가 표시됩니다. 두 번째에는 각 브라우저별로 정확한 숫자와 백분율이 표시됩니다.
 
-![](assets/reporting_email_13.2.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_13.2.png){zoomable="yes"}{align="center"}
 
 
 ## 핫클릭 {#hotclicks}
@@ -407,4 +407,4 @@ ht-degree: 41%
 
 이 보고서에는 메시지 콘텐츠(HTML 및/또는 텍스트)와 각 링크의 링크 클릭 비율이 표시됩니다. 개인 맞춤화 블록, 구독 취소 링크, 미러 페이지 링크 및 오퍼 링크는 총 누적 클릭 수 계산에 포함되지만 보고서에는 표시되지 않습니다.
 
-![](assets/reporting11.png){zoomable=&quot;yes&quot;}
+![](assets/reporting11.png){zoomable="yes"}

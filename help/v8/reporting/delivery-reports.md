@@ -5,8 +5,8 @@ description: 게재 보고서 액세스 및 사용 방법 알아보기
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 45%
+source-wordcount: '262'
+ht-degree: 43%
 
 ---
 
@@ -32,28 +32,28 @@ Adobe Campaign은 각 게재에 대해 액세스할 수 있는 여러 유형의 
 
 보고서를 표시하고 관리하려면 다음 단계를 수행합니다.
 
-1. 특정 게재에 대한 보고서를 생성하려면 **[!UICONTROL 게재]** 메뉴를 선택하고 보고할 게재를 선택합니다.
+1. 특정 게재에 대한 보고서를 생성하려면 **[!UICONTROL 게재]** 메뉴로 이동하여 보고할 게재를 선택하십시오.
 
-1. 출처: **[!UICONTROL 게재]** 대시보드, 클릭 **[!UICONTROL 보고서]**.
+1. **[!UICONTROL 게재]** 대시보드에서 **[!UICONTROL 보고서]**&#x200B;를 클릭합니다.
 
-   ![](assets/manage_delivery_report_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_1.png){zoomable="yes"}
 
-   또는 세 점을 사용할 수 있습니다 **추가 작업** 게재 목록의 게재 이름 옆에 있는 버튼을 클릭하고 을(를) 선택합니다. **[!UICONTROL 보고서 보기]**.
+   또는 게재 목록에서 게재 이름 옆에 있는 세 점 **추가 작업** 단추를 사용하고 **[!UICONTROL 보고서 보기]**&#x200B;를 선택할 수 있습니다.
 
-   ![](assets/manage_delivery_report_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_2.png){zoomable="yes"}
 
 1. 왼쪽 메뉴의 목록에서 보고서를 선택합니다.
 
-   ![](assets/manage_delivery_report_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_3.png){zoomable="yes"}
 
-1. 게재가 반복되는 경우 다음을 클릭하여 보고할 특정 게재를 선택합니다. **[!UICONTROL 게재 선택]**.
+1. 게재가 반복되는 경우 **[!UICONTROL 게재 선택]**&#x200B;을 클릭하여 보고할 특정 게재를 선택하십시오.
 
-   다음을 선택하여 보고서에 기간을 적용할 수도 있습니다. **[!UICONTROL 연락일]**.
+   **[!UICONTROL 연락 날짜]**&#x200B;를 선택하여 보고서에 기간을 적용할 수도 있습니다.
 
-   ![](assets/delivery-recurring.png){zoomable=&quot;yes&quot;}
+   ![](assets/delivery-recurring.png){zoomable="yes"}
 
-1. 다음에서 **[!UICONTROL URL 및 클릭 스트림]**, 다음을 선택할 수도 있습니다. **[!UICONTROL 가장 많이 방문한 링크]** 또는 **[!UICONTROL 기간]**.
+1. **[!UICONTROL URL 및 클릭 스트림]**&#x200B;에서 **[!UICONTROL 가장 많이 방문한 링크]** 또는 **[!UICONTROL 기간]**&#x200B;을 선택할 수도 있습니다.
 
-   다음 **[!UICONTROL 보기 기준]** 옵션을 사용하면 URL, 레이블 또는 범주를 필터링할 수 있습니다.
+   **[!UICONTROL 보기 기준]** 옵션을 사용하면 URL, 레이블 또는 범주를 필터링할 수 있습니다.
 
-   ![](assets/manage_delivery_report_5.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_5.png){zoomable="yes"}

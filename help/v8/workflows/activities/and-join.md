@@ -5,7 +5,7 @@ description: AND-결합 워크플로 활동을 사용하는 방법에 대해 알
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '256'
 ht-degree: 100%
 
 ---
@@ -42,4 +42,4 @@ ht-degree: 100%
 
 다음 예는 이메일 및 SMS 게재가 포함된 두 개의 워크플로 분기를 보여 줍니다. 두 인바운드 전환이 모두 활성화되면 AND-결합이 트리거됩니다. 푸시 알림은 두 게재가 모두 완료된 후에만 전송됩니다.
 
-![](../assets/workflow-andjoin-example.png){zoomable=&quot;yes&quot;}
+![](../assets/workflow-andjoin-example.png){zoomable="yes"}

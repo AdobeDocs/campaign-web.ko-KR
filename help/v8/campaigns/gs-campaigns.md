@@ -30,7 +30,7 @@ Adobe Campaign을 통해 기본 제공 캠페인 관리 기능을 사용하여 �
 다음 섹션에서는 캠페인을 만들고, 관리하고, 모니터링하는 방법을 알아봅니다.
 
 * [캠페인 액세스 및 관리](manage-campaigns.md)
-* [첫 캠페인 만들어 보기](create-campaigns.md)
+* [첫 캠페인 만들기](create-campaigns.md)
 * [캠페인 보고서 찾아보기](../reporting/campaign-reports.md).
 
 

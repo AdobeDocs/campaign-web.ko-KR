@@ -4,10 +4,10 @@ description: 다음 Campaign Web 사용자 인터페이스 릴리스에 포함�
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 717af67bf876c4bb01984f042e57cffa473914af
+source-git-commit: a6248b19263f1da99588d5b70ff68940eadc9390
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 50%
+source-wordcount: '379'
+ht-degree: 55%
 
 ---
 
@@ -22,10 +22,6 @@ Adobe Campaign Web 사용자 인터페이스는 지속적으로 새로운 기능
 **릴리스 날짜**: 2024년 7월 30~31일
 
 7월 릴리스부터 다음 기능 및 개선 사항을 사용할 수 있습니다.
-
-### 표현식 조각 {#24-7-1}
-
-이제 **표현식 조각**&#x200B;을(를) 작성, 사용 및 관리하여 개인화된 콘텐츠를 빠르게 작성할 수 있습니다. 조각은 사전 빌드된 재사용 가능한 구성 요소로서, 향상된 가속화된 디자인 프로세스를 위해 Adobe Campaign의 여러 콘텐츠에서 참조할 수 있습니다.
 
 ### 시드 목록 {#24-7-2}
 
@@ -42,4 +38,26 @@ Adobe Campaign Web 사용자 인터페이스는 지속적으로 새로운 기능
 
 ### 개선 사항 {#improvements-24-7}
 
-* **폴더 관리** - 이제 폴더에 대한 권한 및 제한을 관리할 수 있습니다.
+**폴더 관리** - 이제 폴더에 대한 권한 및 제한을 관리할 수 있습니다.
+
+### 제한 공개된 새로운 기능 {#acs-24-4}
+
+>[!AVAILABILITY]
+>
+>다음 기능은 제한 공개(LA)로 제공됩니다. **Adobe Campaign Standard에서 Adobe Campaign v8로** 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
+>
+>[Campaign Standard에서 Campaign v8로의 전환](../rn/acs-migration.md) 및 [Campaign Standard 사용자를 위한 기능](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ko) 설명서 페이지를 참조하십시오.
+
+#### 컨텐츠 조각 {#LA-24-7}
+
+조각은 사전 빌드된 재사용 가능한 구성 요소로서, 향상된 가속화된 디자인 프로세스를 위해 Adobe Campaign의 여러 콘텐츠에서 참조할 수 있습니다.
+
+* 이제 **표현식 조각**&#x200B;을(를) 작성, 사용 및 관리하여 개인화된 콘텐츠를 빠르게 작성할 수 있습니다.
+
+* 이제 **시각적 조각**&#x200B;을 작성, 사용 및 저장하여 전자 메일과 콘텐츠 템플릿을 빠르게 조합할 수 있습니다. [자세히 알아보기](../email/fragments.md)
+
+
+
+
+
+

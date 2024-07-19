@@ -2,18 +2,15 @@
 audience: end-user
 title: 콘텐츠 조각 만들기
 description: 콘텐츠 조각을 사용하여 만드는 방법 알아보기
-hide: true
-hidefromtoc: true
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: 2d6b885642fbb6e1545f899219db05c156b069c4
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 22%
+source-wordcount: '916'
+ht-degree: 24%
 
 ---
 
 # 콘텐츠 조각 만들기 {#fragments}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
@@ -61,11 +58,14 @@ ht-degree: 22%
 
 ![](assets/fragments.gif)
 
-
 조각을 최대한 활용하려면 다음을 수행하십시오.
 
 * 아래에 자세히 설명된 대로 고유한 시각적 조각을 만듭니다.
 * 이메일 Designer을 통해 콘텐츠에서 필요한 만큼 사용합니다. [전자 메일에 시각적 조각 추가](../email/use-visual-fragments.md)를 참조하십시오.
+
+>[!AVAILABILITY]
+>
+>이 기능은 LA(Limited Availability)에 있습니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 
 ## 시각적 조각 만들기 {#create-fragments}
 

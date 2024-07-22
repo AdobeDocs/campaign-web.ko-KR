@@ -2,7 +2,7 @@
 title: Campaign v8 Web 사용자 인터페이스 릴리스 정보
 description: 최신 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 0c3eb0c20f348442ad28e1e9a801c83d1ab3681f
+source-git-commit: 5b6843e57ac4160d943aac5aca5d86a9b4fa7783
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 100%
@@ -54,22 +54,11 @@ Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대�
 
 이제 **보강** 워크플로 활동에서 다른 테이블과의 링크를 생성할 수 있습니다. 활동 매개변수에서 새로운 **링크 정의** 섹션을 사용하여 작업 테이블 데이터와 Adobe Campaign 데이터베이스 간의 링크를 생성합니다. 예를 들어 수신자의 계정 번호, 국가 및 이메일이 포함된 파일에서 데이터를 로드하는 경우 이제 국가 테이블에 대한 링크를 생성하여 프로필에서 이 정보를 업데이트할 수 있습니다. [자세히 보기](../workflows/activities/enrichment.md#create-links)
 
-<!--
-### Content fragments {#24-5-4}
-
-* You can now author, use, and save **visual fragments** to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process. [Learn more](../email/fragments.md)
-
-* You can now author, use, and manage **expression fragments** to quickly build personalized content. A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.-->
-
-
 ### 일반 개선 사항 {#improvements-24-5}
 
 * **다이렉트 메일** - 이제 표현식 편집기를 활용하여 다이렉트 메일 추출 파일에 표시할 속성을 선택할 수 있습니다. [자세히 보기](../direct-mail/content-direct-mail.md)
 
 * **폴더 관리** - 이제 상위 폴더와 다른 유형의 하위 폴더를 생성할 수 있습니다. [자세히 보기](../get-started/permissions.md#folders)
-
-
-<!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
 
 * **글로벌화** - 통합된 사용자 경험을 제공하기 위한 지속적인 노력의 일환으로 Adobe Experience Cloud 제품 및 앱에서 사용되는 용어가 통합되었습니다. 이는 오브젝트의 이름과 관련될 때 “레이블”로 변경되는 독일어 용어 “Titel”에 영향을 미칩니다. 변경 사항은 UI와 설명서에 점진적으로 적용됩니다.
 
@@ -125,22 +114,15 @@ Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대�
 ### 일반 개선 사항 {#improvements-24-4}
 
 아래의 개선 사항은 4월 릴리스부터 모든 고객이 이용할 수 있습니다.
-<!--**Workflow - Copy/Paste into another tab**: -->
 
 * **파일 로드** 활동은 작업을 실행한 후 샘플 파일을 업로드하고 오류 및 거부를 관리하며 업로드된 파일을 삭제할 수 있는 여러 섹션으로 향상되었습니다. [자세히 보기](../workflows/activities/load-file.md)
 
 
 * 이제 다른 브라우저 탭에서 한 워크플로의 활동을 다른 워크플로로 **복사/붙여넣기**&#x200B;할 수 있습니다. [자세히 보기](../workflows/orchestrate-activities.md#copy-activities-copy)
 
-<!--**Workflow - Execution options**: -->
-
 * 이제 모든 워크플로 활동을 통해 **실행 옵션**&#x200B;을 관리할 수 있습니다. 이를 통해 오류 발생 시 활동의 실행 모드 및 동작을 정의할 수 있습니다. [자세히 보기](../workflows/orchestrate-activities.md#execution-options-execution)
 
-<!-- **Workflow - Split Activity - Support Skipping Empty Transition**: -->
-
 * **분할 활동**&#x200B;의 “모집단이 비어 있는 경우 전환을 활성화하지 않음” 옵션을 사용하면 세그먼트 결과가 비어 있는 경우 워크플로를 다음 활동으로 전환할지 여부를 선택할 수 있습니다. [자세히 보기](../workflows/activities/split.md)
-
-
 
 ## 3월 릴리스 정보 {#24-3-release}
 

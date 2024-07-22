@@ -4,7 +4,7 @@ description: 다음 Campaign Web 사용자 인터페이스 릴리스에 포함�
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 644bd84a5f7f37b1584b1d9477c77ff63ddc1ef9
+source-git-commit: f8bdb15151774b33a0bcf16e86347dae6ab417a2
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 39%
@@ -23,7 +23,7 @@ Adobe Campaign Web 사용자 인터페이스는 지속적으로 새로운 기능
 
 7월 릴리스부터 다음 기능 및 개선 사항을 사용할 수 있습니다.
 
-#### 컨텐츠 조각 {#24-7-1}
+### 컨텐츠 조각 {#24-7-1}
 
 이제 콘텐츠 조각을 만들고 사용할 수 있습니다. 콘텐츠 조각은 하나 이상의 메시지에서 참조할 수 있는 재사용 가능한 구성 요소입니다. 조각을 수정할 때 조각을 사용하는 모든 콘텐츠가 업데이트됩니다. 이 기능을 사용하면 마케팅 사용자가 메시지 콘텐츠를 신속하게 취합하는 데 사용할 수 있는 여러 사용자 지정 콘텐츠 블록을 미리 빌드할 수 있습니다. 디자인 프로세스를 개선하십시오.
 

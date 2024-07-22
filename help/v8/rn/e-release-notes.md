@@ -4,10 +4,10 @@ description: 다음 Campaign Web 사용자 인터페이스 릴리스에 포함�
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: d4f9f3562f7dc2550bf9fea01f27456fdfdad43e
+source-git-commit: 644bd84a5f7f37b1584b1d9477c77ff63ddc1ef9
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 46%
+source-wordcount: '401'
+ht-degree: 39%
 
 ---
 
@@ -23,32 +23,7 @@ Adobe Campaign Web 사용자 인터페이스는 지속적으로 새로운 기능
 
 7월 릴리스부터 다음 기능 및 개선 사항을 사용할 수 있습니다.
 
-### 시드 목록 {#24-7-2}
-
-시드 목록이라고도 합니다. **트랩 그룹**&#x200B;은 시드 주소 목록입니다. 게재에 특정 주소를 포함시킨 다음 정의된 대상 기준과 일치하지 않는 프로필을 타겟팅하는 데 사용됩니다. 이렇게 하면 게재 대상자에 포함되지 않은 수신자가 다른 대상 수신자와 마찬가지로 게재를 수신할 수 있습니다. 시드 주소를 사용하여 증명을 보내거나 메일링 목록을 보호할 수 있습니다.
-
-### 리치 푸시 알림 템플릿 {#24-7.3}
-
-이제 리치 푸시 알림을 전송할 수 있습니다. 리치 푸시 알림은 이미지, 대화형 버튼 또는 기타 리치 미디어 컨텐츠와 같은 멀티미디어 요소를 통합하여 간단한 텍스트 메시지를 넘어 향상된 형태의 모바일 알림입니다. 이 버전에서는 이제 iOS 및 Android 앱에서 리치 푸시 알림에 대한 템플릿 세트를 사용할 수 있습니다.
-
->[!AVAILABILITY]
->
->이 기능을 사용하려면 Campaign v8.6.3 또는 v8.7.2를 업데이트해야 합니다. [Campaign 클라이언트 콘솔 릴리스 정보에서 자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes)
-
-
-### 개선 사항 {#improvements-24-7}
-
-**폴더 관리** - 이제 폴더에 대한 권한 및 제한을 관리할 수 있습니다.
-
-### 제한 공개된 새로운 기능 {#acs-24-4}
-
->[!AVAILABILITY]
->
->다음 기능은 제한 공개(LA)로 제공됩니다. **Adobe Campaign Standard에서 Adobe Campaign v8로** 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
->
->[Campaign Standard에서 Campaign v8로의 전환](../rn/acs-migration.md) 및 [Campaign Standard 사용자를 위한 기능](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ko) 설명서 페이지를 참조하십시오.
-
-#### 컨텐츠 조각 {#LA-24-7}
+#### 컨텐츠 조각 {#24-7-1}
 
 이제 콘텐츠 조각을 만들고 사용할 수 있습니다. 콘텐츠 조각은 하나 이상의 메시지에서 참조할 수 있는 재사용 가능한 구성 요소입니다. 조각을 수정할 때 조각을 사용하는 모든 콘텐츠가 업데이트됩니다. 이 기능을 사용하면 마케팅 사용자가 메시지 콘텐츠를 신속하게 취합하는 데 사용할 수 있는 여러 사용자 지정 콘텐츠 블록을 미리 빌드할 수 있습니다. 디자인 프로세스를 개선하십시오.
 
@@ -60,3 +35,19 @@ Adobe Campaign Web 사용자 인터페이스는 지속적으로 새로운 기능
   >[!AVAILABILITY]
   >
   >**시각적 조각**&#x200B;이 LA(제한된 가용성)에 있습니다. 이 기능은 **을(를) Adobe Campaign Standard에서 Adobe Campaign v8**(으)로 마이그레이션하는 고객으로 제한되며 다른 환경에 배포할 수 없습니다.
+
+### 시드 목록 {#24-7-2}
+
+시드 목록이라고도 합니다. **트랩 그룹**&#x200B;은 시드 주소 목록입니다. 게재에 특정 주소를 포함시킨 다음 정의된 대상 기준과 일치하지 않는 프로필을 타겟팅하는 데 사용됩니다. 이렇게 하면 게재 대상자에 포함되지 않은 수신자가 다른 대상 수신자와 마찬가지로 게재를 수신할 수 있습니다. 시드 주소를 사용하여 증명을 보내거나 메일링 목록을 보호할 수 있습니다.
+
+### 리치 푸시 알림 템플릿 {#24-7-3}
+
+이제 리치 푸시 알림을 전송할 수 있습니다. 리치 푸시 알림은 이미지, 대화형 버튼 또는 기타 리치 미디어 컨텐츠와 같은 멀티미디어 요소를 통합하여 간단한 텍스트 메시지를 넘어 향상된 형태의 모바일 알림입니다. 이 버전에서는 이제 iOS 및 Android 앱에서 리치 푸시 알림에 대한 템플릿 세트를 사용할 수 있습니다.
+
+>[!AVAILABILITY]
+>
+>이 기능을 사용하려면 Campaign v8.6.3 또는 v8.7.2로 업데이트해야 합니다. [Campaign v8 클라이언트 콘솔 릴리스 정보](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes)에서 자세히 알아보기
+
+### 개선 사항 {#improvements-24-7}
+
+**폴더 관리** - 이제 폴더에 대한 권한 및 제한을 관리할 수 있습니다.

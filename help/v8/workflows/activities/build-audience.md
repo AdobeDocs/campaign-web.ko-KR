@@ -3,9 +3,9 @@ audience: end-user
 title: 대상자 빌드 워크플로 활동 사용
 description: 대상자 빌드 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: b34b8e95e9fce265de96335f3d7d22aab84a0350
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '392'
 ht-degree: 70%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 70%
 
 * 클라이언트 콘솔의 목록으로 생성된 기존 대상자를 선택합니다.
 * Adobe Experience Platform 대상자를 선택합니다.
-* 필터링 기준을 정의하고 결합하여 쿼리 모델러 빌더로 새 대상을 작성합니다.
+* 필터링 기준을 정의하고 결합하여 쿼리 모델러로 새 대상을 작성합니다.
 
 >[!NOTE]
 >

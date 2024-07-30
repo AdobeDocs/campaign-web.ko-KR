@@ -1,6 +1,6 @@
 ---
-title: 다이내믹 콘텐츠 시작
-description: 개인화, 조건부 콘텐츠 및 내장된 콘텐츠 블록을 사용하여 다이내믹 콘텐츠를 만드는 방법에 대해 알아봅니다.
+title: 다이내믹 콘텐츠를 만드는 방법은?
+description: 개인화 및 조건부 콘텐츠를 사용하여 콘텐츠를 동적으로 만드는 방법에 대해 알아봅니다.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -9,19 +9,19 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 100%
+source-wordcount: '532'
+ht-degree: 91%
 
 ---
 
-# 다이내믹 콘텐츠 시작 {#gs-dynamic-content}
+# 다이내믹 콘텐츠를 만드는 방법은? {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
 >title="개인화"
->abstract="표현식 편집기를 통해 모든 데이터를 선택하고, 배열하고, 사용자 정의하고 검증하여 개인 맞춤화 콘텐츠를 경험할 수 있습니다. 프로필 데이터를 활용하여 각 수신자에 맞게 메시지를 개인화하고, 조건부 콘텐츠를 생성하여 각 수신자에 맞게 메시지를 적응하고 관련 콘텐츠만 표시할 수 있습니다. 또한 개인화 블록을 사용하여 미리 정의되고 개인화된 콘텐츠를 게재에 추가할 수 있습니다."
+>abstract="표현식 편집기를 통해 모든 데이터를 선택하고, 배열하고, 사용자 정의하고 검증하여 개인 맞춤화 콘텐츠를 경험할 수 있습니다. 프로필 데이터를 활용하여 각 수신자에게 메시지를 개인화하고, 조건부 콘텐츠를 만들어 각 수신자에게 메시지를 적용하고 관련 있는 콘텐츠만 표시할 수 있습니다."
 
 마케팅 담당자는 당사의 서비스에 관심이 있는 고객을 대상으로 효과적인 관련 콘텐츠를 제공하여 고객 참여를 유도하는 것이 중요합니다. 수신자의 범위가 다양하므로 여러 사용자에게 흥미를 일으키는 다양한 마케팅 콘텐츠를 만드는 데 오랜 시간이 걸릴 수 있습니다. 여기에서 다이내믹 콘텐츠가 필요합니다.
 
@@ -38,10 +38,6 @@ Campaign Web 표현식 편집기에 JavaScript 구성을 삽입하여 메시지 
 * **조건부 콘텐츠 만들기** 각 수신자에 맞게 게재를 조정하고 고객에 대한 정보를 기반으로 특정 고객과 관련된 콘텐츠만 표시합니다. 이를 통해 조건에 &#x200B;&#x200B;따라 특정 텍스트 블록 및/또는 이미지를 표시할 수 있습니다. 예를 들어 특정 서비스에 대한 수신자 구독을 기반으로 이메일 배너를 조정합니다.
 
   ![](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
-
-* **개인화 블록 사용** 시간을 절약하고 쉽게 재사용 가능한 개인화된 콘텐츠를 메시지에 활용할 수 있습니다. Campaign에는 게재에 삽입할 수 있는 특정 렌더링이 포함된 개인화 블록 세트가 제공됩니다. 예를 들어 로고, 인사말 메시지 또는 이메일 메시지 미러 페이지에 대한 링크를 추가할 수 있습니다. 콘텐츠 블록은 개인화 편집기의 전용 항목에서 사용할 수 있습니다.
-
-  ![](assets/content-blocks.png){zoomable="yes"}{width="800" align="center"}
 
 ## 표현식 편집기에 액세스 {#access}
 
@@ -64,35 +60,3 @@ Adobe Campaign Web에서 제공하는 표현식 편집기를 통해 모든 데�
 >[!NOTE]
 >
 >이메일을 디자인할 때는 표현식 편집기 외에 전용 조건부 콘텐츠 빌더를 활용할 수도 있습니다. [이메일의 조건부 콘텐츠를 빌드하는 방법 알아보기](conditions.md)
-
-## 더 자세히 알아보기 {#dive-deeper}
-
-다이내믹 콘텐츠를 만드는 방법을 이해했으므로 이제 해당 설명서 섹션을 자세히 살펴보고 기능을 사용하여 작업을 시작할 차례입니다.
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<a href="personalize.md">
-<img alt="콘텐츠 개인화" src="assets/do-not-localize/dynamic-personalization.jpg">
-</a>
-<div>
-<a href="personalize.md"><strong>개인화 추가</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="conditions.md">
-<img alt="리드" src="assets/do-not-localize/dynamic-conditional.jpg">
-</a>
-<div><a href="conditions.md"><strong>조건부 콘텐츠 추가</strong>
-</div>
-<p>
-</td>
-<td>
-<a href="content-blocks.md">
-<img alt="저빈도" src="assets/do-not-localize/dynamic-content-blocks.jpg">
-</a>
-<div>
-<a href="content-blocks.md"><strong>내장된 콘텐츠 블록 추가</strong></a>
-</div>
-<p></td>
-</tr></table>

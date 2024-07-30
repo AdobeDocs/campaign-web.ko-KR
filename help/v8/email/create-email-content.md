@@ -3,10 +3,10 @@ audience: end-user
 title: 이메일 디자이너에서 이메일 디자인
 description: 이메일 콘텐츠를 처음부터 디자인하는 방법 알아보기
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 71%
+source-wordcount: '620'
+ht-degree: 66%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="구조 추가"
->abstract="구조는 조각 레이아웃을 정의합니다. **구조** 구성 요소를 캔버스로 드래그 앤 드롭하여 조각 콘텐츠 디자인을 시작할 수 있습니다."
+>abstract="구조는 콘텐츠 조각의 레이아웃을 정의합니다. **구조** 구성 요소를 캔버스로 드래그 앤 드롭하여 조각 콘텐츠 디자인을 시작할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
@@ -45,8 +45,8 @@ ht-degree: 71%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="조각 열 정의"
->abstract="이메일 디자이너를 통해 열 구조를 정의하여 조각 레이아웃을 쉽게 정의할 수 있습니다."
+>title="콘텐츠 조각 열 정의"
+>abstract="이메일 Designer을 사용하면 열 구조를 정의하여 컨텐츠 조각의 레이아웃을 쉽게 정의할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"

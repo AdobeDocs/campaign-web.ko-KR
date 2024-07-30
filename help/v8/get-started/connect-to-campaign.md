@@ -2,10 +2,10 @@
 title: Adobe Campaign 웹 인터페이스에 연결
 description: Adobe Campaign Web 사용자 인터페이스에 접속하는 방법 알아보기
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 100%
+source-wordcount: '845'
+ht-degree: 97%
 
 ---
 
@@ -47,6 +47,51 @@ Campaign 컨트롤 패널을 포함한 여러 환경에 액세스할 수 있는 
 ![](assets/launch-campaign.png){zoomable="yes"}
 
 이제 Campaign에 연결되었습니다. [이 페이지](user-interface.md)에서 사용자 인터페이스 사용 방법에 대해 알아보십시오.
+
+### 액세스 제어 {#access-control}
+
+>[!CONTEXTUALHELP]
+>id="acw_explorer_permissions_create"
+>title="권한 필요"
+>abstract="오브젝트를 만들려면 먼저 관리자가 권한을 부여해야 합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_read_only"
+>title="이 대상자는 읽기 전용입니다."
+>abstract="이 대상자를 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
+
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="이 서비스는 읽기 전용입니다."
+>abstract="이 서비스를 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="수신자 읽기 전용 프로필"
+>abstract="이 프로필을 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="이 캠페인은 읽기 전용입니다."
+>abstract="이 캠페인을 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="이 게재는 읽기 전용입니다."
+>abstract="이 게재를 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="이 워크플로는 읽기 전용입니다."
+>abstract="이 워크플로를 편집할 권한이 없습니다. 필요한 경우 관리자에게 액세스 권한을 요청하십시오."
+
+액세스 제어를 통해 게재, 수신자 또는 워크플로와 같은 주요 목록의 오브젝트 및 데이터에 대한 액세스를 제한할 수 있습니다. 이러한 제한 사항은 Explorer의 탐색 트리에도 적용됩니다. 또한 사용자 인터페이스에서 오브젝트를 생성, 삭제, 복제 및 편집하려면 권한이 필요합니다.
+
+Campaign Web의 모든 권한은 Campaign 클라이언트 콘솔 권한과 동기화됩니다. Campaign 관리자만 사용자 권한을 정의하고 수정할 수 있습니다.
+
+Campaign Web 사용자 인터페이스를 탐색할 때 주어진 권한에 따라 데이터, 오브젝트 및 기능에 액세스할 수 있습니다. 예를 들어 폴더에 대한 액세스 권한이 없으면 해당 폴더를 볼 수 없습니다. 권한은 오브젝트 및 데이터 관리에도 영향을 미칩니다. 특정 폴더에 대한 쓰기 권한이 없으면 사용자 인터페이스에서 표시되더라도 해당 폴더에서 게재를 생성할 수 없습니다.
+
+여기에서 [권한을 보고 관리하는 방법](permissions.md)을 배울 수 있습니다.
 
 ## Adobe Experience Cloud 상단 탐색 인터페이스 {#top-bar}
 

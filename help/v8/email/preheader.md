@@ -3,7 +3,7 @@ audience: end-user
 title: 이메일 디자이너에서 프리 헤더 추가
 description: 이메일 콘텐츠 디자인 방법 알아보기
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 47%
@@ -39,7 +39,7 @@ ht-degree: 47%
 
    ![](assets/preheader_body_settings.png){zoomable="yes"}
 
-1. **[!UICONTROL Personalization 편집]** 창에서 왼쪽의 전용 항목을 사용하여 [개인화 필드](../personalization/personalize.md), [콘텐츠 블록](../personalization/content-blocks.md) 및 [조건부 콘텐츠](../personalization/conditions.md)를 추가할 수 있습니다.
+1. **[!UICONTROL Personalization 편집]** 창에서 왼쪽의 전용 항목을 사용하여 [개인화 필드](../personalization/personalize.md), [표현식 조각](../content/use-expression-fragments.md) 및 [조건부 콘텐츠](../personalization/conditions.md)를 추가할 수 있습니다.
 
    ![](assets/preheader_body_personalization.png){zoomable="yes"}
 

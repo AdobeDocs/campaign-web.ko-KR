@@ -3,7 +3,7 @@ audience: end-user
 title: 이메일 콘텐츠 편집
 description: Campaign 웹 사용자 인터페이스에서 이메일 콘텐츠를 편집하는 방법을 알아봅니다
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 45%
@@ -73,7 +73,7 @@ ht-degree: 45%
 
    ![](assets/email-edit-content-reply-to.png){zoomable="yes"}
 
-1. 이메일 **[!UICONTROL 제목 줄]**&#x200B;을 정의합니다. 제목을 전용 필드에 직접 입력하거나 표현식 편집기를 열어 다양한 특성 및 콘텐츠 블록 또는 오퍼를 사용하여 [개인화](../personalization/personalize.md)를 추가하십시오.
+1. 이메일 **[!UICONTROL 제목 줄]**&#x200B;을 정의합니다. 제목을 전용 필드에 직접 입력하거나 표현식 편집기를 열어 다양한 특성 및 표현식 조각 또는 오퍼를 사용하여 [개인화](../personalization/personalize.md)를 추가하십시오.
 
 1. 이메일에 파일을 첨부하려면 **[!UICONTROL 첨부 파일 추가]** 버튼을 클릭한 다음 하나 이상의 파일을 선택합니다.
 

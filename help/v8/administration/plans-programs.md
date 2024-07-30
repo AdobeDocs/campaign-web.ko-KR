@@ -3,7 +3,7 @@ audience: end-user
 title: 플랜 및 프로그램
 description: Adobe Campaign에서 계획 및 프로그램을 만들고 구성하는 방법에 대해 알아봅니다
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 10%
@@ -28,7 +28,7 @@ Adobe 이를 보다 효율적으로 구성하려면 다음 계층을 권장합�
 
 ## 플랜 만들기 및 구성 {#create-plan}
 
-플랜을 만들려면 폴더 유형이 **[!UICONTROL 플랜]**&#x200B;인 폴더를 만들어야 합니다. [폴더 만들기에 대해 자세히 알아보기](create-manage-folder.md).
+플랜을 만들려면 폴더 유형이 **[!UICONTROL 플랜]**&#x200B;인 폴더를 만들어야 합니다. [폴더 만들기에 대해 자세히 알아보기](../get-started/work-with-folders.md).
 
 ![](assets/plan_create.png){zoomable="yes"}
 
@@ -54,7 +54,7 @@ Adobe 이를 보다 효율적으로 구성하려면 다음 계층을 권장합�
 
 ## 프로그램 만들기 및 구성
 
-플랜에 프로그램을 만들려면([플랜 만들기에 대해 자세히 알아보기](#create-plan)) 플랜에 있는 폴더 유형 **[!UICONTROL 프로그램]**&#x200B;을(를) 사용하여 폴더를 만들어야 합니다. [폴더 만들기에 대해 자세히 알아보기](create-manage-folder.md).
+플랜에 프로그램을 만들려면([플랜 만들기에 대해 자세히 알아보기](#create-plan)) 플랜에 있는 폴더 유형 **[!UICONTROL 프로그램]**&#x200B;을(를) 사용하여 폴더를 만들어야 합니다. [폴더 만들기에 대해 자세히 알아보기](../get-started/work-with-folders.md).
 
 ![](assets/program_create.png){zoomable="yes"}
 

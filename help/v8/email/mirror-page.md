@@ -3,10 +3,10 @@ audience: end-user
 title: 미러 페이지에 대한 링크 추가
 description: 미러 페이지에 대한 링크를 추가하고 관리하는 방법 알아보기
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 96%
+source-wordcount: '433'
+ht-degree: 92%
 
 ---
 
@@ -36,11 +36,9 @@ Adobe Campaign에서는 전용 **개인 맞춤화 블록**&#x200B;을 사용하�
 
    ![](assets/message-tracking-mirror-page_2.png){zoomable="yes"}
 
-1. **[!UICONTROL 콘텐츠 블록]** 메뉴에서 **[!UICONTROL 미러 페이지 URL]**&#x200B;을 선택한 다음 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 조각]** 메뉴에서 **[!UICONTROL 미러 페이지 URL]**&#x200B;을(를) 선택하고 **[!UICONTROL 추가]**&#x200B;를 클릭합니다. [식 조각 사용 방법 알아보기](../content/use-expression-fragments.md)
 
    ![](assets/message-tracking-mirror-page_3.png){zoomable="yes"}
-
-   사용자 정의 콘텐츠 블록 삽입에 대한 자세한 내용은 [이 섹션](../personalization/personalize.md#personalize-emails)을 참조하십시오.
 
 미러 페이지가 자동으로 생성됩니다.
 

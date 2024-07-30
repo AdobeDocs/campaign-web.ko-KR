@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 98%
+source-wordcount: '741'
+ht-degree: 94%
 
 ---
 
@@ -27,7 +27,8 @@ ht-degree: 98%
    + [인터페이스 살펴보기](get-started/user-interface.md)
    + [목록 찾아보기 및 필터링](get-started/list-filters.md)
    + [미리 정의된 필터 작업](get-started/predefined-filters.md)
-   + [액세스 및 권한](get-started/permissions.md)
+   + [폴더 작업](get-started/work-with-folders.md)
+   + [사용 권한](get-started/permissions.md)
    + [Campaign Web 및 클라이언트 콘솔](get-started/capability-matrix.md)
    + [Campaign Standard에서 v8로의 전환](rn/acs-migration.md)
    + [AI 기반 상황별 도움말](get-started/using-ai.md)
@@ -37,30 +38,7 @@ ht-degree: 98%
    + [게재 템플릿 사용](msg/delivery-template.md)
    + 이메일 {#email}
       + [첫 이메일 만들기](email/create-email.md)
-      + 이메일 콘텐츠 정의 {#content}
-         + [이메일 콘텐츠 구성](email/edit-content.md)
-         + 재사용 가능한 콘텐츠 관리 {#manage-reusable-content}
-            + [콘텐츠 템플릿으로 작업](email/create-email-templates.md)
-            + [시각적 조각으로 작업](email/fragments.md)
-            + [이메일에 시각적 조각 추가](email/use-visual-fragments.md)
-         + 이메일 구성 시작 {#start-design}
-            + [이메일 디자이너 시작](email/get-started-email-designer.md)
-            + [처음부터 시작하기](email/create-email-content.md)
-            + [이메일 콘텐츠 가져오기](email/existing-content.md)
-            + [자체 콘텐츠 코딩](email/code-content.md)
-            + [이메일 콘텐츠 템플릿 사용](email/use-email-templates.md)
-         + 이메일 콘텐츠 디자인 {#design-content}
-            + [콘텐츠 구성 요소 사용](email/content-components.md)
-            + [링크 추가 및 메시지 추적](email/message-tracking.md)
-            + [미러 페이지에 대한 링크 추가](email/mirror-page.md)
-            + [프리 헤더 추가](email/preheader.md)
-            + [텍스트 버전 생성](email/text-version-email.md)
-         + 콘텐츠 스타일 지정 {#style}
-            + [이메일 스타일 시작하기](email/get-started-email-style.md)
-            + [배경 설정 편집](email/backgrounds.md)
-            + [수직 정렬 및 패딩 조정](email/alignment-and-padding.md)
-            + [링크 스타일 정의](email/styling-links.md)
-            + [인라인 스타일 속성 추가](email/inline-styling.md)
+      + [이메일 콘텐츠 구성](email/edit-content.md)
       + 이메일 전송 및 모니터링 {#monitor}
          + [이메일 준비 및 전송](monitor/prepare-send.md)
          + [예약된 일괄 처리를 사용해 보내기](advanced-settings/send-using-waves.md)
@@ -89,11 +67,6 @@ ht-degree: 98%
       + [AI 어시스턴트로 이메일 생성](email/generative-content.md)
       + [AI 어시스턴트와 함께하는 SMS 세대](email/generative-sms.md)
       + [AI 어시스턴트로 푸시 알림 생성](email/generative-push.md)
-   + 다이내믹 콘텐츠 만들기 {#dynamic-content}
-      + [다이내믹 콘텐츠 시작](personalization/gs-personalization.md)
-      + [개인화 추가](personalization/personalize.md)
-      + [조건부 콘텐츠 작성](personalization/conditions.md)
-      + [내장된 콘텐츠 블록 추가](personalization/content-blocks.md)
    + [메시지에 오퍼 추가](msg/offers.md)
    + [구독자에게 메시지 전송](msg/send-to-subscribers.md)
    + [게재 설정 구성](advanced-settings/delivery-settings.md)
@@ -106,6 +79,37 @@ ht-degree: 98%
       + [게재 경고 시작하기](msg/delivery-alerting.md)
       + [게재 경고 대시보드](msg/delivery-alerting-dashboards.md)
       + [게재 경고 기준](msg/delivery-alerting-criteria.md)
++ 콘텐츠 관리 {#content}
+   + 동적 콘텐츠 {#dynamic-content} 만들기
+      + [다이내믹 콘텐츠를 만드는 방법은?](personalization/gs-personalization.md)
+      + [개인화 추가](personalization/personalize.md)
+      + [조건부 콘텐츠 작성](personalization/conditions.md)
+   + {#manage-reusable-content} 콘텐츠 재사용
+      + [콘텐츠 템플릿으로 작업](email/create-email-templates.md)
+      + 콘텐츠 조각 {#fragments}
+         + [콘텐츠 조각 시작](content/fragments.md)
+         + [컨텐츠 조각 만들기 및 편집](content/create-fragment.md)
+         + [이메일에 시각적 조각 사용](content/use-visual-fragments.md)
+         + [표현식 편집기에서 표현식 조각 사용](content/use-expression-fragments.md)
+   + 전자 메일 {#email-design} 디자인
+      + [이메일 디자이너 시작](email/get-started-email-designer.md)
+      + 이메일 구성 시작 {#start-design}
+         + [처음부터 시작하기](email/create-email-content.md)
+         + [이메일 콘텐츠 가져오기](email/existing-content.md)
+         + [자체 콘텐츠 코딩](email/code-content.md)
+         + [이메일 콘텐츠 템플릿 사용](email/use-email-templates.md)
+      + 이메일 콘텐츠 디자인 {#design-content}
+         + [콘텐츠 구성 요소 사용](email/content-components.md)
+         + [링크 추가 및 메시지 추적](email/message-tracking.md)
+         + [미러 페이지에 대한 링크 추가](email/mirror-page.md)
+         + [프리 헤더 추가](email/preheader.md)
+         + [텍스트 버전 생성](email/text-version-email.md)
+      + 콘텐츠 스타일 지정 {#style}
+         + [이메일 스타일 시작하기](email/get-started-email-style.md)
+         + [배경 설정 편집](email/backgrounds.md)
+         + [수직 정렬 및 패딩 조정](email/alignment-and-padding.md)
+         + [링크 스타일 정의](email/styling-links.md)
+         + [인라인 스타일 속성 추가](email/inline-styling.md)
 + 랜딩 페이지 {#landing-pages}
    + [랜딩 페이지 시작](landing-pages/get-started-lp.md)
    + [랜딩 페이지 만들기 및 게시하기](landing-pages/create-lp.md)
@@ -210,5 +214,4 @@ ht-degree: 98%
    + [Adobe Experience Manager as a Cloud Service로 템플릿 관리](integrations/aem-content.md)
 + 구성 {#conf}
    + [사용자 정의 필드 구성](administration/custom-fields.md)
-   + [폴더 만들기 및 관리](administration/create-manage-folder.md)
-+ [Campaign v8(콘솔) 설명서 >](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/campaign-home)
++ [Campaign v8 (콘솔) 설명서 >](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/campaign-home)

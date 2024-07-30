@@ -2,22 +2,14 @@
 title: 사용자 정의 필드
 description: 사용자 정의 필드를 구성하는 방법 알아보기
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 19%
+source-wordcount: '225'
+ht-degree: 8%
 
 ---
 
 # 사용자 정의 필드 구성 {#custom-fields}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="사용자 정의 필드"
->abstract="사용자 정의 필드는 Adobe Campaign 콘솔을 통해 기본 스키마에 추가되는 추가 속성입니다. 이제 웹 사용자 인터페이스에서 사용할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko-KR" text="릴리스 정보 참조"
-
-
 
 사용자 정의 필드는 Adobe Campaign 콘솔을 통해 기본 스키마에 추가되는 추가 속성입니다. 자세한 내용은 [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}를 참조하세요.
 

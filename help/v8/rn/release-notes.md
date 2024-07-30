@@ -2,7 +2,7 @@
 title: Campaign v8 Web 사용자 인터페이스 릴리스 정보
 description: 최신 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 1b7d58e33860ae21a7340594556b179f19eb8637
 workflow-type: tm+mt
 source-wordcount: '1938'
 ht-degree: 99%
@@ -52,7 +52,6 @@ Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대�
 ### 개선 사항 {#improvements-24-7}
 
 **폴더 관리** - 이제 폴더에 대한 권한과 제한 사항을 관리할 수 있습니다.
-
 
 ## 6월 릴리스 정보 {#24-6-release}
 

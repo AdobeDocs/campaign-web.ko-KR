@@ -3,7 +3,7 @@ audience: end-user
 title: 폴더 작업
 description: Adobe Campaign에서 폴더를 관리하는 방법 알아보기
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 12%
@@ -40,12 +40,12 @@ ht-degree: 12%
 
 ![](assets/folders.png){zoomable="yes"}
 
-폴더 유형을 설정할 수 있습니다. 예: 게재 폴더
+폴더 유형을 설정할 수 있습니다. 예: 게재 폴더.
 폴더의 아이콘은 이 유형에 따라 변경됩니다.
 
 ## 새 폴더 만들기
 
-Adobe Campaign Web UI에 새 폴더를 만들려면 다음 단계를 수행합니다.
+Adobe Campaign Web UI에 새 폴더를 만들려면 다음 단계를 수행하십시오.
 
 1. **[!UICONTROL 탐색기]**에서 새 폴더를 만들 폴더로 이동합니다.
 **[!UICONTROL ..]** 메뉴 아래에 **[!UICONTROL 새 폴더 만들기]**&#x200B;가 있습니다.

@@ -3,7 +3,7 @@ audience: end-user
 title: 격리 기본 정보
 description: 격리 주소 관리 이해
 exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
-source-git-commit: 42e5f3b0ab5d31389b7a9d0544d3d265ec70fffc
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Adobe Campaign에서 주소가 격리되면 게재 분석 중에 프로필이 �
 
 ## 주소가 격리되는 이유
 
-여러 가지 이유로 인해 주소가 격리될 수 있습니다.
+다음과 같은 여러 가지 이유로 주소가 격리될 수 있습니다.
 
 - SMS의 경우, 잘못된 전화번호
 - SMS의 경우, 프로필이 &quot;STOP&quot;과 같은 키워드를 사용하여 SMS 메시지에 회신할 때

@@ -4,7 +4,7 @@ title: 감사 추적
 description: Campaign 감사 추적을 사용하여 인스턴스를 모니터링하는 방법 알아보기
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: 0fe12b469810c946ab0b9472e9a877aaaa41581d
+source-git-commit: 7db11ee2578502a5b8f86660c7adecc07483a169
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 6%
@@ -14,7 +14,7 @@ ht-degree: 6%
 # 감사 추적{#audit-trail}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
+>id="acw_homepage_welcome_rn5"
 >title="감사 추적"
 >abstract="새로운 감사 추적 기능은 Adobe Campaign 인스턴스에 발생한 모든 액션과 이벤트에 대한 자세한 시간순 기록을 실시간으로 제공합니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko-KR" text="릴리스 정보 참조"
@@ -92,11 +92,11 @@ Adobe Campaign 웹 사용자 인터페이스에서 **[!UICONTROL 감사 추적]*
 
 1. **[!UICONTROL 감사 엔터티]** 창은 다음과 같이 선택한 엔터티에 대한 자세한 정보를 제공합니다.
 
-   * **[!UICONTROL 유형]** : 워크플로, 옵션, 게재 또는 스키마.
-   * **[!UICONTROL 엔터티]** : 활동의 내부 이름입니다.
-   * **[!UICONTROL 수정자]** : 이 엔터티를 마지막으로 수정한 사람의 사용자 이름입니다.
-   * **[!UICONTROL 작업]** : 이 엔터티에서 마지막으로 수행된 작업(생성됨, 수정됨 또는 삭제됨)입니다.
-   * **[!UICONTROL 수정 날짜]** : 이 엔터티에서 마지막으로 수행한 작업의 날짜입니다.
+   * **[!UICONTROL 유형]**: 워크플로, 옵션, 게재 또는 스키마.
+   * **[!UICONTROL 엔터티]**: 활동의 내부 이름입니다.
+   * **[!UICONTROL 수정한 사람]**: 이 엔터티를 마지막으로 수정한 사람의 사용자 이름입니다.
+   * **[!UICONTROL Action]**: 이 엔터티에서 마지막으로 수행한 작업이 생성, 수정 또는 삭제되었습니다.
+   * **[!UICONTROL 수정 날짜]**: 이 엔터티에서 마지막으로 수행한 작업의 날짜입니다.
 
    코드 블록은 엔티티에서 정확히 변경된 사항에 대한 자세한 정보를 제공합니다.
 

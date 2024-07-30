@@ -3,7 +3,7 @@ audience: end-user
 title: 게재 전송 예약
 description: 게재 예약 방법 알아보기
 exl-id: 0738a148-d550-41c2-a8c2-6054684ba789
-source-git-commit: 89633454bb3de1ac05d37d767df45d9d143c80b5
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 6%

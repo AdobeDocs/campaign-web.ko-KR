@@ -3,7 +3,7 @@ audience: end-user
 title: 플랜 및 프로그램
 description: Adobe Campaign에서 계획 및 프로그램을 만들고 구성하는 방법에 대해 알아봅니다
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 10%
@@ -13,7 +13,7 @@ ht-degree: 10%
 # 플랜 및 프로그램 {#plan-and-programs}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn3"
 >title="플랜 및 프로그램"
 >abstract="이제 Campaign Web 사용자 인터페이스에서 마케팅 플랜 및 프로그램에 대한 폴더 계층 구조를 구성할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko-KR" text="릴리스 정보 참조"
@@ -74,7 +74,7 @@ Adobe 이를 보다 효율적으로 구성하려면 다음 계층을 권장합�
 
 ![](assets/program_edit.png){zoomable="yes"}
 
-이를 구성할 수 있습니다.
+다음을 구성할 수 있습니다.
 
 ![](assets/program_customfields.png){zoomable="yes"}
 
@@ -82,7 +82,7 @@ Adobe 이를 보다 효율적으로 구성하려면 다음 계층을 권장합�
 
 두 가지 방법으로 캠페인을 프로그램에 연결할 수 있습니다.
 
-### 방법 #1 : 이미 프로그램이 있고 여기에 연결된 캠페인을 만들려고 합니다
+### 방법 #1: 이미 프로그램을 가지고 있으며 연결된 캠페인을 만들려고 합니다.
 
 새 캠페인을 프로그램에 연결하려면 프로그램에서 직접 캠페인을 만듭니다.
 
@@ -92,7 +92,7 @@ Adobe 이를 보다 효율적으로 구성하려면 다음 계층을 권장합�
 
 ![](assets/program_campaign_folder.png){zoomable="yes"}
 
-### 방법 #2 : 이미 기존 캠페인이 있으며 이를 기존 프로그램에 연결하려고 합니다
+### 방법 #2: 이미 기존 캠페인이 있으며 이를 기존 프로그램에 연결하려고 합니다.
 
 프로그램에 연결할 캠페인의 **[!UICONTROL 설정]** 단추로 이동합니다.
 

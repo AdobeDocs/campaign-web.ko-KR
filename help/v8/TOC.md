@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 94%
+source-wordcount: '745'
+ht-degree: 93%
 
 ---
 
@@ -134,6 +134,7 @@ ht-degree: 94%
       + [일회성 대상자 빌드](audience/one-time-audience.md)
       + [파일에서 이메일 대상자 로드](audience/file-audience.md)
       + [컨트롤 그룹 설정](audience/control-group.md)
+      + [트랩 그룹 추가](audience/trap-group.md)
    + 구독 서비스 작업 {#work-with-services}
       + [구독 서비스 만들기 및 관리](audience/manage-services.md)
       + [구독자 관리](audience/manage-subscribers.md)

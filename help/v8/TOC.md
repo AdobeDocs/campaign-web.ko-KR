@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: 76c1f708991934e4ef525559359fe732b0fa486a
+source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 100%
+source-wordcount: '734'
+ht-degree: 98%
 
 ---
 
@@ -69,7 +69,9 @@ ht-degree: 100%
    + 푸시 알림 {#push}
       + [푸시 알림 시작하기](push/gs-push.md)
       + [푸시 알림 게재 만들기](push/create-push.md)
-      + [Android 리치 푸시 게재 디자인](push/rich-push.md)
+      + 리치 푸시 {#rich-push}
+         + [Android 리치 푸시 게재 디자인](push/rich-push.md)
+         + [iOS 리치 푸시 게재 디자인](push/rich-push-ios.md)
       + [푸시 게재 디자인](push/content-push.md)
       + [푸시 게재 미리 보기 및 보내기](push/send-push.md)
    + SMS {#sms}

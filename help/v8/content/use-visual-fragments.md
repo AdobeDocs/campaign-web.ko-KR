@@ -7,7 +7,7 @@ exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 9%
+ht-degree: 20%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
 >title="조각 옵션"
->abstract="이 창에서는 선택한 조각과 관련된 옵션을 제공합니다. 조각을 표시할 장치를 선택하고 이 조각의 콘텐츠를 열 수 있습니다. 조각을 추가로 사용자 지정하려면 **[!UICONTROL 스타일]** 탭을 사용하십시오. 원본 시각적 조각으로 상속을 중단할 수도 있습니다."
+>abstract="이 창에서는 선택한 조각과 관련된 옵션을 사용할 수 있습니다. 이를 통해 조각을 표시할 디바이스를 선택하고 해당 조각의 콘텐츠를 열 수 있습니다. **[!UICONTROL 스타일]** 탭을 사용하여 조각을 더욱 세부적으로 맞춤화할 수 있습니다. 원본 시각적 조각으로 상속을 끊을 수도 있습니다."
 
 <!-- pas vu dans l'UI-->
 

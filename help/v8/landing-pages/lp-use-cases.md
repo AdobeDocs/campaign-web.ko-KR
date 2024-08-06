@@ -26,7 +26,7 @@ ht-degree: 9%
 >id="acw_landingpages_templates"
 >title="URL 복사 시 주의"
 >abstract="랜딩 페이지를 생성할 때 기본으로 제공되는 4가지 템플릿을 사용하면 Campaign 데이터베이스에 프로필을 추가 &#x200B;&#x200B;또는 업데이트하고, 고객을 서비스에 구독시키고, 고객의 서비스 구독을 취소하고, 사용자를 옵트아웃하는 등 다양한 사용 사례를 구현할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=ko-KR#create-landing-page" text="랜딩 페이지 만들기"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=ko#create-landing-page" text="랜딩 페이지 만들기"
 
 랜딩 페이지를 적절히 사용하려면 전용 옵션을 사용하여 게재에서 링크로 참조해야 합니다.
 

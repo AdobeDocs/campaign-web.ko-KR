@@ -6,7 +6,7 @@ exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 64%
+ht-degree: 71%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="SMS 콘텐츠"
->abstract="SMS 게재의 콘텐츠를 만들고 개인화 필드, 표현식 조각 및 다이내믹 콘텐츠를 사용하여 개인화합니다. 메시지 작성을 시작하려면 **콘텐츠 편집** 버튼을 클릭합니다."
+>abstract="SMS 게재 콘텐츠를 만들고 개인화 필드, 표현식 조각과 동적 콘텐츠를 사용하여 개인화합니다. 메시지 작성을 시작하려면 **콘텐츠 편집** 버튼을 클릭합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"

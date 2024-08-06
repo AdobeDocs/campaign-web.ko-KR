@@ -60,7 +60,7 @@ ht-degree: 44%
 >id="acw_orchestration_reconciliation_targeting_selection"
 >title="타겟팅 차원 선택"
 >abstract="조정할 인바운드 데이터의 타겟팅 차원을 선택합니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=ko-KR#targeting-dimensions" text="타겟팅 차원"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?lang=ko#targeting-dimensions" text="타겟팅 차원"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_keep_unreconciled_data"
@@ -94,9 +94,9 @@ ht-degree: 44%
 
 ## 예제 {#reconciliation-example}
 
-다음 예제에서는 새로운 고객을 포함하는 파일을 가져와 직접 대상자 프로필을 만드는 워크플로우를 보여줍니다. 워크플로우는 다음 활동으로 구성됩니다.
+다음 예제에서는 새로운 고객을 포함하는 파일을 가져와 직접 대상자 프로필을 만드는 워크플로를 보여줍니다. 워크플로우는 다음 활동으로 구성됩니다.
 
-워크플로우는 다음과 같이 디자인됩니다.
+워크플로는 다음과 같이 디자인됩니다.
 
 ![](../assets/workflow-reconciliation-sample-1.0.png)
 

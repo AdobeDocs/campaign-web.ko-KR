@@ -1,6 +1,6 @@
 ---
 title: 다이내믹 콘텐츠를 만드는 방법은?
-description: 개인화 및 조건부 콘텐츠를 사용하여 콘텐츠를 동적으로 만드는 방법에 대해 알아봅니다.
+description: 개인화 및 조건부 콘텐츠를 사용하여 다이내믹 콘텐츠를 만드는 방법에 대해 알아봅니다.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -12,7 +12,7 @@ exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
 >title="개인화"
->abstract="표현식 편집기를 통해 모든 데이터를 선택하고, 배열하고, 사용자 정의하고 검증하여 개인 맞춤화 콘텐츠를 경험할 수 있습니다. 프로필 데이터를 활용하여 각 수신자에게 메시지를 개인화하고, 조건부 콘텐츠를 만들어 각 수신자에게 메시지를 적용하고 관련 있는 콘텐츠만 표시할 수 있습니다."
+>abstract="표현식 편집기를 통해 모든 데이터를 선택하고, 배열하고, 사용자 정의하고 검증하여 개인 맞춤화 콘텐츠를 경험할 수 있습니다. 프로필 데이터를 활용하여 각 수신자에 맞게 메시지를 개인화하고, 조건부 콘텐츠를 생성하여 각 수신자에 맞게 메시지를 적응하고 관련 콘텐츠만 표시할 수 있습니다."
 
 마케팅 담당자는 당사의 서비스에 관심이 있는 고객을 대상으로 효과적인 관련 콘텐츠를 제공하여 고객 참여를 유도하는 것이 중요합니다. 수신자의 범위가 다양하므로 여러 사용자에게 흥미를 일으키는 다양한 마케팅 콘텐츠를 만드는 데 오랜 시간이 걸릴 수 있습니다. 여기에서 다이내믹 콘텐츠가 필요합니다.
 

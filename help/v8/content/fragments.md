@@ -6,7 +6,7 @@ exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: 0fe12b469810c946ab0b9472e9a877aaaa41581d
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 38%
+ht-degree: 61%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="콘텐츠 조각"
->abstract="이제 콘텐츠 조각을 만들고 사용할 수 있습니다. 콘텐츠 조각은 하나 이상의 메시지에서 참조할 수 있는 재사용 가능한 구성 요소입니다. 조각을 수정할 때 조각을 사용하는 모든 콘텐츠가 업데이트됩니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko-KR" text="릴리스 정보 참조"
+>abstract="이제 콘텐츠 조각을 만들고 사용할 수 있습니다. 콘텐츠 조각은 하나 이상의 메시지에서 참조할 수 있는 재사용 가능한 구성 요소입니다. 조각을 수정하면 이를 사용하는 모든 콘텐츠가 업데이트됩니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
->title="나만의 콘텐츠 조각 정의"
->abstract="콘텐츠 조각은 캠페인 간 하나 이상의 메시지에서 참조할 수 있는 재사용 가능한 구성 요소입니다. 이 기능은 마케팅 사용자가 향상된 디자인 프로세스에서 콘텐츠를 빠르게 조합하는 데 사용할 수 있는 여러 사용자 지정 콘텐츠 블록을 미리 빌드하는 데 사용됩니다. 콘텐츠 조각에는 이메일 디자이너에서 사용할 수 있는 시각적 조각과 표현식 편집기의 표현식 조각의 두 가지 유형이 있습니다."
+>title="자신만의 콘텐츠 조각 정의"
+>abstract="콘텐츠 조각은 캠페인에서 하나 이상의 메시지에 참조할 수 있는 재사용 가능한 구성 요소입니다. 이 기능은 여러 사용자 정의 콘텐츠 블록을 사전 빌드하는 데 사용되며, 마케팅 사용자는 이러한 콘텐츠 블록을 사용하여 향상된 디자인 프로세스로 콘텐츠를 신속하게 조합할 수 있습니다. 콘텐츠 조각에는 이메일 디자이너에서 사용할 수 있는 시각적 조각과 표현 편집기에서 사용할 수 있는 표현 조각, 즉 두 가지 유형이 있습니다."
 
 ## 콘텐츠 조각이란 무엇입니까? {#what}
 

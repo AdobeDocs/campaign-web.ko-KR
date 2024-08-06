@@ -5,7 +5,7 @@ description: 콘텐츠 조각을 사용하여 만드는 방법 알아보기
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 0%
+ht-degree: 27%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
 >title="조각"
->abstract="현재 샌드박스에서 만든 모든 표현식 조각이 이 목록에 표시됩니다. 조각을 사용하려면 + 단추를 클릭하여 조각 ID를 편집기에 추가합니다."
+>abstract="현재 샌드박스에서 생성된 모든 표현식 조각이 이 목록에 표시됩니다. 조각을 사용하려면 + 버튼을 클릭하여 조각 ID를 편집기에 추가합니다."
 
 <!-- pas vu dans l'UI-->
 

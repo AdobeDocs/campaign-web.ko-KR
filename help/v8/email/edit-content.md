@@ -31,7 +31,7 @@ ht-degree: 45%
 >id="acw_deliveries_email_options"
 >title="추적 편집"
 >abstract="기본적으로 게재에 대한 추적이 활성화됩니다. 즉, 메시지 콘텐츠에 포함된 모든 링크가 추적됩니다. 여기에서 이 옵션을 비활성화할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="링크 추가 및 메시지 추적"
+>additional-url="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="링크 추가 및 메시지 추적"
 
 전자 메일 **[!UICONTROL 콘텐츠 편집]** 화면에서 다음을 수행할 수 있습니다.
 

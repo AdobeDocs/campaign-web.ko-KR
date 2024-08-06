@@ -17,7 +17,7 @@ ht-degree: 6%
 >id="acw_homepage_welcome_rn5"
 >title="감사 추적"
 >abstract="새로운 감사 추적 기능은 Adobe Campaign 인스턴스에 발생한 모든 액션과 이벤트에 대한 자세한 시간순 기록을 실시간으로 제공합니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko-KR" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 
 Adobe Campaign 웹 사용자 인터페이스에서 **[!UICONTROL 감사 추적]** 기능은 사용자가 인스턴스 내의 중요한 엔터티에 대한 모든 수정 사항(일반적으로 원활한 인스턴스 작업에 큰 영향을 주는 항목)을 완전히 볼 수 있도록 합니다.

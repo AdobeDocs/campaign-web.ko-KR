@@ -53,7 +53,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_mode"
 >title="증명의 대상"
->abstract="기본 대상에게 보내기 전에 게재를 테스트하려는 경우 &#39;증명의 대상&#39;으로 두 번째 파일을 업로드할 수 있습니다."
+>abstract="기본 대상에게 보내기 전에 게재를 테스트하려는 경우 “증명의 대상”으로 두 번째 파일을 업로드할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_upload"

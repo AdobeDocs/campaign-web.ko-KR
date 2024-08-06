@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '1689'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -81,9 +81,9 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 
 * **콘텐츠 템플릿** - 디자인 프로세스를 가속화하고 개선하기 위해 독립 실행형 템플릿을 만들어 사용자 정의 콘텐츠를 [!DNL Adobe Campaign] 쉽게 재사용할 수 있습니다. 이 기능은 이메일에서만 사용할 수 있고, 콘텐츠에 중점을 둔 작업자가 독립 실행형 템플릿에 작업하면 마케팅 작업자가 이메일 캠페인 내에서 이를 재사용하고 조정할 수 있습니다. [이 섹션](../email/create-email-templates.md)에서 자세히 알아보십시오.
 
-* **조각** - 조각은 캠페인 간 하나 이상의 게재에서 참조할 수 있는 재사용 가능한 구성 요소입니다. 조각을 수정하면 이를 사용하는 모든 콘텐츠가 업데이트됩니다. [조각을 사용하여 작업하는 방법을 알아봅니다](../content/fragments.md)
+* **조각** - 조각은 캠페인에서 하나 이상의 게재에 참조할 수 있는 재사용 가능한 구성 요소입니다. 조각을 수정하면 이를 사용하는 모든 콘텐츠가 업데이트됩니다. [조각을 사용한 작업 방법 알아보기](../content/fragments.md)
 
-이 기능을 사용하면 마케팅 사용자가 향상된 디자인 프로세스에서 이메일 콘텐츠를 빠르게 조합하는 데 사용할 수 있는 여러 사용자 지정 콘텐츠 블록을 미리 빌드할 수 있습니다.
+이 기능을 통해 여러 사용자 정의 콘텐츠 블록을 사전 빌드할 수 있으며, 마케팅 사용자는 이들 콘텐츠 블록을 사용하여 향상된 디자인 프로세스로 이메일 콘텐츠를 신속하게 조합할 수 있습니다.
 
 ### 고객 관리 {#user-interface-customer-management}
 
@@ -326,7 +326,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages"
 >title="트랜잭션 메시지"
->abstract="트랜잭션 메시지 "
+>abstract="트랜잭션 메시지"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_properties"

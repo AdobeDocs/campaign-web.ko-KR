@@ -16,7 +16,7 @@ ht-degree: 10%
 >id="acw_homepage_welcome_rn3"
 >title="플랜 및 프로그램"
 >abstract="이제 Campaign Web 사용자 인터페이스에서 마케팅 플랜 및 프로그램에 대한 폴더 계층 구조를 구성할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko-KR" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 Adobe Campaign을 사용하면 마케팅 플랜 및 프로그램에 대한 폴더 계층 구조를 구성할 수 있습니다.
 

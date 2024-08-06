@@ -6,9 +6,9 @@ title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '745'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 93%
    + [목록 찾아보기 및 필터링](get-started/list-filters.md)
    + [미리 정의된 필터 작업](get-started/predefined-filters.md)
    + [폴더 작업](get-started/work-with-folders.md)
-   + [사용 권한](get-started/permissions.md)
+   + [권한](get-started/permissions.md)
    + [Campaign Web 및 클라이언트 콘솔](get-started/capability-matrix.md)
    + [Campaign Standard에서 v8로의 전환](rn/acs-migration.md)
    + [AI 기반 상황별 도움말](get-started/using-ai.md)
@@ -80,18 +80,18 @@ ht-degree: 93%
       + [게재 경고 대시보드](msg/delivery-alerting-dashboards.md)
       + [게재 경고 기준](msg/delivery-alerting-criteria.md)
 + 콘텐츠 관리 {#content}
-   + 동적 콘텐츠 {#dynamic-content} 만들기
+   + 다이내믹 콘텐츠 만들기 {#dynamic-content}
       + [다이내믹 콘텐츠를 만드는 방법은?](personalization/gs-personalization.md)
       + [개인화 추가](personalization/personalize.md)
       + [조건부 콘텐츠 작성](personalization/conditions.md)
-   + {#manage-reusable-content} 콘텐츠 재사용
+   + 콘텐츠 재사용 {#manage-reusable-content}
       + [콘텐츠 템플릿으로 작업](email/create-email-templates.md)
       + 콘텐츠 조각 {#fragments}
          + [콘텐츠 조각 시작](content/fragments.md)
-         + [컨텐츠 조각 만들기 및 편집](content/create-fragment.md)
-         + [이메일에 시각적 조각 사용](content/use-visual-fragments.md)
+         + [콘텐츠 조각 만들기 및 편집](content/create-fragment.md)
+         + [이메일에서 비주얼 조각 사용](content/use-visual-fragments.md)
          + [표현식 편집기에서 표현식 조각 사용](content/use-expression-fragments.md)
-   + 전자 메일 {#email-design} 디자인
+   + 이메일 디자인 {#email-design}
       + [이메일 디자이너 시작](email/get-started-email-designer.md)
       + 이메일 구성 시작 {#start-design}
          + [처음부터 시작하기](email/create-email-content.md)

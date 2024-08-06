@@ -4,9 +4,9 @@ description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 
 >[!TAB 7월 릴리스가 공개되었습니다!]
 
-2024년 7월 릴리스의 Adobe Campaign 웹 사용자 인터페이스에 포함된 새로운 기능과 개선 사항을 알아보십시오.
+Adobe Campaign Web 사용자 인터페이스 2024년 7월 릴리스에 포함된 새로운 기능과 개선 사항을 살펴보십시오.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 

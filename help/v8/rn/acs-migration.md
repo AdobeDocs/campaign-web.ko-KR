@@ -4,9 +4,9 @@ title: Campaign Standard에서 Adobe Campaign Web으로의 전환
 description: Campaign Web 사용자 인터페이스 살펴보기
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '650'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Campaign v8 사용자는 새로운 Campaign Web 인터페이스와 v8 콘솔 모
 
 Campaign v8로 원활하게 전환할 수 있도록 주요 Campaign Standard 기능이 Campaign v8에 추가되었습니다. 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}를 참조하십시오.
 
-* **동적 보고**: 동적 보고는 마케팅 활동의 영향을 측정하기 위해 완전히 사용자 정의 가능한 실시간 보고서를 제공합니다. 프로필 데이터에 대한 액세스를 추가하여 열기 및 클릭과 같은 기능적인 이메일 캠페인 데이터뿐만 아니라 성별, 도시, 연령과 같은 프로필 차원별 인구 통계 분석을 가능하게 합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}
+* **동적 보고**: 동적 보고는 마케팅 활동의 영향을 측정하기 위해 완전히 사용자 정의 가능한 실시간 보고서를 제공합니다. 이 기능은 프로필 데이터에 대한 액세스를 추가하여 열기 및 클릭과 같은 기능적 이메일 캠페인 데이터 외에도 성별, 도시, 연령과 같은 프로필 차원별로 인구통계학적 분석을 지원합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}
 
 * **중앙 집중식 브랜딩**: 모든 회사에는 브랜드 시각적 및 기술적 지침이 있습니다. Adobe Campaign을 사용하면 로고에서부터 이메일 발신자, URL 또는 도메인과 같은 기술적 측면까지 일관된 브랜드를 고객에게 제시하기 위해 일련의 사양을 정의할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
 
@@ -80,7 +80,7 @@ Campaign v8로 원활하게 전환할 수 있도록 주요 Campaign Standard 기
 
 * **랜딩 페이지** - Campaign Standard와의 기능 패리티를 보장하기 위해 Campaign v8 랜딩 페이지에 일부 개선 사항이 적용되었습니다. [릴리스 정보](../rn/release-notes.md#new-24-4) 및 랜딩 페이지 [설명서](../landing-pages/get-started-lp.md)에서 자세한 내용을 확인하십시오.
 
-* **시각적 조각** - 시각적 조각은 하나 이상의 이메일 게재 또는 콘텐츠 템플릿에서 참조할 수 있는 재사용 가능한 시각적 구성 요소입니다. 조각을 수정하면 이를 사용하는 모든 콘텐츠가 업데이트됩니다. 이 기능을 사용하면 마케팅 사용자가 메시지 콘텐츠를 신속하게 취합하는 데 사용할 수 있는 여러 사용자 지정 콘텐츠 블록을 미리 빌드할 수 있습니다. 디자인 프로세스를 개선하십시오. [자세히 알아보기](../content/use-visual-fragments.md)
+* **시각적 조각** - 시각적 조각은 하나 이상의 이메일 게재나 콘텐츠 템플릿에서 참조할 수 있는 재사용 가능한 시각적 구성 요소입니다. 조각을 수정하면 이를 사용하는 모든 콘텐츠가 업데이트됩니다. 이 기능을 통해 여러 사용자 정의 콘텐츠 블록을 사전 빌드할 수 있으며, 마케팅 사용자는 이들 콘텐츠 블록을 사용하여 향상된 디자인 프로세스로 메시지 콘텐츠를 신속하게 조합할 수 있습니다. [자세히 알아보기](../content/use-visual-fragments.md)
 
 <!--
 * Delivery Alerting: In addition to viewing notifications directly in Campaign, Adobe Campaign also provides an email alerting system to trigger email alerts to users or external stakeholders of important system activities. Create, manage, and receive customizable alerts and dashboards to keep track of delivery successes or failures. Adobe Campaign Delivery Alerting boosts efficiency by keeping all involved Adobe Campaign users in a company automatically informed about the delivery execution status, via email and dashboard. 

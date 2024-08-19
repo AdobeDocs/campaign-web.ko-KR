@@ -3,9 +3,9 @@ audience: end-user
 title: Adobe Campaign Web 시작
 description: Adobe Campaign Web 시작
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 5751ca50090dd7035c3ea54c3bd0b03a8bbc9c19
+source-git-commit: be012a2412024f75f2888cb1f9c067d970fd3ca7
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '566'
 ht-degree: 96%
 
 ---
@@ -61,8 +61,10 @@ Campaign 데이터는 애플리케이션 서버에 저장됩니다. 클라이언
 
 클라이언트 콘솔로 Campaign v8을 사용하는 자세한 방법은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ko){target="_blank"}를 참조하십시오.
 
-## 사용법 비디오 {#video}
+<!--
+## How-to video {#video}
 
-Campaign Web 사용자 인터페이스에 액세스하고 탐색하는 방법과 인벤토리 목록을 사용자 정의하는 방법을 알아봅니다. AI 기반 지식 도우미를 소개합니다.
+Learn how to access and navigate the Campaign Web user interface and how to customize the inventory lists. Discover the AI powered Knowledge Assistant.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12)
+-->

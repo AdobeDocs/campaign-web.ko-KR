@@ -3,10 +3,10 @@ audience: end-user
 title: Adobe Campaign Web 시작
 description: Adobe Campaign Web 시작
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: a678175e34a633d5de258e64899ba4b10b6b674f
+source-git-commit: 5751ca50090dd7035c3ea54c3bd0b03a8bbc9c19
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 100%
+source-wordcount: '592'
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ Campaign을 사용하여 다음을 수행할 수 있습니다.
 * 이메일, 모바일, 온라인 및 오프라인 채널을 고객 여정에 **통합**
 * 의미 있고 시의적절한 메시지 및 오퍼 게재 **자동화**
 
-## Campaign Web 사용 인터페이스 살펴보기 {#web}
+## Campaign 웹 사용자 인터페이스 살펴보기 {#web}
 
 초기에는 리치 [클라이언트 콘솔](#ac-client)을 통해서만 사용할 수 있었던 Campaign은 이제 개선된 사용 가능성, 접근성 및 새로운 디자인을 갖춘 새로운 웹 사용자 인터페이스(UI)를 제공하여 사용자 경험을 크게 향상시킵니다. 이 새로운 최신 UI에서는 Adobe Experience Platform을 비롯한 다른 Adobe 솔루션과 함께 마케팅 캠페인 디자인 및 게재를 간소화하고 일관성을 제공합니다.
 
@@ -53,7 +53,7 @@ Campaign을 사용하여 다음을 수행할 수 있습니다.
 
 ## Campaign 클라이언트 콘솔 정보 {#ac-client}
 
-Campaign 클라이언트 콘솔은 시스템에 설치된 브라우저 기반 애플리케이션입니다. 웹 서비스 API를 사용하여 Campaign 애플리케이션 서버에 연결합니다.
+클라이언트 콘솔은 관리자 및 고급 사용자가 작업을 수행할 수 있도록 설계되었습니다. Campaign 클라이언트 콘솔은 시스템에 설치된 브라우저 기반 애플리케이션입니다. 웹 서비스 API를 사용하여 Campaign 애플리케이션 서버에 연결합니다.
 
 Campaign 데이터는 애플리케이션 서버에 저장됩니다. 클라이언트 콘솔과 Campaign Web 사용자  모두에서 데이터를 사용할 수 있습니다. 예를 들어 클라이언트 콘솔을 사용하여 게재 템플릿을 만들면 이 템플릿을 Campaign Web 사용자 인터페이스에서도 사용할 수 있습니다. 또한 Campaign Web 사용자 인터페이스에서 이메일 게재를 생성하는 경우 클라이언트 콘솔에서도 이 게재에 액세스할 수 있습니다.
 

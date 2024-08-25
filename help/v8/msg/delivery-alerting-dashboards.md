@@ -53,7 +53,7 @@ ht-degree: 25%
 
 1. **경고 그룹 선택** 필드에서 이 대시보드에서 보낸 경고를 받을 **연산자 그룹**&#x200B;을(를) 지정합니다. 선택한 운영자 그룹의 모든 구성원이 경고를 받습니다.
 
-   [Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}에서 권한 및 연산자 그룹에 대한 자세한 내용을 알아보세요.
+   [Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}에서 권한 및 연산자 그룹에 대한 자세한 내용을 알아보세요.
 
 1. **게재 경고 기준** 섹션에서 경고를 보내는 데 사용할 기준을 추가합니다. 사전 정의된 기준 중에서 선택하거나 특정 요구 사항에 맞게 고유한 기준을 만듭니다. [기준 작업 방법 알아보기](../msg/delivery-alerting-criteria.md)
 

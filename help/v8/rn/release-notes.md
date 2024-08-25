@@ -3,7 +3,7 @@ title: Campaign v8 Web 사용자 인터페이스 릴리스 정보
 description: 최신 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: cd2649243c758ad71a6c0e658aa08f30da1364cf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1939'
 ht-degree: 100%
 

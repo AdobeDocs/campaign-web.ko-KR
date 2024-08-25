@@ -4,7 +4,7 @@ description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 100%
 

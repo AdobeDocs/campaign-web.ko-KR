@@ -4,7 +4,7 @@ title: 폴더 작업
 description: Adobe Campaign에서 폴더를 관리하는 방법 알아보기
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%
 

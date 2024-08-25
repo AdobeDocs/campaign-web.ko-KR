@@ -50,7 +50,7 @@ ht-degree: 13%
 
 ![](assets/readonly-campaign-workflow.png){zoomable="yes"}
 
-### 기술 워크플로우
+### 기술 워크플로
 
 기술 워크플로우는 캠페인 사용자를 위해 읽기 전용 모드입니다.
 기본 제공 기술 워크플로우는 관리자 사용자의 경우에도 모든 사용자를 위해 읽기 전용 모드입니다. 그러나 필요한 경우 사용자는 **일시 중지**&#x200B;하거나 **중지**&#x200B;할 수 있습니다. 이러한 작업만 허용됩니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)

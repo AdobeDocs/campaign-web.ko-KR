@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: 워크플로우를 만드는 핵심 원칙
-description: Adobe Campaign Web의 워크플로우 주요 원칙 알아보기
+title: 워크플로를 만드는 핵심 원칙
+description: Adobe Campaign Web의 워크플로 주요 원칙 알아보기
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
@@ -11,9 +11,9 @@ ht-degree: 100%
 ---
 
 
-# 워크플로우를 만드는 핵심 원칙 {#gs-workflow-creation}
+# 워크플로를 만드는 핵심 원칙 {#gs-workflow-creation}
 
-Adobe Campaign Web에서는 워크플로우를 시각적 캔버스에 작성하여 세분화, 캠페인 실행, 파일 처리 등 크로스 채널 프로세스를 디자인할 수 있습니다.
+Adobe Campaign Web에서는 워크플로를 시각적 캔버스에 작성하여 세분화, 캠페인 실행, 파일 처리 등 크로스 채널 프로세스를 디자인할 수 있습니다.
 
 ## 워크플로 내부에는 무엇이 있습니까? {#gs-workflow-inside}
 

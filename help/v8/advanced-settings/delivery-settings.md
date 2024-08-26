@@ -4,9 +4,9 @@ title: 게재 설정 구성
 description: Campaign 웹에서 게재 설정을 구성하는 방법 알아보기
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: ea160079bb322efd8199ff63faaa79002021e07d
 workflow-type: tm+mt
-source-wordcount: '2414'
+source-wordcount: '2416'
 ht-degree: 50%
 
 ---
@@ -286,3 +286,9 @@ ht-degree: 50%
 
 * **[!UICONTROL 증명에 대한 게재 코드 보관]**&#x200B;을 사용하여 관련된 게재에 대해 정의된 것과 동일한 게재 코드를 증명에 연결합니다.
 * 기본적으로 증명 제목에는 &#39;PROOF #&#39;가 붙습니다. 여기서 #은 증명 번호입니다. 이 접두사는 **[!UICONTROL 레이블 접두사]** 필드에서 변경할 수 있습니다.
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_settings_variable"
+>title="변수"
+>abstract="변수"

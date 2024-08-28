@@ -3,10 +3,10 @@ audience: end-user
 title: 기존 대상자 선택
 description: 대상자 선택 방법 알아보기
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: 0830c7d7b7bba10f573ea58fa5aacd5e5e9ddccb
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 31%
+source-wordcount: '347'
+ht-degree: 36%
 
 ---
 
@@ -17,6 +17,16 @@ ht-degree: 31%
 >id="acw_deliveries_email_audience_select"
 >title="기존 대상자 선택"
 >abstract="목록을 찾아 기존 대상자를 선택합니다. “필터 표시” 아이콘을 사용하여 목록을 필터링하거나 특정 폴더를 선택합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_refine_target"
+>title="대상 조정"
+>abstract="이들 규칙은 데스크탑 콘솔에서만 변경할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_additional_target"
+>title="추가 대상"
+>abstract="이들 규칙은 데스크탑 콘솔에서만 변경할 수 있습니다."
 
 이 섹션에서는 게재의 대상 모집단을 정의할 때 기존 대상자를 선택하는 방법을 설명합니다. 게재의 기본 대상을 정의할 때 다음을 수행할 수도 있습니다.
 * 쿼리 모델러를 사용하여 [일회성 대상자를 만듭니다](one-time-audience.md).

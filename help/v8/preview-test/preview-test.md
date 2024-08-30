@@ -17,7 +17,7 @@ ht-degree: 17%
 >title="콘텐츠 미리보기 및 테스트"
 >abstract="콘텐츠가 정의되면 프로필 및 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=ko" text="증명 보내기"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=ko#test-landing-page" text="테스트 랜딩 페이지"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?#test-landing-page" text="테스트 랜딩 페이지"
 
 게재 콘텐츠가 정의되면 프로필 및 테스트 프로필을 사용하여 메시지를 보내기 전에 미리 보고 테스트할 수 있습니다. 이는 정확하면서도 컨텐츠 및 개인화 설정 모두에서 오류가 없는지 확인하는 중요한 단계입니다.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: 이메일 디자이너 콘텐츠 구성 요소 사용
 description: 이메일에 콘텐츠 구성 요소를 사용하는 방법 알아보기
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 13ff1f0e052ff16dcf59c2ed10c62f987f5651a8
+source-git-commit: 5b984089ea36b190cde1046c0d96734e848b5f67
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1199'
 ht-degree: 65%
 
 ---
@@ -150,8 +150,7 @@ ht-degree: 65%
 
 >[!IMPORTANT]
 >
->Assets 메뉴에 대한 액세스는 활성 Adobe Experience Essentials 라이선스가 있는 사용자로 제한됩니다. 이 라이선스를 보유하고 있지 않으면 Assets 메뉴를 사용할 수 없습니다.
-
+>Assets 메뉴에 대한 액세스는 활성 Adobe Experience Manager as a Cloud Service 라이선스가 있는 사용자로 제한됩니다. 이 라이선스를 보유하고 있지 않으면 Assets 메뉴를 사용할 수 없습니다.
 
 **[!UICONTROL 이미지]** 구성 요소를 사용하여 이메일에 컴퓨터의 이미지 파일을 삽입할 수 있습니다.
 

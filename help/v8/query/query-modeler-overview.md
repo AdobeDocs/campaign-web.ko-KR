@@ -3,10 +3,10 @@ audience: end-user
 title: 쿼리 모델러로 작업
 description: Adobe Campaign 웹 쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
+source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 20%
+source-wordcount: '620'
+ht-degree: 19%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 20%
 >id="acw_orchestration_querymodeler_querymessage"
 >title="쿼리 모델러"
 >abstract="데이터베이스의 수신자 또는 기타 타겟팅 차원에 대한 필터링 기준을 정의합니다. Adobe Experience Platform 대상자를 활용하여 타깃 대상자를 더욱 세분화하고 캠페인 효과를 극대화하십시오."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_refine_target"
+>title="대상 조정"
+>abstract="이러한 규칙은 클라이언트 콘솔에서만 변경할 수 있습니다."
 
 Adobe Campaign 웹 사용자 인터페이스에는 다양한 기준을 기반으로 데이터베이스를 필터링하는 프로세스를 간소화하는 쿼리 모델러가 포함되어 있습니다. 클라이언트 콘솔에서 생성된 쿼리와 완벽하게 호환되므로 웹 사용자 인터페이스로 원활하게 전환할 수 있습니다.
 
@@ -38,6 +43,12 @@ Adobe Campaign 웹 사용자 인터페이스에는 다양한 기준을 기반으
 | **보고서 데이터 필터링**: 보고서에 표시된 데이터를 필터링하는 규칙을 추가합니다. [보고서 작업 방법 알아보기](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 | **목록 사용자 지정**: 사용자 지정 규칙을 만들어 수신자, 게재 목록 등과 같은 목록에 표시되는 데이터를 필터링합니다. [목록을 필터링하는 방법 알아보기](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 | **조건부 콘텐츠 빌드**: 다른 수신자에게 표시할 콘텐츠를 정의하는 조건을 만들어 개인화되고 관련 있는 메시징을 보장함으로써 이메일 콘텐츠를 동적으로 만듭니다. [조건부 콘텐츠를 만드는 방법을 알아봅니다](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |
+
+>[!NOTE]
+>
+>대상이나 사전 정의된 필터와 같이 규칙이 적용된 클라이언트 콘솔에서 만든 개체에 액세스할 때 **[!UICONTROL 대상 세분화]** 섹션이 표시될 수 있습니다. 즉, 규칙 대상을 세분화하기 위해 추가 매개 변수가 구성되었습니다. 이러한 매개 변수는 콘솔에서만 수정할 수 있습니다.
+>
+>![](assets/target-warning.png){zoomable="yes"}
 
 ## 쿼리 모델러 인터페이스 {#interface}
 

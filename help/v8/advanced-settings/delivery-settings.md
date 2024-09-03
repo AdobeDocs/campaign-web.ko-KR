@@ -4,10 +4,10 @@ title: 게재 설정 구성
 description: Campaign 웹에서 게재 설정을 구성하는 방법 알아보기
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: ea160079bb322efd8199ff63faaa79002021e07d
+source-git-commit: 8b1292a9c55a0006b981fa33c6fd8b05eb699461
 workflow-type: tm+mt
-source-wordcount: '2416'
-ht-degree: 50%
+source-wordcount: '2787'
+ht-degree: 45%
 
 ---
 
@@ -288,7 +288,68 @@ ht-degree: 50%
 * 기본적으로 증명 제목에는 &#39;PROOF #&#39;가 붙습니다. 여기서 #은 증명 번호입니다. 이 접두사는 **[!UICONTROL 레이블 접두사]** 필드에서 변경할 수 있습니다.
 
 
+
+
+## 전자 메일 게재에 대한 SMTP 설정 {#smtp}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_smtp"
+>title="SMTP 매개 변수"
+>abstract="전자 메일 게재에 추가 SMTP 매개 변수를 추가할 수 있습니다."
+
+전자 메일 게재에 추가 SMTP 매개 변수를 추가할 수 있습니다. 게재 설정의 SMTP 탭에서 수행할 수 있습니다.
+
+![](assets/smtp_tab.png){zoomable="yes"}
+
+### 문자 인코딩 {#character-encoding}
+
+**[!UICONTROL 문자 인코딩]** 섹션에서 특정 인코딩을 설정할 수 있습니다. 기본 인코딩은 대부분의 문자에 작동하는 UTF-8입니다. 그러나 일부 이메일 공급자가 UTF-8 표준 인코딩을 지원하지 않는 경우 특수 문자를 올바르게 표시하지 않을 수 있습니다.
+
+예를 들어, 일본어 문자가 포함된 이메일을 보내려면 해당 문자를 구체적으로 지원하는 인코딩을 사용하는 것이 좋습니다. 그러면 일본에 있는 대상자가 모든 문자를 올바르게 볼 수 있습니다.
+
+이렇게 하려면 **[!UICONTROL 메시지에 사용된 인코딩 강제 적용]** 토글을 활성화하고 특수 문자를 지원하는 목록에서 올바른 인코딩을 선택합니다.
+
+![](assets/smtp_encoding.png){zoomable="yes"}
+
+### 바운스 이메일 {#bounce-emails}
+
+게재 설정의 **[!UICONTROL SMTP]** 탭을 사용하면 바운스 메일 관리도 구성할 수 있습니다.
+
+* **[!UICONTROL 오류 수신 주소]**: **[!UICONTROL 플랫폼에 대해 정의된 기본 오류 주소를 사용]** 전환을 활성화하면 반송된 전자 메일이 플랫폼의 기본 오류 상자에서 수신됩니다. 활성화하지 않으면 게재에 대한 특정 오류 주소를 정의할 수 있습니다.
+
+* **[!UICONTROL 바운스 주소]**: 처리되지 않은 반송된 전자 메일이 전달되는 다른 주소를 정의할 수도 있습니다. 이 주소를 사용하면 애플리케이션에서 이메일을 자동으로 검증할 수 없을 때 반송 원인을 조사할 수 있습니다.
+
+이 두 필드는 [이 섹션](../personalization/gs-personalization.md)에 설명된 대로 개인화할 수 있습니다.
+
+![](assets/smtp_bounce.png){zoomable="yes"}
+
+### 추가 SMTP 헤더 {#smtp-headers}
+
+게재 설정의 SMTP 탭에서 전자 메일 게재에 **[!UICONTROL SMTP 헤더]**&#x200B;를 추가할 수 있습니다.
+
+이 창에 입력한 스크립트는 줄당 name:value 형식으로 한 개의 헤더를 참조해야 합니다.
+
+필요한 경우 값이 자동으로 인코딩됩니다.
+
+![](assets/smtp_headers.png){zoomable="yes"}
+
+
+>[!IMPORTANT]
+>
+>추가 SMTP 헤더 삽입을 위한 스크립트 추가는 고급 사용자를 위해 예약되어 있습니다. 이 스크립트의 구문은 다음과 같은 이 콘텐츠 형식의 요구 사항을 준수해야 합니다: 사용하지 않은 공간, 빈 줄 등이 없음.
+
+## 변수 추가 {#variables-delivery}
+
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="변수"
 >abstract="변수"
+
+게재에 변수를 추가할 수 있으며, 이는 추적에 유용할 수 있습니다. 이렇게 하려면,
+아래와 같이 **[!UICONTROL 변수]** 탭으로 이동합니다.
+
+![](assets/variables-tab.png){zoomable="yes"}
+
+**[!UICONTROL 변수 추가]** 단추를 클릭하여 변수의 세부 정보를 입력한 다음 **[!UICONTROL 확인]**&#x200B;을 클릭하여 변경 내용을 저장합니다.
+
+![](assets/variables-add.png){zoomable="yes"}

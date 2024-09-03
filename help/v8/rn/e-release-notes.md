@@ -4,10 +4,10 @@ description: 다음 Campaign Web 사용자 인터페이스 릴리스에 포함�
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 3086ed78ee2fe5ca3dee70fbd1ae1b92486330ca
+source-git-commit: 00051db2d5c052fce55434d8dbf47502156d171a
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 44%
+source-wordcount: '346'
+ht-degree: 42%
 
 ---
 
@@ -42,4 +42,4 @@ Adobe Campaign Web 사용자 인터페이스는 지속적으로 새로운 기능
 
 * **랜딩 페이지 captcha** - 이제 captcha를 추가하여 봇으로 인한 스팸 및 남용으로부터 랜딩 페이지를 보호할 수 있습니다. 이는 고객과의 상호 작용이 필요하지 않고 사이트와의 상호 작용을 기반으로 하기 때문에 고객을 방해하지 않습니다.
 
-* **나머지 API** - DESC. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=ko){target="_blank"}.
+* **Rest API** - 이제 Campaign Standard이 마이그레이션한 사용자로서 Rest API를 사용하여 트랜잭션 메시지를 사용할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=ko){target="_blank"}.

@@ -3,7 +3,7 @@ audience: end-user
 title: 워크플로 설정 구성
 description: Adobe Campaign 웹을 사용하여 워크플로우 설정을 구성하는 방법 알아보기
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: d4eef621d2287881bfa7ef57e5d90026adceb49c
+source-git-commit: 865978dd8083723187a90647060f8758d4d888be
 workflow-type: tm+mt
 source-wordcount: '1063'
 ht-degree: 29%
@@ -100,7 +100,7 @@ ht-degree: 29%
 
    * **[!UICONTROL 프로세스 일시 중단]**: 워크플로가 자동으로 일시 중지되고 상태가 **[!UICONTROL 실패]**(으)로 변경됩니다. 문제가 해결되면 **[!UICONTROL 다시 시작]** 단추를 사용하여 워크플로우를 다시 시작합니다.
    * **[!UICONTROL 무시]**: 오류를 트리거한 작업의 상태가 **[!UICONTROL 실패]**(으)로 변경되지만 워크플로는 **[!UICONTROL 시작됨]** 상태를 유지합니다. <!-- TO ADD ONCE SCHEUDLER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
-   * **[!UICONTROL 프로세스를 중단함]**: 워크플로가 자동으로 중지되고 상태가 **[!UICONTROL 실패]**(으)로 변경됩니다. 문제가 해결되면 **[!UICONTROL 시작]** 단추를 사용하여 워크플로우를 다시 시작하십시오.
+   * **[!UICONTROL 프로세스 중단]**: 워크플로가 자동으로 중지되고 상태가 **[!UICONTROL 실패]**(으)로 변경됩니다. 문제가 해결되면 **[!UICONTROL 시작]** 단추를 사용하여 워크플로우를 다시 시작하십시오.
 
 * **[!UICONTROL 연속 오류]**: **[!UICONTROL 오류의 경우]** 필드에서 **[!UICONTROL 무시]** 값을 선택하면 이 필드를 사용할 수 있습니다. 프로세스가 중지되기 전에 무시할 수 있는 오류 수를 지정할 수 있습니다. 이 수에 도달하면 워크플로 상태가 **[!UICONTROL 실패]**(으)로 변경됩니다. 이 필드의 값이 0인 경우 오류 수에 관계없이 워크플로가 중지되지 않습니다.
 

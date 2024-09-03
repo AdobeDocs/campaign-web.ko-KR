@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
+source-git-commit: 970f1511fef75395aaaa6b577eb65b6cb179f00d
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 100%
+source-wordcount: '751'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
    + [새로운 기능](rn/whats-new.md)
    + [초기 릴리스 정보](rn/e-release-notes.md)
    + [최신 릴리스](rn/release-notes.md)
+   + 이전 릴리스 {#previous-release-notes}
+      + [2024년 릴리스](rn/release-notes-24.md)
    + [설명서 업데이트](rn/documentation-updates.md)
 + Adobe Campaign 시작하기 {#start}
    + [시작](get-started/get-started.md)
@@ -34,7 +36,8 @@ ht-degree: 100%
    + [AI 기반 상황별 도움말](get-started/using-ai.md)
 + 메시지 및 게재 {#msg}
    + [메시지 시작](msg/gs-messages.md)
-   + [게재 작업](msg/gs-deliveries.md)
+   + [게재 액세스](msg/gs-deliveries.md)
+   + [게재 만들기](msg/create-deliveries.md)
    + [게재 템플릿 사용](msg/delivery-template.md)
    + 이메일 {#email}
       + [첫 이메일 만들기](email/create-email.md)

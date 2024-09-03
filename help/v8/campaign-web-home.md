@@ -3,10 +3,10 @@ keywords: Campaign Web;홈;인기 있는 주제
 description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
+source-git-commit: 5f12974209ba76d902357fed7830d2472ca9e00d
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 100%
+source-wordcount: '456'
+ht-degree: 88%
 
 ---
 
@@ -51,23 +51,23 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 
 >[!BEGINTABS]
 
->[!TAB 7월 릴리스가 공개되었습니다!]
+>[!TAB 8월 릴리스가 공개되었습니다!]
 
 Adobe Campaign Web 사용자 인터페이스 2024년 7월 릴리스에 포함된 새로운 기능과 개선 사항을 살펴보십시오.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB 게재 경고]
+>[!TAB 값 배포]
 
-게재 경고 기능은 사용자 그룹이 게재 실행에 대한 정보가 포함된 이메일 알림을 자동으로 수신할 수 있는 경고 관리 시스템입니다.
+개인화를 위한 필드 목록에 액세스할 때 이제 각 필드에 값이 어떻게 분배되는지 확인할 수 있습니다.
 
-[![이미지](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
+[![이미지](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
 
->[!TAB 플랜 및 프로그램]
+>랜딩 페이지의 [!TAB CAPTCHA]
 
-Adobe Campaign을 사용하면 마케팅 플랜 및 프로그램에 대한 폴더 계층 구조를 구성할 수 있습니다.
+이제 captcha를 추가하여 봇으로 인한 스팸 및 남용으로부터 랜딩 페이지를 보호할 수 있습니다. 이 기능은 제한된 가용성입니다.
 
-[![이미지](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
+[![이미지](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 
 
 >[!ENDTABS]

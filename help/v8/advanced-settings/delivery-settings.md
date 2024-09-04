@@ -4,9 +4,9 @@ title: 게재 설정 구성
 description: Campaign 웹에서 게재 설정을 구성하는 방법 알아보기
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 8c4e19504606ec02dd05eb4e3fbc4d21d9972860
+source-git-commit: 78b44670f2a9c9f7cf235e64dff7d286864813da
 workflow-type: tm+mt
-source-wordcount: '2826'
+source-wordcount: '2801'
 ht-degree: 45%
 
 ---
@@ -343,9 +343,8 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="변수"
->abstract="게재에 변수를 추가할 수 있으며, 이는 추적 및 개인화에 유용할 수 있습니다. 이러한 변수는 게재 콘텐츠 및 워크플로우에서 액세스할 수 있습니다."
+>abstract="게재에 변수를 추가할 수 있으며, 이는 추적 및 개인화에 유용할 수 있습니다. 이러한 변수는 게재 콘텐츠와 워크플로우 모두에서 액세스할 수 있습니다."
 
-게재에 변수를 추가할 수 있으며, 이는 추적 및 개인화에 유용할 수 있습니다. 이러한 변수는 게재 콘텐츠 및 워크플로우에서 액세스할 수 있습니다.
 
 변수를 추가하려면 아래와 같이 **[!UICONTROL 변수]** 탭으로 이동하십시오.
 

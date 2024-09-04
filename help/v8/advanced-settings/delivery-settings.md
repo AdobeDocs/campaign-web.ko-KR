@@ -4,7 +4,7 @@ title: 게재 설정 구성
 description: Campaign 웹에서 게재 설정을 구성하는 방법 알아보기
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 8b1292a9c55a0006b981fa33c6fd8b05eb699461
+source-git-commit: 78356629dc64702d81645b684350304f65b88597
 workflow-type: tm+mt
 source-wordcount: '2787'
 ht-degree: 45%
@@ -345,8 +345,7 @@ ht-degree: 45%
 >title="변수"
 >abstract="변수"
 
-게재에 변수를 추가할 수 있으며, 이는 추적에 유용할 수 있습니다. 이렇게 하려면,
-아래와 같이 **[!UICONTROL 변수]** 탭으로 이동합니다.
+게재에 변수를 추가할 수 있으며, 이는 추적에 유용할 수 있습니다. 이렇게 하려면 아래와 같이 **[!UICONTROL 변수]** 탭으로 이동합니다.
 
 ![](assets/variables-tab.png){zoomable="yes"}
 

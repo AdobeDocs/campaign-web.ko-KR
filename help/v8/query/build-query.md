@@ -3,9 +3,9 @@ audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
+source-git-commit: 88774a747f4e54d7bf0ebba05c181b2a8476764f
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2212'
 ht-degree: 9%
 
 ---
@@ -30,19 +30,17 @@ ht-degree: 9%
 
 ## 쿼리의 값 분포 {#distribution-values-query}
 
-값 분포를 통해 테이블 내 필드에 있는 값의 백분율을 알 수 있습니다. 쿼리 내의 값 분포를 알면 세그멘테이션을 개선하는 데 도움이 될 수 있습니다.
+값 분포는 현재 쿼리 매개 변수에 따라 테이블 내에 있는 필드의 각 값의 백분율을 보여줍니다. 쿼리 내의 값 분포를 알면 세그멘테이션을 개선하는 데 도움이 될 수 있습니다.
 
-이 기능에 액세스하려면 아래 표시된 것처럼 쿼리에서 속성 선택 단추를 클릭합니다. 그런 다음 선택한 특성 옆에 있는 **[!UICONTROL 정보]** 아이콘을 클릭합니다. **[!UICONTROL 값 배포]** 단추에 액세스할 수 있습니다.
+이 옵션에 액세스하려면 아래 표시된 것처럼 쿼리에서 속성 선택 단추를 클릭합니다. 그런 다음 선택한 특성 옆에 있는 **[!UICONTROL 정보]** 아이콘을 클릭합니다. **[!UICONTROL 값 배포]** 단추에 액세스할 수 있습니다.
 
 ![](assets/values_query.png){zoomable="yes"}
 
 >[!NOTE]
 >
-> 값이 많은 필드의 경우 처음 20개 값만 표시됩니다. **[!UICONTROL 부분 로드]** 알림이 경고합니다.
-
->[!NOTE]
+>* 값이 많은 필드의 경우 처음 20개 값만 표시됩니다. 이 경우 **[!UICONTROL 부분 로드]** 알림이 경고합니다.
 >
-> **[!UICONTROL 값 배포]** 기능은 모든 특성 선택기에서 액세스할 수 있습니다.
+>* **[!UICONTROL 값 배포]** 옵션은 모든 특성 선택기에서 액세스할 수 있습니다.
 
 ## 필터링 구성 요소 추가 {#filtering}
 

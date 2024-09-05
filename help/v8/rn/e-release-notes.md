@@ -7,7 +7,7 @@ exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 source-git-commit: d5a916578a9d79ad021064b9c1e6b26e396ebd15
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 42%
+ht-degree: 76%
 
 ---
 
@@ -17,13 +17,13 @@ Adobe Campaign Web 사용자 인터페이스는 지속적으로 새로운 기능
 
 **아래의 초기 릴리스 정보는 릴리스 예정일까지 사전 예고 없이 변경될 수 있습니다**. 링크, 화면 및 업데이트된 설명서는 릴리스 일자에 [릴리스 정보](release-notes.md)에 게시됩니다.
 
-## 8월 릴리스 노트 {#24-8-release}
+## 8월 릴리스 정보 {#24-8-release}
 
-**릴리스 날짜**: 2024년 9월 3일
+**릴리스 일자**: 2024년 9월 3일
 
-8월 릴리스부터 다음 기능 및 개선 사항을 사용할 수 있습니다.
+8월 릴리스부터 다음과 같은 기능 및 개선 사항을 이용할 수 있습니다.
 
-**값 배포** - 개인화를 위해 필드 목록에 액세스할 때 이제 각 필드에 값이 어떻게 분배되는지 확인할 수 있습니다. 전용 팝업 창에 각 값의 수와 백분율이 표시됩니다.
+**값 배포** - 개인화를 위해 필드 목록에 액세스할 때 이제 각 필드에 대한 값이 어떻게 배포되어 있는지 확인할 수 있습니다. 전용 팝업 창에 각 값에 대한 숫자와 백분율이 표시됩니다.
 
 
 ### 제한 공개된 새로운 기능 {#acs-24-8}
@@ -32,9 +32,9 @@ Adobe Campaign Web 사용자 인터페이스는 지속적으로 새로운 기능
 >
 >다음 기능은 제한 공개(LA)로 제공됩니다. **Adobe Campaign Standard에서 Adobe Campaign v8로** 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 >
->다음 문서 페이지를 참조하세요. [Campaign v8로 Campaign Standard 전환](../rn/acs-migration.md) 및 [Campaign Standard 사용자를 위한 기능](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ko){target="_blank"}.
+>다음 문서 페이지를 참조하세요. [Campaign v8로 Campaign Standard 전환](../rn/acs-migration.md) 및 [Campaign Standard 사용자를 위한 기능](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}.
 
-* **DM용 브랜딩** - 이제 기술 관리자는 하나 또는 여러 브랜드를 정의하여 브랜드 ID에 영향을 주는 매개 변수를 중앙 집중화할 수 있습니다. 여기에는 브랜드 로고, 랜딩 페이지의 액세스 URL의 도메인 또는 메시지 추적 설정이 포함됩니다. 이제 이러한 브랜드를 만들어 메시지 또는 랜딩 페이지에 연결할 수 있습니다. 이 구성은 템플릿에서 관리됩니다.
+* **다이렉트 메일에 대한 브랜딩** - 기술 관리자는 이제 브랜드의 정체성에 영향을 미치는 매개변수를 중앙 집중화하기 위해 하나 이상의 브랜드를 정의할 수 있습니다. 여기에는 브랜드 로고, 랜딩 페이지의 액세스 URL의 도메인 또는 메시지 추적 설정이 포함됩니다. 이제 이러한 브랜드를 만들어 메시지 또는 랜딩 페이지에 연결할 수 있습니다. 이 구성은 템플릿에서 관리됩니다.
 
 * **랜딩 페이지를 포함하는 구독** - 이제 랜딩 페이지를 서비스에 연결하고 사용자가 유효성을 검사할 때 확인 메시지를 보낼 수 있습니다.
 

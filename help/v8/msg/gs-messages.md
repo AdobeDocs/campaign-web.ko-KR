@@ -4,9 +4,9 @@ title: Adobe Campaign Web의 메시지 및 게재 시작
 description: Campaign Web으로 게재 작업을 수행하고 메시지를 전송하는 방법 알아보기
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: 42df1758c2d1a4eb78012c8aea8b25f1fdd50148
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '152'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Adobe Campaign v8에는 이메일, SMS, 푸시 알림 및 다이렉트 메일 �
       <img alt="푸시" src="assets/do-not-localize/direct-mail.jpg">
     </a>
     <div>
-    <a href="../direct-mail/gs-direct-mail.md"><strong>DM 메시지 만들기</strong></a>
+    <a href="../direct-mail/gs-direct-mail.md"><strong>다이렉트 메일 메시지 만들기</strong></a>
     </div>
     <p>
     </td>

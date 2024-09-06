@@ -3,10 +3,10 @@ audience: end-user
 title: JavaScript 코드 워크플로우 활동 사용
 description: JavaScript 코드 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
-source-git-commit: ea448ac526fddc5875103dbb7ca00b5982fe5596
+source-git-commit: 040a7f68f072d5c3a7ce56a61d3383f0baccf8a8
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 25%
+source-wordcount: '948'
+ht-degree: 26%
 
 ---
 
@@ -31,6 +31,11 @@ ht-degree: 25%
 >id="acw_orchestration_javascript_transition"
 >title="JavaScript 전환"
 >abstract="추가 출력 전환에서 스크립트 실행 중에 발생하는 오류를 유지하려면 **[!UICONTROL 오류 처리]** 옵션을 전환합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_processerrors"
+>title="오류 처리"
+>abstract="프로세스 오류"
 
 **JavaScript 코드** 활동은 **데이터 관리** 활동입니다. 이 활동을 사용하여 워크플로우 컨텍스트에서 JavaScript 스크립트를 실행합니다. 이렇게 하면 데이터베이스에서 정보를 수집하거나 다른 복잡한 작업을 수행할 수 있습니다.
 

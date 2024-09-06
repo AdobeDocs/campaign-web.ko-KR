@@ -3,14 +3,24 @@ audience: end-user
 title: 테스트 워크플로우 활동 사용
 description: 테스트 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
 
 # 테스트 {#test}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_test"
+>title="테스트 활동"
+>abstract="**Test** 활동은 **흐름 제어** 활동입니다. 이를 통해 지정된 조건을 기반으로 전환을 활성화할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_test_conditions"
+>title="조건"
+>abstract="**Test** 활동에는 여러 출력 전환이 있을 수 있습니다. 워크플로우 실행 중에 각 조건은 둘 중 하나가 충족될 때까지 순차적으로 테스트됩니다. 조건이 충족되지 않으면 워크플로는 **[!UICONTROL 기본 조건]**&#x200B;의 경로를 따라 계속됩니다. 활성화된 기본 조건이 없으면 이 시점에서 워크플로우가 중지됩니다."
 
 **Test** 활동은 **흐름 제어** 활동입니다. 이를 통해 지정된 조건을 기반으로 전환을 활성화할 수 있습니다.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: AND-결합 워크플로 활동 사용
 description: AND-결합 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '254'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
->title="AND-결합 활동 구성"
+>title="병합 옵션"
 >abstract="참여하고자 하는 활동을 선택합니다. **기본 세트** 드롭다운에서 유지하고자 하는 인바운드 전환 모집단을 선택합니다."
 
 **AND-결합** 활동을 구성하려면 다음 단계를 따르십시오.

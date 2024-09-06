@@ -3,10 +3,10 @@ audience: end-user
 title: 구독 서비스 활동 사용
 description: 구독 서비스 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 18%
+source-wordcount: '1067'
+ht-degree: 16%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"
 >title="추가 정보"
->abstract="추가 정보"
+>abstract="각 레코드에 대한 구독의 데이터 및 출처를 지정합니다. 이 섹션을 비워 둘 수 있습니다. 이 경우 워크플로우를 실행할 때 날짜 또는 출처가 설정되지 않습니다. 인바운드 데이터에 프로필의 서비스 구독 날짜를 나타내는 열이 포함된 경우 **[!UICONTROL 날짜]** 필드에서 선택할 수 있습니다. **[!UICONTROL 원본 경로]** 필드에서 구독의 원본을 정의합니다. **[!UICONTROL 상수를 원본으로 설정]** 옵션을 확인하여 인바운드 데이터의 필드 중 하나 또는 선택한 상수 값으로 설정할 수 있습니다."
 
 **구독 서비스** 활동은 **데이터 관리** 활동입니다. 전환에 지정된 모집단에 대한 정보 서비스 구독을 만들거나 삭제할 수 있습니다.
 

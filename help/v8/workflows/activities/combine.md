@@ -3,10 +3,10 @@ audience: end-user
 title: 결합 워크플로 활동 사용
 description: 결합 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 85%
+source-wordcount: '1046'
+ht-degree: 73%
 
 ---
 
@@ -42,7 +42,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
 >title="세분화 유형 선택"
->abstract="통합, 교차 또는 제외 등 대상자를 결합하는 방법을 선택합니다."
+>abstract="대상을 결합하는 방법을 선택합니다. **유니온**&#x200B;을(를) 사용하면 여러 활동의 결과를 하나의 대상으로 다시 그룹화할 수 있습니다. **교차**&#x200B;를 사용하면 활동에서 다른 인바운드 모집단에 공통되는 요소만 유지할 수 있습니다. **제외** 기능을 사용하면 특정 기준에 따라 한 모집단에서 요소를 제외할 수 있습니다. "
 
 **결합** 활동 구성을 시작하려면 다음과 같은 일반적인 단계를 따르십시오.
 
@@ -57,14 +57,9 @@ The **Combine** activity can be placed after any other activity, but not at the 
 ## 합집합 {#combine-union}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_intersection_reconciliation_options"
->title="교집합 조정 옵션"
->abstract="중복 처리 방법을 정의하려면 조정 유형을 선택합니다."
-
->[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_reconciliation"
 >title="조정 옵션"
->abstract="중복 처리 방법을 정의하려면 **조정 유형**&#x200B;을 선택합니다."
+>abstract="중복을 처리하는 방법을 정의하려면 **조정 형식**&#x200B;을(를) 선택하십시오. 기본적으로 **키** 옵션이 활성화됩니다. 즉, 다른 인바운드 전환의 요소가 동일한 키를 가질 때 활동에서 하나의 요소만 유지합니다. **열 선택** 옵션을 사용하여 데이터 조정이 적용되는 열 목록을 정의합니다."
 
 **결합** 활동에서 **결합**&#x200B;을 구성할 수 있습니다. 이를 위해 **조정 유형**&#x200B;을(를) 선택하여 중복 처리 방법을 정의해야 합니다.
 
@@ -72,6 +67,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * **열 선택**: 데이터 조정을 적용할 열 목록을 정의하려면 이 옵션을 선택하십시오. 기본 세트(소스 데이터가 있는 세트)를 먼저 선택한 다음 결합에 사용할 열을 선택해야 합니다.
 
 ## 교차 {#combine-intersection}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_reconciliation_options"
+>title="교집합 조정 옵션"
+>abstract="중복을 처리하는 방법을 정의하려면 **조정 형식**&#x200B;을(를) 선택하십시오. 기본적으로 **키** 옵션이 활성화됩니다. 즉, 다른 인바운드 전환의 요소가 동일한 키를 가질 때 활동에서 하나의 요소만 유지합니다. **열 선택** 옵션을 사용하여 데이터 조정이 적용되는 열 목록을 정의합니다."
 
 **결합** 활동에서 **교차**&#x200B;를 구성할 수 있습니다. 이를 위해 아래의 추가 단계를 수행해야 합니다.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 파일 전송 활동 사용
 description: 파일 전송 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 1494db73b1a91825a2ca57ea1881eb04e95d8da2
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 18%
+source-wordcount: '1246'
+ht-degree: 17%
 
 ---
 
@@ -36,36 +36,6 @@ ht-degree: 18%
 >id="acw_orchestration_transferfile_source"
 >title="파일 전송 소스"
 >abstract="원하는 파일 이름을 입력하십시오."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_delete_file"
->title="전송 후 소스 파일 삭제"
->abstract="전송이 성공적으로 완료되면 소스 파일을 삭제합니다."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_display_logs"
->title="세션 로그 표시"
->abstract="전송 작업과 관련된 정보가 워크플로 로그에 표시됩니다."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_list_files"
->title="모든 파일 나열"
->abstract="이 옵션은 **vars.filenames** 이벤트 변수에서 서버에 있는 모든 파일의 색인을 생성합니다."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_historization"
->title="파일 기록"
->abstract="파일 기록"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_missing_file"
->title="누락된 파일 처리"
->abstract="이 옵션을 사용하면 활동 후 **파일 없음** 아웃바운드 전환을 활성화할 수 있습니다."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_errors"
->title="오류 처리"
->abstract="이 옵션을 사용하면 활동 후 **오류** 아웃바운드 전환을 활성화할 수 있습니다."
 
 **파일 전송** 활동은 **데이터 관리** 활동입니다. 파일을 받거나 보내고, 파일의 존재를 테스트하거나, 서버에 있는 파일을 나열할 수 있습니다. 사용되는 프로토콜은 서버 간 프로토콜 또는 HTTP 프로토콜일 수 있습니다.
 
@@ -122,6 +92,11 @@ ht-degree: 18%
 
 ## 내역 설정 {#historization}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_historization"
+>title="파일 기록"
+>abstract="**[!UICONTROL 파일 전송]** 활동이 실행될 때마다 업로드 또는 다운로드한 파일을 전용 폴더에 저장합니다. 워크플로우의 각 파일 전송 활동마다 폴더가 하나씩 생성됩니다. 기본적으로 파일은 처리 전에 Adobe Campaign 설치 폴더(`/vars`)의 기본 저장소 디렉터리에 저장됩니다. 특정 폴더를 사용하려면 **[!UICONTROL 기본 저장소 디렉터리 사용]** 옵션을 끄고 디렉터리 경로를 입력하십시오."
+
 **[!UICONTROL 파일 전송]** 활동이 실행될 때마다 업로드 또는 다운로드한 파일을 전용 폴더에 저장합니다. 워크플로우의 각 파일 전송 활동마다 폴더가 하나씩 생성됩니다. 기본적으로 파일은 처리 전에 Adobe Campaign 설치 폴더(`/vars`)의 기본 저장소 디렉터리에 저장됩니다. 특정 폴더를 사용하려면 **[!UICONTROL 기본 저장소 디렉터리 사용]** 옵션을 끄고 디렉터리 경로를 입력하십시오.
 
 ![](../assets/workflow-transfer-file-historization.png)
@@ -139,6 +114,31 @@ ht-degree: 18%
 >활동을 다시 실행하지 않는 경우 해당 폴더는 확인되거나 삭제되지 않습니다. 따라서 대용량 파일을 전송할 때는 주의하십시오.
 
 ## 고급 및 오류 관리 옵션 {#advanced}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_delete_file"
+>title="전송 후 소스 파일 삭제"
+>abstract="전송이 성공적으로 완료되면 소스 파일을 삭제합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_display_logs"
+>title="세션 로그 표시"
+>abstract="전송 작업과 관련된 정보가 워크플로 로그에 표시됩니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_list_files"
+>title="모든 파일 나열"
+>abstract="이 옵션은 **vars.filenames** 이벤트 변수에서 서버에 있는 모든 파일의 색인을 생성합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_missing_file"
+>title="누락된 파일 처리"
+>abstract="이 옵션을 사용하면 활동 후 **파일 없음** 아웃바운드 전환을 활성화할 수 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_errors"
+>title="오류 처리"
+>abstract="이 옵션을 사용하면 활동 후 **오류** 아웃바운드 전환을 활성화할 수 있습니다."
 
 1. **[!UICONTROL 고급 옵션]**&#x200B;에서는 구성 중인 활동 유형에 따라 추가 옵션을 사용할 수 있습니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
 

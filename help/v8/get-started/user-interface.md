@@ -4,9 +4,9 @@ title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: b19976439b3cd4c5d89fed02d71830bc2d921562
-workflow-type: ht
-source-wordcount: '1713'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

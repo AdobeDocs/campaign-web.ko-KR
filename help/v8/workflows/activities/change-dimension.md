@@ -5,8 +5,8 @@ description: 차원 변경 워크플로우 활동을 사용하는 방법을 알�
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
 source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 26%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -14,8 +14,8 @@ ht-degree: 26%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
->title="보조 항목 생성"
->abstract="중복으로 제외되었던 나머지 모집단으로 추가 아웃바운드 전환을 생성할 수 있습니다. 이렇게 하려면 **보조 항목 생성** 옵션을 토글합니다"
+>title="여집합 생성"
+>abstract="중복으로 제외했던 나머지 모집단으로 추가 아웃바운드 전환을 생성할 수 있습니다. 이렇게 하려면 **여집합 생성** 옵션을 토글합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"

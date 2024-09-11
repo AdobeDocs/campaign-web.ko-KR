@@ -3,10 +3,10 @@ audience: end-user
 title: AI Assistant - Content Accelerator 시작하기
 description: AI Assistant - Content Accelerator 시작하기
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: ff46f8d9c0b46d5b74dee4317ade6a496841c408
+source-git-commit: 55b726961149e7eb19ee326f1b702e6b75976dae
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 20%
+source-wordcount: '838'
+ht-degree: 19%
 
 ---
 
@@ -53,14 +53,18 @@ AI Assistant를 사용하면 시간을 절약하고 효율성을 개선하며 �
 
 ## AI Assistant - Content Accelerator 액세스 {#generative-access}
 
+AI Assistant - 이메일, 푸시 알림 및 SMS용 Content Accelerator는 이제 GA(일반 가용성)로 모든 사용자가 사용할 수 있습니다. 사용자에게 액세스 권한을 부여하는 데 필요한 권한 및 단계는 아래에 자세히 설명되어 있습니다.
+
 +++  콘텐츠 생성 관련 권한을 할당하는 방법을 알아봅니다
 
-1. **제품 프로필 만들기** - [Admin Console](https://stage.adminconsole.adobe.com/)에서 다음 특정 패턴을 사용하여 제품 프로필을 만듭니다. `Campaign - <instance-name> - AIAssistant`
+1. **제품 프로필 만들기** - [Admin Console](https://stage.adminconsole.adobe.com/)에서 다음과 같은 특정 패턴을 가진 제품 프로필을 만듭니다.
+   `Campaign - <instance-name> - AIAssistant`
 
 1. **사용자 추가** - 해당 제품 프로필에 필요한 사용자 추가,
 또는
-
    **사용자 그룹을 만들고** 해당 사용자 그룹을 제품 프로필에 추가하고 사용자를 제품 프로필에 추가합니다.
+
+[이 섹션](../get-started/permissions.md)에서 Campaign에서 권한을 정의하는 방법을 알아보세요.
 
 +++
 

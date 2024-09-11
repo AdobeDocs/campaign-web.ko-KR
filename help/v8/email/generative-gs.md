@@ -3,14 +3,14 @@ audience: end-user
 title: Adobe Campaign 웹 - 콘텐츠 가속기에서 AI 지원 시작
 description: Adobe Campaign 웹 - Content Accelerator에서 AI 지원 시작
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 279450c78ba83ea9f914b57ff7ade450a6a9a5e5
+source-git-commit: b4ff0ff1f507f3d7a8a02faefe6d121b08b8c9b8
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '765'
 ht-degree: 20%
 
 ---
 
-# Adobe Campaign 웹 - 콘텐츠 가속기에서 AI 지원 시작  {#generative-gs}
+# AI Assistant - Content Accelerator 시작하기  {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"

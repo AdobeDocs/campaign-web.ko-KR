@@ -3,7 +3,7 @@ audience: end-user
 title: Adobe Campaign 웹 - 콘텐츠 가속기에서 AI 지원 시작
 description: Adobe Campaign 웹 - Content Accelerator에서 AI 지원 시작
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 10448255094e1be1f2c52b67d8f1f45d862f06df
+source-git-commit: 279450c78ba83ea9f914b57ff7ade450a6a9a5e5
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 20%
@@ -33,15 +33,16 @@ ht-degree: 20%
 >
 >기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 설계된 [대화형 데모](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator)를 통해 실습 경험에 몰입하세요.
 
+
+마케팅 산업의 경쟁력이 높아짐에 따라 브랜드는 효과적인 콘텐츠를 효율적이고 빠르게 생성할 수 있는 효율적인 방법을 모색하고 있습니다. Microsoft Azure OpenAI 및 Adobe Firefly에서 제공하는 콘텐츠 가속용 Adobe Campaign 웹의 AI Assistant는 Adobe의 AI 콘텐츠 생성 기능으로, 마케터가 이메일, SMS, 푸시와 같은 채널 전반에서 전문적이고 브랜드 일관적인 콘텐츠를 만드는 방식을 혁신합니다. 고급 GenAI 모델과 브랜드 가이드라인에 대한 깊은 이해를 바탕으로 AI Assistant는 브랜드 윤곽이 잡힌 스타일, 레이아웃, 색조 등에 최적화된 콘텐츠로 마케팅 목표를 기반으로 개인화되고, 매력적이며, 효과적인 콘텐츠를 자동 생성합니다.
+
+AI Assistant를 사용하면 시간을 절약하고 효율성을 개선하며 더 나은 결과를 도출하는 동시에 직관적이고 단순하며 번거롭지 않은 이메일, SMS 및 푸시와 같은 채널 전반의 마케팅 캠페인을 만들고 실행할 수 있습니다.
+
 >[!IMPORTANT]
 >
 >* 이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](#generative-guardrails)을 읽어 보십시오.
 >
 >* Content Acceleration을 위해 Adobe Campaign 웹에서 AI Assistant를 사용하려면 먼저 [사용자 계약](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
-
-마케팅 산업의 경쟁력이 높아짐에 따라 브랜드는 효과적인 콘텐츠를 효율적이고 빠르게 생성할 수 있는 효율적인 방법을 모색하고 있습니다. Microsoft Azure OpenAI 및 Adobe Firefly에서 제공하는 콘텐츠 가속용 Adobe Campaign 웹의 AI Assistant는 Adobe의 AI 콘텐츠 생성 기능으로, 마케터가 이메일, SMS, 푸시와 같은 채널 전반에서 전문적이고 브랜드 일관적인 콘텐츠를 만드는 방식을 혁신합니다. 고급 GenAI 모델과 브랜드 가이드라인에 대한 깊은 이해를 바탕으로 AI Assistant는 브랜드 윤곽이 잡힌 스타일, 레이아웃, 색조 등에 최적화된 콘텐츠로 마케팅 목표를 기반으로 개인화되고, 매력적이며, 효과적인 콘텐츠를 자동 생성합니다.
-
-AI Assistant를 사용하면 시간을 절약하고 효율성을 개선하며 더 나은 결과를 도출하는 동시에 직관적이고 단순하며 번거롭지 않은 이메일, SMS 및 푸시와 같은 채널 전반의 마케팅 캠페인을 만들고 실행할 수 있습니다.
 
 ## AI Assistant Content Accelerator 액세스 {#generative-access}
 

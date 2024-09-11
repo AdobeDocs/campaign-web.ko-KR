@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Adobe Campaign Web for Content Acceleration의 AI Assistant를 사용한 SMS
-description: Content Acceleration을 위한 Adobe Campaign 웹에서 AI Assistant 시작하기
+title: AI Assistant for Content Acceleration이 포함된 SMS
+description: Content Acceleration을 위한 AI Assistant 시작하기
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 5b0cc3dfed5180d4acb022e20333f6afab465051
+source-git-commit: 1edbc6201b49aeff3d71118b327de043d6f5e7d0
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '901'
 ht-degree: 2%
 
 ---
 
-# Adobe Campaign 웹 - Content Accelerator에서 AI Assistant를 사용하여 SMS 생성 {#generative-sms}
+# AI Assistant - Content Accelerator를 사용하여 SMS 생성 {#generative-sms}
 
 >[!IMPORTANT]
 >

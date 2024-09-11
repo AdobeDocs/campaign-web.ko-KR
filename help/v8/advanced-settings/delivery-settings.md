@@ -7,7 +7,7 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 898762bc059b49c2f39da7558e6d9ffd31d1985e
 workflow-type: tm+mt
 source-wordcount: '2852'
-ht-degree: 44%
+ht-degree: 46%
 
 ---
 
@@ -290,12 +290,12 @@ ht-degree: 44%
 
 
 
-## 전자 메일 게재에 대한 SMTP 설정 {#smtp}
+## 이메일 게재를 위한 SMTP 설정 {#smtp}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_smtp"
->title="SMTP 매개 변수"
->abstract="전자 메일 게재에 추가 SMTP 매개 변수를 추가할 수 있습니다."
+>title="SMTP 매개변수"
+>abstract="이메일 게재에 추가 SMTP 매개변수를 추가할 수 있습니다."
 
 전자 메일 게재에 추가 SMTP 매개 변수를 추가할 수 있습니다. 게재 설정의 SMTP 탭에서 수행할 수 있습니다.
 
@@ -343,7 +343,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="변수"
->abstract="게재에 변수를 추가할 수 있으며, 이는 추적 및 개인화에 유용할 수 있습니다. 이러한 변수는 게재 콘텐츠와 워크플로우 모두에서 액세스할 수 있습니다."
+>abstract="게재에 변수를 추가할 수 있으며, 이는 추적 및 개인화에 유용할 수 있습니다. 이러한 변수는 게재 콘텐츠와 워크플로 모두에서 액세스할 수 있습니다."
 
 게재에 변수를 추가할 수 있으며, 이는 추적 및 개인화에 유용할 수 있습니다. 이러한 변수는 게재 콘텐츠와 워크플로우 모두에서 액세스할 수 있습니다. 저장된 변수는 게재 내의 모든 메시지에서 일정하게 유지되는 값을 설정하는 데 사용됩니다. 게재 템플릿에서도 구성할 수 있습니다.
 

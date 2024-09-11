@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 게재 액세스
+title: Access 게재
 description: Campaign 웹에서 게재에 액세스하고 관리하는 방법을 알아봅니다
 feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
@@ -9,23 +9,23 @@ exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 68%
+ht-degree: 71%
 
 ---
 
-# 게재 액세스 {#work-with-deliveries}
+# Access 게재 {#work-with-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="게재"
 >abstract="게재는 이메일, SMS 또는 푸시와 같은 특정 채널을 통해 대상자에게 전송되는 커뮤니케이션입니다. 이 화면에서는 기존 게재를 편집, 복제, 삭제할 수 있습니다. 또한 완료된 게재에 대한 보고서를 볼 수 있습니다. **게재 만들기** 버튼을 클릭하여 새 게재를 추가합니다."
 
-## 게재 액세스 {#access}
+## Access 게재 {#access}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_additional_target"
 >title="추가 대상"
->abstract="이러한 규칙은 클라이언트 콘솔에서만 변경할 수 있습니다."
+>abstract="이들 규칙은 클라이언트 콘솔에서만 변경할 수 있습니다."
 
 게재는 왼쪽 탐색 메뉴의 **[!UICONTROL 게재]** 메뉴에서 액세스할 수 있습니다. 클라이언트 콘솔 또는 웹 사용자 인터페이스에서 만든 모든 게재가 이 목록에 표시됩니다. 이 화면에서 모든 기존 게재를 모니터링하거나, 복제 또는 삭제하거나, 새 게재를 만들 수 있습니다.
 

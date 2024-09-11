@@ -6,7 +6,7 @@ exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_refine_target"
 >title="대상 조정"
->abstract="이러한 규칙은 클라이언트 콘솔에서만 변경할 수 있습니다."
+>abstract="이들 규칙은 클라이언트 콘솔에서만 변경할 수 있습니다."
 
 Adobe Campaign 웹 사용자 인터페이스에는 다양한 기준을 기반으로 데이터베이스를 필터링하는 프로세스를 간소화하는 쿼리 모델러가 포함되어 있습니다. 클라이언트 콘솔에서 생성된 쿼리와 완벽하게 호환되므로 웹 사용자 인터페이스로 원활하게 전환할 수 있습니다.
 

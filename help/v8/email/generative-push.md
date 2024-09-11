@@ -1,36 +1,25 @@
 ---
 audience: end-user
-title: Campaign에서 AI 도우미를 사용한 푸시 알림
-description: Campaign에서 AI Assistant 시작
-badge: label="Beta"
-hide: true
-hidefromtoc: true
+title: Content Acceleration을 위해 Journey Optimizer에서 AI Assistant를 사용하여 푸시 알림
+description: Content Acceleration을 위한 Journey Optimizer의 AI Assistant 시작하기
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
+source-git-commit: 5b0cc3dfed5180d4acb022e20333f6afab465051
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 8%
+source-wordcount: '592'
+ht-degree: 1%
 
 ---
 
-# AI 어시스턴트로 푸시 알림 생성 {#generative-push}
+# Journey Optimizer - Content Accelerator에서 AI Assistant를 사용하여 푸시 알림 생성  {#generative-push}
 
->[!BEGINSHADEBOX]
-
-**목차**
-
-* [AI 어시스턴트 시작하기](generative-gs.md)
-* [AI 어시스턴트로 이메일 생성](generative-content.md)
-* [AI 어시스턴트와 함께하는 SMS 세대](generative-sms.md)
-* AI 어시스턴트로 푸시 알림 생성
-
->[!ENDSHADEBOX]
-
-AI 도우미는 대상자에게 반향을 일으킬 가능성이 높은 다양한 콘텐츠를 제안하여 게재의 영향을 최적화하는 데 도움이 됩니다.
-
->[!NOTE]
+>[!IMPORTANT]
 >
 >이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](generative-gs.md#generative-guardrails)을 읽어 보십시오.
+></br>
+>
+>Content Acceleration을 위해 Adobe Campaign 웹에서 AI Assistant를 사용하려면 먼저 [사용자 계약](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
+
+Journey Optimizer for Content Acceleration의 AI Assistant를 사용하면 대상자에게 반향을 일으킬 가능성이 높은 다양한 콘텐츠를 제안하여 게재의 영향을 최적화하는 데 도움이 될 수 있습니다.
 
 다음 예에서는 AI Assistant를 활용하여 보다 매력적인 고객 경험을 구축하기 위해 매력적인 메시지를 작성하겠습니다.
 
@@ -38,21 +27,11 @@ AI 도우미는 대상자에게 반향을 일으킬 가능성이 높은 다양�
 
    푸시 게재를 구성하는 방법에 대한 자세한 내용은 [이 페이지](../push/create-push.md)를 참조하세요.
 
-1. 게재할 **[!UICONTROL 기본 세부 정보]**&#x200B;를 입력하십시오. 완료되면 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요.
-
-1. 필요에 따라 푸시 알림을 개인화합니다. [자세히 알아보기](../push/content-push.md)
-
 1. **[!UICONTROL AI Assistant 표시]** 메뉴에 액세스합니다.
 
    ![](assets/push-genai-1.png){zoomable="yes"}
 
-1. AI 관리자가 **[!UICONTROL 원본 콘텐츠 사용]** 옵션을 사용하여 게재, 게재 이름 및 선택한 대상을 기반으로 새 콘텐츠를 개인화할 수 있습니다.
-
-   >[!IMPORTANT]
-   >
-   > 프롬프트는 항상 현재 콘텐츠에 연결되어야 합니다.
-
-   ![](assets/push-genai-3.png){zoomable="yes"}
+1. AI 관리자가 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화하려면 **[!UICONTROL 원본 콘텐츠 사용]** 옵션을 사용하도록 설정하십시오.
 
 1. **[!UICONTROL 프롬프트]** 필드에 생성할 내용을 설명하여 내용을 미세 조정하십시오.
 
@@ -60,17 +39,27 @@ AI 도우미는 대상자에게 반향을 일으킬 가능성이 높은 다양�
 
    ![](assets/push-genai-2.png){zoomable="yes"}
 
-1. AI Assistant에 추가 컨텍스트를 제공할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가하려면 **[!UICONTROL 브랜드 자산 업로드]**&#x200B;를 선택하십시오.
+1. 생성할 필드 선택: **[!UICONTROL 제목]**, **[!UICONTROL 메시지]** 및/또는 **[!UICONTROL 이미지]**.
 
-1. 생성할 필드 선택: **[!UICONTROL 제목]**, **[!UICONTROL 부제]** 또는 **[!UICONTROL 메시지]**.
-
-1. 프롬프트를 다음과 같은 다양한 옵션으로 사용자 지정합니다.
+1. **[!UICONTROL 텍스트 설정]** 옵션을 사용하여 메시지를 사용자 지정합니다.
 
    * **[!UICONTROL 커뮤니케이션 전략]**: 생성된 텍스트에 가장 적합한 커뮤니케이션 스타일을 선택합니다.
-   * **[!UICONTROL 언어]**: 콘텐츠를 생성할 언어를 선택하십시오.
    * **[!UICONTROL 음색]**: 전자 메일의 음색이 대상자에게 울려 퍼집니다. AI 어시스턴트는 여러분이 유익하거나, 장난스럽거나, 설득력 있게 들리기를 원하든 상관없이 메시지를 그에 따라 조정할 수 있습니다.
 
+   ![](assets/push-genai-3.png){zoomable="yes"}
+
+1. **[!UICONTROL 이미지 설정]** 선택:
+
+   * **[!UICONTROL 콘텐츠 형식]**: 이 옵션은 시각적 요소의 특성을 분류하여 사진, 그래픽 또는 미술과 같은 시각적 표현의 다른 형식을 구분합니다.
+   * **[!UICONTROL 시각적 강도]**: 이미지의 강도를 조정하여 이미지의 영향을 제어할 수 있습니다. 낮은 설정 (2)는 부드럽고 절제된 모양을 만들고, 높은 설정 (10)은 이미지를 더 생동감 있고 시각적으로 강력하게 만듭니다.
+   * **[!UICONTROL 조명]**: 이미지에 있는 번개(대기의 모양과 특정 요소의 강조 표시)를 나타냅니다.
+   * **[!UICONTROL 컴포지션]**: 이미지 프레임 내의 요소 배열을 참조합니다
+
    ![](assets/push-genai-4.png){zoomable="yes"}
+
+1. **[!UICONTROL 브랜드 자산]** 메뉴에서 **[!UICONTROL 브랜드 자산 업로드]**&#x200B;를 클릭하여 AI Assistant에 추가 컨텍스트를 제공하거나 이전에 업로드한 것을 선택할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가합니다.
+
+   이전에 업로드한 파일은 **[!UICONTROL 업로드된 브랜드 자산]** 드롭다운에서 사용할 수 있습니다. 세대에 포함할 자산을 전환하기만 하면 됩니다.
 
 1. 메시지가 준비되면 **[!UICONTROL 생성]**&#x200B;을 클릭합니다.
 
@@ -83,6 +72,8 @@ AI 도우미는 대상자에게 반향을 일으킬 가능성이 높은 다양�
    * **[!UICONTROL 구문 변경]**: AI Assistant는 다양한 방식으로 메시지를 다시 구문 처리하여 쓰기를 신선하게 유지하고 다양한 대상자를 유혹할 수 있습니다.
 
    * **[!UICONTROL 더 간단한 언어 사용]**: AI Assistant를 사용하여 언어를 단순화함으로써, 더 많은 대상자가 명확하고 쉽게 사용할 수 있습니다.
+
+   텍스트의 **[!UICONTROL 색조]** 및 **[!UICONTROL 통신 전략]**&#x200B;을 변경할 수도 있습니다.
 
    ![](assets/push-genai-5.png){zoomable="yes"}
 

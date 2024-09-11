@@ -3,10 +3,10 @@ keywords: Campaign Web;홈;인기 있는 주제
 description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 5f12974209ba76d902357fed7830d2472ca9e00d
+source-git-commit: 020cd1608887023dd4ff434c58cc98e3c1f93adf
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 88%
+source-wordcount: '470'
+ht-degree: 82%
 
 ---
 
@@ -51,11 +51,10 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 
 >[!BEGINTABS]
 
->[!TAB 8월 릴리스가 공개되었습니다!]
+>[!TAB Adobe Campaign 웹의 AI 도우미 - 콘텐츠 가속기]
 
-Adobe Campaign Web 사용자 인터페이스 2024년 7월 릴리스에 포함된 새로운 기능과 개선 사항을 살펴보십시오.
-
-[![이미지](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 디자인된 라이브 기능 미리보기를 통해 실습 경험에 몰입하십시오.
+[![이미지](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator)
 
 >[!TAB 값 배포]
 

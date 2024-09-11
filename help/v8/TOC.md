@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: 970f1511fef75395aaaa6b577eb65b6cb179f00d
+source-git-commit: 8450e6e03b1d93a0dd978d45d398d5274f65b014
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '754'
 ht-degree: 99%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 99%
    + [AI 기반 상황별 도움말](get-started/using-ai.md)
 + 메시지 및 게재 {#msg}
    + [메시지 시작](msg/gs-messages.md)
-   + [게재 액세스](msg/gs-deliveries.md)
+   + [Access 게재](msg/gs-deliveries.md)
    + [게재 만들기](msg/create-deliveries.md)
    + [게재 템플릿 사용](msg/delivery-template.md)
    + 이메일 {#email}
@@ -65,11 +65,6 @@ ht-degree: 99%
       + [DM 게재 만들기](direct-mail/create-direct-mail.md)
       + [추출 파일 설계](direct-mail/content-direct-mail.md)
       + [다이렉트 메일 게재 미리보기 및 전송](direct-mail/send-direct-mail.md)
-   + AI 어시스턴트 {#ai-assistant}
-      + [AI 어시스턴트 시작하기](email/generative-gs.md)
-      + [AI 어시스턴트로 이메일 생성](email/generative-content.md)
-      + [AI 어시스턴트와 함께하는 SMS 세대](email/generative-sms.md)
-      + [AI 어시스턴트로 푸시 알림 생성](email/generative-push.md)
    + [메시지에 오퍼 추가](msg/offers.md)
    + [구독자에게 메시지 전송](msg/send-to-subscribers.md)
    + [게재 설정 구성](advanced-settings/delivery-settings.md)
@@ -113,6 +108,11 @@ ht-degree: 99%
          + [수직 정렬 및 패딩 조정](email/alignment-and-padding.md)
          + [링크 스타일 정의](email/styling-links.md)
          + [인라인 스타일 속성 추가](email/inline-styling.md)
+   + 콘텐츠 가속기를 위한 AI 도우미 {#ai-assistant}
+      + [AI 어시스턴트 시작하기](email/generative-gs.md)
+      + [AI 어시스턴트로 이메일 생성](email/generative-content.md)
+      + [AI 어시스턴트와 함께하는 SMS 세대](email/generative-sms.md)
+      + [AI 어시스턴트로 푸시 알림 생성](email/generative-push.md)
 + 랜딩 페이지 {#landing-pages}
    + [랜딩 페이지 시작](landing-pages/get-started-lp.md)
    + [랜딩 페이지 만들기 및 게시하기](landing-pages/create-lp.md)

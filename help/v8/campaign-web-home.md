@@ -3,7 +3,7 @@ keywords: Campaign Web;홈;인기 있는 주제
 description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
+source-git-commit: f0f77a395ac7304a516766069ca81807eabfaab8
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 82%
@@ -55,7 +55,7 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 
 ✨ 기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 설계된 [AI Assistant Content Accelerator](../v8/email/generative-gs.md) 라이브 기능 미리 보기를 통해 실습 경험에 몰입하십시오.
 
-[![이미지](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![이미지](assets/do-not-localize/try-it-now-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB 값 배포]
 

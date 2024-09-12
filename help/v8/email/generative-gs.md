@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: AI Assistant - Content Accelerator 시작하기
-description: AI Assistant - Content Accelerator 시작하기
+title: AI Assistant Content Accelerator 시작
+description: AI Assistant Content Accelerator 시작
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 55b726961149e7eb19ee326f1b702e6b75976dae
+source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '839'
 ht-degree: 19%
 
 ---
 
-# AI Assistant - Content Accelerator 작업  {#generative-gs}
+# AI Assistant Content Accelerator 사용  {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
@@ -51,9 +51,9 @@ AI Assistant를 사용하면 시간을 절약하고 효율성을 개선하며 �
 >
 >* Content Acceleration을 위해 Adobe Campaign 웹에서 AI Assistant를 사용하려면 먼저 [사용자 계약](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
 
-## AI Assistant - Content Accelerator 액세스 {#generative-access}
+## AI Assistant Content Accelerator 액세스 {#generative-access}
 
-AI Assistant - 이메일, 푸시 알림 및 SMS용 Content Accelerator는 이제 GA(일반 가용성)로 모든 사용자가 사용할 수 있습니다. 사용자에게 액세스 권한을 부여하는 데 필요한 권한 및 단계는 아래에 자세히 설명되어 있습니다.
+이메일, 푸시 알림 및 SMS용 AI Assistant Content Accelerator는 이제 GA(일반 가용성)로 모든 사용자가 사용할 수 있습니다. 사용자에게 액세스 권한을 부여하는 데 필요한 권한 및 단계는 아래에 자세히 설명되어 있습니다.
 
 +++  콘텐츠 생성 관련 권한을 할당하는 방법을 알아봅니다
 

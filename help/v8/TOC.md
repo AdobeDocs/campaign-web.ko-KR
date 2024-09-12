@@ -5,7 +5,7 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: ff46f8d9c0b46d5b74dee4317ade6a496841c408
+source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
 workflow-type: tm+mt
 source-wordcount: '749'
 ht-degree: 96%
@@ -109,7 +109,7 @@ ht-degree: 96%
          + [링크 스타일 정의](email/styling-links.md)
          + [인라인 스타일 속성 추가](email/inline-styling.md)
    + 콘텐츠 가속기를 위한 AI 도우미 {#ai-assistant}
-      + [AI Assistant - Content Accelerator 작업](email/generative-gs.md)
+      + [AI Assistant Content Accelerator 사용](email/generative-gs.md)
       + [AI를 사용한 이메일 생성](email/generative-content.md)
       + [AI를 사용한 SMS 생성](email/generative-sms.md)
       + [AI를 사용하여 푸시 알림 생성](email/generative-push.md)

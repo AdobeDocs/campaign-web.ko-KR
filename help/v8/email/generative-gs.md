@@ -3,9 +3,9 @@ audience: end-user
 title: AI Assistant Content Accelerator 시작
 description: AI Assistant Content Accelerator 시작
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
+source-git-commit: 9d32344b5ee378588cedb003b80daac04ac3a26c
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '840'
 ht-degree: 19%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 19%
 
 >[!INFO]
 >
->기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 설계된 [대화형 데모](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator)를 통해 실습 경험에 몰입하세요.
+>기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 설계된 [라이브 기능 미리 보기](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator)를 통해 실습 경험에 몰입하세요.
 
 
 마케팅 산업의 경쟁력이 높아짐에 따라 브랜드는 효과적인 콘텐츠를 효율적이고 빠르게 생성할 수 있는 효율적인 방법을 모색하고 있습니다. Microsoft Azure OpenAI 및 Adobe Firefly에서 제공하는 콘텐츠 가속용 Adobe Campaign 웹의 AI Assistant는 Adobe의 AI 콘텐츠 생성 기능으로, 마케터가 이메일, SMS, 푸시와 같은 채널 전반에서 전문적이고 브랜드 일관적인 콘텐츠를 만드는 방식을 혁신합니다. 고급 GenAI 모델과 브랜드 가이드라인에 대한 깊은 이해를 바탕으로 AI Assistant는 브랜드 윤곽이 잡힌 스타일, 레이아웃, 색조 등에 최적화된 콘텐츠로 마케팅 목표를 기반으로 개인화되고, 매력적이며, 효과적인 콘텐츠를 자동 생성합니다.

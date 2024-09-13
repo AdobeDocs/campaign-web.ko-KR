@@ -6,7 +6,7 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 1a6bf414e4e5390faf701baf34ad9b33bb0b6dd7
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 82%
+ht-degree: 92%
 
 ---
 
@@ -57,15 +57,15 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 
 [![이미지](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
->[!TAB 값 배포]
+>[!TAB 값 분포]
 
-개인화를 위한 필드 목록에 액세스할 때 이제 각 필드에 값이 어떻게 분배되는지 확인할 수 있습니다.
+개인화를 위해 필드 목록에 액세스할 때 이제 각 필드에 대한 값이 어떻게 배포되어 있는지 확인할 수 있습니다.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
 
->랜딩 페이지의 [!TAB CAPTCHA]
+>[!TAB 랜딩 페이지의 Captcha]
 
-이제 captcha를 추가하여 봇으로 인한 스팸 및 남용으로부터 랜딩 페이지를 보호할 수 있습니다. 이 기능은 제한된 가용성입니다.
+이제 봇으로 인한 스팸과 남용으로부터 랜딩 페이지를 보호하기 위해 Captcha를 추가할 수 있습니다. 이 기능은 제한적으로 이용할 수 있습니다.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 

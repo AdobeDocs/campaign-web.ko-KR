@@ -5,7 +5,7 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 59%
+ht-degree: 82%
 
 ---
 
@@ -45,11 +45,11 @@ Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대�
 
 8월 릴리스부터 다음과 같은 기능 및 개선 사항을 이용할 수 있습니다.
 
-* **값 배포** - 개인화를 위해 필드 목록에 액세스할 때 이제 각 필드에 대한 값이 어떻게 배포되어 있는지 확인할 수 있습니다. 전용 팝업 창에 각 값의 수와 백분율이 표시됩니다. [자세히 알아보기](../query/build-query.md#distribution-values-query)
+* **값 배포** - 개인화를 위해 필드 목록에 액세스할 때 이제 각 필드에 대한 값이 어떻게 배포되어 있는지 확인할 수 있습니다. 전용 팝업 창에 각 값에 대한 숫자와 백분율이 표시됩니다. [자세히 알아보기](../query/build-query.md#distribution-values-query)
 
-* **SMTP 매개 변수** - 이제 전자 메일 게재 설정에서 SMTP 설정을 사용할 수 있습니다. [자세히 알아보기](../advanced-settings/delivery-settings.md#smtp)
+* **SMTP 매개변수** - 이제 SMTP 설정을 이메일 게재 설정에서 사용할 수 있습니다. [자세히 알아보기](../advanced-settings/delivery-settings.md#smtp)
 
-* **전역 변수** - 이제 전역 변수를 정의하여 게재의 값을 정의할 수 있습니다. [자세히 알아보기](../advanced-settings/delivery-settings.md#variables-delivery)
+* **전역 변수** - 이제 전역 변수를 정의하여 게재에 대한 값을 정의할 수 있습니다. [자세히 알아보기](../advanced-settings/delivery-settings.md#variables-delivery)
 
 ### 제한 공개된 새로운 기능 {#acs-24-8}
 
@@ -57,15 +57,15 @@ Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대�
 >
 >다음 기능은 제한 공개(LA)로 제공됩니다. **Adobe Campaign Standard에서 Adobe Campaign v8로** 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 >
->다음 문서 페이지를 참조하세요. [Campaign v8로 Campaign Standard 전환](../rn/acs-migration.md) 및 [Campaign Standard 사용자를 위한 기능](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}.
+>[Campaign Standard에서 Campaign v8로의 전환](../rn/acs-migration.md) 및 [Campaign Standard 사용자를 위한 기능](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ko){target="_blank"} 설명서 페이지를 참조하십시오.
 
-* **다이렉트 메일에 대한 브랜딩** - 기술 관리자는 이제 브랜드의 정체성에 영향을 미치는 매개변수를 중앙 집중화하기 위해 하나 이상의 브랜드를 정의할 수 있습니다. 여기에는 브랜드 로고, 랜딩 페이지의 액세스 URL의 도메인 또는 메시지 추적 설정이 포함됩니다. 이제 이러한 브랜드를 만들어 메시지 또는 랜딩 페이지에 연결할 수 있습니다. 이 구성은 템플릿에서 관리됩니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-assign)
+* **다이렉트 메일에 대한 브랜딩** - 기술 관리자는 이제 브랜드의 정체성에 영향을 미치는 매개변수를 중앙 집중화하기 위해 하나 이상의 브랜드를 정의할 수 있습니다. 여기에는 브랜드 로고, 랜딩 페이지의 액세스 URL의 도메인 또는 메시지 추적 설정이 포함됩니다. 이제 이러한 브랜드를 만들어 메시지 또는 랜딩 페이지에 연결할 수 있습니다. 이 구성은 템플릿에서 관리됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-cloud/campaign/branding/branding-assign)
 
-* **랜딩 페이지를 포함하는 구독** - 이제 랜딩 페이지를 서비스에 연결하고 사용자가 유효성을 검사할 때 확인 메시지를 보낼 수 있습니다. [자세히 알아보기](../landing-pages/lp-content.md#lp-message){target="_blank"}.
+* **랜딩 페이지를 통한 구독** - 이제 랜딩 페이지를 서비스에 연결하고, 사용자가 이를 검증하면 확인 메시지를 보낼 수 있습니다. [자세히 알아보기](../landing-pages/lp-content.md#lp-message){target="_blank"}.
 
 * **시각적 조각** - 이제 시각적 콘텐츠 조각을 보관할 수 있습니다. [자세히 알아보기](../content/create-fragment.md#archive)
 
-* **랜딩 페이지의 CAPTCHA** - 이제 CAPTCHA를 추가하여 봇으로 인한 스팸 및 남용을 방지할 수 있습니다. 이는 고객과의 상호 작용이 필요하지 않고 사이트와의 상호 작용을 기반으로 하기 때문에 고객을 방해하지 않습니다. [자세히 알아보기](../landing-pages/create-lp.md#captcha)
+* **랜딩 페이지의 Captcha** - 이제 Captcha를 추가하여 봇으로 인한 스팸과 남용으로부터 랜딩 페이지를 보호할 수 있습니다. 이는 고객과의 상호 작용이 필요하지 않고 사이트와의 상호 작용을 기반으로 하기 때문에 고객을 방해하지 않습니다. [자세히 알아보기](../landing-pages/create-lp.md#captcha)
 
 <!--
 * **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.-->

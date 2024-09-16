@@ -3,7 +3,7 @@ title: 마케터를 위한 Adobe Campaign v8 시작
 description: Campaign v8의 주요 기능을 살펴보십시오. Campaign Standard에서 Campaign v8로 마이그레이션하는 마케터를 위한 것입니다.
 role: User
 level: Beginner, Experienced
-source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
+source-git-commit: e68ad7ca3368165feb534363c36b03b510291e8a
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 이 안내서에서는 Campaign Standard에서 Campaign v8로 전환하는 마케터를 위해 Campaign v8의 주요 기능에 대한 개요를 제공합니다.
 
-클라이언트 콘솔 또는 웹 사용자 인터페이스를 통해 Adobe Campaign v8에 액세스할 수 있습니다. 웹 인터페이스를 사용하면 주요 마케팅 작업을 생성, 관리 및 실행할 수 있습니다. 새로운 Adobe Campaign Web 인터페이스는 현대적이고 직관적인 사용자 경험을 제공하여 마케팅 캠페인 디자인 및 게재를 간소화합니다. 이 섹션에서 자세히 알아보세요. [자세히 알아보기](../../v8/get-started/user-interface.md).
+클라이언트 콘솔 또는 웹 사용자 인터페이스를 통해 Adobe Campaign v8에 액세스할 수 있습니다. 웹 인터페이스를 사용하면 주요 마케팅 작업을 생성, 관리 및 실행할 수 있습니다. 새로운 Adobe Campaign Web 인터페이스는 현대적이고 직관적인 사용자 경험을 제공하여 마케팅 캠페인 디자인 및 게재를 간소화합니다. [자세히 알아보기](../../v8/get-started/user-interface.md).
 
 마이그레이션을 통해 Campaign Standard의 모든 데이터를 Campaign v8로 가져와 진행 중인 작업에 대한 중단을 최소화하면서 원활하게 전환할 수 있습니다.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 사용자 인터페이스의 새로운 기능
 description: Campaign Web 사용자 인터페이스에서 제공하는 새로운 기능 살펴보기
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 485d8270e8b1a4bf92d2c1b9543ffa143bc2d2da
+source-git-commit: 2918ad161ace7305e4bd3be1bcec0bb7b6f7d51a
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -114,9 +114,7 @@ Ask questions and find guidance directly from the product user interface. The ne
 
 **SMS와 오퍼**
 
-새로운 Campaign Web 사용자 인터페이스에서는 이메일에 더해 **SMS에도 오퍼를 통합**&#x200B;할 수 있습니다. 모바일 디바이스를 통해 대상자에게 도달하여 프로모션과 시기 적절한 알림을 제공하십시오. 고급 웹 플랫폼에서 SMS를 통해 통합된 오퍼 기능을 활용하여 마케팅 활동을 개선하십시오.
-
-[이 섹션](../msg/offers.md)에서 자세히 알아보십시오.
+새로운 Campaign Web 사용자 인터페이스에서는 이메일에 더해 **SMS에도 오퍼를 통합**&#x200B;할 수 있습니다. 모바일 디바이스를 통해 대상자에게 도달하여 프로모션과 시기 적절한 알림을 제공하십시오. 고급 웹 플랫폼에서 SMS를 통해 통합된 오퍼의 기능을 활용하여 마케팅 활동을 향상시키십시오. [이 섹션](../msg/offers.md)에서 자세히 알아보십시오.
 
 ## Campaign Web 사용자 인터페이스로 전환
 

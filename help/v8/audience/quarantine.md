@@ -5,7 +5,7 @@ description: 격리 주소 관리 이해
 exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
 source-git-commit: 3e99bf1453ef38ec915dc82828f44c7d7ffb2acd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---

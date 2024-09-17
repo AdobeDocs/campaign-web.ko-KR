@@ -2,7 +2,8 @@
 audience: end-user
 title: iOS 리치 푸시 알림 게재 디자인
 description: Adobe Campaign 웹을 사용하여 iOS 리치 푸시 알림 전달을 디자인하는 방법을 알아봅니다
-source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
+exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
+source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
 workflow-type: tm+mt
 source-wordcount: '1546'
 ht-degree: 4%
@@ -210,4 +211,3 @@ ht-degree: 4%
 | **[!UICONTROL 스레드 ID]** | 관련 알림을 함께 그룹화하는 데 사용되는 식별자를 설정합니다. |
 | **[!UICONTROL 범주]** | 작업 단추를 표시할 범주 ID의 이름을 설정합니다. 이러한 알림은 사용자가 애플리케이션을 열거나 탐색하지 않고도 알림에 응답하여 다른 작업을 보다 빠르게 수행할 수 있도록 합니다. |
 | **[!UICONTROL 대상 콘텐츠 ID]** | 알림을 열 때 앞으로 가져올 애플리케이션 창을 타겟팅하는 데 사용되는 식별자를 설정합니다. |
-

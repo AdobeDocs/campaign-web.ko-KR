@@ -2,7 +2,7 @@
 title: Adobe Campaign 웹 인터페이스에 연결
 description: Adobe Campaign Web 사용자 인터페이스에 접속하는 방법 알아보기
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 581b5ae12d7e1ca2a68e51923b765e0366e84b66
+source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 100%
@@ -137,7 +137,7 @@ Campaign Web의 기본 언어는 사용자 프로필에 지정된 기본 언어�
 <!--
 >[!CAUTION]
 >
->If you plan to use [AI-powered contextual help](-using-ai.md) capabilities, you must set your prefered language to English. Other languages are not supported.
+>If you plan to use [AI-powered contextual help](using-ai.md) capabilities, you must set your prefered language to English. Other languages are not supported.
 >
 -->
 

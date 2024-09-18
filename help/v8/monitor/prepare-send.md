@@ -118,34 +118,34 @@ ht-degree: 38%
 >id="acw_deliveries_email_metrics_delivered"
 >title="게재됨"
 >abstract="정상적으로 게재된 메시지 수. 이 표시기는 5분마다 업데이트됩니다. 표시되는 백분율은 전송된 총 메시지 수를 기준으로 합니다."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="KPI 이해"
+>additional-url="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/reports/kpis" text="KPI 이해"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_opens"
 >title="열람수"
 >abstract="열린 메시지 수입니다. 이 표시기는 5분마다 업데이트됩니다. 표시되는 백분율은 게재된 메시지 수와 비교되는 고유 열람 수의 비율입니다."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="KPI 이해"
+>additional-url="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/reports/kpis" text="KPI 이해"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="클릭수"
 >abstract="이메일에서 최소 한 번 클릭한 수신자 수입니다. 이 표시기는 5분마다 업데이트됩니다. 표시되는 백분율은 게재된 메시지 수와 비교되는 고유 클릭 수의 비율입니다."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="KPI 이해"
+>additional-url="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/reports/kpis" text="KPI 이해"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="전송된 지표"
 >abstract="게재 분석 시 처리된 총 메시지 수입니다."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="KPI 이해"
+>additional-url="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/reports/kpis" text="KPI 이해"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="오류 지표"
 >abstract="총 전송된 총 메시지 수와 관련하여 게재 및 자동 반환 처리 시 누적된 오류의 총계입니다."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="KPI 이해"
+>additional-url="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/reports/kpis" text="KPI 이해"
 
 
 전송이 완료되면 표시된 KPI를 확인할 수 있습니다.

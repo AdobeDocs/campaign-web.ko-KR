@@ -6,7 +6,7 @@ exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
 source-wordcount: '1246'
-ht-degree: 17%
+ht-degree: 29%
 
 ---
 
@@ -95,9 +95,9 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
 >title="파일 기록"
->abstract="**[!UICONTROL 파일 전송]** 활동이 실행될 때마다 업로드 또는 다운로드한 파일을 전용 폴더에 저장합니다. 워크플로우의 각 파일 전송 활동마다 폴더가 하나씩 생성됩니다. 기본적으로 파일은 처리 전에 Adobe Campaign 설치 폴더(`/vars`)의 기본 저장소 디렉터리에 저장됩니다. 특정 폴더를 사용하려면 **[!UICONTROL 기본 저장소 디렉터리 사용]** 옵션을 끄고 디렉터리 경로를 입력하십시오."
+>abstract="**[!UICONTROL 파일 전송]** 활동이 실행될 때마다 업로드 또는 다운로드한 파일이 전용 폴더에 저장됩니다. 워크플로의 각 파일 전송 활동마다 폴더가 하나씩 생성됩니다. 기본적으로 파일은 처리되기 전에 Adobe Campaign 설치 폴더의 기본 저장 디렉터리(`/vars`)에 저장됩니다. 특정 폴더를 사용하려면 **[!UICONTROL 기본 스토리지 디렉터리 사용]** 옵션을 끄고 디렉터리 경로를 입력하십시오."
 
-**[!UICONTROL 파일 전송]** 활동이 실행될 때마다 업로드 또는 다운로드한 파일을 전용 폴더에 저장합니다. 워크플로우의 각 파일 전송 활동마다 폴더가 하나씩 생성됩니다. 기본적으로 파일은 처리 전에 Adobe Campaign 설치 폴더(`/vars`)의 기본 저장소 디렉터리에 저장됩니다. 특정 폴더를 사용하려면 **[!UICONTROL 기본 저장소 디렉터리 사용]** 옵션을 끄고 디렉터리 경로를 입력하십시오.
+**[!UICONTROL 파일 전송]** 활동이 실행될 때마다 업로드 또는 다운로드한 파일이 전용 폴더에 저장됩니다. 워크플로의 각 파일 전송 활동마다 폴더가 하나씩 생성됩니다. 기본적으로 파일은 처리되기 전에 Adobe Campaign 설치 폴더의 기본 저장 디렉터리(`/vars`)에 저장됩니다. 특정 폴더를 사용하려면 **[!UICONTROL 기본 스토리지 디렉터리 사용]** 옵션을 끄고 디렉터리 경로를 입력하십시오.
 
 ![](../assets/workflow-transfer-file-historization.png)
 

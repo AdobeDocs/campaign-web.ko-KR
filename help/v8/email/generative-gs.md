@@ -6,7 +6,7 @@ exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: 9d32344b5ee378588cedb003b80daac04ac3a26c
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 19%
+ht-degree: 27%
 
 ---
 
@@ -14,8 +14,8 @@ ht-degree: 19%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
->title="AI Assistant Content Accelerator"
->abstract="AI Assistant를 사용하면 시간을 절약하고 효율성을 개선하며 더 나은 결과를 도출하는 동시에 직관적이고 단순하며 번거롭지 않은 이메일, SMS 및 푸시와 같은 채널 전반의 마케팅 캠페인을 만들고 실행할 수 있습니다."
+>title="AI 어시스턴트 콘텐츠 가속기"
+>abstract="AI 어시스턴트를 사용하면 이메일, SMS 및 푸시 등의 채널에서 마케팅 캠페인을 직관적이고 간편하며 번거롭지 않게 만들고 실행하는 동시에 시간을 절약하고 효율성을 높이며 더 나은 결과를 얻을 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 
@@ -43,13 +43,13 @@ ht-degree: 19%
 
 마케팅 산업의 경쟁력이 높아짐에 따라 브랜드는 효과적인 콘텐츠를 효율적이고 빠르게 생성할 수 있는 효율적인 방법을 모색하고 있습니다. Microsoft Azure OpenAI 및 Adobe Firefly에서 제공하는 콘텐츠 가속용 Adobe Campaign 웹의 AI Assistant는 Adobe의 AI 콘텐츠 생성 기능으로, 마케터가 이메일, SMS, 푸시와 같은 채널 전반에서 전문적이고 브랜드 일관적인 콘텐츠를 만드는 방식을 혁신합니다. 고급 GenAI 모델과 브랜드 가이드라인에 대한 깊은 이해를 바탕으로 AI Assistant는 브랜드 윤곽이 잡힌 스타일, 레이아웃, 색조 등에 최적화된 콘텐츠로 마케팅 목표를 기반으로 개인화되고, 매력적이며, 효과적인 콘텐츠를 자동 생성합니다.
 
-AI Assistant를 사용하면 시간을 절약하고 효율성을 개선하며 더 나은 결과를 도출하는 동시에 직관적이고 단순하며 번거롭지 않은 이메일, SMS 및 푸시와 같은 채널 전반의 마케팅 캠페인을 만들고 실행할 수 있습니다.
+AI 어시스턴트를 사용하면 이메일, SMS 및 푸시 등의 채널에서 마케팅 캠페인을 직관적이고 간편하며 번거롭지 않게 만들고 실행하는 동시에 시간을 절약하고 효율성을 높이며 더 나은 결과를 얻을 수 있습니다.
 
 >[!IMPORTANT]
 >
 >* 이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](#generative-guardrails)을 읽어 보십시오.
 >
->* Content Acceleration을 위해 Adobe Campaign 웹에서 AI Assistant를 사용하려면 먼저 [사용자 계약](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
+>* Content Acceleration을 위해 Adobe Campaign 웹에서 AI Assistant를 사용하려면 먼저 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
 
 ## AI Assistant Content Accelerator 액세스 {#generative-access}
 
@@ -77,7 +77,7 @@ Adobe Campaign Web for Content Acceleration에서 이메일 생성을 위해 AI 
 * 업로드된 브랜드 자산의 최대 크기는 50MB입니다. 파일이 크거나 이미지가 많으면 작동할 수 있지만 처리 시간은 늘어납니다.
 * [기본 제공 전자 메일 템플릿](../email/create-email-templates.md), 브랜드별 템플릿 또는 사용자 지정 템플릿을 사용하여 콘텐츠 가속기를 사용하여 전자 메일 콘텐츠를 만드십시오. 최대 8~10개의 이미지가 포함된 이메일 템플릿이 권장됩니다.
 * 변형을 선택할 때 썸네일 업, 썸네일 다운 또는 플래그 아이콘을 사용하여 문제가 있는 출력을 보고해야 합니다.
-* AI 비서 사용은 Adobe Experience Cloud 생성 AI 사용자 지침의 적용을 받습니다. [자세히 알아보기](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
+* AI 비서 사용은 Adobe Experience Cloud 생성 AI 사용자 지침의 적용을 받습니다. [자세히 알아보기](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * 미디어 제작에서 생성 AI 도구 사용의 투명성을 증진하기 위한 Adobe의 약속의 일부로, Adobe은 Firefly 생성 에셋이 포함된 콘텐츠 또는 프로젝트를 다운로드하거나 내보낼 때 Content credentials을 적용합니다. [자세히 알아보기](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
 Adobe Campaign Web for Content Acceleration의 AI Assistant에는 다음과 같은 제한이 적용됩니다.

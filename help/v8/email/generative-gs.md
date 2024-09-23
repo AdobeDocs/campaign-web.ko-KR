@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: AI Assistant Content Accelerator 시작
+title: AI 어시스턴트 콘텐츠 가속기 시작하기
 description: AI Assistant Content Accelerator 시작
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: 9d32344b5ee378588cedb003b80daac04ac3a26c
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 27%
+ht-degree: 29%
 
 ---
 
-# AI Assistant Content Accelerator 사용  {#generative-gs}
+# AI 어시스턴트 콘텐츠 가속기를 사용하여 작업  {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"

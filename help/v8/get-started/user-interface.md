@@ -3,9 +3,9 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
+source-git-commit: aec10c169f4d8cd360b819d51b4fe1a5c4be4434
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1765'
 ht-degree: 99%
 
 ---
@@ -407,12 +407,67 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_about_web"
->title="웹 기본 정보"
->abstract="웹 기본 정보"
+>title="웹 정보"
+>abstract="웹 정보"
 
 >[!CONTEXTUALHELP]
 >id="acw_about_packages"
 >title="패키지 정보"
 >abstract="패키지 정보"
 
+<!--Schema-->
 
+>[!CONTEXTUALHELP]
+>id="acw_schema"
+>title="스키마"
+>abstract="스키마"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_type"
+>title="스키마 유형"
+>abstract="스키마 유형"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_properties"
+>title="스키마 속성"
+>abstract="스키마"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_existing"
+>title="기존 스키마 선택"
+>abstract="스키마"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_external"
+>title="외부 데이터베이스 선택"
+>abstract="스키마"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_add_tables"
+>title="테이블 추가"
+>abstract="스키마"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_logs_tasks"
+>title="워크플로 로그 및 작업"
+>abstract="스키마"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_update"
+>title="데이터베이스 업데이트"
+>abstract="스키마"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_update_script"
+>title="스크립트 업데이트"
+>abstract="스키마"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_start_update"
+>title="데이터베이스 업데이트 시작"
+>abstract="스키마"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_add_tables"
+>title="테이블 추가"
+>abstract="스키마"

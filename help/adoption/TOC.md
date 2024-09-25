@@ -8,7 +8,7 @@ breadcrumb-title: Campaign 채택 안내서
 source-git-commit: 485d8270e8b1a4bf92d2c1b9543ffa143bc2d2da
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 2%
+ht-degree: 16%
 
 ---
 

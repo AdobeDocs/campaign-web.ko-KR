@@ -6,9 +6,9 @@ title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
 source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '749'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -108,11 +108,11 @@ ht-degree: 96%
          + [수직 정렬 및 패딩 조정](email/alignment-and-padding.md)
          + [링크 스타일 정의](email/styling-links.md)
          + [인라인 스타일 속성 추가](email/inline-styling.md)
-   + 콘텐츠 가속기를 위한 AI 도우미 {#ai-assistant}
-      + [AI Assistant Content Accelerator 사용](email/generative-gs.md)
-      + [AI를 사용한 이메일 생성](email/generative-content.md)
-      + [AI를 사용한 SMS 생성](email/generative-sms.md)
-      + [AI를 사용하여 푸시 알림 생성](email/generative-push.md)
+   + 콘텐츠 가속화를 위한 AI 어시스턴트 {#ai-assistant}
+      + [AI 어시스턴트 콘텐츠 가속기를 사용하여 작업](email/generative-gs.md)
+      + [AI를 활용한 이메일 생성](email/generative-content.md)
+      + [AI를 활용한 SMS 생성](email/generative-sms.md)
+      + [AI를 활용한 푸시 알림 생성](email/generative-push.md)
 + 랜딩 페이지 {#landing-pages}
    + [랜딩 페이지 시작](landing-pages/get-started-lp.md)
    + [랜딩 페이지 만들기 및 게시하기](landing-pages/create-lp.md)

@@ -4,9 +4,9 @@ title: Campaign Web 사용자 인터페이스의 새로운 기능
 description: Campaign Web 사용자 인터페이스에서 제공하는 새로운 기능 살펴보기
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 17536af2d65dec7cdba1967f607e10ae0cb1924a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1317'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -72,13 +72,13 @@ Adobe Campaign에서는 이메일, SMS, 푸시 알림 등 크로스 채널 캠�
 * 내장된 보고서로 전송 및 측정 결과 모니터링 - [자세히 알아보기](../reporting/delivery-reports.md)
 
 
-**AI Assistant Content Accelerator를 사용하여 콘텐츠 생성**
+**AI 어시스턴트 콘텐츠 가속기를 통한 콘텐츠 생성**
 
-Microsoft Azure OpenAI와 Adobe Firefly을 기반으로 하는 혁신적인 콘텐츠 디자이너를 통해 번거로운 수동 콘텐츠 제작의 번거로움과 새로운 시대의 능률적인 캠페인을 포용하십시오.
+Microsoft Azure OpenAI와 Adobe Firefly에서 제공하는 혁신적인 콘텐츠 디자이너를 통해 수동으로 콘텐츠를 만드는 번거로움과 작별하고 간소화된 캠페인의 새로운 시대를 맞이하십시오.
 
-단순성과 효율성을 위해 설계된 고급 WYSIWYG 드래그 앤 드롭 편집기로 콘텐츠 전달을 재정의합니다. 매끄러운 AEM 통합, 다이내믹 콘텐츠 기능 및 획기적인 AI Assistant Content Accelerator를 제공하는 이 올인원 툴은 게재 생성을 직관적이고, 효율적이며, 고도로 개인화되었습니다.
+간편함과 효율성을 고려하여 설계된 고급 WYSIWYG 드래그 앤 드롭 편집기로 콘텐츠 게재 방식을 새롭게 정의할 수 있습니다. 원활한 AEM 통합, 동적 콘텐츠 기능, 획기적인 AI 어시스턴트 콘텐츠 가속기를 갖춘 이 올인원 툴을 사용하면 직관적이고 효율적이며 고도로 개인화된 게재 내용 작성이 가능합니다.
 
-AI Assistant Content Accelerator의 강력한 고급 알고리즘을 사용하여 결과를 도출하는 매력적인 맞춤형 콘텐츠를 만들 수 있습니다. 지능적인 AI 기반 콘텐츠 생성을 통해 공개 비율, 클릭스루 및 전환 기능을 향상시킬 수 있습니다. [이 섹션](../email/generative-gs.md)에서 자세히 알아보십시오.
+AI 어시스턴트 콘텐츠 가속기의 고급 알고리즘을 활용하여 결과를 이끌어내는 매력적이고 맞춤화된 콘텐츠를 제작할 수 있습니다. AI 기반 지능형 콘텐츠 생성을 통해 열람률, 클릭스루 및 전환율을 높여 보십시오. [이 섹션](../email/generative-gs.md)에서 자세히 알아보십시오.
 
 **새롭고 재설계된 캠페인 워크플로 활동**
 
@@ -121,7 +121,7 @@ Ask questions and find guidance directly from the product user interface. The ne
 
 **SMS와 오퍼**
 
-새로운 Campaign Web 사용자 인터페이스에서는 이메일에 더해 **SMS에도 오퍼를 통합**&#x200B;할 수 있습니다. 모바일 디바이스를 통해 대상자에게 도달하여 프로모션과 시기 적절한 알림을 제공하십시오. 고급 웹 플랫폼에서 SMS를 통해 통합된 오퍼의 기능을 활용하여 마케팅 활동을 향상시키십시오. [이 섹션](../msg/offers.md)에서 자세히 알아보십시오.
+새로운 Campaign Web 사용자 인터페이스에서는 이메일에 더해 **SMS에도 오퍼를 통합**&#x200B;할 수 있습니다. 모바일 디바이스를 통해 대상자에게 도달하여 프로모션과 시기 적절한 알림을 제공하십시오. 고급 웹 플랫폼에서 SMS를 통해 통합된 오퍼 기능을 활용하여 마케팅 활동을 개선하십시오. [이 섹션](../msg/offers.md)에서 자세히 알아보십시오.
 
 ## Campaign Web 사용자 인터페이스로 전환
 

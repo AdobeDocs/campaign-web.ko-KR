@@ -2,7 +2,7 @@
 audience: end-user
 user-guide-title: Campaign 채택 안내서
 title: Adobe Campaign 채택 안내서
-user-guide-description: Campaign v8로 전환하는 Campaign Standard 사용자라면 시작하는 방법을 알아보십시오.
+user-guide-description: Campaign v8로 전환하는 Campaign Standard 사용자라면 시작하는 방법에 대해 알아봅니다.
 description: Campaign Standard 사용자인 경우 Campaign v8을 시작하는 방법에 대해 알아보십시오.
 breadcrumb-title: Campaign 채택 안내서
 source-git-commit: 485d8270e8b1a4bf92d2c1b9543ffa143bc2d2da

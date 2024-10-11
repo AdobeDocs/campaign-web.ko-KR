@@ -20,7 +20,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_querymessage"
 >title="쿼리 모델러"
->abstract="데이터베이스의 수신자 또는 기타 타겟팅 차원에 대한 필터링 기준을 정의합니다. Adobe Experience Platform 대상자를 활용하여 타깃 대상자를 더욱 세분화하고 캠페인 효과를 극대화하십시오."
+>abstract="데이터베이스의 수신자 또는 기타 타겟팅 차원에 대한 필터링 기준을 정의합니다. Adobe Experience Platform 대상자를 활용하여 타깃 대상자를 더욱 세분화하고 캠페인 효과를 극대화합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_refine_target"

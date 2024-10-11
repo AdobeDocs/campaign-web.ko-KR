@@ -53,12 +53,12 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_design"
 >title="콘텐츠 템플릿 디자인"
->abstract="이메일 콘텐츠 템플릿을 디자인하십시오."
+>abstract="이메일 콘텐츠 템플릿을 디자인합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_selection"
 >title="콘텐츠 템플릿 선택"
->abstract="이메일 콘텐츠 템플릿을 선택하십시오."
+>abstract="이메일 콘텐츠 템플릿을 선택합니다."
 
 콘텐츠 템플릿은 [기존 전자 메일을 템플릿으로 저장](#save-as-template)하거나 전자 메일 템플릿 목록에서 **콘텐츠 템플릿 만들기** 단추를 통해 만들 수 있습니다. [아래 자세히 설명](#create-template-from-scratch).
 

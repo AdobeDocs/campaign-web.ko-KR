@@ -44,7 +44,7 @@ ht-degree: 41%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"
 >title="캠페인 게재 목록"
->abstract="**게재** 탭에는 현재 캠페인에 연결된 게재가 모두 나열됩니다. 편집하려면 게재 이름을 클릭하십시오. 이 캠페인에 대한 새 게재를 추가하려면 게재 만들기 버튼을 사용하십시오."
+>abstract="**게재** 탭에는 현재 캠페인에 연결된 게재가 모두 나열됩니다. 편집하려면 게재 이름을 클릭합니다. 이 캠페인에 대한 새 게재를 추가하려면 게재 만들기 버튼을 사용합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"

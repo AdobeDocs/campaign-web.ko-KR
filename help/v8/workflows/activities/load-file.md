@@ -112,7 +112,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
 >title="파일 로드 명령"
->abstract="사전 처리를 위해 임의 명령을 허용하는 것은 보안과 관련된 문제이므로 보안 옵션인 XtkSecurity_Disable_Preproc을 비활성화하여 사전 정의된 명령 목록을 강제로 사용하도록 하십시오."
+>abstract="사전 처리를 위해 임의 명령을 허용하는 것은 보안과 관련된 문제이므로 보안 옵션인 XtkSecurity_Disable_Preproc을 비활성화하여 사전 정의된 명령 목록을 강제로 사용하도록 합니다."
 
 >[!CAUTION]
 >
@@ -146,7 +146,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
 >title="가져오기 후 파일 삭제"
->abstract="파일을 가져온 후 서버에서 원본 파일을 삭제하려면 **가져오기 후 파일 삭제**&#x200B;를 토글하십시오."
+>abstract="파일을 가져온 후 서버에서 원본 파일을 삭제하려면 **가져오기 후 파일 삭제**&#x200B;를 토글합니다."
 
 
 1. **관리 거부** 섹션에서 오류 발생 시 활동이 어떻게 동작해야 하는지 지정합니다.

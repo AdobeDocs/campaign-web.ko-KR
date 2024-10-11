@@ -150,7 +150,7 @@ Adobe Campaign 웹을 사용하여 뉴스레터와 같은 서비스를 관리 �
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
 >title="구독자 수"
->abstract="이 서비스의 총 구독자 수를 확인하려면 **계산**&#x200B;을 클릭하십시오."
+>abstract="이 서비스의 총 구독자 수를 확인하려면 **계산**&#x200B;을 클릭합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers_report"

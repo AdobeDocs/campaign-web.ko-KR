@@ -6,7 +6,7 @@ exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
 source-git-commit: 1f5bd502527d0ba285e82fdda7b3f8dc86ac2c76
 workflow-type: tm+mt
 source-wordcount: '969'
-ht-degree: 29%
+ht-degree: 34%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="JavaScript 코드"
->abstract="**JavaScript 코드** 활동을 통해 워크플로 컨텍스트에서 JavaScript 스크립트를 실행할 수 있습니다. 이를 통해 작업을 수행하거나 데이터베이스에서 정보를 수집할 수 있습니다. 워크플로 실행 시 하나의 코드 조각을 실행하려면 **단순한** JavaScript 코드 활동을 사용합니다. **고급** Javascript 코드 활동을 사용하면 서로 다른 두 코드 조각을 순차적으로 실행하여 복잡한 작업을 수행할 수 있습니다. 워크플로가 처음 시작되면 첫 번째 호출이 실행됩니다. 워크플로가 다시 실행될 때마다 두 번째 호출에 정의된 코드가 실행됩니다."
+>abstract="**JavaScript 코드** 활동을 통해 워크플로 컨텍스트에서 JavaScript 스크립트를 실행할 수 있습니다. 이를 통해 작업을 수행하거나 데이터베이스에서 정보를 수집할 수 있습니다. 워크플로 실행 시 하나의 코드 스니펫을 실행하려면 **단순한** JavaScript 코드 활동을 사용합니다. **고급** Javascript 코드 활동을 사용하면 서로 다른 두 코드 스니펫을 순차적으로 실행하여 복잡한 작업을 수행할 수 있습니다. 워크플로가 처음 시작되면 첫 번째 호출이 실행됩니다. 워크플로가 다시 실행될 때마다 두 번째 호출에 정의된 코드가 실행됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="JavaScript 스니펫"
->abstract="활동을 실행할 때 실행할 스크립트를 정의합니다. **고급** JavaScript 활동을 구성하는 경우, 두 개의 코드 조각, 즉 워크플로의 첫 번째 실행 시 실행할 첫 번째 호출 코드와 워크플로의 다음 호출에서 실행할 다음 호출 코드를 편집해야 합니다."
+>abstract="활동을 실행할 때 실행할 스크립트를 정의합니다. **고급** JavaScript 활동을 구성하는 경우, 두 개의 코드 스니펫, 즉 워크플로의 첫 번째 실행 시 실행할 첫 번째 호출 코드와 워크플로의 다음 호출에서 실행할 다음 호출 코드를 편집해야 합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
@@ -30,7 +30,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="JavaScript 전환"
->abstract="하나 이상의 출력 전환을 추가하려면 **[!UICONTROL 전환 추가]** 단추를 클릭하고 각 전환에 대해 레이블과 내부 이름을 지정합니다."
+>abstract="하나 또는 여러 출력 전환을 추가하려면 **[!UICONTROL 전환 추가]** 버튼을 클릭하고 각 전환에 대해 레이블과 내부 이름을 지정합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_processerrors"
@@ -78,7 +78,7 @@ ht-degree: 29%
    * **[!UICONTROL 첫 번째 호출 코드 편집]**&#x200B;을 클릭하여 첫 번째 호출 동안 실행할 스크립트를 정의합니다.
    * 워크플로우의 다음 호출 동안 실행할 스크립트를 정의하려면 **[!UICONTROL 다음 호출 코드 편집]**&#x200B;을(를) 클릭하십시오. (선택 사항)
 
-1. 하나 이상의 출력 전환을 추가하려면 **[!UICONTROL 전환 추가]** 단추를 클릭하고 각 전환에 대해 레이블과 내부 이름을 지정합니다.
+1. 하나 또는 여러 출력 전환을 추가하려면 **[!UICONTROL 전환 추가]** 버튼을 클릭하고 각 전환에 대해 레이블과 내부 이름을 지정합니다.
 
    이 예제에서는 특정 조건을 기반으로 코드 조각의 스크립트에 의해 활성화되는 두 개의 전환을 구성했습니다.
 

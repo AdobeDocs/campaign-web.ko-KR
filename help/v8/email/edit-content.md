@@ -25,7 +25,7 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="이메일에 파일 첨부"
->abstract="메시지에 삽입할 하나 이상의 파일을 선택하십시오. 성능 문제를 방지하려면 이메일당 둘 이상의 첨부 파일을 포함하지 않는 것이 좋습니다."
+>abstract="메시지에 삽입할 하나 이상의 파일을 선택합니다. 성능 문제를 방지하려면 이메일당 둘 이상의 첨부 파일을 포함하지 않는 것이 좋습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"

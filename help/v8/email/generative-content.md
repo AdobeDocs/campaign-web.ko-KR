@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: 생성 콘텐츠
-description: Content Acceleration을 위한 AI Assistant 시작하기
+description: AI Assistant Content Accelerator 시작
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
+source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1577'
 ht-degree: 1%
 
 ---
@@ -17,20 +17,20 @@ ht-degree: 1%
 >이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](generative-gs.md#generative-guardrails)을 읽어 보십시오.
 ></br>
 >
->콘텐츠 가속화를 위해 Adobe Campaign 웹에서 AI 도우미를 사용하려면 먼저 [사용자 계약](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
+>Adobe Campaign 웹에서 AI Assistant Content Accelerator를 사용하려면 먼저 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
 
 
-이메일을 만들고 개인화한 후에는 생성 AI에서 제공하는 Adobe Campaign Web for Content Acceleration의 AI Assistant를 사용하여 콘텐츠를 한 차원 높입니다.
+이메일을 만들고 개인화한 후에는 생성 AI에서 제공하는 Adobe Campaign Web in Campaign의 AI Assistant 콘텐츠 가속기를 사용하여 콘텐츠를 한 차원 높입니다.
 
-컨텐츠 가속화를 위한 Adobe Campaign Web의 AI Assistant는 전체 이메일, 타겟팅된 텍스트 컨텐츠, 심지어 대상자에게 공감을 주기 위해 특별히 맞춤화된 이미지를 생성하여 게재의 영향을 최적화하는 데 도움이 됩니다. 이렇게 하면 이메일 캠페인이 최적화되어 참여도가 향상됩니다.
+Adobe Campaign 웹의 AI Assistant 콘텐츠 가속기는 전체 이메일, 타겟팅된 텍스트 콘텐츠 및 대상자와 공감을 이루도록 특별히 맞춤화된 이미지를 생성하여 게재의 영향을 최적화하는 데 도움이 됩니다. 이렇게 하면 이메일 캠페인이 최적화되어 참여도가 향상됩니다.
 
-이메일 캠페인을 통해 AI Assistant를 사용하여 전체 이메일, 텍스트 또는 이미지를 생성할 수 있습니다. Campaign의 콘텐츠 가속화를 위해 Adobe Campaign 웹에서 AI Assistant를 사용하는 방법을 알려면 아래 탭을 살펴보십시오.
+이메일 캠페인을 통해 AI Assistant를 사용하여 전체 이메일, 텍스트 또는 이미지를 생성할 수 있습니다. Adobe Campaign 웹에서 AI Assistant Content Accelerator를 사용하는 방법을 알아보려면 아래 탭을 살펴보십시오.
 
 >[!BEGINTABS]
 
 >[!TAB 전체 전자 메일 생성]
 
-다음 예에서는 Content Acceleration을 위해 Adobe Campaign Web의 AI Assistant를 활용하여 기존 이메일을 구체화하고 특별한 이벤트를 위해 사용자 지정합니다.
+다음 예에서는 Adobe Campaign 웹의 AI Assistant Content Accelerator 를 활용하여 기존 이메일을 구체화하고 특별한 이벤트를 위해 사용자 지정합니다.
 
 1. 전자 메일 게재를 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요.
 

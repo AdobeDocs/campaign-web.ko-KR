@@ -2,10 +2,10 @@
 title: Campaign v8 Web 사용자 인터페이스 릴리스 정보
 description: 최신 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
-workflow-type: ht
-source-wordcount: '481'
-ht-degree: 100%
+source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+workflow-type: tm+mt
+source-wordcount: '480'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대�
 <tbody>
 <tr>
 <td>
-<p>메시지를 작성하고 개인화한 후에는 콘텐츠 가속화를 위한 Adobe Campaign Web의 AI 어시스턴트를 사용하여 콘텐츠를 개선할 수 있습니다. 이 강력한 도구를 사용하면 다양한 매력적인 텍스트, 메인 제목 및 시각적으로 매력적인 이미지를 생성하여 콘텐츠의 영향을 최적화할 수 있습니다.</p>
+<p>메시지를 만들고 맞춤화하면 Adobe Campaign 웹의 AI Assistant Content Accelerator를 사용하여 한 차원 높은 수준으로 메시지를 만들 수 있습니다. 이 강력한 도구를 사용하면 다양한 매력적인 텍스트, 메인 제목 및 시각적으로 매력적인 이미지를 생성하여 콘텐츠의 영향을 최적화할 수 있습니다.</p>
 <p><a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">실시간 기능 미리보기</a>를 통해 직접 기능을 살펴보고 성능을 완벽하게 이해해 보십시오</a>.</p>
 <p>자세한 내용은 <a href="../email/generative-gs.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>

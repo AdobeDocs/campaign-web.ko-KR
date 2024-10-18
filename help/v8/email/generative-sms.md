@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: AI Assistant for Content Acceleration이 포함된 SMS
-description: Content Acceleration을 위한 AI Assistant 시작하기
+title: AI Assistant Content Accelerator를 사용한 SMS
+description: AI Assistant Content Accelerator 시작
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
+source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 2%
+source-wordcount: '894'
+ht-degree: 3%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 2%
 >이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](generative-gs.md#generative-guardrails)을 읽어 보십시오.
 ></br>
 >
->Content Acceleration을 위해 Adobe Campaign 웹에서 AI Assistant를 사용하려면 먼저 [사용자 계약](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
+>Adobe Campaign 웹에서 AI Assistant Content Accelerator를 사용하려면 먼저 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
 
-대상자에 맞게 SMS 메시지를 작성하고 개인화한 후에는 혁신적인 AI 기술을 기반으로 하는 Campaign의 콘텐츠 가속화를 위해 Adobe Campaign Web의 AI Assistant를 통해 다음 단계로 커뮤니케이션을 수행합니다.
+대상자에 맞게 SMS 메시지를 만들고 개인화한 후에는 혁신적인 AI 기술을 기반으로 하는 Adobe Campaign 웹의 AI Assistant Content Accelerator를 사용하여 커뮤니케이션을 한 단계 더 높이십시오.
 
 이 편리한 도구는 콘텐츠를 세분화하기 위한 지능적인 제안을 제공하여 메시지가 효과적으로 울리고 참여를 극대화할 수 있도록 합니다.
 
@@ -99,7 +99,7 @@ ht-degree: 2%
 
    ![](assets/sms-text-1.png){zoomable="yes"}
 
-1. Content Acceleration용 AI Assistant에서 **[!UICONTROL 참조 콘텐츠 사용]** 옵션을 활성화하여 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화합니다.
+1. AI Assistant Content Accelerator에서 **[!UICONTROL 참조 콘텐츠 사용]** 옵션을 활성화하여 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화할 수 있습니다.
 
 1. **[!UICONTROL 프롬프트]** 필드에 생성할 내용을 설명하여 내용을 미세 조정하십시오.
 

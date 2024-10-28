@@ -3,9 +3,9 @@ title: 기술 사용자를 Adobe Developer 콘솔로 마이그레이션
 description: Campaign Standard에서 Campaign V8로 사용자 액세스 관리를 마이그레이션하는 방법 알아보기
 feature: Technote
 role: Admin
-source-git-commit: 3e2fa429a57b967f156546ad6a4fedee8f871c25
+source-git-commit: e5baa9012e7904f841d4e6706d9dc8970253e899
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '845'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Adobe Campaign Standard과 Adobe Campaign V8 모두 사용자가 다양한 사�
 
 >[!CAUTION]
 >
->이러한 역할/명명된 권한의 기능은 구현에 따라 달라질 수 있으며, 이로 인해 권한 부여 문제(예: 권한 상승 또는 기능 중단)가 발생할 수 있습니다. 적절한 액세스 제어를 위해 전환 후 이러한 매핑을 검토하는 것이 좋습니다. [권한에 대해 자세히 알아보기](../../v8/start/manage-permissions.md)
+>이러한 역할/명명된 권한의 기능은 구현에 따라 달라질 수 있으며, 이로 인해 권한 부여 문제(예: 권한 상승 또는 기능 중단)가 발생할 수 있습니다. 적절한 액세스 제어를 위해 전환 후 이러한 매핑을 검토하는 것이 좋습니다. [권한에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 아래 표는 Adobe Campaign Standard에서 Campaign V8로 전환할 때 사용자 역할 그룹에 대한 마이그레이션 접근 방식을 간략하게 설명합니다. Campaign Standard에서 **보안 그룹**(Campaign V8에서 **연산자 그룹**)은(는) 사용자에게 역할 집합을 할당하는 데 사용됩니다. 일부 보안 그룹/운영자 그룹은 즉시 사용할 수 있지만, 사용자는 필요한 경우 새 그룹을 만들거나 기존 그룹을 수정할 수 있습니다.
 
@@ -35,7 +35,7 @@ Adobe Campaign Standard과 Adobe Campaign V8 모두 사용자가 다양한 사�
 |---------|----------|---------|
 | **용어**  | 보안 그룹 | 운영자 그룹 |
 
-Adobe Campaign Standard과 Campaign V8 모두에서 **보안 그룹** 및 **운영자 그룹**&#x200B;은(는) Admin Console의 제품 프로필에 매핑됩니다. 사용자에게 **보안 그룹** 또는 **운영자 그룹**&#x200B;을(를) 할당하려면 Admin Console에서 해당 **제품 프로필**&#x200B;을 연결할 수 있습니다. 이 연결은 사용자가 로그인할 때 동기화됩니다. [제품 프로필에 대해 자세히 알아보기](../../v8/start/manage-permissions.md)
+Adobe Campaign Standard과 Campaign V8 모두에서 **보안 그룹** 및 **운영자 그룹**&#x200B;은(는) Admin Console의 제품 프로필에 매핑됩니다. 사용자에게 **보안 그룹** 또는 **운영자 그룹**&#x200B;을(를) 할당하려면 Admin Console에서 해당 **제품 프로필**&#x200B;을 연결할 수 있습니다. 이 연결은 사용자가 로그인할 때 동기화됩니다. [제품 프로필에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 | **Campaign Standard 보안 그룹** | **Campaign V8 연산자 그룹** |
 |----------|---------|
@@ -63,7 +63,7 @@ Adobe Campaign Standard에서 용어 **사용자 역할**&#x200B;은(는) Campai
 
 ## 조직 단위의 마이그레이션 접근 방식
 
-Adobe Campaign Standard에서 **조직 단위** t는 유사한 액세스 제어를 유지하기 위해 Campaign V8의 기존 **폴더** 계층 구조 모델에 매핑됩니다. [폴더 관리에 대해 자세히 알아보기](../../v8/start/folder-permissions.md)
+Adobe Campaign Standard에서 **조직 단위** t는 유사한 액세스 제어를 유지하기 위해 Campaign V8의 기존 **폴더** 계층 구조 모델에 매핑됩니다. [폴더 관리에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 | | **Campaign Standard** | **Campaign V8** |
 |---------|----------|---------|
@@ -73,7 +73,7 @@ Adobe Campaign Standard에서 **조직 단위** t는 유사한 액세스 제어�
 
 Campaign V8에서 **프로그램**&#x200B;은(는) **폴더**(으)로 표시됩니다. Campaign V8을 사용하면 폴더를 만들고 폴더 액세스를 제한할 수 있습니다.
 
-**그룹** 및 **명명된 권한**&#x200B;을(를) 사용하면 **연산자**&#x200B;에게 탐색 계층 구조 내의 특정 **폴더**&#x200B;에 대한 액세스 권한을 부여하고 읽기, 쓰기 및 삭제 권한을 할당할 수 있습니다. [폴더 관리에 대해 자세히 알아보기](../../v8/start/folder-permissions.md)
+**그룹** 및 **명명된 권한**&#x200B;을(를) 사용하면 **연산자**&#x200B;에게 탐색 계층 구조 내의 특정 **폴더**&#x200B;에 대한 액세스 권한을 부여하고 읽기, 쓰기 및 삭제 권한을 할당할 수 있습니다. [폴더 관리에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 **Program**&#x200B;은(는) Campaign V8에서 **Folder**(으)로 처리되므로 다른 폴더와 동일한 방식으로 액세스 권한을 관리할 수 있습니다. 마이그레이션 후 Campaign Standard 관리자는 다음 단계를 수행할 수 있습니다.
 

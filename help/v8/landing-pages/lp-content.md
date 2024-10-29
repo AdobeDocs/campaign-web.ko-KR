@@ -3,7 +3,7 @@ title: 랜딩 페이지별 콘텐츠 정의
 description: Campaign 웹에서 랜딩 페이지별 콘텐츠를 디자인하는 방법을 알아봅니다
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: 0e89f01fed390665b150b09697dc6e9204975ee2
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
 source-wordcount: '1226'
 ht-degree: 16%
@@ -145,7 +145,9 @@ ht-degree: 16%
 >이 기능은 LA(Limited Availability)에 있습니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 
 랜딩 페이지를 제출한 후 확인 메시지를 자동으로 보내려면 다음 단계를 수행합니다.
+
 1. **[!UICONTROL CALL TO ACTION]** 섹션에서 **[!UICONTROL 확인 이메일 보내기]** 옵션을 확인하십시오.
+
 1. 연결된 드롭다운 목록에서 전송해야 하는 트랜잭션 메시지 템플릿을 선택합니다.
 
 ![](assets/lp-confirmation.png){zoomable="yes"}

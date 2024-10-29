@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 사용자 인터페이스/클라이언트 콘솔 기능 매트릭스
 description: Campaign Web 사용자 인터페이스에서 지원되는 기능 목록
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
-source-wordcount: '2141'
-ht-degree: 100%
+source-wordcount: '2075'
+ht-degree: 99%
 
 ---
 
@@ -68,15 +68,17 @@ Campaign 클라이언트 콘솔 또는 Adobe Experience Platform에서 만든 �
 
 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/import-profiles.html?lang=ko#import-jobs){target="_blank"}에 나온 것과 같은 일회성 가져오기/내보내기 작업은 Campaign Web 사용자 인터페이스에서 사용할 수 없습니다. <!--To import profiles into Campaign Web user interface, you must create a workflow as detailed in [this section]().-->
 
-## 트랜잭션 메시지 {#mc-capabilities}
+<!--
+## Transactional messaging {#mc-capabilities}
 
-[메시지 센터] 제품 패키지와 함께 제공되는 트랜잭션 메시지 기능은 현재 새로운 Campaign Web 사용자 인터페이스에서 사용할 수 없습니다.
+Transactional messaging capabilities coming with the Message Center product package are currently not available in the new Campaign Web user interface. 
 
-[Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html?lang=ko){target="_blank"}를 찾아보면 다음과 같은 실시간 메시지 기능에 대해 자세히 알아볼 수 있습니다.
+Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} and learn more about real-time messaging capabilities, such as:
 
-* 이메일, SMS 및 푸시에 대한 실시간 메시지 작성 및 실행
-* 메시지 보강 및 개인화
-* 트랜잭션 메시지에 대한 보고 및 모니터링
+* Realtime message authoring and execution on email, SMS and push
+* Message enrichment and personalization
+* Reporting and monitoring on transactional messaging
+-->
 
 ## 콘텐츠 디자인 {#content-capabilities}
 
@@ -155,7 +157,7 @@ Campaign Web 사용자 인터페이스에는 다음 기능이 표시되지 않�
 
 ### 외부 계정 {#external}
 
-Adobe Campaign에는 외부 시스템과 연결하기 위해 사전 정의된 외부 계정 세트가 함께 제공됩니다. Campaign 시스템 관리자는 클라이언트 콘솔에서만 외부 계정을 만들고 관리할 수 있습니다.[자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html?lang=ko){target="_blank"}
+Adobe Campaign에는 외부 시스템과 연결하기 위해 사전 정의된 외부 계정 세트가 함께 제공됩니다. Campaign 시스템 관리자는 외부 계정을 만들고 관리할 수 있습니다. [자세히 알아보기](../administration/external-account.md)
 
 ### 스키마 만들기 및 확장 {#schema}
 

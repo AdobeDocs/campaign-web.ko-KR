@@ -3,9 +3,9 @@ title: 관리자 및 개발자를 위한 Adobe Campaign v8을 시작합니다.
 description: 이 튜토리얼에서는 Campaign v8의 주요 관리 및 데이터 관리 기능에 대한 개요를 제공합니다. 관리자 및 기술 마케터가 Campaign Standard에서 Campaign v8로 마이그레이션하는 것이 목표입니다.
 role: Admin, Developer
 level: Beginner, Experienced
-source-git-commit: 271fb8805e046c20fad824ba37b84be43638011a
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
-source-wordcount: '2666'
+source-wordcount: '2657'
 ht-degree: 8%
 
 ---
@@ -229,9 +229,9 @@ Adobe Campaign v8은 Campaign Standard 시 이메일, SMS, 푸시 알림 및 DM 
 
 관리자는 Campaign 외부 계정을 구성하고 유지 관리할 책임이 있습니다. Campaign Standard과 마찬가지로 외부 계정은 기술 워크플로우 또는 캠페인 워크플로우와 같은 기술 프로세스에서 사용됩니다.
 
-Campaign v8로 전환하는 프로세스는 기존 Campaign Standard 외부 계정을 관리합니다. 이제 클라이언트 콘솔에서 사용할 수 있습니다.
+Campaign v8로 전환하는 프로세스는 기존 Campaign Standard 외부 계정을 관리합니다.
 
-[외부 계정 구성](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/external-accounts){target="_blank"}에 대해 자세히 알아보세요.
+자세한 내용은 [외부 계정 설명서](../../v8/administration/external-account.md)를 참조하세요.
 
 
 <!--

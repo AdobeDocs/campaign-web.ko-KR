@@ -4,9 +4,9 @@ title: 감사 추적
 description: Campaign 감사 추적을 사용하여 인스턴스를 모니터링하는 방법 알아보기
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '581'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ Adobe Campaign 웹 사용자 인터페이스에서 **[!UICONTROL 감사 추적]*
 
 * **외부 계정**&#x200B;을(를) 사용하면 기술 워크플로우 또는 캠페인 워크플로우와 같은 기술 프로세스에서 사용하는 Campaign V8의 외부 계정에 대한 수정 사항을 확인할 수 있습니다.
 
-  외부 계정에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/external-accounts)를 참조하세요.
+  외부 계정에 대한 자세한 내용은 이 [페이지](../administration/external-account.md)를 참조하세요.
 
 * **게재 매핑**&#x200B;을(를) 사용하면 Campaign V8에서 게재 매핑에 대한 활동 및 최근 수정 사항을 모니터링할 수 있습니다.
 

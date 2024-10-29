@@ -3,10 +3,10 @@ keywords: Campaign Web;홈;인기 있는 주제
 description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 1a6bf414e4e5390faf701baf34ad9b33bb0b6dd7
-workflow-type: ht
-source-wordcount: '471'
-ht-degree: 100%
+source-git-commit: 3a8e0f0035d70ddafbc1fc38304316c12d8a2b83
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 96%
 
 ---
 
@@ -51,6 +51,14 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 
 >[!BEGINTABS]
 
+
+>[!TAB 24년 10월 릴리스]
+
+이제 트랜잭션 메시지, 외부 계정 및 향상된 기능을 포함하여 10월 릴리스가 공개되었습니다.
+
+[![이미지](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
+
+
 >[!TAB AI 어시스턴트 콘텐츠 가속기]
 
 ✨ 기능을 직접 살펴보고 성능을 완벽하게 이해할 수 있도록 설계된 [AI 어시스턴트 콘텐츠 가속기](../v8/email/generative-gs.md)의 실시간 기능 미리보기로 직접 체험해 보십시오.
@@ -62,12 +70,6 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 개인화를 위해 필드 목록에 액세스할 때 이제 각 필드에 대한 값이 어떻게 배포되어 있는지 확인할 수 있습니다.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
-
->[!TAB 랜딩 페이지의 Captcha]
-
-이제 봇으로 인한 스팸과 남용으로부터 랜딩 페이지를 보호하기 위해 Captcha를 추가할 수 있습니다. 이 기능은 제한적으로 이용할 수 있습니다.
-
-[![이미지](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 
 
 >[!ENDTABS]

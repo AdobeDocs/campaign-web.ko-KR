@@ -3,10 +3,10 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
+source-git-commit: 46a945c0e787dbb2639bef8ad40bb545b962cad5
 workflow-type: tm+mt
-source-wordcount: '1766'
-ht-degree: 94%
+source-wordcount: '2011'
+ht-degree: 82%
 
 ---
 
@@ -15,7 +15,6 @@ ht-degree: 94%
 새로운 Adobe Campaign Web 인터페이스는 현대적이고 직관적인 사용자 경험을 제공하여 마케팅 캠페인 디자인 및 게재를 간소화합니다. 이 새로운 인터페이스는 Adobe Experience Cloud 앱 및 솔루션과 통합됩니다.
 
 Adobe Campaign에 연결하는 방법과 Experience Cloud 탐색의 기본 사항은 [이 문서](connect-to-campaign.md)에서 알아볼 수 있습니다.
-
 
 >[!NOTE]
 >
@@ -39,6 +38,46 @@ Campaign 홈페이지를 사용하면 주요 리소스, 지표, 구성 요소를
 **최근 항목** 목록은 최근에 생성되고 수정된 게재에 대한 단축키를 제공합니다. 이 목록에는 채널, 상태, 소유자, 생성 및 수정일이 표시됩니다. **더 보기** 링크를 클릭하면 더 많은 게재가 로드됩니다.
 
 또한 페이지의 **학습** 섹션에서 Adobe Campaign Web 주요 도움말 페이지에 액세스할 수 있습니다.
+
+### 링크 기본 정보 {#user-interface-about}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_about"
+>title="페이지 정보"
+>abstract="정보 페이지에서는 Adobe Campaign 인스턴스에 대한 세부 정보를 제공합니다"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_instance"
+>title="인스턴스 정보"
+>abstract="인스턴스 섹션은 버전 및 관련 빌드 번호를 모두 포함하여 콘솔 클라이언트에 대한 주요 정보를 제공합니다"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_web"
+>title="웹 정보"
+>abstract="웹 섹션에는 Campaign 웹 사용자 인터페이스의 버전과 사용 가능한 경우 마지막 업데이트 날짜가 표시됩니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_about_packages"
+>title="설치된 패키지 정보"
+>abstract="설치된 패키지 섹션에는 인스턴스에 있는 모든 모듈, 기능 및 통합이 나열됩니다."
+
+페이지 하단에 있는 **[!UICONTROL 정보]** 링크에서는 Adobe Campaign 인스턴스에 대한 세부 정보를 제공합니다. 이러한 정보는 읽기 전용 모드입니다.
+
+![](assets/about-link.png){zoomable="yes"}
+
+**인스턴스** 섹션은 **버전** 및 관련 **빌드** 번호를 모두 포함하여 콘솔 클라이언트에 대한 주요 정보를 제공합니다.
+
+* **버전**&#x200B;은(는) 사용 중인 공식 릴리스 버전을 참조합니다.
+* **빌드**&#x200B;이(가) 해당 버전의 특정 반복을 참조합니다.
+
+버전 및 빌드 번호는 모두 사용자 환경에 있는 기능과 수정 사항을 정확하게 확인하는 데 도움이 되므로 문제 해결에 중요합니다.
+
+**Web** 섹션에는 사용 가능한 경우 Campaign 웹 사용자 인터페이스의 버전과 마지막 업데이트 날짜가 표시됩니다. 이렇게 하면 Campaign 웹 사용자 인터페이스의 변경 사항이나 개선 사항을 추적하는 데 도움이 됩니다.
+
+**설치된 패키지** 섹션에는 인스턴스에 있는 모든 모듈, 기능 및 통합이 나열됩니다. 이러한 패키지는 Adobe Campaign의 기능을 확장하여 다른 Adobe 솔루션과 통합하거나 특정 워크플로우를 활성화하는 등의 전문 작업을 수행할 수 있도록 합니다. 많은 수의 패키지가 있는 경우 이 섹션 내에서 조사를 수행하여 특정 모듈이 인스턴스에 설치되어 있는지 빠르게 확인할 수 있습니다.
+
+![](assets/about.png){zoomable="yes"}
 
 ## 왼쪽 탐색 메뉴 {#user-interface-left-nav}
 
@@ -331,30 +370,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="사용자 정의 속성 편집"
 
 
-
-
-
-<!--about-->
-
->[!CONTEXTUALHELP]
->id="acw_about"
->title="정보"
->abstract="정보"
-
->[!CONTEXTUALHELP]
->id="acw_about_instance"
->title="인스턴스 정보"
->abstract="인스턴스 정보"
-
->[!CONTEXTUALHELP]
->id="acw_about_web"
->title="웹 정보"
->abstract="웹 정보"
-
->[!CONTEXTUALHELP]
->id="acw_about_packages"
->title="패키지 정보"
->abstract="패키지 정보"
 
 <!--Schema-->
 

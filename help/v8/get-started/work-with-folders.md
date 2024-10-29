@@ -3,10 +3,10 @@ audience: end-user
 title: 폴더 작업
 description: Adobe Campaign에서 폴더를 관리하는 방법 알아보기
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 04e1e4af70bc1d47ed1545459b73d72de5df4b8b
+source-git-commit: ed9a3a3ca3bbb5d2bd44c512643857d62b97393c
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 86%
+source-wordcount: '574'
+ht-degree: 79%
 
 ---
 
@@ -65,6 +65,20 @@ Adobe Campaign Web UI에서 새 폴더를 만들려면 다음 단계를 따릅�
 특정 유형이 없는 폴더를 만들려면 **[!UICONTROL 일반 폴더]** 유형을 선택합니다.
 
 [Adobe Campaign 콘솔에서 폴더를 만들고 관리](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/folders-and-views)할 수도 있습니다.
+
+
+## 폴더 재정렬 {#reorder-folders}
+
+필요에 따라 폴더 순서를 변경할 수 있습니다. 이렇게 하려면 아래와 같이 **[!UICONTROL 폴더 순서 바꾸기]**&#x200B;를 클릭합니다.
+
+이 예제에서는 **게재** 폴더에 4개의 폴더가 있습니다.
+
+![](assets/folder-reorder.png){zoomable="yes"}
+
+**끌어다 놓기** 또는 **위쪽 및 아래쪽 화살표**&#x200B;를 사용하여 폴더 순서를 변경할 수 있습니다.
+
+![](assets/folder-draganddrop.png){zoomable="yes"}
+
 
 ## 폴더 삭제 {#delete-a-folder}
 

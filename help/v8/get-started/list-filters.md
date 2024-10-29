@@ -3,10 +3,10 @@ audience: end-user
 title: 목록 찾아보기 및 필터링
 description: Campaign Web v8 목록을 찾아보고 필터링하는 방법 살펴보기
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 8a68e1e95f2d030c9386e11ae3e7e07f1496bd84
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 100%
+source-wordcount: '260'
+ht-degree: 91%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 100%
 ![](assets/config-columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 **열 구성** 화면에서 열을 추가 또는 제거하고 열이 표시되는 순서를 변경합니다.
+
+아래와 같이 **드래그 앤 드롭**&#x200B;하거나 **위쪽 및 아래쪽 화살표**&#x200B;를 사용하여 목록의 순서를 변경할 수 있습니다.
+
+![](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 예를 들어 이 설정의 경우
 

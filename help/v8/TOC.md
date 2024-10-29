@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 99%
+source-wordcount: '769'
+ht-degree: 98%
 
 ---
 
@@ -65,6 +65,11 @@ ht-degree: 99%
       + [DM 게재 만들기](direct-mail/create-direct-mail.md)
       + [추출 파일 설계](direct-mail/content-direct-mail.md)
       + [다이렉트 메일 게재 미리보기 및 전송](direct-mail/send-direct-mail.md)
+   + 트랜잭션 메시지 {#transactional-messages}
+      + [트랜잭션 메시지 시작](transactional-messaging/transactional.md)
+      + [트랜잭션 메시지 만들기](transactional-messaging/create-transactional.md)
+      + [트랜잭션 메시지 유효성 검사](transactional-messaging/validate-transactional.md)
+      + [트랜잭션 메시지 모니터링](transactional-messaging/monitor-transactional.md)
    + [메시지에 오퍼 추가](msg/offers.md)
    + [구독자에게 메시지 전송](msg/send-to-subscribers.md)
    + [게재 설정 구성](advanced-settings/delivery-settings.md)
@@ -218,4 +223,5 @@ ht-degree: 99%
    + [Adobe Experience Manager as a Cloud Service로 템플릿 관리](integrations/aem-content.md)
 + 구성 {#conf}
    + [사용자 정의 필드 구성](administration/custom-fields.md)
-+ [Campaign v8 (콘솔) 설명서 >](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/campaign-home)
+   + [외부 계정 구성](administration/external-account.md)
++ [Campaign v8(콘솔) 설명서 >](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/campaign-home)

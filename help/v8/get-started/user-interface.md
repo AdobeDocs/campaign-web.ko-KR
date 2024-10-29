@@ -3,10 +3,10 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 662d350a8c7e998db474873bed78204ce1f6d909
+source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
 workflow-type: tm+mt
-source-wordcount: '1762'
-ht-degree: 100%
+source-wordcount: '1766'
+ht-degree: 94%
 
 ---
 
@@ -112,6 +112,17 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 ### 보고 {#left-nav-reporting}
 
 * **보고서** - **보고서** 항목은 Campaign 환경 내의 각 채널의 트래픽 및 참여 지표를 종합하여 전반적 요약을 제공합니다. 이러한 보고서는 다양한 위젯으로 구성되어 있으며, 각 위젯은 캠페인 또는 게재 성과에 대한 고유한 관점을 제공합니다. [이 섹션](../reporting/global-reports.md)에서 자세히 알아보십시오.
+
+### 관리 {#left-nav-admin}
+
+
+* **감사 추적** - **감사 추적** 항목은 인스턴스 내의 중요한 엔터티에 대한 모든 수정 사항(일반적으로 원활한 인스턴스 작업에 큰 영향을 주는 항목)을 사용자가 완전히 볼 수 있도록 합니다. [자세히 알아보기](../reporting/audit-trail.md)
+
+* **외부 계정** - 특정 요구 사항을 충족하고 원활한 데이터 전송을 위해 웹 사용자 인터페이스를 사용하여 새 외부 계정을 만듭니다. [자세히 알아보기](../administration/external-account.md)
+
+* **스키마** - 사용자 지정 필드는 Adobe Campaign 콘솔을 통해 기본 제공 스키마에 추가된 추가 특성입니다. [자세히 알아보기](../administration/custom-fields.md)
+
+* **게재 경고** - 게재 경고는 사용자 그룹이 게재 실행에 대한 정보가 포함된 이메일 알림을 자동으로 수신할 수 있는 경고 관리 시스템입니다. [자세히 알아보기](../msg/delivery-alerting.md)
 
 <!--
 ## Contextual Help {#user-interface-help} 
@@ -321,77 +332,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
-<!-- transac messages-->
 
->[!CONTEXTUALHELP]
->id="acw_transacmessages"
->title="트랜잭션 메시지"
->abstract="트랜잭션 메시지"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_properties"
->title="트랜잭션 메시지 속성"
->abstract="트랜잭션 메시지 속성"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_email_properties"
->title="트랜잭션 메시지 이메일 속성"
->abstract="트랜잭션 메시지 이메일 속성"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_sms_properties"
->title="트랜잭션 메시지 SMS 속성"
->abstract="트랜잭션 메시지 SMS 속성"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_push_properties"
->title="트랜잭션 메시지 푸시 속성"
->abstract="트랜잭션 메시지 푸시 속성"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_mobileapp"
->title="트랜잭션 메시지 모바일 앱"
->abstract="트랜잭션 메시지 모바일 앱"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_event"
->title="트랜잭션 메시지 이벤트"
->abstract="트랜잭션 메시지 이벤트"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_context"
->title="트랜잭션 메시지 컨텍스트"
->abstract="트랜잭션 메시지 컨텍스트"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_content"
->title="트랜잭션 메시지 콘텐츠"
->abstract="트랜잭션 메시지 콘텐츠"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_personalization"
->title="트랜잭션 메시지 개인화"
->abstract="트랜잭션 메시지 개인화"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_exclusionlogs"
->title="트랜잭션 메시지 제외 로그"
->abstract="트랜잭션 메시지 제외 로그"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_addcontext"
->title="트랜잭션 메시지 컨텍스트"
->abstract="트랜잭션 메시지 컨텍스트"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_eventhistory"
->title="트랜잭션 메시지 이벤트 기록"
->abstract="트랜잭션 메시지 이벤트 기록"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_eventhistory_preview"
->title="트랜잭션 메시지 이벤트 기록 미리보기"
->abstract="트랜잭션 메시지 이벤트 기록 미리보기"
 
 <!--about-->
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 폴더 작업
 description: Adobe Campaign에서 폴더를 관리하는 방법 알아보기
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
+source-git-commit: 04e1e4af70bc1d47ed1545459b73d72de5df4b8b
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 100%
+source-wordcount: '523'
+ht-degree: 86%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 >title="폴더 일정"
 >abstract="폴더 일정"
 
-## 폴더 정보
+## 폴더 정보 {#about-folders}
 
 폴더는 Adobe Campaign의 오브젝트로, 구성 요소와 데이터를 구성하는 데 사용할 수 있습니다.
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 폴더 유형을 설정할 수 있습니다. 그 예로는 게재 폴더가 있습니다.
 이 유형에 따라 폴더의 아이콘이 변경됩니다.
 
-## 새 폴더 만들기
+## 새 폴더 만들기 {#create-a-folder}
 
 Adobe Campaign Web UI에서 새 폴더를 만들려면 다음 단계를 따릅니다.
 
@@ -52,8 +52,7 @@ Adobe Campaign Web UI에서 새 폴더를 만들려면 다음 단계를 따릅�
 
 ![](assets/folder_create.png){zoomable="yes"}
 
-새 폴더를 만들면 기본적으로 폴더 유형은 상위 폴더와 같은 유형이 됩니다.
-이 예제에서는 **[!UICONTROL 게재]** 폴더에 폴더를 만든다고 가정합니다.
+새 폴더를 만들 때 기본적으로 폴더 유형은 상위 폴더의 유형입니다. 이 예제에서는 **[!UICONTROL 게재]** 폴더에 폴더를 만든다고 가정합니다.
 
 ![](assets/folder_new.png){zoomable="yes"}
 
@@ -67,7 +66,7 @@ Adobe Campaign Web UI에서 새 폴더를 만들려면 다음 단계를 따릅�
 
 [Adobe Campaign 콘솔에서 폴더를 만들고 관리](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/folders-and-views)할 수도 있습니다.
 
-## 폴더 삭제
+## 폴더 삭제 {#delete-a-folder}
 
 >[!CAUTION]
 >
@@ -107,3 +106,11 @@ Adobe Campaign Web UI에서 새 폴더를 만들려면 다음 단계를 따릅�
 ![](assets/values_link.png){zoomable="yes"}
 
 쿼리 모델러에서 값의 분포를 구하는 것도 가능합니다. [여기에서 자세히 알아보십시오](../query/build-query.md#distribution-of-values-in-a-query).
+
+### 값 필터링 {#filter-values}
+
+값 분포 창에서 **[!UICONTROL 고급 필터]**&#x200B;를 사용하면 지정된 조건을 기반으로 결과를 필터링할 수 있습니다.
+
+채널별 분포를 보여 주는 위의 게재 목록의 예제에서 **완료됨** 상태의 게재만 표시하도록 필터링할 수 있습니다.
+
+![](assets/values_filter.png){zoomable="yes"}

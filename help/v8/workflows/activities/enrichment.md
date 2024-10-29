@@ -3,10 +3,10 @@ audience: end-user
 title: 보강 워크플로 활동 사용
 description: 보강 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: e9d7be3823afd70bd6de87c4ed5dc35b71eeaa7d
+source-git-commit: 80c9d2b40696d75069c2ca4a93ffca998bc407f9
 workflow-type: tm+mt
-source-wordcount: '1709'
-ht-degree: 49%
+source-wordcount: '2061'
+ht-degree: 39%
 
 ---
 
@@ -17,10 +17,6 @@ ht-degree: 49%
 >title="보강 활동"
 >abstract="**보강** 활동을 사용하면 데이터베이스의 추가 정보로 타겟팅된 데이터를 보강할 수 있습니다. 일반적으로 활동을 세분화한 후 워크플로에서 사용됩니다."
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_offer_proposition"
->title="오퍼 제안"
->abstract="오퍼 제안"
 
 **보강** 활동은 **타겟팅** 활동입니다. 이를 통해 데이터베이스의 추가 정보로 타겟팅된 데이터를 보강할 수 있습니다. 일반적으로 활동을 세분화한 후 워크플로에서 사용됩니다.
 
@@ -140,6 +136,56 @@ ht-degree: 49%
 
 ![](../assets/enrichment-reconciliation.png)
 
+## 오퍼 추가 {#add-offers}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_offer_proposition"
+>title="오퍼 제안"
+>abstract="데이터 보강 활동을 통해 각 프로필에 대한 오퍼를 추가할 수 있습니다."
+
+**[!UICONTROL 데이터 보강]** 활동을 통해 각 프로필에 대한 오퍼를 추가할 수 있습니다.
+
+이렇게 하려면 오퍼로 **[!UICONTROL 데이터 보강]** 활동을 구성하는 단계를 따르십시오.
+
+1. **[!UICONTROL 데이터 보강]** 활동의 **[!UICONTROL 오퍼 제안]** 섹션에서 **[!UICONTROL 오퍼 추가]** 버튼을 클릭합니다
+
+   ![](../assets/enrichment-addoffer.png)
+
+1. 두 가지 오퍼 선택 사항이 있습니다.
+
+   * **[!UICONTROL 최상의 오퍼를 카테고리에서 검색]** : 이 옵션을 선택하고 오퍼 엔진 호출 매개 변수(오퍼 공간, 카테고리 또는 테마, 연락 날짜, 유지할 오퍼 수)를 지정합니다. 엔진은 이러한 매개 변수에 따라 추가할 최상의 오퍼를 계산합니다. 카테고리 또는 테마 필드를 동시에 완료하지 않는 것이 좋습니다.
+
+     ![](../assets/enrichment-bestoffer.png)
+
+   * **[!UICONTROL 미리 정의된 오퍼]** : 이 옵션을 선택하고 오퍼 엔진을 호출하지 않고 추가할 오퍼를 직접 구성하려면 오퍼 공간, 특정 오퍼 및 연락 날짜를 지정하십시오.
+
+     ![](../assets/enrichment-predefinedoffer.png)
+
+1. 오퍼를 선택한 후 **[!UICONTROL 확인]** 단추를 클릭합니다.
+
+이제 게재 활동에서 오퍼를 사용할 수 있습니다.
+
+### 데이터 보강 활동의 오퍼 사용
+
+워크플로우 내에서 게재에서 데이터 보강 활동에서 얻은 오퍼를 사용하려면 아래 단계를 따르십시오.
+
+1. 게재 활동을 열고 컨텐츠 에디션으로 이동합니다. **[!UICONTROL 오퍼 설정]** 단추를 클릭하고 드롭다운 목록에서 오퍼에 해당하는 **[!UICONTROL 오퍼 공간]**을 선택합니다.
+데이터 보강 활동의 오퍼만 보려면 **[!UICONTROL 제안]**&#x200B;의 수를 0으로 설정하고 수정 사항을 저장하십시오.
+
+   ![](../assets/offers-settings.png)
+
+1. 이메일 디자이너에서 오퍼를 사용하여 개인화를 추가할 때 **[!UICONTROL 제안]** 아이콘을 클릭하면 **[!UICONTROL 데이터 보강]** 활동에서 받은 오퍼가 표시됩니다. 선택할 오퍼를 클릭하여 엽니다.
+
+   ![](../assets/offers-propositions.png)
+
+   필요에 따라 **[!UICONTROL 렌더링 함수]**&#x200B;로 이동하여 **[!UICONTROL HTML 렌더링]** 또는 **[!UICONTROL 텍스트 렌더링]**&#x200B;을 선택하십시오.
+
+   ![](../assets/offers-rendering.png)
+
+>[!NOTE]
+>
+>**[!UICONTROL 유지할 오퍼 수]** 옵션의 **[!UICONTROL 데이터 보강]** 활동에 두 개 이상의 오퍼를 포함하도록 선택한 경우 **[!UICONTROL 제안]** 아이콘을 클릭하면 모든 오퍼가 표시됩니다.
+
 ## 예제 {#example}
 
 ### 단일 보강 속성 {#single-attribute}
@@ -156,10 +202,10 @@ ht-degree: 49%
 
 이보다 복잡한 사용 사례에서는 테이블 간에 1-N 카디널리티가 있는 링크인 컬렉션 링크를 선택합니다. 100$ 미만의 최근 구매 내역 3개를 검색해 보겠습니다. 이렇게 하려면 다음을 정의해야 합니다.
 
-* 보강 속성: **총 금액** 필드
+* 데이터 보강 특성: **가격** 필드
 * 검색할 라인 수: 3
 * 필터: 100$보다 큰 항목을 필터링합니다.
-* 정렬: **주문 날짜** 필드에 대한 하위 정렬
+* 정렬: **주문 날짜** 필드에서 내림차순 정렬입니다.
 
 #### 속성 추가 {#add-attribute}
 
@@ -167,9 +213,9 @@ ht-degree: 49%
 
 1. **속성** 필드 내부를 클릭합니다.
 1. **고급 속성 표시**&#x200B;를 클릭합니다.
-1. **구매** 테이블에서 **총 금액** 필드를 선택합니다.
+1. **구매** 테이블에서 **가격** 필드를 선택합니다.
 
-![](../assets/workflow-enrichment3.png)
+<!-- ![](../assets/workflow-enrichment3.png) -->
 
 #### 컬렉션 설정 정의{#collection-settings}
 
@@ -178,21 +224,23 @@ ht-degree: 49%
 1. **데이터 수집 방법 선택** 드롭다운에서 **데이터 수집**&#x200B;을 선택합니다.
 1. **검색할 라인(작성할 열)** 필드에 “3”을 입력합니다.
 
-![](../assets/workflow-enrichment4.png)
+![](../assets/workflow-enrichment4bis.png)
 
 예를 들어 고객의 평균 구매 금액을 도출하려면 대신 **집계된 데이터**&#x200B;를 선택하고 **집계 함수** 드롭다운에서 **평균**&#x200B;을 선택합니다.
 
-![](../assets/workflow-enrichment5.png)
+아래와 같이 특성을 더 이해하기 쉽게 하려면 특성의 **Label** 및 **Alias** 필드를 사용하십시오.
+
+![](../assets/workflow-enrichment5bis.png)
 
 #### 필터 정의{#collection-filters}
 
 여기에서 보강 속성의 최대값을 정의합니다. 100$보다 큰 항목을 필터링합니다. [쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다](../../query/query-modeler-overview.md)
 
-1. **필터 편집**&#x200B;을 클릭합니다.
-1. 두 필터(**총 금액**&#x200B;이 존재함, **총 금액**&#x200B;이 100 미만임)를 추가합니다. 첫 번째 필터는 가장 큰 값으로 표시되는 NULL 값을 필터링합니다.
+1. **필터 만들기**&#x200B;를 클릭합니다.
+1. **가격**&#x200B;이(가) 있고 **가격**&#x200B;이(가) 100보다 작은 필터를 두 개 추가하십시오. 첫 번째 필터는 가장 큰 값으로 표시되는 NULL 값을 필터링합니다.
 1. **확인**&#x200B;을 클릭합니다.
 
-![](../assets/workflow-enrichment6.png)
+![](../assets/workflow-enrichment6bis.png)
 
 #### 정렬 정의{#collection-sorting}
 
@@ -204,7 +252,7 @@ ht-degree: 49%
 1. **확인**&#x200B;을 클릭합니다.
 1. **정렬** 드롭다운에서 **내림차순**&#x200B;을 선택합니다.
 
-![](../assets/workflow-enrichment7.png)
+![](../assets/workflow-enrichment7bis.png)
 
 ### 연결된 데이터를 사용한 데이터 보강 {#link-example}
 

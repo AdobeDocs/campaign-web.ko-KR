@@ -2,9 +2,9 @@
 title: Campaign v8 Web 사용자 인터페이스 릴리스 정보
 description: 최신 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: a6713f451112fb5af7895f34ea4e938857c013ac
+source-git-commit: 344d38239df96d570a93aff9674d38b6fd375830
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '418'
 ht-degree: 42%
 
 ---
@@ -91,3 +91,5 @@ Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대�
 * **버전 및 시스템 정보** - 이제 클라이언트 콘솔과 웹 사용자 인터페이스에 대한 인스턴스 버전에 대한 세부 정보에 액세스할 수 있습니다. 이 새 섹션에는 환경에 설치된 모든 기본 제공 패키지도 나열됩니다. [자세히 알아보기](../get-started/user-interface.md#user-interface-about)
 
 * **목록** - 이제 목록 값의 순서를 쉽게 변경할 수 있습니다. [자세히 알아보기](../get-started/work-with-folders.md)
+
+* **게재** - 이제 개인화 필드에서 게재 변수에 액세스할 수 있습니다. [자세히 알아보기](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)

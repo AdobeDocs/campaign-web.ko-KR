@@ -2,10 +2,10 @@
 title: Campaign v8 Web 사용자 인터페이스 릴리스 정보
 description: 최신 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 5dc96beadbd5ea02540185634971cef44357aefa
+source-git-commit: a6713f451112fb5af7895f34ea4e938857c013ac
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 44%
+source-wordcount: '407'
+ht-degree: 42%
 
 ---
 
@@ -18,7 +18,9 @@ ht-degree: 44%
 
 Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 연속 게재 모델에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
-## 10월 릴리스 {#24-10-release}
+이전 릴리스에서 사용할 수 있는 변경 사항 및 개선 사항은 [이 페이지의 ](release-notes-24.md)에 나열됩니다.
+
+## 2024년 10월 릴리스 {#24-10-release}
 
 **릴리스 날짜**: 2024년 10월 29일
 

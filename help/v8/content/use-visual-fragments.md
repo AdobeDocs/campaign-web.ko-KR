@@ -4,10 +4,10 @@ title: 이메일에 비주얼 조각 추가
 description: 이메일에 시각적 조각을 추가하는 방법 알아보기
 badge: label="제한 공개"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 20%
+source-wordcount: '577'
+ht-degree: 18%
 
 ---
 
@@ -68,6 +68,18 @@ ht-degree: 20%
    콘텐츠에서 조각을 삭제하거나 복제할 수도 있습니다. 이러한 작업은 조각 위에 표시되는 상황별 메뉴에서 직접 수행할 수 있습니다.
 
 1. 원하는 만큼 시각적 조각을 추가하고 변경 내용을 **[!UICONTROL 저장]**&#x200B;합니다.
+
+### 읽기 전용 모드의 시각적 조각 {#fragment-readonly}
+
+액세스 권한은 시각적 조각에 적용될 수 있습니다.
+
+특정 시각적 조각에 대한 편집 권한이 없는 경우 콘텐츠 템플릿이 **읽기 전용 모드**&#x200B;로 표시됩니다. 이 경우 **[!UICONTROL 콘텐츠 편집]** 단추가 **[!UICONTROL 콘텐츠 보기]** 단추로 바뀌므로 변경하지 않고 조각을 볼 수 있습니다.
+
+![](assets/fragment-readonly.png){zoomable="yes"}
+
+아래 표시된 대로 모든 기능 아이콘이 비활성화되어 상호 작용이 보기 전용으로 제한됩니다.
+
+![](assets/fragment-readonly-view.png){zoomable="yes"}
 
 ## 상속 중단 {#break-inheritance}
 

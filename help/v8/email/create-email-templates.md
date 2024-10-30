@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 18%
+source-wordcount: '1018'
+ht-degree: 17%
 
 ---
 
@@ -47,6 +47,17 @@ ht-degree: 18%
 
 목록에서 기존 콘텐츠 템플릿을 편집, 복제 또는 삭제할 수 있습니다. 상위 섹션의 버튼을 사용하여 콘텐츠 템플릿을 만듭니다.
 
+### 읽기 전용 모드의 콘텐츠 템플릿 {#template-readonly}
+
+액세스 권한은 콘텐츠 템플릿에 적용될 수 있습니다.
+
+특정 콘텐츠 템플릿에 대한 편집 권한이 없는 경우 콘텐츠 템플릿이 **읽기 전용 모드**&#x200B;로 표시됩니다. 이 경우 **[!UICONTROL 콘텐츠 편집]** 단추가 **[!UICONTROL 콘텐츠 보기]** 단추로 바뀌므로 변경하지 않고 템플릿을 볼 수 있습니다.
+
+![](assets/template-readonly.png){zoomable="yes"}
+
+아래 표시된 대로 모든 기능 아이콘이 비활성화되어 상호 작용이 보기 전용으로 제한됩니다.
+
+![](assets/template-readonly-view.png){zoomable="yes"}
 
 ## 콘텐츠 템플릿 만들기 {#create-content-templates}
 

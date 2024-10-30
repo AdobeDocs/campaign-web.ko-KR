@@ -6,19 +6,27 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 2%
+source-wordcount: '580'
+ht-degree: 1%
 
 ---
 
 
 # 콘텐츠 개인화 {#add-personalization}
 
-제목란, 전자 메일 링크, 텍스트/단추 콘텐츠 구성 요소와 같은 **[!UICONTROL 개인화 대화 상자 열기]** 아이콘이 있는 필드에서 액세스할 수 있는 표현식 편집기를 사용하여 게재를 개인화할 수 있습니다. [식 편집기에 액세스하는 방법 알아보기](gs-personalization.md/#access)
+게재 콘텐츠 Personalization은 메시지를 개별 수신자에게 맞춤화할 수 있는 주요 기능으로, 커뮤니케이션의 관련성을 높이고 참여를 유도합니다.
 
-## Personalization 구문 {#syntax}
+Adobe Campaign에서는 프로필의 이름, 위치 또는 과거 상호 작용과 같은 [프로필 데이터](#data-personalization) 및 게재의 특정 [변수](#variables-personalization)를 사용하여 통신에서 텍스트, 이미지 및 오퍼와 같은 요소를 동적으로 사용자 지정할 수 있습니다.
+
+게재 개인화는 사용자 경험을 향상시킬 뿐만 아니라 참여율을 향상시켜 전환율과 고객 만족도를 향상시킵니다.
+
+## 개인화에 프로필 데이터 사용 {#data-personalization}
+
+제목란, 전자 메일 링크, 텍스트/단추 콘텐츠 구성 요소와 같은 **[!UICONTROL 개인화 대화 상자 열기]** 아이콘이 있는 필드에서 액세스할 수 있는 표현식 편집기를 사용하여 프로필 데이터를 통해 게재를 개인화할 수 있습니다. [식 편집기에 액세스하는 방법 알아보기](gs-personalization.md/#access)
+
+### Personalization 구문 {#syntax}
 
 Personalization 태그는 특정 구문 `<%= table.field %>`을(를) 따릅니다. 예를들어 받는 사람 테이블에서 받는 사람의 성을 삽입하려면 `<%= recipient.lastName %>` 구문을 사용합니다.
 
@@ -26,7 +34,7 @@ Personalization 태그는 특정 구문 `<%= table.field %>`을(를) 따릅니�
 
 독립 실행형 이메일 전달을 위해 외부 파일에서 연락처를 업로드할 때 입력 파일의 모든 필드를 개인화할 수 있습니다. 구문은 다음과 같습니다. `<%= dataSource.field %>`
 
-## 개인화 태그 추가 {#add}
+### 개인화 태그 추가 {#add}
 
 게재에 개인화 태그를 추가하려면 다음 단계를 수행합니다.
 
@@ -56,3 +64,20 @@ Personalization 태그는 특정 구문 `<%= table.field %>`을(를) 따릅니�
    ![](assets/perso-preview1.png){zoomable="yes"}{width="800" align="center"}
 
    ![](assets/perso-preview2.png){zoomable="yes"}{width="800" align="center"}
+
+## 개인화에 변수 사용 {#variables-personalization}
+
+변수를 사용하여 게재를 개인화할 수도 있습니다.
+[게재에 변수 추가](../advanced-settings/delivery-settings.md#variables-delivery)에 대해 자세히 알아보세요.
+
+예를 들어 아래와 같이 `deliveryType` 변수가 정의되어 있습니다.
+
+![](assets/variables-deliveryType.png){zoomable="yes"}
+
+이 변수는 **[!UICONTROL Personalization 추가]** 아이콘과 식 `<%= variables.deliveryType %>`을(를) 사용하여 게재 콘텐츠에 사용할 수 있습니다.
+
+![](assets/variables-perso.png){zoomable="yes"}
+
+**[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 통해 변수 사용을 확인할 수 있습니다.
+
+![](assets/variables-simulate.png){zoomable="yes"}

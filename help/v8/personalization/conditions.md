@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
+source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '1011'
 ht-degree: 6%
 
 ---
@@ -116,3 +116,20 @@ ht-degree: 6%
 
    >[!NOTE]
    >메시지를 보낼 때 변형에 정의된 규칙이 모두 충족되지 않으면 콘텐츠 구성 요소는 **[!UICONTROL 조건부 콘텐츠]** 창에서 **[!UICONTROL 기본 변형]**&#x200B;에 정의된 콘텐츠를 표시합니다.
+
+## 조건부 콘텐츠에 변수 사용 {#variables-conditional}
+
+변수는 게재에서 조건부 콘텐츠에 사용할 수 있습니다.
+
+[게재에 변수 추가](../advanced-settings/delivery-settings.md#variables-delivery)에 대해 자세히 알아보세요.
+
+조건부 컨텐츠를 넣을 요소를 선택합니다.
+
+![](assets/variables-conditional.png){zoomable="yes"}
+
+변수를 사용하려면 아래와 같이 **[!UICONTROL 표현식 편집]** 단추를 사용하여 조건을 구성하십시오.
+이 예제에서는 변수 값이 `launch`일 때 이 이미지가 표시됩니다.
+
+![](assets/variables-condition.png){zoomable="yes"}
+
+예를 들어 다른 이미지가 표시되는 경우 값이 `reminder`인 다른 변형을 만들 수도 있습니다.

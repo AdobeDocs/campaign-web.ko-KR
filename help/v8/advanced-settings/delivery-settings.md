@@ -4,9 +4,9 @@ title: 게재 설정 구성
 description: Campaign 웹에서 게재 설정을 구성하는 방법 알아보기
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 898762bc059b49c2f39da7558e6d9ffd31d1985e
+source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
 workflow-type: tm+mt
-source-wordcount: '2852'
+source-wordcount: '2888'
 ht-degree: 46%
 
 ---
@@ -351,6 +351,8 @@ ht-degree: 46%
 
 ![](assets/variables-tab.png){zoomable="yes"}
 
-**[!UICONTROL 변수 추가]** 단추를 클릭하여 변수의 세부 정보를 입력한 다음 **[!UICONTROL 확인]**&#x200B;을 클릭하여 변경 내용을 저장합니다.
+변수의 세부 정보를 입력하려면 **[!UICONTROL 변수 추가]** 단추를 클릭하십시오. **[!UICONTROL 값이 식의 결과임]** 확인란을 활성화하여 값을 직접 추가하거나 식을 사용할 수 있습니다. **[!UICONTROL 확인]**&#x200B;을 클릭하여 변경 내용을 저장합니다.
 
 ![](assets/variables-add.png){zoomable="yes"}
+
+[개인화에 변수 사용](../personalization/personalize.md#variables-personalization) 및 [다이내믹 컨텐츠에 변수 사용](../personalization/conditions.md#variables-conditional)에 대해 자세히 알아보세요.

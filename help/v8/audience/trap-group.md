@@ -3,20 +3,14 @@ audience: end-user
 title: 트랩 그룹 사용
 description: Campaign 웹 사용자 인터페이스에서 게재에 트랩 그룹을 사용하는 방법을 알아봅니다
 exl-id: 48c34581-8825-4798-b24e-c462303f7645
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 13%
+source-wordcount: '397'
+ht-degree: 5%
 
 ---
 
 # 트랩 그룹 사용 {#trap-group}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="트랩 그룹"
->abstract="게재에 특정 주소가 포함된 트랩 그룹을 사용하여 정의된 대상 기준과 일치하지 않는 프로필을 타겟팅하여 배포 프로세스를 모니터링하고 확인할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 **[!UICONTROL 트랩 그룹]**(**[!UICONTROL 시드 목록]**&#x200B;이라고도 함)은 정의된 대상 기준과 일치하지 않는 프로필을 대상으로 하여 배포 프로세스를 모니터링하고 확인하는 데 게재에 특정 주소를 포함하는 데 사용됩니다. 이렇게 하면 게재 범위를 벗어난 수신자는 다른 대상 수신자와 마찬가지로 게재를 받을 수 있습니다.
 

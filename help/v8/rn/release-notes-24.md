@@ -3,9 +3,9 @@ title: Campaign v8 Web 사용자 인터페이스 이전 릴리스 정보
 description: 2024 Campaign Web 사용자 인터페이스 릴리스
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: 5dc96beadbd5ea02540185634971cef44357aefa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2206'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
 <tbody>
 <tr>
 <td>
-<p>메시지를 만들고 맞춤화하면 Adobe Campaign 웹의 AI Assistant Content Accelerator를 사용하여 한 차원 높은 수준으로 메시지를 만들 수 있습니다. 이 강력한 도구를 사용하면 다양한 매력적인 텍스트, 메인 제목 및 시각적으로 매력적인 이미지를 생성하여 콘텐츠의 영향을 최적화할 수 있습니다.</p>
+<p>메시지를 작성하고 개인화한 후에는 Adobe Campaign Web의 AI 어시스턴트 콘텐츠 가속기를 사용하여 콘텐츠를 개선할 수 있습니다. 이 강력한 도구를 사용하면 다양한 매력적인 텍스트, 메인 제목 및 시각적으로 매력적인 이미지를 생성하여 콘텐츠의 영향을 최적화할 수 있습니다.</p>
 <p><a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">실시간 기능 미리보기</a>를 통해 직접 기능을 살펴보고 성능을 완벽하게 이해해 보십시오</a>.</p>
 <p>자세한 내용은 <a href="../email/generative-gs.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
@@ -86,7 +86,7 @@ ht-degree: 98%
 
 ### 트랩 그룹 {#24-7-2}
 
-**트랩 그룹**&#x200B;은 시드 주소 목록입니다. 게재에 특정 주소를 포함시킨 다음 정의된 대상 기준과 일치하지 않는 프로필을 타겟팅하는 데 사용됩니다. 이렇게 하면 게재 대상자에 포함되지 않은 수신자가 다른 대상 수신자와 마찬가지로 게재를 수신할 수 있습니다. 시드 주소를 사용하여 증명을 보내거나 메일링 목록을 보호할 수 있습니다. [자세히 알아보기](../audience/trap-group.md)
+**트랩 그룹**&#x200B;은 시드 주소 목록입니다. 게재에 특정 주소를 포함시킨 다음 정의된 대상 기준과 일치하지 않는 프로필을 타기팅하는 데 사용됩니다. 이렇게 하면 게재 대상자에 포함되지 않은 수신자가 다른 대상 수신자와 마찬가지로 게재를 수신할 수 있습니다. 시드 주소를 사용하여 증명을 보내거나 메일링 목록을 보호할 수 있습니다. [자세히 알아보기](../audience/trap-group.md)
 
 ### 리치 푸시 알림 템플릿 {#24-7-3}
 
@@ -164,7 +164,7 @@ ht-degree: 98%
 * **테스트** - 이 활동을 통해 지정된 조건에 따라 전환을 활성화할 수 있습니다. [자세히 보기](../workflows/activities/test.md)
 * **JavaScript 코드** - 이 활동을 통해 워크플로의 컨텍스트에서 JavaScript 코드 스니펫을 실행할 수 있습니다. [자세히 보기](../workflows/activities/javascript-code.md)
 * **외부 신호** - 이 활동을 통해 다른 워크플로 또는 API 호출에서 워크플로 실행을 트리거할 수 있습니다. [자세히 보기](../workflows/activities/external-signal.md)
-* **증분 쿼리** - 이 활동을 통해 예약에 따라 데이터베이스를 쿼리할 수 있습니다. 이 활동이 실행될 때마다 이전 실행의 결과가 제외됩니다. 이를 통해 새 요소만 타겟팅할 수 있습니다. [자세히 보기](../workflows/activities/incremental-query.md)
+* **증분 쿼리** - 이 활동을 통해 예약에 따라 데이터베이스를 쿼리할 수 있습니다. 이 활동이 실행될 때마다 이전 실행의 결과가 제외됩니다. 이를 통해 새 요소만 타기팅할 수 있습니다. [자세히 보기](../workflows/activities/incremental-query.md)
 
 **리치 푸시 알림 템플릿**
 
@@ -222,7 +222,7 @@ ht-degree: 98%
 
 ### 데이터 소스 워크플로 활동 신규 변경 {#24-3-change-data-source}
 
-**데이터 소스 변경** 타겟팅 활동을 사용하면 워크플로의 작업 테이블에서 사용하는 데이터 소스를 변경할 수 있습니다. 이 활동을 통해 다양한 데이터베이스에서 데이터를 관리하고 성능을 향상할 수 있어 유연성이 향상됩니다.
+**데이터 소스 변경** 타기팅 활동을 사용하면 워크플로의 작업 테이블에서 사용하는 데이터 소스를 변경할 수 있습니다. 이 활동을 통해 다양한 데이터베이스에서 데이터를 관리하고 성능을 향상할 수 있어 유연성이 향상됩니다.
 
 ### 분할 워크플로 활동 개선 {#24-3-split}
 

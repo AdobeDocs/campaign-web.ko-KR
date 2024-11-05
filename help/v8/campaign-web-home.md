@@ -4,9 +4,9 @@ description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 3a8e0f0035d70ddafbc1fc38304316c12d8a2b83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 >[!BEGINTABS]
 
 
->[!TAB 24년 10월 릴리스]
+>[!TAB 2024년 10월 릴리스]
 
-이제 트랜잭션 메시지, 외부 계정 및 향상된 기능을 포함하여 10월 릴리스가 공개되었습니다.
+10월 릴리스가 현재 공개되었으며, 여기에는 트랜잭션 메시지, 외부 계정 및 기타 개선 사항이 포함되어 있습니다.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 

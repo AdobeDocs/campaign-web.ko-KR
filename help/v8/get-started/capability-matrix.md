@@ -4,9 +4,9 @@ title: Campaign Web 사용자 인터페이스/클라이언트 콘솔 기능 매�
 description: Campaign Web 사용자 인터페이스에서 지원되는 기능 목록
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2075'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Campaign v8(클라이언트 콘솔) 설명서를 찾아보고 이 기능을 사�
 * **공급자, 예산, 비용 관리**. 캠페인 내에서 수행하는 작업에 참여하는 서비스 공급자를 구성(비용 구조 포함)하고 각 프로그램 및 캠페인 내에서 예산을 관리할 수 있습니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html?lang=ko){target="_blank"}
 * **분산 마케팅**(중앙/로컬 마케팅). Adobe Campaign은 중앙 엔티티(본사, 마케팅 부서 등) 간 협력 캠페인을 구현하기 위한 [분산 마케팅] 앱을 제공합니다. 공동 캠페인을 실시할 수 있습니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ko){target="_blank"}
 * **마케팅 리소스 관리**(MRM), 목표, 시뮬레이션, 원가 관리. Adobe Campaign은 관련 작업, 예산, 마케팅 리소스에 대한 완전한 관리 및 실시간 추적으로 공동 작업 모드에서 마케팅 활동을 제어할 수 있는 마케팅 리소스 관리(MRM) 앱을 제공합니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=ko){target="_blank"}
-* **작업 관리**.  MRM 앱의 일부로 Campaign 작업을 캠페인 대시보드에서 만들고 할당, 추적, 모니터링할 수 있습니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=ko){target="_blank"}
+* **작업 관리**. MRM 앱의 일부로 Campaign 작업을 캠페인 대시보드에서 만들고 할당, 추적, 모니터링할 수 있습니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=ko){target="_blank"}
 
 ## 커뮤니케이션 채널 {#channels-capabilities}
 
@@ -41,7 +41,7 @@ Campaign Web 사용자 인터페이스를 통해 [이 섹션](../msg/gs-messages
 
 Campaign v8(클라이언트 콘솔) 설명서를 찾아보고 이 채널에 대해 자세히 알아보려면 제공된 링크를 사용하십시오.
 
-* **LINE 메시지**.  LINE은 모든 모바일 디바이스와 PC에서 사용할 수 있는 무료 인스턴트 메시지, 음성 및 영상 통화용 애플리케이션입니다. Adobe Campaign의 경우 클라이언트 콘솔에서만 LINE 메시지를 보낼 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html?lang=ko){target="_blank"}
+* **LINE 메시지**. LINE은 모든 모바일 디바이스와 PC에서 사용할 수 있는 무료 인스턴트 메시지, 음성 및 영상 통화용 애플리케이션입니다. Adobe Campaign의 경우 클라이언트 콘솔에서만 LINE 메시지를 보낼 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html?lang=ko){target="_blank"}
 * **콜센터 및 사용자 정의 채널**. Campaign 환경에 콜센터 및 기타 사용자 정의 채널을 구현할 수 있습니다. 이 채널은 클라이언트 콘솔에서만 사용할 수 있습니다. [Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html?lang=ko#other-channels){target="_blank"}
 * X(Twitter) **소셜 마케팅**. X(Twitter)를 통해 메시지를 게시하고 DM을 보내 고객과 소통합니다. 소셜 마케팅 추가 기능과 함께 제공되는 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. - [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=ko){target="_blank"}
 
@@ -90,7 +90,7 @@ Adobe Campaign Web 사용자 인터페이스와 함께 제공되는 새로운 [�
 
 * **사용자 정의 개인화 블록 만들기**. 기본 개인화 블록 외에도 클라이언트 콘솔에서 사용자 정의 블록을 만들 수 있습니다. Campaign Web 사용자 인터페이스에서는 이 기능을 사용할 수 없습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=ko#create-custom-personalization-blocks){target="_blank"}
 * **사용자 정의 양식의 콘텐츠**. [콘텐츠 관리] 모듈을 사용하면 사용자가 Campaign에서 콘텐츠를 만들 때 도움이 되는 양식을 만들고 관리할 수 있습니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html?lang=ko){target="_blank"}
-* **이메일용 AMP**.  새로운 이메일용 AMP 포맷을 사용하면 메시지에 AMP 구성 요소를 포함하여 풍부하고 실행 가능한 콘텐츠로 이메일 경험을 개선할 수 있습니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html?lang=ko){target="_blank"}
+* **이메일용 AMP**. 새로운 이메일용 AMP 포맷을 사용하면 메시지에 AMP 구성 요소를 포함하여 풍부하고 실행 가능한 콘텐츠로 이메일 경험을 개선할 수 있습니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html?lang=ko){target="_blank"}
 <!--
 * Content from a URL`*`
 * Email fragments`*`
@@ -165,11 +165,11 @@ Adobe Campaign에는 외부 시스템과 연결하기 위해 사전 정의된 �
 
 ### 워크플로 데이터 관리 기능 {#data}
 
-데이터 관리는 데이터 로드, 추출(파일), 데이터 업데이트, 스키마 편집 또는 가져오기/내보내기 기술 워크플로와 같은 보다 효율적이고 유연한 도구를 제공하여 복잡한 타겟팅 문제를 해결하기 위한 일련의 활동을 결합합니다. [클라이언트 콘솔에서 워크플로 데이터 관리 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=ko#data-management){target="_blank"}
+데이터 관리는 데이터 로드, 추출(파일), 데이터 업데이트, 스키마 편집 또는 가져오기/내보내기 기술 워크플로와 같은 보다 효율적이고 유연한 도구를 제공하여 복잡한 타기팅 문제를 해결하기 위한 일련의 활동을 결합합니다. [클라이언트 콘솔에서 워크플로 데이터 관리 기능 살펴보기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=ko#data-management){target="_blank"}
 
 >[!NOTE]
 >
->이들 활동 중 일부는 클라이언트 콘솔에서만 사용할 수 있지만 **데이터 보강**, **파일 로드**, **데이터 소스 변경** 또는 **차원 변경** 활동 등 일부는 Campaign Web 사용자 인터페이스에서 사용할 수 있습니다. [Campaign Web 사용자 인터페이스의 타겟팅 및 데이터 관리 활동에 대해 자세히 알아보기](../workflows/activities/about-activities.md#targeting)
+>이들 활동 중 일부는 클라이언트 콘솔에서만 사용할 수 있지만 **데이터 보강**, **파일 로드**, **데이터 소스 변경** 또는 **차원 변경** 활동 등 일부는 Campaign Web 사용자 인터페이스에서 사용할 수 있습니다. [Campaign Web 사용자 인터페이스의 타기팅 및 데이터 관리 활동에 대해 자세히 알아보기](../workflows/activities/about-activities.md#targeting)
 
 ### 페더레이션 데이터 액세스(FDA) 구성 {#fda}
 

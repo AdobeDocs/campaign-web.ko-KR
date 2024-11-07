@@ -5,7 +5,7 @@ description: Campaign 웹 사용자 인터페이스에서 트랜잭션 메시지
 source-git-commit: 49434faa92e11841033f0c1fbdf907504765a404
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
@@ -40,12 +40,12 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory"
->title="트랜잭션 메시지 이벤트 내역"
+>title="트랜잭션 메시지 이벤트 기록"
 >abstract="트랜잭션 메시지를 트리거하는 이벤트를 볼 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory_preview"
->title="트랜잭션 메시지 이벤트 내역 미리 보기"
+>title="트랜잭션 메시지 이벤트 기록 미리보기"
 >abstract="트랜잭션 메시지를 트리거하는 이벤트를 볼 수 있습니다."
 
 트랜잭션 메시지를 트리거하는 이벤트를 볼 수도 있습니다.

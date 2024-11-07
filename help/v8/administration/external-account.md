@@ -4,7 +4,7 @@ description: 외부 계정을 구성하는 방법 알아보기
 source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 10%
+ht-degree: 15%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="외부 계정"
->abstract="이제 워크플로우에 맞게 추가 플랫폼에 연결하거나 연결을 사용자 정의하고, 특정 요구 사항을 충족하고 원활한 데이터 전송을 위해 새 외부 계정을 쉽게 만들 수 있습니다."
+>abstract="이제 추가 플랫폼 연결 또는 워크플로에 맞도록 연결을 사용자 정의하고, 쉽게 특정 요구 사항 충족 및 원활한 데이터 전송을 위해 새로운 외부 계정을 만들 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 

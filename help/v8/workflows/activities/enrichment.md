@@ -141,7 +141,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_offer_proposition"
 >title="오퍼 제안"
->abstract="데이터 보강 활동을 통해 각 프로필에 대한 오퍼를 추가할 수 있습니다."
+>abstract="보강 활동으로 각 프로필에 대한 오퍼를 추가할 수 있습니다."
 
 **[!UICONTROL 데이터 보강]** 활동을 통해 각 프로필에 대한 오퍼를 추가할 수 있습니다.
 

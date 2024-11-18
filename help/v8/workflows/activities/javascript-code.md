@@ -15,7 +15,7 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="JavaScript 코드"
->abstract="**JavaScript 코드** 활동을 통해 워크플로 컨텍스트에서 JavaScript 스크립트를 실행할 수 있습니다. 이를 통해 작업을 수행하거나 데이터베이스에서 정보를 수집할 수 있습니다. 워크플로 실행 시 하나의 코드 스니펫을 실행하려면 **단순한** JavaScript 코드 활동을 사용합니다. **고급** Javascript 코드 활동을 사용하면 서로 다른 두 코드 스니펫을 순차적으로 실행하여 복잡한 작업을 수행할 수 있습니다. 워크플로가 처음 시작되면 첫 번째 호출이 실행됩니다. 워크플로가 다시 실행될 때마다 두 번째 호출에 정의된 코드가 실행됩니다."
+>abstract="**JavaScript 코드** 활동을 통해 워크플로 컨텍스트에서 JavaScript 스크립트를 실행할 수 있습니다. 이를 통해 작업을 수행하거나 데이터베이스에서 정보를 수집할 수 있습니다. 워크플로 실행 시 하나의 코드 스니펫을 실행하려면 **단순** JavaScript 코드 활동을 사용합니다. **고급** Javascript 코드 활동을 사용하면 서로 다른 두 코드 스니펫을 순차적으로 실행하여 복잡한 작업을 수행할 수 있습니다. 워크플로가 처음 시작되면 첫 번째 호출이 실행됩니다. 워크플로가 다시 실행될 때마다 두 번째 호출에 정의된 코드가 실행됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"

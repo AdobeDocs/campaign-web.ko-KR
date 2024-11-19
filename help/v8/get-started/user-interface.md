@@ -3,10 +3,10 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 9657343409e2c577aac90320d403006af0250e7a
+source-git-commit: e0954fa620d336c2e450638780f1f2fe673249f2
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 100%
+source-wordcount: '2023'
+ht-degree: 99%
 
 ---
 
@@ -361,14 +361,34 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="실행 초기화 스크립트"
 >abstract="실행 초기화 스크립트"
 
-<!-- IDs -->
+<!-- Schema edit custom fields -->
 
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
->title="사용자 정의 속성 편집"
->abstract="사용자 정의 속성 편집"
+>title="사용자 정의 세부 정보 편집"
+>abstract="사용자 정의 세부 정보 편집"
 
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_separatorproperties"
+>title="분리자 속성"
+>abstract="분리자 속성"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings"
+>title="속성 설정"
+>abstract="속성 설정"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings_general"
+>title="일반"
+>abstract="일반"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings_layout"
+>title="레이아웃"
+>abstract="레이아웃"
 
 
 <!--Schema-->

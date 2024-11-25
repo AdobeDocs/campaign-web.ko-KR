@@ -3,9 +3,9 @@ title: 랜딩 페이지 만들기
 description: Campaign 웹에서 랜딩 페이지를 구성하고 게시하는 방법을 알아봅니다
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: 865978dd8083723187a90647060f8758d4d888be
+source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1629'
 ht-degree: 27%
 
 ---
@@ -23,11 +23,15 @@ Campaign 웹 사용자 인터페이스를 사용하면 랜딩 페이지를 만�
 
 ## 랜딩 페이지 액세스 {#access-landing-pages}
 
-랜딩 페이지 목록에 액세스하려면 왼쪽 메뉴에서 **[!UICONTROL 캠페인 관리]** > **[!UICONTROL 랜딩 페이지]**&#x200B;를 선택하십시오.
+랜딩 페이지 목록에 액세스하려면 왼쪽 메뉴에서 **[!UICONTROL 콘텐츠 관리]** > **[!UICONTROL 랜딩 페이지]**&#x200B;를 선택하십시오.
 
 ![](assets/lp-inventory.png){zoomable="yes"}
 
-**[!UICONTROL 랜딩 페이지]** 인벤토리에 생성된 모든 항목이 표시됩니다. **[!UICONTROL 필터 표시]** 단추를 사용하여 필터링할 수 있습니다. 드롭다운 목록을 사용하여 결과를 특정 [폴더](../get-started/permissions.md#folders)(으)로 제한하거나 [쿼리 모델러](../query/query-modeler-overview.md)를 사용하여 규칙을 추가할 수 있습니다.
+**[!UICONTROL 랜딩 페이지]** 인벤토리에 생성된 모든 항목이 표시됩니다. **[!UICONTROL 필터 표시]** 단추를 사용하여 필터링할 수 있습니다.
+
+* 만들거나 수정한 항목을 필터링할 수 있습니다.
+
+* 드롭다운 목록을 사용하여 결과를 특정 [폴더](../get-started/permissions.md#folders)(으)로 제한하거나 [쿼리 모델러](../query/query-modeler-overview.md)를 사용하여 규칙을 추가할 수 있습니다.
 
 ![](assets/lp-inventory-filter.png){zoomable="yes"}
 

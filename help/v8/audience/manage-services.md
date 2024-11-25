@@ -3,9 +3,9 @@ audience: end-user
 title: 구독 서비스 작업
 description: Adobe Campaign 웹에서 구독 서비스에 액세스하고, 만들고, 관리하는 방법을 알아봅니다
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
+source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1051'
 ht-degree: 32%
 
 ---
@@ -29,7 +29,7 @@ Adobe Campaign 웹을 사용하여 뉴스레터와 같은 서비스를 관리 �
 
 플랫폼에서 사용할 수 있는 구독 서비스에 액세스하려면 아래 단계를 따르십시오.
 
-1. 왼쪽 탐색 레일에서 **[!UICONTROL 구독 서비스]** 메뉴로 이동합니다.
+1. **[!UICONTROL 고객 관리]**&#x200B;에서 왼쪽 탐색 레일의 **[!UICONTROL 구독 서비스]** 메뉴로 이동합니다.
 
    ![](assets/service-list.png){zoomable="yes"}
 

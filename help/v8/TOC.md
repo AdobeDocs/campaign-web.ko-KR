@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
+source-git-commit: 60944341051a2b314e92e9bb728f41ed5f07c669
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 98%
+source-wordcount: '773'
+ht-degree: 97%
 
 ---
 
@@ -74,9 +74,9 @@ ht-degree: 98%
    + [구독자에게 메시지 전송](msg/send-to-subscribers.md)
    + [게재 설정 구성](advanced-settings/delivery-settings.md)
    + 게재 미리보기 및 테스트 {#preview-test}
-      + [미리보기 및 증명 정보](preview-test/preview-test.md)
+      + [미리보기 및 교정쇄 정보](preview-test/preview-test.md)
       + [메시지 콘텐츠 미리보기](preview-test/preview-content.md)
-      + [증명 보내기](preview-test/test-deliveries.md)
+      + [교정쇄 보내기](preview-test/test-deliveries.md)
       + [이메일 렌더링 테스트](preview-test/email-rendering.md)
    + 게재 경고 {#delivery-alerting}
       + [게재 경고 시작하기](msg/delivery-alerting.md)
@@ -118,6 +118,7 @@ ht-degree: 98%
       + [AI를 활용한 이메일 생성](email/generative-content.md)
       + [AI를 활용한 SMS 생성](email/generative-sms.md)
       + [AI를 활용한 푸시 알림 생성](email/generative-push.md)
+      + [AI Assistant 사용 사례](email/generative-uc.md)
 + 랜딩 페이지 {#landing-pages}
    + [랜딩 페이지 시작](landing-pages/get-started-lp.md)
    + [랜딩 페이지 만들기 및 게시하기](landing-pages/create-lp.md)

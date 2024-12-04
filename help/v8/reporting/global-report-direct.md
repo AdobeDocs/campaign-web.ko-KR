@@ -40,17 +40,17 @@ DM 글로벌 보고서는 채널 수준의 트래픽 및 참여 지표에 대한
 * **[!UICONTROL 구독 취소]**: 구독 취소를 클릭한 수신자 수입니다.
 +++
 
-### 타겟팅된 대상자 {#delivery-summary-direct-initial-target}
+### 타기팅된 대상자 {#delivery-summary-direct-initial-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_direct_mail_graph"
->title="타겟팅된 대상자"
->abstract="수신자 데이터와 메시지 정보는 게재 준비 분석을 반영하여 **타겟팅된 대상자** 그래프에 표시됩니다."
+>title="타기팅된 대상자"
+>abstract="수신자 데이터와 메시지 정보는 게재 준비 분석을 반영하여 **타기팅된 대상자** 그래프에 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_direct_mail_table"
->title="타겟팅된 대상자"
->abstract="**타겟팅된 대상자** 테이블은 게재 준비 프로세스의 결과에 따라 수신자와 해당 메시지에 대한 자세한 분석을 제공합니다."
+>title="타기팅된 대상자"
+>abstract="**타기팅된 대상자** 테이블은 게재 준비 프로세스의 결과에 따라 수신자와 해당 메시지에 대한 자세한 분석을 제공합니다."
 
 **[!UICONTROL 타깃팅된 대상]**&#x200B;에 대한 표와 그래프는 아래에 제공된 자세한 지표와 함께 수신자와 관련된 데이터를 표시합니다.
 

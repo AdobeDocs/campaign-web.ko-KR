@@ -41,12 +41,12 @@ ht-degree: 25%
 
 +++
 
-### 타겟팅된 대상자 {#delivery-summary-push-initial-target}
+### 타기팅된 대상자 {#delivery-summary-push-initial-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_push_targeted_audience"
->title="푸시 타겟팅된 집단"
->abstract="**타겟팅된 집단** 그래프와 테이블은 푸시 메시지 대상자와 관련된 데이터를 보여 주며 게재할 메시지와 제외 항목에 대한 정보를 제공합니다."
+>title="푸시 타기팅된 집단"
+>abstract="**타기팅된 집단** 그래프와 테이블은 푸시 메시지 대상자와 관련된 데이터를 보여 주며 게재할 메시지와 제외 항목에 대한 정보를 제공합니다."
 
 **[!UICONTROL 타깃팅된 대상]** 테이블 및 그래프는 보낸 각 푸시 알림 배달에 대해 받는 사람과 관련된 데이터를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
@@ -81,7 +81,7 @@ ht-degree: 25%
 
 * **[!UICONTROL 오류/바운스 수]**: 배달할 메시지 수와 관련하여 게재 및 자동 리바운드 처리 중에 누적된 총 오류 수입니다.
 
-* **[!UICONTROL 새 격리]**: 게재 실패 후 격리된 총 주소 수(예: 잘못된 등록, 메시지 거부, 페이로드 오류) 게재할 메시지 수 관련.
+* **[!UICONTROL 새 격리]**: 배달할 메시지 수와 관련하여 배달 실패 후 격리된 총 주소 수(예: 잘못된 등록, 메시지 거부, 페이로드 오류)입니다.
 
   푸시 알림 오류 유형은 [Adobe Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}에 나와 있습니다.
 

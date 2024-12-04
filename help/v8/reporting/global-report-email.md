@@ -44,12 +44,12 @@ ht-degree: 25%
 * **[!UICONTROL 구독 취소]**: 구독 취소를 클릭한 수신자 수입니다.
 +++
 
-### 타겟팅된 대상자 {#delivery-summary-email-initial-target}
+### 타기팅된 대상자 {#delivery-summary-email-initial-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_target_audience_email"
 >title="초기 타깃 대상자 통계"
->abstract="**타겟팅된 대상자** 테이블과 그래프는 수신자 참여에 대한 인사이트를 제공하므로 캠페인 및 게재의 효과를 평가하는 데 도움이 됩니다."
+>abstract="**타기팅된 대상자** 테이블과 그래프는 수신자 참여에 대한 인사이트를 제공하므로 캠페인 및 게재의 효과를 평가하는 데 도움이 됩니다."
 
 **[!UICONTROL 타깃팅된 대상]**&#x200B;에 대한 표와 그래프는 아래에 제공된 자세한 지표와 함께 수신자와 관련된 데이터를 표시합니다.
 

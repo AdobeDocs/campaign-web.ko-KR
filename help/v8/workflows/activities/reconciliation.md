@@ -6,7 +6,7 @@ exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
 source-git-commit: 935fba929c26d6d7b3057ee7c24148215a04e45e
 workflow-type: tm+mt
 source-wordcount: '858'
-ht-degree: 44%
+ht-degree: 45%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="조정 활동"
->abstract="**조정** 활동은 Adobe Campaign 데이터베이스의 데이터 간 링크와 작업 테이블의 데이터를 정의할 수 있는 **타겟팅** 활동입니다. 예를 들어 **조정** 활동을 **파일 로드** 활동 뒤에 놓아 비표준 데이터를 데이터베이스로 가져옵니다. 이 경우 **조정** 활동을 통해 Adobe Campaign 데이터베이스의 데이터와 외부 테이블에 있는 데이터 간의 링크를 정의할 수 있습니다."
+>abstract="**조정** 활동은 Adobe Campaign 데이터베이스의 데이터 간 링크와 작업 테이블의 데이터를 정의할 수 있는 **타기팅** 활동입니다. 예를 들어 **조정** 활동을 **파일 로드** 활동 뒤에 놓아 비표준 데이터를 데이터베이스로 가져옵니다. 이 경우 **조정** 활동을 통해 Adobe Campaign 데이터베이스의 데이터와 외부 테이블에 있는 데이터 간의 링크를 정의할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
@@ -47,8 +47,8 @@ ht-degree: 44%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
->title="타겟팅 차원"
->abstract="새로운 타겟팅 차원을 선택합니다. 차원을 사용하여 대상 모집단(수신자, 앱 구독자, 운영자, 구독자 등)을 정의할 수 있습니다. 기본적으로 현재 타겟팅 차원이 선택됩니다."
+>title="타기팅 차원"
+>abstract="새로운 타기팅 차원을 선택합니다. 차원을 사용하여 대상 모집단(수신자, 앱 구독자, 운영자, 구독자 등)을 정의할 수 있습니다. 기본적으로 현재 타기팅 차원이 선택됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
@@ -58,8 +58,8 @@ ht-degree: 44%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
->title="타겟팅 차원 선택"
->abstract="조정할 인바운드 데이터의 타겟팅 차원을 선택합니다."
+>title="타기팅 차원 선택"
+>abstract="조정할 인바운드 데이터의 타기팅 차원을 선택합니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html?#targeting-dimensions" text="타겟팅 차원"
 
 >[!CONTEXTUALHELP]
@@ -76,7 +76,7 @@ ht-degree: 44%
 
 1. 워크플로우에 **조정** 활동을 추가합니다. 이 활동은 타겟팅 차원이 Adobe Campaign에서 바로 제공되지 않는 모집단이 포함된 전환 후에 추가해야 합니다.
 
-1. 새로운 타겟팅 차원을 선택합니다. 차원을 사용하여 대상 모집단(수신자, 앱 구독자, 운영자, 구독자 등)을 정의할 수 있습니다. [타겟팅 차원에 대해 자세히 알아보세요](../../audience/about-recipients.md#targeting-dimensions).
+1. 새로운 타기팅 차원을 선택합니다. 차원을 사용하여 대상 모집단(수신자, 앱 구독자, 운영자, 구독자 등)을 정의할 수 있습니다. [타겟팅 차원에 대해 자세히 알아보세요](../../audience/about-recipients.md#targeting-dimensions).
 
 1. 조정에 사용할 필드를 선택합니다. 조정 기준을 하나 이상 사용할 수 있습니다.
 

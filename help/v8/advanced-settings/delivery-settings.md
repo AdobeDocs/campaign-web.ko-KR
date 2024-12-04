@@ -267,12 +267,12 @@ ht-degree: 46%
 * **[!UICONTROL 추적 유효성 제한]**: 이 옵션을 사용하여 URL에서 추적이 활성화되는 기간을 변경할 수 있습니다.
 * **[!UICONTROL 만료된 URL에 대한 대체 URL]**: 이 옵션을 사용하여 대체 웹 페이지에 대한 URL을 입력하십시오. 추적이 만료되면 표시됩니다.
 
-## 증명 설정 {#test-setttings}
+## 교정쇄 설정 {#test-setttings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_testsettings"
->title="게재에 대한 증명 설정 정의"
->abstract="제외 매개변수를 선택하고 증명의 레이블을 사용자 정의합니다."
+>title="게재에 대한 교정쇄 설정 정의"
+>abstract="제외 매개변수를 선택하고 교정쇄의 레이블을 사용자 정의합니다."
 
 <!--Test to be replaced with Proof everywhere - currently not consistent within UI > changed to Proof to reflect UI here but not consistent in documentation either-->
 

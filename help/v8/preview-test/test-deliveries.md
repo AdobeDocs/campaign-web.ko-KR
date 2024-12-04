@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: 증명 보내기
+title: 교정쇄 보내기
 description: 증명 정의 및 전송 방법 알아보기
 exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
@@ -10,7 +10,7 @@ ht-degree: 13%
 
 ---
 
-# 증명 보내기 {#send-test-deliveries}
+# 교정쇄 보내기 {#send-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
@@ -52,8 +52,8 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_mode"
->title="증명의 대상"
->abstract="기본 대상에게 보내기 전에 게재를 테스트하려는 경우 “증명의 대상”으로 두 번째 파일을 업로드할 수 있습니다."
+>title="교정쇄의 대상"
+>abstract="기본 대상에게 보내기 전에 게재를 테스트하려는 경우 “교정쇄의 대상”으로 두 번째 파일을 업로드할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_upload"
@@ -68,7 +68,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="주요 대상자에 테스트 프로필 포함"
->abstract="증명 수신자에게도 최종 메시지를 보내려면 이 옵션을 활성화합니다."
+>abstract="교정쇄 수신자에게도 최종 메시지를 보내려면 이 옵션을 활성화합니다."
 
 테스트 프로필은 데이터베이스의 추가 수신자입니다. **[!UICONTROL 고객 관리]** > **[!UICONTROL 프로필]** 메뉴에서 만듭니다. [자세히 알아보기](../audience/test-profiles.md#create-test-profiles)
 

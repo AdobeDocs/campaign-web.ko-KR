@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 609f1bfffc7c3f456335e78e5ba7b01f4f9804f9
 workflow-type: tm+mt
 source-wordcount: '2027'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -371,8 +371,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_separatorproperties"
->title="분리자 속성"
->abstract="분리자 속성"
+>title="구분자 속성"
+>abstract="구분자 속성"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings"
@@ -387,7 +387,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_link"
 >title="링크 속성"
->abstract="LaLink 속성"
+>abstract="LaLink propertiesyout"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_layout"

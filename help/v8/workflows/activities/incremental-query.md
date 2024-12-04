@@ -17,7 +17,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"
 >title="증분 쿼리"
->abstract="**증분 쿼리** 활동은 쿼리 모델러를 사용하여 데이터베이스를 쿼리할 수 있는 **타겟팅** 활동입니다. 이 활동이 실행될 때마다 이전 실행의 결과가 제외됩니다. 이를 통해 새 요소만 타겟팅할 수 있습니다."
+>abstract="**증분 쿼리** 활동은 쿼리 모델러를 사용하여 데이터베이스를 쿼리할 수 있는 **타기팅** 활동입니다. 이 활동이 실행될 때마다 이전 실행의 결과가 제외됩니다. 이를 통해 새 요소만 타겟팅할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery_history"
@@ -54,7 +54,7 @@ ht-degree: 19%
 
 1. **[!UICONTROL 대상]** 섹션에서 **타겟팅 차원**&#x200B;을 선택한 다음 **[!UICONTROL 계속]**&#x200B;을 클릭합니다.
 
-   타겟팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타겟팅하는 모집단을 정의할 수 있습니다. 기본적으로 대상은 수신자 중에서 선택됩니다. [타겟팅 차원에 대해 자세히 알아보기](../../audience/about-recipients.md#targeting-dimensions)
+   타기팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타기팅하는 집단을 정의할 수 있습니다. 기본적으로 대상은 수신자 중에서 선택됩니다. [타겟팅 차원에 대해 자세히 알아보기](../../audience/about-recipients.md#targeting-dimensions)
 
 1. 새 이메일을 디자인할 때 대상을 만드는 것과 같은 방식으로 쿼리 모델러를 사용하여 쿼리를 정의합니다. [쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다](../../query/query-modeler-overview.md)
 

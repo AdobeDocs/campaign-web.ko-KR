@@ -4,9 +4,9 @@ title: Campaign Web 사용자 인터페이스/클라이언트 콘솔 기능 매�
 description: Campaign Web 사용자 인터페이스에서 지원되는 기능 목록
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: fbeb91041f63ecbc6ce44102aebd92fc3539cdf5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2086'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Campaign v8(클라이언트 콘솔) 설명서를 찾아보고 이 기능을 사�
 * **마케팅 캘린더**. 캠페인 달력에는 모든 프로그램, 기획, 캠페인, 게재가 통합 타임라인으로 표시됩니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ko#campaign-calendar){target="_blank"}
 * **프로그램 및 기획**. 각 캠페인은 프로그램에 속하며, 프로그램은 기획에 속합니다. Campaign Web 사용자 인터페이스에서 모든 캠페인은 기본 내장 기획 및 프로그램과 연결되어 있습니다. 클라이언트 콘솔에서만 기획과 프로그램을 만들고 관리할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ko#work-with-plan-and-program){target="_blank"}
 * **공급자, 예산, 비용 관리**. 캠페인 내에서 수행하는 작업에 참여하는 서비스 공급자를 구성(비용 구조 포함)하고 각 프로그램 및 캠페인 내에서 예산을 관리할 수 있습니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html?lang=ko){target="_blank"}
-* **분산 마케팅**(중앙/로컬 마케팅). Adobe Campaign에서는 분산 마케팅 앱을 제공하여 중앙 엔터티(본사, 마케팅 부서 등)와 로컬 엔터티(영업 지점, 지역 에이전시 등) 간의 공동 캠페인을 구현할 수 있습니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ko){target="_blank"}
+* **분산 마케팅**(중앙/로컬 마케팅). Adobe Campaign에서는 중앙 엔티티(본사, 마케팅 부서 등)와 로컬 엔티티(매장, 지역 대리점 등) 간 협력 캠페인을 구현하는 데 사용할 수 있는 분산 마케팅 앱을 제공합니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ko){target="_blank"}
 * **마케팅 리소스 관리**(MRM), 목표, 시뮬레이션, 원가 관리. Adobe Campaign은 관련 작업, 예산, 마케팅 리소스에 대한 완전한 관리 및 실시간 추적으로 공동 작업 모드에서 마케팅 활동을 제어할 수 있는 마케팅 리소스 관리(MRM) 앱을 제공합니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=ko){target="_blank"}
 * **작업 관리**. MRM 앱의 일부로 Campaign 작업을 캠페인 대시보드에서 만들고 할당, 추적, 모니터링할 수 있습니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=ko){target="_blank"}
 

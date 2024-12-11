@@ -3,10 +3,10 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 609f1bfffc7c3f456335e78e5ba7b01f4f9804f9
-workflow-type: ht
-source-wordcount: '2027'
-ht-degree: 100%
+source-git-commit: 1671a2036f34bab91c0f9e4ee7eae6407a4b9eba
+workflow-type: tm+mt
+source-wordcount: '2054'
+ht-degree: 98%
 
 ---
 
@@ -446,3 +446,28 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_schema_start_update"
 >title="데이터베이스 업데이트 시작"
 >abstract="스키마"
+
+
+
+<!-- Target Mapping -->
+
+
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_properties"
+>title="대상 매핑 속성"
+>abstract="대상 매핑 속성"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_mapping"
+>title="대상 매핑"
+>abstract="대상 매핑"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_denylist"
+>title="대상 매핑 차단 목록"
+>abstract="대상 매핑 차단 목록"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_storage"
+>title="대상 매핑 스토리지"
+>abstract="대상 매핑 거부 저장소"

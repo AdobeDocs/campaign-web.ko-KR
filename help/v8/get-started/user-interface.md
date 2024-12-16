@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 1671a2036f34bab91c0f9e4ee7eae6407a4b9eba
 workflow-type: tm+mt
 source-wordcount: '2054'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -459,8 +459,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_mapping"
->title="대상 매핑"
->abstract="대상 매핑"
+>title="대상 매핑 매핑"
+>abstract="대상 매핑 매핑"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_denylist"
@@ -470,4 +470,4 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_storage"
 >title="대상 매핑 스토리지"
->abstract="대상 매핑 거부 저장소"
+>abstract="대상 매핑 차단 스토리지"

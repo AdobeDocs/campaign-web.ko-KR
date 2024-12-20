@@ -3,9 +3,9 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: ef7949d115342e47f68cfbd88c1137f4eaf38cc0
+source-git-commit: 7efaac360dc00f5bd92b47efbe113cfe99042eb6
 workflow-type: tm+mt
-source-wordcount: '2058'
+source-wordcount: '2064'
 ht-degree: 100%
 
 ---
@@ -472,11 +472,21 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="대상 매핑 스토리지"
 >abstract="대상 매핑 차단 스토리지"
 
-
-
 <!-- Favorites & recents -->
 
 >[!CONTEXTUALHELP]
 >id="acw_attribute_picker_favorites_recents"
 >title="즐겨찾기 및 최근 항목"
 >abstract="즐겨찾기 및 최근 항목"
+
+<!-- Options -->
+
+>[!CONTEXTUALHELP]
+>id="acw_options_list"
+>title="옵션"
+>abstract="옵션"
+
+>[!CONTEXTUALHELP]
+>id="acw_options_create"
+>title="옵션 만들기"
+>abstract="옵션 만들기"

@@ -29,8 +29,8 @@ ht-degree: 45%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_complement"
->title="조정 보조 항목 생성"
->abstract="조정 보조 항목 생성"
+>title="조정 생성 여집합"
+>abstract="조정 생성 여집합"
 
 **조정** 활동은 **타깃팅** 활동으로, Adobe Campaign 데이터베이스의 데이터와 작업 테이블의 데이터(예: 외부 파일에서 로드된 데이터) 간의 링크를 정의할 수 있습니다.
 

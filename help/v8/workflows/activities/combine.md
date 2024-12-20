@@ -76,7 +76,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 **결합** 활동에서 **교차**&#x200B;를 구성할 수 있습니다. 이를 위해 아래의 추가 단계를 수행해야 합니다.
 
 1. 중복 처리 방법을 정의하려면 **조정 유형**&#x200B;을 선택합니다. [합집합](#union) 섹션을 참조하십시오.
-1. 나머지 모집단을 처리하려면 **완료 생성** 옵션을 선택할 수 있습니다. 보조 항목에는 교차를 제외한 모든 인바운드 활동 결과의 합집합이 포함됩니다. 그런 다음 추가 아웃바운드 전환이 활동에 추가됩니다.
+1. 나머지 모집단을 처리하려면 **완료 생성** 옵션을 선택할 수 있습니다. 여집합에는 교차를 제외한 모든 인바운드 활동 결과의 합집합이 포함됩니다. 그런 다음 추가 아웃바운드 전환이 활동에 추가됩니다.
 
 ## 제외 {#combine-exclusion}
 
@@ -97,8 +97,8 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
->title="보조 항목 결합 생성"
->abstract="추가 전환에서 나머지 집단을 처리하려면 ‘보조 항목 생성’ 옵션을 토글합니다."
+>title="여집합 결합 생성"
+>abstract="추가 전환에서 나머지 집단을 처리하려면 ‘여집합 생성’ 옵션을 토글합니다."
 
 **결합** 활동에서 **제외**&#x200B;를 구성할 수 있습니다. 이를 위해 아래의 추가 단계를 수행해야 합니다.
 

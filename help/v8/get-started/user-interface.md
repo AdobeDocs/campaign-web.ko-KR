@@ -3,9 +3,9 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e5dfb307ae53333b4e2e55ca57a605790d8b6d62
+source-git-commit: d99495db792293db4f4121892b073337c91f7a33
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2086'
 ht-degree: 100%
 
 ---
@@ -502,3 +502,20 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_javascript_codes_create"
 >title="JavaScript 코드 만들기"
 >abstract="JavaScript 코드 만들기"
+
+<!-- Enumerations -->
+
+>[!CONTEXTUALHELP]
+>id="acw_enumerations_list"
+>title="열거형"
+>abstract="열거형"
+
+>[!CONTEXTUALHELP]
+>id="acw_enumerations_properties"
+>title="속성"
+>abstract="속성"
+
+>[!CONTEXTUALHELP]
+>id="acw_enumerations_values"
+>title="열거형 값 목록"
+>abstract="열거형 값 목록"

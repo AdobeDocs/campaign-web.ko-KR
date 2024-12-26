@@ -26,7 +26,7 @@ Adobe Campaign 웹 사용자 인터페이스에서 게재에 오퍼를 추가할
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
 >title="오퍼 매개변수 정의"
->abstract="오퍼 공간, 필요한 경우 범주 및 테마를 정의하여 수신자에게 제안할 오퍼를 구성하고 게재에 삽입할 오퍼 수를 지정합니다."
+>abstract="오퍼 공간, 필요한 경우 카테고리 및 테마를 정의하여 수신자에게 제안할 오퍼를 구성하고 게재에 삽입할 오퍼 수를 지정합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"

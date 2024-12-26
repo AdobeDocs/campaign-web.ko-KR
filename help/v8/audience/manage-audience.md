@@ -24,8 +24,8 @@ ht-degree: 25%
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_targeting"
->title="타겟팅"
->abstract="타겟팅"
+>title="타기팅"
+>abstract="타기팅"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"

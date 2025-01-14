@@ -3,10 +3,10 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 23930d4fb665db1b67dbb07d1b1cffb4e38bdaff
+source-git-commit: ef4b74d601431f7113d06f705c676930c59cb4d6
 workflow-type: tm+mt
-source-wordcount: '2086'
-ht-degree: 100%
+source-wordcount: '2108'
+ht-degree: 99%
 
 ---
 
@@ -519,3 +519,35 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_enumerations_values"
 >title="열거형 값 목록"
 >abstract="열거형 값 목록"
+
+<!-- Typology rules -->
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules"
+>title="비즈니스 규칙"
+>abstract="비즈니스 규칙"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_set_properties"
+>title="규칙 세트 속성"
+>abstract="규칙 세트 속성"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_set_ip_affinity"
+>title="IP 선호도"
+>abstract="IP 선호도"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_properties"
+>title="규칙 속성"
+>abstract="규칙 속성"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_filtering"
+>title="필터링"
+>abstract="필터링"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_code"
+>title="코드"
+>abstract="코드"

@@ -149,7 +149,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type_table"
 >title="유형별 오류 분류"
->abstract="**유형별 오류 분류** 표는 각 오류 유형의 발생에 대한 포괄적인 분석을 제공합니다."
+>abstract="**유형별 오류 분류** 테이블은 각 오류 유형의 발생에 대한 포괄적인 분석을 제공합니다."
 
 **[!UICONTROL 유형별 오류 분석]** 테이블 및 그래프에 오류 유형에 사용할 수 있는 데이터가 포함되어 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
 
@@ -185,7 +185,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain_table"
 >title="도메인별 오류 분류"
->abstract="**도메인별 오류 분류** 표는 사용된 도메인에 따라 각 오류 발생에 대한 포괄적인 분석을 제공합니다."
+>abstract="**도메인별 오류 분류** 테이블은 사용된 도메인에 따라 각 오류 발생에 대한 포괄적인 분석을 제공합니다."
 
 **[!UICONTROL 도메인당 오류 분석]** 테이블 및 그래프는 각 도메인에서 발생한 오류에 대해 사용 가능한 데이터를 표시합니다.
 

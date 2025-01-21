@@ -6,15 +6,20 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 1%
+source-wordcount: '599'
+ht-degree: 2%
 
 ---
 
 
 # 콘텐츠 개인화 {#add-personalization}
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_add_current_date"
+>title="현재 일자 추가"
+>abstract="이 메뉴는 콘텐츠를 개인화하는 데 활용할 수 있는 날짜 형식 지정 관련 기능을 제공합니다."
 
 게재 콘텐츠 Personalization은 메시지를 개별 수신자에게 맞춤화할 수 있는 주요 기능으로, 커뮤니케이션의 관련성을 높이고 참여를 유도합니다.
 

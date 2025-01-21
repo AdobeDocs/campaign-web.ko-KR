@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1024'
 ht-degree: 6%
 
 ---
@@ -31,6 +31,11 @@ ht-degree: 6%
 표현식 편집기 외에도 전자 메일 본문의 요소에 대해 여러 변형을 만들 수 있는 전자 메일을 디자인할 때 전용 **조건부 콘텐츠 빌더**&#x200B;를 활용할 수 있습니다. [전자 메일에 조건부 콘텐츠를 만드는 방법을 알아봅니다](#condition-condition-builder)
 
 ## 표현식 편집기에서 조건 만들기 {#condition-perso-editor}
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_conditions"
+>title="조건"
+>abstract="이 메뉴를 사용하면 도우미 함수를 활용하여 조건부 콘텐츠를 정의할 수 있습니다."
 
 표현식 편집기를 사용하여 게재에 대한 조건부 콘텐츠를 정의하려면 아래 단계를 수행합니다. 이 예제에서는 수신자의 언어(프랑스어 또는 영어)를 기반으로 조건부 콘텐츠를 만들려고 합니다.
 

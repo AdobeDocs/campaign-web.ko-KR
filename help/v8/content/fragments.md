@@ -3,10 +3,10 @@ audience: end-user
 title: 콘텐츠 조각 시작
 description: 콘텐츠 조각을 사용하여 만드는 방법 알아보기
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 61%
+source-wordcount: '433'
+ht-degree: 58%
 
 ---
 
@@ -22,6 +22,11 @@ ht-degree: 61%
 >id="acw_fragments_menu"
 >title="자신만의 콘텐츠 조각 정의"
 >abstract="콘텐츠 조각은 캠페인에서 하나 이상의 메시지에 참조할 수 있는 재사용 가능한 구성 요소입니다. 이 기능은 여러 사용자 정의 콘텐츠 블록을 사전 빌드하는 데 사용되며, 마케팅 사용자는 이러한 콘텐츠 블록을 사용하여 향상된 디자인 프로세스로 콘텐츠를 신속하게 조합할 수 있습니다. 콘텐츠 조각에는 이메일 디자이너에서 사용할 수 있는 시각적 조각과 표현 편집기에서 사용할 수 있는 표현 조각, 즉 두 가지 유형이 있습니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_fragments"
+>title="표현식 조각 추가"
+>abstract="표현식 조각은 게재에 삽입할 수 있는 특정 렌더링이 포함된 사전 정의된 콘텐츠 블록입니다. 예를 들어 로고, 인사말 메시지 또는 메시지 미러 페이지에 대한 링크를 추가할 수 있습니다. 필요에 따라 나만의 표현식 조각을 만들 수도 있습니다."
 
 ## 콘텐츠 조각이란 무엇입니까? {#what}
 

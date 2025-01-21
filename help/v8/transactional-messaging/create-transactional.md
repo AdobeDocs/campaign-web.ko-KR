@@ -2,10 +2,11 @@
 audience: end-user
 title: 트랜잭션 메시지 만들기
 description: Campaign 웹 사용자 인터페이스에서 트랜잭션 메시지를 만드는 방법을 알아봅니다
-source-git-commit: e55b9c875b7700c7ee9d38b8386cc2742ad1f908
+exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 18%
+source-wordcount: '1209'
+ht-degree: 19%
 
 ---
 
@@ -116,6 +117,11 @@ Campaign 웹 사용자 인터페이스에서 트랜잭션 메시지 구성의 �
 >id="acw_transacmessages_personalization"
 >title="트랜잭션 메시지 개인화"
 >abstract="트랜잭션 메시지 콘텐츠를 개인화하는 방법 알아보기"
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_event_context"
+>title="텍스트 컨텍스트"
+>abstract="이 메뉴는 트랜잭션 메시지 콘텐츠를 개인화하는 데 활용할 수 있는 트리거 이벤트의 변수를 제공합니다."
 
 트랜잭션 메시지의 콘텐츠로 작업하는 것은 게재의 콘텐츠 생성과 같습니다. **[!UICONTROL 전자 메일 디자이너 열기]** 또는 **[!UICONTROL 전자 메일 본문 편집]**&#x200B;을 클릭하고 템플릿 콘텐츠를 선택하거나 HTML 코드를 가져옵니다.
 

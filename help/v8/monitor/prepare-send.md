@@ -3,9 +3,9 @@ audience: end-user
 title: 이메일 준비 및 전송
 description: Campaign 웹 사용자 인터페이스를 사용하여 이메일을 준비하고 보내는 방법 알아보기
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: c3148c9593aa4d323097135601616b9c43bae378
+source-git-commit: 58f25a6b41c89e97c0f721f4437b5245d16b3757
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '889'
 ht-degree: 38%
 
 ---
@@ -136,14 +136,14 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
->title="전송된 지표"
+>title="보냄"
 >abstract="게재 분석 시 처리된 총 메시지 수입니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/reports/kpis" text="KPI 이해"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
->title="오류 지표"
+>title="오류수"
 >abstract="총 전송된 총 메시지 수와 관련하여 게재 및 자동 반환 처리 시 누적된 오류의 총계입니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/reports/kpis" text="KPI 이해"
 

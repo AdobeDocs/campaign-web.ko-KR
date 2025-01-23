@@ -3,10 +3,10 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 8b627ff3116346fb09243b560b0a492d690b95fa
+source-git-commit: 7c96605fc4a9fb21692f219ceaf9067c27a9902e
 workflow-type: tm+mt
-source-wordcount: '2108'
-ht-degree: 99%
+source-wordcount: '2136'
+ht-degree: 98%
 
 ---
 
@@ -535,7 +535,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_ip_affinity"
 >title="IP 선호도"
->abstract="IP 선호도"
+>abstract="IP 주소로 선호도를 관리하면 게재 작업의 유형화에 따라 서로 다른 IP 주소를 각 트래픽 유형과 연결하여 발신 SMTP 트래픽을 더 잘 제어할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_properties"

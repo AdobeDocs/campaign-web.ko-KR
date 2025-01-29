@@ -6,9 +6,9 @@ title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
 source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '776'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 99%
    + [게재에 액세스하기](msg/gs-deliveries.md)
    + [게재 만들기](msg/create-deliveries.md)
    + [게재 템플릿 사용](msg/delivery-template.md)
-   + [유형화를 사용한 작업](msg/typologies.md)
+   + [유형화를 사용하여 작업](msg/typologies.md)
    + 이메일 {#email}
       + [첫 이메일 만들기](email/create-email.md)
       + [이메일 콘텐츠 구성](email/edit-content.md)

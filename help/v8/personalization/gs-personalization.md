@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
 source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '532'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
 >title="개인화"
->abstract="개인화 편집기를 사용하면 모든 데이터를 선택하고, 정렬하고, 사용자 정의하고, 유효성을 검사하여 콘텐츠에 대한 사용자 지정 경험을 만들 수 있습니다. 프로필 데이터를 활용하여 각 수신자에게 메시지를 개인화하고, 조건부 콘텐츠를 만들어 각 수신자에게 메시지를 적용하고 관련 있는 콘텐츠만 표시할 수 있습니다."
+>abstract="개인화 편집기를 통해 모든 데이터를 선택하고, 배열하고, 사용자 정의하고 검증하여 콘텐츠에 대해 맞춤화된 경험을 만들 수 있습니다. 프로필 데이터를 활용하여 각 수신자에 맞게 메시지를 개인화하고, 조건부 콘텐츠를 생성하여 각 수신자에 맞게 메시지를 적응하고 관련 콘텐츠만 표시할 수 있습니다."
 
 마케팅 담당자는 당사의 서비스에 관심이 있는 고객을 대상으로 효과적인 관련 콘텐츠를 제공하여 고객 참여를 유도하는 것이 중요합니다. 수신자의 범위가 다양하므로 여러 사용자에게 흥미를 일으키는 다양한 마케팅 콘텐츠를 만드는 데 오랜 시간이 걸릴 수 있습니다. 여기에서 다이내믹 콘텐츠가 필요합니다.
 

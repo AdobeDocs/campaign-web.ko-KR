@@ -5,9 +5,9 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: 321fd5f5cb7940f8395f11cebb207548af6733d9
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '614'
 ht-degree: 19%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 19%
 >abstract="테스트 프로필은 메시지를 보내기 전에 개인화 및 렌더링을 미리 보고 테스트할 수 있도록 해 주는 추가 수신자입니다. 메시지 내용을 미리 볼 때 테스트 프로필을 선택하고 테스트 프로필에 교정쇄를 보내 메시지 내용과 설정을 제어하고 검증할 수 있습니다."
 
 테스트 프로필은 증명을 보내고 메시지 콘텐츠와 설정을 확인하는 데 사용됩니다. 이러한 프로필은 메시지를 보내기 전에 개인화 및 렌더링을 미리 보고 테스트할 수 있는 추가 수신자입니다. 메시지 내용을 미리 볼 때 테스트 프로필을 선택하고 테스트 프로필에 교정쇄를 보내 메시지 내용과 설정을 제어하고 검증할 수 있습니다.
+
+➡️0}비디오에서 이 기능 살펴보기](#video)[
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
@@ -105,3 +107,9 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 방금 만든 테스트 프로필을 이제 증명 전송에 사용할 준비가 되었습니다. [자세히 알아보기](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
+
+## 사용법 비디오 {#video}
+
+Campaign 웹 사용자 인터페이스를 사용하여 테스트 프로필을 만들고 관리하는 방법을 알아봅니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)

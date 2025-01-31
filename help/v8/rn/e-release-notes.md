@@ -4,7 +4,7 @@ description: 다음 Campaign Web 사용자 인터페이스 릴리스에 포함�
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 1864f6c847e1720eb5e58a0572b110e7991fafb8
+source-git-commit: 965681fabb7696f745f4f958e2961197395c30bb
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 28%
@@ -67,6 +67,7 @@ Adobe Campaign Web 사용자 인터페이스는 지속적으로 새로운 기능
 <tr>
 <td>
 <p>이제 Adobe Campaign 웹 사용자 인터페이스에서 유형화 및 유형화 규칙을 만들 수 있습니다. 유형화는 게재 전송에 대해 제어, 필터링 및 우선순위 지정을 수행할 수 있는 유형화 규칙 모음입니다. 유형화를 통해 게재에는 항상 필수 요소(예: 구독 취소 링크 또는 제목 줄) 또는 그룹을 의도한 타겟에서 제외하는 필터링 규칙(예: 구독 취소자, 경쟁업체 또는 비충성도 고객)이 포함되어 있는지 확인합니다.</p>
+<img src="assets/do-not-localize/typology.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -83,6 +84,7 @@ Adobe Campaign Web 사용자 인터페이스는 지속적으로 새로운 기능
 <tr>
 <td>
 <p>이제 Adobe Campaign 웹 사용자 인터페이스를 통해 직접 열거형을 만들 수 있습니다. 열거형은 필드를 채우기 위해 시스템에서 제안하는 값 목록입니다. 열거형을 사용하여 이러한 필드의 값을 표준화하고 데이터 입력 또는 쿼리 내에서 사용합니다.</p>
+<img src="assets/do-not-localize/enumerations.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -99,6 +101,7 @@ Adobe Campaign Web 사용자 인터페이스는 지속적으로 새로운 기능
 <tr>
 <td>
 <p>이제 Adobe Campaign 웹 사용자 인터페이스 내의 기술 옵션에 액세스하고 필요에 따라 고유한 사용자 지정 옵션을 만들 수 있습니다. 이 기능은 JavaScript 코드 워크플로우 활동을 사용하여 중간 데이터를 저장할 때 특히 유용합니다.</p>
+<img src="assets/do-not-localize/options.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -116,6 +119,7 @@ Adobe Campaign Web 사용자 인터페이스는 지속적으로 새로운 기능
 <tr>
 <td>
 <p>이제 Adobe Campaign 웹 사용자 인터페이스에서 JavaScript 코드를 만들 수 있습니다. 이를 통해 라이브러리와 유사하게 워크플로 전체에서 활용할 수 있는 재사용 가능한 기능을 만들 수 있습니다.</p>
+<img src="assets/do-not-localize/javascript.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>

@@ -9,7 +9,7 @@ exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
 source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
 source-wordcount: '1024'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_conditions"
 >title="조건"
->abstract="이 메뉴를 사용하면 도우미 함수를 활용하여 조건부 콘텐츠를 정의할 수 있습니다."
+>abstract="이 메뉴를 통해 도우미 함수를 활용하여 조건부 콘텐츠를 정의할 수 있습니다."
 
 표현식 편집기를 사용하여 게재에 대한 조건부 콘텐츠를 정의하려면 아래 단계를 수행합니다. 이 예제에서는 수신자의 언어(프랑스어 또는 영어)를 기반으로 조건부 콘텐츠를 만들려고 합니다.
 

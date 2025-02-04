@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
-workflow-type: ht
-source-wordcount: '776'
+source-git-commit: ee8a34db025ce5d17b50f82eecb615d995fdfabe
+workflow-type: tm+mt
+source-wordcount: '777'
 ht-degree: 100%
 
 ---
@@ -34,6 +34,7 @@ ht-degree: 100%
    + [Campaign Web 및 클라이언트 콘솔](get-started/capability-matrix.md)
    + [Campaign Standard에서 v8로의 전환](rn/acs-migration.md)
    + [AI 기반 상황별 도움말](get-started/using-ai.md)
+   + [FAQ](get-started/faq.md)
 + 메시지 및 게재 {#msg}
    + [메시지 시작](msg/gs-messages.md)
    + [게재에 액세스하기](msg/gs-deliveries.md)

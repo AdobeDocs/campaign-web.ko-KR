@@ -1,9 +1,9 @@
 ---
 title: Campaign Web에서 AI 기반 상황별 도움말 사용
 description: Campaign 웹 도움말 팝오버에서 질문하기
-source-git-commit: eea1be08c1af02fbdf6d048f33e0279f0c42711d
+source-git-commit: 235cc79598ed64ed2f3c53a9cb736d4626ee9c38
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '803'
 ht-degree: 5%
 
 ---
@@ -77,5 +77,5 @@ Adobe Campaign Classic v7은 2027년 3월 31일까지 지원됩니다. [제품 �
 
 +++ 새 웹 사용자 인터페이스의 보호 기능 또는 제한 사항이 있습니까?
 
-보호 기능 및 제한 사항은 [이 페이지](../get-started/guardrails.md)에서 검토할 수 있습니다.
+Campaign v8의 보호 기능 및 제한 사항이 [여기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/ac-guardrails){target="_blank"}에 나열됩니다. 또한 웹 사용자 인터페이스에서 특정 보호 기능은 워크플로우에 적용됩니다. [이 페이지](../get-started/guardrails.md)에서 검토할 수 있습니다. [Adobe Campaign Managed Cloud Services 참조 | 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 +++

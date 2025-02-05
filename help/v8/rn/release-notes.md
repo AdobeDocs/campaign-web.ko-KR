@@ -2,9 +2,9 @@
 title: Campaign v8 Web 사용자 인터페이스 릴리스 정보
 description: 최신 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 898a9d62a18de0ee27713b5f15b032103463fcef
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '663'
 ht-degree: 85%
 
 ---
@@ -74,7 +74,7 @@ Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대�
 <td>
 <p>이제 Adobe Campaign 웹 인터페이스에서 유형화 및 유형화 규칙을 만들 수 있습니다. 유형화는 유형화 규칙의 컬렉션으로, 게재를 제어하고, 필터링하고, 우선순위를 지정하는 데 도움이 됩니다. 유형화는 게재에 구독 취소 링크 또는 제목 줄과 같은 필수 요소가 항상 포함되도록 하며 구독 취소자, 경쟁 업체 또는 충성도가 낮은 고객과 같은 특정 그룹을 타깃 대상자에서 제외하는 필터링 규칙을 적용합니다.</p>
 <img src="assets/do-not-localize/typology.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>자세한 내용은 <a href="../administration/typologies.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -91,7 +91,7 @@ Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대�
 <td>
 <p>이제 Adobe Campaign Web 사용자 인터페이스를 통해 직접 열거를 만들 수 있습니다. 열거는 필드를 채우기 위해 시스템이 제안하는 값의 목록입니다. 열거를 사용하여 이러한 필드의 값을 표준화하고, 쿼리 내에서 데이터 입력이나 사용을 돕습니다.</p>
 <img src="assets/do-not-localize/enumerations.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>자세한 내용은 <a href="../administration/enumerations.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -108,7 +108,7 @@ Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대�
 <td>
 <p>이제 Adobe Campaign Web 사용자 인터페이스에서 기술 옵션에 액세스하여 요구 사항에 맞는 사용자 정의 옵션을 직접 만들 수 있습니다. 이 기능은 특히 중간 데이터를 저장하기 위해 JavaScript 코드 워크플로 활동을 수행할 때 유용합니다.</p>
 <img src="assets/do-not-localize/options.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>자세한 내용은 <a href="../administration/options.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -126,7 +126,7 @@ Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대�
 <td>
 <p>이제 Adobe Campaign Web 사용자 인터페이스에서 JavaScript 코드를 만들 수 있습니다. 이를 통해 라이브러리처럼 여러 워크플로에서 활용할 수 있는 재사용 가능한 함수를 만들 수 있습니다.</p>
 <img src="assets/do-not-localize/javascript.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>자세한 내용은 <a href="../administration/javascript-codes.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>

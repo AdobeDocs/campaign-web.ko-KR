@@ -3,10 +3,10 @@ audience: end-user
 title: 콘텐츠 조각 시작
 description: 콘텐츠 조각을 사용하여 만드는 방법 알아보기
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 69%
+source-wordcount: '423'
+ht-degree: 65%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 69%
 
   >[!AVAILABILITY]
   >
-  >이 기능은 LA(Limited Availability)에 있습니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
+  >이 기능을 사용하려면 Campaign v8.6.4에 대한 업데이트가 필요합니다. 자세한 내용은 [Campaign v8 클라이언트 콘솔 릴리스 정보](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/releases/release-notes)를 참조하세요.
 
 ## 더 자세히 알아보기
 

@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: ee8a34db025ce5d17b50f82eecb615d995fdfabe
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 100%
+source-wordcount: '793'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 + [Adobe Campaign Web 사용자 인터페이스 설명서](campaign-web-home.md)
 + 릴리스 정보 {#release-notes}
    + [새로운 기능](rn/whats-new.md)
-   + [초기 릴리스 정보](rn/e-release-notes.md)
+   + [초기 릴리스](rn/e-release-notes.md)
    + [최신 릴리스](rn/release-notes.md)
    + 이전 릴리스 {#previous-release-notes}
       + [2024년 릴리스](rn/release-notes-24.md)
@@ -30,6 +30,7 @@ ht-degree: 100%
    + [목록 찾아보기 및 필터링](get-started/list-filters.md)
    + [미리 정의된 필터 작업](get-started/predefined-filters.md)
    + [폴더 작업](get-started/work-with-folders.md)
+   + [속성을 선택하고 즐겨찾기에 추가](get-started/attributes.md)
    + [권한](get-started/permissions.md)
    + [Campaign Web 및 클라이언트 콘솔](get-started/capability-matrix.md)
    + [Campaign Standard에서 v8로의 전환](rn/acs-migration.md)
@@ -40,7 +41,6 @@ ht-degree: 100%
    + [게재에 액세스하기](msg/gs-deliveries.md)
    + [게재 만들기](msg/create-deliveries.md)
    + [게재 템플릿 사용](msg/delivery-template.md)
-   + [유형화를 사용하여 작업](msg/typologies.md)
    + 이메일 {#email}
       + [첫 이메일 만들기](email/create-email.md)
       + [이메일 콘텐츠 구성](email/edit-content.md)
@@ -72,6 +72,7 @@ ht-degree: 100%
       + [트랜잭션 메시지 만들기](transactional-messaging/create-transactional.md)
       + [트랜잭션 메시지 유효성 검사](transactional-messaging/validate-transactional.md)
       + [트랜잭션 메시지 모니터링](transactional-messaging/monitor-transactional.md)
+   + [외부 게재 보내기](msg/send-external-deliveries.md)
    + [메시지에 오퍼 추가](msg/offers.md)
    + [구독자에게 메시지 전송](msg/send-to-subscribers.md)
    + [게재 설정 구성](advanced-settings/delivery-settings.md)
@@ -227,4 +228,8 @@ ht-degree: 100%
 + 구성 {#conf}
    + [사용자 정의 필드 구성](administration/custom-fields.md)
    + [외부 계정 구성](administration/external-account.md)
+   + [유형화를 사용하여 작업](administration/typologies.md)
+   + [열거형 관리](administration/enumerations.md)
+   + [ [!DNL Campaign] 옵션 구성](administration/options.md)
+   + [JavaScript 코드 작업](administration/javascript-codes.md)
 + [Campaign v8(콘솔) 설명서 >](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/campaign-home)

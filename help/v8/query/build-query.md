@@ -3,9 +3,9 @@ audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 3477d7b89b642ea62adaf3f2e49e4000e52a9862
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2227'
+source-wordcount: '2242'
 ht-degree: 9%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 9%
 >
 >* 값이 많은 필드의 경우 처음 20개 값만 표시됩니다. 이 경우 **[!UICONTROL 부분 로드]** 알림이 경고합니다.
 >
->* **[!UICONTROL 값 배포]** 옵션은 모든 특성 선택기에서 액세스할 수 있습니다.
+>* **[!UICONTROL 값 배포]** 옵션은 모든 특성 선택기에서 액세스할 수 있습니다. [특성을 선택하는 방법 알아보기](../get-started/attributes.md)
 >* **[!A고급 필터]**&#x200B;를 사용하여 결과에 조건을 추가할 수 있습니다. [여기에서 자세히 알아보십시오](../get-started/work-with-folders.md#filter-the-values).
 
 ## 필터링 구성 요소 추가 {#filtering}
@@ -62,7 +62,7 @@ ht-degree: 9%
 
 1. 원하는 노드에서 **+** 단추를 클릭하고 **[!UICONTROL 사용자 지정 조건]**&#x200B;을 선택합니다. 오른쪽에 사용자 지정 조건 속성 창이 열립니다.
 
-1. **특성** 필드에서 조건을 만드는 데 사용할 데이터베이스에서 특성을 선택합니다. 속성 목록에는 연결된 테이블의 속성을 포함하여 Campaign 데이터베이스의 모든 속성이 포함됩니다.
+1. **특성** 필드에서 조건을 만드는 데 사용할 데이터베이스에서 특성을 선택합니다. 속성 목록에는 연결된 테이블의 속성을 포함하여 Campaign 데이터베이스의 모든 속성이 포함됩니다. [특성을 선택하고 즐겨찾기에 추가하는 방법 알아보기](../get-started/attributes.md)
 
    ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 

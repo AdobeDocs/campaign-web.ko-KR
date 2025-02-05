@@ -3,10 +3,10 @@ audience: end-user
 title: 콘텐츠 조각 만들기
 description: 콘텐츠 조각을 만드는 방법 알아보기
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
-source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 26%
+source-wordcount: '1003'
+ht-degree: 25%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 26%
 
    >[!AVAILABILITY]
    >
-   >시각적 조각은 LA(Limited Availability)에 있습니다. **Adobe Campaign Standard에서 Adobe Campaign v8로** 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
+   >시각적 조각에는 Campaign v8.6.4에 대한 업데이트가 필요합니다. 자세한 내용은 [Campaign v8 클라이언트 콘솔 릴리스 정보](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/releases/release-notes)를 참조하세요.
 
 1. **만들기** 단추를 클릭합니다.
 

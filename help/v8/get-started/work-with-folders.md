@@ -3,8 +3,8 @@ audience: end-user
 title: 폴더 작업
 description: Adobe Campaign에서 폴더를 관리하는 방법 알아보기
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: ed9a3a3ca3bbb5d2bd44c512643857d62b97393c
-workflow-type: ht
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 100%
 
@@ -93,7 +93,7 @@ Adobe Campaign Web UI에서 새 폴더를 만들려면 다음 단계를 따릅�
 
 ## 폴더 내 값의 분포 {#distribution-values-folder}
 
-값의 분포는 표 내에서 열에 있는 값의 백분율을 파악하는 데 도움이 됩니다.
+값의 분포는 테이블 내에서 열에 있는 값의 백분율을 파악하는 데 도움이 됩니다.
 
 폴더 내 값의 분포를 알아보려면 아래와 같이 진행하십시오.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: 인터페이스 살펴보기
 description: Adobe Campaign Web 사용자 인터페이스
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
-workflow-type: ht
-source-wordcount: '2086'
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+workflow-type: tm+mt
+source-wordcount: '2032'
 ht-degree: 100%
 
 ---
@@ -361,40 +361,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="실행 초기화 스크립트"
 >abstract="실행 초기화 스크립트"
 
-<!-- Schema edit custom fields -->
-
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields"
->title="사용자 정의 세부 정보 편집"
->abstract="사용자 정의 세부 정보 편집"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_separatorproperties"
->title="구분자 속성"
->abstract="구분자 속성"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings"
->title="속성 설정"
->abstract="속성 설정"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_general"
->title="일반"
->abstract="일반"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_link"
->title="링크 속성"
->abstract="LaLink propertiesyout"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_layout"
->title="레이아웃"
->abstract="레이아웃"
-
-
 <!--Schema-->
 
 >[!CONTEXTUALHELP]
@@ -471,51 +437,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_targetmapping_storage"
 >title="대상 매핑 스토리지"
 >abstract="대상 매핑 차단 스토리지"
-
-<!-- Favorites & recents -->
-
->[!CONTEXTUALHELP]
->id="acw_attribute_picker_favorites_recents"
->title="즐겨찾기 및 최근 항목"
->abstract="즐겨찾기 및 최근 항목"
-
-<!-- Options -->
-
->[!CONTEXTUALHELP]
->id="acw_options_list"
->title="옵션"
->abstract="옵션"
-
->[!CONTEXTUALHELP]
->id="acw_options_create"
->title="옵션 만들기"
->abstract="옵션 만들기"
-
-<!-- JavaScript codes -->
-
->[!CONTEXTUALHELP]
->id="acw_javascript_codes_list"
->title="JavaScript 코드"
->abstract="JavaScript 코드"
-
->[!CONTEXTUALHELP]
->id="acw_javascript_codes_create"
->title="JavaScript 코드 만들기"
->abstract="JavaScript 코드 만들기"
-
-<!-- Enumerations -->
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_list"
->title="열거형"
->abstract="열거형"
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_properties"
->title="속성"
->abstract="속성"
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_values"
->title="열거형 값 목록"
->abstract="열거형 값 목록"

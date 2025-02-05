@@ -2,9 +2,9 @@
 title: Campaign v8 Web 사용자 인터페이스 이전 릴리스 정보
 description: 2024 Campaign Web 사용자 인터페이스 릴리스
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 5dc96beadbd5ea02540185634971cef44357aefa
-workflow-type: ht
-source-wordcount: '2206'
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+workflow-type: tm+mt
+source-wordcount: '2506'
 ht-degree: 100%
 
 ---
@@ -12,6 +12,66 @@ ht-degree: 100%
 # 2024 릴리스 정보 {#2024-release}
 
 이 페이지에는 **2024년 릴리스**&#x200B;를 통해 이용할 수 있는 모든 변경 사항과 개선 사항이 나열되어 있습니다. 최신 릴리스 정보는 [이 페이지](release-notes.md)에서 확인할 수 있습니다.
+
+
+## 2024년 10월 릴리스 {#24-10-release}
+
+**릴리스 일자**: 2024년 10월 29일
+
+10월 릴리스부터 다음과 같은 기능 및 개선 사항을 이용할 수 있습니다.
+
+### 기능
+
+<table>
+<thead>
+<tr>
+<th><strong>외부 계정</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Adobe Campaign Web 사용자 인터페이스를 통해 외부 계정을 직접 설정하고 관리할 수 있습니다. 이 새로운 기능을 사용하면 바운스 이메일(POP3) 또는 실행 인스턴스 등 다양한 유형의 외부 계정을 간편하게 구성할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../administration/external-account.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>트랜잭션 메시지</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Campaign web 사용자 인터페이스에서 트랜잭션 메시지(메시지 센터)를 사용할 수 있습니다. 이 추가 기능은 정보 시스템에서 트리거된 이벤트에서 생성되는 메시지를 트리거하도록 설계되었으며, 여기에는 인보이스, 주문 확인, 배송 확인, 암호 변경, 제품 사용 불가 알림, 계정 명세서, 웹 사이트 계정 생성 등이 포함될 수 있습니다.</p>
+<p>자세한 내용은 <a href="../transactional-messaging/transactional.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### 개선 사항
+
+* **워크플로 활동** - 이제 워크플로 내에서 활동과 모든 하위 노드를 전환에서 다른 전환으로 옮길 수 있습니다. 활동의 속성 창에서 전용 **이동** 버튼을 사용하여 이 작업을 수행할 수 있습니다. [자세히 알아보기](../workflows/orchestrate-activities.md#move)
+
+* **워크플로 보강 활동**
+
+   * 이제 **보강** 활동에서 새 필드를 만들 때 별칭과 레이블을 정의할 수 있습니다. [자세히 알아보기](../workflows/activities/enrichment.md#collection-settings)
+   * 이제 **보강** 활동에서 각 프로필에 대한 오퍼를 추가할 수 있습니다. [자세히 알아보기](../workflows/activities/enrichment.md##add-offers)
+
+* **값 배포** - 개인화를 위해 필드 목록에 액세스할 때 이제 각 필드에 대한 값이 어떻게 배포되어 있는지 확인할 수 있습니다. 전용 팝업 창에 각 값에 대한 숫자와 백분율이 표시됩니다. [자세히 알아보기](../query/build-query.md#distribution-values-query)
+
+* **버전 및 시스템 정보** - 이제 클라이언트 콘솔과 Web 사용자 인터페이스 모두에서 인스턴스 버전에 대한 세부 정보에 액세스할 수 있습니다. 이 새로운 섹션에는 사용자 환경에 설치된 모든 기본 제공 패키지도 나열됩니다. [자세히 알아보기](../get-started/user-interface.md#user-interface-about)
+
+* **목록** - 이제 목록의 값을 간편하게 재정렬할 수 있습니다. [자세히 알아보기](../get-started/work-with-folders.md)
+
+* **게재** - 이제 개인화 필드에서 게재 변수에 액세스할 수 있습니다. [자세히 알아보기](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
 
 
 ## 9월 업데이트 {#9-2024}
@@ -53,7 +113,7 @@ ht-degree: 100%
 >
 >[Campaign Standard에서 Campaign v8로의 전환](../rn/acs-migration.md) 및 [Campaign Standard 사용자를 위한 기능](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ko){target="_blank"} 설명서 페이지를 참조하십시오.
 
-* **다이렉트 메일에 대한 브랜딩** - 기술 관리자는 이제 브랜드의 정체성에 영향을 미치는 매개변수를 중앙 집중화하기 위해 하나 이상의 브랜드를 정의할 수 있습니다. 여기에는 브랜드 로고, 랜딩 페이지의 액세스 URL의 도메인 또는 메시지 추적 설정이 포함됩니다. 이제 이러한 브랜드를 만들어 메시지 또는 랜딩 페이지에 연결할 수 있습니다. 이 구성은 템플릿에서 관리됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-cloud/campaign/branding/branding-assign)
+* **다이렉트 메일에 대한 브랜딩** - 기술 관리자는 이제 브랜드의 아이덴티티에 영향을 미치는 매개변수를 중앙 집중화하기 위해 하나 이상의 브랜드를 정의할 수 있습니다. 여기에는 브랜드 로고, 랜딩 페이지의 액세스 URL의 도메인 또는 메시지 추적 설정이 포함됩니다. 이제 이러한 브랜드를 만들어 메시지 또는 랜딩 페이지에 연결할 수 있습니다. 이 구성은 템플릿에서 관리됩니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/experience-cloud/campaign/branding/branding-assign)
 
 * **랜딩 페이지를 통한 구독** - 이제 랜딩 페이지를 서비스에 연결하고, 사용자가 이를 검증하면 확인 메시지를 보낼 수 있습니다. [자세히 알아보기](../landing-pages/lp-content.md#lp-message){target="_blank"}.
 
@@ -86,7 +146,7 @@ ht-degree: 100%
 
 ### 트랩 그룹 {#24-7-2}
 
-**트랩 그룹**&#x200B;은 시드 주소 목록입니다. 게재에 특정 주소를 포함시킨 다음 정의된 대상 기준과 일치하지 않는 프로필을 타기팅하는 데 사용됩니다. 이렇게 하면 게재 대상자에 포함되지 않은 수신자가 다른 대상 수신자와 마찬가지로 게재를 수신할 수 있습니다. 시드 주소를 사용하여 증명을 보내거나 메일링 목록을 보호할 수 있습니다. [자세히 알아보기](../audience/trap-group.md)
+**트랩 그룹**&#x200B;은 시드 주소 목록입니다. 게재에 특정 주소를 포함시킨 다음 정의된 대상 기준과 일치하지 않는 프로필을 타기팅하는 데 사용됩니다. 이렇게 하면 게재 대상자에 포함되지 않은 수신자가 다른 대상 수신자와 마찬가지로 게재를 수신할 수 있습니다. 시드 주소를 사용하여 교정쇄를 보내거나 메일링 목록을 보호할 수 있습니다. [자세히 알아보기](../audience/trap-group.md)
 
 ### 리치 푸시 알림 템플릿 {#24-7-3}
 
@@ -181,7 +241,7 @@ ht-degree: 100%
 >
 >[Campaign Standard에서 Campaign v8로의 전환](../rn/acs-migration.md) 및 [Campaign Standard 사용자를 위한 기능](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ko) 설명서 페이지를 참조하십시오.
 
-* **브랜딩** - Campaign Standard의 마이그레이션된 사용자로서 기술 관리자는 이제 브랜드의 정체성에 영향을 미치는 매개변수를 중앙 집중화하기 위해 하나 이상의 브랜드를 정의할 수 있습니다. 여기에는 브랜드 로고, 랜딩 페이지의 액세스 URL의 도메인 또는 메시지 추적 설정이 포함됩니다. 이러한 브랜드를 만들어 메시지 또는 랜딩 페이지에 연결할 수 있습니다. 이 구성은 템플릿에서 관리됩니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=ko)
+* **브랜딩** - Campaign Standard의 마이그레이션된 사용자로서 기술 관리자는 이제 브랜드의 아이덴티티에 영향을 미치는 매개변수를 중앙 집중화하기 위해 하나 이상의 브랜드를 정의할 수 있습니다. 여기에는 브랜드 로고, 랜딩 페이지의 액세스 URL의 도메인 또는 메시지 추적 설정이 포함됩니다. 이러한 브랜드를 만들어 메시지 또는 랜딩 페이지에 연결할 수 있습니다. 이 구성은 템플릿에서 관리됩니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=ko)
 
 * **Rest API** - Campaign Standard를 마이그레이션한 사용자는 Rest API를 사용하여 Adobe Campaign을 위한 통합을 만들고 사용하는 기술 패널과 Adobe Campaign을 연결하여 고유한 에코시스템을 구축할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=ko)
 

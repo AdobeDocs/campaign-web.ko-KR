@@ -4,10 +4,10 @@ title: 이메일에 비주얼 조각 추가
 description: 이메일에 시각적 조각을 추가하는 방법 알아보기
 badge: label="제한 공개"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 18%
+source-wordcount: '570'
+ht-degree: 14%
 
 ---
 
@@ -15,11 +15,15 @@ ht-degree: 18%
 
 >[!AVAILABILITY]
 >
->이 기능은 LA(Limited Availability)에 있습니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
+>이 기능을 사용하려면 Campaign v8.6.4에 대한 업데이트가 필요합니다. 자세한 내용은 [Campaign v8 클라이언트 콘솔 릴리스 정보](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/releases/release-notes)를 참조하세요.
 
-[이메일 게재](../email/get-started-email-designer.md) 또는 [콘텐츠 템플릿](../email/use-email-templates.md)에서 시각적 조각을 사용할 수 있습니다. 단계는 아래에 자세히 설명되어 있습니다. [콘텐츠 조각을 만들고 관리하는 방법을 알아봅니다](fragments.md).
+[이메일 게재](../email/get-started-email-designer.md) 또는 [콘텐츠 템플릿](../email/use-email-templates.md)에서 시각적 조각을 사용할 수 있습니다. 단계는 아래에 자세히 설명되어 있습니다.
 
-![](assets/fragments.gif)
+![](assets/do-not-localize/fragments.gif)
+
+>[!NOTE]
+>
+>[이 섹션](fragments.md)에서 콘텐츠 조각을 만들고 관리하는 방법을 알아봅니다.
 
 ## 시각적 조각 사용 {#use-fragment}
 

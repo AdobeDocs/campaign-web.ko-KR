@@ -2,10 +2,10 @@
 title: Campaign v8 Web 사용자 인터페이스 릴리스 정보
 description: 최신 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 898a9d62a18de0ee27713b5f15b032103463fcef
+source-git-commit: c759dd72e2ca3d11b4dad0cd38410d699b651cad
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 85%
+source-wordcount: '585'
+ht-degree: 83%
 
 ---
 
@@ -63,22 +63,24 @@ Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대�
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>비즈니스 규칙(유형화 규칙) 만들기</strong><br/></th>
+<th><strong>Create business rules (typology rules)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 Adobe Campaign 웹 인터페이스에서 유형화 및 유형화 규칙을 만들 수 있습니다. 유형화는 유형화 규칙의 컬렉션으로, 게재를 제어하고, 필터링하고, 우선순위를 지정하는 데 도움이 됩니다. 유형화는 게재에 구독 취소 링크 또는 제목 줄과 같은 필수 요소가 항상 포함되도록 하며 구독 취소자, 경쟁 업체 또는 충성도가 낮은 고객과 같은 특정 그룹을 타깃 대상자에서 제외하는 필터링 규칙을 적용합니다.</p>
+<p>You can now create typologies and typology rules in the Adobe Campaign web interface. A typology is a collection of typology rules that help control, filter, and prioritize deliveries. Typologies ensure that your deliveries always contain required elements (such as an unsubscribe link or subject line) and apply filtering rules to exclude specific groups from your target audience (such as unsubscribers, competitors, or non-loyalty customers).</p>
 <img src="assets/do-not-localize/typology.gif">
-<p>자세한 내용은 <a href="../administration/typologies.md">세부 설명서</a>를 참조하십시오.</p>
+<p>For more information, refer to the <a href="../administration/typologies.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>

@@ -1,5 +1,5 @@
 ---
-title: 다이내믹 콘텐츠를 만드는 방법은?
+title: 다이내믹 콘텐츠를 만드는 방법
 description: 개인화 및 조건부 콘텐츠를 사용하여 다이내믹 콘텐츠를 만드는 방법에 대해 알아봅니다.
 audience: automating
 content-type: reference
@@ -10,13 +10,13 @@ role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
 source-git-commit: b2b51bc6a49093c3d68ba0c54368f11791c50ce2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '560'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 다이내믹 콘텐츠를 만드는 방법은? {#gs-dynamic-content}
+# 다이내믹 콘텐츠를 만드는 방법 {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 Adobe Campaign Web 다이내믹 콘텐츠 기능을 사용하여 수신자에 대해 수집한 정보를 기반으로 콘텐츠를 사용자 정의할 수 있습니다. 다이내믹 콘텐츠를 활용하여 원치 않거나 불필요한 제품 또는 서비스 마케팅을 방지하면서 마케팅 활동의 관련성을 높일 수 있습니다. 이 접근 방식을 사용하면 콘텐츠를 더 매력적으로 만들 수 있고 콘텐츠를 읽을 가능성이 높아집니다. 또한 콘텐츠를 개인화할 수 있어 수신자는 기계가 아닌 개인으로부터 정보를 수신하는 것처럼 느낍니다.
 
-## 다이내믹 콘텐츠를 만드는 방법은? {#make-content-dyn}
+## 다이내믹 콘텐츠를 만드는 방법 {#make-content-dyn}
 
 Campaign Web 표현식 편집기에 JavaScript 구성을 삽입하여 메시지 콘텐츠를 동적으로 만들 수 있습니다. 메시지 전송 시 올바른 콘텐츠를 각 수신자에게 게재하기 위해 Adobe Campaign에서 해당 표현식을 해석합니다.
 
@@ -39,7 +39,7 @@ Campaign Web 표현식 편집기에 JavaScript 구성을 삽입하여 메시지 
 
   ![](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
 
-➡️0}비디오에서 이 기능 살펴보기](#video)[
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 ## 표현식 편집기에 액세스 {#access}
 
@@ -63,7 +63,7 @@ Adobe Campaign Web에서 제공하는 표현식 편집기를 통해 모든 데�
 >
 >이메일을 디자인할 때는 표현식 편집기 외에 전용 조건부 콘텐츠 빌더를 활용할 수도 있습니다. [이메일의 조건부 콘텐츠를 빌드하는 방법 알아보기](conditions.md)
 
-## 사용법 비디오 {#video}
+## 사용 방법 비디오 {#video}
 
 표현식 편집기를 사용하여 메시지를 개인화하거나 조건부 콘텐츠를 추가하여 메시지 내용을 다이내믹하게 만드는 방법에 대해 알아봅니다.
 

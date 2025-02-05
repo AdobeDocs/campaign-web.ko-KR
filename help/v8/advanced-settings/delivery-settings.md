@@ -4,10 +4,10 @@ title: 게재 설정 구성
 description: Campaign 웹에서 게재 설정을 구성하는 방법 알아보기
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2888'
-ht-degree: 46%
+source-wordcount: '2765'
+ht-degree: 45%
 
 ---
 
@@ -25,24 +25,16 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="유형화"
->abstract="유형화 규칙을 통해 마케터는 모든 게재에 걸쳐 비즈니스 사례를 표준화할 수 있습니다. 유형화는 게재 전송에 대해 제어, 필터링 및 우선순위 지정을 수행할 수 있는 유형화 규칙 모음입니다. 유형화 규칙 내의 기준과 일치하는 프로필은 준비 단계에 게재 대상자에서 제외됩니다. 유형화 및 유형화 규칙은 Campaign 클라이언트 콘솔에서 만들어집니다."
+>abstract="유형화를 사용하면 모든 게재에서 비즈니스 사례를 표준화할 수 있습니다. 유형화는 게재 전송에 대해 제어, 필터링 및 우선 순위 지정을 수행할 수 있는 유형화 규칙 모음입니다. 유형화 규칙 내의 기준과 일치하는 프로필은 준비 단계에 게재 대상자에서 제외됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="게재에 대한 유형화 설정"
->abstract="유형화 규칙을 통해 마케터는 모든 게재에 걸쳐 비즈니스 사례를 표준화할 수 있습니다. 유형화는 게재 전송에 대해 제어, 필터링 및 우선순위 지정을 수행할 수 있는 유형화 규칙 모음입니다. 유형화 규칙 내의 기준과 일치하는 프로필은 준비 단계에 게재 대상자에서 제외됩니다. 유형화 및 유형화 규칙은 Campaign 클라이언트 콘솔에서 만들어집니다."
+>abstract="유형화 규칙을 사용하면 모든 게재에서 비즈니스 사례를 표준화할 수 있습니다. 유형화는 게재 전송에 대해 제어, 필터링 및 우선 순위 지정을 수행할 수 있는 유형화 규칙 모음입니다. 유형화 규칙 내의 기준과 일치하는 프로필은 준비 단계에 게재 대상자에서 제외됩니다."
 
-유형화는 한 번에 여러 필터링 규칙을 쉽게 게재에 적용하기 위해 준비 단계 동안 실행되는 **유형화 규칙** 집합입니다. 이 기능으로 마케터가 게재 발송을 제어, 필터링하고 우선 순위를 지정함으로써 모든 게재에 걸쳐 비즈니스 관행을 표준화할 수 있습니다.
-
-유형화를 메시지 또는 메시지 템플릿과 연결하면 해당 유형화에 포함된 유형화 규칙이 실행되어 메시지를 준비하는 동안 게재 유효성을 검사합니다. 그러면 유형화 규칙 내의 기준과 일치하는 프로필은 게재 대상자에서 제외됩니다.
-
-유형화를 사용하면 게재에 항상 특정 요소(예: 구독 취소 링크 또는 제목 줄)나 필터링 규칙이 포함되어 있는지 확인하여 의도한 타겟(구독 취소자, 경쟁 업체 또는 비충성 고객)에서 그룹을 제외할 수 있습니다.
+유형화는 한 번에 여러 필터링 규칙을 쉽게 게재에 적용하기 위해 준비 단계 동안 실행되는 **유형화 규칙** 집합입니다. 이를 통해 마케터는 게재 전송을 제어, 필터링 및 우선 순위를 지정할 수 있으므로 모든 게재에서 비즈니스 사례를 표준화할 수 있습니다. [유형화 및 유형화 규칙을 만드는 방법을 알아봅니다](../administration/typologies.md)
 
 ![](assets/delivery-settings-typology.png){zoomable="yes"}
-
->[!NOTE]
->
->유형화 및 유형화 규칙은 Campaign 클라이언트 콘솔에서 만들어집니다. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ko){target="_blank"}에서 압력 규칙 및 피로도 관리를 구성하는 방법에 대해 자세히 알아보세요.
 
 ### 압력 매개변수 {#pressure-parameters}
 

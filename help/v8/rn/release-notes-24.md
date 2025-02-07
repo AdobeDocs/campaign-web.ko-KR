@@ -3,7 +3,7 @@ title: Campaign v8 Web 사용자 인터페이스 이전 릴리스 정보
 description: 2024 Campaign Web 사용자 인터페이스 릴리스
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2506'
 ht-degree: 100%
 

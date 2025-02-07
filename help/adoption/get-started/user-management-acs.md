@@ -3,7 +3,8 @@ title: 기술 사용자를 Adobe Developer 콘솔로 마이그레이션
 description: Campaign Standard에서 Campaign V8로 사용자 액세스 관리를 마이그레이션하는 방법 알아보기
 feature: Technote
 role: Admin
-source-git-commit: e5baa9012e7904f841d4e6706d9dc8970253e899
+exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 2%
@@ -108,11 +109,3 @@ Campaign Standard에서 마이그레이션된 연산자는 Campaign V8의 특정
 * Adobe Experience Manager 애플리케이션 관리자
 
 * 릴레이 계정
- 
-
-
- 
-
- 
-
-

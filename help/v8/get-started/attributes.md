@@ -2,7 +2,8 @@
 audience: end-user
 title: 속성을 선택하고 즐겨찾기에 추가
 description: 특성을 사용하여 작업하고 즐겨찾기와 최근에 사용한 특성에 쉽게 액세스하는 방법에 대해 알아봅니다.
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
+source-git-commit: 3bedb4562c5858cd6057fd8a17064ccac8303c39
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 6%

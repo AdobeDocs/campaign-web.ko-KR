@@ -1,13 +1,13 @@
 ---
 title: ' [!DNL Campaign] 옵션 구성'
 description: Campaign 옵션을 구성하고 고유한 사용자 지정 옵션을 만드는 방법을 알아봅니다.
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
+source-git-commit: 3bedb4562c5858cd6057fd8a17064ccac8303c39
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 1%
 
 ---
-
 
 # [!DNL Campaign] 옵션 구성 {#options}
 

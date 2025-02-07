@@ -4,8 +4,8 @@ description: Adobe Campaign Web에서 미리 정의된 필터를 만들고 관�
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

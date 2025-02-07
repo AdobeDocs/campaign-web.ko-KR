@@ -3,13 +3,13 @@ title: 관리자 및 개발자를 위한 Adobe Campaign v8을 시작합니다.
 description: 이 튜토리얼에서는 Campaign v8의 주요 관리 및 데이터 관리 기능에 대한 개요를 제공합니다. 관리자 및 기술 마케터가 Campaign Standard에서 Campaign v8로 마이그레이션하는 것이 목표입니다.
 role: Admin, Developer
 level: Beginner, Experienced
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+exl-id: 1554f85f-22e1-4b51-a916-194ea0d24816
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '2657'
 ht-degree: 8%
 
 ---
-
 
 # 관리자 및 개발자용 시작하기 {#acs-gs-admin}
 
@@ -305,4 +305,3 @@ Campaign v8로 마이그레이션하는 Campaign Standard 사용자는 다음과
 Campaign을 Adobe Experience Manager 6.5와 통합할 수도 있습니다. 이 통합을 구성하려면 [이 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}를 참조하세요.
 * Campaign Standard 환경이 **트리거**&#x200B;와(과) 통합된 경우 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}에 설명된 대로 Campaign v8에서 이 통합을 설정하고 구성해야 합니다.
 * Campaign Standard 환경이 **Adobe Target**&#x200B;과(와) 통합된 경우 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}에 설명된 대로 Campaign v8에서 이 통합을 설정하고 구성해야 합니다.
-

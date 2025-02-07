@@ -6,7 +6,7 @@ exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
 source-wordcount: '871'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -29,7 +29,7 @@ Campaign 웹을 사용하면 시각적 워크플로우 캔버스로 새로운 �
 
 **[!UICONTROL 원본]** 열은 대상의 원본을 나타냅니다. **[!UICONTROL Adobe Campaign]** 대상은 Adobe Campaign v8 콘솔 또는 웹 사용자 인터페이스를 만들었으며 **[!UICONTROL Adobe Experience Platform:]** 대상은 Adobe Experience Platform 내에서 만들어졌고 Adobe 원본 및 대상 통합을 사용하여 Campaign에 통합되었습니다.
 
-➡️0}비디오에서 이 기능 살펴보기](#video)[
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 ## 첫 번째 대상자 만들기 {#create}
 
@@ -94,7 +94,7 @@ Campaign 웹을 사용하면 시각적 워크플로우 캔버스로 새로운 �
 
 ![](assets/edit-audience-save.png){zoomable="yes"}
 
-## 사용법 비디오 {#video}
+## 사용 방법 비디오 {#video}
 
 대상을 빌드 및 관리하고, 게재할 대상을 선택하고, 컨트롤 그룹을 정의하는 방법에 대해 알아봅니다.
 

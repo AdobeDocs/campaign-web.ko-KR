@@ -2,7 +2,8 @@
 audience: end-user
 title: 트랜잭션 메시지 확인
 description: Campaign 웹 사용자 인터페이스에서 트랜잭션 메시지의 유효성을 검사하는 방법 알아보기
-source-git-commit: e0d87d22d9712837f085f94f9d9ba63e96f36b36
+exl-id: 4a24792f-b9f4-4224-b3a8-75f6969b64da
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 1%

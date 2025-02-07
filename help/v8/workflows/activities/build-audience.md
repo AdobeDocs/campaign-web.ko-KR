@@ -56,7 +56,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 자체 쿼리를 만들려면 다음 단계를 수행합니다.
 
 1. **직접 만들기(쿼리)**&#x200B;를 선택합니다.
-1. **차원 타겟팅**&#x200B;을 선택합니다. 타겟팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타겟팅하는 모집단을 정의할 수 있습니다. 기본적으로 대상은 수신자 중에서 선택됩니다. [타겟팅 차원에 대해 자세히 알아보기](../../audience/about-recipients.md#targeting-dimensions)
+1. **차원 타겟팅**&#x200B;을 선택합니다. 타기팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타기팅하는 집단을 정의할 수 있습니다. 기본적으로 대상은 수신자 중에서 선택됩니다. [타겟팅 차원에 대해 자세히 알아보기](../../audience/about-recipients.md#targeting-dimensions)
 1. **계속**&#x200B;을 클릭합니다.
 1. 새 이메일을 디자인할 때 대상을 만드는 것과 같은 방식으로 쿼리 모델러를 사용하여 쿼리를 정의합니다. [쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다](../../query/query-modeler-overview.md)
 

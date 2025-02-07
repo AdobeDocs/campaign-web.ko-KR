@@ -6,7 +6,7 @@ exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 source-git-commit: 5b984089ea36b190cde1046c0d96734e848b5f67
 workflow-type: tm+mt
 source-wordcount: '1199'
-ht-degree: 65%
+ht-degree: 64%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 65%
 
 ## 텍스트 {#text}
 
-**[!UICONTROL 텍스트]** 구성 요소를 사용하여 이메일에 텍스트를 삽입하고 **[!UICONTROL 설정]** 및 **[!UICONTROL 스타일]** 탭 사용.
+**[!UICONTROL Text]** 구성 요소를 사용하여 전자 메일에 텍스트를 삽입하고 **[!UICONTROL 설정]** 및 **[!UICONTROL 스타일]** 탭을 사용하여 스타일(테두리, 크기, 패딩 등)을 조정합니다.
 
 1. **[!UICONTROL 콘텐츠]** 메뉴에서 **[!UICONTROL 텍스트]**&#x200B;을(를) **[!UICONTROL 구조]** 구성 요소로 끌어다 놓습니다.
 
@@ -150,7 +150,7 @@ ht-degree: 65%
 
 >[!IMPORTANT]
 >
->Assets 메뉴에 대한 액세스는 활성 Adobe Experience Manager as a Cloud Service 라이선스가 있는 사용자로 제한됩니다. 이 라이선스를 보유하고 있지 않으면 Assets 메뉴를 사용할 수 없습니다.
+>Assets 메뉴에 대한 액세스는 활성 Adobe Experience Manager as a Cloud Service 라이선스가 있는 사용자로 제한됩니다. 이 라이선스가 없으면 자산 메뉴를 사용할 수 없습니다.
 
 **[!UICONTROL 이미지]** 구성 요소를 사용하여 이메일에 컴퓨터의 이미지 파일을 삽입할 수 있습니다.
 

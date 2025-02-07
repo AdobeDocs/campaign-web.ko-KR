@@ -6,8 +6,8 @@ level: Beginner, Experienced
 exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
 source-git-commit: 22cea48ecdf1233dbbc1dc679ad6fcb2cf18bd2d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2453'
+ht-degree: 17%
 
 ---
 
@@ -311,7 +311,7 @@ Campaign v8에서 푸시 알림 게재를 만들고, 테스트하고, 전송하�
 >
 >* Adobe Campaign v8은 Android 및 iOS 푸시 채널을 모두 지원합니다. 푸시 채널을 사용하여 기존 워크플로우 및 게재를 전환하려면 Adobe Campaign 전환 관리자에게 문의하십시오. [채널 설정](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}에 대해 자세히 알아보세요.
 >
->* 모바일 애플리케이션용 SDK V4는 몇 년 전 [Campaign Standard에서 더 이상 사용되지 않음](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}이었습니다. 이미 Campaign v8에서 사용되는 것과 동일한 Adobe Experience Platform SDK로 전환했어야 합니다.
+>* 몇 년 전 모바일 애플리케이션용 SDK V4는 Campaign Standard에서 [더 이상 사용되지 않습니다](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}. 이미 Campaign v8에서 사용되는 것과 동일한 Adobe Experience Platform SDK으로 전환했어야 합니다.
 > 
 
 ### DM {#acs-gs-marketers-direct-mail}

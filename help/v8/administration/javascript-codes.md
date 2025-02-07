@@ -1,13 +1,13 @@
 ---
 title: JavaScript 코드 작업
 description: JavaScript 코드를 사용하여 작업하는 방법을 알아봅니다.
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+exl-id: 4f3b7fce-0373-4db1-8239-64b1bda0f14c
+source-git-commit: 3bedb4562c5858cd6057fd8a17064ccac8303c39
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 2%
 
 ---
-
 
 # JavaScript 코드 작업 {#javascript-codes}
 

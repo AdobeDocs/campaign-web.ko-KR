@@ -2,7 +2,8 @@
 audience: end-user
 title: 트랜잭션 메시지
 description: Adobe Campaign 웹을 사용한 트랜잭션 메시지 기본 정보
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+exl-id: 90830dca-acff-4aa3-a88b-1005e349cf52
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 24%

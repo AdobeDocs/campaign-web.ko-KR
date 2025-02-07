@@ -6,7 +6,7 @@ exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: 78c288f6681040170d49f6b67a3db362710f9d0c
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 25%
 
 * **[!UICONTROL Adobe Experience Platform:]** 이러한 대상은 Adobe Experience Platform 내에서 만들어졌으며 Adobe 소스 및 대상 통합을 사용하여 Campaign 웹에 통합됩니다. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}에서 이 통합을 설정하는 방법을 알아봅니다.
 
-  ➡️0}비디오에서 이 기능 살펴보기](#video)[
+  ➡️ [비디오에서 이 기능 살펴보기](#video)
 
 대상자에 대한 자세한 내용을 보려면 목록에서 대상자를 여십시오. 대상자 속성이 대상자에 포함된 프로필 수와 함께 표시됩니다. **[!UICONTROL 계산]** 단추를 사용하여 언제든지 대상 수를 새로 고칠 수 있습니다.
 
@@ -52,7 +52,7 @@ ht-degree: 25%
 
 대상을 복제하거나 삭제하려면 대상 이름 옆 또는 대상 세부 정보 화면 내의 대상 목록에서 사용할 수 있는 **[!UICONTROL 추가 작업]** 단추를 클릭하십시오.
 
-## 사용법 비디오 {#video}
+## 사용 방법 비디오 {#video}
 
 Adobe Campaign 웹 사용자 인터페이스에서 Experience Platform 대상을 사용할 대상을 만드는 방법을 알아봅니다.
 

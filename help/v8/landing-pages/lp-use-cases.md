@@ -50,7 +50,7 @@ ht-degree: 9%
 
 1. 선택한 템플릿에 따라 콘텐츠를 편집합니다.
 
-   * [고객 확보](#lp-acquisition)
+   * [획득](#lp-acquisition)
    * [구독](#lp-subscription)
    * [구독 취소](#lp-unsubscription)
    * [차단 목록에 추가](#lp-denylist)

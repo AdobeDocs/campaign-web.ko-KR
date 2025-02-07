@@ -4,7 +4,7 @@ title: Campaign Web 사용자 인터페이스/클라이언트 콘솔 기능 매�
 description: Campaign Web 사용자 인터페이스에서 지원되는 기능 목록
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: fbeb91041f63ecbc6ce44102aebd92fc3539cdf5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2086'
 ht-degree: 100%
 

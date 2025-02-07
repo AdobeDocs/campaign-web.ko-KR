@@ -3,13 +3,13 @@ title: Campaign Standard에서 전환한 후 Adobe Campaign v8 시작
 description: 새 Campaign v8 애플리케이션을 시작하는 데 필요한 단계에 대해 알아봅니다.
 role: User, Admin, Developer
 level: Beginner
-source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
+exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 29%
 
 ---
-
 
 # Campaign Standard에서 v8로의 전환 {#ac-acs}
 
@@ -230,4 +230,3 @@ Campaign v8로 원활하게 전환할 수 있도록 주요 Campaign Standard 기
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
 Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).-->
-

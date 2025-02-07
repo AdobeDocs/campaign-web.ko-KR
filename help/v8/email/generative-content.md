@@ -211,7 +211,7 @@ Adobe Campaign 웹의 AI Assistant 콘텐츠 가속기는 전체 이메일, 타�
 >[!ENDTABS]
 
 
-## 사용법 비디오 {#video}
+## 사용 방법 비디오 {#video}
 
 AI Assistant를 사용하여 전체 이메일 콘텐츠, 텍스트 및 이미지를 생성하는 방법을 알아봅니다.
 

@@ -6,7 +6,7 @@ exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '272'
-ht-degree: 38%
+ht-degree: 41%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 38%
   >
   >.zip 파일 구조에는 제한 사항이 없습니다. 그러나 참조는 상대적이어야 하며 .zip 폴더의 트리 구조 내에 맞춰져야 합니다.
 
-➡️0}비디오에서 이 기능 살펴보기](#video)[
+➡️ [비디오에서 이 기능 살펴보기](#video)
 
 HTML 콘텐츠가 포함된 파일을 가져오려면 아래 단계를 따르십시오.
 
@@ -52,7 +52,7 @@ HTML 콘텐츠가 포함된 파일을 가져오려면 아래 단계를 따르십
 
 1. 이제 필요에 따라 가져온 파일을 전자 메일 Designer 기능 [자세히 알아보기](content-components.md)을 통해 개인화할 수 있습니다.
 
-## 사용법 비디오 {#video}
+## 사용 방법 비디오 {#video}
 
 HTML을 업로드하여 이메일을 만드는 방법, 이메일 디자이너와 호환되도록 하는 방법 및 템플릿으로 변환하는 방법에 대해 알아봅니다.
 

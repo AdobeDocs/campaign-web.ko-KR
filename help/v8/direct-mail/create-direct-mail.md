@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: DM 게재 만들기
+title: 다이렉트 메일(DM) 게재 만들기
 description: Adobe Campaign 웹을 사용하여 DM 게재를 만드는 방법을 알아봅니다
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
 source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
@@ -10,7 +10,7 @@ ht-degree: 19%
 
 ---
 
-# DM 게재 만들기 {#create-direct-mail}
+# 다이렉트 메일(DM) 게재 만들기 {#create-direct-mail}
 
 독립형 DM 게재를 만들거나 캠페인 워크플로우 컨텍스트에서 DM 게재를 만들 수 있습니다. 아래 단계에서는 독립 실행형(일회성) DM 게재 절차를 자세히 설명합니다. 캠페인 워크플로우의 컨텍스트에서 작업하는 경우 만들기 단계는 [이 섹션](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)에 자세히 설명되어 있습니다.
 

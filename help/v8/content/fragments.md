@@ -3,20 +3,14 @@ audience: end-user
 title: 콘텐츠 조각 시작
 description: 콘텐츠 조각을 사용하여 만드는 방법 알아보기
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 65%
+source-wordcount: '383'
+ht-degree: 62%
 
 ---
 
 # 콘텐츠 조각 시작 {#gs-fragments}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="콘텐츠 조각"
->abstract="이제 콘텐츠 조각을 만들고 사용할 수 있습니다. 콘텐츠 조각은 하나 이상의 메시지에서 참조할 수 있는 재사용 가능한 구성 요소입니다. 조각을 수정하면 이를 사용하는 모든 콘텐츠가 업데이트됩니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"

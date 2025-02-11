@@ -3,21 +3,15 @@ audience: end-user
 title: 게재 경고
 description: 게재 경고 작업 방법을 알아봅니다.
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 19%
+source-wordcount: '306'
+ht-degree: 9%
 
 ---
 
 # 게재 경고 시작하기 {#gs-delivery-alerting}
 
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="게재 경고"
->abstract="이제 Campaign에서 게재 경고를 사용할 수 있습니다. 이 기능은 사용자 그룹이 게재 실행에 대한 정보가 포함된 이메일 알림을 자동으로 수신할 수 있는 경고 관리 시스템입니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 게재 경고 기능은 사용자 그룹이 게재 실행에 대한 정보가 포함된 이메일 알림을 자동으로 수신할 수 있는 경고 관리 시스템입니다. 수신자는 Adobe Campaign에서 처리하는 진행 중인 게재를 모니터링하고 문제가 발생하는 경우 적절한 조치를 취할 수 있습니다.
 

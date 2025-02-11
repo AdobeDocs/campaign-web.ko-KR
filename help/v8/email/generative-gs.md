@@ -3,20 +3,14 @@ audience: end-user
 title: AI 어시스턴트 콘텐츠 가속기 시작하기
 description: AI Assistant Content Accelerator 시작
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 29%
+source-wordcount: '797'
+ht-degree: 25%
 
 ---
 
 # AI 어시스턴트 콘텐츠 가속기를 사용하여 작업  {#generative-gs}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="AI 어시스턴트 콘텐츠 가속기"
->abstract="AI 어시스턴트를 사용하면 이메일, SMS 및 푸시 등의 채널에서 마케팅 캠페인을 직관적이고 간편하며 번거롭지 않게 만들고 실행하는 동시에 시간을 절약하고 효율성을 높이며 더 나은 결과를 얻을 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 
 >[!CONTEXTUALHELP]

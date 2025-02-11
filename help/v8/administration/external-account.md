@@ -2,25 +2,20 @@
 title: 외부 계정 관리
 description: 외부 계정을 구성하는 방법 알아보기
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 12%
+source-wordcount: '686'
+ht-degree: 8%
 
 ---
 
 # 외부 계정 관리 {#external-accounts}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="외부 계정"
->abstract="이제 추가 플랫폼 연결 또는 워크플로에 맞도록 연결을 사용자 정의하고, 쉽게 특정 요구 사항 충족 및 원활한 데이터 전송을 위해 새로운 외부 계정을 만들 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
-
 >[!AVAILABILITY]
 >
-> 외부 계정은 현재 바운스 메일(POP3), 라우팅 및 실행 인스턴스에만 사용할 수 있으며, 향후 추가 계정 유형이 추가될 예정입니다.
-> Adobe Campaign 콘솔에서 만든 지원되지 않는 외부 계정은 웹 사용자 인터페이스에 표시되지만 편집하거나 액세스할 수 없습니다.
+>* 현재 외부 계정은 바운스 메일(POP3), 라우팅 및 실행 인스턴스에만 사용할 수 있습니다. 차후에 계정 유형이 추가됩니다.
+>
+>* Adobe Campaign 콘솔에서 만든 지원되지 않는 외부 계정은 웹 사용자 인터페이스에 표시되지만 편집하거나 액세스할 수 없습니다.
 
 Adobe Campaign에는 다양한 시스템과 쉽게 통합할 수 있도록 사전 구성된 외부 계정 세트가 포함되어 있습니다. 추가 플랫폼에 연결하거나 워크플로에 맞게 연결을 사용자 정의해야 하는 경우, 이제 웹 사용자 인터페이스를 사용하여 새로운 외부 계정을 쉽게 만들어 특정 요구 사항을 충족하고 데이터를 원활하게 전송할 수 있습니다.
 

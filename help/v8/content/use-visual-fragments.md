@@ -4,26 +4,28 @@ title: 이메일에 비주얼 조각 추가
 description: 이메일에 시각적 조각을 추가하는 방법 알아보기
 badge: label="제한 공개"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '605'
 ht-degree: 14%
 
 ---
 
 # 이메일에 비주얼 조각 추가 {#use-visual-fragments}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="이메일 시각적 조각"
+>abstract="이제 시각적 조각을 만들어 사용할 수 있습니다. 여러 이메일 게재 간에 또는 콘텐츠 템플릿에서 재사용할 수 있는 사전 정의된 시각적 블록입니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+
 >[!AVAILABILITY]
 >
 >이 기능을 사용하려면 Campaign v8.6.4에 대한 업데이트가 필요합니다. 자세한 내용은 [Campaign v8 클라이언트 콘솔 릴리스 정보](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/releases/release-notes)를 참조하세요.
 
-[이메일 게재](../email/get-started-email-designer.md) 또는 [콘텐츠 템플릿](../email/use-email-templates.md)에서 시각적 조각을 사용할 수 있습니다. 단계는 아래에 자세히 설명되어 있습니다.
+Campaign 웹 인터페이스에서 **시각적 조각**&#x200B;은(는) 여러 [이메일 게재](../email/get-started-email-designer.md) 또는 [콘텐츠 템플릿](../email/use-email-templates.md)에서 재사용할 수 있는 미리 정의된 시각적 블록입니다. [이 섹션](fragments.md)에서 콘텐츠 조각을 만들고 관리하는 방법을 알아봅니다.
 
 ![](assets/do-not-localize/fragments.gif)
-
->[!NOTE]
->
->[이 섹션](fragments.md)에서 콘텐츠 조각을 만들고 관리하는 방법을 알아봅니다.
 
 ## 시각적 조각 사용 {#use-fragment}
 

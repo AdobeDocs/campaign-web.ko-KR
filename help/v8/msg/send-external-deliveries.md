@@ -3,14 +3,21 @@ audience: end-user
 title: 외부 게재 시작
 description: Adobe Campaign 웹을 사용하여 외부 게재를 만들고 보내는 방법 알아보기
 exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
-source-git-commit: 3bedb4562c5858cd6057fd8a17064ccac8303c39
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 7%
+source-wordcount: '518'
+ht-degree: 12%
 
 ---
 
 # 외부 게재 보내기 {#gs-direct-mail}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="외부 게재 만들기"
+>abstract="이제 Campaign 웹 인터페이스에서 외부 게재와 외부 게재 템플릿을 정의할 수 있습니다. 이 모드에서 메시지는 출력 파일로 컴파일되며 외부 공급자와 공유할 수 있습니다. 기본적으로 외부 게재 모드는 다이렉트 메일(DM) 채널에 사용됩니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+
 
 Adobe Campaign을 사용하면 Campaign 외부에서 만든 게재를 처리하여 외부 시스템을 통해 개인화된 이메일, SMS 메시지 또는 푸시 알림(iOs 및 Android)을 대량으로 전달할 수 있습니다.
 

@@ -2,7 +2,7 @@
 title: Campaign v8 Web 사용자 인터페이스 릴리스 정보
 description: 최신 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 4ece6d0a766682d65fb4a3f9135b667f558cb51c
+source-git-commit: 944fbbdd273cc402b88f2beaef5b15f2ce80cc6b
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 83%
@@ -145,6 +145,7 @@ Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대�
 <tr>
 <td>
 <p>이제 랜딩 페이지 게재에서 AI Assistant Content Accelerator를 사용하여 텍스트, 이미지 또는 전체 페이지 레이아웃을 생성할 수 있습니다.</p>
+<img src="assets/do-not-localize/ai-lp.gif">
 <p>AI Assistant Content Accelerator에 대한 자세한 내용은 <a href="../email/generative-lp.md">자세한 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>

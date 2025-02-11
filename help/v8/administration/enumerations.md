@@ -1,15 +1,22 @@
 ---
-title: 열거형 관리
+title: 열거 관리
 description: 열거형으로 작업하는 방법을 알아봅니다.
 exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
-source-git-commit: 3bedb4562c5858cd6057fd8a17064ccac8303c39
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 10%
+source-wordcount: '600'
+ht-degree: 27%
 
 ---
 
-# 열거형 관리 {#enumerations}
+# 열거 관리 {#enumerations}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="열거형 만들기"
+>abstract="이제 Adobe Campaign Web 사용자 인터페이스를 통해 직접 열거를 만들 수 있습니다. 열거형은 필드를 채우기 위해 시스템에서 제안하는 값 목록입니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_list"
@@ -19,12 +26,12 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_properties"
 >title="속성"
->abstract="이름, 내부 이름 및 형식 등 열거형의 속성을 정의합니다. **[!UICONTROL Closed]** 열거형에는 **[!UICONTROL 열거형]** 메뉴에서만 수정할 수 있는 고정 값 목록이 있습니다. **[!UICONTROL 열기]** 열거형을 사용하면 이 열거형을 기반으로 필드에 직접 새 값을 추가할 수 있습니다. **[!UICONTROL System]** 열거형이 시스템 필드에 연결되어 있습니다. **[!UICONTROL 이모티콘]** 열거형은 이모티콘 목록을 업데이트하는 데 사용됩니다."
+>abstract="열거의 이름, 내부 이름, 유형 등의 속성을 정의합니다. **[!UICONTROL 폐쇄형]** 열거에는 **[!UICONTROL 열거]** 메뉴에서만 수정할 수 있는 고정된 값 목록이 있습니다. **[!UICONTROL 개방형]** 열거를 사용하면 사용자가 이 열거를 기반으로 필드에 직접 새 값을 추가할 수 있습니다. **[!UICONTROL 시스템]** 열거는 시스템 필드와 연결됩니다. **[!UICONTROL 이모티콘]** 열거는 이모티콘 목록을 업데이트하는 데 사용됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_values"
->title="열거형 값 목록"
->abstract="열거형에 값을 추가하려면 **[!UICONTROL 값 추가]** 단추를 클릭한 다음 필요에 따라 구성합니다."
+>title="열거 값 목록"
+>abstract="열거에 값을 추가하려면 **[!UICONTROL 값 추가]** 버튼을 클릭한 다음 필요에 따라 구성합니다."
 
 ## 열거형이란 무엇입니까? {#about}
 
@@ -49,7 +56,7 @@ ht-degree: 10%
    * **[!UICONTROL Closed]** 열거형에는 **[!UICONTROL 열거형]** 메뉴에서만 수정할 수 있는 고정 값 목록이 있습니다.
    * **[!UICONTROL 열기]** 열거형을 사용하면 이 열거형을 기반으로 필드에 직접 새 값을 추가할 수 있습니다.
    * **[!UICONTROL System]** 열거형이 시스템 필드에 연결되어 있습니다.
-   * **[!UICONTROL 이모티콘]** 열거형은 이모티콘 목록을 업데이트하는 데 사용됩니다.
+   * **[!UICONTROL 이모티콘]** 열거는 이모티콘 목록을 업데이트하는 데 사용됩니다.
 
 1. Click **[!UICONTROL Create]**. 열거형 세부 정보가 표시되어 목록에 값을 추가할 수 있습니다.
 

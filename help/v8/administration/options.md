@@ -2,14 +2,20 @@
 title: ' [!DNL Campaign] 옵션 구성'
 description: Campaign 옵션을 구성하고 고유한 사용자 지정 옵션을 만드는 방법을 알아봅니다.
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
-source-git-commit: 3bedb4562c5858cd6057fd8a17064ccac8303c39
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 1%
+source-wordcount: '418'
+ht-degree: 3%
 
 ---
 
 # [!DNL Campaign] 옵션 구성 {#options}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="사용자 정의 옵션 만들기"
+>abstract="이제 필요에 따라 고유한 기술 사용자 지정 옵션을 만들 수 있습니다. 이 기능은 **JavaScript 코드** 워크플로우 활동을 사용하여 중간 데이터를 저장할 때 특히 유용합니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_options_list"

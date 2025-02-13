@@ -1,21 +1,21 @@
 ---
-title: Campaign v8 Web 사용자 인터페이스 초기 릴리스 정보
+title: Campaign v8 Web 사용자 인터페이스 얼리 릴리스 정보
 description: 다음 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '543'
+ht-degree: 100%
 
 ---
 
-# 초기 릴리스 정보 {#e-release}
+# 얼리 릴리스 정보 {#e-release}
 
 Adobe Campaign Web 사용자 인터페이스는 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 말에 [릴리스 정보](release-notes.md)에 통합됩니다.
 
-**아래의 초기 릴리스 정보는 릴리스 예정일까지 사전 예고 없이 변경될 수 있습니다**. 링크, 화면 및 업데이트된 설명서는 릴리스 일자에 [릴리스 정보](release-notes.md)에 게시됩니다.
+**아래의 얼리 릴리스 정보는 릴리스 예정일까지 사전 예고 없이 변경될 수 있습니다**. 링크, 화면 및 업데이트된 설명서는 릴리스 일자에 [릴리스 정보](release-notes.md)에 게시됩니다.
 
 ## 2025년 1월 릴리스 {#25-1-release}
 

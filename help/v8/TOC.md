@@ -18,7 +18,7 @@ ht-degree: 99%
 + [Adobe Campaign Web 사용자 인터페이스 설명서](campaign-web-home.md)
 + 릴리스 정보 {#release-notes}
    + [새로운 기능](rn/whats-new.md)
-   + [조기 릴리스](rn/e-release-notes.md)
+   + [얼리 릴리스](rn/e-release-notes.md)
    + [최신 릴리스](rn/release-notes.md)
    + 이전 릴리스 {#previous-release-notes}
       + [2024년 릴리스](rn/release-notes-24.md)
@@ -215,7 +215,7 @@ ht-degree: 99%
       + [이메일 캠페인 보고서](reporting/campaign-reports-email.md)
       + [푸시 캠페인 보고서](reporting/campaign-reports-push.md)
       + [SMS 캠페인 보고서](reporting/campaign-reports-sms.md)
-      + [다이렉트 메일 캠페인 보고서](reporting/campaign-reports-direct-mail.md)
+      + [다이렉트 메일(DM) 캠페인 보고서](reporting/campaign-reports-direct-mail.md)
    + 글로벌 보고서 {#global-report}
       + [글로벌 보고서 시작](reporting/global-reports.md)
       + [이메일 글로벌 보고서](reporting/global-report-email.md)

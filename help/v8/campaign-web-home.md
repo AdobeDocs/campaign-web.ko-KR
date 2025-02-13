@@ -3,10 +3,10 @@ keywords: Campaign Web;홈;인기 있는 주제
 description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 91%
+source-wordcount: '456'
+ht-degree: 93%
 
 ---
 
@@ -52,24 +52,24 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 >[!BEGINTABS]
 
 
->[!TAB 25년 1월 릴리스]
+>[!TAB 2025년 1월 릴리스]
 
-트랜잭션 메시지, 외부 계정 및 향상된 기능을 포함하여 1월 릴리스가 공개되었습니다.
+1월 릴리스가 현재 공개되었으며, 여기에는 트랜잭션 메시지, 외부 계정 및 기타 개선 사항이 포함되어 있습니다.
 
-[![추가 정보 단추](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
+[![자세히 알아보기 버튼](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
->[!TAB AI 어시스턴트 콘텐츠 가속기]
+>[!TAB AI 길잡이]
 
-✨ 기능을 직접 살펴보고 성능을 완벽하게 이해할 수 있도록 설계된 [AI 어시스턴트 콘텐츠 가속기](../v8/email/generative-gs.md)의 실시간 기능 미리보기로 직접 체험해 보십시오.
+✨ 기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 설계된 [AI Assistant](../v8/email/generative-gs.md) 라이브 기능 미리 보기를 통해 실습 경험에 몰입하십시오.
 
-[![자세히 알아보기](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![자세히 알아보기 버튼](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB FAQ]
 
-Campaign 웹 사용자 인터페이스에 대한 FAQ가 새 전용 페이지에 나와 있습니다.
+Campaign Web 사용자 인터페이스에 대한 자주 묻는 질문은 새로운 전용 페이지에 나열되어 있습니다.
 
-[![추가 정보 단추](assets/do-not-localize/learn-more-button.svg)](get-started/faq.md)
+[![자세히 알아보기 버튼](assets/do-not-localize/learn-more-button.svg)](get-started/faq.md)
 
 
 >[!ENDTABS]
@@ -133,4 +133,4 @@ Campaign 웹 사용자 인터페이스에 대한 FAQ가 새 전용 페이지에 
 ## 추가 리소스
 
 * [Adobe Campaign 제품 설명서](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ko){target="_blank"}
+* [Adobe Campaign V8 설명서](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ko){target="_blank"}

@@ -4,7 +4,7 @@ title: 감사 추적
 description: Campaign 감사 추적을 사용하여 인스턴스를 모니터링하는 방법 알아보기
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 1%
@@ -75,7 +75,7 @@ Adobe Campaign 웹 사용자 인터페이스에서 **[!UICONTROL 감사 추적]*
 
 인스턴스의 **[!UICONTROL 감사 추적]**&#x200B;에 액세스하려면:
 
-1. **[!UICONTROL 관리]** 메뉴에서 **[!UICONTROL 감사 추적]** 을 선택합니다.
+1. **[!UICONTROL 관리]** 메뉴에서 **[!UICONTROL 감사 추적]**&#x200B;을 선택합니다.
 
    ![](assets/audit-trail-1.png)
 

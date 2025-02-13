@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: a0282e6b4fcc7f132f2167adcad67df32338fc3c
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 96%
+source-wordcount: '794'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 + [Adobe Campaign Web 사용자 인터페이스 설명서](campaign-web-home.md)
 + 릴리스 정보 {#release-notes}
    + [새로운 기능](rn/whats-new.md)
-   + [초기 릴리스](rn/e-release-notes.md)
+   + [조기 릴리스](rn/e-release-notes.md)
    + [최신 릴리스](rn/release-notes.md)
    + 이전 릴리스 {#previous-release-notes}
       + [2024년 릴리스](rn/release-notes-24.md)
@@ -30,7 +30,7 @@ ht-degree: 96%
    + [목록 찾아보기 및 필터링](get-started/list-filters.md)
    + [미리 정의된 필터 작업](get-started/predefined-filters.md)
    + [폴더 작업](get-started/work-with-folders.md)
-   + [속성을 선택하고 즐겨찾기에 추가](get-started/attributes.md)
+   + [속성을 선택하여 즐겨찾기에 추가](get-started/attributes.md)
    + [권한](get-started/permissions.md)
    + [Campaign Web 및 클라이언트 콘솔](get-started/capability-matrix.md)
    + [Campaign Standard에서 v8로의 전환](rn/acs-migration.md)
@@ -72,7 +72,7 @@ ht-degree: 96%
       + [트랜잭션 메시지 만들기](transactional-messaging/create-transactional.md)
       + [트랜잭션 메시지 유효성 검사](transactional-messaging/validate-transactional.md)
       + [트랜잭션 메시지 모니터링](transactional-messaging/monitor-transactional.md)
-   + [외부 게재 보내기](msg/send-external-deliveries.md)
+   + [외부 게재 전송](msg/send-external-deliveries.md)
    + [메시지에 오퍼 추가](msg/offers.md)
    + [구독자에게 메시지 전송](msg/send-to-subscribers.md)
    + [게재 설정 구성](advanced-settings/delivery-settings.md)
@@ -116,12 +116,12 @@ ht-degree: 96%
          + [수직 정렬 및 패딩 조정](email/alignment-and-padding.md)
          + [링크 스타일 정의](email/styling-links.md)
          + [인라인 스타일 속성 추가](email/inline-styling.md)
-   + AI 어시스턴트 콘텐츠 가속기 {#ai-assistant}
-      + [AI 어시스턴트 콘텐츠 가속기를 사용하여 작업](email/generative-gs.md)
+   + AI 어시스턴트 {#ai-assistant}
+      + [AI Assistant 작업](email/generative-gs.md)
       + [AI를 활용한 이메일 생성](email/generative-content.md)
       + [AI를 활용한 SMS 생성](email/generative-sms.md)
       + [AI를 활용한 푸시 알림 생성](email/generative-push.md)
-      + [AI를 사용한 랜딩 페이지 생성](email/generative-lp.md)
+      + [AI를 활용한 랜딩페이지 생성](email/generative-lp.md)
       + [AI 어시스턴트 사용 사례](email/generative-uc.md)
 + 랜딩 페이지 {#landing-pages}
    + [랜딩 페이지 시작](landing-pages/get-started-lp.md)
@@ -131,7 +131,7 @@ ht-degree: 96%
    + [사용 사례를 통한 학습](landing-pages/lp-use-cases.md)
 + 프로필 및 대상자 {#audiences}
    + [프로필 및 대상자 시작](audience/gs-audiences-recipients.md)
-   + [타겟팅 차원](audience/targeting-dimensions.md)
+   + [타기팅 차원](audience/targeting-dimensions.md)
    + [격리](audience/quarantine.md)
    + 프로필 작업 {#work-with-profiles}
       + [프로필 시작](audience/about-recipients.md)
@@ -230,7 +230,7 @@ ht-degree: 96%
    + [사용자 정의 필드 구성](administration/custom-fields.md)
    + [외부 계정 구성](administration/external-account.md)
    + [유형화를 사용하여 작업](administration/typologies.md)
-   + [열거형 관리](administration/enumerations.md)
+   + [열거 관리](administration/enumerations.md)
    + [ [!DNL Campaign] 옵션 구성](administration/options.md)
-   + [JavaScript 코드 작업](administration/javascript-codes.md)
+   + [JavaScript 코드를 사용하여 작업](administration/javascript-codes.md)
 + [Campaign v8(콘솔) 설명서 >](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/campaign-home)

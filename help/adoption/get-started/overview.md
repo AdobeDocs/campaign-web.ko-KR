@@ -4,9 +4,9 @@ description: 새 Campaign v8 애플리케이션을 시작하는 데 필요한 �
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1556'
 ht-degree: 29%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 29%
 
 Adobe Campaign v8에 오신 것을 환영합니다!
 
-Campaign Standard에서 Campaign v8로 전환하는 사용자는 이 참조 안내서를 통해 쉽게 액세스할 수 있습니다. 새 Campaign 환경을 숙지하고 역할을 시작하는 데 필요한 단계를 안내하는 데 도움이 됩니다.
+Campaign Standard에서 Campaign v8로 전환하는 사용자는 이 참조 안내서를 참조하십시오. 새 Campaign 환경을 숙지하고 역할을 시작하는 데 필요한 단계를 안내하는 데 도움이 됩니다.
 
 1. [Adobe Campaign v8의 새로운 기능](#new)을 배웁니다.
 
@@ -59,7 +59,7 @@ Adobe Campaign v8의 주요 개선 사항은 아래에 나와 있습니다.
 
 ### Adobe Campaign v8의 새로운 기능 {#ac-new-features}
 
-이제 Adobe Campaign v8로 전환하는 Campaign Standard 사용자는 다음 기능을 사용할 수 있습니다.
+Campaign Standard 사용자가 Adobe Campaign v8로 전환하면 다음과 같은 기능을 사용할 수 있습니다.
 
 * **리치 푸시**
 
@@ -93,7 +93,7 @@ Adobe Campaign v8의 주요 개선 사항은 아래에 나와 있습니다.
 
   Adobe Experience Manager as a Cloud Service은 클라우드 기반의 민첩성을 제공하여 변화하는 비즈니스 요구에 신속하게 대응하고 적응할 수 있도록 해줍니다. 이 통합을 통해 콘텐츠 관리 기능이 향상될 뿐만 아니라 모든 접점에서 고객에게 보다 개인화되고 흥미로운 경험을 전달할 수 있습니다.
 
-* **AI 길잡이 - 콘텐츠 가속기**
+* **AI 길잡이**
 
   Campaign AI Assistant를 사용하면 시간을 절약하고 효율성을 개선하며 더 나은 결과를 도출하는 동시에 직관적이고 단순하며 번거롭지 않은 이메일, SMS 및 푸시와 같은 채널 전반에서 마케팅 캠페인을 만들고 실행할 수 있습니다.
 
@@ -105,7 +105,7 @@ Adobe Campaign v8의 주요 개선 사항은 아래에 나와 있습니다.
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  변형 이메일 템플릿을 제공하고 이미지를 생성 및 재생성합니다. [이 섹션](../../v8/email/generative-content.md)에서 AI Assistant - Content Accelerator에 대해 자세히 알아보십시오. Adobe Campaign v8에는 [이메일](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md) 및 [푸시](../../v8/email/generative-push.md)에 사용할 수 있는 AI 도우미가 있습니다.
+  변형 이메일 템플릿을 제공하고 이미지를 생성 및 재생성합니다. [이 섹션](../../v8/email/generative-content.md)에서 AI 도우미에 대해 자세히 알아보세요. Adobe Campaign v8에는 [이메일](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md) 및 [푸시](../../v8/email/generative-push.md)에 사용할 수 있는 AI 도우미가 있습니다.
 
 * **업그레이드된 SMS 인프라 - SMS v2.0**
 

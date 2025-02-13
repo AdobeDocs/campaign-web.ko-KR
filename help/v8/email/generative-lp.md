@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: AI Assistant Content Accelerator가 포함된 랜딩 페이지
-description: AI Assistant Content Accelerator 시작
+title: AI Assistant가 있는 랜딩 페이지
+description: AI Assistant 시작
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 2%
+source-wordcount: '1521'
+ht-degree: 1%
 
 ---
 
-# AI 어시스턴트 콘텐츠 가속기를 사용한 랜딩 페이지 생성 {#generative-lp}
+# AI Assistant를 사용하여 랜딩 페이지 생성{#generative-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="AI로 랜딩 페이지 생성"
->abstract="이제 AI Assistant Content Accelerator를 사용하여 랜딩 페이지 게재를 만들 수 있으며, 이를 통해 텍스트, 이미지 또는 전체 페이지 레이아웃을 생성할 수 있습니다."
+>abstract="이제 AI Assistant를 사용하여 랜딩 페이지 게재를 만들 수 있으며, 이를 통해 텍스트, 이미지 또는 전체 페이지 레이아웃을 생성할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 
@@ -24,19 +24,19 @@ ht-degree: 2%
 >이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](generative-gs.md#generative-guardrails)을 읽어 보십시오.
 ></br>
 >
->Adobe Campaign 웹에서 AI Assistant Content Accelerator를 사용하려면 먼저 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
+>Adobe Campaign 웹에서 AI 도우미를 사용하려면 먼저 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
 
-생성 AI에서 제공하는 Adobe Campaign 웹의 AI Assistant Content Accelerator를 사용하여 랜딩 페이지를 탈바꿈합니다.
+생성 AI에서 제공하는 Adobe Campaign 웹의 AI Assistant를 사용하여 랜딩 페이지를 탈바꿈합니다.
 
 완벽한 페이지, 맞춤화된 텍스트 조각, 대상자와 공감하는 사용자 지정된 시각적 요소 등 효과적인 콘텐츠를 손쉽게 제작하여 참여도와 상호 작용을 향상시킵니다.
 
-Adobe Campaign 웹에서 AI Assistant Content Accelerator를 사용하는 방법을 알아보려면 아래 탭을 살펴보십시오.
+Adobe Campaign 웹에서 AI Assistant를 사용하는 방법을 알려면 아래 탭을 살펴보십시오.
 
 >[!BEGINTABS]
 
 >[!TAB 전체 랜딩 페이지 생성]
 
-다음 예에서는 AI Assistant Content Accelerator를 활용하여 기존 랜딩 페이지 템플릿을 구체화합니다.
+다음 예에서는 AI Assistant를 활용하여 기존 랜딩 페이지 템플릿을 구체화합니다.
 
 1. 랜딩 페이지를 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭합니다.
 
@@ -46,7 +46,7 @@ Adobe Campaign 웹에서 AI Assistant Content Accelerator를 사용하는 방법
 
    ![](assets/lp_full_gen_1.png){zoomable="yes"}
 
-1. AI Assistant Content Accelerator에서 **[!UICONTROL 원본 콘텐츠 사용]** 옵션을 활성화하여 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화합니다.
+1. AI 관리자가 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화하려면 **[!UICONTROL 원본 콘텐츠 사용]** 옵션을 사용하도록 설정하십시오.
 
 1. **[!UICONTROL 프롬프트]** 필드에 생성할 내용을 설명하여 내용을 미세 조정하십시오.
 
@@ -54,24 +54,24 @@ Adobe Campaign 웹에서 AI Assistant Content Accelerator를 사용하는 방법
 
    ![](assets/lp_full_gen_2.png){zoomable="yes"}
 
-1. Tailor your prompt with the **[!UICONTROL Text settings]** option:
+1. **[!UICONTROL 텍스트 설정]** 옵션을 사용하여 메시지를 사용자 지정합니다.
 
-   * **[!UICONTROL Communication strategy]**: Choose the most suitable communication style for your generated text.
-   * **[!UICONTROL Tone]**: The tone of your landing page should resonate with your audience. Whether you want to sound informative, playful, or persuasive, the AI Assistant can adapt the message accordingly.
+   * **[!UICONTROL 커뮤니케이션 전략]**: 생성된 텍스트에 가장 적합한 커뮤니케이션 스타일을 선택합니다.
+   * **[!UICONTROL 음색]**: 랜딩 페이지의 음색이 대상자에게 울려 퍼져야 합니다. AI 어시스턴트는 여러분이 유익하거나, 장난스럽거나, 설득력 있게 들리기를 원하든 상관없이 메시지를 그에 따라 조정할 수 있습니다.
 
    ![](assets/lp_full_gen_3.png){zoomable="yes"}
 
-1. Choose your **[!UICONTROL Image settings]**:
+1. **[!UICONTROL 이미지 설정]** 선택:
 
-   * **[!UICONTROL Content type]**: This categorizes the nature of the visual element, distinguishing between different forms of visual representation such as photos, graphics, or art.
-   * **[!UICONTROL Visual intensity]**: You can control the image&#39;s impact by adjusting its intensity. A lower setting (2) will create a softer, more restrained appearance, while a higher setting (10) will make the image more vibrant and visually powerful.
-   * **[!UICONTROL Color &amp; tone]**: The overall appearance of the colors within an image and the mood or atmosphere it conveys.
-   * **[!UICONTROL Lighting]**: This refers to the lightning present in an image, which shapes its atmosphere and highlights specific elements.
-   * **[!UICONTROL Composition]**: This refers to the arrangement of elements within the frame of an image
+   * **[!UICONTROL 콘텐츠 형식]**: 이 옵션은 시각적 요소의 특성을 분류하여 사진, 그래픽 또는 미술과 같은 시각적 표현의 다른 형식을 구분합니다.
+   * **[!UICONTROL 시각적 강도]**: 이미지의 강도를 조정하여 이미지의 영향을 제어할 수 있습니다. 낮은 설정 (2)는 부드럽고 절제된 모양을 만들고, 높은 설정 (10)은 이미지를 더 생동감 있고 시각적으로 강력하게 만듭니다.
+   * **[!UICONTROL 색상 및 색조]**: 이미지 내의 전체 색상 모양과 이미지 내의 분위기 또는 분위기를 전달합니다.
+   * **[!UICONTROL 조명]**: 이미지에 있는 번개(대기의 모양과 특정 요소의 강조 표시)를 나타냅니다.
+   * **[!UICONTROL 컴포지션]**: 이미지 프레임 내의 요소 배열을 참조합니다
 
    ![](assets/lp_full_gen_4.png){zoomable="yes"}
 
-1. From the **[!UICONTROL Brand assets]** menu, click **[!UICONTROL Upload brand asset]** to add any brand asset which contains content that can provide additional context the AI Assistant or select a previously uploaded one.
+1. **[!UICONTROL 브랜드 자산]** 메뉴에서 **[!UICONTROL 브랜드 자산 업로드]**&#x200B;를 클릭하여 AI Assistant에 추가 컨텍스트를 제공하거나 이전에 업로드한 것을 선택할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가합니다.
 
    이전에 업로드한 파일은 **[!UICONTROL 업로드된 브랜드 자산]** 드롭다운에서 사용할 수 있습니다. 세대에 포함할 자산을 전환하기만 하면 됩니다.
 
@@ -99,7 +99,7 @@ Adobe Campaign 웹에서 AI Assistant Content Accelerator를 사용하는 방법
 
 >[!TAB 텍스트 전용 생성]
 
-다음 예제에서는 AI Assistant Content Accelerator 를 활용하여 랜딩 페이지의 콘텐츠를 개선합니다.
+다음 예에서는 AI Assistant를 활용하여 랜딩 페이지의 콘텐츠를 향상시킵니다.
 
 1. 랜딩 페이지를 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭합니다.
 
@@ -109,7 +109,7 @@ Adobe Campaign 웹에서 AI Assistant Content Accelerator를 사용하는 방법
 
    ![](assets/lp-text-genai-1.png){zoomable="yes"}
 
-1. AI Assistant Content Accelerator에서 **[!UICONTROL 원본 콘텐츠 사용]** 옵션을 활성화하여 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화합니다.
+1. AI 관리자가 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화하려면 **[!UICONTROL 원본 콘텐츠 사용]** 옵션을 사용하도록 설정하십시오.
 
 1. **[!UICONTROL 프롬프트]** 필드에 생성할 내용을 설명하여 내용을 미세 조정하십시오.
 
@@ -159,38 +159,38 @@ Adobe Campaign 웹에서 AI Assistant Content Accelerator를 사용하는 방법
 
 >[!TAB 이미지 전용 생성]
 
-아래 예에서는 AI Assistant Content Accelerator를 활용하여 에셋을 최적화하고 개선하여 보다 사용자 친화적인 환경을 구현하는 방법을 알아봅니다.
+아래 예에서는 AI Assistant를 활용하여 에셋을 최적화하고 개선하여 보다 사용자 친화적인 경험을 제공하는 방법에 대해 알아봅니다.
 
 1. 랜딩 페이지를 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭합니다.
 
    랜딩 페이지를 구성하는 방법에 대한 자세한 내용은 [이 페이지](../landing-pages/create-lp.md)를 참조하세요.
 
-1. AI Assistant Content Accelerator 로 변경할 에셋을 선택합니다.
+1. AI Assistant를 사용하여 변경할 에셋을 선택합니다.
 
 1. 오른쪽 메뉴에서 **[!UICONTROL AI 길잡이]**&#x200B;를 선택합니다.
 
    ![](assets/lp-image-gen-1.png){zoomable="yes"}
 
-1. AI Assistant Content Accelerator에서 **[!UICONTROL 참조 스타일]** 옵션을 활성화하여 참조 콘텐츠를 기반으로 새 콘텐츠를 개인화할 수 있습니다. 이미지를 업로드하여 변형에 컨텍스트를 추가할 수도 있습니다.
+1. AI 도우미가 참조 콘텐츠를 기반으로 새 콘텐츠를 개인화하려면 **[!UICONTROL 참조 스타일]** 옵션을 활성화하십시오. 이미지를 업로드하여 변형에 컨텍스트를 추가할 수도 있습니다.
 
-1. Fine tune the content by describing what you want to generate in the **[!UICONTROL Prompt]** field.
+1. **[!UICONTROL 프롬프트]** 필드에 생성할 내용을 설명하여 내용을 미세 조정하십시오.
 
-   If you are looking for assistance in crafting your prompt, access the **[!UICONTROL Prompt Library]** which provides a diverse range of prompt ideas to improve your landing pages.
+   프롬프트 작성에 도움이 필요한 경우 랜딩 페이지를 개선하기 위한 다양한 프롬프트 아이디어를 제공하는 **[!UICONTROL 프롬프트 라이브러리]**&#x200B;에 액세스하십시오.
 
    ![](assets/lp-image-gen-2.png){zoomable="yes"}
 
-1. Tailor your prompt with the **[!UICONTROL Image settings]** option:
+1. **[!UICONTROL 이미지 설정]** 옵션을 사용하여 메시지를 사용자 지정합니다.
 
-   * **[!UICONTROL Aspect ratio]**: This determines the width and height of the asset. You have the option to choose from common ratios such as 16:9, 4:3, 3:2, or 1:1, or you can enter a custom size.
+   * **[!UICONTROL 종횡비]**: 에셋의 너비와 높이를 결정합니다. 16:9, 4:3, 3:2 또는 1:1과 같은 일반적인 비율 중에서 선택할 수 있는 옵션이 있거나 사용자 지정 크기를 입력할 수 있습니다.
    * **[!UICONTROL 콘텐츠 형식]**: 이 옵션은 시각적 요소의 특성을 분류하여 사진, 그래픽 또는 미술과 같은 시각적 표현의 다른 형식을 구분합니다.
-   * **[!UICONTROL Visual intensity]**: You can control the image&#39;s impact by adjusting its intensity. A lower setting (2) will create a softer, more restrained appearance, while a higher setting (10) will make the image more vibrant and visually powerful.
-   * **[!UICONTROL Color &amp; tone]**: The overall appearance of the colors within an image and the mood or atmosphere it conveys.
-   * **[!UICONTROL Lighting]**: This refers to the lightning present in an image, which shapes its atmosphere and highlights specific elements.
-   * **[!UICONTROL Composition]**: This refers to the arrangement of elements within the frame of an image
+   * **[!UICONTROL 시각적 강도]**: 이미지의 강도를 조정하여 이미지의 영향을 제어할 수 있습니다. 낮은 설정 (2)는 부드럽고 절제된 모양을 만들고, 높은 설정 (10)은 이미지를 더 생동감 있고 시각적으로 강력하게 만듭니다.
+   * **[!UICONTROL 색상 및 색조]**: 이미지 내의 전체 색상 모양과 이미지 내의 분위기 또는 분위기를 전달합니다.
+   * **[!UICONTROL 조명]**: 이미지에 있는 번개(대기의 모양과 특정 요소의 강조 표시)를 나타냅니다.
+   * **[!UICONTROL 컴포지션]**: 이미지 프레임 내의 요소 배열을 참조합니다
 
    ![](assets/lp-image-gen-3.png){zoomable="yes"}
 
-1. From the **[!UICONTROL Brand assets]** menu, click **[!UICONTROL Upload brand asset]** to add any brand asset which contains content that can provide additional context the AI Assistant or select a previously uploaded one.
+1. **[!UICONTROL 브랜드 자산]** 메뉴에서 **[!UICONTROL 브랜드 자산 업로드]**&#x200B;를 클릭하여 AI Assistant에 추가 컨텍스트를 제공하거나 이전에 업로드한 것을 선택할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가합니다.
 
    이전에 업로드한 파일은 **[!UICONTROL 업로드된 브랜드 자산]** 드롭다운에서 사용할 수 있습니다. 세대에 포함할 자산을 전환하기만 하면 됩니다.
 
@@ -206,8 +206,8 @@ Adobe Campaign 웹에서 AI Assistant Content Accelerator를 사용하는 방법
 
 1. 적절한 콘텐츠를 찾으면 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
 
-1. After defining your message content, click the **[!UICONTROL Simulate content]** button to control the rendering, and check personalization settings with test profiles. [자세히 알아보기](../landing-pages/create-lp.md#test-landing-page)
+1. 메시지 콘텐츠를 정의한 후 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 렌더링을 제어하고 테스트 프로필로 개인화 설정을 확인합니다. [자세히 알아보기](../landing-pages/create-lp.md#test-landing-page)
 
-Once your landing page is ready, you can publish it to make it available for use in a message. [자세히 알아보기](../landing-pages/create-lp.md#publish-landing-page)
+랜딩 페이지가 준비되면 이를 게시하여 메시지에 사용할 수 있도록 할 수 있습니다. [자세히 알아보기](../landing-pages/create-lp.md#publish-landing-page)
 
 >[!ENDTABS]

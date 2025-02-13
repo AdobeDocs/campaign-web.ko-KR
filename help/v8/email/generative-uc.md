@@ -1,15 +1,15 @@
 ---
-title: AI Assistant for Content Accelerator 활용 사례
-description: 사용 사례를 통해 AI Assistant for Content Accelerator를 사용하는 방법을 알아봅니다
+title: AI 어시스턴트 사용 사례
+description: 사용 사례를 통해 AI Assistant 사용 방법 알아보기
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: a387304ed95a6e33beb31f15f888a77edf0cad6e
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 0%
+source-wordcount: '525'
+ht-degree: 1%
 
 ---
 
-# AI Assistant for Content Accelerator 활용 사례 {#generative-uc}
+# AI 어시스턴트 사용 사례 {#generative-uc}
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL AI 길잡이]** 섹션을 엽니다.
 
-1. AI Assistant for Content Accelerator 내의 **[!UICONTROL 원본 콘텐츠 사용]** 기능을 켜면 게재 이름 및 대상 등 게재 세부 사항에 따라 새로운 콘텐츠를 조정할 수 있습니다.
+1. AI Assistant 내에서 **[!UICONTROL 원본 콘텐츠 사용]** 기능을 켜서 게재 이름 및 대상 등 게재 세부 사항에 따라 새 콘텐츠를 사용자 지정할 수 있습니다.
 
 1. **[!UICONTROL Prompt]** 상자에서 요청을 지정하여 콘텐츠를 조정하고 필요에 따라 설정을 사용자 지정합니다.
 
@@ -89,11 +89,11 @@ ht-degree: 0%
 
 1. 게재를 설정하고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요.
 
-1. AI Assistant for Content Accelerator를 사용하여 수정할 에셋을 선택합니다.
+1. AI Assistant를 사용하여 수정할 에셋을 선택합니다.
 
 1. 오른쪽 창 메뉴에서 **[!UICONTROL AI Assistant]**&#x200B;를 선택합니다.
 
-1. **[!UICONTROL 참조 스타일]** 옵션을 켜면 콘텐츠 가속용 AI 도우미가 참조 자료를 사용하여 새 콘텐츠를 생성할 수 있습니다.
+1. **[!UICONTROL 참조 스타일]** 옵션을 켜면 AI 도우미가 참조 자료를 사용하여 새 콘텐츠를 생성할 수 있습니다.
 
 1. 변형에 컨텍스트를 추가하는 이미지를 포함하려면 **[!UICONTROL 이미지 업로드]**&#x200B;를 클릭하십시오.
 

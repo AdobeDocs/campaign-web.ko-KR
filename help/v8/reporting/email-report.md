@@ -144,7 +144,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="유형별 오류 분류"
->abstract="**유형별 오류 분류** 그래프에는 발생한 각 오류 유형(알 수 없는 사용자, 사서함 가득 참, 잘못된 도메인 등)과 관련하여 이용 가능한 데이터가 포함되어 있습니다."
+>abstract="**유형별 오류 분류** 그래프에는 발생한 각 오류 유형(알 수 없는 사용자, 사서함 가득 참, 잘못된 도메인 등)과 관련하여 사용 가능한 데이터가 포함되어 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type_table"
@@ -289,10 +289,10 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams_top10"
 >title="가장 많이 방문한 상위 링크 10개"
->abstract="**가장 많이 방문한 상위 링크 10개** 그래프와 테이블에는 링크당 수신자 비헤이비어와 관련하여 이용 가능한 데이터가 포함되어 있습니다."
+>abstract="**가장 많이 방문한 상위 링크 10개** 그래프와 테이블에는 링크당 수신자 비헤이비어와 관련하여 사용 가능한 데이터가 포함되어 있습니다."
 
 
-**[!UICONTROL 가장 많이 방문한 상위 링크 10개]** 그래프와 테이블에는 링크당 수신자 비헤이비어와 관련하여 이용 가능한 데이터가 포함되어 있습니다.
+**[!UICONTROL 가장 많이 방문한 상위 링크 10개]** 그래프와 테이블에는 링크당 수신자 비헤이비어와 관련하여 사용 가능한 데이터가 포함되어 있습니다.
 
 ![](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
 
@@ -310,7 +310,7 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_click_breakdown"
 >title="시간 경과에 따른 클릭 분류"
->abstract="**시간 경과에 따른 클릭 분류** 그래프는 링크당 수신자 비헤이비어와 관련하여 이용 가능한 데이터를 보여 줍니다."
+>abstract="**시간 경과에 따른 클릭 분류** 그래프는 링크당 수신자 비헤이비어와 관련하여 사용 가능한 데이터를 보여 줍니다."
 
 
 **[!UICONTROL 시간 경과에 따른 클릭 수 분석]** 그래프에는 링크당 받는 사람 동작에 사용할 수 있는 데이터가 포함되어 있습니다.

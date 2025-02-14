@@ -88,7 +88,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_clicks_direct_mail"
 >title="생성된 클릭스트림"
->abstract="**생성된 클릭스트림** 테이블에는 수신자가 게재된 내용과 상호 작용한 방식과 관련하여 이용 가능한 데이터가 표시됩니다."
+>abstract="**생성된 클릭스트림** 테이블에는 수신자가 게재된 내용과 상호 작용한 방식과 관련하여 사용 가능한 데이터가 표시됩니다."
 
 ![](assets/direct-mail-campaign-clicks.png){zoomable="yes"}{align="center"}
 

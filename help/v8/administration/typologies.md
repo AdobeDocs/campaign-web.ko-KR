@@ -1,20 +1,16 @@
 ---
 audience: end-user
-title: 유형화를 사용하여 작업
+title: 비즈니스 규칙을 사용한 작업(유형화)
 description: 유형화 및 유형화 규칙을 사용하여 게재 전송을 제어, 필터링 및 모니터링하는 방법에 대해 알아봅니다.
-hidefromtoc: true
-hide: true
-robots: noindex
-googlebot: noindex
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: c759dd72e2ca3d11b4dad0cd38410d699b651cad
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1418'
 ht-degree: 22%
 
 ---
 
-# 유형화를 사용하여 작업 {#typologies}
+# 비즈니스 규칙을 사용한 작업(유형화) {#typologies}
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"

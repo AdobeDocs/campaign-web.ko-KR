@@ -2,10 +2,10 @@
 title: Campaign v8 Web 사용자 인터페이스 릴리스 정보
 description: 최신 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 93%
+source-wordcount: '770'
+ht-degree: 74%
 
 ---
 
@@ -19,6 +19,65 @@ ht-degree: 93%
 Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 연속 게재 모델에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 이전 릴리스를 통해 이용할 수 있는 변경 사항 및 개선 사항은 [이 페이지에](release-notes-24.md) 나열되어 있습니다.
+
+## 2025년 2월 릴리스 {#25-2-release}
+
+**릴리스 날짜**: 2025년 2월 18일
+
+2월 릴리스부터 다음 기능 및 개선 사항을 사용할 수 있습니다.
+
+### 기능 {#25-2-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>비즈니스 규칙(유형화 규칙) 만들기</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Adobe Campaign 웹 사용자 인터페이스에서 유형화 및 유형화 규칙을 만들 수 있습니다. 유형화를 통해 게재 전송을 제어, 필터링 및 우선 순위를 지정할 수 있습니다. 유형화는 게재에 항상 필수 구성 요소(예: 구독 취소 링크 또는 제목 줄)나 필터링 규칙이 포함되어 있는지 확인하여 대상에서 그룹을 제외합니다(구독자 없음, 경쟁업체 또는 비충성도 고객).</p>
+<img src="assets/do-not-localize/typology.gif">
+<p>자세한 내용은 <a href="../administration/typologies.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>대상 매핑</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Campaign 웹 사용자 인터페이스에서 대상 매핑을 만들 수 있습니다. Target 매핑은 다양한 게재 채널(이메일, SMS, 푸시 알림)이 스키마의 데이터 필드에 연결되는 방식을 정의합니다. 타겟 매핑을 사용하면 타겟팅된 대상, 프로필, 계약 수익자, 운영자, 구독자, 잠재 고객 등을 정의할 수 있습니다.</p>
+<img src="assets/do-not-localize/target-mapping.gif">
+<p>자세한 내용은 <a href="../administration/target-mappings.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>스키마 세부 정보</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 목록에서 스키마 이름을 선택하여 스키마 세부 정보에 액세스할 수 있습니다. 이제 스키마 세부 정보에 있는 <b>사용자 지정 필드 편집</b> 단추에서 사용자 지정 필드 편집에 액세스할 수 있습니다.</p>
+<img src="assets/do-not-localize/schemas.gif">
+<p>자세한 내용은 <a href="../administration/schemas.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2025년 1월 릴리스 {#25-1-release}
 
@@ -62,25 +121,6 @@ Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대�
 </tr>
 </tbody>
 </table>
-
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Create business rules (typology rules)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create typologies and typology rules in the Adobe Campaign web interface. A typology is a collection of typology rules that help control, filter, and prioritize deliveries. Typologies ensure that your deliveries always contain required elements (such as an unsubscribe link or subject line) and apply filtering rules to exclude specific groups from your target audience (such as unsubscribers, competitors, or non-loyalty customers).</p>
-<img src="assets/do-not-localize/typology.gif">
-<p>For more information, refer to the <a href="../administration/typologies.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
 
 <table>
 <thead>
@@ -134,7 +174,6 @@ Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대�
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -151,8 +190,6 @@ Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대�
 </tr>
 </tbody>
 </table>
-
-
 
 
 ### 개선 사항 {#25-1-improvements}

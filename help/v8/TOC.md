@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 99%
+source-wordcount: '804'
+ht-degree: 98%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 99%
    + [얼리 릴리스](rn/e-release-notes.md)
    + [최신 릴리스](rn/release-notes.md)
    + 이전 릴리스 {#previous-release-notes}
+      + [2025 릴리스](rn/release-notes-25.md)
       + [2024년 릴리스](rn/release-notes-24.md)
    + [설명서 업데이트](rn/documentation-updates.md)
 + Adobe Campaign 시작하기 {#start}
@@ -227,10 +228,12 @@ ht-degree: 99%
    + [Adobe Experience Manager Assets as a Cloud Service로 자산 관리](integrations/aem-assets.md)
    + [Adobe Experience Manager as a Cloud Service로 템플릿 관리](integrations/aem-content.md)
 + 구성 {#conf}
+   + [비즈니스 규칙을 사용한 작업(유형화)](administration/typologies.md)
+   + [대상 매핑 관리](administration/target-mappings.md)
+   + [스키마 작업](administration/schemas.md)
    + [사용자 정의 필드 구성](administration/custom-fields.md)
-   + [외부 계정 구성](administration/external-account.md)
-   + [유형화를 사용하여 작업](administration/typologies.md)
-   + [열거 관리](administration/enumerations.md)
    + [ [!DNL Campaign] 옵션 구성](administration/options.md)
+   + [외부 계정 구성](administration/external-account.md)
+   + [열거 관리](administration/enumerations.md)
    + [JavaScript 코드를 사용하여 작업](administration/javascript-codes.md)
 + [Campaign v8(콘솔) 설명서 >](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/campaign-home)

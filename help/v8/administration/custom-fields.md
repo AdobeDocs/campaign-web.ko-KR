@@ -2,10 +2,10 @@
 title: 사용자 정의 필드
 description: 사용자 정의 필드를 구성하는 방법 및 인터페이스에서 해당 가시성을 알아봅니다.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: 27e44682178267353418de210af51067eee4141b
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 24%
+ht-degree: 22%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_link"
 >title="링크 속성"
->abstract="쿼리 모델러를 사용하여 링크 유형 사용자 정의 필드를 표시하는 규칙을 지정합니다. 예를 들어 다른 필드의 입력에 따라 목록 값을 제한합니다."
+>abstract="쿼리 모델러를 사용하여 링크 유형 사용자 정의 필드를 표시하는 규칙을 지정합니다. 예를 들어 다른 필드의 입력을 기준으로 목록 값을 제한합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_layout"
@@ -38,6 +38,7 @@ ht-degree: 24%
 >abstract="하위 섹션의 인터페이스에 표시할 이름을 지정합니다."
 
 <!-- NOT USED IN THE UI?-->
+
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings"
 >title="속성 설정"
@@ -108,7 +109,7 @@ ht-degree: 24%
 * **[!UICONTROL 보이는 경우]**: 필드가 표시되는 시기를 제어하는 xtk 식을 사용하여 조건을 정의합니다. 예를 들어 다른 필드가 비어 있으면 이 필드를 숨깁니다.
 * **[!UICONTROL 필수]**: 인터페이스에서 필드를 필수 항목으로 만듭니다.
 * **[!UICONTROL 읽기 전용]**: 인터페이스에서 필드를 읽기 전용으로 만듭니다. 사용자가 필드의 값을 편집할 수 없습니다.
-* **[!UICONTROL 필터 설정]**(링크 유형 필드의 경우): 쿼리 모델러를 사용하여 링크 유형 사용자 지정 필드를 표시하는 규칙을 지정합니다. 예를 들어 다른 필드의 입력에 따라 목록 값을 제한합니다.
+* **[!UICONTROL 필터 설정]**(링크 유형 필드의 경우): 쿼리 모델러를 사용하여 링크 유형 사용자 지정 필드를 표시하는 규칙을 지정합니다. 예를 들어 다른 필드의 입력을 기준으로 목록 값을 제한합니다.
 
   `$(<field-name>)` 구문을 사용하여 조건의 다른 필드에 입력한 값을 참조할 수도 있습니다. 이렇게 하면 아직 데이터베이스에 저장되지 않은 경우에도 양식에 입력한 대로 필드의 현재 값을 참조할 수 있습니다.
 

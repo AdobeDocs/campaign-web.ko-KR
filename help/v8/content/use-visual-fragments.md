@@ -4,20 +4,14 @@ title: 이메일에 비주얼 조각 추가
 description: 이메일에 시각적 조각을 추가하는 방법 알아보기
 badge: label="제한 공개"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '573'
 ht-degree: 14%
 
 ---
 
 # 이메일에 비주얼 조각 추가 {#use-visual-fragments}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="이메일 시각적 조각"
->abstract="이제 시각적 조각을 만들어 사용할 수 있습니다. 여러 이메일 게재 간에 또는 콘텐츠 템플릿에서 재사용할 수 있는 사전 정의된 시각적 블록입니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 >[!AVAILABILITY]
 >

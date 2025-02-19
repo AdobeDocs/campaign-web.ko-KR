@@ -1,14 +1,21 @@
 ---
 title: 대상 매핑 관리
 description: 대상 매핑을 관리하는 방법을 알아봅니다.
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 2%
+source-wordcount: '787'
+ht-degree: 3%
 
 ---
 
 # 대상 매핑 관리 {#target-mappings}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="대상 매핑"
+>abstract="이제 Campaign 웹 사용자 인터페이스에서 대상 매핑을 만들 수 있습니다. Target 매핑은 다양한 게재 채널(이메일, SMS, 푸시 알림)이 스키마의 데이터 필드에 연결되는 방식을 정의합니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_list"

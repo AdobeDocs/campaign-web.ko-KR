@@ -2,7 +2,7 @@
 title: 열거 관리
 description: 열거형으로 작업하는 방법을 알아봅니다.
 exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 27%
@@ -12,7 +12,7 @@ ht-degree: 27%
 # 열거 관리 {#enumerations}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
+>id="acw_homepage_welcome_rn4"
 >title="열거형 만들기"
 >abstract="이제 Adobe Campaign Web 사용자 인터페이스를 통해 직접 열거를 만들 수 있습니다. 열거형은 필드를 채우기 위해 시스템에서 제안하는 값 목록입니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"

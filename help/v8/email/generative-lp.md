@@ -6,16 +6,16 @@ exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# AI Assistant를 사용하여 랜딩 페이지 생성{#generative-lp}
+# AI 어시스턴트를 사용하여 랜딩 페이지 생성{#generative-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
->title="AI로 랜딩 페이지 생성"
->abstract="이제 AI Assistant를 사용하여 랜딩 페이지 게재를 만들 수 있으며, 이를 통해 텍스트, 이미지 또는 전체 페이지 레이아웃을 생성할 수 있습니다."
+>title="AI를 사용하여 랜딩 페이지 생성"
+>abstract="이제 AI 어시스턴트를 사용하여 랜딩 페이지 게재를 만들 수 있으며 이를 통해 텍스트, 이미지 또는 전체 페이지 레이아웃을 생성할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 

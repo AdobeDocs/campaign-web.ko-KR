@@ -1,10 +1,11 @@
 ---
 title: 대상 매핑 관리
 description: 대상 매핑을 관리하는 방법을 알아봅니다.
-source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
+exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
+source-git-commit: 24691b7d6e71e0a6986a1e1fdd0d709cf869e9dd
 workflow-type: tm+mt
 source-wordcount: '787'
-ht-degree: 3%
+ht-degree: 15%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="대상 매핑"
->abstract="이제 Campaign 웹 사용자 인터페이스에서 대상 매핑을 만들 수 있습니다. Target 매핑은 다양한 게재 채널(이메일, SMS, 푸시 알림)이 스키마의 데이터 필드에 연결되는 방식을 정의합니다."
+>abstract="이제 Campaign Web 사용자 인터페이스에서 대상 매핑을 만들 수 있습니다. 대상 매핑은 다양한 게재 채널(이메일, SMS, 푸시 알림)이 스키마의 데이터 필드에 연결되는 방식을 정의합니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
@@ -37,12 +38,12 @@ Adobe Campaign과 함께 제공되는 기본 제공 대상 매핑에 대한 자�
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_properties"
 >title="대상 매핑 속성"
->abstract="**[!UICONTROL 속성]** 섹션에서 대상 매핑 및 대상 모집단에 대한 일반 설정을 정의할 수 있습니다."
+>abstract="**[!UICONTROL 속성]** 섹션을 사용하면 대상 매핑과 대상 집단에 대한 일반적인 설정을 정의할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_mapping"
 >title="대상 매핑 매핑"
->abstract="**[!UICONTROL 매핑]** 섹션을 통해 다양한 게재 주소 필드에 사용할 대상 매핑의 스키마에서 특성을 식별할 수 있습니다."
+>abstract="**[!UICONTROL 매핑]** 섹션을 사용하면 다양한 게재 주소 필드에 사용할 대상 매핑 스키마의 속성을 식별할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_denylist"
@@ -52,7 +53,7 @@ Adobe Campaign과 함께 제공되는 기본 제공 대상 매핑에 대한 자�
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_storage"
 >title="대상 매핑 스토리지"
->abstract="**[!UICONTROL 저장소]** 섹션을 통해 로그를 저장할 위치를 식별할 수 있습니다."
+>abstract="**[!UICONTROL 스토리지]** 섹션을 사용하면 로그를 저장해야 하는 위치를 식별할 수 있습니다."
 
 새 대상 매핑을 만들려면 **[!UICONTROL 관리]** > **[!UICONTROL 대상 매핑]** 메뉴에 액세스하십시오. **[!UICONTROL 매핑 만들기]** 단추를 클릭한 다음 아래 섹션에 설명된 단계를 수행합니다.
 

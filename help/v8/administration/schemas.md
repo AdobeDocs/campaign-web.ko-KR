@@ -1,10 +1,11 @@
 ---
 title: 스키마 작업
 description: 스키마 작업 방법을 알아봅니다.
-source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
+exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
+source-git-commit: 24691b7d6e71e0a6986a1e1fdd0d709cf869e9dd
 workflow-type: tm+mt
 source-wordcount: '467'
-ht-degree: 2%
+ht-degree: 26%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="스키마 작업"
->abstract="이제 목록에서 스키마 이름을 선택하여 스키마 세부 정보에 액세스할 수 있습니다. 사용자 정의 필드 편집은 **사용자 정의 세부 정보 편집** 단추에서도 액세스할 수 있습니다."
+>abstract="이제 목록에서 스키마 이름을 선택하여 스키마의 세부 정보에 액세스할 수 있습니다. 사용자 정의 필드 편집은 **사용자 정의 세부 정보 편집** 버튼으로도 액세스할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 
@@ -21,11 +22,11 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="스키마"
->abstract="**[!DNL Adobe Campaign]**&#x200B;은(는) XML 기반 스키마를 사용하여 응용 프로그램 내의 데이터의 물리적 및 논리적 구조를 정의합니다. 이 화면에서 목록에서 이름을 선택하여 기존의 모든 스키마를 보고 스키마 세부 정보에 액세스할 수 있습니다. 필터는 편집 가능한 스키마만 표시하는 것과 같이 목록을 구체화하는 데 도움이 됩니다."
+>abstract="**[!DNL Adobe Campaign]**&#x200B;의 경우 XML 기반 스키마를 사용하여 애플리케이션 내 데이터의 물리적, 논리적 구조를 정의합니다. 이 화면에서는 기존 스키마를 모두 볼 수 있으며 목록에서 스키마 이름을 선택하여 스키마의 세부 정보에 액세스할 수 있습니다. 편집 가능한 스키마만 표시하는 등 목록을 구체화하는 데 도움이 되는 필터를 사용할 수 있습니다."
 
 ## 스키마 정보 {#about}
 
-**[!DNL Adobe Campaign]**&#x200B;은(는) XML 기반 스키마를 사용하여 응용 프로그램 내의 데이터의 물리적 및 논리적 구조를 정의합니다. 스키마는 다음을 정의하는 데이터베이스 테이블에 연결된 XML 문서입니다.
+**[!DNL Adobe Campaign]**&#x200B;의 경우 XML 기반 스키마를 사용하여 애플리케이션 내 데이터의 물리적, 논리적 구조를 정의합니다. 스키마는 다음을 정의하는 데이터베이스 테이블에 연결된 XML 문서입니다.
 
 * SQL 테이블 구조(테이블 이름, 필드, 관계)입니다.
 * XML 데이터 구조(요소, 특성, 계층, 유형, 기본값, 레이블).
@@ -46,7 +47,7 @@ Adobe Campaign의 각 엔티티에는 전용 스키마가 있어 데이터 일�
 
 ![](assets/schemas-list.png)
 
-이 화면에서 기존의 모든 스키마를 볼 수 있습니다. 필터는 편집 가능한 스키마만 표시하는 것과 같이 목록을 구체화하는 데 도움이 됩니다.
+이 화면에서 기존의 모든 스키마를 볼 수 있습니다. 편집 가능한 스키마만 표시하는 등 목록을 구체화하는 데 도움이 되는 필터를 사용할 수 있습니다.
 
 스키마를 열려면 스키마 이름을 선택합니다. 자세한 스키마 보기가 표시됩니다.
 

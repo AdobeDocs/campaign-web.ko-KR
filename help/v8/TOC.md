@@ -6,9 +6,9 @@ title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
 source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '804'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
    + [얼리 릴리스](rn/e-release-notes.md)
    + [최신 릴리스](rn/release-notes.md)
    + 이전 릴리스 {#previous-release-notes}
-      + [2025 릴리스](rn/release-notes-25.md)
+      + [2025년 릴리스](rn/release-notes-25.md)
       + [2024년 릴리스](rn/release-notes-24.md)
    + [설명서 업데이트](rn/documentation-updates.md)
 + Adobe Campaign 시작하기 {#start}
@@ -118,7 +118,7 @@ ht-degree: 98%
          + [링크 스타일 정의](email/styling-links.md)
          + [인라인 스타일 속성 추가](email/inline-styling.md)
    + AI 어시스턴트 {#ai-assistant}
-      + [AI Assistant 작업](email/generative-gs.md)
+      + [AI 어시스턴트를 사용하여 작업하기](email/generative-gs.md)
       + [AI를 활용한 이메일 생성](email/generative-content.md)
       + [AI를 활용한 SMS 생성](email/generative-sms.md)
       + [AI를 활용한 푸시 알림 생성](email/generative-push.md)
@@ -228,7 +228,7 @@ ht-degree: 98%
    + [Adobe Experience Manager Assets as a Cloud Service로 자산 관리](integrations/aem-assets.md)
    + [Adobe Experience Manager as a Cloud Service로 템플릿 관리](integrations/aem-content.md)
 + 구성 {#conf}
-   + [비즈니스 규칙을 사용한 작업(유형화)](administration/typologies.md)
+   + [비즈니스 규칙 작업 (유형화)](administration/typologies.md)
    + [대상 매핑 관리](administration/target-mappings.md)
    + [스키마 작업](administration/schemas.md)
    + [사용자 정의 필드 구성](administration/custom-fields.md)

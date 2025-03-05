@@ -1,12 +1,12 @@
 ---
 title: 기술 사용자를 Adobe Developer 콘솔로 마이그레이션
-description: Campaign Standard에서 Campaign V8로 사용자 액세스 관리를 마이그레이션하는 방법 알아보기
+description: 사용자 액세스 관리를 Campaign Standard에서 Campaign V8로 마이그레이션하는 방법에 대해 알아봅니다.
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+source-git-commit: d575ab25d4bd3f80bd8db1a778961fc0f45cab1c
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '982'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ Adobe Campaign Standard과 Adobe Campaign V8 모두 사용자가 다양한 사�
 >
 >이러한 역할/명명된 권한의 기능은 구현에 따라 달라질 수 있으며, 이로 인해 권한 부여 문제(예: 권한 상승 또는 기능 중단)가 발생할 수 있습니다. 적절한 액세스 제어를 위해 전환 후 이러한 매핑을 검토하는 것이 좋습니다. [권한에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
-아래 표는 Adobe Campaign Standard에서 Campaign V8로 전환할 때 사용자 역할 그룹에 대한 마이그레이션 접근 방식을 간략하게 설명합니다. Campaign Standard에서 **보안 그룹**(Campaign V8에서 **연산자 그룹**)은(는) 사용자에게 역할 집합을 할당하는 데 사용됩니다. 일부 보안 그룹/운영자 그룹은 즉시 사용할 수 있지만, 사용자는 필요한 경우 새 그룹을 만들거나 기존 그룹을 수정할 수 있습니다.
+아래 표는 Adobe Campaign Standard에서 Campaign V8로 전환할 때 사용자 역할 그룹에 대한 마이그레이션 접근 방식을 간략하게 설명합니다. Campaign Standard에서는 Campaign V8에서 **연산자 그룹**&#x200B;이라고 하는 **보안 그룹**&#x200B;을(를) 사용하여 사용자에게 역할 집합을 할당합니다. 일부 보안 그룹/운영자 그룹은 즉시 사용할 수 있지만, 사용자는 필요한 경우 새 그룹을 만들거나 기존 그룹을 수정할 수 있습니다.
 
 | | **Campaign Standard** | **Campaign V8** |
 |---------|----------|---------|
@@ -45,6 +45,10 @@ Adobe Campaign Standard과 Campaign V8 모두에서 **보안 그룹** 및 **운�
 | 워크플로 감독자 | 워크플로 감독자  |
 
 ## 사용자 역할에서 명명된 권한으로 마이그레이션 접근 방식
+
+>[!CAUTION]
+>
+>Adobe Campaign Standard에서 Campaign V8로 마이그레이션하는 동안 **데이터 모델** 역할이 있지만 **관리**&#x200B;이(가) 아닌 사용자는 Campaign V8에서 스키마를 만들려면 관리 권한이 필요하므로 자동으로 **관리** 액세스 권한을 갖게 됩니다. 이를 방지하려면 마이그레이션 전에 **데이터 모델** 역할을 제거하십시오.
 
 Adobe Campaign Standard에서 용어 **사용자 역할**&#x200B;은(는) Campaign V8에서 **명명된 권한**&#x200B;입니다. 아래 표는 Campaign Standard의 **사용자 역할**&#x200B;에 해당하는 Campaign V8의 **명명된 권한**&#x200B;에 사용되는 용어를 간략하게 설명합니다.
 
@@ -63,6 +67,12 @@ Adobe Campaign Standard에서 용어 **사용자 역할**&#x200B;은(는) Campai
 | 워크플로 | 워크플로 | 워크플로우 시작, 중지, 일시 중지 등의 실행을 관리할 수 있는 권한. |
 
 ## 조직 단위의 마이그레이션 접근 방식
+
+>[!CAUTION]
+>
+>직접 또는 간접 상위로 **모두(모두)**이(가) 없는 Adobe Campaign Standard의 조직 단위는 Campaign V8로 마이그레이션되지 않습니다.
+></br>
+>여러 보안 그룹의 사용자에게는 최상위 보안 그룹의 조직 단위가 할당됩니다. 여러 그룹에 병렬 최상위 단위가 있는 경우 Campaign Standard에서 로그인이 제한되지만 마이그레이션 후 Campaign v8에 더 광범위한 액세스 권한을 부여하므로 권한이 잠재적으로 커질 수 있습니다. 이를 방지하려면 병렬 조직 단위를 사용하는 보안 그룹에 사용자를 할당하지 마십시오.
 
 Adobe Campaign Standard에서 **조직 단위** t는 유사한 액세스 제어를 유지하기 위해 Campaign V8의 기존 **폴더** 계층 구조 모델에 매핑됩니다. [폴더 관리에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
@@ -109,3 +119,5 @@ Campaign Standard에서 마이그레이션된 연산자는 Campaign V8의 특정
 * Adobe Experience Manager 애플리케이션 관리자
 
 * 릴레이 계정
+
+Adobe Campaign Standard에서 생성되고 사용자에게 할당된 사용자 정의 역할은 Campaign V8로 마이그레이션되지 않습니다.

@@ -4,7 +4,7 @@ description: 사용자 액세스 관리를 Campaign Standard에서 Campaign V8�
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: d575ab25d4bd3f80bd8db1a778961fc0f45cab1c
+source-git-commit: 31befa42b04bef1a2777df9f2bd494481ccf67cd
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 2%
@@ -89,7 +89,9 @@ Campaign V8에서 **프로그램**&#x200B;은(는) **폴더**(으)로 표시됩�
 **Program**&#x200B;은(는) Campaign V8에서 **Folder**(으)로 처리되므로 다른 폴더와 동일한 방식으로 액세스 권한을 관리할 수 있습니다. 마이그레이션 후 Campaign Standard 관리자는 다음 단계를 수행할 수 있습니다.
 
 1. 탐색기에서 폴더를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL 속성...]**&#x200B;을 선택합니다.
+
 1. **[!UICONTROL 보안]** 탭으로 이동합니다.
+
 1. 원하는 액세스 모델에 따라 운영자 그룹 권한을 수정합니다. 
 
 ## REST API에 액세스하기 위한 제품 프로필 매핑 

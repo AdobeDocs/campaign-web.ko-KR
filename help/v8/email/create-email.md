@@ -3,9 +3,9 @@ audience: end-user
 title: 첫 이메일 보내기
 description: Campaign 웹 사용자 인터페이스를 사용하여 첫 번째 이메일을 보내는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: cf114d180774a1956bafa340e9ceac13acc93489
+source-git-commit: bab5f3355be8b667dd72774b95245e9f7c3ac28f
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1492'
 ht-degree: 51%
 
 ---
@@ -164,7 +164,7 @@ ht-degree: 51%
 
    >[!NOTE]
    >
-   >특정 사용 사례에서는 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 사용할 수 없습니다. 제한 사항은 이 섹션](#content-simulation-limitations)의 [에 자세히 설명되어 있습니다.
+   >특정 컨텍스트에서는 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 사용할 수 없습니다. 제한 사항은 이 섹션](#content-simulation-limitations)의 [에 자세히 설명되어 있습니다.
 
 1. 왼쪽에서 이메일을 미리 보는 데 사용할 프로필을 선택합니다.
 
@@ -195,7 +195,7 @@ ht-degree: 51%
 
    언제든지 콘텐츠 시뮬레이션 화면에서 **[!UICONTROL 증명 보기]** 버튼을 클릭하여 전송 상태를 확인하고 보낸 증명에 액세스할 수 있습니다.
 
-## 콘텐츠 시뮬레이션 제한 사항 {#content-simulation-limitations}
+### 콘텐츠 시뮬레이션 제한 사항 {#content-simulation-limitations}
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_multilingual"

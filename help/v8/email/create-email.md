@@ -3,10 +3,10 @@ audience: end-user
 title: 첫 이메일 보내기
 description: Campaign 웹 사용자 인터페이스를 사용하여 첫 번째 이메일을 보내는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: cf114d180774a1956bafa340e9ceac13acc93489
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 56%
+source-wordcount: '1493'
+ht-degree: 51%
 
 ---
 
@@ -162,6 +162,10 @@ ht-degree: 56%
 
    ![](assets/review-email.png){zoomable="yes"}
 
+   >[!NOTE]
+   >
+   >특정 사용 사례에서는 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 사용할 수 없습니다. 제한 사항은 이 섹션](#content-simulation-limitations)의 [에 자세히 설명되어 있습니다.
+
 1. 왼쪽에서 이메일을 미리 보는 데 사용할 프로필을 선택합니다.
 
    오른쪽 창에는 선택한 프로필을 기반으로 이메일 미리보기가 표시됩니다. 여러 프로필을 추가한 경우 프로필 간에 전환하여 해당 이메일을 미리 볼 수 있습니다.
@@ -190,6 +194,37 @@ ht-degree: 56%
    ![](assets/proof-sent.png){zoomable="yes"}
 
    언제든지 콘텐츠 시뮬레이션 화면에서 **[!UICONTROL 증명 보기]** 버튼을 클릭하여 전송 상태를 확인하고 보낸 증명에 액세스할 수 있습니다.
+
+## 콘텐츠 시뮬레이션 제한 사항 {#content-simulation-limitations}
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_multilingual"
+>title="콘텐츠 시뮬레이션이 지원되지 않음"
+>abstract="다국어 게재에 하나의 로케일만 포함되어 있으므로 **콘텐츠 시뮬레이션** 단추가 비활성화됩니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_reconcilied_deliveries"
+>title="콘텐츠 시뮬레이션이 지원되지 않음"
+>abstract="**콘텐츠 시뮬레이션** 단추가 이 단계의 조정된 게재와 호환되지 않으므로 사용할 수 없습니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_ffda"
+>title="콘텐츠 시뮬레이션이 지원되지 않음"
+>abstract="**콘텐츠 시뮬레이션** 단추가 Campaign Enterprise FFDA(Full Federated Access) 모드에서 지원되지 않으므로 비활성화되었습니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_no_file"
+>title="콘텐츠 시뮬레이션이 지원되지 않음"
+>abstract="업로드된 콘텐츠가 없으므로 **콘텐츠 시뮬레이션** 단추가 비활성화됩니다."
+
+경우에 따라 콘텐츠 시뮬레이션을 수행할 수 없으며 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼이 비활성화됩니다.
+
+다음과 같은 경우에는 콘텐츠 시뮬레이션이 지원되지 않습니다.
+
+<!--* When a multilingual delivery contains only one locale,-->
+* 조정된 게재 사용,
+* Campaign 배포 모델이 [Adobe Campaign Enterprise FFDA(Full Federated Access)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}인 경우
+* 파일이 업로드되지 않은 경우.
 
 ## 이메일 전송 및 모니터링 {#prepare-send}
 

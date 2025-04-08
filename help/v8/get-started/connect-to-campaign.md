@@ -2,10 +2,10 @@
 title: Adobe Campaign 웹 인터페이스에 연결
 description: Adobe Campaign Web 사용자 인터페이스에 접속하는 방법 알아보기
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
+source-git-commit: 11bad3c29ebeb4e81187ae2c1786262b6ac89a70
 workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -19,9 +19,9 @@ SSO(Single Sign-On)만 사용하여 Campaign에 접속할 수도 있습니다. �
 
 Adobe Experience Cloud에 로그인하기 위한 기본 단계는 다음과 같습니다.
 
-1. [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}로 이동합니다.
+1. [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} 검색.
 
-1. Adobe ID 또는 Enterprise ID를 사용하여 로그인합니다. Adobe의 ID 종류에 대해 자세히 알아보려면 [이 문서](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}를 참조하십시오.
+1. Adobe ID 또는 Enterprise ID를 사용하여 로그인합니다. 이 문서에서](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"} Adobe Systems [ID의 ID에 대해 자세히 알아보십시오.
 
    Experience Cloud에 로그인하면 모든 솔루션 및 앱에 빠르게 액세스할 수 있습니다.
 
@@ -31,7 +31,7 @@ Adobe Experience Cloud에 로그인하기 위한 기본 단계는 다음과 같�
 
    ![](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
 
-   Adobe Experience Cloud의 조직에 대한 자세한 내용은 [이 문서](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko){target="_blank"}를 참조하십시오.
+   이 문서에서](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko){target="_blank"} Adobe Experience Cloud[의 조직에 대해 자세히 알아보세요.
 
 
 ## Adobe Campaign 액세스 {#access-to-campaign}
@@ -100,7 +100,7 @@ Campaign Web 사용자 인터페이스를 탐색할 때 주어진 권한에 따�
 * Campaign Web 사용자 인터페이스에 대한 피드백 공유
 * 조직 간 전환
 * Adobe Experience Cloud 솔루션과 앱 간 전환
-* [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=ko)에서 도움말 검색{target="_blank"}
+* Adobe Systems Experience League에서 [도움말을 검색](https://experienceleague.adobe.com/docs/?lang=ko){target="_blank"}
 * 제품 알림 확인
 * Adobe 프로필을 편집 및 [선호하는 언어 업데이트](#language-pref) 또는 [밝은/어두운 테마로 전환](#dark-theme) 등의 설정 관리
 
@@ -134,17 +134,10 @@ Campaign Web의 기본 언어는 사용자 프로필에 지정된 기본 언어�
 1. 그런 다음 이메일 주소 아래에 표시되는 언어 링크를 클릭합니다.
 1. 원하는 언어를 선택하고 **저장**&#x200B;을 클릭합니다. 사용 중인 구성 요소가 첫 번째 언어로 현지화되어 있지 않은 경우 두 번째 언어를 선택할 수 있습니다.
 
-<!--
->[!CAUTION]
->
->If you plan to use [AI-powered contextual help](using-ai.md) capabilities, you must set your prefered language to English. Other languages are not supported.
->
--->
-
 ## 어두운 테마 및 밝은 테마 {#dark-theme}
 
 Adobe Campaign은 밝은 테마와 어두운 테마로 제공됩니다. 기본적으로 사용자 인터페이스는 밝은 테마로 활성화됩니다. 어두운 테마로 전환하려면 프로필 아이콘을 클릭하고 **어두운 테마** 토글을 사용하여 활성화/비활성화합니다.
 
-사용자 프로필 설정 및 계정 환경 설정은 [이 섹션](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=ko#preferences){target="_blank"}에서 자세히 설명합니다.
+사용자 프로필 설정 및 계정 기본 설정은 이 섹션에 자세히 설명되어 [있습니다](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=ko#preferences){target="_blank"}.
 
-Experience Cloud 중앙 인터페이스 구성 요소에 대한 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=ko){target="_blank"}를 참조하십시오.
+이 문서에서](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=ko){target="_blank"} Experience Cloud 중앙 인터페이스 구성 요소에 [대해 자세히 알아보십시오.

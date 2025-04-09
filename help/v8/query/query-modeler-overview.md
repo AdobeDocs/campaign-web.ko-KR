@@ -3,10 +3,10 @@ audience: end-user
 title: 쿼리 모델러로 작업
 description: Adobe Campaign 웹 쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
+source-git-commit: bf7ee45a0702b66af6962453893cf9c50c140d54
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 20%
+source-wordcount: '689'
+ht-degree: 19%
 
 ---
 
@@ -37,24 +37,29 @@ Adobe Campaign 웹 사용자 인터페이스에는 다양한 기준을 기반으
 
 | 사용 | 예제 |
 |  ---  |  ---  |
-| **대상 정의**: 메시지 또는 워크플로에서 타겟팅할 모집단을 지정하고 필요에 맞는 새 대상을 쉽게 만들 수 있습니다. [대상자를 만드는 방법을 알아봅니다](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **워크플로 활동 사용자 지정**: **분할** 및 **조정**&#x200B;과 같은 워크플로 활동 내에 규칙을 적용하여 특정 요구 사항에 맞게 조정하십시오. [워크플로우 활동에 대해 자세히 알아보기](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **미리 정의된 필터**: 데이터 목록을 사용하거나 게재 대상을 구성하는 등 다양한 필터링 작업 중에 바로 가기 역할을 하는 미리 정의된 필터를 만듭니다. [미리 정의된 필터로 작업하는 방법을 알아봅니다](../get-started/predefined-filters.md) | ![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **보고서 데이터 필터링**: 보고서에 표시된 데이터를 필터링하는 규칙을 추가합니다. [보고서 작업 방법 알아보기](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **목록 사용자 지정**: 사용자 지정 규칙을 만들어 수신자, 게재 목록 등과 같은 목록에 표시되는 데이터를 필터링합니다. [목록을 필터링하는 방법 알아보기](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **조건부 콘텐츠 빌드**: 다른 수신자에게 표시할 콘텐츠를 정의하는 조건을 만들어 개인화되고 관련 있는 메시징을 보장함으로써 이메일 콘텐츠를 동적으로 만듭니다. [조건부 콘텐츠를 만드는 방법을 알아봅니다](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |
+| **대상 정의**: 메시지 또는 워크플로에서 타겟팅할 모집단을 지정하고 필요에 맞는 새 대상을 쉽게 만들 수 있습니다. [대상자를 만드는 방법을 알아봅니다](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}{zoomable=&quot;yes&quot;}{width=&quot;200&quot; align=&quot;center&quot; zoomable=&quot;yes&quot;} |
+| **워크플로 활동 사용자 지정**: **분할** 및 **조정**&#x200B;과 같은 워크플로 활동 내에 규칙을 적용하여 특정 요구 사항에 맞게 조정하십시오. [워크플로우 활동에 대해 자세히 알아보기](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}{zoomable=&quot;yes&quot;}{width=&quot;200&quot; align=&quot;center&quot; zoomable=&quot;yes&quot;} |
+| **미리 정의된 필터**: 데이터 목록을 사용하거나 게재 대상을 구성하는 등 다양한 필터링 작업 중에 바로 가기 역할을 하는 미리 정의된 필터를 만듭니다. [미리 정의된 필터로 작업하는 방법을 알아봅니다](../get-started/predefined-filters.md) | ![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}{zoomable=&quot;yes&quot;}{width=&quot;200&quot; align=&quot;center&quot; zoomable=&quot;yes&quot;} |
+| **보고서 데이터 필터링**: 보고서에 표시된 데이터를 필터링하는 규칙을 추가합니다. [보고서 작업 방법 알아보기](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}{zoomable=&quot;yes&quot;}{width=&quot;200&quot; align=&quot;center&quot; zoomable=&quot;yes&quot;} |
+| **목록 사용자 지정**: 사용자 지정 규칙을 만들어 수신자, 게재 목록 등과 같은 목록에 표시되는 데이터를 필터링합니다. [목록을 필터링하는 방법 알아보기](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}{zoomable=&quot;yes&quot;}{width=&quot;200&quot; align=&quot;center&quot; zoomable=&quot;yes&quot;} |
+| **조건부 콘텐츠 빌드**: 다른 수신자에게 표시할 콘텐츠를 정의하는 조건을 만들어 개인화되고 관련 있는 메시징을 보장함으로써 이메일 콘텐츠를 동적으로 만듭니다. [조건부 콘텐츠를 만드는 방법을 알아봅니다](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"}{width=&quot;200&quot; align=&quot;center&quot; zoomable=&quot;yes&quot;} |
 
 >[!NOTE]
 >
 >대상이나 사전 정의된 필터와 같이 규칙이 적용된 클라이언트 콘솔에서 만든 개체에 액세스할 때 **[!UICONTROL 대상 세분화]** 섹션이 표시될 수 있습니다. 즉, 규칙 대상을 세분화하기 위해 추가 매개 변수가 구성되었습니다. 이러한 매개 변수는 콘솔에서만 수정할 수 있습니다.
 >
->![](assets/target-warning.png){zoomable="yes"}
+>![](assets/target-warning.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 ## 쿼리 모델러 인터페이스 {#interface}
 
+>[!CONTEXTUALHELP]
+>id="acw_rule_builder_switch_button"
+>title="새로운 사용자 경험"
+>abstract="이 토글을 사용하여 클래식 쿼리 모델러와 새 규칙 빌더 경험 사이를 전환할 수 있습니다."
+
 쿼리 모델러는 쿼리를 작성하는 중앙 캔버스와 쿼리에 대한 정보를 제공하는 오른쪽 창을 제공합니다.
 
-![](assets/query-interface.png){zoomable="yes"}
+![](assets/query-interface.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
 
 ### 중앙 캔버스 {#canvas}
 

@@ -3,16 +3,17 @@ audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: 664876e479b0580f99b77be5fbf31a18b3bfcecb
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '2098'
-ht-degree: 53%
+source-wordcount: '2106'
+ht-degree: 37%
 
 ---
 
+
 # 표현식 편집 {#expression}
 
-표현식을 편집하려면 수동으로 조건을 입력하여 규칙을 만듭니다. 이 모드에서는 날짜, 문자열, 숫자 필드, 정렬 등과 같은 특정 쿼리를 수행하는 데 사용되는 값을 조작할 수 있는 고급 함수를 사용할 수 있습니다.
+표현식을 편집하려면 수동으로 조건을 입력하여 규칙을 만듭니다. 이 모드에서는 날짜, 문자열, 숫자 필드 및 정렬과 같은 특정 쿼리를 수행하는 데 사용되는 값을 조작할 수 있는 고급 함수를 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -23,24 +24,24 @@ ht-degree: 53%
 표현식 편집기는 쿼리 모델러 **[!UICONTROL 표현식 편집]** 단추에서 사용할 수 있습니다. 이 단추는 사용자 지정 조건을 구성할 때 **[!UICONTROL 특성]** 및 **[!UICONTROL 값]** 필드에 사용할 수 있습니다.
 
 | **특성** 필드에서 액세스 | **값** 필드에서 액세스 |
-|  ---  |  ---  |
-| ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| --- | --- |
+| ![특성 필드에 대한 식 편집기](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![값 필드에 대한 식 편집기](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 표현식 편집기에서 제공하는 사항:
 
-* 식이 정의된 **입력 필드(1)**&#x200B;입니다.
+* 식이 정의된 **입력 필드(1)**.
 * 식에 사용할 수 있고 쿼리의 타겟팅 차원에 해당하는 사용 가능한 **필드(2)**&#x200B;의 목록입니다.
 * 범주별로 정렬된 **도우미 함수(3)**.
 
 입력 필드에 직접 표현식을 입력하여 표현식을 편집합니다. 필드나 도우미 함수를 추가하려면 추가할 식에 커서를 놓고 + 단추를 클릭합니다.
 
-![](assets/expression-editor.png){zoomable="yes"}
+![식 편집기 인터페이스](assets/expression-editor.png){zoomable="yes"}
 
 식이 준비되면 **[!UICONTROL 확인]** 단추를 클릭합니다. 선택한 필드에 표현식이 표시됩니다. 편집하려면 표현식 편집기를 열고 원하는 대로 변경합니다.
 
-아래 예제에서는 **[!UICONTROL 값]** 필드에 대해 구성된 식을 보여 줍니다. 편집하려면 **[!UICONTROL 표현식 편집]** 단추를 사용하여 표현식 편집기를 열어야 합니다.
+아래 예제에서는 **[!UICONTROL 값]** 필드에 대해 구성된 식을 보여 줍니다. 편집하려면 **[!UICONTROL 표현식 편집]** 단추를 사용하여 표현식 편집기를 여십시오.
 
-![](assets/edit-expression-value.png){zoomable="yes"}
+![값 필드에 대한 표현식 편집 예](assets/edit-expression-value.png){zoomable="yes"}
 
 ## 도우미 기능
 
@@ -48,330 +49,326 @@ ht-degree: 53%
 
 ### 집계
 
-집계 함수는 값 집합에 대한 계산을 수행하는 데 사용됩니다.
+집계 함수는 값 집합에 대해 계산을 수행합니다.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td> <strong>이름</strong><br /> </td> 
-   <td> <strong>설명</strong><br /> </td> 
-   <td> <strong>구문</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>평균</strong><br /> </td> 
-   <td> 숫자 유형 열 <br />의 평균을 반환합니다. </td> 
-   <td> Avg(&lt;값&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Count</strong><br /> </td> 
-   <td> <br /> 열의 null이 아닌 값 계산 </td> 
-   <td> Count(&lt;값&gt;)<br /></td>  
-  </tr> 
-  <tr> 
-   <td> <strong>모두 계산</strong><br /> </td> 
-   <td> 반환된 값 계산(모든 필드)<br /> </td> 
-   <td> CountAll()<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Countdistinct</strong><br /> </td> 
-   <td> <br /> 열의 null이 아닌 고유한 값 계산 </td> 
-   <td> Countdistinct(&lt;값&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>최대</strong><br /> </td> 
-   <td> 숫자, 문자열 또는 날짜 형식 열의 최대값 반환<br /> </td> 
-   <td> Max(&lt;값&gt;)<br /></td>  
-  </tr> 
-  <tr> 
-   <td> <strong>분</strong><br /> </td> 
-   <td> 숫자, 문자열 또는 날짜 형식 열의 최소값 반환<br /> </td> 
-   <td> Min(&lt;값&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>표준 개발</strong><br /> </td> 
-   <td> 숫자, 문자열 또는 날짜 열의 표준 편차 반환<br /> </td> 
-   <td> StdDev(&lt;값&gt;)<br /></td> 
-  </tr>
-  <tr> 
-   <td> <strong>StringAgg</strong><br /> </td> 
-   <td> 두 번째 인수의 문자로 구분된 문자열 형식 열의 값 연결을 반환합니다.<br /> </td> 
-   <td> StringAgg(&lt;값&gt;, &lt;문자열&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>합계</strong><br /> </td> 
-   <td> 숫자, 문자열 또는 날짜 형식 열의 값 합계를 반환합니다.<br /> </td> 
-   <td> Sum(&lt;값&gt;)<br /></td> 
-  </tr> 
- </tbody> 
+<table>
+<tbody>
+<tr>
+<td><strong>이름</strong></td>
+<td><strong>설명</strong></td>
+<td><strong>구문</strong></td>
+</tr>
+<tr>
+<td><strong>평균</strong></td>
+<td>숫자 유형 열의 평균 반환</td>
+<td>Avg(&lt;값&gt;)</td>
+</tr>
+<tr>
+<td><strong>계수</strong></td>
+<td>열의 null이 아닌 값 계산</td>
+<td>Count(&lt;값&gt;)</td>
+</tr>
+<tr>
+<td><strong>CountAll</strong></td>
+<td>반환된 값 계산(모든 필드)</td>
+<td>CountAll()</td>
+</tr>
+<tr>
+<td><strong>Countdistinct</strong></td>
+<td>열의 null이 아닌 개별 값 계산</td>
+<td>Countdistinct(&lt;값&gt;)</td>
+</tr>
+<tr>
+<td><strong>최대</strong></td>
+<td>숫자, 문자열 또는 날짜 유형 열의 최대값 반환</td>
+<td>Max(&lt;값&gt;)</td>
+</tr>
+<tr>
+<td><strong>최소</strong></td>
+<td>숫자, 문자열 또는 날짜 유형 열의 최소값 반환</td>
+<td>Min(&lt;값&gt;)</td>
+</tr>
+<tr>
+<td><strong>표준 개발</strong></td>
+<td>숫자, 문자열 또는 날짜 열의 표준 편차 반환</td>
+<td>StdDev(&lt;값&gt;)</td>
+</tr>
+<tr>
+<td><strong>문자열 집계</strong></td>
+<td>두 번째 인수의 문자로 구분된 문자열 유형 열 값의 연결을 반환합니다.</td>
+<td>StringAgg(&lt;값&gt;, &lt;문자열&gt;)</td>
+</tr>
+<tr>
+<td><strong>합계</strong></td>
+<td>숫자, 문자열 또는 날짜 유형 열 값의 합계 반환</td>
+<td>Sum(&lt;값&gt;)</td>
+</tr>
+</tbody>
 </table>
 
 ### 일자
 
-날짜 함수는 날짜 또는 시간 값을 조작하는 데 사용됩니다.
+날짜 함수는 날짜 또는 시간 값을 조작합니다.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td> <strong>이름</strong><br /> </td> 
-   <td> <strong>설명</strong><br /> </td> 
-   <td> <strong>구문</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>AddDays</strong><br /> </td> 
-   <td> 날짜에 일자 숫자 추가<br /> </td> 
-   <td> AddDays(&lt;날짜&gt;, &lt;숫자&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddHours</strong><br /> </td> 
-   <td> 날짜에 시간(시) 숫자 추가<br /> </td> 
-   <td> AddHours(&lt;날짜&gt;, &lt;숫자&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddMinutes</strong><br /> </td> 
-   <td> 날짜에 시간(분) 숫자 추가<br /> </td> 
-   <td> AddMinutes(&lt;날짜&gt;, &lt;숫자&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddMonths</strong><br /> </td> 
-   <td> 날짜에 개월 숫자 추가<br /> </td> 
-   <td> AddMonths(&lt;날짜&gt;, &lt;숫자&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddSeconds</strong><br /> </td> 
-   <td> 날짜에 시간(초) 숫자 추가<br /> </td> 
-   <td> AddSeconds(&lt;날짜&gt;, &lt;숫자&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddYears</strong><br /> </td> 
-   <td> 날짜에 연도 숫자 추가<br /> </td> 
-   <td> AddYears(&lt;날짜&gt;, &lt;숫자&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <td> <strong>ConvertNTZ</strong><br /> </td> 
-   <td> 정의된 세션 TZ<br/>을(를) 적용하여 타임스탬프 NTZ(표준 시간대 없는 타임스탬프)를 TZ(표준 시간대가 있는 타임스탬프)로 변환합니다. </td> 
-   <td> ConvertNTZ(&lt;날짜+시간&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <!--<td> <strong>ConvertTimezone</strong><br /> </td> 
-   <td> <br/> </td> 
-   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
-  </tr>-->
-  <tr> 
-   <td> <strong>날짜Cmp</strong><br /> </td> 
-   <td> 두 날짜 비교<br/> </td> 
-   <td> DateCmp(&lt;날짜&gt;,&lt;날짜&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <td> <strong>DateOnly</strong><br /> </td> 
-   <td> 날짜만 반환(00:00 시간 포함)*<br /> </td> 
-   <td> DateOnly(&lt;날짜&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Day</strong><br /> </td> 
-   <td> 날짜의 일자를 나타내는 숫자 반환<br /> </td> 
-   <td> Day(&lt;날짜&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DayOfYear</strong><br /> </td> 
-   <td> <br /> 날짜의 연도를 반환합니다. </td> 
-   <td> DayOfYear(&lt;날짜&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysAgo</strong><br /> </td> 
-   <td> 현재 날짜에서 n일을 뺀 날짜 반환<br /> </td> 
-   <td> DaysAgo(&lt;숫자&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysAgoInt</strong><br /> </td> 
-   <td> 현재 날짜에서 n일을 뺀 날짜(정수 yymmdd) 반환<br /> </td> 
-   <td> DaysAgoInt(&lt;숫자&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysDiff</strong><br /> </td> 
-   <td> 두 날짜 사이의 일자 수<br /> </td> 
-   <td> DaysDiff(&lt;종료 날짜&gt;, &lt;시작 날짜&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysOld</strong><br /> </td> 
-   <td> 날짜를 일 단위로 반환<br /> </td> 
-   <td> DaysOld(&lt;날짜&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>GetDate</strong><br /> </td> 
-   <td> 서버의 현재 시스템 날짜 반환<br /> </td> 
-   <td> GetDate()<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Hour</strong><br /> </td> 
-   <td> 날짜의 시간 반환<br /> </td> 
-   <td> Hour(&lt;날짜&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>HoursDiff</strong><br /> </td> 
-   <td> 두 날짜 사이의 시간(시) 숫자 반환<br /> </td> 
-   <td> HoursDiff(&lt;종료 날짜&gt;, &lt;시작 날짜&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Minute</strong><br /> </td> 
-   <td> 날짜의 시간(분) 반환<br /> </td> 
-   <td> Minute(&lt;날짜&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MinutesDiff</strong><br /> </td> 
-   <td> 두 날짜 사이의 시간(분) 숫자 반환<br /> </td> 
-   <td> MinutesDiff(&lt;종료 날짜&gt;, &lt;시작 날짜&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Month</strong><br /> </td> 
-   <td> 날짜의 월을 나타내는 숫자 반환<br /> </td> 
-   <td> Month(&lt;날짜&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MonthsAgo</strong><br /> </td> 
-   <td> 현재 날짜에서 n개월을 뺀 날짜 반환<br /> </td> 
-   <td> MonthsAgo(&lt;숫자&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MonthsDiff</strong><br /> </td> 
-   <td> 두 날짜 사이의 개월 숫자 반환<br /> </td> 
-   <td> MonthsDiff(&lt;종료 날짜&gt;, &lt;시작 날짜&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MonthsOld</strong><br /> </td> 
-   <td> 날짜를 월 단위로 반환<br /> </td> 
-   <td> MonthsOld(&lt;날짜&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Oldest</strong><br /> </td> 
-   <td> <br /> 범위에서 가장 오래된 날짜를 반환합니다. </td> 
-   <td> 가장 오래된 날짜(&lt;날짜, 날짜&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Second</strong><br /> </td> 
-   <td> 날짜의 시간(초) 반환<br /> </td> 
-   <td> Second(&lt;날짜&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SecondsDiff</strong><br /> </td> 
-   <td> 두 날짜 사이의 시간(초) 숫자 반환<br /> </td> 
-   <td> SecondsDiff(&lt;종료 날짜&gt;, &lt;시작 날짜&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubDays</strong><br /> </td> 
-   <td> 날짜에서 일자 숫자 빼기<br /> </td> 
-   <td> SubDays(&lt;날짜&gt;, &lt;숫자&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubHours</strong><br /> </td> 
-   <td> 날짜에서 시간(시) 숫자 빼기<br /> </td> 
-   <td> SubHours(&lt;날짜&gt;, &lt;숫자&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubMinutes</strong><br /> </td> 
-   <td> 날짜에서 시간(분) 숫자 빼기<br /> </td> 
-   <td> SubMinutes(&lt;날짜&gt;, &lt;숫자&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubMonths</strong><br /> </td> 
-   <td> 날짜에서 개월 숫자 빼기<br /> </td> 
-   <td> SubMonths(&lt;날짜&gt;, &lt;숫자&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubSeconds</strong><br /> </td> 
-   <td> 날짜에서 시간(초) 숫자 빼기<br /> </td> 
-   <td> SubSeconds(&lt;날짜&gt;, &lt;숫자&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubYears</strong><br /> </td> 
-   <td> 날짜에서 연도 숫자 빼기<br /> </td> 
-   <td> SubYears(&lt;날짜&gt;, &lt;숫자&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToDate</strong><br /> </td> 
-   <td> 날짜 + 시간을 날짜로 변환<br /> </td> 
-   <td> ToDate(&lt;날짜 + 시간&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToDateTime</strong><br /> </td> 
-   <td> 문자열을 날짜 + 시간으로 변환<br /> </td> 
-   <td> ToDateTime(&lt;문자열&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToTimestamp</strong><br /> </td> 
-   <td> 문자열을 타임스탬프<br />(으)로 변환합니다. </td> 
-   <td> ToTimestamp(&lt;문자열&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToTimeZone</strong><br /> </td> 
-   <td> 날짜 + 시간을 표준 시간대<br />(으)로 변환 </td> 
-   <td> ToTimeZone(&lt;날짜&gt;,&lt;시간대&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncDate</strong><br /> </td> 
-   <td> 날짜+시간을 가장 가까운 시간(초)으로 반올림<br /> </td> 
-   <td> TruncDate(@lastModified, &lt;시간(초) 숫자&gt;)<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>TruncDateTZ</strong><br /> </td> 
-   <td> 날짜 + 시간을 초 단위의 특정 정밀도로 반올림<br /> </td> 
-   <td> TruncDateTZ(&lt;날짜&gt;, &lt;시간(초) 숫자&gt;, &lt;시간대&gt;)<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>TruncQuarter</strong><br /> </td> 
-   <td> 날짜를 분기로 반올림<br /> </td> 
-   <td> TruncQuarter(&lt;날짜&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncTime</strong><br /> </td> 
-   <td> 시간 부분을 가장 가까운 시간(초)으로 반올림<br /> </td> 
-   <td> TruncTim(e&lt;날짜&gt;, &lt;시간(초) 숫자&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncWeek</strong><br /> </td> 
-   <td> 날짜를 요일로 반올림<br /> </td> 
-   <td> TruncWeek(&lt;날짜&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncYear</strong><br /> </td> 
-   <td> 날짜 + 시간을 연도의 1월 1일로 반올림<br /> </td> 
-   <td> TruncYear(&lt;날짜&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>WeekDay</strong><br /> </td> 
-   <td> 날짜의 요일을 나타내는 숫자 반환(0=Monday, 6=Sunday)<br /> </td> 
-   <td> WeekDay(&lt;날짜&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Year</strong><br /> </td> 
-   <td> 날짜의 연도를 나타내는 숫자 반환<br /> </td> 
-   <td> Year(&lt;날짜&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>YearAnd Month</strong><br /> </td> 
-   <td> 날짜의 연도 및 월을 나타내는 숫자 반환<br /> </td> 
-   <td> YearAndMonth(&lt;날짜&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <td> <strong>년 전</strong><br /> </td> 
-   <td> 지정된 날짜와 현재 날짜 사이의 연도 수를 반환합니다.<br /> </td> 
-   <td> YearsAgo(&lt;날짜&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>YearsDiff</strong><br /> </td> 
-   <td> 두 날짜 사이의 연도 숫자 반환<br /> </td> 
-   <td> YearsDiff(&lt;종료 날짜&gt;, &lt;시작 날짜&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>YearsOld</strong><br /> </td> 
-   <td> 날짜를 연 단위로 반환<br /> </td> 
-   <td> YearsOld(&lt;날짜&gt;)<br /> </td>  
-  </tr> 
- </tbody> 
+<table>
+<tbody>
+<tr>
+<td><strong>이름</strong></td>
+<td><strong>설명</strong></td>
+<td><strong>구문</strong></td>
+</tr>
+<tr>
+<td><strong>AddDays</strong></td>
+<td>일자에 일 수를 추가합니다.</td>
+<td>AddDays(&lt;날짜&gt;, &lt;숫자&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddHour</strong></td>
+<td>일자에 시간 수를 추가합니다.</td>
+<td>AddHours(&lt;날짜&gt;, &lt;숫자&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddMinutes</strong></td>
+<td>일자에 분 수를 추가합니다.</td>
+<td>AddMinutes(&lt;날짜&gt;, &lt;숫자&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddMonth</strong></td>
+<td>일자에 월 수를 추가합니다.</td>
+<td>AddMonths(&lt;날짜&gt;, &lt;숫자&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddSeconds</strong></td>
+<td>일자에 초 수를 추가합니다.</td>
+<td>AddSeconds(&lt;날짜&gt;, &lt;숫자&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddYears</strong></td>
+<td>일자에 연도 수를 추가합니다.</td>
+<td>AddYears(&lt;날짜&gt;, &lt;숫자&gt;)</td>
+</tr>
+<tr>
+<td><strong>변환 NTZ</strong></td>
+<td>타임스탬프 NTZ(timestamp without timezone)를 정의된 세션 TZ가 적용된 TZ(timestamp with timezone)로 변환</td>
+<td>ConvertNTZ(&lt;날짜+시간&gt;)</td>
+</tr>
+<tr>
+<td><strong>DateCmp</strong></td>
+<td>두 날짜 비교</td>
+<td>DateCmp(&lt;날짜&gt;, &lt;날짜&gt;)</td>
+</tr>
+<tr>
+<td><strong>DateOnly</strong></td>
+<td>날짜만 반환(00:00 시간 포함)</td>
+<td>DateOnly(&lt;날짜&gt;)</td>
+</tr>
+<tr>
+<td><strong>일</strong></td>
+<td>해당 일자의 요일을 나타내는 숫자를 반환합니다.</td>
+<td>Day(&lt;날짜&gt;)</td>
+</tr>
+<tr>
+<td><strong>DayOfYear</strong></td>
+<td>날짜의 연도를 반환합니다.</td>
+<td>DayOfYear(&lt;날짜&gt;)</td>
+</tr>
+<tr>
+<td><strong>DaysAgo</strong></td>
+<td>현재 날짜에서 n일을 뺀 날짜 반환</td>
+<td>DaysAgo(&lt;숫자&gt;)</td>
+</tr>
+<tr>
+<td><strong>DaysAgoInt</strong></td>
+<td>현재 날짜에서 n일을 뺀 날짜(정수 yymmdd) 반환</td>
+<td>DaysAgoInt(&lt;숫자&gt;)</td>
+</tr>
+<tr>
+<td><strong>DaysDiff</strong></td>
+<td>두 날짜 사이의 일자 수를 반환합니다.</td>
+<td>DaysDiff(&lt;종료 날짜&gt;, &lt;시작 날짜&gt;)</td>
+</tr>
+<tr>
+<td><strong>DaysOld</strong></td>
+<td>날짜를 일 단위로 반환</td>
+<td>DaysOld(&lt;날짜&gt;)</td>
+</tr>
+<tr>
+<td><strong>GetDate</strong></td>
+<td>서버의 현재 시스템 날짜 반환</td>
+<td>GetDate()</td>
+</tr>
+<tr>
+<td><strong>시간</strong></td>
+<td>날짜의 시간 반환</td>
+<td>Hour(&lt;날짜&gt;)</td>
+</tr>
+<tr>
+<td><strong>HoursDiff</strong></td>
+<td>두 날짜 사이의 시간(시) 숫자 반환</td>
+<td>HoursDiff(&lt;종료 날짜&gt;, &lt;시작 날짜&gt;)</td>
+</tr>
+<tr>
+<td><strong>분</strong></td>
+<td>일자의 분을 반환합니다.</td>
+<td>Minute(&lt;날짜&gt;)</td>
+</tr>
+<tr>
+<td><strong>MinutesDiff</strong></td>
+<td>두 날짜 사이의 시간(분) 숫자 반환</td>
+<td>MinutesDiff(&lt;종료 날짜&gt;, &lt;시작 날짜&gt;)</td>
+</tr>
+<tr>
+<td><strong>월</strong></td>
+<td>해당 일자의 월을 나타내는 숫자를 반환합니다.</td>
+<td>Month(&lt;날짜&gt;)</td>
+</tr>
+<tr>
+<td><strong>MonthsAgo</strong></td>
+<td>현재 날짜에서 n개월을 뺀 날짜 반환</td>
+<td>MonthsAgo(&lt;숫자&gt;)</td>
+</tr>
+<tr>
+<td><strong>MonthsDiff</strong></td>
+<td>두 날짜 사이의 개월 숫자 반환</td>
+<td>MonthsDiff(&lt;종료 날짜&gt;, &lt;시작 날짜&gt;)</td>
+</tr>
+<tr>
+<td><strong>개월 수</strong></td>
+<td>날짜를 월 단위로 반환</td>
+<td>MonthsOld(&lt;날짜&gt;)</td>
+</tr>
+<tr>
+<td><strong>가장 오래된</strong></td>
+<td>범위에서 가장 오래된 날짜 반환</td>
+<td>Oldest(&lt;날짜, 날짜&gt;)</td>
+</tr>
+<tr>
+<td><strong>초</strong></td>
+<td>일자의 초를 반환합니다.</td>
+<td>Second(&lt;날짜&gt;)</td>
+</tr>
+<tr>
+<td><strong>SecondsDiff</strong></td>
+<td>두 날짜 사이의 시간(초) 숫자 반환</td>
+<td>SecondsDiff(&lt;종료 날짜&gt;, &lt;시작 날짜&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubDays</strong></td>
+<td>일자에서 일 수를 뺍니다.</td>
+<td>SubDays(&lt;날짜&gt;, &lt;숫자&gt;)</td>
+</tr>
+<tr>
+<td><strong>하위 시간</strong></td>
+<td>일자에서 시간 수를 뺍니다.</td>
+<td>SubHours(&lt;날짜&gt;, &lt;숫자&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubMinutes</strong></td>
+<td>일자에서 분 수를 뺍니다.</td>
+<td>SubMinutes(&lt;날짜&gt;, &lt;숫자&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubMonths</strong></td>
+<td>일자에서 월 수를 뺍니다.</td>
+<td>SubMonths(&lt;날짜&gt;, &lt;숫자&gt;)</td>
+</tr>
+<tr>
+<td><strong>Subseconds</strong></td>
+<td>일자에서 초 수를 뺍니다.</td>
+<td>SubSeconds(&lt;날짜&gt;, &lt;숫자&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubYears</strong></td>
+<td>일자에서 연 수를 뺍니다.</td>
+<td>SubYears(&lt;날짜&gt;, &lt;숫자&gt;)</td>
+</tr>
+<tr>
+<td><strong>ToDate</strong></td>
+<td>날짜 + 시간을 날짜로 변환</td>
+<td>ToDate(&lt;날짜 + 시간&gt;)</td>
+</tr>
+<tr>
+<td><strong>ToDatetime</strong></td>
+<td>문자열을 날짜 + 시간으로 변환</td>
+<td>ToDateTime(&lt;문자열&gt;)</td>
+</tr>
+<tr>
+<td><strong>타임스탬프 지정</strong></td>
+<td>문자열을 타임스탬프로 변환</td>
+<td>ToTimestamp(&lt;문자열&gt;)</td>
+</tr>
+<tr>
+<td><strong>시간대 지정</strong></td>
+<td>날짜 + 시간을 시간대로 변환</td>
+<td>ToTimeZone(&lt;날짜&gt;, &lt;시간대&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncDate</strong></td>
+<td>날짜 + 시간을 가장 가까운 시간(초)으로 반올림</td>
+<td>TruncDate(@lastModified, &lt;시간(초) 숫자&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncDateTZ</strong></td>
+<td>날짜 + 시간을 초 단위의 특정 정밀도로 반올림</td>
+<td>TruncDateTZ(&lt;날짜&gt;, &lt;시간(초) 숫자&gt;, &lt;시간대&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncQuarter</strong></td>
+<td>날짜를 분기로 반올림</td>
+<td>TruncQuarter(&lt;날짜&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncTime</strong></td>
+<td>시간 부분을 가장 가까운 시간(초)으로 반올림</td>
+<td>TruncTime(&lt;날짜&gt;, &lt;시간(초) 숫자&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncWeek</strong></td>
+<td>날짜를 요일로 반올림</td>
+<td>TruncWeek(&lt;날짜&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncEar</strong></td>
+<td>날짜 + 시간을 연도의 1월 1일로 반올림</td>
+<td>TruncYear(&lt;날짜&gt;)</td>
+</tr>
+<tr>
+<td><strong>WeekDay</strong></td>
+<td>일자의 주에 요일을 나타내는 숫자를 반환합니다(0=월요일, 6=일요일).</td>
+<td>WeekDay(&lt;날짜&gt;)</td>
+</tr>
+<tr>
+<td><strong>년</strong></td>
+<td>해당 일자의 연도를 나타내는 숫자를 반환합니다.</td>
+<td>Year(&lt;날짜&gt;)</td>
+</tr>
+<tr>
+<td><strong>YearAndMonth</strong></td>
+<td>날짜의 연도 및 월을 나타내는 숫자 반환</td>
+<td>YearAndMonth(&lt;날짜&gt;)</td>
+</tr>
+<tr>
+<td><strong>YearsAgo</strong></td>
+<td>지정된 날짜와 현재 날짜 사이의 연도 수를 반환합니다.</td>
+<td>YearsAgo(&lt;날짜&gt;)</td>
+</tr>
+<tr>
+<td><strong>YearsDiff</strong></td>
+<td>두 날짜 사이의 연도 숫자 반환</td>
+<td>YearsDiff(&lt;종료 날짜&gt;, &lt;시작 날짜&gt;)</td>
+</tr>
+<tr>
+<td><strong>YearsOld</strong></td>
+<td>날짜를 연 단위로 반환</td>
+<td>YearsOld(&lt;날짜&gt;)</td>
+</tr>
+</tbody>
 </table>
 
 >[!NOTE]
 >
->**Dateonly** 함수는 연산자의 시간대가 아니라 서버의 시간대를 고려합니다.
+>**DateOnly** 함수는 연산자의 시간대가 아니라 서버의 시간대를 고려합니다.
+
 
 ### 지오마케팅
 

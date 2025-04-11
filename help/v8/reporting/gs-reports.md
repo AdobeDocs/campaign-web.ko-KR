@@ -3,38 +3,32 @@ audience: end-user
 title: 보고서 시작
 description: Campaign Web에서 보고서에 액세스하고 관리하는 방법 알아보기
 exl-id: b353bc86-2228-4e02-879c-ae9425c48489
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 100%
+source-wordcount: '230'
+ht-degree: 47%
 
 ---
-
 
 # 보고서 시작 {#get-started-reports}
 
 전체 보고 도구 제품군은 효율적인 마케팅 활동에 대해 중요한 통찰력을 제공하므로 캠페인을 최적화하여 효과를 극대화할 수 있습니다. 게재율에서 열람율과 클릭스루 비율에 이르기까지 보고 제품군은 결과를 도출하는 데 필요한 모든 데이터 기반의 결정을 내릴 수 있습니다.&#x200B;
 
-Adobe Campaign은 세 가지 보고서를 제공합니다.
+Adobe Campaign에서는 세 가지 유형의 보고서를 제공합니다.
 
-* **게재 보고서**
+* **게재 보고서**\
+  **게재 보고서**&#x200B;는 각 채널 전반의 **게재**&#x200B;에만 초점을 맞춘 심층적인 통찰력과 데이터를 제공합니다. 이러한 보고서에는 개별 게재의 성능, 효율성 및 결과에 대한 자세한 정보가 포함되어 있으며 포괄적인 개요를 제공합니다.
 
-  **게재 보고서**&#x200B;는 각 채널 전반의 **게재**&#x200B;에만 초점을 맞춘 심층적인 통찰력과 데이터를 제공합니다. 이러한 보고서는 개별 게재의 성과, 효율성 및 결과에 대해 자세한 정보와 함께 포괄적인 개요를 제공합니다.
+* **캠페인 보고서**\
+  **캠페인 보고서**&#x200B;에서는 포함된 다양한 게재와 관련된 모든 정보를 통합하여 **캠페인**&#x200B;에 대한 포괄적인 개요를 제공합니다. 이러한 보고서는 성공률, 대상 참여 및 기타 필수 지표를 포함하여 채널당 각 게재의 성능에 대한 철저한 분석을 제공합니다. 이를 통해 캠페인에 미치는 전반적인 효과와 영향을 평가할 수 있습니다.
 
-
-* **캠페인 보고서**
-
-  **캠페인 보고서**&#x200B;는 다양한 게재와 관련된 모든 정보를 통합하여 **캠페인**&#x200B;에 대한 포괄적인 개요를 제공합니다. 이러한 보고서는 채널별 성공률, 대상자 참여 및 기타 필수 지표 등 각 게재의 성과에 대한 철저한 분석을 제공합니다. 이를 통해 캠페인에 미치는 전반적인 효과와 영향을 평가할 수 있습니다.
-
-
-* **글로벌 보고서**
-
-  **글로벌 보고서**&#x200B;는 Campaign 인스턴스 내의 각 채널에 대한 트래픽 및 참여 지표에 대한 통합된 전체 요약을 제공하는 효과적인 도구 역할을 합니다. 이러한 보고서는 다양한 위젯으로 구성되어 있으며, 각 위젯은 캠페인 또는 게재 성과에 대한 고유한 관점을 제공합니다.
+* **글로벌 보고서**\
+  **글로벌 보고서**&#x200B;는 효과적인 도구 역할을 하며 Campaign 인스턴스 내의 각 채널에 대한 트래픽 및 참여 지표에 대한 통합 요약을 제공합니다. 이러한 보고서는 다양한 위젯으로 구성되며, 각 위젯은 캠페인 또는 게재 성과에 대한 고유한 관점을 제공합니다.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="campaign-reports.md">
-<img alt="유효성 검사" src="assets/do-not-localize/campaign_report.jpeg">
+<img alt="[Campaign 보고서 개요]" src="assets/do-not-localize/campaign_report.jpeg">
 </a>
 <div>
 <a href="campaign-reports.md"><strong>캠페인 보고서</strong></a>
@@ -43,7 +37,7 @@ Adobe Campaign은 세 가지 보고서를 제공합니다.
 </td>
 <td>
 <a href="delivery-reports.md">
-<img alt="리드" src="assets/do-not-localize/email_report.jpeg">
+<img alt="[게재 보고서 인사이트]" src="assets/do-not-localize/email_report.jpeg">
 </a>
 <div><a href="delivery-reports.md"><strong>게재 보고서</strong>
 </div>
@@ -51,15 +45,15 @@ Adobe Campaign은 세 가지 보고서를 제공합니다.
 </td>
 <td>
 <a href="global-reports.md">
-<img alt="저빈도" src="assets/do-not-localize/push_report.jpeg">
+<img alt="[글로벌 보고서 요약]" src="assets/do-not-localize/push_report.jpeg">
 </a>
 <div>
-<a href="global-reports.md"><strong>글로벌 보고서<strong></strong></a>
+<a href="global-reports.md"><strong>글로벌 보고서</strong></a>
 </div>
 <p></td>
 <td>
 <a href="kpis.md">
-<img alt="유효성 검사" src="assets/do-not-localize/kpis.jpeg">
+<img alt="[주요 성과 지표 개요]" src="assets/do-not-localize/kpis.jpeg">
 </a>
 <div>
 <a href="kpis.md"><strong>주요 성과 지표</strong></a>

@@ -5,22 +5,23 @@ description: 쿼리 모델러를 사용하여 작업하는 방법을 알아봅�
 hide: true
 hidefromtoc: true
 exl-id: 6f8154ea-5d64-4950-9da3-427070ec7bf0
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '179'
 ht-degree: 2%
 
 ---
+
 
 # 쿼리 샘플 {#query-samples}
 
 ## 수신자에 대한 쿼리 {#querying-recipient-table}
 
-* 이메일 도메인이 &quot;orange.co.uk&quot;이고 런던에 없는 수신자의 이름과 이메일을 복구합니다.
+* 이메일 도메인이 &quot;orange.co.uk&quot;이고 London에 거주하지 않는 수신자의 이름과 이메일을 복구합니다.
 
-* 지난 7일 동안 받는 사람에게 연락하지 않았습니다.
+* 지난 7일 동안 수신자에게 연락하지 않았습니다.
 
-* 이전 게재 중 이메일 도메인이 30회 이상 타겟팅되었습니다.
+* 이전 게재 중 30회 이상 타겟팅된 이메일 도메인.
 
 ## 게재 쿼리 {#number-of-clicks-for-a-specific-delivery}
 
@@ -28,7 +29,7 @@ ht-degree: 2%
 
 * 지난 7일 동안 이메일을 열지 않은 수신자
 
-* 지난 2주 내에 게재를 연 프로필:
+* 지난 2주 내에 게재를 연 프로필.
 
 * 이전 게재 후 후속 작업을 수행합니다.
 

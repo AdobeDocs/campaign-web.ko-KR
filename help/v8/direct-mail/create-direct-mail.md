@@ -3,10 +3,10 @@ audience: end-user
 title: 다이렉트 메일(DM) 게재 만들기
 description: Adobe Campaign 웹을 사용하여 DM 게재를 만드는 방법을 알아봅니다
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
-source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 19%
+source-wordcount: '502'
+ht-degree: 17%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 19%
 
 1. **[!UICONTROL 게재 만들기]** 버튼을 클릭하여 확인합니다.
 
-   ![](assets/dm-create.png){zoomable="yes"}
+   DM 게재 만들기를 보여 주는 ![스크린샷](assets/dm-create.png){zoomable="yes"}
 
-1. 게재할 **[!UICONTROL 레이블]**&#x200B;을(를) 입력하고 **[!UICONTROL 추가 옵션]** 드롭다운에 액세스합니다. 게재가 확장된 스키마를 기반으로 하는 경우 특정 **사용자 지정 옵션** 필드를 사용할 수 있습니다.
+1. 게재할 **[!UICONTROL 레이블]**&#x200B;을 입력하고 **[!UICONTROL 추가 옵션]** 드롭다운에 액세스합니다. 게재가 확장된 스키마를 기반으로 하는 경우 특정 **사용자 지정 옵션** 필드를 사용할 수 있습니다.
 
-   ![](assets/dm-properties.png){zoomable="yes"}
+   DM 게재에 대한 속성 구성을 보여 주는 ![스크린샷](assets/dm-properties.png){zoomable="yes"}
 
    +++요구 사항에 따라 다음 설정을 구성합니다.
    * **[!UICONTROL 내부 이름]**: 게재에 고유 식별자를 할당합니다.
@@ -41,7 +41,7 @@ ht-degree: 19%
    * [기존 대상자를 선택하는 방법 알아보기](../audience/add-audience.md)
    * [새 대상자를 만드는 방법 알아보기](../audience/one-time-audience.md)
 
-   ![](assets/dm-audience.png){zoomable="yes"}
+   ![DM 게재에 대한 대상자 선택을 보여 주는 스크린샷](assets/dm-audience.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -51,16 +51,16 @@ ht-degree: 19%
 
 1. 추출 파일로 내보낼 정보(열)를 정의하려면 **[!UICONTROL 콘텐츠 편집]**&#x200B;을(를) 클릭합니다. [자세히 알아보기](content-direct-mail.md)
 
-   ![](assets/dm-content.png){zoomable="yes"}
+   ![DM 게재를 위한 콘텐츠 편집을 보여 주는 스크린샷](assets/dm-content.png){zoomable="yes"}
 
-1. 특정 일자 및 시간에 게재를 예약하려면 **[!UICONTROL 예약 활성화]** 옵션을 켭니다. 게재를 시작하면 정의한 정확한 날짜 및 시간에 추출 파일이 자동으로 생성됩니다. [게재를 예약하는 방법을 알아봅니다](../msg/gs-deliveries.md#gs-schedule).
+1. 특정 일자 및 시간에 게재를 예약하려면 **[!UICONTROL 예약 활성화]** 옵션을 켭니다. 게재를 시작하면 사용자가 정의한 정확한 날짜 및 시간에 추출 파일이 자동으로 생성됩니다. [게재를 예약하는 방법을 알아봅니다](../msg/gs-deliveries.md#gs-schedule).
 
    >[!NOTE]
    >
-   >워크플로우의 컨텍스트에서 게재를 보낼 때는 **스케줄러** 활동을 사용해야 합니다. [이 페이지](../workflows/activities/scheduler.md)에서 자세히 알아보십시오.
+   >워크플로우의 컨텍스트에서 게재를 보낼 때는 **스케줄러** 활동을 사용해야 합니다. [이 페이지](../workflows/activities/scheduler.md)에서 자세히 알아보세요.
 
 1. **[!UICONTROL 설정]**&#x200B;을 클릭하여 게재 템플릿과 관련된 고급 옵션에 액세스합니다. [자세히 알아보기](../advanced-settings/delivery-settings.md)
 
-   ![](assets/dm-settings.png){zoomable="yes"}
+   ![DM 게재에 대한 고급 설정을 보여 주는 스크린샷](assets/dm-settings.png){zoomable="yes"}
 
 1. DM 게재가 준비되면 **[!UICONTROL 검토 및 보내기]** 단추를 클릭하여 게재를 확인 및 보내고 추출 파일을 생성합니다. [DM 게재를 미리 보고 보내는 방법 알아보기](send-direct-mail.md)

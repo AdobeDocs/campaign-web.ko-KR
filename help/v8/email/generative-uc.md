@@ -2,9 +2,9 @@
 title: AI 어시스턴트 사용 사례
 description: 사용 사례를 통해 AI Assistant 사용 방법 알아보기
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '542'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 ## 기존 콘텐츠 사용
 
-![](assets/do-not-localize/gen-ai-reuse-text.gif)
+![AI Assistant를 사용하여 기존 콘텐츠 재사용 시연](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 1. 게재를 설정한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 선택합니다.
 
@@ -27,15 +27,15 @@ ht-degree: 1%
 
 1. **[!UICONTROL Prompt]** 상자에서 요청을 지정하여 콘텐츠를 조정하고 필요에 따라 설정을 사용자 지정합니다.
 
-1. 메시지가 만족스러우면 **[!UICONTROL 생성]**&#x200B;을 클릭합니다.
+1. 프롬프트가 만족스러우면 **[!UICONTROL 생성]**&#x200B;을 클릭하세요.
 
 1. 사용 가능한 **[!UICONTROL 변형]**&#x200B;을 탐색하고 **[!UICONTROL 미리 보기]**&#x200B;를 클릭하여 선택한 변형을 전체 화면에서 봅니다.
 
-콘텐츠, 대상자 및 일정을 정의했으면 게재를 준비할 준비가 되었습니다.
+콘텐츠, 대상자 및 일정을 정의하고 나면 게재를 준비합니다.
 
 ## 변형 세부 조정
 
-![](assets/do-not-localize/gen-ai-variation.gif)
+![AI Assistant를 사용하여 콘텐츠 변형을 개선하는 데모](assets/do-not-localize/gen-ai-variation.gif)
 
 1. 게재를 설정하고 구성했으면 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭합니다.
 
@@ -43,13 +43,13 @@ ht-degree: 1%
 
 1. **[!UICONTROL 프롬프트]** 상자에 원하는 요청을 입력하여 콘텐츠를 조정하고 필요에 따라 설정을 수정합니다.
 
-1. 준비가 되면 **[!UICONTROL 생성]**&#x200B;을 클릭하세요.
+1. 준비가 되면 **[!UICONTROL 생성]**&#x200B;을 클릭합니다.
 
 1. 생성된 **[!UICONTROL 변형]**&#x200B;을 검토하고 **[!UICONTROL 미리 보기]**&#x200B;를 선택하여 선택한 옵션의 전체 화면 보기를 확인합니다.
 
 1. **[!UICONTROL 미리 보기]** 창에서 다음을 포함한 추가 사용자 지정을 위해 **[!UICONTROL 다시 정의]** 옵션으로 이동합니다.
 
-   * **[!UICONTROL 참조 콘텐츠로 사용]**: 선택한 변형이 더 많은 콘텐츠를 생성하기 위한 참조로 사용됩니다.
+   * **[!UICONTROL 참조 콘텐츠로 사용]**: 선택한 변형이 더 많은 콘텐츠를 생성하기 위한 참조 역할을 합니다.
 
    * **[!UICONTROL 정교함]**: AI Assistant를 특정 지점에서 확장하여 보다 나은 참여를 위해 더 깊이 있고 자세한 내용을 제공할 수 있습니다.
 
@@ -59,13 +59,13 @@ ht-degree: 1%
 
    * **[!UICONTROL 더 간단한 언어 사용]**: AI Assistant를 사용하여 언어를 단순화하면 메시지가 명확해지고 모든 독자가 액세스할 수 있습니다.
 
-   또한 콘텐츠의 **[!UICONTROL 색조]** 및 **[!UICONTROL 통신 전략]**&#x200B;을 조정할 수 있습니다.
+   또한 콘텐츠의 **[!UICONTROL 색조]** 및 **[!UICONTROL 통신 전략]**&#x200B;을 조정합니다.
 
-1. 올바른 콘텐츠를 찾은 경우 **[!UICONTROL 선택]**&#x200B;을 클릭하세요.
+1. 콘텐츠가 준비되면 **[!UICONTROL 선택]**&#x200B;을 클릭하세요.
 
 ## 유사 이미지 생성
 
-![](assets/do-not-localize/uc-image-similar.gif)
+![AI Assistant를 사용하여 유사한 이미지를 생성하는 데모](assets/do-not-localize/uc-image-similar.gif)
 
 1. 게재를 설정한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 선택합니다.
 
@@ -73,7 +73,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL Prompt]** 상자에서 요청을 지정하여 콘텐츠를 조정하고 필요에 따라 설정을 사용자 지정합니다.
 
-1. 메시지가 만족스러우면 **[!UICONTROL 생성]**&#x200B;을 클릭합니다.
+1. 프롬프트가 만족스러우면 **[!UICONTROL 생성]**&#x200B;을 클릭하세요.
 
 1. **[!UICONTROL 변형 제안]**&#x200B;을 검색하여 원하는 자산을 찾습니다.
 
@@ -85,7 +85,7 @@ ht-degree: 1%
 
 ## 스타일 참조 업로드
 
-![](assets/do-not-localize/uc-image-reference.gif)
+![AI Assistant에 대한 스타일 참조 업로드 데모](assets/do-not-localize/uc-image-reference.gif)
 
 1. 게재를 설정하고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요.
 
@@ -103,6 +103,6 @@ ht-degree: 1%
 
 1. **[!UICONTROL 변형 제안]**&#x200B;을 검토하여 원하는 에셋을 찾으십시오.
 
-1. 선택한 변형을 전체 화면으로 보려면 **[!UICONTROL 미리 보기]**&#x200B;를 선택하십시오.
+1. 선택한 변형을 전체 화면에서 보려면 **[!UICONTROL 미리 보기]**&#x200B;를 선택하십시오.
 
 1. 적절한 콘텐츠를 찾으면 **[!UICONTROL 선택]**&#x200B;을 클릭하세요.

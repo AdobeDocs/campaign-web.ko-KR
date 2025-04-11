@@ -5,10 +5,10 @@ description: Adobe Campaign Web 설명서 업데이트
 exl-id: d65fcd92-ce3c-49ff-9dce-16a41d0558bf
 hide: true
 hidefromtoc: true
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '23'
+ht-degree: 100%
 
 ---
 

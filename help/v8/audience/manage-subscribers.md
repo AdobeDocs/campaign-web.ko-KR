@@ -3,9 +3,9 @@ audience: end-user
 title: 구독자 관리
 description: Adobe Campaign 웹에서 서비스 구독자를 관리하고 제공하는 방법에 대해 알아봅니다
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -22,17 +22,17 @@ ht-degree: 0%
 
 1. **[!UICONTROL 구독 서비스]** 목록에서 기존 서비스를 선택하십시오.
 
-1. **[!UICONTROL 구독자]** 탭으로 이동하여 **[!UICONTROL 구독자 추가]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 구독자]** 탭으로 이동한 다음 **[!UICONTROL 구독자 추가]**&#x200B;를 클릭합니다.
 
-   ![](assets/service-subscribers-tab.png){zoomable="yes"}
+   ![구독 서비스 인터페이스의 구독자 탭을 표시하는 스크린샷입니다.](assets/service-subscribers-tab.png){zoomable="yes"}
 
 1. 목록에서 추가할 프로필을 선택하고 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 
-   ![](assets/service-subscribers-select-profiles.png){zoomable="yes"}
+   구독자를 추가하기 위한 프로필 선택 인터페이스를 보여 주는 ![스크린샷입니다.](assets/service-subscribers-select-profiles.png){zoomable="yes"}
 
-1. [서비스를 만들 때](manage-services.md#create-service)정의한 [확인 메시지](manage-services.md#create-confirmation-message)를 선택한 수신자가 받도록 하려면 **[!UICONTROL 보내기]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)-->를 클릭하십시오.
+1. [서비스를 만들 때](manage-services.md#create-service)정의한 [확인 메시지](manage-services.md#create-confirmation-message)을(를) 선택한 수신자가 받도록 하려면 **[!UICONTROL 보내기]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)-->를 클릭하십시오.
 
-   ![](assets/service-subscribers-confirmation-msg.png){zoomable="yes"}
+   구독자를 추가하기 위한 확인 메시지 인터페이스를 보여 주는 ![스크린샷입니다.](assets/service-subscribers-confirmation-msg.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -50,13 +50,13 @@ ht-degree: 0%
 
 1. 원하는 받는 사람 이름 옆에 있는 세 점 아이콘을 클릭하고 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
 
-   ![](assets/service-subscribers-delete.png){zoomable="yes"}
+   ![프로필 구독 취소를 위한 삭제 옵션을 보여 주는 스크린샷입니다.](assets/service-subscribers-delete.png){zoomable="yes"}
 
 1. 삭제를 확인합니다.
 
 1. [서비스를 만들 때](manage-services.md#create-service)정의한 구독 취소 [확인 메시지](manage-services.md#create-confirmation-message)를 선택한 수신자가 받게 하려면 **[!UICONTROL 보내기]**&#x200B;를 클릭하십시오.
 
-   ![](assets/service-subscribers-delete-confirmation.png){zoomable="yes"}
+   ![프로필 구독 취소에 대한 확인 메시지 인터페이스를 보여주는 스크린샷입니다.](assets/service-subscribers-delete-confirmation.png){zoomable="yes"}
 
 받는 사람이 **[!UICONTROL 구독자]** 탭에서 제거되어 더 이상 서비스를 구독하지 않습니다.
 
@@ -66,6 +66,6 @@ ht-degree: 0%
 
 이 기간은 [서비스를 만드는 중](manage-services.md#create-service)에 지정됩니다. **[!UICONTROL 추가 옵션]**&#x200B;에서 **[!UICONTROL 무제한 유효 기간]** 옵션을 비활성화하고 서비스 유효 기간을 정의하십시오.
 
-![](assets/service-create-validity-period.png){zoomable="yes"}
+![구독 서비스에 대한 유효 기간 구성을 보여 주는 스크린샷입니다.](assets/service-create-validity-period.png){zoomable="yes"}
 
 지정된 기간이 만료되면 모든 구독자는 해당 서비스에서 자동으로 구독 취소됩니다.

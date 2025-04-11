@@ -3,12 +3,13 @@ audience: end-user
 title: SMS 게재 시작하기
 description: Adobe Campaign Web을 사용하여 SMS를 만들고 전송하는 방법 알아보기
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: c3148c9593aa4d323097135601616b9c43bae378
+source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 100%
+source-wordcount: '160'
+ht-degree: 97%
 
 ---
+
 
 # SMS 게재 시작하기 {#sms}
 
@@ -27,7 +28,7 @@ SMS 채널은 SMS 게재를 만드는 세 가지 메서드를 제공합니다.
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-sms.md">
-<img alt="리드" src="assets/do-not-localize/create_sms.png">
+<img alt="SMS 게재 만들기" src="assets/do-not-localize/create_sms.png">
 </a>
 <div><a href="create-sms.md"><strong>SMS 게재 만들기</strong>
 </div>
@@ -35,7 +36,7 @@ SMS 채널은 SMS 게재를 만드는 세 가지 메서드를 제공합니다.
 </td>
 <td>
 <a href="content-sms.md">
-<img alt="저빈도" src="assets/do-not-localize/design_sms.png">
+<img alt="SMS 게재 디자인" src="assets/do-not-localize/design_sms.png">
 </a>
 <div>
 <a href="content-sms.md"><strong>SMS 게재 디자인<strong></strong></a>
@@ -43,7 +44,7 @@ SMS 채널은 SMS 게재를 만드는 세 가지 메서드를 제공합니다.
 <p></td>
 <td>
 <a href="send-sms.md">
-<img alt="유효성 검사" src="assets/do-not-localize/send_sms.png">
+<img alt="SMS 게재 보내기" src="assets/do-not-localize/send_sms.png">
 </a>
 <div>
 <a href="send-sms.md"><strong>SMS 게재 보내기</strong></a>
@@ -52,7 +53,7 @@ SMS 채널은 SMS 게재를 만드는 세 가지 메서드를 제공합니다.
 </td>
 <td>
 <a href="send-sms.md">
-<img alt="유효성 검사" src="assets/do-not-localize/report_sms.jpeg">
+<img alt="SMS 게재 보고서" src="assets/do-not-localize/report_sms.jpeg">
 </a>
 <div>
 <a href="send-sms.md"><strong>SMS 게재 보고서</strong></a>

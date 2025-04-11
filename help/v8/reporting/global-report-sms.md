@@ -3,10 +3,10 @@ audience: end-user
 title: SMS 채널에 대한 전역 보고서
 description: SMS 채널에 대한 글로벌 보고서 이해
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 31%
+source-wordcount: '664'
+ht-degree: 23%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 31%
 >title="SMS 게재 개요"
 >abstract="**SMS 게재 개요** KPI는 SMS 게재에 대한 상세한 요약을 통해 자세한 인사이트와 구체적인 데이터를 제공합니다. 성과, 효율성 및 게재 결과에 대해 포괄적인 정보를 전달합니다."
 
-**[!UICONTROL 게재 개요]** 보고서는 각 SMS 게재와 방문자의 상호 작용 패턴에 대한 심층적인 통찰력을 제공하는 포괄적인 KPI(주요 성과 지표)를 제공합니다. 다음 지표는 아래에 요약되어 있습니다.
+**[!UICONTROL 게재 개요]** 보고서는 포괄적인 KPI(주요 성과 지표)를 제공하여 각 SMS 게재와 방문자의 상호 작용 패턴에 대한 심층적인 통찰력을 제공합니다. 다음 지표는 아래에 요약되어 있습니다.
 
-![](assets/global_report_sms_delivery_overview.png){zoomable="yes"}
+![SMS 게재에 대한 주요 성능 지표를 보여주는 게재 개요 보고서의 스크린샷입니다.](assets/global_report_sms_delivery_overview.png){zoomable="yes"}
 
 +++게재 개요 지표에 대해 자세히 알아보십시오.
 
@@ -37,7 +37,7 @@ ht-degree: 31%
 
 * **[!UICONTROL 클릭스루 비율]**: 게재를 한 번 이상 클릭한 개별 수신자의 비율입니다.
 
-* **[!UICONTROL 오류]**: 보낸 총 메시지 수와 관련하여 게재 및 자동 반환 처리 중에 누적된 오류의 비율입니다.
+* **[!UICONTROL 오류]**: 보낸 총 메시지 수와 관련하여 게재 및 자동 반환 처리 중 누적된 오류의 비율입니다.
 
 +++
 
@@ -46,11 +46,11 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_targeted_audience"
 >title="SMS 대상 모집단"
->abstract="**타기팅된 집단**&#x200B;에 대한 그래프와 테이블은 게재될 메시지 및 제외에 대한 정보를 포함하여 SMS 대상자와 관련된 데이터를 나타냅니다."
+>abstract="**대상 모집단**&#x200B;의 그래프와 표에 배달할 메시지 및 제외 정보를 포함하여 SMS 대상자와 관련된 데이터가 있습니다."
 
 **[!UICONTROL 타깃팅된 대상]** 테이블 및 그래프는 보낸 각 SMS 게재에 대해 받는 사람과 관련된 데이터를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/global_report_sms_targeted_audience.png){zoomable="yes"}
+![SMS 게재에 대한 수신자 및 제외 데이터를 보여주는 타깃팅된 대상 보고서의 스크린샷입니다.](assets/global_report_sms_targeted_audience.png){zoomable="yes"}
 
 +++타깃팅된 대상 지표에 대해 자세히 알아보십시오.
 
@@ -58,7 +58,7 @@ ht-degree: 31%
 
 * **[!UICONTROL 게재할 메시지]**: 게재를 준비한 후 게재할 총 메시지 수입니다.
 
-* **[!UICONTROL 제외]**: 규칙을 적용할 때 분석 중에 무시된 총 주소 수: 주소 누락, 격리, 차단 목록 등
+* ****: 주소 누락, 격리 또는 차단 목록 제외 등 규칙을 적용할 때 분석 중에 무시된 총 주소 수입니다.
 
 +++
 
@@ -71,17 +71,17 @@ ht-degree: 31%
 
 **[!UICONTROL 게재 통계]** 표에는 모든 SMS 게재의 성공 여부가 자세히 설명되어 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/global_report_sms_delivery_statistics.png){zoomable="yes"}
+![SMS 게재에 대한 성공률, 오류 및 격리를 보여 주는 게재 통계 보고서의 스크린샷입니다.](assets/global_report_sms_delivery_statistics.png){zoomable="yes"}
 
 +++게재 통계 지표에 대해 자세히 알아보십시오.
 
 * **[!UICONTROL 총 메시지]**: 게재를 준비한 후 게재할 총 메시지 수입니다.
 
-* **[!UICONTROL 성공]**: 배달할 메시지 수와 관련하여 처리된 메시지 수입니다.
+* **[!UICONTROL 성공]**: 배달할 메시지 수와 관련하여 성공적으로 처리된 메시지 수입니다.
 
 * **[!UICONTROL 오류/바운스 수]**: 배달할 메시지 수와 관련하여 게재 및 자동 리바운드 처리 중에 누적된 총 오류 수입니다.
 
-* **[!UICONTROL 새 격리]**: 배달할 메시지 수와 관련하여 배달 실패(사용자 알 수 없음, 잘못된 도메인) 후에 격리된 총 주소 수입니다.
+* **[!UICONTROL 새 격리]**: 배달할 메시지 수와 관련하여 배달 실패 후 격리된 총 주소 수(예: 사용자 알 수 없음, 잘못된 도메인)입니다.
 
   SMS 오류 유형은 [Adobe Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){target="_blank"}에 나와 있습니다.
 
@@ -98,7 +98,7 @@ ht-degree: 31%
 
 오류 유형은 [Adobe Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}에 나와 있습니다.
 
-![](assets/global_report_sms_causes_exclusion.png){zoomable="yes"}
+![SMS 게재 제외의 이유를 보여 주는 제외 원인 보고서의 스크린샷입니다.](assets/global_report_sms_causes_exclusion.png){zoomable="yes"}
 
 ## 게재 처리량 {#delivery-throughput-sms}
 
@@ -107,6 +107,6 @@ ht-degree: 31%
 >title="SMS 게재 처리량"
 >abstract="**게재 처리량** 보고서는 SMS 메시지 게재 시스템의 효율성에 대한 광범위한 인사이트를 제공하여 지정된 일정 내의 성공 및 오류 비율에 대한 자세한 개요를 제시합니다."
 
-![](assets/global_report_sms_delivery_throughput.png){zoomable="yes"}
+![시간에 따른 SMS 게재의 성공 및 오류율을 보여 주는 게재 처리량 보고서의 스크린샷입니다.](assets/global_report_sms_delivery_throughput.png){zoomable="yes"}
 
-**[!UICONTROL 게재 처리량]** 보고서는 SMS 메시지 게재 시스템의 효과에 대한 포괄적인 통찰력을 제공하여 지정된 기간 동안의 성공률 및 오류율에 대한 자세한 요약을 제공합니다.
+**[!UICONTROL 게재 처리량]** 보고서는 SMS 메시지 게재 시스템의 효과에 대한 포괄적인 통찰력을 제공하여 지정된 기간 동안의 성공 및 오류율에 대한 자세한 요약을 제공합니다.

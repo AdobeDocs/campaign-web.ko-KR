@@ -3,10 +3,10 @@ audience: end-user
 title: 이메일 디자이너에서 프리 헤더 추가
 description: 이메일 콘텐츠 디자인 방법 알아보기
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 47%
+source-wordcount: '249'
+ht-degree: 34%
 
 ---
 
@@ -31,17 +31,17 @@ ht-degree: 47%
 
 1. 왼쪽 창에서 **[!UICONTROL 탐색 트리]** 아이콘을 클릭하고 **[!UICONTROL 본문]**&#x200B;을 선택합니다.
 
-   ![](assets/preheader_body.png){zoomable="yes"}
+   ![전자 메일 Designer 인터페이스에서 탐색 트리 아이콘과 본문 선택을 보여 주는 스크린샷](assets/preheader_body.png){zoomable="yes"}
 
 1. **[!UICONTROL 설정]** 탭에서 사전 헤더에 사용할 텍스트를 입력하십시오.
 
 1. 추가로 개인화하려면 **[!UICONTROL 사전 머리글]** 필드 왼쪽에 있는 **[!UICONTROL 개인화 추가]** 아이콘을 클릭하십시오.
 
-   ![](assets/preheader_body_settings.png){zoomable="yes"}
+   ![전자 메일 Designer 인터페이스에서 설정 탭과 개인화 추가 아이콘을 표시하는 스크린샷입니다.](assets/preheader_body_settings.png){zoomable="yes"}
 
-1. **[!UICONTROL Personalization 편집]** 창에서 왼쪽의 전용 항목을 사용하여 [개인화 필드](../personalization/personalize.md), [표현식 조각](../content/use-expression-fragments.md) 및 [조건부 콘텐츠](../personalization/conditions.md)를 추가할 수 있습니다.
+1. **[!UICONTROL Personalization 편집]** 창에서 왼쪽의 전용 항목을 사용하여 [개인화 필드](../personalization/personalize.md), [표현식 조각](../content/use-expression-fragments.md) 및 [조건부 콘텐츠](../personalization/conditions.md)를 추가하십시오.
 
-   ![](assets/preheader_body_personalization.png){zoomable="yes"}
+   ![개인화 필드, 식 조각 및 조건부 콘텐츠 옵션이 있는 Personalization 편집 창을 보여 주는 스크린샷입니다.](assets/preheader_body_personalization.png){zoomable="yes"}
 
 1. **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 이메일 채널에 대한 캠페인 보고서
 description: 이메일 채널에 대한 캠페인 보고서에 대해 자세히 알아보기
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 21%
+source-wordcount: '1677'
+ht-degree: 20%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 21%
 
 **[!UICONTROL 게재 개요]** 보고서는 방문자의 전자 메일 게재 참여도에 대한 자세한 정보를 제공하는 주요 성과 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign_report_email_1.png){zoomable="yes"}
+![게재 개요 보고서의 스크린샷](assets/campaign_report_email_1.png){zoomable="yes"}
 
 +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -50,7 +50,7 @@ ht-degree: 21%
 
 **[!UICONTROL 초기 대상 통계]** 테이블에는 수신자와 관련된 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign_report_email_2.png){zoomable="yes"}
+![초기 대상 통계 테이블의 스크린샷](assets/campaign_report_email_2.png){zoomable="yes"}
 
 +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -71,7 +71,7 @@ ht-degree: 21%
 
 **[!UICONTROL 실행 통계]** 표에는 게재 성공 여부가 자세히 설명되어 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign_report_email_3.png){zoomable="yes"}
+![게재 성공 상황을 자세히 설명하는 실행 통계 표의 스크린샷](assets/campaign_report_email_3.png){zoomable="yes"}
 
 +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -96,7 +96,7 @@ ht-degree: 21%
 
 **[!UICONTROL 반응 통계]** 표에는 게재를 위한 받는 사람 활동에 사용 가능한 데이터가 포함되어 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign_report_email_4.png){zoomable="yes"}
+![게재에 대해 받는 사람 활동에 사용 가능한 데이터가 포함된 반응 통계 표의 스크린샷](assets/campaign_report_email_4.png){zoomable="yes"}
 
 +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -120,7 +120,7 @@ ht-degree: 21%
 
 **[!UICONTROL 생성된 클릭 스트림]** 테이블에는 수신자가 게재와 상호 작용하는 방식에 따른 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign_report_email_5.png){zoomable="yes"}
+![생성된 클릭 스트림 테이블의 스크린샷](assets/campaign_report_email_5.png){zoomable="yes"}
 
 +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -145,7 +145,7 @@ ht-degree: 21%
 
 이 보고서에 표시된 오류는 격리 프로세스를 트리거합니다. 격리 관리에 대한 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}를 참조하세요.
 
-![](assets/campaign_report_email_6.png){zoomable="yes"}
+![유형 그래프 및 테이블당 오류 분류의 스크린샷](assets/campaign_report_email_6.png){zoomable="yes"}
 
 +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -185,7 +185,7 @@ ht-degree: 21%
 
 **[!UICONTROL 게재 통계]** 지표는 보낸 전자 메일에 사용할 수 있는 데이터에 대한 자세한 정보를 제공하는 주요 성능 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign_report_email_7.png){zoomable="yes"}
+![게재 통계 지표의 스크린샷](assets/campaign_report_email_7.png){zoomable="yes"}
 
 +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -211,7 +211,7 @@ ht-degree: 21%
 
 **[!UICONTROL 열람 및 클릭스루 비율]** 테이블에는 수신자와 관련된 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign_report_email_8.png){zoomable="yes"}
+열기 및 클릭스루 비율 테이블의 ![스크린샷](assets/campaign_report_email_8.png){zoomable="yes"}
 
 +++ 이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -236,7 +236,7 @@ ht-degree: 21%
 
 **[!UICONTROL URL 및 클릭 스트림]** 보고서는 게재 중 가장 많이 클릭한 URL에 대한 자세한 정보를 제공하는 주요 성능 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign_report_email_9.png){zoomable="yes"}
+![URL의 스크린샷 및 스트림 보고서 클릭](assets/campaign_report_email_9.png){zoomable="yes"}
 
 +++ 이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -259,7 +259,7 @@ ht-degree: 21%
 
 **[!UICONTROL 가장 많이 방문한 상위 10개 링크]** 그래프 및 표에는 링크당 받는 사람 동작에 사용할 수 있는 데이터가 포함되어 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign_report_email_10.png){zoomable="yes"}
+![가장 많이 방문한 상위 10개 링크 그래프의 스크린샷](assets/campaign_report_email_10.png){zoomable="yes"}
 
 +++이메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
@@ -278,7 +278,7 @@ ht-degree: 21%
 
 **[!UICONTROL 시간 경과에 따른 클릭 수 분석]** 그래프에는 링크당 받는 사람 동작에 사용할 수 있는 데이터가 포함되어 있습니다.
 
-![](assets/campaign_report_email_11.png){zoomable="yes"}
+![시간 경과에 따른 클릭 수 분석 스크린샷](assets/campaign_report_email_11.png){zoomable="yes"}
 
 ## 사용자 활동 {#user-activities-email}
 
@@ -289,7 +289,7 @@ ht-degree: 21%
 
 **[!UICONTROL 사용자 활동]** 보고서는 차트 형식으로 열린 횟수와 클릭수의 분류를 표시합니다. 이 보고서에 대한 지표는 아래에 자세히 설명되어 있습니다.
 
-![](assets/campaign_report_email_user_activities.png){zoomable="yes"}{align="center"}
+사용자 활동 보고서의 ![스크린샷](assets/campaign_report_email_user_activities.png){zoomable="yes"}{align="center"}
 
 +++이메일 게재 보고서 지표에 대해 자세히 알아보십시오.
 

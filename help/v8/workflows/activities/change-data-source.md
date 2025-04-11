@@ -3,9 +3,9 @@ audience: end-user
 title: 데이터 소스 변경 워크플로우 활동 사용
 description: 데이터 소스 변경 워크플로우 활동을 사용하는 방법을 알아봅니다
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '354'
 ht-degree: 13%
 
 ---
@@ -27,11 +27,11 @@ Campaign 아키텍처에 대한 자세한 내용은 [Campaign v8(클라이언트
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 차원 변경]** 및 **[!UICONTROL 데이터 원본 변경]** 활동은 한 행에 추가해서는 안 됩니다. 두 활동을 연속해서 사용해야 하는 경우 두 활동 사이에 **[!UICONTROL 강화]** 활동을 포함해야 합니다. 이렇게 하면 적절한 실행이 보장되며 잠재적인 충돌 또는 오류가 방지됩니다.
+>**[!UICONTROL 차원 변경]** 및 **[!UICONTROL 데이터 원본 변경]** 활동은 한 행에 추가해서는 안 됩니다. 두 활동을 연속해서 사용해야 하는 경우 **[!UICONTROL 데이터 보강]** 활동을 두 활동 사이에 포함하십시오. 이렇게 하면 적절한 실행이 보장되며 잠재적인 충돌 또는 오류가 방지됩니다.
 
 <!--
 
-Let's say you want to send to your  VIP customers a unique offer code that they can redeem on your online store. To do this, you need to:
+Let's say you want to send VIP customers a unique offer code that they can redeem on your online store. To do this, you need to:
 
 1. Query VIP customers on the "Profiles" table located on the Cloud database,
 1. Retrieve an offer code for each targeted profile through API calls,
@@ -45,9 +45,9 @@ Before executing the operation, the working table is copied to the local databas
 
 ## 데이터 소스 변경 활동 구성 {#configure}
 
-**차원 변경** 활동을 구성하려면 다음 단계를 따르십시오.
+**데이터 원본 변경** 활동을 구성하려면 다음 단계를 따르십시오.
 
-![](../assets/workflow-change-data-source-add.png)
+![워크플로우에 데이터 원본 변경 활동을 추가하는 방법을 보여 주는 스크린샷입니다.](../assets/workflow-change-data-source-add.png)
 
 1. 워크플로우에 **데이터 원본 변경** 활동을 추가합니다.
 
@@ -65,6 +65,6 @@ Before executing the operation, the working table is copied to the local databas
 <!--
 ## Example {#example}
 
-The workflow belows illustrates the use case detailed earlier, i.e. sending VIP customers offer codes that they can redeem on our online store.
+The workflow below illustrates the use case detailed earlier, sending VIP customers offer codes that they can redeem on our online store.
 
 -->

@@ -3,12 +3,13 @@ audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '2242'
+source-wordcount: '2310'
 ht-degree: 9%
 
 ---
+
 
 # 첫 번째 쿼리 작성 {#build-query}
 
@@ -16,30 +17,29 @@ ht-degree: 9%
 
 다음 두 가지 유형의 요소를 추가할 수 있습니다.
 
-* **구성 요소 필터링**(사용자 지정 조건, 대상 선택, 사전 정의된 필터)을 통해 고유한 규칙을 작성하고, 대상 또는 사전 정의된 필터를 선택하여 쿼리를 구체화할 수 있습니다. 쿼리의 시작과 점선 전환에 추가됩니다. [필터링 구성 요소로 작업하는 방법을 알아봅니다](#filtering)
+* **구성 요소 필터링**(사용자 지정 조건, 대상 선택, 사전 정의된 필터)을 통해 고유한 규칙을 만들거나, 대상을 선택하거나, 사전 정의된 필터를 사용하여 쿼리를 구체화할 수 있습니다. 쿼리의 시작과 점선 전환에 추가됩니다. [필터링 구성 요소로 작업하는 방법을 알아봅니다](#filtering)
 
-  예: *스포츠 뉴스레터를 구독한 수신자*. *뉴욕에 거주하는 수신자*, *샌프란시스코에 거주하는 수신자*
+  예: *스포츠 뉴스레터를 구독한 수신자*, *뉴욕에 거주하는 수신자*, *샌프란시스코에 거주하는 수신자*
 
-  ![](assets/query-add-component.png){zoomable="yes"}
+  ![쿼리에 필터링 구성 요소를 추가하는 예](assets/query-add-component.png){zoomable="yes"}
 
-* **그룹 연산자**(AND, OR, EXCEPT)를 사용하면 다이어그램에서 필터링 구성 요소를 함께 그룹화할 수 있습니다. 필터링 구성 요소 전의 기존 전환에 추가됩니다. [연산자 작업 방법 알아보기](#filtering)
+* **그룹 연산자**(AND, OR, EXCEPT)를 사용하면 다이어그램에서 필터링 구성 요소를 그룹화할 수 있습니다. 필터링 구성 요소 전의 기존 전환에 추가됩니다. [연산자 작업 방법 알아보기](#filtering)
 
   예: *Sports 뉴스레터를 구독한 수신자&#x200B;**AND**, 뉴욕에 사는 수신자&#x200B;**OR**San Francisco*
 
-  ![](assets/query-add-operator.png){zoomable="yes"}
+  ![설명: 쿼리에 그룹 연산자를 추가하는 예](assets/query-add-operator.png){zoomable="yes"}
 
-## 쿼리의 값 분포 {#distribution-values-query}
+## 쿼리 내 값의 분포 {#distribution-values-query}
 
-값 분포는 현재 쿼리 매개 변수에 따라 테이블 내에 있는 필드의 각 값의 백분율을 보여줍니다. 쿼리 내의 값 분포를 알면 세그멘테이션을 개선하는 데 도움이 될 수 있습니다.
+값 분포는 현재 쿼리 매개 변수를 기반으로 하여 테이블 내에 있는 필드의 각 값에 대한 백분율을 보여줍니다. 쿼리 내의 값 분포를 알면 세그멘테이션을 세분화하는 데 도움이 됩니다.
 
 이 옵션에 액세스하려면 아래 표시된 것처럼 쿼리에서 속성 선택 단추를 클릭합니다. 그런 다음 선택한 특성 옆에 있는 **[!UICONTROL 정보]** 아이콘을 클릭합니다. **[!UICONTROL 값 배포]** 단추에 액세스할 수 있습니다.
 
-![](assets/values_query.png){zoomable="yes"}
+![설명: 쿼리의 값 분포 옵션에 액세스합니다.](assets/values_query.png){zoomable="yes"}
 
 >[!NOTE]
 >
->* 값이 많은 필드의 경우 처음 20개 값만 표시됩니다. 이 경우 **[!UICONTROL 부분 로드]** 알림이 경고합니다.
->
+>* 값이 많은 필드의 경우 처음 20개 값만 표시됩니다. 이러한 경우 **[!UICONTROL 부분 로드]** 알림이 경고합니다.
 >* **[!UICONTROL 값 배포]** 옵션은 모든 특성 선택기에서 액세스할 수 있습니다. [특성을 선택하는 방법 알아보기](../get-started/attributes.md)
 >* **[!A고급 필터]**&#x200B;를 사용하여 결과에 조건을 추가할 수 있습니다. [여기에서 자세히 알아보십시오](../get-started/work-with-folders.md#filter-the-values).
 
@@ -64,7 +64,7 @@ ht-degree: 9%
 
 1. **특성** 필드에서 조건을 만드는 데 사용할 데이터베이스에서 특성을 선택합니다. 속성 목록에는 연결된 테이블의 속성을 포함하여 Campaign 데이터베이스의 모든 속성이 포함됩니다. [특성을 선택하고 즐겨찾기에 추가하는 방법 알아보기](../get-started/attributes.md)
 
-   ![](assets/query-custom-condition-fields.png){zoomable="yes"}
+   ![쿼리에서 사용자 지정 조건에 대한 특성을 선택합니다.](assets/query-custom-condition-fields.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -75,35 +75,35 @@ ht-degree: 9%
    +++사용 가능한 연산자 목록
 
    | 운영자 | 목적 | 예제 |
-   |  ---  |  ---  |  ---  |
+   |---|---|---|
    | 다음과 같음 | 두 번째 값 열에 입력한 데이터와 동일한 결과를 반환합니다. | 성(@lastName)이 &#39;Jones&#39;와 같으면 성이 Jones인 수신자만 반환됩니다. |
-   | 다음과 같지 않음 | 입력한 값과 동일하지 않은 모든 값을 반환합니다. | 언어(@language)가 &#39;English&#39;와 같음 |
-   | 보다 큼 | 입력한 값보다 큰 값을 반환합니다. | Age(@age)가 50</strong>보다 크면 &#39;50&#39;보다 큰 모든 값, 즉 &#39;51&#39;, &#39;52&#39; 등을 반환합니다. |
-   | 보다 작음 | 입력한 값보다 작은 값을 반환합니다. | &#39;DaysAgo(100)&#39;</strong> 전에 만든 날짜(@created)는 100일 전에 만든 모든 수신자를 반환합니다. |
-   | 보다 크거나 같음 | 입력한 값보다 크거나 같은 모든 값을 반환합니다. | &#39;30&#39;</strong>보다 크거나 같은 나이(@age)는 30세 이상의 모든 수신자를 반환합니다. |
-   | 보다 작거나 같음 | 입력한 값과 같거나 낮은 값을 모두 반환합니다. | 나이(@age)가 &#39;60&#39;</strong>보다 작거나 같으면 60세 이하의 모든 수신자가 반환됩니다. |
-   | 포함 위치 | 표시된 값에 포함된 결과를 반환합니다. 이러한 값은 쉼표로 구분해야 합니다. | 생년월일(@birthDate)은 &#39;12/10/1979,12/10/1984&#39;에 포함되어 있으며 이 날짜 사이에 태어난 수급자를 반환합니다. |
-   | 다음에 없음 | 연산자에 포함 과 같은 작업을 합니다. 여기서는 입력한 값을 기준으로 수신자를 제외합니다. | 생년월일(@birthDate)은 &#39;1979/10/1984/12/10&#39;에 포함되지 않습니다. 앞의 예와는 달리 이 날짜 내에 태어난 수신자는 반환되지 않습니다. |
-   | 비어 있음 | 이 경우 찾고 있는 결과는 두 번째 값 열의 빈 값과 일치합니다. | Mobile (@mobilePhone) is empty 는 모바일 번호가 없는 모든 수신자를 반환합니다. |
+   | 다음과 같지 않음 | 입력한 값과 동일하지 않은 모든 값을 반환합니다. | 언어(@language)가 &#39;English&#39;와 같지 않습니다. |
+   | 보다 큼 | 입력한 값보다 큰 값을 반환합니다. | Age (@age)가 50보다 크면 &#39;51&#39;, &#39;52&#39;와 같이 &#39;50&#39;보다 큰 모든 값이 반환됩니다. |
+   | 보다 작음 | 입력한 값보다 작은 값을 반환합니다. | &#39;DaysAgo(100)&#39; 이전 생성일(@created)은 100일 이전에 생성된 모든 수신자를 반환합니다. |
+   | 보다 크거나 같음 | 입력한 값보다 크거나 같은 모든 값을 반환합니다. | &#39;30&#39;보다 크거나 같은 나이(@age)는 30세 이상의 모든 수신자를 반환합니다. |
+   | 보다 작거나 같음 | 입력한 값과 같거나 낮은 값을 모두 반환합니다. | &#39;60&#39;보다 작거나 같은 나이(@age)는 60세 이하의 모든 수신자를 반환합니다. |
+   | 포함 위치 | 표시된 값에 포함된 결과를 반환합니다. 이러한 값은 쉼표로 구분해야 합니다. | 생년월일(@birthDate)은 &#39;1979/10/1984/10/12/12&#39;에 포함되어 있으며 이 날짜 사이에 태어난 수취인을 반환합니다. |
+   | 다음에 없음 | 연산자에 포함 과 같은 작업을 합니다. 여기서 수신자는 입력된 값을 기준으로 제외됩니다. | 생년월일(@birthDate)은 &#39;1979/10/1984/12/10&#39;에 포함되지 않습니다. 이 날짜 내에 태어난 수신자는 반환되지 않습니다. |
+   | 비어 있음 | 두 번째 값 열에서 빈 값과 일치하는 결과를 반환합니다. | Mobile (@mobilePhone) is empty 는 모바일 번호가 없는 모든 수신자를 반환합니다. |
    | 비어 있지 않음 | Is empty 연산자와 반대로 작동합니다. 두 번째 값 열에는 데이터를 입력할 필요가 없습니다. | 이메일(@email)이 비어 있지 않습니다. |
    | 다음으로 시작 | 입력한 값으로 시작하는 결과를 반환합니다. | 계정 번호(@account)는 &#39;32010&#39;로 시작합니다. |
-   | 다음으로 시작하지 않음 | 입력한 값으로 시작하지 않는 결과 반환 | 계정 번호(@account)가 &#39;20&#39;으로 시작하지 않음 |
-   | 포함 | 입력한 값 이상이 포함된 결과를 반환합니다. | 전자 메일 도메인(@domain)에 &#39;mail&#39;</strong>이(가) 포함되어 있습니다. &#39;mail&#39;이 포함된 모든 도메인 이름을 반환합니다. 따라서 &#39;gmail.com&#39; 도메인도 반환됩니다. |
-   | 다음을 포함하지 않음 | 입력한 값이 포함되지 않은 결과를 반환합니다. | 전자 메일 도메인(@domain)에 &#39;vo&#39;</strong>이(가) 포함되어 있지 않습니다. 이 경우 &#39;vo&#39;가 포함된 도메인 이름은 반환되지 않습니다. &#39;voila.fr&#39; 도메인 이름은 결과에 표시되지 않습니다. |
-   | 다음과 유사 | 비슷함 은 포함 연산자와 매우 유사합니다. 값에 % 와일드카드 문자를 삽입할 수 있습니다. | &#39;Jon%s&#39;과(와) 같은 성(@lastName) 여기서 운영자가 &#39;n&#39;과 &#39;s&#39; 사이의 누락된 문자를 잊었다면 와일드카드 문자는 &#39;Jones&#39;라는 이름을 찾기 위한 &#39;조커&#39;로 사용된다. |
-   | 비슷하지 않음 | 비슷함 은 포함 연산자와 매우 유사합니다. 값에 % 와일드카드 문자를 삽입할 수 있습니다. | 성(@lastName)은 &#39;Smi%h&#39;와 다릅니다. 여기에서 성이 &#39;Smi%h&#39;인 수신자는 반환되지 않습니다. |
+   | 다음으로 시작하지 않음 | 입력한 값으로 시작하지 않는 결과를 반환합니다. | 계정 번호(@account)가 &#39;20&#39;으로 시작하지 않습니다. |
+   | 포함 | 입력한 값 이상이 포함된 결과를 반환합니다. | 이메일 도메인(@domain)에 &#39;mail&#39;이 있으면 &#39;mail&#39;이 포함된 모든 도메인 이름(예: &#39;gmail.com&#39;)이 반환됩니다. |
+   | 다음을 포함하지 않음 | 입력한 값이 포함되지 않은 결과를 반환합니다. | 이메일 도메인(@domain)에 &#39;vo&#39;가 포함되어 있지 않습니다. &#39;vo&#39;가 포함된 도메인 이름(예: &#39;voila.fr&#39;)은 결과에 표시되지 않습니다. |
+   | 다음과 유사 | 포함 연산자와 유사하게 값에 % 와일드카드 문자를 삽입할 수 있습니다. | &#39;Jon%s&#39;과(와) 같은 성(@lastName) 와일드카드 문자는 &quot;Joker&quot;로 작동하여 &quot;Jones&quot;와 같은 이름을 찾습니다. |
+   | 비슷하지 않음 | 포함 연산자와 유사하게 값에 % 와일드카드 문자를 삽입할 수 있습니다. | 성(@lastName)은 &#39;Smi%h&#39;와 다릅니다. 성이 &#39;Smith&#39;인 수신자는 반환되지 않습니다. |
 
 +++
 
-1. **값** 필드에서 예상 값을 정의합니다. 또한 Campaign 웹 표현식 편집기를 활용하여 데이터베이스 및 도우미 함수의 필드를 사용하여 표현식을 수동으로 정의할 수 있습니다. 이렇게 하려면 **표현식 편집** 단추를 클릭하십시오. [표현식을 편집하는 방법을 알아봅니다](expression-editor.md)
+1. **값** 필드에서 예상 값을 정의합니다. 또한 Campaign 웹 표현식 편집기를 사용하여 데이터베이스 및 도우미 함수의 필드를 사용하여 표현식을 수동으로 정의할 수 있습니다. 이렇게 하려면 **표현식 편집** 단추를 클릭하십시오. [표현식을 편집하는 방법을 알아봅니다](expression-editor.md)
 
    *21세 이상의 모든 프로필을 반환하는 쿼리 예제:*
 
-   ![](assets/query-custom-condition.png){zoomable="yes"}
+   ![21세 이상 프로필을 대상으로 하는 쿼리의 예입니다.](assets/query-custom-condition.png){zoomable="yes"}
 
    날짜 유형 특성의 경우 **[!UICONTROL 사전 설정]** 옵션을 사용하여 사전 정의된 값을 사용할 수 있습니다.
 
-   ![](assets/date-presets.png){zoomable="yes"}
+   ![쿼리에 날짜 사전 설정을 사용하는 예입니다.](assets/date-presets.png){zoomable="yes"}
 
 #### 연결된 테이블에 대한 사용자 지정 조건(1-1 및 1-N 링크){#links}
 
@@ -119,15 +119,15 @@ ht-degree: 9%
 
 1. **Brand** 테이블 내부로 이동하여 **Label** 특성을 선택하십시오.
 
-   ![](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
+   브랜드 테이블의 ![스크린샷](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. 속성에 대한 예상 값을 정의합니다.
 
-   ![](assets/1-1-table.png){zoomable="yes"}{width="85%" align="center"}
+   ![정의된 예상 값의 예](assets/1-1-table.png){zoomable="yes"}{width="85%" align="center"}
 
 다음은 테이블 링크가 직접 선택된 쿼리 샘플입니다. 이 테이블에 사용할 수 있는 값은 전용 선택기에서 선택해야 합니다.
 
-![](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
+![쿼리 샘플의 예](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
 
 +++
 
@@ -139,19 +139,19 @@ ht-degree: 9%
 
 1. **구매** 테이블을 선택하고 확인합니다.
 
-   ![](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
+   ![구매 테이블의 스크린샷](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
 
 1. 아웃바운드 전환이 추가되어 하위 조건을 만들 수 있습니다.
 
-   ![](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
+   ![아웃바운드 전환의 예](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
 
 1. **가격** 특성을 선택하고 1000$ 이상의 구매를 대상으로 합니다.
 
-   ![](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
+   가격 특성의 ![스크린샷](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
 
 1. 필요에 따라 하위 조건을 추가합니다. 여기에서는 BrewMaster 제품을 구매한 대상 프로필에 조건을 추가했습니다.
 
-   ![](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
+   ![하위 조건의 예](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
 
 +++
 
@@ -161,11 +161,11 @@ ht-degree: 9%
 
 1. 원하는 수집 테이블 내부로 이동하여 합계 작업을 수행할 속성을 선택합니다.
 
-   ![](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
+   특성 목록의 ![스크린샷](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. 속성 창에서 **데이터 집계** 옵션을 전환하고 원하는 집계 함수를 선택합니다.
 
-   ![](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
+   ![집계 데이터 옵션의 스크린샷](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
 
 ### 대상자 선택 {#audiences}
 
@@ -182,7 +182,7 @@ ht-degree: 9%
 
    *쿼리 예제는 &quot;축제 참가자&quot; 대상에 속하는 모든 프로필을 반환합니다.*
 
-   ![](assets/query-audience.png){zoomable="yes"}
+   ![쿼리 예제의 Screenshof](assets/query-audience.png){zoomable="yes"}
 
 ### 미리 정의된 필터 사용 {#predefined-filters}
 
@@ -199,7 +199,7 @@ ht-degree: 9%
 
    *미리 정의된 &quot;비활성 고객&quot; 필터에 해당하는 모든 프로필을 반환하는 쿼리 예입니다.*
 
-   ![](assets/query-predefined-filter.png){zoomable="yes"}
+   ![쿼리 예제의 스크린샷](assets/query-predefined-filter.png){zoomable="yes"}
 
 ### 구성 요소 복사-붙여넣기 {#copy}
 
@@ -221,7 +221,7 @@ ht-degree: 9%
 
 1. 구성 요소를 붙여넣으려면 원하는 전환 끝에 있는 + 단추를 클릭하고 **n개 항목 붙여넣기**&#x200B;를 선택합니다.
 
-   ![](assets/copy-paste.png){zoomable="yes"}
+   ![구성 요소를 붙여넣는 예제](assets/copy-paste.png){zoomable="yes"}
 
 ## 필터링 구성 요소를 연산자와 결합 {#operators}
 
@@ -234,7 +234,7 @@ ht-degree: 9%
 
 이 예제에서는 두 번째 전환에 새로운 대상자 유형 필터링 구성 요소를 추가했습니다. 구성 요소가 **AND** 연산자로 사전 정의된 필터 조건에 연결되어 있습니다. 즉, 쿼리 결과에는 &quot;Madridians&quot; 사전 정의된 필터 AND에 의해 타겟팅되고 &quot;Discount hunters&quot; 대상에 속하는 수신자가 포함됩니다.
 
-![](assets/query-operator.png){zoomable="yes"}
+![쿼리의 예](assets/query-operator.png){zoomable="yes"}
 
 필터링 조건을 함께 연결하는 데 사용되는 연산자를 변경하려면 해당 연산자를 클릭하고 오른쪽에 열리는 **그룹** 창에서 원하는 연산자를 선택하십시오.
 
@@ -244,13 +244,13 @@ ht-degree: 9%
 * **OR(유니온)**: 아웃바운드 전환의 필터링 구성 요소 중 하나 이상과 일치하는 결과를 포함합니다.
 * **제외(제외)**: 아웃바운드 전환의 모든 필터링 구성 요소와 일치하는 결과를 제외합니다.
 
-![](assets/query-operator-change.png){zoomable="yes"}
+![쿼리의 예](assets/query-operator-change.png){zoomable="yes"}
 
 또한 전환에서 **+** 단추를 클릭하여 중간 구성 요소 그룹을 만들 수 있습니다. 이렇게 하면 이 특정 위치에 연산자를 추가하여 여러 구성 요소를 함께 그룹화하고 쿼리를 구체화할 수 있습니다.
 
 아래 예에서는 &quot;VIP to reward&quot; 또는 &quot;Super VIP&quot; 대상의 결과를 포함하는 중간 그룹을 만들었습니다.
 
-![](assets/query-intermediate-group.png){zoomable="yes"}
+![쿼리의 예](assets/query-intermediate-group.png){zoomable="yes"}
 
 ## 쿼리 확인 및 검증
 
@@ -274,4 +274,5 @@ ht-degree: 9%
 
 쿼리를 열면 언제든지 수정할 수 있습니다. 기존 쿼리를 열면 **+** 단추 표시 없이 간소화된 보기로 표시됩니다. 쿼리에 새 요소를 추가하려면 캔버스에서 구성 요소 또는 연산자를 선택하여 **+** 단추를 표시합니다.
 
-![](assets/edit-audience.png){zoomable="yes"}
+![쿼리의 예](assets/edit-audience.png){zoomable="yes"}
+

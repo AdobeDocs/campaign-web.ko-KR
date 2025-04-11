@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: 게재 경고
+title: 게재 알림
 description: 게재 경고 작업 방법을 알아봅니다.
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 25%
+source-wordcount: '1115'
+ht-degree: 22%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 25%
 
 게재 경고 대시보드를 사용하면 이메일 경고를 수신할 사용자를 지정하고, 해당 경고를 전송하는 데 사용할 경고 기준을 선택 및 구성하고, 전송된 모든 알림의 기록에 액세스할 수 있습니다. 왼쪽 탐색 창의 **대시보드** 탭 아래에 있는 **게재 경고** 메뉴에서 액세스할 수 있습니다.
 
-![](assets/alerting-dashboard-list.png)
+![게재 경고 메뉴의 경고 대시보드 목록을 표시하는 스크린샷입니다.](assets/alerting-dashboard-list.png)
 
 ## 게재 대시보드 만들기 {#dashboards}
 
@@ -47,19 +47,19 @@ ht-degree: 25%
 
 1. 왼쪽 탐색 창에서 **게재 경고** 메뉴로 이동한 다음 **게재 대시보드 만들기**&#x200B;를 클릭합니다.
 
-   ![](assets/alerting-dashboard.png)
+   ![게재 경고 메뉴의 게재 대시보드 만들기 옵션을 보여 주는 스크린샷입니다.](assets/alerting-dashboard.png)
 
 1. **레이블** 필드에서 대시보드 이름을 지정합니다. **내부 이름** 필드는 자동으로 채워지고 읽기 전용입니다.
 
 1. **경고 그룹 선택** 필드에서 이 대시보드에서 보낸 경고를 받을 **연산자 그룹**&#x200B;을(를) 지정합니다. 선택한 운영자 그룹의 모든 구성원이 경고를 받습니다.
 
-   [Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}에서 권한 및 연산자 그룹에 대한 자세한 내용을 알아보세요.
+   [Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}에서 권한 및 연산자 그룹에 대해 자세히 알아보세요.
 
 1. **게재 경고 기준** 섹션에서 경고를 보내는 데 사용할 기준을 추가합니다. 사전 정의된 기준 중에서 선택하거나 특정 요구 사항에 맞게 고유한 기준을 만듭니다. [기준 작업 방법 알아보기](../msg/delivery-alerting-criteria.md)
 
-1. 기준에는 적용 방법을 정의하는 기본 매개변수 값이 있습니다. **기준 매개 변수** 섹션에서 필요에 맞게 이러한 값을 변경할 수 있습니다.
+1. 기준에는 기준을 적용하는 방법을 정의하는 기본 매개 변수 값이 있습니다. **기준 매개 변수** 섹션에서 필요에 맞게 이러한 값을 변경할 수 있습니다.
 
-   ![](assets/alerting-criteria-parameters.png)
+   ![게재 대시보드의 기준 매개 변수 섹션을 보여 주는 스크린샷입니다.](assets/alerting-criteria-parameters.png)
 
    예를 들어 기본적으로 **게재 대상 최소 크기** 기준 매개 변수는 50으로 설정되어 있습니다. 즉, 최소 50개의 프로필을 대상으로 하는 경우에만 이 대시보드에서 보내는 경고에 게재가 포함됩니다. 50개 미만의 프로필을 타겟팅하는 게재를 포함하려는 경우 이 매개 변수를 변경할 수 있습니다.
 
@@ -83,7 +83,7 @@ ht-degree: 25%
 
    대시보드를 저장하고 나중에 활성화할 수도 있습니다.
 
-   ![](assets/alerting-dashboard-enable.png)
+   ![게재 대시보드 설정의 활성화 전환 옵션을 보여 주는 스크린샷입니다.](assets/alerting-dashboard-enable.png)
 
 1. 경고 대시보드를 저장하려면 **저장** 단추를 클릭하십시오.
 
@@ -105,12 +105,12 @@ ht-degree: 25%
 
 만든 모든 경고 대시보드는 **대시보드** 탭의 **게재 경고** 메뉴에서 액세스할 수 있습니다.
 
-![](assets/alerting-dashboard-list.png)
+![게재 경고 메뉴의 경고 대시보드 목록을 표시하는 스크린샷입니다.](assets/alerting-dashboard-list.png)
 
 이름 옆에 있는 **추가 작업** 단추를 사용하여 대시보드를 복제하거나 삭제할 수 있습니다.
 
 대시보드의 상세 보기에 액세스하려면 목록에서 해당 이름을 클릭합니다. 이 화면에서 전송된 최신 경고를 시각화할 수 있습니다. 전송된 모든 경고가 왼쪽 창에 나열됩니다. 특정 시간에 전송된 경고에 액세스하려면 항목을 클릭합니다.
 
-![](assets/alerting-dashboard-details.png)
+![경고 대시보드의 세부 보기를 보여 주는 스크린샷입니다.](assets/alerting-dashboard-details.png)
 
 대시보드를 편집하려면 오른쪽 상단의 **설정** 단추를 클릭하고 원하는 대로 변경합니다.

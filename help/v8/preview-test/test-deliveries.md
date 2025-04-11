@@ -3,9 +3,9 @@ audience: end-user
 title: 교정쇄 보내기
 description: 증명 정의 및 전송 방법 알아보기
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1161'
 ht-degree: 13%
 
 ---
@@ -36,13 +36,13 @@ ht-degree: 13%
 1. **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다.
 1. 증명을 보내려면 **[!UICONTROL 증명 보내기]** 단추를 클릭하세요.
 
-   ![](assets/simulate-test-button-email.png){zoomable="yes"}
+   ![전자 메일 테스트를 위한 콘텐츠 시뮬레이션 단추](assets/simulate-test-button-email.png){zoomable="yes"}
 
 1. 증명 수신자를 선택합니다.
 
    메시지 채널에 따라 다음 유형의 수신자에게 증명을 보낼 수 있습니다.
 
-   * SMS 및 전자 메일의 경우, 데이터베이스의 특정 추가 수신자인 [테스트 프로필](#test-profiles)을 사용할 수 있습니다. 전자 메일 테스트 주소 또는 전화 번호로 증명을 보내는 [기본 대상에서 대체](#substitution-profiles) 모드를 사용하고 기존 프로필의 개인화 데이터를 사용할 수도 있습니다. 이를 통해 수신자와 마찬가지로 메시지를 경험하여 프로필에서 수신할 콘텐츠를 정확하게 표현할 수 있습니다.
+   * SMS 및 전자 메일의 경우, 데이터베이스의 특정 추가 수신자인 [테스트 프로필](#test-profiles)을 사용할 수 있습니다. 전자 메일 테스트 주소 또는 전화 번호로 증명을 보내고 기존 프로필의 개인화 데이터를 사용하는 [기본 대상에서 대체](#substitution-profiles) 모드를 사용할 수도 있습니다. 이를 통해 수신자와 마찬가지로 메시지를 경험하여 프로필에서 수신할 콘텐츠를 정확하게 표현할 수 있습니다.
 
    * 푸시 메시지의 경우 데이터베이스에 추가된 가상 구독자인 [구독자](#subscribers)를 사용할 수 있습니다. [!DNL Campaign] 콘솔에서 만들어집니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}를 참조하세요
 
@@ -78,23 +78,23 @@ ht-degree: 13%
 
 1. **[!UICONTROL 모드]** 드롭다운 목록에서 **[!UICONTROL 테스트 프로필]**&#x200B;을(를) 선택하여 증명 또는 SMS 게재를 받을 가상 수신자를 타겟팅합니다.
 
-   ![](assets/simulate-profile-mode.png){zoomable="yes"}
+   ![프로필 모드 선택 테스트](assets/simulate-profile-mode.png){zoomable="yes"}
 
 1. 콘텐츠 시뮬레이션 화면에서 [메시지를 미리 보기](preview-content.md)할 프로필을 이미 선택한 경우 해당 프로필은 증명 수신자로 미리 선택됩니다. **[!UICONTROL 테스트 프로필 추가]** 단추를 사용하여 선택을 취소하거나 수신자를 추가할 수 있습니다.
 
-1. 테스트 프로필 또는 프로필 목록을 검색할 때 필터를 사용하여 검색을 구체화할 수 있습니다. 예를 들어 **[!UICONTROL 잠재 고객]** 상태인 모든 테스트 프로필을 찾는 규칙을 정의할 수 있습니다. [쿼리 모델러](../query/query-modeler-overview.md)를 사용하여 규칙을 추가하는 방법을 알아봅니다.
+1. 테스트 프로필 또는 프로필 목록을 검색할 때 필터를 사용하여 검색을 구체화할 수 있습니다. 예를 들어 **[!UICONTROL 잠재 고객]** 상태의 모든 테스트 프로필을 찾는 규칙을 정의할 수 있습니다. [쿼리 모델러](../query/query-modeler-overview.md)를 사용하여 규칙을 추가하는 방법을 알아봅니다.
 
-   ![](assets/simulate-test-profile-filter.png){zoomable="yes"}
+   ![테스트 프로필 필터링](assets/simulate-test-profile-filter.png){zoomable="yes"}
 
 1. 증명 수신자에게 최종 메시지를 보내려면 **[!UICONTROL 기본 대상에 테스트 모집단 포함]** 옵션을 선택하십시오.
 
-   ![](assets/simulate-include-test.png){zoomable="yes"}
+   ![테스트 모집단 옵션 포함](assets/simulate-include-test.png){zoomable="yes"}
 
 1. 테스트 프로필을 선택하면 [증명을 전송](#send-test)할 수 있습니다.
 
 ## 프로필 데이터 대체 {#substitution-profiles}
 
-[!DNL Adobe Campaign] 데이터베이스의 기존 프로필에서 데이터를 표시하는 동안 프로필 대체를 사용하여 특정 전자 메일 주소 또는 전화 번호로 증명을 보냅니다. 게재 대상이 정의된 경우에만 이 모드를 선택할 수 있습니다.
+[!DNL Adobe Campaign] 데이터베이스의 기존 프로필에서 데이터를 표시하는 동안 프로필 대체를 사용하여 특정 전자 메일 주소 또는 전화 번호로 증명을 보냅니다. 게재 대상자가 정의된 경우에만 이 모드를 선택할 수 있습니다.
 
 기본 대상에서 프로필 데이터를 대체하려면 아래 단계를 따르십시오.
 
@@ -108,7 +108,7 @@ ht-degree: 13%
 
 1. **[!UICONTROL 주소 추가]** 단추를 클릭하고 증명을 받을 전자 메일 주소 또는 전화 번호를 지정하십시오.
 
-   ![](assets/simulate-add-substitution-address.png){zoomable="yes"}
+   ![대체 주소 추가](assets/simulate-add-substitution-address.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -118,7 +118,7 @@ ht-degree: 13%
 
 1. 수신자를 확인하고 작업을 반복하여 이메일 주소 또는 전화 번호를 필요한 만큼 추가합니다.
 
-   ![](assets/simulate-profile-substitute.png){zoomable="yes"}
+   ![프로필 데이터 대체](assets/simulate-profile-substitute.png){zoomable="yes"}
 
 1. 증명 수신자에게 최종 메시지를 보내려면 **[!UICONTROL 기본 대상에 테스트 모집단 포함]** 옵션을 선택하십시오.
 
@@ -130,13 +130,13 @@ ht-degree: 13%
 
 1. 푸시 게재의 콘텐츠에서 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추와 **[!UICONTROL 증명 보내기]** 단추를 클릭합니다.
 
-   ![](assets/simulate-test-button-push.png){zoomable="yes"}
+   ![푸시 알림에 대한 콘텐츠 시뮬레이션 단추](assets/simulate-test-button-push.png){zoomable="yes"}
 
 1. 콘텐츠 시뮬레이션 화면에서 [게재 미리 보기](preview-content.md)의 구독자를 이미 선택한 경우 해당 프로필이 테스트 구독자로 미리 선택됩니다.
 
    전용 버튼을 사용하여 선택 사항을 지우고 가입자를 추가할 수 있습니다.
 
-   ![](assets/simulate-test-subscribers.png){zoomable="yes"}
+   ![테스트 구독자 추가](assets/simulate-test-subscribers.png){zoomable="yes"}
 
 1. 또한 테스트 구독자에게 최종 푸시 알림을 보내려면 **[!UICONTROL 기본 대상에 테스트 모집단 포함]** 옵션을 선택하십시오.
 
@@ -150,7 +150,7 @@ ht-degree: 13%
 
 1. 전송을 확인합니다.
 
-   ![](assets/simulate-send-test.png){zoomable="yes"}
+   ![증명 보내기 확인](assets/simulate-send-test.png){zoomable="yes"}
 
 1. 게재 콘텐츠를 완성할 때까지 필요한 만큼 증명을 보냅니다.
 
@@ -162,12 +162,12 @@ ht-degree: 13%
 
 ## 보낸 증명 액세스 {#access-test-deliveries}
 
-증명이 전송되면 **[!UICONTROL 콘텐츠 시뮬레이션]** 화면에서 로그에 액세스할 수 있습니다.
+증명을 보내고 나면 **[!UICONTROL 콘텐츠 시뮬레이션]** 화면에서 로그에 액세스할 수 있습니다.
 
 이러한 로그를 사용하여 선택한 게재에 대해 전송된 모든 증명에 액세스하고 해당 전송과 관련된 특정 통계를 시각화할 수 있습니다. [게재 로그 모니터링 방법 알아보기](../monitor/delivery-logs.md)
 
-![](assets/simulate-test-log.png){zoomable="yes"}
+![증명 로그 액세스](assets/simulate-test-log.png){zoomable="yes"}
 
 또한 모든 게재와 마찬가지로 [게재 목록](../msg/gs-messages.md)에서 전송된 증명에 액세스할 수 있습니다.
 
-![](assets/simulate-deliveries-list.png){zoomable="yes"}
+![게재 목록 보기](assets/simulate-deliveries-list.png){zoomable="yes"}

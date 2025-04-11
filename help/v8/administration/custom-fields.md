@@ -2,20 +2,19 @@
 title: 사용자 정의 필드
 description: 사용자 정의 필드를 구성하는 방법 및 인터페이스에서 해당 가시성을 알아봅니다.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 27e44682178267353418de210af51067eee4141b
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 24%
+source-wordcount: '1003'
+ht-degree: 20%
 
 ---
-
 
 # 사용자 정의 필드 구성 {#custom-fields}
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
 >title="사용자 정의 세부 정보 편집"
->abstract="선택한 스키마의 인터페이스에 표시되는 모든 사용자 정의 필드가 표시됩니다. 위, 아래 화살표를 사용하여 인터페이스에 표시되는 순서를 변경하고, 구분자를 추가하여 필드를 하위 섹션으로 그룹화할 수 있습니다. 사용자 정의 필드를 삭제하거나 가시성 조건 등의 설정을 편집하려면 줄임표 버튼을 클릭합니다."
+>abstract="선택한 스키마의 인터페이스에 표시되는 모든 사용자 정의 필드가 표시됩니다. 위쪽 및 아래쪽 화살표를 사용하여 인터페이스에 표시되는 순서를 변경하고, 구분 기호를 추가하여 필드를 하위 섹션으로 그룹화할 수 있습니다. 사용자 정의 필드를 삭제하거나 가시성 조건 등의 설정을 편집하려면 줄임표 버튼을 클릭합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_general"
@@ -69,24 +68,24 @@ ht-degree: 24%
 
    필터 창의 **[!UICONTROL 편집 가능]** 필터를 사용하여 사용자 지정 필드가 있는 스키마를 빠르게 식별합니다.
 
-   ![](assets/custom-fields-open.png)
+   ![탐색 창에서 스키마 메뉴와 편집 가능한 필터를 보여 주는 스크린샷](assets/custom-fields-open.png)
 
-1. 목록에서 스키마 이름을 선택하여 엽니다. 자세한 스키마 보기에는 [스키마 세부 정보에 대한 자세한 정보](../administration/schemas.md)가 표시됩니다. 사용자 정의 필드에 액세스하려면 **[!UICONTROL 사용자 정의 세부 정보 편집]** 단추를 클릭하십시오. 이 예제에서는 **[!UICONTROL 수신자]** 스키마에 대한 필드를 추가하려고 합니다.
+1. 목록에서 스키마 이름을 선택하여 엽니다. 자세한 스키마 보기가 표시됩니다. [스키마 세부 정보에 대해 자세히 알아보세요](../administration/schemas.md). 사용자 정의 필드에 액세스하려면 **[!UICONTROL 사용자 정의 세부 정보 편집]** 단추를 클릭하십시오. 이 예제에서는 **[!UICONTROL 수신자]** 스키마에 대한 필드가 추가됩니다.
 
-   ![](assets/custom-fields-edit.png)
+   ![스키마 보기에서 사용자 지정 세부 정보 편집 단추를 표시하는 스크린샷](assets/custom-fields-edit.png)
 
-1. 스키마가 표시되도록 인터페이스에 표시되는 사용자 지정 필드 목록입니다. 여기에서 &quot;CRM ID&quot; 필드는 프로필의 세부 사항 화면에 표시되며 필수 항목으로 표시되어 있습니다.
+1. 스키마에 대한 인터페이스에 표시된 사용자 지정 필드 목록이 나타납니다. 여기에서 &quot;CRM ID&quot; 필드는 프로필의 세부 사항 화면에 표시되며 필수 항목으로 표시되어 있습니다.
 
    | 사용자 정의 필드 구성 | 인터페이스에서 렌더링 |
    |  ---  |  ---  |
-   | ![](assets/custom-fields-detail.png){zoomable="yes"} | ![](assets/custom-fields-detail-crm.png){zoomable="yes"} |
+   | ![사용자 지정 필드 구성을 보여 주는 스크린샷](assets/custom-fields-detail.png){zoomable="yes"} | ![인터페이스에서 CRM ID 필드 렌더링을 보여 주는 스크린샷](assets/custom-fields-detail-crm.png){zoomable="yes"} |
 
 1. 인터페이스에 사용자 지정 필드를 추가하려면 줄임표 버튼을 클릭하고 다음 옵션 중 하나를 선택합니다.
 
    * **[!UICONTROL 사용자 지정 필드 선택]**: 인터페이스에 표시할 사용자 지정 필드를 하나 이상 선택합니다.
    * **[!UICONTROL 사용자 지정 필드 목록을 자동으로 채우기]**: 스키마에 대해 정의된 모든 사용자 지정 필드를 인터페이스에 추가합니다.
 
-   ![](assets/custom-fields-add.png)
+   ![사용자 지정 필드 추가 옵션을 보여 주는 스크린샷](assets/custom-fields-add.png)
 
 1. 사용자 정의 필드가 추가되면 다음 작업을 수행할 수 있습니다.
 
@@ -100,7 +99,7 @@ ht-degree: 24%
 
 각 사용자 지정 필드에 대한 특정 설정을 구성하려면 원하는 필드 옆에 있는 줄임표 버튼을 클릭하고 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
 
-![](assets/custom-fields-settings.png)
+![사용자 지정 필드에 대한 설정 메뉴를 표시하는 스크린샷](assets/custom-fields-settings.png)
 
 사용 가능한 설정은 다음과 같습니다.
 
@@ -117,7 +116,7 @@ ht-degree: 24%
 
   +++보기 예
 
-  ![](assets/custom-fields-ref.png)
+  ![사용자 지정 필드에 대한 필터 설정의 예를 보여 주는 스크린샷](assets/custom-fields-ref.png)
 
 +++
 
@@ -125,9 +124,9 @@ ht-degree: 24%
 
 ## 하위 섹션의 사용자 정의 필드 구성 {#separator}
 
-Campaign 웹 사용자 인터페이스를 사용하면 인터페이스에 사용자 지정 필드를 함께 그룹화하여 가독성을 높이기 위해 구분 기호를 추가할 수 있습니다. 이렇게 하려면 다음 단계를 수행합니다.
+Campaign 웹 사용자 인터페이스를 사용하면 더 나은 가독성을 위해 인터페이스에서 사용자 정의 필드를 그룹화하는 구분자를 추가할 수 있습니다. 이렇게 하려면 다음 단계를 수행합니다.
 
-1. 위쪽 및 아래쪽 화살표 옆에 있는 줄임표 단추를 클릭하고 **[!UICONTROL 구분 기호 추가]**&#x200B;를 선택합니다.
+1. 위쪽 및 아래쪽 화살표 옆에 있는 줄임표 단추를 클릭하고 **[!UICONTROL 구분 문자 추가]**&#x200B;를 선택합니다.
 
 1. 구분 기호를 나타내는 새 줄이 목록에 추가됩니다. 줄임표 버튼을 클릭하고 **[!UICONTROL 편집]**&#x200B;을 선택하여 하위 섹션 이름을 지정합니다.
 
@@ -137,4 +136,4 @@ Campaign 웹 사용자 인터페이스를 사용하면 인터페이스에 사용
 
    | 사용자 정의 필드 구성 | 인터페이스에서 렌더링 |
    |  ---  |  ---  |
-   | ![](assets/custom-fields-separator.png){zoomable="yes"} | ![](assets/custom-fields-section.png){zoomable="yes"} |
+   | ![구분 기호 구성을 보여 주는 스크린샷](assets/custom-fields-separator.png){zoomable="yes"} | ![인터페이스의 하위 섹션 렌더링을 보여 주는 스크린샷](assets/custom-fields-section.png){zoomable="yes"} |

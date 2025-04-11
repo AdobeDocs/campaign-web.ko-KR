@@ -4,7 +4,7 @@ title: 게재 설정 구성
 description: Campaign 웹에서 게재 설정을 구성하는 방법 알아보기
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '2765'
 ht-degree: 46%
@@ -138,7 +138,7 @@ ht-degree: 46%
 
 * **[!UICONTROL 받는 사람 환경 설정 사용]**(기본 모드): 전자 메일 형식은 받는 사람 프로필에 저장된 데이터에 따라 정의됩니다. 수신자가 특정 형식으로 이메일을 수신하려는 경우 이는 전송된 형식입니다. 필드를 입력하지 않으면 다중 파트 대체 이메일이 전송됩니다(아래 참조).
 
-* **[!UICONTROL 받는 사람 메일 클라이언트가 가장 적절한 형식을 선택할 수 있도록 합니다]**: 전자 메일에는 텍스트와 HTML의 두 가지 형식이 모두 포함됩니다. 수신에 표시되는 형식은 수신자의 메일 소프트웨어(다중 파트 대체)의 구성에 따라 다릅니다.
+* **[!UICONTROL 받는 사람 메일 클라이언트가 가장 적절한 형식을 선택할 수 있도록 합니다]**: 전자 메일에는 텍스트 및 HTML의 두 형식 모두가 포함됩니다. 수신에 표시되는 형식은 수신자의 메일 소프트웨어(다중 파트 대체)의 구성에 따라 다릅니다.
 
   >[!IMPORTANT]
   >

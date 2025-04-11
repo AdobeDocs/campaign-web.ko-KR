@@ -3,10 +3,10 @@ audience: end-user
 title: 파일 전송 활동 사용
 description: 파일 전송 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 29%
+source-wordcount: '1253'
+ht-degree: 25%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 29%
 
 >[!NOTE]
 >
->Campaign 웹 사용자 인터페이스를 사용하여 **파일 전송** 및 **웹 다운로드** 기능을 모두 병합하여 두 활동을 하나로 통합했습니다. 이 통합은 어떤 식으로든 활동의 기능에 영향을 주지 않습니다.
+>Campaign 웹 사용자 인터페이스를 사용하면 **파일 전송** 및 **웹 다운로드** 기능을 모두 병합하여 두 활동을 하나로 통합했습니다. 이 통합은 어떤 식으로든 활동의 기능에 영향을 주지 않습니다.
 
 **파일 전송** 활동을 구성하려면 아래 설명된 단계를 따르십시오.
 
@@ -49,7 +49,7 @@ ht-degree: 29%
 
 1. 워크플로우에 **파일 전송** 활동을 추가한 다음 사용할 프로토콜에 따라 수행할 전송 유형을 지정합니다.
 
-   * HTTP 프로토콜의 경우 **[!UICONTROL 웹 다운로드]**&#x200B;를 선택하십시오. 이를 통해 명시적 URL, 외부 계정 또는 Adobe Campaign 인스턴스에 파일을 다운로드하거나 GETPOST 을 수행할 수 있습니다.
+   * HTTP 프로토콜의 경우 **[!UICONTROL 웹 다운로드]**&#x200B;를 선택하십시오. 이렇게 하면 GET 또는 POST 작업을 수행하여 명시적 URL, 외부 계정 또는 Adobe Campaign 인스턴스에 파일을 다운로드할 수 있습니다.
    * 다른 서버 간 프로토콜 및 관련 작업을 보려면 **[!UICONTROL 파일 전송]**&#x200B;을 선택하십시오.
 
 1. 활동으로 수행할 작업을 선택합니다. 사용 가능한 작업은 선택한 전송 유형에 따라 다릅니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
@@ -58,7 +58,7 @@ ht-degree: 29%
 
    * **[!UICONTROL 파일 다운로드]**: 서버에서 파일을 다운로드합니다.
    * **[!UICONTROL 파일 업로드]**: 서버에 파일을 업로드합니다.
-   * **[!UICONTROL 파일이 있는지 테스트합니다]**: 지정된 파일이 서버에 있는지 확인합니다. 활동 후 &quot;파일이 있음&quot; 및 &quot;파일이 없음&quot; 두 개의 아웃바운드 전환을 생성합니다.
+   * **[!UICONTROL 파일이 있는지 테스트합니다]**: 지정된 파일이 서버에 있는지 확인합니다. 활동 후 &quot;파일이 있음&quot; 및 &quot;파일이 없음&quot;의 두 아웃바운드 전환을 생성합니다.
    * **[!UICONTROL 파일 목록]**: 서버에서 사용할 수 있는 모든 파일을 나열합니다.
 
 +++
@@ -70,7 +70,7 @@ ht-degree: 29%
 
 +++
 
-   ![](../assets/workflow-transfer-file-action.png)
+   ![워크플로 전송 파일 작업 옵션을 보여 주는 스크린샷](../assets/workflow-transfer-file-action.png)
 
 1. 기본적으로 파일 업로드 작업의 경우 활동은 이전 활동에 지정된 파일을 사용합니다. 다른 파일을 사용하려면 **[!UICONTROL 이전 활동에서 파일 사용]** 옵션을 끄고 **[!UICONTROL 파일 추가]** 단추를 클릭하십시오.
 
@@ -84,7 +84,7 @@ ht-degree: 29%
    * **[!UICONTROL 빠른 구성]**: 파일(또는 파일 목록 작업의 폴더)의 URL을 입력합니다.
    * **[!UICONTROL Adobe Campaign 인스턴스]**(웹 다운로드 유형 활동): Adobe Campaign 인스턴스 서버에서 파일을 다운로드합니다.
 
-   ![](../assets/workflow-transfer-file-server.png)
+   ![워크플로 전송 파일 서버 구성 옵션을 보여 주는 스크린샷](../assets/workflow-transfer-file-server.png)
 
 1. 웹 다운로드 POST 작업의 경우 작업과 함께 추가 매개 변수를 전달할 수 있습니다. 이렇게 하려면 **[!UICONTROL 매개 변수 추가]** 단추를 클릭한 다음 매개 변수의 이름과 값을 지정하십시오. 필요한 만큼 매개 변수를 추가할 수 있습니다.
 
@@ -99,31 +99,31 @@ ht-degree: 29%
 
 **[!UICONTROL 파일 전송]** 활동이 실행될 때마다 업로드 또는 다운로드한 파일이 전용 폴더에 저장됩니다. 워크플로의 각 파일 전송 활동마다 폴더가 하나씩 생성됩니다. 기본적으로 파일은 처리되기 전에 Adobe Campaign 설치 폴더의 기본 저장 디렉터리(`/vars`)에 저장됩니다. 특정 폴더를 사용하려면 **[!UICONTROL 기본 스토리지 디렉터리 사용]** 옵션을 끄고 디렉터리 경로를 입력합니다.
 
-![](../assets/workflow-transfer-file-historization.png)
+![워크플로 전송 파일 기록 설정을 보여 주는 스크린샷](../assets/workflow-transfer-file-historization.png)
 
-서버의 물리적 공간을 유지하려면 이 폴더의 크기를 제한할 수 있어야 합니다. 이를 위해 활동 폴더의 최대 파일 수나 총 크기를 정의할 수 있습니다. 기본적으로 파일 100개와 50MB가 승인됩니다.
+서버의 물리적 공간을 유지하려면 이 폴더의 크기를 제한하는 것이 중요합니다. 이를 위해 활동 폴더의 최대 파일 수 또는 총 크기를 정의합니다. 기본적으로 파일 100개와 50MB가 승인됩니다.
 
 활동이 실행될 때마다 폴더를 다음과 같이 확인합니다.
 
 * 활동 실행 24시간 이전에 만든 파일만 고려합니다.
-* 고려하는 파일 수가 **[!UICONTROL 파일 수]** 필드의 값보다 큰 경우 허용되는 최대 파일 수에 도달할 때까지 가장 오래된 파일부터 삭제합니다.
-* 고려하는 파일의 총 크기가 **[!UICONTROL 최대 크기(MB)]** 매개 변수의 값보다 큰 경우, 허용되는 최대 크기(MB)에 도달할 때까지 가장 오래된 파일부터 삭제합니다.
+* 고려하는 파일 수가 **[!UICONTROL 파일 수]** 필드의 값을 초과하면 허용되는 최대 파일 수에 도달할 때까지 가장 오래된 파일부터 삭제합니다.
+* 고려하는 파일의 총 크기가 **[!UICONTROL 최대 크기(MB)]** 매개 변수의 값을 초과하는 경우 허용되는 최대 크기에 도달할 때까지 가장 오래된 파일이 삭제됩니다.
 
 >[!CAUTION]
 >
->활동을 다시 실행하지 않는 경우 해당 폴더는 확인되거나 삭제되지 않습니다. 따라서 대용량 파일을 전송할 때는 주의하십시오.
+>활동을 다시 실행하지 않는 경우 해당 폴더는 확인되거나 삭제되지 않습니다. 대용량 파일을 전송할 때는 주의하십시오.
 
 ## 고급 및 오류 관리 옵션 {#advanced}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
 >title="전송 후 소스 파일 삭제"
->abstract="전송이 성공적으로 완료되면 소스 파일을 삭제합니다."
+>abstract="성공적으로 전송한 후 소스 파일을 지웁니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
 >title="세션 로그 표시"
->abstract="전송 작업과 관련된 정보가 워크플로 로그에 표시됩니다."
+>abstract="전송 작업과 관련된 정보가 워크플로우 로그에 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"

@@ -14,7 +14,7 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >
-**스케줄러** 활동은 **흐름 제어** 활동입니다. 워크플로우가 시작되는 시기를 예약할 수 있습니다. 이 활동은 시작을 예약하는 것으로 생각해야 합니다. 워크플로의 첫 번째 활동으로만 사용할 수 있습니다.
+>**스케줄러** 활동은 **흐름 제어** 활동입니다. 워크플로우가 시작되는 시기를 예약할 수 있습니다. 이 활동은 시작을 예약하는 것으로 생각해야 합니다. 워크플로의 첫 번째 활동으로만 사용할 수 있습니다.
 
 ## 모범 사례 {#scheduler-best-practices}
 
@@ -24,9 +24,15 @@ ht-degree: 9%
 
 ## 스케줄러 활동 구성 {#scheduler-configuration}
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_validity"
+>title="Scheduler validity"
+>abstract="You can define a validity period for the scheduler. It can be permanent (default), or can be valid until a specific date."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_options"
+>title="Scheduler options"
+>abstract="Define the frequency of the scheduler. It can be executed at a specific moment, once or several times a day, week or month."
 
 **스케줄러** 활동을 구성하려면 다음 단계를 따르십시오.
 

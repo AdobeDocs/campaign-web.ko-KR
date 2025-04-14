@@ -13,8 +13,10 @@ ht-degree: 12%
 # 기존 대상자 선택 {#add-audience}
 
 >[!CONTEXTUALHELP]
->
-이 섹션에서는 게재의 대상 모집단을 정의할 때 기존 대상자를 선택하는 방법을 설명합니다. 게재의 기본 대상을 정의할 때 다음을 수행할 수도 있습니다.
+>id="acw_deliveries_email_audience_select"
+>title="Select an existing audience"
+>abstract="Browse the list to select an existing audience. Use the 'Show filters' icon to filter the list, or select a specific folder."
+
 * 쿼리 모델러를 사용하여 [일회성 대상자를 만듭니다](one-time-audience.md).
 * [외부 파일에서 대상자를 로드합니다](file-audience.md)(전자 메일 전용).
 

@@ -13,8 +13,9 @@ ht-degree: 40%
 # 이메일 배경 개인화 {#backgrounds}
 
 >[!CONTEXTUALHELP]
->
-이메일 Designer으로 배경을 설정할 때 Adobe은 다음 사항을 권장합니다.
+>id="ac_edition_backgroundimage"
+>title="Background settings"
+>abstract="You can personalize the background color or background image for your content. Note that background image is not supported by all email clients."
 
 1. 디자인에 필요한 경우 이메일 본문에 배경색을 적용합니다.
 1. 대부분의 경우 열 수준에서 배경색을 설정합니다.

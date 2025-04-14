@@ -12,14 +12,8 @@ ht-degree: 4%
 # [!DNL Campaign] 옵션 구성 {#options}
 
 >[!CONTEXTUALHELP]
->id="acw_options_list"
->title="Options"
->abstract="Options"
-
->[!CONTEXTUALHELP]
->id="acw_options_create"
->title="Create option"
->abstract="Create option"
+>
+[!CONTEXTUALHELP]
 
 Adobe Campaign 웹에는 애플리케이션을 보다 구체적으로 구성할 수 있는 기술 옵션이 포함되어 있습니다. 이러한 옵션 중 일부는 내장되어 있으며, 다른 옵션은 필요에 따라 수동으로 추가할 수 있습니다.
 

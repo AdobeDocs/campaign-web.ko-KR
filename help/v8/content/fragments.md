@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: 콘텐츠 조각 시작
+title: 콘텐츠 조각 시작하기
 description: 콘텐츠 조각을 사용하여 만드는 방법 알아보기
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
@@ -10,7 +10,7 @@ ht-degree: 58%
 
 ---
 
-# 콘텐츠 조각 시작 {#gs-fragments}
+# 콘텐츠 조각 시작하기 {#gs-fragments}
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"

@@ -12,9 +12,8 @@ ht-degree: 5%
 # 타기팅 차원 {#targeting-dimensions}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_build_audience_dimension"
->title="Select the targeting dimension"
->abstract="The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, and more. By default, for emails and SMS, the target is selected from the Recipients built-in table. For Push notifications, the default target dimension is Subscriber applications."
+>
+대상 매핑이라고도 하는 타겟팅 차원은 작업에서 처리하는 데이터 유형입니다. 프로필, 계약 수혜자, 운영자 또는 구독자와 같은 대상 모집단을 정의합니다.
 
 ## 워크플로우의 타겟팅 차원 {#workflow}
 

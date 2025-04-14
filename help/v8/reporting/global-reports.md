@@ -10,7 +10,7 @@ ht-degree: 27%
 
 ---
 
-# 글로벌 보고서 시작 {#global-report-gs}
+# 글로벌 보고서 시작하기 {#global-report-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_global_report"

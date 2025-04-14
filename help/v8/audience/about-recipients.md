@@ -1,5 +1,5 @@
 ---
-title: 프로필 시작
+title: 프로필 시작하기
 description: Campaign 웹에서 프로필을 모니터링하고 관리하는 방법을 알아봅니다.
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28

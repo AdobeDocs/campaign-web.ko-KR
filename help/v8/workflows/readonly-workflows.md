@@ -3,17 +3,20 @@ audience: end-user
 title: 읽기 전용 워크플로 정보
 description: 워크플로우가 읽기 전용 모드인 이유를 알아봅니다.
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 4%
+source-wordcount: '266'
+ht-degree: 11%
 
 ---
 
 # 읽기 전용 워크플로 정보 {#readonly-workflows}
 
 >[!CONTEXTUALHELP]
->
+>id="acw_wf_read_only_canvas"
+>title="이 워크플로는 읽기 전용입니다."
+>abstract="귀하의 권리 또는 워크플로 유형으로 인해 이 워크플로를 편집할 수 없습니다."
+
 일부 워크플로우는 읽기 전용입니다. 기본 제공 기술 워크플로우는 항상 읽기 전용이지만 다른 유형의 워크플로에도 이 제한이 적용될 수 있습니다.
 
 Campaign 사용자는 Adobe Campaign 데이터에 대한 액세스가 제한될 수 있습니다. Campaign 관리자는 사용자에게 특정 기능을 볼 수 있는 권한을 부여할 수 있지만 편집하거나 수정할 수는 없습니다. 데이터와 프로세스 보안을 보장하기 위해서는 데이터에 대한 사용자 권한이 필수적입니다. [이 섹션](../get-started/permissions.md)에서 Campaign의 권한 관리에 대해 자세히 알아보세요.

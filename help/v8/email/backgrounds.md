@@ -3,17 +3,20 @@ audience: end-user
 title: 이메일 배경 개인화
 description: 이메일 배경 개인화 방법 알아보기
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 40%
+source-wordcount: '351'
+ht-degree: 44%
 
 ---
 
 # 이메일 배경 개인화 {#backgrounds}
 
 >[!CONTEXTUALHELP]
->
+>id="ac_edition_backgroundimage"
+>title="배경 설정"
+>abstract="콘텐츠 배경색 또는 배경 이미지를 개인화할 수 있습니다. 배경 이미지는 모든 이메일 클라이언트에서 지원되지 않습니다."
+
 이메일 Designer으로 배경을 설정할 때 Adobe은 다음 사항을 권장합니다.
 
 1. 디자인에 필요한 경우 이메일 본문에 배경색을 적용합니다.
@@ -38,7 +41,7 @@ ht-degree: 40%
   ![](assets/background_3.png){zoomable="yes"}
 
   >[!NOTE]\
-  뷰포트 배경색은 구조 배경색을 숨길 수 있으므로 설정하지 마십시오.
+  >뷰포트 배경색은 구조 배경색을 숨길 수 있으므로 설정하지 마십시오.
 
 * 구조 구성 요소의 콘텐츠에 대해 **[!UICONTROL 배경 이미지]**&#x200B;를 설정합니다.
 
@@ -46,7 +49,7 @@ ht-degree: 40%
   ![](assets/background_4.png){zoomable="yes"}
 
   >[!NOTE]\
-  일부 이메일 프로그램은 배경 이미지를 지원하지 않습니다. 지원되지 않는 경우에는 행 배경색이 대신 사용됩니다. 이미지를 표시할 수 없는 경우 적절한 대체 배경색을 선택합니다.
+  >일부 이메일 프로그램은 배경 이미지를 지원하지 않습니다. 지원되지 않는 경우에는 행 배경색이 대신 사용됩니다. 이미지를 표시할 수 없는 경우 적절한 대체 배경색을 선택합니다.
 
 * 열 수준에서 배경색을 설정합니다.
 
@@ -54,6 +57,6 @@ ht-degree: 40%
   ![](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]\
-  이는 가장 일반적인 사용 사례입니다. Adobe 전체 이메일 콘텐츠를 편집할 때 보다 유연하게 사용할 수 있도록 열 수준에서 배경색을 설정하는 것이 좋습니다.
+  >이는 가장 일반적인 사용 사례입니다. Adobe 전체 이메일 콘텐츠를 편집할 때 보다 유연하게 사용할 수 있도록 열 수준에서 배경색을 설정하는 것이 좋습니다.
 
   배경 이미지도 열 수준에서 설정할 수 있지만 이러한 방법은 거의 사용되지 않습니다.

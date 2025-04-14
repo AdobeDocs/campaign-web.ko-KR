@@ -3,22 +3,34 @@ audience: end-user
 title: 대상자 시작하기
 description: Adobe Campaign 웹에서 대상자를 사용하여 작업하는 방법에 대해 알아봅니다
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 5%
+source-wordcount: '371'
+ht-degree: 19%
 
 ---
 
 # 대상자 시작하기 {#monitor-manage}
 
 >[!CONTEXTUALHELP]
->
-[!CONTEXTUALHELP]
+>id="acw_audiences_properties"
+>title="속성"
+>abstract="여기에서 원본 또는 저장소 폴더와 같은 대상 속성에 대한 요약을 찾을 수 있습니다. 대상자를 만드는 데 사용된 워크플로를 열려면 **마지막 워크플로** 섹션의 링크를 클릭합니다."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_audiences_count"
+>title="대상자 크기"
+>abstract="여기서 대상자 내의 총 프로필 수를 확인할 수 있습니다. 대상자 결과를 업데이트하고 다시 계산하려면 **계산** 버튼을 클릭합니다."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_audiences_targeting"
+>title="타기팅"
+>abstract="타기팅"
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_workflow_error_data_execution"
+>title="대상자 오류"
+>abstract="대상자 데이터를 사용할 수 없습니다. 워크플로우 실행이 종료될 때까지 기다리십시오."
 
 대상자는 게재의 주요 타겟인 메시지를 받는 프로필입니다. Campaign 웹에서 사용할 수 있는 대상자 목록은 **[!UICONTROL 대상자]** 메뉴에서 액세스할 수 있습니다.
 

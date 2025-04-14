@@ -3,17 +3,20 @@ audience: end-user
 title: 예약 워크플로우 활동 사용
 description: 스케줄러 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 9%
+source-wordcount: '505'
+ht-degree: 24%
 
 ---
 
 # 예약 {#scheduler}
 
 >[!CONTEXTUALHELP]
->
+>id="acw_orchestration_scheduler"
+>title="스케줄러 활동"
+>abstract="**스케줄러** 활동을 사용하면 워크플로가 시작되는 시기를 예약할 수 있습니다. 이 활동은 시작을 예약하는 것으로 생각해야 합니다. 워크플로의 첫 번째 활동으로만 사용할 수 있습니다."
+
 **스케줄러** 활동은 **흐름 제어** 활동입니다. 워크플로우가 시작되는 시기를 예약할 수 있습니다. 이 활동은 시작을 예약하는 것으로 생각해야 합니다. 워크플로의 첫 번째 활동으로만 사용할 수 있습니다.
 
 ## 모범 사례 {#scheduler-best-practices}
@@ -24,9 +27,15 @@ ht-degree: 9%
 
 ## 스케줄러 활동 구성 {#scheduler-configuration}
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_validity"
+>title="스케줄러 유효성"
+>abstract="스케줄러의 유효 기간을 정의할 수 있습니다. 영구적(기본값)이거나 특정 날짜까지 유효할 수 있습니다."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_options"
+>title="스케줄러 옵션"
+>abstract="스케줄러의 빈도를 정의합니다. 특정 순간, 하루에 한 번 또는 여러 번, 일주일 또는 한 달로 실행할 수 있습니다."
 
 **스케줄러** 활동을 구성하려면 다음 단계를 따르십시오.
 
@@ -52,7 +61,7 @@ ht-degree: 9%
    * **유효 기간**: 워크플로우가 특정 날짜까지 지정한 빈도대로 실행됩니다. 시작 및 종료 날짜를 지정합니다.
 
 >[!NOTE]\
-워크플로를 바로 시작하려면 예약의 상단 작업 표시줄에서 **보류 중인 작업 실행**&#x200B;을 클릭하세요. 이 단추는 워크플로우가 시작된 경우에만 사용할 수 있습니다.
+>워크플로를 바로 시작하려면 예약의 상단 작업 표시줄에서 **보류 중인 작업 실행**&#x200B;을 클릭하세요. 이 단추는 워크플로우가 시작된 경우에만 사용할 수 있습니다.
 
 ## 예제 {#scheduler-example}
 

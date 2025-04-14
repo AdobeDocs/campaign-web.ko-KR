@@ -13,8 +13,9 @@ ht-degree: 4%
 # 읽기 전용 워크플로 정보 {#readonly-workflows}
 
 >[!CONTEXTUALHELP]
->
-일부 워크플로우는 읽기 전용입니다. 기본 제공 기술 워크플로우는 항상 읽기 전용이지만 다른 유형의 워크플로에도 이 제한이 적용될 수 있습니다.
+>id="acw_wf_read_only_canvas"
+>title="This workflow is read only"
+>abstract="You cannot edit this workflow due to your rights or the type of the workflow."
 
 Campaign 사용자는 Adobe Campaign 데이터에 대한 액세스가 제한될 수 있습니다. Campaign 관리자는 사용자에게 특정 기능을 볼 수 있는 권한을 부여할 수 있지만 편집하거나 수정할 수는 없습니다. 데이터와 프로세스 보안을 보장하기 위해서는 데이터에 대한 사용자 권한이 필수적입니다. [이 섹션](../get-started/permissions.md)에서 Campaign의 권한 관리에 대해 자세히 알아보세요.
 

@@ -13,8 +13,9 @@ ht-degree: 9%
 # 예약 {#scheduler}
 
 >[!CONTEXTUALHELP]
->
->**스케줄러** 활동은 **흐름 제어** 활동입니다. 워크플로우가 시작되는 시기를 예약할 수 있습니다. 이 활동은 시작을 예약하는 것으로 생각해야 합니다. 워크플로의 첫 번째 활동으로만 사용할 수 있습니다.
+>id="acw_orchestration_scheduler"
+>title="Scheduler activity"
+>abstract="The **Scheduler** activity allows you to schedule when the workflow gets started. This activity should be considered as a scheduled start. It can only be used as the first activity of the workflow."
 
 ## 모범 사례 {#scheduler-best-practices}
 

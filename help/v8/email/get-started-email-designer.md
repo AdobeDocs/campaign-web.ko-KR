@@ -3,15 +3,15 @@ audience: end-user
 title: 이메일 콘텐츠 편집
 description: Campaign Web 사용자 인터페이스의 이메일 디자이너를 사용하여 콘텐츠 작성을 시작하는 방법에 대해 알아봅니다.
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
+source-git-commit: d7fc756b2e1d94b43c76ced748e1bf7c7ae5da0d
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 45%
+source-wordcount: '409'
+ht-degree: 61%
 
 ---
 
 
-# 이메일 디자이너 시작 {#get-started-email-designer}
+# 이메일 디자이너 시작하기 {#get-started-email-designer}
 
 Adobe Campaign에서 이메일을 만든 후에는 해당 콘텐츠를 정의해야 합니다.
 
@@ -31,7 +31,9 @@ The Email Designer allows you to create email content and email content template
 
 이메일을 보낼 때 수신자가 전달 할 수 있으며, 이로 인해 이메일 렌더링에 문제가 발생할 수 있습니다. 전달에 사용되는 이메일 공급자가 지원하지 않을 수 있는 CSS 클래스를 사용하는 경우 특히 그러합니다. 예를 들어 &quot;is-desktop-hidden&quot; CSS 클래스를 사용하여 모바일 장치에서 이미지를 숨기는 경우 올바르게 렌더링되지 않을 수 있습니다.
 
-이러한 렌더링 문제를 최소화하려면 이메일 디자인 구조를 가능한 한 단순하게 유지하십시오. 데스크탑 및 모바일 장치 모두에 적합한 단일 디자인을 사용하고, 복잡한 CSS 클래스 또는 모든 이메일 클라이언트가 완전히 지원하지 않을 수 있는 기타 디자인 요소를 사용하지 마십시오. 이러한 모범 사례를 따르면 수신자가 이메일을 보거나 전달하는 방식에 관계없이 이메일이 일관되게 렌더링되도록 하는 데 도움이 됩니다.
+이러한 렌더링 문제를 최소화하려면 이메일 디자인 구조를 최대한 단순하게 유지합니다. 데스크탑과 모바일 디바이스 모두에 적합한 단일 디자인을 사용하고 복잡한 CSS 클래스나, 모든 이메일 클라이언트에서 전폭 지원할 수 없는 다른 디자인 요소를 사용하지 마십시오. 이메일에서 이미지를 사용할 때 2MB보다 큰 이미지는 피하거나 인코딩된 이미지 링크를 사용하십시오.
+
+이 모범 사례를 따르면 수신자의 이메일 확인 또는 전달 방법에 관계없이 이메일이 일관되게 렌더링되고 있는지 확인할 수 있습니다.
 
 ## 콘텐츠 작성 시작 {#start-authoring}
 

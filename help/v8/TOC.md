@@ -6,9 +6,9 @@ title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
 source-git-commit: f645d8bf45e92028485ffdab138ed7b637e9a4a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '809'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 99%
    + [새로운 기능](rn/whats-new.md)
    + [얼리 릴리스](rn/e-release-notes.md)
    + [최신 릴리스](rn/release-notes.md)
-   + 이전 릴리스 {#previous-release-notes}
+   + 이전 릴리스  {#previous-release-notes}
       + [2025년 릴리스](rn/release-notes-25.md)
       + [2024년 릴리스](rn/release-notes-24.md)
    + [설명서 업데이트](rn/documentation-updates.md)
 + Adobe Campaign 시작하기 {#start}
-   + [시작](get-started/get-started.md)
+   + [시작하기](get-started/get-started.md)
    + [Campaign에 연결](get-started/connect-to-campaign.md)
    + [인터페이스 살펴보기](get-started/user-interface.md)
    + [목록 찾아보기 및 필터링](get-started/list-filters.md)
@@ -37,8 +37,8 @@ ht-degree: 99%
    + [Campaign Standard에서 v8로의 전환](rn/acs-migration.md)
    + [AI 기반 상황별 도움말](get-started/using-ai.md)
    + [FAQ](get-started/faq.md)
-+ 메시지 및 게재 {#msg}
-   + [메시지 시작](msg/gs-messages.md)
++ 메시지 및 게재  {#msg}
+   + [메시지 시작하기](msg/gs-messages.md)
    + [게재에 액세스하기](msg/gs-deliveries.md)
    + [게재 만들기](msg/create-deliveries.md)
    + [게재 템플릿 사용](msg/delivery-template.md)
@@ -53,7 +53,7 @@ ht-degree: 99%
    + 푸시 알림 {#push}
       + [푸시 알림 시작하기](push/gs-push.md)
       + [푸시 알림 게재 만들기](push/create-push.md)
-      + 리치 푸시 {#rich-push}
+      + 리치 푸시  {#rich-push}
          + [Android 리치 푸시 게재 디자인](push/rich-push.md)
          + [iOS 리치 푸시 게재 디자인](push/rich-push-ios.md)
       + [푸시 게재 디자인](push/content-push.md)
@@ -68,7 +68,7 @@ ht-degree: 99%
       + [DM 게재 만들기](direct-mail/create-direct-mail.md)
       + [추출 파일 설계](direct-mail/content-direct-mail.md)
       + [다이렉트 메일 게재 미리보기 및 전송](direct-mail/send-direct-mail.md)
-   + 트랜잭션 메시지 {#transactional-messages}
+   + 트랜잭션 메시지  {#transactional-messages}
       + [트랜잭션 메시지 시작하기](transactional-messaging/transactional.md)
       + [트랜잭션 메시지 만들기](transactional-messaging/create-transactional.md)
       + [트랜잭션 메시지 유효성 검사](transactional-messaging/validate-transactional.md)
@@ -77,35 +77,35 @@ ht-degree: 99%
    + [메시지에 오퍼 추가](msg/offers.md)
    + [구독자에게 메시지 전송](msg/send-to-subscribers.md)
    + [게재 설정 구성](advanced-settings/delivery-settings.md)
-   + 게재 미리보기 및 테스트 {#preview-test}
+   + 게재 미리보기 및 테스트  {#preview-test}
       + [미리보기 및 교정쇄 정보](preview-test/preview-test.md)
       + [메시지 콘텐츠 미리보기](preview-test/preview-content.md)
       + [교정쇄 보내기](preview-test/test-deliveries.md)
       + [이메일 렌더링 테스트](preview-test/email-rendering.md)
-   + 게재 경고 {#delivery-alerting}
+   + 게재 알림 {#delivery-alerting}
       + [게재 경고 시작하기](msg/delivery-alerting.md)
       + [게재 경고 대시보드](msg/delivery-alerting-dashboards.md)
       + [게재 경고 기준](msg/delivery-alerting-criteria.md)
-+ 콘텐츠 관리 {#content}
-   + 다이내믹 콘텐츠 만들기 {#dynamic-content}
++ 콘텐츠 관리  {#content}
+   + 다이내믹 콘텐츠 만들기  {#dynamic-content}
       + [다이내믹 콘텐츠를 만드는 방법은?](personalization/gs-personalization.md)
       + [개인화 추가](personalization/personalize.md)
       + [조건부 콘텐츠 작성](personalization/conditions.md)
-   + 콘텐츠 재사용 {#manage-reusable-content}
+   + 콘텐츠 재사용  {#manage-reusable-content}
       + [콘텐츠 템플릿으로 작업](email/create-email-templates.md)
       + 콘텐츠 조각 {#fragments}
-         + [콘텐츠 조각 시작](content/fragments.md)
+         + [콘텐츠 조각 시작하기](content/fragments.md)
          + [콘텐츠 조각 만들기 및 편집](content/create-fragment.md)
          + [이메일에서 비주얼 조각 사용](content/use-visual-fragments.md)
          + [표현식 편집기에서 표현식 조각 사용](content/use-expression-fragments.md)
    + 이메일 디자인 {#email-design}
-      + [이메일 디자이너 시작](email/get-started-email-designer.md)
-      + 이메일 구성 시작 {#start-design}
+      + [이메일 디자이너 시작하기](email/get-started-email-designer.md)
+      + 이메일 구성 시작하기 {#start-design}
          + [처음부터 시작하기](email/create-email-content.md)
          + [이메일 콘텐츠 가져오기](email/existing-content.md)
          + [자체 콘텐츠 코딩](email/code-content.md)
          + [이메일 콘텐츠 템플릿 사용](email/use-email-templates.md)
-      + 이메일 콘텐츠 디자인 {#design-content}
+      + 이메일 콘텐츠 디자인  {#design-content}
          + [콘텐츠 구성 요소 사용](email/content-components.md)
          + [링크 추가 및 메시지 추적](email/message-tracking.md)
          + [미러 페이지에 대한 링크 추가](email/mirror-page.md)
@@ -124,26 +124,26 @@ ht-degree: 99%
       + [AI를 활용한 푸시 알림 생성](email/generative-push.md)
       + [AI를 활용한 랜딩페이지 생성](email/generative-lp.md)
       + [AI 어시스턴트 사용 사례](email/generative-uc.md)
-      + [브랜드 생성 및 관리(베타)](content/brands.md)
+      + [브랜드 생성 및 관리 (Beta)](content/brands.md)
 + 랜딩 페이지 {#landing-pages}
-   + [랜딩 페이지 시작](landing-pages/get-started-lp.md)
+   + [랜딩 페이지 시작하기](landing-pages/get-started-lp.md)
    + [랜딩 페이지 만들기 및 게시하기](landing-pages/create-lp.md)
    + [랜딩 페이지 콘텐츠 디자인](landing-pages/lp-content.md)
    + [랜딩 페이지 템플릿 작업](landing-pages/lp-templates.md)
    + [사용 사례를 통한 학습](landing-pages/lp-use-cases.md)
-+ 프로필 및 대상자 {#audiences}
-   + [프로필 및 대상자 시작](audience/gs-audiences-recipients.md)
++ 프로필 및 대상자  {#audiences}
+   + [프로필 및 대상자 시작하기](audience/gs-audiences-recipients.md)
    + [타기팅 차원](audience/targeting-dimensions.md)
    + [격리](audience/quarantine.md)
    + 프로필 작업 {#work-with-profiles}
-      + [프로필 시작](audience/about-recipients.md)
+      + [프로필 시작하기](audience/about-recipients.md)
       + [프로필 세부 정보 살펴보기](audience/profile-view.md)
       + [프로필 만들기](audience/create-profile.md)
       + [테스트 프로필 작업](audience/test-profiles.md)
-   + 대상자 작업 {#audiences}
+   + 대상자를 사용한 작업 {#audiences}
       + [대상자 시작하기](audience/manage-audience.md)
       + [대상자 만들기](audience/create-audience.md)
-   + 게재 수신자 선택 {#target-audiences}
+   + 게재 수신자 선택  {#target-audiences}
       + [대상자 선택 시작하기](audience/delivery-recipients.md)
       + [기존 대상자 선택](audience/add-audience.md)
       + [일회성 대상자 빌드](audience/one-time-audience.md)
@@ -153,18 +153,18 @@ ht-degree: 99%
    + 구독 서비스 작업 {#work-with-services}
       + [구독 서비스 만들기 및 관리](audience/manage-services.md)
       + [구독자 관리](audience/manage-subscribers.md)
-+ 크로스 채널 캠페인 {#campaigns}
++ 크로스 채널 캠페인  {#campaigns}
    + [캠페인 시작하기](campaigns/gs-campaigns.md)
    + [캠페인 액세스 및 관리](campaigns/manage-campaigns.md)
    + [첫 캠페인 만들기](campaigns/create-campaigns.md)
    + [플랜 및 프로그램](administration/plans-programs.md)
 + 워크플로 {#wf}
-   + [워크플로 시작](workflows/gs-workflows.md)
+   + [워크플로 시작하기](workflows/gs-workflows.md)
    + [보호 기능 및 제한 사항](get-started/guardrails.md)
    + [워크플로 이벤트 변수](workflows/event-variables.md)
    + [워크플로 액세스 및 관리](workflows/access-monitor.md)
    + [읽기 전용 워크플로 정보](workflows/readonly-workflows.md)
-   + 첫 워크플로 만들기 및 실행하기 {#create-workflow}
+   + 첫 워크플로 만들기 및 실행하기  {#create-workflow}
       + [워크플로를 만드는 핵심 원칙](workflows/gs-workflow-creation.md)
       + [워크플로 만들기](workflows/create-workflow.md)
       + [활동 조율](workflows/orchestrate-activities.md)
@@ -195,14 +195,14 @@ ht-degree: 99%
       + [파일 전송](workflows/activities/transfer-file.md)
       + [데이터 업데이트](workflows/activities/update-data.md)
       + [대기](workflows/activities/wait.md)
-+ 데이터베이스 쿼리 {#query-database}
++ 데이터베이스 쿼리  {#query-database}
    + [쿼리 모델러로 작업](query/query-modeler-overview.md)
    + [첫 번째 쿼리 작성](query/build-query.md)
    + [표현식 편집](query/expression-editor.md)
    + [쿼리 샘플](query/query-samples.md)
    + [필터 목록](query/filter.md)
 + 보고 {#reports}
-   + [보고서 시작](reporting/gs-reports.md)
+   + [보고서 시작하기](reporting/gs-reports.md)
    + [감사 추적](reporting/audit-trail.md)
    + [보고서 내보내기](reporting/export-reports.md)
    + [주요 성과 지표](reporting/kpis.md)
@@ -218,8 +218,8 @@ ht-degree: 99%
       + [푸시 캠페인 보고서](reporting/campaign-reports-push.md)
       + [SMS 캠페인 보고서](reporting/campaign-reports-sms.md)
       + [다이렉트 메일(DM) 캠페인 보고서](reporting/campaign-reports-direct-mail.md)
-   + 글로벌 보고서 {#global-report}
-      + [글로벌 보고서 시작](reporting/global-reports.md)
+   + 전반적 보고서 {#global-report}
+      + [글로벌 보고서 시작하기](reporting/global-reports.md)
       + [이메일 글로벌 보고서](reporting/global-report-email.md)
       + [푸시 글로벌 보고서](reporting/global-report-push.md)
       + [SMS 글로벌 보고서](reporting/global-report-sms.md)

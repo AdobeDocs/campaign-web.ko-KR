@@ -3,9 +3,9 @@ audience: end-user
 title: DM 보고서
 description: DM 보고서에 액세스하고 사용하는 방법을 알아봅니다
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '677'
 ht-degree: 20%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 20%
 
 ![DM 게재에 대한 주요 성능 지표를 보여 주는 게재 개요 지표 그래프입니다.](assets/direct-overview.png){zoomable="yes"}{align="center"}
 
-+++게재 개요 지표에 대해 자세히 알아보십시오.
++++게재 개요 지표에 대해 자세히 알아봅니다.
 
 * **[!UICONTROL 게재할 메시지]**: 게재를 준비하는 동안 처리된 총 메시지 수입니다.
 * **[!UICONTROL 대상]**: DM 메시지의 대상 프로필로 적합한 사용자 프로필 수입니다.
@@ -49,7 +49,7 @@ ht-degree: 20%
 
 ![마우스로 가리키기 기능이 있는 초기 대상 모집단 그래프의 자세히 보기.](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"}
 
-+++DM 게재 보고서 지표에 대해 자세히 알아보십시오.
++++DM 게재 보고서 지표에 대해 자세히 알아봅니다.
 
 * **[!UICONTROL 초기 대상]**: 타깃팅된 총 받는 사람 수
 * **[!UICONTROL 게재]**: 게재를 준비한 후 게재할 총 메시지 수
@@ -67,7 +67,7 @@ ht-degree: 20%
 
 ![성공률, 오류 및 격리를 보여 주는 게재 통계 그래프입니다.](assets/direct-mail-delivery-stats.png){zoomable="yes"}
 
-+++다이렉트 메일 캠페인 보고서 지표에 대해 자세히 알아보십시오.
++++DM 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 
 * **[!UICONTROL 보낸 메시지]**: 게재를 준비한 후 배달할 총 메시지 수입니다.
 * **[!UICONTROL 성공]**: 처리할 메시지 수와 배달할 메시지 수가 비교되었습니다.

@@ -3,7 +3,7 @@ audience: end-user
 title: SMS 채널에 대한 전역 보고서
 description: SMS 채널에 대한 글로벌 보고서 이해
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 23%
@@ -29,7 +29,7 @@ ht-degree: 23%
 
 ![SMS 게재에 대한 주요 성능 지표를 보여주는 게재 개요 보고서의 스크린샷입니다.](assets/global_report_sms_delivery_overview.png){zoomable="yes"}
 
-+++게재 개요 지표에 대해 자세히 알아보십시오.
++++게재 개요 지표에 대해 자세히 알아봅니다.
 
 * **[!UICONTROL 게재할 메시지]**: 게재를 준비하는 동안 처리된 총 메시지 수입니다.
 
@@ -73,7 +73,7 @@ ht-degree: 23%
 
 ![SMS 게재에 대한 성공률, 오류 및 격리를 보여 주는 게재 통계 보고서의 스크린샷입니다.](assets/global_report_sms_delivery_statistics.png){zoomable="yes"}
 
-+++게재 통계 지표에 대해 자세히 알아보십시오.
++++게재 통계 지표에 대해 자세히 알아봅니다.
 
 * **[!UICONTROL 총 메시지]**: 게재를 준비한 후 게재할 총 메시지 수입니다.
 

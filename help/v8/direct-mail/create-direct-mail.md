@@ -3,7 +3,7 @@ audience: end-user
 title: 다이렉트 메일(DM) 게재 만들기
 description: Adobe Campaign 웹을 사용하여 DM 게재를 만드는 방법을 알아봅니다
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 17%
@@ -57,7 +57,7 @@ ht-degree: 17%
 
    >[!NOTE]
    >
-   >워크플로우의 컨텍스트에서 게재를 보낼 때는 **스케줄러** 활동을 사용해야 합니다. [이 페이지](../workflows/activities/scheduler.md)에서 자세히 알아보세요.
+   >워크플로우의 컨텍스트에서 게재를 보낼 때는 **스케줄러** 활동을 사용해야 합니다. [이 페이지](../workflows/activities/scheduler.md)에 대해 자세히 알아보세요.
 
 1. **[!UICONTROL 설정]**&#x200B;을 클릭하여 게재 템플릿과 관련된 고급 옵션에 액세스합니다. [자세히 알아보기](../advanced-settings/delivery-settings.md)
 

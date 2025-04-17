@@ -3,7 +3,7 @@ audience: end-user
 title: 푸시 채널에 대한 캠페인 보고서
 description: 푸시 채널에 대한 캠페인 보고서 이해
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 15%
@@ -25,7 +25,7 @@ ht-degree: 15%
 
 ![게재 개요 보고서에 표시된 게재 요약 지표](assets/campaign-reporting-push-summary.png){zoomable="yes"}
 
-+++푸시 캠페인 보고서 지표에 대해 자세히 알아보십시오.
++++푸시 캠페인 보고서 지표에 대해 자세히 알아봅니다.
 
 * **[!UICONTROL 게재할 메시지]**: 게재를 준비하는 동안 처리된 총 메시지 수입니다.
 
@@ -48,7 +48,7 @@ ht-degree: 15%
 
 ![보고서에 표시되는 초기 대상 통계](assets/campaign-reporting-push-target.png){zoomable="yes"}
 
-+++푸시 캠페인 보고서 지표에 대해 자세히 알아보십시오.
++++푸시 캠페인 보고서 지표에 대해 자세히 알아봅니다.
 
 * **[!UICONTROL 초기 대상]**: 타깃팅된 총 받는 사람 수
 
@@ -69,7 +69,7 @@ ht-degree: 15%
 
 ![보고서에 표시된 실행 통계](assets/campaign-reporting-push-exec.png){zoomable="yes"}
 
-+++푸시 캠페인 보고서 지표에 대해 자세히 알아보십시오.
++++푸시 캠페인 보고서 지표에 대해 자세히 알아봅니다.
 
 * **[!UICONTROL 게재할 메시지]**: 게재를 준비한 후 게재할 총 메시지 수입니다.
 
@@ -94,7 +94,7 @@ ht-degree: 15%
 
 ![보고서에 표시된 클릭 스트림 ](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
 
-+++푸시 캠페인 보고서 지표에 대해 자세히 알아보십시오.
++++푸시 캠페인 보고서 지표에 대해 자세히 알아봅니다.
 
 * **[!UICONTROL 고유 클릭 수]**: 게재를 한 번 이상 클릭한 총 고유 수신자 수입니다.
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Adobe Experience Manager as a Cloud Service을 사용하여 에셋 관리
 description: Adobe Experience Manager as a Cloud Service을 사용하여 콘텐츠를 관리하는 방법 알아보기
 exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 4%

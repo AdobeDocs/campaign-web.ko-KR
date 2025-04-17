@@ -5,7 +5,7 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 14%
@@ -23,7 +23,7 @@ ht-degree: 14%
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-<!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 테스트 프로필에 증명을 보내는 단계는 [이 섹션](../preview-test/test-deliveries.md#test-profiles)에 자세히 설명되어 있습니다.
 
@@ -96,7 +96,7 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. **[!UICONTROL 더 이상 연락하지 않음]** 확인란을 선택하면 테스트 프로필이 차단 목록에 추가하다에 표시됩니다. 이러한 수신자는 더 이상 채널(이메일, SMS 등)을 타겟팅하지 않습니다.
 
-1. **[!UICONTROL 추가 데이터]** 탭에서 데이터 관리 워크플로우에서 만든 게재에 사용되는 개인화 데이터를 입력하고 특정 값을 할당할 데이터를 입력합니다. [워크플로우에 대해 자세히 알아보기](../workflows/gs-workflows.md)
+1. **[!UICONTROL 추가 데이터]** 탭에서 데이터 관리 워크플로우에서 만든 게재에 사용되는 개인화 데이터를 입력하고 특정 값을 할당할 데이터를 입력합니다. [워크플로에 대해 자세히 알아보기](../workflows/gs-workflows.md)
 
    ![추가 데이터 탭](assets/test-profile-additional-data.png){zoomable="yes"}
 

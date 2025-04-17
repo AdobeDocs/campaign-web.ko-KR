@@ -3,10 +3,10 @@ audience: end-user
 title: Adobe Campaign Web 시작
 description: Adobe Campaign Web 시작
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 31%
+ht-degree: 28%
 
 ---
 
@@ -59,7 +59,7 @@ Campaign 데이터는 애플리케이션 서버에 저장됩니다. 데이터는
 
 일부 오브젝트는 클라이언트 콘솔에서만 만들고 관리할 수 있습니다. 이러한 개체는 Campaign 웹 사용자 인터페이스에 표시 및 사용될 수 있지만 이 환경에서 만들거나 수정할 수 없습니다. 모든 캠페인 개체 및 구성 요소는 왼쪽 탐색에서 액세스할 수 있는 탐색기 보기에서 사용할 수 있습니다.
 
-클라이언트 콘솔로 Campaign v8을 사용하는 자세한 방법은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ko){target="_blank"}를 참조하십시오.
+클라이언트 콘솔에 Campaign v8을 사용하는 방법에 대한 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ko){target="_blank"}를 참조하세요.
 
 <!--
 ## How-to video {#video}
@@ -143,7 +143,7 @@ Once your delivery content has been defined, you can use profiles and test profi
 
     Learn how to download, install, and manage the Adobe Campaign Client Console with this documentation.
 
-* **Discover console client interface** - Learn about the Adobe Campaign V8 user interface and how to navigate the main features with this tutorial video.
+* **Discover console client interface** - Learn about the Adobe Campaign v8 user interface and how to navigate the main features with this tutorial video.
 
     You can access Adobe Campaign via its client console or its Web user interface. You can also use APIs to manage data and perform tasks in your Campaign platform.
 

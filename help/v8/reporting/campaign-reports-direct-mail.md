@@ -3,7 +3,7 @@ audience: end-user
 title: DM 채널에 대한 캠페인 보고서
 description: DM 채널에 대한 캠페인 보고서 이해
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 19%
@@ -27,7 +27,7 @@ ht-degree: 19%
 
 ![DM 캠페인 게재 지표 개요](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
-+++게재 개요 지표에 대해 자세히 알아보십시오.
++++게재 개요 지표에 대해 자세히 알아봅니다.
 
 * **[!UICONTROL 게재할 메시지]**: 게재를 준비하는 동안 처리된 총 메시지 수입니다.
 
@@ -71,7 +71,7 @@ ht-degree: 19%
 
 **[!UICONTROL 실행 통계]** 테이블은 모든 DM 게재의 성공 여부를 아래에 설명된 세부 지표와 함께 분류합니다.
 
-+++게재 통계 지표에 대해 자세히 알아보십시오.
++++게재 통계 지표에 대해 자세히 알아봅니다.
 
 * **[!UICONTROL 게재할 메시지]**: 게재를 준비한 후 게재할 총 메시지 수입니다.
 
@@ -94,7 +94,7 @@ ht-degree: 19%
 
 **생성된 클릭 스트림** 테이블은 대상 프로필에서 제외된 사용자 프로필에서 메시지를 받지 못하게 하는 이유를 설명합니다.
 
-+++생성된 클릭 스트림 지표에 대해 자세히 알아보십시오.
++++생성된 클릭 스트림 지표에 대해 자세히 알아봅니다.
 
 * **[!UICONTROL 고유 클릭 수]**: 게재를 한 번 이상 클릭한 총 고유 수신자 수입니다.
 

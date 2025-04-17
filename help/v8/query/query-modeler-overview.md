@@ -3,10 +3,10 @@ audience: end-user
 title: 쿼리 모델러로 작업
 description: Adobe Campaign 웹 쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
@@ -57,7 +57,7 @@ Adobe Campaign 웹 사용자 인터페이스에는 다양한 기준을 기반으
 >[!CONTEXTUALHELP]
 >id="acw_rule_builder_switch_button"
 >title="새로운 사용자 경험"
->abstract="이 토글을 사용하여 클래식 쿼리 모델러와 새 규칙 빌더 경험 사이를 전환할 수 있습니다."
+>abstract="기존 쿼리 모델러와 새로운 규칙 빌더 경험 사이를 전환하려면 이 토글을 사용합니다."
 
 ![쿼리 모델러 인터페이스를 표시하는 이미지](assets/query-interface.png){zoomable="yes"}
 

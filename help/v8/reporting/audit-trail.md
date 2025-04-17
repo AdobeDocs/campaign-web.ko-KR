@@ -4,7 +4,7 @@ title: 감사 추적
 description: Campaign 감사 추적을 사용하여 인스턴스를 모니터링하는 방법 알아보기
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Adobe Campaign 웹 사용자 인터페이스에서 **[!UICONTROL 감사 추적]*
 
 +++ 감사 추적 사용 가능한 엔터티에 대해 자세히 알아보기
 
-* **Source 스키마 감사 추적**&#x200B;을 통해 Campaign V8 클라이언트 콘솔에서 수행한 활동 및 스키마에 대한 최근 수정 사항을 모니터링할 수 있습니다.
+* **Source 스키마 감사 추적**&#x200B;을 통해 Campaign v8 클라이언트 콘솔에서 수행한 활동 및 스키마에 대한 최근 수정 사항을 모니터링할 수 있습니다.
 
   스키마에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas)를 참조하세요.
 
@@ -41,7 +41,7 @@ Adobe Campaign 웹 사용자 인터페이스에서 **[!UICONTROL 감사 추적]*
 
   워크플로우에 대한 자세한 내용은 이 [페이지](../workflows/gs-workflows.md)를 참조하세요.
 
-* **옵션 감사 추적**&#x200B;을 통해 Campaign V8에서 수행한 활동 및 최근 옵션 수정 사항을 모니터링할 수 있습니다.
+* **옵션 감사 추적**&#x200B;을 통해 Campaign v8에서 수행한 활동 및 최근 옵션 수정 사항을 모니터링할 수 있습니다.
 
   옵션에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)를 참조하세요.
 
@@ -49,15 +49,15 @@ Adobe Campaign 웹 사용자 인터페이스에서 **[!UICONTROL 감사 추적]*
 
   게재에 대한 자세한 내용은 이 [페이지](../msg/gs-deliveries.md)를 참조하세요.
 
-* **외부 계정**&#x200B;을(를) 사용하면 기술 워크플로우 또는 캠페인 워크플로우와 같은 기술 프로세스에서 사용하는 Campaign V8의 외부 계정에 대한 수정 사항을 확인할 수 있습니다.
+* **외부 계정**&#x200B;을(를) 사용하면 기술 워크플로우 또는 캠페인 워크플로우와 같은 기술 프로세스에서 사용하는 Campaign v8의 외부 계정에 대한 수정 사항을 확인할 수 있습니다.
 
   외부 계정에 대한 자세한 내용은 이 [페이지](../administration/external-account.md)를 참조하세요.
 
-* **게재 매핑**&#x200B;을(를) 사용하면 Campaign V8에서 게재 매핑에 대한 활동 및 최근 수정 사항을 모니터링할 수 있습니다.
+* **게재 매핑**&#x200B;을(를) 사용하면 Campaign v8에서 게재 매핑에 대한 활동 및 최근 수정 사항을 모니터링할 수 있습니다.
 
   게재 매핑에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/target-mappings)를 참조하세요.
 
-* **웹 응용 프로그램**&#x200B;을(를) 사용하면 입력 및 선택 필드가 있는 페이지를 만드는 데 사용되는 Campaign V8에서 웹 폼에 대한 수정 사항과 데이터베이스의 데이터를 포함할 수 있는 수정 사항을 확인할 수 있습니다.
+* **웹 응용 프로그램**&#x200B;을(를) 사용하면 입력 및 선택 필드가 있는 페이지를 만드는 데 사용되는 Campaign v8에서 웹 폼에 대한 수정 사항과 데이터베이스의 데이터를 포함할 수 있는 수정 사항을 확인할 수 있습니다.
 
   웹 응용 프로그램에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/webapps)를 참조하세요.
 
@@ -65,7 +65,7 @@ Adobe Campaign 웹 사용자 인터페이스에서 **[!UICONTROL 감사 추적]*
 
   오퍼에 대한 자세한 내용은 이 [페이지](../msg/offers.md)를 참조하세요.
 
-* **연산자**&#x200B;을(를) 사용하면 Campaign V8에서 연산자에 대해 수행된 활동 및 최근 수정 사항을 모니터링할 수 있습니다.
+* **연산자**&#x200B;을(를) 사용하면 Campaign v8에서 연산자에 대한 활동 및 최근 수정 사항을 모니터링할 수 있습니다.
 
   연산자에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators)를 참조하세요.
 

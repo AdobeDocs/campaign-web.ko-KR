@@ -3,7 +3,7 @@ audience: end-user
 title: 파일에서 이메일 대상자 로드
 description: 외부 파일에서 프로필을 로드하여 이메일 대상자를 만드는 방법을 알아봅니다
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 24%

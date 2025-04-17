@@ -3,7 +3,7 @@ audience: end-user
 title: 기존 대상자 선택
 description: 대상자 선택 방법 알아보기
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 18%
@@ -33,7 +33,7 @@ ht-degree: 18%
 
    [이 스크린샷은 현재 폴더에 있는 기존 대상자 목록을 보여 줍니다.](assets/create-audience2.png){zoomable="yes"}
 
-   Adobe Experience Platform에서 대상을 선택하려면 화면의 필터 섹션에서 `AEP Audiences folder`을(를) 찾아봅니다. [Adobe Experience Platform 대상에 대해 자세히 알아보기](manage-audience.md#monitor)
+   Adobe Experience Platform에서 대상을 선택하려면 화면의 필터 섹션에서 `AEP Audiences folder`을(를) 찾아봅니다. [Adobe Experience Platform 대상자에 대해 자세히 알아보기](manage-audience.md#monitor)
 
    [이 스크린샷은 AEP 대상 폴더가 선택된 필터 섹션을 보여 줍니다.](assets/select-audience-folder.png){zoomable="yes"}
 

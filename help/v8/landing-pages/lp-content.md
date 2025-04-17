@@ -3,7 +3,7 @@ title: 랜딩 페이지별 콘텐츠 정의
 description: Campaign 웹에서 랜딩 페이지별 콘텐츠를 디자인하는 방법을 알아봅니다
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1248'
 ht-degree: 12%
@@ -111,7 +111,7 @@ ht-degree: 12%
    * **[!UICONTROL 랜딩 페이지]**: 리디렉션할 사용자를 위한 다른 랜딩 페이지를 선택하십시오. 선택한 랜딩 페이지를 적절하게 구성해야 합니다.
 
 1. 양식을 제출할 때 추가로 업데이트하려면 **[!UICONTROL 추가 업데이트]**&#x200B;를 선택하고 업데이트할 항목을 선택하십시오.
-   * 구독 [서비스](../audience/manage-services.md) - 양식을 제출할 때 사용자를 옵트인 또는 옵트아웃할지 여부를 정의합니다. 이메일을 디자인할 때 이 랜딩 페이지에 대한 **[!UICONTROL 랜딩 페이지]** 유형 링크를 정의하면 선택한 서비스가 자동으로 사용됩니다. [링크 삽입에 대한 자세한 정보](../email/message-tracking.md)
+   * 구독 [서비스](../audience/manage-services.md) - 양식을 제출할 때 사용자를 옵트인 또는 옵트아웃할지 여부를 정의합니다. 이메일을 디자인할 때 이 랜딩 페이지에 대한 **[!UICONTROL 랜딩 페이지]** 유형 링크를 정의하면 선택한 서비스가 자동으로 사용됩니다. [링크 삽입에 대해 자세히 알아보기](../email/message-tracking.md)
 
      >[!NOTE]
      >
@@ -131,7 +131,7 @@ ht-degree: 12%
 
    양식 구성 요소의 URL 설정에서 ![서비스](assets/lp-form-service-from-url.png){zoomable="yes"}
 
-   이메일을 디자인할 때 이 랜딩 페이지에 대한 **[!UICONTROL 랜딩 페이지]** 유형 링크를 정의하는 경우 목록에서 서비스를 선택할 수 있습니다. 그런 다음 이 랜딩 페이지에 대한 다른 링크를 정의할 때 다른 서비스를 선택할 수 있습니다. [링크 삽입에 대한 자세한 정보](../email/message-tracking.md)
+   이메일을 디자인할 때 이 랜딩 페이지에 대한 **[!UICONTROL 랜딩 페이지]** 유형 링크를 정의하는 경우 목록에서 서비스를 선택할 수 있습니다. 그런 다음 이 랜딩 페이지에 대한 다른 링크를 정의할 때 다른 서비스를 선택할 수 있습니다. [링크 삽입에 대해 자세히 알아보기](../email/message-tracking.md)
 
    ![랜딩 페이지 설정에 대한 전자 메일 링크](assets/email-link-to-landing-page.png){zoomable="yes"}
 

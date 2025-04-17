@@ -3,9 +3,9 @@ audience: end-user
 title: 푸시 게재 보고서
 description: 푸시 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '566'
 ht-degree: 32%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 32%
 
 ![이 스크린샷은 푸시 메시지를 사용한 방문자 참여에 대한 KPI를 제공하는 게재 개요 보고서를 보여 줍니다.](assets/reporting_push_3.png){zoomable="yes"}
 
-+++푸시 게재 보고서 지표에 대해 자세히 알아보십시오.
++++푸시 게재 보고서 지표에 대해 자세히 알아봅니다.
 
 * **[!UICONTROL 보낸 총]**: 게재를 준비하는 동안 처리된 총 메시지 수입니다.
 * **[!UICONTROL 배달됨]**: 보낸 총 메시지 수와 관련하여 성공적으로 보낸 메시지 수입니다.
@@ -52,7 +52,7 @@ ht-degree: 32%
 
 ![이 스크린샷은 배달할 메시지와 제외할 메시지에 대한 데이터를 표시하는 타겟팅된 모집단 그래프와 표를 보여 줍니다.](assets/reporting_push_4.png){zoomable="yes"}
 
-+++푸시 게재 보고서 지표에 대해 자세히 알아보십시오.
++++푸시 게재 보고서 지표에 대해 자세히 알아봅니다.
 
 * **[!UICONTROL 게재]**: 게재를 준비하는 동안 처리된 총 메시지 수입니다.
 * **[!UICONTROL 제외]**: 분석에서 제외된 프로필 수입니다.
@@ -70,7 +70,7 @@ ht-degree: 32%
 
 ![이 스크린샷은 전송된 푸시 알림에 대한 성공, 오류 및 격리에 대한 데이터를 제공하는 전체 통계 보고서를 보여 줍니다.](assets/reporting_push_5.png){zoomable="yes"}
 
-+++푸시 게재 보고서 지표에 대해 자세히 알아보십시오.
++++푸시 게재 보고서 지표에 대해 자세히 알아봅니다.
 
 * **[!UICONTROL 성공]**: 처리된 메시지 수입니다.
 * **[!UICONTROL 오류]**: 게재 중에 발생한 총 오류 개수로 인해 특정 프로필로 메시지가 전송되지 않습니다.

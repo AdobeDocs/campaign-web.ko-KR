@@ -3,10 +3,10 @@ keywords: Campaign Web;홈;인기 있는 주제
 description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -63,7 +63,7 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 
 ✨ 기능을 직접 살펴보고 성능을 완벽하게 이해할 수 있도록 설계된 [AI 어시스턴트](../v8/email/generative-gs.md)의 실시간 기능 미리보기로 직접 체험해 보십시오.
 
-[![자세히 알아보기 버튼](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![추가 정보 단추](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB FAQ]
 
@@ -132,5 +132,5 @@ Campaign Web 사용자 인터페이스에 대한 자주 묻는 질문은 새로�
 
 ## 추가 리소스
 
-* [Adobe Campaign 제품 설명서](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [Adobe Campaign V8 설명서](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ko){target="_blank"}
+* [Adobe Campaign 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ko){target="_blank"}

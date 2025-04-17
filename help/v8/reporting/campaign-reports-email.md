@@ -3,7 +3,7 @@ audience: end-user
 title: 이메일 채널에 대한 캠페인 보고서
 description: 이메일 채널에 대한 캠페인 보고서에 대해 자세히 알아보기
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 20%

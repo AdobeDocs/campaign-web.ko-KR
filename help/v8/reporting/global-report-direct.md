@@ -3,7 +3,7 @@ audience: end-user
 title: DM 채널에 대한 전역 보고서
 description: DM 채널에 대한 글로벌 보고서에 대해 자세히 알아보기
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
-source-git-commit: aa9ddb8841d8ef77c9f76e4d05cdffd4a1c87c66
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 27%
@@ -29,7 +29,7 @@ DM 글로벌 보고서는 채널 수준의 트래픽 및 참여 지표에 대한
 
 ![이 이미지는 DM 게재에 대한 게재 개요 지표를 보여 줍니다.](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
 
-+++게재 개요 지표에 대해 자세히 알아보십시오.
++++게재 개요 지표에 대해 자세히 알아봅니다.
 
 * **[!UICONTROL 게재할 메시지]**: 게재를 준비하는 동안 처리된 총 메시지 수입니다.
 
@@ -81,7 +81,7 @@ DM 글로벌 보고서는 채널 수준의 트래픽 및 참여 지표에 대한
 
 **[!UICONTROL 게재 통계]** 그래프 및 표에는 모든 DM 게재의 성공 사례를 자세히 설명하고 자세한 지표는 아래에 요약되어 있습니다.
 
-+++게재 통계 지표에 대해 자세히 알아보십시오.
++++게재 통계 지표에 대해 자세히 알아봅니다.
 
 * **[!UICONTROL 게재할 메시지]**: 게재를 준비한 후 게재할 총 메시지 수입니다.
 

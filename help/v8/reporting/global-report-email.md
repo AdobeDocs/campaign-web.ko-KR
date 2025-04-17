@@ -3,7 +3,7 @@ audience: end-user
 title: 이메일 채널에 대한 전역 보고서
 description: 이메일 채널에 대한 글로벌 보고서에 대해 자세히 알아보기
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 21%
@@ -29,7 +29,7 @@ ht-degree: 21%
 
 ![게재 개요 지표](assets/global_report_email_delivery_overview.png){zoomable="yes"}{align="center"}
 
-+++게재 개요 지표에 대해 자세히 알아보십시오.
++++게재 개요 지표에 대해 자세히 알아봅니다.
 
 * **[!UICONTROL 게재할 메시지]**: 게재를 준비하는 동안 처리된 총 메시지 수입니다.
 
@@ -76,7 +76,7 @@ ht-degree: 21%
 
 ![게재 통계 지표](assets/global_report_email_delivery_statistics.png){zoomable="yes"}{align="center"}
 
-+++게재 통계 지표에 대해 자세히 알아보십시오.
++++게재 통계 지표에 대해 자세히 알아봅니다.
 
 * **[!UICONTROL 게재할 메시지]**: 게재를 준비한 후 게재할 총 메시지 수입니다.
 
@@ -177,7 +177,7 @@ ht-degree: 21%
 
 ![게재 통계 추적 지표](assets/global_report_email_delivery_statistics_tracking.png){zoomable="yes"}{align="center"}
 
-+++게재 통계 지표에 대해 자세히 알아보십시오.
++++게재 통계 지표에 대해 자세히 알아봅니다.
 
 * **[!UICONTROL 게재할 메시지]**: 게재를 준비하는 동안 처리된 총 메시지 수입니다.
 
@@ -231,7 +231,7 @@ ht-degree: 21%
 
 ![URL 및 클릭 스트림 지표](assets/campaign_report_email_9.png){zoomable="yes"}{align="center"}
 
-+++URL 및 클릭 스트림 지표에 대해 자세히 알아보십시오.
++++URL 및 클릭 스트림 지표에 대해 자세히 알아봅니다.
 
 * **[!UICONTROL 반응성]**: 게재를 연 예상 대상 받는 사람 수와 관련하여 게재를 클릭한 대상 받는 사람 수의 비율입니다.
 

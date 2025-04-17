@@ -4,9 +4,9 @@ description: 사용자 액세스 관리를 Campaign Standard에서 Campaign v8�
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: 1dd416d0a1a3579075462821edd4d55e738e602f
+source-git-commit: 9354c07f173f67c23ce64e591f869bdd374c3334
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1403'
 ht-degree: 2%
 
 ---
@@ -178,4 +178,6 @@ Campaign Standard에서 마이그레이션된 연산자는 Campaign v8의 특정
 
 * 릴레이 계정
 
-Adobe Campaign Standard에서 생성되고 사용자에게 할당된 사용자 정의 역할은 Campaign v8로 마이그레이션되지 않습니다.
+>[!NOTE]
+>
+>Adobe Campaign Standard에서 생성되고 사용자에게 할당된 사용자 정의 역할은 Adobe Campaign v8로 마이그레이션되지 않습니다.

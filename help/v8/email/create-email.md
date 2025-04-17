@@ -6,7 +6,7 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
 workflow-type: tm+mt
 source-wordcount: '1626'
-ht-degree: 37%
+ht-degree: 42%
 
 ---
 
@@ -199,22 +199,22 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_multilingual"
 >title="콘텐츠 시뮬레이션이 지원되지 않음"
->abstract="다국어 게재에 하나의 로케일만 포함되어 있으므로 **콘텐츠 시뮬레이션** 단추가 비활성화됩니다."
+>abstract="다국어 게재에는 로케일이 하나만 포함되어 있으므로 **콘텐츠 시뮬레이션** 버튼이 비활성화되어 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_reconcilied_deliveries"
 >title="콘텐츠 시뮬레이션이 지원되지 않음"
->abstract="**콘텐츠 시뮬레이션** 단추가 이 단계의 조정된 게재와 호환되지 않으므로 사용할 수 없습니다."
+>abstract="**콘텐츠 시뮬레이션** 버튼은 이 단계에서 조정된 게재와 호환되지 않으므로 비활성화되어 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_ffda"
 >title="콘텐츠 시뮬레이션이 지원되지 않음"
->abstract="**콘텐츠 시뮬레이션** 단추가 Campaign Enterprise FFDA(Full Federated Access) 모드에서 지원되지 않으므로 비활성화되었습니다."
+>abstract="**콘텐츠 시뮬레이션** 버튼은 Campaign Enterprise FFDA(Full Federated Access) 모드에서 지원되지 않으므로 비활성화되어 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_no_file"
 >title="콘텐츠 시뮬레이션이 지원되지 않음"
->abstract="업로드된 콘텐츠가 없으므로 **콘텐츠 시뮬레이션** 단추가 비활성화됩니다."
+>abstract="**콘텐츠 시뮬레이션** 버튼은 콘텐츠가 업로드되지 않았기 때문에 비활성화되어 있습니다."
 
 경우에 따라 콘텐츠 시뮬레이션을 수행할 수 없으며 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼이 비활성화됩니다.
 

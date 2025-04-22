@@ -3,25 +3,25 @@ audience: end-user
 title: AI Assistant를 사용하여 푸시 알림
 description: AI Assistant 시작
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 3%
+source-wordcount: '548'
+ht-degree: 2%
 
 ---
 
-# AI 어시스턴트로 푸시 알림 생성 {#generative-push}
+# AI Assistant를 사용하여 푸시 알림 생성 {#generative-push}
 
 >[!IMPORTANT]
 >
 >이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](generative-gs.md#generative-guardrails)을 읽어 보십시오.
 ></br>
 >
->Adobe Campaign 웹에서 AI 도우미를 사용하기 전에 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
+>Adobe Campaign 웹에서 AI Assistant를 사용하기 전에 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
 
-AI Assistant는 대상자와 공감하는 다양한 콘텐츠를 제안하여 게재의 영향을 최적화하는 데 도움이 됩니다.
+AI Assistant는 대상자에게 반향을 일으키는 다양한 콘텐츠를 제안하여 게재의 영향을 최적화하는 데 도움이 됩니다.
 
-다음 예에서는 AI Assistant를 활용하여 보다 매력적인 고객 경험을 구축하기 위한 매력적인 메시지를 작성합니다.
+다음 예에서는 AI Assistant를 활용하여 보다 매력적인 고객 경험을 구축하기 위해 매력적인 메시지를 작성합니다.
 
 1. 푸시 알림 게재를 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭합니다.
 
@@ -44,7 +44,7 @@ AI Assistant는 대상자와 공감하는 다양한 콘텐츠를 제안하여 �
 1. **[!UICONTROL 텍스트 설정]** 옵션을 사용하여 메시지를 사용자 지정합니다.
 
    * **[!UICONTROL 커뮤니케이션 전략]**: 생성된 텍스트에 가장 적합한 커뮤니케이션 스타일을 선택합니다.
-   * **[!UICONTROL 음색]**: 대상자와 공감할 수 있도록 전자 메일의 음색을 조정합니다. AI Assistant를 통해 유익하거나, 유희적이거나, 설득력 있게 들리고자 하는 경우 그에 따라 메시지를 조정합니다.
+   * **[!UICONTROL 음색]**: 대상자와 공감할 수 있도록 전자 메일의 음색을 조정합니다. AI Assistant는 유익하거나, 유쾌하거나, 설득력 있게 들리고자 할 때 메시지를 적절히 조정합니다.
 
    ![텍스트 설정 옵션을 보여 주는 스크린샷](assets/push-genai-3.png){zoomable="yes"}
 

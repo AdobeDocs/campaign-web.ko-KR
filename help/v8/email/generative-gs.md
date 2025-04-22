@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: AI 어시스턴트 시작하기
+title: AI Assistant 시작
 description: AI Assistant 시작
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 8%
+source-wordcount: '732'
+ht-degree: 6%
 
 ---
 
-# AI 어시스턴트를 사용하여 작업하기 {#generative-gs}
+# AI Assistant 작업 {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
@@ -40,7 +40,7 @@ AI Assistant는 이메일, SMS 및 푸시 알림과 같은 채널 전반의 마�
 >
 >* 이 기능을 사용하기 전에 관련 [보호 기능 및 제한 사항](#generative-guardrails)을 검토하십시오.
 >
->* Adobe Campaign 웹에서 AI 도우미를 사용하기 전에 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
+>* Adobe Campaign 웹에서 AI Assistant를 사용하기 전에 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
 
 ## AI Assistant 액세스 {#generative-access}
 
@@ -103,7 +103,7 @@ Adobe Campaign 웹의 AI Assistant에는 다음과 같은 제한이 적용됩니
 <img alt="[AI Assistant를 사용하여 푸시 알림 생성]" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-push.md"><strong>AI 도우미를 사용하여 푸시 알림 생성</strong></a>
+<a href="generative-push.md"><strong>AI Assistant를 사용하여 푸시 알림 생성</strong></a>
 </div>
 <p></td>
 </tr></table>

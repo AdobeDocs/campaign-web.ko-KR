@@ -3,21 +3,21 @@ audience: end-user
 title: 생성 콘텐츠
 description: AI Assistant 시작
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1525'
 ht-degree: 1%
 
 ---
 
-# AI 어시스턴트로 이메일 생성 {#generative-content}
+# AI Assistant를 사용하여 이메일 생성 {#generative-content}
 
 >[!IMPORTANT]
 >
 >이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](generative-gs.md#generative-guardrails)을 읽어 보십시오.
 ></br>
 >
->Adobe Campaign 웹에서 AI 도우미를 사용하기 전에 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
+>Adobe Campaign 웹에서 AI Assistant를 사용하기 전에 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
 
 이메일을 만들고 개인화한 후에는 Adobe Campaign 웹의 AI Assistant를 사용하여 콘텐츠를 개선할 수 있습니다.
 
@@ -29,7 +29,7 @@ Adobe Campaign 웹의 AI Assistant는 전체 이메일, 타겟팅된 텍스트 �
 
 >[!TAB 전체 전자 메일 생성]
 
-다음 예에서는 Adobe Campaign 웹의 AI Assistant를 사용하여 기존 이메일을 개선하고 특별한 이벤트를 위해 사용자 정의합니다.
+다음 예에서는 Adobe Campaign 웹의 AI Assistant를 사용하여 기존 이메일을 구체화하고, 특별한 이벤트를 위해 사용자 정의합니다.
 
 1. 전자 메일 게재를 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요.
 
@@ -52,7 +52,7 @@ Adobe Campaign 웹의 AI Assistant는 전체 이메일, 타겟팅된 텍스트 �
 1. **[!UICONTROL 텍스트 설정]** 옵션을 사용하여 메시지를 사용자 지정합니다.
 
    * **[!UICONTROL 커뮤니케이션 전략]**: 생성된 텍스트에 가장 적합한 커뮤니케이션 스타일을 선택합니다.
-   * **[!UICONTROL 음색]**: 전자 메일의 음색이 대상자에게 울려 퍼지도록 합니다. AI Assistant를 통해 유익하거나, 유희적이거나, 설득력 있게 들리고자 하는 경우 그에 따라 메시지를 조정합니다.
+   * **[!UICONTROL 음색]**: 전자 메일의 음색이 대상자에게 울려 퍼지도록 합니다. AI Assistant는 유익하거나, 유쾌하거나, 설득력 있게 들리고자 할 때 메시지를 적절히 조정합니다.
 
    ![Adobe Campaign 웹에서 텍스트 설정 옵션을 보여 주는 스크린샷](assets/full-email-3.png){zoomable="yes"}
 
@@ -66,7 +66,7 @@ Adobe Campaign 웹의 AI Assistant는 전체 이메일, 타겟팅된 텍스트 �
 
    ![Adobe Campaign 웹에서 이미지 설정 옵션을 보여 주는 스크린샷](assets/full-email-4.png){zoomable="yes"}
 
-1. **[!UICONTROL 브랜드 에셋]** 메뉴에서 **[!UICONTROL 브랜드 에셋 업로드]**&#x200B;를 클릭하여 추가 컨텍스트를 제공하는 브랜드 에셋을 AI Assistant에 추가하거나 이전에 업로드한 에셋을 선택합니다.
+1. **[!UICONTROL 브랜드 자산]** 메뉴에서 **[!UICONTROL 브랜드 자산 업로드]**&#x200B;를 클릭하여 추가 컨텍스트를 AI Assistant에 제공하거나 이전에 업로드한 브랜드 자산을 선택합니다.
 
    이전에 업로드한 파일은 **[!UICONTROL 업로드된 브랜드 자산]** 드롭다운에서 사용할 수 있습니다. 세대에 포함할 자산을 전환합니다.
 
@@ -93,7 +93,7 @@ Adobe Campaign 웹의 AI Assistant는 전체 이메일, 타겟팅된 텍스트 �
 
 >[!TAB 텍스트 전용 생성]
 
-다음 예에서는 AI Assistant를 활용하여 예정된 이벤트에 대한 이메일 초대 콘텐츠를 향상시킵니다.
+다음 예에서는 AI Assistant를 활용하여 예정된 이벤트에 대한 이메일 초대 콘텐츠를 개선합니다.
 
 1. 전자 메일 게재를 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요.
 
@@ -114,12 +114,12 @@ Adobe Campaign 웹의 AI Assistant는 전체 이메일, 타겟팅된 텍스트 �
 1. **[!UICONTROL 텍스트 설정]** 옵션을 사용하여 메시지를 사용자 지정합니다.
 
    * **[!UICONTROL 커뮤니케이션 전략]**: 생성된 텍스트에 가장 적합한 커뮤니케이션 스타일을 선택합니다.
-   * **[!UICONTROL 음색]**: 전자 메일의 음색이 대상자에게 울려 퍼지도록 합니다. AI Assistant를 통해 유익하거나, 유희적이거나, 설득력 있게 들리고자 하는 경우 그에 따라 메시지를 조정합니다.
+   * **[!UICONTROL 음색]**: 전자 메일의 음색이 대상자에게 울려 퍼지도록 합니다. AI Assistant는 유익하거나, 유쾌하거나, 설득력 있게 들리고자 할 때 메시지를 적절히 조정합니다.
    * **텍스트 길이**: 슬라이더를 사용하여 원하는 텍스트 길이를 선택합니다.
 
    ![Adobe Campaign 웹에서 텍스트 설정 옵션을 보여 주는 스크린샷](assets/text-genai-3.png){zoomable="yes"}
 
-1. **[!UICONTROL 브랜드 에셋]** 메뉴에서 **[!UICONTROL 브랜드 에셋 업로드]**&#x200B;를 클릭하여 추가 컨텍스트를 제공하는 브랜드 에셋을 AI Assistant에 추가하거나 이전에 업로드한 에셋을 선택합니다.
+1. **[!UICONTROL 브랜드 자산]** 메뉴에서 **[!UICONTROL 브랜드 자산 업로드]**&#x200B;를 클릭하여 추가 컨텍스트를 AI Assistant에 제공하거나 이전에 업로드한 브랜드 자산을 선택합니다.
 
    이전에 업로드한 파일은 **[!UICONTROL 업로드된 브랜드 자산]** 드롭다운에서 사용할 수 있습니다. 세대에 포함할 자산을 전환합니다.
 
@@ -161,7 +161,7 @@ Adobe Campaign 웹의 AI Assistant는 전체 이메일, 타겟팅된 텍스트 �
 
    ![Adobe Campaign 웹에서 이미지 생성을 위한 AI Assistant 메뉴를 보여 주는 스크린샷](assets/image-genai-1.png){zoomable="yes"}
 
-1. AI 도우미가 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화하려면 **[!UICONTROL 참조 스타일]** 옵션을 활성화하십시오.
+1. AI Assistant가 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화하려면 **[!UICONTROL 참조 스타일]** 옵션을 활성화하십시오.
 
 1. **[!UICONTROL Prompt]** 필드에 생성할 내용을 설명하여 내용을 미세 조정하십시오.
 
@@ -180,7 +180,7 @@ Adobe Campaign 웹의 AI Assistant는 전체 이메일, 타겟팅된 텍스트 �
 
    ![Adobe Campaign 웹에서 이미지 설정 옵션을 보여 주는 스크린샷](assets/image-genai-3.png){zoomable="yes"}
 
-1. **[!UICONTROL 브랜드 에셋]** 메뉴에서 **[!UICONTROL 브랜드 에셋 업로드]**&#x200B;를 클릭하여 추가 컨텍스트를 제공하는 브랜드 에셋을 AI Assistant에 추가하거나 이전에 업로드한 에셋을 선택합니다.
+1. **[!UICONTROL 브랜드 자산]** 메뉴에서 **[!UICONTROL 브랜드 자산 업로드]**&#x200B;를 클릭하여 추가 컨텍스트를 AI Assistant에 제공하거나 이전에 업로드한 브랜드 자산을 선택합니다.
 
    이전에 업로드한 파일은 **[!UICONTROL 업로드된 브랜드 자산]** 드롭다운에서 사용할 수 있습니다. 세대에 포함할 자산을 전환합니다.
 

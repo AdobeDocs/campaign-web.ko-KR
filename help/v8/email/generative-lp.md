@@ -3,19 +3,19 @@ audience: end-user
 title: AI Assistant가 있는 랜딩 페이지
 description: AI Assistant 시작
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '1517'
-ht-degree: 3%
+source-wordcount: '1494'
+ht-degree: 1%
 
 ---
 
-# AI 어시스턴트를 사용하여 랜딩 페이지 생성{#generative-lp}
+# AI Assistant를 사용하여 랜딩 페이지 생성{#generative-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="AI를 사용하여 랜딩 페이지 생성"
->abstract="이제 AI 어시스턴트를 사용하여 랜딩 페이지 게재를 만들 수 있으며 이를 통해 텍스트, 이미지 또는 전체 페이지 레이아웃을 생성할 수 있습니다."
+>abstract="이제 AI Assistant를 사용하여 랜딩 페이지 게재를 만들 수 있으며, 이를 통해 텍스트, 이미지 또는 전체 페이지 레이아웃을 생성할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 >[!IMPORTANT]
@@ -23,7 +23,7 @@ ht-degree: 3%
 >이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](generative-gs.md#generative-guardrails)을 읽어 보십시오.
 ></br>
 >
->Adobe Campaign 웹에서 AI 도우미를 사용하려면 먼저 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
+>Adobe Campaign 웹에서 AI Assistant를 사용하려면 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
 
 생성 AI에서 제공하는 Adobe Campaign 웹의 AI Assistant를 사용하여 랜딩 페이지를 탈바꿈합니다.
 
@@ -43,7 +43,7 @@ Adobe Campaign 웹에서 AI Assistant를 사용하는 방법을 알려면 아래
 
 1. 필요에 따라 레이아웃을 개인화하고 **[!UICONTROL AI 길잡이]** 메뉴에 액세스합니다.
 
-   ![랜딩 페이지 편집기의 AI 길잡이 메뉴를 보여 주는 스크린샷](assets/lp_full_gen_1.png){zoomable="yes"}
+   ![랜딩 페이지 편집기의 AI 도우미 메뉴를 보여 주는 스크린샷](assets/lp_full_gen_1.png){zoomable="yes"}
 
 1. AI 관리자가 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화하려면 **[!UICONTROL 원본 콘텐츠 사용]** 옵션을 사용하도록 설정하십시오.
 
@@ -56,7 +56,7 @@ Adobe Campaign 웹에서 AI Assistant를 사용하는 방법을 알려면 아래
 1. **[!UICONTROL 텍스트 설정]** 옵션을 사용하여 메시지를 사용자 지정합니다.
 
    * **[!UICONTROL 커뮤니케이션 전략]**: 생성된 텍스트에 가장 적합한 커뮤니케이션 스타일을 선택합니다.
-   * **[!UICONTROL 음색]**: 랜딩 페이지의 음색이 대상자에게 울려 퍼져야 합니다. AI 어시스턴트는 여러분이 유익하거나, 장난스럽거나, 설득력 있게 들리기를 원하든 상관없이 메시지를 그에 따라 조정할 수 있습니다.
+   * **[!UICONTROL 음색]**: 랜딩 페이지의 음색이 대상자에게 울려 퍼져야 합니다. AI 어시스턴트는 유익하거나, 장난스럽거나, 설득력 있게 들리고자 하는 경우 해당 메시지를 적절하게 조정할 수 있습니다.
 
    ![텍스트 설정 옵션을 보여 주는 스크린샷](assets/lp_full_gen_3.png){zoomable="yes"}
 
@@ -70,7 +70,7 @@ Adobe Campaign 웹에서 AI Assistant를 사용하는 방법을 알려면 아래
 
    ![이미지 설정 옵션을 보여 주는 스크린샷](assets/lp_full_gen_4.png){zoomable="yes"}
 
-1. **[!UICONTROL 브랜드 에셋]** 메뉴에서 **[!UICONTROL 브랜드 에셋 업로드]**&#x200B;를 클릭하여 추가 컨텍스트를 제공하는 브랜드 에셋을 AI Assistant에 추가하거나 이전에 업로드한 에셋을 선택합니다.
+1. **[!UICONTROL 브랜드 자산]** 메뉴에서 **[!UICONTROL 브랜드 자산 업로드]**&#x200B;를 클릭하여 추가 컨텍스트를 AI Assistant에 제공하거나 이전에 업로드한 브랜드 자산을 선택합니다.
 
    이전에 업로드한 파일은 **[!UICONTROL 업로드된 브랜드 자산]** 드롭다운에서 사용할 수 있습니다. 세대에 포함할 자산을 전환합니다.
 
@@ -118,12 +118,12 @@ Adobe Campaign 웹에서 AI Assistant를 사용하는 방법을 알려면 아래
 1. **[!UICONTROL 텍스트 설정]** 옵션을 사용하여 메시지를 사용자 지정합니다.
 
    * **[!UICONTROL 커뮤니케이션 전략]**: 생성된 텍스트에 가장 적합한 커뮤니케이션 스타일을 선택합니다.
-   * **[!UICONTROL 음색]**: 랜딩 페이지의 음색이 대상자에게 울려 퍼져야 합니다. AI 어시스턴트는 여러분이 유익하거나, 장난스럽거나, 설득력 있게 들리기를 원하든 상관없이 메시지를 그에 따라 조정할 수 있습니다.
+   * **[!UICONTROL 음색]**: 랜딩 페이지의 음색이 대상자에게 울려 퍼져야 합니다. AI 어시스턴트는 유익하거나, 장난스럽거나, 설득력 있게 들리고자 하는 경우 해당 메시지를 적절하게 조정할 수 있습니다.
    * **텍스트 길이**: 슬라이더를 사용하여 원하는 텍스트 길이를 선택합니다.
 
    ![텍스트 설정 옵션을 보여 주는 스크린샷](assets/lp-text-genai-3.png){zoomable="yes"}
 
-1. **[!UICONTROL 브랜드 에셋]** 메뉴에서 **[!UICONTROL 브랜드 에셋 업로드]**&#x200B;를 클릭하여 추가 컨텍스트를 제공하는 브랜드 에셋을 AI Assistant에 추가하거나 이전에 업로드한 에셋을 선택합니다.
+1. **[!UICONTROL 브랜드 자산]** 메뉴에서 **[!UICONTROL 브랜드 자산 업로드]**&#x200B;를 클릭하여 추가 컨텍스트를 AI Assistant에 제공하거나 이전에 업로드한 브랜드 자산을 선택합니다.
 
    이전에 업로드한 파일은 **[!UICONTROL 업로드된 브랜드 자산]** 드롭다운에서 사용할 수 있습니다. 세대에 포함할 자산을 전환합니다.
 
@@ -165,7 +165,7 @@ Adobe Campaign 웹에서 AI Assistant를 사용하는 방법을 알려면 아래
 
    ![이미지 구성 요소의 AI Assistant 메뉴를 보여 주는 스크린샷](assets/lp-image-gen-1.png){zoomable="yes"}
 
-1. AI 도우미가 참조 콘텐츠를 기반으로 새 콘텐츠를 개인화하려면 **[!UICONTROL 참조 스타일]** 옵션을 활성화하십시오. 이미지를 업로드하여 변형에 컨텍스트를 추가할 수도 있습니다.
+1. AI 관리자가 참조 콘텐츠를 기반으로 새 콘텐츠를 개인화하려면 **[!UICONTROL 참조 스타일]** 옵션을 활성화하십시오. 이미지를 업로드하여 변형에 컨텍스트를 추가할 수도 있습니다.
 
 1. **[!UICONTROL Prompt]** 필드에 생성할 내용을 설명하여 내용을 미세 조정하십시오.
 
@@ -184,7 +184,7 @@ Adobe Campaign 웹에서 AI Assistant를 사용하는 방법을 알려면 아래
 
    ![이미지 설정 옵션을 보여 주는 스크린샷](assets/lp-image-gen-3.png){zoomable="yes"}
 
-1. **[!UICONTROL 브랜드 에셋]** 메뉴에서 **[!UICONTROL 브랜드 에셋 업로드]**&#x200B;를 클릭하여 추가 컨텍스트를 제공하는 브랜드 에셋을 AI Assistant에 추가하거나 이전에 업로드한 에셋을 선택합니다.
+1. **[!UICONTROL 브랜드 자산]** 메뉴에서 **[!UICONTROL 브랜드 자산 업로드]**&#x200B;를 클릭하여 추가 컨텍스트를 AI Assistant에 제공하거나 이전에 업로드한 브랜드 자산을 선택합니다.
 
    이전에 업로드한 파일은 **[!UICONTROL 업로드된 브랜드 자산]** 드롭다운에서 사용할 수 있습니다. 세대에 포함할 자산을 전환합니다.
 

@@ -3,21 +3,21 @@ audience: end-user
 title: AI Assistant를 사용한 SMS
 description: AI Assistant 시작
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '884'
 ht-degree: 2%
 
 ---
 
-# AI 어시스턴트와 함께하는 SMS 세대 {#generative-sms}
+# AI Assistant를 사용하여 SMS 생성 {#generative-sms}
 
 >[!IMPORTANT]
 >
 >이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](generative-gs.md#generative-guardrails)을 읽어 보십시오.
 ></br>
 >
->Adobe Campaign 웹에서 AI 도우미를 사용하기 전에 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
+>Adobe Campaign 웹에서 AI Assistant를 사용하기 전에 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
 
 대상자에 맞게 SMS 메시지를 만들고 개인화하면 혁신적인 AI 기술을 기반으로 하는 Adobe Campaign 웹의 AI Assistant와의 커뮤니케이션을 향상시킵니다.
 
@@ -46,7 +46,7 @@ ht-degree: 2%
 1. **[!UICONTROL 텍스트 설정]** 옵션을 사용하여 메시지를 사용자 지정합니다.
 
    * **[!UICONTROL 커뮤니케이션 전략]**: 생성된 텍스트에 가장 적합한 커뮤니케이션 스타일을 선택합니다.
-   * **[!UICONTROL 음색]**: 전자 메일의 음색이 대상자에게 울려 퍼지도록 합니다. AI Assistant를 통해 유익하거나, 유희적이거나, 설득력 있게 들리고자 하는 경우 그에 따라 메시지를 조정합니다.
+   * **[!UICONTROL 음색]**: 전자 메일의 음색이 대상자에게 울려 퍼지도록 합니다. AI Assistant는 유익하거나, 유쾌하거나, 설득력 있게 들리고자 할 때 메시지를 적절히 조정합니다.
    * **텍스트 길이**: 슬라이더를 사용하여 원하는 텍스트 길이를 선택합니다.
 
    ![텍스트 설정 옵션을 보여 주는 스크린샷](assets/sms-genai-3.png){zoomable="yes"}
@@ -64,8 +64,8 @@ ht-degree: 2%
 1. **[!UICONTROL 미리 보기]** 창 내에서 **[!UICONTROL 세분화]** 옵션으로 이동하여 추가 사용자 지정 기능에 액세스하고 변형을 환경 설정에 맞게 세부 조정하십시오.
 
    * **[!UICONTROL 참조 콘텐츠로 사용]**: 선택한 변형을 다른 결과를 생성하기 위한 참조 콘텐츠로 사용합니다.
-   * **[!UICONTROL 간단한 언어 사용]**: AI 도우미는 모든 사람이 이해할 수 있는 명확하고 간결한 메시지를 작성할 수 있도록 도와줍니다.
-   * **[!UICONTROL 구문 바꾸기]**: AI 도우미가 다른 대상자를 위해 메시지를 다시 구문 분석합니다.
+   * **[!UICONTROL 간단한 언어 사용]**: AI Assistant를 사용하면 모든 사람이 이해할 수 있는 명확하고 간결한 메시지를 작성할 수 있습니다.
+   * **[!UICONTROL 구문 변경]**: AI Assistant는 다른 대상자에게 계속 참여하도록 메시지를 다시 구문 분석합니다.
 
    텍스트의 **[!UICONTROL 색조]** 및 **[!UICONTROL 통신 전략]**&#x200B;을 변경할 수도 있습니다.
 
@@ -97,7 +97,7 @@ ht-degree: 2%
 
    ![AI Assistant 메뉴를 보여 주는 스크린샷](assets/sms-text-1.png){zoomable="yes"}
 
-1. AI 도우미가 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화하려면 **[!UICONTROL 참조 콘텐츠 사용]** 옵션을 활성화하십시오.
+1. AI Assistant가 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화하려면 **[!UICONTROL 참조 콘텐츠 사용]** 옵션을 활성화하십시오.
 
 1. **[!UICONTROL Prompt]** 필드에 생성할 내용을 설명하여 내용을 미세 조정하십시오.
 
@@ -126,7 +126,7 @@ ht-degree: 2%
 
    * **[!UICONTROL 참조 콘텐츠로 사용]**: 선택한 변형을 다른 결과를 생성하기 위한 참조 콘텐츠로 사용합니다.
    * **[!UICONTROL 구문 변경]**: AI Assistant는 다양한 방식으로 메시지를 다시 구문 처리하여 쓰기를 신선하게 유지하고 다양한 대상자를 유혹할 수 있습니다.
-   * **[!UICONTROL 더 간단한 언어 사용]**: AI Assistant를 사용하여 언어를 단순화함으로써, 더 많은 대상자가 명확하고 쉽게 사용할 수 있습니다.
+   * **[!UICONTROL 더 간단한 언어 사용]**: AI Assistant를 사용하여 언어를 단순화함으로써 더 많은 대상자가 명확하고 쉽게 사용할 수 있습니다.
 
    텍스트의 **[!UICONTROL 색조]** 및 **[!UICONTROL 통신 전략]**&#x200B;을 변경할 수도 있습니다.
 

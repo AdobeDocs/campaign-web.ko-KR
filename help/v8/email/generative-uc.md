@@ -2,9 +2,9 @@
 title: AI 어시스턴트 사용 사례
 description: 사용 사례를 통해 AI Assistant 사용 방법 알아보기
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '535'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL AI 길잡이]** 섹션을 엽니다.
 
-1. AI Assistant 내에서 **[!UICONTROL 원본 콘텐츠 사용]** 기능을 켜서 게재 이름 및 대상 등 게재 세부 사항에 따라 새 콘텐츠를 사용자 지정할 수 있습니다.
+1. AI Assistant 내의 **[!UICONTROL 원본 콘텐츠 사용]** 기능을 켜서 게재 이름 및 대상 등 게재 세부 사항에 따라 새 콘텐츠를 사용자 지정할 수 있습니다.
 
 1. **[!UICONTROL Prompt]** 상자에서 요청을 지정하여 콘텐츠를 조정하고 필요에 따라 설정을 사용자 지정합니다.
 
@@ -55,7 +55,7 @@ ht-degree: 1%
 
    * **[!UICONTROL 요약]**: 자세한 내용을 보려면 AI Assistant를 사용하여 전자 메일 수신자가 쉽게 요약할 수 있는 간결한 요약을 만드십시오.
 
-   * **[!UICONTROL 구문 변경]**: AI 도우미는 다양한 방식으로 메시지를 제공할 수 있으므로 다양한 대상자가 콘텐츠를 최신 상태로 유지할 수 있습니다.
+   * **[!UICONTROL 구문 변경]**: AI 도우미는 다양한 방식으로 메시지를 표시할 수 있으므로 다양한 대상자에게 콘텐츠를 최신 상태로 유지할 수 있습니다.
 
    * **[!UICONTROL 더 간단한 언어 사용]**: AI Assistant를 사용하여 언어를 단순화하면 메시지가 명확해지고 모든 독자가 액세스할 수 있습니다.
 
@@ -89,11 +89,11 @@ ht-degree: 1%
 
 1. 게재를 설정하고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요.
 
-1. AI Assistant를 사용하여 수정할 에셋을 선택합니다.
+1. AI Assistant를 사용하여 수정할 자산을 선택합니다.
 
 1. 오른쪽 창 메뉴에서 **[!UICONTROL AI Assistant]**&#x200B;를 선택합니다.
 
-1. **[!UICONTROL 참조 스타일]** 옵션을 켜면 AI 도우미가 참조 자료를 사용하여 새 콘텐츠를 생성할 수 있습니다.
+1. **[!UICONTROL 참조 스타일]** 옵션을 켜면 AI Assistant가 참조 자료를 사용하여 새 콘텐츠를 생성할 수 있습니다.
 
 1. 변형에 컨텍스트를 추가하는 이미지를 포함하려면 **[!UICONTROL 이미지 업로드]**&#x200B;를 클릭하십시오.
 

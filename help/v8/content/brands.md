@@ -6,9 +6,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '508'
 ht-degree: 2%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 2%
 
    ![이미지 옵션의 예제가 포함된 시각적 콘텐츠 탭](assets/brands_3.png)
 
-1. 구성이 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭한 다음 **[!UICONTROL 게시]**&#x200B;을 클릭하여 브랜드 지침을 AI 도우미에서 사용할 수 있도록 합니다.
+1. 구성하고 나면 **[!UICONTROL 저장]**&#x200B;을 클릭한 다음 **[!UICONTROL 게시]**&#x200B;을 클릭하여 브랜드 지침을 AI Assistant에서 사용할 수 있도록 만드십시오.
 
 1. 게시된 브랜드를 수정하려면 **[!UICONTROL 브랜드 편집]**&#x200B;을 클릭하세요.
 
@@ -104,6 +104,6 @@ ht-degree: 2%
 
    ![브랜드 대시보드의 고급 메뉴 옵션](assets/brands_5.png)
 
-이제 AI 도우미 메뉴의 **[!UICONTROL 브랜드]** 드롭다운에서 브랜드 지침에 액세스할 수 있습니다. 이를 통해 AI 어시스턴트는 사용자 사양에 맞게 콘텐츠 및 에셋을 생성할 수 있습니다. [AI Assistant에 대해 자세히 알아보기](../email/generative-gs.md)
+이제 AI Assistant 메뉴의 **[!UICONTROL 브랜드]** 드롭다운에서 브랜드 지침에 액세스할 수 있습니다. 이를 통해 AI Assistant는 사용자 사양에 맞게 콘텐츠 및 에셋을 생성할 수 있습니다. [AI Assistant에 대해 자세히 알아보기](../email/generative-gs.md)
 
 ![브랜드 드롭다운이 있는 AI 도우미 메뉴](assets/brands_6.png)

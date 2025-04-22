@@ -4,9 +4,9 @@ description: 새 Campaign v8 애플리케이션을 시작하는 데 필요한 �
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1555'
 ht-degree: 29%
 
 ---
@@ -93,7 +93,7 @@ Campaign Standard 사용자가 Adobe Campaign v8로 전환하면 다음과 같�
 
   Adobe Experience Manager as a Cloud Service은 클라우드 기반의 민첩성을 제공하여 변화하는 비즈니스 요구에 신속하게 대응하고 적응할 수 있도록 해줍니다. 이 통합을 통해 콘텐츠 관리 기능이 향상될 뿐만 아니라 모든 접점에서 고객에게 보다 개인화되고 흥미로운 경험을 전달할 수 있습니다.
 
-* **AI 길잡이**
+* **AI 어시스턴트**
 
   Campaign AI Assistant를 사용하면 시간을 절약하고 효율성을 개선하며 더 나은 결과를 도출하는 동시에 직관적이고 단순하며 번거롭지 않은 이메일, SMS 및 푸시와 같은 채널 전반에서 마케팅 캠페인을 만들고 실행할 수 있습니다.
 
@@ -105,7 +105,7 @@ Campaign Standard 사용자가 Adobe Campaign v8로 전환하면 다음과 같�
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  변형 이메일 템플릿을 제공하고 이미지를 생성 및 재생성합니다. [이 섹션](../../v8/email/generative-content.md)에서 AI 도우미에 대해 자세히 알아보세요. Adobe Campaign v8에는 [이메일](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md) 및 [푸시](../../v8/email/generative-push.md)에 사용할 수 있는 AI 도우미가 있습니다.
+  변형 이메일 템플릿을 제공하고 이미지를 생성 및 재생성합니다. [이 섹션](../../v8/email/generative-content.md)에서 AI Assistant에 대해 자세히 알아보세요. Adobe Campaign v8에는 [이메일](../../v8/email/generative-content.md), [SMS](../../v8/email/generative-sms.md) 및 [푸시](../../v8/email/generative-push.md)에 사용할 수 있는 AI 도우미가 있습니다.
 
 * **업그레이드된 SMS 인프라 - SMS v2.0**
 
@@ -126,13 +126,13 @@ Adobe Campaign v8은 관리 클라우드 서비스로 제공되며, 사전 예�
 
 ## v8에 추가된 Campaign Standard 기능 {#ac-v8-added}
 
-Campaign v8로 원활하게 전환할 수 있도록 주요 Campaign Standard 기능이 Campaign v8에 추가되었습니다. 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}를 참조하십시오.
+Campaign v8로 원활하게 전환할 수 있도록 주요 Campaign Standard 기능이 Campaign v8에 추가되었습니다. 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}를 참조하세요.
 
-* **동적 보고**: 동적 보고는 마케팅 활동의 영향을 측정하기 위해 완전히 사용자 정의 가능한 실시간 보고서를 제공합니다. 이 기능은 프로필 데이터에 대한 액세스를 추가하여 열기 및 클릭과 같은 기능적 이메일 캠페인 데이터 외에도 성별, 도시, 연령과 같은 프로필 차원별로 인구통계학적 분석을 지원합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}
+* **동적 보고**: 동적 보고는 마케팅 활동의 영향을 측정하기 위해 완전히 사용자 정의 가능한 실시간 보고서를 제공합니다. 이 기능은 프로필 데이터에 대한 액세스를 추가하여 열기 및 클릭과 같은 기능적 이메일 캠페인 데이터 외에도 성별, 도시, 연령과 같은 프로필 차원별로 인구통계학적 분석을 지원합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}.
 
 * **중앙 집중식 브랜딩**: 모든 회사에는 브랜드 시각적 및 기술적 지침이 있습니다. Adobe Campaign을 사용하면 로고에서부터 이메일 발신자, URL 또는 도메인과 같은 기술적 측면까지 일관된 브랜드를 고객에게 제시하기 위해 일련의 사양을 정의할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
 
-* **REST API** - Campaign Standard 마이그레이션 사용자인 경우 REST API를 사용하여 Adobe Campaign을 통합하고 사용하는 기술 패널과 Adobe Campaign을 인터페이스하여 자체 에코시스템을 구축할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=ko){target="_blank"}
+* **REST API** - Campaign Standard 마이그레이션 사용자인 경우 REST API를 사용하여 Adobe Campaign을 통합하고 사용하는 기술 패널과 Adobe Campaign을 인터페이스하여 자체 에코시스템을 구축할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=ko){target="_blank"}.
 
 * **랜딩 페이지** - Campaign Standard와의 기능 패리티를 보장하기 위해 Campaign v8 랜딩 페이지에 일부 개선 사항이 적용되었습니다. [릴리스 정보](../../v8/rn/release-notes.md#new-24-4) 및 랜딩 페이지 [설명서](../../v8/landing-pages/get-started-lp.md)에서 자세한 내용을 살펴보십시오.
 

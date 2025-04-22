@@ -4,9 +4,9 @@ title: SMS 게재 시작하기
 description: Adobe Campaign Web을 사용하여 SMS를 만들고 전송하는 방법 알아보기
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ SMS 채널은 SMS 게재를 만드는 세 가지 메서드를 제공합니다.
 
 * **[!UICONTROL 워크플로]**: SMS 활동을 추가하고, 기본 설정을 정의하고, 대형 자동화 시퀀스에서 SMS 콘텐츠를 작성합니다.
 
-* **[!UICONTROL 캠페인]**: SMS 게재를 전용 캠페인에 통합하여 대상자와 게재 일정 등 매개변수를 설정합니다.
+* **[!UICONTROL 캠페인]**: SMS 게재를 전용 캠페인에 통합하여 타깃 대상자, 게재 일정 등의 매개변수를 설정합니다.
 
 * **독립 실행형 게재**: 개별 SMS 게재를 만들어 워크플로나 캠페인 없이도 고객과 빠르고 직접적으로 통신할 수 있습니다.
 

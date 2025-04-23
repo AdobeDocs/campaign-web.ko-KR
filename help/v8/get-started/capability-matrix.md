@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign Web 사용자 인터페이스/클라이언트 콘솔 기능 매트릭스
 description: Campaign Web 사용자 인터페이스에서 지원되는 기능 목록
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
-source-wordcount: '2102'
+source-git-commit: 031d157feb122283c0b9bec24fb3ffafc3e63297
+workflow-type: tm+mt
+source-wordcount: '2072'
 ht-degree: 100%
 
 ---
@@ -103,12 +103,18 @@ Adobe Campaign Web 사용자 인터페이스와 함께 제공되는 새로운 [�
 
 Campaign v8(클라이언트 콘솔) 설명서를 찾아보고 유형 규칙에 대해 자세히 알아보려면 제공된 링크를 사용하십시오.
 
-* 제어 규칙 생성. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=ko){target="_blank"}
+<!--
+* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
+-->
 * 피로도/압력 규칙 만들기. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ko){target="_blank"}
-* 필터링 규칙 만들기. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html?lang=ko){target="_blank"}
-* 유형화 규칙 관리. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html?lang=ko){target="_blank"}
+<!--
+* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html){target="_blank"}
+* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html){target="_blank"}
+-->
 * 캠페인 시뮬레이션. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html?lang=ko){target="_blank"}
-* 유형화 규칙 작성을 위한 JavaScript 코딩. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ko#use-cases-on-pressure-rules){target="_blank"}
+<!--
+* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html#use-cases-on-pressure-rules){target="_blank"}
+-->
 
 ## 워크플로 {#wf-capabilities}
 
@@ -116,7 +122,10 @@ Campaign v8(클라이언트 콘솔) 설명서를 찾아보고 유형 규칙에 �
 
 다음 기능은 Campaign 클라이언트 콘솔에서만 사용할 수 있다는 점에 유의하십시오.
 
-* 워크플로의 스크립팅
+<!--
+* Scripting in workflows
+-->
+
 * ETL 활동: 내보내기, 스키마 편집, 데이터 로드, 데이터 추출, SQL 코드
 
 사용 가능한 워크플로 활동에 대한 자세한 내용은 [여기](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=ko){target="_blank"}에 있는 Adobe Campaign v8(콘솔) 워크플로 설명서를 참조하십시오.

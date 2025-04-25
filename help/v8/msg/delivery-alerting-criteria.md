@@ -6,7 +6,7 @@ exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 20%
+ht-degree: 26%
 
 ---
 
@@ -49,12 +49,12 @@ Campaign 웹 사용자 인터페이스에서 사전 정의된 경고 기준을 �
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_indicators"
 >title="경고에 추가할 표시기"
->abstract="전자 메일 경고의 &#39;세부 정보&#39; 섹션에 열로 표시할 지표를 선택합니다."
+>abstract="이메일 경고의 &#39;세부 사항&#39; 섹션에 열로 표시할 지표를 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_alert"
 >title="경고 유형"
->abstract="기준에 대해 **경고 유형**&#x200B;을(를) 지정하십시오. 즉, 경고의 &#39;요약&#39; 섹션에서 게재 기준 옆에 표시할 레이블과 색을 의미합니다."
+>abstract="기준에 대한 **경고 유형**&#x200B;을 지정하여, 경고의 &#39;요약&#39; 섹션에서 게재 기준 옆에 표시할 레이블과 색상을 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_frequency"

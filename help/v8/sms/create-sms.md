@@ -6,7 +6,7 @@ exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 29%
+ht-degree: 40%
 
 ---
 
@@ -15,18 +15,18 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_properties"
 >title="SMS 게재 속성"
->abstract="속성에는 게재 이름을 지정하고 분류하는 데 도움이 되는 일반적인 게재 매개 변수가 포함됩니다. 게재가 확장 스키마를 사용하는 경우 특정 사용자 지정 옵션 필드를 사용할 수 있습니다."
+>abstract="속성은 게재 이름을 지정하고 분류하는 데 도움이 되는 일반적인 게재 매개변수를 포함합니다. 확장된 스키마를 사용하는 게재인 경우, 특정 사용자 정의 옵션 필드를 사용할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
 >title="SMS 대상자 정의"
->abstract="**대상 선택** 단추를 클릭하여 새 대상을 만들거나 기존 대상을 선택합니다. 필요한 경우 컨트롤 그룹을 추가하여 게재의 영향을 측정할 수 있습니다."
+>abstract="**대상자 선택** 버튼을 클릭하여 새 대상자를 만들거나 기존 대상자를 선택합니다. 필요한 경우 컨트롤 그룹을 추가하여 게재의 영향을 측정할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=ko" text="컨트롤 그룹 설정"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
 >title="SMS 템플릿 선택"
->abstract="SMS 게재를 시작하려면 미리 정의된 템플릿을 선택합니다. 게재 템플릿을 사용하면 캠페인 및 게재에서 사용자 지정 콘텐츠 및 설정을 재사용할 수 있습니다."
+>abstract="SMS 게재를 시작하려면 미리 정의된 템플릿을 선택합니다. 게재 템플릿을 사용하면 캠페인과 게재 전반에 걸쳐 사용자 정의 콘텐츠와 설정을 재사용할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=ko" text="게재 템플릿 사용"
 
 독립형 SMS 게재를 만들거나 캠페인 워크플로우의 컨텍스트에서 SMS를 만들 수 있습니다. 아래 단계에서는 독립 실행형(일회성) SMS 게재 절차를 설명합니다. 캠페인 워크플로우의 컨텍스트에서 작업하는 경우 [이 섹션](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)에서 만들기 단계를 설명합니다.

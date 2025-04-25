@@ -6,7 +6,7 @@ exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
 source-wordcount: '732'
-ht-degree: 6%
+ht-degree: 18%
 
 ---
 
@@ -15,17 +15,17 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="AI 어시스턴트"
->abstract="게재를 만들고 개인화한 후 AI Assistant를 사용하여 콘텐츠를 향상시킵니다. 이 기능은 생성하려는 내용을 설명하여 콘텐츠를 미세 조정할 수 있도록 함으로써 개인화 및 콘텐츠 개선을 간소화합니다."
+>abstract="게재를 만들고 개인화한 후 AI Assistant를 사용하여 콘텐츠를 향상시킵니다. 이 기능은 사용자가 생성하고자 하는 콘텐츠를 설명하여 콘텐츠를 세부 조정함으로써 개인화 및 콘텐츠 개선을 간소화합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
 >title="Campaign에서 AI 어시스턴트로 컨텍스트 정의"
->abstract="선택한 콘텐츠를 콘텐츠 생성에 대한 입력으로 사용하려면 **현재 콘텐츠로 개선** 토글을 활성화합니다. 또한 브랜드 자산을 업로드하여 소스로 사용할 수도 있습니다. 선택한 컨텐츠를 사용하지 않는 경우에는 브랜드 자산을 업로드 및 선택해야 합니다."
+>abstract="선택한 콘텐츠를 콘텐츠 생성을 위한 입력으로 사용하려면 **현재 콘텐츠로 개선** 토글을 활성화합니다. 또한 브랜드 자산을 업로드하여 소스로 사용할 수도 있습니다. 선택한 콘텐츠를 사용하지 않는 경우 브랜드 자산 업로드 및 선택이 필수 작업으로 설정됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Adobe 생성형 AI 약관"
->abstract="이 기능에 대한 액세스 권한은 Adobe Experience Cloud Generative AI 사용자 가이드라인에 대한 귀하의 동의에 따라 다릅니다. 이 기능의 출력을 검토하여 정확성을 확인하고 사용 사례에 적합한지 확인합니다."
+>abstract="이 기능에 대한 액세스 가능 여부는 Adobe Experience Cloud 생성형 AI 사용자 가이드라인에 대한 사용자의 동의 여부에 따라 달라집니다. 이 기능을 통한 모든 출력 내용이 정확한지 검토하고 사용 사례에 적합한지 확인해 보시기 바랍니다."
 >additional-url="https://www.adobe.com/kr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 생성형 AI 사용자 가이드라인"
 
 >[!INFO]

@@ -6,7 +6,7 @@ exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 22%
+ht-degree: 32%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="JavaScript 코드"
->abstract="**JavaScript 코드** 활동을 통해 워크플로 컨텍스트에서 JavaScript 스크립트를 실행할 수 있습니다. 이렇게 하면 작업을 수행하거나 데이터베이스에서 정보를 수집할 수 있습니다. **단순** JavaScript 코드 활동을 사용하여 워크플로우 실행 중에 하나의 코드 조각을 실행합니다. **고급** JavaScript 코드 활동을 사용하면 두 개의 다른 코드 조각을 순차적으로 실행하여 보다 복잡한 작업을 수행할 수 있습니다. 워크플로우가 처음 시작될 때 첫 번째 호출이 실행됩니다. 워크플로가 다시 실행될 때마다 두 번째 호출에 정의된 코드가 실행됩니다."
+>abstract="**JavaScript 코드** 활동을 통해 워크플로 컨텍스트에서 JavaScript 스크립트를 실행할 수 있습니다. 이를 통해 작업을 수행하거나 데이터베이스에서 정보를 수집할 수 있습니다. 워크플로 실행 중에 하나의 코드 스니펫을 실행하려면 **단순** JavaScript 코드 활동을 사용합니다. **고급** JavaScript 코드 활동을 사용하면 서로 다른 두 코드 스니펫을 순차적으로 실행하여 복잡한 작업을 수행할 수 있습니다. 워크플로가 처음 시작되면 첫 번째 호출이 실행됩니다. 워크플로가 다시 실행될 때마다 두 번째 호출에 정의된 코드가 실행됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="JavaScript 스니펫"
->abstract="활동을 실행할 때 실행할 스크립트를 정의합니다. **고급** JavaScript 활동을 구성하는 경우 첫 번째 워크플로우 실행 중에 실행할 첫 번째 호출 코드와 후속 워크플로우 실행 중에 실행할 다음 호출 코드, 이렇게 두 개의 코드 조각을 편집합니다."
+>abstract="활동을 실행할 때 실행할 스크립트를 정의합니다. **고급** JavaScript 활동을 구성하는 경우, 두 개의 코드 스니펫, 즉 워크플로의 첫 번째 실행 중에 실행할 첫 번째 호출 코드와 이후 워크플로 실행 중에 실행할 다음 호출 코드를 편집합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"

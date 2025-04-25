@@ -6,7 +6,7 @@ exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '664'
-ht-degree: 23%
+ht-degree: 27%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sms_targeted_audience"
 >title="SMS 대상 모집단"
->abstract="**대상 모집단**&#x200B;의 그래프와 표에 배달할 메시지 및 제외 정보를 포함하여 SMS 대상자와 관련된 데이터가 있습니다."
+>abstract="**타기팅된 집단**&#x200B;에 대한 그래프와 테이블은 게재될 메시지 및 제외에 대한 정보를 포함하여 SMS 대상자와 관련된 데이터를 나타냅니다."
 
 **[!UICONTROL 타깃팅된 대상]** 테이블 및 그래프는 보낸 각 SMS 게재에 대해 받는 사람과 관련된 데이터를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 

@@ -6,7 +6,7 @@ exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 21%
+ht-degree: 24%
 
 ---
 
@@ -171,7 +171,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_global_delivery_statistics_summary_email"
 >title="게재 통계"
->abstract="**게재 통계** 주요 성과 지표(KPI)는 게재 및 캠페인 성과에 대한 포괄적인 개요를 제공하여 성공적인 게재, 발생한 오류 및 사용자 참여에 대한 통찰력을 제공합니다."
+>abstract="**게재 통계** 주요 성과 지표(KPI)는 게재 및 캠페인 성과에 대한 포괄적인 개요를 제공하여 성공적인 게재, 발생한 오류 및 사용자 참여에 대한 인사이트를 제시합니다."
 
 **[!UICONTROL 게재 통계]** 지표는 모든 이메일 게재와 관련된 데이터에 대한 자세한 정보를 제공하는 주요 성능 지표(KPI)를 제공합니다. 이러한 지표에 대한 자세한 내용은 아래에 나와 있습니다.
 
@@ -247,7 +247,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_top10_email"
 >title="가장 많이 방문한 상위 링크 10개"
->abstract="**가장 많이 방문한 상위 10개 링크** 그래프와 표에는 각 링크와의 수신자 상호 작용에 대한 포괄적인 데이터가 표시됩니다."
+>abstract="**가장 많이 방문한 상위 링크 10개** 그래프와 테이블은 수신자와 각 링크의 상호 작용에 대한 포괄적인 데이터를 제공합니다."
 
 **[!UICONTROL 가장 많이 방문한 상위 10개 링크]** 그래프 및 표에는 링크당 받는 사람 동작에 사용할 수 있는 데이터가 포함되어 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
 

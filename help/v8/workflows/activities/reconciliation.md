@@ -6,7 +6,7 @@ exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 22%
+ht-degree: 40%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="조정 활동"
->abstract="**조정** 활동은 Adobe Campaign 데이터베이스의 데이터와 작업 테이블의 데이터 간의 연결을 정의하는 **타깃팅** 활동입니다. 예를 들어 **조정** 활동을 **파일 로드** 활동 뒤에 놓아 비표준 데이터를 데이터베이스로 가져옵니다. 이 경우 **조정** 활동은 Adobe Campaign 데이터베이스의 데이터와 외부 테이블의 데이터 간의 연결을 정의합니다."
+>abstract="**조정** 활동은 Adobe Campaign 데이터베이스의 데이터 간 링크와 작업 테이블의 데이터를 정의하는 **타기팅** 활동입니다. 예를 들어 **조정** 활동을 **파일 로드** 활동 뒤에 놓아 비표준 데이터를 데이터베이스로 가져옵니다. 이 경우 **조정** 활동은 Adobe Campaign 데이터베이스의 데이터와 외부 테이블에 있는 데이터 간의 링크를 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
@@ -48,12 +48,12 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
 >title="타기팅 차원"
->abstract="새로운 타기팅 차원을 선택합니다. 차원은 수신자, 앱 구독자, 연산자, 구독자 등의 타겟팅된 모집단을 정의합니다. 기본적으로 현재 타기팅 차원이 선택됩니다."
+>abstract="새로운 타기팅 차원을 선택합니다. 차원은 대상 모집단(수신자, 앱 구독자, 운영자, 구독자 등)을 정의합니다. 기본적으로 현재 타기팅 차원이 선택됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="조정 규칙"
->abstract="중복 제거에 대한 조정 규칙을 선택합니다. 속성을 사용하려면 **단순 속성** 옵션을 선택하고 소스 및 대상 필드를 선택합니다. 쿼리 모델러를 사용하여 자체 조정 조건을 만들려면 **고급 조정 조건** 옵션을 선택합니다."
+>abstract="중복 제거를 위한 조정 규칙을 선택합니다. 속성을 사용하려면 **단순 속성** 옵션을 선택하고 소스 및 대상 필드를 선택합니다. 쿼리 모델러를 사용하여 자체 조정 조건을 만들려면 **고급 조정 조건** 옵션을 선택합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/query-database/query-modeler-overview" text="쿼리 모델러로 작업"
 
 >[!CONTEXTUALHELP]
@@ -65,18 +65,18 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_keep_unreconciled_data"
 >title="조정되지 않은 데이터 유지"
->abstract="기본적으로, 조정되지 않은 데이터는 아웃바운드 전환에 유지되고 나중에 사용할 수 있도록 작업 테이블에서 사용할 수 있습니다. 조정되지 않은 데이터를 제거하려면 **조정되지 않은 데이터 유지** 옵션을 비활성화하십시오."
+>abstract="기본적으로 조정되지 않은 데이터는 아웃바운드 전환에 보관되며, 나중에 작업 테이블에서 사용할 수 있습니다. 조정되지 않은 데이터를 제거하려면 **조정되지 않은 데이터 유지** 옵션을 비활성화합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"
 >title="조정 속성"
->abstract="데이터를 조정하는 데 사용할 속성을 선택하고 확인을 누릅니다."
+>abstract="데이터 조정에 사용할 속성을 선택하고 확인을 클릭합니다."
 
 **조정** 활동을 구성하려면 다음 단계를 따르십시오.
 
 1. 워크플로우에 **조정** 활동을 추가합니다. 이 활동은 타겟팅 차원이 Adobe Campaign에서 바로 제공되지 않는 모집단을 포함하는 전환을 따라야 합니다.
 
-1. 새로운 타기팅 차원을 선택합니다. 차원은 수신자, 앱 구독자, 연산자, 구독자 등의 타겟팅된 모집단을 정의합니다. [타겟팅 차원에 대해 자세히 알아보세요](../../audience/about-recipients.md#targeting-dimensions).
+1. 새로운 타기팅 차원을 선택합니다. 차원은 대상 모집단(수신자, 앱 구독자, 운영자, 구독자 등)을 정의합니다. [타겟팅 차원에 대해 자세히 알아보세요](../../audience/about-recipients.md#targeting-dimensions).
 
 1. 조정에 사용할 필드를 선택합니다. 조정 기준을 하나 이상 사용할 수 있습니다.
 
@@ -90,7 +90,7 @@ ht-degree: 22%
 
 1. **필터 만들기** 단추를 사용하여 조정할 데이터를 필터링합니다. 이렇게 하면 쿼리 모델러를 사용하여 사용자 지정 조건을 만들 수 있습니다. [쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다](../../query/query-modeler-overview.md).
 
-기본적으로, 조정되지 않은 데이터는 아웃바운드 전환에 유지되고 나중에 사용할 수 있도록 작업 테이블에서 사용할 수 있습니다. 조정되지 않은 데이터를 제거하려면 **조정되지 않은 데이터 유지** 옵션을 비활성화하십시오.
+기본적으로 조정되지 않은 데이터는 아웃바운드 전환에 보관되며, 나중에 작업 테이블에서 사용할 수 있습니다. 조정되지 않은 데이터를 제거하려면 **조정되지 않은 데이터 유지** 옵션을 비활성화합니다.
 
 ## 예제 {#reconciliation-example}
 

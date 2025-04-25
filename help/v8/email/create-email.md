@@ -6,7 +6,7 @@ exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
 workflow-type: tm+mt
 source-wordcount: '1626'
-ht-degree: 42%
+ht-degree: 44%
 
 ---
 
@@ -28,12 +28,12 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
 >title="이메일 템플릿 선택"
->abstract="이메일 템플릿은 유형화 규칙, 개인화 또는 라우팅 매개 변수와 같은 사전 정의된 설정을 포함하는 특정 게재 구성입니다. 템플릿은 Campaign 클라이언트 콘솔에서 정의됩니다."
+>abstract="이메일 템플릿은 유형화 규칙, 개인화 또는 라우팅 매개변수와 같은 미리 정의된 설정을 포함하는 특정 게재 구성입니다. 템플릿은 Campaign 클라이언트 콘솔에서 정의됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
 >title="이메일 속성 정의"
->abstract="속성은 게재 이름을 지정하고 분류하는 데 도움이 되는 일반적인 게재 매개 변수입니다. 추가 설정은 선택 사항입니다. Adobe Campaign v8 Console에 정의된 확장된 스키마를 기반으로 하는 게재인 경우, 일부 특정 **사용자 정의 옵션** 필드를 사용할 수 있습니다."
+>abstract="속성은 게재 이름을 지정하고 분류하는 데 도움이 되는 일반적인 게재 매개변수입니다. 추가 설정은 선택 사항입니다. Adobe Campaign v8 Console에 정의된 확장된 스키마를 기반으로 하는 게재인 경우, 일부 특정 **사용자 정의 옵션** 필드를 사용할 수 있습니다."
 
 독립 실행형 이메일 게재를 만들거나 캠페인 워크플로의 컨텍스트에서 이메일을 작성할 수 있습니다. 아래 단계에서는 독립 실행형(일회성) 이메일 게재 절차를 자세히 설명합니다. [이 페이지](../msg/gs-deliveries.md)에서 Adobe Campaign의 게재 만들기 단계에 대해 자세히 알아보세요.
 

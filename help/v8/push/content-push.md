@@ -6,7 +6,7 @@ exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '1569'
-ht-degree: 38%
+ht-degree: 39%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"
 >title="iOS에 대한 자동 알림"
->abstract="자동 푸시 모드에서는 &#39;자동&#39; 알림을 모바일 애플리케이션으로 전송할 수 있습니다. 사용자는 알림이 도착했음을 알지 못합니다. 애플리케이션으로 직접 전송됩니다."
+>abstract="사일런트 푸시 모드를 사용하면 &#39;자동&#39; 알림을 모바일 애플리케이션으로 전송할 수 있습니다. 사용자는 알림이 도착했음을 알지 못합니다. 애플리케이션으로 직접 전송됩니다."
 
 푸시 게재가 만들어지면 해당 콘텐츠를 정의합니다. 매개 변수와 설정은 모바일 운영 체제(Android 또는 iOS)에 따라 다릅니다. 아래 탭을 탐색하여 각 운영 체제에 대한 메시지를 작성하는 방법을 알아보십시오.
 

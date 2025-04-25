@@ -6,7 +6,7 @@ exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 12%
+ht-degree: 15%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_saveaudience_outbound"
 >title="아웃바운드 전환 생성"
->abstract="**대상자 저장** 활동 후에 전환을 추가하려면 이 옵션을 사용하십시오."
+>abstract="**대상자 저장** 활동 후에 전환을 추가하려면 이 옵션을 사용합니다."
 
 **대상자 저장** 활동은 **타깃팅** 활동입니다. 이 활동을 사용하면 워크플로우에서 업스트림으로 계산한 모집단에서 기존 대상자를 업데이트하거나 새 대상자를 만들 수 있습니다. 만들어진 대상은 응용 프로그램 대상자 목록에 추가되며 **대상자** 메뉴를 통해 사용할 수 있습니다.
 

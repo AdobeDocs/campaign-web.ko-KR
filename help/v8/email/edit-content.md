@@ -6,7 +6,7 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 20%
+ht-degree: 33%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="이메일 콘텐츠 정의"
->abstract="**콘텐츠 편집** 화면에서 보낸 사람 주소 및 제목란과 같은 메시지의 기본 요소를 정의하고 첨부 파일 또는 오퍼 추가와 같은 추가 작업을 수행하고 이메일 Designer에 액세스하여 메시지를 깔끔하게 표시할 수 있습니다."
+>abstract="**콘텐츠 편집** 화면에서는 발신자 주소 및 제목 줄과 같은 메시지의 기본 요소를 정의하고, 첨부 파일이나 오퍼 추가와 같은 추가 작업을 수행하고, 이메일 디자이너에 액세스하여 메시지를 세련된 형태로 지정할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -25,7 +25,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="이메일에 파일 첨부"
->abstract="하나 이상의 파일을 선택하여 메시지에 삽입합니다. 성능 문제를 방지하려면 이메일당 두 개 이상의 첨부 파일을 포함하지 않는 것이 좋습니다."
+>abstract="메시지에 삽입할 하나 이상의 파일을 선택합니다. 성능 문제를 방지하려면 이메일당 둘 이상의 첨부 파일을 포함하지 않는 것이 좋습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
@@ -79,7 +79,7 @@ ht-degree: 20%
 
    >[!NOTE]
    >
-   >성능 문제를 방지하려면 이메일당 두 개 이상의 첨부 파일을 포함하지 않는 것이 좋습니다.
+   >성능 문제를 방지하려면 이메일당 둘 이상의 첨부 파일을 포함하지 않는 것이 좋습니다.
 
    <!--limitation on size + number of files?-->
 

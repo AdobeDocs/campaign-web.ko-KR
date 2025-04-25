@@ -6,7 +6,7 @@ exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
 source-wordcount: '945'
-ht-degree: 10%
+ht-degree: 16%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="파일 추출"
->abstract="**파일 추출** 활동을 사용하면 Adobe Campaign의 데이터를 외부 파일 형태로 내보낼 수 있습니다. 그런 다음 파일 전송 활동을 사용하여 데이터를 SFTP, 클라우드 저장소 또는 캠페인 서버와 같은 서버 위치로 내보낼 수 있습니다."
+>abstract="**파일 추출** 활동을 사용하면 Adobe Campaign의 데이터를 외부 파일 형태로 내보낼 수 있습니다. 그런 다음 파일 전송 활동을 사용하여 SFTP, 클라우드 스토리지 또는 캠페인 서버와 같은 서버 위치로 데이터를 내보낼 수 있습니다."
 
-**파일 추출** 활동은 **데이터 관리** 활동입니다. 이 활동을 사용하여 Adobe Campaign의 데이터를 외부 파일 형태로 내보냅니다. 그런 다음 파일 전송 활동을 사용하여 데이터를 SFTP, 클라우드 저장소 또는 캠페인 서버와 같은 서버 위치로 내보낼 수 있습니다.
+**파일 추출** 활동은 **데이터 관리** 활동입니다. 이 활동을 사용하여 Adobe Campaign의 데이터를 외부 파일 형태로 내보냅니다. 그런 다음 파일 전송 활동을 사용하여 SFTP, 클라우드 스토리지 또는 캠페인 서버와 같은 서버 위치로 데이터를 내보낼 수 있습니다.
 
 **파일 추출** 활동을 구성하려면 **파일 추출** 활동을 워크플로우에 추가한 다음 아래 단계를 수행합니다.
 
@@ -82,7 +82,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="사후 처리"
->abstract="압축 또는 암호화와 같이 적용할 후 처리 단계를 정의합니다."
+>abstract="압축 또는 암호화와 같이 적용할 사후 처리 단계를 정의합니다."
 
 **[!UICONTROL 수정 스크립트 내보내기]**&#x200B;를 사용하면 압축 또는 암호화와 같은 데이터 추출 중에 실행할 처리 단계를 적용할 수 있습니다. 이렇게 하려면 **[!UICONTROL 스크립트 편집]** 단추를 클릭하십시오.
 

@@ -6,7 +6,7 @@ exl-id: 413a28c0-0cbc-4aed-ab0d-642f6245de01
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 16%
+ht-degree: 26%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
 >title="조각"
->abstract="현재 샌드박스에서 생성된 모든 표현식 조각이 이 목록에 표시됩니다. 조각을 사용하려면 + 단추를 클릭하여 조각 ID를 편집기에 추가합니다."
+>abstract="현재 샌드박스에서 생성된 모든 표현식 조각이 이 목록에 표시됩니다. 조각을 사용하려면 + 버튼을 클릭하여 조각 ID를 편집기에 추가합니다."
 
 <!-- pas vu dans l'UI-->
 

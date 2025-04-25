@@ -6,7 +6,7 @@ exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 8%
+ht-degree: 19%
 
 ---
 
@@ -15,17 +15,17 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
 >title="추출 파일 콘텐츠"
->abstract="**콘텐츠 편집** 버튼을 클릭하여 다이렉트 메일 제공업체에서 요구하는 추출 파일 설계를 시작합니다. 이렇게 하면 레이블 및 형식과 같은 파일 속성을 정의하고 파일에 포함할 열을 지정할 수 있습니다."
+>abstract="**콘텐츠 편집** 버튼을 클릭하여 다이렉트 메일 제공업체에서 요구하는 추출 파일 설계를 시작합니다. 이를 통해 레이블 및 형식과 같은 파일 속성을 정의하고 파일에 포함할 열을 지정할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_file"
 >title="파일 속성"
->abstract="추출 파일의 이름, 형식 등 추출 파일의 속성을 구성합니다. 표현식 편집기를 사용하여 데이터베이스의 속성을 사용하여 파일 이름을 개인화할 수 있습니다."
+>abstract="이름, 형식 등 추출 파일의 속성을 구성합니다. 표현식 편집기를 사용하여 데이터베이스의 속성을 사용해 파일 이름을 개인화할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_properties_content"
 >title="콘텐츠"
->abstract="이 섹션에서는 추출 파일에 표시할 열을 지정합니다. 완료되면 **콘텐츠 시뮬레이션** 단추를 사용하여 추출 파일을 미리 볼 수 있습니다."
+>abstract="이 섹션에서는 추출 파일에 표시할 열을 지정합니다. 완료하면 **콘텐츠 시뮬레이션** 버튼을 사용하여 추출 파일의 미리보기를 확인할 수 있습니다."
 
 DM 게재에서 생성된 추출 파일의 콘텐츠를 디자인하려면 게재 페이지에서 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭한 다음 파일 속성 및 콘텐츠를 구성하십시오.
 

@@ -5,7 +5,7 @@ exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="프로필"
->abstract="프로필은 Adobe Campaign에서 보낸 메시지를 수신하도록 타겟팅된 레코드입니다. 권한에 따라 이 목록에서 프로필의 세부 정보를 볼 수 있습니다. 필터링 옵션을 사용하여 이 목록을 찾아볼 수 있습니다. 일부 프로필 속성을 편집하고 업데이트할 수 있습니다."
+>abstract="프로필은 Adobe Campaign에서 전송된 메시지를 수신하기 위해 타기팅된 기록입니다. 권한에 따라 이 목록에서 프로필의 세부 정보를 볼 수 있습니다. 필터링 옵션을 사용하여 이 목록을 찾아볼 수 있습니다. 일부 프로필 속성을 편집하고 업데이트할 수 있습니다."
 
 ## 프로필이란? {#what}
 

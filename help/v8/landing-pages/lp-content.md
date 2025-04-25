@@ -6,7 +6,7 @@ exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="콘텐츠 구성 요소 사용"
->abstract="콘텐츠 구성 요소는 랜딩 페이지 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다. 사용자가 선택 항목을 선택하고 제출할 수 있도록 하는 특정 콘텐츠를 정의하려면 양식 구성 요소를 사용합니다."
+>abstract="콘텐츠 구성 요소는 랜딩 페이지 레이아웃 제작에 사용할 수 있는 빈 콘텐츠 플레이스홀더입니다. 사용자가 선택 사항을 선택하고 제출할 수 있는 특정 콘텐츠를 정의하려면 양식 구성 요소를 사용합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
 >title="기본 페이지의 설정 정의"
->abstract="기본 페이지는 이메일이나 웹 사이트 등과 같이 사용자가 랜딩 페이지에 대한 링크를 클릭한 후 사용자에게 즉시 표시됩니다."
+>abstract="사용자가 이메일 또는 웹 사이트 등 랜딩 페이지 링크를 클릭하면 기본 페이지가 바로 표시됩니다."
 
 랜딩 페이지의 모든 페이지 콘텐츠를 편집할 수 있습니다.
 

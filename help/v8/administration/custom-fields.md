@@ -5,7 +5,7 @@ exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1003'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
 >title="사용자 정의 세부 정보 편집"
->abstract="선택한 스키마의 인터페이스에 표시되는 모든 사용자 정의 필드가 표시됩니다. 위쪽 및 아래쪽 화살표를 사용하여 인터페이스에 표시되는 순서를 변경하고, 구분 기호를 추가하여 필드를 하위 섹션으로 그룹화할 수 있습니다. 사용자 정의 필드를 삭제하거나 가시성 조건 등의 설정을 편집하려면 줄임표 버튼을 클릭합니다."
+>abstract="선택한 스키마의 인터페이스에 표시되는 모든 사용자 정의 필드가 표시됩니다. 위, 아래 화살표를 사용하여 인터페이스에 표시되는 순서를 변경하고, 구분자를 추가하여 필드를 하위 섹션으로 그룹화할 수 있습니다. 사용자 정의 필드를 삭제하거나 가시성 조건 등의 설정을 편집하려면 줄임표 버튼을 클릭합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_general"

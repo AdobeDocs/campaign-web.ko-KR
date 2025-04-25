@@ -6,7 +6,7 @@ exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sms_target"
 >title="초기 타깃 대상자 통계"
->abstract="**초기 대상 통계** 테이블에는 수신자와 관련된 데이터가 표시됩니다."
+>abstract="**초기 타깃 대상자 통계** 테이블에는 수신자와 관련된 데이터가 표시됩니다."
 
 **[!UICONTROL 초기 대상 통계]** 테이블에는 수신자와 관련된 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 

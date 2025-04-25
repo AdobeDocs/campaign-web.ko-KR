@@ -6,7 +6,7 @@ exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '739'
-ht-degree: 24%
+ht-degree: 30%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
 >title="게재 속성 푸시"
->abstract="푸시 게재 속성을 정의합니다. 푸시 레이블을 입력하고 **추가 옵션**&#x200B;을(를) 사용하여 내부 이름, 배달 폴더 및 코드를 구성합니다. 사용자 정의 설명을 입력할 수도 있습니다."
+>abstract="푸시 게재 속성을 정의합니다. 푸시 레이블을 입력하고 **추가 옵션**&#x200B;을 사용하여 내부 이름, 게재 폴더 및 코드를 구성합니다. 사용자 정의 설명을 입력할 수도 있습니다."
 
 독립형 푸시 알림 게재를 만들거나 캠페인 워크플로우의 컨텍스트에서 푸시 알림을 만들 수 있습니다. 아래 단계에서는 독립 실행형(일회성) 푸시 게재의 절차를 자세히 설명합니다. 캠페인 워크플로우의 컨텍스트에서 작업하는 경우 만들기 단계는 [이 섹션](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)에 자세히 설명되어 있습니다.
 
@@ -58,7 +58,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_audience"
 >title="푸시 알림 대상자 정의"
->abstract="메시지 대상자를 정의하려면 먼저 푸시 게재와 연결된 앱을 선택해야 합니다. 기본적으로 푸시 알림은 애플리케이션의 모든 구독자에게 전송됩니다. **대상자 선택** 버튼을 클릭하여 특정 대상자로 세분화할 수 있습니다. 필요한 경우 컨트롤 그룹을 추가하여 게재의 영향을 측정할 수 있습니다."
+>abstract="메시지의 대상자를 정의하려면 먼저 푸시 게재와 연결된 앱을 선택해야 합니다. 기본적으로 푸시 알림은 애플리케이션의 모든 구독자에게 전송됩니다. **대상자 선택** 버튼을 클릭하여 특정 대상자로 세분화할 수 있습니다. 필요한 경우 컨트롤 그룹을 추가하여 게재의 영향을 측정할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=ko" text="컨트롤 그룹 설정"
 
 먼저 앱을 선택해야 합니다. 그런 다음 아래에 설명된 대로 푸시 알림 대상을 세분화할 수 있습니다.

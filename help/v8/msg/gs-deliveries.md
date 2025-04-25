@@ -9,7 +9,7 @@ exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 34%
+ht-degree: 37%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="게재"
->abstract="게재는 특정 채널(이메일, SMS 또는 푸시)의 대상자에게 전송되는 커뮤니케이션입니다. 이 화면에서는 기존 게재를 편집, 복제, 삭제할 수 있습니다. 또한 완료된 게재에 대한 보고서를 볼 수 있습니다. **게재 만들기** 버튼을 클릭하여 새 게재를 추가합니다."
+>abstract="게재는 이메일, SMS 또는 푸시와 같은 특정 채널을 통해 대상자에게 전송되는 커뮤니케이션입니다. 이 화면에서는 기존 게재를 편집, 복제, 삭제할 수 있습니다. 또한 완료된 게재에 대한 보고서를 볼 수 있습니다. **게재 만들기** 버튼을 클릭하여 새 게재를 추가합니다."
 
 ## 게재에 액세스하기 {#access}
 

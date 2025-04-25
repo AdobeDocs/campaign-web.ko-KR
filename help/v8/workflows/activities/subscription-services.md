@@ -6,7 +6,7 @@ exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '1135'
-ht-degree: 18%
+ht-degree: 24%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
 >title="구독 서비스 활동"
->abstract="구독 서비스 활동을 통해 한 번의 작업으로 여러 프로필을 서비스에 구독하거나 구독을 취소할 수 있습니다."
+>abstract="구독 서비스 활동을 통해 한 번의 작업으로 서비스에서 여러 프로필을 구독하거나 구독 취소할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
 >title="구독 서비스 일반 매개변수"
->abstract="원하는 서비스를 선택하고 수행할 작업(구독 또는 구독 취소)을 선택합니다. **확인 메시지 보내기** 옵션을 전환하여 선택한 서비스에서 구독하거나 구독이 취소되었음을 모집단에 알립니다."
+>abstract="원하는 서비스를 선택하고 수행할 작업(구독 또는 구독 취소)을 선택합니다. **확인 메시지 보내기** 옵션을 토글하여 선택한 서비스에 구독하거나 또는 구독 취소되었음을 모집단에 알립니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
@@ -30,7 +30,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"
 >title="추가 정보"
->abstract="각 레코드에 대한 구독의 데이터와 원본을 지정합니다. 이 섹션을 비워두면 워크플로를 실행할 때 날짜나 원본이 설정되지 않습니다. 인바운드 데이터에 프로필의 서비스 구독 날짜를 나타내는 열이 포함된 경우 **[!UICONTROL 날짜]** 필드에서 선택할 수 있습니다. **[!UICONTROL 원본 경로]** 필드에서 구독의 원본을 정의합니다. **[!UICONTROL 상수를 원본으로 설정]** 옵션을 확인하여 인바운드 데이터의 필드 중 하나 또는 선택한 상수 값으로 설정할 수 있습니다."
+>abstract="각 레코드에 대한 구독의 데이터와 원본을 지정합니다. 이 섹션을 비워두면 워크플로를 실행할 때 날짜나 원본이 설정되지 않습니다. 인바운드 데이터에 해당 서비스에 대한 프로필 구독일을 나타내는 열이 포함되어 있는 경우 **[!UICONTROL 날짜]** 필드에서 해당 열을 선택할 수 있습니다. **[!UICONTROL 원본 경로]** 필드에서 구독의 원본을 정의합니다. **[!UICONTROL 상수를 원본으로 설정]** 옵션을 확인하여 인바운드 데이터의 필드 중 하나 또는 선택한 상수 값으로 설정할 수 있습니다."
 
 **구독 서비스** 활동은 **데이터 관리** 활동입니다. 전환에 지정된 모집단에 대한 정보 서비스 구독을 만들거나 삭제할 수 있습니다.
 

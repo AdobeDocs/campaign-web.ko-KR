@@ -6,7 +6,7 @@ exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '1026'
-ht-degree: 13%
+ht-degree: 21%
 
 ---
 
@@ -74,12 +74,12 @@ ht-degree: 13%
 * [이메일에 비주얼 조각 추가](use-visual-fragments.md)
 * [표현식 편집기에 표현식 조각 추가](use-expression-fragments.md)
 
-## 시각적 조각으로 콘텐츠 저장 {#save-as-fragment}
+## 콘텐츠를 시각적 조각으로 저장 {#save-as-fragment}
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
 >title="조각으로 저장"
->abstract="콘텐츠를 시각적 조각으로 저장하려면 개인화 필드 및 다이내믹 콘텐츠를 포함하여 조각에 포함할 요소를 선택합니다. 인접한 섹션만 선택할 수 있습니다. 빈 구조나 다른 콘텐츠 조각을 선택할 수 없습니다. 그런 다음 콘텐츠는 독립 실행형 조각이 되어 조각 목록에 추가되고 전용 메뉴에서 액세스할 수 있습니다. 이 조각은 Campaign 내에서 이메일 또는 콘텐츠 템플릿을 작성할 때 사용할 수 있습니다."
+>abstract="콘텐츠를 시각적 조각으로 저장하려면 개인화 필드와 동적 콘텐츠를 비롯하여 조각에 포함할 요소를 선택합니다. 인접한 섹션만 선택할 수 있습니다. 빈 구조 또는 다른 콘텐츠 조각은 선택할 수 없습니다. 선택이 완료된 콘텐츠는 독립된 조각이 되어 조각 목록에 추가되고 전용 메뉴에서 액세스할 수 있게 됩니다. Campaign 내에서 이메일이나 콘텐츠 템플릿을 작성할 때 이 조각을 사용할 수 있습니다."
 
 <!--pas vu dans l'UI-->
 

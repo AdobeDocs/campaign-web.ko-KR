@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: b94c1263ea09c9537d1a33983ea78d41b5644fb7
 workflow-type: tm+mt
 source-wordcount: '1264'
-ht-degree: 30%
+ht-degree: 36%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
 >title="파일 로드 활동에 대한 값 재매핑"
->abstract="이 옵션을 사용하여 로드된 파일의 특정 값을 새 값으로 매핑합니다. 예를 들어 열에 &#39;True&#39;/&#39;False&#39; 값이 포함된 경우 매핑을 추가하여 해당 값을 자동으로 &#39;0&#39;/&#39;1&#39; 문자로 바꿀 수 있습니다."
+>abstract="이 옵션을 사용하여 로드된 파일의 특정 값을 새 값으로 매핑합니다. 예를 들어 열에 &#39;True&#39;/&#39;False&#39; 값이 포함된 경우, 매핑을 추가하여 해당 값을 &#39;0&#39;/&#39;1&#39; 문자로 자동으로 바꿀 수 있습니다."
 
 예상 파일 구조를 정의하는 데 사용되는 샘플 파일을 구성하려면 다음 단계를 따르십시오.
 
@@ -106,12 +106,12 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetdb"
 >title="Target 데이터베이스"
->abstract="클라이언트 콘솔에 이미 설정된 **[!UICONTROL 파일 로드]** 활동에 액세스하는 경우 파일을 외부 데이터베이스에 업로드하도록 활동을 구성한 경우 추가 **[!UICONTROL Target 데이터베이스]** 섹션을 사용할 수 있습니다."
+>abstract="클라이언트 콘솔에 이미 설정된 **[!UICONTROL 파일 로드]** 활동에 액세스할 때 추가 **[!UICONTROL 대상 데이터베이스]** 섹션은 파일을 외부 데이터베이스에 업로드하도록 활동을 구성한 경우에 사용할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
 >title="파일 로드 명령"
->abstract="사전 처리에 대해 임의의 명령을 허용하는 것은 보안상의 문제이다. 보안 옵션 XtkSecurity_Disable_Preproc를 비활성화하여 미리 정의된 명령 목록을 강제로 사용합니다."
+>abstract="사전 처리를 위해 임의의 명령을 허용하는 것은 보안 문제를 야기합니다. 미리 정의된 명령 목록을 강제로 사용하도록 하려면 보안 옵션 XtkSecurity_Disable_Preproc을 비활성화합니다."
 
 >[!CAUTION]
 >

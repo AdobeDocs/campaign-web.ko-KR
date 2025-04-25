@@ -6,7 +6,7 @@ exl-id: 970953a1-0091-477c-9f52-596af3a8857d
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 39%
+ht-degree: 47%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_wait"
 >title="대기 활동"
->abstract="**대기** 활동은 한 활동에서 다른 활동으로의 전환을 지연하는 데 사용됩니다."
+>abstract="**대기** 활동을 사용하여 전환을 활동에서 다른 활동으로 지연합니다."
 
 **대기** 활동은 **흐름 제어** 활동입니다. 두 활동의 실행 사이에 일정한 시간이 지나도록 한다. 예를 들어 이메일 게재 활동 후 며칠 동안 대기한 다음, 이 기간 동안 생성된 열기 및 클릭을 분석한 후 미리 알림을 보내거나 대상자를 만드는 등의 후속 작업을 수행하는 데 사용할 수 있습니다.
 

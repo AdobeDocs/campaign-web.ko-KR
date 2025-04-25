@@ -6,7 +6,7 @@ exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
@@ -118,12 +118,12 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
 >title="전송 후 소스 파일 삭제"
->abstract="성공적으로 전송한 후 소스 파일을 지웁니다."
+>abstract="전송이 성공적으로 완료되면 소스 파일을 삭제합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
 >title="세션 로그 표시"
->abstract="전송 작업과 관련된 정보가 워크플로우 로그에 표시됩니다."
+>abstract="전송 작업과 관련된 정보가 워크플로 로그에 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"

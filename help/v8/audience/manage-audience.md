@@ -6,7 +6,7 @@ exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 19%
+ht-degree: 26%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="속성"
->abstract="여기에서 원본 또는 저장소 폴더와 같은 대상 속성에 대한 요약을 찾을 수 있습니다. 대상자를 만드는 데 사용된 워크플로를 열려면 **마지막 워크플로** 섹션의 링크를 클릭합니다."
+>abstract="여기에서 원본 또는 스토리지 폴더와 같은 대상자 속성에 대한 요약을 확인할 수 있습니다. 대상자를 만드는 데 사용된 워크플로를 열려면 **마지막 워크플로** 섹션의 링크를 클릭합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
@@ -30,7 +30,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
 >title="대상자 오류"
->abstract="대상자 데이터를 사용할 수 없습니다. 워크플로우 실행이 종료될 때까지 기다리십시오."
+>abstract="대상자 데이터를 사용할 수 없습니다. 워크플로 실행이 종료될 때까지 기다려 주십시오."
 
 대상자는 게재의 주요 타겟인 메시지를 받는 프로필입니다. Campaign 웹에서 사용할 수 있는 대상자 목록은 **[!UICONTROL 대상자]** 메뉴에서 액세스할 수 있습니다.
 

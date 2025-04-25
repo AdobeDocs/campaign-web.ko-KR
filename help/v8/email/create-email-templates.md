@@ -11,7 +11,7 @@ exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '1085'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="템플릿 속성 정의"
->abstract="이메일 콘텐츠 템플릿 속성을 정의하여 필요할 때 쉽게 검색할 수 있습니다."
+>abstract="필요할 때 쉽게 검색할 이메일 콘텐츠 템플릿 속성을 정의합니다."
 
 콘텐츠 템플릿 대시보드에서 새 콘텐츠 템플릿을 만들려면 다음 단계를 수행하십시오.
 

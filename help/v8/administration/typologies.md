@@ -3,10 +3,10 @@ audience: end-user
 title: 비즈니스 규칙 작업 (유형화)
 description: 유형화 및 유형화 규칙을 사용하여 게재 전송을 제어, 필터링 및 모니터링하는 방법에 대해 알아봅니다.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: f676ecd055cd9b9ea5c0e724c479e9ba6dbda73d
 workflow-type: tm+mt
-source-wordcount: '1425'
-ht-degree: 24%
+source-wordcount: '1474'
+ht-degree: 23%
 
 ---
 
@@ -22,6 +22,11 @@ ht-degree: 24%
 >id="acw_business_rules"
 >title="유형화 규칙"
 >abstract="유형화를 통해 모든 게재에서 비즈니스 사례를 표준화할 수 있습니다. 유형화는 게재 전송에 대해 제어, 필터링 및 우선순위 지정을 수행할 수 있는 유형화 규칙 모음입니다. 유형화 규칙 내의 기준과 일치하는 프로필은 준비 단계에 게재 대상자에서 제외됩니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_typology_rules_type"
+>title="필터링"
+>abstract=" 두 가지 유형의 유형화 규칙을 사용할 수 있습니다. 문자 표시, SMS 길이, 주소 형식 또는 URL 단축과 같이 메시지 품질과 유효성 사전 전송을 보장하는 <br/><br/>**제어** 규칙입니다. 연령, 위치, 국가 또는 전화 번호와 같은 특정 기준에 따라 대상 대상의 세그먼트를 제외하는 <br/><br/>**필터링** 규칙입니다."
 
 ## 유형화 기본 정보
 

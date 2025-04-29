@@ -2,10 +2,10 @@
 title: Campaign v8 Web 사용자 인터페이스 릴리스 정보
 description: 최신 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 589d78737a498ffe91cb49a6f689f4104b244d0b
+source-git-commit: e825b7859bff299906725eddf3ba014ed0b5e1b7
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 34%
+source-wordcount: '689'
+ht-degree: 35%
 
 ---
 
@@ -92,7 +92,7 @@ ko * Built-in options are now only visible in the list of options if the **Show 
 ko * The typology rules creation screen has been updated to facilitate the selection of the type of rule.
 -->
 
-**전자 메일 편집기**: Campaign 웹 UI의 액세스 가능성을 높이기 위해 이제 전자 메일 Designer에서 두 개의 새 필드를 사용할 수 있습니다. 이 두 필드는 전자 메일 콘텐츠의 `html` 요소에 있는 `title` 요소 및 lang 특성에 해당합니다. 이메일 본문 섹션에서 사전 헤더 필드 외에 이러한 설정을 정의할 수 있습니다.
+**전자 메일 편집기**: Campaign 웹 UI의 액세스 가능성을 높이기 위해 이제 전자 메일 Designer에서 두 개의 새 필드를 사용할 수 있습니다. 이 두 필드는 전자 메일 콘텐츠의 `html` 요소에 있는 `title` 요소 및 lang 특성에 해당합니다. 이메일 본문 섹션에서 사전 헤더 필드 외에 이러한 설정을 정의할 수 있습니다. 자세한 내용은 [세부 설명서](../email/metadata.md)를 참조하십시오.
 
 <!--
 **Workflow**: You can now select an existing Javascript code in workflow properties or in a Javascript activity.    

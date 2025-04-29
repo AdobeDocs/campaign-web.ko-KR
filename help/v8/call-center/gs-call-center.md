@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: 콜 센터 게재 시작
+title: 콜 센터 채널 시작
 description: Adobe Campaign 웹을 사용하여 콜 센터 게재를 만들고 보내는 방법 알아보기
-source-git-commit: 86f45da9787e1c5835dcd9b3b2f232c3240c0bd4
+exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
+source-git-commit: 053b2b16552543f6fc241d15bff60c0164ad20b0
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '191'
 ht-degree: 5%
 
 ---
 
-
-# 콜센터 메일 게재 시작 {#gs-call-center}
+# 콜 센터 채널 시작 {#gs-call-center}
 
 콜 센터 채널을 사용하면 Adobe Campaign Web UI에서 직접 아웃바운드 전화 캠페인에 대한 타겟팅된 연락처 목록을 내보낼 수 있습니다. 내부 팀이나 외부 연락 센터를 통해 통화를 조정하는 데 사용합니다.
 

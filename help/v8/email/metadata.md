@@ -3,7 +3,7 @@ audience: end-user
 title: 이메일 콘텐츠에 메타데이터 추가
 description: 메타데이터를 사용하여 이메일 콘텐츠의 가독성과 접근성을 향상시키는 방법에 대해 알아봅니다
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 929151c9907a6a508fef37ef1da9157f8a52d9eb
+source-git-commit: cf83616e8bd22759b9488dd4d8de2895c3ef9cab
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 25%
@@ -37,12 +37,12 @@ ht-degree: 25%
 
 1. 왼쪽 **[!UICONTROL 탐색 트리]** 또는 오른쪽 창 상단에서 **[!UICONTROL 본문]**&#x200B;을 클릭합니다.
 
-   ![](assets/email_body.png)
+   ![](assets/email_body.png){width="90%"}
 
 1. **[!UICONTROL 설정]** 탭에서 **[!UICONTROL 사전 머리글]**, **[!UICONTROL 문서 제목]** 및/또는 **[!UICONTROL 문서 언어]** 필드에 일부 텍스트를 입력합니다.
 
 1. 각 필드 옆에 있는 개인화 아이콘을 클릭하여 프로필 속성, 대상자, 컨텍스트 속성 등에서 콘텐츠를 사용자 지정할 수도 있습니다. [개인화에 대해 자세히 알아보기](../personalization/gs-personalization.md)
 
-   ![](assets/email_body_settings.png)
+   ![](assets/email_body_settings.png){width="70%"}
 
 1. 변경 내용을 확인하려면 **[!UICONTROL 저장]**&#x200B;을 클릭하세요.

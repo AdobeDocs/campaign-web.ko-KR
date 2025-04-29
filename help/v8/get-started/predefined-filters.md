@@ -2,10 +2,10 @@
 title: 미리 정의된 필터 작업
 description: Adobe Campaign Web에서 미리 정의된 필터를 만들고 관리하는 방법 알아보기
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '785'
-ht-degree: 100%
+source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
+workflow-type: tm+mt
+source-wordcount: '803'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,11 @@ ht-degree: 100%
 >id="acw_predefined-filters-dashboard"
 >title="미리 정의된 필터"
 >abstract="이제 Campaign Web 사용자 인터페이스는 특정 요구 사항에 맞게 미리 정의된 필터를 손쉽게 관리하고 맞춤화할 수 있는 사용자 친화적인 인터페이스를 제공합니다. 한 번 만들고 나중에 사용할 수 있도록 저장하십시오."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_filter"
+>title="경고 기준 만들기"
+>abstract="고객 관리 > 사전 정의된 필터 메뉴에서 고유한 게재 필터를 만들 수 있습니다."
 
 미리 정의된 필터는 나중에 사용할 수 있도록 생성되고 저장된 사용자 정의 필터입니다. 쿼리 모델러를 사용하여 필터링 작업을 수행하는 동안 단축키 역할을 합니다. 예를 들어 데이터 목록을 필터링하거나 게재 대상자를 만들 때 사용할 수 있습니다.
 

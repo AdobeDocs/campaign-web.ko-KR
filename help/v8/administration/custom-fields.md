@@ -2,10 +2,10 @@
 title: 사용자 정의 필드
 description: 사용자 정의 필드를 구성하는 방법 및 인터페이스에서 해당 가시성을 알아봅니다.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: f08603afde2493457bc81a0d808b647b70a52f7c
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 22%
+source-wordcount: '988'
+ht-degree: 23%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
->title="사용자 정의 세부 정보 편집"
+>title="화면 에디션"
 >abstract="선택한 스키마의 인터페이스에 표시되는 모든 사용자 정의 필드가 표시됩니다. 위, 아래 화살표를 사용하여 인터페이스에 표시되는 순서를 변경하고, 구분자를 추가하여 필드를 하위 섹션으로 그룹화할 수 있습니다. 사용자 정의 필드를 삭제하거나 가시성 조건 등의 설정을 편집하려면 줄임표 버튼을 클릭합니다."
 
 >[!CONTEXTUALHELP]
@@ -70,15 +70,19 @@ ht-degree: 22%
 
    ![탐색 창에서 스키마 메뉴와 편집 가능한 필터를 보여 주는 스크린샷](assets/custom-fields-open.png)
 
-1. 목록에서 스키마 이름을 선택하여 엽니다. 자세한 스키마 보기가 표시됩니다. [스키마 세부 정보에 대해 자세히 알아보세요](../administration/schemas.md). 사용자 정의 필드에 액세스하려면 **[!UICONTROL 사용자 정의 세부 정보 편집]** 단추를 클릭하십시오. 이 예제에서는 **[!UICONTROL 수신자]** 스키마에 대한 필드가 추가됩니다.
+1. 목록에서 스키마 이름을 선택하여 엽니다. 자세한 스키마 보기가 표시됩니다. [스키마 세부 정보에 대해 자세히 알아보세요](../administration/schemas.md). 사용자 지정 필드에 액세스하려면 **[!UICONTROL 화면 편집]** 단추를 클릭하십시오. 이 예제에서는 **[!UICONTROL 수신자]** 스키마에 대한 필드가 추가됩니다.
 
-   ![스키마 보기에서 사용자 지정 세부 정보 편집 단추를 표시하는 스크린샷](assets/custom-fields-edit.png)
+   ![스키마 보기에서 화면 정의 단추를 표시하는 스크린샷](assets/custom-fields-edit.png)
 
-1. 스키마에 대한 인터페이스에 표시된 사용자 지정 필드 목록이 나타납니다. 여기에서 &quot;CRM ID&quot; 필드는 프로필의 세부 사항 화면에 표시되며 필수 항목으로 표시되어 있습니다.
+   스키마에 대한 인터페이스에 표시된 사용자 지정 필드 목록이 나타납니다.
 
-   | 사용자 정의 필드 구성 | 인터페이스에서 렌더링 |
-   |  ---  |  ---  |
-   | ![사용자 지정 필드 구성을 보여 주는 스크린샷](assets/custom-fields-detail.png){zoomable="yes"} | ![인터페이스에서 CRM ID 필드 렌더링을 보여 주는 스크린샷](assets/custom-fields-detail-crm.png){zoomable="yes"} |
+1. **[!UICONTROL 미리 보기]** 단추를 클릭하여 샘플 화면에 사용자 지정 필드를 표시합니다.
+
+   ![](assets/custom-fields-edit2.png)
+
+   여기에서 &quot;금액&quot; 필드가 필수로 표시되었습니다.
+
+   ![](assets/custom-fields-edit3.png)
 
 1. 인터페이스에 사용자 지정 필드를 추가하려면 줄임표 버튼을 클릭하고 다음 옵션 중 하나를 선택합니다.
 
@@ -89,7 +93,7 @@ ht-degree: 22%
 
 1. 사용자 정의 필드가 추가되면 다음 작업을 수행할 수 있습니다.
 
-   * **필드 순서 바꾸기**: 위쪽 및 아래쪽 화살표를 사용합니다.
+   * **필드 순서 바꾸기**: 위쪽 및 아래쪽 화살표를 사용하거나 끌어서 놓기를 사용하여 필드를 이동합니다.
    * **필수 필드 만들기**: **필수** 확인란을 선택합니다.
    * **필드 설정 편집**: 줄임표 버튼을 클릭하고 **[!UICONTROL 편집]**&#x200B;을 선택합니다. [자세히 알아보기](#settings)
    * **필드 삭제**: 줄임표 버튼을 클릭하고 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.

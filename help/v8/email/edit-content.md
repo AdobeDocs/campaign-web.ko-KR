@@ -3,10 +3,10 @@ audience: end-user
 title: 이메일 콘텐츠 편집
 description: Campaign 웹 사용자 인터페이스에서 이메일 콘텐츠를 편집하는 방법을 알아봅니다
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 498162045a2a58a5326a3cf311a153cf9dfef5c3
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 33%
+source-wordcount: '687'
+ht-degree: 31%
 
 ---
 
@@ -32,6 +32,11 @@ ht-degree: 33%
 >title="추적 편집"
 >abstract="기본적으로 게재에 대한 추적이 활성화됩니다. 즉, 메시지 콘텐츠에 포함된 모든 링크가 추적됩니다. 여기에서 이 옵션을 비활성화할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="링크 추가 및 메시지 추적"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_multilingual"
+>title="언어 추가"
+>abstract="이 탭에서는 게재를 보낼 언어 목록을 찾을 수 있습니다. 언어 추가 버튼을 클릭하거나 이 탭을 통해 다른 언어를 복제하여 더 많은 언어를 추가할 수 있습니다."
 
 전자 메일 **[!UICONTROL 콘텐츠 편집]** 화면에서 다음을 수행할 수 있습니다.
 

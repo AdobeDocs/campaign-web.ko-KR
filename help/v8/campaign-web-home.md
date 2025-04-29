@@ -3,10 +3,10 @@ keywords: Campaign Web;홈;인기 있는 주제
 description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 662b5e6c041b9caa90ac78f1a2ff60bfb9af6101
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 97%
+ht-degree: 94%
 
 ---
 
@@ -52,9 +52,9 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 >[!BEGINTABS]
 
 
->[!TAB 2025년 2월 릴리스]
+>[!TAB 25년 4월 릴리스]
 
-이제 비즈니스 규칙, 대상 매핑 및 기타 개선 사항이 포함된 2월 릴리스 버전이 출시되었습니다.
+비즈니스 규칙, Target 매핑 및 추가 개선 사항을 포함하여 4월 릴리스가 이제 활성 상태입니다.
 
 [![자세히 알아보기 버튼](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 

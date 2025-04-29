@@ -3,10 +3,10 @@ audience: end-user
 title: 대상자 시작하기
 description: Adobe Campaign 웹에서 대상자를 사용하여 작업하는 방법에 대해 알아봅니다
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
+source-git-commit: b330230a031a366b674ebac37681274ee89ec6c8
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 26%
+source-wordcount: '388'
+ht-degree: 25%
 
 ---
 
@@ -45,6 +45,8 @@ ht-degree: 26%
   ➡️ [비디오에서 이 기능 살펴보기](#video)
 
 대상자에 대한 추가 정보를 보려면 목록에서 대상자를 엽니다. 대상자 속성이 대상자에 포함된 프로필 수와 함께 표시됩니다. **[!UICONTROL 계산]** 단추를 사용하여 언제든지 대상 수를 새로 고치십시오.
+
+대상자의 임시 스키마를 미리 보려면 속성 섹션 아래의 **[!UICONTROL 스키마 미리 보기]** 단추를 클릭하십시오.
 
 **[!UICONTROL 데이터]** 탭에서는 대상에 속하는 프로필을 시각화할 수 있습니다. 열을 추가하여 이 보기를 사용자 지정하거나 고급 필터를 사용하여 표시된 데이터를 구체화합니다.
 

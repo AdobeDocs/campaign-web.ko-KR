@@ -3,10 +3,10 @@ audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
-source-wordcount: '2106'
-ht-degree: 37%
+source-wordcount: '2192'
+ht-degree: 36%
 
 ---
 
@@ -15,9 +15,14 @@ ht-degree: 37%
 
 표현식을 편집하려면 수동으로 조건을 입력하여 규칙을 만듭니다. 이 모드에서는 날짜, 문자열, 숫자 필드 및 정렬과 같은 특정 쿼리를 수행하는 데 사용되는 값을 조작할 수 있는 고급 함수를 사용할 수 있습니다.
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >아래 섹션에서는 표현식 편집기를 사용하여 규칙을 작성하는 방법에 대한 정보를 제공합니다. 규칙을 만드는 데 사용되는 구문은 개인화를 추가하는 데 사용되는 구문과 다릅니다.
+
+>[!IMPORTANT]
+>
+>쿼리 모델러에 대한 완전히 새로운 인터페이스를 사용할 수 있습니다. 이 새로운 규칙 빌더 환경으로 전환하려면 오른쪽 상단 모서리에서 토글 버튼을 누르십시오. 언제든지 토글을 눌러 새 인터페이스를 비활성화하면 클래식 쿼리 모델러로 돌아갈 수 있습니다. 이 새 인터페이스에서 쿼리 모델러와 동일한 원칙을 적용할 수 있습니다.
+>![새 규칙 빌더 인터페이스](assets/query-modeler-toggle.png){zoomable="yes"}에 대한 토글을 보여 주는 이미지
 
 ## 표현식 편집기 작업 {#edit}
 
@@ -41,7 +46,17 @@ ht-degree: 37%
 
 아래 예제에서는 **[!UICONTROL 값]** 필드에 대해 구성된 식을 보여 줍니다. 편집하려면 **[!UICONTROL 표현식 편집]** 단추를 사용하여 표현식 편집기를 여십시오.
 
+>[!BEGINTABS]
+
+>[!TAB 클래식 쿼리 모델러]
+
 ![값 필드에 대한 표현식 편집 예](assets/edit-expression-value.png){zoomable="yes"}
+
+>[!TAB 새 규칙 빌더]
+
+![값 필드에 대한 표현식 편집 예](assets/ruleb-12.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ## 도우미 기능
 

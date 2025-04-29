@@ -3,10 +3,10 @@ audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
-source-wordcount: '2310'
-ht-degree: 9%
+source-wordcount: '2780'
+ht-degree: 7%
 
 ---
 
@@ -15,19 +15,48 @@ ht-degree: 9%
 
 쿼리 작성을 시작하려면 수행할 작업에 따라 선택한 위치에서 쿼리 모델러에 액세스합니다. 쿼리 모델러가 빈 캔버스로 열립니다. 쿼리의 첫 번째 노드를 구성하려면 **+** 단추를 클릭하십시오.
 
+>[!IMPORTANT]
+>
+>쿼리 모델러에 대한 완전히 새로운 인터페이스를 사용할 수 있습니다. 새 규칙 빌더를 사용하면 간소화된 인터페이스를 통해 쿼리를 더 쉽게 작성할 수 있습니다. 이 경험으로 전환하려면 오른쪽 상단 모서리에서 토글 버튼을 누릅니다. 언제든지 토글을 눌러 새 인터페이스를 비활성화하면 클래식 쿼리 모델러로 돌아갈 수 있습니다. 이 새 인터페이스에서 쿼리 모델러와 동일한 원칙을 적용할 수 있습니다.
+>![새 규칙 빌더 인터페이스](assets/query-modeler-toggle.png){zoomable="yes"}에 대한 토글을 보여 주는 이미지
+
 다음 두 가지 유형의 요소를 추가할 수 있습니다.
 
 * **구성 요소 필터링**(사용자 지정 조건, 대상 선택, 사전 정의된 필터)을 통해 고유한 규칙을 만들거나, 대상을 선택하거나, 사전 정의된 필터를 사용하여 쿼리를 구체화할 수 있습니다. 쿼리의 시작과 점선 전환에 추가됩니다. [필터링 구성 요소로 작업하는 방법을 알아봅니다](#filtering)
 
   예: *스포츠 뉴스레터를 구독한 수신자*, *뉴욕에 거주하는 수신자*, *샌프란시스코에 거주하는 수신자*
 
-  ![쿼리에 필터링 구성 요소를 추가하는 예](assets/query-add-component.png){zoomable="yes"}
+>[!BEGINTABS]
+
+>[!TAB 클래식 쿼리 모델러]
+
+![쿼리에 필터링 구성 요소를 추가하는 예](assets/query-add-component.png){zoomable="yes"}
+
+
+>[!TAB 새 규칙 빌더]
+
+![쿼리에 필터링 구성 요소를 추가하는 예](assets/ruleb-1.png){zoomable="yes"}
+
+>[!ENDTABS]
+
+
 
 * **그룹 연산자**(AND, OR, EXCEPT)를 사용하면 다이어그램에서 필터링 구성 요소를 그룹화할 수 있습니다. 필터링 구성 요소 전의 기존 전환에 추가됩니다. [연산자 작업 방법 알아보기](#filtering)
 
-  예: *Sports 뉴스레터를 구독한 수신자&#x200B;**AND**, 뉴욕에 사는 수신자&#x200B;**OR**San Francisco*
+  예: *Super VIP **AND** VIP인 수신자 **OR** VIP 데모, **21세 이하 및 45세 이상 수신자**&#x200B;명
 
-  ![설명: 쿼리에 그룹 연산자를 추가하는 예](assets/query-add-operator.png){zoomable="yes"}
+>[!BEGINTABS]
+
+>[!TAB 클래식 쿼리 모델러]
+
+![설명: 쿼리에 그룹 연산자를 추가하는 예](assets/ruleb-13.png){zoomable="yes"}
+
+>[!TAB 새 규칙 빌더]
+
+![쿼리에 필터링 구성 요소를 추가하는 예](assets/ruleb-14.png){zoomable="yes"}
+
+>[!ENDTABS]
+
 
 ## 쿼리 내 값의 분포 {#distribution-values-query}
 
@@ -99,11 +128,31 @@ ht-degree: 9%
 
    *21세 이상의 모든 프로필을 반환하는 쿼리 예제:*
 
-   ![21세 이상 프로필을 대상으로 하는 쿼리의 예입니다.](assets/query-custom-condition.png){zoomable="yes"}
+>[!BEGINTABS]
 
-   날짜 유형 특성의 경우 **[!UICONTROL 사전 설정]** 옵션을 사용하여 사전 정의된 값을 사용할 수 있습니다.
+>[!TAB 클래식 쿼리 모델러]
 
-   ![쿼리에 날짜 사전 설정을 사용하는 예입니다.](assets/date-presets.png){zoomable="yes"}
+![21세 이상 프로필을 대상으로 하는 쿼리의 예입니다.](assets/query-custom-condition.png){zoomable="yes"}
+
+>[!TAB 새 규칙 빌더]
+
+![21세 이상 프로필을 대상으로 하는 쿼리의 예입니다.](assets/ruleb-3.png){zoomable="yes"}
+
+>[!ENDTABS]
+
+날짜 유형 특성의 경우 **[!UICONTROL 사전 설정]** 옵션을 사용하여 사전 정의된 값을 사용할 수 있습니다.
+
+>[!BEGINTABS]
+
+>[!TAB 클래식 쿼리 모델러]
+
+![쿼리에 날짜 사전 설정을 사용하는 예입니다.](assets/date-presets.png){zoomable="yes"}
+
+>[!TAB 새 규칙 빌더]
+
+![쿼리에 날짜 사전 설정을 사용하는 예입니다.](assets/ruleb-4.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 #### 연결된 테이블에 대한 사용자 지정 조건(1-1 및 1-N 링크){#links}
 
@@ -165,7 +214,17 @@ ht-degree: 9%
 
 1. 속성 창에서 **데이터 집계** 옵션을 전환하고 원하는 집계 함수를 선택합니다.
 
-   ![집계 데이터 옵션의 스크린샷](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
+>[!BEGINTABS]
+
+>[!TAB 클래식 쿼리 모델러]
+
+![집계 데이터 옵션의 스크린샷](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
+
+>[!TAB 새 규칙 빌더]
+
+![집계 데이터 옵션의 스크린샷](assets/ruleb-5.png){zoomable="yes"}{width="85%" align="center"}
+
+>[!ENDTABS]
 
 ### 대상자 선택 {#audiences}
 
@@ -176,6 +235,10 @@ ht-degree: 9%
 
 기존 대상자를 사용하여 쿼리를 필터링하려면 다음 단계를 따르십시오.
 
+>[!BEGINTABS]
+
+>[!TAB 클래식 쿼리 모델러]
+
 1. 원하는 노드에서 **+** 단추를 클릭하고 **[!UICONTROL 대상 선택]**&#x200B;을 선택합니다.
 
 1. 오른쪽에 **대상 선택** 속성 창이 열립니다. 쿼리를 필터링하는 데 사용할 대상을 선택합니다.
@@ -183,6 +246,18 @@ ht-degree: 9%
    *쿼리 예제는 &quot;축제 참가자&quot; 대상에 속하는 모든 프로필을 반환합니다.*
 
    ![쿼리 예제의 Screenshof](assets/query-audience.png){zoomable="yes"}
+
+>[!TAB 새 규칙 빌더]
+
+1. **[!UICONTROL 조건 추가]** 단추 옆에 있는 **확장** 단추를 클릭하고 **[!UICONTROL 대상 선택]**&#x200B;을 선택합니다.
+
+1. 오른쪽에 **대상 선택** 속성 창이 열립니다. 쿼리를 필터링하는 데 사용할 대상을 선택합니다.
+
+   *Coffee Works 대상에 속하는 모든 프로필을 반환하는 쿼리 예시:*
+
+   ![쿼리 예제의 Screenshof](assets/ruleb-7.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ### 미리 정의된 필터 사용 {#predefined-filters}
 
@@ -193,6 +268,10 @@ ht-degree: 9%
 
 사전 정의된 필터를 사용하여 쿼리를 필터링하려면 다음 단계를 수행합니다.
 
+>[!BEGINTABS]
+
+>[!TAB 클래식 쿼리 모델러]
+
 1. 원하는 노드에서 **+** 단추를 클릭하고 **[!UICONTROL 미리 정의된 필터]**&#x200B;을(를) 선택합니다.
 
 1. **미리 정의된 필터** 속성 창이 오른쪽에 열립니다. 사용자 지정 필터 목록 또는 즐겨찾기에서 사전 정의된 필터를 선택합니다.
@@ -201,6 +280,18 @@ ht-degree: 9%
 
    ![쿼리 예제의 스크린샷](assets/query-predefined-filter.png){zoomable="yes"}
 
+>[!TAB 새 규칙 빌더]
+
+1. **[!UICONTROL 조건 추가]** 단추 옆에 있는 **확장** 단추를 클릭하고 **[!UICONTROL 미리 정의된 필터]**&#x200B;를 선택합니다.
+
+1. **미리 정의된 필터** 속성 창이 오른쪽에 열립니다. 사용자 지정 필터 목록 또는 즐겨찾기에서 사전 정의된 필터를 선택합니다.
+
+   *미리 정의된 &quot;비활성 고객&quot; 필터에 해당하는 모든 프로필을 반환하는 쿼리 예입니다.*
+
+   ![쿼리 예제의 스크린샷](assets/ruleb-8.png){zoomable="yes"}
+
+>[!ENDTABS]
+
 ### 구성 요소 복사-붙여넣기 {#copy}
 
 쿼리 모델러를 사용하면 하나 이상의 필터링 구성 요소를 복사하여 전환 끝에 붙여넣을 수 있습니다. 이 작업은 현재 쿼리 캔버스 내에서 또는 인스턴스 내의 캔버스에서 실행할 수 있습니다.
@@ -208,6 +299,11 @@ ht-degree: 9%
 >[!NOTE]
 >
 >복사된 선택 사항은 인스턴스에서 작업하는 동안 유지됩니다. 로그오프했다가 다시 로그인하면 더 이상 선택 항목을 붙여넣을 수 없습니다.
+
+>[!IMPORTANT]
+>
+>현재 새 규칙 빌더 경험에서 구성 요소를 복사하여 붙여넣을 수 없습니다. 다음 단계를 수행하려면 맨 위에 있는 **[!UICONTROL 클래식 경험으로 돌아가기]** 토글을 클릭하여 클래식 쿼리 모델러를 사용하십시오.
+
 
 필터링 구성 요소를 복사하여 붙여넣으려면 다음 단계를 수행합니다.
 
@@ -232,7 +328,11 @@ ht-degree: 9%
 
 쿼리에 새 필터링 구성 요소를 추가할 때마다 **AND** 연산자로 다른 구성 요소에 자동으로 연결됩니다. 즉, 두 필터링 구성 요소의 결과가 결합됩니다.
 
-이 예제에서는 두 번째 전환에 새로운 대상자 유형 필터링 구성 요소를 추가했습니다. 구성 요소가 **AND** 연산자로 사전 정의된 필터 조건에 연결되어 있습니다. 즉, 쿼리 결과에는 &quot;Madridians&quot; 사전 정의된 필터 AND에 의해 타겟팅되고 &quot;Discount hunters&quot; 대상에 속하는 수신자가 포함됩니다.
+이 예제에서는 두 번째 전환에 새로운 대상자 유형 필터링 구성 요소를 추가했습니다. 구성 요소가 **AND** 연산자와 함께 사전 정의된 필터 조건에 연결되어 있습니다. 즉, 쿼리 결과에는 &quot;뉴스레터 구독자 - 마드리드&quot; 사전 정의된 필터 및 &quot;구매자(항상)&quot; 대상에 속하는 &quot;뉴스레터 구독자 - 마드리드&quot; 사전 정의된 필터의 대상 수신자가 포함됩니다.
+
+>[!BEGINTABS]
+
+>[!TAB 클래식 쿼리 모델러]
 
 ![쿼리의 예](assets/query-operator.png){zoomable="yes"}
 
@@ -246,11 +346,37 @@ ht-degree: 9%
 
 ![쿼리의 예](assets/query-operator-change.png){zoomable="yes"}
 
-또한 전환에서 **+** 단추를 클릭하여 중간 구성 요소 그룹을 만들 수 있습니다. 이렇게 하면 이 특정 위치에 연산자를 추가하여 여러 구성 요소를 함께 그룹화하고 쿼리를 구체화할 수 있습니다.
+또한 구성 요소를 동일한 그룹으로 그룹화하고 함께 연결하여 중간 구성 요소 그룹을 만들 수 있습니다. 이렇게 하면 AND 연산자가 기본적으로 입력되므로 원하는 연산자로 변경할 수 있습니다.
+
+>[!TAB 새 규칙 빌더]
+
+![쿼리의 예](assets/ruleb-9.png){zoomable="yes"}
+
+필터링 조건을 함께 연결하는 데 사용되는 연산자를 변경하려면 해당 연산자를 클릭하면 OR(EXCEPT)로 변경되고 AND(AND)로 다시 변경되며, 원하는 연산자를 선택합니다.
+
+사용 가능한 연산자는 다음과 같습니다.
+
+* **AND(교차)**: 아웃바운드 전환의 모든 필터링 구성 요소와 일치하는 결과를 결합합니다.
+* **OR(유니온)**: 아웃바운드 전환의 필터링 구성 요소 중 하나 이상과 일치하는 결과를 포함합니다.
+* **제외(제외)**: 아웃바운드 전환의 모든 필터링 구성 요소와 일치하는 결과를 제외합니다.
+
+![쿼리의 예](assets/ruleb-10.gif){zoomable="yes"}
+
+>[!ENDTABS]
 
 아래 예에서는 &quot;VIP to reward&quot; 또는 &quot;Super VIP&quot; 대상의 결과를 포함하는 중간 그룹을 만들었습니다.
 
+>[!BEGINTABS]
+
+>[!TAB 클래식 쿼리 모델러]
+
 ![쿼리의 예](assets/query-intermediate-group.png){zoomable="yes"}
+
+>[!TAB 새 규칙 빌더]
+
+![새 규칙 빌더의 쿼리 예제](assets/ruleb-11.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ## 쿼리 확인 및 검증
 
@@ -272,7 +398,19 @@ ht-degree: 9%
 
 쿼리가 준비되면 오른쪽 상단의 **[!UICONTROL 확인]** 단추를 클릭하여 저장합니다.
 
+
+>[!BEGINTABS]
+
+>[!TAB 클래식 쿼리 모델러]
+
 쿼리를 열면 언제든지 수정할 수 있습니다. 기존 쿼리를 열면 **+** 단추 표시 없이 간소화된 보기로 표시됩니다. 쿼리에 새 요소를 추가하려면 캔버스에서 구성 요소 또는 연산자를 선택하여 **+** 단추를 표시합니다.
 
 ![쿼리의 예](assets/edit-audience.png){zoomable="yes"}
 
+>[!TAB 새 규칙 빌더]
+
+쿼리를 열면 언제든지 수정할 수 있습니다. 이렇게 하려면 왼쪽 상단의 **[!UICONTROL 조건 추가]** 단추를 클릭하십시오.
+
+![새 규칙 빌더의 쿼리 예제](assets/ruleb-11.png){zoomable="yes"}
+
+>[!ENDTABS]

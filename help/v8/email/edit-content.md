@@ -3,10 +3,10 @@ audience: end-user
 title: 이메일 콘텐츠 편집
 description: Campaign 웹 사용자 인터페이스에서 이메일 콘텐츠를 편집하는 방법을 알아봅니다
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 498162045a2a58a5326a3cf311a153cf9dfef5c3
+source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 31%
+source-wordcount: '1229'
+ht-degree: 21%
 
 ---
 
@@ -41,12 +41,15 @@ ht-degree: 31%
 전자 메일 **[!UICONTROL 콘텐츠 편집]** 화면에서 다음을 수행할 수 있습니다.
 
 * 보낸 사람의 주소 및 제목란과 같은 메시지의 기본 요소를 정의합니다.
-* 첨부 추가 또는 오퍼 설정과 같은 추가 작업을 수행합니다.
-* [전자 메일 Designer](get-started-email-designer.md#start-authoring)에 액세스하여 전자 메일의 적절한 콘텐츠를 빌드합니다.
+* 첨부 추가 또는 오퍼 설정과 같은 추가 작업 수행
+* [Email Designer](get-started-email-designer.md#start-authoring)에 액세스하여 올바른 이메일 콘텐츠 작성을 시작합니다
+* 게재에 언어 변형을 추가합니다.
 
 >[!NOTE]
 >
 >개인화 필드를 사용하여 이 화면에서 편집 가능한 모든 텍스트 필드를 채울 수 있습니다. [콘텐츠 개인화 방법 알아보기](../personalization/personalize.md)
+
+## 게재 구성
 
 전자 메일의 콘텐츠를 구성하거나 편집하려면 아래 단계를 따르십시오.
 
@@ -92,15 +95,97 @@ ht-degree: 31%
 
    그런 다음 개인화 필드를 사용하여 전자 메일에 삽입할 수 있습니다. [오퍼 전송 방법 알아보기](../msg/offers.md)
 
-1. [전자 메일 Designer](get-started-email-designer.md#start-authoring)을(를) 사용하여 전자 메일 콘텐츠를 구성하고 디자인하려면 **[!UICONTROL 전자 메일 본문 편집]** 단추를 클릭하십시오. 이메일 콘텐츠를 디자인하는 방법에 대한 추가 정보는 다음 섹션에서 확인할 수 있습니다.
+## 이메일 본문 편집
 
-   * [처음부터 이메일 작성](create-email-content.md)
-   * [콘텐츠 스타일 지정](get-started-email-style.md)
+1. [전자 메일 Designer](get-started-email-designer.md#start-authoring)을(를) 사용하여 전자 메일 콘텐츠를 구성하고 디자인하려면 **[!UICONTROL 전자 메일 본문 편집]** 단추를 클릭하십시오.
 
    >[!NOTE]
    >
    >전자 메일 미리 보기 위에 마우스를 올려 놓고 **[!UICONTROL 전자 메일 디자이너 열기]**&#x200B;를 선택할 수도 있습니다.
 
-1. 기본적으로 게재에 대해 추적 기능이 활성화되어 있습니다. **[!UICONTROL 선택 기능]** 섹션에서 이 옵션을 비활성화할 수 있습니다. [링크를 추가하고 추적을 관리하는 방법을 알아보세요](message-tracking.md).
+
+   이메일 콘텐츠를 디자인하는 방법에 대한 추가 정보는 다음 섹션에서 확인할 수 있습니다.
+
+   * [처음부터 이메일 작성](create-email-content.md)
+   * [콘텐츠 스타일 지정](get-started-email-style.md)
+
+1. 기본적으로 게재에 대해 추적 기능이 활성화되어 있습니다. **[!UICONTROL 선택 기능]** 섹션에서 이 옵션을 비활성화할 수 있습니다. [링크 추가 및 추적 관리 방법 알아보기](message-tracking.md)
+
+1. 이메일 콘텐츠를 정의한 다음에는 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 사용하여 이메일을 전송하기 전에 어떻게 표시되는지 확인합니다. [전자 메일을 미리 보고 테스트하는 방법을 알아보세요](../preview-test/preview-test.md).
+
+## 다국어 게재 구성
+
+Campaign 웹 사용자 인터페이스에서 전자 메일 게재를 다국어로 설정하여 프로필의 기본 언어를 기반으로 메시지를 보낼 수 있습니다. 기본 설정이 정의되지 않으면 메시지가 기본 언어로 전송됩니다.
+
+다국어 게재에서 언어 관리는 변형을 기반으로 합니다. 각 변형은 하나의 언어를 나타냅니다.
+
+게재를 만드는 동안 메시지에 필요한 언어 수에 해당하는 변형 수를 추가할 수 있습니다. 새 언어를 추가할 때 기본 언어를 정의할 수도 있습니다.
+
+### 언어 변형 추가
+
+언어 변형을 만들려면 다음 단계를 수행합니다.
+
+1. 전자 메일 구성 화면의 상단에서 **[!UICONTROL 언어 추가]** 단추를 클릭합니다.
+
+   >[!IMPORTANT]
+   >
+   >**[!UICONTROL 언어 추가]** 단추는 대상 차원에 언어 스키마가 포함된 경우에만 사용할 수 있습니다. 스키마 및 대상 차원에 대한 자세한 내용은 [자세한 설명서](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}를 참조하세요.
+
+   ![](assets/edit-content_2.png){zoomable="yes"}
+
+
+1. **[!UICONTROL 언어]** 드롭다운 목록에서 추가할 언어를 선택하십시오. 첫 번째 언어를 추가할 때 이 언어는 기본값으로 설정되고, 현재 콘텐츠는 기본 콘텐츠입니다. 새 언어를 추가할 때 콘텐츠는 기본 콘텐츠를 기반으로 합니다.
+
+   >[!NOTE]
+   >
+   >이 목록을 통해 사용할 수 있는 언어는 언어 속성으로 정의된 값(예: 시스템, 사용자, dbenum 등)에 따라 다릅니다. 이 [섹션](https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/enumerations){target=_blank}에서 열거형 관리에 대해 자세히 알아보세요.
+
+
+   ![](assets/edit-content_3.png){zoomable="yes"}
+
+   예를 들어, 영어(미국)의 경우:
+
+   ![](assets/edit-content_8.png){zoomable="yes"}
+
+
+1. 다른 언어를 추가하려면 이 프로세스를 반복합니다. **[!UICONTROL 언어]** 패널에 선택한 언어 목록, 다른 언어 수 및 기본 언어가 표시됩니다.
+
+   예를 들어 영어, 프랑스어 및 스웨덴어를 선택한 경우 다음과 같이 이 3개의 언어를 볼 수 있습니다.
+
+   ![](assets/edit-content_9.png){zoomable="yes"}
+
+   오른쪽 상단 모서리에 있는 확장 버튼을 클릭하여 모든 언어를 삭제할 수 있습니다.
+
+### 각 변형에 대한 이메일 콘텐츠 정의
+
+언어가 설정되면 프로필로 보낼 전자 메일의 해당 기본 언어 콘텐츠를 정의합니다.
+
+이메일 콘텐츠를 정의하려면 다음 단계를 수행합니다.
+
+1. **[!UICONTROL 전자 메일 본문 편집]** 단추를 클릭하여 [전자 메일 Designer](get-started-email-designer.md#start-authoring)을(를) 엽니다.
+
+   >[!NOTE]
+   >
+   >전자 메일 미리 보기 위에 마우스를 올려 놓고 **[!UICONTROL 전자 메일 디자이너 열기]**&#x200B;를 선택할 수도 있습니다.
+
+   ![](assets/edit-content_11.png){zoomable="yes"}
+
+
+1. **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 클릭하고 전자 메일이 표시되는 프로필 및 언어를 선택하여 게재를 미리 볼 수 있습니다.
+
+1. 콘텐츠 시뮬레이트 창에서 프로필을 전환하여 해당 프로필에 대해 설정된 언어에 해당하는 이메일 콘텐츠를 미리 볼 수 있습니다.
+
+   ![](assets/edit-content_5.png){zoomable="yes"}
+
+### 언어 변형 복제 또는 제거
+
+오른쪽 상단의 확장 단추를 클릭하고 **[!UICONTROL 모든 변형 삭제]** 단추를 클릭하여 모든 언어를 삭제할 수 있습니다.
+
+![](assets/edit-content_13.png){zoomable="yes"}
+
+언어 변형을 제거하려면 탭의 오른쪽에 있는 세 점을 클릭하고 제거를 선택합니다.
+
+언어 변형을 복제하려면 탭의 오른쪽에 있는 세 점을 클릭하고 복제를 선택합니다. 기본 언어가 아닌 다른 언어를 복제하도록 선택하면 복제된 콘텐츠는 복제하도록 선택한 언어를 기반으로 합니다.
+
 
 1. 이메일 콘텐츠를 정의한 다음에는 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 사용하여 이메일을 전송하기 전에 어떻게 표시되는지 확인합니다. [전자 메일을 미리 보고 테스트하는 방법을 알아보세요](../preview-test/preview-test.md).

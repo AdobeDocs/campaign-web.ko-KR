@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 9817507124ddbf25c7ece3893f4c4d853ce09372
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 99%
+source-wordcount: '823'
+ht-degree: 97%
 
 ---
 
@@ -68,6 +68,9 @@ ht-degree: 99%
       + [DM 게재 만들기](direct-mail/create-direct-mail.md)
       + [추출 파일 설계](direct-mail/content-direct-mail.md)
       + [다이렉트 메일 게재 미리보기 및 전송](direct-mail/send-direct-mail.md)
+   + 콜 센터 {#call-center}
+      + [콜 센터 게재 시작](call-center/gs-call-center.md)
+      + [콜 센터 게재 만들기 및 보내기](call-center/create-call-center.md)
    + 트랜잭션 메시지  {#transactional-messages}
       + [트랜잭션 메시지 시작하기](transactional-messaging/transactional.md)
       + [트랜잭션 메시지 만들기](transactional-messaging/create-transactional.md)

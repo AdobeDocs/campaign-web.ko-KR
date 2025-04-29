@@ -3,9 +3,9 @@ audience: end-user
 title: 플랜 및 프로그램
 description: Adobe Campaign에서 계획 및 프로그램을 만들고 구성하는 방법에 대해 알아봅니다
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '522'
 ht-degree: 3%
 
 ---
@@ -38,9 +38,13 @@ Adobe 이러한 구성 요소를 보다 효율적으로 구성하려면 다음 �
 
 1. **[!UICONTROL 스키마]**&#x200B;로 이동합니다.
 1. 필터에서 **[!UICONTROL 편집 가능]** 스키마를 선택하십시오.
-1. **[!UICONTROL 사용자 지정 세부 정보 편집]** 아이콘을 클릭합니다.
+1. 스키마를 클릭합니다.
 
 플랜에 대한 사용자 지정 세부 정보를 편집하는 ![스크린샷](assets/plan_edit.png){zoomable="yes"}
+
+1. **[!UICONTROL 화면 편집]** 단추를 클릭합니다.
+
+   ![](assets/plan_edit2.png){zoomable="yes"}
 
 사용자 지정 옵션을 구성합니다.
 
@@ -64,9 +68,13 @@ Adobe 이러한 구성 요소를 보다 효율적으로 구성하려면 다음 �
 
 1. **[!UICONTROL 스키마]**&#x200B;로 이동합니다.
 1. 필터에서 **[!UICONTROL 편집 가능]** 스키마를 선택하십시오.
-1. **[!UICONTROL 사용자 지정 세부 정보 편집]** 아이콘을 클릭합니다.
+1. 스키마를 클릭합니다.
 
 ![프로그램에 대한 사용자 정의 세부 정보를 편집하는 스크린샷](assets/program_edit.png){zoomable="yes"}
+
+1. **[!UICONTROL 화면 편집]** 단추를 클릭합니다.
+
+   ![](assets/program_edit2.png){zoomable="yes"}
 
 사용자 지정 옵션을 구성합니다.
 

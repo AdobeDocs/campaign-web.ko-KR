@@ -3,16 +3,21 @@ audience: end-user
 title: 필터 목록
 description: 기본 제공 및 사용자 지정 필터를 사용하여 Adobe Campaign 웹 목록을 필터링하는 방법을 알아봅니다.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 485d8b4b715192cc5edb6442df0fa958e29d15ff
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 1%
+source-wordcount: '413'
+ht-degree: 0%
 
 ---
 
 # 필터 목록 {#filter-lists}
 
 Adobe Campaign 웹은 각 객체 목록 내에 필터를 제공하므로 특정 컨텍스트 기준에 따라 정보를 필터링할 수 있습니다. 예를 들어 상태, 채널, 연락 날짜 또는 폴더를 기반으로 게재를 필터링할 수 있습니다. 증명을 숨길 수도 있습니다.
+
+>[!IMPORTANT]
+>
+>쿼리 모델러에 대한 완전히 새로운 인터페이스를 사용할 수 있습니다. 새 규칙 빌더를 사용하면 간소화된 인터페이스를 통해 쿼리를 더 쉽게 작성할 수 있습니다. 이 경험으로 전환하려면 오른쪽 상단 모서리에서 토글 버튼을 누릅니다. 언제든지 토글을 눌러 새 인터페이스를 비활성화하면 클래식 쿼리 모델러로 돌아갈 수 있습니다. 이 새 인터페이스에서 쿼리 모델러와 동일한 원칙을 적용할 수 있습니다.
+>![새 규칙 빌더 인터페이스](assets/query-modeler-toggle.png){zoomable="yes"}에 대한 토글을 보여 주는 이미지
 
 ## 필터 적용 {#apply}
 

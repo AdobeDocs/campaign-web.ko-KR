@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: 9817507124ddbf25c7ece3893f4c4d853ce09372
+source-git-commit: dca4b86cc3317ce7de1aa7975449456ed16d1e91
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '822'
 ht-degree: 97%
 
 ---
@@ -112,7 +112,7 @@ ht-degree: 97%
          + [콘텐츠 구성 요소 사용](email/content-components.md)
          + [링크 추가 및 메시지 추적](email/message-tracking.md)
          + [미러 페이지에 대한 링크 추가](email/mirror-page.md)
-         + [프리 헤더 추가](email/preheader.md)
+         + [메타데이터 추가](email/metadata.md)
          + [텍스트 버전 생성](email/text-version-email.md)
       + 콘텐츠 스타일 지정 {#style}
          + [이메일 스타일 시작하기](email/get-started-email-style.md)

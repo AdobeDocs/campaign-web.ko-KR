@@ -2,9 +2,10 @@
 audience: end-user
 title: 콜 센터 게재 만들기
 description: Adobe Campaign 웹을 사용하여 콜 센터 게재를 만드는 방법을 알아봅니다
-source-git-commit: 0721d20ddec3271d9fac5f5645bd5865380ef9ba
+exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
+source-git-commit: c22011fcc25592bfda2999630bb91e311d85fb1a
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '738'
 ht-degree: 3%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 3%
 새 독립 실행형 콜 센터 게재를 만들고 전송하려면 다음 기본 단계를 수행합니다.
 
 1. 게재를 만듭니다. [자세한 내용](#create-delivery)
-1. 대상자를 선택하십시오. [자세히 보기](#select-audience)
+1. 대상자를 정의합니다. [자세히 보기](#select-audience)
 1. 콘텐츠 편집, [자세히 보기](#edit-content)
 1. 게재를 미리 보고 보냅니다. [자세히 보기](#preview-send)
 
@@ -42,7 +43,7 @@ ht-degree: 3%
 >
 >특정 날짜에 게재를 전송하도록 예약할 수 있습니다. 자세한 정보는 이 [섹션](../msg/gs-deliveries.md#gs-schedule)을 참조하십시오.
 
-## 대상자 선택{#select-audience}
+## 대상자 정의{#select-audience}
 
 이제 추출 파일의 타겟이 될 대상자를 정의해야 합니다.
 
@@ -65,7 +66,7 @@ ht-degree: 3%
 
 ## 콘텐츠 편집{#edit-content}
 
-이제 콜 센터 게재에서 생성될 추출 파일의 콘텐츠를 디자인해 보겠습니다.
+이제 콜 센터 게재에서 생성될 추출 파일의 콘텐츠를 편집해 보겠습니다.
 
 1. 게재 페이지에서 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭합니다.
 
@@ -101,7 +102,7 @@ ht-degree: 3%
 
 추출 파일을 미리 보고 전송하는 주요 단계는 다음과 같습니다. 자세한 내용은 [이 페이지](../direct-mail/send-direct-mail.md)를 참조하세요.
 
-1. 게재 콘텐츠 페이지에서 **[!UICONTROL 콘텐츠 시뮬레이션]**&#x200B;을(를) 사용합니다.
+1. 게재 콘텐츠 페이지에서 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다.
 
    ![게재 콘텐츠 페이지의 콘텐츠 시뮬레이션 옵션을 보여 주는 스크린샷](assets/cc-simulate0.png){zoomable="yes"}
 
@@ -124,5 +125,3 @@ ht-degree: 3%
 게재 페이지의 KPI(주요 성능 지표) 데이터와 **[!UICONTROL 로그]** 메뉴의 데이터를 추적합니다.
 
 기본 제공 보고서를 통해 메시지의 영향을 측정하기 시작합니다. [자세히 알아보기](../reporting/direct-mail.md)
-
-

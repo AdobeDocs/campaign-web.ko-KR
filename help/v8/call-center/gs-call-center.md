@@ -3,10 +3,10 @@ audience: end-user
 title: 콜 센터 채널 시작
 description: Adobe Campaign 웹을 사용하여 콜 센터 게재를 만들고 보내는 방법 알아보기
 exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
-source-git-commit: 053b2b16552543f6fc241d15bff60c0164ad20b0
+source-git-commit: c22011fcc25592bfda2999630bb91e311d85fb1a
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 5%
+source-wordcount: '206'
+ht-degree: 4%
 
 ---
 
@@ -24,41 +24,4 @@ ht-degree: 5%
 * **캠페인**: 캠페인을 만든 후에는 콜센터 게재를 추가할 수 있습니다. 캠페인 설정에 대한 자세한 내용은 [이 페이지](../campaigns/gs-campaigns.md)를 참조하세요.
 * **독립 실행형 게재**: 워크플로우나 캠페인 없이 1회 콜 센터 게재를 만듭니다. [게재를 만드는 방법 알아보기](../msg/gs-deliveries.md)
 
-<!--
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<a href="create-push.md">
-<img alt="Create a push delivery" src="assets/do-not-localize/push_create.jpeg">
-</a>
-<div><a href="create-push.md"><strong>Create a push delivery</strong>
-</div>
-<p>
-</td>
-<td>
-<a href="content-push.md">
-<img alt="Design a push delivery" src="assets/do-not-localize/push_design.jpeg">
-</a>
-<div>
-<a href="content-push.md"><strong>Design a push delivery<strong></strong></a>
-</div>
-<p></td>
-<td>
-<a href="send-push.md">
-<img alt="Send a push delivery" src="assets/do-not-localize/push_send.jpeg">
-</a>
-<div>
-<a href="send-push.md"><strong>Send a push delivery</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="send-push.md">
-<img alt="Push delivery report" src="assets/do-not-localize/push_report.jpeg">
-</a>
-<div>
-<a href="send-push.md"><strong>Push delivery report</strong></a>
-</div>
-<p>
-</td>
-</tr></table>
--->
+콜센터 게재를 만들고 보내는 방법을 알아보려면 이 [페이지](../call-center/create-call-center.md)를 참조하세요.

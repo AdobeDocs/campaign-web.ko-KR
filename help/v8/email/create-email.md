@@ -163,7 +163,7 @@ ht-degree: 44%
 
    >[!NOTE]
    >
-   >특정 컨텍스트에서는 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 사용할 수 없습니다. 제한 사항은 이 섹션](#content-simulation-limitations)의 [에 자세히 설명되어 있습니다.
+   >특정 컨텍스트에서는 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 사용할 수 없습니다. 제한 사항은 이 섹션[&#128279;](#content-simulation-limitations)의 에 자세히 설명되어 있습니다.
 
 1. 왼쪽에서 이메일을 미리 보는 데 사용할 프로필을 선택합니다.
 

@@ -23,7 +23,8 @@ ht-degree: 5%
 
 Adobe Campaign 웹에는 애플리케이션을 보다 구체적으로 구성할 수 있는 기술 옵션이 포함되어 있습니다. 이러한 옵션 중 일부는 내장되어 있으며, 다른 옵션은 필요에 따라 수동으로 추가할 수 있습니다.
 
->[!IMPORTANT]\
+>[!IMPORTANT]
+>\
 >기본 제공 옵션은 사전 구성되어 있으며 고급 사용자만 수정해야 합니다. 질문이 있거나 요청이 있는 경우 Adobe 담당자에게 문의하십시오.
 
 ## Campaign 옵션 액세스 {#access}
@@ -33,7 +34,8 @@ Adobe Campaign 웹에는 애플리케이션을 보다 구체적으로 구성할 
 ![](assets/options-list.png)\
 [관리/옵션 메뉴에 표시되는 옵션 목록]
 
->[!NOTE]\
+>[!NOTE]
+>\
 >Adobe Campaign 콘솔과 웹 사용자 인터페이스 간에 옵션 메뉴 위치가 다르지만 목록은 동일하며 거울처럼 작동합니다. 사용 가능한 옵션에 대한 자세한 내용은 [Campaign v7 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}의 옵션 목록을 참조하십시오.
 
 옵션 목록에서 다음을 수행할 수 있습니다.

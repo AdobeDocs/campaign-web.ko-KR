@@ -112,4 +112,4 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 Campaign 웹 사용자 인터페이스를 사용하여 테스트 프로필을 만들고 관리하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3442902?quality=12&captions=kor)

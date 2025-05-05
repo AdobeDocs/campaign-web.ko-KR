@@ -30,7 +30,7 @@ Adobe Campaign에서 주소가 격리되면 게재 분석 중에 프로필이 �
 
 격리는 잘못된 전화번호를 게재에서 제외하여 SMS 전송 비용을 줄입니다.
 
-[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines){target="_blank"}에서 격리에 대해 자세히 알아보세요.
+[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/failures/quarantines){target="_blank"}에서 격리에 대해 자세히 알아보세요.
 
 ## 주소가 격리되는 이유 {#quarantines-why}
 
@@ -41,7 +41,7 @@ Adobe Campaign에서 주소가 격리되면 게재 분석 중에 프로필이 �
 * 이메일의 경우, 메시지가 스팸으로 보고되는 경우입니다. 메시지는 Adobe에서 관리하는 기술 사서함으로 자동으로 리디렉션됩니다. 그러면 사용자의 이메일 주소가 자동으로 차단 목록에 추가된 상태로 격리됩니다.
 * 예를 들어, 사서함이 가득 찼거나 주소가 존재하지 않거나 이메일 서버를 사용할 수 없는 경우 이메일 주소를 격리할 수 있습니다.
 
-[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures){target="_blank"}에서 게재 실패에 대해 자세히 알아보세요.
+[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/failures/delivery-failures){target="_blank"}에서 게재 실패에 대해 자세히 알아보세요.
 
 ## 격리 주소를 찾을 위치 {#quarantines-where}
 
@@ -57,4 +57,4 @@ Adobe Campaign에서 주소가 격리되면 게재 분석 중에 프로필이 �
 
 ![격리된 주소를 표시하는 게재 요약 보고서](assets/quarantine_delivery.png){zoomable="yes"}
 
-Adobe Campaign 콘솔에서 격리 주소를 관리하는 추가 옵션을 탐색할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses).
+Adobe Campaign 콘솔에서 격리 주소를 관리하는 추가 옵션을 탐색할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses).

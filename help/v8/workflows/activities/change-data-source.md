@@ -23,7 +23,7 @@ ht-degree: 13%
 
 경우에 따라 현재 데이터베이스에서 데이터를 사용할 수 없거나 단일 작업을 수행하기에 충분히 효율적이지 않습니다. 따라서 워크플로우가 **[!UICONTROL 데이터 원본 변경]** 활동을 추가하여 다른 데이터베이스를 사용하여 이러한 작업을 수행하도록 해야 할 수 있습니다.
 
-Campaign 아키텍처에 대한 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)를 참조하세요.
+Campaign 아키텍처에 대한 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=ko)를 참조하세요.
 
 >[!IMPORTANT]
 >

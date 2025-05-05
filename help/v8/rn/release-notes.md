@@ -85,7 +85,7 @@ Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대�
 **일반 인터페이스 개선 사항**
 
 * 이제 스키마 속성에 대한 필드 설명, 즐겨찾기에 추가 및 값 배포 옵션이 사용자 인터페이스에 더 잘 표시됩니다. 자세한 내용은 [세부 설명서](../get-started/attributes.md)를 참조하십시오.
-* 이제 인터페이스에서 Experience League 환경 설정에 설정된 기본 언어에 따라 날짜 및 시간이 표시됩니다. 이 개선 사항은 여러 언어에서만 사용할 수 있습니다. 지원되는 언어의 전체 목록을 보려면 [자세한 설명서](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language){target=_blank}를 참조하세요.
+* 이제 인터페이스에서 Experience League 환경 설정에 설정된 기본 언어에 따라 날짜 및 시간이 표시됩니다. 이 개선 사항은 여러 언어에서만 사용할 수 있습니다. 지원되는 언어의 전체 목록을 보려면 [자세한 설명서](https://experienceleague.adobe.com/ko/docs/core-services/interface/features/browser-language){target=_blank}를 참조하세요.
 
 <!--
 ko * Built-in options are now only visible in the list of options if the **Show advanced options** toggle is activated.
@@ -117,5 +117,5 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 
 * **다국어에 대한 동적 보고** - 이제 다국어 이메일 게재에 동적 보고를 사용할 수 있습니다. 자세한 내용은 [세부 설명서](../reporting/global-reports.md)를 참조하십시오.
 
-* **SMS REST API 지원(LA)** - 이제 SMS 채널에 트랜잭션 메시지 REST API를 사용할 수 있습니다. 이메일과 휴대폰이 모두 페이로드에 있으면 &quot;wishedChannel&quot; 필드를 사용하여 채널을 지정할 수 있습니다. 제공하지 않을 경우 wiredChannel이 명시적으로 SMS를 요청하지 않는 한 이메일이 기본적으로 사용됩니다. 자세한 내용은 [세부 설명서](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}를 참조하십시오.
+* **SMS REST API 지원(LA)** - 이제 SMS 채널에 트랜잭션 메시지 REST API를 사용할 수 있습니다. 이메일과 휴대폰이 모두 페이로드에 있으면 &quot;wishedChannel&quot; 필드를 사용하여 채널을 지정할 수 있습니다. 제공하지 않을 경우 wiredChannel이 명시적으로 SMS를 요청하지 않는 한 이메일이 기본적으로 사용됩니다. 자세한 내용은 [세부 설명서](https://experienceleague.adobe.com/ko/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}를 참조하십시오.
 

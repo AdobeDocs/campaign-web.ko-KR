@@ -19,7 +19,7 @@ Campaign 환경을 Adobe Experience Cloud 솔루션 및 애플리케이션과 �
 
 Adobe Campaign에는 외부 애플리케이션과의 통신, 데이터베이스 엔진에 대한 연결 및 데이터 공유 및 동기화를 가능하게 하는 여러 커넥터가 포함되어 있습니다. Adobe은 이러한 연결을 구성합니다.
 
-[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/integration.html){target="_blank"}에서 관련 사용 사례와 함께 Campaign에 연결할 수 있는 솔루션 및 응용 프로그램을 알아봅니다.
+[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/integration.html?lang=ko){target="_blank"}에서 관련 사용 사례와 함께 Campaign에 연결할 수 있는 솔루션 및 응용 프로그램을 알아봅니다.
 
 또한 새로운 Campaign 웹 사용자 인터페이스를 사용하면 Adobe Experience Manager as a Cloud Service 환경을 연결하여 다음과 같은 사용 사례를 달성할 수 있습니다.
 

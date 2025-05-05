@@ -31,7 +31,7 @@ ht-degree: 24%
 
   >[!NOTE]
   >
-  >Adobe Experience Platform 대상을 사용하려면 대상과의 통합을 구성합니다. [Adobe Experience Platform 대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html){target="_blank"}를 참조하세요.
+  >Adobe Experience Platform 대상을 사용하려면 대상과의 통합을 구성합니다. [Adobe Experience Platform 대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ko){target="_blank"}를 참조하세요.
 
 ## 캔버스
 

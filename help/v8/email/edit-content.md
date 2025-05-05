@@ -129,7 +129,7 @@ Campaign 웹 사용자 인터페이스에서 전자 메일 게재를 다국어�
 
    >[!IMPORTANT]
    >
-   >**[!UICONTROL 언어 추가]** 단추는 대상 차원에 언어 스키마가 포함된 경우에만 사용할 수 있습니다. 스키마 및 대상 차원에 대한 자세한 내용은 [자세한 설명서](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}를 참조하세요.
+   >**[!UICONTROL 언어 추가]** 단추는 대상 차원에 언어 스키마가 포함된 경우에만 사용할 수 있습니다. 스키마 및 대상 차원에 대한 자세한 내용은 [자세한 설명서](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}를 참조하세요.
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
@@ -138,7 +138,7 @@ Campaign 웹 사용자 인터페이스에서 전자 메일 게재를 다국어�
 
    >[!NOTE]
    >
-   >이 목록을 통해 사용할 수 있는 언어는 언어 속성으로 정의된 값(예: 시스템, 사용자, dbenum 등)에 따라 다릅니다. 이 [섹션](https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/enumerations){target=_blank}에서 열거형 관리에 대해 자세히 알아보세요.
+   >이 목록을 통해 사용할 수 있는 언어는 언어 속성으로 정의된 값(예: 시스템, 사용자, dbenum 등)에 따라 다릅니다. 이 [섹션](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/conf/enumerations){target=_blank}에서 열거형 관리에 대해 자세히 알아보세요.
 
 
    ![](assets/edit-content_3.png){zoomable="yes"}

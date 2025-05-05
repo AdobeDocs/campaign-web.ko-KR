@@ -75,7 +75,7 @@ ht-degree: 37%
 >title="제외 이유 게재"
 >abstract="**제외 이유** 그래프와 테이블에는 게재 준비 단계에서 거부된 메시지 규칙당 분류가 표시됩니다."
 
-**[!UICONTROL 제외 원인]** 그래프 및 표는 게재를 준비하는 동안 거부된 메시지의 규칙별 분류를 보여 줍니다. 제외 규칙은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}에 자세히 설명되어 있습니다.
+**[!UICONTROL 제외 원인]** 그래프 및 표는 게재를 준비하는 동안 거부된 메시지의 규칙별 분류를 보여 줍니다. 제외 규칙은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ko#email-error-types){_blank}에 자세히 설명되어 있습니다.
 
 ![제외 그래프 및 표의 스크린샷](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
@@ -153,7 +153,7 @@ ht-degree: 37%
 
 **[!UICONTROL 유형별 오류 분석]** 테이블 및 그래프에 오류 유형에 사용할 수 있는 데이터가 포함되어 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-이 보고서에 표시된 오류는 격리 프로세스를 트리거합니다. 격리 관리에 대한 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}를 참조하세요.
+이 보고서에 표시된 오류는 격리 프로세스를 트리거합니다. 격리 관리에 대한 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ko){target="_blank"}를 참조하세요.
 
 ![유형별 오류 중단의 스크린샷](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 

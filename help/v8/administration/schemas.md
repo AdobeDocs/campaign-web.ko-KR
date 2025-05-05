@@ -37,7 +37,7 @@ ht-degree: 21%
 
 Adobe Campaign의 각 엔티티에는 전용 스키마가 있어 데이터 일관성과 조직을 유지할 수 있습니다.
 
-스키마에 대한 자세한 내용은 [Campaign 콘솔 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}를 참조하세요.
+스키마에 대한 자세한 내용은 [Campaign 콘솔 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}를 참조하세요.
 
 ## 웹 사용자 인터페이스의 스키마에 액세스 {#access}
 

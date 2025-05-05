@@ -63,7 +63,7 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 
 ✨ 기능을 직접 살펴보고 성능을 완벽하게 이해할 수 있도록 설계된 [AI 어시스턴트](../v8/email/generative-gs.md)의 실시간 기능 미리보기로 직접 체험해 보십시오.
 
-[![추가 정보 단추](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![추가 정보 단추](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB FAQ]
 

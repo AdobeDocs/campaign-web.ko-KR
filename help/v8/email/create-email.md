@@ -89,7 +89,7 @@ ht-degree: 44%
 
    >[!NOTE]
    >
-   >목록에서 사용할 수 있는 대상은 Campaign v8 인스턴스 또는 대상/Source 통합이 인스턴스에 구성된 경우 Adobe Experience Platform에서 가져옵니다. 이 통합을 통해 Experience Platform 세그먼트를 Adobe Campaign에 보내고, 캠페인 게재 및 추적 로그를 Adobe Experience Platform에 보낼 수 있습니다. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}에서 Campaign 및 Adobe Experience Platform을 사용하여 작업하는 방법을 알아봅니다.
+   >목록에서 사용할 수 있는 대상은 Campaign v8 인스턴스 또는 대상/Source 통합이 인스턴스에 구성된 경우 Adobe Experience Platform에서 가져옵니다. 이 통합을 통해 Experience Platform 세그먼트를 Adobe Campaign에 보내고, 캠페인 게재 및 추적 로그를 Adobe Experience Platform에 보낼 수 있습니다. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=ko){target="_blank"}에서 Campaign 및 Adobe Experience Platform을 사용하여 작업하는 방법을 알아봅니다.
 
 1. 대상자를 선택하면 추가 규칙을 적용하여 대상을 더 구체화할 수 있습니다.
 
@@ -222,7 +222,7 @@ ht-degree: 44%
 
 <!--* When a multilingual delivery contains only one locale,-->
 * 조정된 게재 사용,
-* Campaign 배포 모델이 [Adobe Campaign Enterprise FFDA(Full Federated Access)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}인 경우
+* Campaign 배포 모델이 [Adobe Campaign Enterprise FFDA(Full Federated Access)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}인 경우
 * 파일이 업로드되지 않은 경우.
 
 ## 이메일 전송 및 모니터링 {#prepare-send}

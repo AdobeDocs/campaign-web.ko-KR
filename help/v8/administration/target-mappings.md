@@ -30,7 +30,7 @@ ht-degree: 14%
 
 ![사용 가능한 매핑을 보여 주는 대상 매핑 목록 화면](assets/target-mappings-list.png)
 
-Adobe Campaign과 함께 제공되는 기본 제공 대상 매핑에 대한 자세한 내용은 [Campaign v8 클라이언트 콘솔 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}를 참조하십시오.
+Adobe Campaign과 함께 제공되는 기본 제공 대상 매핑에 대한 자세한 내용은 [Campaign v8 클라이언트 콘솔 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ko){target="_blank"}를 참조하십시오.
 
 ## 대상 매핑 만들기 {#create-mapping}
 

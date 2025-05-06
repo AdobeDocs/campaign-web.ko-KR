@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: AI Assistant 시작
+title: AI 어시스턴트 시작하기
 description: AI Assistant 시작
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
 source-wordcount: '732'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
-# AI Assistant 작업 {#generative-gs}
+# AI 어시스턴트로 작업하기 {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="AI 어시스턴트"
->abstract="게재를 만들고 개인화한 후 AI Assistant를 사용하여 콘텐츠를 향상시킵니다. 이 기능은 사용자가 생성하고자 하는 콘텐츠를 설명하여 콘텐츠를 세부 조정함으로써 개인화 및 콘텐츠 개선을 간소화합니다."
+>abstract="게재를 만들고 개인화한 후 AI 어시스턴트를 사용하여 콘텐츠를 더욱 풍부하게 만들 수 있습니다. 이 기능은 사용자가 생성하고자 하는 콘텐츠를 설명하여 콘텐츠를 세부 조정함으로써 개인화 및 콘텐츠 개선을 간소화합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
@@ -30,7 +30,7 @@ ht-degree: 18%
 
 >[!INFO]
 >
->기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 설계된 [라이브 기능 미리 보기](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator)를 통해 실습 경험에 몰입하세요.
+>기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 설계된 [라이브 기능 미리 보기](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator)를 통해 실습 경험에 몰입하세요.
 
 마케팅 업계의 경쟁이 치열해짐에 따라 브랜드는 효과적인 콘텐츠를 신속하게 생성할 수 있는 효율적인 방법을 모색합니다. Microsoft Azure OpenAI 및 Adobe Firefly에서 제공하는 Adobe Campaign 웹의 AI Assistant는 Adobe의 AI 콘텐츠 생성 기능으로, 마케터가 이메일, SMS 및 푸시 알림과 같은 채널 전반에서 전문적이고 브랜드 일관된 콘텐츠를 만드는 방법을 변환합니다. 고급 GenAI 모델과 브랜드 가이드라인에 대한 깊은 이해를 바탕으로 AI Assistant는 마케팅 목표를 기반으로 개인화되고, 매력적이며, 효과적인 콘텐츠를 자동 생성하여 브랜드에 설명된 스타일, 레이아웃, 색조 등에 맞게 콘텐츠를 최적화합니다.
 
@@ -69,7 +69,7 @@ AI Assistant는 이메일, SMS 및 푸시 알림과 같은 채널 전반의 마�
 * [기본 제공 전자 메일 템플릿](../email/create-email-templates.md), 브랜드별 템플릿 또는 사용자 지정 템플릿을 사용하여 AI Assistant를 사용하여 전자 메일 콘텐츠를 만드십시오. 최대 8~10개의 이미지가 포함된 이메일 템플릿이 권장됩니다.
 * 변형을 선택할 때 엄지손가락 위로, 엄지손가락 아래로 또는 플래그 아이콘을 사용하여 문제가 있는 출력을 보고합니다.
 * AI Assistant 사용 시 Adobe Experience Cloud 생성 AI 사용자 지침이 적용됩니다. [자세히 알아보기](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
-* 미디어 제작에서 생성 AI 도구 사용에 대한 Adobe의 투명성 약속의 일환으로, Adobe은 Firefly에서 생성한 에셋이 포함된 콘텐츠 또는 프로젝트를 다운로드하거나 내보낼 때 Content Credentials을 적용합니다. [자세히 알아보기](https://helpx.adobe.com/kr/firefly/using/content-credentials.html).
+* 미디어 제작에서 생성 AI 도구 사용에 대한 Adobe의 투명성 약속의 일환으로, Adobe은 Firefly에서 생성한 에셋이 포함된 콘텐츠 또는 프로젝트를 다운로드하거나 내보낼 때 Content Credentials을 적용합니다. [자세히 알아보기](https://helpx.adobe.com/firefly/using/content-credentials.html).
 
 Adobe Campaign 웹의 AI Assistant에는 다음과 같은 제한이 적용됩니다.
 

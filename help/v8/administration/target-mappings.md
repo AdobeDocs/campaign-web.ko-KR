@@ -30,7 +30,7 @@ ht-degree: 14%
 
 ![사용 가능한 매핑을 보여 주는 대상 매핑 목록 화면](assets/target-mappings-list.png)
 
-Adobe Campaign과 함께 제공되는 기본 제공 대상 매핑에 대한 자세한 내용은 [Campaign v8 클라이언트 콘솔 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ko){target="_blank"}를 참조하십시오.
+Adobe Campaign과 함께 제공되는 기본 제공 대상 매핑에 대한 자세한 내용은 [Campaign v8 클라이언트 콘솔 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}를 참조하십시오.
 
 ## 대상 매핑 만들기 {#create-mapping}
 
@@ -84,7 +84,7 @@ Adobe Campaign과 함께 제공되는 기본 제공 대상 매핑에 대한 자�
 
    1. **[!UICONTROL 추적 로그]**: **[!UICONTROL 추적할 스키마 생성]** 옵션을 활성화하여 추적 로그에 대한 저장소 스키마를 생성합니다.
 
-   +++
++++
 
 1. **[!UICONTROL 매핑]** 섹션을 사용하여 각 게재 주소 필드에 사용할 대상 매핑의 스키마에서 특성을 식별합니다. 각 필드에 대해 매핑할 속성을 선택합니다. 필드를 식별하는 표현식을 작성할 수도 있습니다. 예를 들어, address 속성에 lower 함수를 적용합니다.
 

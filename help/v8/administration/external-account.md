@@ -2,20 +2,14 @@
 title: 외부 계정 관리
 description: 외부 계정을 구성하는 방법 알아보기
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 59f41ed2074484727a66a164b3633cb113b1f4af
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 2%
+source-wordcount: '1342'
+ht-degree: 5%
 
 ---
 
 # 외부 계정 관리 {#external-accounts}
-
->[!AVAILABILITY]
->
->* 현재 외부 계정은 바운스 메일(POP3), 라우팅 및 실행 인스턴스에만 사용할 수 있습니다. 계정 유형은 나중에 추가됩니다.
->
->* Adobe Campaign 콘솔에서 만든 지원되지 않는 외부 계정은 웹 사용자 인터페이스에 표시되지만 편집하거나 액세스할 수 없습니다.
 
 Adobe Campaign에는 다양한 시스템과 쉽게 통합할 수 있도록 사전 구성된 외부 계정이 포함되어 있습니다. 추가 플랫폼에 연결하거나 워크플로에 맞게 연결을 사용자 지정하려면 웹 사용자 인터페이스를 사용하여 새 외부 계정을 만드십시오. 이를 통해 데이터를 원활하게 전송할 수 있습니다.
 
@@ -63,10 +57,6 @@ Adobe Campaign에는 다양한 시스템과 쉽게 통합할 수 있도록 사�
 
 ### 바운스 메일 (POP3) {#bounce}
 
->[!AVAILABILITY]
->
-> OAuth 2.0은 현재 지원되지 않습니다.
-
 바운스 메일 외부 계정은 이메일 서비스 연결에 사용되는 외부 POP3 계정을 지정합니다. POP3 액세스용으로 구성된 모든 서버는 반송 메일을 받을 수 있습니다.
 
 ![바운스 메일(POP3) 외부 계정 구성 필드를 보여주는 스크린샷입니다.](assets/external_account_bounce.png)
@@ -88,6 +78,33 @@ Adobe Campaign에는 다양한 시스템과 쉽게 통합할 수 있도록 사�
    * POP3는 SSL(기본적으로 포트 995) 위에 보호됩니다.
 
 * **[!UICONTROL 함수]** - 수신 전자 메일을 받을 계정을 구성하려면 **[!UICONTROL 인바운드 전자 메일]**&#x200B;을 선택하고, SOAP 요청을 처리하려면 **[!UICONTROL SOAP 라우터]**&#x200B;를 선택합니다.
+
+>[!IMPORTANT]
+>
+>Microsoft OAuth 2.0을 사용하여 POP3 외부 계정을 구성하기 전에 먼저 Azure 포털에 애플리케이션을 등록해야 합니다. 자세한 정보는 이 [페이지](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app){target=_blank}를 참조하십시오.
+
+Microsoft OAuth 2.0을 사용하여 POP3 외부 환경을 구성하려면 Microsoft OAuth 2.0 옵션을 선택하고 다음 필드를 채우십시오.
+
+* **[!UICONTROL Azure 테넌트]**
+
+  Azure ID(또는 디렉터리(테넌트) ID)는 Azure 포털에 있는 애플리케이션 개요의 Essentials 드롭다운에서 찾을 수 있습니다.
+
+* **[!UICONTROL Azure 클라이언트 ID]**
+
+  클라이언트 ID(또는 애플리케이션(클라이언트) ID)는 Azure 포털에 있는 애플리케이션 개요의 Essentials 드롭다운에서 찾을 수 있습니다.
+
+* **[!UICONTROL Azure 클라이언트 암호]**
+
+  클라이언트 암호 ID는 Azure 포털에 있는 애플리케이션의 인증서 및 암호 메뉴에서 클라이언트 암호 열에 있습니다.
+
+
+* **[!UICONTROL Azure 리디렉션 URL]**
+
+  리디렉션 URL은 Azure 포털에 있는 애플리케이션의 인증 메뉴에서 찾을 수 있습니다. 다음 구문 nl/jsp/oauth.jsp(예: `https://redirect.adobe.net/nl/jsp/oauth.jsp`)으로 끝나야 합니다.
+
+인터넷 액세스는 클라이언트 콘솔에서 연결 테스트 버튼을 사용하도록 설정해야 합니다. 설정 후 inMail 프로세스는 인터넷 없이 Microsoft 서버와 통신할 수 있습니다.
+
+다른 자격 증명을 입력한 후 연결 설정 을 클릭하여 외부 계정 구성을 완료할 수 있습니다.
 
 ### 라우팅 {#routing}
 
@@ -131,6 +148,117 @@ Adobe Campaign에는 다양한 시스템과 쉽게 통합할 수 있도록 사�
 
 * **[!UICONTROL 메서드]** - 웹 서비스와 FDA(Federated Data Access) 중에서 선택합니다.
 
-  FDA의 경우 FDA 계정을 선택합니다. 외부 시스템에 대한 Campaign 연결은 고급 사용자로 제한되며 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/fda#_blank)
+  FDA의 경우 FDA 계정을 선택합니다. 외부 시스템에 대한 Campaign 연결은 고급 사용자로 제한되며 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/fda#_blank)
 
 * **[!UICONTROL 보관 워크플로 만들기]** - 인스턴스가 여러 개 있는지 여부에 관계없이 메시지 센터에 등록된 각 실행 인스턴스에 대해 실행 인스턴스와 연결된 각 외부 계정에 대해 별도의 보관 워크플로를 만드십시오.
+
+## Adobe 솔루션 통합 외부 계정
+
+### Adobe Experience Cloud
+
+Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결하려면 Adobe Experience Cloud(MAC) 외부 계정을 구성해야 합니다.
+
+![Adobe Experience Cloud MAC 외부 계정 구성 필드를 보여주는 스크린샷입니다.](assets/external-MAC.png)
+
+* **[!UICONTROL IMS 서버]**
+
+  IMS 서버의 URL. 스테이지 및 프로덕션 인스턴스가 동일한 IMS 프로덕션 끝점을 가리켜야 합니다.
+
+* **[!UICONTROL IMS 범위]**
+
+  여기서 정의된 범위는 IMS에서 프로비저닝한 범위의 하위 집합이어야 합니다.
+
+* **[!UICONTROL IMS 클라이언트 식별자]**
+
+  IMS 클라이언트의 ID.
+
+* **[!UICONTROL IMS 클라이언트 암호]**
+
+  IMS 클라이언트 암호의 자격 증명입니다.
+
+* **[!UICONTROL 콜백 서버]**
+
+  Adobe Campaign 인스턴스의 URL에 액세스합니다.
+
+* **[!UICONTROL IMS 조직 ID]**
+
+  조직의 ID. 조직 ID를 찾으려면 [이 페이지](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko){target=_blank}를 참조하세요.
+
+* **[!UICONTROL 연결 마스크]**
+
+  Enterprise Dashboard의 구성 이름을 Adobe Campaign의 그룹과 동기화할 수 있는 구문
+
+* **[!UICONTROL 서버]**
+
+  Adobe Experience Cloud 인스턴스의 URL.
+
+* **[!UICONTROL 테넌트]**
+
+  Adobe Experience Cloud 테넌트의 이름입니다.
+
+## 외부 계정 데이터 전송
+
+### Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
+
+Amazon Simple Storage Service (S3) 커넥터를 사용하여 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. 워크플로우 활동에서 설정할 수 있습니다. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}를 참조하십시오.
+
+![](assets/external-AWS.png)
+
+이 새 외부 계정을 설정할 때 다음 세부 사항을 제공해야 합니다.
+
+* **[!UICONTROL AWS S3 계정 서버]**
+
+  서버의 URL은 다음과 같이 채워야 합니다.
+
+  `  <S3bucket name>.s3.amazonaws.com/<s3object path>`
+
+
+* **[!UICONTROL AWS 액세스 키 ID]**
+
+  AWS 액세스 키 ID를 찾을 수 있는 위치를 확인하려면 이 [페이지](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)를 참조하세요.
+
+* **[!UICONTROL AWS에 대한 비밀 액세스 키]**
+
+  AWS에 대한 비밀 액세스 키를 찾을 수 있는 위치를 파악하려면 이 [페이지](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/)를 참조하세요.
+
+* **[!UICONTROL AWS 지역]**
+
+  AWS 지역에 대한 자세한 내용은 이 [페이지](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)를 참조하세요.
+
+* **[!UICONTROL 서버측 암호화 사용]** 확인란을 사용하면 파일을 S3 암호화 모드로 저장할 수 있습니다.
+
+액세스 키 ID 및 비밀 액세스 키를 찾을 수 있는 위치를 알아보려면 Amazon 웹 서비스 [설명서](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)를 참조하세요.
+
+### Azure Blob 스토리지 {#azure-blob-external-account}
+
+**[!UICONTROL Azure Blob 저장소]** 외부 계정을 사용하여 **[!UICONTROL 파일 전송]** 워크플로우 활동을 통해 Adobe Campaign으로 데이터를 가져오거나 내보낼 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}을 참조하십시오.
+
+![](assets/external-azure.png)
+
+Adobe Campaign에서 작동하도록 **[!UICONTROL Azure 외부 계정]**&#x200B;을(를) 구성하려면 다음 세부 정보를 제공해야 합니다.
+
+* **[!UICONTROL 서버]**
+
+  Azure Blob 스토리지 서버의 URL입니다.
+
+* **[!UICONTROL 암호화]**
+
+  **[!UICONTROL 없음]** 또는 **[!UICONTROL SSL]** 중에서 선택한 암호화 유형입니다.
+
+* **[!UICONTROL 액세스 키]**
+
+  **[!UICONTROL 액세스 키]**&#x200B;를 찾을 위치를 확인하려면 이 [페이지](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)를 참조하세요.
+
+## Hadoop
+
+Hadoop 외부 계정을 사용하면 Campaign 인스턴스를 Hadoop 외부 데이터베이스에 연결할 수 있습니다. Hadoop에 대한 자세한 내용은 [Campaign V7 콘솔 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}를 참조하세요.
+
+![Hadoop 외부 계정에 대한 구성을 보여 주는 스크린샷입니다.](assets/external-hadoop.png)
+
+* **[!UICONTROL 서버]**
+
+  Hadoop 스토리지 서버의 URL.
+
+* **[!UICONTROL 계정]**
+
+  Hadoop 서버 계정의 이름입니다.

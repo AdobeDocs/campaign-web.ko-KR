@@ -2,7 +2,7 @@
 title: 대상 매핑 관리
 description: 대상 매핑을 관리하는 방법을 알아봅니다.
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 14%
@@ -12,7 +12,7 @@ ht-degree: 14%
 # 대상 매핑 관리 {#target-mappings}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn5"
 >title="대상 매핑"
 >abstract="이제 Campaign Web 사용자 인터페이스에서 대상 매핑을 만들 수 있습니다. 대상 매핑은 다양한 게재 채널(이메일, SMS, 푸시 알림)이 스키마의 데이터 필드에 연결되는 방식을 정의합니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
@@ -30,7 +30,7 @@ ht-degree: 14%
 
 ![사용 가능한 매핑을 보여 주는 대상 매핑 목록 화면](assets/target-mappings-list.png)
 
-Adobe Campaign과 함께 제공되는 기본 제공 대상 매핑에 대한 자세한 내용은 [Campaign v8 클라이언트 콘솔 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ko){target="_blank"}를 참조하십시오.
+Adobe Campaign과 함께 제공되는 기본 제공 대상 매핑에 대한 자세한 내용은 [Campaign v8 클라이언트 콘솔 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}를 참조하십시오.
 
 ## 대상 매핑 만들기 {#create-mapping}
 
@@ -84,7 +84,7 @@ Adobe Campaign과 함께 제공되는 기본 제공 대상 매핑에 대한 자�
 
    1. **[!UICONTROL 추적 로그]**: **[!UICONTROL 추적할 스키마 생성]** 옵션을 활성화하여 추적 로그에 대한 저장소 스키마를 생성합니다.
 
-   +++
++++
 
 1. **[!UICONTROL 매핑]** 섹션을 사용하여 각 게재 주소 필드에 사용할 대상 매핑의 스키마에서 특성을 식별합니다. 각 필드에 대해 매핑할 속성을 선택합니다. 필드를 식별하는 표현식을 작성할 수도 있습니다. 예를 들어, address 속성에 lower 함수를 적용합니다.
 

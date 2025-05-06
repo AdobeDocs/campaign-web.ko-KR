@@ -3,20 +3,14 @@ audience: end-user
 title: AI Assistant가 있는 랜딩 페이지
 description: AI Assistant 시작
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1463'
 ht-degree: 1%
 
 ---
 
-# AI Assistant를 사용하여 랜딩 페이지 생성{#generative-lp}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="AI를 사용하여 랜딩 페이지 생성"
->abstract="이제 AI Assistant를 사용하여 랜딩 페이지 게재를 만들 수 있으며, 이를 통해 텍스트, 이미지 또는 전체 페이지 레이아웃을 생성할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+# AI 어시스턴트를 사용하여 랜딩 페이지 생성{#generative-lp}
 
 >[!IMPORTANT]
 >

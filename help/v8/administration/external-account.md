@@ -2,14 +2,20 @@
 title: 외부 계정 관리
 description: 외부 계정을 구성하는 방법 알아보기
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
-source-git-commit: 59f41ed2074484727a66a164b3633cb113b1f4af
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1378'
 ht-degree: 5%
 
 ---
 
 # 외부 계정 관리 {#external-accounts}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="외부 계정 작성"
+>abstract="이제 Campaign 관리자는 Campaign 웹 사용자 인터페이스에서 외부 시스템과의 새 연결을 설정할 수 있습니다. 기존 외부 계정을 확인, 업데이트 및 관리할 수도 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 Adobe Campaign에는 다양한 시스템과 쉽게 통합할 수 있도록 사전 구성된 외부 계정이 포함되어 있습니다. 추가 플랫폼에 연결하거나 워크플로에 맞게 연결을 사용자 지정하려면 웹 사용자 인터페이스를 사용하여 새 외부 계정을 만드십시오. 이를 통해 데이터를 원활하게 전송할 수 있습니다.
 
@@ -148,7 +154,7 @@ Microsoft OAuth 2.0을 사용하여 POP3 외부 환경을 구성하려면 Micros
 
 * **[!UICONTROL 메서드]** - 웹 서비스와 FDA(Federated Data Access) 중에서 선택합니다.
 
-  FDA의 경우 FDA 계정을 선택합니다. 외부 시스템에 대한 Campaign 연결은 고급 사용자로 제한되며 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/fda#_blank)
+  FDA의 경우 FDA 계정을 선택합니다. 외부 시스템에 대한 Campaign 연결은 고급 사용자로 제한되며 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/fda#_blank)
 
 * **[!UICONTROL 보관 워크플로 만들기]** - 인스턴스가 여러 개 있는지 여부에 관계없이 메시지 센터에 등록된 각 실행 인스턴스에 대해 실행 인스턴스와 연결된 각 외부 계정에 대해 별도의 보관 워크플로를 만드십시오.
 
@@ -200,7 +206,7 @@ Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결하려면 Adobe Experien
 
 ### Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
 
-Amazon Simple Storage Service (S3) 커넥터를 사용하여 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. 워크플로우 활동에서 설정할 수 있습니다. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}를 참조하십시오.
+Amazon Simple Storage Service (S3) 커넥터를 사용하여 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. 워크플로우 활동에서 설정할 수 있습니다. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}를 참조하십시오.
 
 ![](assets/external-AWS.png)
 
@@ -231,7 +237,7 @@ Amazon Simple Storage Service (S3) 커넥터를 사용하여 데이터를 Adobe 
 
 ### Azure Blob 스토리지 {#azure-blob-external-account}
 
-**[!UICONTROL Azure Blob 저장소]** 외부 계정을 사용하여 **[!UICONTROL 파일 전송]** 워크플로우 활동을 통해 Adobe Campaign으로 데이터를 가져오거나 내보낼 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}을 참조하십시오.
+**[!UICONTROL Azure Blob 저장소]** 외부 계정을 사용하여 **[!UICONTROL 파일 전송]** 워크플로우 활동을 통해 Adobe Campaign으로 데이터를 가져오거나 내보낼 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}을 참조하십시오.
 
 ![](assets/external-azure.png)
 
@@ -251,7 +257,7 @@ Adobe Campaign에서 작동하도록 **[!UICONTROL Azure 외부 계정]**&#x200B
 
 ## Hadoop
 
-Hadoop 외부 계정을 사용하면 Campaign 인스턴스를 Hadoop 외부 데이터베이스에 연결할 수 있습니다. Hadoop에 대한 자세한 내용은 [Campaign V7 콘솔 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}를 참조하세요.
+Hadoop 외부 계정을 사용하면 Campaign 인스턴스를 Hadoop 외부 데이터베이스에 연결할 수 있습니다. Hadoop에 대한 자세한 내용은 [Campaign V7 콘솔 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}를 참조하세요.
 
 ![Hadoop 외부 계정에 대한 구성을 보여 주는 스크린샷입니다.](assets/external-hadoop.png)
 

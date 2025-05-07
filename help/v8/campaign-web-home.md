@@ -4,9 +4,9 @@ description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: f1d244a015f2e8e629567d09bafc571b656857a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 >[!BEGINTABS]
 
 
->[!TAB 25년 4월 릴리스]
+>[!TAB 2025년 4월 릴리스]
 
-이제 콜 센터 채널, 새로운 규칙 빌더 및 추가 개선 사항을 포함하여 4월 릴리스가 공개되었습니다.
+4월 릴리스가 현재 공개되었으며, 여기에는 콜센터 채널, 새로운 규칙 빌더 및 기타 개선 사항이 포함되어 있습니다.
 
 [![자세히 알아보기 버튼](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
@@ -63,7 +63,7 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 
 ✨ 기능을 직접 살펴보고 성능을 완벽하게 이해할 수 있도록 설계된 [AI 어시스턴트](../v8/email/generative-gs.md)의 실시간 기능 미리보기로 직접 체험해 보십시오.
 
-[![추가 정보 단추](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![자세히 알아보기 버튼](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB FAQ]
 
@@ -132,5 +132,5 @@ Campaign Web 사용자 인터페이스에 대한 자주 묻는 질문은 새로�
 
 ## 추가 리소스
 
-* [Adobe Campaign 제품 설명](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [Adobe Campaign 제품 설명서](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
 * [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ko){target="_blank"}

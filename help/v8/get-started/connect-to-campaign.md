@@ -3,9 +3,9 @@ title: Adobe Campaign 웹 인터페이스에 연결
 description: Adobe Campaign Web 사용자 인터페이스에 접속하는 방법 알아보기
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 497335e6f176d33c4e9cd214abf46665ad75e1eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '919'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -113,24 +113,24 @@ Adobe Campaign Web은 최신 버전의 Google Chrome, Safari 및 Microsoft Edge�
 
 Adobe Campaign Web은 현재 다음 언어로 제공됩니다.
 
-* 영어(미국) - EN-US
+* 영어 (미국) - EN-US
 * 프랑스어 - FR
 * 독일어 - DE
 * 이탈리아어 - IT
 * 스페인어 - ES
-* 포르투갈어(브라질) - PTBR
+* 포르투갈어 (브라질) - PTBR
 * 일본어 - JP
 * 한국어 - KR
 * 중국어 간체 - CHS
 * 중국어 번체 - CHT
 
-또한 사용자 인터페이스에서 지원하는 다양한 언어로 로케일별 형식(예: 날짜, 시간, 달력, 숫자)을 사용할 수 있습니다.
+또한, 날짜, 시간, 캘린더, 숫자와 같은 로케일별 서식은 사용자 인터페이스에서 지원하는 언어 변형으로도 제공될 수 있습니다.
 
 * 영어 (이스라엘)
-* 영어(영국)
+* 영어 (영국)
 * 스페인어 (멕시코)
-* 스페인어(라틴 아메리카)
-* 프랑스어(캐나다)
+* 스페인어 (라틴 아메리카)
+* 프랑스어 (캐나다)
 
 Campaign Web의 기본 언어는 사용자 프로필에 지정된 기본 언어에 따라 결정됩니다. Campaign 서버 및 클라이언트 콘솔의 언어와 관련이 없습니다.
 

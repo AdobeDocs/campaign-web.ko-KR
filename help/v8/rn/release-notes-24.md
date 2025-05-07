@@ -3,9 +3,9 @@ title: Campaign v8 Web 사용자 인터페이스 이전 릴리스 정보
 description: 2024 Campaign Web 사용자 인터페이스 릴리스
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2501'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -85,8 +85,8 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>메시지를 만들고 맞춤화하면 Adobe Campaign 웹의 AI Assistant를 사용하여 한 차원 높은 수준으로 메시지를 가져올 수 있습니다. 이 강력한 도구를 사용하면 다양한 매력적인 텍스트, 메인 제목 및 시각적으로 매력적인 이미지를 생성하여 콘텐츠의 영향을 최적화할 수 있습니다.</p>
-<p><a href="https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator">실시간 기능 미리보기</a>를 통해 직접 기능을 살펴보고 성능을 완벽하게 이해해 보십시오</a>.</p>
+<p>메시지를 작성하고 개인화한 후에는 Adobe Campaign Web의 AI 어시스턴트를 사용하여 콘텐츠를 개선할 수 있습니다. 이 강력한 도구를 사용하면 다양한 매력적인 텍스트, 메인 제목 및 시각적으로 매력적인 이미지를 생성하여 콘텐츠의 영향을 최적화할 수 있습니다.</p>
+<p><a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">실시간 기능 미리보기</a>를 통해 직접 기능을 살펴보고 성능을 완벽하게 이해해 보십시오</a>.</p>
 <p>자세한 내용은 <a href="../email/generative-gs.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
 <p>가용 일자: 9월 12일</p>
@@ -122,7 +122,7 @@ ht-degree: 99%
 * **랜딩 페이지의 Captcha** - 이제 Captcha를 추가하여 봇으로 인한 스팸과 남용으로부터 랜딩 페이지를 보호할 수 있습니다. 이는 고객과의 상호 작용이 필요하지 않고 사이트와의 상호 작용을 기반으로 하기 때문에 고객을 방해하지 않습니다. [자세히 알아보기](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=ko){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## 7월 릴리스 정보 {#24-7-release}

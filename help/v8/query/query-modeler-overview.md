@@ -6,7 +6,7 @@ exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 14%
+ht-degree: 17%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="새 규칙 빌더"
->abstract="이제 개선된 사용자 인터페이스에서 복잡한 조건을 정의하는 데 도움이 되는 새로운 규칙 빌더를 사용할 수 있습니다. 필요에 따라 이전 규칙 빌더에서 새 규칙 빌더로 전환할 수 있습니다."
+>abstract="이제 개선된 사용자 인터페이스에서 복잡한 조건을 정의하는 데 도움이 되는 새로운 규칙 작성기를 사용할 수 있습니다. 필요에 따라 이전 규칙 빌더에서 새로운 규칙 빌더로 전환할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]

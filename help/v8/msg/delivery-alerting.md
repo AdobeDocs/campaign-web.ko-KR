@@ -2,8 +2,12 @@
 audience: end-user
 title: 게재 알림
 description: 게재 경고 작업 방법을 알아봅니다.
+hidefromtoc: true
+hide: true
+robots: noindex
+googlebot: noindex
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 2%
@@ -16,7 +20,7 @@ ht-degree: 2%
 
 알림은 Adobe Campaign 웹 사용자 인터페이스를 통해 정의된 특정 경고 기준에 따라 사용자 정의됩니다.
 
-게재 실패 관리에 대한 자세한 내용은 [Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}를 참조하세요.
+게재 실패 관리에 대한 자세한 내용은 [Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}를 참조하세요.
 
 ## 이메일 알림 콘텐츠 {#content}
 

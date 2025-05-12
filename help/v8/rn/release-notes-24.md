@@ -2,9 +2,9 @@
 title: Campaign v8 Web 사용자 인터페이스 이전 릴리스 정보
 description: 2024 Campaign Web 사용자 인터페이스 릴리스
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
-workflow-type: ht
-source-wordcount: '2501'
+source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
+workflow-type: tm+mt
+source-wordcount: '2470'
 ht-degree: 100%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>메시지를 작성하고 개인화한 후에는 Adobe Campaign Web의 AI 어시스턴트를 사용하여 콘텐츠를 개선할 수 있습니다. 이 강력한 도구를 사용하면 다양한 매력적인 텍스트, 메인 제목 및 시각적으로 매력적인 이미지를 생성하여 콘텐츠의 영향을 최적화할 수 있습니다.</p>
-<p><a href="https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator">실시간 기능 미리보기</a>를 통해 직접 기능을 살펴보고 성능을 완벽하게 이해해 보십시오</a>.</p>
+<p><a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator">실시간 기능 미리보기</a>를 통해 직접 기능을 살펴보고 성능을 완벽하게 이해해 보십시오</a>.</p>
 <p>자세한 내용은 <a href="../email/generative-gs.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
 <p>가용 일자: 9월 12일</p>
@@ -122,7 +122,7 @@ ht-degree: 100%
 * **랜딩 페이지의 Captcha** - 이제 Captcha를 추가하여 봇으로 인한 스팸과 남용으로부터 랜딩 페이지를 보호할 수 있습니다. 이는 고객과의 상호 작용이 필요하지 않고 사이트와의 상호 작용을 기반으로 하기 때문에 고객을 방해하지 않습니다. [자세히 알아보기](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=ko){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## 7월 릴리스 정보 {#24-7-release}
@@ -168,9 +168,9 @@ ht-degree: 100%
 
 다음은 6월 릴리스 이후 모든 사용자가 이용할 수 있는 기능 및 개선 사항입니다.
 
-### 게재 알림 {#24-6-3}
+<!--### Delivery alerting {#24-6-3}
 
-게재 경고 기능은 사용자 그룹이 게재 실행에 대한 정보가 포함된 알림을 자동으로 수신할 수 있는 경고 관리 시스템입니다. [자세히 보기](../msg/delivery-alerting.md)
+The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)-->
 
 ### 플랜 및 프로그램 {#24-6-4}
 

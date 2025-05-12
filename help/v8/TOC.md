@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: dca4b86cc3317ce7de1aa7975449456ed16d1e91
-workflow-type: ht
-source-wordcount: '822'
-ht-degree: 100%
+source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
+workflow-type: tm+mt
+source-wordcount: '828'
+ht-degree: 99%
 
 ---
 
@@ -127,7 +127,9 @@ ht-degree: 100%
       + [AI를 활용한 푸시 알림 생성](email/generative-push.md)
       + [AI를 활용한 랜딩페이지 생성](email/generative-lp.md)
       + [AI 어시스턴트 사용 사례](email/generative-uc.md)
-      + [브랜드 생성 및 관리 (Beta)](content/brands.md)
+      + 브랜드(베타) {#ai-assistant}
+         + [브랜드 만들기 및 관리](content/brands.md)
+         + [브랜드 정렬 점수 평가](content/brands-score.md)
 + 랜딩 페이지 {#landing-pages}
    + [랜딩 페이지 시작하기](landing-pages/get-started-lp.md)
    + [랜딩 페이지 만들기 및 게시하기](landing-pages/create-lp.md)

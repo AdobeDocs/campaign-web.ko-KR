@@ -2,10 +2,10 @@
 title: Campaign v8 Web 사용자 인터페이스 릴리스 정보
 description: 최신 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: e825b7859bff299906725eddf3ba014ed0b5e1b7
-workflow-type: ht
-source-wordcount: '689'
-ht-degree: 100%
+source-git-commit: b730eeeaab5bfc87e8c9c10b6e25bed0e484fb64
+workflow-type: tm+mt
+source-wordcount: '737'
+ht-degree: 94%
 
 ---
 
@@ -20,10 +20,28 @@ Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대�
 
 이전 릴리스를 통해 이용할 수 있는 변경 사항 및 개선 사항은 [2024](release-notes-24.md) 및 [2025](release-notes-25.md)에 나열되어 있습니다.
 
+## 2025년 5월 업데이트 {#25-5-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>브랜드 정렬 점수(Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>브랜드 정렬 점수 기능은 이메일 디자이너에서 직접 명확한 피드백을 제공하여 콘텐츠가 브랜드의 색조, 스타일 및 지침에 맞는지 여부를 확인하는 데 도움이 됩니다. 이 기능은 Beta에서 사용할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../content/brands-score.md">세부 설명서</a>를 참조하십시오.</p>
+<img src="assets/do-not-localize/brand-score.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
 ## 2025년 4월 릴리스 {#25-4-release}
 
 **릴리스 일자**: 2025년 4월 29일
-
 
 ### 새로운 기능 {#25-4-features}
 
@@ -111,7 +129,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >다음 기능은 제한 공개(LA)로 제공됩니다. **Adobe Campaign Standard에서 Adobe Campaign v8로** 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다. 해당 고객은 Campaign 서버를 v8.7.4로 업그레이드해야 합니다.
 >
->[Campaign Standard에서 Campaign v8로의 전환](../rn/acs-migration.md) 및 [Campaign Standard 사용자를 위한 기능](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ko) 설명서 페이지를 참조하십시오.
+>[Campaign Standard에서 Campaign v8로의 전환](../rn/acs-migration.md) 및 [Campaign Standard 사용자를 위한 기능](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html) 설명서 페이지를 참조하십시오.
 
 * **다국어 게재 생성** - 이제 Adobe Campaign Web 사용자 인터페이스에서 다양한 언어로 여러 이메일 게재를 전송할 수 있습니다. 다국어 게재 기능을 사용하면 게재의 기본 언어는 물론, 게재를 전송할 수 있는 다양한 언어를 선택할 수 있습니다. 선택한 언어로 게재 내용을 미리 볼 수도 있습니다. 자세한 내용은 [세부 설명서](../email/edit-content.md)를 참조하십시오.
 

@@ -2,7 +2,7 @@
 title: ' [!DNL Campaign] 옵션 구성'
 description: Campaign 옵션을 구성하고 고유한 사용자 지정 옵션을 만드는 방법을 알아봅니다.
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
+source-git-commit: 10a43da9df57a32f987b3d4c51bea91da10cbf92
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 5%
@@ -24,7 +24,6 @@ ht-degree: 5%
 Adobe Campaign 웹에는 애플리케이션을 보다 구체적으로 구성할 수 있는 기술 옵션이 포함되어 있습니다. 이러한 옵션 중 일부는 내장되어 있으며, 다른 옵션은 필요에 따라 수동으로 추가할 수 있습니다.
 
 >[!IMPORTANT]
->\
 >기본 제공 옵션은 사전 구성되어 있으며 고급 사용자만 수정해야 합니다. 질문이 있거나 요청이 있는 경우 Adobe 담당자에게 문의하십시오.
 
 ## Campaign 옵션 액세스 {#access}
@@ -35,8 +34,7 @@ Adobe Campaign 웹에는 애플리케이션을 보다 구체적으로 구성할 
 [관리/옵션 메뉴에 표시되는 옵션 목록]
 
 >[!NOTE]
->\
->Adobe Campaign 콘솔과 웹 사용자 인터페이스 간에 옵션 메뉴 위치가 다르지만 목록은 동일하며 거울처럼 작동합니다. 사용 가능한 옵션에 대한 자세한 내용은 [Campaign v7 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}의 옵션 목록을 참조하십시오.
+>Adobe Campaign 콘솔과 웹 사용자 인터페이스 간에 옵션 메뉴 위치가 다르지만 목록은 동일하며 거울처럼 작동합니다. 사용 가능한 옵션에 대한 자세한 내용은 [Campaign v7 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}의 옵션 목록을 참조하십시오.
 
 옵션 목록에서 다음을 수행할 수 있습니다.
 

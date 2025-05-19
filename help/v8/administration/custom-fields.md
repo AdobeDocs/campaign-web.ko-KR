@@ -43,7 +43,7 @@ ht-degree: 23%
 >title="속성 설정"
 >abstract="속성 설정"
 
-사용자 지정 필드는 Adobe Campaign 콘솔을 통해 기본 스키마에 추가된 추가 속성입니다. 조직의 요구 사항에 맞게 새 속성을 포함하여 스키마를 사용자 지정할 수 있습니다. [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=ko){target="_blank"}에서 스키마를 확장하는 방법을 알아보세요.
+사용자 지정 필드는 Adobe Campaign 콘솔을 통해 기본 스키마에 추가된 추가 속성입니다. 조직의 요구 사항에 맞게 새 속성을 포함하여 스키마를 사용자 지정할 수 있습니다. [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}에서 스키마를 확장하는 방법을 알아보세요.
 
 사용자 지정 필드는 Campaign 웹 인터페이스의 프로필 세부 사항과 같은 다양한 화면에 표시할 수 있습니다. 관리자는 표시되는 필드와 표시 방법을 제어할 수 있습니다. 이러한 변경 사항은 모든 Campaign 사용자에게 적용됩니다.
 
@@ -122,7 +122,7 @@ ht-degree: 23%
 
   ![사용자 지정 필드에 대한 필터 설정의 예를 보여 주는 스크린샷](assets/custom-fields-ref.png)
 
-  +++
++++
 
 * **[!UICONTROL 두 열 분산]**: 기본적으로 사용자 지정 필드는 두 열로 인터페이스에 표시됩니다. 이 옵션을 켜짐으로 토글하면 사용자 정의 필드가 두 개의 열 대신 전체 폭 화면으로 표시됩니다.
 

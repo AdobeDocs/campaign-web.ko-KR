@@ -6,7 +6,7 @@ exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
 source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
->title="콜 센터 채널"
->abstract="이제 Campaign Web 사용자 인터페이스에서 콜센터 채널을 사용할 수 있습니다. 이 채널은 콜센터를 통해 처리되는 통신을 관리 및 추적하기 위해 사용되는 통신 방법을 의미한다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+>title="콜센터 채널"
+>abstract="이제 Campaign Web 사용자 인터페이스에서 콜센터 채널을 사용할 수 있습니다. 이 채널은 콜센터를 통해 처리되는 커뮤니케이션을 관리하고 추적하는 데 사용되는 커뮤니케이션 방식을 말합니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
 
 콜센터 채널을 사용하면 Adobe Campaign Web UI에서 바로 아웃바운드 통화 캠페인을 위한 대상 연락처 목록을 내보낼 수 있습니다. 이를 사용하여 내부 팀이나 외부 연락 센터를 통해 통화를 조정할 수 있습니다.
 

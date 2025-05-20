@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web 사용자 인터페이스의 권한 관리
 description: Campaign Web 사용자 인터페이스의 권한에 대해 자세히 알아보기
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: 692a9badf72e465791e6f964d02753e7f1a25713
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 80%
 
 ---
 
@@ -37,6 +37,12 @@ Adobe Campaign에서 권한을 설정하는 자세한 절차는 [Adobe Campaign 
 권한을 직접 클릭하여 **[!UICONTROL 허용]** 또는 **[!UICONTROL 거부됨]**&#x200B;으로 변경할 수 있습니다.
 
 ![폴더 보안 설정에서 거부된 권한의 예](assets/folder_security_denied.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>쓰기 권한이 있는 폴더가 하나 이상 없는 객체를 만들 수 없습니다.
+>
+>관리자가 아니어도 조각을 만들 수 있지만 적어도 하나의 &quot;콘텐츠 시각적 조각&quot; 폴더에 대한 쓰기 권한이 있어야 합니다. 그렇지 않으면 시각적 조각을 만들 수 없습니다.
 
 **[!UICONTROL 전파]** 옵션이 활성화되면 폴더에 정의된 모든 권한이 모든 하위 폴더에 적용됩니다. 이러한 권한은 각 하위 폴더에 대해 재정의될 수 있습니다.
 

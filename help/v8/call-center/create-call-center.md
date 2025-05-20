@@ -3,14 +3,14 @@ audience: end-user
 title: 콜 센터 게재 만들기
 description: Adobe Campaign 웹을 사용하여 콜 센터 게재를 만드는 방법을 알아봅니다
 exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
-source-git-commit: c22011fcc25592bfda2999630bb91e311d85fb1a
+source-git-commit: 1581943b0f13cbd4296e1f42fae8560626b61bdf
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 3%
+source-wordcount: '756'
+ht-degree: 4%
 
 ---
 
-# 콜 센터 게재 만들기 및 보내기 {#create-call-center}
+# 콜센터 게재 만들기 및 전송 {#create-call-center}
 
 독립 실행형 콜 센터 게재를 만들거나 캠페인 워크플로우의 컨텍스트에서 콜 센터 게재를 만들 수 있습니다. 아래 단계에서는 독립 실행형(일회성) 게재 절차를 자세히 설명합니다. 캠페인 워크플로우의 컨텍스트에서 작업하는 경우 만들기 단계는 [이 섹션](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)에 자세히 설명되어 있습니다.
 
@@ -62,7 +62,7 @@ ht-degree: 3%
 >
 >콜센터 수신자는 최소한 이름과 전화 번호를 포함해야 합니다. 정보가 불완전한 수신자는 콜센터 게재에서 제외됩니다.
 >
->컨트롤 그룹을 구성하는 방법을 알아보려면 이 [페이지](../audience/control-group.md)를 참조하세요.
+>컨트롤 그룹을 구성하는 방법에 대해 알아보려면 이 [페이지](../audience/control-group.md)를 참조하세요.
 
 ## 콘텐츠 편집{#edit-content}
 
@@ -72,7 +72,7 @@ ht-degree: 3%
 
    ![콜 센터 게재용 콘텐츠 편집을 보여 주는 스크린샷](assets/cc-content0.png){zoomable="yes"}
 
-1. **[!UICONTROL 파일 이름]** 필드를 지정하십시오. 파일 이름을 개인화하는 방법을 알아보려면 이 [페이지](../personalization/personalize.md)를 참조하세요.
+1. **[!UICONTROL 파일 이름]**&#x200B;을(를) 지정하십시오. 파일 이름을 개인화하는 방법을 알아보려면 이 [페이지](../personalization/personalize.md)를 참조하세요.
 
 1. **[!UICONTROL 파일 형식]**: **텍스트**, **고정 너비 열을 사용하는 텍스트**, **CSV(Excel)** 또는 **XML**&#x200B;을 선택합니다.
 
@@ -120,7 +120,7 @@ ht-degree: 3%
 
 1. **[!UICONTROL 보내기]**&#x200B;를 클릭하여 최종 전송 프로세스를 진행한 다음 확인합니다.
 
-게재를 전송하면 추출 파일이 자동으로 생성되고 게재 템플릿의 [고급 설정](../advanced-settings/delivery-settings.md)에서 선택한 **[!UICONTROL 라우팅]** 외부 계정에 지정된 위치로 내보내집니다.
+게재를 전송하면 추출 파일이 자동으로 생성되고 게재 템플릿의 [고급 설정](../advanced-settings/delivery-settings.md)에서 선택한 **[!UICONTROL 라우팅]** 외부 계정에 지정된 위치로 내보내집니다. 화면의 **콘텐츠** 섹션에서 **파일 미리 보기** 단추를 클릭하여 파일을 미리 볼 수도 있습니다.
 
 게재 페이지의 KPI(주요 성능 지표) 데이터와 **[!UICONTROL 로그]** 메뉴의 데이터를 추적합니다.
 

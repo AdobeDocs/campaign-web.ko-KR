@@ -27,7 +27,7 @@ Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대�
 <table>
 <thead>
 <tr>
-<th><strong>브랜드 정렬 점수 (Beta)</strong><br/></th>
+<th><strong>브랜드 정렬 점수(Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>

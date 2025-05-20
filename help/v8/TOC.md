@@ -128,7 +128,7 @@ ht-degree: 99%
       + [AI를 활용한 푸시 알림 생성](email/generative-push.md)
       + [AI를 활용한 랜딩페이지 생성](email/generative-lp.md)
       + [AI 어시스턴트 사용 사례](email/generative-uc.md)
-      + 브랜드 (Beta) {#ai-assistant}
+      + 브랜드(Beta) {#ai-assistant}
          + [브랜드 만들기 및 관리](content/brands.md)
          + [브랜드 정렬 점수 평가](content/brands-score.md)
 + 랜딩 페이지 {#landing-pages}

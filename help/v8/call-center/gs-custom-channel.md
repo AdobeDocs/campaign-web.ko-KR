@@ -37,7 +37,7 @@ Adobe Campaign Web UI에서 직접 서드파티와 통합된 사용자 지정 �
 1. 새 라우팅 외부 계정을 만듭니다.
 1. 새 채널과 연결된 새 게재 템플릿을 만듭니다.
 
-자세한 내용은 [클라이언트 콘솔 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html)를 참조하세요.
+자세한 내용은 [클라이언트 콘솔 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=ko)를 참조하세요.
 
 ## 게재 만들기{#create-delivery}
 

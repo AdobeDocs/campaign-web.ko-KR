@@ -5,7 +5,7 @@ description: 이메일 콘텐츠를 처음부터 디자인하는 방법 알아�
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '651'
 ht-degree: 54%
 
 ---
@@ -110,4 +110,4 @@ ht-degree: 54%
 
 이메일 디자이너를 탐색하는 방법을 이해합니다. 이메일을 처음부터 구성하고 디자인하고, 개인화하고, 테스트하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453572/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

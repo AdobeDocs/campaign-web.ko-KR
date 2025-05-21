@@ -26,7 +26,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->스크립팅과 Adobe Campaign의 노출된 개체 및 변수에 대한 추가 정보는 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates)의 Campaign v8(클라이언트 콘솔) 설명서에서 확인할 수 있습니다.
+>스크립팅과 Adobe Campaign의 노출된 개체 및 변수에 대한 추가 정보는 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates)의 Campaign v8(클라이언트 콘솔) 설명서에서 확인할 수 있습니다.
 >
 >이 리소스는 중요한 통찰력을 제공하지만 Campaign 웹 사용자 인터페이스가 아닌 클라이언트 콘솔에 구체적으로 적용되므로 불일치가 존재할 수 있습니다.
 

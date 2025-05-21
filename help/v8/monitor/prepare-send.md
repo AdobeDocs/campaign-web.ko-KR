@@ -18,7 +18,7 @@ ht-degree: 31%
 
 게재를 준비하는 동안 대상 모집단을 계산하고 대상에 포함된 각 프로필에 대해 메시지 콘텐츠를 생성합니다. 준비가 완료되면 메시지를 즉시 또는 예약된 날짜 및 시간에 보낼 준비가 됩니다.
 
-게재를 준비하는 동안 사용되는 유효성 검사 규칙은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html?lang=ko){target="_blank"}에 설명되어 있습니다.
+게재를 준비하는 동안 사용되는 유효성 검사 규칙은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"}에 설명되어 있습니다.
 
 전송을 준비하는 주요 단계는 아래에 나와 있습니다.
 

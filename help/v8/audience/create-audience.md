@@ -5,7 +5,7 @@ description: Adobe Campaign 웹에서 대상자를 만드는 방법을 알아봅
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '924'
 ht-degree: 15%
 
 ---
@@ -98,4 +98,4 @@ Campaign 웹을 사용하면 시각적 워크플로우 캔버스에서 새 대�
 
 대상을 빌드 및 관리하고, 게재할 대상을 선택하고, 컨트롤 그룹을 정의하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453209?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)

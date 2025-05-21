@@ -26,7 +26,7 @@ Adobe Campaign 웹 사용자 인터페이스에서 **[!UICONTROL 감사 추적]*
 
 * **Source 스키마 감사 추적**&#x200B;을 통해 Campaign v8 클라이언트 콘솔에서 수행한 활동 및 스키마에 대한 최근 수정 사항을 모니터링할 수 있습니다.
 
-  스키마에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/shemas-forms/schemas)를 참조하세요.
+  스키마에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas)를 참조하세요.
 
 * **워크플로우 감사 추적**&#x200B;을 통해 다음과 같은 현재 상태를 포함하여 워크플로우에 대한 활동 및 최근 변경 사항을 추적할 수 있습니다.
 
@@ -43,7 +43,7 @@ Adobe Campaign 웹 사용자 인터페이스에서 **[!UICONTROL 감사 추적]*
 
 * **옵션 감사 추적**&#x200B;을 통해 Campaign v8에서 수행한 활동 및 최근 옵션 수정 사항을 모니터링할 수 있습니다.
 
-  옵션에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)를 참조하세요.
+  옵션에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)를 참조하세요.
 
 * **게재 감사 추적**&#x200B;을 통해 활동 및 게재에 대한 마지막 수정 사항을 확인할 수 있습니다.
 
@@ -55,11 +55,11 @@ Adobe Campaign 웹 사용자 인터페이스에서 **[!UICONTROL 감사 추적]*
 
 * **게재 매핑**&#x200B;을(를) 사용하면 Campaign v8에서 게재 매핑에 대한 활동 및 최근 수정 사항을 모니터링할 수 있습니다.
 
-  게재 매핑에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/add-profiles/target-mappings)를 참조하세요.
+  게재 매핑에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/target-mappings)를 참조하세요.
 
 * **웹 응용 프로그램**&#x200B;을(를) 사용하면 입력 및 선택 필드가 있는 페이지를 만드는 데 사용되는 Campaign v8에서 웹 폼에 대한 수정 사항과 데이터베이스의 데이터를 포함할 수 있는 수정 사항을 확인할 수 있습니다.
 
-  웹 응용 프로그램에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/content/webapps)를 참조하세요.
+  웹 응용 프로그램에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/webapps)를 참조하세요.
 
 * **오퍼**&#x200B;를 사용하면 활동 및 오퍼에 대한 마지막 수정 사항을 확인할 수 있습니다.
 
@@ -67,7 +67,7 @@ Adobe Campaign 웹 사용자 인터페이스에서 **[!UICONTROL 감사 추적]*
 
 * **연산자**&#x200B;을(를) 사용하면 Campaign v8에서 연산자에 대한 활동 및 최근 수정 사항을 모니터링할 수 있습니다.
 
-  연산자에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators)를 참조하세요.
+  연산자에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators)를 참조하세요.
 
 +++
 

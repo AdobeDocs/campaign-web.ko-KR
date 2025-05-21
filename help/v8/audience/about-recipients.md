@@ -4,7 +4,7 @@ description: Campaign 웹에서 프로필을 모니터링하고 관리하는 방
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '439'
 ht-degree: 14%
 
 ---
@@ -46,4 +46,4 @@ ht-degree: 14%
 
 Campaign 웹 사용자 인터페이스를 사용하여 프로필에 액세스, 관리 및 탐색하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448371?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)

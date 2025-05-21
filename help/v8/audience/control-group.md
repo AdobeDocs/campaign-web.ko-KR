@@ -5,7 +5,7 @@ description: Campaign 웹 사용자 인터페이스에서 메시지의 컨트롤
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '798'
 ht-degree: 21%
 
 ---

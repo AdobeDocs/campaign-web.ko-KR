@@ -16,7 +16,7 @@ ht-degree: 22%
 >id="acw_homepage_welcome_rn1"
 >title="새로운 규칙 빌더"
 >abstract="이제 개선된 사용자 인터페이스에서 복잡한 조건을 정의하는 데 도움이 되는 새로운 규칙 작성기를 사용할 수 있습니다. 필요에 따라 이전 규칙 빌더에서 새로운 규칙 빌더로 전환할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card5"

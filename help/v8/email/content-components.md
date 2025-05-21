@@ -160,7 +160,7 @@ ht-degree: 35%
 
 1. 에셋에서 이미지 파일을 선택하려면 **[!UICONTROL 찾아보기]**&#x200B;를 클릭하십시오. **[!UICONTROL 미디어 가져오기]**&#x200B;를 선택할 수도 있습니다.
 
-   Adobe Experience Manager에서 에셋을 업로드하고 추가하는 방법에 대한 자세한 내용은 [Adobe Experience Manager as a Cloud Service 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html)를 참조하세요.
+   Adobe Experience Manager에서 에셋을 업로드하고 추가하는 방법에 대한 자세한 내용은 [Adobe Experience Manager as a Cloud Service 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=ko)를 참조하세요.
 
    ![이메일 Designer의 이미지 구성 요소에 대한 검색 옵션을 보여 주는 스크린샷.](assets/email_designer_28.png){zoomable="yes"}
 

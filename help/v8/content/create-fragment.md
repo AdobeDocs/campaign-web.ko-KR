@@ -44,7 +44,7 @@ ht-degree: 21%
 
 콘텐츠 조각을 처음부터 만들려면 아래 단계를 수행합니다.
 
-1. [콘텐츠 관리&#x200B;]**>**[!UICONTROL &#x200B;조각&#x200B;]**왼쪽 메뉴를 통해 조각 목록에 액세스](#access-manage-fragments)하고**[!UICONTROL &#x200B;조각 만들기&#x200B;]**를 선택합니다.**[!UICONTROL 
+1. [콘텐츠 관리&#x200B;]&#x200B;**>**&#x200B;[!UICONTROL &#x200B;조각&#x200B;]&#x200B;**왼쪽 메뉴를 통해 조각 목록에 액세스(#access-manage-fragments)하고**&#x200B;[!UICONTROL &#x200B;조각 만들기&#x200B;]&#x200B;**를 선택합니다.**
 
    ![조각 만들기 옵션을 표시하는 조각 목록 화면](assets/fragments-list.png)
 

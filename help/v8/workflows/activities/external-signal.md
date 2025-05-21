@@ -51,7 +51,7 @@ ht-degree: 8%
 
      ![스크린샷은 레이블 옆에 워크플로의 내부 이름을 표시합니다.](../assets/external-signal-workflow-name.png)
 
-+++
+     +++
 
    * 워크플로우의 **[!UICONTROL 실행 옵션]**&#x200B;에 표시되는 **외부 신호 활동의 이름**&#x200B;입니다.
 
@@ -59,7 +59,7 @@ ht-degree: 8%
 
      ![스크린샷은 실행 옵션에 외부 신호 활동의 이름을 표시합니다.](../assets/external-signal-name.png)
 
-+++
+     +++
 
 1. 워크플로우를 트리거하려면 `PostEvent` JavaScript 함수를 실행합니다. 이 함수를 사용하면 선택한 값으로 변수를 전달하고 트리거된 워크플로우에서 사용할 수 있습니다.
 
@@ -79,6 +79,6 @@ ht-degree: 8%
 
    ![스크린샷은 PostEvent 함수를 사용하여 외부 신호 활동을 트리거하는 예를 보여 줍니다.](../assets/external-signal-sample.png)
 
-+++
+   +++
 
    * API 호출에서 **[!UICONTROL 외부 신호]** 활동을 트리거하려면 Campaign API 설명서에 설명된 단계를 따르십시오. [정적 `PostEvent` 메서드를 사용하는 방법을 알아봅니다](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html).

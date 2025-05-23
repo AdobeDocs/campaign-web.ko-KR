@@ -16,7 +16,7 @@ ht-degree: 22%
 >id="acw_homepage_welcome_rn1"
 >title="새로운 규칙 빌더"
 >abstract="이제 개선된 사용자 인터페이스에서 복잡한 조건을 정의하는 데 도움이 되는 새로운 규칙 작성기를 사용할 수 있습니다. 필요에 따라 이전 규칙 빌더에서 새로운 규칙 빌더로 전환할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card5"
@@ -69,7 +69,7 @@ Adobe Campaign 웹 사용자 인터페이스에는 다양한 기준을 기반으
 >[!CONTEXTUALHELP]
 >id="acw_rule_builder_switch_button"
 >title="새로운 규칙 빌더 경험"
->abstract="기존 쿼리 모델러와 새로운 규칙 빌더 경험 사이를 전환하려면 이 토글을 사용하십시오. 새로운 규칙 빌더는 간소화되고 직관적인 인터페이스를 통해 쿼리를 더 쉽게 작성할 수 있도록 해 줍니다."
+>abstract="이 토글을 사용하여 기존 쿼리 모델러와 새로운 규칙 빌더 경험 사이를 전환할 수 있습니다. 새로운 규칙 빌더를 사용하면 간결하고 직관적인 인터페이스를 통해 쿼리를 더 쉽게 작성할 수 있습니다."
 
 ![쿼리 모델러 인터페이스를 표시하는 이미지](assets/query-interface.png){zoomable="yes"}
 

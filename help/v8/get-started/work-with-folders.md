@@ -3,9 +3,9 @@ audience: end-user
 title: 폴더 작업
 description: Adobe Campaign에서 폴더를 관리하는 방법 알아보기
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
-source-wordcount: '626'
+source-git-commit: 5f9cc8915f2897ebc14d571357773fef057cf9c1
+workflow-type: tm+mt
+source-wordcount: '628'
 ht-degree: 100%
 
 ---
@@ -31,6 +31,11 @@ ht-degree: 100%
 >id="acw_folder_schedule"
 >title="폴더 일정"
 >abstract="폴더 일정"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_favorites"
+>title="즐겨찾기"
+>abstract="즐겨찾기"
 
 ## 폴더 정보 {#about-folders}
 

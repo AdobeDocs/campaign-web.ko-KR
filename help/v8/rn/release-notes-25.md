@@ -2,7 +2,7 @@
 title: Campaign v8 Web 사용자 인터페이스 이전 릴리스 정보
 description: 2025 Campaign Web 사용자 인터페이스 릴리스
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: a0ca24df649cc5bdca6d58a6519ffb03b2234cb4
+source-git-commit: 8ec342d565bc8418c202cdba834d74a99cff3a47
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 98%
@@ -31,7 +31,7 @@ ht-degree: 98%
 <tr>
 <td>
 <p>이제 Campaign Web 사용자 인터페이스에서 콜센터 채널을 사용할 수 있습니다. 이 채널은 콜센터를 통해 처리되는 커뮤니케이션 또는 상호 작용을 관리하고 추적하는 데 사용되는 커뮤니케이션 방식을 의미합니다. 일반적으로 상담원이 고객이나 잠재 고객에게 전화를 거는 경우에 사용됩니다.</p>
-<p>참고: 웹 UI에서 콜 센터 채널에 대한 보고를 사용할 수 없습니다. 보고서에 액세스하려면 클라이언트 콘솔로 이동해야 합니다.</p></td>
+<p>참고: 웹 UI에서 콜 센터 채널에 대한 보고를 사용할 수 없습니다. 보고서에 액세스하려면 클라이언트 콘솔로 이동해야 합니다.</p>
 <img src="assets/do-not-localize/call-center.gif">
 <p>자세한 내용은 <a href="../call-center/gs-call-center.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -104,7 +104,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >다음 기능은 제한 공개(LA)로 제공됩니다. **Adobe Campaign Standard에서 Adobe Campaign v8로** 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다. 해당 고객은 Campaign 서버를 v8.7.4로 업그레이드해야 합니다.
 >
->[Campaign Standard에서 Campaign v8로의 전환](../rn/acs-migration.md) 및 [Campaign Standard 사용자를 위한 기능](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ko) 설명서 페이지를 참조하십시오.
+>[Campaign Standard에서 Campaign v8로의 전환](../rn/acs-migration.md) 및 [Campaign Standard 사용자를 위한 기능](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html) 설명서 페이지를 참조하십시오.
 
 * **다국어 게재 생성** - 이제 Adobe Campaign Web 사용자 인터페이스에서 다양한 언어로 여러 이메일 게재를 전송할 수 있습니다. 다국어 게재 기능을 사용하면 게재의 기본 언어는 물론, 게재를 전송할 수 있는 다양한 언어를 선택할 수 있습니다. 선택한 언어로 게재 내용을 미리 볼 수도 있습니다. 자세한 내용은 [세부 설명서](../email/edit-content.md)를 참조하십시오.
 

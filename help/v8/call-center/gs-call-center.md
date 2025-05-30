@@ -4,9 +4,9 @@ title: 콜센터 채널 시작하기
 description: Adobe Campaign Web을 사용하여 콜센터 게재를 만들고 전송하는 방법 알아보기
 exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
 source-git-commit: ffd0075e79a94443df4a957ee4a72da37476b21b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 81%
 >id="acw_homepage_welcome_rn2"
 >title="콜센터 채널"
 >abstract="이제 Campaign Web 사용자 인터페이스에서 콜센터 채널을 사용할 수 있습니다. 이 채널은 콜센터를 통해 처리되는 커뮤니케이션을 관리하고 추적하는 데 사용되는 커뮤니케이션 방식을 말합니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
 
 콜센터 채널을 사용하면 Adobe Campaign Web UI에서 바로 아웃바운드 통화 캠페인을 위한 대상 연락처 목록을 내보낼 수 있습니다. 이를 사용하여 내부 팀이나 외부 연락 센터를 통해 통화를 조정할 수 있습니다.
 
-워크플로우에서 또는 독립 실행형 게재로 콜 센터 게재를 구성하고, 대상자를 정의하고, 필요한 모든 연락처 및 개인화 데이터를 사용하여 사용자 정의 가능한 내보내기 파일을 생성할 수 있습니다.
+워크플로 또는 독립 실행형 게재로 콜센터 게재를 구성하고, 대상자를 정의하고, 모든 필수 연락처 및 개인화 데이터가 포함된 사용자 정의 가능 내보내기 파일을 생성할 수 있습니다.
 
 이 채널은 리드 후속 조치, 고객 유지 통화 또는 서비스 안내에 적합하며, 개인화된 음성 상호 작용으로 옴니채널 전략을 확장하는 데 도움이 됩니다.
 
 >[!NOTE]
 >
->웹 UI에서 콜 센터 채널에 대한 보고를 사용할 수 없습니다. 보고서에 액세스하려면 클라이언트 콘솔로 이동해야 합니다.
+>콜센터 채널의 경우 Web UI에서 보고 기능을 사용할 수 없습니다. 보고서에 액세스하려면 클라이언트 콘솔로 이동해야 합니다.
 
 콜센터 채널은 다음 중 한 가지 방법으로 사용할 수 있습니다.
 

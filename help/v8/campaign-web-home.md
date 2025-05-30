@@ -4,9 +4,9 @@ description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 2c79d81c70d86a3b7c626389870d921ee378bd67
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -52,18 +52,18 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 >[!BEGINTABS]
 
 
->[!TAB 25년 5월 릴리스]
+>[!TAB 2025년 5월 릴리스]
 
-새로운 사용자 지정 채널, 브랜드 정렬 점수 및 유형화 규칙 개선 사항을 포함하여 5월 릴리스가 이제 활성 상태입니다.
+5월 릴리스가 출시되었으며, 새로운 사용자 정의 채널, 브랜드 정렬 점수, 유형화 규칙 개선 사항이 포함되어 있습니다.
 
 [![자세히 알아보기 버튼](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
 >[!TAB AI 어시스턴트]
 
-✨ 기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 디자인된 [AI Assistant](../v8/email/generative-gs.md) 실시간 기능 미리 보기를 통해 실습 경험에 몰입하십시오.
+✨ 기능을 직접 살펴보고 성능을 완벽하게 이해할 수 있도록 설계된 [AI 어시스턴트](../v8/email/generative-gs.md)의 실시간 기능 미리보기로 직접 체험해 보십시오.
 
-[![자세히 알아보기 버튼](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![자세히 알아보기 버튼](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB FAQ]
 

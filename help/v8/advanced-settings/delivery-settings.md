@@ -4,15 +4,23 @@ title: 게재 설정 구성
 description: Campaign 웹에서 게재 설정을 구성하는 방법 알아보기
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 3adf28810800c3059e63ec3af675690318051f56
 workflow-type: tm+mt
-source-wordcount: '2765'
+source-wordcount: '2800'
 ht-degree: 46%
 
 ---
 
 
 # 게재 설정 구성 {#del-settings}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_delivery_settings"
+>title="SMS 게재 설정"
+>abstract="SMS 게재 매개 변수는 SMS 게재에 적용되는 기술 설정입니다. 발신자 주소, 서비스 매개변수, 전송 모드 등을 정의할 수 있습니다. 이 옵션은 숙련된 사용자로만 제한됩니다."
+
+
 
 배달 설정은 배달 템플릿에 정의된 **기술 배달 매개 변수**&#x200B;입니다. 각 게재에 대해 오버로드될 수 있습니다. 이러한 설정은 게재 또는 게재 템플릿을 편집할 때 사용할 수 있는 **설정** 단추에서 사용할 수 있습니다.
 
@@ -72,7 +80,7 @@ ht-degree: 46%
 
 >[!NOTE]
 >
->피로도 관리 및 압력 규칙은 Campaign 클라이언트 콘솔에 구성됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ko){target="_blank"}를 참조하세요.
+>피로도 관리 및 압력 규칙은 Campaign 클라이언트 콘솔에 구성됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}를 참조하세요.
 
 ### 수용작업량 설정 {#capacity-settings}
 
@@ -92,7 +100,7 @@ ht-degree: 46%
 
 >[!NOTE]
 >
->유형화 규칙은 Campaign 클라이언트 콘솔에 구성됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=ko){target="_blank"}를 참조하세요.
+>유형화 규칙은 Campaign 클라이언트 콘솔에 구성됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}를 참조하세요.
 
 ## 대상자 설정 {#audience}
 
@@ -103,13 +111,13 @@ ht-degree: 46%
 
 이 섹션에서는 사용 가능한 **대상 매핑** 중 원하는 옵션을 선택할 수 있습니다. 대상 매핑은 Adobe Campaign v8 콘솔에서 정의됩니다. 대상 매핑은 작업에서 처리하는 데이터 유형입니다. 대상 모집단(수신자, 계약 수혜자, 운영자, 구독자 등)을 정의할 수 있습니다. [대상 매핑에 대해 자세히 알아보기](../audience/targeting-dimensions.md).
 
-**[!UICONTROL 제외]** 필드에서 더 이상 연락을 원치 않거나 격리된 프로필을 제외하도록 선택할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=ko){target="_blank"}
+**[!UICONTROL 제외]** 필드에서 더 이상 연락을 원치 않거나 격리된 프로필을 제외하도록 선택할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## 게재 {#delivery}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
->title="게재에 대한 게재 설정"
+>title="게재에 대한 전역 설정"
 >abstract="게재 매개변수는 게재에 적용되는 기술 설정입니다. 게재 및 일반 모드를 변경하고, 이메일 BCC를 활성화하고, 예약된 일괄 처리를 사용하여 전송하고, 전송된 이메일 메시지의 형식을 선택할 수도 있습니다. 이 옵션은 숙련된 사용자로만 제한됩니다."
 
 **[!UICONTROL 게재]** 매개 변수는 게재에 적용되는 기술 설정입니다.
@@ -130,7 +138,7 @@ ht-degree: 46%
 
 * **[!UICONTROL SMTP 배달 테스트]**(전자 메일 채널): 이 옵션은 SMTP를 통한 전송을 테스트하는 데 사용됩니다. 전자 메일은 SMTP 서버 연결까지 처리되지만 전송되지 않습니다. 전자 메일의 모든 수신자에 대해 Campaign은 SMTP 공급자 서버에 연결하고 SMTP RCPT TO 명령을 실행하고 SMTP DATA 명령 전에 연결을 닫습니다.
 
-* **[!UICONTROL 전자 메일 BCC]**(전자 메일 채널): 이 옵션은 메시지 대상에 BCC 전자 메일 주소를 추가하여 BCC를 통해 외부 시스템에 전자 메일을 저장하는 데 사용됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=ko){target="_blank"}를 참조하세요.
+* **[!UICONTROL 전자 메일 BCC]**(전자 메일 채널): 이 옵션은 메시지 대상에 BCC 전자 메일 주소를 추가하여 BCC를 통해 외부 시스템에 전자 메일을 저장하는 데 사용됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}를 참조하세요.
 
 **[!UICONTROL 웨이브 정의]** 섹션에서 **[!UICONTROL 여러 웨이브를 사용하여 보내기]** 옵션을 선택하여 웨이브를 사용하여 보낸 볼륨을 점진적으로 늘립니다. 이렇게 하면 메시지가 스팸으로 표시되거나 하루에 메시지 수를 제한하려는 경우를 방지할 수 있습니다. 웨이브를 사용하여 동시에 대량의 메시지를 전송하는 대신 게재를 여러 배치로 나눌 수 있습니다. [자세히 알아보기](send-using-waves.md)
 
@@ -159,7 +167,7 @@ ht-degree: 46%
 
 >[!NOTE]
 >
->웹 분석 기능은 Campaign 클라이언트 콘솔에서 구성됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=ko#external-account-ac){target="_blank"}를 참조하세요.
+>웹 분석 기능은 Campaign 클라이언트 콘솔에서 구성됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}를 참조하세요.
 
 ## 재시도 {#retries}
 
@@ -228,7 +236,7 @@ ht-degree: 46%
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 
-[Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ko#validity-period){target="_blank"}에서 게재 유효 기간에 대해 자세히 알아보세요.
+[Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}에서 게재 유효 기간에 대해 자세히 알아보세요.
 
 ### 미러 페이지 관리(이메일 채널) {#mirror}
 

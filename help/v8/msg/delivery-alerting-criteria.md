@@ -2,15 +2,11 @@
 audience: end-user
 title: 게재 알림
 description: 게재 경고 작업 방법을 알아봅니다.
-hidefromtoc: true
-hide: true
-robots: noindex
-googlebot: noindex
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
+source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 24%
+source-wordcount: '741'
+ht-degree: 26%
 
 ---
 
@@ -26,6 +22,10 @@ Campaign 웹 사용자 인터페이스는 처리량이 낮은 게재 또는 준�
 경고 기준은 왼쪽 탐색 창의 **기준** 탭 아래에 있는 **게재 경고** 메뉴에서 액세스할 수 있습니다.
 
 ![게재 경고 메뉴에 표시된 경고 조건 목록](assets/alerting-criteria-list.png)
+
+>[!AVAILABILITY]
+>
+>이 기능은 LA(Limited Availability)에 있습니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 
 ## 사전 정의된 경고 기준 {#ootb-criteria}
 

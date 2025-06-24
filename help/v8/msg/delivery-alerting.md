@@ -2,15 +2,11 @@
 audience: end-user
 title: 게재 알림
 description: 게재 경고 작업 방법을 알아봅니다.
-hidefromtoc: true
-hide: true
-robots: noindex
-googlebot: noindex
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
+source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 2%
+source-wordcount: '344'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +16,11 @@ ht-degree: 2%
 
 알림은 Adobe Campaign 웹 사용자 인터페이스를 통해 정의된 특정 경고 기준에 따라 사용자 정의됩니다.
 
-게재 실패 관리에 대한 자세한 내용은 [Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}를 참조하세요.
+게재 실패 관리에 대한 자세한 내용은 [Adobe Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}를 참조하세요.
+
+>[!AVAILABILITY]
+>
+>이 기능은 LA(Limited Availability)에 있습니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 
 ## 이메일 알림 콘텐츠 {#content}
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 쿼리 모델러로 작업
 description: Adobe Campaign 웹 쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: dfe670447ed3f1e09191460e8ac6aceee9035bb2
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 22%
@@ -16,7 +16,7 @@ ht-degree: 22%
 >id="acw_homepage_welcome_rn1"
 >title="새로운 규칙 빌더"
 >abstract="이제 개선된 사용자 인터페이스에서 복잡한 조건을 정의하는 데 도움이 되는 새로운 규칙 작성기를 사용할 수 있습니다. 필요에 따라 이전 규칙 빌더에서 새로운 규칙 빌더로 전환할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card5"
@@ -43,12 +43,12 @@ Adobe Campaign 웹 사용자 인터페이스에는 다양한 기준을 기반으
 
 | 사용 | 예제 |
 |  ---  |  ---  |
-| **대상 정의**: 메시지 또는 워크플로에서 타겟팅할 모집단을 지정하고 필요에 맞는 새 대상을 쉽게 만들 수 있습니다. [대상자를 만드는 방법을 알아봅니다](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [대상 만들기 인터페이스에 액세스하는 방법을 보여 주는 이미지] |
-| **워크플로 활동 사용자 지정**: **분할** 및 **조정**&#x200B;과 같은 워크플로 활동 내에 규칙을 적용하여 특정 요구 사항에 맞게 조정하십시오. [워크플로우 활동에 대해 자세히 알아보기](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [워크플로 사용자 지정 옵션에 액세스하는 방법을 보여 주는 이미지] |
-| **미리 정의된 필터**: 데이터 목록을 사용하거나 게재 대상을 구성하는 등 다양한 필터링 작업 중에 바로 가기 역할을 하는 미리 정의된 필터를 만듭니다. [미리 정의된 필터로 작업하는 방법을 알아봅니다](../get-started/predefined-filters.md) | ![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [미리 정의된 필터에 액세스하는 방법을 보여 주는 이미지] |
-| **보고서 데이터 필터링**: 보고서에 표시된 데이터를 필터링할 규칙을 추가합니다. [보고서 작업 방법 알아보기](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [보고서에서 데이터를 필터링하는 방법을 보여 주는 이미지] |
-| **목록 사용자 지정**: 사용자 지정 규칙을 만들어 수신자 또는 게재 목록과 같은 목록에 표시되는 데이터를 필터링합니다. [목록을 필터링하는 방법 알아보기](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [목록 필터를 사용자 지정하는 방법을 보여 주는 이미지] |
-| **조건부 콘텐츠 빌드**: 다른 수신자에게 표시할 콘텐츠를 정의하는 조건을 만들어 개인화되고 관련 있는 메시징을 보장하여 이메일 콘텐츠를 동적으로 만듭니다. [조건부 콘텐츠를 만드는 방법을 알아봅니다](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"} [조건부 콘텐츠를 만드는 방법을 보여 주는 이미지] |
+| **대상 정의**: 메시지 또는 워크플로에서 타겟팅할 모집단을 지정하고 필요에 맞는 새 대상을 쉽게 만들 수 있습니다. [대상자를 만드는 방법을 알아봅니다](../audience/one-time-audience.md) | ![대상 만들기 인터페이스에 액세스하는 방법을 보여 주는 이미지](assets/access-audience.png){width="200" align="center" zoomable="yes"} |
+| **워크플로 활동 사용자 지정**: **분할** 및 **조정**&#x200B;과 같은 워크플로 활동 내에 규칙을 적용하여 특정 요구 사항에 맞게 조정하십시오. [워크플로우 활동에 대해 자세히 알아보기](../workflows/activities/about-activities.md) | ![워크플로 사용자 지정 옵션에 액세스하는 방법을 보여 주는 이미지](assets/access-workflow.png){width="200" align="center" zoomable="yes"} |
+| **미리 정의된 필터**: 데이터 목록을 사용하거나 게재 대상을 구성하는 등 다양한 필터링 작업 중에 바로 가기 역할을 하는 미리 정의된 필터를 만듭니다. [미리 정의된 필터로 작업하는 방법을 알아봅니다](../get-started/predefined-filters.md) | 미리 정의된 필터에 액세스하는 방법을 보여 주는 ![이미지](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"} |
+| **보고서 데이터 필터링**: 보고서에 표시된 데이터를 필터링할 규칙을 추가합니다. [보고서 작업 방법 알아보기](../reporting/gs-reports.md) | 보고서에서 데이터를 필터링하는 방법을 보여 주는 ![이미지](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
+| **목록 사용자 지정**: 사용자 지정 규칙을 만들어 수신자 또는 게재 목록과 같은 목록에 표시되는 데이터를 필터링합니다. [목록을 필터링하는 방법 알아보기](../get-started/list-filters.md#list-built-in-filters) | ![목록 필터를 사용자 지정하는 방법을 보여 주는 이미지](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
+| **조건부 콘텐츠 빌드**: 다른 수신자에게 표시할 콘텐츠를 정의하는 조건을 만들어 개인화되고 관련 있는 메시징을 보장하여 이메일 콘텐츠를 동적으로 만듭니다. [조건부 콘텐츠를 만드는 방법을 알아봅니다](../personalization/conditions.md) | ![조건부 콘텐츠를 만드는 방법을 보여 주는 이미지](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Adobe Campaign 웹 사용자 인터페이스에는 다양한 기준을 기반으
 >[!IMPORTANT]
 >
 >쿼리 모델러에 대한 완전히 새로운 인터페이스를 사용할 수 있습니다. 새 규칙 빌더를 사용하면 간소화된 인터페이스를 통해 쿼리를 더 쉽게 작성할 수 있습니다. 이 경험으로 전환하려면 오른쪽 상단 모서리에서 토글 버튼을 누릅니다. 언제든지 토글을 눌러 새 인터페이스를 비활성화하면 클래식 쿼리 모델러로 돌아갈 수 있습니다. 이 새 인터페이스에서 쿼리 모델러와 동일한 원칙을 적용할 수 있습니다.
->![새 규칙 빌더 인터페이스](assets/query-modeler-toggle.png){zoomable="yes"}에 대한 토글을 보여 주는 이미지
+>>![새 규칙 빌더 인터페이스](assets/query-modeler-toggle.png){zoomable="yes"}에 대한 토글을 보여 주는 이미지
 
 
 >[!CONTEXTUALHELP]

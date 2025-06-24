@@ -4,23 +4,15 @@ title: 게재 설정 구성
 description: Campaign 웹에서 게재 설정을 구성하는 방법 알아보기
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 3adf28810800c3059e63ec3af675690318051f56
+source-git-commit: 73c9e30ab93787630e973da71f0381b14c64cc2c
 workflow-type: tm+mt
-source-wordcount: '2800'
-ht-degree: 46%
+source-wordcount: '3324'
+ht-degree: 39%
 
 ---
 
 
 # 게재 설정 구성 {#del-settings}
-
-
->[!CONTEXTUALHELP]
->id="acw_sms_delivery_settings"
->title="SMS 게재 설정"
->abstract="SMS 게재 매개 변수는 SMS 게재에 적용되는 기술 설정입니다. 발신자 주소, 서비스 매개변수, 전송 모드 등을 정의할 수 있습니다. 이 옵션은 숙련된 사용자로만 제한됩니다."
-
-
 
 배달 설정은 배달 템플릿에 정의된 **기술 배달 매개 변수**&#x200B;입니다. 각 게재에 대해 오버로드될 수 있습니다. 이러한 설정은 게재 또는 게재 템플릿을 편집할 때 사용할 수 있는 **설정** 단추에서 사용할 수 있습니다.
 
@@ -80,7 +72,7 @@ ht-degree: 46%
 
 >[!NOTE]
 >
->피로도 관리 및 압력 규칙은 Campaign 클라이언트 콘솔에 구성됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ko){target="_blank"}를 참조하세요.
+>피로도 관리 및 압력 규칙은 Campaign 클라이언트 콘솔에 구성됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}를 참조하세요.
 
 ### 수용작업량 설정 {#capacity-settings}
 
@@ -100,7 +92,7 @@ ht-degree: 46%
 
 >[!NOTE]
 >
->유형화 규칙은 Campaign 클라이언트 콘솔에 구성됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=ko){target="_blank"}를 참조하세요.
+>유형화 규칙은 Campaign 클라이언트 콘솔에 구성됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}를 참조하세요.
 
 ## 대상자 설정 {#audience}
 
@@ -111,7 +103,7 @@ ht-degree: 46%
 
 이 섹션에서는 사용 가능한 **대상 매핑** 중 원하는 옵션을 선택할 수 있습니다. 대상 매핑은 Adobe Campaign v8 콘솔에서 정의됩니다. 대상 매핑은 작업에서 처리하는 데이터 유형입니다. 대상 모집단(수신자, 계약 수혜자, 운영자, 구독자 등)을 정의할 수 있습니다. [대상 매핑에 대해 자세히 알아보기](../audience/targeting-dimensions.md).
 
-**[!UICONTROL 제외]** 필드에서 더 이상 연락을 원치 않거나 격리된 프로필을 제외하도록 선택할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=ko){target="_blank"}
+**[!UICONTROL 제외]** 필드에서 더 이상 연락을 원치 않거나 격리된 프로필을 제외하도록 선택할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## 게재 {#delivery}
 
@@ -138,7 +130,7 @@ ht-degree: 46%
 
 * **[!UICONTROL SMTP 배달 테스트]**(전자 메일 채널): 이 옵션은 SMTP를 통한 전송을 테스트하는 데 사용됩니다. 전자 메일은 SMTP 서버 연결까지 처리되지만 전송되지 않습니다. 전자 메일의 모든 수신자에 대해 Campaign은 SMTP 공급자 서버에 연결하고 SMTP RCPT TO 명령을 실행하고 SMTP DATA 명령 전에 연결을 닫습니다.
 
-* **[!UICONTROL 전자 메일 BCC]**(전자 메일 채널): 이 옵션은 메시지 대상에 BCC 전자 메일 주소를 추가하여 BCC를 통해 외부 시스템에 전자 메일을 저장하는 데 사용됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=ko){target="_blank"}를 참조하세요.
+* **[!UICONTROL 전자 메일 BCC]**(전자 메일 채널): 이 옵션은 메시지 대상에 BCC 전자 메일 주소를 추가하여 BCC를 통해 외부 시스템에 전자 메일을 저장하는 데 사용됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}를 참조하세요.
 
 **[!UICONTROL 웨이브 정의]** 섹션에서 **[!UICONTROL 여러 웨이브를 사용하여 보내기]** 옵션을 선택하여 웨이브를 사용하여 보낸 볼륨을 점진적으로 늘립니다. 이렇게 하면 메시지가 스팸으로 표시되거나 하루에 메시지 수를 제한하려는 경우를 방지할 수 있습니다. 웨이브를 사용하여 동시에 대량의 메시지를 전송하는 대신 게재를 여러 배치로 나눌 수 있습니다. [자세히 알아보기](send-using-waves.md)
 
@@ -167,7 +159,7 @@ ht-degree: 46%
 
 >[!NOTE]
 >
->웹 분석 기능은 Campaign 클라이언트 콘솔에서 구성됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=ko#external-account-ac){target="_blank"}를 참조하세요.
+>웹 분석 기능은 Campaign 클라이언트 콘솔에서 구성됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}를 참조하세요.
 
 ## 재시도 {#retries}
 
@@ -236,7 +228,7 @@ ht-degree: 46%
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 
-[Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ko#validity-period){target="_blank"}에서 게재 유효 기간에 대해 자세히 알아보세요.
+[Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}에서 게재 유효 기간에 대해 자세히 알아보세요.
 
 ### 미러 페이지 관리(이메일 채널) {#mirror}
 
@@ -287,8 +279,62 @@ ht-degree: 46%
 * **[!UICONTROL 증명에 대한 게재 코드 보관]**&#x200B;을 사용하여 관련된 게재에 대해 정의된 것과 동일한 게재 코드를 증명에 연결합니다.
 * 기본적으로 증명 제목에는 &#39;PROOF #&#39;가 붙습니다. 여기서 #은 증명 번호입니다. 이 접두사는 **[!UICONTROL 레이블 접두사]** 필드에서 변경할 수 있습니다.
 
+## SMS 설정(SMS 채널) {#sms-tab}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_delivery_settings"
+>title="SMS 게재 설정"
+>abstract="SMS 게재 매개 변수는 SMS 게재에 적용되는 기술 설정입니다. 발신자 주소, 서비스 매개변수, 전송 모드 등을 정의할 수 있습니다. 이 옵션은 숙련된 사용자로만 제한됩니다."
+
+SMS 게재 매개 변수는 SMS 게재에 적용되는 기술 설정입니다. 발신자 주소, 서비스 매개변수, 전송 모드 등을 정의할 수 있습니다. 이 옵션은 숙련된 사용자로만 제한됩니다.
+
+* **[!UICONTROL 보낸 사람 주소]**
+
+  필드는 SMPP 사양에 따라 21자로 제한되지만 일부 공급자는 더 긴 값을 허용할 수 있습니다. 일부 국가에서는 매우 엄격한 제한(길이, 콘텐츠, 허용되는 문자 등)이 적용될 수 있으므로 여기에 배치하는 콘텐츠가 합법적인지 다시 확인해야 합니다. 개인화된 필드를 사용할 때는 특히 주의하십시오.
 
 
+  이 옵션 필드를 사용하면 발신자 주소(oADC)를 무시할 수 있습니다. 해당 콘텐츠는 SUBMIT_SM PDU의 *source_addr* 필드에 배치됩니다.
+
+  SMPP 사양은 이 필드를 21자로 제한하지만 일부 공급자는 더 긴 값을 지원할 수 있습니다. 특정 국가에서는 보낸 사람 주소(길이, 콘텐츠, 허용된 문자 등)에 대해 엄격한 규정을 적용하므로 항상 입력이 로컬 요구 사항을 준수하는지 확인하십시오. 개인화된 필드로 작업할 때는 각별히 주의하십시오.
+
+  이 필드를 비워 두면 외부 계정에 정의된 Source 번호 필드의 값이 대신 사용됩니다. 두 값이 모두 비어 있으면 *source_addr* 필드가 비어 있게 됩니다.
+
+* **[!UICONTROL 서비스 유형]**:
+
+  이 매개 변수는 그대로 공급자에게 전달됩니다.
+
+* **[!UICONTROL 서비스 또는 프로그램 ID]**
+
+  >[!NOTE]
+  >
+  >이 필드는 사용하지 마십시오. 클라이언트 콘솔에서 사용할 수 있는 선택적 SMPP 매개 변수는 훨씬 더 유연한 구현을 제공합니다.
+  >
+  >이 필드는 선택적 SMPP 매개 변수와 동시에 사용할 수 없습니다.
+
+  일치하는 외부 계정 설정과 결합하여 각 MT에 하나의 선택적 매개 변수를 보낼 수 있습니다. 이 필드는 TLV의 값 부분을 정의합니다.
+
+* **[!UICONTROL 전송 모드]**
+
+  이 필드는 전송할 SMS 유형(일반 메시지인지 플래시 메시지인지 여부 및 모바일 장치에 저장해야 하는지 또는 SIM 카드에 저장해야 하는지 여부)을 정의합니다. 이 설정은 SUBMIT_SM PDU의 dest_addr_subunit 선택 필드에서 전송됩니다.
+
+   * **Flash**&#x200B;이(가) 값을 1로 설정합니다. 화면에 즉시 나타나며 저장되지 않는 Flash SMS를 보냅니다.
+   * **보통**&#x200B;은 값을 0으로 설정합니다. 표준 SMS를 보냅니다.
+   * **모바일에 저장됨**&#x200B;에서 값을 2로 설정합니다. SMS를 내부 메모리에 저장하도록 장치에 지시합니다.
+   * **터미널에 저장됨**&#x200B;이(가) 값을 3으로 설정합니다. SMS를 SIM 카드에 저장하도록 장치에 지시합니다.
+
+* **[!UICONTROL 우선 순위, 통신 유형]**
+
+  확장 SMPP 커넥터에서는 이러한 필드를 무시합니다.
+
+* **[!UICONTROL 메시지당 최대 SMS 수]**
+
+  이 설정은 메시지 페이로드 옵션이 비활성화되어 있을 경우에만 적용됩니다(자세한 내용은 외부 계정 설정 참조). 메시지에 이 값보다 많은 SMS가 필요한 경우 오류가 트리거됩니다.
+
+  SMS 프로토콜을 통해 메시지를 최대 255개의 부분으로 분할할 수 있지만 일부 모바일 장치는 10개 이상의 부분으로 메시지를 다시 어셈블하기 어려울 수 있습니다(제한은 장치 모델에 따라 다름). 안정성을 위해서는 메시지를 5부분 이하로 제한하는 것이 가장 좋습니다.
+
+  Adobe Campaign에서 개인화된 메시지가 작동하는 방식으로 인해 메시지 크기가 달라질 수 있습니다. 긴 메시지 수가 많으면 전송 비용이 증가할 수 있으므로 적절한 한도를 사용하면 비용 관리에 도움이 됩니다.
+
+  이 값을 0으로 설정하면 제한이 비활성화됩니다.
 
 ## 이메일 게재를 위한 SMTP 설정 {#smtp}
 

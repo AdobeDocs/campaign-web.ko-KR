@@ -3,16 +3,18 @@ audience: end-user
 title: DM 채널에 대한 캠페인 보고서
 description: DM 채널에 대한 캠페인 보고서 이해
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '574'
 ht-degree: 19%
 
 ---
 
-# DM 채널에 대한 캠페인 보고서 {#campaign-reports-direct-mail}
+# 외부 게재 채널용 캠페인 보고서 {#campaign-reports-direct-mail}
 
-각 캠페인 보고서는 캠페인의 성공 및 오류를 자세히 설명하는 다양한 위젯으로 나뉩니다. DM 채널의 경우 보고서 및 지표가 아래에 자세히 설명되어 있습니다. [이 페이지](campaign-reports.md)에서 캠페인 보고서에 액세스하는 방법을 알아보세요.
+각 캠페인 보고서는 캠페인의 성공 및 오류를 자세히 설명하는 다양한 위젯으로 나뉩니다. 외부 게재 채널의 경우 아래에 보고서와 지표가 자세히 설명되어 있습니다. [이 페이지](campaign-reports.md)에서 캠페인 보고서에 액세스하는 방법을 알아보세요.
+
+다음 보고서는 DM의 컨텍스트에서 설명되어 있습니다. 콜 센터 및 사용자 지정 외부 채널에도 사용할 수 있습니다.
 
 ## 게재 요약 {#delivery-summary-direct}
 

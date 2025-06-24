@@ -3,16 +3,18 @@ audience: end-user
 title: DM 보고서
 description: DM 보고서에 액세스하고 사용하는 방법을 알아봅니다
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 20%
+source-wordcount: '696'
+ht-degree: 19%
 
 ---
 
-# 다이렉트 메일 게재 보고서 {#direct-mail-report}
+# 외부 게재 보고서 {#direct-mail-report}
 
-**DM 게재 보고서**&#x200B;는 DM 게재와 관련된 포괄적인 통찰력과 데이터를 제공합니다. 여기에는 개별 게재의 성능, 효율성 및 결과에 대한 자세한 정보가 포함되어 있으며 전체 개요를 제공합니다.
+**외부 게재 보고서**&#x200B;는 외부 게재와 관련된 포괄적인 통찰력과 데이터를 제공합니다. 여기에는 개별 게재의 성능, 효율성 및 결과에 대한 자세한 정보가 포함되어 있으며 전체 개요를 제공합니다.
+
+다음 보고서는 DM의 컨텍스트에서 설명되어 있습니다. 콜 센터 및 사용자 지정 외부 채널에도 사용할 수 있습니다.
 
 ## 게재 요약 {#delivery-summary-direct-mail}
 
@@ -82,7 +84,7 @@ ht-degree: 20%
 >title="제외 이유 게재"
 >abstract="**제외 원인** 그래프는 게재 준비 과정에서 거부된 메시지의 분포를 각 규칙별로 분류하여 보여 줍니다."
 
-**[!UICONTROL 제외 이유]** 그래프는 게재를 준비하는 동안 메시지 거부 이유를 분류합니다. 이 분류는 다양한 규칙으로 구성되며 메시지 제외에 기여하는 요인에 대한 자세한 보기를 제공합니다. 제외 규칙은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ko#email-error-types){_blank}에 자세히 설명되어 있습니다.
+**[!UICONTROL 제외 이유]** 그래프는 게재를 준비하는 동안 메시지 거부 이유를 분류합니다. 이 분류는 다양한 규칙으로 구성되며 메시지 제외에 기여하는 요인에 대한 자세한 보기를 제공합니다. 제외 규칙은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}에 자세히 설명되어 있습니다.
 
 ![거부된 메시지의 규칙별 분포를 보여 주는 제외 그래프의 원인입니다.](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 

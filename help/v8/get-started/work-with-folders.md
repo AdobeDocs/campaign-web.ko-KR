@@ -3,10 +3,10 @@ audience: end-user
 title: 폴더 작업
 description: Adobe Campaign에서 폴더를 관리하는 방법 알아보기
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 5f9cc8915f2897ebc14d571357773fef057cf9c1
-workflow-type: ht
-source-wordcount: '628'
-ht-degree: 100%
+source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
+workflow-type: tm+mt
+source-wordcount: '721'
+ht-degree: 86%
 
 ---
 
@@ -23,19 +23,9 @@ ht-degree: 100%
 >abstract="폴더 보안"
 
 >[!CONTEXTUALHELP]
->id="acw_folder_restrictions"
->title="폴더 제한 사항"
->abstract="폴더 제한 사항"
-
->[!CONTEXTUALHELP]
 >id="acw_folder_schedule"
 >title="폴더 일정"
 >abstract="폴더 일정"
-
->[!CONTEXTUALHELP]
->id="acw_folder_favorites"
->title="즐겨찾기"
->abstract="즐겨찾기"
 
 ## 폴더 정보 {#about-folders}
 
@@ -46,6 +36,16 @@ ht-degree: 100%
 ![폴더 구성을 보여 주는 폴더 인터페이스](assets/folders.png){zoomable="yes"}
 
 폴더 유형을 설정할 수 있습니다. 그 예로는 게재 폴더가 있습니다. 폴더 아이콘은 유형에 따라 달라집니다.
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_restrictions"
+>title="폴더 제한 사항"
+>abstract="자동으로 만들어진 폴더 오브젝트 및 기술 워크플로는 제한되며 왼쪽 패널에서 볼 수 없습니다."
+
+>[!IMPORTANT]
+>
+>**[!UICONTROL 자동으로 만들어진 개체]** 및 **[!UICONTROL 기술 워크플로우]** 폴더는 제한되어 있으므로 왼쪽 패널에서 볼 수 없습니다.
+
 
 ## 새 폴더 만들기 {#create-a-folder}
 
@@ -80,6 +80,19 @@ Adobe Campaign Web UI에서 새 폴더를 만들려면 다음 단계를 따릅�
 **끌어다 놓기**&#x200B;를 하거나 **위쪽 및 아래쪽 화살표**&#x200B;를 사용하여 폴더 순서를 변경할 수 있습니다.
 
 ![폴더 재정렬을 위한 끌어다 놓기 기능](assets/folder-draganddrop.png){zoomable="yes"}
+
+### 즐겨찾기 폴더 {#favorite-folders}
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_favorites"
+>title="즐겨찾기"
+>abstract="즐겨찾기 폴더가 왼쪽 탭 상단에 표시됩니다."
+
+&quot;즐겨찾기&quot;로 표시된 폴더는 항상 왼쪽 탭 상단에 표시됩니다.
+
+폴더를 볼 때 오른쪽 상단의 별 버튼을 클릭하여 폴더를 즐겨찾기로 추가할 수 있습니다.
+
+![즐겨찾는 폴더 위치 스크린샷](assets/folders-favorite.png){zoomable="yes"}
 
 ## 폴더 삭제 {#delete-a-folder}
 

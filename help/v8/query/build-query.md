@@ -3,9 +3,9 @@ audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
+source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
 workflow-type: tm+mt
-source-wordcount: '2780'
+source-wordcount: '2863'
 ht-degree: 7%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 7%
 >[!IMPORTANT]
 >
 >쿼리 모델러에 대한 완전히 새로운 인터페이스를 사용할 수 있습니다. 새 규칙 빌더를 사용하면 간소화된 인터페이스를 통해 쿼리를 더 쉽게 작성할 수 있습니다. 이 경험으로 전환하려면 오른쪽 상단 모서리에서 토글 버튼을 누릅니다. 언제든지 토글을 눌러 새 인터페이스를 비활성화하면 클래식 쿼리 모델러로 돌아갈 수 있습니다. 이 새 인터페이스에서 쿼리 모델러와 동일한 원칙을 적용할 수 있습니다.
->&#x200B;>![새 규칙 빌더 인터페이스](assets/query-modeler-toggle.png){zoomable="yes"}에 대한 토글을 보여 주는 이미지
+>>![새 규칙 빌더 인터페이스](assets/query-modeler-toggle.png){zoomable="yes"}에 대한 토글을 보여 주는 이미지
 
 다음 두 가지 유형의 요소를 추가할 수 있습니다.
 
@@ -70,7 +70,7 @@ ht-degree: 7%
 >
 >* 값이 많은 필드의 경우 처음 20개 값만 표시됩니다. 이러한 경우 **[!UICONTROL 부분 로드]** 알림이 경고합니다.
 >* **[!UICONTROL 값 배포]** 옵션은 모든 특성 선택기에서 액세스할 수 있습니다. [특성을 선택하는 방법 알아보기](../get-started/attributes.md)
->* **[ !A고급 필터]**&#x200B;를 사용하여 결과에 조건을 추가할 수 있습니다. [여기에서 자세히 알아보십시오](../get-started/work-with-folders.md#filter-the-values).
+>* **[!A고급 필터]**&#x200B;를 사용하여 결과에 조건을 추가할 수 있습니다. [여기에서 자세히 알아보십시오](../get-started/work-with-folders.md#filter-the-values).
 
 ## 필터링 구성 요소 추가 {#filtering}
 
@@ -122,7 +122,7 @@ ht-degree: 7%
    | 다음과 유사 | 포함 연산자와 유사하게 값에 % 와일드카드 문자를 삽입할 수 있습니다. | &#39;Jon%s&#39;과(와) 같은 성(@lastName) 와일드카드 문자는 &quot;Joker&quot;로 작동하여 &quot;Jones&quot;와 같은 이름을 찾습니다. |
    | 비슷하지 않음 | 포함 연산자와 유사하게 값에 % 와일드카드 문자를 삽입할 수 있습니다. | 성(@lastName)은 &#39;Smi%h&#39;와 다릅니다. 성이 &#39;Smith&#39;인 수신자는 반환되지 않습니다. |
 
-   +++
++++
 
 1. **값** 필드에서 예상 값을 정의합니다. 또한 Campaign 웹 표현식 편집기를 사용하여 데이터베이스 및 도우미 함수의 필드를 사용하여 표현식을 수동으로 정의할 수 있습니다. 이렇게 하려면 **표현식 편집** 단추를 클릭하십시오. [표현식을 편집하는 방법을 알아봅니다](expression-editor.md)
 
@@ -318,6 +318,18 @@ ht-degree: 7%
 1. 구성 요소를 붙여넣으려면 원하는 전환 끝에 있는 + 단추를 클릭하고 **n개 항목 붙여넣기**&#x200B;를 선택합니다.
 
    ![구성 요소를 붙여넣는 예제](assets/copy-paste.png){zoomable="yes"}
+
+## 구성 요소 드래그 앤 드롭 {#drag-and-drop}
+
+>[!IMPORTANT]
+>
+>이 기능은 새 규칙 빌더 경험에만 사용할 수 있습니다.
+
+쿼리에 구성 요소를 추가할 때 드래그 앤 드롭 기능을 사용하여 구성 요소를 위아래로 이동할 수 있습니다.
+
+모든 구성 요소의 왼쪽으로는 점을 클릭하고 누른 채로 구성 요소를 배치하고 그룹화할 위치에 따라 구성 요소를 위아래로 드래그할 수 있습니다.
+
+새 규칙 빌더에서 구성 요소를 끌어서 놓는 방법을 보여 주는 ![GIF](assets/ruleb-drag.gif){zoomable="yes"}
 
 ## 필터링 구성 요소를 연산자와 결합 {#operators}
 

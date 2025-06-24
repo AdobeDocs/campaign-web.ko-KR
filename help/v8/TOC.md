@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: a9e4d1750cc920b8de87b54faa712c80bece95d2
+source-git-commit: eb0e725c8b3af2f478919fe80b75a4ee20b341f3
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 99%
+source-wordcount: '834'
+ht-degree: 98%
 
 ---
 
@@ -218,13 +218,13 @@ ht-degree: 99%
       + [이메일 게재 보고서](reporting/email-report.md)
       + [게재 보고서 푸시](reporting/push-report.md)
       + [SMS 게재 보고서](reporting/sms-report.md)
-      + [다이렉트 메일 게재 보고서](reporting/direct-mail.md)
+      + [외부 게재 보고서](reporting/direct-mail.md)
    + 캠페인 보고서 {#campaign-report}
       + [캠페인 보고서 시작하기](reporting/campaign-reports.md)
       + [이메일 캠페인 보고서](reporting/campaign-reports-email.md)
       + [푸시 캠페인 보고서](reporting/campaign-reports-push.md)
       + [SMS 캠페인 보고서](reporting/campaign-reports-sms.md)
-      + [다이렉트 메일(DM) 캠페인 보고서](reporting/campaign-reports-direct-mail.md)
+      + [외부 게재 캠페인 보고서](reporting/campaign-reports-direct-mail.md)
    + 전반적 보고서 {#global-report}
       + [글로벌 보고서 시작하기](reporting/global-reports.md)
       + [이메일 글로벌 보고서](reporting/global-report-email.md)

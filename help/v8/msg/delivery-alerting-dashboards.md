@@ -2,10 +2,11 @@
 audience: end-user
 title: 게재 알림
 description: 게재 경고 작업 방법을 알아봅니다.
+badge: label="제한 공개"
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
+source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1146'
 ht-degree: 24%
 
 ---
@@ -81,7 +82,7 @@ ht-degree: 24%
    * **최소 예상 처리량(시간당 전송된 메시지)**: 처리량 기준이 낮은 게재에는 지정된 값보다 낮은 처리량의 게재만 고려됩니다.
    * **&#39;진행 중인 게재&#39; 기준에 필요한 최소 처리 비율**: 처리된 메시지 비율이 지정된 비율보다 높은 게재만 고려합니다.
 
-   +++
++++
 
 1. 기본적으로 경고 대시보드는 비활성화되어 있으므로 이 대시보드에 연결된 이메일 경고가 전송되지 않습니다. 대시보드를 즉시 활성화하려면 경고 그룹 선택 필드 옆에 있는 **일반** 섹션에서 **활성화됨** 옵션을 전환하십시오.
 

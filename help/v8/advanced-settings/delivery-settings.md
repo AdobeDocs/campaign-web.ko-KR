@@ -4,10 +4,10 @@ title: 게재 설정 구성
 description: Campaign 웹에서 게재 설정을 구성하는 방법 알아보기
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 73c9e30ab93787630e973da71f0381b14c64cc2c
+source-git-commit: 5835d45ea2a383eed7d280fdd263548ea2e8530d
 workflow-type: tm+mt
-source-wordcount: '3324'
-ht-degree: 39%
+source-wordcount: '3159'
+ht-degree: 41%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->피로도 관리 및 압력 규칙은 Campaign 클라이언트 콘솔에 구성됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ko){target="_blank"}를 참조하세요.
+>피로도 관리 및 압력 규칙은 Campaign 클라이언트 콘솔에 구성됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}를 참조하세요.
 
 ### 수용작업량 설정 {#capacity-settings}
 
@@ -92,7 +92,7 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->유형화 규칙은 Campaign 클라이언트 콘솔에 구성됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=ko){target="_blank"}를 참조하세요.
+>유형화 규칙은 Campaign 클라이언트 콘솔에 구성됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}를 참조하세요.
 
 ## 대상자 설정 {#audience}
 
@@ -103,7 +103,7 @@ ht-degree: 39%
 
 이 섹션에서는 사용 가능한 **대상 매핑** 중 원하는 옵션을 선택할 수 있습니다. 대상 매핑은 Adobe Campaign v8 콘솔에서 정의됩니다. 대상 매핑은 작업에서 처리하는 데이터 유형입니다. 대상 모집단(수신자, 계약 수혜자, 운영자, 구독자 등)을 정의할 수 있습니다. [대상 매핑에 대해 자세히 알아보기](../audience/targeting-dimensions.md).
 
-**[!UICONTROL 제외]** 필드에서 더 이상 연락을 원치 않거나 격리된 프로필을 제외하도록 선택할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=ko){target="_blank"}
+**[!UICONTROL 제외]** 필드에서 더 이상 연락을 원치 않거나 격리된 프로필을 제외하도록 선택할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## 게재 {#delivery}
 
@@ -130,7 +130,7 @@ ht-degree: 39%
 
 * **[!UICONTROL SMTP 배달 테스트]**(전자 메일 채널): 이 옵션은 SMTP를 통한 전송을 테스트하는 데 사용됩니다. 전자 메일은 SMTP 서버 연결까지 처리되지만 전송되지 않습니다. 전자 메일의 모든 수신자에 대해 Campaign은 SMTP 공급자 서버에 연결하고 SMTP RCPT TO 명령을 실행하고 SMTP DATA 명령 전에 연결을 닫습니다.
 
-* **[!UICONTROL 전자 메일 BCC]**(전자 메일 채널): 이 옵션은 메시지 대상에 BCC 전자 메일 주소를 추가하여 BCC를 통해 외부 시스템에 전자 메일을 저장하는 데 사용됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=ko){target="_blank"}를 참조하세요.
+* **[!UICONTROL 전자 메일 BCC]**(전자 메일 채널): 이 옵션은 메시지 대상에 BCC 전자 메일 주소를 추가하여 BCC를 통해 외부 시스템에 전자 메일을 저장하는 데 사용됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}를 참조하세요.
 
 **[!UICONTROL 웨이브 정의]** 섹션에서 **[!UICONTROL 여러 웨이브를 사용하여 보내기]** 옵션을 선택하여 웨이브를 사용하여 보낸 볼륨을 점진적으로 늘립니다. 이렇게 하면 메시지가 스팸으로 표시되거나 하루에 메시지 수를 제한하려는 경우를 방지할 수 있습니다. 웨이브를 사용하여 동시에 대량의 메시지를 전송하는 대신 게재를 여러 배치로 나눌 수 있습니다. [자세히 알아보기](send-using-waves.md)
 
@@ -159,7 +159,7 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->웹 분석 기능은 Campaign 클라이언트 콘솔에서 구성됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=ko#external-account-ac){target="_blank"}를 참조하세요.
+>웹 분석 기능은 Campaign 클라이언트 콘솔에서 구성됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}를 참조하세요.
 
 ## 재시도 {#retries}
 
@@ -228,7 +228,7 @@ ht-degree: 39%
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 
-[Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ko#validity-period){target="_blank"}에서 게재 유효 기간에 대해 자세히 알아보세요.
+[Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}에서 게재 유효 기간에 대해 자세히 알아보세요.
 
 ### 미러 페이지 관리(이메일 채널) {#mirror}
 
@@ -288,16 +288,20 @@ ht-degree: 39%
 
 SMS 게재 매개 변수는 SMS 게재에 적용되는 기술 설정입니다. 발신자 주소, 서비스 매개변수, 전송 모드 등을 정의할 수 있습니다. 이 옵션은 숙련된 사용자로만 제한됩니다.
 
-* **[!UICONTROL 보낸 사람 주소]**
+<!--
 
-  필드는 SMPP 사양에 따라 21자로 제한되지만 일부 공급자는 더 긴 값을 허용할 수 있습니다. 일부 국가에서는 매우 엄격한 제한(길이, 콘텐츠, 허용되는 문자 등)이 적용될 수 있으므로 여기에 배치하는 콘텐츠가 합법적인지 다시 확인해야 합니다. 개인화된 필드를 사용할 때는 특히 주의하십시오.
+* **[!UICONTROL Sender address]**
+
+  The field is limited to 21 characters by the SMPP specification, but some providers may allow longer values. Note also that very strict restrictions may be applied in some countries (length, content, allowed characters, …), so you may need to double-check that the content you place here is legal. Be especially careful when using personalized fields.
 
 
-  이 옵션 필드를 사용하면 발신자 주소(oADC)를 무시할 수 있습니다. 해당 콘텐츠는 SUBMIT_SM PDU의 *source_addr* 필드에 배치됩니다.
+  This optional field allows you to override the sender address (oADC). Its content is placed in the *source_addr* field of the SUBMIT_SM PDU.
 
-  SMPP 사양은 이 필드를 21자로 제한하지만 일부 공급자는 더 긴 값을 지원할 수 있습니다. 특정 국가에서는 보낸 사람 주소(길이, 콘텐츠, 허용된 문자 등)에 대해 엄격한 규정을 적용하므로 항상 입력이 로컬 요구 사항을 준수하는지 확인하십시오. 개인화된 필드로 작업할 때는 각별히 주의하십시오.
+  Although the SMPP specification limits this field to 21 characters, some providers may support longer values. Be aware that certain countries impose strict regulations on sender addresses (regarding length, content, allowed characters, etc.), so always verify that your input complies with local requirements. Use extra caution when working with personalized fields.
 
-  이 필드를 비워 두면 외부 계정에 정의된 Source 번호 필드의 값이 대신 사용됩니다. 두 값이 모두 비어 있으면 *source_addr* 필드가 비어 있게 됩니다.
+  If this field is left empty, the value of the Source number field defined in the external account will be used instead. If both values are empty, the *source_addr* field will be left empty.
+
+-->
 
 * **[!UICONTROL 서비스 유형]**:
 

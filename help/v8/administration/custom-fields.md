@@ -5,7 +5,7 @@ exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: 2c047d85df42503815c6ff15f43066ec5fb83755
 workflow-type: tm+mt
 source-wordcount: '1017'
-ht-degree: 22%
+ht-degree: 27%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 22%
 >title="속성 설정"
 >abstract="속성 설정"
 
-사용자 지정 필드는 Adobe Campaign 콘솔을 통해 기본 스키마에 추가된 추가 속성입니다. 조직의 요구 사항에 맞게 새 속성을 포함하여 스키마를 사용자 지정할 수 있습니다. [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=ko){target="_blank"}에서 스키마를 확장하는 방법을 알아보세요.
+사용자 지정 필드는 Adobe Campaign 콘솔을 통해 기본 스키마에 추가된 추가 속성입니다. 조직의 요구 사항에 맞게 새 속성을 포함하여 스키마를 사용자 지정할 수 있습니다. [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}에서 스키마를 확장하는 방법을 알아보세요.
 
 사용자 지정 필드는 Campaign 웹 인터페이스의 프로필 세부 사항과 같은 다양한 화면에 표시할 수 있습니다. 관리자는 표시되는 필드와 표시 방법을 제어할 수 있습니다. 이러한 변경 사항은 모든 Campaign 사용자에게 적용됩니다.
 
@@ -65,7 +65,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_schema_screen_definition"
 >title="화면 정의"
->abstract="스키마에 대해 편집할 사용자 정의 필드 목록 및 해당 속성을 정의합니다. **미리 보기** 단추를 클릭하여 샘플 화면에 사용자 지정 필드를 표시합니다."
+>abstract="스키마와 해당 속성에 대해 편집할 사용자 정의 필드 목록을 정의합니다. **미리보기** 버튼을 클릭하면 샘플 화면에서 사용자 정의 필드가 표시됩니다."
 
 
 인터페이스에 사용자 지정 필드를 표시하려면 다음 단계를 수행합니다.
@@ -82,7 +82,7 @@ ht-degree: 22%
 
    스키마에 대한 인터페이스에 표시된 사용자 지정 필드 목록이 나타납니다.
 
-1. **[!UICONTROL 미리 보기]** 단추를 클릭하여 샘플 화면에 사용자 지정 필드를 표시합니다.
+1. **[!UICONTROL 미리보기]** 버튼을 클릭하면 샘플 화면에서 사용자 정의 필드가 표시됩니다.
 
    ![](assets/custom-fields-edit2.png)
 
@@ -128,7 +128,7 @@ ht-degree: 22%
 
   ![사용자 지정 필드에 대한 필터 설정의 예를 보여 주는 스크린샷](assets/custom-fields-ref.png)
 
-  +++
++++
 
 * **[!UICONTROL 두 열 분산]**: 기본적으로 사용자 지정 필드는 두 열로 인터페이스에 표시됩니다. 이 옵션을 켜짐으로 토글하면 사용자 정의 필드가 두 개의 열 대신 전체 폭 화면으로 표시됩니다.
 

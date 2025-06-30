@@ -6,7 +6,7 @@ exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 86%
+ht-degree: 91%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="acw_folder_restrictions"
 >title="폴더 제한 사항"
->abstract="자동으로 만들어진 폴더 오브젝트 및 기술 워크플로는 제한되며 왼쪽 패널에서 볼 수 없습니다."
+>abstract="자동으로 생성되는 폴더 오브젝트와 기술 워크플로는 제한되어 있으며 왼쪽 패널에 표시되지 않습니다."
 
 >[!IMPORTANT]
 >
@@ -86,7 +86,7 @@ Adobe Campaign Web UI에서 새 폴더를 만들려면 다음 단계를 따릅�
 >[!CONTEXTUALHELP]
 >id="acw_folder_favorites"
 >title="즐겨찾기"
->abstract="즐겨찾기 폴더가 왼쪽 탭 상단에 표시됩니다."
+>abstract="즐겨찾기 폴더는 왼쪽 탭 상단에 표시됩니다."
 
 &quot;즐겨찾기&quot;로 표시된 폴더는 항상 왼쪽 탭 상단에 표시됩니다.
 

@@ -8,10 +8,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: css, 편집기, 요약, 이메일
-source-git-commit: cabc4f810878001102f57a93581ff4be23fcbcd5
+exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
+source-git-commit: d21538237340bc73ea8505d29d54aea7f541588d
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 8%
+source-wordcount: '712'
+ht-degree: 7%
 
 ---
 
@@ -40,14 +41,13 @@ ht-degree: 8%
 
 1. **[!UICONTROL 사용자 지정 CSS 추가]** 단추를 클릭합니다.
 
-1. 표시되는 전용 텍스트 영역에 CSS 코드를 입력합니다. 사용자 지정 CSS가 올바르고 적절한 구문을 따르는지 확인하십시오. [자세히 알아보기](#use-valid-css)
-
-   ![전용 텍스트 영역에 사용자 지정 CSS 입력](assets/email-body-custom-css.png){width="65%"}
-
    >[!NOTE]
    >
    >**[!UICONTROL 사용자 지정 CSS 추가]** 단추는 **[!UICONTROL 본문]**&#x200B;을 선택한 경우에만 사용할 수 있습니다. 하지만 사용자 지정 CSS 스타일을 콘텐츠 내의 모든 구성 요소에 적용할 수 있습니다.
 
+1. 표시되는 전용 텍스트 영역에 CSS 코드를 입력합니다. 사용자 지정 CSS가 올바르고 적절한 구문을 따르는지 확인하십시오. [자세히 알아보기](#use-valid-css)
+
+   ![전용 텍스트 영역에 사용자 지정 CSS 입력](assets/email-body-custom-css.png){width="65%"}
 
 1. 사용자 지정 CSS를 저장하고 사용자 지정 CSS가 콘텐츠에 올바르게 적용되었는지 확인합니다. 그렇지 않은 경우 [문제 해결](#troubleshooting) 섹션을 확인하십시오.
 
@@ -67,8 +67,9 @@ ht-degree: 8%
 >
 >의도하지 않게 컨텐츠의 레이아웃 또는 기능을 손상시킬 수 있는 CSS를 사용하지 마십시오.
 
-+++ 유효한 CSS의 샘플
++++ CSS 샘플
 
+다음은 유효한 CSS의 예입니다.
 
 ```css
 .acr-component[data-component-id="form"] {
@@ -166,7 +167,7 @@ body {
 
 ## 기술 구현 {#implementation}
 
-사용자 지정 CSS는 아래 예와 같이 `data-name="global-custom"` 특성이 있는 `<style>` 태그의 일부로 `<head>` 섹션의 끝에 추가됩니다. 이렇게 하면 사용자 지정 스타일이 콘텐츠에 전체적으로 적용됩니다.
+사용자 지정 CSS는 아래 예와 같이 `<head>` 특성이 있는 `<style>` 태그의 일부로 `data-name="global-custom"` 섹션의 끝에 추가됩니다. 이렇게 하면 사용자 지정 스타일이 콘텐츠에 전체적으로 적용됩니다.
 
 +++ 샘플 참조
 
@@ -219,7 +220,7 @@ body {
 
 +++
 
-## 보호 기능
+## 보호 기능 - 가져온 콘텐츠
 
 이메일 Designer으로 가져온 콘텐츠와 함께 사용자 지정 CSS를 사용하려면 다음을 고려하십시오.
 
@@ -236,21 +237,30 @@ body {
 
 * CSS가 올바르고 구문 오류(예: 중괄호 누락, 잘못된 속성 이름)가 없는지 확인합니다. [방법 알아보기](#use-valid-css)
 
-* CSS가 `data-name="global-custom"` 특성이 있는 `<style>` 태그에 추가되고 있으며 `data-disabled`이(가) `global-custom`에 적용되지 않았는지 확인하십시오. [자세히 알아보기](#implementation)
+* CSS가 `<style>` 특성이 있는 `data-name="global-custom"` 태그에 추가되고 있는지 확인하십시오.
 
-<!--
-* Ensure that your CSS is not overridden by other CSS rules, including any [theme](apply-email-themes.md) applied to your content.
- 
-  * Use your browser developer tools to inspect the content and verify that your CSS is targeting the correct selectors.
-  
-  * Consider adding `!important` to your declarations to ensure they take precedence. 
-    
-    For example:
+* `global-custom` 스타일 태그에 `data-disabled` 특성이 `true`(으)로 설정되어 있는지 확인하십시오. 이 경우 사용자 지정 CSS는 적용되지 않습니다.
 
-    ```css
-    .acr-Form {
-      background: red !important;
-    }
-    ```
-    -->
+  +++예:
 
+  ```html
+  <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
+  ```
+
++++
+
+* CSS가 다른 CSS 규칙에 의해 재정의되지 않았는지 확인하십시오.
+
+   * 브라우저 개발자 도구를 사용하여 콘텐츠를 검사하고 CSS가 올바른 선택기를 타깃팅하는지 확인하십시오.
+
+   * 선언이 우선하도록 선언에 `!important`을(를) 추가해 보십시오.
+
++++ 예제:
+
+     ```css
+     .acr-Form {
+       background: red !important;
+     }
+     ```
+
++++

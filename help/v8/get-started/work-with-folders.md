@@ -4,9 +4,9 @@ title: 폴더 작업
 description: Adobe Campaign에서 폴더를 관리하는 방법 알아보기
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 자동으로 만들어진 개체]** 및 **[!UICONTROL 기술 워크플로우]** 폴더는 제한되어 있으므로 왼쪽 패널에서 볼 수 없습니다.
+>**[!UICONTROL 자동으로 생성되는 폴더 오브젝트]**&#x200B;와 **[!UICONTROL 기술 워크플로]**&#x200B;는 제한되어 있으며 왼쪽 패널에 표시되지 않습니다.
 
 
 ## 새 폴더 만들기 {#create-a-folder}
@@ -88,9 +88,9 @@ Adobe Campaign Web UI에서 새 폴더를 만들려면 다음 단계를 따릅�
 >title="즐겨찾기"
 >abstract="즐겨찾기 폴더는 왼쪽 탭 상단에 표시됩니다."
 
-&quot;즐겨찾기&quot;로 표시된 폴더는 항상 왼쪽 탭 상단에 표시됩니다.
+“즐겨찾기”로 표시된 폴더는 항상 왼쪽 탭의 맨 위에 표시됩니다.
 
-폴더를 볼 때 오른쪽 상단의 별 버튼을 클릭하여 폴더를 즐겨찾기로 추가할 수 있습니다.
+폴더를 볼 때 오른쪽 상단에 있는 별 버튼을 클릭하면 해당 폴더를 즐겨찾기에 추가할 수 있습니다.
 
 ![즐겨찾는 폴더 위치 스크린샷](assets/folders-favorite.png){zoomable="yes"}
 

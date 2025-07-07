@@ -6,9 +6,9 @@ title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
 source-git-commit: eb0e725c8b3af2f478919fe80b75a4ee20b341f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 98%
       + [메시지 콘텐츠 미리보기](preview-test/preview-content.md)
       + [교정쇄 보내기](preview-test/test-deliveries.md)
       + [이메일 렌더링 테스트](preview-test/email-rendering.md)
-   + 게재 알림 {#delivery-alerting}
+   + 게재 경고 {#delivery-alerting}
       + [게재 경고 시작하기](msg/delivery-alerting.md)
       + [게재 경고 대시보드](msg/delivery-alerting-dashboards.md)
       + [게재 경고 기준](msg/delivery-alerting-criteria.md)
@@ -121,7 +121,7 @@ ht-degree: 98%
          + [수직 정렬 및 패딩 조정](email/alignment-and-padding.md)
          + [링크 스타일 정의](email/styling-links.md)
          + [인라인 스타일 속성 추가](email/inline-styling.md)
-         + [사용자 지정 CSS 추가](email/custom-css.md)
+         + [사용자 정의 CSS 추가](email/custom-css.md)
    + AI 어시스턴트 {#ai-assistant}
       + [AI 어시스턴트로 작업하기](email/generative-gs.md)
       + [AI를 활용한 이메일 생성](email/generative-content.md)

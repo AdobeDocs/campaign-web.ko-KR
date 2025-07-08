@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 keywords: css, 편집기, 요약, 이메일
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
-source-git-commit: d21538237340bc73ea8505d29d54aea7f541588d
+source-git-commit: 88d1a6bd2b4e36852ee6d5332ff8d24bc5efeed9
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '692'
 ht-degree: 7%
 
 ---
@@ -138,9 +138,9 @@ ht-degree: 7%
 
 +++
 
-+++ 잘못된 CSS 샘플
-
 잘못된 CSS를 입력하면 CSS를 저장할 수 없음을 나타내는 오류 메시지가 표시됩니다. 다음은 잘못된 CSS의 예입니다.
+
++++ 잘못된 CSS 샘플
 
 `<style>` 태그를 사용할 수 없습니다.
 
@@ -208,17 +208,19 @@ body {
 
 사용자 지정 CSS는 이메일 Designer의 **[!UICONTROL 설정]** 창에서 해석되거나 확인되지 않습니다. 완전히 독립적이며 **[!UICONTROL 사용자 지정 CSS 추가]** 옵션을 통해서만 수정할 수 있습니다.
 
-`global-custom` 스타일 태그에 `data-disabled` 특성이 `true`(으)로 설정된 경우 사용자 지정 CSS가 적용되지 않습니다.
+<!--
+If the `global-custom` style tag has the attribute `data-disabled` set to `true`, the custom CSS will not be applied. 
 
-+++ 샘플 참조
++++ See sample
 
-예제:
+For example:
 
 ```html
 <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
 ```
 
 +++
+-->
 
 ## 보호 기능 - 가져온 콘텐츠
 
@@ -247,7 +249,7 @@ body {
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-  +++
++++
 
 * CSS가 다른 CSS 규칙에 의해 재정의되지 않았는지 확인하십시오.
 

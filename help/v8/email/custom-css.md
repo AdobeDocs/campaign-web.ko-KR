@@ -249,7 +249,7 @@ For example:
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-+++
+  +++
 
 * CSS가 다른 CSS 규칙에 의해 재정의되지 않았는지 확인하십시오.
 

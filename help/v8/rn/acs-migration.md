@@ -70,7 +70,7 @@ Campaign 클라이언트 콘솔은 관리자와 개발자가 자신의 환경을
 
 ## 특정 기능 {#new-features}
 
-Campaign v8로 원활하게 전환할 수 있도록 주요 Campaign Standard 기능이 Campaign v8에 추가되었습니다. 이 기능에 대한 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target=_blank}에서 살펴볼 수 있으며, Campaign Standard에서 전환하는 사용자에게만 제공됩니다.
+Campaign v8로 원활하게 전환할 수 있도록 주요 Campaign Standard 기능이 Campaign v8에 추가되었습니다. 이 기능에 대한 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ko){target=_blank}에서 살펴볼 수 있으며, Campaign Standard에서 전환하는 사용자에게만 제공됩니다.
 
 * **동적 보고**: 동적 보고는 마케팅 활동의 영향을 측정하기 위해 사용자 정의 가능한 실시간 보고서를 제공합니다. 이 기능은 프로필 데이터에 대한 액세스를 포함하여 열기 및 클릭과 같은 기능적 이메일 캠페인 데이터 외에도 성별, 도시, 연령과 같은 프로필 차원별로 인구통계학적 분석을 지원합니다. [자세히 알아보기](../reporting/dynamic-reporting/get-started-reporting.md).
 

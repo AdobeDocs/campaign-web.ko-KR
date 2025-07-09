@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: eb0e725c8b3af2f478919fe80b75a4ee20b341f3
-workflow-type: ht
-source-wordcount: '834'
-ht-degree: 100%
+source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
+workflow-type: tm+mt
+source-wordcount: '910'
+ht-degree: 97%
 
 ---
 
@@ -209,33 +209,64 @@ ht-degree: 100%
    + [쿼리 샘플](query/query-samples.md)
    + [필터 목록](query/filter.md)
 + 보고 {#reports}
-   + [보고서 시작하기](reporting/gs-reports.md)
    + [감사 추적](reporting/audit-trail.md)
-   + [보고서 내보내기](reporting/export-reports.md)
    + [주요 성과 지표](reporting/kpis.md)
-   + 게재 보고서 {#delivery-report}
-      + [게재 보고서 시작하기](reporting/delivery-reports.md)
-      + [이메일 게재 보고서](reporting/email-report.md)
-      + [게재 보고서 푸시](reporting/push-report.md)
-      + [SMS 게재 보고서](reporting/sms-report.md)
-      + [외부 게재 보고서](reporting/direct-mail.md)
-   + 캠페인 보고서 {#campaign-report}
-      + [캠페인 보고서 시작하기](reporting/campaign-reports.md)
-      + [이메일 캠페인 보고서](reporting/campaign-reports-email.md)
-      + [푸시 캠페인 보고서](reporting/campaign-reports-push.md)
-      + [SMS 캠페인 보고서](reporting/campaign-reports-sms.md)
-      + [외부 게재 캠페인 보고서](reporting/campaign-reports-direct-mail.md)
-   + 전반적 보고서 {#global-report}
-      + [글로벌 보고서 시작하기](reporting/global-reports.md)
-      + [이메일 글로벌 보고서](reporting/global-report-email.md)
-      + [푸시 글로벌 보고서](reporting/global-report-push.md)
-      + [SMS 글로벌 보고서](reporting/global-report-sms.md)
-      + [다이렉트 메일 글로벌 보고서](reporting/global-report-direct.md)
+   + 표준 보고서 {#standard-reports}
+      + [보고서 시작하기](reporting/gs-reports.md)
+      + [보고서 내보내기](reporting/export-reports.md)
+      + 게재 보고서 {#delivery-report}
+         + [게재 보고서 시작하기](reporting/delivery-reports.md)
+         + [이메일 게재 보고서](reporting/email-report.md)
+         + [게재 보고서 푸시](reporting/push-report.md)
+         + [SMS 게재 보고서](reporting/sms-report.md)
+         + [외부 게재 보고서](reporting/direct-mail.md)
+      + 캠페인 보고서 {#campaign-report}
+         + [캠페인 보고서 시작하기](reporting/campaign-reports.md)
+         + [이메일 캠페인 보고서](reporting/campaign-reports-email.md)
+         + [푸시 캠페인 보고서](reporting/campaign-reports-push.md)
+         + [SMS 캠페인 보고서](reporting/campaign-reports-sms.md)
+         + [외부 게재 캠페인 보고서](reporting/campaign-reports-direct-mail.md)
+      + 전반적 보고서 {#global-report}
+         + [글로벌 보고서 시작하기](reporting/global-reports.md)
+         + [이메일 글로벌 보고서](reporting/global-report-email.md)
+         + [푸시 글로벌 보고서](reporting/global-report-push.md)
+         + [SMS 글로벌 보고서](reporting/global-report-sms.md)
+         + [다이렉트 메일 글로벌 보고서](reporting/global-report-direct.md)
+   + 다이내믹 보고 {#dynamic-reporting}
+      + [동적 보고서 시작](reporting/dynamic-reporting/get-started-reporting.md)
+      + 보고 기본 정보 {#about-reporting}
+         + [동적 보고서 기본 정보](reporting/dynamic-reporting/about-dynamic-reports.md)
+         + [보고 인터페이스](reporting/dynamic-reporting/reporting-interface.md)
+         + [구성 요소 목록](reporting/dynamic-reporting/list-of-components.md)
+         + [지표 계산](reporting/dynamic-reporting/indicator-calculation.md)
+         + [문제 해결](reporting/dynamic-reporting/troubleshooting.md)
+      + 보고서 목록 {#list-of-reports}
+         + [보고서 기간 정의](reporting/dynamic-reporting/defining-the-report-period.md)
+         + [이탈 요약](reporting/dynamic-reporting/bounce-summary.md)
+         + [도메인별 분류](reporting/dynamic-reporting/breakdown-by-domains.md)
+         + [컴플레인](reporting/dynamic-reporting/complaints.md)
+         + [게재 요약](reporting/dynamic-reporting/delivery-summary.md)
+         + [게재 처리량](reporting/dynamic-reporting/delivery-throughput.md)
+         + [게재 불가 및 이탈](reporting/dynamic-reporting/non-deliverables-and-bounces.md)
+         + [오픈율](reporting/dynamic-reporting/opens.md)
+         + [지표 추적](reporting/dynamic-reporting/tracking-indicators.md)
+         + [구독 최소 건수](reporting/dynamic-reporting/unsubscriptions.md)
+         + [URL 및 클릭 스트림](reporting/dynamic-reporting/urls-and-click-streams.md)
+      + 보고서 사용자 지정 {#customizing-reports}
+         + [패널 추가](reporting/dynamic-reporting/adding-panels.md)
+         + [시각화 추가](reporting/dynamic-reporting/adding-visualizations.md)
+         + [구성 요소 추가](reporting/dynamic-reporting/adding-components.md)
+         + [사용자 정의 프로필 차원 만들기](reporting/dynamic-reporting/creating-a-custom-profile-dimension.md)
+         + [동적 보고 사용 계약](reporting/dynamic-reporting/pii-agreement.md)
 + 통합 {#integrations}
    + [다른 Adobe 솔루션 사용 작업](integrations/integration.md)
    + [Adobe Experience Manager Assets as a Cloud Service로 자산 관리](integrations/aem-assets.md)
    + [Adobe Experience Manager as a Cloud Service로 템플릿 관리](integrations/aem-content.md)
 + 구성 {#conf}
+   + 브랜딩 {#branding}
+      + [브랜딩 기본 정보](administration/branding/branding-gs.md)
+      + [브랜드 구성](administration/branding/branding-configure.md)
+      + [브랜드 할당](administration/branding/branding-assign.md)
    + [비즈니스 규칙 작업 (유형화)](administration/typologies.md)
    + [대상 매핑 관리](administration/target-mappings.md)
    + [스키마 작업](administration/schemas.md)

@@ -3,10 +3,10 @@ audience: end-user
 title: 구독 서비스 작업
 description: Adobe Campaign 웹에서 구독 서비스에 액세스하고, 만들고, 관리하는 방법을 알아봅니다
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 29%
+source-wordcount: '1127'
+ht-degree: 28%
 
 ---
 
@@ -87,10 +87,6 @@ Adobe Campaign 웹을 사용하여 뉴스레터와 같은 서비스를 관리 �
 1. **[!UICONTROL 저장 및 검토]**&#x200B;를 클릭합니다. 새 서비스가 **[!UICONTROL 구독 서비스]** 목록에 추가되었습니다.
 
 1. 이 서비스와 연결된 기본 구독 및 구독 취소 랜딩 페이지를 선택합니다.
-
-   >[!AVAILABILITY]
-   >
-   >이 기능은 LA(Limited Availability)에 있습니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 
    ![구독 서비스에 대한 기본 랜딩 페이지 설정을 보여 주는 스크린샷](assets/service-create-default-lp.png){zoomable="yes"}
 

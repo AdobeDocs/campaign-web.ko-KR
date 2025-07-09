@@ -1,13 +1,12 @@
 ---
 audience: end-user
-title: 게재 알림
+title: 게재 경고
 description: 게재 경고 작업 방법을 알아봅니다.
-badge: label="제한 공개"
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
+source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 24%
+source-wordcount: '1115'
+ht-degree: 22%
 
 ---
 
@@ -21,10 +20,6 @@ ht-degree: 24%
 게재 경고 대시보드를 사용하면 이메일 경고를 수신할 사용자를 지정하고, 해당 경고를 전송하는 데 사용할 경고 기준을 선택 및 구성하고, 전송된 모든 알림의 기록에 액세스할 수 있습니다. 왼쪽 탐색 창의 **대시보드** 탭 아래에 있는 **게재 경고** 메뉴에서 액세스할 수 있습니다.
 
 ![게재 경고 메뉴의 경고 대시보드 목록을 표시하는 스크린샷입니다.](assets/alerting-dashboard-list.png)
-
->[!AVAILABILITY]
->
->이 기능은 LA(Limited Availability)에 있습니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 
 ## 게재 대시보드 만들기 {#dashboards}
 
@@ -82,7 +77,7 @@ ht-degree: 24%
    * **최소 예상 처리량(시간당 전송된 메시지)**: 처리량 기준이 낮은 게재에는 지정된 값보다 낮은 처리량의 게재만 고려됩니다.
    * **&#39;진행 중인 게재&#39; 기준에 필요한 최소 처리 비율**: 처리된 메시지 비율이 지정된 비율보다 높은 게재만 고려합니다.
 
-   +++
++++
 
 1. 기본적으로 경고 대시보드는 비활성화되어 있으므로 이 대시보드에 연결된 이메일 경고가 전송되지 않습니다. 대시보드를 즉시 활성화하려면 경고 그룹 선택 필드 옆에 있는 **일반** 섹션에서 **활성화됨** 옵션을 전환하십시오.
 

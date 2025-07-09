@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Standard에서 Adobe Campaign Web으로의 전환
 description: Campaign Web 사용자 인터페이스 살펴보기
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '589'
-ht-degree: 100%
+source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
+workflow-type: tm+mt
+source-wordcount: '587'
+ht-degree: 99%
 
 ---
 
@@ -70,13 +70,13 @@ Campaign 클라이언트 콘솔은 관리자와 개발자가 자신의 환경을
 
 ## 특정 기능 {#new-features}
 
-Campaign v8로 원활하게 전환할 수 있도록 주요 Campaign Standard 기능이 Campaign v8에 추가되었습니다. 이 기능에 대한 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ko){target=&quot;_blank}에서 살펴볼 수 있으며, Campaign Standard에서 전환하는 사용자에게만 제공됩니다.
+Campaign v8로 원활하게 전환할 수 있도록 주요 Campaign Standard 기능이 Campaign v8에 추가되었습니다. 이 기능에 대한 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target=&quot;_blank}에서 살펴볼 수 있으며, Campaign Standard에서 전환하는 사용자에게만 제공됩니다.
 
-* **동적 보고**: 동적 보고는 마케팅 활동의 영향을 측정하기 위해 사용자 정의 가능한 실시간 보고서를 제공합니다. 이 기능은 프로필 데이터에 대한 액세스를 포함하여 열기 및 클릭과 같은 기능적 이메일 캠페인 데이터 외에도 성별, 도시, 연령과 같은 프로필 차원별로 인구통계학적 분석을 지원합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=ko){target="_blank"}.
+* **동적 보고**: 동적 보고는 마케팅 활동의 영향을 측정하기 위해 사용자 정의 가능한 실시간 보고서를 제공합니다. 이 기능은 프로필 데이터에 대한 액세스를 포함하여 열기 및 클릭과 같은 기능적 이메일 캠페인 데이터 외에도 성별, 도시, 연령과 같은 프로필 차원별로 인구통계학적 분석을 지원합니다. [자세히 알아보기](../reporting/dynamic-reporting/get-started-reporting.md).
 
-* **중앙 집중식 브랜딩**: Adobe Campaign을 통해 기업은 브랜드의 시각적 및 기술적 지침을 정의할 수 있습니다. 사용자는 로고부터 이메일 발신자, URL 도,메인과 같은 기술적인 측면까지 일관된 브랜드를 고객에게 제공할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=ko).
+* **중앙 집중식 브랜딩**: Adobe Campaign을 통해 기업은 브랜드의 시각적 및 기술적 지침을 정의할 수 있습니다. 사용자는 로고부터 이메일 발신자, URL 도,메인과 같은 기술적인 측면까지 일관된 브랜드를 고객에게 제공할 수 있습니다. [자세히 알아보기](../administration/branding/branding-gs.md).
 
-* **REST API**: Campaign Standard로 마이그레이션된 사용자는 REST API를 사용하여 Adobe Campaign의 통합을 만들고 Adobe Campaign을 다른 기술과 통합하여 생태계를 구축할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=ko){target="_blank"}.
+* **REST API**: Campaign Standard로 마이그레이션된 사용자는 REST API를 사용하여 Adobe Campaign의 통합을 만들고 Adobe Campaign을 다른 기술과 통합하여 생태계를 구축할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.
 
 * **랜딩 페이지**: Campaign Standard와의 기능 패리티를 보장하기 위해 Campaign v8 랜딩 페이지에 개선 사항이 적용되었습니다. [릴리스 정보](../rn/release-notes.md#new-24-4) 및 랜딩 페이지 [설명서](../landing-pages/get-started-lp.md)에서 자세한 내용을 살펴보십시오.
 

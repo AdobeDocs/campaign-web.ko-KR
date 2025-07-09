@@ -3,10 +3,10 @@ title: 랜딩 페이지 만들기
 description: Campaign 웹에서 랜딩 페이지를 구성하고 게시하는 방법을 알아봅니다
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 25%
+source-wordcount: '1643'
+ht-degree: 24%
 
 ---
 
@@ -116,10 +116,6 @@ Campaign 웹 사용자 인터페이스를 사용하면 랜딩 페이지를 만�
 
    * **[!UICONTROL ID 부재 승인]** 옵션을 사용하면 모든 방문자가 랜딩 페이지에 액세스할 수 있습니다. 이 옵션을 선택 해제하면 익명 방문자가 이 옵션을 사용할 수 없습니다. 즉, 식별된 사용자만 양식에 액세스하고 양식을 제출할 수 있습니다.
 
-     >[!AVAILABILITY]
-     >
-     >이 기능은 LA(Limited Availability)에 있습니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
-
      **[!UICONTROL 획득]** 및 **[!UICONTROL 구독]** 템플릿의 경우 기본적으로 이 옵션이 선택됩니다. **[!UICONTROL 구독 취소]** 및 **[!UICONTROL 차단 목록]** 템플릿의 경우 이 옵션은 기본적으로 선택되지 않으며 수정할 수 없습니다.
 
 1. 랜딩 페이지에는 후속 페이지가 있을 수 있습니다. 페이지를 추가하려면 **[!UICONTROL 페이지]** 섹션을 찾은 다음 이 랜딩 페이지에 대해 디자인할 각 페이지에 대해 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭하십시오. 각 페이지의 콘텐츠는 이미 사전에 채워져 있습니다. 필요에 따라 편집합니다. [자세히 알아보기](lp-content.md).
@@ -133,10 +129,6 @@ Campaign 웹 사용자 인터페이스를 사용하면 랜딩 페이지를 만�
    ![랜딩 페이지의 저장소 옵션을 보여 주는 스크린샷입니다.](assets/lp-storage.png){zoomable="yes"}
 
 1. 랜딩 페이지를 제출할 때 내부 데이터를 저장할 **[!UICONTROL 추가 데이터]**&#x200B;를 만듭니다. 이 데이터는 페이지를 방문한 사용자에게 표시되지 않습니다. 상수 값만 고려됩니다.
-
-   >[!AVAILABILITY]
-   >
-   >이 기능은 LA(Limited Availability)에 있습니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 
    ![추가 데이터 섹션을 보여 주는 스크린샷입니다.](assets/lp-additional-data.png){zoomable="yes"}
 
@@ -161,10 +153,6 @@ Campaign 웹 사용자 인터페이스를 사용하면 랜딩 페이지를 만�
 모든 설정과 [디자인](lp-content.md)을 정의하면 아래와 같이 랜딩 페이지를 [테스트](#test-landing-page)하고 [게시](#publish-landing-page)할 수 있습니다.
 
 ## captcha를 사용하여 랜딩 페이지 보안 {#captcha}
-
->[!AVAILABILITY]
->
->이 기능은 LA(Limited Availability)에 있습니다. 마지막 수정 버전&#x200B;**으로 업그레이드된** Adobe Campaign v8.7.2를 사용하는 고객으로 제한되며 다른 환경에 배포할 수 없습니다.
 
 captcha를 설정하면 랜딩 페이지를 스팸 및 남용으로부터 보호할 수 있습니다.
 

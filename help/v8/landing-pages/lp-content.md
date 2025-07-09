@@ -3,10 +3,10 @@ title: 랜딩 페이지별 콘텐츠 정의
 description: Campaign 웹에서 랜딩 페이지별 콘텐츠를 디자인하는 방법을 알아봅니다
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 16%
+source-wordcount: '1161'
+ht-degree: 11%
 
 ---
 
@@ -35,10 +35,6 @@ ht-degree: 16%
 * 이메일을 디자인하는 데 사용되는 구성 요소와 동일한 구성 요소를 사용합니다. [자세히 알아보기](../email/content-components.md#add-content-components)
 
 * 이메일과 동일한 방식으로 랜딩 페이지에 조건부 콘텐츠를 추가합니다. [자세히 알아보기](../personalization/conditions.md#condition-condition-builder)
-
-  >[!AVAILABILITY]
-  >
-  >이 기능은 LA(Limited Availability)에 있습니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 
 ## 양식 구성 요소 사용 {#use-form-component}
 
@@ -94,9 +90,9 @@ ht-degree: 16%
 
 1. 텍스트 필드, 라디오 버튼, 확인란, 드롭다운 목록 등 필드를 필요한 만큼 삭제하고 추가합니다.
 
-1. 모든 필드가 추가되거나 업데이트되면 **[!UICONTROL 콜 투 액션]**&#x200B;을 클릭하여 해당 섹션을 확장합니다. 이를 통해 **[!UICONTROL Form]** 구성 요소에서 단추의 동작을 정의할 수 있습니다. [방법 알아보기](#define-actions-on-form-submission)
+1. 모든 필드가 추가되거나 업데이트되면 **[!UICONTROL Call to action]**&#x200B;을 클릭하여 해당 섹션을 확장합니다. 이를 통해 **[!UICONTROL Form]** 구성 요소에서 단추의 동작을 정의할 수 있습니다. [방법 알아보기](#define-actions-on-form-submission)
 
-   ![양식 구성 요소의 작업 설정 호출](assets/lp-call-to-action.png){zoomable="yes"}
+   양식 구성 요소의 ![Call to action 설정](assets/lp-call-to-action.png){zoomable="yes"}
 
 1. 콘텐츠를 저장하여 [랜딩 페이지 속성](create-lp.md#create-landing-page)(으)로 돌아갑니다.
 
@@ -125,10 +121,6 @@ ht-degree: 16%
 
 1. **[!UICONTROL URL의 서비스]** 옵션을 선택하여 랜딩 페이지를 여러 서비스에 사용할 수 있도록 하여 동적으로 만듭니다. 양식을 제출할 때 사용자를 옵트인할지 또는 옵트아웃할지 여부를 정의합니다.
 
-   >[!AVAILABILITY]
-   >
-   >이 기능은 LA(Limited Availability)에 있습니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
-
    양식 구성 요소의 URL 설정에서 ![서비스](assets/lp-form-service-from-url.png){zoomable="yes"}
 
    이메일을 디자인할 때 이 랜딩 페이지에 대한 **[!UICONTROL 랜딩 페이지]** 유형 링크를 정의하는 경우 목록에서 서비스를 선택할 수 있습니다. 그런 다음 이 랜딩 페이지에 대한 다른 링크를 정의할 때 다른 서비스를 선택할 수 있습니다. [링크 삽입에 대해 자세히 알아보기](../email/message-tracking.md)
@@ -139,13 +131,9 @@ ht-degree: 16%
 
 ### 제출 후 메시지 보내기 {#lp-message}
 
->[!AVAILABILITY]
->
->이 기능은 LA(Limited Availability)에 있습니다. 이는 **Adobe Campaign Standard에서 Adobe Campaign v8**&#x200B;로 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
-
 랜딩 페이지를 제출한 후 확인 메시지를 자동으로 보내려면 다음 단계를 수행합니다.
 
-1. **[!UICONTROL CALL TO ACTION]** 섹션에서 **[!UICONTROL 확인 이메일 보내기]** 옵션을 확인하십시오.
+1. **[!UICONTROL CALL TO ACTION]** 섹션에서 **[!UICONTROL 확인 전자 메일 보내기]** 옵션을 확인하세요.
 
 1. 연결된 드롭다운 목록에서 전송해야 하는 트랜잭션 메시지 템플릿을 선택합니다.
 
@@ -167,7 +155,7 @@ ht-degree: 16%
 
 1. **[!UICONTROL 콜 투 액션]** 섹션을 확장하여 구성 요소 양식의 단추 모양을 수정합니다. 예를 들어, 글꼴을 변경하거나, 테두리를 추가하거나, 마우스로 가리키면 레이블 색상을 편집하거나, 단추의 정렬을 조정합니다.
 
-   ![콜 투 액션 스타일 설정](assets/lp-call-to-action-style.png){zoomable="yes"}
+   ![Call to action 스타일 설정](assets/lp-call-to-action-style.png){zoomable="yes"}
 
    **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 사용하여 마우스로 가리키면 단추 레이블 색상과 같은 일부 설정을 미리 봅니다. [자세히 알아보기](create-lp.md#test-landing-page)
 

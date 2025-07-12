@@ -59,7 +59,7 @@ Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대�
 이 릴리스에는 위에 나열된 기능 외에도 클라이언트 콘솔에서 사용할 수 있는 기능 세트가 포함되어 있습니다.
 
 * [새 SMS 전송 커넥터](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=ko).
-* [나머지 API](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html)
+* [나머지 API](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ko)
 
 클라이언트 콘솔 [릴리스 정보](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ko){target="_blank"}를 참조하세요.
 

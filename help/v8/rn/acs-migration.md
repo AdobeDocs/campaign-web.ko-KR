@@ -76,7 +76,7 @@ Campaign v8로 원활하게 전환할 수 있도록 주요 Campaign Standard 기
 
 * **중앙 집중식 브랜딩**: Adobe Campaign을 통해 기업은 브랜드의 시각적 및 기술적 지침을 정의할 수 있습니다. 사용자는 로고부터 이메일 발신자, URL 도,메인과 같은 기술적인 측면까지 일관된 브랜드를 고객에게 제공할 수 있습니다. [자세히 알아보기](../administration/branding/branding-gs.md).
 
-* **REST API**: Campaign Standard로 마이그레이션된 사용자는 REST API를 사용하여 Adobe Campaign의 통합을 만들고 Adobe Campaign을 다른 기술과 통합하여 생태계를 구축할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.
+* **REST API**: Campaign Standard로 마이그레이션된 사용자는 REST API를 사용하여 Adobe Campaign의 통합을 만들고 Adobe Campaign을 다른 기술과 통합하여 생태계를 구축할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ko){target="_blank"}.
 
 * **랜딩 페이지**: Campaign Standard와의 기능 패리티를 보장하기 위해 Campaign v8 랜딩 페이지에 개선 사항이 적용되었습니다. [릴리스 정보](../rn/release-notes.md#new-24-4) 및 랜딩 페이지 [설명서](../landing-pages/get-started-lp.md)에서 자세한 내용을 살펴보십시오.
 

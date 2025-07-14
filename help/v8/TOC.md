@@ -6,9 +6,9 @@ title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '910'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -232,9 +232,9 @@ ht-degree: 97%
          + [푸시 글로벌 보고서](reporting/global-report-push.md)
          + [SMS 글로벌 보고서](reporting/global-report-sms.md)
          + [다이렉트 메일 글로벌 보고서](reporting/global-report-direct.md)
-   + 다이내믹 보고 {#dynamic-reporting}
-      + [동적 보고서 시작](reporting/dynamic-reporting/get-started-reporting.md)
-      + 보고 기본 정보 {#about-reporting}
+   + 동적 보고 {#dynamic-reporting}
+      + [동적 보고서 시작하기](reporting/dynamic-reporting/get-started-reporting.md)
+      + 보고 정보 {#about-reporting}
          + [동적 보고서 기본 정보](reporting/dynamic-reporting/about-dynamic-reports.md)
          + [보고 인터페이스](reporting/dynamic-reporting/reporting-interface.md)
          + [구성 요소 목록](reporting/dynamic-reporting/list-of-components.md)
@@ -247,12 +247,12 @@ ht-degree: 97%
          + [컴플레인](reporting/dynamic-reporting/complaints.md)
          + [게재 요약](reporting/dynamic-reporting/delivery-summary.md)
          + [게재 처리량](reporting/dynamic-reporting/delivery-throughput.md)
-         + [게재 불가 및 이탈](reporting/dynamic-reporting/non-deliverables-and-bounces.md)
-         + [오픈율](reporting/dynamic-reporting/opens.md)
+         + [비게재 항목 및 바운스](reporting/dynamic-reporting/non-deliverables-and-bounces.md)
+         + [열람 수](reporting/dynamic-reporting/opens.md)
          + [지표 추적](reporting/dynamic-reporting/tracking-indicators.md)
          + [구독 최소 건수](reporting/dynamic-reporting/unsubscriptions.md)
          + [URL 및 클릭 스트림](reporting/dynamic-reporting/urls-and-click-streams.md)
-      + 보고서 사용자 지정 {#customizing-reports}
+      + 보고서 사용자 정의 {#customizing-reports}
          + [패널 추가](reporting/dynamic-reporting/adding-panels.md)
          + [시각화 추가](reporting/dynamic-reporting/adding-visualizations.md)
          + [구성 요소 추가](reporting/dynamic-reporting/adding-components.md)
@@ -264,7 +264,7 @@ ht-degree: 97%
    + [Adobe Experience Manager as a Cloud Service로 템플릿 관리](integrations/aem-content.md)
 + 구성 {#conf}
    + 브랜딩 {#branding}
-      + [브랜딩 기본 정보](administration/branding/branding-gs.md)
+      + [브랜딩 정보](administration/branding/branding-gs.md)
       + [브랜드 구성](administration/branding/branding-configure.md)
       + [브랜드 할당](administration/branding/branding-assign.md)
    + [비즈니스 규칙 작업 (유형화)](administration/typologies.md)

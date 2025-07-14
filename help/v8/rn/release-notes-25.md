@@ -3,9 +3,9 @@ title: Campaign v8 Web 사용자 인터페이스 이전 릴리스 정보
 description: 2025 Campaign Web 사용자 인터페이스 릴리스
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
 source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1604'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 
 * SMS 게재를 구성할 때 이제 특정 SMS 매개변수에 액세스할 수 있습니다. 이는 클라이언트 콘솔에서 사용할 수 있는 매개변수와 동일합니다. [자세히 알아보기](../advanced-settings/delivery-settings.md#sms-tab)
 
-* 이제 즐겨찾는 폴더가 탐색기 페이지의 왼쪽 패널 상단에 표시되어 쉽게 액세스할 수 있습니다. [자세히 알아보기](../get-started/work-with-folders.md#favorite-folders)
+* 이제 자주 사용하는 폴더가 탐색기 페이지의 왼쪽 패널 상단에 표시되어 간편하게 액세스할 수 있습니다. [자세히 알아보기](../get-started/work-with-folders.md#favorite-folders)
 
 * 이제 규칙 빌더가 드래그 앤 드롭을 지원하여 쿼리 구성 요소를 더 효율적으로 재정렬할 수 있습니다. [자세히 알아보기](../query/build-query.md#drag-and-drop)
 
@@ -167,13 +167,13 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >다음 기능은 제한 공개(LA)로 제공됩니다. **Adobe Campaign Standard에서 Adobe Campaign v8로** 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다. 해당 고객은 Campaign 서버를 v8.7.4로 업그레이드해야 합니다.
 >
->[Campaign Standard에서 Campaign v8로의 전환](../rn/acs-migration.md) 및 [Campaign Standard 사용자를 위한 기능](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ko) 설명서 페이지를 참조하십시오.
+>[Campaign Standard에서 Campaign v8로의 전환](../rn/acs-migration.md) 및 [Campaign Standard 사용자를 위한 기능](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html) 설명서 페이지를 참조하십시오.
 
 * **다국어 게재 생성** - 이제 Adobe Campaign Web 사용자 인터페이스에서 다양한 언어로 여러 이메일 게재를 전송할 수 있습니다. 다국어 게재 기능을 사용하면 게재의 기본 언어는 물론, 게재를 전송할 수 있는 다양한 언어를 선택할 수 있습니다. 선택한 언어로 게재 내용을 미리 볼 수도 있습니다. 자세한 내용은 [세부 설명서](../email/edit-content.md)를 참조하십시오.
 
 * **다국어를 위한 동적 보고** - 이제 다국어 이메일 게재에 대해 동적 보고가 가능합니다. 자세한 내용은 [세부 설명서](../reporting/global-reports.md)를 참조하십시오.
 
-* **SMS REST API 지원(LA)** - 이제 SMS 채널에서 트랜잭션 메시지 REST API를 사용할 수 있습니다. 페이로드에 이메일과 휴대폰이 모두 있는 경우 “wishedChannel” 필드를 사용하여 채널을 지정할 수 있습니다. 제공되지 않으면 wishedChannel에서 SMS를 명시적으로 요청하지 않는 한 기본적으로 이메일이 사용됩니다. 자세한 내용은 [세부 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ko){target=_blank}를 참조하십시오.
+* **SMS REST API 지원(LA)** - 이제 SMS 채널에서 트랜잭션 메시지 REST API를 사용할 수 있습니다. 페이로드에 이메일과 휴대폰이 모두 있는 경우 “wishedChannel” 필드를 사용하여 채널을 지정할 수 있습니다. 제공되지 않으면 wishedChannel에서 SMS를 명시적으로 요청하지 않는 한 기본적으로 이메일이 사용됩니다. 자세한 내용은 [세부 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target=_blank}를 참조하십시오.
 
 ## 2025년 2월 릴리스 {#25-2-release}
 

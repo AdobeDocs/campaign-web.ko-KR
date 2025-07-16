@@ -3,10 +3,10 @@ audience: end-user
 title: 메시지 추적
 description: 링크를 추가하고 전송된 메시지를 추적하는 방법 알아보기
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 53f3cc27ed6d768d134902a9196f0b221fedcde0
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 23%
+source-wordcount: '568'
+ht-degree: 21%
 
 ---
 
@@ -31,10 +31,6 @@ ht-degree: 23%
    ![메시지 추적 도구에 링크를 삽입하는 인터페이스를 보여 주는 스크린샷](assets/message-tracking-insert-link.png){zoomable="yes"}
 
    * **[!UICONTROL 외부 링크]**: 외부 URL에 링크를 삽입합니다.
-
-     >[!AVAILABILITY]
-     >
-     >다음 기능(**[!UICONTROL 랜딩 페이지]**, **[!UICONTROL 구독 링크]** 및 **[!UICONTROL 구독 취소 링크]**)은 LA(Limited Availability)에 있습니다. **Adobe Campaign Standard에서 Adobe Campaign v8로** 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 
    * **[!UICONTROL 랜딩 페이지]**: 랜딩 페이지에 링크를 삽입합니다. 동적 랜딩 페이지(**[!UICONTROL URL의 서비스]** 옵션이 선택된 상태)를 선택하면 목록에서 서비스를 선택할 수 있습니다. [자세히 알아보기](../landing-pages/create-lp.md#define-actions-on-form-submission)
 

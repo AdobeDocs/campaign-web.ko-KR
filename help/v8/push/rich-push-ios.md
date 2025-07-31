@@ -3,9 +3,9 @@ audience: end-user
 title: iOS 리치 푸시 알림 게재 디자인
 description: Adobe Campaign 웹을 사용하여 iOS 리치 푸시 알림 전달을 디자인하는 방법을 알아봅니다
 exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 53f4662e9497c8614036f9f89c1ea2b1233756f0
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1625'
 ht-degree: 4%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->리치 푸시 알림을 디자인하기 전에 V2 커넥터를 구성해야 합니다. 자세한 절차는 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application)를 참조하세요.
+>리치 푸시 알림을 디자인하기 전에 V2 커넥터를 구성해야 합니다. 자세한 절차는 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application)를 참조하세요.
 
 ## 알림 콘텐츠 정의 {#push-message}
 
@@ -39,7 +39,7 @@ ht-degree: 4%
 
    이 필드는 iOS 알림 페이로드의 **title** 매개 변수의 값을 정의합니다.
 
-1. 선택적으로 iOS 알림 페이로드의 **자막** 매개 변수에 해당하는 **[!UICONTROL 자막]**&#x200B;을 추가합니다.
+1. 선택적으로 iOS 알림 페이로드의 **[!UICONTROL 자막]** 매개 변수에 해당하는 **자막**&#x200B;을 추가합니다.
 
 1. **[!UICONTROL 메시지]** 필드에 메시지 내용을 입력합니다.
 
@@ -75,7 +75,7 @@ ht-degree: 4%
 
 1. 표현식 편집기를 사용하여 콘텐츠를 정의하고, 데이터를 개인화하고, 다이내믹 콘텐츠를 추가합니다. [자세히 알아보기](../personalization/personalize.md)
 
-1. 선택적으로 iOS 알림 페이로드의 **자막** 매개 변수에 해당하는 **[!UICONTROL 자막]**&#x200B;을 추가합니다.
+1. 선택적으로 iOS 알림 페이로드의 **[!UICONTROL 자막]** 매개 변수에 해당하는 **자막**&#x200B;을 추가합니다.
 
 1. 알림에서 사용자 클릭과 연결된 **[!UICONTROL 클릭 동작]**&#x200B;을 정의하는 URL을 추가하십시오. 이는 사용자가 특정 화면을 열거나 앱에서 특정 작업을 수행하는 것과 같이 알림과 상호 작용할 때의 동작을 결정합니다.
 
@@ -109,7 +109,7 @@ ht-degree: 4%
 
 1. 표현식 편집기를 사용하여 콘텐츠를 정의하고, 데이터를 개인화하고, 다이내믹 콘텐츠를 추가합니다. [자세히 알아보기](../personalization/personalize.md)
 
-1. 선택적으로 iOS 알림 페이로드의 **자막** 매개 변수에 해당하는 **[!UICONTROL 자막]**&#x200B;을 추가합니다.
+1. 선택적으로 iOS 알림 페이로드의 **[!UICONTROL 자막]** 매개 변수에 해당하는 **자막**&#x200B;을 추가합니다.
 
 1. 알림에서 사용자 클릭과 연결된 **[!UICONTROL 클릭 동작]**&#x200B;을 정의하는 URL을 추가하십시오. 이는 사용자가 특정 화면을 열거나 앱에서 특정 작업을 수행하는 것과 같이 알림과 상호 작용할 때의 동작을 결정합니다.
 
@@ -152,7 +152,7 @@ ht-degree: 4%
 
 1. 표현식 편집기를 사용하여 콘텐츠를 정의하고, 데이터를 개인화하고, 다이내믹 콘텐츠를 추가합니다. [자세히 알아보기](../personalization/personalize.md)
 
-1. 선택적으로 iOS 알림 페이로드의 **자막** 매개 변수에 해당하는 **[!UICONTROL 자막]**&#x200B;을 추가합니다.
+1. 선택적으로 iOS 알림 페이로드의 **[!UICONTROL 자막]** 매개 변수에 해당하는 **자막**&#x200B;을 추가합니다.
 
 1. 알림에서 사용자 클릭과 연결된 **[!UICONTROL 클릭 동작]**&#x200B;을 정의하는 URL을 추가하십시오. 이는 사용자가 특정 화면을 열거나 앱에서 특정 작업을 수행하는 것과 같이 알림과 상호 작용할 때의 동작을 결정합니다.
 
@@ -203,6 +203,7 @@ ht-degree: 4%
 | 매개변수 | 설명 |
 |-----------|-------------|
 | **[!UICONTROL 변경 가능한 콘텐츠]** | 모바일 애플리케이션에서 미디어 콘텐츠를 다운로드하도록 하려면 이 옵션을 활성화합니다. |
+| **[!UICONTROL 콘텐츠 사용 가능]** | 앱이 열려 있지 않은 경우에도 알림이 iOS 디바이스에서 백그라운드 업데이트를 트리거할 수 있도록 하려면 이 옵션을 활성화하십시오. 이렇게 하면 사용자 상호 작용 없이 메시지 또는 데이터 업데이트와 같은 콘텐츠를 처리하고 앱 받은 편지함에 저장할 수 있습니다. 선택하면 `content-available: 1` 플래그가 APNS(Apple 푸시 알림 서비스) 표준에 따라 `aps` 페이로드에 추가됩니다. |
 | **[!UICONTROL 관련성 점수]** | 관련성 점수를 0에서 100으로 설정합니다. 시스템은 이 옵션을 사용하여 알림 요약에서 알림을 정렬합니다. |
 | **[!UICONTROL 중단 수준]** | <ul><li>**활성**: 기본적으로 설정되어 있으면 시스템에서 알림을 즉시 표시하고 화면을 켜며 소리를 재생할 수 있습니다. 알림은 포커스 모드를 통과하지 않습니다.</li><li>**수동**: 시스템에서 화면을 켜거나 소리를 재생하지 않고 알림 목록에 알림을 추가합니다. 알림은 포커스 모드를 통과하지 않습니다.</li><li>**시간에 민감함**: 시스템에서 알림을 즉시 표시하고 화면을 켜고 소리를 재생하며 포커스 모드를 중단합니다. 이 수준에서는 Apple의 특별한 권한이 필요하지 않습니다.</li><li>**중요**: 시스템에서 알림을 즉시 표시하고 화면을 켜며 음소거 스위치나 포커스 모드를 사용하지 않습니다. 이 수준에는 Apple의 특별한 권한이 필요합니다.</li></ul> |
 | **[!UICONTROL 스레드 ID]** | 관련 알림을 함께 그룹화하는 데 사용되는 식별자를 설정합니다. |

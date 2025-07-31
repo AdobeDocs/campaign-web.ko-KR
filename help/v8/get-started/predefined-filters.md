@@ -2,10 +2,10 @@
 title: 미리 정의된 필터 작업
 description: Adobe Campaign Web에서 미리 정의된 필터를 만들고 관리하는 방법 알아보기
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
+source-git-commit: 3136381c92a19a7b918372868fb3c242cb312ec1
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 100%
+source-wordcount: '832'
+ht-degree: 93%
 
 ---
 
@@ -131,7 +131,9 @@ ht-degree: 100%
 * 미리 정의된 필터 복제
 * 미리 정의된 필터 삭제
 
-대상자를 빌드할 때 빠르게 액세스할 수 있도록 미리 정의된 필터를 바로 가기로 추가할 수 있습니다. [이 섹션](#fav-filter)에서 자세히 알아보십시오.
+규칙 빌더에서 직접 사전 정의된 필터를 편집하거나 삭제할 수도 있습니다. 미리 정의된 필터 선택 창에서 **추가 작업** 단추를 사용합니다. 필터를 삭제하거나 편집할 수 있습니다. 레이블을 변경하고 설명을 추가한 다음 즐겨찾기로 추가할 수 있습니다.
+
+![미리 정의된 필터 버전](assets/filter-edit.png){zoomable="yes"}
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}

@@ -3,10 +3,10 @@ audience: end-user
 title: 푸시 알림 게재 디자인
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 디자인하는 방법을 알아봅니다
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 53f4662e9497c8614036f9f89c1ea2b1233756f0
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 39%
+source-wordcount: '1632'
+ht-degree: 37%
 
 ---
 
@@ -143,6 +143,7 @@ iOS 알림 페이로드의 자막 매개 변수 값인 **[!UICONTROL 자막]**&#
 | **[!UICONTROL 알림 수]** | 읽지 않은 새 정보의 수를 나타내는 애플리케이션 아이콘에 직접 표시되는 숫자를 설정하십시오. 이를 통해 사용자에게 빠른 시각적 참조를 제공합니다. |
 | **[!UICONTROL 볼륨]** | 0~100의 사운드 볼륨입니다. |
 | **[!UICONTROL 변경 가능한 콘텐츠]** | 모바일 애플리케이션이 알림과 연관된 미디어 콘텐츠를 다운로드하도록 하려면 이 옵션을 활성화합니다. 자세한 내용은 [Apple 개발자 설명서](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)를 참조하십시오. |
+| **[!UICONTROL 콘텐츠 사용 가능]** | 앱이 열려 있지 않은 경우에도 알림이 iOS 디바이스에서 백그라운드 업데이트를 트리거할 수 있도록 하려면 이 옵션을 활성화하십시오. 이렇게 하면 사용자 상호 작용 없이 메시지 또는 데이터 업데이트와 같은 콘텐츠를 처리하고 앱 받은 편지함에 저장할 수 있습니다. 선택하면 `content-available: 1` 플래그가 APNS(Apple 푸시 알림 서비스) 표준에 따라 `aps` 페이로드에 추가됩니다. |
 | **[!UICONTROL 관련성 점수]** | 알림 요약에서 알림 순서의 우선순위를 지정하려면 관련성 점수를 0에서 100 사이로 설정합니다. 점수가 높을수록 더 중요한 알림입니다. |
 | **[!UICONTROL 중단 수준]** | <ul> <li>**[!UICONTROL 활성]**: 기본적으로 설정되어 있으면 시스템에서 알림을 즉시 표시하고 화면을 켜며 소리를 재생할 수 있습니다. 알림은 포커스 모드를 통과하지 않습니다.</li><li>**[!UICONTROL 수동]**: 시스템에서 화면을 켜거나 소리를 재생하지 않고 알림 목록에 알림을 추가합니다. 알림은 포커스 모드를 통과하지 않습니다.</li><li>**[!UICONTROL 시간에 민감함]**: 시스템에서 알림을 즉시 표시하고 화면을 켜며 소리를 재생하고 포커스 모드를 중단합니다. 이 수준에서는 Apple의 특별한 권한이 필요하지 않습니다.</li> <li>**[!UICONTROL 중요]**: 시스템에서 알림을 즉시 표시하고 화면을 켜며 음소거 스위치나 포커스 모드를 사용하지 않습니다. 이 수준에는 Apple의 특별한 권한이 필요합니다.</ul> |
 | **[!UICONTROL 스레드 ID]** | 관련 알림을 함께 그룹화하는 데 사용되는 식별자. 스레드 ID가 동일한 알림은 알림 목록에서 단일 대화 또는 스레드로 구성됩니다. |

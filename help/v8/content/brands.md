@@ -2,20 +2,15 @@
 audience: end-user
 title: 브랜드 관리
 description: 브랜드 지침을 만들고 관리하는 방법 알아보기
-badge: label="Beta" type="Informative"
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1255'
 ht-degree: 1%
 
 ---
 
 # 브랜드 생성 및 관리 {#brands}
-
->[!AVAILABILITY]
->
->이 기능은 비공개 베타로 출시됩니다. 향후 릴리스에서 모든 고객에게 점진적으로 제공될 예정입니다.
 
 브랜드 지침은 브랜드의 시각적 및 언어적 정체성을 정의하는 포괄적인 규칙 및 표준 세트입니다. 모든 마케팅 및 커뮤니케이션 채널에서 일관된 브랜드 표현을 보장하기 위한 참조 역할을 합니다.
 
@@ -23,9 +18,9 @@ ht-degree: 1%
 
 ## 브랜드 액세스 {#generative-access}
 
-[!DNL Adobe Campaign Web]에서 **[!UICONTROL 브랜드]** 메뉴에 액세스하려면 사용자에게 **[!UICONTROL 관리자(관리자)]** 및 **[!UICONTROL 브랜드 키트]** 제품 프로필을 할당하여 브랜드를 만들고 관리해야 합니다. 읽기 전용 액세스를 위해 사용자는 [!UICONTROL AI Assistant] 제품 프로필이 필요합니다.
+**[!UICONTROL 에서]**&#x200B;브랜드[!DNL Adobe Campaign Web] 메뉴에 액세스하려면 사용자에게 **[!UICONTROL 관리자(관리자)]** 및 **[!UICONTROL 브랜드 키트]** 제품 프로필을 할당하여 브랜드를 만들고 관리해야 합니다. 읽기 전용 액세스를 위해 사용자는 [!UICONTROL AI Assistant] 제품 프로필이 필요합니다.
 
-[자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+[자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 +++ 브랜드 관련 권한을 할당하는 방법을 알아봅니다.
 

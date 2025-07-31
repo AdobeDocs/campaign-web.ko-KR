@@ -3,9 +3,9 @@ audience: end-user
 title: 생성 콘텐츠
 description: AI Assistant 시작
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1624'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](generative-gs.md#generative-guardrails)을 읽어 보십시오.
-></br>
+>></br>
 >
 >Adobe Campaign 웹에서 AI Assistant를 사용하기 전에 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
 
@@ -54,7 +54,7 @@ Adobe Campaign 웹의 AI Assistant는 전체 이메일, 타겟팅된 텍스트 �
    * **[!UICONTROL 커뮤니케이션 전략]**: 생성된 텍스트에 가장 적합한 커뮤니케이션 스타일을 선택합니다.
    * **[!UICONTROL 음색]**: 전자 메일의 음색이 대상자에게 울려 퍼지도록 합니다. AI Assistant는 유익하거나, 유쾌하거나, 설득력 있게 들리고자 할 때 메시지를 적절히 조정합니다.
 
-   ![Adobe Campaign 웹에서 텍스트 설정 옵션을 보여 주는 스크린샷](assets/full-email-3.png){zoomable="yes"}
+   ![Adobe Campaign 웹에서 텍스트 설정 옵션을 보여 주는 스크린샷](assets/full-email-4.png){zoomable="yes"}
 
 1. **[!UICONTROL 이미지 설정]** 선택:
 
@@ -64,15 +64,21 @@ Adobe Campaign 웹의 AI Assistant는 전체 이메일, 타겟팅된 텍스트 �
    * **[!UICONTROL 조명]**: 이미지의 조명을 수정하여 분위기를 만들고 특정 요소를 강조 표시합니다.
    * **[!UICONTROL 컴포지션]**: 이미지의 프레임 내에 요소를 정렬합니다.
 
-   ![Adobe Campaign 웹에서 이미지 설정 옵션을 보여 주는 스크린샷](assets/full-email-4.png){zoomable="yes"}
-
 1. **[!UICONTROL 브랜드 자산]** 메뉴에서 **[!UICONTROL 브랜드 자산 업로드]**&#x200B;를 클릭하여 추가 컨텍스트를 AI Assistant에 제공하거나 이전에 업로드한 브랜드 자산을 선택합니다.
 
    이전에 업로드한 파일은 **[!UICONTROL 업로드된 브랜드 자산]** 드롭다운에서 사용할 수 있습니다. 세대에 포함할 자산을 전환합니다.
 
+   ![Adobe Campaign 웹에서 브랜드 설정 옵션을 보여 주는 스크린샷](assets/full-email-3.png){zoomable="yes"}
+
 1. 메시지가 준비되면 **[!UICONTROL 생성]**&#x200B;을 클릭합니다.
 
-1. 생성된 **[!UICONTROL 변형]**&#x200B;을 찾은 다음 **[!UICONTROL 미리 보기]**&#x200B;를 클릭하여 선택한 변형의 전체 화면 버전을 봅니다.
+1. 생성된 **[!UICONTROL 변형]**&#x200B;을 찾은 다음 **[!UICONTROL 미리 보기]**&#x200B;를 클릭하여 선택한 변형의 전체 화면 버전을 보거나 **[!UICONTROL 적용]**&#x200B;을 클릭하여 현재 콘텐츠를 바꿉니다.
+
+1. 백분율 아이콘을 클릭하여 **[!UICONTROL 브랜드 맞춤 점수]**&#x200B;를 보고 브랜드에 대한 모든 오정렬을 식별합니다.
+
+   [브랜드 정렬 점수](../content/brands-score.md)에 대해 자세히 알아보세요.
+
+   ![](assets/full-email-7.png){zoomable="yes"}
 
 1. 추가 사용자 지정 기능에 액세스하려면 **[!UICONTROL 미리 보기]** 창 내에서 **[!UICONTROL 다시 정의]** 옵션으로 이동하십시오.
 
@@ -83,11 +89,11 @@ Adobe Campaign 웹의 AI Assistant는 전체 이메일, 타겟팅된 텍스트 �
 
    ![Adobe Campaign 웹에서 세분화 옵션을 보여 주는 스크린샷](assets/full-email-5.png){zoomable="yes"}
 
+1. **[!UICONTROL 브랜드 정렬]** 탭을 열어 콘텐츠가 [브랜드 지침](../content/brands.md)에 어떻게 적합한지 확인합니다.
+
 1. 적절한 콘텐츠를 찾으면 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
 
 1. 개인화 필드를 삽입하여 프로필 데이터를 기반으로 이메일 콘텐츠를 사용자 지정합니다. 그런 다음 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 렌더링을 제어하고 테스트 프로필로 개인화 설정을 확인합니다. [자세히 알아보기](../preview-test/preview-content.md)
-
-   ![Adobe Campaign 웹에서 콘텐츠 시뮬레이션 단추를 표시하는 스크린샷](assets/full-email-6.png){zoomable="yes"}
 
 콘텐츠, 대상자 및 일정을 정의하면 이메일 게재를 준비합니다. [자세히 알아보기](../monitor/prepare-send.md)
 
@@ -117,7 +123,7 @@ Adobe Campaign 웹의 AI Assistant는 전체 이메일, 타겟팅된 텍스트 �
    * **[!UICONTROL 음색]**: 전자 메일의 음색이 대상자에게 울려 퍼지도록 합니다. AI Assistant는 유익하거나, 유쾌하거나, 설득력 있게 들리고자 할 때 메시지를 적절히 조정합니다.
    * **텍스트 길이**: 슬라이더를 사용하여 원하는 텍스트 길이를 선택합니다.
 
-   ![Adobe Campaign 웹에서 텍스트 설정 옵션을 보여 주는 스크린샷](assets/text-genai-3.png){zoomable="yes"}
+   ![Adobe Campaign 웹에서 텍스트 설정 옵션을 보여 주는 스크린샷](assets/text-genai-4.png){zoomable="yes"}
 
 1. **[!UICONTROL 브랜드 자산]** 메뉴에서 **[!UICONTROL 브랜드 자산 업로드]**&#x200B;를 클릭하여 추가 컨텍스트를 AI Assistant에 제공하거나 이전에 업로드한 브랜드 자산을 선택합니다.
 
@@ -125,7 +131,13 @@ Adobe Campaign 웹의 AI Assistant는 전체 이메일, 타겟팅된 텍스트 �
 
 1. 메시지가 준비되면 **[!UICONTROL 생성]**&#x200B;을 클릭합니다.
 
-1. 생성된 **[!UICONTROL 변형]**&#x200B;을 찾은 다음 **[!UICONTROL 미리 보기]**&#x200B;를 클릭하여 선택한 변형의 전체 화면 버전을 봅니다.
+1. 생성된 **[!UICONTROL 변형]**&#x200B;을 찾은 다음 **[!UICONTROL 미리 보기]**&#x200B;를 클릭하여 선택한 변형의 전체 화면 버전을 보거나 **[!UICONTROL 적용]**&#x200B;을 클릭하여 현재 콘텐츠를 바꿉니다.
+
+1. 백분율 아이콘을 클릭하여 **[!UICONTROL 브랜드 맞춤 점수]**&#x200B;를 보고 브랜드에 대한 모든 오정렬을 식별합니다.
+
+   [브랜드 정렬 점수](../content/brands-score.md)에 대해 자세히 알아보세요.
+
+   ![](assets/text-genai-6.png){zoomable="yes"}
 
 1. 추가 사용자 지정 기능에 액세스하려면 **[!UICONTROL 미리 보기]** 창 내에서 **[!UICONTROL 다시 정의]** 옵션으로 이동하십시오.
 
@@ -137,7 +149,9 @@ Adobe Campaign 웹의 AI Assistant는 전체 이메일, 타겟팅된 텍스트 �
 
    텍스트의 **[!UICONTROL 색조]** 및 **[!UICONTROL 통신 전략]**&#x200B;을 변경할 수도 있습니다.
 
-   ![Adobe Campaign 웹에서 세분화 옵션을 보여 주는 스크린샷](assets/text-genai-4.png){zoomable="yes"}
+   ![Adobe Campaign 웹에서 세분화 옵션을 보여 주는 스크린샷](assets/text-genai-5.png){zoomable="yes"}
+
+1. **[!UICONTROL 브랜드 정렬]** 탭을 열어 콘텐츠가 [브랜드 지침](../content/brands.md)에 어떻게 적합한지 확인합니다.
 
 1. 적절한 콘텐츠를 찾으면 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
 
@@ -178,7 +192,7 @@ Adobe Campaign 웹의 AI Assistant는 전체 이메일, 타겟팅된 텍스트 �
    * **[!UICONTROL 조명]**: 이미지의 조명을 수정하여 분위기를 만들고 특정 요소를 강조 표시합니다.
    * **[!UICONTROL 컴포지션]**: 이미지의 프레임 내에 요소를 정렬합니다.
 
-   ![Adobe Campaign 웹에서 이미지 설정 옵션을 보여 주는 스크린샷](assets/image-genai-3.png){zoomable="yes"}
+   ![Adobe Campaign 웹에서 이미지 설정 옵션을 보여 주는 스크린샷](assets/image-genai-4.png){zoomable="yes"}
 
 1. **[!UICONTROL 브랜드 자산]** 메뉴에서 **[!UICONTROL 브랜드 자산 업로드]**&#x200B;를 클릭하여 추가 컨텍스트를 AI Assistant에 제공하거나 이전에 업로드한 브랜드 자산을 선택합니다.
 
@@ -186,15 +200,17 @@ Adobe Campaign 웹의 AI Assistant는 전체 이메일, 타겟팅된 텍스트 �
 
 1. 프롬프트 구성에 만족하면 **[!UICONTROL 생성]**&#x200B;을 클릭합니다.
 
-1. **[!UICONTROL 변형 제안]**&#x200B;을 검색하여 원하는 자산을 찾습니다.
+1. 생성된 **[!UICONTROL 변형]**&#x200B;을 찾은 다음 **[!UICONTROL 미리 보기]**&#x200B;를 클릭하여 선택한 변형의 전체 화면 버전을 보거나 **[!UICONTROL 적용]**&#x200B;을 클릭하여 현재 콘텐츠를 바꿉니다.
 
-   선택한 변형의 전체 화면 버전을 보려면 **[!UICONTROL 미리 보기]**&#x200B;를 클릭하십시오.
+1. 백분율 아이콘을 클릭하여 **[!UICONTROL 브랜드 맞춤 점수]**&#x200B;를 보고 브랜드에 대한 모든 오정렬을 식별합니다.
 
-   ![Adobe Campaign 웹에서 이미지 생성에 대한 변형 제안을 보여 주는 스크린샷](assets/image-genai-5.png){zoomable="yes"}
+   [브랜드 정렬 점수](../content/brands-score.md)에 대해 자세히 알아보세요.
+
+   ![](assets/image-genai-3.png){zoomable="yes"}
 
 1. 이 변형과 관련된 이미지를 보려면 **[!UICONTROL 유사 항목 생성]**&#x200B;을 선택하십시오.
 
-   ![Adobe Campaign 웹에서 유사한 옵션 생성을 보여 주는 스크린샷](assets/image-genai-6.png){zoomable="yes"}
+1. **[!UICONTROL 브랜드 정렬]** 탭을 열어 콘텐츠가 [브랜드 지침](../content/brands.md)에 어떻게 적합한지 확인합니다.
 
 1. 적절한 콘텐츠를 찾으면 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
 

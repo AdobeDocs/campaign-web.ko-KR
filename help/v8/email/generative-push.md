@@ -3,9 +3,9 @@ audience: end-user
 title: AI Assistant를 사용하여 푸시 알림
 description: AI Assistant 시작
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '589'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](generative-gs.md#generative-guardrails)을 읽어 보십시오.
-></br>
+>></br>
 >
 >Adobe Campaign 웹에서 AI Assistant를 사용하기 전에 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
 
@@ -39,7 +39,7 @@ AI Assistant는 대상자에게 반향을 일으키는 다양한 콘텐츠를 �
 
    ![프롬프트 라이브러리 인터페이스를 보여주는 스크린샷](assets/push-genai-2.png){zoomable="yes"}
 
-1. 생성할 필드 선택: **[!UICONTROL 제목]**, **[!UICONTROL 메시지]** 및/또는 **[!UICONTROL 이미지]**.
+1. 생성할 필드 선택: **[!UICONTROL 제목]**, **[!UICONTROL 자막]**, **[!UICONTROL 메시지]** 및/또는 **[!UICONTROL 이미지]**.
 
 1. **[!UICONTROL 텍스트 설정]** 옵션을 사용하여 메시지를 사용자 지정합니다.
 
@@ -63,7 +63,13 @@ AI Assistant는 대상자에게 반향을 일으키는 다양한 콘텐츠를 �
 
 1. 메시지가 준비되면 **[!UICONTROL 생성]**&#x200B;을 클릭합니다.
 
-1. 생성된 **[!UICONTROL 변형]**&#x200B;을 찾은 다음 **[!UICONTROL 미리 보기]**&#x200B;를 클릭하여 선택한 변형의 전체 화면 버전을 봅니다.
+1. 생성된 **[!UICONTROL 변형]**&#x200B;을 찾은 다음 **[!UICONTROL 미리 보기]**&#x200B;를 클릭하여 선택한 변형의 전체 화면 버전을 보거나 **[!UICONTROL 적용]**&#x200B;을 클릭하여 현재 콘텐츠를 바꿉니다.
+
+1. 백분율 아이콘을 클릭하여 **[!UICONTROL 브랜드 맞춤 점수]**&#x200B;를 보고 브랜드에 대한 모든 오정렬을 식별합니다.
+
+   [브랜드 정렬 점수](../content/brands-score.md)에 대해 자세히 알아보세요.
+
+   ![](assets/push-genai-6.png){zoomable="yes"}
 
 1. 추가 사용자 지정 기능에 액세스하려면 **[!UICONTROL 미리 보기]** 창 내에서 **[!UICONTROL 다시 정의]** 옵션으로 이동하십시오.
 
@@ -75,10 +81,10 @@ AI Assistant는 대상자에게 반향을 일으키는 다양한 콘텐츠를 �
 
    ![세부 조정 옵션을 보여 주는 스크린샷](assets/push-genai-5.png){zoomable="yes"}
 
+1. **[!UICONTROL 브랜드 정렬]** 탭을 열어 콘텐츠가 [브랜드 지침](../content/brands.md)에 어떻게 적합한지 확인합니다.
+
 1. 적절한 콘텐츠를 찾으면 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
 
 1. 개인화 필드를 삽입하여 프로필 데이터를 기반으로 이메일 콘텐츠를 사용자 지정합니다. 그런 다음 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 렌더링을 제어하고 테스트 프로필로 개인화 설정을 확인합니다. [자세히 알아보기](../preview-test/preview-content.md)
-
-   ![콘텐츠 시뮬레이션 단추를 표시하는 스크린샷](assets/push-genai-6.png){zoomable="yes"}
 
 콘텐츠, 대상 및 일정을 정의하면 푸시 게재를 준비합니다. [자세히 알아보기](../monitor/prepare-send.md)

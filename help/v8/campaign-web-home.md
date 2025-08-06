@@ -4,9 +4,9 @@ description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 8f8c1645952c6a7f73c083573e18d2b04e9d9ac7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 >[!BEGINTABS]
 
 
->[!TAB 25년 7월 릴리스]
+>[!TAB 2025년 7월 릴리스]
 
 이제 Campaign Web 사용자 인터페이스에서 새로운 기능과 향상된 기능을 사용할 수 있습니다. 이번 개선 사항을 활용하려면 Campaign 환경을 버전 8.8로 업그레이드해야 합니다. 전체 개요는 릴리스 정보를 참조하십시오.
 
@@ -63,7 +63,7 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 
 ✨ 기능을 직접 살펴보고 성능을 완벽하게 이해할 수 있도록 설계된 [AI 어시스턴트](../v8/email/generative-gs.md)의 실시간 기능 미리보기로 직접 체험해 보십시오.
 
-[![자세히 알아보기 버튼](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![자세히 알아보기 버튼](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB FAQ]
 
@@ -120,7 +120,7 @@ Campaign Web 사용자 인터페이스에 대한 자주 묻는 질문은 새로�
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
     <br/>
-      <strong>메시지 보내기</strong><br/><a href="msg/gs-deliveries.md">게재 만들기</a> - <a href="email/create-email.md">이메일</a> -  <a href="push/gs-push.md">푸시 알림</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">게재 템플릿</a> - <a href="preview-test/preview-test.md">미리 보기 및 테스트</a> 
+      <strong>메시지 보내기</strong><br/><a href="msg/gs-deliveries.md">게재 만들기</a> - <a href="email/create-email.md">이메일</a> -  <a href="push/gs-push.md">푸시 알림</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">게재 템플릿</a> - <a href="preview-test/preview-test.md">미리보기 및 테스트</a> 
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">
@@ -133,4 +133,4 @@ Campaign Web 사용자 인터페이스에 대한 자주 묻는 질문은 새로�
 ## 추가 리소스
 
 * [Adobe Campaign 제품 설명서](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ko){target="_blank"}
+* [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign-v8.html){target="_blank"}

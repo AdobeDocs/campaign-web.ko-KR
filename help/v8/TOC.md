@@ -6,7 +6,7 @@ title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '909'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ ht-degree: 100%
          + [Android 리치 푸시 게재 디자인](push/rich-push.md)
          + [iOS 리치 푸시 게재 디자인](push/rich-push-ios.md)
       + [푸시 게재 디자인](push/content-push.md)
-      + [푸시 게재 미리 보기 및 보내기](push/send-push.md)
+      + [푸시 게재 미리보기 및 보내기](push/send-push.md)
    + SMS {#sms}
       + [SMS 게재 시작하기](sms/gs-sms.md)
       + [SMS 게재 만들기](sms/create-sms.md)
@@ -86,10 +86,10 @@ ht-degree: 100%
       + [메시지 콘텐츠 미리보기](preview-test/preview-content.md)
       + [교정쇄 보내기](preview-test/test-deliveries.md)
       + [이메일 렌더링 테스트](preview-test/email-rendering.md)
-   + 게재 경고 {#delivery-alerting}
-      + [게재 경고 시작하기](msg/delivery-alerting.md)
-      + [게재 경고 대시보드](msg/delivery-alerting-dashboards.md)
-      + [게재 경고 기준](msg/delivery-alerting-criteria.md)
+   + 게재 알림 {#delivery-alerting}
+      + [게재 알림 시작하기](msg/delivery-alerting.md)
+      + [게재 알림 대시보드](msg/delivery-alerting-dashboards.md)
+      + [게재 알림 기준](msg/delivery-alerting-criteria.md)
 + 콘텐츠 관리 {#content}
    + 다이내믹 콘텐츠 만들기 {#dynamic-content}
       + [다이내믹 콘텐츠를 만드는 방법은?](personalization/gs-personalization.md)
@@ -147,7 +147,7 @@ ht-degree: 100%
       + [프로필 세부 정보 살펴보기](audience/profile-view.md)
       + [프로필 만들기](audience/create-profile.md)
       + [테스트 프로필 작업](audience/test-profiles.md)
-   + 대상자를 사용한 작업 {#audiences}
+   + 대상자 작업 {#audiences}
       + [대상자 시작하기](audience/manage-audience.md)
       + [대상자 만들기](audience/create-audience.md)
    + 게재 수신자 선택 {#target-audiences}
@@ -167,7 +167,7 @@ ht-degree: 100%
    + [플랜 및 프로그램](administration/plans-programs.md)
 + 워크플로 {#wf}
    + [워크플로 시작하기](workflows/gs-workflows.md)
-   + [보호 기능 및 제한 사항](get-started/guardrails.md)
+   + [가드레일 및 제한 사항](get-started/guardrails.md)
    + [워크플로 이벤트 변수](workflows/event-variables.md)
    + [워크플로 액세스 및 관리](workflows/access-monitor.md)
    + [읽기 전용 워크플로 정보](workflows/readonly-workflows.md)
@@ -179,7 +179,7 @@ ht-degree: 100%
       + [워크플로 시작 및 모니터링](workflows/start-monitor-workflows.md)
    + 워크플로 활동을 사용하여 작업 {#design-workflows}
       + [워크플로 활동 정보](workflows/activities/about-activities.md)
-      + [AND-가입](workflows/activities/and-join.md)
+      + [AND-결합](workflows/activities/and-join.md)
       + [대상자 빌드](workflows/activities/build-audience.md)
       + [데이터 소스 변경](workflows/activities/change-data-source.md)
       + [차원 변경](workflows/activities/change-dimension.md)
@@ -195,7 +195,7 @@ ht-degree: 100%
       + [파일 로드](workflows/activities/load-file.md)
       + [조정](workflows/activities/reconciliation.md)
       + [대상자 저장](workflows/activities/save-audience.md)
-      + [예약](workflows/activities/scheduler.md)
+      + [스케줄러](workflows/activities/scheduler.md)
       + [분할](workflows/activities/split.md)
       + [구독 서비스](workflows/activities/subscription-services.md)
       + [테스트](workflows/activities/test.md)

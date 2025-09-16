@@ -1,7 +1,6 @@
 ---
 title: 다크 모드로 전환
 description: Adobe Campaign 이메일 Designer에서 다크 모드를 사용하는 방법을 알아봅니다.
-badge: label="Beta" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
@@ -9,9 +8,9 @@ level: Beginner, Intermediate
 keywords: 다크 모드, 이메일, 색상, 편집기
 hide: true
 hidefromtoc: true
-source-git-commit: 795a18d14c353666e081c70f6095924bb6d918e1
+source-git-commit: b85a78cf89586679630398f5f3c7d732a59711fd
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1515'
 ht-degree: 4%
 
 ---

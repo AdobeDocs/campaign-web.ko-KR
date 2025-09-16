@@ -2,10 +2,10 @@
 title: Campaign v8 Web 사용자 인터페이스 릴리스 정보
 description: 최신 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 875e60defa2d96a6d7b3663516b757f3cc8cd154
+source-git-commit: a10ec6bf3ec5675d62d4031660d5196babd55403
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 63%
+source-wordcount: '221'
+ht-degree: 54%
 
 ---
 
@@ -19,6 +19,12 @@ ht-degree: 63%
 Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 연속 게재 모델에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 이전 릴리스를 통해 이용할 수 있는 변경 사항 및 개선 사항은 [2024](release-notes-24.md) 및 [2025](release-notes-25.md) 페이지에 나열되어 있습니다.
+
+## 2025년 9월 업데이트 {#25-9-updates}
+
+다음 개선 사항이 릴리스되었습니다.
+
+* 이메일 Designer의 조건부 콘텐츠 기능을 사용하여 조건을 설정할 때 새로운 연산자 세트가 추가되었습니다.
 
 ## 2025년 8월 릴리스 {#25-8-release}
 

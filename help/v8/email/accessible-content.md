@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 이메일, 디자인, 접근성
-source-git-commit: 3acaa4c2bad2f265d8bb24c0840d12ad77a5d248
+source-git-commit: b271ae6ade10fae32253768029dee109b24fd4e1
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1536'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,6 @@ ht-degree: 0%
 
 <!--On the other hand, the accessibility of the [!DNL Adobe Campaign] interface itself is detailed in this section.-->
  
-
 ## 텍스트 가독성 확인 {#text-readability}
 
 **[!UICONTROL Text]** 구성 요소의 **[!UICONTROL Styles]** 탭을 사용하여 적절한 색상 대비 및 간단한 글꼴을 사용하는 등 텍스트를 읽을 수 있도록 합니다. [자세히 알아보기](content-components.md#text)
@@ -138,15 +137,19 @@ ht-degree: 0%
 
 ## 다크 모드 사용 {#dark-mode}
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED-->
+어두운 모드에서 콘텐츠를 디자인하는 우수 사례 중에는 투명 PNG 또는 SVG를 사용하고, 적절한 메타 태그와 CSS를 설정하고, 어두운 모드가 지원되지 않는 경우 액세스 가능한 대체 스타일을 제공하는 것이 있습니다.
 
-다크 모드는 광도 또는 시각적 장애가 있는 사용자의 시각적 접근성을 향상시켜 향상된 시청 환경을 제공합니다.
+<!--TO PUBLISH WHEN DARK MODE IS RELEASED
+
+Dark mode enhances visual accessibility for users with light sensitivity or visual impairments, for an improved viewing experience.
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 
-어두운 모드에서 콘텐츠를 디자인하는 우수 사례 중에는 투명 PNG 또는 SVG를 사용하고, 적절한 메타 태그와 CSS를 설정하고, 어두운 모드가 지원되지 않는 경우 액세스 가능한 대체 스타일을 제공하는 것이 있습니다. 마지막으로, 밝은 모드와 어두운 모드 모두에서 모든 이메일 콘텐츠와 UI 요소를 테스트하여 이메일이 어두운 모드에서 올바르게 렌더링되는지 확인하십시오.
+Amongst the best practices for designing content in dark mode, use transparent PNGs or SVGs, set appropriate meta tags and CSS, and provide accessible fallback styling if dark mode is not supported. Finally, make sure your emails render correctly in dark mode by testing all email content and UI elements in both light and dark modes.
 
-접근성을 보장하기 위한 지침을 포함하여 다크 모드와 관련된 자세한 모범 사례는 [이 섹션](dark-mode.md#best-practices)에 나열되어 있습니다. <!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
+Detailed best practices specific to dark mode, including guidelines to ensure accessibility, are listed in [this section](dark-mode.md#best-practices).
+
+KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
 
 ## 접근성을 위해 특정 특성 사용 {#attributes}
 

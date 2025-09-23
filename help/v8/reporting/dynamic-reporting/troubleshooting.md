@@ -4,9 +4,9 @@ description: 다이내믹 보고와 관련된 일반적인 질문을 여기에�
 audience: end-user
 level: Intermediate
 exl-id: a58fc8fd-e510-45ef-8fe9-c75ff4498113
-source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1245'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 1%
 # 문제 해결{#troubleshooting}
 
 이 섹션에서는 동적 보고와 관련된 일반적인 질문을 확인할 수 있습니다.
+
+## 동적 보고는 어떤 언어로 사용할 수 있습니까? {#langages}
+
+현재 동적 보고는 영어로만 사용할 수 있습니다.
 
 ## 고유 열람 수 및 고유 클릭 수의 경우 집계 행의 개수가 개별 행의 개수와 일치하지 않습니다 {#unique-open-clicks-no-match}
 

@@ -3,7 +3,7 @@ audience: end-user
 title: 첫 이메일 보내기
 description: Campaign 웹 사용자 인터페이스를 사용하여 첫 번째 이메일을 보내는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 44%
@@ -19,7 +19,7 @@ ht-degree: 44%
 
 첫 번째 타겟팅된 이메일을 작성하는 방법에 대해 알아봅니다. 이 사용 사례에서는 특정 일자에 실버 및 골드 충성도 회원에게 이메일을 전송하도록 예약합니다.
 
-미리 정의된 [디자인 템플릿](../email/create-email-templates.md)을 기반으로 이메일에는 고객 프로필 특성을 기반으로 개인화된 콘텐츠도 포함됩니다.
+미리 정의된 [디자인 템플릿](../content/create-email-templates.md)을 기반으로 이메일에는 고객 프로필 특성을 기반으로 개인화된 콘텐츠도 포함됩니다.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
@@ -74,8 +74,8 @@ ht-degree: 44%
 >id="acw_deliveries_email_audience"
 >title="게재할 대상자 선택"
 >abstract="마케팅 메시지에 적합한 대상자를 선택합니다. Campaign v8 인스턴스 또는 Adobe Experience Platform에서 이미 정의된 기존 대상자를 선택하거나, 쿼리 모델러를 사용하여 새 대상자를 만들거나, 대상자가 포함된 파일을 업로드할 수 있습니다. 컨트롤 그룹은 **“파일에서 선택”** 옵션에서는 활성화되지 않으며 그 반대의 경우도 마찬가지입니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=ko" text="기본 대상자 선택"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=ko" text="컨트롤 그룹 설정"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="기본 대상자 선택"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="컨트롤 그룹 설정"
 
 이 사용 사례에서는 기존 대상자에게 이메일을 보냅니다.
 
@@ -89,7 +89,7 @@ ht-degree: 44%
 
    >[!NOTE]
    >
-   >목록에서 사용할 수 있는 대상은 Campaign v8 인스턴스 또는 대상/Source 통합이 인스턴스에 구성된 경우 Adobe Experience Platform에서 가져옵니다. 이 통합을 통해 Experience Platform 세그먼트를 Adobe Campaign에 보내고, 캠페인 게재 및 추적 로그를 Adobe Experience Platform에 보낼 수 있습니다. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=ko){target="_blank"}에서 Campaign 및 Adobe Experience Platform을 사용하여 작업하는 방법을 알아봅니다.
+   >목록에서 사용할 수 있는 대상은 Campaign v8 인스턴스 또는 대상/Source 통합이 인스턴스에 구성된 경우 Adobe Experience Platform에서 가져옵니다. 이 통합을 통해 Experience Platform 세그먼트를 Adobe Campaign에 보내고, 캠페인 게재 및 추적 로그를 Adobe Experience Platform에 보낼 수 있습니다. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}에서 Campaign 및 Adobe Experience Platform을 사용하여 작업하는 방법을 알아봅니다.
 
 1. 대상자를 선택하면 추가 규칙을 적용하여 대상을 더 구체화할 수 있습니다.
 
@@ -117,7 +117,7 @@ ht-degree: 44%
 
 1. 이메일 콘텐츠를 디자인하려면 **[!UICONTROL 이메일 본문 편집]** 버튼을 클릭합니다.
 
-   이메일 콘텐츠를 만드는 데 사용할 방법을 선택합니다. 이 예제에서는 [미리 정의된 콘텐츠 템플릿](create-email-templates.md)을(를) 사용합니다.
+   이메일 콘텐츠를 만드는 데 사용할 방법을 선택합니다. 이 예제에서는 [미리 정의된 콘텐츠 템플릿](../content/create-email-templates.md)을(를) 사용합니다.
 
    미리 정의된 콘텐츠 템플릿 선택을 보여 주는 ![스크린샷](assets/select-template.png){zoomable="yes"}
 
@@ -222,7 +222,7 @@ ht-degree: 44%
 
 <!--* When a multilingual delivery contains only one locale,-->
 * 조정된 게재 사용,
-* Campaign 배포 모델이 [Adobe Campaign Enterprise FFDA(Full Federated Access)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}인 경우
+* Campaign 배포 모델이 [Adobe Campaign Enterprise FFDA(Full Federated Access)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}인 경우
 * 파일이 업로드되지 않은 경우.
 
 ## 이메일 전송 및 모니터링 {#prepare-send}
@@ -252,4 +252,4 @@ ht-degree: 44%
 
 이메일 게재를 처음부터 새로 만들고, 대상자를 정의하고, 콘텐츠를 디자인하고, 미리 보기를 시뮬레이션하고, 교정쇄를 보내는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454012/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

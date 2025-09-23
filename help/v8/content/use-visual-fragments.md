@@ -4,7 +4,7 @@ title: 이메일에 비주얼 조각 추가
 description: 이메일에 시각적 조각을 추가하는 방법 알아보기
 badge: label="제한 공개"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 13%
@@ -17,7 +17,7 @@ ht-degree: 13%
 >
 >이 기능을 사용하려면 Campaign v8.6.4에 대한 업데이트가 필요합니다. 자세한 내용은 [Campaign v8 클라이언트 콘솔 릴리스 정보](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/releases/release-notes)를 참조하세요.
 
-Campaign 웹 인터페이스에서 **시각적 조각**&#x200B;은(는) 여러 [이메일 게재](../email/get-started-email-designer.md) 또는 [콘텐츠 템플릿](../email/use-email-templates.md)에서 재사용할 수 있는 미리 정의된 시각적 블록입니다. [이 섹션](fragments.md)에서 콘텐츠 조각을 만들고 관리하는 방법을 알아봅니다.
+Campaign 웹 인터페이스에서 **시각적 조각**&#x200B;은(는) 여러 [이메일 게재](../email/get-started-email-designer.md) 또는 [콘텐츠 템플릿](../content/use-email-templates.md)에서 재사용할 수 있는 미리 정의된 시각적 블록입니다. [이 섹션](fragments.md)에서 콘텐츠 조각을 만들고 관리하는 방법을 알아봅니다.
 
 ![사용 중인 시각적 조각의 시각적 표현](assets/do-not-localize/fragments.gif)
 

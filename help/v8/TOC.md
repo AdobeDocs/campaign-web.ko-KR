@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: 94098841096c06894a5bfed4cbc8ea58b60b96d7
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 99%
+source-wordcount: '929'
+ht-degree: 98%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 99%
    + 콜센터 {#call-center}
       + [콜센터 게재 시작하기](call-center/gs-call-center.md)
       + [콜센터 게재 만들기 및 전송](call-center/create-call-center.md)
-   + [사용자 정의 외부 채널](call-center/gs-custom-channel.md)
+   + [사용자 지정 채널](call-center/gs-custom-channel.md)
    + 트랜잭션 메시지 {#transactional-messages}
       + [트랜잭션 메시지 시작하기](transactional-messaging/transactional.md)
       + [트랜잭션 메시지 만들기](transactional-messaging/create-transactional.md)
@@ -92,11 +92,14 @@ ht-degree: 99%
       + [게재 알림 기준](msg/delivery-alerting-criteria.md)
 + 콘텐츠 관리 {#content}
    + 다이내믹 콘텐츠 만들기 {#dynamic-content}
-      + [다이내믹 콘텐츠를 만드는 방법은?](personalization/gs-personalization.md)
+      + [다이내믹 콘텐츠를 만드는 방법](personalization/gs-personalization.md)
       + [개인화 추가](personalization/personalize.md)
       + [조건부 콘텐츠 작성](personalization/conditions.md)
    + 콘텐츠 재사용 {#manage-reusable-content}
-      + [콘텐츠 템플릿으로 작업](email/create-email-templates.md)
+      + 콘텐츠 템플릿 {#content-templates}
+         + [콘텐츠 템플릿으로 작업하기](content/create-email-templates.md)
+         + [이메일 콘텐츠 템플릿 사용](content/use-email-templates.md)
+         + [이메일 템플릿의 콘텐츠 잠금](content/content-locking.md)
       + 콘텐츠 조각 {#fragments}
          + [콘텐츠 조각 시작하기](content/fragments.md)
          + [콘텐츠 조각 만들기 및 편집](content/create-fragment.md)
@@ -108,7 +111,6 @@ ht-degree: 99%
          + [처음부터 시작하기](email/create-email-content.md)
          + [이메일 콘텐츠 가져오기](email/existing-content.md)
          + [자체 콘텐츠 코딩](email/code-content.md)
-         + [이메일 콘텐츠 템플릿 사용](email/use-email-templates.md)
       + 이메일 콘텐츠 디자인 {#design-content}
          + [콘텐츠 구성 요소 사용](email/content-components.md)
          + [링크 추가 및 메시지 추적](email/message-tracking.md)
@@ -122,7 +124,7 @@ ht-degree: 99%
          + [링크 스타일 정의](email/styling-links.md)
          + [인라인 스타일 속성 추가](email/inline-styling.md)
          + [사용자 정의 CSS 추가](email/custom-css.md)
-      + [액세스 가능한 컨텐츠 만들기](email/accessible-content.md)
+      + [액세스 가능한 콘텐츠 만들기](email/accessible-content.md)
    + AI 어시스턴트 {#ai-assistant}
       + [AI 어시스턴트로 작업하기](email/generative-gs.md)
       + [AI를 활용한 이메일 생성](email/generative-content.md)
@@ -178,7 +180,7 @@ ht-degree: 99%
       + [활동 조율](workflows/orchestrate-activities.md)
       + [워크플로 설정 구성](workflows/workflow-settings.md)
       + [워크플로 시작 및 모니터링](workflows/start-monitor-workflows.md)
-   + 워크플로 활동을 사용하여 작업 {#design-workflows}
+   + 워크플로 활동을 사용하여 작업하기 {#design-workflows}
       + [워크플로 활동 정보](workflows/activities/about-activities.md)
       + [AND-결합](workflows/activities/and-join.md)
       + [대상자 빌드](workflows/activities/build-audience.md)
@@ -273,7 +275,13 @@ ht-degree: 99%
    + [스키마 작업](administration/schemas.md)
    + [사용자 정의 필드 구성](administration/custom-fields.md)
    + [ [!DNL Campaign] 옵션 구성](administration/options.md)
-   + [외부 계정 구성](administration/external-account.md)
+   + 외부 계정 {#external-accounts}
+      + [외부 계정 만들기](administration/create-external-account.md)
+      + [Adobe 솔루션 통합](administration/integration-external-account.md)
+      + [캠페인별](administration/external-account.md)
+      + [외부 데이터베이스](administration/external-account-database.md)
+      + [Hadoop](administration/external-hadoop.md)
+      + [데이터 전송](administration/transfer-external-account.md)
    + [열거 관리](administration/enumerations.md)
-   + [JavaScript 코드를 사용하여 작업](administration/javascript-codes.md)
+   + [JavaScript 코드를 사용하여 작업하기](administration/javascript-codes.md)
 + [Campaign v8(콘솔) 설명서 >](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/campaign-home)

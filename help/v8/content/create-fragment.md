@@ -3,7 +3,7 @@ audience: end-user
 title: 콘텐츠 조각 만들기
 description: 콘텐츠 조각을 만드는 방법 알아보기
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 21%
@@ -44,7 +44,7 @@ ht-degree: 21%
 
 콘텐츠 조각을 처음부터 만들려면 아래 단계를 수행합니다.
 
-1. [콘텐츠 관리&#x200B;]&#x200B;**>**&#x200B;[!UICONTROL &#x200B;조각&#x200B;]&#x200B;**왼쪽 메뉴를 통해 조각 목록에 액세스(#access-manage-fragments)하고**&#x200B;[!UICONTROL &#x200B;조각 만들기&#x200B;]&#x200B;**를 선택합니다.**
+1. [콘텐츠 관리](#access-manage-fragments) > **[!UICONTROL 조각]** 왼쪽 메뉴를 통해 조각 목록에 액세스&#x200B;**[!UICONTROL 하고]**&#x200B;조각 만들기&#x200B;**[!UICONTROL 를 선택합니다.]**
 
    ![조각 만들기 옵션을 표시하는 조각 목록 화면](assets/fragments-list.png)
 
@@ -70,7 +70,7 @@ ht-degree: 21%
 
 1. 콘텐츠가 준비되면 **저장**&#x200B;을 클릭합니다.
 
-이제 Campaign 내에서 게재 또는 [콘텐츠 템플릿](../email/use-email-templates.md)을(를) 빌드할 때 콘텐츠 조각을 사용할 준비가 되었습니다. 다음 섹션에서 시각적 및 표현식 조각을 사용하는 방법을 알아봅니다.
+이제 Campaign 내에서 게재 또는 [콘텐츠 템플릿](../content/use-email-templates.md)을(를) 빌드할 때 콘텐츠 조각을 사용할 준비가 되었습니다. 다음 섹션에서 시각적 및 표현식 조각을 사용하는 방법을 알아봅니다.
 * [이메일에 비주얼 조각 추가](use-visual-fragments.md)
 * [표현식 편집기에 표현식 조각 추가](use-expression-fragments.md)
 
@@ -83,7 +83,7 @@ ht-degree: 21%
 
 <!--pas vu dans l'UI-->
 
-모든 이메일 콘텐츠는 나중에 다시 사용할 수 있도록 시각적 조각으로 저장할 수 있습니다. [콘텐츠 템플릿](../email/use-email-templates.md) 또는 [이메일](../email/get-started-email-designer.md) 게재를 디자인할 때 콘텐츠의 일부를 시각적 조각으로 저장하십시오. 이렇게 하려면 아래 단계를 수행합니다.
+모든 이메일 콘텐츠는 나중에 다시 사용할 수 있도록 시각적 조각으로 저장할 수 있습니다. [콘텐츠 템플릿](../content/use-email-templates.md) 또는 [이메일](../email/get-started-email-designer.md) 게재를 디자인할 때 콘텐츠의 일부를 시각적 조각으로 저장하십시오. 이렇게 하려면 아래 단계를 수행합니다.
 
 1. [전자 메일 Designer](../email/get-started-email-designer.md)에서 화면 오른쪽 상단의 **자세히** 단추를 클릭합니다.
 
@@ -103,7 +103,7 @@ ht-degree: 21%
 
    ![시각적 조각에 대한 확인 화면 저장](assets/fragment-save-confirm.png)
 
-   이 콘텐츠는 이제 독립 실행형 조각으로, [조각 목록](#manage-fragments)에 추가되고 전용 메뉴에서 액세스할 수 있습니다. Campaign 내에서 [전자 메일](../email/get-started-email-designer.md) 또는 [콘텐츠 템플릿](../email/use-email-templates.md)을(를) 빌드할 때 이 조각을 사용하십시오. [방법 알아보기](../content/use-visual-fragments.md)
+   이 콘텐츠는 이제 독립 실행형 조각으로, [조각 목록](#manage-fragments)에 추가되고 전용 메뉴에서 액세스할 수 있습니다. Campaign 내에서 [전자 메일](../email/get-started-email-designer.md) 또는 [콘텐츠 템플릿](../content/use-email-templates.md)을(를) 빌드할 때 이 조각을 사용하십시오. [방법 알아보기](../content/use-visual-fragments.md)
 
 >[!NOTE]
 >

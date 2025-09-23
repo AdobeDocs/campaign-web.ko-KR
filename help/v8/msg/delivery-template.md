@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 19%
@@ -27,7 +27,7 @@ ht-degree: 19%
 * 템플릿의 **폴더** 및 **실행 폴더**&#x200B;입니다. 폴더는 게재 템플릿이 저장되는 위치입니다. 실행 폴더는 이 템플릿을 기반으로 생성된 게재가 저장되는 폴더입니다.
 * [유형화](../advanced-settings/delivery-settings.md#typology),
 * 발신자 주소,
-* [컨트롤 그룹](../audience/control-group.md)을(를) 포함한 [대상자](../audience/about-recipients.md),
+* [컨트롤 그룹](../audience/about-recipients.md)을(를) 포함한 [대상자](../audience/control-group.md),
 * 사용자 지정 [콘텐츠](../email/edit-content.md),
 * [개인화된 필드](../personalization/personalize.md) 및 [조건부 콘텐츠](../personalization/conditions.md),
 * [미러 페이지](../email/mirror-page.md) 및 구독 취소 링크 [링크](../email/message-tracking.md),
@@ -35,7 +35,7 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->게재 템플릿은 [콘텐츠 템플릿](../email/create-email-templates.md)과(와) 다르며, 이를 통해 기본 제공되는 샘플 이메일 템플릿 중 하나를 사용하여 이메일 콘텐츠만 재사용하고 콘텐츠 작성을 시작할 수 있습니다.
+>게재 템플릿은 [콘텐츠 템플릿](../content/create-email-templates.md)과(와) 다르며, 이를 통해 기본 제공되는 샘플 이메일 템플릿 중 하나를 사용하여 이메일 콘텐츠만 재사용하고 콘텐츠 작성을 시작할 수 있습니다.
 
 ## 게재 템플릿 액세스 및 관리 {#access-manage-templates}
 
@@ -174,7 +174,7 @@ Campaign에는 이메일, 푸시 및 SMS와 같은 각 채널에 대한 기본 �
 
 처음부터 만들거나 기존 콘텐츠에서 만든 모든 게재 템플릿의 렌더링을 테스트할 수 있습니다. 이렇게 하려면 다음 단계를 수행합니다.
 
-1. **[!UICONTROL 캠페인 관리]** > **[!UICONTROL 게재]** 메뉴를 통해 **템플릿** 탭으로 이동하여 템플릿을 선택합니다. [자세히 알아보기](#access-manage-templates)
+1. **캠페인 관리** > **[!UICONTROL 게재]** 메뉴를 통해 **[!UICONTROL 템플릿]** 탭으로 이동하여 템플릿을 선택합니다. [자세히 알아보기](#access-manage-templates)
 
 1. 화면 오른쪽 상단의 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭합니다.
 

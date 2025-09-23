@@ -7,8 +7,8 @@ hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
-workflow-type: ht
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 100%
 
@@ -119,7 +119,7 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 
 **콘텐츠 관리** 섹션에서는 콘텐츠 템플릿과 조각을 볼 수 있습니다.
 
-* **콘텐츠 템플릿** - 디자인 프로세스를 가속화하고 개선하기 위해 독립 실행형 템플릿을 만들어 사용자 정의 콘텐츠를 [!DNL Adobe Campaign] 쉽게 재사용할 수 있습니다. 이 기능은 이메일에서만 사용할 수 있고, 콘텐츠에 중점을 둔 작업자가 독립 실행형 템플릿에 작업하면 마케팅 작업자가 이메일 캠페인 내에서 이를 재사용하고 조정할 수 있습니다. [이 섹션](../email/create-email-templates.md)에서 자세히 알아보십시오.
+* **콘텐츠 템플릿** - 디자인 프로세스를 가속화하고 개선하기 위해 독립 실행형 템플릿을 만들어 사용자 정의 콘텐츠를 [!DNL Adobe Campaign] 쉽게 재사용할 수 있습니다. 이 기능은 이메일에서만 사용할 수 있고, 콘텐츠에 중점을 둔 작업자가 독립 실행형 템플릿에 작업하면 마케팅 작업자가 이메일 캠페인 내에서 이를 재사용하고 조정할 수 있습니다. [이 섹션](../content/create-email-templates.md)에서 자세히 알아보십시오.
 
 * **조각** - 조각은 캠페인에서 하나 이상의 게재에 참조할 수 있는 재사용 가능한 구성 요소입니다. 조각을 수정하면 이를 사용하는 모든 콘텐츠가 업데이트됩니다. [조각을 사용한 작업 방법 알아보기](../content/fragments.md).
 

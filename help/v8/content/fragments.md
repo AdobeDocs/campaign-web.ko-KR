@@ -3,7 +3,7 @@ audience: end-user
 title: 콘텐츠 조각 시작하기
 description: 콘텐츠 조각을 사용하여 만드는 방법 알아보기
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 58%
@@ -30,7 +30,7 @@ ht-degree: 58%
 
 * **식 조각**&#x200B;은(는) 식 편집기의 전용 항목에서 사용할 수 있는 미리 정의된 식입니다. Campaign에는 게재에 삽입할 수 있는 특정 렌더링을 포함하는 사전 정의된 콘텐츠 블록 세트가 포함되어 있습니다. 예를 들어 로고, 인사말 메시지 또는 메시지 미러 페이지에 대한 링크를 추가할 수 있습니다. 필요에 따라 자체 표현식 조각을 만들 수도 있습니다.
 
-* **시각적 조각**&#x200B;은(는) 여러 [이메일 게재](../email/get-started-email-designer.md) 또는 [콘텐츠 템플릿](../email/use-email-templates.md)에서 재사용할 수 있는 미리 정의된 시각적 블록입니다.
+* **시각적 조각**&#x200B;은(는) 여러 [이메일 게재](../email/get-started-email-designer.md) 또는 [콘텐츠 템플릿](../content/use-email-templates.md)에서 재사용할 수 있는 미리 정의된 시각적 블록입니다.
 
   >[!AVAILABILITY]
   >

@@ -3,8 +3,8 @@ audience: end-user
 title: 목록 찾아보기 및 필터링
 description: Campaign Web v8 목록을 찾아보고 필터링하는 방법 살펴보기
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
+source-git-commit: 1cec57c38b5f196db0881c498044fc9b999ed3b0
+workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 ## 필터 {#list-built-in-filters}
 
-검색 창을 사용하거나 내장된 필터 및 맞춤형 필터를 사용하여 상황별 기준에 따라 목록을 조정하여 항목을 더 빨리 찾습니다.
+검색 창을 사용하거나 기본 제공 필터 및 맞춤형 필터를 사용하여 상황별 기준에 따라 목록을 조정하여 항목을 더 빨리 찾습니다.
 
 [목록 보기를 구체화하는 데 사용할 수 있는 필터 옵션을 보여 주는 스크린샷.](assets/filter.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 

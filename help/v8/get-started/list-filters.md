@@ -3,7 +3,7 @@ audience: end-user
 title: 목록 찾아보기 및 필터링
 description: Campaign Web v8 목록을 찾아보고 필터링하는 방법 살펴보기
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: b81f80655b1becf6e1e23f8c0095970c95ebcb05
+source-git-commit: f5ef0f8d7c3396bdd031e5b3b7c690f90adc0e86
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
@@ -18,21 +18,21 @@ ht-degree: 100%
 
 목록은 열에 표시됩니다. 열 구성을 변경하여 추가 정보를 표시할 수 있습니다. 이렇게 하려면 목록의 오른쪽 상단에 있는 **사용자 정의 레이아웃에 대한 열 구성** 아이콘을 클릭합니다.
 
-[목록 열의 레이아웃을 사용자 정의하는 데 사용되는 열 구성 아이콘을 보여 주는 스크린샷.](assets/config-columns.png){zoomable="yes"}{width="70%" align="left"}
+![목록 열의 레이아웃을 사용자 정의하는 데 사용되는 열 구성 아이콘을 보여 주는 스크린샷.](assets/config-columns.png){zoomable="yes"}{width="70%" align="left"}
 
 **열 구성** 화면에서 열을 추가 또는 제거하고 열이 표시되는 순서를 변경합니다.
 
 아래와 같이 **드래그 앤 드롭**&#x200B;하거나 **위쪽 및 아래쪽 화살표**&#x200B;를 사용하여 목록의 순서를 변경할 수 있습니다.
 
-[끌어다 놓기나 화살표 버튼을 사용하여 목록 열을 재정렬하는 방법을 보여 주는 스크린샷.](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left"}
+![끌어다 놓기나 화살표 버튼을 사용하여 목록 열을 재정렬하는 방법을 보여 주는 스크린샷.](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left"}
 
 예를 들어 이 설정의 경우
 
-[열 구성 화면의 열 설정 예를 보여 주는 스크린샷.](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+![열 구성 화면의 열 설정 예를 보여 주는 스크린샷.](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 목록에는 다음 열이 표시됩니다.
 
-[예제 설정에 따라 구성된 열이 포함된 결과 목록을 보여 주는 스크린샷.](assets/column-sample.png){zoomable="yes"}{width="70%" align="left"}
+![예제 설정에 따라 구성된 열이 포함된 결과 목록을 보여 주는 스크린샷.](assets/column-sample.png){zoomable="yes"}{width="70%" align="left"}
 
 ## 데이터 정렬 {#sort-lists}
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 검색 창을 사용하거나 기본 제공 필터 및 맞춤형 필터를 사용하여 상황별 기준에 따라 목록을 조정하여 항목을 더 빨리 찾습니다.
 
-[목록 보기를 구체화하는 데 사용할 수 있는 필터 옵션을 보여 주는 스크린샷.](assets/filter.png){zoomable="yes"}{width="70%" align="left"}
+![목록 보기를 구체화하는 데 사용할 수 있는 필터 옵션을 보여 주는 스크린샷.](assets/filter.png){zoomable="yes"}{width="70%" align="left"}
 
 필터를 사용하고 나만의 맞춤형 필터를 만드는 방법에 대한 자세한 내용은 [이 섹션](../query/filter.md)에서 확인할 수 있습니다.
 

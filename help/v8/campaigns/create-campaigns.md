@@ -6,7 +6,7 @@ exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 35%
+ht-degree: 36%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 35%
 
    ![캠페인 메뉴의 &quot;캠페인 만들기&quot; 단추를 표시하는 스크린샷](assets/create-campaign-button.png)
 
-1. 사용할 **템플릿**&#x200B;을(를) 선택하고 캠페인 레이블을 제공하십시오. [자세히 보기](manage-campaigns.md#manage-campaign-templates).
+1. 사용할 **템플릿**&#x200B;을(를) 선택하고 캠페인 레이블을 제공하십시오. [자세히 보기](manage-campaigns.md#manage-campaign-templates)
 1. 필요한 경우 **추가 옵션**&#x200B;을 변경합니다. 내부 이름, 폴더, 할당자, 설명 및 특성입니다.
 1. 캠페인의 **일정**&#x200B;을(를) 정의합니다. [이 섹션](#campaign-schedule)에서 캠페인 일정을 설정하는 방법을 알아보세요.
 1. **만들기**&#x200B;를 클릭합니다.
@@ -55,7 +55,7 @@ ht-degree: 35%
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
->title="캠페인 일정"
+>title="캠페인 예약"
 >abstract="캠페인 일정을 선택합니다. 캠페인을 만들 수 있으며 시작 날짜가 되면 캠페인이 시작됩니다. 기본적으로 캠페인 시작 날짜는 생성일이며 5일 동안 지속됩니다. 시작 일자와 종료 일자는 캠페인 목록에 표시되고 필터로 사용할 수 있습니다."
 
 시작 날짜에 도달하면 캠페인이 시작됩니다. 시작 날짜에 도달하지 않은 한 캠페인은 **[!UICONTROL 초안]** 상태입니다. 시작 날짜에 도달하면 **[!UICONTROL 진행 중]**(으)로 바뀝니다. 종료 날짜에 도달하면 캠페인이 **[!UICONTROL 완료됨]**(으)로 설정됩니다.

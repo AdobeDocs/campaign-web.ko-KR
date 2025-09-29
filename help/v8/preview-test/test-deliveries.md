@@ -3,9 +3,9 @@ audience: end-user
 title: 교정쇄 보내기
 description: 증명 정의 및 전송 방법 알아보기
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: fc794f4eceaed7ca5f49ef8add8e9da8306b6a69
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1167'
 ht-degree: 13%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 13%
 >id="acw_email_preview_mode"
 >title="미리보기 모드"
 >abstract="기본 대상에 테스트 모집단을 포함하여 메시지를 미리 보고 테스트합니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_additional_proof_target"
+>title="추가 증명 대상"
+>abstract="추가 증명 대상입니다."
 
 메시지 콘텐츠가 정의되면 테스트 프로필에 증명을 전송하여 미리 보고 테스트할 수 있습니다. 개인화된 콘텐츠를 삽입한 경우 테스트 프로필 데이터를 활용하여 이 콘텐츠가 메시지에 어떻게 표시되는지 확인할 수 있습니다.
 
@@ -44,7 +49,7 @@ ht-degree: 13%
 
    * SMS 및 전자 메일의 경우, 데이터베이스의 특정 추가 수신자인 [테스트 프로필](#test-profiles)을 사용할 수 있습니다. 전자 메일 테스트 주소 또는 전화 번호로 증명을 보내고 기존 프로필의 개인화 데이터를 사용하는 [기본 대상에서 대체](#substitution-profiles) 모드를 사용할 수도 있습니다. 이를 통해 수신자와 마찬가지로 메시지를 경험하여 프로필에서 수신할 콘텐츠를 정확하게 표현할 수 있습니다.
 
-   * 푸시 메시지의 경우 데이터베이스에 추가된 가상 구독자인 [구독자](#subscribers)를 사용할 수 있습니다. [!DNL Campaign] 콘솔에서 만들어집니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=ko){target="_blank"}를 참조하세요
+   * 푸시 메시지의 경우 데이터베이스에 추가된 가상 구독자인 [구독자](#subscribers)를 사용할 수 있습니다. [!DNL Campaign] 콘솔에서 만들어집니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}를 참조하세요
 
    각 모드에 대한 자세한 구성은 아래에서 확인할 수 있습니다.
 

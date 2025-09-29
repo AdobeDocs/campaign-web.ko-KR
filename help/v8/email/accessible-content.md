@@ -6,7 +6,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: 이메일, 디자인, 접근성
-source-git-commit: b271ae6ade10fae32253768029dee109b24fd4e1
+exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
+source-git-commit: 82128a2d628a44e2718a9a1d2f848584140d5532
 workflow-type: tm+mt
 source-wordcount: '1536'
 ht-degree: 0%
@@ -24,10 +25,7 @@ ht-degree: 0%
 이에 따라 [!DNL Adobe Campaign]을(를) 사용하여 액세스 가능한 콘텐츠를 디자인하는 모범 사례가 아래에 나와 있습니다.
 
 이 페이지에서는 [!DNL Adobe Campaign]&#x200B;(으)로 디자인된 전자 메일 및 랜딩 페이지를 장애가 있는 사람이 읽고, 이해하고, 상호 작용할 수 있도록 모든 받는 사람이 콘텐츠에 액세스할 수 있도록 합니다.
-
-<!--On the other hand, the accessibility of the [!DNL Adobe Campaign] interface itself is detailed in this section.-->
  
-
 ## 텍스트 가독성 확인 {#text-readability}
 
 **[!UICONTROL Text]** 구성 요소의 **[!UICONTROL Styles]** 탭을 사용하여 적절한 색상 대비 및 간단한 글꼴을 사용하는 등 텍스트를 읽을 수 있도록 합니다. [자세히 알아보기](content-components.md#text)

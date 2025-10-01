@@ -6,9 +6,9 @@ title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '929'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 98%
    + 콜센터 {#call-center}
       + [콜센터 게재 시작하기](call-center/gs-call-center.md)
       + [콜센터 게재 만들기 및 전송](call-center/create-call-center.md)
-   + [사용자 지정 채널](call-center/gs-custom-channel.md)
+   + [사용자 정의 채널](call-center/gs-custom-channel.md)
    + 트랜잭션 메시지 {#transactional-messages}
       + [트랜잭션 메시지 시작하기](transactional-messaging/transactional.md)
       + [트랜잭션 메시지 만들기](transactional-messaging/create-transactional.md)

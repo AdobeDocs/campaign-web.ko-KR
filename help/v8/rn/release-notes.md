@@ -2,10 +2,10 @@
 title: Campaign v8 Web 사용자 인터페이스 릴리스 정보
 description: 최신 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: ht
-source-wordcount: '334'
-ht-degree: 100%
+source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+workflow-type: tm+mt
+source-wordcount: '524'
+ht-degree: 71%
 
 ---
 
@@ -19,6 +19,45 @@ ht-degree: 100%
 Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 연속 게재 모델에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
 이전 릴리스를 통해 이용할 수 있는 변경 사항 및 개선 사항은 [2024](release-notes-24.md) 및 [2025](release-notes-25.md) 페이지에 나열되어 있습니다.
+
+## 2025년 10월 업데이트 {#25-9-updates}
+
+_2025년 10월 9일_
+
+<table>
+<thead>
+<tr>
+<th><strong>트랜잭션 메시지, 푸시 알림 및 SMS(LA)를 위한 다국어 기능</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이제 Adobe Campaign 웹 사용자 인터페이스에서 여러 언어로 여러 트랜잭션 메시지, 푸시 알림 및 SMS 메시지를 보낼 수 있습니다. 다국어 게재 기능을 사용하면 게재의 기본 언어는 물론, 게재를 전송할 수 있는 다양한 언어를 선택할 수 있습니다. 선택한 언어로 이러한 게재를 미리 볼 수도 있습니다.</p>
+<p>참고: 이 기능은 조직 집합(제한된 가용성)에만 사용할 수 있으며, 향후 릴리스에서 전역적으로 롤아웃될 예정입니다.</p>
+<p>자세한 내용은 <a href="../msg/multilingual.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>트랜잭션 메시지(LA)의 프로필 보강</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이 기능을 사용하면 Adobe Campaign 데이터베이스 필드를 메시지 콘텐츠에 연결하여 트랜잭션 메시지를 개인화할 수 있습니다. 대상 매핑, 데이터 보강 열 및 조정 키를 선택하여 성능 임계값을 유지하면서 정확한 실시간 개인화를 보장할 수 있습니다.</p>
+<p>참고: 이 기능은 조직 집합(제한된 가용성)에만 사용할 수 있으며, 향후 릴리스에서 전역적으로 롤아웃될 예정입니다. 이 기능은 현재 이메일에만 사용할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../transactional-messaging/profile-enrichment.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## 2025년 9월 릴리스 {#25-9-release}
 

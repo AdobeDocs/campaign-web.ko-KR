@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: ht
-source-wordcount: '929'
-ht-degree: 100%
+source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+workflow-type: tm+mt
+source-wordcount: '939'
+ht-degree: 98%
 
 ---
 
@@ -77,8 +77,10 @@ ht-degree: 100%
       + [트랜잭션 메시지 만들기](transactional-messaging/create-transactional.md)
       + [트랜잭션 메시지 유효성 검사](transactional-messaging/validate-transactional.md)
       + [트랜잭션 메시지 모니터링](transactional-messaging/monitor-transactional.md)
+      + [프로필 데이터를 사용하여 트랜잭션 메시지 강화](transactional-messaging/profile-enrichment.md)
    + [외부 게재 전송](msg/send-external-deliveries.md)
    + [메시지에 오퍼 추가](msg/offers.md)
+   + [다국어 게재 구성](msg/multilingual.md)
    + [구독자에게 메시지 전송](msg/send-to-subscribers.md)
    + [게재 설정 구성](advanced-settings/delivery-settings.md)
    + 게재 미리보기 및 테스트 {#preview-test}

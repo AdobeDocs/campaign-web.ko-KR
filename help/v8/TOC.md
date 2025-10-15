@@ -6,9 +6,9 @@ title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
 source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '939'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -276,7 +276,7 @@ ht-degree: 98%
    + [대상 매핑 관리](administration/target-mappings.md)
    + [스키마 작업](administration/schemas.md)
    + [사용자 정의 필드 구성](administration/custom-fields.md)
-   + [&#x200B; [!DNL Campaign] 옵션 구성](administration/options.md)
+   + [ [!DNL Campaign] 옵션 구성](administration/options.md)
    + 외부 계정 {#external-accounts}
       + [외부 계정 만들기](administration/create-external-account.md)
       + [Adobe 솔루션 통합](administration/integration-external-account.md)

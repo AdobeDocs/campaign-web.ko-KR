@@ -3,9 +3,9 @@ audience: end-user
 title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 빌드하는 방법 알아보기
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1302'
 ht-degree: 3%
 
 ---
@@ -106,7 +106,12 @@ Journey Optimizer을 사용하면 활동을 하위 노드의 전체 콘텐츠(�
 
 ![실행 옵션 패널](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
-### 속성
+### 속성 {#properties}
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_properties"
+>title="활동 속성"
+>abstract="이 섹션에서는 활동 실행 방법 및 위치를 정의할 수 있습니다. 실행 작업을 설정하고, 실행 기간을 제한하고, 시간대를 선택하고, 시스템 선호도를 할당하고, 비동기 동작을 관리하고, 오류가 발생하는 경우를 지정할 수 있습니다."
 
 **실행** 필드를 사용하면 작업이 시작될 때 수행할 작업을 정의할 수 있습니다.
 
@@ -118,11 +123,21 @@ Journey Optimizer을 사용하면 활동을 하위 노드의 전체 콘텐츠(�
 
 **Behavior** 필드를 사용하면 비동기 작업이 사용되는 경우 따라야 할 프로시저를 정의할 수 있습니다.
 
-### 오류 관리
+### 오류 관리 {#execution-options}
 
-**오류가 발생한 경우** 필드를 사용하면 활동에 오류가 발생할 경우 수행할 작업을 지정할 수 있습니다.
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_error"
+>title="초기화 스크립트"
+>abstract="이 섹션에서는 활동이 실패할 경우 어떤 상황이 발생하는지 정의할 수 있습니다. 워크플로우 중지, 다음 활동으로 이동 또는 사용자 지정 오류 처리 프로세스 트리거와 같은 작업을 선택할 수 있습니다."
 
-### 초기화 스크립트
+**오류가 발생한 경우** 필드를 사용하면 활동에 오류가 발생할 경우 수행할 작업을 지정할 수 있습니다. 이 [섹션](workflow-settings.md#error-settings)을 참조하십시오.
+
+### 초기화 스크립트 {#initialization-options}
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_initialization"
+>title="초기화 스크립트"
+>abstract="이 섹션에서는 활동이 시작될 때 실행되는 JavaScript을 추가할 수 있습니다. 변수를 초기화하거나, 매개 변수를 설정하거나, 활동 실행과 관련된 데이터를 준비하는 데 사용합니다."
 
 **초기화 스크립트**&#x200B;를 사용하여 변수를 초기화하거나 활동 속성을 수정할 수 있습니다. **코드 편집** 단추를 클릭하고 실행할 코드 조각을 입력하십시오. 활동이 실행될 때 스크립트가 호출됩니다. [이벤트 변수](../workflows/event-variables.md)와 관련된 섹션을 참조하세요.
 

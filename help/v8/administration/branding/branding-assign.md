@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
-source-git-commit: 2b4a818c819ae598d5555c1a2d64447b0793b5b8
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 19%
+source-wordcount: '617'
+ht-degree: 14%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 19%
 
 >[!TAB Adobe Campaign V8]
 
-게재 템플릿을 만들려면 기본 제공 템플릿을 복제하거나, 기존 게재를 템플릿으로 변환하거나, 처음부터 게재 템플릿을 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ko)
+게재 템플릿을 만들려면 기본 제공 템플릿을 복제하거나, 기존 게재를 템플릿으로 변환하거나, 처음부터 게재 템플릿을 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html)
 
 일단 템플릿이 생성되면 브랜드에 연결할 수 있습니다. 방법은 다음과 같습니다.
 
@@ -126,3 +126,27 @@ ht-degree: 19%
 1. 게재를 개인화할 수 있습니다. 전자 메일 만들기에 대한 자세한 내용은 [전자 메일 디자인 및 보내기](../../email/create-email.md) 섹션을 참조하세요.
 
 >[!ENDTABS]
+
+## 트랜잭션 메시지와 연결된 브랜딩 확인 {#check-branding-transactional}
+
+>[!IMPORTANT]
+>
+>이 섹션은 트랜잭션 메시지(메시지 센터)에만 적용됩니다.
+>
+>트랜잭션 기능은 Campaign 웹 UI에서 사용할 수 있지만 아래 확인 단계는 Campaign v8 클라이언트 콘솔(컨트롤 인스턴스)에서 수행해야 합니다.
+
+실시간(RT) 실행 인스턴스에서 제어 인스턴스로 동기화된 트랜잭션 게재는 라우팅 또는 브랜딩과 같은 속성을 복제하지 않습니다. 이러한 동기화된 게재는 제어 인스턴스에서 게재 지표를 다시 가져오기 위해 동일한 템플릿에서 매주 생성됩니다.
+
+이러한 이유로 제어 인스턴스에는 기본 브랜드가 표시됩니다. 메시지 실행 중에 사용되는 실제 브랜드 및 라우팅 설정은 컨트롤 인스턴스의 트랜잭션 메시지 템플릿에 정의됩니다.
+
+트랜잭션 메시지에 사용된 브랜드를 확인하려면:
+
+1. 실시간으로 게시된 트랜잭션 템플릿의 내부 이름을 식별합니다(예: `TransactionalMessaging4768`).
+
+   ![](assets/branding-transactional.png)
+
+1. 컨트롤 인스턴스에서 **트랜잭션 메시지 템플릿**&#x200B;에서 이 내부 이름을 검색합니다.
+
+   ![](assets/branding-transactional2.png)
+
+1. 템플릿을 열어 브랜드 및 기타 관련 속성을 확인합니다.

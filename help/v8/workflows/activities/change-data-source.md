@@ -3,10 +3,10 @@ audience: end-user
 title: 데이터 소스 변경 워크플로우 활동 사용
 description: 데이터 소스 변경 워크플로우 활동을 사용하는 방법을 알아봅니다
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 13%
+source-wordcount: '380'
+ht-degree: 12%
 
 ---
 
@@ -23,11 +23,15 @@ ht-degree: 13%
 
 경우에 따라 현재 데이터베이스에서 데이터를 사용할 수 없거나 단일 작업을 수행하기에 충분히 효율적이지 않습니다. 따라서 워크플로우가 **[!UICONTROL 데이터 원본 변경]** 활동을 추가하여 다른 데이터베이스를 사용하여 이러한 작업을 수행하도록 해야 할 수 있습니다.
 
-Campaign 아키텍처에 대한 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=ko)를 참조하세요.
+Campaign 아키텍처에 대한 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)를 참조하세요.
 
 >[!IMPORTANT]
 >
 >**[!UICONTROL 차원 변경]** 및 **[!UICONTROL 데이터 원본 변경]** 활동은 한 행에 추가해서는 안 됩니다. 두 활동을 연속해서 사용해야 하는 경우 **[!UICONTROL 데이터 보강]** 활동을 두 활동 사이에 포함하십시오. 이렇게 하면 적절한 실행이 보장되며 잠재적인 충돌 또는 오류가 방지됩니다.
+
+>[!NOTE]
+>
+>**데이터 변경 Source** 활동은 실행당 최대 100만 개의 레코드를 처리할 수 있습니다. 이 한도를 늘려야 하는 경우 Adobe 담당자에게 문의하십시오.
 
 <!--
 

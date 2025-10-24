@@ -3,9 +3,9 @@ audience: end-user
 title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 빌드하는 방법 알아보기
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
+source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1287'
 ht-degree: 3%
 
 ---
@@ -111,7 +111,7 @@ Journey Optimizer을 사용하면 활동을 하위 노드의 전체 콘텐츠(�
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_properties"
 >title="활동 속성"
->abstract="이 섹션에서는 활동 실행 방법 및 위치를 정의할 수 있습니다. 실행 작업을 설정하고, 실행 기간을 제한하고, 시간대를 선택하고, 시스템 선호도를 할당하고, 비동기 동작을 관리하고, 오류가 발생하는 경우를 지정할 수 있습니다."
+>abstract="이 섹션에서는 수행할 작업, 최대 기간, 시간대, 컴퓨터 선호도 및 비동기 동작을 포함하여 활동에 대한 실행 설정을 구성할 수 있습니다."
 
 **실행** 필드를 사용하면 작업이 시작될 때 수행할 작업을 정의할 수 있습니다.
 

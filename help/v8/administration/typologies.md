@@ -3,9 +3,9 @@ audience: end-user
 title: 비즈니스 규칙 작업 (유형화)
 description: 유형화 및 유형화 규칙을 사용하여 게재 전송을 제어, 필터링 및 모니터링하는 방법에 대해 알아봅니다.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
+source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1506'
 ht-degree: 26%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 26%
 >id="acw_homepage_welcome_rn4"
 >title="비즈니스 규칙"
 >abstract="이제 Adobe Campaign Web 사용자 인터페이스에서 유형화 및 유형화 규칙을 만들 수 있습니다. 유형화를 통해 게재 전송을 제어, 필터링 및 모니터링할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
@@ -40,12 +40,12 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->**[!UICONTROL 유형화 규칙]** 목록에는 지금까지 웹 사용자 인터페이스 또는 클라이언트 콘솔에서 만든 모든 기존 규칙이 표시됩니다. 그러나 웹 사용자 인터페이스에서는 **컨트롤** 및 **필터링** 규칙만 만들 수 있습니다. 압력 또는 용량 규칙과 같은 다른 유형의 유형화 규칙을 만들려면 Campaign v8 클라이언트 콘솔을 사용하십시오. [클라이언트 콘솔에서 유형화 규칙을 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/ko/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>**[!UICONTROL 유형화 규칙]** 목록에는 지금까지 웹 사용자 인터페이스 또는 클라이언트 콘솔에서 만든 모든 기존 규칙이 표시됩니다. 그러나 웹 사용자 인터페이스에서는 **컨트롤** 및 **필터링** 규칙만 만들 수 있습니다. 압력 또는 용량 규칙과 같은 다른 유형의 유형화 규칙을 만들려면 Campaign v8 클라이언트 콘솔을 사용하십시오. [클라이언트 콘솔에서 유형화 규칙을 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 메시지에 유형화를 적용하는 주요 단계는 다음과 같습니다.
 
 1. [유형화를 만듭니다](#typology).
-1. [유형화 규칙을 만듭니다](#typology-rules).
+1. [유형화 규칙을 만듭니다](#typology-rule).
 1. [유형화에서 유형화 규칙을 참조합니다](#add-rules).
 1. [메시지에 유형화를 적용](#message).
 
@@ -96,7 +96,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->현재 웹 사용자 인터페이스에서 **컨트롤** 및 **필터링** 유형화 규칙만 만들 수 있습니다. 다른 유형의 규칙을 만들려면 클라이언트 콘솔을 사용하십시오. [클라이언트 콘솔에서 유형화 규칙을 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/ko/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>현재 웹 사용자 인터페이스에서 **컨트롤** 및 **필터링** 유형화 규칙만 만들 수 있습니다. 다른 유형의 규칙을 만들려면 클라이언트 콘솔을 사용하십시오. [클라이언트 콘솔에서 유형화 규칙을 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 유형화 규칙을 만들려면 다음 단계를 수행합니다.
 
@@ -104,7 +104,7 @@ ht-degree: 26%
 
 1. **[!UICONTROL 유형화 규칙 만들기]** 단추를 클릭한 다음 아래에 설명된 단계를 수행합니다.
 
-[유형화 규칙 만들기](assets/business-rules-create-typo.png)
+   ![유형화 규칙 만들기](assets/business-rules-create-typo.png)
 
 ### 규칙의 기본 속성 정의 {#properties}
 
@@ -118,7 +118,7 @@ ht-degree: 26%
 >title="코드"
 >abstract="**제어** 규칙은 전송 전에 문자 표시, SMS 길이, 주소 형식 또는 URL 단축과 같은 메시지 품질과 유효성을 검증합니다. 이러한 규칙은 JavaScript 코드를 사용하여 생성됩니다."
 
-다음은 새 유형화 규칙을 만들 때 주요 속성입니다.
+다음은 새 유형화 규칙을 만들 때 정의할 기본 속성입니다.
 
 >[!BEGINTABS]
 
@@ -126,11 +126,11 @@ ht-degree: 26%
 
 1. 규칙에 대한 **[!UICONTROL 레이블]**&#x200B;을(를) 입력하십시오.
 
-[제어 규칙 만들기](assets/business-rules-create-typo1.png)
+   ![제어 규칙 만들기](assets/business-rules-create-typo1.png)
 
-1. **[!UICONTROL 추가 옵션]** 섹션을 확장하여 규칙의 내부 이름, 폴더 저장소 및 설명과 같은 고급 설정에 액세스합니다. 규칙을 적용해야 하는 시기와 해당 경고 수준을 지정할 수도 있습니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
+1. **[!UICONTROL 추가 옵션]** 섹션에서 규칙의 내부 이름, 폴더 저장소 및 설명과 같은 고급 설정에 액세스할 수 있습니다. 규칙을 적용해야 하는 시기와 해당 경고 수준을 지정할 수도 있습니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
 
-   +++단계:
+   +++단계
 
    규칙이 적용될 배달 수명 주기의 시점을 지정합니다. **[!UICONTROL 단계]** 드롭다운 목록에서 값을 선택하십시오.
 
@@ -144,11 +144,11 @@ ht-degree: 26%
 
    +++
 
-   +++레벨:
+   +++레벨
 
    규칙에 대한 경고 수준 지정:
 
-   * **[!UICONTROL 오류]**: 메시지 준비를 중지합니다.
+   * **[!UICONTROL 오류]**: 메시지 준비 중지
 
    * **[!UICONTROL 경고]**: 준비 로그에 경고를 표시합니다.
 
@@ -169,7 +169,7 @@ ht-degree: 26%
 
 1. 규칙에 대한 **[!UICONTROL 레이블]**&#x200B;을(를) 입력하십시오.
 
-[필터링 규칙 만들기](assets/business-rules-create-typo2.png)
+   ![필터링 규칙 만들기](assets/business-rules-create-typo2.png)
 
 1. **[!UICONTROL 추가 옵션]** 섹션을 확장하여 규칙의 내부 이름, 폴더 저장소 및 설명과 같은 고급 설정에 액세스합니다.
 
@@ -185,7 +185,7 @@ ht-degree: 26%
 
 이제 추가 매개 변수를 정의하겠습니다. 이 화면에서는 이전에 정의한 기본 속성을 계속 변경할 수 있습니다.
 
-[필터링 규칙 추가 만들기](assets/business-rules-create-typo2.png)
+![필터링 규칙 추가 만들기](assets/business-rules-create-typo3.png)
 
 1. 규칙을 만든 후 즉시 활성화하지 않으려면 **[!UICONTROL 활성]** 옵션을 끄십시오.
 

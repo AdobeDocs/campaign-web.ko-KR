@@ -21,7 +21,7 @@ Campaign 클라이언트 콘솔은 모든 기능과 설정을 중앙 집중화�
 
 ![](assets/client_console.png){zoomable="yes"}
 
-[Adobe Campaign v8의 클라이언트 콘솔 사용자 인터페이스에 대해 자세히 알아보세요](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"} .
+[Adobe Campaign v8의 클라이언트 콘솔 사용자 인터페이스에 대해 자세히 알아보세요](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"} .
 
 ## Campaign v8 아키텍처 {#acs-gs-admi-archi}
 
@@ -29,7 +29,7 @@ Campaign 아키텍처는 Campaign v8(콘솔) 설명서에 자세히 설명되어
 
 시작할 수 있는 유용한 링크:
 
-* Adobe Campaign 구성 요소 및 전역 아키텍처는 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/ac-components){target="_blank"}에 설명되어 있습니다.
+* Adobe Campaign 구성 요소 및 전역 아키텍처는 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/ac-components){target="_blank"}에 설명되어 있습니다.
 
 * 인스턴스 구성을 시작하기 전에 Campaign 아키텍처를 이해하려면 [Campaign 아키텍처 시작](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture){target="_blank"}을 참조하세요.
 
@@ -49,9 +49,9 @@ Campaign 클라이언트 콘솔은 SOAP 및 HTTP와 같은 표준 인터넷 프�
 
 >[!VIDEO](https://video.tv.adobe.com/v/335375?quality=12&learn=on){transcript=true}
 
-자세한 내용은 [클라이언트 콘솔을 사용하여 Campaign에 연결](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect){target="_blank"}을 참조하십시오.
+자세한 내용은 [클라이언트 콘솔을 사용하여 Campaign에 연결](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/connect){target="_blank"}을 참조하십시오.
 
-지원되는 환경에 클라이언트 콘솔을 설치해야 합니다. 자세한 내용은 [Campaign v8(콘솔) 호환성 매트릭스](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/compatibility-matrix#ClientConsoleoperatingsystems){target="_blank"}를 참조하세요.
+지원되는 환경에 클라이언트 콘솔을 설치해야 합니다. 자세한 내용은 [Campaign v8(콘솔) 호환성 매트릭스](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/releases/compatibility-matrix#ClientConsoleoperatingsystems){target="_blank"}를 참조하세요.
 
 ### 클라이언트 콘솔 인터페이스 검색  {#acs-gs-ui}
 
@@ -59,13 +59,13 @@ Campaign 클라이언트 콘솔은 SOAP 및 HTTP와 같은 표준 인터넷 프�
 
 >[!VIDEO](https://video.tv.adobe.com/v/334496?quality=12&learn=on){transcript=true}
 
-자세한 내용은 [클라이언트 콘솔 작업](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}을 참조하십시오.
+자세한 내용은 [클라이언트 콘솔 작업](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}을 참조하십시오.
 
 ## 환경 관리 {#acs-gs-admin-env}
 
-클라이언트 콘솔이 설치되면 이 설명서의 단계에 따라 응용 프로그램 서버에 대한 연결을 만듭니다. [응용 프로그램 서버 설명서에 연결](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect#create-your-connection){target="_blank"}.
+클라이언트 콘솔이 설치되면 이 설명서의 단계에 따라 응용 프로그램 서버에 대한 연결을 만듭니다. [응용 프로그램 서버 설명서에 연결](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/connect#create-your-connection){target="_blank"}.
 
-보안 관행은 내부 소프트웨어 개발 및 운영 프로세스 및 도구에 깊이 배어있으며, 여러 분야의 다양한 팀이 협력하여 사건을 신속하게 예방, 감지 및 대응합니다. 자세한 내용은 [Campaign 보안 모범 사례](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security){target="_blank"}를 참조하세요.
+보안 관행은 내부 소프트웨어 개발 및 운영 프로세스 및 도구에 깊이 배어있으며, 여러 분야의 다양한 팀이 협력하여 사건을 신속하게 예방, 감지 및 대응합니다. 자세한 내용은 [Campaign 보안 모범 사례](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/privacy/security){target="_blank"}를 참조하세요.
 
 ### 액세스 권한 및 권한 {#acs-gs-admin-rights}
 
@@ -84,14 +84,14 @@ Campaign Standard의 경우 Campaign 컨트롤 패널을 사용하여 환경을 
 
 Campaign 컨트롤 패널을 통해 각 인스턴스의 사용법을 추적하고 설정을 관리하여 Adobe Campaign의 제품 관리자로서 작업 효율을 높일 수 있습니다. 컨트롤 패널의 직관적인 인터페이스를 활용하면 주요 자산의 사용을 손쉽게 모니터링할 수 있을 뿐만 아니라 허용 목록에 IP 주소 추가, SFTP 스토리지 모니터링, 키 관리 등의 관리 작업도 수행할 수 있습니다.
 
-자세한 내용은 [제어판 튜토리얼](https://experienceleague.adobe.com/en/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"} 및 [제어판 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko){target="_blank"}를 참조하세요.
+자세한 내용은 [제어판 튜토리얼](https://experienceleague.adobe.com/ko/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"} 및 [제어판 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko){target="_blank"}를 참조하세요.
 
-* **IP 주소 추가** - Campaign Campaign 컨트롤 패널을 사용하면 허용 목록에 IP 주소 범위를 추가하여 인스턴스에 대한 새 연결을 설정할 수 있습니다. [IP 허용 목록 문서](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access){target="_blank"}에서 자세히 알아보기
+* **IP 주소 추가** - Campaign Campaign 컨트롤 패널을 사용하면 허용 목록에 IP 주소 범위를 추가하여 인스턴스에 대한 새 연결을 설정할 수 있습니다. [IP 허용 목록 문서](https://experienceleague.adobe.com/ko/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access){target="_blank"}에서 자세히 알아보기
 
 * **하위 도메인 구성** - Adobe Campaign에서 사용할 도메인의 하위 섹션(기술적 명칭은 &quot;DNS 영역&quot;)을 구성할 수 있습니다.
-자세한 내용은 [하위 도메인 위임 문서](https://experienceleague.adobe.com/en/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}를 참조하세요.
+자세한 내용은 [하위 도메인 위임 문서](https://experienceleague.adobe.com/ko/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}를 참조하세요.
 
-* **SFTP 서버 관리** - Campaign 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 자세한 내용은 [SFTP 관리 설명서](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/about-sftp-management){target="_blank"}를 참조하세요
+* **SFTP 서버 관리** - Campaign 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 자세한 내용은 [SFTP 관리 설명서](https://experienceleague.adobe.com/ko/docs/control-panel/using/sftp-management/about-sftp-management){target="_blank"}를 참조하세요
 
 
 ### 감사 추적 {#acs-gs-admin-audit-trail}
@@ -104,7 +104,7 @@ Adobe Campaign 웹 사용자 인터페이스에서 감사 추적 기능은 사�
 
 Campaign Standard에서 달성할 수 있는 것과 마찬가지로 관리자는 구조화된 XML 파일을 통해 다양한 Adobe Campaign 인스턴스 간에 리소스를 교환하기 위한 패키지를 정의할 수 있습니다. 이는 구성 매개 변수가 될 수도 있고 데이터가 될 수도 있습니다.
 
-데이터 패키지를 사용하여 플랫폼 사용자 지정 설정 및 데이터를 내보내고 가져올 수 있습니다. 패키지에는 필터링되거나 필터링되지 않은 다양한 유형의 구성 및 구성 요소가 포함될 수 있습니다. [이 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/packages){target="_blank"}에서 Campaign v8의 데이터 패키지를 사용하여 작업하는 방법을 알아봅니다.
+데이터 패키지를 사용하여 플랫폼 사용자 지정 설정 및 데이터를 내보내고 가져올 수 있습니다. 패키지에는 필터링되거나 필터링되지 않은 다양한 유형의 구성 및 구성 요소가 포함될 수 있습니다. [이 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/packages){target="_blank"}에서 Campaign v8의 데이터 패키지를 사용하여 작업하는 방법을 알아봅니다.
 
 <!--
 MISSING LINKS: 
@@ -126,13 +126,13 @@ MISSING LINKS:
 
 모든 회사에는 시각적 요소와 기술적 세부 사항을 정의하는 브랜드 가이드라인이 있습니다. Adobe Campaign Standard의 경우 Adobe Campaign v8을 사용하면 이러한 지침을 중앙에서 관리할 수 있으므로 이메일의 로고부터 캠페인에 사용된 URL 및 도메인에 이르기까지 수행하는 모든 작업에서 고객에게 일관된 브랜드 이미지를 제공할 수 있습니다. 기술 관리자는 Adobe Campaign 내에서 여러 브랜드를 만들고 관리할 수 있습니다.
 
-[브랜딩 설명서](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"}에서 자세히 알아보기
+[브랜딩 설명서](https://experienceleague.adobe.com/ko/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"}에서 자세히 알아보기
 
 ## 데이터 모델 생성 이해 {#acs-gs-admin-data-model-creation}
 
-Campaign Standard과 마찬가지로 Adobe Campaign v8에도 사전 정의된 데이터 모델이 포함되어 있습니다. Adobe Campaign은 함께 연결된 테이블이 포함된 클라우드 데이터베이스를 사용합니다. 자세한 내용은 [데이터 모델 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}를 참조하세요.
+Campaign Standard과 마찬가지로 Adobe Campaign v8에도 사전 정의된 데이터 모델이 포함되어 있습니다. Adobe Campaign은 함께 연결된 테이블이 포함된 클라우드 데이터베이스를 사용합니다. 자세한 내용은 [데이터 모델 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}를 참조하세요.
 
-스키마는 데이터베이스 테이블과 연관된 XML 문서입니다. 데이터 구조를 정의하고 테이블의 SQL 정의를 설명합니다. [스키마 만들기 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"} 보기
+스키마는 데이터베이스 테이블과 연관된 XML 문서입니다. 데이터 구조를 정의하고 테이블의 SQL 정의를 설명합니다. [스키마 만들기 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"} 보기
 
 이 비디오에서는 Campaign v8에서 스키마를 만드는 방법과 기존 스키마를 확장하는 방법을 알아봅니다.
 
@@ -140,13 +140,13 @@ Campaign Standard과 마찬가지로 Adobe Campaign v8에도 사전 정의된 �
 
 Campaign Standard에서 사용할 수 있는 기능과 유사하게 사용자 지정 리소스를 만들 수 있습니다. Campaign v8에서 사용자 지정 리소스는 사용자 지정 또는 확장된 **스키마**&#x200B;입니다.
 
-* [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}에서 스키마를 사용하여 작업하는 방법을 알아보세요.
+* [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}에서 스키마를 사용하여 작업하는 방법을 알아보세요.
 
-* [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema){target="_blank"}에서 기존 스키마를 확장하는 방법을 알아보세요.
+* [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema){target="_blank"}에서 기존 스키마를 확장하는 방법을 알아보세요.
 
-* [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/create-schema){target="_blank"}에서 새 스키마를 만드는 방법을 알아보세요.
+* [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/shemas-forms/create-schema){target="_blank"}에서 새 스키마를 만드는 방법을 알아보세요.
 
-* 스키마를 만들거나 확장할 때 관련 입력 양식을 만들거나 수정하여 최종 사용자가 해당 변경 사항을 볼 수 있도록 해야 합니다. 입력 양식을 사용하면 Adobe Campaign 클라이언트 콘솔에서 데이터 스키마와 연결된 인스턴스를 편집할 수 있습니다. 양식은 이름과 네임스페이스로 식별됩니다. [입력 양식 만들기 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/forms){target="_blank"}를 참조하세요.
+* 스키마를 만들거나 확장할 때 관련 입력 양식을 만들거나 수정하여 최종 사용자가 해당 변경 사항을 볼 수 있도록 해야 합니다. 입력 양식을 사용하면 Adobe Campaign 클라이언트 콘솔에서 데이터 스키마와 연결된 인스턴스를 편집할 수 있습니다. 양식은 이름과 네임스페이스로 식별됩니다. [입력 양식 만들기 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/shemas-forms/forms){target="_blank"}를 참조하세요.
 
 ## 워크플로우 및 데이터 관리 {#acs-gs-admin-data-management}
 
@@ -158,7 +158,7 @@ Adobe Campaign Standard과 마찬가지로 Adobe Campaign v8에는 애플리케�
 
   >[!VIDEO](https://video.tv.adobe.com/v/339992?quality=12&learn=on){transcript=true}
 
-* Campaign을 사용하면 Cloud 데이터베이스에 연락처를 추가할 수 있습니다. 파일을 로드하거나, 여러 연락처 업데이트를 예약 및 자동화하고, 웹에서 데이터를 수집하거나, 수신자 표에 직접 프로필 정보를 입력할 수 있습니다.  자세한 내용은 [데이터 가져오기(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target="_blank"}를 참조하세요.
+* Campaign을 사용하면 Cloud 데이터베이스에 연락처를 추가할 수 있습니다. 파일을 로드하거나, 여러 연락처 업데이트를 예약 및 자동화하고, 웹에서 데이터를 수집하거나, 수신자 표에 직접 프로필 정보를 입력할 수 있습니다.  자세한 내용은 [데이터 가져오기(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/import){target="_blank"}를 참조하세요.
 
 * 다양한 보고서를 PDF 또는 CSV 형식으로 쉽게 내보내 공유, 조작 또는 인쇄할 수 있습니다. 자세한 내용은 [데이터 내보내기 설명서](../../v8/reporting/export-reports.md)를 참조하세요.
 
@@ -168,9 +168,9 @@ Campaign REST API는 사용자가 사용하는 기술 패널과 Adobe Campaign�
 
 Campaign Standard 사용자가 Campaign v8로 전환하면 REST API를 사용할 수 있습니다.
 
-[Rest API 설명서](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}에서 자세히 알아보세요.
+[Rest API 설명서](https://experienceleague.adobe.com/ko/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}에서 자세히 알아보세요.
 
-Campaign Standard에서 Campaign v8로 전환하는 경우 일부 권장 사항 및 제한 사항이 REST API에 적용됩니다. [이 페이지](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/limitations){target="_blank"}에 나열됩니다. 아래 가용성 노트에 나열된 대로 Campaign v8로 전환할 때도 특정 제한 사항이 적용됩니다.
+Campaign Standard에서 Campaign v8로 전환하는 경우 일부 권장 사항 및 제한 사항이 REST API에 적용됩니다. [이 페이지](https://experienceleague.adobe.com/ko/docs/experience-cloud/campaign/apis/limitations){target="_blank"}에 나열됩니다. 아래 가용성 노트에 나열된 대로 Campaign v8로 전환할 때도 특정 제한 사항이 적용됩니다.
 
 >[!AVAILABILITY]
 >
@@ -195,16 +195,16 @@ Workflow templates contain pre-configured settings and activities which can be r
 
 You can design your landing page content, and save it for future reuse. See the [landing page template documentation](../../v8/landing-pages/lp-templates.md).
 
-Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. See the [Transactional messaging template documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template)
+Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. See the [Transactional messaging template documentation](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional-template)
 
-Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
+Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
 -->
 
 ## 개인 정보 보호 및 동의
 
 Campaign Standard에서 Campaign v8로 이동할 때 개인 정보 보호 규정이 데이터 운영에 미치는 영향을 검토하는 것이 중요합니다. 비즈니스와 운영하는 관할권에 따라 고객은 자신에 대해 보유하고 있는 데이터에 액세스하거나 해당 데이터의 삭제를 요청할 수 있는 법적 권한이 있을 수 있습니다.
 
-Campaign v8에서 모든 개인 정보 보호 요청은 **Adobe Privacy Service** 통합을 통해 관리되어야 합니다. 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/privacy)를 참조하세요.
+Campaign v8에서 모든 개인 정보 보호 요청은 **Adobe Privacy Service** 통합을 통해 관리되어야 합니다. 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/privacy/privacy)를 참조하세요.
 
 Campaign Standard 환경은 전환 후 일정 기간 동안 활성 상태를 유지합니다. 이 시간 동안 개인 정보 보호 요청은 두 시스템 모두에 도착할 수 있습니다. 규정 준수를 보장하고 간격을 방지하려면 Adobe 전환 관리자와 조정하여 두 환경의 요청을 적절하게 처리합니다.
 
@@ -218,7 +218,7 @@ Campaign Standard에서와 마찬가지로 관리자는 구독 서비스를 만�
 
 * 구독 서비스 [웹 사용자 인터페이스 설명서](../../v8/audience/manage-subscribers.md)를 참조하세요.
 
-* [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/subscriptions){target="_blank"}에서 클라이언트 콘솔의 구독 서비스를 설정하는 설명서를 참조하십시오.
+* [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/subscriptions){target="_blank"}에서 클라이언트 콘솔의 구독 서비스를 설정하는 설명서를 참조하십시오.
 
 ## 메시지 및 게재{#acs-gs-msg}
 
@@ -228,10 +228,10 @@ Campaign Standard의 Adobe Campaign v8을 사용하면 이메일, SMS, 푸시 �
 
 관리자는 채널 구성을 정의해야 합니다. 자세한 내용은 아래 링크를 참조하십시오.
 
-* **전자 메일** - 전자 메일 설정은 모두 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email-parameters){target="_blank"}에 자세히 설명되어 있습니다.
-* **SMS** - SMS 채널을 구성하는 방법은 [이 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}를 참조하세요.
-* **푸시 알림** - 푸시 알림 채널을 구성하는 단계는 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}에 자세히 설명되어 있습니다.
-* **트랜잭션 메시지** - Campaign v8에서 [트랜잭션 메시지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}을(를) 구성하는 단계는 이 섹션의 [에 자세히 설명되어 있습니다](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/transactional-msg-settings)
+* **전자 메일** - 전자 메일 설정은 모두 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/emails/email-parameters){target="_blank"}에 자세히 설명되어 있습니다.
+* **SMS** - SMS 채널을 구성하는 방법은 [이 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}를 참조하세요.
+* **푸시 알림** - 푸시 알림 채널을 구성하는 단계는 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}에 자세히 설명되어 있습니다.
+* **트랜잭션 메시지** - Campaign v8에서 [트랜잭션 메시지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}을(를) 구성하는 단계는 이 섹션의 [에 자세히 설명되어 있습니다](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/transactional-msg-settings)
 
 ### 외부 계정 {#acs-gs-ext-accounts}
 
@@ -276,16 +276,16 @@ MISSING LINKS:
 
 유용한 링크:
 
-* [개인화 시작](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/personalize){target="_blank"}
-* [개인화 블록 사용](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/personalization-blocks){target="_blank"}
-* [조건부 콘텐츠 만들기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/conditions){target="_blank"}
-* [Personalization 데이터 소스](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/personalization-data){target="_blank"}
+* [개인화 시작](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/personalize/personalize){target="_blank"}
+* [개인화 블록 사용](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/personalize/personalization-blocks){target="_blank"}
+* [조건부 콘텐츠 만들기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/personalize/conditions){target="_blank"}
+* [Personalization 데이터 소스](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/personalize/personalization-data){target="_blank"}
 
 ### 게재 템플릿 {#acs-gs-templates}
 
 Campaign Standard과 마찬가지로 Campaign v8에서도 게재 템플릿 사용은 요구 사항입니다.
 
-디자인 프로세스를 가속화하고 개선하기 위해 게재 템플릿을 만들어 캠페인 전반에서 사용자 지정 콘텐츠 및 설정을 쉽게 재사용할 수 있습니다. 이 기능을 사용하면 크리에이티브 룩과 느낌을 표준화하여 캠페인 실행 및 론칭을 보다 신속하게 수행할 수 있습니다. [Campaign 웹 사용자 인터페이스](../../v8/msg/delivery-template.md)에서 게재 템플릿을 만드는 방법을 알아봅니다. [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-templates){target="_blank"}에서 클라이언트 콘솔에 게재 템플릿을 만드는 방법을 참고하십시오.
+디자인 프로세스를 가속화하고 개선하기 위해 게재 템플릿을 만들어 캠페인 전반에서 사용자 지정 콘텐츠 및 설정을 쉽게 재사용할 수 있습니다. 이 기능을 사용하면 크리에이티브 룩과 느낌을 표준화하여 캠페인 실행 및 론칭을 보다 신속하게 수행할 수 있습니다. [Campaign 웹 사용자 인터페이스](../../v8/msg/delivery-template.md)에서 게재 템플릿을 만드는 방법을 알아봅니다. [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/create-templates){target="_blank"}에서 클라이언트 콘솔에 게재 템플릿을 만드는 방법을 참고하십시오.
 
 ### 유형화 규칙 {#acs-gs-admin-rules}
 
@@ -293,23 +293,23 @@ Campaign Standard과 마찬가지로 Campaign v8에서도 게재 템플릿 사�
 
 Campaign Standard 환경에서 Campaign v8로 전환하는 경우 유형화 규칙이 Campaign v8로 이동됩니다.
 
-Campaign v8에서 유형화 규칙은 특정 캠페인 최적화와 함께 제공됩니다. 이 모듈에서는 게재 전송을 제어, 필터링 및 모니터링할 수 있습니다. 캠페인 간의 충돌을 방지하기 위해 Adobe Campaign은 특정 제한 조건을 적용하여 다양한 조합을 테스트할 수 있습니다. 이를 통해 전송된 메시지는 고객의 요구 사항과 기대 사항 및 회사 커뮤니케이션 정책을 충족할 수 있습니다. 자세한 내용은 [유형화 규칙 설명서](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}를 참조하세요.
+Campaign v8에서 유형화 규칙은 특정 캠페인 최적화와 함께 제공됩니다. 이 모듈에서는 게재 전송을 제어, 필터링 및 모니터링할 수 있습니다. 캠페인 간의 충돌을 방지하기 위해 Adobe Campaign은 특정 제한 조건을 적용하여 다양한 조합을 테스트할 수 있습니다. 이를 통해 전송된 메시지는 고객의 요구 사항과 기대 사항 및 회사 커뮤니케이션 정책을 충족할 수 있습니다. 자세한 내용은 [유형화 규칙 설명서](https://experienceleague.adobe.com/ko/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}를 참조하세요.
 
 ### 격리 관리 {#acs-gs-admin-quarantine}
 
 격리된 모든 주소 및 격리 규칙이 Campaign Standard 환경에서 Campaign v8로 마이그레이션되었습니다. 방역 관리를 위해 구체적인 조치가 필요한 것은 아니다.
 
-관리자는 [이 페이지](../../v8/audience/quarantine.md)부터 Campaign v8의 격리 관리에 익숙해집니다. [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses){target="_blank"}에서 격리 관리에 대한 자세한 내용은 클라이언트 콘솔 세부 설명서를 참조하십시오.
+관리자는 [이 페이지](../../v8/audience/quarantine.md)부터 Campaign v8의 격리 관리에 익숙해집니다. [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses){target="_blank"}에서 격리 관리에 대한 자세한 내용은 클라이언트 콘솔 세부 설명서를 참조하십시오.
 
 
 ## Adobe Campaign 통합 관리 {#acs-gs-integrations}
 
-Campaign 인스턴스를 Adobe Experience Cloud 솔루션과 연결하여 기능을 결합할 수 있습니다. Adobe Campaign에는 외부 애플리케이션과 통신하고, 데이터베이스 엔진에 연결하고, 데이터를 공유 및 동기화할 수 있는 몇 가지 커넥터가 포함되어 있습니다. [이 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/integration){target="_blank"}에서 솔루션을 결합하는 방법을 알아보세요.
+Campaign 인스턴스를 Adobe Experience Cloud 솔루션과 연결하여 기능을 결합할 수 있습니다. Adobe Campaign에는 외부 애플리케이션과 통신하고, 데이터베이스 엔진에 연결하고, 데이터를 공유 및 동기화할 수 있는 몇 가지 커넥터가 포함되어 있습니다. [이 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/integration){target="_blank"}에서 솔루션을 결합하는 방법을 알아보세요.
 
 Campaign v8로 마이그레이션하는 Campaign Standard 사용자는 다음과 같습니다.
 
 * Campaign Standard과의 이러한 통합을 사용하는 경우 Adobe에서 **Adobe Analytics** 및 **Audience Manager** 구성 및 데이터를 마이그레이션했습니다.
 * Campaign Standard 환경이 **Adobe Experience Manager**&#x200B;과(와) 통합된 경우 Adobe에서는 Campaign 웹 사용자 인터페이스에서 전자 메일을 디자인할 때 이 기능을 사용하고 Adobe Experience Manager 환경 내에서 직접 전자 메일 게재 콘텐츠 및 양식을 간소화할 수 있도록 **Adobe Experience Manager as a Cloud Service**(으)로 이동하는 것이 좋습니다. 자세한 내용은 [이 페이지](../../v8/integrations/aem-content.md)를 참조하세요.
-Campaign을 Adobe Experience Manager 6.5와 통합할 수도 있습니다. 이 통합을 구성하려면 [이 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}를 참조하세요.
-* Campaign Standard 환경이 **트리거**&#x200B;와(과) 통합된 경우 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}에 설명된 대로 Campaign v8에서 이 통합을 설정하고 구성해야 합니다.
-* Campaign Standard 환경이 **Adobe Target**&#x200B;과(와) 통합된 경우 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}에 설명된 대로 Campaign v8에서 이 통합을 설정하고 구성해야 합니다.
+Campaign을 Adobe Experience Manager 6.5와 통합할 수도 있습니다. 이 통합을 구성하려면 [이 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}를 참조하세요.
+* Campaign Standard 환경이 **트리거**&#x200B;와(과) 통합된 경우 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}에 설명된 대로 Campaign v8에서 이 통합을 설정하고 구성해야 합니다.
+* Campaign Standard 환경이 **Adobe Target**&#x200B;과(와) 통합된 경우 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}에 설명된 대로 Campaign v8에서 이 통합을 설정하고 구성해야 합니다.

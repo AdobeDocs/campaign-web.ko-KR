@@ -11,7 +11,7 @@ ht-degree: 100%
 
 # 자주 묻는 질문
 
-다음 섹션에서는 새로운 Campaign 인터페이스와 관련하여 자주 묻는 질문을 나열했습니다. 추가 질문이 있습니까? 경험을 공유하거나 동료와 의견을 교환하시겠습니까? 또는 Adobe 팀에 전달할 학습 콘텐츠에 대한 피드백이 있습니까? [Adobe Campaign 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community){target="_blank"}의 대화에 참여하십시오.
+다음 섹션에서는 새로운 Campaign 인터페이스와 관련하여 자주 묻는 질문을 나열했습니다. 추가 질문이 있습니까? 경험을 공유하거나 동료와 의견을 교환하시겠습니까? 또는 Adobe 팀에 전달할 학습 콘텐츠에 대한 피드백이 있습니까? [Adobe Campaign 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community?profile.language=ko){target="_blank"}의 대화에 참여하십시오.
 
 +++ 새로운 웹 사용자 인터페이스에 액세스하려면 어떤 버전의 Adobe Campaign이 필요합니까?
 

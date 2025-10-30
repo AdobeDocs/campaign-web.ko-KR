@@ -60,8 +60,8 @@ ht-degree: 46%
    | **연락처 정보** | 이메일 주소 또는 전화번호 등 프로필의 연락처 정보. |
    | **주소** | 프로필의 우편 주소입니다. 이 섹션에서는 주소 품질에 대한 평가도 제공합니다. &#39;성&#39;, &#39;구/군/시&#39; 및 &#39;우편 번호&#39; 필드를 지정한 경우 프로필 주소는 유효한 것으로 간주됩니다. |
    | **계정 세부 정보** | 상태 또는 계정 번호와 같은 프로필 계정에 대한 정보. |
-   | **더 이상 연락하지 않음** | 프로필의 연락처 기본 설정입니다. 이러한 옵션 중 하나를 선택하면 프로파일이 차단 목록에 추가하다에 표시됩니다.<br/>예를 들어 받는 사람이 뉴스레터에서 구독 취소 링크를 클릭한 경우 이 정보가 연락처 데이터에 추가됩니다. 이러한 수신자는 더 이상 선택한 채널을 타겟팅하지 않습니다. [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}에서 격리 관리에 대해 자세히 알아보세요. |
-   | **사용자 정의 필드** | 사용자 정의 필드가 구성된 경우 이 섹션에 표시됩니다. 사용자 지정 필드는 Adobe Campaign 콘솔을 통해 **[!UICONTROL 프로필]** 스키마에 추가된 추가 특성입니다. 자세한 내용은 [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}를 참조하세요 |
+   | **더 이상 연락하지 않음** | 프로필의 연락처 기본 설정입니다. 이러한 옵션 중 하나를 선택하면 프로파일이 차단 목록에 추가하다에 표시됩니다.<br/>예를 들어 받는 사람이 뉴스레터에서 구독 취소 링크를 클릭한 경우 이 정보가 연락처 데이터에 추가됩니다. 이러한 수신자는 더 이상 선택한 채널을 타겟팅하지 않습니다. [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=ko){target="_blank"}에서 격리 관리에 대해 자세히 알아보세요. |
+   | **사용자 정의 필드** | 사용자 정의 필드가 구성된 경우 이 섹션에 표시됩니다. 사용자 지정 필드는 Adobe Campaign 콘솔을 통해 **[!UICONTROL 프로필]** 스키마에 추가된 추가 특성입니다. 자세한 내용은 [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=ko){target="_blank"}를 참조하세요 |
    | **기타** | 추가 기본 제공 속성. |
 
 1. 프로필을 구성한 후 **[!UICONTROL 만들기]**&#x200B;를 클릭하여 데이터베이스에 저장합니다.

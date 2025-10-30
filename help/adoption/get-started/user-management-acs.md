@@ -70,9 +70,9 @@ Adobe Campaign Standard에서 용어 **사용자 역할**&#x200B;은(는) Campai
 
 >[!IMPORTANT]
 >
->직접 또는 간접 상위로 **모두(모두)**이(가) 없는 Adobe Campaign Standard의 조직 단위는 Campaign v8로 마이그레이션되지 않습니다.
->></br>
->>여러 보안 그룹의 사용자에게는 최상위 보안 그룹의 조직 단위가 할당됩니다. 여러 그룹에 병렬 최상위 단위가 있는 경우, 시스템은 Campaign Standard에서 사용자에 대한 조직 단위를 선택하고 사용자는 시스템에서 선택한 조직 단위와 그 하위 단위에만 액세스할 수 있습니다. 마이그레이션 후 Campaign v8에서 사용자는 **할당된 모든 조직 단위와 하위 항목**&#x200B;에 액세스할 수 있으므로 권한이 높아질 수 있습니다. 이를 방지하려면 병렬 조직 단위를 사용하는 보안 그룹에 사용자를 할당하지 마십시오. [병렬 조직 단위 할당](#parallel-assignments)에 대해 자세히 알아보세요.
+>직접 또는 간접 상위로 **모두(모두)**&#x200B;이(가) 없는 Adobe Campaign Standard의 조직 단위는 Campaign v8로 마이그레이션되지 않습니다.
+>&#x200B;></br>
+>&#x200B;>여러 보안 그룹의 사용자에게는 최상위 보안 그룹의 조직 단위가 할당됩니다. 여러 그룹에 병렬 최상위 단위가 있는 경우, 시스템은 Campaign Standard에서 사용자에 대한 조직 단위를 선택하고 사용자는 시스템에서 선택한 조직 단위와 그 하위 단위에만 액세스할 수 있습니다. 마이그레이션 후 Campaign v8에서 사용자는 **할당된 모든 조직 단위와 하위 항목**&#x200B;에 액세스할 수 있으므로 권한이 높아질 수 있습니다. 이를 방지하려면 병렬 조직 단위를 사용하는 보안 그룹에 사용자를 할당하지 마십시오. [병렬 조직 단위 할당](#parallel-assignments)에 대해 자세히 알아보세요.
 
 
 Adobe Campaign Standard에서 **조직 단위**&#x200B;은(는) 유사한 액세스 제어를 유지하기 위해 Campaign v8의 기존 **폴더** 계층 구조 모델에 매핑됩니다. [폴더 관리에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/folder-permissions)

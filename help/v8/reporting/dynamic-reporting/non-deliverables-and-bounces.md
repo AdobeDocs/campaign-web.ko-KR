@@ -1,5 +1,5 @@
 ---
-title: 게재 불가 및 이탈
+title: 비게재 항목 및 바운스
 description: 게재 불가 및 바운스 기본 보고서를 사용하여 게재에 발생할 수 있는 오류에 대해 알아봅니다.
 audience: end-user
 level: Intermediate
@@ -11,7 +11,7 @@ ht-degree: 4%
 
 ---
 
-# 게재 불가 및 이탈{#non-deliverables-and-bounces}
+# 비게재 항목 및 바운스{#non-deliverables-and-bounces}
 
 **[!UICONTROL 게재 불가 및 바운스 수]** 보고서는 게재 중 발생한 모든 오류에 대한 세부 정보를 제공합니다.
 

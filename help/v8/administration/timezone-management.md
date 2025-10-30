@@ -1,5 +1,5 @@
 ---
-title: 표준 시간대 관리
+title: 시간대 관리
 description: Adobe Campaign Web UI에서 브라우저, 운영자, 워크플로우 및 서버 시간대를 기반으로 날짜 및 시간 값을 표시하는 방법을 알아봅니다.
 source-git-commit: 357d2014ade1e783b3bf1e1c363894084199738d
 workflow-type: tm+mt
@@ -8,7 +8,7 @@ ht-degree: 3%
 
 ---
 
-# 표준 시간대 관리 {#timezone-management}
+# 시간대 관리 {#timezone-management}
 
 Adobe Campaign Web UI는 사용자 웹 브라우저의 **로컬 시간대**&#x200B;에 따라 모든 날짜 및 시간 값을 표시합니다. 이 동작으로 인해 웹 UI와 클라이언트 콘솔 간의 타임스탬프를 비교할 때 차이가 발생할 수 있습니다.
 

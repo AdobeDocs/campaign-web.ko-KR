@@ -31,7 +31,7 @@ ht-degree: 24%
 
   >[!NOTE]
   >
-  >Adobe Experience Platform 대상을 사용하려면 대상과의 통합을 구성합니다. [Adobe Experience Platform 대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ko){target="_blank"}를 참조하세요.
+  >Adobe Experience Platform 대상을 사용하려면 대상과의 통합을 구성합니다. [Adobe Experience Platform 대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html){target="_blank"}를 참조하세요.
 
 ## 캔버스
 
@@ -53,7 +53,7 @@ ht-degree: 24%
 
   >[!IMPORTANT]
   >
-  >이 제품 버전에서는 사용자 인터페이스에서 사전 정의된 일부 필터를 사용할 수 없습니다. 일반적인 사용은 가능합니다. [자세히 알아보기](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations).
+  >이 제품 버전에서는 사용자 인터페이스에서 사전 정의된 일부 필터를 사용할 수 없습니다. 일반적인 사용은 가능합니다. [자세히 알아보기](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 * **특성**: 만들어진 대상자에 대한 설명을 표시합니다.
 

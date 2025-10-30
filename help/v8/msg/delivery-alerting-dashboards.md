@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: 게재 경고
+title: 게재 알림
 description: 게재 경고 작업 방법을 알아봅니다.
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
 source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
@@ -10,11 +10,11 @@ ht-degree: 22%
 
 ---
 
-# 게재 경고 대시보드 {#delivery-alerting-dashboards}
+# 게재 알림 대시보드 {#delivery-alerting-dashboards}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboards"
->title="게재 경고 대시보드"
+>title="게재 알림 대시보드"
 >abstract="게재 경고 기능은 사용자 그룹이 게재 실행에 대한 정보가 포함된 이메일 알림을 자동으로 수신할 수 있는 경고 관리 시스템입니다. 게재 경고 대시보드를 사용하면 이메일 경고의 수신자를 지정하고, 해당 경고를 보내는 데 사용할 경고 기준을 선택 및 구성하고, 전송된 경고 알림의 기록에 액세스할 수 있습니다."
 
 게재 경고 대시보드를 사용하면 이메일 경고를 수신할 사용자를 지정하고, 해당 경고를 전송하는 데 사용할 경고 기준을 선택 및 구성하고, 전송된 모든 알림의 기록에 액세스할 수 있습니다. 왼쪽 탐색 창의 **대시보드** 탭 아래에 있는 **게재 경고** 메뉴에서 액세스할 수 있습니다.
@@ -35,7 +35,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_add"
->title="게재 경고 기준"
+>title="게재 알림 기준"
 >abstract="이 섹션에서는 이 대시보드에서 경고를 보내는 데 사용할 기준을 추가합니다. 사전 정의된 기준 중에서 선택하거나 특정 요구에 맞게 자체 기준을 만들 수 있습니다."
 
 >[!CONTEXTUALHELP]

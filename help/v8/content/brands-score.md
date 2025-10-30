@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: '브랜드 일관성 '
+title: 브랜드 정렬
 description: 브랜드 점수를 사용하여 브랜드 내 콘텐츠를 만들고, 검증하고, 관리하는 방법에 대해 알아봅니다.
 exl-id: 5e65d3f4-6a4e-4390-94ae-e59856f1370d
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
@@ -10,7 +10,7 @@ ht-degree: 5%
 
 ---
 
-# 브랜드 일관성  {#brands-score}
+# 브랜드 정렬 {#brands-score}
 
 >[!AVAILABILITY]
 >

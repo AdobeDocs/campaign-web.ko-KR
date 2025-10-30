@@ -10,7 +10,7 @@ ht-degree: 24%
 
 ---
 
-# 예약 {#scheduler}
+# 스케줄러 {#scheduler}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_scheduler"

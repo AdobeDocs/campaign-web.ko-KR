@@ -34,7 +34,7 @@ ht-degree: 14%
 >
 >사용 권한에 따라 데이터베이스에 저장된 프로필의 전체 목록에 액세스하지 못할 수도 있습니다. [권한에 대해 자세히 알아보기](../get-started/permissions.md)
 
-**필터 표시** 단추에서 사용할 수 있는 검색 필드 또는 필터를 사용하여 **[!UICONTROL 프로필]** 목록을 필터링합니다. 드롭다운 목록을 사용하여 결과를 특정 [폴더](../get-started/permissions.md#folders)(으)로 제한하거나 [쿼리 모델러](../query/query-modeler-overview.md)를 사용하여 규칙을 추가하십시오.
+**[!UICONTROL 필터 표시]** 단추에서 사용할 수 있는 검색 필드 또는 필터를 사용하여 **프로필** 목록을 필터링합니다. 드롭다운 목록을 사용하여 결과를 특정 [폴더](../get-started/permissions.md#folders)(으)로 제한하거나 [쿼리 모델러](../query/query-modeler-overview.md)를 사용하여 규칙을 추가하십시오.
 
 ![프로필 목록에서 사용할 수 있는 필터](assets/profiles-list-filters.png){zoomable="yes"}
 
@@ -46,4 +46,4 @@ ht-degree: 14%
 
 Campaign 웹 사용자 인터페이스를 사용하여 프로필에 액세스, 관리 및 탐색하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448371?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)

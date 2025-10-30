@@ -4,7 +4,7 @@ description: 대상 매핑을 관리하는 방법을 알아봅니다.
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
 source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '806'
 ht-degree: 14%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 14%
 >id="acw_homepage_welcome_rn5"
 >title="대상 매핑"
 >abstract="이제 Campaign Web 사용자 인터페이스에서 대상 매핑을 만들 수 있습니다. 대상 매핑은 다양한 게재 채널(이메일, SMS, 푸시 알림)이 스키마의 데이터 필드에 연결되는 방식을 정의합니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_list"
@@ -24,13 +24,13 @@ ht-degree: 14%
 
 ## 대상 매핑 정보 {#about}
 
-각 통신 채널은 기본 대상 매핑을 사용하여 수신자를 타깃팅합니다. 예를 들어 기본적으로 전자 메일 및 SMS 게재 템플릿은 **[!UICONTROL 수신자]**&#x200B;를 타겟팅합니다. 따라서 대상 매핑은 **nms:recipient** 테이블의 필드를 사용합니다. 푸시 알림의 경우 기본 대상 매핑은 수신자 테이블에 연결된 **구독자 애플리케이션(nms:appSubscriptionRcp)**&#x200B;입니다.
+각 통신 채널은 기본 대상 매핑을 사용하여 수신자를 타깃팅합니다. 예를 들어 기본적으로 전자 메일 및 SMS 게재 템플릿은 **[!UICONTROL 수신자]**&#x200B;를 타겟팅합니다. 따라서 대상 매핑은 **nms:recipient** 테이블의 필드를 사용합니다. 푸시 알림의 경우 기본 대상 매핑은 수신자 테이블에 연결된 **구독자 응용 프로그램(nms:appSubscriptionRcp)**&#x200B;입니다.
 
 대상 매핑은 **[!UICONTROL 관리]** > **[!UICONTROL 대상 매핑]** 메뉴에서 액세스할 수 있습니다. 이 화면에서 각 대상 매핑에 대한 세부 정보에 액세스하거나 필요에 따라 새 대상 매핑을 만들 수 있습니다.
 
 ![사용 가능한 매핑을 보여 주는 대상 매핑 목록 화면](assets/target-mappings-list.png)
 
-Adobe Campaign과 함께 제공되는 기본 제공 대상 매핑에 대한 자세한 내용은 [Campaign v8 클라이언트 콘솔 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ko){target="_blank"}를 참조하십시오.
+Adobe Campaign과 함께 제공되는 기본 제공 대상 매핑에 대한 자세한 내용은 [Campaign v8 클라이언트 콘솔 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}를 참조하십시오.
 
 ## 대상 매핑 만들기 {#create-mapping}
 
@@ -69,7 +69,7 @@ Adobe Campaign과 함께 제공되는 기본 제공 대상 매핑에 대한 자�
 
 1. 선택한 차원이 기존 대상 매핑에서 아직 사용되지 않은 경우 로그를 저장할 스키마를 만들어야 합니다. 추가 옵션은 **[!UICONTROL 저장소]** 섹션에서 사용할 수 있습니다. 자세한 내용을 보려면 아래 섹션을 확장하십시오.
 
-   +++새 타겟팅 차원에 대한 저장 공간 옵션
+   +++새 타겟팅 차원에 대한 저장소 옵션
 
    1. **[!UICONTROL 네임스페이스]**: 로그를 만드는 데 사용할 네임스페이스를 식별합니다.
    1. **[!UICONTROL 확장 스키마의 접미사]**: 새 스키마의 접미사를 제공합니다.

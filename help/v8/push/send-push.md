@@ -10,7 +10,7 @@ ht-degree: 2%
 
 ---
 
-# 푸시 게재 미리 보기 및 보내기 {#send-push-delivery}
+# 푸시 게재 미리보기 및 보내기 {#send-push-delivery}
 
 ## 푸시 알림 게재 미리 보기 {#preview-push}
 
@@ -63,4 +63,4 @@ ht-degree: 2%
 
 게재가 전송되면 게재 페이지에서 KPI(주요 성능 지표) 데이터와 **[!UICONTROL 로그]** 메뉴의 데이터를 추적합니다.
 
-기본 제공 보고서를 통해 메시지의 영향을 측정하기 시작합니다. [자세히 알아보기](../reporting/push-report.md).
+기본 제공 보고서를 통해 메시지의 영향을 측정하기 시작합니다. [자세히 알아보기](../reporting/push-report.md)

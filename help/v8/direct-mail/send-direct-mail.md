@@ -68,7 +68,7 @@ DM을 고객에게 보낼 준비가 되면 게재를 전송하여 지정된 추�
 
    DM 게재가 예약된 경우 **[!UICONTROL 예약된 대로 보내기]** 단추를 클릭합니다. [이 섹션](../msg/gs-messages.md#schedule-the-delivery-sending)에서 게재 예약에 대해 자세히 알아보세요.
 
-게재를 전송하면 추출 파일이 자동으로 생성되고 게재 템플릿의 [고급 설정](../advanced-settings/delivery-settings.md)에서 선택한 **[!UICONTROL 라우팅]** 외부 계정에 지정된 위치로 내보내집니다.
+게재를 전송하면 추출 파일이 자동으로 생성되고 게재 템플릿의 **[!UICONTROL 고급 설정]**&#x200B;에서 선택한 [라우팅](../advanced-settings/delivery-settings.md) 외부 계정에 지정된 위치로 내보내집니다.
 
 게재 페이지의 KPI(주요 성능 지표) 데이터와 **[!UICONTROL 로그]** 메뉴의 데이터를 추적합니다.
 

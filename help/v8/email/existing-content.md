@@ -56,4 +56,4 @@ HTML 콘텐츠가 포함된 파일을 가져오려면 아래 단계를 따르십
 
 HTML을 업로드하여 이메일을 만들고, 이메일 Designer과 호환되도록 하며, 템플릿으로 변환하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447039/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

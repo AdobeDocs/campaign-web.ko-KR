@@ -73,7 +73,7 @@ ht-degree: 13%
 
 콘텐츠 템플릿은 [기존 전자 메일을 템플릿으로 저장](#save-as-template)하거나 전자 메일 템플릿 목록에서 **콘텐츠 템플릿 만들기** 단추를 통해 만들 수 있습니다. [아래 자세히 설명](#create-template-from-scratch).
 
-저장하면 [&#x200B; 내에 &#x200B;](../email/create-email.md)전자 메일[!DNL Adobe Campaign]을(를) 만들 때 이 템플릿을 사용할 수 있습니다. [방법 알아보기](use-email-templates.md)
+저장하면 [ 내에 ](../email/create-email.md)전자 메일[!DNL Adobe Campaign]을(를) 만들 때 이 템플릿을 사용할 수 있습니다. [방법 알아보기](use-email-templates.md)
 
 >[!NOTE]
 >

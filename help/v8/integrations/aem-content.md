@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Adobe Campaign 웹 인터페이스와 Adobe Experience Manager의 통합을 통해 Adobe Experience Manager 플랫폼 내에서 직접 이메일 게재 콘텐츠 및 양식을 간소화하고 관리할 수 있습니다.
 
-![](assets/do-not-localize/book.png) [Adobe Experience Manager as a Cloud Service에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=ko)
+![](assets/do-not-localize/book.png)[Adobe Experience Manager as a Cloud Service에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
 
 ## [!DNL Adobe Experience Manager as a Cloud Service]에서 템플릿 만들기{#create-aem-template}
 
@@ -32,7 +32,7 @@ Adobe Campaign 웹 인터페이스와 Adobe Experience Manager의 통합을 통�
 
    ![[템플릿 선택 및 이름 지정 필드를 보여주는 &quot;Adobe Campaign 이메일&quot; 스크린샷입니다.]](assets/aem_2.png)
 
-1. Adobe Campaign의 개인화 필드와 같은 구성 요소를 추가하여 이메일 콘텐츠를 사용자 정의합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=ko#editing-email-content)
+1. Adobe Campaign의 개인화 필드와 같은 구성 요소를 추가하여 이메일 콘텐츠를 사용자 정의합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=en#editing-email-content)
 
 1. 이메일이 준비되면 **[!UICONTROL 페이지 정보]** 메뉴로 이동한 다음 **[!UICONTROL 워크플로우 시작]**&#x200B;을 클릭합니다.
 

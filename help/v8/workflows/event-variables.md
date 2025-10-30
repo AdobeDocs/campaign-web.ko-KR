@@ -16,9 +16,9 @@ ht-degree: 1%
 
 ## 이벤트 변수 소개 {#scripting}
 
-워크플로우 컨텍스트에서 실행되는 스크립트는 실행 중인 워크플로우 자체(`instance`), 다양한 작업(`task`) 또는 지정된 작업(`event`)을 활성화한 이벤트와 같은 일련의 추가 전역 **개체**&#x200B;에 액세스합니다.
+워크플로우 컨텍스트에서 실행되는 스크립트는 실행 중인 워크플로우 자체(**), 다양한 작업(**) 또는 지정된 작업(`instance`)을 활성화한 이벤트와 같은 일련의 추가 전역 `task`개체`event`에 액세스합니다.
 
-**object**&#x200B;의 각 형식은 **[!UICONTROL JavaScript 코드]** 또는 **[!UICONTROL 테스트]**&#x200B;과 같이 활동에서 스크립트를 편집할 때 표현식 편집기에서 사용할 수 있는 **변수** 범주와 연결되어 있습니다.
+**object**&#x200B;의 각 형식은 **JavaScript 코드** 또는 **[!UICONTROL 테스트]**&#x200B;과 같이 활동에서 스크립트를 편집할 때 표현식 편집기에서 사용할 수 있는 **[!UICONTROL 변수]** 범주와 연결되어 있습니다.
 
 * **인스턴스 변수**(`instance.vars.xxx`)은 전역 변수와 비슷합니다. 모든 활동에서 공유됩니다.
 * **작업 변수**(`task.vars.xxx`)은(는) 로컬 변수와 비슷합니다. 현재 작업에서만 사용됩니다. 이러한 변수는 데이터를 유지하기 위해 영구적인 활동에서 사용되며 경우에 따라 동일한 활동의 여러 스크립트 간에 데이터를 교환하는 데 사용됩니다.
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->스크립팅과 Adobe Campaign의 노출된 개체 및 변수에 대한 추가 정보는 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates)의 Campaign v8(클라이언트 콘솔) 설명서에서 확인할 수 있습니다.
+>스크립팅과 Adobe Campaign의 노출된 개체 및 변수에 대한 추가 정보는 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates)의 Campaign v8(클라이언트 콘솔) 설명서에서 확인할 수 있습니다.
 >
 >이 리소스는 중요한 통찰력을 제공하지만 Campaign 웹 사용자 인터페이스가 아닌 클라이언트 콘솔에 구체적으로 적용되므로 불일치가 존재할 수 있습니다.
 

@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: AI Assistant가 있는 랜딩 페이지
-description: AI Assistant 시작
+description: AI 어시스턴트 시작
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](generative-gs.md#generative-guardrails)을 읽어 보십시오.
->&#x200B;></br>
+>></br>
 >
 >Adobe Campaign 웹에서 AI Assistant를 사용하려면 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
 
@@ -91,9 +91,9 @@ Adobe Campaign 웹에서 AI Assistant를 사용하는 방법을 알려면 아래
 
 1. 적절한 콘텐츠를 찾으면 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
 
-1. 개인화 필드를 삽입하여 프로필 데이터를 기반으로 랜딩 페이지 콘텐츠를 사용자 지정합니다. 그런 다음 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 렌더링을 제어하고 테스트 프로필로 개인화 설정을 확인합니다. [자세히 알아보기](../landing-pages/create-lp.md#test-landing-page).
+1. 개인화 필드를 삽입하여 프로필 데이터를 기반으로 랜딩 페이지 콘텐츠를 사용자 지정합니다. 그런 다음 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 렌더링을 제어하고 테스트 프로필로 개인화 설정을 확인합니다. [자세히 알아보기](../landing-pages/create-lp.md#test-landing-page)
 
-랜딩 페이지가 준비되면 이를 게시하여 메시지에 사용할 수 있도록 합니다. [자세히 알아보기](../landing-pages/create-lp.md#publish-landing-page).
+랜딩 페이지가 준비되면 이를 게시하여 메시지에 사용할 수 있도록 합니다. [자세히 알아보기](../landing-pages/create-lp.md#publish-landing-page)
 
 >[!TAB 텍스트 전용 생성]
 
@@ -155,9 +155,9 @@ Adobe Campaign 웹에서 AI Assistant를 사용하는 방법을 알려면 아래
 
 1. 적절한 콘텐츠를 찾으면 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
 
-1. 개인화 필드를 삽입하여 프로필 데이터를 기반으로 랜딩 페이지 콘텐츠를 사용자 지정합니다. 그런 다음 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 렌더링을 제어하고 테스트 프로필로 개인화 설정을 확인합니다. [자세히 알아보기](../landing-pages/create-lp.md#test-landing-page).
+1. 개인화 필드를 삽입하여 프로필 데이터를 기반으로 랜딩 페이지 콘텐츠를 사용자 지정합니다. 그런 다음 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 렌더링을 제어하고 테스트 프로필로 개인화 설정을 확인합니다. [자세히 알아보기](../landing-pages/create-lp.md#test-landing-page)
 
-랜딩 페이지가 준비되면 이를 게시하여 메시지에 사용할 수 있도록 합니다. [자세히 알아보기](../landing-pages/create-lp.md#publish-landing-page).
+랜딩 페이지가 준비되면 이를 게시하여 메시지에 사용할 수 있도록 합니다. [자세히 알아보기](../landing-pages/create-lp.md#publish-landing-page)
 
 >[!TAB 이미지 전용 생성]
 
@@ -212,8 +212,8 @@ Adobe Campaign 웹에서 AI Assistant를 사용하는 방법을 알려면 아래
 
 1. 적절한 콘텐츠를 찾으면 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
 
-1. 메시지 콘텐츠를 정의한 후 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 렌더링을 제어하고 테스트 프로필로 개인화 설정을 확인합니다. [자세히 알아보기](../landing-pages/create-lp.md#test-landing-page).
+1. 메시지 콘텐츠를 정의한 후 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 렌더링을 제어하고 테스트 프로필로 개인화 설정을 확인합니다. [자세히 알아보기](../landing-pages/create-lp.md#test-landing-page)
 
-랜딩 페이지가 준비되면 이를 게시하여 메시지에 사용할 수 있도록 합니다. [자세히 알아보기](../landing-pages/create-lp.md#publish-landing-page).
+랜딩 페이지가 준비되면 이를 게시하여 메시지에 사용할 수 있도록 합니다. [자세히 알아보기](../landing-pages/create-lp.md#publish-landing-page)
 
 >[!ENDTABS]

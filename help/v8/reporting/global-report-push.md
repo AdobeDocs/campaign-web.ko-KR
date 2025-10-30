@@ -29,7 +29,7 @@ ht-degree: 23%
 
 ![게재 개요 지표, 푸시 알림 성능과 관련된 KPI를 보여 줍니다.](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
-+++게재 개요 지표에 대해 자세히 알아봅니다.
++++게재 개요 지표에 대해 자세히 알아보십시오.
 
 * **[!UICONTROL 게재할 메시지]**: 게재를 준비하는 동안 처리된 총 메시지 수입니다.
 
@@ -73,7 +73,7 @@ ht-degree: 23%
 
 ![푸시 알림에 대한 성공률, 오류 및 격리를 보여 주는 게재 통계 지표](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
 
-+++게재 통계 지표에 대해 자세히 알아봅니다.
++++게재 통계 지표에 대해 자세히 알아보십시오.
 
 * **[!UICONTROL 총 메시지]**: 게재를 준비한 후 게재할 총 메시지 수입니다.
 
@@ -83,7 +83,7 @@ ht-degree: 23%
 
 * **[!UICONTROL 새 격리]**: 배달할 메시지 수와 관련하여 배달 실패(잘못된 등록, 메시지 거부, 페이로드 오류 등) 후에 격리된 총 주소 수입니다.
 
-  푸시 알림 오류 유형은 [Adobe Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ko#push-error-types){target="_blank"}에 나와 있습니다.
+  푸시 알림 오류 유형은 [Adobe Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}에 나와 있습니다.
 
 +++
 
@@ -96,7 +96,7 @@ ht-degree: 23%
 
 **[!UICONTROL 제외 이유]** 그래프 및 표에는 대상 프로필에서 제외된 사용자 프로필이 메시지를 받지 못하는 이유가 표시됩니다.
 
-푸시 알림 오류 유형은 [Adobe Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ko#push-error-types){target="_blank"}에 나와 있습니다.
+푸시 알림 오류 유형은 [Adobe Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}에 나와 있습니다.
 
 ## 게재 처리량 {#delivery-throughput-sms}
 

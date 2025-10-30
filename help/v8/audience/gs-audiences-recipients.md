@@ -3,7 +3,7 @@ title: 프로필 및 대상자 시작
 description: Campaign Web에서 프로필 및 대상자를 사용하여 작업하는 방법 알아보기
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 100%
 

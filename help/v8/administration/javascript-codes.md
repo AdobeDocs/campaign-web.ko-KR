@@ -1,5 +1,5 @@
 ---
-title: JavaScript 코드를 사용하여 작업
+title: JavaScript 코드를 사용하여 작업하기
 description: JavaScript 코드를 사용하여 작업하는 방법을 알아봅니다.
 exl-id: 4f3b7fce-0373-4db1-8239-64b1bda0f14c
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
@@ -9,7 +9,7 @@ ht-degree: 3%
 
 ---
 
-# JavaScript 코드를 사용하여 작업 {#javascript-codes}
+# JavaScript 코드를 사용하여 작업하기 {#javascript-codes}
 
 >[!CONTEXTUALHELP]
 >id="acw_javascript_codes_list"

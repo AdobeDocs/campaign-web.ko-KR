@@ -4,7 +4,7 @@ title: 보고서 시작
 description: Campaign Web에서 보고서에 액세스하고 관리하는 방법 알아보기
 exl-id: b353bc86-2228-4e02-879c-ae9425c48489
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 100%
 

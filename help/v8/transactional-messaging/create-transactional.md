@@ -16,7 +16,7 @@ ht-degree: 18%
 
 ## 트랜잭션 메시지 템플릿 만들기 {#transactional-template}
 
-Campaign 웹 사용자 인터페이스에서 트랜잭션 메시지 구성의 첫 번째 단계는 템플릿 만들기 또는 메시지 직접 만들기입니다. 이는 [클라이언트 콘솔의 트랜잭션 메시지 구성](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional)과 다릅니다.
+Campaign 웹 사용자 인터페이스에서 트랜잭션 메시지 구성의 첫 번째 단계는 템플릿 만들기 또는 메시지 직접 만들기입니다. 이는 [클라이언트 콘솔의 트랜잭션 메시지 구성](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional)과 다릅니다.
 
 트랜잭션 메시지 템플릿을 사용하여 최종 대상자에게 도달하기 전에 프로필에서 받은 게재 콘텐츠를 미리 볼 수 있습니다. 예를 들어 관리자는 템플릿을 설정하고 구성하여 마케팅 사용자가 사용할 수 있도록 할 수 있습니다.
 
@@ -66,7 +66,7 @@ Campaign 웹 사용자 인터페이스에서 트랜잭션 메시지 구성의 �
 * 실행 후 메시지가 저장되는 **[!UICONTROL 실행 폴더]**&#x200B;입니다.
 * **[!UICONTROL 게재 코드]**&#x200B;은(는) 필요한 경우 보고할 메시지를 인식하는 데 도움이 되는 코드입니다.
 * **[!UICONTROL 설명]**&#x200B;입니다.
-* *deliveryNature* 열거형에 나열된 게재 특성인 **[!UICONTROL Nature]**. [열거형에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations).
+* **[!UICONTROL deliveryNature]** 열거형에 나열된 게재 특성인 *Nature*. [열거형에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations).
 
 ![트랜잭션 메시지 템플릿의 속성 섹션을 보여 주는 스크린샷입니다.](assets/template-properties.png){zoomable="yes"}
 

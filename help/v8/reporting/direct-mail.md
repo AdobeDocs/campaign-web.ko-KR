@@ -29,7 +29,7 @@ ht-degree: 19%
 
 ![DM 게재에 대한 주요 성능 지표를 보여 주는 게재 개요 지표 그래프입니다.](assets/direct-overview.png){zoomable="yes"}{align="center"}
 
-+++게재 개요 지표에 대해 자세히 알아봅니다.
++++게재 개요 지표에 대해 자세히 알아보십시오.
 
 * **[!UICONTROL 게재할 메시지]**: 게재를 준비하는 동안 처리된 총 메시지 수입니다.
 * **[!UICONTROL 대상]**: DM 메시지의 대상 프로필로 적합한 사용자 프로필 수입니다.
@@ -51,7 +51,7 @@ ht-degree: 19%
 
 ![마우스로 가리키기 기능이 있는 초기 대상 모집단 그래프의 자세히 보기.](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"}
 
-+++DM 게재 보고서 지표에 대해 자세히 알아봅니다.
++++DM 게재 보고서 지표에 대해 자세히 알아보십시오.
 
 * **[!UICONTROL 초기 대상]**: 타깃팅된 총 받는 사람 수
 * **[!UICONTROL 게재]**: 게재를 준비한 후 게재할 총 메시지 수
@@ -84,7 +84,7 @@ ht-degree: 19%
 >title="제외 이유 게재"
 >abstract="**제외 원인** 그래프는 게재 준비 과정에서 거부된 메시지의 분포를 각 규칙별로 분류하여 보여 줍니다."
 
-**[!UICONTROL 제외 이유]** 그래프는 게재를 준비하는 동안 메시지 거부 이유를 분류합니다. 이 분류는 다양한 규칙으로 구성되며 메시지 제외에 기여하는 요인에 대한 자세한 보기를 제공합니다. 제외 규칙은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ko#email-error-types){_blank}에 자세히 설명되어 있습니다.
+**[!UICONTROL 제외 이유]** 그래프는 게재를 준비하는 동안 메시지 거부 이유를 분류합니다. 이 분류는 다양한 규칙으로 구성되며 메시지 제외에 기여하는 요인에 대한 자세한 보기를 제공합니다. 제외 규칙은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}에 자세히 설명되어 있습니다.
 
 ![거부된 메시지의 규칙별 분포를 보여 주는 제외 그래프의 원인입니다.](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 

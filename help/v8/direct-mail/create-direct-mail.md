@@ -6,7 +6,7 @@ exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 17%
+ht-degree: 15%
 
 ---
 
@@ -34,7 +34,6 @@ ht-degree: 17%
    * **[!UICONTROL 게재 코드]**: 고유한 명명 규칙을 사용하여 게재를 구성합니다.
    * **[!UICONTROL 설명]**: 게재에 대한 설명을 입력합니다.
    * **[!UICONTROL 특성]**: 분류 목적으로 게재 특성을 지정합니다.
-
    +++
 
 1. 기존 대상을 타깃팅하거나 직접 만들려면 **[!UICONTROL 대상 선택]** 단추를 클릭하십시오.

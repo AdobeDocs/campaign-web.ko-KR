@@ -1,5 +1,5 @@
 ---
-title: 열람수
+title: 열람 수
 description: 열기 보고서를 통해 다양한 기준에 따라 가장 많이 본 게재를 알아봅니다.
 audience: end-user
 level: Intermediate
@@ -11,7 +11,7 @@ ht-degree: 52%
 
 ---
 
-# 열람수{#opens}
+# 열람 수{#opens}
 
 **[!UICONTROL 열기]** 보고는 수신자가 가장 많이 본 게재 항목을 식별합니다.
 

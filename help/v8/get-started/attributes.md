@@ -4,7 +4,7 @@ title: 속성을 선택하여 즐겨찾기에 추가
 description: 속성을 사용하는 방법과 자주 사용하는 속성 및 최근 사용한 속성에 간편하게 액세스 하는 방법을 알아봅니다.
 exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
 source-git-commit: 6ed904273453ad355c615d330c234462cf3985e8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: 다국어 게재를 구성하는 방법 알아보기
 source-git-commit: d8d78f97cdf99e67c59827a91c54851b1cbbeb16
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 

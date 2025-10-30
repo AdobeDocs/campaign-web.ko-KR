@@ -31,4 +31,4 @@ Adobe Campaign에서 새 폴더를 만들어 탐색 트리를 관리할 수 있�
 
 특정 형식이 없는 폴더를 만들려면 **[!UICONTROL 일반 폴더]** 형식을 선택하십시오.
 
-Adobe Campaign 콘솔에서는 폴더를 만들고 관리하는 프로세스가 [여기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/folders-and-views)에 설명되어 있습니다. 폴더에 대한 권한을 설정할 수도 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/folder-permissions).
+Adobe Campaign 콘솔에서는 폴더를 만들고 관리하는 프로세스가 [여기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/folders-and-views)에 설명되어 있습니다. 폴더에 대한 권한을 설정할 수도 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/folder-permissions)

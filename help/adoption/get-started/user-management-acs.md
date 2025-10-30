@@ -28,7 +28,7 @@ Adobe Campaign Standard과 Adobe Campaign v8 모두 사용자가 다양한 사�
 
 >[!IMPORTANT]
 >
->이러한 역할/명명된 권한의 기능은 구현에 따라 달라질 수 있으며, 이로 인해 권한 부여 문제(예: 권한 상승 또는 기능 중단)가 발생할 수 있습니다. 적절한 액세스 제어를 위해 전환 후 이러한 매핑을 검토하는 것이 좋습니다. [권한에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+>이러한 역할/명명된 권한의 기능은 구현에 따라 달라질 수 있으며, 이로 인해 권한 부여 문제(예: 권한 상승 또는 기능 중단)가 발생할 수 있습니다. 적절한 액세스 제어를 위해 전환 후 이러한 매핑을 검토하는 것이 좋습니다. [권한에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 아래 표는 Adobe Campaign Standard에서 Campaign v8로 전환할 때 사용자 역할 그룹에 대한 마이그레이션 접근 방식을 간략하게 설명합니다. Campaign Standard에서는 Campaign v8에서 **연산자 그룹**&#x200B;이라고 하는 **보안 그룹**&#x200B;을(를) 사용하여 사용자에게 역할 집합을 할당합니다. 일부 보안 그룹/운영자 그룹은 즉시 사용할 수 있지만, 사용자는 필요한 경우 새 그룹을 만들거나 기존 그룹을 수정할 수 있습니다.
 
@@ -36,7 +36,7 @@ Adobe Campaign Standard과 Adobe Campaign v8 모두 사용자가 다양한 사�
 |---------|----------|---------|
 | **용어**  | 보안 그룹 | 운영자 그룹 |
 
-Adobe Campaign Standard과 Campaign v8 모두에서 **보안 그룹** 및 **운영자 그룹**&#x200B;은(는) Admin Console의 제품 프로필에 매핑됩니다. 사용자에게 **보안 그룹** 또는 **운영자 그룹**&#x200B;을(를) 할당하려면 Admin Console에서 해당 **제품 프로필**&#x200B;을 연결할 수 있습니다. 이 연결은 사용자가 로그인할 때 동기화됩니다. [제품 프로필에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+Adobe Campaign Standard과 Campaign v8 모두에서 **보안 그룹** 및 **운영자 그룹**&#x200B;은(는) Admin Console의 제품 프로필에 매핑됩니다. 사용자에게 **보안 그룹** 또는 **운영자 그룹**&#x200B;을(를) 할당하려면 Admin Console에서 해당 **제품 프로필**&#x200B;을 연결할 수 있습니다. 이 연결은 사용자가 로그인할 때 동기화됩니다. [제품 프로필에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 | **Campaign Standard 보안 그룹** | **Campaign v8 연산자 그룹** |
 |----------|---------|
@@ -70,9 +70,9 @@ Adobe Campaign Standard에서 용어 **사용자 역할**&#x200B;은(는) Campai
 
 >[!IMPORTANT]
 >
->직접 또는 간접 상위로 **모두(모두)**&#x200B;이(가) 없는 Adobe Campaign Standard의 조직 단위는 Campaign v8로 마이그레이션되지 않습니다.
-></br>
->여러 보안 그룹의 사용자에게는 최상위 보안 그룹의 조직 단위가 할당됩니다. 여러 그룹에 병렬 최상위 단위가 있는 경우, 시스템은 Campaign Standard에서 사용자에 대한 조직 단위를 선택하고 사용자는 시스템에서 선택한 조직 단위와 그 하위 단위에만 액세스할 수 있습니다. 마이그레이션 후 Campaign v8에서 사용자는 **할당된 모든 조직 단위와 하위 항목**&#x200B;에 액세스할 수 있으므로 권한이 높아질 수 있습니다. 이를 방지하려면 병렬 조직 단위를 사용하는 보안 그룹에 사용자를 할당하지 마십시오. [병렬 조직 단위 할당](#parallel-assignments)에 대해 자세히 알아보세요.
+>직접 또는 간접 상위로 **모두(모두)**이(가) 없는 Adobe Campaign Standard의 조직 단위는 Campaign v8로 마이그레이션되지 않습니다.
+>></br>
+>>여러 보안 그룹의 사용자에게는 최상위 보안 그룹의 조직 단위가 할당됩니다. 여러 그룹에 병렬 최상위 단위가 있는 경우, 시스템은 Campaign Standard에서 사용자에 대한 조직 단위를 선택하고 사용자는 시스템에서 선택한 조직 단위와 그 하위 단위에만 액세스할 수 있습니다. 마이그레이션 후 Campaign v8에서 사용자는 **할당된 모든 조직 단위와 하위 항목**&#x200B;에 액세스할 수 있으므로 권한이 높아질 수 있습니다. 이를 방지하려면 병렬 조직 단위를 사용하는 보안 그룹에 사용자를 할당하지 마십시오. [병렬 조직 단위 할당](#parallel-assignments)에 대해 자세히 알아보세요.
 
 
 Adobe Campaign Standard에서 **조직 단위**&#x200B;은(는) 유사한 액세스 제어를 유지하기 위해 Campaign v8의 기존 **폴더** 계층 구조 모델에 매핑됩니다. [폴더 관리에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/folder-permissions)

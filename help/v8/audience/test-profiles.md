@@ -23,7 +23,7 @@ ht-degree: 14%
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=ko){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 테스트 프로필에 증명을 보내는 단계는 [이 섹션](../preview-test/test-deliveries.md#test-profiles)에 자세히 설명되어 있습니다.
 
@@ -112,4 +112,4 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 Campaign 웹 사용자 인터페이스를 사용하여 테스트 프로필을 만들고 관리하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3442902?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)

@@ -4,9 +4,9 @@ title: Adobe Campaign Web 시작
 description: Adobe Campaign Web 시작
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
-source-wordcount: '566'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '565'
+ht-degree: 99%
 
 ---
 
@@ -49,7 +49,7 @@ Campaign을 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 
 [이 페이지](connect-to-campaign.md)에서는 Adobe Campaign Web 버전에 연결하는 방법을 알아봅니다.
 
-➡️ [비디오에서 Campaign Web 살펴보기](#video)
+➡️ [비디오에서 Campaign 웹 검색](#video)
 
 ## Campaign 클라이언트 콘솔 정보 {#ac-client}
 
@@ -66,7 +66,7 @@ Campaign 데이터는 애플리케이션 서버에 저장됩니다. 클라이언
 
 Learn how to access and navigate the Campaign Web user interface and how to customize the inventory lists. Discover the AI-powered Knowledge Assistant.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453429?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12)
 -->
 
 <!--
@@ -96,7 +96,7 @@ With workflows, you can orchestrate the full range of processes and tasks, impro
 
 Understand how workflows work and how to create a targeting workflow in this how-to video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3448371?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
 
 Adobe Campaign Web user interface features a query modeler that simplifies the process of filtering the database based on various criteria. Learn how to use it in [this section](../query/query-modeler-overview.md)
 

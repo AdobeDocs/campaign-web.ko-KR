@@ -29,7 +29,7 @@ ht-degree: 24%
 
 ![게재 개요 지표](assets/global_report_email_delivery_overview.png){zoomable="yes"}{align="center"}
 
-+++게재 개요 지표에 대해 자세히 알아봅니다.
++++게재 개요 지표에 대해 자세히 알아보십시오.
 
 * **[!UICONTROL 게재할 메시지]**: 게재를 준비하는 동안 처리된 총 메시지 수입니다.
 
@@ -76,7 +76,7 @@ ht-degree: 24%
 
 ![게재 통계 지표](assets/global_report_email_delivery_statistics.png){zoomable="yes"}{align="center"}
 
-+++게재 통계 지표에 대해 자세히 알아봅니다.
++++게재 통계 지표에 대해 자세히 알아보십시오.
 
 * **[!UICONTROL 게재할 메시지]**: 게재를 준비한 후 게재할 총 메시지 수입니다.
 
@@ -99,7 +99,7 @@ ht-degree: 24%
 
 제외 그래프 및 표는 타겟팅된 프로필에서 제외된 사용자 프로필이 메시지를 받지 못하는 이유를 설명합니다.
 
-전자 메일 오류 유형은 [Adobe Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ko#email-error-types){target="_blank"}에 나와 있습니다.
+전자 메일 오류 유형은 [Adobe Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}에 나와 있습니다.
 
 ## 게재 처리량 {#delivery-throughput}
 
@@ -133,9 +133,9 @@ ht-degree: 24%
 
 **[!UICONTROL 유형별 오류 분석]** 테이블 및 그래프는 다양한 도메인에서 발생할 수 있는 오류와 관련된 데이터를 나타내며, 아래에 특정 지표가 제공됩니다.
 
-이 보고서에 표시된 오류는 격리 프로세스를 트리거합니다. 격리 관리에 대한 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ko){target="_blank"}를 참조하세요.
+이 보고서에 표시된 오류는 격리 프로세스를 트리거합니다. 격리 관리에 대한 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}를 참조하세요.
 
-+++유형별 오류 분류에 대해 자세히 알아보십시오.
++++유형별 오류 분류에 대해 자세히 알아보십시오 .
 
 * **[!UICONTROL 사용자 알 수 없음]**: 전자 메일 주소가 잘못되었음을 나타내기 위해 배달하는 동안 오류 유형이 생성되었습니다.
 
@@ -177,7 +177,7 @@ ht-degree: 24%
 
 ![게재 통계 추적 지표](assets/global_report_email_delivery_statistics_tracking.png){zoomable="yes"}{align="center"}
 
-+++게재 통계 지표에 대해 자세히 알아봅니다.
++++게재 통계 지표에 대해 자세히 알아보십시오.
 
 * **[!UICONTROL 게재할 메시지]**: 게재를 준비하는 동안 처리된 총 메시지 수입니다.
 
@@ -231,7 +231,7 @@ ht-degree: 24%
 
 ![URL 및 클릭 스트림 지표](assets/campaign_report_email_9.png){zoomable="yes"}{align="center"}
 
-+++URL 및 클릭 스트림 지표에 대해 자세히 알아봅니다.
++++URL 및 클릭 스트림 지표에 대해 자세히 알아보십시오.
 
 * **[!UICONTROL 반응성]**: 게재를 연 예상 대상 받는 사람 수와 관련하여 게재를 클릭한 대상 받는 사람 수의 비율입니다.
 
@@ -253,7 +253,7 @@ ht-degree: 24%
 
 ![가장 많이 방문한 상위 10개 링크 지표](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
 
-+++이장 많이 방문한 상위 10개 링크 지표에 대해 자세히 알아보십시오.
++++가장 많이 방문한 상위 10개 링크 지표에 대해 자세히 알아보십시오.
 
 * **[!UICONTROL 총 클릭 수]**: 게재에 있는 링크의 총 클릭 수입니다.
 

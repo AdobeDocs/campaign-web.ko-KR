@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: AI Assistant를 사용한 SMS
-description: AI Assistant 시작
+description: AI 어시스턴트 시작
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](generative-gs.md#generative-guardrails)을 읽어 보십시오.
->&#x200B;></br>
+>></br>
 >
 >Adobe Campaign 웹에서 AI Assistant를 사용하기 전에 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
 
@@ -75,6 +75,6 @@ ht-degree: 2%
 
 1. 프로필 데이터를 기반으로 SMS 콘텐츠를 사용자 지정하려면 개인화 필드를 삽입합니다. [콘텐츠 개인화에 대해 자세히 알아보세요](../personalization/personalize.md).
 
-1. 메시지 콘텐츠를 정의한 후 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 렌더링을 제어하고 테스트 프로필로 개인화 설정을 확인합니다. [자세히 알아보기](../preview-test/preview-content.md).
+1. 메시지 콘텐츠를 정의한 후 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 렌더링을 제어하고 테스트 프로필로 개인화 설정을 확인합니다. [자세히 알아보기](../preview-test/preview-content.md)
 
-콘텐츠, 대상자 및 일정을 정의하면 SMS 게재를 준비합니다. [자세히 알아보기](../monitor/prepare-send.md).
+콘텐츠, 대상자 및 일정을 정의하면 SMS 게재를 준비합니다. [자세히 알아보기](../monitor/prepare-send.md)

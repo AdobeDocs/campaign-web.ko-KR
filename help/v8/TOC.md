@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: 357d2014ade1e783b3bf1e1c363894084199738d
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 100%
+source-wordcount: '954'
+ht-degree: 99%
 
 ---
 
@@ -126,6 +126,7 @@ ht-degree: 100%
          + [링크 스타일 정의](email/styling-links.md)
          + [인라인 스타일 속성 추가](email/inline-styling.md)
          + [사용자 정의 CSS 추가](email/custom-css.md)
+         + [다크 모드 콘텐츠 관리](email/dark-mode.md)
       + [액세스 가능한 콘텐츠 만들기](email/accessible-content.md)
    + AI 어시스턴트 {#ai-assistant}
       + [AI 어시스턴트로 작업하기](email/generative-gs.md)
@@ -267,6 +268,7 @@ ht-degree: 100%
    + [다른 Adobe 솔루션 사용 작업](integrations/integration.md)
    + [Adobe Experience Manager Assets as a Cloud Service로 자산 관리](integrations/aem-assets.md)
    + [Adobe Experience Manager as a Cloud Service로 템플릿 관리](integrations/aem-content.md)
+   + [GenStudio for Performance Marketing 작업](integrations/genstudio.md)
 + 구성 {#conf}
    + 브랜딩 {#branding}
       + [브랜딩 정보](administration/branding/branding-gs.md)
@@ -285,6 +287,7 @@ ht-degree: 100%
       + [외부 데이터베이스](administration/external-account-database.md)
       + [Hadoop](administration/external-hadoop.md)
       + [데이터 전송](administration/transfer-external-account.md)
+      + [CRM 외부 계정](administration/external-crm.md)
    + [열거 관리](administration/enumerations.md)
    + [JavaScript 코드를 사용하여 작업하기](administration/javascript-codes.md)
 + [Campaign v8(콘솔) 설명서 >](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/campaign-home)

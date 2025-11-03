@@ -2,10 +2,10 @@
 title: 스키마 작업
 description: 스키마 작업 방법을 알아봅니다.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 18%
+source-wordcount: '597'
+ht-degree: 14%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 18%
 
 Adobe Campaign의 각 엔티티에는 전용 스키마가 있어 데이터 일관성과 조직을 유지할 수 있습니다.
 
-스키마에 대한 자세한 내용은 [Campaign 콘솔 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}를 참조하세요.
+스키마에 대한 자세한 내용은 [Campaign 콘솔 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}를 참조하세요.
 
 ## 웹 사용자 인터페이스의 스키마에 액세스 {#access}
 
@@ -63,7 +63,9 @@ Adobe Campaign의 각 엔티티에는 전용 스키마가 있어 데이터 일�
 
 ![데이터 구조 및 특성을 표시하는 스키마 데이터 탭](assets/schemas-data.png)
 
-## 사용자 정의 필드 편집 {#fields}
+## 화면 정의 구성 {#screen-definition}
+
+### 사용자 정의 필드 편집 {#fields}
 
 사용자 지정 필드는 Adobe Campaign 콘솔을 통해 기본 스키마에 추가된 추가 속성입니다. 조직의 요구 사항에 맞게 새 속성을 포함하여 스키마를 사용자 지정할 수 있습니다.
 
@@ -74,3 +76,27 @@ Adobe Campaign의 각 엔티티에는 전용 스키마가 있어 데이터 일�
 **[!UICONTROL 미리 보기]**&#x200B;를 클릭하여 샘플 화면에 사용자 지정 필드를 표시합니다.
 
 스키마에서 사용자 정의 필드를 편집하는 방법에 대한 자세한 내용은 [사용자 정의 필드 구성](../administration/custom-fields.md) 섹션을 참조하십시오.
+
+### 컬렉션 목록 추가 {#collection-lists}
+
+이 **사용자 지정 목록** 섹션에서 구매와 같은 컬렉션 링크를 정의할 수 있습니다. 그런 다음 전용 탭을 통해 관련 데이터가 프로필 화면에 표시됩니다.
+
+>[!NOTE]
+>
+>현재 이 기능은 수신자 스키마에만 사용할 수 있습니다.
+
+1. 인터페이스에 컬렉션 목록을 추가하려면 줄임표 버튼을 클릭하고 **사용자 지정 목록 선택**&#x200B;을 선택합니다.
+
+   ![컬렉션 목록 만들기](assets/schemas-collection1.png)
+
+1. 사용 가능한 사용자 지정 목록(예: 구매) 중 하나를 선택한 다음 **확인**&#x200B;을 클릭합니다.
+
+   ![컬렉션 목록 만들기](assets/schemas-collection2.png)
+
+1. **프로필** 메뉴로 이동하여 구매한 프로필을 필터링합니다.
+
+   ![컬렉션 목록 만들기](assets/schemas-collection3.png)
+
+1. 프로필을 클릭합니다. 새 탭이 표시됩니다. 필요한 경우 열을 더 추가할 수 있습니다.
+
+   ![컬렉션 목록 만들기](assets/schemas-collection4.png)

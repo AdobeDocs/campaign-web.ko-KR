@@ -3,7 +3,7 @@ audience: end-user
 title: 이메일 콘텐츠 가져오기
 description: 이메일 콘텐츠를 가져오는 방법 알아보기
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 29%
@@ -46,9 +46,9 @@ HTML 콘텐츠가 포함된 파일을 가져오려면 아래 단계를 따르십
 
    ![HTML 변환기 탭과 변환 단추를 보여 주는 스크린샷입니다.](assets/html-imported-2.png){zoomable="yes"}
 
->[!NOTE]
->
->`<table>` 태그를 HTML 파일의 첫 번째 레이어로 사용하면 맨 위 레이어 태그의 배경 및 너비 설정을 포함하여 스타일이 손실될 수 있습니다.
+   >[!NOTE]
+   >
+   >`<table>` 태그를 HTML 파일의 첫 번째 레이어로 사용하면 맨 위 레이어 태그의 배경 및 너비 설정을 포함하여 스타일이 손실될 수 있습니다.
 
 1. 이메일 Designer 기능을 사용하여 필요에 따라 가져온 파일을 개인화합니다. [자세히 알아보기](content-components.md)
 
@@ -56,4 +56,4 @@ HTML 콘텐츠가 포함된 파일을 가져오려면 아래 단계를 따르십
 
 HTML을 업로드하여 이메일을 만들고, 이메일 Designer과 호환되도록 하며, 템플릿으로 변환하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447039/?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

@@ -2,10 +2,10 @@
 title: 프로필 세부 정보 살펴보기
 description: 프로필의 세부 정보를 탐색하는 방법을 알아봅니다.
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 8%
+source-wordcount: '246'
+ht-degree: 7%
 
 ---
 
@@ -27,6 +27,10 @@ ht-degree: 8%
 * **[!UICONTROL 구독]** 탭은 프로필이 구독하는 서비스에 insight을 제공합니다. [구독 서비스에 대해 자세히 알아보기](manage-services.md)
 
   ![구독 탭을 보여주는 스크린샷으로 프로필이 구독되는 서비스를 나열합니다.](assets/profile-subscriptions.png){zoomable="yes"}
+
+* 수신자 스키마의 화면 정의에서 컬렉션 링크를 정의하여 구매와 같은 사용자 지정 탭을 표시할 수 있습니다. [컬렉션 링크에 대해 자세히 알아보기](../administration/schemas.md#collection-lists)
+
+  ![사용자 지정 탭을 표시하는 스크린샷](assets/schemas-collection4.png){zoomable="yes"}
 
 * 또한 화면의 오른쪽 상단에 있는 **[!UICONTROL 로그]** 버튼을 사용하면 전송, 제외 및 추적 로그를 통해 프로필의 상호 작용 기록을 볼 수 있습니다. [게재 로그에 대해 자세히 알아보기](../monitor/delivery-logs.md)
 

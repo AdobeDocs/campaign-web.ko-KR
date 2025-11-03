@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 37%
+source-wordcount: '486'
+ht-degree: 36%
 
 ---
 
@@ -35,11 +35,13 @@ ht-degree: 37%
 
 ![매개 변수 및 보고서를 표시하는 게재 세부 정보 화면](assets/delivery-details.png)
 
->[!NOTE]
->
->클라이언트 콘솔에서 만든 게재를 여는 경우 대상자에 대해 **[!UICONTROL 추가 대상]** 섹션이 표시될 수 있습니다. 이는 이 게재에 대해 여러 대상이 구성되었음을 나타냅니다. 이러한 매개 변수는 콘솔에서만 수정할 수 있습니다.
->
->![추가 대상 구성에 대한 경고 메시지](assets/target-warning-audience.png){zoomable="yes"}
+클라이언트 콘솔에서 만든 게재를 여는 경우 대상에 대해 두 개의 새 섹션이 표시될 수 있습니다. 이러한 매개 변수는 콘솔에서만 수정할 수 있습니다.
+
+* **[!UICONTROL 추가 대상]**: 이 게재에 대해 여러 대상이 구성되었음을 나타냅니다.
+
+* **[!UICONTROL 추가 증명 대상]**: 이 게재의 증명 대상에 대해 동적 조건이 정의되었음을 나타냅니다.
+
+![추가 대상 구성에 대한 경고 메시지](assets/target-warning-audience.png){zoomable="yes"}
 
 ## 게재 복제 {#delivery-duplicate}
 

@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 keywords: 이메일, 디자인, 접근성
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
-source-git-commit: 82128a2d628a44e2718a9a1d2f848584140d5532
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '1536'
-ht-degree: 0%
+source-wordcount: '1623'
+ht-degree: 1%
 
 ---
 
@@ -20,13 +20,12 @@ ht-degree: 0%
 
 이 규정은 이메일, 뉴스레터, PDF 및 다운로드 가능한 콘텐츠를 포함한 모든 디지털 통신에 액세스할 수 있어야 한다고 명시합니다. 따라서 수신자를 위한 콘텐츠를 만들 때는 액세스 가능한 글꼴, 읽을 수 있는 형식 사용 등의 특정 지침을 따르고 이미지에 대한 대체 텍스트를 제공해야 합니다.
 
-마케터가 [!DNL Adobe Campaign]이메일[&#x200B; 및 &#x200B;](create-email-content.md)랜딩 페이지&#x200B;**에 대한 콘텐츠를 모두 만들 수 있는** **이메일 Designer**&#x200B;을(를) 사용하면 WCAG(Web Content Accessibility Guidelines) 2.1, 레벨 AA를 기반으로 이 지시문을 쉽게 준수할 수 있습니다.
+마케터가 [!DNL Adobe Campaign]이메일[ 및 ](create-email-content.md)랜딩 페이지&#x200B;**에 대한 콘텐츠를 모두 만들 수 있는** **이메일 Designer**&#x200B;을(를) 사용하면 WCAG(Web Content Accessibility Guidelines) 2.1, 레벨 AA를 기반으로 이 지시문을 쉽게 준수할 수 있습니다.
 
 이에 따라 [!DNL Adobe Campaign]을(를) 사용하여 액세스 가능한 콘텐츠를 디자인하는 모범 사례가 아래에 나와 있습니다.
 
 이 페이지에서는 [!DNL Adobe Campaign]&#x200B;(으)로 디자인된 전자 메일 및 랜딩 페이지를 장애가 있는 사람이 읽고, 이해하고, 상호 작용할 수 있도록 모든 받는 사람이 콘텐츠에 액세스할 수 있도록 합니다.
  
-
 ## 텍스트 가독성 확인 {#text-readability}
 
 **[!UICONTROL Text]** 구성 요소의 **[!UICONTROL Styles]** 탭을 사용하여 적절한 색상 대비 및 간단한 글꼴을 사용하는 등 텍스트를 읽을 수 있도록 합니다. [자세히 알아보기](content-components.md#text)
@@ -137,19 +136,17 @@ ht-degree: 0%
 
 ## 다크 모드 사용 {#dark-mode}
 
-어두운 모드에서 콘텐츠를 디자인하는 우수 사례 중에는 투명 PNG 또는 SVG를 사용하고, 적절한 메타 태그와 CSS를 설정하고, 어두운 모드가 지원되지 않는 경우 액세스 가능한 대체 스타일을 제공하는 것이 있습니다.
+다크 모드는 광도 또는 시각적 장애가 있는 사용자의 시각적 접근성을 향상시켜 향상된 시청 환경을 제공합니다.
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED
-
-Dark mode enhances visual accessibility for users with light sensitivity or visual impairments, for an improved viewing experience.
+이메일 Designer을 사용하면 **[!UICONTROL 어두운 모드]** 보기로 전환하고 지원 이메일 클라이언트가 표시할 특정 사용자 지정 설정을 정의할 수 있습니다. [자세히 알아보기](dark-mode.md)
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 
-Amongst the best practices for designing content in dark mode, use transparent PNGs or SVGs, set appropriate meta tags and CSS, and provide accessible fallback styling if dark mode is not supported. Finally, make sure your emails render correctly in dark mode by testing all email content and UI elements in both light and dark modes.
+어두운 모드에서 콘텐츠를 디자인하는 우수 사례 중에는 투명 PNG 또는 SVG를 사용하고, 적절한 메타 태그와 CSS를 설정하고, 어두운 모드가 지원되지 않는 경우 액세스 가능한 대체 스타일을 제공하는 것이 있습니다. 마지막으로, 밝은 모드와 어두운 모드 모두에서 모든 이메일 콘텐츠와 UI 요소를 테스트하여 이메일이 어두운 모드에서 올바르게 렌더링되는지 확인하십시오.
 
-Detailed best practices specific to dark mode, including guidelines to ensure accessibility, are listed in [this section](dark-mode.md#best-practices).
+접근성을 보장하기 위한 지침을 포함하여 다크 모드와 관련된 자세한 모범 사례는 [이 섹션](dark-mode.md#best-practices)에 나열되어 있습니다.
 
-KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
+<!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
 
 ## 접근성을 위해 특정 특성 사용 {#attributes}
 

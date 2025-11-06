@@ -2,7 +2,7 @@
 title: Campaign v8 Web 사용자 인터페이스 릴리스 정보
 description: 최신 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: cf576041294efc1c699fee4cb5ffb7ad68b78953
+source-git-commit: ca1a437f8a8a25c0a15b9148e9c73271795f16c7
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 64%
@@ -88,7 +88,7 @@ _2025년 11월 3일_
 <tr>
 <td>
 <p>이제 이메일 Designer에서 특정 사용자 지정 설정을 추가로 정의할 수 있는 다크 모드 보기로 전환하는 기능을 제공합니다. 최종 렌더링은 수신자의 이메일 클라이언트에 따라 다르며 모든 이메일 클라이언트가 다크 모드를 지원하는 것은 아닙니다.</p>
-<p>자세한 내용은 <a href="../email/accessible-content.md#dark-mode">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../email/dark-mode.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>

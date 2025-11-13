@@ -4,9 +4,9 @@ description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: cf576041294efc1c699fee4cb5ffb7ad68b78953
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '488'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 >[!BEGINTABS]
 
 
->[!TAB 25년 10월 릴리스]
+>[!TAB 2025년 10월 릴리스]
 
-10월 릴리스가 공개되었습니다. 이제 Campaign 웹 사용자 인터페이스에서 트랜잭션 메시지, 푸시 알림 및 SMS를 위한 다국어 기능, Adobe GenStudio과의 통합 및 트랜잭션 메시지의 프로필 강화를 비롯한 새로운 기능과 개선 사항을 사용할 수 있습니다. 전체 개요는 릴리스 정보를 살펴보십시오.
+10월 릴리스가 공개되었습니다. 이제 Campaign Web 사용자 인터페이스에서 트랜잭션 메시지, 푸시 알림 및 SMS를 위한 다국어 기능, Adobe GenStudio와의 통합 및 트랜잭션 메시지의 프로필 보강을 비롯한 새로운 기능과 개선 사항을 사용할 수 있습니다. 전체 개요는 릴리스 정보를 살펴보십시오.
 
 [![자세히 알아보기 버튼](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
@@ -133,4 +133,4 @@ Campaign Web 사용자 인터페이스에 대한 자주 묻는 질문은 새로�
 ## 추가 리소스
 
 * [Adobe Campaign 제품 설명서](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ko){target="_blank"}
+* [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign-v8.html){target="_blank"}

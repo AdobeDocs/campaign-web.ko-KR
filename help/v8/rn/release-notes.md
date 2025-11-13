@@ -3,9 +3,9 @@ title: Campaign v8 Web 사용자 인터페이스 릴리스 정보
 description: 최신 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: ca1a437f8a8a25c0a15b9148e9c73271795f16c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -65,13 +65,13 @@ _2025년 11월 3일_
 <table>
 <thead>
 <tr>
-<th><strong>Adobe GenStudio과 통합</strong><br/></th>
+<th><strong>Adobe GenStudio와의 통합</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 마케팅 효율성을 높이고 브랜드 일관성을 유지하기 위해 GenStudio for Performance Marketing 경험을 Campaign과 원활하게 통합할 수 있습니다. 이를 통해 GenStudio의 고급 오케스트레이션 기능과 함께 Campaign의 AI 기반 콘텐츠 생성을 활용할 수 있습니다.<p>
+<p>이제 마케팅 효율성을 높이고 브랜드 일관성을 유지하기 위해 GenStudio for Performance Marketing 경험을 Campaign과 원활하게 통합할 수 있습니다. 이를 통해 Campaign의 고급 오케스트레이션 기능과 함께 GenStudio의 AI 기반 콘텐츠 생성을 활용할 수 있습니다.<p>
 <p>자세한 내용은 <a href="../integrations/genstudio.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
@@ -87,7 +87,7 @@ _2025년 11월 3일_
 <tbody>
 <tr>
 <td>
-<p>이제 이메일 Designer에서 특정 사용자 지정 설정을 추가로 정의할 수 있는 다크 모드 보기로 전환하는 기능을 제공합니다. 최종 렌더링은 수신자의 이메일 클라이언트에 따라 다르며 모든 이메일 클라이언트가 다크 모드를 지원하는 것은 아닙니다.</p>
+<p>이제 이메일 디자이너가 특정 사용자 정의 설정을 추가로 정의할 수 있는 다크 모드 보기로 전환하는 기능을 제공합니다. 최종 렌더링은 수신자의 이메일 클라이언트에 따라 다르며 모든 이메일 클라이언트가 다크 모드를 지원하는 것은 아닙니다.</p>
 <p>자세한 내용은 <a href="../email/dark-mode.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
@@ -112,11 +112,11 @@ _2025년 11월 3일_
 
 ### 개선 사항 {#25-10-improvements}
 
-* 이제 클라이언트 콘솔에서 만든 게재의 **대상** 섹션에 증명 대상에 대해 동적 조건이 정의되었는지 여부가 표시됩니다. <!-- [Learn more](../msg/gs-deliveries.md#access)-->
+* 이제 클라이언트 콘솔에서 만든 게재의 **대상자** 섹션에 교정쇄 대상에 대한 동적 조건이 정의되었는지 여부가 표시됩니다. <!-- [Learn more](../msg/gs-deliveries.md#access)-->
 
-* 이제 이메일 Designer의 조건부 콘텐츠 기능을 사용하여 조건을 설정할 때 새 규칙 빌더와 레거시 규칙 빌더 간에 전환할 수 있습니다. <!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
+* 이제 이메일 디자이너의 조건부 콘텐츠 기능을 사용하여 조건을 설정할 때 새 규칙 빌더와 이전 규칙 빌더 간에 전환할 수 있습니다. <!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
 
-* 이제 수신자 스키마의 화면 정의에서 구매와 같은 컬렉션 링크를 선택할 수 있습니다. 전용 탭을 통해 프로필 화면에 관련 데이터가 표시됩니다. <!-- [Learn more](../administration/schemas.md#collection-lists)-->
+* 이제 수신자 스키마의 화면 정의에서 구매와 같은 컬렉션 링크를 선택할 수 있습니다. 이에 따라 전용 탭을 통해 프로필 화면에 관련 데이터가 표시됩니다. <!-- [Learn more](../administration/schemas.md#collection-lists)-->
 
 * 이제 Campaign 관리자는 Salesforce CRM 및 Microsoft Dynamics에 대한 연결을 설정할 수 있습니다.
   [자세히 알아보기](../administration/external-crm.md)

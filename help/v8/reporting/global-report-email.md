@@ -99,7 +99,7 @@ ht-degree: 24%
 
 제외 그래프 및 표는 타겟팅된 프로필에서 제외된 사용자 프로필이 메시지를 받지 못하는 이유를 설명합니다.
 
-전자 메일 오류 유형은 [Adobe Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ko#email-error-types){target="_blank"}에 나와 있습니다.
+전자 메일 오류 유형은 [Adobe Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}에 나와 있습니다.
 
 ## 게재 처리량 {#delivery-throughput}
 
@@ -133,7 +133,7 @@ ht-degree: 24%
 
 **[!UICONTROL 유형별 오류 분석]** 테이블 및 그래프는 다양한 도메인에서 발생할 수 있는 오류와 관련된 데이터를 나타내며, 아래에 특정 지표가 제공됩니다.
 
-이 보고서에 표시된 오류는 격리 프로세스를 트리거합니다. 격리 관리에 대한 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ko){target="_blank"}를 참조하세요.
+이 보고서에 표시된 오류는 격리 프로세스를 트리거합니다. 격리 관리에 대한 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}를 참조하세요.
 
 +++유형별 오류 분류에 대해 자세히 알아보십시오 .
 

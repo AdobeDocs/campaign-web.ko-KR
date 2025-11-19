@@ -41,7 +41,7 @@ Adobe Campaign을 사용하면 하나 또는 여러 개의 특정 오퍼를 제�
 
 1. 수신자에게 제안할 오퍼를 구성합니다.
 
-   먼저 오퍼 환경과 일치하는 **[!UICONTROL 오퍼 공간]**&#x200B;을(를) 선택하십시오. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=ko){target="_blank"}에서 오퍼 공간을 만드는 방법을 알아봅니다.
+   먼저 오퍼 환경과 일치하는 **[!UICONTROL 오퍼 공간]**&#x200B;을(를) 선택하십시오. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}에서 오퍼 공간을 만드는 방법을 알아봅니다.
 
    ![오퍼 만들기 콘텐츠에서 오퍼 공간 선택을 보여 주는 스크린샷](assets/offer-create-content.png){zoomable="yes"}
 
@@ -101,7 +101,7 @@ Adobe Campaign을 사용하면 하나 또는 여러 개의 특정 오퍼를 제�
 
    >[!NOTE]
    >
-   >사용 가능한 제안 수는 엔진 호출이 구성되는 방식에 따라 다르며, 순서는 오퍼의 우선 순위에 따라 다릅니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=ko){target="_blank"}를 참조하세요.
+   >사용 가능한 제안 수는 엔진 호출이 구성되는 방식에 따라 다르며, 순서는 오퍼의 우선 순위에 따라 다릅니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}를 참조하세요.
 
 1. 변경 내용을 저장합니다.
 

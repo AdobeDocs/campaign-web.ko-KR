@@ -70,7 +70,7 @@ ht-degree: 7%
 >
 >* 값이 많은 필드의 경우 처음 20개 값만 표시됩니다. 이러한 경우 **[!UICONTROL 부분 로드]** 알림이 경고합니다.
 >* **[!UICONTROL 값 배포]** 옵션은 모든 특성 선택기에서 액세스할 수 있습니다. [특성을 선택하는 방법 알아보기](../get-started/attributes.md)
->* **[!A고급 필터]**&#x200B;를 사용하여 결과에 조건을 추가할 수 있습니다. [여기에서 자세히 알아보십시오](../get-started/work-with-folders.md#filter-the-values).
+>* **[ !A고급 필터]**&#x200B;를 사용하여 결과에 조건을 추가할 수 있습니다. [여기에서 자세히 알아보십시오](../get-started/work-with-folders.md#filter-the-values).
 
 ## 필터링 구성 요소 추가 {#filtering}
 

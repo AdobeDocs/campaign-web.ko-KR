@@ -92,7 +92,7 @@ ht-degree: 17%
 
 **[!UICONTROL 생성된 클릭 스트림]** 테이블에는 수신자가 게재와 상호 작용하는 방식에 따른 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![보고서에 표시된 클릭 스트림 ](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
+![보고서에 표시된 클릭 스트림 &#x200B;](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
 
 +++푸시 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 

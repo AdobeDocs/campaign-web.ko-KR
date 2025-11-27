@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
-source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
+source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 14%
+source-wordcount: '651'
+ht-degree: 13%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 14%
 
 >[!TAB Adobe Campaign V8]
 
-게재 템플릿을 만들려면 기본 제공 템플릿을 복제하거나, 기존 게재를 템플릿으로 변환하거나, 처음부터 게재 템플릿을 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ko)
+게재 템플릿을 만들려면 기본 제공 템플릿을 복제하거나, 기존 게재를 템플릿으로 변환하거나, 처음부터 게재 템플릿을 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html)
 
 일단 템플릿이 생성되면 브랜드에 연결할 수 있습니다. 방법은 다음과 같습니다.
 
@@ -125,7 +125,10 @@ ht-degree: 14%
 
 1. 게재를 개인화할 수 있습니다. 전자 메일 만들기에 대한 자세한 내용은 [전자 메일 디자인 및 보내기](../../email/create-email.md) 섹션을 참조하세요.
 
+1. 개인화 필드로 브랜드 정보를 추가할 수도 있습니다. **[!UICONTROL 브랜딩]**(으)로 이동하여 삽입할 브랜드 관련 개인화 블록(예: 브랜드 이름, 로고 URL, 웹 사이트 URL, 보낸 사람 정보 등)을 선택합니다.
+
 >[!ENDTABS]
+
 
 ## 트랜잭션 메시지와 연결된 브랜딩 확인 {#check-branding-transactional}
 

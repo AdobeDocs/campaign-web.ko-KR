@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
-source-git-commit: 2b4a818c819ae598d5555c1a2d64447b0793b5b8
+source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 43%
+source-wordcount: '548'
+ht-degree: 29%
 
 ---
 
@@ -60,3 +60,29 @@ Adobe Campaign V8의 브랜드는 **[!UICONTROL 관리 > 플랫폼 > 브랜딩]*
   **[!UICONTROL 추가 URL 매개 변수]** 메뉴를 사용하여 적용 가능성 조건과 함께 추가 매개 변수를 키-값 쌍으로 만드십시오. 각 매개 변수 이름은 고유해야 하며 비어 있지 않아야 하고, 각 매개 변수 값은 비어 있지 않아야 합니다. 적용 가능성 조건은 비어 있을 수 있지만 이러한 값 중 JST 태그를 포함할 수 있는 값은 없습니다.
 
   이러한 매개 변수는 **[!UICONTROL 도메인 이름 목록]**&#x200B;에 지정된 모든 도메인 이름과 일치하는 추적된 URL에 적용되며, 여기에는 정규 표현식이 포함될 수 있습니다.
+
+  **예:** 해당 도메인에 대해 추가 매개 변수 `https://www.example.com` 및 `https://www.example.com/?age=21&deliveryName=DM101`이(가) 구성되면 `age=21`과(와) 같은 추적된 URL은 `deliveryName=DM101`이(가) 됩니다.
+
+## 트랜잭션 메시지를 위한 브랜딩 구성 {#branding-transactional-config}
+
+>[!IMPORTANT]
+>
+>이 섹션은 트랜잭션 메시지(메시지 센터)에만 적용됩니다.
+>
+>트랜잭션 기능은 Campaign 웹 UI에서 사용할 수 있지만 아래 단계는 Campaign v8 클라이언트 콘솔(컨트롤 인스턴스)에서 수행해야 합니다.
+
+브랜딩과 함께 트랜잭션 메시지(메시지 센터)를 사용하는 경우 추가 구성이 필요합니다.
+
+### 실시간 인스턴스에 대한 추적 공식
+
+브랜딩이 실시간(RT) 제어 인스턴스에서 활성화되면 특정 추적 옵션이 추적 공식을 관리하는 데 사용됩니다. 이러한 수식은 각 RT 실행 인스턴스에서 개별적으로 구성되지 않고 RT 제어 인스턴스에서 중앙에서 구성됩니다.
+
+다음 옵션은 RT 게재에서 사용하는 추적 공식을 정의합니다.
+
+* **`NmsTracking_RT_ClickFormula`**: RT 인스턴스에서 클릭 추적에 사용되는 수식을 지정합니다.
+
+* **`NmsTracking_RT_OpenFormula`**: RT 인스턴스에서 열린 추적에 사용되는 수식을 지정합니다.
+
+구현에서 트랜잭션 메시지에 대한 사용자 지정 추적 수식이 필요한 경우 아래 옵션을 사용하십시오.
+
+* **`Branding_RT_ListXtkOptions_toPublish`**: 사용자 지정 수식의 XTK 옵션 이름을 여기에 나열합니다(쉼표로 구분). 이렇게 하면 RT 게재가 사용자 지정 추적 공식을 적용할 수 있습니다.

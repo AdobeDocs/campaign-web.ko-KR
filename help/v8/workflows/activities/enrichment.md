@@ -3,9 +3,9 @@ audience: end-user
 title: 보강 워크플로 활동 사용
 description: 보강 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 29e8ad045155fc561b1645f91d4a980911bdf259
+source-git-commit: 0e48f27982368b00a29a64b7dbcb0b6be965efd2
 workflow-type: tm+mt
-source-wordcount: '2053'
+source-wordcount: '2043'
 ht-degree: 35%
 
 ---
@@ -52,12 +52,7 @@ ht-degree: 35%
 >title="보강 활동"
 >abstract="보강 데이터를 워크플로에 추가한 후에는 보강 활동 이후의 활동에서 고객의 행동, 선호도 및 요구 사항에 따라 고객을 고유한 그룹으로 분류하거나 타깃 대상자가 공감하는 개인화된 마케팅 메시지 및 캠페인을 만들 수 있습니다."
 
-<!-- /NEO-92684 -->
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_settings"
->title="보강 설정"
->abstract="데이터 보강 설정: 타겟팅 차원, 추가 속성 및 옵션."
 
 1. **데이터 보강 추가**&#x200B;를 클릭하고 데이터 보강에 사용할 특성을 선택하십시오. [특성을 선택하고 즐겨찾기에 추가하는 방법을 알아보세요](../../get-started/attributes.md).
 
@@ -174,7 +169,7 @@ ht-degree: 35%
 
 워크플로우 내에서 게재에서 데이터 보강 활동에서 얻은 오퍼를 사용하려면 아래 단계를 따르십시오.
 
-1. 게재 활동을 열고 컨텐츠 에디션으로 이동합니다. **[!UICONTROL 오퍼 설정]** 단추를 클릭하고 드롭다운 목록에서 오퍼에 해당하는 **[!UICONTROL 오퍼 공간]**&#x200B;을 선택합니다.
+1. 게재 활동을 열고 컨텐츠 에디션으로 이동합니다. **[!UICONTROL 오퍼 설정]** 단추를 클릭하고 드롭다운 목록에서 오퍼에 해당하는 **[!UICONTROL 오퍼 공간]**을 선택합니다.
 데이터 보강 활동의 오퍼만 보려면 **[!UICONTROL 제안]**&#x200B;의 수를 0으로 설정하고 수정 사항을 저장하십시오.
 
    ![](../assets/offers-settings.png)

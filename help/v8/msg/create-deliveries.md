@@ -6,14 +6,21 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 0e48f27982368b00a29a64b7dbcb0b6be965efd2
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 54%
+source-wordcount: '939'
+ht-degree: 53%
 
 ---
 
 # 게재 만들기 {#create-delivery}
+
+<!-- /NEO-92684 / DOCAC-13767-->
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_profile_enrichment_settings"
+>title="프로필 보강 활성화"
+>abstract="프로필 강화를 위한 필드를 선택합니다."
 
 **[!UICONTROL 게재]** 왼쪽 메뉴에서 독립 실행형 게재를 만들거나, 캠페인에 포함되거나 포함되지 않은 워크플로 컨텍스트에서 게재를 만들 수 있습니다.
 

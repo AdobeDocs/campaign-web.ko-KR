@@ -278,7 +278,7 @@ ht-degree: 98%
    + [대상 매핑 관리](administration/target-mappings.md)
    + [스키마 작업](administration/schemas.md)
    + [사용자 정의 필드 구성](administration/custom-fields.md)
-   + [ [!DNL Campaign] 옵션 구성](administration/options.md)
+   + [&#x200B; [!DNL Campaign] 옵션 구성](administration/options.md)
    + [시간대 관리](administration/timezone-management.md)
    + 외부 계정 {#external-accounts}
       + [외부 계정 만들기](administration/create-external-account.md)

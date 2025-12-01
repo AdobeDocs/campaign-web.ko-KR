@@ -7,9 +7,9 @@ hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: e4f374cdab838717e46ac0b67a99306b310880ec
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1525'
 ht-degree: 100%
 
 ---
@@ -165,3 +165,12 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 ## 자세히 알아보기 {#learn-more}
 
 [이 페이지](list-filters.md)에서 Campaign 환경에서 사용 가능한 목록을 탐색, 검색 및 필터링하는 방법에 대해 알아보십시오.
+
+
+
+<!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_notification"
+>title="지속적인 게재"
+>abstract="지속적인 게재"

@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign Web 사용자 인터페이스의 제품 �
 title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 100%
+source-wordcount: '953'
+ht-degree: 98%
 
 ---
 
@@ -129,12 +129,12 @@ ht-degree: 100%
          + [다크 모드 콘텐츠 관리](email/dark-mode.md)
       + [액세스 가능한 콘텐츠 만들기](email/accessible-content.md)
    + AI 어시스턴트 {#ai-assistant}
-      + [AI 어시스턴트로 작업하기](email/generative-gs.md)
-      + [AI를 활용한 이메일 생성](email/generative-content.md)
-      + [AI를 활용한 SMS 생성](email/generative-sms.md)
-      + [AI를 활용한 푸시 알림 생성](email/generative-push.md)
-      + [AI를 활용한 랜딩페이지 생성](email/generative-lp.md)
-      + [AI 어시스턴트 사용 사례](email/generative-uc.md)
+      + [AI 어시스턴트로 작업하기](content/generative-gs.md)
+      + [AI 프롬프트 우수 사례](content/ai-assistant-prompting-guide.md)
+      + [AI를 통한 전체 콘텐츠 생성](content/generative-full-content.md)
+      + [AI를 사용한 텍스트 생성](content/generative-text.md)
+      + [AI를 사용한 이미지 생성](content/generative-image.md)
+      + [AI 어시스턴트 사용 사례](content/generative-uc.md)
       + 브랜드 {#ai-assistant}
          + [브랜드 만들기 및 관리](content/brands.md)
          + [브랜드 정렬 점수 평가](content/brands-score.md)

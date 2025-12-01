@@ -3,9 +3,9 @@ audience: end-user
 title: 브랜드 관리
 description: 브랜드 지침을 만들고 관리하는 방법 알아보기
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
+source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1420'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 **[!UICONTROL 에서]**&#x200B;브랜드[!DNL Adobe Campaign Web] 메뉴에 액세스하려면 사용자에게 **[!UICONTROL 관리자(관리자)]** 및 **[!UICONTROL 브랜드 키트]** 제품 프로필을 할당하여 브랜드를 만들고 관리해야 합니다. 읽기 전용 액세스를 위해 사용자는 [!UICONTROL AI Assistant] 제품 프로필이 필요합니다.
 
-[자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+[자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 +++ 브랜드 관련 권한을 할당하는 방법을 알아봅니다.
 
@@ -92,7 +92,7 @@ ht-degree: 1%
 
    ![브랜드 대시보드의 고급 메뉴 옵션](assets/brands-6.png)
 
-이제 AI Assistant 메뉴의 **[!UICONTROL 브랜드]** 드롭다운에서 브랜드 지침에 액세스할 수 있습니다. 이를 통해 AI Assistant는 사용자 사양에 맞게 콘텐츠 및 에셋을 생성할 수 있습니다. [AI Assistant에 대해 자세히 알아보기](../email/generative-gs.md)
+이제 AI Assistant 메뉴의 **[!UICONTROL 브랜드]** 드롭다운에서 브랜드 지침에 액세스할 수 있습니다. 이를 통해 AI Assistant는 사용자 사양에 맞게 콘텐츠 및 에셋을 생성할 수 있습니다. [AI Assistant에 대해 자세히 알아보기](../content/generative-gs.md)
 
 ![브랜드 드롭다운이 있는 AI 도우미 메뉴](assets/brands_6.png)
 
@@ -241,11 +241,20 @@ ht-degree: 1%
 
 1. **[!UICONTROL 작성 스타일]** 탭에서 ![](assets/do-not-localize/Smock_Add_18_N.svg)을(를) 클릭하여 지침, 예외 또는 제외를 추가합니다.
 
-1. 지침, 예외 또는 제외를 입력하고 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+1. 지침, 예외 또는 제외를 입력합니다. 적용 방법을 더 잘 설명하기 위해 **[!UICONTROL 예]**&#x200B;를 포함할 수도 있습니다.
 
    ![](assets/brands-3.png)
 
-1. 업데이트하거나 삭제할 지침 또는 제외 중 하나를 선택합니다.
+1. 지침, 예외 또는 제외에 대한 **[!UICONTROL 사용 컨텍스트]**&#x200B;를 지정하십시오.
+
+   * **[!UICONTROL 채널 유형]**: 이 지침, 예외 또는 제외를 적용할 위치를 선택하십시오. 예를 들어 특정 쓰기 스타일이 이메일, 모바일, 인쇄 또는 기타 통신 채널에만 표시되도록 할 수 있습니다.
+
+   * **[!UICONTROL 요소 형식]**: 규칙이 적용되는 콘텐츠 요소를 지정합니다. 여기에는 제목, 단추, 링크 또는 콘텐츠 내의 기타 구성 요소와 같은 요소가 포함될 수 있습니다.
+
+   ![](assets/brands-16.png)
+
+1. 지침, 예외 또는 제외가 설정되면 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+1. 필요한 경우 가이드라인 또는 제외 중 하나를 선택하여 업데이트하거나 삭제합니다.
 
 1. 예제를 편집하려면 ![이미지 대체 텍스트 다운로드](assets/do-not-localize/Smock_Edit_18_N.svg "편집")을 클릭하고 삭제하려면 ![다이브 이미지 대체 텍스트](assets/do-not-localize/Smock_Delete_18_N.svg "삭제")아이콘을 클릭하십시오.
 
@@ -298,9 +307,19 @@ ht-degree: 1%
 
 1. **[!UICONTROL 시각적 콘텐츠]** 탭에서 ![](assets/do-not-localize/Smock_Add_18_N.svg)을(를) 클릭하여 지침, 제외 또는 예제를 추가합니다.
 
-1. 지침, 제외 또는 예를 입력하고 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
+1. 지침, 제외 또는 예를 입력합니다.
 
    ![제외 또는 예제 단추 추가](assets/brands-4.png)
+
+1. 지침 또는 제외에 대한 **[!UICONTROL 사용 컨텍스트]**&#x200B;를 지정하십시오.
+
+   * **[!UICONTROL 채널 유형]**: 이 지침, 예외 또는 제외를 적용할 위치를 선택하십시오. 예를 들어 특정 쓰기 스타일이 이메일, 모바일, 인쇄 또는 기타 통신 채널에만 표시되도록 할 수 있습니다.
+
+   * **[!UICONTROL 요소 형식]**: 규칙이 적용되는 콘텐츠 요소를 지정합니다. 여기에는 제목, 단추, 링크 또는 콘텐츠 내의 기타 구성 요소와 같은 요소가 포함될 수 있습니다.
+
+     ![사용 콘텐츠 추가](assets/brands-17.png)
+
+1. 지침, 예외 또는 제외가 설정되면 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
 1. 올바른 사용을 표시하는 이미지를 추가하려면 **[!UICONTROL 예제]**&#x200B;를 선택하고 **[!UICONTROL 이미지 선택]**&#x200B;을 클릭합니다. 제외 예로서 잘못된 사용을 보여주는 이미지를 추가할 수도 있습니다.
 

@@ -2,9 +2,9 @@
 audience: end-user
 title: 생성 콘텐츠
 description: AI Assistant를 사용하여 텍스트 콘텐츠 경험을 생성하는 방법을 알아봅니다
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1441'
 ht-degree: 1%
 
 ---
@@ -112,8 +112,6 @@ AI Assistant는 푸시 알림 및 SMS 메시지에 대한 매력적인 텍스트
 1. 모바일 게재를 만들고 구성합니다.
    * **푸시 알림**: 푸시 알림 게재를 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요. [자세히 알아보기](../push/create-push.md)
    * **SMS**: SMS 게재를 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요. [자세히 알아보기](../sms/create-sms.md)
-
-1. 게재할 **[!UICONTROL 기본 세부 정보]**&#x200B;를 입력하십시오. 완료되면 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요.
 
 1. 필요에 따라 메시지를 개인화합니다.
    * **푸시 알림**: [자세히 알아보기](../push/content-push.md)

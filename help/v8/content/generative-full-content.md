@@ -3,9 +3,9 @@ audience: end-user
 title: 생성 콘텐츠
 description: Journey Optimizer에서 AI Assistant를 사용하여 완전한 콘텐츠 경험을 생성하는 방법을 알아봅니다.
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1606'
 ht-degree: 1%
 
 ---
@@ -42,8 +42,6 @@ AI Assistant를 사용하여 콘텐츠를 생성하기 전에 게재를 설정�
 
 이제 AI Assistant를 열어 브랜드 및 캠페인 목표와 일치하는 콘텐츠를 만들도록 생성 설정을 구성할 수 있습니다. 텍스트 및 이미지 매개 변수를 사용자 지정하고, 브랜드 자산을 추가하고, AI가 대상자를 위한 관련 변형을 생성하는 데 도움이 되는 프롬프트를 제공합니다.
 
-1. AI 관리자가 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화하려면 **[!UICONTROL 원본 콘텐츠 사용]** 옵션을 사용하도록 설정하십시오.
-
 1. AI 생성 콘텐츠가 브랜드 사양에 맞게 조정되도록 하려면 **[!UICONTROL 브랜드]**&#x200B;를 선택하십시오. 브랜드에 대해 [자세히 알아보기](brands.md).
 
 1. **[!UICONTROL 프롬프트]** 필드에 생성할 내용을 설명하여 내용을 미세 조정하십시오.
@@ -57,6 +55,7 @@ AI Assistant를 사용하여 콘텐츠를 생성하기 전에 게재를 설정�
 1. **[!UICONTROL 텍스트 설정]** 옵션을 사용하여 메시지를 사용자 지정합니다.
 
    * **[!UICONTROL 커뮤니케이션 전략]**: 생성된 텍스트에 가장 적합한 커뮤니케이션 스타일을 선택합니다.
+   * **[!UICONTROL 언어]**: 생성된 콘텐츠의 언어를 선택합니다.
    * **[!UICONTROL 음색]**: 전자 메일의 음색이 대상자에게 울려 퍼지도록 합니다. AI Assistant는 유익하거나, 유쾌하거나, 설득력 있게 들리고자 할 때 메시지를 적절히 조정합니다.
 
      ![Adobe Campaign 웹에서 텍스트 설정 옵션을 보여 주는 스크린샷](assets/full-email-4.png){zoomable="yes"}
@@ -103,7 +102,7 @@ AI Assistant를 사용하여 콘텐츠를 생성하기 전에 게재를 설정�
 
    * **[!UICONTROL 통신 전략 변경]**: 긴급성을 만들거나 흥미로운 어필을 강조하는 등 목표에 따라 메시징 접근 방식을 수정합니다.
 
-   ![옵션을 표시하는 메뉴 세분화](assets/full-email-5.png){zoomable="yes"}
+     ![옵션을 표시하는 메뉴 세분화](assets/full-email-5.png){zoomable="yes"}
 
 1. **[!UICONTROL 브랜드 정렬]** 탭을 열어 콘텐츠가 [브랜드 지침](brands.md)에 어떻게 적합한지 확인합니다.
 
@@ -112,7 +111,7 @@ AI Assistant를 사용하여 콘텐츠를 생성하기 전에 게재를 설정�
 1. 개인화 필드를 삽입하여 프로필 데이터를 기반으로 콘텐츠를 사용자 지정합니다. 그런 다음 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하여 렌더링을 제어하고 테스트 프로필로 개인화 설정을 확인합니다. [자세히 알아보기](../preview-test/preview-content.md)
 
 1. 콘텐츠를 검토하고 활성화합니다.
-   * **이메일**: 콘텐츠, 대상자 및 일정을 정의했으면 이메일 캠페인을 준비할 준비가 되었습니다. [자세히 알아보기](../monitor/prepare-send.md)
+   * **전자 메일**: 콘텐츠, 대상자 및 일정을 정의했으면 전자 메일 게재를 준비할 준비가 되었습니다. [자세히 알아보기](../monitor/prepare-send.md)
    * **랜딩 페이지**: 랜딩 페이지가 준비되면 이를 게시하여 메시지에 사용할 수 있도록 할 수 있습니다. [자세히 알아보기](../landing-pages/create-lp.md)
 
 ## 모바일 채널용 {#mobile-channels}
@@ -190,7 +189,8 @@ AI Assistant는 모바일 푸시 알림에 대한 콘텐츠 생성도 지원하�
    * **[!UICONTROL 구문 변경]**: 다양한 대상자가 쉽고 재미있게 쓸 수 있도록 메시지를 다른 방법으로 다시 기술합니다.
    * **[!UICONTROL 더 간단한 언어 사용]**: 언어를 단순화하여 더 많은 대상자가 명확하고 쉽게 사용할 수 있도록 합니다.
    * **[!UICONTROL 번역]**: 언어를 단순화하여 더 많은 대상자가 명확하고 쉽게 이용할 수 있도록 합니다.
-텍스트의 **[!UICONTROL 색조]** 및 **[!UICONTROL 통신 전략]**&#x200B;을 변경할 수도 있습니다.
+
+   텍스트의 **[!UICONTROL 색조]** 및 **[!UICONTROL 통신 전략]**&#x200B;을 변경할 수도 있습니다.
 
    ![푸시 알림에 대한 옵션 세분화](assets/push-genai-5.png){zoomable="yes"}
 

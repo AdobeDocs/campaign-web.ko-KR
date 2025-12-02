@@ -2,9 +2,9 @@
 audience: end-user
 title: 생성 콘텐츠
 description: AI Assistant를 사용하여 이미지를 생성하는 방법 알아보기
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1098'
 ht-degree: 2%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 2%
 >
 >Adobe Campaign 웹에서 AI Assistant를 사용하기 전에 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
 
-Adobe Campaign 웹의 AI Assistant를 사용하여 이메일, 웹 페이지, 랜딩 페이지 및 푸시 알림 전반에서 메시지를 향상시키는 매력적인 시각적 컨텐츠를 만들 수 있습니다. AI Assistant를 사용하면 이미지를 생성하고 최적화할 수 있으므로 콘텐츠가 시각적으로 매력적이고 브랜드에 맞게 조정됩니다.
+Adobe Campaign 웹의 AI Assistant를 사용하여 이메일, 랜딩 페이지 및 푸시 알림 전반에서 메시지를 향상시키는 매력적인 시각적 콘텐츠를 만들 수 있습니다. AI Assistant를 사용하면 이미지를 생성하고 최적화할 수 있으므로 콘텐츠가 시각적으로 매력적이고 브랜드에 맞게 조정됩니다.
 
 ## 이메일 및 랜딩 페이지의 경우 {#email-web-channels}
 
-AI Assistant는 이메일 캠페인 및 랜딩 페이지에 대한 완전한 시각적 경험을 생성할 수 있습니다. 이 기능을 사용하면 디지털 터치포인트에서 대상자와 공감하는 온브랜드, 주목을 끄는 이미지를 만들 수 있습니다.
+AI Assistant는 이메일 게재 및 랜딩 페이지에 대한 완전한 시각적 경험을 생성할 수 있습니다. 이 기능을 사용하면 디지털 터치포인트에서 대상자와 공감하는 온브랜드, 주목을 끄는 이미지를 만들 수 있습니다.
 
 ### 액세스 및 구성 {#access-configure}
 
@@ -68,6 +68,8 @@ AI Assistant를 사용하여 이미지 생성을 시작하려면 먼저 게재�
 
 ### 세분화 및 완료 {#refine-finalize}
 
+이미지 변형을 생성한 후 결과를 검토하고 브랜드 정렬을 확인하고 콘텐츠에 가장 적합한 옵션을 선택할 수 있습니다.
+
 1. 생성된 **[!UICONTROL 변형]**&#x200B;을 검색합니다.
 
 1. 백분율 아이콘을 클릭하여 **[!UICONTROL 브랜드 맞춤 점수]**&#x200B;를 보고 브랜드에 대한 모든 오정렬을 식별합니다.
@@ -92,23 +94,13 @@ AI Assistant를 사용하여 이미지 생성을 시작하려면 먼저 게재�
 
 ## 모바일 채널용 {#mobile-channels}
 
-AI Assistant를 사용하면 푸시 알림 및 SMS 메시지에 대한 매력적인 텍스트를 생성할 수 있으므로 모든 모바일 터치포인트에서 시선을 사로잡으며 대상자와 공감하는 모바일 커뮤니케이션을 생성할 수 있습니다.
+AI Assistant를 사용하면 푸시 알림에 대한 매력적인 이미지를 생성할 수 있으므로 대상을 포착하고 공감하는 시각적으로 매력적인 모바일 커뮤니케이션을 만들 수 있습니다.
 
 ### 액세스 및 구성 {#mobile-access-configure}
 
-AI Assistant를 사용하여 모바일 채널에 대한 텍스트 생성을 시작하려면 먼저 게재를 설정하고 AI Assistant를 엽니다. AI Assistant에 액세스하는 단계는 푸시 알림으로 작업하는지 SMS 메시지로 작업하는지에 따라 약간 다릅니다.
+AI Assistant를 사용하여 푸시 알림에 대한 이미지 생성을 시작하려면 먼저 게재를 설정하고 AI Assistant를 엽니다.
 
-1. 모바일 게재를 만들고 구성합니다.
-
-   * **푸시 알림**: 푸시 알림 게재를 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요. [자세히 알아보기](../push/create-push.md)
-   * **SMS**: SMS 게재를 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요. [자세히 알아보기](../sms/create-sms.md)
-
-1. 게재할 **[!UICONTROL 기본 세부 정보]**&#x200B;를 입력하십시오. 완료되면 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요.
-
-1. 필요에 따라 메시지를 개인화합니다.
-
-   * **푸시 알림**: [자세히 알아보기](../push/content-push.md)
-   * **SMS**: [자세히 알아보기](../sms/content-sms.md)
+1. 푸시 알림 게재를 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭합니다. [자세히 알아보기](../push/create-push.md)
 
 1. **[!UICONTROL AI Assistant 표시]** 메뉴에 액세스합니다.
 

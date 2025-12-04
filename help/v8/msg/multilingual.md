@@ -16,7 +16,7 @@ ht-degree: 7%
 >title="언어 추가"
 >abstract="이 탭에서는 게재를 전송할 언어 목록을 찾을 수 있습니다. 언어 추가 버튼을 클릭하거나, 이 탭을 통해 다른 언어를 복제하여 더 많은 언어를 추가할 수 있습니다."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
 >id=&quot;acw_multilingual_file_upload&quot;
 >title=&quot;언어 변형 가져오기&quot;
 >abstract=&quot;CSV 파일을 가져와서 언어 변형을 추가하려면 이 대화 상자를 사용합니다. 파일은 선택한 언어에 대해 사용 가능한 모든 필드를 자동으로 채웁니다. 확인하기 전에 파일을 드래그 앤 드롭하거나 컴퓨터에서 선택할 수 있습니다.&quot;

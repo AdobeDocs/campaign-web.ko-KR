@@ -69,7 +69,7 @@ AI Assistant는 이메일, SMS 및 푸시 알림과 같은 채널 전반의 마�
 * [기본 제공 전자 메일 템플릿](../content/create-email-templates.md), 브랜드별 템플릿 또는 사용자 지정 템플릿을 사용하여 AI Assistant를 사용하여 전자 메일 콘텐츠를 만드십시오. 최대 8~10개의 이미지가 포함된 이메일 템플릿이 권장됩니다.
 * 변형을 선택할 때 엄지손가락 위로, 엄지손가락 아래로 또는 플래그 아이콘을 사용하여 문제가 있는 출력을 보고합니다.
 * AI Assistant 사용 시 Adobe Experience Cloud 생성 AI 사용자 지침이 적용됩니다. [자세히 알아보기](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* 미디어 제작에서 생성 AI 도구 사용에 대한 Adobe의 투명성 약속의 일환으로, Adobe은 Firefly에서 생성한 에셋이 포함된 콘텐츠 또는 프로젝트를 다운로드하거나 내보낼 때 Content Credentials을 적용합니다. [자세히 알아보기](https://helpx.adobe.com/firefly/using/content-credentials.html)
+* 미디어 제작에서 생성 AI 도구 사용에 대한 Adobe의 투명성 약속의 일환으로, Adobe은 Firefly에서 생성한 에셋이 포함된 콘텐츠 또는 프로젝트를 다운로드하거나 내보낼 때 Content Credentials을 적용합니다. [자세히 알아보기](https://helpx.adobe.com/kr/firefly/using/content-credentials.html)
 
 Adobe Campaign 웹의 AI Assistant에는 다음과 같은 제한이 적용됩니다.
 

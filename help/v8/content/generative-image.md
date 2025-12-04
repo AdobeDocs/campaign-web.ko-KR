@@ -2,10 +2,10 @@
 audience: end-user
 title: 생성 콘텐츠
 description: AI Assistant를 사용하여 이미지를 생성하는 방법 알아보기
-source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
+source-git-commit: c51877d1926e1a8a6766ea1a5aa00f826071a3fc
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 2%
+source-wordcount: '1152'
+ht-degree: 1%
 
 ---
 
@@ -38,6 +38,8 @@ AI Assistant를 사용하여 이미지 생성을 시작하려면 먼저 게재�
    ![Adobe Campaign 웹에서 텍스트 구성 요소 선택을 보여 주는 스크린샷](assets/image-genai-1.png){zoomable="yes"}
 
 ### 콘텐츠 생성 {#generate-content}
+
+AI Assistant를 사용하여 효과적인 프롬프트를 작성하고 이미지 설정을 구성하여 시각적으로 매력적인 이미지를 생성하는 방법에 대해 알아봅니다. 종횡비, 시각적 강도 및 조명과 같은 매개 변수를 사용자 지정하여 브랜드 및 캠페인 목표에 맞는 이미지를 만들 수 있습니다.
 
 1. AI Assistant가 선택한 콘텐츠를 기반으로 새 콘텐츠를 개인화하려면 **[!UICONTROL 참조 스타일]** 옵션을 활성화하십시오.
 
@@ -108,7 +110,7 @@ AI Assistant를 사용하여 푸시 알림에 대한 이미지 생성을 시작�
 
 ### 콘텐츠 생성 {#mobile-generate-content}
 
-AI Assistant에 액세스한 후 생성 설정을 조정하여 내 브랜드에 맞는 이미지를 만들고 목표를 지원할 수 있습니다.
+AI Assistant에 액세스한 후 생성 설정을 조정하여 내 브랜드에 맞는 이미지를 만들고 푸시 알림 목표를 지원할 수 있습니다. 모바일 디스플레이에 최적화된 시각적 개체를 생성하도록 프롬프트 및 이미지 매개 변수를 구성합니다.
 
 1. AI 생성 콘텐츠가 브랜드 사양에 맞게 조정되도록 하려면 **[!UICONTROL 브랜드]**&#x200B;를 선택하십시오. 브랜드에 대해 [자세히 알아보기](brands.md).
 

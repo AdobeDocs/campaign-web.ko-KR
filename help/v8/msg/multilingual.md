@@ -2,10 +2,10 @@
 audience: end-user
 title: 다국어 게재 구성
 description: 다국어 게재를 구성하는 방법 알아보기
-source-git-commit: d8d78f97cdf99e67c59827a91c54851b1cbbeb16
+source-git-commit: e005c409a61748d99b70b2a99f4f4f89d4d6229e
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 8%
+source-wordcount: '632'
+ht-degree: 7%
 
 ---
 
@@ -15,6 +15,11 @@ ht-degree: 8%
 >id="acw_deliveries_email_multilingual"
 >title="언어 추가"
 >abstract="이 탭에서는 게재를 전송할 언어 목록을 찾을 수 있습니다. 언어 추가 버튼을 클릭하거나, 이 탭을 통해 다른 언어를 복제하여 더 많은 언어를 추가할 수 있습니다."
+
+[!CONTEXTUALHELP]
+>id=&quot;acw_multilingual_file_upload&quot;
+>title=&quot;언어 변형 가져오기&quot;
+>abstract=&quot;CSV 파일을 가져와서 언어 변형을 추가하려면 이 대화 상자를 사용합니다. 파일은 선택한 언어에 대해 사용 가능한 모든 필드를 자동으로 채웁니다. 확인하기 전에 파일을 드래그 앤 드롭하거나 컴퓨터에서 선택할 수 있습니다.&quot;
 
 Campaign 웹 UI에서는 게재를 다국어로 설정하여 프로필의 기본 언어를 기반으로 메시지를 보낼 수 있습니다. 기본 설정이 정의되지 않으면 메시지가 기본 언어로 전송됩니다.
 

@@ -3,9 +3,9 @@ title: 미리 정의된 필터 작업
 description: Adobe Campaign Web에서 미리 정의된 필터를 만들고 관리하는 방법 알아보기
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: b904870f256ec2eeac9a4e353ea8cb9d854524ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-save"
 >title="필터 저장"
->abstract="이 화면에서는 규칙을 사전 정의된 필터로 저장할 수 있습니다. 사전 정의된 필터를 새로 만들거나 기존 필터를 덮어쓸 수 있습니다. 필터를 즐겨찾기로 저장하려면 **[!UICONTROL 즐겨찾는 필터]** 옵션을 켜십시오. **[!UICONTROL 공유 필터]** 옵션을 활성화하여 다른 사용자가 필터에 액세스할 수 있도록 할 수도 있습니다."
+>abstract="이 화면에서는 규칙을 미리 정의된 필터로 저장할 수 있습니다. 미리 정의된 필터를 새로 만들거나 기존 필터를 덮어쓸 수 있습니다. 필터를 즐겨찾기로 저장하려면 **[!UICONTROL 자주 사용하는 필터]** 옵션을 켜십시오. **[!UICONTROL 공유 필터]** 옵션을 활성화하여 다른 사용자가 필터에 액세스할 수 있습니다."
 
 ### 쿼리 모델러에서 필터 만들기 {#create-from-rule-builder}
 

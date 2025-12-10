@@ -6,9 +6,9 @@ title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
 source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '953'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -130,10 +130,10 @@ ht-degree: 98%
       + [액세스 가능한 콘텐츠 만들기](email/accessible-content.md)
    + AI 어시스턴트 {#ai-assistant}
       + [AI 어시스턴트로 작업하기](content/generative-gs.md)
-      + [AI 프롬프트 우수 사례](content/ai-assistant-prompting-guide.md)
-      + [AI를 통한 전체 콘텐츠 생성](content/generative-full-content.md)
-      + [AI를 사용한 텍스트 생성](content/generative-text.md)
-      + [AI를 사용한 이미지 생성](content/generative-image.md)
+      + [AI 프롬프트 모범 사례](content/ai-assistant-prompting-guide.md)
+      + [AI를 활용한 전체 콘텐츠 생성](content/generative-full-content.md)
+      + [AI를 활용한 텍스트 생성](content/generative-text.md)
+      + [AI를 활용한 이미지 생성](content/generative-image.md)
       + [AI 어시스턴트 사용 사례](content/generative-uc.md)
       + 브랜드 {#ai-assistant}
          + [브랜드 만들기 및 관리](content/brands.md)
@@ -278,7 +278,7 @@ ht-degree: 98%
    + [대상 매핑 관리](administration/target-mappings.md)
    + [스키마 작업](administration/schemas.md)
    + [사용자 정의 필드 구성](administration/custom-fields.md)
-   + [&#x200B; [!DNL Campaign] 옵션 구성](administration/options.md)
+   + [ [!DNL Campaign] 옵션 구성](administration/options.md)
    + [시간대 관리](administration/timezone-management.md)
    + 외부 계정 {#external-accounts}
       + [외부 계정 만들기](administration/create-external-account.md)

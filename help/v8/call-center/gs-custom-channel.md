@@ -16,7 +16,7 @@ ht-degree: 5%
 >id="acw_homepage_welcome_rn1"
 >title="API 게재에 대한 사용자 지정 채널"
 >abstract="이제 Adobe Campaign Web UI에서 직접 사용자 정의 API 채널을 기반으로 게재를 조율하고 실행할 수 있습니다. 이러한 게재는 독립 실행형이거나 워크플로우의 일부일 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 Adobe Campaign Web UI에서 직접 서드파티와 통합된 사용자 지정 채널을 기반으로 게재를 통합 및 실행할 수 있습니다. 사용자 지정 채널의 구성은 클라이언트 콘솔에서 수행됩니다.
 
@@ -38,11 +38,11 @@ Adobe Campaign Web UI에서 직접 서드파티와 통합된 사용자 지정 �
 
 먼저 사용자 지정 채널을 구성해야 합니다. 다음은 클라이언트 콘솔에서 수행하는 주요 단계입니다. 이러한 단계는 사용자 지정 외부 및 API 채널에 공통됩니다.
 
-1. 사용 가능한 채널 목록에 새 채널을 추가하도록 스키마를 구성합니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#configure-schema){target="_blank"}
-1. 새 라우팅 외부 계정을 만듭니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#create-ext-account){target="_blank"}
-1. 새 채널과 연결된 새 게재 템플릿을 만듭니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#create-template){target="_blank"}
+1. 사용 가능한 채널 목록에 새 채널을 추가하도록 스키마를 구성합니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=ko#configure-schema){target="_blank"}
+1. 새 라우팅 외부 계정을 만듭니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=ko#create-ext-account){target="_blank"}
+1. 새 채널과 연결된 새 게재 템플릿을 만듭니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=ko#create-template){target="_blank"}
 
-사용자 지정 API 채널에는 추가 구성이 필요합니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional){target="_blank"}
+사용자 지정 API 채널에는 추가 구성이 필요합니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=ko#api-additional){target="_blank"}
 
 ## 게재 만들기{#create-delivery}
 
@@ -90,7 +90,7 @@ Adobe Campaign Web UI에서 직접 서드파티와 통합된 사용자 지정 �
 
 1. 게재 대시보드에서 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭합니다.
 
-1. 필요에 따라 필드를 채웁니다. 이 화면을 설정하는 방법에 대해 알아보려면 이 [페이지](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional-screen){target="_blank"}를 참조하세요.
+1. 필요에 따라 필드를 채웁니다. 이 화면을 설정하는 방법에 대해 알아보려면 이 [페이지](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=ko#api-additional-screen){target="_blank"}를 참조하세요.
 
    ![API 채널의 특성 구성 옵션을 보여 주는 스크린샷입니다.](assets/cc-content-attributes-api.png)
 
@@ -118,7 +118,7 @@ Adobe Campaign Web UI에서 직접 서드파티와 통합된 사용자 지정 �
 
 1. 게재 콘텐츠 페이지에서 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 클릭하고 테스트 프로필을 선택합니다.
 
-1. 오른쪽에서 **미리 보기 열기**&#x200B;를 클릭합니다. 이 기능은 JSSP를 사용하여 구성해야 합니다. 이 [페이지](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html#api-additional-preview){target="_blank"}를 참조하세요.
+1. 오른쪽에서 **미리 보기 열기**&#x200B;를 클릭합니다. 이 기능은 JSSP를 사용하여 구성해야 합니다. 이 [페이지](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/other-channels/custom-channel.html?lang=ko#api-additional-preview){target="_blank"}를 참조하세요.
 
    ![API에 대한 게재 콘텐츠 페이지에서 콘텐츠 시뮬레이션 옵션을 보여 주는 스크린샷](assets/cus-simulate-api.png){zoomable="yes"}
 

@@ -5,7 +5,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: b2de0d0061e5c2b582c3e73ccaf2dab1490cc854
+source-git-commit: c29259234059270d01af4ae1d0cb813e777eb826
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
@@ -42,7 +42,7 @@ Your data is encrypted and private following our standard data protection practi
 
 The knowledge assistant AI capability does not use your data to train our models. We do not allow any partners or third parties to use your data for training their models or any other purpose.
 
-For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/kr/products/sensei/adobe-sensei.html){target="_blank"}.
+For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/ai.html){target="_blank"}.
 -->
 
 ## 추천 질문 {#questions-ai}
@@ -63,7 +63,7 @@ Adobe Campaign AI 기반 상황별 도움말에서 도움을 제공하지만 사
 
 인공 지능 및 머신 러닝 모델은 시간이 지남에 따라 개선되어 특정 사용 사례를 보다 잘 처리하게 됩니다. 캠페인 AI 기반 상황별 도움말이 지속적으로 개선되고 있습니다. 답변을 읽을 때마다 <img src="assets/do-not-localize/thumb.png" width="10%"/> 버튼을 사용하여 엔지니어에게 부적절한 답변을 표시합니다.
 
-## 추천 {#recommendations-ai}
+## 권장 사항 {#recommendations-ai}
 
 AI 기반 상황별 도움말에 질문할 때 현재 제품 컨텍스트, 즉 현재 화면과 현재 도움말 상자의 내용이 고려됩니다.
 

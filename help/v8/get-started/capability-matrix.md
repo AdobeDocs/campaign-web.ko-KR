@@ -72,7 +72,7 @@ Campaign 클라이언트 콘솔 또는 Adobe Experience Platform에서 만든 �
 
 Transactional messaging capabilities coming with the Message Center product package are currently not available in the new Campaign Web user interface. 
 
-Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} and learn more about real-time messaging capabilities, such as:
+Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html?lang=ko){target="_blank"} and learn more about real-time messaging capabilities, such as:
 
 * Realtime message authoring and execution on email, SMS and push
 * Message enrichment and personalization
@@ -104,16 +104,16 @@ Adobe Campaign Web 사용자 인터페이스와 함께 제공되는 새로운 [�
 Campaign v8(클라이언트 콘솔) 설명서를 찾아보고 유형 규칙에 대해 자세히 알아보려면 제공된 링크를 사용하십시오.
 
 <!--
-* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
+* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=ko){target="_blank"}
 -->
-* 피로도/압력 규칙 만들기. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}
+* 피로도/압력 규칙 만들기. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ko){target="_blank"}
 <!--
-* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html){target="_blank"}
-* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html){target="_blank"}
+* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html?lang=ko){target="_blank"}
+* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html?lang=ko){target="_blank"}
 -->
-* 캠페인 시뮬레이션. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html){target="_blank"}
+* 캠페인 시뮬레이션. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html?lang=ko){target="_blank"}
 <!--
-* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html#use-cases-on-pressure-rules){target="_blank"}
+* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ko#use-cases-on-pressure-rules){target="_blank"}
 -->
 
 ## 워크플로 {#wf-capabilities}

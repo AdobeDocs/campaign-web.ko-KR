@@ -3,13 +3,13 @@ title: 프로필 및 대상자 시작
 description: Campaign Web에서 프로필 및 대상자를 사용하여 작업하는 방법 알아보기
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
 ht-degree: 100%
 
 ---
 
-# 프로필 및 대상자 시작 {#about-profiles}
+# 프로필 및 대상자 시작하기 {#about-profiles}
 
 Adobe Campaign Web에서 **프로필**&#x200B;은 데이터베이스에 저장된 기록으로, 게재 대상자를 만들고 콘텐츠에 개인화 데이터를 추가하기 위한 핵심 구성 요소 역할을 합니다. **테스트 프로필**&#x200B;과 같은 다양한 유형의 프로필이 데이터베이스에 저장되어 있으며, 이는 최종 대상자에게 전송되기 전에 게재를 테스트하도록 설계되었습니다.
 

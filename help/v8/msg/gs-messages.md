@@ -4,14 +4,14 @@ title: Adobe Campaign Web의 메시지 및 게재 시작
 description: Campaign Web으로 게재 작업을 수행하고 메시지를 전송하는 방법 알아보기
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
 ht-degree: 100%
 
 ---
 
 
-# 메시지 시작하기{#gs-messages}
+# 메시지 시작{#gs-messages}
 
 Adobe Campaign에서는 이메일, SMS, 푸시 알림 등 크로스 채널 캠페인을 보내고, 다양한 전용 보고서를 사용하여 캠페인의 영향을 측정할 수 있습니다.
 

@@ -24,8 +24,8 @@ ht-degree: 100%
       + [2025년 릴리스](rn/release-notes-25.md)
       + [2024년 릴리스](rn/release-notes-24.md)
    + [설명서 업데이트](rn/documentation-updates.md)
-+ Adobe Campaign 시작하기 {#start}
-   + [시작하기](get-started/get-started.md)
++ Adobe Campaign 시작 {#start}
+   + [시작](get-started/get-started.md)
    + [Campaign에 연결](get-started/connect-to-campaign.md)
    + [인터페이스 살펴보기](get-started/user-interface.md)
    + [목록 찾아보기 및 필터링](get-started/list-filters.md)
@@ -38,7 +38,7 @@ ht-degree: 100%
    + [AI 기반 상황별 도움말](get-started/using-ai.md)
    + [FAQ](get-started/faq.md)
 + 메시지 및 게재 {#msg}
-   + [메시지 시작하기](msg/gs-messages.md)
+   + [메시지 시작](msg/gs-messages.md)
    + [게재에 액세스하기](msg/gs-deliveries.md)
    + [게재 만들기](msg/create-deliveries.md)
    + [게재 템플릿 사용](msg/delivery-template.md)
@@ -65,7 +65,7 @@ ht-degree: 100%
       + [SMS 게재 미리보기 및 전송](sms/send-sms.md)
    + DM {#direct-mail}
       + [다이렉트 메일 게재 시작하기](direct-mail/gs-direct-mail.md)
-      + [DM 게재 만들기](direct-mail/create-direct-mail.md)
+      + [다이렉트 메일 게재 만들기](direct-mail/create-direct-mail.md)
       + [추출 파일 설계](direct-mail/content-direct-mail.md)
       + [다이렉트 메일 게재 미리보기 및 전송](direct-mail/send-direct-mail.md)
    + 콜센터 {#call-center}
@@ -73,7 +73,7 @@ ht-degree: 100%
       + [콜센터 게재 만들기 및 전송](call-center/create-call-center.md)
    + [사용자 정의 채널](call-center/gs-custom-channel.md)
    + 트랜잭션 메시지 {#transactional-messages}
-      + [트랜잭션 메시지 시작하기](transactional-messaging/transactional.md)
+      + [트랜잭션 메시지 시작](transactional-messaging/transactional.md)
       + [트랜잭션 메시지 만들기](transactional-messaging/create-transactional.md)
       + [트랜잭션 메시지 유효성 검사](transactional-messaging/validate-transactional.md)
       + [트랜잭션 메시지 모니터링](transactional-messaging/monitor-transactional.md)
@@ -153,7 +153,7 @@ ht-degree: 100%
       + [프로필 세부 정보 살펴보기](audience/profile-view.md)
       + [프로필 만들기](audience/create-profile.md)
       + [테스트 프로필 작업](audience/test-profiles.md)
-   + 대상자 작업 {#audiences}
+   + 대상자를 사용한 작업 {#audiences}
       + [대상자 시작하기](audience/manage-audience.md)
       + [대상자 만들기](audience/create-audience.md)
    + 게재 수신자 선택 {#target-audiences}
@@ -167,12 +167,12 @@ ht-degree: 100%
       + [구독 서비스 만들기 및 관리](audience/manage-services.md)
       + [구독자 관리](audience/manage-subscribers.md)
 + 크로스 채널 캠페인 {#campaigns}
-   + [캠페인 시작하기](campaigns/gs-campaigns.md)
+   + [업그레이드 시작하기](campaigns/gs-campaigns.md)
    + [캠페인 액세스 및 관리](campaigns/manage-campaigns.md)
    + [첫 캠페인 만들기](campaigns/create-campaigns.md)
    + [플랜 및 프로그램](administration/plans-programs.md)
 + 워크플로 {#wf}
-   + [워크플로 시작하기](workflows/gs-workflows.md)
+   + [워크플로 시작](workflows/gs-workflows.md)
    + [가드레일 및 제한 사항](get-started/guardrails.md)
    + [워크플로 이벤트 변수](workflows/event-variables.md)
    + [워크플로 액세스 및 관리](workflows/access-monitor.md)
@@ -253,8 +253,8 @@ ht-degree: 100%
          + [컴플레인](reporting/dynamic-reporting/complaints.md)
          + [게재 요약](reporting/dynamic-reporting/delivery-summary.md)
          + [게재 처리량](reporting/dynamic-reporting/delivery-throughput.md)
-         + [비게재 항목 및 바운스](reporting/dynamic-reporting/non-deliverables-and-bounces.md)
-         + [열람 수](reporting/dynamic-reporting/opens.md)
+         + [게재 불가 및 이탈](reporting/dynamic-reporting/non-deliverables-and-bounces.md)
+         + [오픈율](reporting/dynamic-reporting/opens.md)
          + [지표 추적](reporting/dynamic-reporting/tracking-indicators.md)
          + [구독 최소 건수](reporting/dynamic-reporting/unsubscriptions.md)
          + [URL 및 클릭 스트림](reporting/dynamic-reporting/urls-and-click-streams.md)

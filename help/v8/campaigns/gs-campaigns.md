@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: 캠페인 시작하기
+title: 업그레이드 시작하기
 description: 크로스 채널 캠페인 시작 방법 알아보기
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
 ht-degree: 100%
 
 ---
 
-# 캠페인 시작하기 {#campaigns}
+# 업그레이드 시작하기 {#campaigns}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"

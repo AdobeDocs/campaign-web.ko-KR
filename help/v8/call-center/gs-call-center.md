@@ -4,7 +4,7 @@ title: 콜센터 채널 시작하기
 description: Adobe Campaign Web을 사용하여 콜센터 게재를 만들고 전송하는 방법 알아보기
 exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
 source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '230'
 ht-degree: 100%
 

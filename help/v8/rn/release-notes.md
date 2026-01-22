@@ -3,7 +3,7 @@ title: Campaign v8 Web 사용자 인터페이스 릴리스 정보
 description: 최신 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: ca1a437f8a8a25c0a15b9148e9c73271795f16c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ _2025년 11월 3일_
 <td>
 <p>이제 Adobe Campaign Web 사용자 인터페이스에서 여러 언어로 여러 트랜잭션 메시지, 푸시 알림 및 SMS 메시지를 보낼 수 있습니다. 다국어 게재 기능을 사용하면 게재의 기본 언어는 물론, 게재를 전송할 수 있는 다양한 언어를 선택할 수 있습니다. 선택한 언어로 게재 내용을 미리 볼 수도 있습니다.</p>
 <p>참고: 이 기능은 조직 집합에만 사용할 수 있으며(제한된 가용성), 향후 릴리스를 통해 전역적으로 출시될 예정입니다.</p>
-<p>자세한 내용은 <a href="../msg/multilingual.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../msg/multilingual.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -56,7 +56,7 @@ _2025년 11월 3일_
 <td>
 <p>이 기능을 사용하면 Adobe Campaign 데이터베이스 필드를 메시지 콘텐츠에 연결하여 트랜잭션 메시지를 개인화할 수 있습니다. 대상 매핑, 데이터 보강 열 및 조정 키를 선택하여 성능 임계값을 유지하면서 정확한 실시간 개인화를 보장할 수 있습니다.</p>
 <p>참고: 이 기능은 조직 집합에만 사용할 수 있으며(제한된 가용성), 향후 릴리스를 통해 전역적으로 출시될 예정입니다. 이 기능은 현재 이메일에서만 사용할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../transactional-messaging/profile-enrichment.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../transactional-messaging/profile-enrichment.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -72,7 +72,7 @@ _2025년 11월 3일_
 <tr>
 <td>
 <p>이제 마케팅 효율성을 높이고 브랜드 일관성을 유지하기 위해 GenStudio for Performance Marketing 경험을 Campaign과 원활하게 통합할 수 있습니다. 이를 통해 Campaign의 고급 오케스트레이션 기능과 함께 GenStudio의 AI 기반 콘텐츠 생성을 활용할 수 있습니다.<p>
-<p>자세한 내용은 <a href="../integrations/genstudio.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../integrations/genstudio.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -88,7 +88,7 @@ _2025년 11월 3일_
 <tr>
 <td>
 <p>이제 이메일 디자이너가 특정 사용자 정의 설정을 추가로 정의할 수 있는 다크 모드 보기로 전환하는 기능을 제공합니다. 최종 렌더링은 수신자의 이메일 클라이언트에 따라 다르며 모든 이메일 클라이언트가 다크 모드를 지원하는 것은 아닙니다.</p>
-<p>자세한 내용은 <a href="../email/dark-mode.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../email/dark-mode.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>

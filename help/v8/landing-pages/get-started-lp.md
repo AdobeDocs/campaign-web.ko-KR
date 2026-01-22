@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: 랜딩 페이지 시작
+title: 랜딩 페이지 시작하기
 description: Campaign Web의 랜딩 페이지에 대해 알아보기
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
 ht-degree: 100%
 
 ---
 
-# 랜딩 페이지 시작 {#get-sarted-lp}
+# 랜딩 페이지 시작하기 {#get-sarted-lp}
 
 [!DNL Adobe Campaign]을(를) 사용하면 랜딩 페이지를 만들고 디자인하고 공유할 수 있습니다.
 

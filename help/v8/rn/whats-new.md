@@ -140,11 +140,11 @@ Campaign v8로 전환하는 Campaign Standard 사용자는 [이 페이지를 참
 
 기존 캠페인 사용자는 최신 용어 표준에 맞게 일부 개념의 이름이 변경되었음을 참고하십시오. 이 변경 내용은 Campaign Web 사용자 인터페이스에만 적용되며 클라이언트 콘솔에는 반영되지 않습니다. 이는 아래에 요약되어 있습니다.
 
-* 수신자가 **프로필**&#x200B;로 변경되었습니다. [자세히 알아보기](../audience/gs-audiences-recipients.md)
-* 시드 주소가 **테스트 프로필**&#x200B;로 변경되었습니다. [자세히 알아보기](../preview-test/test-deliveries.md)
-* 게재 분석은 이제 **게재 준비**&#x200B;입니다. 메시지 준비를 실행해야 하는 경우 **준비** 버튼을 클릭하십시오. [자세히 알아보기](../monitor/prepare-send.md)
+* 수신자가 **프로필**&#x200B;로 변경되었습니다. [자세히 알아보기](../audience/gs-audiences-recipients.md).
+* 시드 주소가 **테스트 프로필**&#x200B;로 변경되었습니다. [자세히 알아보기](../preview-test/test-deliveries.md).
+* 게재 분석은 이제 **게재 준비**&#x200B;입니다. 메시지 준비를 실행해야 하는 경우 **준비** 버튼을 클릭하십시오. [자세히 알아보기](../monitor/prepare-send.md).
 * 이제 **콘텐츠 시뮬레이션** 버튼을 통해 이메일 미리보기 기능을 사용할 수 있습니다. [자세히 알아보기](../preview-test/preview-test.md)
-* 목록은 이제 **대상자**&#x200B;입니다. [자세히 알아보기](../audience/gs-audiences-recipients.md)
+* 목록은 이제 **대상자**&#x200B;입니다. [자세히 알아보기](../audience/gs-audiences-recipients.md).
 
 ## 제한 사항{#limitations-beta}
 

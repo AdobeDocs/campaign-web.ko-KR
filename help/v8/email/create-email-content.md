@@ -3,10 +3,10 @@ audience: end-user
 title: 이메일 디자이너에서 이메일 디자인
 description: 이메일 콘텐츠를 처음부터 디자인하는 방법 알아보기
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 51%
+source-wordcount: '673'
+ht-degree: 49%
 
 ---
 
@@ -104,10 +104,12 @@ ht-degree: 51%
 
    ![이메일 Designer의 시뮬레이션 옵션을 보여 주는 스크린샷](assets/email_designer-simulate.png){zoomable="yes"}
 
+1. 콘텐츠 품질의 유효성을 검사하여 가독성, CTA 효율성, 제목 라인 품질 등을 평가할 수도 있습니다. [콘텐츠 품질 유효성 검사에 대해 자세히 알아보기](../content/brands-score.md#validate-quality)
+
 1. 이메일이 준비되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 ## 사용 방법 비디오 {#video}
 
 이메일 디자이너를 탐색하는 방법을 이해합니다. 이메일을 처음부터 구성하고 디자인하고, 개인화하고, 테스트하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453572/?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

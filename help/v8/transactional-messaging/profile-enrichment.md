@@ -2,21 +2,15 @@
 audience: end-user
 title: 트랜잭션 메시지의 프로필 보강
 description: Campaign 웹 사용자 인터페이스에서 트랜잭션 메시지를 만드는 방법을 알아봅니다
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 13%
+source-wordcount: '464'
+ht-degree: 11%
 
 ---
 
 
 # 프로필 데이터를 사용하여 트랜잭션 메시지 강화{#profile-enrichment}
-
->[!AVAILABILITY]
->
->이 기능은 조직 집합(제한된 가용성)에만 사용할 수 있으며 향후 릴리스에서 전역적으로 롤아웃될 예정입니다. 서버를 8.8.2 이상으로 업그레이드해야 합니다.
->
->이 기능은 현재 이메일에서만 사용할 수 있습니다.
 
 이 기능을 사용하면 Adobe Campaign 데이터베이스 필드를 메시지 콘텐츠에 연결하여 트랜잭션 메시지를 개인화할 수 있습니다. 대상 매핑, 데이터 보강 열 및 조정 키를 선택하여 성능 임계값을 유지하면서 정확한 실시간 개인화를 보장할 수 있습니다.
 
@@ -30,6 +24,12 @@ ht-degree: 13%
 1. 데이터 보강 설정을 설정합니다. [자세한 내용](#settings-enrichment)
 1. 콘텐츠 정의, [자세히 보기](#content-enrichment)
 1. 확인 및 보내기, [자세히 보기](#send-enrichment)
+
+>[!NOTE]
+>
+>서버를 8.8.2 이상으로 업그레이드해야 합니다.
+>
+>이 기능은 현재 이메일, SMS 및 푸시 알림에만 사용할 수 있습니다.
 
 ## 트랜잭션 메시지 만들기{#create-enrichment}
 

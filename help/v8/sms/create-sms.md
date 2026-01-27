@@ -3,10 +3,10 @@ audience: end-user
 title: SMS 게재 만들기
 description: Adobe Campaign Web을 사용하여 SMS를 만들고 전송하는 방법 알아보기
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 39%
+source-wordcount: '532'
+ht-degree: 37%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 39%
 >id="acw_deliveries_sms_audience"
 >title="SMS 대상자 정의"
 >abstract="**대상자 선택** 버튼을 클릭하여 새 대상자를 만들거나 기존 대상자를 선택합니다. 필요한 경우 컨트롤 그룹을 추가하여 게재의 영향을 측정할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=ko" text="컨트롤 그룹 설정"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="컨트롤 그룹 설정"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
 >title="SMS 템플릿 선택"
 >abstract="SMS 게재를 시작하려면 미리 정의된 템플릿을 선택합니다. 게재 템플릿을 사용하면 캠페인과 게재 전반에 걸쳐 사용자 정의 콘텐츠와 설정을 재사용할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=ko" text="게재 템플릿 사용"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="게재 템플릿 사용"
 
 독립형 SMS 게재를 만들거나 캠페인 워크플로우의 컨텍스트에서 SMS를 만들 수 있습니다. 아래 단계에서는 독립 실행형(일회성) SMS 게재 절차를 설명합니다. 캠페인 워크플로우의 컨텍스트에서 작업하는 경우 [이 섹션](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)에서 만들기 단계를 설명합니다.
 
@@ -60,6 +60,8 @@ ht-degree: 39%
    [이 페이지](../audience/one-time-audience.md)에서 새 대상자를 만드는 방법을 알아보세요.
 
 1. 게재의 영향을 측정하는 컨트롤 그룹을 설정하려면 **[!UICONTROL 컨트롤 그룹 사용]** 옵션을 켜십시오. 메시지는 해당 컨트롤 그룹으로 전송되지 않으므로 메시지를 받은 모집단의 동작을 받지 않은 연락처의 동작과 비교할 수 있습니다. [자세히 알아보기](../audience/control-group.md)
+
+1. SMS 게재를 다국어 게재로 구성하여 프로필의 기본 언어를 기반으로 메시지를 보낼 수 있습니다. [자세히 알아보기](../msg/multilingual.md).
 
 1. SMS 메시지의 콘텐츠 디자인을 시작하려면 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요. [자세히 알아보기](content-sms.md)
 

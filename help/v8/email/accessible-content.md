@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 이메일, 디자인, 접근성
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1643'
 ht-degree: 1%
 
 ---
@@ -20,13 +20,12 @@ ht-degree: 1%
 
 이 규정은 이메일, 뉴스레터, PDF 및 다운로드 가능한 콘텐츠를 포함한 모든 디지털 통신에 액세스할 수 있어야 한다고 명시합니다. 따라서 수신자를 위한 콘텐츠를 만들 때는 액세스 가능한 글꼴, 읽을 수 있는 형식 사용 등의 특정 지침을 따르고 이미지에 대한 대체 텍스트를 제공해야 합니다.
 
-마케터가 [!DNL Adobe Campaign]이메일[&#x200B; 및 &#x200B;](create-email-content.md)랜딩 페이지&#x200B;**에 대한 콘텐츠를 모두 만들 수 있는** **이메일 Designer**&#x200B;을(를) 사용하면 WCAG(Web Content Accessibility Guidelines) 2.1, 레벨 AA를 기반으로 이 지시문을 쉽게 준수할 수 있습니다.
+마케터가 [!DNL Adobe Campaign]이메일[ 및 ](create-email-content.md)랜딩 페이지&#x200B;**에 대한 콘텐츠를 모두 만들 수 있는** **이메일 Designer**&#x200B;을(를) 사용하면 WCAG(Web Content Accessibility Guidelines) 2.1, 레벨 AA를 기반으로 이 지시문을 쉽게 준수할 수 있습니다.
 
 이에 따라 [!DNL Adobe Campaign]을(를) 사용하여 액세스 가능한 콘텐츠를 디자인하는 모범 사례가 아래에 나와 있습니다.
 
 이 페이지에서는 [!DNL Adobe Campaign]&#x200B;(으)로 디자인된 전자 메일 및 랜딩 페이지를 장애가 있는 사람이 읽고, 이해하고, 상호 작용할 수 있도록 모든 받는 사람이 콘텐츠에 액세스할 수 있도록 합니다.
  
-
 ## 텍스트 가독성 확인 {#text-readability}
 
 **[!UICONTROL Text]** 구성 요소의 **[!UICONTROL Styles]** 탭을 사용하여 적절한 색상 대비 및 간단한 글꼴을 사용하는 등 텍스트를 읽을 수 있도록 합니다. [자세히 알아보기](content-components.md#text)
@@ -124,6 +123,8 @@ ht-degree: 1%
 * 테스트 프로필을 사용하여 콘텐츠를 미리 봅니다. [방법 알아보기](../preview-test/preview-content.md)
 
 * Litmus를 활용하는 [전자 메일 렌더링](../preview-test/email-rendering.md) 옵션을 사용하여 주요 전자 메일 클라이언트(Apple Mail, Gmail, Outlook)의 디자인을 시뮬레이션하고 텍스트, 색상 및 이미지를 통해 콘텐츠에 액세스할 수 있는지 확인합니다. <!--Litmus includes accessibility testing-->
+
+* 컨텐츠 품질을 확인하여 접근성의 핵심 구성 요소인 가독성을 평가합니다. [콘텐츠 품질 유효성 검사에 대해 자세히 알아보기](../content/brands-score.md#validate-quality)
 
 * 실제 대상에게 전송하기 전에 콘텐츠의 렌더링을 테스트하기 위한 증명을 보냅니다. [방법 알아보기](../preview-test/test-deliveries.md)
 

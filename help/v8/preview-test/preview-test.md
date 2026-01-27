@@ -3,10 +3,10 @@ audience: end-user
 title: 게재 미리 보기 및 테스트 정보
 description: 게재 미리 보기 및 테스트 방법 알아보기
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 17%
+source-wordcount: '206'
+ht-degree: 16%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 17%
 >id="acw_deliveries_simulate"
 >title="콘텐츠 미리보기 및 테스트"
 >abstract="콘텐츠가 정의되면 프로필 및 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=ko" text="교정쇄 보내기"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=ko#test-landing-page" text="랜딩 페이지 테스트"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="교정쇄 보내기"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="랜딩 페이지 테스트"
 
 게재 콘텐츠가 정의되면 프로필 및 테스트 프로필을 사용하여 메시지를 보내기 전에 미리 보고 테스트할 수 있습니다. 이 단계에서는 정확성을 보장하고 콘텐츠와 개인화 설정 모두에서 오류를 제거합니다.
 
@@ -26,6 +26,7 @@ ht-degree: 17%
 * [메시지 콘텐츠 및 개인화 미리 보기](preview-content.md)
 * 테스트 및 유효성 검사를 위해 특정 받는 사람 또는 구독자에게 [증명 보내기](test-deliveries.md)
 * 인기 있는 데스크톱, 모바일 및 웹 기반 클라이언트에서 [전자 메일 렌더링 확인](email-rendering.md)
+* 가독성, CTA 효율성, 분야별 품질 등을 평가하려면 [콘텐츠 품질을 확인합니다](../content/brands-score.md#validate-quality)
 * [랜딩 페이지 미리보기 및 테스트](../landing-pages/create-lp.md#test-landing-page)
 
 게재의 콘텐츠 편집 화면 또는 **[!UICONTROL 전자 메일 Designer]**&#x200B;에서 액세스할 수 있는 [콘텐츠 시뮬레이션](../email/get-started-email-designer.md) 단추를 사용하여 이러한 작업을 수행합니다.

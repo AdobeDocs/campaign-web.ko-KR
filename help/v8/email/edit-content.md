@@ -3,10 +3,10 @@ audience: end-user
 title: 이메일 콘텐츠 편집
 description: Campaign 웹 사용자 인터페이스에서 이메일 콘텐츠를 편집하는 방법을 알아봅니다
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 36%
+source-wordcount: '683'
+ht-degree: 35%
 
 ---
 
@@ -106,4 +106,6 @@ ht-degree: 36%
 
 1. 기본적으로 게재에 대해 추적 기능이 활성화되어 있습니다. **[!UICONTROL 선택 기능]** 섹션에서 이 옵션을 비활성화할 수 있습니다. [링크 추가 및 추적 관리 방법 알아보기](message-tracking.md)
 
-1. 이메일 콘텐츠를 정의한 다음에는 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 사용하여 이메일을 전송하기 전에 어떻게 표시되는지 확인합니다. [전자 메일을 미리 보고 테스트하는 방법을 알아보세요](../preview-test/preview-test.md).
+1. 이메일 콘텐츠를 정의한 다음에는 **[!UICONTROL 콘텐츠 시뮬레이션]** 버튼을 사용하여 이메일을 전송하기 전에 어떻게 표시되는지 확인합니다. 콘텐츠 품질을 확인하여 가독성, CTA 효율성 및 전체 품질을 평가할 수도 있습니다. [콘텐츠 품질 유효성 검사에 대해 자세히 알아보기](../content/brands-score.md#validate-quality)
+
+1. [전자 메일을 미리 보고 테스트하는 방법을 알아보세요](../preview-test/preview-test.md).

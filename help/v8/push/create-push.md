@@ -3,9 +3,9 @@ audience: end-user
 title: 푸시 알림 게재 만들기
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 만드는 방법을 알아봅니다
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '759'
 ht-degree: 28%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 28%
 >id="acw_push_notification_template"
 >title="푸시 알림 템플릿"
 >abstract="푸시 게재를 시작하려면 푸시 알림 템플릿을 선택합니다. 게재 템플릿을 사용하면 캠페인과 게재 전반에 걸쳐 사용자 정의 콘텐츠와 설정을 쉽게 재사용할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=ko" text="게재 템플릿 사용"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="게재 템플릿 사용"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
@@ -53,13 +53,15 @@ ht-degree: 28%
    * **[!UICONTROL 특성]**: 분류 목적으로 게재 특성을 지정합니다.
    +++
 
+1. 프로필의 기본 언어를 기반으로 메시지를 전송하도록 푸시 알림을 다국어 게재로 구성할 수 있습니다. [자세히 알아보기](../msg/multilingual.md).
+
 ## 푸시 게재 대상자 선택 {#create-audience-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_audience"
 >title="푸시 알림 대상자 정의"
 >abstract="메시지의 대상자를 정의하려면 먼저 푸시 게재와 연결된 앱을 선택해야 합니다. 기본적으로 푸시 알림은 애플리케이션의 모든 구독자에게 전송됩니다. **대상자 선택** 버튼을 클릭하여 특정 대상자로 세분화할 수 있습니다. 필요한 경우 컨트롤 그룹을 추가하여 게재의 영향을 측정할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=ko" text="컨트롤 그룹 설정"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="컨트롤 그룹 설정"
 
 먼저 앱을 선택해야 합니다. 그런 다음 아래에 설명된 대로 푸시 알림 대상을 세분화할 수 있습니다.
 
@@ -73,11 +75,11 @@ ht-degree: 28%
 
    [이 페이지](../audience/one-time-audience.md)에서 새 대상자를 만드는 방법을 알아보세요.
 
-1. 게재의 영향을 측정하는 컨트롤 그룹을 설정하려면 **[!UICONTROL 컨트롤 그룹 사용]** 옵션을 켜십시오. 메시지는 해당 컨트롤 그룹으로 전송되지 않으므로 메시지를 받은 모집단의 동작을 받지 않은 연락처의 동작과 비교할 수 있습니다. [자세히 알아보기](../audience/control-group.md)
+1. 게재의 영향을 측정하는 컨트롤 그룹을 설정하려면 **[!UICONTROL 컨트롤 그룹 사용]** 옵션을 켜십시오. 메시지는 해당 컨트롤 그룹으로 전송되지 않으므로 메시지를 받은 모집단의 동작을 받지 않은 연락처의 동작과 비교할 수 있습니다. [자세히 알아보기](../audience/control-group.md).
 
 ## 푸시 알림 콘텐츠 정의 {#create-content-push}
 
-알림 콘텐츠를 정의하려면 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭합니다. [자세히 알아보기](content-push.md)
+알림 콘텐츠를 정의하려면 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭합니다. [자세히 알아보기](content-push.md).
 
 ![푸시 게재에 대한 콘텐츠 편집을 보여 주는 스크린샷](assets/push_create_5.png){zoomable="yes"}
 
@@ -103,6 +105,6 @@ ht-degree: 28%
 
 ## 게재 고급 설정 {#adv-push}
 
-**[!UICONTROL 게재 설정 구성]**&#x200B;을 클릭하여 게재 템플릿과 관련된 고급 옵션에 액세스합니다. [자세히 알아보기](../advanced-settings/delivery-settings.md)
+**[!UICONTROL 게재 설정 구성]**&#x200B;을 클릭하여 게재 템플릿과 관련된 고급 옵션에 액세스합니다. [자세히 알아보기](../advanced-settings/delivery-settings.md).
 
 ![푸시 게재에 대한 고급 설정을 보여 주는 스크린샷](assets/push_create_4.png){zoomable="yes"}

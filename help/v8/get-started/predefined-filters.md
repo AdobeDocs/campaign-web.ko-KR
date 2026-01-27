@@ -2,10 +2,10 @@
 title: 미리 정의된 필터 작업
 description: Adobe Campaign Web에서 미리 정의된 필터를 만들고 관리하는 방법 알아보기
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: b904870f256ec2eeac9a4e353ea8cb9d854524ee
-workflow-type: ht
-source-wordcount: '936'
-ht-degree: 100%
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+workflow-type: tm+mt
+source-wordcount: '1055'
+ht-degree: 85%
 
 ---
 
@@ -67,11 +67,11 @@ ht-degree: 100%
 
    ![필터 세부 정보 인터페이스 저장](assets/predefined-filters-save-filter.png){zoomable="yes"}
 
-   필요한 경우 필터를 즐겨찾기로 저장할 수 있습니다. [이 섹션](#fav-filter)에서 자세히 알아보십시오.
+   필요한 경우 필터를 즐겨찾기로 저장할 수 있습니다. 자세한 내용은 [이 섹션](#fav-filter)을 참조하세요. **[!UICONTROL 공유 필터]** 옵션을 활성화하여 다른 사용자가 필터에 액세스할 수 있도록 할 수도 있습니다. [이 섹션](#share-filter)에서 자세히 알아보십시오.
 
 1. **확인**&#x200B;을 클릭하여 변경 내용을 저장합니다.
 
-이제 사용자 정의 필터를 **미리 정의된 필터** 목록에서 사용할 수 있으며 모든 Campaign 사용자가 액세스할 수 있습니다.
+이제 사용자 지정 필터를 **미리 정의된 필터** 목록에서 사용할 수 있습니다.
 
 ### 필터 목록에서 필터 만들기 {#create-filter-from-list}
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 
    ![새로운 필터 저장 인터페이스](assets/new-filter.png){zoomable="yes"}
 
-해당 필터가 미리 정의된 필터 목록에 추가됩니다. 필요한 경우 필터를 즐겨찾기로 저장할 수 있습니다. [이 섹션](#fav-filter)에서 자세히 알아보십시오.
+해당 필터가 미리 정의된 필터 목록에 추가됩니다. 필요한 경우 필터를 즐겨찾기로 저장할 수 있습니다. 자세한 내용은 [이 섹션](#fav-filter)을 참조하세요. **[!UICONTROL 공유 필터]** 옵션을 활성화하여 다른 사용자와 필터를 공유할 수도 있습니다. [이 섹션](#share-filter)에서 자세히 알아보십시오.
 
 ## 필터를 즐겨찾기로 저장 {#fav-filter}
 
@@ -98,6 +98,14 @@ ht-degree: 100%
 필터를 즐겨찾기로 저장하면 아래와 같이 필터 생성 목록의 **자주 사용하는 필터** 섹션에서 모든 사용자가 사용할 수 있습니다.
 
 ![즐겨찾기 필터 섹션](assets/predefined-filters-favorite.png){zoomable="yes"}
+
+## 사전 정의된 필터 공유 {#share-filter}
+
+기본적으로 사전 정의된 필터는 비공개이며 사용자에게만 표시됩니다. 조직의 다른 연산자가 필터에 액세스할 수 있도록 하려면 **[!UICONTROL 공유 필터]** 옵션을 사용하도록 설정하십시오.
+
+![공유 필터 옵션](assets/predefined-filters-shared.png){zoomable="yes"}
+
+공유 필터는 모든 사용자에 대해 사전 정의된 필터 목록에 표시되므로 사용자가 자신의 워크플로우 및 쿼리에서 이러한 필터를 사용할 수 있습니다.
 
 ## 미리 정의된 필터 사용 {#use-predefined-filter}
 
@@ -121,6 +129,8 @@ ht-degree: 100%
 
    ![미리 정의된 필터 목록 인터페이스](assets/build-audience-filter-list.png){zoomable="yes"}
 
+   ![](../content/assets/do-not-localize/Smock_More_18_N.svg) 단추를 사용하여 미리 정의된 기존 필터를 편집하거나 삭제할 수도 있습니다.
+
 1. 이 필터의 규칙 속성을 검토하고 확인합니다.
 
    이제 필터가 **쿼리** 활동에서 쿼리로 사용됩니다.
@@ -141,7 +151,7 @@ ht-degree: 100%
 * 미리 정의된 필터 복제
 * 미리 정의된 필터 삭제
 
-규칙 빌더에서 미리 정의된 필터를 직접 편집하거나 삭제할 수도 있습니다. 미리 정의된 필터 선택 창에서 **기타 액션** 버튼을 사용하십시오. 필터를 삭제하거나 편집할 수 있습니다. 레이블을 변경하고, 설명을 추가하고, 즐겨찾기에 추가할 수 있습니다.
+규칙 빌더에서 미리 정의된 필터를 직접 편집하거나 삭제할 수도 있습니다. 미리 정의된 필터 선택 창에서 **기타 액션** 버튼을 사용하십시오. 필터를 삭제하거나 편집할 수 있습니다. 레이블을 변경하거나, 설명을 추가하거나, 즐겨찾기로 추가하거나, **[!UICONTROL 공유 필터]** 옵션을 전환하여 필터에 액세스할 수 있는 사용자를 제어할 수 있습니다.
 
 ![미리 정의된 필터 에디션](assets/filter-edit.png){zoomable="yes"}
 

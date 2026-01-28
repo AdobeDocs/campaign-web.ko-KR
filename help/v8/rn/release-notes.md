@@ -2,10 +2,10 @@
 title: Campaign v8 Web 사용자 인터페이스 릴리스 정보
 description: 최신 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 36d2b7a67ef087d628151199a223ceee54f84180
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 30%
+source-wordcount: '670'
+ht-degree: 31%
 
 ---
 
@@ -133,4 +133,3 @@ _2026년 1월 27일_
 * 사전 정의된 필터 - 새로운 &quot;공유 필터&quot; 옵션을 사용하면 조직의 다른 사용자가 사전 정의된 필터를 사용할 수 있도록 할 수 있습니다. [자세히 알아보기](../get-started/predefined-filters.md#share-filter)
 * 이름, 이메일, 날짜 및 주소와 같이 Adobe Experience Manager에서 생성된 개인화 필드는 이제 콘텐츠 템플릿을 사용할 때 포함되고 사용할 수 있습니다.
 * 이제 콘텐츠 품질 평가는 브랜드 지침과 관계없이 명확성, 응집성 및 효율성 문제를 점검하여 명확하지 않은 메시지, 일관되지 않은 말투 또는 구조적 차이를 식별합니다. [자세히 알아보기](../content/brands-score.md)
-* 브랜드 가이드라인에는 이제 브랜드 색상 시스템에 대한 표준을 정의하는 색상 섹션이 포함되어 모든 경험에서 기본, 보조, 악센트 및 중립 색상을 일관되게 사용할 수 있습니다. [자세히 알아보기](../content/brands-personalize.md)

@@ -140,7 +140,7 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 >id="acw_offers_list"
 >title="오퍼"
 >abstract="**상호 작용** 모듈을 사용하여 콘솔에서 생성된 오퍼 및 오퍼 템플릿 목록을 탐색합니다. 이 목록은 읽기 전용입니다."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/offers" text="게재에 오퍼 추가"
+>additional-url="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/start/offers" text="게재에 오퍼 추가"
 
 **의사 결정 관리** 섹션에서 오퍼 및 오퍼 템플릿을 볼 수 있습니다. 이 목록은 읽기 전용입니다.
 

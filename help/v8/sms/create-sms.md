@@ -21,7 +21,7 @@ ht-degree: 37%
 >id="acw_deliveries_sms_audience"
 >title="SMS 대상자 정의"
 >abstract="**대상자 선택** 버튼을 클릭하여 새 대상자를 만들거나 기존 대상자를 선택합니다. 필요한 경우 컨트롤 그룹을 추가하여 게재의 영향을 측정할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=ko" text="컨트롤 그룹 설정"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="컨트롤 그룹 설정"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"

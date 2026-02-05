@@ -16,7 +16,7 @@ ht-degree: 4%
 >id="acw_homepage_welcome_rn6"
 >title="캠페인 승인 관리"
 >abstract="이제 게재를 보내기 전에 관련자 유효성 검사를 조정할 수 있습니다. 품질 관리를 위해 마케팅 관리자, 데이터 분석가 또는 다른 팀의 승인이 필요합니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 >[!IMPORTANT]
 >

@@ -2,20 +2,14 @@
 title: 외부 계정 관리
 description: 외부 계정을 구성하는 방법 알아보기
 exl-id: 52b4ec99-4f55-4e0b-8a54-b25058d97b02
-source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 19%
+source-wordcount: '210'
+ht-degree: 5%
 
 ---
 
 # 외부 계정 만들기 {#create-external-account}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="외부 계정 작성"
->abstract="캠페인 관리자는 이제 Campaign Web 사용자 인터페이스에서 외부 시스템과의 새로운 연결을 설정할 수 있습니다. 기존 외부 계정을 보고, 업데이트하고, 관리할 수도 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 새 외부 계정을 만들려면 아래에 설명된 단계를 수행합니다. 특정 구성 설정은 만들고 있는 외부 계정 유형에 따라 다릅니다.
 

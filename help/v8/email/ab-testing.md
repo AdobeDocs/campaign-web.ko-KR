@@ -2,14 +2,20 @@
 audience: end-user
 title: 콘텐츠 실험 만들기
 description: Adobe Campaign 웹에서 콘텐츠 실험을 만드는 방법을 알아봅니다
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1154'
 ht-degree: 2%
 
 ---
 
 # 콘텐츠 실험 만들기 {#content-experiment}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="콘텐츠 실험 - A/B 테스트"
+>abstract="이제 여러 게재 변형을 정의하여 가장 성과가 좋은 게재를 테스트할 수 있습니다. 이메일 요소에 따라 콘텐츠, 제목 또는 발신자를 달라서 최적의 결과를 결정합니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
 
 ## 콘텐츠 실험 정보 {#about-content-experiment}
 

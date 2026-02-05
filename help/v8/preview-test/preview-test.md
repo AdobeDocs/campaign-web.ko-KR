@@ -3,10 +3,10 @@ audience: end-user
 title: 게재 미리 보기 및 테스트 정보
 description: 게재 미리 보기 및 테스트 방법 알아보기
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: eb18e2cfc97c13bb0cffac0f8a5bcfa5b18ceabb
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 15%
+source-wordcount: '206'
+ht-degree: 16%
 
 ---
 
@@ -16,7 +16,8 @@ ht-degree: 15%
 >id="acw_deliveries_simulate"
 >title="콘텐츠 미리보기 및 테스트"
 >abstract="콘텐츠가 정의되면 프로필 및 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=ko#test-landing-page" text="랜딩 페이지 테스트"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/preview-test/preview-test" text="교정쇄 보내기"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="랜딩 페이지 테스트"
 
 게재 콘텐츠가 정의되면 프로필 및 테스트 프로필을 사용하여 메시지를 보내기 전에 미리 보고 테스트할 수 있습니다. 이 단계에서는 정확성을 보장하고 콘텐츠와 개인화 설정 모두에서 오류를 제거합니다.
 

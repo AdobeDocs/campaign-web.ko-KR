@@ -3,7 +3,8 @@ audience: end-user
 title: 승인 프로세스 설정 및 관리
 description: Campaign 웹에서 마케팅 캠페인 승인을 관리하는 방법 알아보기
 feature: Approvals, Campaigns
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: 8140f904-ec0a-44e1-981f-0e050d3c9cdb
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 4%
@@ -16,7 +17,7 @@ ht-degree: 4%
 >id="acw_homepage_welcome_rn6"
 >title="캠페인 승인 관리"
 >abstract="이제 게재를 보내기 전에 관련자 유효성 검사를 조정할 수 있습니다. 품질 관리를 위해 마케팅 관리자, 데이터 분석가 또는 다른 팀의 승인이 필요합니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
 
 >[!IMPORTANT]
 >

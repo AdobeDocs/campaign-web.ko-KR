@@ -2,7 +2,8 @@
 audience: end-user
 title: 다국어 게재 구성
 description: 다국어 게재를 구성하는 방법 알아보기
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: eea0e997-4da2-4998-b010-234626b21353
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 3%
@@ -15,7 +16,7 @@ ht-degree: 3%
 >id="acw_homepage_welcome_rn1"
 >title="다국어 게재"
 >abstract="이제 Campaign 웹 UI에서 여러 언어로 메시지를 보낼 수 있습니다. 푸시 알림의 경우 CSV 파일을 업로드하여 모든 언어 변형을 채웁니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"
@@ -256,4 +257,3 @@ title,messageBody,sound,badge,deeplinkURI,category,iosMediaAttachmentURL,android
 | 열 이름 대/소문자 불일치 | 열 이름이 정확하게 일치하지 않음 | 열 이름은 대소문자를 구분합니다. 위에 표시된 정확한 이름을 사용하십시오(예: `badge` 또는 `Badge`이(가) 아닌 `BADGE`). |
 
 >모범 사례는 이 [섹션](#csv-best-practices)에 나열되어 있습니다. 열 구조가 이 [섹션](#csv-columns)에 자세히 설명되어 있습니다.
-

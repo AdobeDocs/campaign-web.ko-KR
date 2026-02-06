@@ -2,7 +2,8 @@
 audience: end-user
 title: 연속 게재 워크플로우 활동 사용
 description: 연속 게재 워크플로우 활동을 사용하는 방법을 알아봅니다
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: 659bddcb-280c-4623-8115-6f975515d1a2
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 3%
@@ -15,7 +16,7 @@ ht-degree: 3%
 >id="acw_homepage_welcome_rn5"
 >title="지속적인 게재 활동"
 >abstract="이제 기존 게재에 새 수신자를 추가할 수 있습니다. 이 게재 유형은 매번 새 게재를 만들 필요가 없으므로 필요에 따라 전송되는 낮은 볼륨 경고 또는 알림에 대해 보다 효율적입니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
 
 **연속 게재** 활동을 사용하면 기존 게재에 새 수신자를 추가할 수 있습니다. 이 게재 유형은 매번 새 게재를 만들 필요가 없으므로 필요에 따라 전송되는 낮은 볼륨 경고 또는 알림에 대해 보다 효율적입니다.
 

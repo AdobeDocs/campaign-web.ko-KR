@@ -2,16 +2,16 @@
 title: 자주 묻는 질문
 description: Campaign Web 사용자 인터페이스에 대한 자주 묻는 질문
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
-workflow-type: ht
-source-wordcount: '782'
-ht-degree: 100%
+source-git-commit: 94926311c3e3c512e48f5af4a5bedeb3f218cbcd
+workflow-type: tm+mt
+source-wordcount: '780'
+ht-degree: 98%
 
 ---
 
 # 자주 묻는 질문
 
-다음 섹션에서는 새로운 Campaign 인터페이스와 관련하여 자주 묻는 질문을 나열했습니다. 추가 질문이 있습니까? 경험을 공유하거나 동료와 의견을 교환하시겠습니까? 또는 Adobe 팀을 위한 학습 컨텐츠에 대한 피드백을 가지고 있습니까? [Adobe Campaign 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community?profile.language=ko){target="_blank"}의 대화에 참여하십시오.
+다음 섹션에서는 새로운 Campaign 인터페이스와 관련하여 자주 묻는 질문을 나열했습니다. 추가 질문이 있습니까? 경험을 공유하거나 동료와 의견을 교환하시겠습니까? 또는 Adobe 팀을 위한 학습 컨텐츠에 대한 피드백을 가지고 있습니까? [Adobe Campaign 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community){target="_blank"}의 대화에 참여하십시오.
 
 +++ 새로운 웹 사용자 인터페이스에 액세스하려면 어떤 버전의 Adobe Campaign이 필요합니까?
 
@@ -59,7 +59,7 @@ Campaign 클라이언트 콘솔은 새로운 인터페이스와 함께 사용할
 
 +++ Adobe Campaign Classic v7에 대한 지원이 종료된다는 의미입니까?
 
-Adobe Campaign Classic v7은 2027년 3월 31일까지 지원됩니다. [제품 및 기술 지원 기간](https://helpx.adobe.com/kr/support/programs/eol-matrix.html){target="_blank"} 페이지를 참조하십시오.
+Adobe Campaign Classic v7 지원 종료 날짜는 [제품 및 기술 지원 기간](https://helpx.adobe.com/kr/support/programs/eol-matrix.html){target="_blank"} 페이지를 참조하십시오.
 
 +++
 

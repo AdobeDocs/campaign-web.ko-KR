@@ -2,10 +2,10 @@
 title: Campaign v8 Web 사용자 인터페이스 릴리스 정보
 description: 최신 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 4e671c438092342b6a53dd8ef3df8276b08d36a3
+source-git-commit: c1c081688c6e7f48baf0514fbea1292ea40d96c7
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 42%
+source-wordcount: '274'
+ht-degree: 46%
 
 ---
 
@@ -66,7 +66,7 @@ _2026년 2월 17일_
 <tr>
 <td>
 <p>이제 캠페인 인벤토리에 시간 경과에 따른 캠페인을 시각화하고 관리할 수 있는 타임라인 보기가 포함됩니다. 목록 및 타임라인 간을 전환하고 주, 월 또는 일별로 탐색하며, 오늘 버튼을 사용하여 현재 날짜로 이동하며, 목록 보기와 동일한 필터 및 검색을 사용하여 오른쪽 패널에서 캠페인 세부 사항(상태, 워크플로, 게재)을 열 수 있습니다.</p>
-<!--p>For more information, refer to the detailed documentation.</p-->
+<p>자세한 내용은 <a href="../campaigns/manage-campaigns.md#timeline">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -82,7 +82,7 @@ _2026년 2월 17일_
 <tr>
 <td>
 <p>이제 Campaign 웹 사용자 인터페이스에서 직접 스키마를 만들고 관리할 수 있습니다. 이 기능을 사용하면 새 테이블을 만들고, 기존 스키마를 확장하며, 사용자 정의 양식을 만들 수 있습니다. 클라이언트 콘솔에 액세스하지 않고도 특정 비즈니스 요구 사항을 지원하도록 사용자 정의 데이터 구조를 정의할 수 있습니다.</p>
-<!--p>For more information, refer to the <a href="../administration/schemas.md">detailed documentation</a>.</p-->
+<p>자세한 내용은 <a href="../administration/schemas.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -91,7 +91,7 @@ _2026년 2월 17일_
 ### 개선 사항 {#26-2-improvements}
 
 * 브랜드 가이드라인에는 이제 브랜드 색상 시스템에 대한 표준을 정의하는 색상 섹션이 포함되어 모든 경험에서 기본, 보조, 악센트 및 중립 색상을 일관되게 사용할 수 있습니다.
-  <!--[Learn more](../content/brands-personalize.md)-->
+  [자세히 알아보기](../content/brands-personalize.md)
 
 
 

@@ -1,22 +1,20 @@
 ---
-title: 스키마 작업
+title: 스키마 정보
 description: 스키마 작업 방법을 알아봅니다.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 14%
+source-wordcount: '266'
+ht-degree: 6%
 
 ---
 
-# 스키마 작업 {#schemas}
+# 스키마 정보 {#schemas}
 
 >[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="스키마"
->abstract="**[!DNL Adobe Campaign]**&#x200B;의 경우 XML 기반 스키마를 사용하여 애플리케이션 내 데이터의 물리적, 논리적 구조를 정의합니다. 이 화면에서는 기존 스키마를 모두 볼 수 있으며 목록에서 스키마 이름을 선택하여 스키마의 세부 정보에 액세스할 수 있습니다. 편집 가능한 스키마만 표시하는 등 목록을 구체화하는 데 도움이 되는 필터를 사용할 수 있습니다."
-
-## 스키마 정보 {#about}
+>abstract="Adobe Campaign은 XML 기반 스키마를 사용하여 애플리케이션 내의 데이터의 물리적 및 논리적 구조를 정의합니다. 이 화면에서는 웹 사용자 인터페이스에서 기존 스키마를 모두 보고, 스키마 세부 정보에 액세스하고, 사용자 정의 양식을 구성하고, 스키마를 직접 만들거나 확장할 수 있습니다."
 
 **[!DNL Adobe Campaign]**&#x200B;의 경우 XML 기반 스키마를 사용하여 애플리케이션 내 데이터의 물리적, 논리적 구조를 정의합니다. 스키마는 다음을 정의하는 데이터베이스 테이블에 연결된 XML 문서입니다.
 
@@ -31,72 +29,18 @@ ht-degree: 14%
 
 Adobe Campaign의 각 엔티티에는 전용 스키마가 있어 데이터 일관성과 조직을 유지할 수 있습니다.
 
-스키마에 대한 자세한 내용은 [Campaign 콘솔 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}를 참조하세요.
+스키마 인터페이스를 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 
-## 웹 사용자 인터페이스의 스키마에 액세스 {#access}
-
-**[!UICONTROL 관리]** > **[!UICONTROL 스키마]** 메뉴에서 스키마에 액세스할 수 있습니다.
-
-![사용 가능한 스키마와 필터를 보여 주는 스키마 목록 화면](assets/schemas-list.png)
-
-이 화면에서 기존의 모든 스키마를 볼 수 있습니다. 편집 가능한 스키마만 표시하는 등 목록을 구체화하는 데 도움이 되는 필터를 사용할 수 있습니다.
-
-스키마를 열려면 스키마 이름을 선택합니다. 자세한 스키마 보기가 표시됩니다.
-
-![스키마 속성 및 콘텐츠를 표시하는 스키마 세부 정보 화면](assets/schema-details.png)
-
-### 스키마 개요 {#overview}
-
-**[!UICONTROL 개요]** 탭에서는 스키마에 대한 일반 보기를 제공합니다.
-
-* **[!UICONTROL 속성]** 섹션에는 스키마 이름, 네임스페이스 및 관련 테이블 이름과 같은 주요 정보가 표시됩니다.
-
-* **[!UICONTROL 스키마 정의]** 섹션에는 데이터 조정에 사용되는 기본 키와 다른 테이블과의 링크를 포함하여 스키마 정의에 대한 세부 정보가 표시됩니다.
-
-  스키마를 구성하는 다양한 필드 및 링크를 보려면 **[!UICONTROL 스키마 미리 보기]** 단추를 클릭하십시오. 이를 통해 스키마의 전체 구조를 확인할 수 있습니다. 스키마가 사용자 지정 필드로 확장된 경우 모든 해당 확장을 시각화할 수 있습니다.
-
-* **[!UICONTROL 콘텐츠]** 섹션에는 스키마의 XML 콘텐츠가 표시되어 소스와 생성된 구문 간에 전환할 수 있습니다.
-
-### 스키마 데이터 {#data}
-
-**[!UICONTROL 데이터]** 탭에서 스키마 데이터에 대한 정보를 제공합니다.
-
-![데이터 구조 및 특성을 표시하는 스키마 데이터 탭](assets/schemas-data.png)
-
-## 화면 정의 구성 {#screen-definition}
-
-### 사용자 정의 필드 편집 {#fields}
-
-사용자 지정 필드는 Adobe Campaign 콘솔을 통해 기본 스키마에 추가된 추가 속성입니다. 조직의 요구 사항에 맞게 새 속성을 포함하여 스키마를 사용자 지정할 수 있습니다.
-
-사용자 지정 필드는 Campaign 웹 인터페이스의 프로필 세부 사항과 같은 다양한 화면에 표시할 수 있습니다. 표시되는 필드와 인터페이스에 표시되는 방식을 제어할 수 있습니다. 이렇게 하려면 **[!UICONTROL 스키마]** 메뉴에서 **[!UICONTROL 화면 편집]** 단추를 클릭하십시오.
-
-![편집 가능한 특성을 표시하는 사용자 지정 필드 화면](assets/schemas-custom.png)
-
-**[!UICONTROL 미리 보기]**&#x200B;를 클릭하여 샘플 화면에 사용자 지정 필드를 표시합니다.
-
-스키마에서 사용자 정의 필드를 편집하는 방법에 대한 자세한 내용은 [사용자 정의 필드 구성](../administration/custom-fields.md) 섹션을 참조하십시오.
-
-### 컬렉션 목록 추가 {#collection-lists}
-
-이 **사용자 지정 목록** 섹션에서 구매와 같은 컬렉션 링크를 정의할 수 있습니다. 그런 다음 전용 탭을 통해 관련 데이터가 프로필 화면에 표시됩니다.
+* [스키마 액세스 및 사용자 지정](schemas-browse-access.md) - 사용 가능한 스키마를 보고 세부 정보를 탐색하며 화면 표시를 사용자 지정합니다.
+* [목록 열 구성](schemas-list-columns.md) - 목록 보기에 기본적으로 표시되는 열을 구성합니다.
+* [사용자 정의 필드 편집](schemas-custom-fields.md) - 세부 정보 화면에 표시할 사용자 정의 필드를 구성하고 섹션으로 구성합니다.
+* [컬렉션 목록 추가](schemas-collection-lists.md) - 프로필 화면에 관련 데이터를 표시할 컬렉션 목록을 추가합니다.
+* [스키마 만들기 및 관리](schemas-create-publish.md#create-schemas) - 새 스키마를 만들고 기존 스키마를 확장합니다.
+* [스키마 게시 및 동기화](schemas-create-publish.md#publish) - 스키마 변경 내용을 데이터베이스 구조와 동기화합니다.
+* [사용자 정의 양식으로 작업](schemas-custom-forms.md) - 데이터 입력 양식을 사용하여 사용자 정의 스키마에서 레코드를 만들고, 편집하고, 관리합니다.
 
 >[!NOTE]
 >
->현재 이 기능은 수신자 스키마에만 사용할 수 있습니다.
+>스키마를 관리하려면 관리자 권한이 있어야 합니다.
 
-1. 인터페이스에 컬렉션 목록을 추가하려면 줄임표 버튼을 클릭하고 **사용자 지정 목록 선택**&#x200B;을 선택합니다.
-
-   ![컬렉션 목록 만들기](assets/schemas-collection1.png)
-
-1. 사용 가능한 사용자 지정 목록(예: 구매) 중 하나를 선택한 다음 **확인**&#x200B;을 클릭합니다.
-
-   ![컬렉션 목록 만들기](assets/schemas-collection2.png)
-
-1. **프로필** 메뉴로 이동하여 구매한 프로필을 필터링합니다.
-
-   ![컬렉션 목록 만들기](assets/schemas-collection3.png)
-
-1. 프로필을 클릭합니다. 새 탭이 표시됩니다. 필요한 경우 열을 더 추가할 수 있습니다.
-
-   ![컬렉션 목록 만들기](assets/schemas-collection4.png)
+스키마에 대한 자세한 내용은 [Campaign 콘솔 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}를 참조하세요.

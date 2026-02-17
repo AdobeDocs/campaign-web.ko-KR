@@ -7,7 +7,7 @@ hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e4f374cdab838717e46ac0b67a99306b310880ec
+source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
 workflow-type: tm+mt
 source-wordcount: '1525'
 ht-degree: 100%
@@ -158,7 +158,7 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 
 * **외부 계정** - Web 사용자 인터페이스를 사용하여 새로운 외부 계정을 만들어 특정 요구 사항을 충족하고 원활한 데이터 전송을 보장합니다. [자세히 알아보기](../administration/external-account.md).
 
-* **스키마** - 사용자 정의 필드는 Adobe Campaign 콘솔을 통해 기본 스키마에 추가되는 추가 속성입니다. [자세히 알아보기](../administration/custom-fields.md).
+* **스키마** - 사용자 정의 필드는 Adobe Campaign 콘솔을 통해 기본 스키마에 추가되는 추가 속성입니다. [자세히 알아보기](../administration/schemas-custom-fields.md).
 
 <!--* **Delivery Alerting** - Delivery Alerting is an alert management system that enables groups of users to automatically receive email notifications with information on their delivery executions. [Learn more](../msg/delivery-alerting.md).-->
 

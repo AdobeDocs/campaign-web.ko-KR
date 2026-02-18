@@ -5,9 +5,9 @@ description: 브랜드 지침을 개인화하는 방법 알아보기
 role: User
 level: Beginner, Intermediate
 exl-id: e02f8137-d6a8-46ec-a317-2ac5fb5d0c48
-source-git-commit: 3426490deea7dc8653b30f29c530ecc21b52f7b6
+source-git-commit: 06208ed2cbb08d9cebfceff3ebbc661c0b9682ee
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1444'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 0%
 
 * **[!UICONTROL 브랜드 정보]**&#x200B;를 통해 브랜드의 핵심 정체성과 가치를 설정할 수 있습니다.
 * **[!UICONTROL 작성 스타일]**&#x200B;은(는) 언어 및 콘텐츠 표준을 정의합니다.
-* **[!UICONTROL 시각적 콘텐츠]**&#x200B;는 이미지 및 디자인 지침을 설정합니다.
-* **[!UICONTROL 색상]**&#x200B;은(는) 브랜드의 색상 시스템 및 사용을 관리합니다.
+* **[!UICONTROL 시각적 콘텐츠]**는 이미지 및 디자인 지침을 설정합니다.
+  <!--* **[!UICONTROL Colors]** manages your brand's color system and usage.-->
 
 구성하고 나면 브랜드 지침을 사용하여 콘텐츠 품질과 브랜드 정렬을 검증할 수 있습니다. [콘텐츠 품질 유효성 검사에 대해 자세히 알아보기](brands-score.md#validate-quality)
 
@@ -250,6 +250,7 @@ ht-degree: 0%
 
 이제 브랜드를 추가로 개인화하거나 [브랜드를 게시](#create-brand-kit)할 수 있습니다.
 
+<!-->
 ## 색상 {#colors}
 
 **[!UICONTROL 색상]** 섹션에서는 브랜드 색상 시스템에 대한 표준을 정의하고 색상을 선택, 구성 및 여러 경험에서 적용하는 방법에 대해 대략적으로 설명합니다. 기본, 보조, 악센트 및 중립 색상을 일관되게 사용하여 일관되고 쉽게 액세스할 수 있으며 인식 가능한 브랜드 정체성을 유지합니다.
@@ -346,4 +347,4 @@ ht-degree: 0%
 1. **[!UICONTROL 그룹 추가]**&#x200B;를 클릭하여 브랜드를 위한 추가 색상을 정의하거나 색상 배율 그룹을 추가합니다.
 
 이제 브랜드를 추가로 개인화하거나 [브랜드를 게시](brands.md#create-brand-kit)할 수 있습니다.
-
+—>

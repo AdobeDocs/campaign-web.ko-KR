@@ -2,10 +2,10 @@
 title: Campaign v8 Web 사용자 인터페이스 릴리스 정보
 description: 최신 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 06208ed2cbb08d9cebfceff3ebbc661c0b9682ee
+source-git-commit: 46ea5bf6355de875947bda84b25f3e779ab08539
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 45%
+source-wordcount: '243'
+ht-degree: 51%
 
 ---
 
@@ -88,12 +88,12 @@ _2026년 2월 17일_
 </tbody>
 </table>
 
-<!-->
+<!--
 
-### 개선 사항 {#26-2-improvements}
+### Improvement {#26-2-improvements}
 
-* 브랜드 가이드라인에는 이제 브랜드 색상 시스템에 대한 표준을 정의하는 색상 섹션이 포함되어 모든 경험에서 기본, 보조, 악센트 및 중립 색상을 일관되게 사용할 수 있습니다.
-  [자세히 알아보기](../content/brands-personalize.md)—>
+* Brand guidelines now include a Colors section that defines standards for your brand's color system, ensuring consistent use of primary, secondary, accent, and neutral colors across all experiences. 
+[Learn more](../content/brands-personalize.md)-->
 
 
 

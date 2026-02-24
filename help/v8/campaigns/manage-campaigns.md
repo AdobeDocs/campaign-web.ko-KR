@@ -3,7 +3,7 @@ audience: end-user
 title: 업그레이드 시작하기
 description: 크로스 채널 캠페인 시작 방법 알아보기
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: 176b6abeee5391cc806b1660b2fd5bb39c654945
+source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 24%
@@ -29,7 +29,7 @@ ht-degree: 24%
 
 **[!UICONTROL 찾아보기]** 탭에는 캠페인의 현재 상태, 시작 및 종료 날짜, 만든 날짜, 마지막으로 수정한 시간 등에 대한 정보가 있습니다. 목록의 오른쪽 상단에 있는 **사용자 정의 레이아웃에 대한 열 구성** 아이콘을 클릭하여 표시된 열을 사용자 정의할 수 있습니다. 이렇게 하면 캠페인 목록에서 열을 추가 또는 제거하고 정보를 재정렬할 수 있습니다.
 
-### 인벤토리 검색 및 필터링 {#search}
+### 인벤토리 검색 및 필터링 {#search-and-filter}
 
 검색 창과 필터를 사용하여 목록 내에서 쉽게 검색할 수 있습니다. [자세히 알아보기](../get-started/user-interface.md#list-screens) 예를 들어 캠페인 예약을 필터링할 수 있습니다. 필터 패널을 열고 **시작 - 종료 일자** 섹션 사용:
 

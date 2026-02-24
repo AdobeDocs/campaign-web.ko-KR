@@ -3,7 +3,7 @@ audience: end-user
 title: 파일 전송 활동 사용
 description: 파일 전송 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 27%
@@ -155,6 +155,8 @@ ht-degree: 27%
    * **[!UICONTROL 리디렉션 따르기]**: 파일 리디렉션을 사용하면 재정의를 사용하여 데이터 입력 또는 출력을 다른 형식의 장치로 보낼 수 있습니다.
    * **[!UICONTROL 파일에 HTTP 헤더를 추가]**: 경우에 따라 파일에 추가 HTTP 헤더를 추가할 수 있습니다. 가장 일반적으로 이러한 헤더는 문제 해결 목적으로 [CORS(원본 간 리소스 공유)](https://developer.mozilla.org/docs/Web/HTTP/CORS)에 대한 추가 정보를 제공하거나 특정 캐싱 지침을 설정하는 데 사용됩니다.
    * **[!UICONTROL HTTP 반환 코드 무시]**: HTTP 상태 코드라고도 하는 HTTP 반환 코드는 HTTP 요청의 결과를 나타냅니다.
+
+   +++
 
 1. **[!UICONTROL 오류 처리]** 옵션을 사용하면 전송 중에 오류가 발생하는 경우 활동 후 &quot;오류&quot; 아웃바운드 전환을 활성화할 수 있습니다.
 

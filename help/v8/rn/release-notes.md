@@ -2,10 +2,10 @@
 title: Campaign v8 Web 사용자 인터페이스 릴리스 정보
 description: 최신 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 46ea5bf6355de875947bda84b25f3e779ab08539
+source-git-commit: 4cd545973f21ba4a77faa9b3cd421b49047dd243
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 51%
+source-wordcount: '267'
+ht-degree: 55%
 
 ---
 
@@ -75,13 +75,14 @@ _2026년 2월 17일_
 <table>
 <thead>
 <tr>
-<th><strong>스키마 작성</strong><br/></th> 
+<th><strong>스키마 작성(LA)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>이제 Campaign 웹 사용자 인터페이스에서 직접 스키마를 만들고 관리할 수 있습니다. 이 기능을 사용하면 새 테이블을 만들고, 기존 스키마를 확장하며, 사용자 정의 양식을 만들 수 있습니다. 클라이언트 콘솔에 액세스하지 않고도 특정 비즈니스 요구 사항을 지원하도록 사용자 정의 데이터 구조를 정의할 수 있습니다.</p>
+<p>참고: 이 기능은 조직 집합에만 사용할 수 있으며(제한된 가용성), 향후 릴리스를 통해 전역적으로 출시될 예정입니다.</p>
 <p>자세한 내용은 <a href="../administration/schemas.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>

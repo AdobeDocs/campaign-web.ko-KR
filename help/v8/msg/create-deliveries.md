@@ -9,7 +9,7 @@ exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
 source-git-commit: f611f57ea0e1d52056cf14e6b08f44148fef31ad
 workflow-type: tm+mt
 source-wordcount: '956'
-ht-degree: 54%
+ht-degree: 55%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 54%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_profile_enrichment_settings"
 >title="프로필 보강 활성화"
->abstract="프로필 강화를 위한 필드를 선택합니다. 색인이 있는 필드만 조정 키로 선택할 수 있습니다. 지원되지 않는 필드는 회색으로 표시됩니다."
+>abstract="프로필 보강을 위한 필드를 선택합니다. 색인이 있는 필드만 조정 키로 선택할 수 있습니다. 지원되지 않는 필드는 회색으로 표시됩니다."
 
 **[!UICONTROL 게재]** 왼쪽 메뉴에서 독립 실행형 게재를 만들거나, 캠페인에 포함되거나 포함되지 않은 워크플로 컨텍스트에서 게재를 만들 수 있습니다.
 

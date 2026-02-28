@@ -6,7 +6,7 @@ exl-id: eea0e997-4da2-4998-b010-234626b21353
 source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '1514'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="다국어 게재"
->abstract="이제 Campaign 웹 UI에서 여러 언어로 메시지를 보낼 수 있습니다. 푸시 알림의 경우 CSV 파일을 업로드하여 모든 언어 변형을 채웁니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+>abstract="이제 Campaign Web UI에서 다국어로 메시지를 보낼 수 있습니다. 푸시 알림의 경우 CSV 파일을 업로드하여 모든 언어 변형을 채웁니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"
@@ -26,7 +26,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_multilingual_file_upload"
 >title="언어 변형 가져오기"
->abstract="이 대화 상자를 사용하여 CSV 파일을 가져와 언어 변형을 추가할 수 있습니다. 파일은 선택한 언어에 대해 사용 가능한 모든 필드를 자동으로 채웁니다. 확인하기 전에 파일을 드래그 앤 드롭하거나 컴퓨터에서 선택할 수 있습니다."
+>abstract="이 대화 상자를 사용하여 CSV 파일을 가져와 언어 변형을 추가할 수 있습니다. 파일은 선택한 언어에 대해 사용 가능한 모든 필드를 자동으로 채웁니다. 확인하기 전에 파일을 끌어다 놓거나 컴퓨터에서 파일을 선택할 수 있습니다."
 
 Campaign 웹 UI에서는 게재를 다국어로 설정하여 프로필의 기본 언어를 기반으로 메시지를 보낼 수 있습니다. 기본 설정이 정의되지 않으면 메시지가 기본 언어로 전송됩니다.
 

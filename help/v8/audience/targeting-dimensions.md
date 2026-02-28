@@ -1,15 +1,15 @@
 ---
-title: 차원 타겟팅 및 필터링
+title: 타기팅 및 필터링 차원
 description: Adobe Campaign 웹 UI의 차원 타겟팅 및 필터링에 대해 자세히 알아보기
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
-# 차원 타겟팅 및 필터링 {#targeting-dimensions}
+# 타기팅 및 필터링 차원 {#targeting-dimensions}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
@@ -42,7 +42,7 @@ ht-degree: 14%
 | 외부 파일 | 모든 필수 정보가 포함된 파일을 통한 게재 | 연결된 스키마 없음, 입력된 대상 없음 |
 | 구독자 애플리케이션 | 응용 프로그램을 구독한 프로필 | nms:appSubscriptionRcp |
 
-또한 특정 요구 사항에 따라 새 타겟 매핑을 만듭니다. 이 작업은 클라이언트 콘솔에서만 수행합니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ko#new-mapping){target="_blank"}를 참조하세요.
+또한 특정 요구 사항에 따라 새 타겟 매핑을 만듭니다. 이 작업은 클라이언트 콘솔에서만 수행합니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}를 참조하세요.
 
 ## 차원 필터링 {#filtering}
 

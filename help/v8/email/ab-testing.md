@@ -6,7 +6,7 @@ exl-id: 476aaaef-c4b2-4007-a050-9b88460435a6
 source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '1154'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
 >title="콘텐츠 실험 - A/B 테스트"
->abstract="이제 여러 게재 변형을 정의하여 가장 성과가 좋은 게재를 테스트할 수 있습니다. 이메일 요소에 따라 콘텐츠, 제목 또는 발신자를 달라서 최적의 결과를 결정합니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+>abstract="이제 테스트할 여러 게재 변형을 정의하여 가장 성과가 좋은 게재를 확인할 수 있습니다. 이메일 요소에 따라 콘텐츠, 제목 또는 발신자를 다양하게 변경하여 최적의 결과를 결정합니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
 
 ## 콘텐츠 실험 정보 {#about-content-experiment}
 

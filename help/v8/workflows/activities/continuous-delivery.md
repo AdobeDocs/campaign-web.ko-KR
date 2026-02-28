@@ -16,7 +16,7 @@ ht-degree: 25%
 >id="acw_homepage_welcome_rn5"
 >title="지속적인 게재 활동"
 >abstract="이제 기존 게재에 새 수신자를 추가할 수 있습니다. 이 게재 유형은 매번 새로운 게재를 만들 필요가 없으므로 필요에 따라 낮은 볼륨의 경고나 알림에 대해 더 효율적입니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 **연속 게재** 활동을 사용하면 기존 게재에 새 수신자를 추가할 수 있습니다. 이 게재 유형은 매번 새로운 게재를 만들 필요가 없으므로 필요에 따라 낮은 볼륨의 경고나 알림에 대해 더 효율적입니다.
 

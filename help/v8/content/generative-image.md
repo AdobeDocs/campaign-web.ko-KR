@@ -2,10 +2,11 @@
 audience: end-user
 title: 생성 콘텐츠
 description: AI Assistant를 사용하여 이미지를 생성하는 방법 알아보기
-source-git-commit: c51877d1926e1a8a6766ea1a5aa00f826071a3fc
+exl-id: 9de12187-c437-467b-974a-1e165adc5fe1
+source-git-commit: f77c4998c3db462c3caaece98a65be1226ab7c69
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 1%
+source-wordcount: '1200'
+ht-degree: 2%
 
 ---
 
@@ -53,6 +54,7 @@ AI Assistant를 사용하여 효과적인 프롬프트를 작성하고 이미지
 
 1. **[!UICONTROL 이미지 설정]** 옵션을 사용하여 메시지를 사용자 지정합니다.
 
+   * **[!UICONTROL 생성 모델]**: 사용할 준비가 된 **[!UICONTROL Adobe 모델]**, 특수 기능을 위한 **[!UICONTROL 파트너 모델]** 또는 브랜드 자산에 대해 교육된 **[!UICONTROL 사용자 지정 모델]**&#x200B;에서 선택하십시오. [자세히 알아보기](generative-models.md)
    * **[!UICONTROL 종횡비]**: 에셋의 너비와 높이를 결정합니다. 16:9, 4:3, 3:2 또는 1:1과 같은 일반적인 비율 중에서 선택하거나 사용자 지정 크기를 입력합니다.
    * **[!UICONTROL 콘텐츠 형식]**: 시각적 요소의 특성을 분류하여 사진, 그래픽 또는 미술과 같은 다양한 시각적 표현 형식을 구분합니다.
    * **[!UICONTROL 시각적 강도]**: 이미지의 강도를 조정하여 이미지의 영향을 제어합니다. 낮은 설정(2)은 더 부드러운 모양을 만들고 높은 설정(10)은 더 밝은 이미지를 만듭니다.
@@ -124,6 +126,7 @@ AI Assistant에 액세스한 후 생성 설정을 조정하여 내 브랜드에 
 
 1. **[!UICONTROL 이미지 설정]** 선택:
 
+   * **[!UICONTROL 생성 모델]**: 사용할 준비가 된 **[!UICONTROL Adobe 모델]**, 특수 기능을 위한 **[!UICONTROL 파트너 모델]** 또는 브랜드 자산에 대해 교육된 **[!UICONTROL 사용자 지정 모델]**&#x200B;에서 선택하십시오. [자세히 알아보기](generative-models.md)
    * **[!UICONTROL 콘텐츠 형식]**: 시각적 요소의 특성을 분류하여 사진, 그래픽 또는 미술과 같은 다양한 시각적 표현 형식을 구분합니다.
    * **[!UICONTROL 시각적 강도]**: 이미지의 강도를 조정하여 이미지의 영향을 제어합니다. 낮은 설정 (2)는 부드럽고 절제된 모양을 만들고, 높은 설정 (10)은 이미지를 더 생동감 있고 시각적으로 강력하게 만듭니다.
    * **[!UICONTROL 조명]**: 이미지의 조명을 조정하여 분위기를 만들고 특정 요소를 강조 표시합니다.

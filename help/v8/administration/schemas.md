@@ -5,7 +5,7 @@ exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
 source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 6%
+ht-degree: 23%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="스키마"
->abstract="Adobe Campaign은 XML 기반 스키마를 사용하여 애플리케이션 내의 데이터의 물리적 및 논리적 구조를 정의합니다. 이 화면에서는 웹 사용자 인터페이스에서 기존 스키마를 모두 보고, 스키마 세부 정보에 액세스하고, 사용자 정의 양식을 구성하고, 스키마를 직접 만들거나 확장할 수 있습니다."
+>abstract="Adobe Campaign은 XML 기반 스키마를 사용하여 애플리케이션 내 데이터의 물리적, 논리적 구조를 정의합니다. 이 화면에서는 웹 사용자 인터페이스에서 기존 스키마를 모두 보고, 스키마 세부 정보에 액세스하며, 사용자 정의 양식을 구성하고, 스키마를 직접 만들거나 확장할 수 있습니다."
 
 **[!DNL Adobe Campaign]**&#x200B;의 경우 XML 기반 스키마를 사용하여 애플리케이션 내 데이터의 물리적, 논리적 구조를 정의합니다. 스키마는 다음을 정의하는 데이터베이스 테이블에 연결된 XML 문서입니다.
 

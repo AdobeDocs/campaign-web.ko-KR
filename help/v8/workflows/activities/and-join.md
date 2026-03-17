@@ -6,7 +6,7 @@ exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: f0929390f9873516afec641d2febf3e58cb67e3d
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 48%
+ht-degree: 51%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 48%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_join"
->title="가입 활동"
->abstract="조인 활동에 대한 자리 표시자."
+>title="조인 활동"
+>abstract="조인 활동에 대한 플레이스홀더"
 
 **AND-결합** 활동은 **흐름 제어** 활동입니다. 워크플로우의 여러 실행 분기를 동기화합니다.
 

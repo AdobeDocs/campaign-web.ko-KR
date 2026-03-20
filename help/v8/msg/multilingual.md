@@ -16,7 +16,7 @@ ht-degree: 8%
 >id="acw_homepage_welcome_rn1"
 >title="다국어 게재"
 >abstract="이제 Campaign Web UI에서 다국어로 메시지를 보낼 수 있습니다. 푸시 알림의 경우 CSV 파일을 업로드하여 모든 언어 변형을 채웁니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"

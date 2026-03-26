@@ -3,10 +3,10 @@ audience: end-user
 title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 빌드하는 방법 알아보기
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 10%
+source-wordcount: '1321'
+ht-degree: 9%
 
 ---
 
@@ -39,6 +39,7 @@ ht-degree: 10%
 캔버스의 오른쪽 위 모서리에 있는 도구 모음은 활동을 쉽게 조작하고 캔버스에서 탐색할 수 있는 옵션을 제공합니다.
 
 * **여러 선택 모드**: 여러 활동을 선택하여 한꺼번에 삭제하거나 복사하여 붙여 넣으십시오. [이 섹션](#copy)을 참조하십시오.
+* **분기 추가**: 도구 모음의 **+** 단추를 클릭하여 캔버스에 별도의 실행 분기를 만듭니다. 이 결과는 병렬 경로에 [포크](activities/fork.md)를 사용하는 것과 같지만 다이어그램이 그래픽으로 더 명확합니다.
 * **회전**: 캔버스를 세로로 전환합니다.
 * **화면에 맞춤**: 캔버스 확대/축소 수준을 화면에 맞춥니다.
 * **축소** / **확대**: 캔버스를 축소하거나 확대합니다.

@@ -3,10 +3,10 @@ audience: end-user
 title: 포크 워크플로 활동 사용
 description: 포크 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 55%
+source-wordcount: '184'
+ht-degree: 51%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 55%
 >abstract="기본적으로 **포크** 활동을 통해 두 개의 전환을 만듭니다. **전환 추가** 버튼을 클릭하여 추가 아웃바운드 전환을 정의하고 해당 레이블을 입력합니다."
 
 **포크** 활동은 **플로우 제어** 활동입니다. 아웃바운드 전환을 만들어서 여러 활동을 동시에 시작할 수 있습니다.
+
+**분기 추가**(**+**) 도구 모음 단추를 사용하여 별도의 분기를 만들 수도 있습니다. [활동 오케스트레이션](../orchestrate-activities.md#toolbar)을 참조하세요.
 
 ## 포크 활동 구성 {#fork-configuration}
 

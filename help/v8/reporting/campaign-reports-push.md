@@ -79,7 +79,7 @@ ht-degree: 17%
 
 * **[!UICONTROL 새 격리]**: 배달할 메시지 수와 관련하여 배달 실패 후 격리된 총 주소 수(예: 잘못된 등록, 메시지 거부 또는 페이로드 오류)입니다.
 
-  푸시 알림 오류 유형은 [Adobe Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ko#push-error-types){target="_blank"}에 나와 있습니다.
+  푸시 알림 오류 유형은 [Adobe Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}에 나와 있습니다.
 
 +++
 
@@ -92,7 +92,7 @@ ht-degree: 17%
 
 **[!UICONTROL 생성된 클릭 스트림]** 테이블에는 수신자가 게재와 상호 작용하는 방식에 따른 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![보고서에 표시된 클릭 스트림 &#x200B;](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
+![보고서에 표시된 클릭 스트림 ](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
 
 +++푸시 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 

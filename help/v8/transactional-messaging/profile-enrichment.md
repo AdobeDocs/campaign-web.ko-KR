@@ -3,20 +3,14 @@ audience: end-user
 title: 트랜잭션 메시지의 프로필 보강
 description: Campaign 웹 사용자 인터페이스에서 트랜잭션 메시지를 만드는 방법을 알아봅니다
 exl-id: 933c73ba-ca00-447a-99fd-a7490bb101a4
-source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 17%
+source-wordcount: '464'
+ht-degree: 11%
 
 ---
 
 # 프로필 데이터를 사용하여 트랜잭션 메시지 강화{#profile-enrichment}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="프로필 보강"
->abstract="이제 Campaign 데이터베이스 필드를 콘텐츠에 연결하여 트랜잭션 메시지를 개인화할 수 있습니다. 정확한 실시간 개인화를 위해 타깃 매핑, 보강 열, 조정 키를 선택합니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 이 기능을 사용하면 Adobe Campaign 데이터베이스 필드를 메시지 콘텐츠에 연결하여 트랜잭션 메시지를 개인화할 수 있습니다. 대상 매핑, 데이터 보강 열 및 조정 키를 선택하여 성능 임계값을 유지하면서 정확한 실시간 개인화를 보장할 수 있습니다.
 

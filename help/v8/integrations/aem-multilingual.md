@@ -23,7 +23,7 @@ Adobe Experience Manager 통합을 사용하면 Adobe Experience Manager 언어 
 다국어 이메일 게재를 만들기 전에 다음을 확인하십시오.
 
 * Adobe Campaign 웹 인터페이스 통합을 위해 구성된 Adobe Experience Manager 인스턴스에 액세스합니다.
-* 언어 사본이 있는 Adobe Experience Manager 콘텐츠가 이미 만들어지고 승인되었습니다. [Adobe Experience Manager 설명서](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)에서 언어 복사 마법사에 대해 자세히 알아보세요
+* 언어 사본이 있는 Adobe Experience Manager 콘텐츠가 이미 만들어지고 승인되었습니다. [Adobe Experience Manager 설명서](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)에서 언어 복사 마법사에 대해 자세히 알아보세요
 * Adobe Experience Manager 콘텐츠를 수신하도록 구성된 이메일 게재 템플릿입니다. [다국어 모드 사용](#enable-multilingual) 섹션에 설명된 단계를 참조하세요.
 
 ## 다국어 게재 만들기

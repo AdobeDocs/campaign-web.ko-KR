@@ -18,7 +18,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn3"
 >title="이미지 생성 모델 통합"
 >abstract="승인된 타사 이미지 모델과 함께 표준 및 사용자 지정 Firefly 모델을 매끄럽게 통합하여 이미지 생성 시 더 큰 유연성, 제어 및 브랜드 정렬을 제공합니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
 
 내장된 모델, 맞춤형 Firefly 모델 및 서드파티 이미지 생성 공급자를 통해 AI 이미지 생성 기능을 확장하여 특정 요구 사항을 충족하고 브랜드 정렬을 개선합니다.
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 - Gemini 2.5 Flash에서 제공하는 **[!UICONTROL 파트너 모델]**&#x200B;은(는) 특정 사용 사례에 특화된 기능을 제공합니다.
 - **[!UICONTROL 사용자 지정 모델]**&#x200B;은(는) 자신의 자산에 대해 교육되고 조직에서 추가한 브랜드별 모델입니다.
 
-  **[!UICONTROL Adobe Firefly 설명서]**&#x200B;의 [사용자 지정 모델](https://helpx.adobe.com/kr/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)에 대해 자세히 알아보기
+  **[!UICONTROL Adobe Firefly 설명서]**&#x200B;의 [사용자 지정 모델](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)에 대해 자세히 알아보기
 
 구성하고 나면 콘텐츠에서 이미지를 만들 때 생성 모델을 선택할 수 있습니다. [이미지 생성에 대해 자세히 알아보세요](generative-image.md).
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 맞춤형 Firefly 모델 공급자를 생성하면 기본 모델 이상으로 AI 기능을 확장하고 생성된 콘텐츠가 브랜드 고유의 미적 및 요구 사항을 일관되게 반영하도록 할 수 있습니다.
 
-➡️ [사용자 지정 모델을 교육하는 방법 알아보기](https://helpx.adobe.com/kr/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
+➡️ [사용자 지정 모델을 교육하는 방법 알아보기](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
 
 1. **[!UICONTROL 브랜드]** 메뉴에서 **[!UICONTROL 생성 모델]** 탭에 액세스하여 **[!UICONTROL 모델 추가]**&#x200B;를 클릭합니다.
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL 모델 ID]**&#x200B;를 입력하십시오.
 
-   Firefly 모델 ID를 찾으려면 Firefly 웹 사이트에 액세스하여 훈련된 모델로 이동합니다. 고유 식별자는 게시되면 모델의 관리 섹션에서 사용할 수 있습니다. 자세한 내용은 [Firefly 사용자 지정 모델 설명서](https://helpx.adobe.com/kr/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html)를 참조하세요.
+   Firefly 모델 ID를 찾으려면 Firefly 웹 사이트에 액세스하여 훈련된 모델로 이동합니다. 고유 식별자는 게시되면 모델의 관리 섹션에서 사용할 수 있습니다. 자세한 내용은 [Firefly 사용자 지정 모델 설명서](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html)를 참조하세요.
 
    ![](assets/gen-model-manage-5.png){zoomable="yes"}
 

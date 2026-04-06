@@ -3,7 +3,7 @@ audience: end-user
 title: 자동화된 게재 워크플로우 활동
 description: 자동화된 게재 워크플로우 활동을 사용하는 방법을 알아봅니다
 exl-id: a9c485f1-0369-414d-9e43-bedb0390a2f5
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 3%
@@ -16,7 +16,7 @@ ht-degree: 3%
 >id="acw_homepage_welcome_rn4"
 >title="자동화된 게재 활동"
 >abstract="이제 워크플로우 팔레트에서 자동화된 게재 워크플로우 활동을 사용할 수 있습니다. 이를 사용하여 워크플로우 내에서 직접 게재 작업(준비, 증명 보내기, 준비 및 시작 등)을 만들거나 실행할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_automated-delivery"
@@ -26,7 +26,8 @@ ht-degree: 3%
 **자동화된 게재** 활동을 사용하면 워크플로우 내에서 직접 게재 작업을 만들고, 구성하고, 실행할 수 있습니다. 일정에 따라 또는 자동화된 흐름의 일부로 사전 정의된 게재를 실행하려는 경우 또는 활동이 실행될 때마다 템플릿에서 새 게재를 생성하려는 경우 사용합니다.
 
 <!--
-**[Continuous delivery](continuous-delivery.md)** always uses a template. The first run creates one delivery; later runs send to new recipients through that same delivery. **Automated delivery** is different: you either reuse one existing delivery every run, or you create a new delivery from a template each time—so each run can be its own delivery if you want. -->
+**[Continuous delivery](continuous-delivery.md)** always uses a template. The first run creates one delivery; later runs send to new recipients through that same delivery. **Automated delivery** is different: you either reuse one existing delivery every run, or you create a new delivery from a template each time—so each run can be its own delivery if you want. 
+-->
 
 이 활동을 구성하려면 다음 단계를 수행합니다.
 
@@ -51,7 +52,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->고급 사용 사례에 사용되는 **전환에 지정됨** 및 **스크립트로 계산됨** 옵션은 클라이언트 콘솔에서만 구성할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}를 참조하세요.
+>고급 사용 사례에 사용되는 **전환에 지정됨** 및 **스크립트로 계산됨** 옵션은 클라이언트 콘솔에서만 구성할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}를 참조하세요.
 
 ## 수행할 작업 선택 {#action-to-execute}
 

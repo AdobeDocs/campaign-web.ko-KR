@@ -3,7 +3,7 @@ audience: end-user
 title: 트랜잭션 메시지
 description: Adobe Campaign 웹을 사용한 트랜잭션 메시지 기본 정보
 exl-id: 90830dca-acff-4aa3-a88b-1005e349cf52
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 13%
@@ -17,10 +17,12 @@ ht-degree: 13%
 >title="트랜잭션 메시지"
 >abstract="트랜잭션 메시지는 트리거 메시지 처리를 위해 설계된 Adobe Campaign의 특수 모듈입니다."
 
-<!-- >>[!CONTEXTUALHELP]
+<!--
+>[!CONTEXTUALHELP]
 >id="acw_transacmessages_exclusionlogs"
 >title="Transactional messaging exclusion logs"
->abstract="Transactional messaging exclusion logs" -->
+>abstract="Transactional messaging exclusion logs" 
+-->
 
 트랜잭션 메시지는 트리거 메시지 처리를 위해 설계된 Adobe Campaign의 특수 모듈입니다. 이러한 메시지는 정보 시스템에서 발생하는 이벤트에 대한 응답으로 자동으로 생성됩니다. 이러한 이벤트의 일반적인 예로는 버튼 또는 링크 클릭, 장바구니 포기, 제품 가용성 경고 요청, 계정 생성 또는 수정이 있습니다.
 

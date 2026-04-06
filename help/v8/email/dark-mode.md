@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 다크 모드, 이메일, 색상, 편집기
 exl-id: 0f1bbaf9-d648-4625-94fa-2e0c240d7264
-source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 10%
@@ -148,7 +148,8 @@ ht-degree: 10%
 <!--
 >[!WARNING]
 >
->Not all email clients support dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.-->
+>Not all email clients support dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.
+-->
 
 이메일 Designer 사용자 지정 다크 모드 스타일을 활용하기 위해 Journey Optimizer에서는 <!-- `@media (prefers-color-scheme: dark)` method-->을(를) 사용합니다. `@media (prefers-color-scheme: dark)` CSS 쿼리로, 사용자의 전자 메일 클라이언트가 어두운 모드로 설정되어 있는지 검색하고 전자 메일에 정의된 어두운 테마 디자인을 적용합니다.
 
@@ -204,15 +205,19 @@ ht-degree: 10%
 
 * 중요한 콘텐츠에 배경색에만 의존하지 마십시오. 일부 클라이언트는 어두운 모드에서 배경색을 재정의하므로 키 정보가 계속 표시되는지 확인합니다.
 
-<!--**Inline critical styles**
+<!--
+**Inline critical styles**
 
-Inline CSS helps maintain more control over styling, as some clients strip external styles in dark mode.-->
+Inline CSS helps maintain more control over styling, as some clients strip external styles in dark mode.
+-->
 
 **어두운 모드에서 액세스 가능한 콘텐츠 디자인**
 
-<!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
+<!--
+KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
 If needed, it can be moved to the Design accessible content page:
-The best practices for designing accesible content in dark mode are listed in [this section](accessible-content.md#dark-mode).-->
+The best practices for designing accesible content in dark mode are listed in [this section](accessible-content.md#dark-mode).
+-->
 
 * 색맹이 있는 사람들을 구별하기 쉬운 색상 조합을 사용하십시오.
 

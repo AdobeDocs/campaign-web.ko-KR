@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 2835c114-0878-4c41-9071-165d71840941
-source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 30%
@@ -46,7 +46,8 @@ Adobe Campaign을 사용하면 전체 템플릿 또는 특정 구조 및 구성 
 <!--
 >[!IMPORTANT]
 >
->Content locking is an editor-level feature for authors and does not guarantee the content will remain unedited when imported or created through API.-->
+>Content locking is an editor-level feature for authors and does not guarantee the content will remain unedited when imported or created through API.
+-->
 
 콘텐츠 잠금은 **구조** 수준 또는 **구성 요소** 수준에서 적용할 수 있습니다. 다음은 템플릿에서 콘텐츠를 잠글 때 구조 및 구성 요소 수준에서 적용되는 주요 원칙입니다.
 
@@ -67,7 +68,8 @@ Adobe Campaign을 사용하면 전체 템플릿 또는 특정 구조 및 구성 
 >콘텐츠 템플릿을 만들 수 있는 권한이 있는 사용자가 콘텐츠 잠금을 활성화할 수 있습니다.
 
 <!--
-➡️ [Discover this feature in video](#video)-->
+➡️ [Discover this feature in video](#video)
+-->
 
 ## 이메일 템플릿 잠금 {#define}
 
@@ -201,4 +203,5 @@ TO REPLACE WITH VIDEO FOR CAMPAIGN IF/WHEN CREATED
 
 Learn how to lock content in email templates.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451614?captions=kor&quality=12)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
+-->

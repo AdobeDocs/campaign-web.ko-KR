@@ -3,7 +3,7 @@ audience: end-user
 title: 푸시 알림 게재 보내기
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 보내는 방법 알아보기
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 2%
@@ -24,8 +24,10 @@ ht-degree: 2%
 
 1. 푸시 알림 콘텐츠에서 데이터를 미리 볼 하나 이상의 프로필을 선택하려면 **[!UICONTROL 구독자 추가]**&#x200B;를 클릭하십시오.
 
-   <!--Once your test subscribers are selected, click **[!UICONTROL Select]**.
-    ![](assets/push_send_5.png){zoomable="yes"}-->
+   <!--
+    Once your test subscribers are selected, click **[!UICONTROL Select]**.
+    ![](assets/push_send_5.png){zoomable="yes"}
+    -->
 
 1. 오른쪽 창에서 개인화된 요소가 선택한 프로필의 데이터로 동적으로 대체되는 푸시 알림의 미리보기를 찾습니다.
 
@@ -63,4 +65,4 @@ ht-degree: 2%
 
 게재가 전송되면 게재 페이지에서 KPI(주요 성능 지표) 데이터와 **[!UICONTROL 로그]** 메뉴의 데이터를 추적합니다.
 
-기본 제공 보고서를 통해 메시지의 영향을 측정하기 시작합니다. [자세히 알아보기](../reporting/push-report.md)
+기본 제공 보고서를 통해 메시지의 영향을 측정하기 시작합니다. [자세히 알아보기](../reporting/push-report.md).

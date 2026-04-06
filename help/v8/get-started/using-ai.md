@@ -5,8 +5,8 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: c29259234059270d01af4ae1d0cb813e777eb826
-workflow-type: ht
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
 
@@ -21,7 +21,8 @@ ht-degree: 100%
 Campaign 생성형 AI의 기능 덕분에 이 구성 요소는 사용자의 경험을 변화시켜 정보 검색 및 문제 해결을 용이하게 합니다. 복잡한 작업에서 지침을 구하거나 광범위한 문서를 탐색할 때 AI 기반 상황별 도움말은 모든 상호 작용에서 비교할 수 없는 효율성과 정확성을 제공하는 최고의 보조 앱입니다.
 
 <!--
-[Animation showing AI-powered contextual help in action](assets/do-not-localize/CH+AI-BETA.gif)-->
+[Animation showing AI-powered contextual help in action](assets/do-not-localize/CH+AI-BETA.gif)
+-->
 
 >[!AVAILABILITY]
 >
@@ -42,7 +43,7 @@ Your data is encrypted and private following our standard data protection practi
 
 The knowledge assistant AI capability does not use your data to train our models. We do not allow any partners or third parties to use your data for training their models or any other purpose.
 
-For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/kr/ai.html){target="_blank"}.
+For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/ai.html){target="_blank"}.
 -->
 
 ## 추천 질문 {#questions-ai}

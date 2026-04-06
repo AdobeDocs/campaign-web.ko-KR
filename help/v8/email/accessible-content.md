@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 keywords: 이메일, 디자인, 접근성
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '1643'
 ht-degree: 1%
@@ -20,13 +20,12 @@ ht-degree: 1%
 
 이 규정은 이메일, 뉴스레터, PDF 및 다운로드 가능한 콘텐츠를 포함한 모든 디지털 통신에 액세스할 수 있어야 한다고 명시합니다. 따라서 수신자를 위한 콘텐츠를 만들 때는 액세스 가능한 글꼴, 읽을 수 있는 형식 사용 등의 특정 지침을 따르고 이미지에 대한 대체 텍스트를 제공해야 합니다.
 
-마케터가 [!DNL Adobe Campaign]이메일[&#x200B; 및 &#x200B;](create-email-content.md)랜딩 페이지&#x200B;**에 대한 콘텐츠를 모두 만들 수 있는** **이메일 Designer**&#x200B;을(를) 사용하면 WCAG(Web Content Accessibility Guidelines) 2.1, 레벨 AA를 기반으로 이 지시문을 쉽게 준수할 수 있습니다.
+마케터가 [!DNL Adobe Campaign]이메일[ 및 ](create-email-content.md)랜딩 페이지&#x200B;**에 대한 콘텐츠를 모두 만들 수 있는** **이메일 Designer**&#x200B;을(를) 사용하면 WCAG(Web Content Accessibility Guidelines) 2.1, 레벨 AA를 기반으로 이 지시문을 쉽게 준수할 수 있습니다.
 
 이에 따라 [!DNL Adobe Campaign]을(를) 사용하여 액세스 가능한 콘텐츠를 디자인하는 모범 사례가 아래에 나와 있습니다.
 
 이 페이지에서는 [!DNL Adobe Campaign]&#x200B;(으)로 디자인된 전자 메일 및 랜딩 페이지를 장애가 있는 사람이 읽고, 이해하고, 상호 작용할 수 있도록 모든 받는 사람이 콘텐츠에 액세스할 수 있도록 합니다.
  
-
 ## 텍스트 가독성 확인 {#text-readability}
 
 **[!UICONTROL Text]** 구성 요소의 **[!UICONTROL Styles]** 탭을 사용하여 적절한 색상 대비 및 간단한 글꼴을 사용하는 등 텍스트를 읽을 수 있도록 합니다. [자세히 알아보기](content-components.md#text)
@@ -316,7 +315,8 @@ HTML 컨텐츠에서 테이블은 종종 레이아웃에 사용됩니다. 기본
 <!--
 >[!TIP]
 >
->Always ensure link text is discernible (visible) and descriptive (clear about purpose). Avoid vague labels like 'here' or 'more'.-->
+>Always ensure link text is discernible (visible) and descriptive (clear about purpose). Avoid vague labels like 'here' or 'more'.
+-->
 
 ## 키보드 탐색 및 포커스 지원 제공 {#keyboard}
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 첫 이메일 보내기
 description: Campaign 웹 사용자 인터페이스를 사용하여 첫 번째 이메일을 보내는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: d69042d4d968325d9d7d3e58f02d804cf435f8f6
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 44%
+source-wordcount: '1672'
+ht-degree: 43%
 
 ---
 
@@ -74,8 +74,8 @@ ht-degree: 44%
 >id="acw_deliveries_email_audience"
 >title="게재할 대상자 선택"
 >abstract="마케팅 메시지에 적합한 대상자를 선택합니다. Campaign v8 인스턴스 또는 Adobe Experience Platform에서 이미 정의된 기존 대상자를 선택하거나, 쿼리 모델러를 사용하여 새 대상자를 만들거나, 대상자가 포함된 파일을 업로드할 수 있습니다. 컨트롤 그룹은 **“파일에서 선택”** 옵션에서는 활성화되지 않으며 그 반대의 경우도 마찬가지입니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=ko" text="기본 대상자 선택"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=ko" text="컨트롤 그룹 설정"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="기본 대상자 선택"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="컨트롤 그룹 설정"
 
 이 사용 사례에서는 기존 대상자에게 이메일을 보냅니다.
 
@@ -89,7 +89,7 @@ ht-degree: 44%
 
    >[!NOTE]
    >
-   >목록에서 사용할 수 있는 대상은 Campaign v8 인스턴스 또는 대상/Source 통합이 인스턴스에 구성된 경우 Adobe Experience Platform에서 가져옵니다. 이 통합을 통해 Experience Platform 세그먼트를 Adobe Campaign에 보내고, 캠페인 게재 및 추적 로그를 Adobe Experience Platform에 보낼 수 있습니다. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=ko){target="_blank"}에서 Campaign 및 Adobe Experience Platform을 사용하여 작업하는 방법을 알아봅니다.
+   >목록에서 사용할 수 있는 대상은 Campaign v8 인스턴스 또는 대상/Source 통합이 인스턴스에 구성된 경우 Adobe Experience Platform에서 가져옵니다. 이 통합을 통해 Experience Platform 세그먼트를 Adobe Campaign에 보내고, 캠페인 게재 및 추적 로그를 Adobe Experience Platform에 보낼 수 있습니다. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}에서 Campaign 및 Adobe Experience Platform을 사용하여 작업하는 방법을 알아봅니다.
 
 1. 대상자를 선택하면 추가 규칙을 적용하여 대상을 더 구체화할 수 있습니다.
 
@@ -165,7 +165,7 @@ ht-degree: 44%
 
    >[!NOTE]
    >
-   >특정 컨텍스트에서는 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 사용할 수 없습니다. 제한 사항은 이 섹션[의 &#x200B;](#content-simulation-limitations)에 자세히 설명되어 있습니다.
+   >특정 컨텍스트에서는 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 사용할 수 없습니다. 제한 사항은 이 섹션[의 ](#content-simulation-limitations)에 자세히 설명되어 있습니다.
 
 1. 왼쪽에서 이메일을 미리 보는 데 사용할 프로필을 선택합니다.
 
@@ -173,8 +173,10 @@ ht-degree: 44%
 
    ![선택한 프로필을 기반으로 이메일 미리 보기를 표시하는 스크린샷](assets/preview.png){zoomable="yes"}
 
-   <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using multiple devices or mail providers. Learn on how to preview email rendering
-    -->
+   <!--
+또한 **[!UICONTROL 전자 메일 렌더링]** 단추를 사용하면 여러 장치나 메일 공급자를 사용하여 전자 메일을 미리 볼 수 있습니다. 이메일 렌더링을 미리 보는 방법에 대해 알아보기
+
+—>
 
 1. 증명을 보내려면 **[!UICONTROL 증명 보내기]** 단추를 클릭한 다음 사용할 모드를 선택하십시오.
 
@@ -242,7 +244,8 @@ ht-degree: 44%
    ![전자 메일 전송 진행률을 보여 주는 스크린샷](assets/sending-email.png){zoomable="yes"}
 
    <!--
-    ![Screenshot showing the email sent confirmation](assets/sent-email.png){zoomable="yes"}-->
+    ![Screenshot showing the email sent confirmation](assets/sent-email.png){zoomable="yes"}
+    -->
 
    또한 **[!UICONTROL 로그]** 버튼을 클릭하여 전송에 대한 자세한 정보에 액세스할 수 있습니다. [게재 로그 모니터링 방법 알아보기](../monitor/delivery-logs.md)
 
@@ -254,4 +257,4 @@ ht-degree: 44%
 
 이메일 게재를 처음부터 새로 만들고, 대상자를 정의하고, 콘텐츠를 디자인하고, 미리 보기를 시뮬레이션하고, 교정쇄를 보내는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454012/?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

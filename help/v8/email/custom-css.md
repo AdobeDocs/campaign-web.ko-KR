@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 keywords: css, 편집기, 요약, 이메일
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
-source-git-commit: 8f8c1645952c6a7f73c083573e18d2b04e9d9ac7
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 10%
@@ -229,7 +229,8 @@ For example:
 * **[!UICONTROL 사용자 지정 CSS 추가]** 옵션을 통해 적용된 CSS를 포함하는 이메일 Designer으로 만든 콘텐츠를 가져오는 경우 이전에 적용된 CSS가 동일한 옵션에서 표시되고 편집할 수 있습니다.
 
 <!--
-* If importing content created with the Email Designer with CSS applied externally, the CSS code previously applied cannot be accessed within the **[!UICONTROL Add custom CSS]** pop-up window, but you can still override it with new custom CSS.-->
+* If importing content created with the Email Designer with CSS applied externally, the CSS code previously applied cannot be accessed within the **[!UICONTROL Add custom CSS]** pop-up window, but you can still override it with new custom CSS.
+-->
 
 ## 문제 해결 {#troubleshooting}
 

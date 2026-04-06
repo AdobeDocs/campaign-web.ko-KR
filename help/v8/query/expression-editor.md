@@ -3,7 +3,7 @@ audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '2192'
 ht-degree: 36%
@@ -22,7 +22,7 @@ ht-degree: 36%
 >[!IMPORTANT]
 >
 >쿼리 모델러에 대한 완전히 새로운 인터페이스를 사용할 수 있습니다. 이 새로운 규칙 빌더 환경으로 전환하려면 오른쪽 상단 모서리에서 토글 버튼을 누르십시오. 언제든지 토글을 눌러 새 인터페이스를 비활성화하면 클래식 쿼리 모델러로 돌아갈 수 있습니다. 이 새 인터페이스에서 쿼리 모델러와 동일한 원칙을 적용할 수 있습니다.
->&#x200B;>![새 규칙 빌더 인터페이스](assets/query-modeler-toggle.png){zoomable="yes"}에 대한 토글을 보여 주는 이미지
+>![새 규칙 빌더 인터페이스](assets/query-modeler-toggle.png){zoomable="yes"}에 대한 토글을 보여 주는 이미지
 
 ## 표현식 편집기 작업 {#edit}
 
@@ -524,11 +524,13 @@ ht-degree: 36%
    <td> 값 1 = 값 2이면 값 3 반환 가 반환하지 않으면 값 4.<br /> </td> 
    <td> Decode(&lt;값 1&gt;, &lt;값 2&gt;, &lt;값 3&gt;, &lt;값 4&gt;)<br /> </td>  
   </tr> 
-  <!--<tr> 
+  <!--
+<tr> 
    <td> <strong>DefaultFolder</strong><br /> </td> 
    <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
-  </tr> -->
+  </tr> 
+-->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> 값 1 반환(case 함수의 매개 변수로만 사용할 수 있음)<br /> </td> 
@@ -726,12 +728,12 @@ ht-degree: 36%
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
    <td> 문자열의 SHA256 키에 대한 16진수 표현입니다.<br /> </td> 
-   <td> Sha256Digest(&lt;문자열&gt;)<br /> </td> 
+   <td> Sha256Digest (&lt;문자열&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
    <td> 문자열의 SHA512 키에 대한 16진수 표현입니다.<br /> </td> 
-   <td> Sha512Digest(&lt;문자열&gt;)<br /> </td> 
+   <td> Sha512Digest (&lt;문자열&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -778,7 +780,7 @@ ht-degree: 36%
   <tr> 
    <td> <strong>_Over__</strong><br /> </td> 
    <td> 첫 번째 매개 변수로 입력한 SQL 함수 호출 실행, 두 번째 매개 변수로 입력한 파티션 또는 정렬 기준 필드<br /> </td> 
-   <td> _Over_(&lt;값&gt;, &lt;값&gt;)<br /> </td>  
+   <td> _Over_ (&lt;값&gt;, &lt;값&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 

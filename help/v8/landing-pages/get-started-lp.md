@@ -4,10 +4,10 @@ title: 랜딩 페이지 시작하기
 description: Campaign Web의 랜딩 페이지에 대해 알아보기
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+source-git-commit: 5791677fbbb21591efecff7689495f405dc341a3
+workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -61,11 +61,11 @@ ht-degree: 100%
 <p>
 </td>
 <td>
-<a href="lp-templates.md">
-<img alt="랜딩 페이지를 위한 콘텐츠 템플릿 작업" src="../assets/do-not-localize/lp-reporting.jpg">
+<a href="lp-use-cases.md">
+<img alt="랜딩 페이지 사용 사례 및 기본 제공 템플릿" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="lp-templates.md"><strong>콘텐츠 템플릿 작업</strong></a>
+<a href="lp-use-cases.md"><strong>랜딩 페이지 사용 사례</strong></a>
 </div>
 <p>
 </td>

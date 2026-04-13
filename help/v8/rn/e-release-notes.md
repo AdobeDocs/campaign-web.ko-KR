@@ -3,7 +3,7 @@ title: Campaign v8 Web 사용자 인터페이스 얼리 릴리스 정보
 description: 다음 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 hide: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 464be736082dfd895954388d879a9244d06824c9
+source-git-commit: b6642be803aff4bbfbc44028f4d379fdaa62dfb2
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 100%

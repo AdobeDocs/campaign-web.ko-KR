@@ -3,7 +3,7 @@ title: 사용자 정의 필드
 description: 사용자 정의 필드를 구성하는 방법 및 인터페이스에서 해당 가시성을 알아봅니다.
 hide: true
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 464be736082dfd895954388d879a9244d06824c9
+source-git-commit: b6642be803aff4bbfbc44028f4d379fdaa62dfb2
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 27%

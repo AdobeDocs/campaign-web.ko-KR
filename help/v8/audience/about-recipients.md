@@ -9,7 +9,7 @@ ht-degree: 14%
 
 ---
 
-# 프로필 시작 {#profiles}
+# 프로필 시작하기 {#profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -46,4 +46,4 @@ ht-degree: 14%
 
 Campaign 웹 사용자 인터페이스를 사용하여 프로필에 액세스, 관리 및 탐색하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448371?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)

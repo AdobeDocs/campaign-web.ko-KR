@@ -85,7 +85,7 @@ ht-degree: 32%
 >title="푸시 제외"
 >abstract="**제외** 그래프와 테이블에 대상 프로필에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 이유가 표시됩니다."
 
-**[!UICONTROL 제외]** 그래프 및 표에는 대상 프로필에서 제외된 사용자 프로필에서 메시지를 받지 못하게 하는 다양한 이유가 표시됩니다. 제외 규칙은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ko#push-error-types){_blank}에 자세히 설명되어 있습니다.
+**[!UICONTROL 제외]** 그래프 및 표에는 대상 프로필에서 제외된 사용자 프로필에서 메시지를 받지 못하게 하는 다양한 이유가 표시됩니다. 제외 규칙은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}에 자세히 설명되어 있습니다.
 
 ![이 스크린샷은 제외된 사용자 프로필이 메시지를 받지 못하게 하는 이유를 표시하는 제외 그래프 및 표를 보여 줍니다.](assets/reporting_push_6.png){zoomable="yes"}
 

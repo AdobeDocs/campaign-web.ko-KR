@@ -3,7 +3,7 @@ title: Campaign Web 사용자 인터페이스 워크플로의 보호 기능 및 
 description: Campaign Web 사용자 인터페이스에서 워크플로 작업 시 보호 기능 및 제한 사항
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 100%
 

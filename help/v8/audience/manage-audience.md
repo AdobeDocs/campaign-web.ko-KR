@@ -38,13 +38,13 @@ ht-degree: 25%
 
 대상은 여러 소스에서 발생할 수 있습니다. **[!UICONTROL 원본]** 열은 지정된 대상이 만들어진 위치를 나타냅니다.
 
-* **[!UICONTROL Adobe Campaign]**: 이러한 대상은 [Adobe Campaign 웹 사용자 인터페이스](create-audience.md) 또는 [Adobe Campaign v8 클라이언트 콘솔](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=ko){target="_blank"}에서 만들어졌습니다.
+* **[!UICONTROL Adobe Campaign]**: 이러한 대상은 [Adobe Campaign 웹 사용자 인터페이스](create-audience.md) 또는 [Adobe Campaign v8 클라이언트 콘솔](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}에서 만들어졌습니다.
 
-* **[!UICONTROL Adobe Experience Platform:]** 이러한 대상은 Adobe Experience Platform 내에서 만들어졌으며 Adobe 소스 및 대상 통합을 사용하여 Campaign 웹에 통합됩니다. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=ko){target="_blank"}에서 이 통합을 설정하는 방법을 알아봅니다.
+* **[!UICONTROL Adobe Experience Platform:]** 이러한 대상은 Adobe Experience Platform 내에서 만들어졌으며 Adobe 소스 및 대상 통합을 사용하여 Campaign 웹에 통합됩니다. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}에서 이 통합을 설정하는 방법을 알아봅니다.
 
   ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-대상자에 대한 추가 정보를 보려면 목록에서 대상자를 엽니다. 대상자 속성이 대상자에 포함된 프로필 수와 함께 표시됩니다. **[!UICONTROL 계산]** 단추를 사용하여 언제든지 대상 수를 새로 고치십시오.
+대상자에 대한 추가 정보를 보려면 목록에서 대상자를 엽니다. 대상자 속성이 대상자에 포함된 프로필 수와 함께 표시됩니다. **[!UICONTROL 계산]** 단추를 사용하여 언제든지 대상자 규모를 새로 고치십시오.
 
 대상자의 임시 스키마를 미리 보려면 속성 섹션 아래의 **[!UICONTROL 스키마 미리 보기]** 단추를 클릭하십시오.
 
@@ -60,4 +60,4 @@ Adobe Campaign 웹 사용자 인터페이스에서 Experience Platform 대상을
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
 
-Adobe 소스 및 대상 통합을 설정하는 방법에 대한 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=ko){target="_blank"}를 참조하세요.
+Adobe 소스 및 대상 통합을 설정하는 방법에 대한 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}를 참조하세요.

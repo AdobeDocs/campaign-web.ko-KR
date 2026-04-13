@@ -34,7 +34,7 @@ Adobe Campaign 웹에는 애플리케이션을 보다 구체적으로 구성할 
 [관리/옵션 메뉴에 표시되는 옵션 목록]
 
 >[!NOTE]
->Adobe Campaign 콘솔과 웹 사용자 인터페이스 간에 옵션 메뉴 위치가 다르지만 목록은 동일하며 거울처럼 작동합니다. 사용 가능한 옵션에 대한 자세한 내용은 [Campaign v7 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}의 옵션 목록을 참조하십시오.
+>Adobe Campaign 콘솔과 웹 사용자 인터페이스 간에 옵션 메뉴 위치가 다르지만 목록은 동일하며 거울처럼 작동합니다. 사용 가능한 옵션에 대한 자세한 내용은 [Campaign v7 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}의 옵션 목록을 참조하십시오.
 
 옵션 목록에서 다음을 수행할 수 있습니다.
 

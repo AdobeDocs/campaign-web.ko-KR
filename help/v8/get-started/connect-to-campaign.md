@@ -3,7 +3,7 @@ title: Adobe Campaign 웹 인터페이스에 연결
 description: Adobe Campaign Web 사용자 인터페이스에 접속하는 방법 알아보기
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 497335e6f176d33c4e9cd214abf46665ad75e1eb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 100%
 

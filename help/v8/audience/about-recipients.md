@@ -9,7 +9,7 @@ ht-degree: 14%
 
 ---
 
-# 프로필 시작 {#profiles}
+# 프로필 시작하기 {#profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"

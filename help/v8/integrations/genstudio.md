@@ -22,7 +22,7 @@ ht-degree: 7%
 
 ## GenStudio 시작 {#gs-genstudio}
 
-[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"}은(는) 마케팅 팀이 고유한 광고 및 이메일을 만들어 브랜드 표준을 준수하고 엔터프라이즈 정책을 준수하는 영향력이 크고 개인화된 마케팅 캠페인을 유도할 수 있는 생성 AI 우선 애플리케이션입니다. Adobe AI 기술을 활용함으로써 크리에이티브가 혁신에 집중할 수 있도록 콘텐츠 생성 및 관리의 복잡성을 간소화하는 포괄적인 도구 모음을 제공합니다.
+[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"}은(는) 마케팅 팀이 고유한 광고 및 이메일을 만들어 브랜드 표준을 준수하고 엔터프라이즈 정책을 준수하는 영향력이 크고 개인화된 마케팅 캠페인을 유도할 수 있는 생성 AI 우선 애플리케이션입니다. Adobe AI 기술을 활용하여 컨텐츠 생성 및 관리의 복잡성을 간소화하여 크리에이티브가 혁신에 집중할 수 있는 포괄적인 도구 모음을 제공합니다.
 
 >[!AVAILABILITY]
 >

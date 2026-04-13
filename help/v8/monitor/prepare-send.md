@@ -119,7 +119,7 @@ ht-degree: 31%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_opens"
->title="열람수"
+>title="열람 수"
 >abstract="열린 메시지 수입니다. 이 표시기는 5분마다 업데이트됩니다. 표시되는 백분율은 게재된 메시지 수와 비교되는 고유 열람 수의 비율입니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/reports/kpis" text="KPI 이해"
 

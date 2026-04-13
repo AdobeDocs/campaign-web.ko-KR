@@ -144,7 +144,7 @@ ht-degree: 35%
 
 >[!NOTE]
 >
->외부 콘텐츠가 이메일 DesignerAdobe 을 준수하도록 하려면 [메시지를 처음부터 만들고](create-email-content.md) 기존 이메일의 콘텐츠를 구성 요소로 복사하는 것이 좋습니다.
+>외부 콘텐츠가 이메일 Designer을 준수하도록 하려면 [메시지를 처음부터 만들고](create-email-content.md) 기존 이메일의 콘텐츠를 구성 요소로 복사하는 것이 좋습니다.
 
 ## 이미지 {#image}
 

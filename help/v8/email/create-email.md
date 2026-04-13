@@ -3,10 +3,10 @@ audience: end-user
 title: 첫 이메일 보내기
 description: Campaign 웹 사용자 인터페이스를 사용하여 첫 번째 이메일을 보내는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: d69042d4d968325d9d7d3e58f02d804cf435f8f6
+source-git-commit: 2f7f29f1c6e137c9a8b75c4f24c12526843ddd9f
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 43%
+source-wordcount: '1648'
+ht-degree: 44%
 
 ---
 
@@ -173,10 +173,7 @@ ht-degree: 43%
 
    ![선택한 프로필을 기반으로 이메일 미리 보기를 표시하는 스크린샷](assets/preview.png){zoomable="yes"}
 
-   <!--
-또한 **[!UICONTROL 전자 메일 렌더링]** 단추를 사용하면 여러 장치나 메일 공급자를 사용하여 전자 메일을 미리 볼 수 있습니다. 이메일 렌더링을 미리 보는 방법에 대해 알아보기
-
-—>
+   <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using multiple devices or mail providers. Learn on how to preview email rendering-->
 
 1. 증명을 보내려면 **[!UICONTROL 증명 보내기]** 단추를 클릭한 다음 사용할 모드를 선택하십시오.
 

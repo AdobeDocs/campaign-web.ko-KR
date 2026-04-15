@@ -5,7 +5,7 @@ exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
 source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 22%
+ht-degree: 31%
 
 ---
 
@@ -14,8 +14,8 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="스키마 작성"
->abstract="이제 Campaign 웹 사용자 인터페이스에서 직접 스키마를 만들고 관리할 수 있습니다. 새 테이블을 만들고, 기존 스키마를 확장하며, 사용자 정의 양식을 만들 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+>abstract="이제 Campaign Web 사용자 인터페이스에서 직접 스키마를 만들고 관리할 수 있습니다. 새 테이블을 만들고, 기존 스키마를 확장하고, 사용자 정의 양식을 만들 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema"

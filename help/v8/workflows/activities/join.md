@@ -6,7 +6,7 @@ exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 20%
+ht-degree: 36%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
->title="여러 워크플로우 분기 및 조인 활동"
->abstract="이제 여러 분기가 지원됩니다. 포크를 사용하는 대신 도구 모음에서 분기 추가 를 클릭하면 됩니다. AND-결합 활동도 개선되었습니다. 이제 AND와 OR 조인 옵션 중에서 선택할 수 있는 일반 조인 활동입니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+>title="여러 워크플로 분기 및 조인 활동"
+>abstract="이제 여러 분기가 지원됩니다. 포크를 사용하는 대신 도구 모음에서 [분기 추가]를 클릭하면 됩니다. AND-조인 활동도 개선되었습니다. 이제 AND와 OR 조인 옵션 중에서 선택할 수 있는 일반 조인 활동입니다."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
@@ -26,7 +26,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_join"
 >title="조인 활동"
->abstract="**가입** 활동을 통해 여러 인바운드 전환을 병합할 수 있습니다. 모든 인바운드 전환이 완료된 경우(AND) 또는 인바운드 전환이 완료된 경우(OR) 계속 여부를 선택합니다."
+>abstract="**조인** 활동을 통해 여러 인바운드 전환을 병합할 수 있습니다. 모든 인바운드 전환이 완료된 경우(AND) 또는 인바운드 전환 중 하나가 완료된 경우(OR) 계속 진행할지 아니면 중단할 것인지를 선택합니다."
 
 **Join** 활동은 **흐름 제어** 활동입니다. 워크플로우의 여러 실행 분기를 동기화합니다.
 인바운드 전환을 평가하는 방법을 선택할 수 있습니다.

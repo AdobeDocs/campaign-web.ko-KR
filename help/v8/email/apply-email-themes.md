@@ -12,7 +12,7 @@ exl-id: c9e02bca-032d-4771-ad53-5bbebabc4c5d
 source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
 source-wordcount: '2060'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
->title="이메일 Designer(LA)의 테마"
->abstract="재사용 가능한 테마 스타일 및 변수를 적용하여 이메일 콘텐츠를 브랜드와 일관되게 유지합니다. 이 기능은 조직 집합(제한된 가용성)에만 사용할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+>title="이메일 디자이너의 테마 (LA)"
+>abstract="재사용 가능한 테마 스타일 및 변수를 적용하여 이메일 콘텐츠를 브랜드와 일관되게 유지합니다. 이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성)."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_email_apply_theme"

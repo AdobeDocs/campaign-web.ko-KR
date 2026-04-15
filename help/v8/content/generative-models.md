@@ -1,5 +1,5 @@
 ---
-title: 생성 모델 생성 및 관리
+title: 생성형 모델 만들기 및 관리
 description: 생성 모델을 만들고 관리하는 방법에 대해 알아봅니다
 topic: Content Management
 role: User
@@ -8,16 +8,16 @@ exl-id: e4db43de-5dc1-4ab7-a703-598534e54826
 source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# 생성 모델 생성 및 관리 {#generative-models}
+# 생성형 모델 만들기 및 관리 {#generative-models}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
->title="이미지 생성 모델 통합"
->abstract="승인된 타사 이미지 모델과 함께 표준 및 사용자 지정 Firefly 모델을 매끄럽게 통합하여 이미지 생성 시 더 큰 유연성, 제어 및 브랜드 정렬을 제공합니다."
+>title="이미지 생성형 모델의 통합"
+>abstract="승인된 서드파티 이미지 모델과 함께 표준 및 사용자 정의 Firefly 모델의 원활한 통합을 활성화하여 이미지 생성 시 더 큰 유연성, 컨트롤 및 브랜드 정렬을 제공합니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 내장된 모델, 맞춤형 Firefly 모델 및 서드파티 이미지 생성 공급자를 통해 AI 이미지 생성 기능을 확장하여 특정 요구 사항을 충족하고 브랜드 정렬을 개선합니다.

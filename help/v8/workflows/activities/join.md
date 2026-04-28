@@ -5,12 +5,12 @@ description: 조인 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 36%
+source-wordcount: '489'
+ht-degree: 38%
 
 ---
 
-# 가입 {#join}
+# 조인 {#join}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"

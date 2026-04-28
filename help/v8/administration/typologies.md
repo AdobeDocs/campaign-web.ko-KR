@@ -5,8 +5,8 @@ description: 유형화 및 유형화 규칙을 사용하여 게재 전송을 제
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 25%
+source-wordcount: '1500'
+ht-degree: 24%
 
 ---
 

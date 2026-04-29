@@ -3,10 +3,10 @@ audience: end-user
 title: 대상자 빌드 워크플로 활동 사용
 description: 대상자 빌드 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: b995e3c16d6f21852f565c504e3cc4709555943c
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 57%
+source-wordcount: '514'
+ht-degree: 53%
 
 ---
 
@@ -60,6 +60,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 1. 타겟팅 차원 옆에 있는 아이콘을 클릭하여 **필터링 차원**&#x200B;을(를) 선택합니다. 필터링 차원을 사용하면 기본 타겟팅 차원을 변경하지 않고 관련 기준을 참조하여 타겟팅된 모집단에 필터를 적용할 수 있습니다. [타겟팅 차원에 대해 자세히 알아보기](../../audience/targeting-dimensions.md#filtering)
 1. **계속**&#x200B;을 클릭합니다.
 1. 새 이메일을 디자인할 때 대상을 만드는 것과 같은 방식으로 쿼리 모델러를 사용하여 쿼리를 정의합니다. [쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다](../../query/query-modeler-overview.md)
+1. **데이터 보강** 섹션을 사용하여 계약 참조 또는 뉴스레터 구독과 같은 데이터베이스의 추가 정보로 대상 데이터를 향상시킵니다. 해당 데이터는 워크플로우 **작업 테이블**&#x200B;의 대상자와 함께 저장되며, 이후 활동에서 사용할 수 있습니다. 단일 데이터 보강 속성, 컬렉션 링크 또는 표현식을 추가할 수 있습니다. 자세한 단계 및 예제는 [데이터 보강 추가](enrichment.md#enrichment-add)를 참조하십시오.
 
 >[!TAB 대상자 읽기]
 
@@ -67,7 +68,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 1. **대상자 읽기**&#x200B;를 선택합니다.
 1. **계속**&#x200B;을 클릭합니다.
-1. 새 게재를 디자인할 때 대상을 사용하는 것과 동일한 방법으로 대상을 선택합니다. 이 [섹션](../../audience/add-audience.md)을 참조하십시오.
+1. 새 게재를 디자인할 때 대상자를 사용하는 것과 같은 방식으로 대상자를 선택합니다. 이 [섹션](../../audience/add-audience.md)을 참조하십시오.
 
 >[!ENDTABS]
 

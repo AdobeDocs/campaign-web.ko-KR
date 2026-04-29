@@ -3,9 +3,9 @@ audience: end-user
 title: 보강 워크플로 활동 사용
 description: 보강 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 0e48f27982368b00a29a64b7dbcb0b6be965efd2
+source-git-commit: b995e3c16d6f21852f565c504e3cc4709555943c
 workflow-type: tm+mt
-source-wordcount: '2043'
+source-wordcount: '2064'
 ht-degree: 35%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 35%
 >abstract="**보강** 활동을 통해 데이터베이스의 추가 정보로 타기팅 데이터를 보강할 수 있습니다. 일반적으로 세분화 활동 이후에 워크플로에서 사용됩니다. 일반적으로 활동을 세분화한 후 워크플로에서 사용됩니다."
 
 **보강** 활동은 **타겟팅** 활동입니다. 데이터베이스의 추가 정보로 타겟팅된 데이터를 향상시킵니다. 일반적으로 활동을 세분화한 후 워크플로에서 사용됩니다.
+
+>[!NOTE]
+>
+>**대상자 빌드** 활동을 통해 **추가 데이터**&#x200B;를 추가할 수도 있습니다. [대상자 작성 활동 사용](build-audience.md#build-audience-configuration)을 참조하세요.
 
 데이터 보강 데이터는 다음 중 하나에서 가져올 수 있습니다.
 

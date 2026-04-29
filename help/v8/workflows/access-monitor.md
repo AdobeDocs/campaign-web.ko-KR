@@ -3,10 +3,10 @@ audience: end-user
 title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign Web을 사용하여 워크플로를 빌드하는 방법 알아보기
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: a84d816e87bcbe05837c502b7e3c4e8d898752fe
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 17%
+source-wordcount: '363'
+ht-degree: 16%
 
 ---
 
@@ -40,8 +40,7 @@ ht-degree: 17%
 * **[!UICONTROL 초안]**: 워크플로우를 만들고 저장했습니다.
 * **[!UICONTROL 진행 중]**: 워크플로가 현재 실행 중입니다.
 * **[!UICONTROL 완료됨]**: 워크플로 실행이 완료되었습니다.
-* **[!UICONTROL 일시 중지됨]**: 워크플로우가 일시 중지되었습니다.
-* **[!UICONTROL 오류]**: 워크플로우에서 오류가 발생했습니다. 워크플로우를 열고 로그 및 작업에 액세스하여 오류를 식별하고 해결합니다. [로그 및 작업을 모니터링하는 방법 알아보기](start-monitor-workflows.md#logs-tasks)
+* **[!UICONTROL 일시 중지됨]**: 오류가 발생한 후 워크플로가 수동 또는 자동으로 일시 중지되었습니다. 오류로 인해 워크플로우가 일시 중지된 경우 워크플로우를 열고 로그 및 작업에 액세스하여 문제를 식별하고 해결합니다. [로그 및 작업을 모니터링하는 방법 알아보기](start-monitor-workflows.md#logs-tasks)
 
 워크플로우 실행을 시작하고 모니터링하는 방법에 대한 자세한 정보는 [이 페이지](start-monitor-workflows.md)에서 확인할 수 있습니다.
 

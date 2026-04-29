@@ -3,10 +3,10 @@ audience: end-user
 title: 워크플로 활동을 사용하여 작업
 description: 워크플로 활동을 사용하는 방법 알아보기
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
+source-git-commit: b995e3c16d6f21852f565c504e3cc4709555943c
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 24%
+source-wordcount: '629'
+ht-degree: 25%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 24%
 
 이러한 활동은 타겟팅에만 해당됩니다. 이를 통해 대상을 정의하고 교차, 결합 또는 제외 작업을 사용하여 이러한 대상을 분할 또는 결합하여 하나 이상의 대상 대상을 작성할 수 있습니다.
 
-* [대상 작성](build-audience.md): 대상 모집단을 정의합니다. 기존 대상자를 선택하거나 쿼리 모델러를 사용하여 자체 쿼리를 정의합니다.
+* [대상 작성](build-audience.md): 대상 모집단을 정의합니다. 기존 대상자를 선택하거나 쿼리 모델러를 사용하여 자체 쿼리를 정의합니다. **데이터 보강**&#x200B;을 구성할 수도 있습니다(쿼리에 사용 가능).
 * [데이터 원본 변경](change-data-source.md): 워크플로우의 작업 테이블에 대한 데이터 원본을 변경합니다.
 * [차원 변경](change-dimension.md): 워크플로우를 빌드하는 동안 타깃팅 차원을 변경합니다.
 * [결합](combine.md): 인바운드 모집단에서 세분화를 수행합니다. 결합, 교집합 또는 제외를 사용합니다.
@@ -46,7 +46,7 @@ ht-degree: 24%
 * [파일 전송](transfer-file.md): 파일을 받거나 보내고, 파일이 있는지 테스트하거나, 서버에 있는 파일을 나열합니다. 사용되는 프로토콜은 서버 간 프로토콜 또는 HTTP 프로토콜일 수 있습니다.
 * [JavaScript 코드](javascript-code.md): 워크플로 컨텍스트 내에서 JavaScript 코드 조각을 실행합니다.
 * [구독 서비스](subscription-services.md): 한 번의 작업으로 서비스에 여러 프로필을 구독하거나 구독 취소합니다.
-* [데이터 업데이트](update-data.md): 데이터베이스의 필드에 대한 대량 업데이트를 수행합니다. 몇 가지 옵션을 사용하여 데이터 업데이트를 개인화할 수 있습니다.
+* [데이터 업데이트](update-data.md): 데이터베이스의 필드에 대한 대량 업데이트를 수행합니다. 데이터 업데이트를 개인화할 수 있는 몇 가지 옵션을 제공합니다.
 
 ## 채널 활동 {#channel}
 

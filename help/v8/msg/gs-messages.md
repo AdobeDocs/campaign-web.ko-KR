@@ -1,19 +1,19 @@
 ---
 audience: end-user
 title: Adobe Campaign Web의 메시지 및 게재 시작
-description: Adobe Campaign 웹 사용자 인터페이스를 사용하여 게재를 사용하고 메시지를 보내는 방법을 알아봅니다
+description: Adobe Campaign Web 사용자 인터페이스로 게재 작업을 수행하고 메시지를 전송하는 방법 알아보기
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: c0e5809611c81684ba951b1f1fc8723e809a9573
-workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 75%
+workflow-type: ht
+source-wordcount: '172'
+ht-degree: 100%
 
 ---
 
 
 # 메시지 시작{#gs-messages}
 
-Adobe Campaign을 사용하면 이메일, SMS, 푸시 알림, [WhatsApp](../whatsapp/get-started-whatsapp.md) 및 DM을 비롯한 크로스 채널 캠페인을 보내고, 다양한 전용 보고서를 사용하여 영향력을 측정할 수 있습니다.
+Adobe Campaign에서는 이메일, SMS, 푸시 알림, [WhatsApp](../whatsapp/get-started-whatsapp.md), 다이렉트 메일 등 크로스 채널 캠페인을 전송하고, 다양한 전용 보고서를 사용하여 캠페인의 영향을 측정할 수 있습니다.
 
 이러한 메시지는 게재를 통해 디자인되고 전송되며 각 수신자에 대해 개인화할 수 있습니다. 이러한 게재는 독립 실행형이거나 마케팅 캠페인 컨텍스트에서 워크플로에 포함될 수 있습니다. [이 섹션](gs-deliveries.md)에서 Adobe Campaign에서 게재를 생성하고 관리하는 방법에 대해 알아보십시오.
 

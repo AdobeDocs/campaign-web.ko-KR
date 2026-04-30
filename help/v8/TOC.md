@@ -6,9 +6,9 @@ title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
 source-git-commit: f0c22710efcda2f59f75ea26cf239d549ff34f96
-workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 93%
+workflow-type: ht
+source-wordcount: '1027'
+ht-degree: 100%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 93%
 + [Adobe Campaign Web 사용자 인터페이스 설명서](campaign-web-home.md)
 + 릴리스 정보 {#release-notes}
    + [새로운 기능](rn/whats-new.md)
-   + {hide-from-toc}[조기 릴리스](rn/e-release-notes.md)
+   + {hide-from-toc}[초기 릴리스](rn/e-release-notes.md)
    + [최신 릴리스](rn/release-notes.md)
    + 이전 릴리스 {#previous-release-notes}
-      + [2026 릴리스](rn/release-notes-26.md)
+      + [2026년 릴리스](rn/release-notes-26.md)
       + [2025년 릴리스](rn/release-notes-25.md)
       + [2024년 릴리스](rn/release-notes-24.md)
    + {hide-from-toc}[설명서 업데이트](rn/documentation-updates.md)
 + Adobe Campaign 시작 {#start}
    + [시작](get-started/get-started.md)
    + [Campaign에 연결](get-started/connect-to-campaign.md)
-   + {hide-from-toc}[인터페이스 검색](get-started/user-interface.md)
+   + {hide-from-toc}[인터페이스 살펴보기](get-started/user-interface.md)
    + [목록 찾아보기 및 필터링](get-started/list-filters.md)
    + [미리 정의된 필터 작업](get-started/predefined-filters.md)
    + [폴더 작업](get-started/work-with-folders.md)
@@ -36,7 +36,7 @@ ht-degree: 93%
    + [권한](get-started/permissions.md)
    + [Campaign Web 및 클라이언트 콘솔](get-started/capability-matrix.md)
    + [Campaign Standard에서 v8로의 전환](rn/acs-migration.md)
-   + {hide-from-toc}[AI 기반의 상황별 도움말](get-started/using-ai.md)
+   + {hide-from-toc}[AI 기반 상황별 도움말](get-started/using-ai.md)
    + [FAQ](get-started/faq.md)
 + 메시지 및 게재 {#msg}
    + [메시지 시작](msg/gs-messages.md)
@@ -143,7 +143,7 @@ ht-degree: 93%
       + 브랜드 {#ai-assistant}
          + [브랜드 만들기 및 관리](content/brands.md)
          + [브랜드 개인화](content/brands-personalize.md)
-         + [생성 모델 생성 및 관리](content/generative-models.md)
+         + [생성형 모델 만들기 및 관리](content/generative-models.md)
          + [콘텐츠 평가](content/brands-score.md)
 + 랜딩 페이지 {#landing-pages}
    + [랜딩 페이지 시작하기](landing-pages/get-started-lp.md)
@@ -206,7 +206,7 @@ ht-degree: 93%
       + [포크](workflows/activities/fork.md)
       + [증분 쿼리](workflows/activities/incremental-query.md)
       + [JavaScript 코드](workflows/activities/javascript-code.md)
-      + [가입](workflows/activities/join.md)
+      + [조인](workflows/activities/join.md)
       + [파일 로드](workflows/activities/load-file.md)
       + [조정](workflows/activities/reconciliation.md)
       + [대상자 저장](workflows/activities/save-audience.md)
@@ -284,7 +284,7 @@ ht-degree: 93%
       + [브랜딩 정보](administration/branding/branding-gs.md)
       + [브랜드 구성](administration/branding/branding-configure.md)
       + [브랜드 할당](administration/branding/branding-assign.md)
-   + [비즈니스 규칙 작업 (유형화)](administration/typologies.md)
+   + [비즈니스 규칙 작업(유형화)](administration/typologies.md)
    + [대상 매핑 관리](administration/target-mappings.md)
    + 스키마 작업 {#schemas}
       + [스키마 정보](administration/schemas.md)
@@ -293,9 +293,9 @@ ht-degree: 93%
       + [사용자 정의 필드 편집](administration/schemas-custom-fields.md)
       + [컬렉션 목록 추가](administration/schemas-collection-lists.md)
       + [스키마 만들기 및 게시](administration/schemas-create-publish.md)
-      + [사용자 정의 양식을 사용한 작업](administration/schemas-custom-forms.md)
-   + {hide-from-toc}[사용자 지정 필드 구성](administration/custom-fields.md)
-   + [&#x200B; [!DNL Campaign] 옵션 구성](administration/options.md)
+      + [사용자 정의 양식 작업](administration/schemas-custom-forms.md)
+   + {hide-from-toc}[사용자 정의 필드 구성](administration/custom-fields.md)
+   + [ [!DNL Campaign] 옵션 구성](administration/options.md)
    + [시간대 관리](administration/timezone-management.md)
    + 외부 계정 {#external-accounts}
       + [외부 계정 만들기](administration/create-external-account.md)

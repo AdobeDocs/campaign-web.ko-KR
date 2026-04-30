@@ -4,9 +4,9 @@ title: Adobe Campaign Web 시작
 description: Adobe Campaign Web 시작
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '582'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 99%
 
 Adobe Campaign은 크로스 채널 고객 경험을 디자인할 수 있는 플랫폼과 더불어 시각적 캠페인 오케스트레이션, 실시간 상호 작용 관리, 크로스 채널을 실행할 수 있는 환경을 제공합니다.
 
-Adobe Campaign v8은 이메일, 푸시 알림, SMS, 다이렉트 메일 등 다양한 마케팅 채널을 위해 구축된 차세대 캠페인 도구입니다. 완벽한 캠페인을 제작 및 큐레이션하는 데 도움이 되는 강력한 ETL 및 데이터 관리 기능을 제공합니다. 오케스트레이션 엔진은 배치 기반 여정을 핵심으로 집중하는 풍부한 멀티 터치 마케팅 프로그램이 가능합니다. 또한 암호 재설정, 주문 확인, 전자 영수증 등 커뮤니케이션의 전반을 아우르는 페이로드를 기반으로, 마케팅 팀이 사전 정의된 메시지를 모든 IT 시스템에서 전송할 수 있도록 지원하는 확장 가능한 실시간 메시징 서버도 제공합니다.
+Adobe Campaign v8은 이메일, 푸시 알림, SMS, 다이렉트 메일 등 다양한 마케팅 채널을 위해 구축된 차세대 캠페인 도구입니다. 완벽한 캠페인을 제작 및 큐레이션하는 데 도움이 되는 강력한 ETL 및 데이터 관리 기능을 제공합니다. 오케스트레이션 엔진은 배치 기반 여정을 핵심으로 집중하는 풍부한 멀티 터치 마케팅 프로그램이 가능합니다. 또한 암호 재설정, 주문 확인, 전자 영수증 등 커뮤니케이션의 전반을 아우르는 페이로드를 기반으로, 마케팅 팀이 미리 정의된 메시지를 모든 IT 시스템에서 전송할 수 있도록 지원하는 확장 가능한 실시간 메시징 서버도 제공합니다.
 
 Campaign을 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 
@@ -49,7 +49,7 @@ Campaign을 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 
 [이 페이지](connect-to-campaign.md)에서는 Adobe Campaign Web 버전에 연결하는 방법을 알아봅니다.
 
-➡️ [비디오에서 Campaign 웹 검색](#video)
+➡️ [비디오에서 Campaign Web 살펴보기](#video)
 
 ## Campaign 클라이언트 콘솔 정보 {#ac-client}
 
@@ -66,7 +66,7 @@ Campaign 데이터는 애플리케이션 서버에 저장됩니다. 클라이언
 
 Learn how to access and navigate the Campaign Web user interface and how to customize the inventory lists. Discover the AI-powered Knowledge Assistant.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453429?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12)
 -->
 
 <!--
@@ -96,7 +96,7 @@ With workflows, you can orchestrate the full range of processes and tasks, impro
 
 Understand how workflows work and how to create a targeting workflow in this how-to video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3448371?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
 
 Adobe Campaign Web user interface features a query modeler that simplifies the process of filtering the database based on various criteria. Learn how to use it in [this section](../query/query-modeler-overview.md)
 

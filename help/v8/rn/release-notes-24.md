@@ -1,17 +1,17 @@
 ---
 title: Campaign v8 Web 사용자 인터페이스 이전 릴리스 정보
-description: 2024 Campaign Web 사용자 인터페이스 릴리스
+description: 2024년 Campaign Web 사용자 인터페이스 릴리스
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
-workflow-type: tm+mt
-source-wordcount: '2532'
+workflow-type: ht
+source-wordcount: '2612'
 ht-degree: 100%
 
 ---
 
-# 2024 릴리스 정보 {#2024-release}
+# 2024년 릴리스 정보 {#2024-release}
 
-이 페이지에는 **2024년 릴리스**&#x200B;를 통해 이용할 수 있는 모든 변경 사항과 개선 사항이 나열되어 있습니다. 최신 릴리스 정보는 [이 페이지](release-notes.md)에서 확인할 수 있습니다.
+이 페이지에는 **2024년 릴리스**&#x200B;에서 제공되는 모든 변경 사항과 개선 사항이 나열되어 있습니다.최신 릴리스 정보는 [이 페이지](release-notes.md)에서 확인할 수 있습니다.
 
 
 ## 2024년 10월 릴리스 {#24-10-release}
@@ -32,7 +32,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>이제 Adobe Campaign Web 사용자 인터페이스를 통해 외부 계정을 직접 설정하고 관리할 수 있습니다. 이 새로운 기능을 사용하면 바운스 이메일(POP3) 또는 실행 인스턴스 등 다양한 유형의 외부 계정을 간편하게 구성할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../administration/external-account.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../administration/external-account.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -49,7 +49,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>이제 Campaign web 사용자 인터페이스에서 트랜잭션 메시지(메시지 센터)를 사용할 수 있습니다. 이 추가 기능은 정보 시스템에서 트리거된 이벤트에서 생성되는 메시지를 트리거하도록 설계되었으며, 여기에는 인보이스, 주문 확인, 배송 확인, 암호 변경, 제품 사용 불가 알림, 계정 명세서, 웹 사이트 계정 생성 등이 포함될 수 있습니다.</p>
-<p>자세한 내용은 <a href="../transactional-messaging/transactional.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../transactional-messaging/transactional.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -87,7 +87,7 @@ ht-degree: 100%
 <td>
 <p>메시지를 작성하고 개인화한 후에는 Adobe Campaign Web의 AI 어시스턴트를 사용하여 콘텐츠를 개선할 수 있습니다. 이 강력한 도구를 사용하면 다양한 매력적인 텍스트, 메인 제목 및 시각적으로 매력적인 이미지를 생성하여 콘텐츠의 영향을 최적화할 수 있습니다.</p>
 <p><a href="https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator">실시간 기능 미리보기</a>를 통해 직접 기능을 살펴보고 성능을 완벽하게 이해해 보십시오</a>.</p>
-<p>자세한 내용은 <a href="../content/generative-gs.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../content/generative-gs.md">세부 설명서</a>를 참조하십시오.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
 <p>가용 일자: 9월 12일</p>
 </td>
@@ -138,8 +138,8 @@ ht-degree: 100%
 
 다음과 같은 두 가지 유형의 조각을 사용할 수 있습니다.
 
-* **표현식 조각**&#x200B;은 표현식 편집기의 전용 항목에서 사용할 수 있는 사전 정의된 표현식입니다.
-* **시각적 조각**&#x200B;은 여러 이메일 게재 또는 콘텐츠 템플릿에서 재사용할 수 있는 사전 정의된 시각적 블록입니다. [자세히 알아보기](../content/fragments.md)
+* **표현식 조각**&#x200B;은 표현식 편집기의 전용 항목에서 사용할 수 있는 미리 정의된 표현식입니다.
+* **시각적 조각**&#x200B;은 여러 이메일 게재 또는 콘텐츠 템플릿에서 재사용할 수 있는 미리 정의된 시각적 블록입니다. [자세히 알아보기](../content/fragments.md)
 
   >[!AVAILABILITY]
   >
@@ -206,13 +206,13 @@ ht-degree: 100%
 
 ### 테이블 간 링크 만들기 {#24-5-3}
 
-이제 **보강** 워크플로 활동에서 다른 테이블과의 링크를 생성할 수 있습니다. 활동 매개변수에서 새로운 **링크 정의** 섹션을 사용하여 작업 테이블 데이터와 Adobe Campaign 데이터베이스 간의 링크를 생성합니다. 예를 들어 수신자의 계정 번호, 국가 및 이메일이 포함된 파일에서 데이터를 로드하는 경우 이제 국가 테이블에 대한 링크를 생성하여 프로필에서 이 정보를 업데이트할 수 있습니다. [자세히 보기](../workflows/activities/enrichment.md#create-links)
+이제 **보강** 워크플로 활동에서 다른 테이블과의 링크를 만들 수 있습니다. 활동 매개변수에서 새로운 **링크 정의** 섹션을 사용하여 작업 테이블 데이터와 Adobe Campaign 데이터베이스 간의 링크를 생성합니다. 예를 들어 수신자의 계정 번호, 국가 및 이메일이 포함된 파일에서 데이터를 로드하는 경우 이제 국가 테이블에 대한 링크를 생성하여 프로필에서 이 정보를 업데이트할 수 있습니다. [자세히 보기](../workflows/activities/enrichment.md#create-links)
 
 ### 일반 개선 사항 {#improvements-24-5}
 
 * **다이렉트 메일** - 이제 표현식 편집기를 활용하여 다이렉트 메일 추출 파일에 표시할 속성을 선택할 수 있습니다. [자세히 보기](../direct-mail/content-direct-mail.md)
 
-* **폴더 관리** - 이제 상위 폴더와 다른 유형의 하위 폴더를 생성할 수 있습니다. [자세히 보기](../get-started/permissions.md#folders)
+* **폴더 관리** - 이제 상위 폴더와 다른 유형의 하위 폴더를 만들 수 있습니다. [자세히 보기](../get-started/permissions.md#folders)
 
 * **글로벌화** - 통합된 사용자 경험을 제공하기 위한 지속적인 노력의 일환으로 Adobe Experience Cloud 제품 및 앱에서 사용되는 용어가 통합되었습니다. 이는 오브젝트의 이름과 관련될 때 “레이블”로 변경되는 독일어 용어 “Titel”에 영향을 미칩니다. 변경 사항은 UI와 설명서에 점진적으로 적용됩니다.
 
@@ -282,7 +282,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->이 버전은 [Campaign (콘솔) v8.6 릴리스](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ko)를 시작하는 모든 사용자가 사용할 수 있습니다. [Campaign v8 (콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=ko){target="_blank"}에서 Adobe Campaign 클라이언트 콘솔 릴리스 및 업그레이드에 대해 자세히 알아보십시오.
+>이 버전은 [Campaign(콘솔) v8.6 릴리스](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ko)를 시작하는 모든 사용자가 사용할 수 있습니다. [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=ko){target="_blank"}에서 Adobe Campaign 클라이언트 콘솔 릴리스 및 업그레이드에 대해 자세히 알아보십시오.
 
 **릴리스 일자**: 2024년 3월 19~20일
 
@@ -300,6 +300,6 @@ ht-degree: 100%
 
 ### 쿼리 모델러 {#24-3-query-modeler}
 
-* 이제 이메일 디자이너에서 쿼리 모델러를 사용할 수 있습니다. 이를 통해 조건부 콘텐츠를 생성할 때 조건을 빌드할 수 있습니다.
-* 이제 사용자 정의 조건을 생성할 때 날짜 유형 속성에 대해 미리 정의된 값을 사용할 수 있습니다.
+* 이제 이메일 디자이너에서 쿼리 모델러를 사용할 수 있습니다. 이를 통해 조건부 콘텐츠를 만들 때 조건을 빌드할 수 있습니다.
+* 이제 사용자 정의 조건을 만들 때 날짜 유형 속성에 대해 미리 정의된 값을 사용할 수 있습니다.
 * 더 이상 다이어그램의 새 전환에 연산자를 추가할 수 없습니다. 구성 요소를 필터링하여 함께 그룹화하기 전에는 기존 전환에만 추가할 수 있습니다.

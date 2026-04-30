@@ -5,7 +5,7 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: f1f207785ad25ceb8f9891bfad74193768cb2937
 workflow-type: tm+mt
 source-wordcount: '631'
-ht-degree: 37%
+ht-degree: 91%
 
 ---
 
@@ -37,14 +37,14 @@ _2026년 3월_ 24일
 <table>
 <thead>
 <tr>
-<th><strong>GA(스키마 작성)</strong><br/></th> 
+<th><strong>스키마 작성(GA)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 모든 고객 (GA)이 스키마 작성 기능을 사용할 수 있습니다. 이 기능을 사용하면 Campaign 웹 사용자 인터페이스에서 직접 스키마를 만들고 관리할 수 있습니다. 새 테이블을 만들고, 기존 스키마를 확장하고, 사용자 정의 양식을 만들 수 있습니다. 클라이언트 콘솔에 액세스하지 않고도 특정 비즈니스 요구 사항을 지원하도록 사용자 정의 데이터 구조를 정의할 수 있습니다.</p>
-<p>자세한 내용은 <a href="../administration/schemas.md">세부 설명서</a>를 참조하세요.</p>
+<p>이제 모든 고객이 스키마 작성 기능을 사용할 수 있습니다(GA). 이 기능을 사용하면 Campaign Web 사용자 인터페이스에서 직접 스키마를 만들고 관리할 수 있습니다. 새 테이블을 만들고, 기존 스키마를 확장하고, 사용자 정의 양식을 만들 수 있습니다. 클라이언트 콘솔에 액세스하지 않고도 특정 비즈니스 요구 사항을 지원하기 위해 사용자 정의 데이터 구조를 정의할 수 있습니다.</p>
+<p>자세한 내용은 <a href="../administration/schemas.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -53,15 +53,15 @@ _2026년 3월_ 24일
 <table>
 <thead>
 <tr>
-<th><strong>이메일 디자이너의 테마 (LA)</strong><br/></th> 
+<th><strong>이메일 디자이너의 테마(LA)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>테마는 브랜드 지침에 맞는 재사용 가능한 테마 스타일을 정의할 수 있도록 함으로써 이메일에 대한 향상된 작성 환경을 제공합니다. 이제 조각에서 테마 변수를 사용하여 이메일 템플릿 간에 일관적인 스타일을 유지할 수 있습니다. 이 기능을 사용하면 브랜드 일관성을 유지하면서 제목, 설명, 이미지 및 링크와 같은 콘텐츠 요소를 추상화하는 사전 정의된 모듈을 사용하여 이메일을 더 빠르게 작성할 수 있습니다.</p>
+<p>테마는 브랜드 가이드라인에 맞는 재사용 가능한 테마 스타일을 정의하여 이메일에 대한 향상된 작성 환경을 제공합니다. 이제 조각에서 테마 변수를 사용하여 이메일 템플릿 간에 일관적인 스타일을 유지할 수 있습니다. 이 기능을 사용하면 제목, 설명, 이미지, 링크와 같은 콘텐츠 요소를 추상화한 미리 정의된 모듈을 사용하여 브랜드 일관성을 유지하면서 이메일을 더 빠르게 작성할 수 있습니다.</p>
 <p>참고: 이 기능은 조직 집합에만 사용할 수 있으며(제한된 가용성), 향후 릴리스를 통해 전역적으로 출시될 예정입니다.</p>
-<p>자세한 내용은 <a href="../email/apply-email-themes.md">세부 설명서</a>를 참조하세요.</p>
+<p>자세한 내용은 <a href="../email/apply-email-themes.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -70,7 +70,7 @@ _2026년 3월_ 24일
 <table>
 <thead>
 <tr>
-<th><strong>사용자 지정 Firefly 모델 및 타사 이미지 생성 모델 통합</strong><br/></th>
+<th><strong>사용자 정의 Firefly 모델과 서드파티 이미지 생성 모델의 통합</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -78,8 +78,8 @@ _2026년 3월_ 24일
 <td>
 <p>승인된 서드파티 이미지 모델과 함께 표준 및 사용자 정의 Firefly 모델의 원활한 통합을 활성화하여 이미지 생성 시 더 큰 유연성, 컨트롤 및 브랜드 정렬을 제공합니다.</p>
 <p>요구 사항에 맞는 모델을 선택하십시오.</p>
-<ul><li> 추가 설정 없이 즉각적인 이미지를 생성할 수 있도록 <strong>Adobe 모델</strong>(Firefly Image Model 4 제공)</li><li> 특수 기능을 위한 <strong>파트너 모델</strong>(Gemini 2.5 Flash 지원)</li><li>브랜드 정체성, 스타일 및 시각적 지침에 따라 정확하게 일치하는 온브랜드 생성을 위한 <strong>사용자 지정 모델</strong>(사용자 고유의 자산에 대해 교육된 브랜드별 모델).</li></ul>
-<p>자세한 내용은 <a href="../content/generative-models.md">세부 설명서</a>를 참조하세요.</p>
+<ul><li> 별도의 설정 없이 즉시 이미지 생성을 위한 <strong>Adobe 모델</strong>(Firefly Image Model 4 기반)</li><li> 특수 기능을 위한 <strong>파트너 모델</strong>(Gemini 2.5 Flash 기반)</li><li>브랜드 정체성, 스타일 및 시각적 가이드라인에 정확히 일치하는 브랜드 콘텐츠 생성을 위한 <strong>사용자 정의 모델</strong>(사용자 고유의 자산에 대해 학습된 브랜드 전용 모델)</li></ul>
+<p>자세한 내용은 <a href="../content/generative-models.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -94,9 +94,9 @@ _2026년 3월_ 24일
 <tbody>
 <tr>
 <td>
-<p>이제 <strong>자동 게재</strong> 워크플로우 활동을 워크플로우 팔레트에서 사용할 수 있습니다. 이를 워크플로 내에서 바로 사용하여 게재 액션(준비, 교정쇄 보내기, 준비 및 시작 등)을 만들거나 실행할 수 있습니다. 워크플로우 외부에서 만든 기존 게재를 선택하여 실행할 때마다 다시 사용하거나, 활동이 실행될 때마다 템플릿에서 새 게재를 만듭니다.</p>
+<p>이제 워크플로 팔레트에서 <strong>자동화된 게재</strong> 워크플로 활동을 사용할 수 있습니다. 이를 워크플로 내에서 바로 사용하여 게재 액션(준비, 교정쇄 보내기, 준비 및 시작 등)을 만들거나 실행할 수 있습니다. 워크플로 외부에서 만든 기존의 게재를 선택하여 실행할 때마다 재사용하거나, 활동이 실행될 때마다 템플릿에서 새로운 게재를 만들 수 있습니다.</p>
 <p><img src="assets/do-not-localize/workflow-automated-delivery.gif"/></p>
-<p>자세한 내용은 <a href="../workflows/activities/automated-delivery.md">자세한 설명서를 참조하세요.</p>
+<p>자세한 내용은 <a href="../workflows/activities/automated-delivery.md">세부 설명서를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -112,9 +112,9 @@ _2026년 3월_ 24일
 <tr>
 <td>
 
-<p>이제 <strong>여러 분기</strong>가 지원됩니다. <strong>포크</strong>를 사용하는 대신 도구 모음에서 <strong>분기 추가</strong>를 클릭할 수 있습니다. <strong>AND-join</strong> 활동도 개선되었습니다. 이제 AND와 OR 조인 옵션 중 하나를 선택할 수 있는 일반 <strong>조인</strong> 활동입니다.</p>
+<p>이제 <strong>여러 분기</strong>가 지원됩니다. <strong>포크</strong>를 사용하는 대신 도구 모음에서 <strong>분기 추가</strong>를 클릭할 수 있습니다. <strong>AND-조인</strong> 활동도 개선되었습니다. 이제 AND와 OR 조인 옵션 중에서 선택할 수 있는 일반 <strong>조인</strong> 활동입니다.</p>
 <p><img src="assets/do-not-localize/workflow-branches-join.gif"/></p>
-<p>자세한 내용은 <a href="../workflows/orchestrate-activities.md#toolbar">활동 오케스트레이션</a> 및 <a href="../workflows/activities/join.md">가입</a> 설명서 페이지를 참조하세요.</p>
+<p>자세한 내용은 <a href="../workflows/orchestrate-activities.md#toolbar">활동 오케스트레이션</a> 및 <a href="../workflows/activities/join.md">조인</a> 설명서 페이지를 참조하십시오.</p>
 </td>
 </tr>
 </tbody>
@@ -122,6 +122,6 @@ _2026년 3월_ 24일
 
 ### 개선 사항 {#26-3-improvements}
 
-* 클라이언트 콘솔과의 호환성을 개선하기 위해 **시작** 워크플로우 활동이 추가되었습니다. 이 활동은 선택 사항이며 기본적으로 새 워크플로우에 삽입되지 않습니다. 하지만 기존 워크플로우에 자동으로 추가됩니다.
+* 클라이언트 콘솔과의 호환성을 개선하기 위해 **시작** 워크플로 활동이 추가되었습니다. 이 활동은 선택 사항이며, 새로운 워크플로에는 기본적으로 포함되지 않습니다. 하지만 기존 워크플로에는 자동으로 추가됩니다.
   [자세히 알아보기](../workflows/activities/about-activities.md#flow-control)
 * 게재의 **일정** 설정에서 시간대 선택 필드가 **연락 날짜** 필드 아래로 이동되었습니다. [자세히 알아보기](../msg/create-deliveries.md#gs-schedule)

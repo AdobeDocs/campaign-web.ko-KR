@@ -3,9 +3,9 @@ audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 469165c375718dfe71fe7eac8e5711db1731843b
 workflow-type: tm+mt
-source-wordcount: '2192'
+source-wordcount: '2199'
 ht-degree: 36%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 36%
 
 # 표현식 편집 {#expression}
 
-표현식을 편집하려면 수동으로 조건을 입력하여 규칙을 만듭니다. 이 모드에서는 날짜, 문자열, 숫자 필드 및 정렬과 같은 특정 쿼리를 수행하는 데 사용되는 값을 조작할 수 있는 고급 함수를 사용할 수 있습니다.
+표현식을 편집하려면 수동으로 조건을 입력하여 규칙을 형성해야 합니다. 이 모드에서는 날짜, 문자열, 숫자 필드 및 정렬과 같은 특정 쿼리를 수행하는 데 사용되는 값을 조작할 수 있는 고급 함수를 사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -525,12 +525,12 @@ ht-degree: 36%
    <td> Decode(&lt;값 1&gt;, &lt;값 2&gt;, &lt;값 3&gt;, &lt;값 4&gt;)<br /> </td>  
   </tr> 
   <!--
-<tr> 
+  <tr> 
    <td> <strong>DefaultFolder</strong><br /> </td> 
    <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
   </tr> 
--->
+  -->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> 값 1 반환(case 함수의 매개 변수로만 사용할 수 있음)<br /> </td> 
@@ -728,12 +728,12 @@ ht-degree: 36%
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
    <td> 문자열의 SHA256 키에 대한 16진수 표현입니다.<br /> </td> 
-   <td> Sha256Digest (&lt;문자열&gt;)<br /> </td> 
+   <td> Sha256Digest(&lt;문자열&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
    <td> 문자열의 SHA512 키에 대한 16진수 표현입니다.<br /> </td> 
-   <td> Sha512Digest (&lt;문자열&gt;)<br /> </td> 
+   <td> Sha512Digest(&lt;문자열&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -780,7 +780,7 @@ ht-degree: 36%
   <tr> 
    <td> <strong>_Over__</strong><br /> </td> 
    <td> 첫 번째 매개 변수로 입력한 SQL 함수 호출 실행, 두 번째 매개 변수로 입력한 파티션 또는 정렬 기준 필드<br /> </td> 
-   <td> _Over_ (&lt;값&gt;, &lt;값&gt;)<br /> </td>  
+   <td> _Over_(&lt;값&gt;, &lt;값&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 

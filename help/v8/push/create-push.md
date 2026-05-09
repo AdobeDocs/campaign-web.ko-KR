@@ -3,10 +3,10 @@ audience: end-user
 title: 푸시 알림 게재 만들기
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 만드는 방법을 알아봅니다
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 93525fd1900c3a667051720205219ae5f9884736
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 28%
+source-wordcount: '779'
+ht-degree: 32%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 28%
 >id="acw_push_notification_template"
 >title="푸시 알림 템플릿"
 >abstract="푸시 게재를 시작하려면 푸시 알림 템플릿을 선택합니다. 게재 템플릿을 사용하면 캠페인과 게재 전반에 걸쳐 사용자 정의 콘텐츠와 설정을 쉽게 재사용할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=ko" text="게재 템플릿 사용"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="게재 템플릿 사용"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
@@ -61,11 +61,11 @@ ht-degree: 28%
 >id="acw_deliveries_push_audience"
 >title="푸시 알림 대상자 정의"
 >abstract="메시지의 대상자를 정의하려면 먼저 푸시 게재와 연결된 앱을 선택해야 합니다. 기본적으로 푸시 알림은 애플리케이션의 모든 구독자에게 전송됩니다. **대상자 선택** 버튼을 클릭하여 특정 대상자로 세분화할 수 있습니다. 필요한 경우 컨트롤 그룹을 추가하여 게재의 영향을 측정할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=ko" text="컨트롤 그룹 설정"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="컨트롤 그룹 설정"
 
 먼저 앱을 선택해야 합니다. 그런 다음 아래에 설명된 대로 푸시 알림 대상을 세분화할 수 있습니다.
 
-1. **[!UICONTROL 대상]** 섹션에서 이 게재에 사용할 응용 프로그램을 선택합니다. 기본적으로 푸시 알림은 애플리케이션의 모든 구독자에게 전송됩니다. **[!UICONTROL 대상 선택]** 단추를 클릭하여 특정 대상으로 세분화할 수 있습니다.
+1. **[!UICONTROL 대상]** 섹션에서 이 게재에 사용할 응용 프로그램을 선택합니다. 기본적으로 푸시 알림은 애플리케이션의 모든 구독자에게 전송됩니다. **[!UICONTROL 대상자 선택]** 버튼을 클릭하여 특정 대상자로 세분화할 수 있습니다.
 
    ![푸시 게재에 대한 대상 선택을 보여 주는 스크린샷](assets/push_create_2.png){zoomable="yes"}
 
@@ -87,7 +87,7 @@ ht-degree: 28%
 
 ## 게재 보내기 예약 {#schedule-push}
 
-워크플로우의 컨텍스트에서 게재를 보낼 때는 **스케줄러** 활동을 사용해야 합니다. 자세한 내용은 [이 페이지](../workflows/activities/scheduler.md)를 참조하세요. 아래 단계는 독립형 게재에만 적용됩니다.
+워크플로우의 컨텍스트에서 게재를 보낼 때는 **스케줄러** 활동을 사용해야 합니다. [이 페이지](../workflows/activities/scheduler.md)에서 자세히 알아보십시오. 아래 단계는 독립형 게재에만 적용됩니다.
 
 독립 실행형 푸시 게재를 특정 날짜 및 시간으로 예약하려면 다음 단계를 따르십시오.
 

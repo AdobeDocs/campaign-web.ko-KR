@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 14%
+source-wordcount: '645'
+ht-degree: 15%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 14%
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
-<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=ko){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 테스트 프로필에 증명을 보내는 단계는 [이 섹션](../preview-test/test-deliveries.md#test-profiles)에 자세히 설명되어 있습니다.
 
@@ -102,7 +102,7 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
    추가 대상 데이터가 **[!UICONTROL 데이터 보강]** 워크플로우 활동에서 &#39;@&#39;으로 시작하는 별칭으로 정의되었는지 확인하십시오. 그렇지 않으면 게재 활동의 시드 주소와 함께 이 필드를 제대로 사용할 수 없습니다. [데이터 보강 활동에 대해 자세히 알아보기](../workflows/activities/enrichment.md)
 
-1. **[!UICONTROL 저장]** 단추를 클릭합니다.
+1. **[!UICONTROL 저장]** 버튼을 클릭합니다.
 
 방금 만든 테스트 프로필을 이제 증명 전송에 사용할 준비가 되었습니다. [자세히 알아보기](../preview-test/test-deliveries.md#test-profiles)
 
@@ -112,4 +112,4 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 Campaign 웹 사용자 인터페이스를 사용하여 테스트 프로필을 만들고 관리하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3442902?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)

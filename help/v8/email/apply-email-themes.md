@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 이메일 테마, 모듈, 재사용 가능성, 브랜드 일관성, 이메일 디자인, 사용자 지정 CSS, 모바일 최적화
 exl-id: c9e02bca-032d-4771-ad53-5bbebabc4c5d
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: '2077'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
 >id="acw_homepage_welcome_rn2"
 >title="이메일 디자이너의 테마 (LA)"
 >abstract="재사용 가능한 테마 스타일 및 변수를 적용하여 이메일 콘텐츠를 브랜드와 일관되게 유지합니다. 이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성)."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_email_apply_theme"
@@ -261,7 +261,7 @@ ht-degree: 4%
 
 1. 테마의 이름을 입력합니다.
 
-1. 색상 변형 추가, 글꼴 편집 등과 같이 테마를 처음부터 새로 만들 때와 마찬가지로 필요에 따라 직접 조정합니다. [방법 알아보기](#create-and-edit-themes)
+1. 색상 변형 추가, 글꼴 편집 등 테마를 처음부터 새로 만들 때와 마찬가지로 필요에 따라 직접 조정하십시오. [방법 알아보기](#create-and-edit-themes)
 
    ![색상 팔레트 및 변형 컨트롤을 표시하는 편집기에서 생성된 테마](assets/generate-theme-colors.png){width=90%}
 

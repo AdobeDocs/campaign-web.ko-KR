@@ -3,9 +3,9 @@ title: 랜딩 페이지별 콘텐츠 정의
 description: Campaign 웹에서 랜딩 페이지별 콘텐츠를 디자인하는 방법을 알아봅니다
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1170'
 ht-degree: 11%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 11%
    * **[!UICONTROL 선택한 경우 예]**.
    * **[!UICONTROL 선택한 경우 없음]**.
 
-1. 텍스트 필드, 라디오 버튼, 확인란, 드롭다운 목록 등 필드를 필요한 만큼 삭제하고 추가합니다.
+1. 텍스트 필드, 라디오 버튼, 확인란, 드롭다운 목록 등 필드를 삭제하고 원하는 만큼 추가합니다. 필요한 경우.
 
 1. 모든 필드가 추가되거나 업데이트되면 **[!UICONTROL Call to action]**&#x200B;을 클릭하여 해당 섹션을 확장합니다. 이를 통해 **[!UICONTROL Form]** 구성 요소에서 단추의 동작을 정의할 수 있습니다. [방법 알아보기](#define-actions-on-form-submission)
 
@@ -151,7 +151,7 @@ ht-degree: 11%
 
    ![확인란 스타일 설정](assets/lp-checkbox-style.png){zoomable="yes"}
 
-1. 양식에 추가했을 수 있는 다른 필드(라디오 버튼, 드롭다운 목록, 날짜 및 시간 등)에 해당하는 다른 섹션을 확장하고 편집합니다.
+1. 추가한 다른 필드(라디오 버튼, 드롭다운 목록, 날짜 및 시간 등)에 해당하는 다른 섹션을 확장하거나 편집합니다. 양식입니다.
 
 1. **[!UICONTROL Call to action]** 섹션을 확장하여 구성 요소 양식에서 단추의 모양을 수정합니다. 예를 들어, 글꼴을 변경하거나, 테두리를 추가하거나, 마우스로 가리키면 레이블 색상을 편집하거나, 단추의 정렬을 조정합니다.
 

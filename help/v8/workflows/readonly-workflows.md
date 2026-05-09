@@ -3,10 +3,10 @@ audience: end-user
 title: 읽기 전용 워크플로 정보
 description: 워크플로우가 읽기 전용 모드인 이유를 알아봅니다.
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 11%
+source-wordcount: '295'
+ht-degree: 10%
 
 ---
 
@@ -52,4 +52,4 @@ Campaign 사용자는 Adobe Campaign 데이터에 대한 액세스가 제한될 
 
 ![읽기 전용 모드의 기술 워크플로우 인터페이스로, 워크플로우를 일시 중지하거나 중지할 수 있는 옵션을 표시합니다.](assets/readonly-technical-workflow.png){zoomable="yes"}
 
-[이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)에서 기술 워크플로우에 대해 자세히 알아보세요.
+[이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)에서 기술 워크플로우에 대해 자세히 알아보세요.

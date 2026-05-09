@@ -3,9 +3,9 @@ audience: end-user
 title: JavaScript 코드 워크플로우 활동 사용
 description: JavaScript 코드 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '966'
 ht-degree: 32%
 
 ---
@@ -112,7 +112,7 @@ ht-degree: 32%
        vars.channel = "sms";
    ```
 
-1. 워크플로우를 시작합니다. 채널 변수는 **대상자 빌드** 활동에서 타겟팅한 프로필 수에 따라 &quot;email&quot; 또는 &quot;sms&quot; 값으로 만들어집니다.
+1. 워크플로를 시작합니다. 채널 변수는 **대상자 빌드** 활동에서 타겟팅한 프로필 수에 따라 &quot;email&quot; 또는 &quot;sms&quot; 값으로 만들어집니다.
 
 ### 변수 값을 기반으로 전환 트리거 {#example2}
 
@@ -120,7 +120,7 @@ ht-degree: 32%
 
 ![변수 값에 의해 트리거된 전환의 예](../assets/javascript-example2-transitions.png)
 
-이 예제에서 워크플로는 다른 워크플로에서 변수(**)가 전달되는**&#x200B;외부 신호`interest` 활동으로 시작합니다. 변수의 값은 초기 워크플로우에서 수행되는 필터링 작업에 따라 &quot;실행 중&quot; 또는 &quot;요가&quot;입니다.
+이 예제에서 워크플로는 다른 워크플로에서 변수(`interest`)가 전달되는 **외부 신호** 활동으로 시작합니다. 변수의 값은 초기 워크플로우에서 수행되는 필터링 작업에 따라 &quot;실행 중&quot; 또는 &quot;요가&quot;입니다.
 
 워크플로우의 다양한 전환이 변수의 값에 따라 트리거됩니다.
 
@@ -139,4 +139,4 @@ ht-degree: 32%
        task.postEvent(task.transitionByName("yoga"));
    ```
 
-1. 필요에 따라 각 전환의 구성을 완료한 다음 워크플로우를 시작합니다. 두 출력 전환 중 하나는 `interest`외부 신호&#x200B;**활동을 통해 전달된** 변수의 값을 기반으로 활성화됩니다.
+1. 필요에 따라 각 전환의 구성을 완료한 다음 워크플로우를 시작합니다. 두 출력 전환 중 하나는 **외부 신호** 활동을 통해 전달된 `interest` 변수의 값을 기반으로 활성화됩니다.

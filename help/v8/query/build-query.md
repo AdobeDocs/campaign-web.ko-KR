@@ -3,9 +3,9 @@ audience: end-user
 title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 6a2bc8f2c36db04c466ed51a96e281156b224d48
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '2921'
+source-wordcount: '2946'
 ht-degree: 7%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 7%
 >
 >* 값이 많은 필드의 경우 처음 20개 값만 표시됩니다. 이러한 경우 **[!UICONTROL 부분 로드]** 알림이 경고합니다.
 >* **[!UICONTROL 값 배포]** 옵션은 모든 특성 선택기에서 액세스할 수 있습니다. [특성을 선택하는 방법 알아보기](../get-started/attributes.md)
->* **[ !A고급 필터]**&#x200B;를 사용하여 결과에 조건을 추가할 수 있습니다. [여기에서 자세히 알아보십시오](../get-started/work-with-folders.md#filter-the-values).
+>* **[!A고급 필터]**&#x200B;를 사용하여 결과에 조건을 추가할 수 있습니다. [여기에서 자세히 알아보십시오](../get-started/work-with-folders.md#filter-the-values).
 
 ## 필터링 구성 요소 추가 {#filtering}
 
@@ -249,7 +249,7 @@ ht-degree: 7%
 
 >[!TAB 새 규칙 빌더]
 
-1. **조건 추가** 단추 옆에 있는 **[!UICONTROL 확장]** 단추를 클릭하고 **[!UICONTROL 대상 선택]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 조건 추가]** 단추 옆에 있는 **확장** 단추를 클릭하고 **[!UICONTROL 대상 선택]**&#x200B;을 선택합니다.
 
 1. 오른쪽에 **대상 선택** 속성 창이 열립니다. 쿼리를 필터링하는 데 사용할 대상을 선택합니다.
 
@@ -282,7 +282,7 @@ ht-degree: 7%
 
 >[!TAB 새 규칙 빌더]
 
-1. **조건 추가** 단추 옆에 있는 **[!UICONTROL 확장]** 단추를 클릭하고 **[!UICONTROL 미리 정의된 필터]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 조건 추가]** 단추 옆에 있는 **확장** 단추를 클릭하고 **[!UICONTROL 미리 정의된 필터]**&#x200B;를 선택합니다.
 
 1. **미리 정의된 필터** 속성 창이 오른쪽에 열립니다. 사용자 지정 필터 목록 또는 즐겨찾기에서 사전 정의된 필터를 선택합니다.
 

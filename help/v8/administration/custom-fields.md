@@ -3,10 +3,10 @@ title: 사용자 정의 필드
 description: 사용자 정의 필드를 구성하는 방법 및 인터페이스에서 해당 가시성을 알아봅니다.
 hide: true
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: b6642be803aff4bbfbc44028f4d379fdaa62dfb2
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 27%
+source-wordcount: '1043'
+ht-degree: 28%
 
 ---
 
@@ -123,7 +123,7 @@ ht-degree: 27%
 
   `$(<field-name>)` 구문을 사용하여 조건의 다른 필드에 입력한 값을 참조할 수도 있습니다. 이렇게 하면 아직 데이터베이스에 저장되지 않은 경우에도 양식에 입력한 대로 필드의 현재 값을 참조할 수 있습니다.
 
-  아래 예에서 조건은 @ref 필드의 값이 @refCom 필드에 입력한 값과 일치하는지 확인합니다. 반대로 `@refCom` 대신 `$(@refCom)`을(를) 사용하면 데이터베이스에 있는 @ref 필드의 값이 참조됩니다.
+  아래 예에서 조건은 @ref 필드의 값이 @refCom 필드에 입력한 값과 일치하는지 확인합니다. 반대로 `$(@refCom)` 대신 `@refCom`을(를) 사용하면 데이터베이스에 있는 @ref 필드의 값이 참조됩니다.
 
   +++보기 예
 

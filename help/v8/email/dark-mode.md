@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 keywords: 다크 모드, 이메일, 색상, 편집기
 exl-id: 0f1bbaf9-d648-4625-94fa-2e0c240d7264
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1519'
 ht-degree: 10%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 10%
 
 ### 자체 다크 모드를 적용하는 클라이언트 {#default-support}
 
-일부 이메일 클라이언트는 수신되는 모든 이메일에 대해 자체 기본 다크 모드를 체계적으로 적용합니다. 색상, 배경, 이미지 등 은 이메일 클라이언트별 다크 모드 설정에 따라 자동으로 조정되며, 이는 외부 수정이 불가능함을 의미합니다.
+일부 이메일 클라이언트는 수신되는 모든 이메일에 대해 자체 기본 다크 모드를 체계적으로 적용합니다. 색상, 배경, 이미지 등은 이메일 클라이언트별 어두운 모드 설정에 따라 자동으로 조정되므로 외부 수정이 불가능합니다.
 
 <!--It is important to note that less than 25% of email clients offer customization options for dark mode. Clients such as Gmail implement their own dark mode rendering, which is not subject to external modification.-->
 
@@ -79,7 +79,7 @@ ht-degree: 10%
 
 ### 사용자 정의 다크 모드를 지원하는 클라이언트 {#custom-support}
 
-다른 이메일 클라이언트는 `@media (prefers-color-scheme: dark)` 이메일 Designer에서 사용하는 메서드인 [!DNL Journey Optimizer] 쿼리를 사용하여 사용자 지정 다크 모드를 렌더링하는 옵션을 제공합니다.
+다른 이메일 클라이언트는 [!DNL Journey Optimizer] 이메일 Designer에서 사용하는 메서드인 `@media (prefers-color-scheme: dark)` 쿼리를 사용하여 사용자 지정 다크 모드를 렌더링하는 옵션을 제공합니다.
 
 다음은 이 옵션을 처리하는 주 클라이언트 목록입니다.
 

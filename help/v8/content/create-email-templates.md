@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 13%
+source-wordcount: '1096'
+ht-degree: 14%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 13%
 
 콘텐츠 템플릿은 [기존 전자 메일을 템플릿으로 저장](#save-as-template)하거나 전자 메일 템플릿 목록에서 **콘텐츠 템플릿 만들기** 단추를 통해 만들 수 있습니다. [아래 자세히 설명](#create-template-from-scratch).
 
-저장하면 [&#x200B; 내에 &#x200B;](../email/create-email.md)전자 메일[!DNL Adobe Campaign]을(를) 만들 때 이 템플릿을 사용할 수 있습니다. [방법 알아보기](use-email-templates.md)
+저장하면 [!DNL Adobe Campaign] 내에 [전자 메일](../email/create-email.md)을(를) 만들 때 이 템플릿을 사용할 수 있습니다. [방법 알아보기](use-email-templates.md)
 
 >[!NOTE]
 >
@@ -104,7 +104,7 @@ ht-degree: 13%
 
    * 전자 메일 Designer 인터페이스를 통해 [콘텐츠를 처음부터 디자인](../email/create-email-content.md)합니다.
    * [원시 HTML을 전자 메일 Designer에 직접 코딩하거나 복사하여 붙여 넣으십시오](../email/code-content.md).
-   * [파일 또는 .zip 폴더에서 기존 HTML 콘텐츠를 가져옵니다](../email/existing-content.md).
+   * 파일 또는 .zip 폴더에서 [기존 HTML 콘텐츠를 가져옵니다](../email/existing-content.md).
    * 기본 제공 또는 사용자 지정 템플릿 목록의 기존 콘텐츠를 사용합니다. 전자 메일에서 콘텐츠 템플릿을 사용하는 단계는 [이 섹션](use-email-templates.md)에 설명되어 있습니다.
 
    ![템플릿 작성을 위한 전자 메일 Designer 옵션](assets/email_designer-templates.png){zoomable="yes"}
@@ -201,4 +201,4 @@ You can test the rendering of any email content template, whether created from s
 
 * 콘텐츠 템플릿 자체에서 **자세히** 단추를 클릭한 다음 **복제**&#x200B;를 선택합니다.
 
-두 경우 모두 복제를 확인하여 새 콘텐츠 템플릿을 만듭니다. 새 콘텐츠 템플릿의 레이블은 **의`<label of the initial campaign>`**&#x200B;복사본입니다. 템플릿 설정으로 이동하여 이 레이블을 업데이트합니다.
+두 경우 모두 복제를 확인하여 새 콘텐츠 템플릿을 만듭니다. 새 콘텐츠 템플릿의 레이블은 `<label of the initial campaign>`**의**&#x200B;복사본입니다. 템플릿 설정으로 이동하여 이 레이블을 업데이트합니다.

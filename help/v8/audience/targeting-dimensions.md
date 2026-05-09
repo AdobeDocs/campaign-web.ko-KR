@@ -2,10 +2,10 @@
 title: 타기팅 및 필터링 차원
 description: Adobe Campaign 웹 UI의 차원 타겟팅 및 필터링에 대해 자세히 알아보기
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 16%
+source-wordcount: '587'
+ht-degree: 12%
 
 ---
 
@@ -42,11 +42,11 @@ ht-degree: 16%
 | 외부 파일 | 모든 필수 정보가 포함된 파일을 통한 게재 | 연결된 스키마 없음, 입력된 대상 없음 |
 | 구독자 애플리케이션 | 응용 프로그램을 구독한 프로필 | nms:appSubscriptionRcp |
 
-또한 특정 요구 사항에 따라 새 타겟 매핑을 만듭니다. 이 작업은 클라이언트 콘솔에서만 수행합니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ko#new-mapping){target="_blank"}를 참조하세요.
+또한 특정 요구 사항에 따라 새 타겟 매핑을 만듭니다. 이 작업은 클라이언트 콘솔에서만 수행합니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}를 참조하세요.
 
 ## 차원 필터링 {#filtering}
 
-타기팅 차원을 사용하면 수신자, 약정 수혜자, 운영자, 구독자 등 작업에서 타기팅하는 집단을 정의할 수 있습니다. 필터링 차원을 사용하면 기본 타겟팅 차원을 변경하지 않고 관련 데이터를 참조하여 이 모집단에 필터를 적용할 수 있습니다. 예를 들어 계약자나 뉴스레터 구독자와 같은 특정 기준에 따라 모집단을 선택할 수 있습니다.
+타겟팅 차원을 사용하면 작업에서 타겟팅한 모집단, 즉 수신자, 계약 수혜자, 운영자, 구독자 등을 정의할 수 있습니다. 필터링 차원을 사용하면 기본 타겟팅 차원을 변경하지 않고 관련 데이터를 참조하여 이 모집단에 필터를 적용할 수 있습니다. 예를 들어 계약자나 뉴스레터 구독자와 같은 특정 기준에 따라 모집단을 선택할 수 있습니다.
 
 필터링 차원은 **대상자 작성** 활동에서만 사용할 수 있습니다.
 

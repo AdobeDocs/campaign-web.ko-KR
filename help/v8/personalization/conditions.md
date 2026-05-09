@@ -7,9 +7,9 @@ old-role: Data Engineer
 role: Developer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 85ebbbe1e318cf0561b33d4c14250cded6ffbc65
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1072'
 ht-degree: 6%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 6%
 
 1. 수신자가 조건을 충족하지 않는 경우 표시할 콘텐츠를 지정합니다. **else** 도우미 함수 사용:
 
-   1. `%>` 태그를 닫는 식 앞에 커서를 놓고 `+`Else **함수 옆에 있는**&#x200B;을(를) 클릭합니다.
+   1. `%>` 태그를 닫는 식 앞에 커서를 놓고 **Else** 함수 옆에 있는 `+`을(를) 클릭합니다.
 
    1. `Insert content here`을(를) if 함수의 조건을 충족하지 않는 프로필에 표시할 콘텐츠로 바꾸십시오.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: SMS 채널에 대한 전역 보고서
 description: SMS 채널에 대한 글로벌 보고서 이해
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 27%
+source-wordcount: '689'
+ht-degree: 26%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 27%
 
 * **[!UICONTROL 게재할 메시지]**: 게재를 준비한 후 게재할 총 메시지 수입니다.
 
-* **&#x200B;**: 주소 누락, 격리 또는 차단 목록 제외 등 규칙을 적용할 때 분석 중에 무시된 총 주소 수입니다.
+* ****: 주소 누락, 격리 또는 차단 목록 제외 등 규칙을 적용할 때 분석 중에 무시된 총 주소 수입니다.
 
 +++
 

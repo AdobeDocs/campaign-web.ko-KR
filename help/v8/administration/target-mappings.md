@@ -2,10 +2,10 @@
 title: 대상 매핑 관리
 description: 대상 매핑을 관리하는 방법을 알아봅니다.
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 10%
+source-wordcount: '781'
+ht-degree: 11%
 
 ---
 

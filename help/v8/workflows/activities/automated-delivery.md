@@ -3,10 +3,10 @@ audience: end-user
 title: 자동화된 게재 워크플로우 활동
 description: 자동화된 게재 워크플로우 활동을 사용하는 방법을 알아봅니다
 exl-id: a9c485f1-0369-414d-9e43-bedb0390a2f5
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 13%
+source-wordcount: '643'
+ht-degree: 18%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
 >title="자동화된 게재 활동"
->abstract="이제 워크플로 팔레트에서 자동화된 게재 워크플로 활동을 사용할 수 있습니다. 이를 사용하여 워크플로우 내에서 직접 게재 작업(준비, 증명 보내기, 준비 및 시작 등)을 만들거나 실행할 수 있습니다."
+>abstract="이제 워크플로 팔레트에서 자동화된 게재 워크플로 활동을 사용할 수 있습니다. 이를 워크플로 내에서 바로 사용하여 게재 액션(준비, 교정쇄 보내기, 준비 및 시작 등)을 만들거나 실행할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]

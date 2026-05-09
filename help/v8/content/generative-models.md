@@ -5,10 +5,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: e4db43de-5dc1-4ab7-a703-598534e54826
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 8%
+source-wordcount: '560'
+ht-degree: 11%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 8%
 - Gemini 2.5 Flash에서 제공하는 **[!UICONTROL 파트너 모델]**&#x200B;은(는) 특정 사용 사례에 특화된 기능을 제공합니다.
 - **[!UICONTROL 사용자 지정 모델]**&#x200B;은(는) 자신의 자산에 대해 교육되고 조직에서 추가한 브랜드별 모델입니다.
 
-  **[!UICONTROL Adobe Firefly 설명서]**&#x200B;의 [사용자 지정 모델](https://helpx.adobe.com/kr/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)에 대해 자세히 알아보기
+  [Adobe Firefly 설명서](https://helpx.adobe.com/kr/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)의 **[!UICONTROL 사용자 지정 모델]**&#x200B;에 대해 자세히 알아보기
 
 구성하고 나면 콘텐츠에서 이미지를 만들 때 생성 모델을 선택할 수 있습니다. [이미지 생성에 대해 자세히 알아보세요](generative-image.md).
 

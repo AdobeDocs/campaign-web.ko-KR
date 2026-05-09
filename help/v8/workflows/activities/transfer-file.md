@@ -3,9 +3,9 @@ audience: end-user
 title: 파일 전송 활동 사용
 description: 파일 전송 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1266'
 ht-degree: 27%
 
 ---

@@ -3,10 +3,10 @@ audience: end-user
 title: 읽기 전용 워크플로 정보
 description: 워크플로우가 읽기 전용 모드인 이유를 알아봅니다.
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 11%
+source-wordcount: '295'
+ht-degree: 10%
 
 ---
 

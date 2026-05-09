@@ -3,10 +3,10 @@ audience: end-user
 title: 푸시 채널에 대한 캠페인 보고서
 description: 푸시 채널에 대한 캠페인 보고서 이해
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 17%
+source-wordcount: '545'
+ht-degree: 23%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 17%
 >title="게재 개요"
 >abstract="**게재 개요** 보고서는 방문자가 푸시 알림 게재에 참여하는 방식에 대한 자세한 정보를 포함하는 주요 성과 지표(KPI)를 제공합니다."
 
-**[!UICONTROL 게재 개요]** 보고서는 방문자가 푸시 알림 게재를 수행하는 방법에 대한 자세한 정보를 제공하는 주요 성능 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
+**[!UICONTROL 게재 개요]** 보고서는 방문자가 푸시 알림 게재에 참여하는 방식에 대한 자세한 정보를 포함하는 주요 성과 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
 ![게재 개요 보고서에 표시된 게재 요약 지표](assets/campaign-reporting-push-summary.png){zoomable="yes"}
 
@@ -44,7 +44,7 @@ ht-degree: 17%
 >title="초기 타깃 대상자 통계"
 >abstract="**초기 타깃 대상자 통계** 테이블에는 수신자와 관련된 데이터가 표시됩니다."
 
-**[!UICONTROL 초기 대상 통계]** 테이블에는 수신자와 관련된 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
+**[!UICONTROL 초기 타깃 대상자 통계]** 테이블에는 수신자와 관련된 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 
 ![보고서에 표시되는 초기 대상 통계](assets/campaign-reporting-push-target.png){zoomable="yes"}
 

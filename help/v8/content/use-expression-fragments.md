@@ -3,7 +3,7 @@ audience: end-user
 title: 표현식 편집기에서 표현식 조각 추가
 description: 콘텐츠 조각을 사용하여 만드는 방법 알아보기
 exl-id: 413a28c0-0cbc-4aed-ab0d-642f6245de01
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 26%

@@ -3,10 +3,10 @@ audience: end-user
 title: 콘텐츠 조각 만들기
 description: 콘텐츠 조각을 만드는 방법 알아보기
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 21%
+source-wordcount: '1038'
+ht-degree: 23%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 21%
 
 콘텐츠 조각을 처음부터 만들려면 아래 단계를 수행합니다.
 
-1. [콘텐츠 관리](#access-manage-fragments) > **[!UICONTROL 조각]** 왼쪽 메뉴를 통해 조각 목록에 액세스&#x200B;**[!UICONTROL 하고]**&#x200B;조각 만들기&#x200B;**[!UICONTROL 를 선택합니다.]**
+1. [콘텐츠 관리&#x200B;]&#x200B;**>**&#x200B;[!UICONTROL &#x200B;조각&#x200B;]&#x200B;**왼쪽 메뉴를 통해 조각 목록에 액세스(#access-manage-fragments)하고**&#x200B;[!UICONTROL &#x200B;조각 만들기&#x200B;]&#x200B;**를 선택합니다.**
 
    ![조각 만들기 옵션을 표시하는 조각 목록 화면](assets/fragments-list.png)
 
@@ -95,7 +95,7 @@ ht-degree: 21%
 
    >[!CAUTION]
    >
-   >인접한 섹션만 선택할 수 있습니다. 빈 구조나 다른 콘텐츠 조각을 선택할 수 없습니다.
+   >인접한 섹션만 선택할 수 있습니다. 빈 구조 또는 다른 콘텐츠 조각은 선택할 수 없습니다.
 
    ![요소 선택을 표시하는 조각으로 저장](assets/fragment-save-as-screen.png)
 

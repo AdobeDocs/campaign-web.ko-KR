@@ -3,9 +3,9 @@ audience: end-user
 title: 메시지에 오퍼 추가
 description: 오퍼 추가 및 전송 방법 알아보기
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '825'
 ht-degree: 23%
 
 ---

@@ -3,10 +3,10 @@ audience: end-user
 title: SMS 채널에 대한 캠페인 보고서
 description: SMS 채널에 대한 캠페인 보고서 이해
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 17%
+source-wordcount: '532'
+ht-degree: 23%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 17%
 >title="게재 개요"
 >abstract="**게재 개요** 보고서는 방문자가 SMS 게재에 참여하는 방식에 대한 자세한 정보를 포함하는 주요 성과 지표(KPI)를 제공합니다."
 
-**[!UICONTROL 게재 개요]** 보고서는 방문자가 SMS 게재에 참여하는 방식에 대한 자세한 정보를 제공하는 주요 성과 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
+**[!UICONTROL 게재 개요]** 보고서는 방문자가 SMS 게재에 참여하는 방식에 대한 자세한 정보를 포함하는 주요 성과 지표(KPI)를 제공합니다. 지표는 아래에 자세히 설명되어 있습니다.
 
 ![SMS 지표를 표시하는 게재 개요 보고서](assets/campaign_report_sms_1.png){zoomable="yes"}
 
@@ -44,7 +44,7 @@ ht-degree: 17%
 >title="초기 타깃 대상자 통계"
 >abstract="**초기 타깃 대상자 통계** 테이블에는 수신자와 관련된 데이터가 표시됩니다."
 
-**[!UICONTROL 초기 대상 통계]** 테이블에는 수신자와 관련된 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
+**[!UICONTROL 초기 타깃 대상자 통계]** 테이블에는 수신자와 관련된 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 
 ![받는 사람 데이터를 표시하는 초기 대상 통계 표](assets/campaign_report_sms_2.png){zoomable="yes"}
 

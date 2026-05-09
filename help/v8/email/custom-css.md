@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 keywords: css, 편집기, 요약, 이메일
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 10%
@@ -165,7 +165,7 @@ body {
 
 ## 기술 구현 {#implementation}
 
-사용자 지정 CSS는 아래 예와 같이 `<head>` 특성이 있는 `<style>` 태그의 일부로 `data-name="global-custom"` 섹션의 끝에 추가됩니다. 이렇게 하면 사용자 지정 스타일이 콘텐츠에 전체적으로 적용됩니다.
+사용자 지정 CSS는 아래 예와 같이 `data-name="global-custom"` 특성이 있는 `<style>` 태그의 일부로 `<head>` 섹션의 끝에 추가됩니다. 이렇게 하면 사용자 지정 스타일이 콘텐츠에 전체적으로 적용됩니다.
 
 +++ 샘플 참조 
 
@@ -238,7 +238,7 @@ For example:
 
 * CSS가 올바르고 구문 오류(예: 중괄호 누락, 잘못된 속성 이름)가 없는지 확인합니다. [방법 알아보기](#use-valid-css)
 
-* CSS가 `<style>` 특성이 있는 `data-name="global-custom"` 태그에 추가되고 있는지 확인하십시오.
+* CSS가 `data-name="global-custom"` 특성이 있는 `<style>` 태그에 추가되고 있는지 확인하십시오.
 
 * `global-custom` 스타일 태그에 `data-disabled` 특성이 `true`(으)로 설정되어 있는지 확인하십시오. 이 경우 사용자 지정 CSS는 적용되지 않습니다.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 푸시 게재 보고서
 description: 푸시 게재 보고서에 액세스하고 사용하는 방법을 알아봅니다
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 32%
+source-wordcount: '579'
+ht-degree: 39%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 32%
 >title="푸시 제외"
 >abstract="**제외** 그래프와 테이블에 대상 프로필에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 이유가 표시됩니다."
 
-**[!UICONTROL 제외]** 그래프 및 표에는 대상 프로필에서 제외된 사용자 프로필에서 메시지를 받지 못하게 하는 다양한 이유가 표시됩니다. 제외 규칙은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}에 자세히 설명되어 있습니다.
+**[!UICONTROL 제외]** 그래프와 테이블에 대상 프로필에서 제외된 사용자 프로필이 메시지를 받지 못하는 다양한 이유가 표시됩니다. 제외 규칙은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}에 자세히 설명되어 있습니다.
 
 ![이 스크린샷은 제외된 사용자 프로필이 메시지를 받지 못하게 하는 이유를 표시하는 제외 그래프 및 표를 보여 줍니다.](assets/reporting_push_6.png){zoomable="yes"}
 
@@ -96,6 +96,6 @@ ht-degree: 32%
 >title="게재 처리량 보고서"
 >abstract="게재 처리량 보고서는 지정된 기간 내 전체 플랫폼의 게재 처리량에 대한 자세한 정보를 제공합니다."
 
-**게재 처리량** 보고서는 지정된 일정 내에 전체 플랫폼의 게재 처리량에 대한 자세한 정보를 제공합니다. 메시지 게재 속도를 측정하는 데 사용되는 주요 지표는 시간당 전송된 메시지 수입니다.
+**게재 처리량** 보고서는 지정된 기간 내 전체 플랫폼의 게재 처리량에 대한 자세한 정보를 제공합니다. 메시지 게재 속도를 측정하는 데 사용되는 주요 지표는 시간당 전송된 메시지 수입니다.
 
 ![이 스크린샷은 지정된 기간 내에 플랫폼의 메시지 게재 속도에 대한 세부 정보를 제공하는 게재 처리량 보고서를 보여 줍니다.](assets/reporting_push_2.png){zoomable="yes"}

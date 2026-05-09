@@ -3,9 +3,9 @@ audience: end-user
 title: Adobe Campaign Web을 사용하여 워크플로 만들기
 description: Adobe Campaign 웹으로 워크플로우를 만드는 방법을 알아봅니다
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '806'
 ht-degree: 18%
 
 ---

@@ -3,9 +3,9 @@ audience: end-user
 title: 컨트롤 그룹 설정
 description: Campaign 웹 사용자 인터페이스에서 메시지의 컨트롤 그룹을 설정하는 방법을 알아봅니다
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '800'
 ht-degree: 21%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 21%
 >
 >[외부 파일](file-audience.md)에서 대상 모집단을 로드하면 컨트롤 그룹을 사용할 수 없습니다.
 
-게재에 컨트롤 그룹을 추가하려면 게재 만들기 화면의 **[!UICONTROL 대상자]** 섹션에서 **컨트롤 그룹 사용** 토글을 활성화합니다.
+게재에 컨트롤 그룹을 추가하려면 게재 만들기 화면의 **대상자** 섹션에서 **[!UICONTROL 컨트롤 그룹 사용]** 토글을 활성화합니다.
 
 ![게재 만들기 화면에서 컨트롤 그룹 옵션을 사용하도록 설정](assets/control-group1.png)
 

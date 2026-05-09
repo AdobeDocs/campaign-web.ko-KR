@@ -3,9 +3,9 @@ audience: end-user
 title: DM 채널에 대한 전역 보고서
 description: DM 채널에 대한 글로벌 보고서에 대해 자세히 알아보기
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '661'
 ht-degree: 27%
 
 ---

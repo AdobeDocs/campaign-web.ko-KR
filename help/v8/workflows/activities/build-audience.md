@@ -3,7 +3,7 @@ audience: end-user
 title: 대상자 빌드 워크플로 활동 사용
 description: 대상자 빌드 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: b995e3c16d6f21852f565c504e3cc4709555943c
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 53%

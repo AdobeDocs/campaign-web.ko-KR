@@ -3,8 +3,8 @@ audience: end-user
 title: Campaign Web 사용자 인터페이스/클라이언트 콘솔 기능 매트릭스
 description: Campaign Web 사용자 인터페이스에서 지원되는 기능 목록
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
-workflow-type: ht
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+workflow-type: tm+mt
 source-wordcount: '2548'
 ht-degree: 100%
 

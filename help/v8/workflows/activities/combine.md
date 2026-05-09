@@ -3,10 +3,10 @@ audience: end-user
 title: 결합 워크플로 활동 사용
 description: 결합 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '950'
-ht-degree: 61%
+ht-degree: 66%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 61%
 >title="활동 결합"
 >abstract="**결합** 활동을 통해 인바운드 모집단에 대한 세분화를 수행할 수 있습니다. 여러 모집단을 결합하거나, 일부를 제외하거나, 데이터를 여러 대상에 공통으로 유지할 수 있습니다."
 
-**결합** 활동은 **타깃팅** 활동입니다. 이 활동을 통해 인바운드 모집단에 대한 세분화를 수행할 수 있습니다. 여러 모집단을 결합하거나, 일부를 제외하거나, 여러 대상에 공통되는 데이터만 유지할 수 있습니다. 사용 가능한 세분화 유형은 다음과 같습니다.
+**결합** 활동은 **타깃팅** 활동입니다. 이 활동을 통해 인바운드 모집단에 대한 세분화를 수행할 수 있습니다. 여러 모집단을 결합하거나, 일부를 제외하거나, 데이터를 여러 대상에 공통으로 유지할 수 있습니다. 사용 가능한 세분화 유형은 다음과 같습니다.
 
 <!--
 The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
 -->
 
-* **Union**&#x200B;이(가) 여러 작업의 결과를 하나의 대상으로 다시 그룹화합니다.
-* **교차**&#x200B;은(는) 활동에서 다른 인바운드 모집단에 공통되는 요소만 유지합니다.
+* **합집합** 기능은 여러 활동의 결과를 하나의 타깃으로 다시 그룹화합니다.
+* **교집합** 기능은 활동에서 다른 인바운드 모집단에 공통되는 요소만 유지합니다.
 * **제외** 기능은 특정 기준에 따라 하나의 모집단에서 요소를 제외합니다.
 
 ## 결합 활동 구성 {#combine-configuration}

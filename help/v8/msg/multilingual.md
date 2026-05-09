@@ -3,9 +3,9 @@ audience: end-user
 title: 다국어 게재 구성
 description: 다국어 게재를 구성하는 방법 알아보기
 exl-id: eea0e997-4da2-4998-b010-234626b21353
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1489'
 ht-degree: 6%
 
 ---
@@ -136,8 +136,8 @@ Campaign 웹 UI에서는 게재를 다국어로 설정하여 프로필의 기본
 성공적인 CSV 가져오기를 확인하려면 다음 모범 사례를 따르십시오.
 
 * **정확한 열 구조를 사용합니다**: 일부 열을 비워 두더라도 14개의 열이 모두 CSV 파일에 있어야 합니다. 열이 누락되면 가져오기에 실패합니다. 다른 순서를 사용할 수 있지만 모든 열이 있어야 합니다.
-* **열 이름과 정확히 일치**: 열 이름은 대/소문자를 구분합니다. `title`이(가) 아닌 `Title`, `badge`이(가) 아닌 `Bbadge`, `locale`이(가) 아닌 `Locale`을(를) 사용합니다.
-* **소문자 로케일 코드 사용**: 로케일 코드의 서식을 `en_us` 또는 `fr_fr`이(가) 아닌 `de_de`, `en_US`, `en-us`(밑줄이 있는 소문자)로 지정합니다.
+* **열 이름과 정확히 일치**: 열 이름은 대/소문자를 구분합니다. `Title`이(가) 아닌 `title`, `Bbadge`이(가) 아닌 `badge`, `Locale`이(가) 아닌 `locale`을(를) 사용합니다.
+* **소문자 로케일 코드 사용**: 로케일 코드의 서식을 `en_US` 또는 `en-us`이(가) 아닌 `en_us`, `fr_fr`, `de_de`(밑줄이 있는 소문자)로 지정합니다.
 * **필수 열 채우기**: `locale` 및 `language` 열은 모든 행에 대한 값을 포함해야 합니다. 값이 비어 있으면 가져오기 오류가 발생합니다.
 * **로케일 고유 유지**: 각 로케일 코드는 CSV 파일에 한 번만 표시되어야 합니다. 중복 로케일이 거부됩니다.
 * **UTF-8로 저장**: 국제 문자를 올바르게 지원하려면 항상 CSV 파일을 UTF-8 인코딩으로 저장하십시오.
@@ -248,6 +248,6 @@ title,messageBody,sound,badge,deeplinkURI,category,iosMediaAttachmentURL,android
 | 열 불일치 | 행의 열 개수가 헤더와 다릅니다. | 모든 행에 헤더와 일치하는 열이 정확히 14개 있는지 확인합니다. |
 | 잘못된 숫자 값 | 배지, isContentAvailable, isMutableContent 또는 silentPush에 숫자가 아닌 값이 포함되어 있습니다. | 플래그에는 숫자 0이나 1만 사용하고, 기본적으로 비워 둡니다. |
 | 잘못된 JSON | customFields 열에 잘못된 JSON이 포함되어 있음 | JSON 구문이 올바른지 확인하십시오. `{"key":"value"}` 또는 비워 두십시오. |
-| 열 이름 대/소문자 불일치 | 열 이름이 정확하게 일치하지 않음 | 열 이름은 대소문자를 구분합니다. 위에 표시된 정확한 이름을 사용하십시오(예: `badge` 또는 `Badge`이(가) 아닌 `BADGE`). |
+| 열 이름 대/소문자 불일치 | 열 이름이 정확하게 일치하지 않음 | 열 이름은 대소문자를 구분합니다. 위에 표시된 정확한 이름을 사용하십시오(예: `Badge` 또는 `BADGE`이(가) 아닌 `badge`). |
 
 >모범 사례는 이 [섹션](#csv-best-practices)에 나열되어 있습니다. 열 구조가 이 [섹션](#csv-columns)에 자세히 설명되어 있습니다.

@@ -3,10 +3,10 @@ audience: end-user
 title: 트랜잭션 메시지 모니터링
 description: Campaign 웹 사용자 인터페이스에서 트랜잭션 메시지를 모니터링하는 방법 알아보기
 exl-id: 40dfd1da-e1ec-4161-9be5-f2f10425687d
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '301'
-ht-degree: 12%
+ht-degree: 15%
 
 ---
 

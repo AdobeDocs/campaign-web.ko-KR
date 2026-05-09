@@ -3,10 +3,10 @@ audience: end-user
 title: 이메일 콘텐츠 편집
 description: Campaign 웹 사용자 인터페이스에서 이메일 콘텐츠를 편집하는 방법을 알아봅니다
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 35%
+source-wordcount: '699'
+ht-degree: 36%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 35%
 
 전자 메일의 콘텐츠를 구성하거나 편집하려면 아래 단계를 따르십시오.
 
-1. **[!UICONTROL 전자 메일 게재 대시보드]** 화면에서 [콘텐츠 편집](../email/create-email.md) 단추를 클릭합니다.
+1. [전자 메일 게재 대시보드](../email/create-email.md) 화면에서 **[!UICONTROL 콘텐츠 편집]** 단추를 클릭합니다.
 
    ![전자 메일 게재 대시보드의 콘텐츠 편집 단추를 표시하는 스크린샷입니다.](assets/email-edit-content-button.png){zoomable="yes"}
 
@@ -92,7 +92,7 @@ ht-degree: 35%
 
 ## 이메일 본문 편집
 
-1. **[!UICONTROL 전자 메일 Designer]**&#x200B;을(를) 사용하여 전자 메일 콘텐츠를 구성하고 디자인하려면 [전자 메일 본문 편집](get-started-email-designer.md#start-authoring) 단추를 클릭하십시오.
+1. [전자 메일 Designer](get-started-email-designer.md#start-authoring)을(를) 사용하여 전자 메일 콘텐츠를 구성하고 디자인하려면 **[!UICONTROL 전자 메일 본문 편집]** 단추를 클릭하십시오.
 
    >[!NOTE]
    >

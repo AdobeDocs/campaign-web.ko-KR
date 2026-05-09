@@ -3,9 +3,9 @@ audience: end-user
 title: 외부 신호 활동 사용
 description: 외부 신호 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: e4244ecc-5e37-41a6-a4dd-6e32da6d5512
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '411'
 ht-degree: 8%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 8%
 
      +++
 
-   * 워크플로우의 **실행 옵션**&#x200B;에 표시되는 **[!UICONTROL 외부 신호 활동의 이름]**&#x200B;입니다.
+   * 워크플로우의 **[!UICONTROL 실행 옵션]**&#x200B;에 표시되는 **외부 신호 활동의 이름**&#x200B;입니다.
 
      +++보기 예
 

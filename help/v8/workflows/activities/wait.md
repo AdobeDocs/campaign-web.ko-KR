@@ -3,9 +3,9 @@ audience: end-user
 title: 대기 워크플로 활동 사용
 description: 대기 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: 970953a1-0091-477c-9f52-596af3a8857d
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '185'
 ht-degree: 47%
 
 ---

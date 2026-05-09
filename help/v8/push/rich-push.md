@@ -3,9 +3,9 @@ audience: end-user
 title: 리치 푸시 알림 게재 디자인
 description: Adobe Campaign 웹을 사용하여 Android 리치 푸시 알림 전달을 디자인하는 방법을 알아봅니다
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '3379'
+source-wordcount: '3472'
 ht-degree: 3%
 
 ---

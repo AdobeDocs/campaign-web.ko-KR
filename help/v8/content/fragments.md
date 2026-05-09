@@ -3,9 +3,9 @@ audience: end-user
 title: 콘텐츠 조각 시작하기
 description: 콘텐츠 조각을 사용하여 만드는 방법 알아보기
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '379'
 ht-degree: 58%
 
 ---

@@ -3,7 +3,7 @@ audience: end-user
 title: 비즈니스 규칙 작업 (유형화)
 description: 유형화 및 유형화 규칙을 사용하여 게재 전송을 제어, 필터링 및 모니터링하는 방법에 대해 알아봅니다.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 24%

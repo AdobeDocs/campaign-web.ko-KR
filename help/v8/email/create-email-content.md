@@ -3,9 +3,9 @@ audience: end-user
 title: 이메일 디자이너에서 이메일 디자인
 description: 이메일 콘텐츠를 처음부터 디자인하는 방법 알아보기
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '676'
 ht-degree: 49%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 49%
 
    추적할 콘텐츠의 모든 URL을 표시하려면 왼쪽 창에서 **[!UICONTROL 링크]** 탭을 클릭하십시오. **[!UICONTROL 추적 유형]** 또는 **[!UICONTROL 레이블]**&#x200B;을 수정하고 필요한 경우 **[!UICONTROL 범주]**&#x200B;을 추가하십시오.
 
-[링크 및 메시지 추적에 대해 자세히 알아보기](message-tracking.md)
+   [링크 및 메시지 추적에 대해 자세히 알아보기](message-tracking.md)
 
    ![이메일 Designer의 링크 탭을 표시하는 스크린샷](assets/email_designer-links.png){zoomable="yes"}
 

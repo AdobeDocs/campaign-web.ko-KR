@@ -3,10 +3,10 @@ audience: end-user
 title: 이메일 디자이너 콘텐츠 구성 요소 사용
 description: 이메일에 콘텐츠 구성 요소를 사용하는 방법 알아보기
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 35%
+source-wordcount: '1402'
+ht-degree: 34%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 35%
 
 ## 텍스트 {#text}
 
-**[!UICONTROL Text]** 구성 요소를 사용하여 전자 메일에 텍스트를 삽입하고 **[!UICONTROL 설정]** 및 **[!UICONTROL 스타일]** 탭을 사용하여 스타일(테두리, 크기, 패딩 등)을 조정합니다.
+**[!UICONTROL 텍스트]** 구성 요소를 사용하여 전자 메일에 텍스트를 삽입하고 스타일(테두리, 크기, 패딩 등)을 조정합니다. **[!UICONTROL 설정]** 및 **[!UICONTROL 스타일]** 탭 사용.
 
 1. **[!UICONTROL 콘텐츠]** 메뉴에서 **[!UICONTROL 텍스트]**&#x200B;을(를) **[!UICONTROL 구조]** 구성 요소로 끌어다 놓습니다.
 

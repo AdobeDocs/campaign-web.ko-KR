@@ -3,10 +3,10 @@ audience: end-user
 title: 게재 미리 보기 및 테스트 정보
 description: 게재 미리 보기 및 테스트 방법 알아보기
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 2906239bb1f13496da3777a27675de8a50f259f0
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 16%
+source-wordcount: '229'
+ht-degree: 24%
 
 ---
 
@@ -29,12 +29,12 @@ ht-degree: 16%
 * 가독성, CTA 효율성, 분야별 품질 등을 평가하려면 [콘텐츠 품질을 확인합니다](../content/brands-score.md#validate-quality)
 * [랜딩 페이지 미리보기 및 테스트](../landing-pages/create-lp.md#test-landing-page)
 
-게재의 콘텐츠 편집 화면 또는 **[!UICONTROL 전자 메일 Designer]**&#x200B;에서 액세스할 수 있는 [콘텐츠 시뮬레이션](../email/get-started-email-designer.md) 단추를 사용하여 이러한 작업을 수행합니다.
+게재의 콘텐츠 편집 화면 또는 [전자 메일 Designer](../email/get-started-email-designer.md)에서 액세스할 수 있는 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 사용하여 이러한 작업을 수행합니다.
 
 ![게재의 콘텐츠 편집 화면에서 콘텐츠 시뮬레이션 단추](assets/simulate-button.png){zoomable="yes"}
 
 >[!NOTE]
 >
->[검토 및 보내기](../monitor/prepare-send.md) 단추를 클릭한 후 **[!UICONTROL 게재 요약]**&#x200B;에서도 콘텐츠 시뮬레이션을 사용할 수 있습니다.
+>**[!UICONTROL 검토 및 보내기]** 단추를 클릭한 후 [게재 요약](../monitor/prepare-send.md)에서도 콘텐츠 시뮬레이션을 사용할 수 있습니다.
 >
 >파일에서 업로드한 대상을 타겟팅하는 경우 게재를 미리 보고 테스트하는 방법을 알아보려면 [이 섹션](../audience/file-audience.md#preview--test-your-email-test)을 참조하세요.

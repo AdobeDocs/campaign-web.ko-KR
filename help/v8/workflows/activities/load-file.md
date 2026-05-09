@@ -3,9 +3,9 @@ audience: end-user
 title: 파일 로드 워크플로우 활동 사용
 description: 파일 로드 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: b94c1263ea09c9537d1a33983ea78d41b5644fb7
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1281'
 ht-degree: 36%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 36%
 
 1. 워크플로우에 **파일 로드** 활동을 추가합니다.
 
-1. 예상 파일 구조를 정의하는 데 사용할 샘플 파일을 선택합니다. 이렇게 하려면 **샘플 파일** 섹션에서 **[!UICONTROL 파일 선택]** 단추를 클릭하고 사용할 로컬 파일을 선택하십시오.
+1. 예상 파일 구조를 정의하는 데 사용할 샘플 파일을 선택합니다. 이렇게 하려면 **[!UICONTROL 샘플 파일]** 섹션에서 **파일 선택** 단추를 클릭하고 사용할 로컬 파일을 선택하십시오.
 
    >[!NOTE]
    >

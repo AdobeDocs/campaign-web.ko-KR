@@ -3,10 +3,10 @@ audience: end-user
 title: 이메일 채널에 대한 전역 보고서
 description: 이메일 채널에 대한 글로벌 보고서에 대해 자세히 알아보기
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 24%
+source-wordcount: '1689'
+ht-degree: 25%
 
 ---
 
@@ -249,7 +249,7 @@ ht-degree: 24%
 >title="가장 많이 방문한 상위 링크 10개"
 >abstract="**가장 많이 방문한 상위 링크 10개** 그래프와 테이블은 수신자와 각 링크의 상호 작용에 대한 포괄적인 데이터를 제공합니다."
 
-**[!UICONTROL 가장 많이 방문한 상위 10개 링크]** 그래프 및 표에는 링크당 받는 사람 동작에 사용할 수 있는 데이터가 포함되어 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
+**[!UICONTROL 가장 많이 방문한 상위 링크 10개]** 그래프와 테이블에는 링크당 수신자 비헤이비어와 관련하여 사용 가능한 데이터가 포함되어 있습니다. 지표는 아래에 자세히 설명되어 있습니다.
 
 ![가장 많이 방문한 상위 10개 링크 지표](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
 

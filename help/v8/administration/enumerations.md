@@ -2,10 +2,10 @@
 title: 열거 관리
 description: 열거형으로 작업하는 방법을 알아봅니다.
 exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 23%
+source-wordcount: '646'
+ht-degree: 25%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 23%
 1. 열거형 **[!UICONTROL Type]** 선택:
 
    * **[!UICONTROL Closed]** 열거형에는 고정 값 목록이 있으며 **[!UICONTROL 열거형]** 메뉴에서만 수정할 수 있습니다.
-   * **[!UICONTROL 열기]** 열거형을 사용하면 이 열거형을 기반으로 필드에 직접 새 값을 추가할 수 있습니다.
+   * **[!UICONTROL 개방형]** 열거를 사용하면 사용자가 이 열거를 기반으로 필드에 직접 새 값을 추가할 수 있습니다.
    * **[!UICONTROL System]** 열거형이 시스템 필드와 연결되어 있습니다.
    * **[!UICONTROL 이모티콘]** 열거는 이모티콘 목록을 업데이트하는 데 사용됩니다.
 

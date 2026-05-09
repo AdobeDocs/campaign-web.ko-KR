@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 14%
+source-wordcount: '645'
+ht-degree: 15%
 
 ---
 
@@ -102,7 +102,7 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
    추가 대상 데이터가 **[!UICONTROL 데이터 보강]** 워크플로우 활동에서 &#39;@&#39;으로 시작하는 별칭으로 정의되었는지 확인하십시오. 그렇지 않으면 게재 활동의 시드 주소와 함께 이 필드를 제대로 사용할 수 없습니다. [데이터 보강 활동에 대해 자세히 알아보기](../workflows/activities/enrichment.md)
 
-1. **[!UICONTROL 저장]** 단추를 클릭합니다.
+1. **[!UICONTROL 저장]** 버튼을 클릭합니다.
 
 방금 만든 테스트 프로필을 이제 증명 전송에 사용할 준비가 되었습니다. [자세히 알아보기](../preview-test/test-deliveries.md#test-profiles)
 

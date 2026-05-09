@@ -3,9 +3,9 @@ audience: end-user
 title: 첫 이메일 보내기
 description: Campaign 웹 사용자 인터페이스를 사용하여 첫 번째 이메일을 보내는 방법 알아보기
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 2f7f29f1c6e137c9a8b75c4f24c12526843ddd9f
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1695'
 ht-degree: 44%
 
 ---
@@ -133,7 +133,7 @@ ht-degree: 44%
 
 ## 전송 예약 {#schedule}
 
-워크플로우의 컨텍스트에서 게재를 보낼 때는 **스케줄러** 활동을 사용해야 합니다. 자세한 내용은 [이 페이지](../workflows/activities/scheduler.md)를 참조하세요. 아래 단계는 독립형 게재에만 적용됩니다.
+워크플로우의 컨텍스트에서 게재를 보낼 때는 **스케줄러** 활동을 사용해야 합니다. [이 페이지](../workflows/activities/scheduler.md)에서 자세히 알아보십시오. 아래 단계는 독립형 게재에만 적용됩니다.
 
 1. 게재 속성의 **[!UICONTROL 일정]** 섹션으로 이동합니다.
 
@@ -165,7 +165,7 @@ ht-degree: 44%
 
    >[!NOTE]
    >
-   >특정 컨텍스트에서는 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 사용할 수 없습니다. 제한 사항은 이 섹션[의 &#x200B;](#content-simulation-limitations)에 자세히 설명되어 있습니다.
+   >특정 컨텍스트에서는 **[!UICONTROL 콘텐츠 시뮬레이션]** 단추를 사용할 수 없습니다. 제한 사항은 이 섹션[&#128279;](#content-simulation-limitations)의 에 자세히 설명되어 있습니다.
 
 1. 왼쪽에서 이메일을 미리 보는 데 사용할 프로필을 선택합니다.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 데이터 소스 변경 워크플로우 활동 사용
 description: 데이터 소스 변경 워크플로우 활동을 사용하는 방법을 알아봅니다
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 12%
+source-wordcount: '395'
+ht-degree: 13%
 
 ---
 

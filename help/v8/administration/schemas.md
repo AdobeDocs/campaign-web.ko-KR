@@ -2,10 +2,10 @@
 title: 스키마 정보
 description: 스키마 작업 방법을 알아봅니다.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 31%
+source-wordcount: '319'
+ht-degree: 33%
 
 ---
 

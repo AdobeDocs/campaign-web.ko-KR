@@ -2,9 +2,9 @@
 title: 프로필 세부 정보 살펴보기
 description: 프로필의 세부 정보를 탐색하는 방법을 알아봅니다.
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
-source-git-commit: 8815abf9a7851b67f45038acad5ff8bff84db81b
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '249'
 ht-degree: 7%
 
 ---

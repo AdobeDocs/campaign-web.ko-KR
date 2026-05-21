@@ -4,8 +4,10 @@ title: 이메일 디자이너 콘텐츠 구성 요소 사용
 description: 이메일에 콘텐츠 구성 요소를 사용하는 방법 알아보기
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 TQID: https://experienceleague.adobe.com/iT-8fzpVcEzhMpuUynQB3uvnA8FcJoJfnzb9-hsN5Vo
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1402

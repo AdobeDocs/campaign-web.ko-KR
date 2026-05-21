@@ -5,11 +5,22 @@ feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
 TQID: https://experienceleague.adobe.com/mzGXV-UDaMU1UlCJPmmP6jPD9jSdRLesXnsHPvUfbRY
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: efa38731-2723-4334-8d8b-a778af834835
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+  - id: efa38731-2723-4334-8d8b-a778af834835
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1453
@@ -76,7 +87,7 @@ Adobe Campaign Standard에서 용어 **사용자 역할**&#x200B;은(는) Campai
 
 >[!IMPORTANT]
 >
->직접 또는 간접 상위로 **모두(모두)**이(가) 없는 Adobe Campaign Standard의 조직 단위는 Campaign v8로 마이그레이션되지 않습니다.
+>직접 또는 간접 상위로 **모두(모두)**&#x200B;이(가) 없는 Adobe Campaign Standard의 조직 단위는 Campaign v8로 마이그레이션되지 않습니다.
 ></br>>여러 보안 그룹의 사용자에게는 최상위 보안 그룹의 조직 단위가 할당됩니다. 여러 그룹에 병렬 최상위 단위가 있는 경우, 시스템은 Campaign Standard에서 사용자에 대한 조직 단위를 선택하고 사용자는 시스템에서 선택한 조직 단위와 그 하위 단위에만 액세스할 수 있습니다. 마이그레이션 후 Campaign v8에서 사용자는 **할당된 모든 조직 단위와 하위 항목**&#x200B;에 액세스할 수 있으므로 권한이 높아질 수 있습니다. 이를 방지하려면 병렬 조직 단위를 사용하는 보안 그룹에 사용자를 할당하지 마십시오. [병렬 조직 단위 할당](#parallel-assignments)에 대해 자세히 알아보세요.
 
 

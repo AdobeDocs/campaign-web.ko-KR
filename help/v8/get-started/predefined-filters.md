@@ -3,7 +3,8 @@ title: 미리 정의된 필터 작업
 description: Adobe Campaign Web에서 미리 정의된 필터를 만들고 관리하는 방법 알아보기
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 TQID: https://experienceleague.adobe.com/KtKT-RQV5D3bLMgzxmMJuwDnMBPTt0JiLsvzvuJhF6E
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1061

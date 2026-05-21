@@ -4,7 +4,8 @@ title: 푸시 알림 게재 만들기
 description: Adobe Campaign 웹을 사용하여 푸시 알림 게재를 만드는 방법을 알아봅니다
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 TQID: https://experienceleague.adobe.com/J2FB-oR-oGwBw18HLWt3F3nzu-mHXVnRlyPlSr5ISiI
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 779

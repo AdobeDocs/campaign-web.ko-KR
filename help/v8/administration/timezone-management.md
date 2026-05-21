@@ -3,8 +3,11 @@ title: 표준 시간대 관리
 description: Adobe Campaign Web UI에서 브라우저, 운영자, 워크플로우 및 서버 시간대를 기반으로 날짜 및 시간 값을 표시하는 방법을 알아봅니다.
 exl-id: c242c2b5-c847-4c01-a82b-9ccaeb0c2c97
 TQID: https://experienceleague.adobe.com/Fn3O9rjM5mkBzfTZbKeV5aZUF2XmfQ87JGUZP7V-RR8
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 374

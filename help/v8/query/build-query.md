@@ -4,7 +4,8 @@ title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 TQID: https://experienceleague.adobe.com/s8cjbxjs-71srb0hufQBlBgqJhUxBHFSHhBsxIDgVWQ
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 2946
@@ -71,7 +72,7 @@ ht-degree: 7%
 >
 >* 값이 많은 필드의 경우 처음 20개 값만 표시됩니다. 이러한 경우 **[!UICONTROL 부분 로드]** 알림이 경고합니다.
 >* **[!UICONTROL 값 배포]** 옵션은 모든 특성 선택기에서 액세스할 수 있습니다. [특성을 선택하는 방법 알아보기](../get-started/attributes.md)
->* **[!A고급 필터]**&#x200B;를 사용하여 결과에 조건을 추가할 수 있습니다. [여기에서 자세히 알아보십시오](../get-started/work-with-folders.md#filter-the-values).
+>* **[ !A고급 필터]**&#x200B;를 사용하여 결과에 조건을 추가할 수 있습니다. [여기에서 자세히 알아보십시오](../get-started/work-with-folders.md#filter-the-values).
 
 ## 필터링 구성 요소 추가 {#filtering}
 

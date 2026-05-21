@@ -3,9 +3,12 @@ audience: end-user
 title: 대상자 시작하기
 description: Adobe Campaign 웹에서 대상자를 사용하여 작업하는 방법에 대해 알아봅니다
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/KGSuhMYvY3J-PVy6xB-XLHyQOkOvYFen8Lzn4cS0nTQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: 418
 ht-degree: 26%
 
 ---

@@ -7,9 +7,21 @@ role: User
 level: Beginner, Intermediate
 keywords: 이메일, 디자인, 접근성
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+TQID: https://experienceleague.adobe.com/TdKnrX1xVgdzvOq9npp-UR2GlDYA2RBmCLumqg2cjjY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: 1687
 ht-degree: 1%
 
 ---
@@ -20,7 +32,7 @@ ht-degree: 1%
 
 이 규정은 이메일, 뉴스레터, PDF 및 다운로드 가능한 콘텐츠를 포함한 모든 디지털 통신에 액세스할 수 있어야 한다고 명시합니다. 따라서 수신자를 위한 콘텐츠를 만들 때는 액세스 가능한 글꼴, 읽을 수 있는 형식 사용 등의 특정 지침을 따르고 이미지에 대한 대체 텍스트를 제공해야 합니다.
 
-마케터가 [!DNL Adobe Campaign]이메일[&#x200B; 및 &#x200B;](create-email-content.md)랜딩 페이지&#x200B;**에 대한 콘텐츠를 모두 만들 수 있는** **이메일 Designer**&#x200B;을(를) 사용하면 WCAG(Web Content Accessibility Guidelines) 2.1, 레벨 AA를 기반으로 이 지시문을 쉽게 준수할 수 있습니다.
+마케터가 **이메일** 및 **랜딩 페이지**&#x200B;에 대한 콘텐츠를 모두 만들 수 있는 [!DNL Adobe Campaign] [이메일 Designer](create-email-content.md)을(를) 사용하면 WCAG(Web Content Accessibility Guidelines) 2.1, 레벨 AA를 기반으로 이 지시문을 쉽게 준수할 수 있습니다.
 
 이에 따라 [!DNL Adobe Campaign]을(를) 사용하여 액세스 가능한 콘텐츠를 디자인하는 모범 사례가 아래에 나와 있습니다.
 
@@ -91,7 +103,7 @@ ht-degree: 1%
 디지털 제품의 효과적인 대체 텍스트를 보려면 아래 지침을 따르십시오.
 
 * 이미지의 목적을 간결하고 상황에 맞게 설명하십시오.
-* ...의 이미지&quot;와 같은 중복 구문을 피하고 장식 이미지에 빈 대체 텍스트를 사용합니다.
+* &quot;이미지 ...&quot;와 같은 중복 구문을 피하십시오. 장식용 이미지에는 빈 대체 텍스트를 사용하십시오.
 * 의미가 있는 아이콘의 경우 의미 있는 레이블을 제공하고, 복잡한 이미지의 경우에는 다른 곳에서 간단한 대체 텍스트와 더 긴 설명을 사용하십시오.
 
 ## 읽을 수 있는 형식 사용 {#readable-format}

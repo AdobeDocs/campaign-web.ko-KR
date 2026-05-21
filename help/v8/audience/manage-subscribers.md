@@ -3,9 +3,14 @@ audience: end-user
 title: 구독자 관리
 description: Adobe Campaign 웹에서 서비스 구독자를 관리하고 제공하는 방법에 대해 알아봅니다
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/4-ZuptAIqEcFECF-a-ocCGG8kImzn-OHp34UnSToF9c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: 359
 ht-degree: 0%
 
 ---
@@ -30,7 +35,7 @@ ht-degree: 0%
 
    구독자를 추가하기 위한 프로필 선택 인터페이스를 보여 주는 ![스크린샷입니다.](assets/service-subscribers-select-profiles.png){zoomable="yes"}
 
-1. **[!UICONTROL 서비스를 만들 때]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)-->정의한 [확인 메시지](manage-services.md#create-confirmation-message)을(를) 선택한 수신자가 받도록 하려면 [보내기](manage-services.md#create-service)를 클릭하십시오.
+1. [서비스를 만들 때](manage-services.md#create-service)정의한 [확인 메시지](manage-services.md#create-confirmation-message)을(를) 선택한 수신자가 받도록 하려면 **[!UICONTROL 보내기]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)-->를 클릭하십시오.
 
    구독자를 추가하기 위한 확인 메시지 인터페이스를 보여 주는 ![스크린샷입니다.](assets/service-subscribers-confirmation-msg.png){zoomable="yes"}
 
@@ -54,7 +59,7 @@ ht-degree: 0%
 
 1. 삭제를 확인합니다.
 
-1. **[!UICONTROL 서비스를 만들 때]**&#x200B;정의한 구독 취소 [확인 메시지](manage-services.md#create-confirmation-message)를 선택한 수신자가 받게 하려면 [보내기](manage-services.md#create-service)를 클릭하십시오.
+1. [서비스를 만들 때](manage-services.md#create-service)정의한 구독 취소 [확인 메시지](manage-services.md#create-confirmation-message)를 선택한 수신자가 받게 하려면 **[!UICONTROL 보내기]**&#x200B;를 클릭하십시오.
 
    ![프로필 구독 취소에 대한 확인 메시지 인터페이스를 보여주는 스크린샷입니다.](assets/service-subscribers-delete-confirmation.png){zoomable="yes"}
 

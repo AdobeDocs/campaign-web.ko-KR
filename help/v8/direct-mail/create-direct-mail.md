@@ -1,16 +1,19 @@
 ---
 audience: end-user
-title: 다이렉트 메일(DM) 게재 만들기
+title: 다이렉트 메일 게재 만들기
 description: Adobe Campaign 웹을 사용하여 DM 게재를 만드는 방법을 알아봅니다
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+TQID: https://experienceleague.adobe.com/ae0IUbZBdla45dSwwODEJg0Dd8rvA1TyR-fuzx2X6Vg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 15%
+source-wordcount: 504
+ht-degree: 18%
 
 ---
 
-# 다이렉트 메일(DM) 게재 만들기 {#create-direct-mail}
+# 다이렉트 메일 게재 만들기 {#create-direct-mail}
 
 독립형 DM 게재를 만들거나 캠페인 워크플로우 컨텍스트에서 DM 게재를 만들 수 있습니다. 아래 단계에서는 독립 실행형(일회성) DM 게재 절차를 자세히 설명합니다. 캠페인 워크플로우의 컨텍스트에서 작업하는 경우 만들기 단계는 [이 섹션](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)에 자세히 설명되어 있습니다.
 
@@ -36,7 +39,7 @@ ht-degree: 15%
    * **[!UICONTROL 특성]**: 분류 목적으로 게재 특성을 지정합니다.
    +++
 
-1. 기존 대상을 타깃팅하거나 직접 만들려면 **[!UICONTROL 대상 선택]** 단추를 클릭하십시오.
+1. **[!UICONTROL 대상자 선택]** 버튼을 클릭하여 기존 대상자를 타겟팅하거나 나만의 대상자를 만듭니다.
 
    * [기존 대상자를 선택하는 방법 알아보기](../audience/add-audience.md)
    * [새 대상자를 만드는 방법 알아보기](../audience/one-time-audience.md)

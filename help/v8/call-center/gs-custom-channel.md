@@ -3,9 +3,14 @@ audience: end-user
 title: 사용자 지정 채널 시작
 description: Adobe Campaign 웹을 사용하여 사용자 지정 채널 게재를 만들고 보내는 방법을 알아봅니다
 exl-id: b4336a0a-d845-4024-a06b-400fce1316a4
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+TQID: https://experienceleague.adobe.com/OJ-3-J3wnbTyQ3qiIYauUtPnhCjk-CgM-tUyVALnVUw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: 740
 ht-degree: 2%
 
 ---

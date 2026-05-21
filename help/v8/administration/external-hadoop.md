@@ -2,9 +2,14 @@
 title: 외부 계정 관리
 description: Hadoop 외부 계정을 구성하는 방법 알아보기
 exl-id: d2dc4d88-a97d-48bb-b668-ed970e138dfd
-source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
+TQID: https://experienceleague.adobe.com/cdc36G52XFAFGXD1JBAyeSIr06py47vZXh1ylx98nrk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: 94
 ht-degree: 0%
 
 ---

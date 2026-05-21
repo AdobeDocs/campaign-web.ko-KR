@@ -4,13 +4,15 @@ title: 쿼리 샘플
 description: 쿼리 모델러를 사용하여 작업하는 방법을 알아봅니다.
 hide: true
 exl-id: 6f8154ea-5d64-4950-9da3-427070ec7bf0
-source-git-commit: b6642be803aff4bbfbc44028f4d379fdaa62dfb2
+TQID: https://experienceleague.adobe.com/ho7HNrKlPzv5i-ar4T-GZpVQPLpHzzbH4xrAUdJAXYA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: 180
 ht-degree: 2%
 
 ---
-
 
 # 쿼리 샘플 {#query-samples}
 

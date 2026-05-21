@@ -3,9 +3,14 @@ audience: end-user
 title: Adobe Experience Manager Assets as a Cloud Service로 자산 관리
 description: Adobe Experience Manager Assets as a Cloud Service을 사용하여 에셋을 관리하는 방법 알아보기
 exl-id: c1e548b1-f4c6-4672-9724-edfc418063a6
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/19ACKL1Wbosl3o2plsBkdlOZQtjK1meaH3k-UBoQ8UE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: 494
 ht-degree: 3%
 
 ---
@@ -50,7 +55,7 @@ ht-degree: 3%
 
    ![Adobe Experience Manager Assets의 고급 에셋 관리 메뉴를 보여 주는 스크린샷](assets/assets_4.png){zoomable="yes"}
 
-1. Adobe Photoshop Express으로 에셋을 추가로 편집하려면 에셋을 더블 클릭합니다. 그런 다음 오른쪽 메뉴에서 **[!UICONTROL 편집 모드]** 아이콘을 선택합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/edit-images-assets-view.html?lang=ko#edit-using-express){target="_blank"}
+1. Adobe Photoshop Express으로 에셋을 추가로 편집하려면 에셋을 더블 클릭합니다. 그런 다음 오른쪽 메뉴에서 **[!UICONTROL 편집 모드]** 아이콘을 선택합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/edit-images-assets-view.html?lang=ko#edit-using-express){target="_blank"}.
 
 1. [!DNL Adobe Campaign]에서 전자 메일 디자이너의 왼쪽 창에서 **[!UICONTROL 자산 선택기]** 메뉴를 선택하십시오.
 

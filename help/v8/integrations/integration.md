@@ -5,13 +5,26 @@ feature: Overview
 role: Admin, User
 level: Beginner
 exl-id: a50f3269-b559-4dbf-bd8f-af046f332d23
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+TQID: https://experienceleague.adobe.com/IIloBQfXp9vdAyFlAT9i-ND86F-e6QuBF-6UNlMmSzI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: 286
 ht-degree: 2%
 
 ---
-
 
 # Campaign을 비롯한 Adobe 솔루션 사용 {#gs-integration}
 
@@ -32,8 +45,8 @@ Adobe Campaign에는 외부 애플리케이션과의 통신, 데이터베이스 
 
 ## GenStudio for Performance Marketing {#integration-genstudio}
 
-Adobe GenStudio for Performance Marketing은 마케팅 팀이 자체 광고 및 이메일을 만들어 브랜드 표준을 준수하고 엔터프라이즈 정책을 준수하는 영향력이 큰 개인화된 마케팅 캠페인을 유도할 수 있는 생성 AI 우선 애플리케이션입니다. Adobe AI 기술을 활용함으로써 크리에이티브가 혁신에 집중할 수 있도록 콘텐츠 생성 및 관리의 복잡성을 간소화하는 포괄적인 도구 모음을 제공합니다.
+Adobe GenStudio for Performance Marketing은 마케팅 팀이 자체 광고 및 이메일을 만들어 브랜드 표준을 준수하고 엔터프라이즈 정책을 준수하는 영향력이 큰 개인화된 마케팅 캠페인을 유도할 수 있는 생성 AI 우선 애플리케이션입니다. Adobe AI 기술을 활용하여 컨텐츠 생성 및 관리의 복잡성을 간소화하여 크리에이티브가 혁신에 집중할 수 있는 포괄적인 도구 모음을 제공합니다.
 
-마케팅 효율성을 높이고 브랜드 일관성을 유지하기 위해 [!DNL **GenStudio for Performance Marketing**] 경험을 [!DNL **Adobe Campaign**]&#x200B;과(와) 원활하게 통합할 수 있습니다. 이를 통해 [!DNL GenStudio]의 고급 오케스트레이션 기능과 함께 [!DNL Adobe Campaign]의 AI 파워 콘텐츠 생성을 활용할 수 있습니다.
+마케팅 효율성을 높이고 브랜드 일관성을 유지하기 위해 [!DNL **GenStudio for Performance Marketing**] 경험을 [!DNL **Adobe Campaign**]&#x200B;과(와) 원활하게 통합할 수 있습니다. 이를 통해 [!DNL Adobe Campaign]의 고급 오케스트레이션 기능과 함께 [!DNL GenStudio]의 AI 파워 콘텐츠 생성을 활용할 수 있습니다.
 
 [Adobe Campaign + GenStudio for Performance Marketing](genstudio.md)에 대해 자세히 알아보세요.

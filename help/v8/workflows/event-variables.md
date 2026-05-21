@@ -3,9 +3,14 @@ audience: end-user
 title: 워크플로 이벤트 변수
 description: 워크플로우에서 이벤트 변수를 활용하는 방법을 알아봅니다.
 exl-id: 526dc98f-391d-4f3f-a687-c980bf60b93b
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+TQID: https://experienceleague.adobe.com/jAIMH7uI-9k8Fij7eGITONONHDaVMReEOpyZU9X6we0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: 370
 ht-degree: 1%
 
 ---
@@ -16,9 +21,9 @@ ht-degree: 1%
 
 ## 이벤트 변수 소개 {#scripting}
 
-워크플로우 컨텍스트에서 실행되는 스크립트는 실행 중인 워크플로우 자체(**), 다양한 작업(**) 또는 지정된 작업(`instance`)을 활성화한 이벤트와 같은 일련의 추가 전역 `task`개체`event`에 액세스합니다.
+워크플로우 컨텍스트에서 실행되는 스크립트는 실행 중인 워크플로우 자체(`instance`), 다양한 작업(`task`) 또는 지정된 작업(`event`)을 활성화한 이벤트와 같은 일련의 추가 전역 **개체**&#x200B;에 액세스합니다.
 
-**object**&#x200B;의 각 형식은 **JavaScript 코드** 또는 **[!UICONTROL 테스트]**&#x200B;과 같이 활동에서 스크립트를 편집할 때 표현식 편집기에서 사용할 수 있는 **[!UICONTROL 변수]** 범주와 연결되어 있습니다.
+**object**&#x200B;의 각 형식은 **[!UICONTROL JavaScript 코드]** 또는 **[!UICONTROL 테스트]**&#x200B;과 같이 활동에서 스크립트를 편집할 때 표현식 편집기에서 사용할 수 있는 **변수** 범주와 연결되어 있습니다.
 
 * **인스턴스 변수**(`instance.vars.xxx`)은 전역 변수와 비슷합니다. 모든 활동에서 공유됩니다.
 * **작업 변수**(`task.vars.xxx`)은(는) 로컬 변수와 비슷합니다. 현재 작업에서만 사용됩니다. 이러한 변수는 데이터를 유지하기 위해 영구적인 활동에서 사용되며 경우에 따라 동일한 활동의 여러 스크립트 간에 데이터를 교환하는 데 사용됩니다.

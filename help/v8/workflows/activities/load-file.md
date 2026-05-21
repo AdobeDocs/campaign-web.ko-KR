@@ -3,9 +3,12 @@ audience: end-user
 title: 파일 로드 워크플로우 활동 사용
 description: 파일 로드 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/-7DovWUpzIiPRL7E-qtcD5wZ6EHg1BUA9VwJwNQo9A4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: 1281
 ht-degree: 36%
 
 ---
@@ -30,7 +33,7 @@ ht-degree: 36%
 **파일 로드** 활동은 **데이터 관리** 활동입니다. 이 활동을 사용하여 외부 파일에 저장된 프로필 및 데이터를 사용합니다. 프로필 및 데이터는 데이터베이스에 추가되지 않지만 입력 파일의 모든 필드는 [개인화](../../personalization/gs-personalization.md)에 사용하거나 프로필 또는 다른 테이블을 업데이트할 수 있습니다.
 
 >[!NOTE]
->지원되는 파일 형식은 텍스트(TXT) 및 쉼표로 구분된 값(CSV)입니다. 웹 사용자 인터페이스 콘솔을 사용하면 최대 50MB의 크기로 파일을 로드할 수 있습니다. 클라이언트 콘솔에서 데이터 로드 활동의 제한은 150MB입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=ko){target="_blank"}
+>지원되는 파일 형식은 텍스트(TXT) 및 쉼표로 구분된 값(CSV)입니다. 웹 사용자 인터페이스 콘솔을 사용하면 최대 50MB의 크기로 파일을 로드할 수 있습니다. 클라이언트 콘솔에서 데이터 로드 활동의 제한은 150MB입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 이 활동은 [조정](reconciliation.md) 활동과 함께 사용하여 미식별 데이터를 기존 리소스에 연결할 수 있습니다. 예를 들어, 비표준 데이터를 데이터베이스로 가져오는 경우 **파일 로드** 활동을 **조정** 활동 앞에 배치할 수 있습니다.
 

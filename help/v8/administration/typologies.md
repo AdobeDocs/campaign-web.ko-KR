@@ -3,9 +3,12 @@ audience: end-user
 title: 비즈니스 규칙 작업 (유형화)
 description: 유형화 및 유형화 규칙을 사용하여 게재 전송을 제어, 필터링 및 모니터링하는 방법에 대해 알아봅니다.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/LUgINZylWuInxi4LabDWk5-xp6wAv01gsNYT8dnNdx8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: 1500
 ht-degree: 24%
 
 ---
@@ -34,7 +37,7 @@ ht-degree: 24%
 
 >[!NOTE]
 >
->**[!UICONTROL 유형화 규칙]** 목록에는 지금까지 웹 사용자 인터페이스 또는 클라이언트 콘솔에서 만든 모든 기존 규칙이 표시됩니다. 그러나 웹 사용자 인터페이스에서는 **컨트롤** 및 **필터링** 규칙만 만들 수 있습니다. 압력 또는 용량 규칙과 같은 다른 유형의 유형화 규칙을 만들려면 Campaign v8 클라이언트 콘솔을 사용하십시오. [클라이언트 콘솔에서 유형화 규칙을 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/ko/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>**[!UICONTROL 유형화 규칙]** 목록에는 지금까지 웹 사용자 인터페이스 또는 클라이언트 콘솔에서 만든 모든 기존 규칙이 표시됩니다. 그러나 웹 사용자 인터페이스에서는 **컨트롤** 및 **필터링** 규칙만 만들 수 있습니다. 압력 또는 용량 규칙과 같은 다른 유형의 유형화 규칙을 만들려면 Campaign v8 클라이언트 콘솔을 사용하십시오. [클라이언트 콘솔에서 유형화 규칙을 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 메시지에 유형화를 적용하는 주요 단계는 다음과 같습니다.
 
@@ -90,7 +93,7 @@ ht-degree: 24%
 
 >[!NOTE]
 >
->현재 웹 사용자 인터페이스에서 **컨트롤** 및 **필터링** 유형화 규칙만 만들 수 있습니다. 다른 유형의 규칙을 만들려면 클라이언트 콘솔을 사용하십시오. [클라이언트 콘솔에서 유형화 규칙을 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/ko/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>현재 웹 사용자 인터페이스에서 **컨트롤** 및 **필터링** 유형화 규칙만 만들 수 있습니다. 다른 유형의 규칙을 만들려면 클라이언트 콘솔을 사용하십시오. [클라이언트 콘솔에서 유형화 규칙을 만드는 방법을 알아봅니다](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 유형화 규칙을 만들려면 다음 단계를 수행합니다.
 

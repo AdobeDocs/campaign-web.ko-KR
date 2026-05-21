@@ -3,9 +3,12 @@ audience: end-user
 title: 이메일 디자이너에서 이메일 디자인
 description: 이메일 콘텐츠를 처음부터 디자인하는 방법 알아보기
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/z3yAopnbrS2h1jYhH1EgQYU89rNTDQBwjXiDK0YeiLU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: 676
 ht-degree: 49%
 
 ---
@@ -112,4 +115,4 @@ ht-degree: 49%
 
 이메일 디자이너를 탐색하는 방법을 이해합니다. 이메일을 처음부터 구성하고 디자인하고, 개인화하고, 테스트하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453572/?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

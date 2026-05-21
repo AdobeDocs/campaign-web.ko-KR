@@ -4,10 +4,14 @@ title: 승인 프로세스 설정 및 관리
 description: Campaign 웹에서 마케팅 캠페인 승인을 관리하는 방법 알아보기
 feature: Approvals, Campaigns
 exl-id: 8140f904-ec0a-44e1-981f-0e050d3c9cdb
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+TQID: https://experienceleague.adobe.com/Gpk7fY-VSFdgvgJo2STGjJ8-mHBkVZnp8cD-bFZrWpU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 5%
+source-wordcount: 696
+ht-degree: 10%
 
 ---
 
@@ -17,7 +21,7 @@ ht-degree: 5%
 >
 >캠페인 내에서 생성된 게재에 대해서만 승인을 사용할 수 있습니다. 독립 실행형 게재 또는 캠페인 컨텍스트 외부의 워크플로우에서 만든 게재에는 적용되지 않습니다.
 
-승인 프로세스를 통해 여러 관련자를 조정하고 게재를 보내기 전에 품질 관리를 할 수 있습니다. 조직에서 콘텐츠 검토 마케팅 관리자나 타겟 대상의 유효성을 검사하는 데이터 분석가와 같이 서로 다른 팀의 유효성 검사가 필요한 경우 승인을 사용하십시오.
+승인 프로세스를 통해 여러 이해 당사자를 조정하고 게재를 보내기 전에 품질 관리를 할 수 있습니다. 조직에서 마케팅 관리자가 콘텐츠를 검토하거나 데이터 분석가가 타깃 대상자를 검증하는 것과 같이 서로 다른 팀의 유효성 검사가 필요한 경우 승인을 사용하십시오.
 
 승인이 활성화되면 승인을 위해 콘텐츠 또는 타겟을 제출해야 합니다. 지정된 검토자는 유효성 검사를 요청하는 이메일 알림을 받으며 웹 UI 인터페이스에서 직접 승인하거나 거부할 수 있습니다. 모든 필수 승인이 승인될 때까지 게재를 보낼 수 없습니다. 다음을 활성화할 수 있습니다.
 

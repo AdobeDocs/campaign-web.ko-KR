@@ -2,16 +2,19 @@
 title: 외부 계정 관리
 description: Hadoop 외부 계정을 구성하는 방법 알아보기
 exl-id: d2dc4d88-a97d-48bb-b668-ed970e138dfd
-source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
+TQID: https://experienceleague.adobe.com/cdc36G52XFAFGXD1JBAyeSIr06py47vZXh1ylx98nrk
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: 94
 ht-degree: 0%
 
 ---
 
 # Hadoop 외부 계정 {#external-hadoop}
 
-Hadoop 외부 계정을 사용하면 Campaign 인스턴스를 Hadoop 외부 데이터베이스에 연결할 수 있습니다. Hadoop에 대한 자세한 내용은 [Campaign V7 콘솔 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}를 참조하세요.
+Hadoop 외부 계정을 사용하면 Campaign 인스턴스를 Hadoop 외부 데이터베이스에 연결할 수 있습니다. Hadoop에 대한 자세한 내용은 [Campaign V7 콘솔 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank}를 참조하세요.
 
 ![Hadoop 외부 계정에 대한 구성을 보여 주는 스크린샷입니다.](assets/external-hadoop.png)
 

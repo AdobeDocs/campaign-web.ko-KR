@@ -3,10 +3,13 @@ audience: end-user
 title: 푸시 알림 시작하기
 description: Adobe Campaign Web을 사용하여 푸시 알림을 만들고 전송하는 방법 알아보기
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '197'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/JuLOa50dKmVllMtoxSWk11GClat6IQoPI5j3d-b6NFs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+workflow-type: tm+mt
+source-wordcount: 206
+ht-degree: 98%
 
 ---
 
@@ -22,7 +25,7 @@ ht-degree: 100%
 
 * **독립 실행형 게재**: 워크플로나 캠페인 없이도 개별 푸시 알림 게재를 사용하여 고객을 직접 또는 즉시 참여시킵니다.
 
-![](../assets/do-not-localize/book.png) [Campaign v8 (클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html?lang=ko){target="_blank"}에서 푸시 알림 채널을 구성하는 방법에 대해 알아봅니다.
+![](../assets/do-not-localize/book.png) [Campaign v8 (클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}에서 푸시 알림 채널을 구성하는 방법에 대해 알아봅니다.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

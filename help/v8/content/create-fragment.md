@@ -3,9 +3,12 @@ audience: end-user
 title: 콘텐츠 조각 만들기
 description: 콘텐츠 조각을 만드는 방법 알아보기
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/ZUkswLXR1inqS45Gt9H7BlaJGkMQbTc22RM9vz5k174
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: 1038
 ht-degree: 23%
 
 ---
@@ -44,7 +47,7 @@ ht-degree: 23%
 
 콘텐츠 조각을 처음부터 만들려면 아래 단계를 수행합니다.
 
-1. [콘텐츠 관리&#x200B;]&#x200B;**>**&#x200B;[!UICONTROL &#x200B;조각&#x200B;]&#x200B;**왼쪽 메뉴를 통해 조각 목록에 액세스(#access-manage-fragments)하고**&#x200B;[!UICONTROL &#x200B;조각 만들기&#x200B;]&#x200B;**를 선택합니다.**
+1. [콘텐츠 관리&#x200B;]**>**[!UICONTROL &#x200B;조각&#x200B;]**왼쪽 메뉴를 통해 조각 목록에 액세스](#access-manage-fragments)하고**[!UICONTROL &#x200B;조각 만들기&#x200B;]**를 선택합니다.**[!UICONTROL 
 
    ![조각 만들기 옵션을 표시하는 조각 목록 화면](assets/fragments-list.png)
 

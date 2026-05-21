@@ -3,9 +3,12 @@ audience: end-user
 title: 이메일 디자이너 콘텐츠 구성 요소 사용
 description: 이메일에 콘텐츠 구성 요소를 사용하는 방법 알아보기
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/iT-8fzpVcEzhMpuUynQB3uvnA8FcJoJfnzb9-hsN5Vo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: 1402
 ht-degree: 34%
 
 ---
@@ -160,7 +163,7 @@ ht-degree: 34%
 
 1. 에셋에서 이미지 파일을 선택하려면 **[!UICONTROL 찾아보기]**&#x200B;를 클릭하십시오. **[!UICONTROL 미디어 가져오기]**&#x200B;를 선택할 수도 있습니다.
 
-   Adobe Experience Manager에서 에셋을 업로드하고 추가하는 방법에 대한 자세한 내용은 [Adobe Experience Manager as a Cloud Service 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=ko)를 참조하세요.
+   Adobe Experience Manager에서 에셋을 업로드하고 추가하는 방법에 대한 자세한 내용은 [Adobe Experience Manager as a Cloud Service 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html)를 참조하세요.
 
    ![이메일 Designer의 이미지 구성 요소에 대한 검색 옵션을 보여 주는 스크린샷.](assets/email_designer_28.png){zoomable="yes"}
 

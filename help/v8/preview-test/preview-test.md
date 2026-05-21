@@ -3,9 +3,12 @@ audience: end-user
 title: 게재 미리 보기 및 테스트 정보
 description: 게재 미리 보기 및 테스트 방법 알아보기
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/o4jYAJjBPMecytLyeZ9sks-Sshww-hYJW-A8QO5ObNs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: 229
 ht-degree: 24%
 
 ---
@@ -16,8 +19,8 @@ ht-degree: 24%
 >id="acw_deliveries_simulate"
 >title="콘텐츠 미리보기 및 테스트"
 >abstract="콘텐츠가 정의되면 프로필 및 테스트 프로필을 사용하여 미리 보고 테스트할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-test.html?lang=ko" text="교정쇄 보내기"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=ko#test-landing-page" text="랜딩 페이지 테스트"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-test.html" text="교정쇄 보내기"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="랜딩 페이지 테스트"
 
 게재 콘텐츠가 정의되면 프로필 및 테스트 프로필을 사용하여 메시지를 보내기 전에 미리 보고 테스트할 수 있습니다. 이 단계에서는 정확성을 보장하고 콘텐츠와 개인화 설정 모두에서 오류를 제거합니다.
 

@@ -3,9 +3,12 @@ audience: end-user
 title: 파일 전송 활동 사용
 description: 파일 전송 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/KUirsZa80G1TgwV8yjIqvxmSNG1MTQj1h0xVLywFa60
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: 1266
 ht-degree: 27%
 
 ---
@@ -65,7 +68,7 @@ ht-degree: 27%
 
    +++**웹 다운로드** 유형 활동에서 사용할 수 있는 작업
 
-   * **[!UICONTROL 단순 전송(GET)]**: 파일을 검색합니다.
+   * **[!UICONTROL GET(단순 전송)]**: 파일을 검색합니다.
    * **[!UICONTROL 양식을 사용하여 전송(POST)]**: 파일 및 추가 매개 변수를 업로드합니다.
 
    +++

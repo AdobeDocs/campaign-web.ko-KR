@@ -3,9 +3,12 @@ audience: end-user
 title: 속성을 선택하여 즐겨찾기에 추가
 description: 속성을 사용하는 방법과 자주 사용하는 속성 및 최근 사용한 속성에 간편하게 액세스 하는 방법을 알아봅니다.
 exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/Bkj-J6OG12-LbMCwv9uankcZCZErylVtZVZtR512H6g
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: 506
 ht-degree: 100%
 
 ---

@@ -3,10 +3,14 @@ audience: end-user
 title: 플랜 및 프로그램
 description: Adobe Campaign에서 계획 및 프로그램을 만들고 구성하는 방법에 대해 알아봅니다
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
+TQID: https://experienceleague.adobe.com/FSiHCjupRlS0zoI9HPdcU--Y2PZot5fQOzWICwmV-oQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 3%
+source-wordcount: 522
+ht-degree: 6%
 
 ---
 
@@ -14,10 +18,10 @@ ht-degree: 3%
 
 Adobe Campaign을 사용하면 마케팅 플랜 및 프로그램에 대한 폴더 계층 구조를 구성할 수 있습니다.
 
-Adobe 이러한 구성 요소를 보다 효율적으로 구성하려면 다음 계층을 사용하는 것이 좋습니다. 계획 `>` 프로그램 `>` 캠페인.
+이러한 구성 요소를 보다 효율적으로 구성하려면 다음 계층을 사용하는 것이 좋습니다. 계획 `>` 프로그램 `>` 캠페인.
 
 * **계획**&#x200B;에는 여러 프로그램이 포함될 수 있습니다. 특정 기간에 대한 전략적 목표를 정의합니다.
-* **프로그램**&#x200B;에는 캠페인, 워크플로우 및 랜딩 페이지뿐만 아니라 다른 프로그램도 포함될 수 있습니다.
+* **프로그램**&#x200B;에는 캠페인, 워크플로 및 랜딩 페이지뿐만 아니라 다른 프로그램도 넣을 수 있습니다.
 * **campaign**&#x200B;에는 게재, 워크플로우 및 랜딩 페이지가 포함될 수 있습니다.
 
 ## 플랜 만들기 및 구성 {#create-plan}

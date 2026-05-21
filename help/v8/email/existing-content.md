@@ -3,9 +3,11 @@ audience: end-user
 title: 이메일 콘텐츠 가져오기
 description: 이메일 콘텐츠를 가져오는 방법 알아보기
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/tBeOFkGoxZ-QYEt6dse2-1KSiE318onNSEtGTYzTCO8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: 291
 ht-degree: 29%
 
 ---
@@ -56,4 +58,4 @@ HTML 콘텐츠가 포함된 파일을 가져오려면 아래 단계를 따르십
 
 HTML을 업로드하여 이메일을 만들고, 이메일 Designer과 호환되도록 하며, 템플릿으로 변환하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447039/?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

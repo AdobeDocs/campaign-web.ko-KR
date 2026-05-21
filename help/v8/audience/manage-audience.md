@@ -3,9 +3,11 @@ audience: end-user
 title: 대상자 시작하기
 description: Adobe Campaign 웹에서 대상자를 사용하여 작업하는 방법에 대해 알아봅니다
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/KGSuhMYvY3J-PVy6xB-XLHyQOkOvYFen8Lzn4cS0nTQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: 418
 ht-degree: 26%
 
 ---
@@ -38,9 +40,9 @@ ht-degree: 26%
 
 대상은 여러 소스에서 발생할 수 있습니다. **[!UICONTROL 원본]** 열은 지정된 대상이 만들어진 위치를 나타냅니다.
 
-* **[!UICONTROL Adobe Campaign]**: 이러한 대상은 [Adobe Campaign 웹 사용자 인터페이스](create-audience.md) 또는 [Adobe Campaign v8 클라이언트 콘솔](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=ko){target="_blank"}에서 만들어졌습니다.
+* **[!UICONTROL Adobe Campaign]**: 이러한 대상은 [Adobe Campaign 웹 사용자 인터페이스](create-audience.md) 또는 [Adobe Campaign v8 클라이언트 콘솔](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}에서 만들어졌습니다.
 
-* **[!UICONTROL Adobe Experience Platform:]** 이러한 대상은 Adobe Experience Platform 내에서 만들어졌으며 Adobe 소스 및 대상 통합을 사용하여 Campaign 웹에 통합됩니다. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=ko){target="_blank"}에서 이 통합을 설정하는 방법을 알아봅니다.
+* **[!UICONTROL Adobe Experience Platform:]** 이러한 대상은 Adobe Experience Platform 내에서 만들어졌으며 Adobe 소스 및 대상 통합을 사용하여 Campaign 웹에 통합됩니다. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}에서 이 통합을 설정하는 방법을 알아봅니다.
 
   ➡️ [비디오에서 이 기능 살펴보기](#video)
 
@@ -60,4 +62,4 @@ Adobe Campaign 웹 사용자 인터페이스에서 Experience Platform 대상을
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
 
-Adobe 소스 및 대상 통합을 설정하는 방법에 대한 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=ko){target="_blank"}를 참조하세요.
+Adobe 소스 및 대상 통합을 설정하는 방법에 대한 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}를 참조하세요.

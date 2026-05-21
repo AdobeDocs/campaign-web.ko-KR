@@ -3,9 +3,11 @@ audience: end-user
 title: iOS 리치 푸시 알림 게재 디자인
 description: Adobe Campaign 웹을 사용하여 iOS 리치 푸시 알림 전달을 디자인하는 방법을 알아봅니다
 exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
-source-git-commit: 53f4662e9497c8614036f9f89c1ea2b1233756f0
+TQID: https://experienceleague.adobe.com/B4dcgNoG8uflTmYejb0fPp9NjWPawctMacxjZBxa0zU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: 1653
 ht-degree: 4%
 
 ---
@@ -14,7 +16,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->리치 푸시 알림을 디자인하기 전에 V2 커넥터를 구성해야 합니다. 자세한 절차는 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application)를 참조하세요.
+>리치 푸시 알림을 디자인하기 전에 V2 커넥터를 구성해야 합니다. 자세한 절차는 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application)를 참조하세요.
 
 ## 알림 콘텐츠 정의 {#push-message}
 
@@ -39,7 +41,7 @@ ht-degree: 4%
 
    이 필드는 iOS 알림 페이로드의 **title** 매개 변수의 값을 정의합니다.
 
-1. 선택적으로 iOS 알림 페이로드의 **[!UICONTROL 자막]** 매개 변수에 해당하는 **자막**&#x200B;을 추가합니다.
+1. 선택적으로 iOS 알림 페이로드의 **자막** 매개 변수에 해당하는 **[!UICONTROL 자막]**&#x200B;을 추가합니다.
 
 1. **[!UICONTROL 메시지]** 필드에 메시지 내용을 입력합니다.
 
@@ -75,7 +77,7 @@ ht-degree: 4%
 
 1. 표현식 편집기를 사용하여 콘텐츠를 정의하고, 데이터를 개인화하고, 다이내믹 콘텐츠를 추가합니다. [자세히 알아보기](../personalization/personalize.md)
 
-1. 선택적으로 iOS 알림 페이로드의 **[!UICONTROL 자막]** 매개 변수에 해당하는 **자막**&#x200B;을 추가합니다.
+1. 선택적으로 iOS 알림 페이로드의 **자막** 매개 변수에 해당하는 **[!UICONTROL 자막]**&#x200B;을 추가합니다.
 
 1. 알림에서 사용자 클릭과 연결된 **[!UICONTROL 클릭 동작]**&#x200B;을 정의하는 URL을 추가하십시오. 이는 사용자가 특정 화면을 열거나 앱에서 특정 작업을 수행하는 것과 같이 알림과 상호 작용할 때의 동작을 결정합니다.
 
@@ -109,7 +111,7 @@ ht-degree: 4%
 
 1. 표현식 편집기를 사용하여 콘텐츠를 정의하고, 데이터를 개인화하고, 다이내믹 콘텐츠를 추가합니다. [자세히 알아보기](../personalization/personalize.md)
 
-1. 선택적으로 iOS 알림 페이로드의 **[!UICONTROL 자막]** 매개 변수에 해당하는 **자막**&#x200B;을 추가합니다.
+1. 선택적으로 iOS 알림 페이로드의 **자막** 매개 변수에 해당하는 **[!UICONTROL 자막]**&#x200B;을 추가합니다.
 
 1. 알림에서 사용자 클릭과 연결된 **[!UICONTROL 클릭 동작]**&#x200B;을 정의하는 URL을 추가하십시오. 이는 사용자가 특정 화면을 열거나 앱에서 특정 작업을 수행하는 것과 같이 알림과 상호 작용할 때의 동작을 결정합니다.
 
@@ -152,7 +154,7 @@ ht-degree: 4%
 
 1. 표현식 편집기를 사용하여 콘텐츠를 정의하고, 데이터를 개인화하고, 다이내믹 콘텐츠를 추가합니다. [자세히 알아보기](../personalization/personalize.md)
 
-1. 선택적으로 iOS 알림 페이로드의 **[!UICONTROL 자막]** 매개 변수에 해당하는 **자막**&#x200B;을 추가합니다.
+1. 선택적으로 iOS 알림 페이로드의 **자막** 매개 변수에 해당하는 **[!UICONTROL 자막]**&#x200B;을 추가합니다.
 
 1. 알림에서 사용자 클릭과 연결된 **[!UICONTROL 클릭 동작]**&#x200B;을 정의하는 URL을 추가하십시오. 이는 사용자가 특정 화면을 열거나 앱에서 특정 작업을 수행하는 것과 같이 알림과 상호 작용할 때의 동작을 결정합니다.
 

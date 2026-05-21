@@ -3,9 +3,12 @@ audience: end-user
 title: 트랜잭션 메시지 만들기
 description: Campaign 웹 사용자 인터페이스에서 트랜잭션 메시지를 만드는 방법을 알아봅니다
 exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/oUU-QTPEVgYame-X2qxNKw0hE8W8XNORFjVc-yC3-ww
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: 1334
 ht-degree: 18%
 
 ---
@@ -16,7 +19,7 @@ ht-degree: 18%
 
 ## 트랜잭션 메시지 템플릿 만들기 {#transactional-template}
 
-Campaign 웹 사용자 인터페이스에서 트랜잭션 메시지 구성의 첫 번째 단계는 템플릿 만들기 또는 메시지 직접 만들기입니다. 이는 [클라이언트 콘솔의 트랜잭션 메시지 구성](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional)과 다릅니다.
+Campaign 웹 사용자 인터페이스에서 트랜잭션 메시지 구성의 첫 번째 단계는 템플릿 만들기 또는 메시지 직접 만들기입니다. 이는 [클라이언트 콘솔의 트랜잭션 메시지 구성](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional)과 다릅니다.
 
 트랜잭션 메시지 템플릿을 사용하여 최종 대상자에게 도달하기 전에 프로필에서 받은 게재 콘텐츠를 미리 볼 수 있습니다. 예를 들어 관리자는 템플릿을 설정하고 구성하여 마케팅 사용자가 사용할 수 있도록 할 수 있습니다.
 

@@ -1,10 +1,14 @@
 ---
 title: 외부 계정 관리
 description: CRM 외부 계정을 구성하는 방법 알아보기
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+exl-id: b8dd0cef-c2ab-4e3a-9fe4-d44b6c2902a6
+TQID: https://experienceleague.adobe.com/CBkfqiJfkVMtI76CIM9X95EdlhKOFpFVhSrVZQFMMd4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 0%
+source-wordcount: 863
+ht-degree: 1%
 
 ---
 
@@ -60,7 +64,7 @@ Adobe Campaign 웹 사용자 인터페이스에서 Microsoft Dynamics CRM 외부
 
    * **[!UICONTROL 키 ID]**: 인증서와 연결된 키 ID를 입력하십시오.
 
-   * **[!UICONTROL 클라이언트 식별자]**: Microsoft Azure 관리에서 찾은 클라이언트 ID를 입력하십시오.
+   * **[!UICONTROL 클라이언트 식별자]**: Microsoft Azure 관리에 있는 클라이언트 ID를 입력하십시오.
 
    * **[!UICONTROL CRM 버전]**: Dynamics CRM 365 CRM 버전을 선택하십시오.
 
@@ -147,4 +151,3 @@ Adobe Campaign에서 작동하도록 Salesforce 외부 계정을 구성하려면
    Adobe Campaign 값을 Salesforce 값으로 바꾸려면 **[!UICONTROL 바꾸기]** 옵션을 활성화합니다.
 
    ![Salesforce CRM 외부 계정 구성 필드를 보여주는 스크린샷입니다.](assets/crm-salesforce-5.png)
-

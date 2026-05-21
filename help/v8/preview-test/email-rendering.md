@@ -3,9 +3,12 @@ audience: end-user
 title: 이메일 렌더링 테스트
 description: Campaign 웹 사용자 인터페이스에서 전자 메일 렌더링을 테스트하는 방법을 알아봅니다
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+TQID: https://experienceleague.adobe.com/EY2zw8-EfxmTKS3kCcigZY5f-piIO7S2s-gT8knFbeY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: 245
 ht-degree: 2%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 2%
 
 이메일을 보내기 전에 메시지가 다양한 웹 클라이언트 및 장치에서 수신자에게 최적으로 표시되는지 확인하십시오.
 
-이를 위해 **내의** Litmus[!DNL Adobe Campaign] 계정을 사용하여 다른 컨텍스트에서 전자 메일 렌더링을 즉시 미리 봅니다. 이를 통해 주요 데스크탑 애플리케이션, 웹 메일 서비스, 모바일 장치 등과의 호환성을 확인할 수 있습니다.
+이를 위해 [!DNL Adobe Campaign] 내의 **Litmus** 계정을 사용하여 다른 컨텍스트에서 전자 메일 렌더링을 즉시 미리 봅니다. 이를 통해 주요 데스크탑 애플리케이션, 웹 메일 서비스, 모바일 장치 등과의 호환성을 확인할 수 있습니다.
 
 >[!CAUTION]
 >

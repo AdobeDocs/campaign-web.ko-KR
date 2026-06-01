@@ -17,7 +17,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 986
 ht-degree: 48%
@@ -50,7 +50,7 @@ ht-degree: 48%
 1. 게재를 위한 채널을 선택합니다.
 1. 주 타겟 및 컨트롤 그룹의 게재 대상을 정의합니다. [대상자에 대해 자세히 알아보기](../audience/about-recipients.md).
 
-   대상 선택 인터페이스를 보여 주는 ![스크린샷](assets/select-audience.png){zoomable="yes"}{width="70%" align="left"}
+   대상 선택 인터페이스를 보여 주는 ![스크린샷](assets/select-audience.png){zoomable="yes"}{width="70%"}
 
 1. 메시지 콘텐츠를 정의합니다. 다음 섹션에서 게재 채널 및 게재 콘텐츠를 정의하는 방법에 대해 자세히 알아보십시오.
 

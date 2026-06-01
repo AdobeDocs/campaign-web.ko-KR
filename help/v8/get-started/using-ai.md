@@ -13,7 +13,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 525
 ht-degree: 100%
@@ -58,7 +58,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 입력 필드에서 Adobe Campaign AI 기반 상황별 도움말이 세 가지 추천 질문을 제공합니다. 이 질문은 AI에서 생성되며 도움말 상자 및 현재 제품 전후 상황과 관련이 있습니다. 답변을 확인하려면 질문을 선택합니다.
 
-[상황별 도움말에서 제안된 질문의 예](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
+[상황별 도움말에서 제안된 질문의 예](assets/do-not-localize/suggested-questions.png){width="600"}{zoomable="yes"}
 
 ## 답변 {#answers-ai}
 
@@ -66,7 +66,7 @@ Adobe Campaign AI 기반 상황별 도움말에서 도움을 제공하지만 사
 
 도움말 팝오버 아래쪽에 있는 **복사** 아이콘을 사용하여 답변을 클립보드에 복사합니다.
 
-[상황별 도움말에서 답변 복사의 예](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
+[상황별 도움말에서 답변 복사의 예](assets/do-not-localize/copy-answer.png){width="600"}{zoomable="yes"}
 
 ## 피드백 {#feedback-ai}
 

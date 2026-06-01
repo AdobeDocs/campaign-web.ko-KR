@@ -23,7 +23,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 1564
 ht-degree: 100%
@@ -127,7 +127,7 @@ Campaign 탐색기, 폴더 계층 및 리소스에 대한 자세한 내용은 [C
 
   **추가 작업**&#x200B;을 사용하여 게재를 삭제하거나 복제할 수 있습니다.
 
-  ![](assets/more-actions.png){zoomable="yes"}{width="70%" align="left"} [게재를 삭제하거나 복제하는 옵션이 있는 “추가 작업” 버튼 스크린샷.]
+  ![](assets/more-actions.png){zoomable="yes"}{width="70%"} [게재를 삭제하거나 복제하는 옵션이 있는 “추가 작업” 버튼 스크린샷.]
 
 * **워크플로** - 이 화면에서 워크플로 전체 목록 및 워크플로 템플릿에 액세스할 수 있습니다. 상태, 마지막/다음 실행 일자를 확인하고 새 워크플로 또는 새 워크플로 템플릿을 만들 수 있습니다. 다른 오브젝트와 동일한 기준으로 목록을 필터링할 수 있습니다. 또한 캠페인에 속한 워크플로 또는 속하지 않은 워크플로를 필터링할 수 있습니다. [이 섹션에서](../workflows/gs-workflows.md) 워크플로에 대해 자세히 알아보십시오.
 

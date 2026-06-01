@@ -24,9 +24,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
 workflow-type: tm+mt
-source-wordcount: 2877
+source-wordcount: 2803
 ht-degree: 16%
 
 ---
@@ -216,7 +216,7 @@ Adobe Campaign 웹 사용자 인터페이스에서는 다양한 기준을 기반
 >
 >* 추적 링크, 미러 페이지 URL 링크, 구독/구독 취소 링크는 Campaign Standard에서와 같이 작동합니다.
 >
->Adobe Campaign의 [추적 및 모니터링](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [브랜딩](https://experienceleague.adobe.com/ko/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"} 섹션도 참조하세요.
+>Adobe Campaign의 [추적 및 모니터링](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [브랜딩](../../v8/administration/branding/branding-gs.md) 섹션도 참조하세요.
 
 ### 이메일 게재 {#acs-gs-marketers-email}
 
@@ -398,11 +398,11 @@ Adobe Campaign은 [보고 도구](https://experienceleague.adobe.com/ko/docs/cam
 
 Adobe Campaign 보고 도구 세트는 마케팅 노력의 효과에 대한 중요한 통찰력을 제공하여 캠페인이 최대의 효과를 발휘하도록 최적화할 수 있습니다. 자세한 내용은 [보고 설명서](../../v8/reporting/gs-reports.md)를 참조하세요.
 
-또한 Adobe Campaign Standard 경험에 따라 이메일 게재에 대해 Campaign v8에서 동적 보고를 사용할 수 있습니다. 마케팅 활동의 영향을 측정하기 위해 완전히 맞춤화가 가능한 실시간 보고서를 제공합니다. 이 기능은 프로필 데이터에 대한 액세스를 추가하여 열기 및 클릭과 같은 기능적 이메일 캠페인 데이터 외에도 성별, 도시, 연령과 같은 프로필 차원별로 인구통계 분석을 지원합니다. 자세한 내용은 [동적 보고 설명서](https://experienceleague.adobe.com/ko/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}를 참조하세요.
+또한 Adobe Campaign Standard 경험에 따라 이메일 게재에 대해 Campaign v8에서 동적 보고를 사용할 수 있습니다. 마케팅 활동의 영향을 측정하기 위해 완전히 맞춤화가 가능한 실시간 보고서를 제공합니다. 이 기능은 프로필 데이터에 대한 액세스를 추가하여 열기 및 클릭과 같은 기능적 이메일 캠페인 데이터 외에도 성별, 도시, 연령과 같은 프로필 차원별로 인구통계 분석을 지원합니다. 자세한 내용은 [동적 보고 설명서](../../v8/reporting/dynamic-reporting/get-started-reporting.md)를 참조하세요.
 
 >[!AVAILABILITY]
 >
->* [동적 보고](https://experienceleague.adobe.com/ko/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}는 전자 메일 게재, 전자 메일 게재 및 트랜잭션 메시지를 포함하는 캠페인의 보고에 사용할 수 있습니다. 프로필 차원별 인구 통계 분석도 사용할 수 있습니다.
+>* [동적 보고](../../v8/reporting/dynamic-reporting/get-started-reporting.md)는 전자 메일 게재, 전자 메일 게재 및 트랜잭션 메시지를 포함하는 캠페인의 보고에 사용할 수 있습니다. 프로필 차원별 인구 통계 분석도 사용할 수 있습니다.
 >
 > * [Adobe Campaign 웹 사용자 인터페이스 보고](../../v8/reporting/campaign-reports.md)는 모든 사용자가 Adobe Campaign Standard에서 Adobe Campaign v8로 전환하는 경우에도 사용할 수 있습니다.
 

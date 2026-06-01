@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign 규칙 빌더로 대상자 빌드
 description: 규칙 빌더로 작업하는 방법을 알아봅니다.
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '624'
 ht-degree: 24%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 24%
 
 왼쪽에 있는 팔레트에는 대상자를 만들기 위해 필터링할 수 있는 모든 요소가 포함되어 있습니다. 검색 창을 사용하여 요소를 빠르게 찾습니다. 팔레트에 포함된 타일을 중앙 캔버스로 이동하여 구성하고 고려합니다.
 
-![필터링 옵션 및 탭을 표시하는 팔레트 인터페이스](assets/segment-builder2.png){zoomable="yes"}{width="70%" align="left"}
+![필터링 옵션 및 탭을 표시하는 팔레트 인터페이스](assets/segment-builder2.png){zoomable="yes"}{width="70%"}
 
 팔레트는 두 개의 탭으로 나뉩니다.
 
@@ -37,13 +37,13 @@ ht-degree: 24%
 
 캔버스는 팔레트에서 추가한 요소를 기반으로 규칙을 구성하고 결합할 수 있는 중앙 영역입니다. 새 규칙을 추가하려면 팔레트에서 타일을 드래그하여 캔버스에 놓습니다. 추가되는 데이터 유형에 따라 컨텍스트별 옵션이 표시됩니다.
 
-![규칙 구성 옵션을 표시하는 캔버스 인터페이스](assets/segment-builder4.png){zoomable="yes"}{width="70%" align="left"}
+![규칙 구성 옵션을 표시하는 캔버스 인터페이스](assets/segment-builder4.png){zoomable="yes"}{width="70%"}
 
 ## 규칙 속성 창
 
 오른쪽의 **규칙 속성** 창에서 아래 나열된 작업을 수행할 수 있습니다.
 
-![사용 가능한 작업을 표시하는 규칙 속성 창](assets/segment-builder5.png){zoomable="yes"}{width="70%" align="left"}
+![사용 가능한 작업을 표시하는 규칙 속성 창](assets/segment-builder5.png){zoomable="yes"}{width="70%"}
 
 * **결과 보기:** 대상자가 타겟팅한 프로필 목록을 표시합니다.
 * **코드 보기**: SQL에서 대상자의 코드 기반 버전을 표시합니다.
@@ -53,7 +53,7 @@ ht-degree: 24%
 
   >[!IMPORTANT]
   >
-  >이 제품 버전에서는 사용자 인터페이스에서 사전 정의된 일부 필터를 사용할 수 없습니다. 일반적인 사용은 가능합니다. [자세히 알아보기](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
+  >이 제품 버전에서는 사용자 인터페이스에서 사전 정의된 일부 필터를 사용할 수 없습니다. 일반적인 사용은 가능합니다. [자세히 알아보기](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations).
 
 * **특성**: 만들어진 대상자에 대한 설명을 표시합니다.
 

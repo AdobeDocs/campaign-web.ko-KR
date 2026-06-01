@@ -4,11 +4,10 @@ title: 워크플로 설정 구성
 description: Adobe Campaign 웹을 사용하여 워크플로우 설정을 구성하는 방법 알아보기
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 TQID: https://experienceleague.adobe.com/u76tPZP4tkdiIUuXc0yIoIFvy-mEO8JRd-MKYY9J11o
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: 1087
+source-wordcount: 1054
 ht-degree: 26%
 
 ---
@@ -24,7 +23,7 @@ ht-degree: 26%
 
 이러한 설정은 워크플로우를 만들 때 선택한 템플릿에 미리 구성되어 있지만, 필요에 따라 이 특정 워크플로우에 대해 편집할 수 있습니다.
 
-![워크플로 설정 단추 인터페이스](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
+![워크플로 설정 단추 인터페이스](assets/workflow-settings-button.png){zoomable="yes"}{width="70%"}
 
 ## 워크플로 속성 {#properties}
 
@@ -35,14 +34,14 @@ ht-degree: 26%
 
 **[!UICONTROL 속성]** 섹션은 워크플로를 만들 때 구성할 수 있는 일반 설정을 제공합니다. 기존 워크플로의 속성에 액세스하려면 워크플로 캔버스 위의 작업 표시줄에서 사용할 수 있는 **[!UICONTROL 설정]** 단추를 클릭하십시오.
 
-![워크플로 설정 인터페이스](assets/workflow-settings.png){zoomable="yes"}{width="70%" align="left"}
+![워크플로 설정 인터페이스](assets/workflow-settings.png){zoomable="yes"}{width="70%"}
 
 이러한 속성에는 다음이 포함됩니다.
 
 * 목록에 표시되는 워크플로의 **[!UICONTROL 레이블]**.
 * 워크플로의 **[!UICONTROL 내부 이름]**&#x200B;입니다.
 * 워크플로우를 저장할 **[!UICONTROL 폴더]**&#x200B;입니다.
-* 모든 워크플로우의 활동에서 사용할 기본 **[!UICONTROL 시간대]**&#x200B;입니다. 기본적으로 워크플로우의 시간대는 현재 캠페인 연산자에 대해 정의된 시간대입니다.
+* 모든 워크플로우의 활동에서 사용할 기본 **[!UICONTROL 시간대]**입니다. 기본적으로 워크플로우의 시간대는 현재 캠페인 연산자에 대해 정의된 시간대입니다.
 가능한 값:
    * Adobe Campaign 응용 프로그램 서버의 시간대를 사용하려면 **서버 시간대를**&#x200B;하세요.
    * **연산자 시간대** - 클라이언트 콘솔의 연산자 프로필에 정의된 대로 워크플로를 실행하는 Adobe Campaign 연산자의 시간대를 사용합니다.

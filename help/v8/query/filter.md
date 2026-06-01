@@ -4,14 +4,12 @@ title: 필터 목록
 description: 기본 제공 및 사용자 지정 필터를 사용하여 Adobe Campaign 웹 목록을 필터링하는 방법을 알아봅니다.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
 TQID: https://experienceleague.adobe.com/a683b5CBnXIK41ltJJeX9cBgMh2drsjlzoAicypOLzA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: 416
-ht-degree: 0%
+source-wordcount: 337
+ht-degree: 1%
 
 ---
 
@@ -22,7 +20,7 @@ Adobe Campaign 웹은 각 객체 목록 내에 필터를 제공하므로 특정 
 >[!IMPORTANT]
 >
 >쿼리 모델러에 대한 완전히 새로운 인터페이스를 사용할 수 있습니다. 새 규칙 빌더를 사용하면 간소화된 인터페이스를 통해 쿼리를 더 쉽게 작성할 수 있습니다. 이 경험으로 전환하려면 오른쪽 상단 모서리에서 토글 버튼을 누릅니다. 언제든지 토글을 눌러 새 인터페이스를 비활성화하면 클래식 쿼리 모델러로 돌아갈 수 있습니다. 이 새 인터페이스에서 쿼리 모델러와 동일한 원칙을 적용할 수 있습니다.
->![새 규칙 빌더 인터페이스](assets/query-modeler-toggle.png){zoomable="yes"}에 대한 토글을 보여 주는 이미지
+>![새 규칙 빌더 인터페이스에 대한 전환을 보여 주는 이미지](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## 필터 적용 {#apply}
 
@@ -30,7 +28,7 @@ Adobe Campaign 웹은 각 객체 목록 내에 필터를 제공하므로 특정 
 
 선택한 목록에 사용할 수 있는 필터를 표시하는 필터 창이 열립니다. 예를 들어 캠페인의 상태, 시작 및 종료 날짜 또는 저장소 폴더를 기준으로 캠페인을 필터링할 수 있으며 구독 서비스 목록은 캠페인의 채널 및 저장소 폴더를 기준으로 필터링될 수 있습니다.
 
-![목록에 사용 가능한 필터를 표시하는 필터 창](assets/filters-pane.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+![목록에 사용 가능한 필터를 표시하는 필터 창](assets/filters-pane.png){zoomable="yes"}{width="70%" zoomable="yes"}
 
 자체 기준에 따라 목록을 필터링하려면 사용자 지정 필터를 만듭니다. 이렇게 하려면 필터 창의 맨 아래로 이동하여 **규칙 추가** 단추를 클릭하십시오. [사용자 지정 필터를 만드는 방법을 알아봅니다](#custom).
 
@@ -46,6 +44,6 @@ Adobe Campaign 웹은 각 객체 목록 내에 필터를 제공하므로 특정 
 
    아래 예제는 실행 또는 요가 부서의 운영자가 실행하는 SMS 캠페인을 캠페인 목록에 표시하도록 디자인된 사용자 지정 필터를 보여줍니다.
 
-   ![부서별로 필터링된 SMS 캠페인을 표시하는 사용자 지정 필터 예](assets/filters-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+   ![부서별로 필터링된 SMS 캠페인을 표시하는 사용자 지정 필터 예](assets/filters-sample.png){zoomable="yes"}{width="70%" zoomable="yes"}
 
 1. 사용자 지정 필터가 구성되면 **[!UICONTROL 확인]**&#x200B;을 클릭하여 목록에 적용합니다.

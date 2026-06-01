@@ -4,22 +4,14 @@ title: Campaign Standard에서 Adobe Campaign Web으로의 전환
 description: Campaign Web 사용자 인터페이스 살펴보기
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 TQID: https://experienceleague.adobe.com/nD7hOr0bHeBrGYrxutHio-M2EEJM4mYPVoaPelYzJXs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
 workflow-type: tm+mt
-source-wordcount: 619
-ht-degree: 100%
+source-wordcount: 570
+ht-degree: 96%
 
 ---
 
@@ -60,18 +52,13 @@ Campaign 클라이언트 콘솔은 관리자와 개발자가 자신의 환경을
 >
 >지원 및 미지원 기능과 Campaign Web 사용자 인터페이스와 Campaign 클라이언트 콘솔 간 상호 운용성에 대한 자세한 내용은 [이 페이지](../get-started/capability-matrix.md)에서 확인할 수 있습니다.
 
-## 용어 {#terminology}
-
-대부분의 개념은 Campaign v8과 Campaign Standard 간에 유사합니다. 단, 몇 가지 용어에서 차이점이 있습니다. 해당 예는 다음과 같습니다.
-
 <!--
+## Terminology {#terminology}
+Most concepts are similar between Campaign v8 and Campaign Standard. However, there are a few terminology differences. Examples include:
 * Profiles are **Recipients** in the console. [Learn more](../audience/gs-audiences-recipients.md).
 * Test profiles are **Seed addresses**. [Learn more](../preview-test/test-deliveries.md).
 * The delivery preparation is the **Delivery analysis**. [Learn more](../monitor/prepare-send.md).
 * Audiences are **Lists**. [Learn more](../audience/gs-audiences-recipients.md).
--->
-
-<!--
 * Custom resources are **Schemas**
 * Messages are referred to as **Deliveries**
 * Roles are configured with **Named Rights**
@@ -83,13 +70,13 @@ Campaign 클라이언트 콘솔은 관리자와 개발자가 자신의 환경을
 
 ## 특정 기능 {#new-features}
 
-Campaign v8로 원활하게 전환할 수 있도록 주요 Campaign Standard 기능이 Campaign v8에 추가되었습니다. 이 기능에 대한 자세한 내용은 [이 설명서](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ko){target=&quot;_blank}에서 살펴볼 수 있으며, Campaign Standard에서 전환하는 사용자에게만 제공됩니다.
+Campaign v8로 원활하게 전환하기 위해 Campaign v8에 주요 Campaign Standard 기능이 추가되었습니다.
 
 * **동적 보고**: 동적 보고는 마케팅 활동의 영향을 측정하기 위해 사용자 정의 가능한 실시간 보고서를 제공합니다. 이 기능은 프로필 데이터에 대한 액세스를 포함하여 열기 및 클릭과 같은 기능적 이메일 캠페인 데이터 외에도 성별, 도시, 연령과 같은 프로필 차원별로 인구통계학적 분석을 지원합니다. [자세히 알아보기](../reporting/dynamic-reporting/get-started-reporting.md).
 
 * **중앙 집중식 브랜딩**: Adobe Campaign을 통해 기업은 브랜드의 시각적 및 기술적 지침을 정의할 수 있습니다. 사용자는 로고부터 이메일 발신자, URL 도,메인과 같은 기술적인 측면까지 일관된 브랜드를 고객에게 제공할 수 있습니다. [자세히 알아보기](../administration/branding/branding-gs.md).
 
-* **REST API**: Campaign Standard로 마이그레이션된 사용자는 REST API를 사용하여 Adobe Campaign의 통합을 만들고 Adobe Campaign을 다른 기술과 통합하여 생태계를 구축할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ko){target="_blank"}.
+* **REST API**: Campaign Standard로 마이그레이션된 사용자는 REST API를 사용하여 Adobe Campaign의 통합을 만들고 Adobe Campaign을 다른 기술과 통합하여 생태계를 구축할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.
 
 * **랜딩 페이지**: Campaign Standard와의 기능 패리티를 보장하기 위해 Campaign v8 랜딩 페이지에 개선 사항이 적용되었습니다. [릴리스 정보](../rn/release-notes.md#new-24-4) 및 랜딩 페이지 [설명서](../landing-pages/get-started-lp.md)에서 자세한 내용을 살펴보십시오.
 

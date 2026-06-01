@@ -4,14 +4,12 @@ title: 쿼리 모델러를 사용하여 첫 번째 쿼리 작성
 description: Adobe Campaign 웹 쿼리 모델러에서 첫 번째 쿼리를 빌드하는 방법을 알아봅니다.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 TQID: https://experienceleague.adobe.com/o2K9C4wrjB9N85UbQKqA19jdZPFSZW4VDhdyB-4-7NE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: eceffbb89ed4635df723e139bb2dab8b7efc1d30
 workflow-type: tm+mt
-source-wordcount: 2199
-ht-degree: 36%
+source-wordcount: 2152
+ht-degree: 37%
 
 ---
 
@@ -26,7 +24,7 @@ ht-degree: 36%
 >[!IMPORTANT]
 >
 >쿼리 모델러에 대한 완전히 새로운 인터페이스를 사용할 수 있습니다. 이 새로운 규칙 빌더 환경으로 전환하려면 오른쪽 상단 모서리에서 토글 버튼을 누르십시오. 언제든지 토글을 눌러 새 인터페이스를 비활성화하면 클래식 쿼리 모델러로 돌아갈 수 있습니다. 이 새 인터페이스에서 쿼리 모델러와 동일한 원칙을 적용할 수 있습니다.
->![새 규칙 빌더 인터페이스](assets/query-modeler-toggle.png){zoomable="yes"}에 대한 토글을 보여 주는 이미지
+>![새 규칙 빌더 인터페이스에 대한 전환을 보여 주는 이미지](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## 표현식 편집기 작업 {#edit}
 
@@ -533,7 +531,7 @@ ht-degree: 36%
    <td> <strong>DefaultFolder</strong><br /> </td> 
    <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
-  </tr> 
+  </tr>
   -->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 

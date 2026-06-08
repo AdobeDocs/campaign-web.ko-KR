@@ -7,7 +7,7 @@ TQID: https://experienceleague.adobe.com/s1-w6QPAcZkFNzkImCJ5RHds9nhbaghxgQLxh07
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 262
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Adobe Campaign Web 사용자 인터페이스는 지속적으로 새로운 기능
 <td>
 <p>이제 Adobe Campaign Web 사용자 인터페이스에서 유형화 및 유형화 규칙을 만들 수 있습니다. 유형화를 통해 게재 전송을 제어, 필터링 및 모니터링할 수 있습니다. 유형화는 게재에 항상 필수 구성 요소(예: 구독 취소 링크 또는 제목 줄) 또는 그룹(예: 구독 취소자, 경쟁 업체 또는 충성도가 낮은 고객)을 대상자에서 제외하기 위한 필터링 규칙이 포함되어 있는지 확인합니다.</p>
 <img src="assets/do-not-localize/typology.gif" alt="Adobe Campaign Web 사용자 인터페이스의 유형화 규칙 생성 시연">
-<p>자세한 내용은 <a href="../administration/typologies.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../administration/typologies.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>

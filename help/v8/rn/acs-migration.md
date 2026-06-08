@@ -17,9 +17,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 570
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Most concepts are similar between Campaign v8 and Campaign Standard. However, th
 
 ## 특정 기능 {#new-features}
 
-Campaign v8로 원활하게 전환하기 위해 Campaign v8에 주요 Campaign Standard 기능이 추가되었습니다.
+Campaign v8로 원활하게 전환할 수 있도록 다음과 같은 주요 Campaign Standard 기능이 Campaign v8에 추가되었습니다.
 
 * **동적 보고**: 동적 보고는 마케팅 활동의 영향을 측정하기 위해 사용자 정의 가능한 실시간 보고서를 제공합니다. 이 기능은 프로필 데이터에 대한 액세스를 포함하여 열기 및 클릭과 같은 기능적 이메일 캠페인 데이터 외에도 성별, 도시, 연령과 같은 프로필 차원별로 인구통계학적 분석을 지원합니다. [자세히 알아보기](../reporting/dynamic-reporting/get-started-reporting.md).
 

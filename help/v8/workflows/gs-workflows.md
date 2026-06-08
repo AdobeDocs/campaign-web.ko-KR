@@ -15,7 +15,7 @@ subfeature_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 318
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ Adobe Campaign의 그래픽 환경을 통해 세분화, 캠페인 실행, 파일
 <img alt="워크플로 활동을 사용하여 작업하기" src="assets/do-not-localize/workflow-activities.jpeg">
 </a>
 <div>
-<a href="activities/about-activities.md"><strong>워크플로 활동을 사용하여 작업</strong></a>
+<a href="activities/about-activities.md"><strong>워크플로 활동을 사용하여 작업하기</strong></a>
 </div>
 <p></td>
 </tr></table>

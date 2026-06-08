@@ -18,9 +18,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2580
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ ht-degree: 99%
 >
 >다음 기능은 제한 공개(LA)로 제공됩니다. **Adobe Campaign Standard에서 Adobe Campaign v8로** 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 >
->다음 문서 페이지를 참조하세요. [Campaign Standard에서 Campaign v8로 전환](../rn/acs-migration.md)
+>설명서 페이지 참조: [Campaign Standard에서 Campaign v8로의 전환](../rn/acs-migration.md)
 
 * **다이렉트 메일에 대한 브랜딩** - 기술 관리자는 이제 브랜드의 아이덴티티에 영향을 미치는 매개변수를 중앙 집중화하기 위해 하나 이상의 브랜드를 정의할 수 있습니다. 여기에는 브랜드 로고, 랜딩 페이지의 액세스 URL의 도메인 또는 메시지 추적 설정이 포함됩니다. 이제 이러한 브랜드를 만들어 메시지 또는 랜딩 페이지에 연결할 수 있습니다. 이 구성은 템플릿에서 관리됩니다. [자세히 알아보기](../administration/branding/branding-assign.md)
 
@@ -264,7 +264,7 @@ ht-degree: 99%
 >
 >다음 기능은 제한 공개(LA)로 제공됩니다. **Adobe Campaign Standard에서 Adobe Campaign v8로** 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다.
 >
->다음 문서 페이지를 참조하세요. [Campaign Standard에서 Campaign v8로 전환](../rn/acs-migration.md)
+>설명서 페이지 참조: [Campaign Standard에서 Campaign v8로의 전환](../rn/acs-migration.md)
 
 * **브랜딩** - Campaign Standard로 마이그레이션한 사용자로서 기술 관리자는 이제 하나 이상의 브랜드를 정의하여 브랜드의 아이덴티티에 영향을 미치는 매개 변수를 중앙 집중화할 수 있습니다. 여기에는 브랜드 로고, 랜딩 페이지의 액세스 URL의 도메인 또는 메시지 추적 설정이 포함됩니다. 이러한 브랜드를 만들어 메시지 또는 랜딩 페이지에 연결할 수 있습니다. 이 구성은 템플릿에서 관리됩니다. [자세히 보기](../administration/branding/branding-gs.md)
 

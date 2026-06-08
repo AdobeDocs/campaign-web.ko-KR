@@ -3,25 +3,14 @@ title: Campaign v8 Web 사용자 인터페이스 이전 릴리스 정보
 description: 2025년 Campaign Web 사용자 인터페이스 릴리스
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
 TQID: https://experienceleague.adobe.com/z7Nz4ghVS6vEP7Aa3lgB1fv66coY-MCvyGALfzOn0O0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 3032
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -324,7 +313,7 @@ table>
 <td>
 <p>You can now send multiple email and SMS deliveries in different languages in Adobe Campaign Web UI. The multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.
 </p>
-<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ko" target="_blank">release notes</a>.
+<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">release notes</a>.
 <p>For more information, refer to the <a href="../email/edit-content.md#multilingual-delivery">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -375,7 +364,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>이제 고유한 브랜드를 만들고 사용자 정의하여 커뮤니케이션 전반에서 시각적 및 언어적 정체성을 명확하게 정의할 수 있습니다. 브랜드 정렬 점수를 사용하면 콘텐츠가 브랜드의 색조, 스타일 및 지침을 얼마나 잘 반영하는지에 대한 실시간 피드백을 받을 수 있으므로 보내는 모든 메시지를 통해 지속적으로 브랜드에 대한 피드백을 유지할 수 있습니다.
+<p>이제 나만의 브랜드를 만들고 맞춤 설정하여 모든 커뮤니케이션에서 시각적 및 언어적 정체성을 명확하게 정의할 수 있습니다. 브랜드 일치도 점수를 통해 콘텐츠가 브랜드의 톤, 스타일 및 가이드라인을 얼마나 잘 반영하는지 실시간으로 피드백을 받아볼 수 있으므로 전송하는 모든 메시지에서 일관된 브랜드를 유지할 수 있습니다.
 </p>
 <p>자세한 내용은 <a href="../content/brands.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
@@ -436,7 +425,7 @@ table>
 <tr>
 <td>
 <p>이제 마케팅 활동의 영향을 측정하기 위해 완전히 사용자 정의 가능한 실시간 보고서를 제공하는 동적 보고 기능을 이용할 수 있습니다. 이 기능은 프로필 데이터에 대한 액세스를 추가하여 열기 및 클릭과 같은 기능적 이메일 캠페인 데이터 외에도 성별, 도시, 연령과 같은 프로필 차원별로 인구통계 분석을 지원합니다. 다국어 이메일 게재 및 트랜잭션 메시지에 대한 동적 보고 기능도 제공됩니다.</p>
-<p>이 기능은 요청 시에만 사용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오. 서버를 최소 8.8.1로 업그레이드해야 합니다. 클라이언트 콘솔 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ko" target="_blank">릴리스 정보</a>를 참조하세요.
+<p>이 기능은 온디맨드 방식으로만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오. 서버를 최소 8.8.1로 업그레이드해야 합니다. 클라이언트 콘솔 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">릴리스 정보</a>를 참조하십시오.
 <p>자세한 내용은 <a href="../reporting/dynamic-reporting/get-started-reporting.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
@@ -453,7 +442,7 @@ table>
 <tr>
 <td>
 <p>이제 기술 관리자는 브랜드의 정체성에 영향을 미치는 매개변수를 중앙 집중식으로 정의할 수 있습니다. 여기에는 브랜드 로고, 랜딩 페이지의 액세스 URL의 도메인 또는 메시지 추적 설정이 포함됩니다. 이러한 브랜드를 만들어 메시지 또는 랜딩 페이지에 연결할 수 있습니다. 이 구성은 템플릿에서 관리됩니다. SMS 및 다이렉트 메일을 포함한 모든 채널에 대해 브랜딩 옵션을 사용할 수 있습니다.</p>
-<p>이 기능은 새 구현에 대해 주문형 서비스만 사용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오. 서버를 최소 8.8.1로 업그레이드해야 합니다. 클라이언트 콘솔 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ko" target="_blank">릴리스 정보</a>를 참조하세요.
+<p>이 기능은 새로운 구현에 대해 온디맨드 방식으로만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오. 서버를 최소 8.8.1로 업그레이드해야 합니다. 클라이언트 콘솔 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">릴리스 정보</a>를 참조하십시오.
 <p>자세한 내용은 <a href="../administration/branding/branding-gs.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
@@ -462,10 +451,10 @@ table>
 
 위에 나열된 기능 외에도 이번 릴리스에는 클라이언트 콘솔에서 사용할 수 있는 다음과 같은 기능 세트가 함께 제공됩니다.
 
-* [새로운 SMS 전송 커넥터](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=ko)&#x200B;(FDA 환경)
-* [Rest API](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ko)&#x200B;(온디맨드, FDA 환경)
+* [새로운 SMS 전송 커넥터](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html)&#x200B;(FDA 환경)
+* [Rest API](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html)&#x200B;(온디맨드, FDA 환경)
 
-클라이언트 콘솔 [릴리스 정보](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ko){target="_blank"}를 참조하십시오.
+클라이언트 콘솔 [릴리스 정보](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}를 참조하십시오.
 
 <!--
 
@@ -473,14 +462,14 @@ table>
 
 >[!AVAILABILITY]
 >
->To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ko){target="_blank"}.
+>To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 Previously released in Limited Availability, the following capabilities are now available to all environments (General Availability):
 
 * **Multilingual delivery creation** - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](../email/edit-content.md#multilingual-delivery).
 
 
-* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html?lang=ko){target="_blank"}
+* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
 
 * **Delivery alerting** - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)
 
@@ -507,10 +496,10 @@ Previously released in Limited Availability, the following capabilities are now 
 
 In addition to the features listed above, this release also comes with a set of functionalities available in the Client Console:
 
-* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=ko) (FDA environments)
-* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ko) (on demand, FDA environments)
+* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) (FDA environments)
+* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (on demand, FDA environments)
 
-Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ko){target="_blank"}.
+Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 -->
 
@@ -649,8 +638,7 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 <tbody>
 <tr>
 <td>
-<p>이제 Campaign 관리자는 Campaign 웹 사용자 인터페이스에서 외부 시스템과의 새 연결을 설정할 수 있습니다.
-기존 외부 계정을 확인, 업데이트 및 관리할 수도 있습니다.</p>
+<p>Campaign 관리자는 이제 Campaign Web 사용자 인터페이스에서 외부 시스템과의 새로운 연결을 설정할 수 있습니다. 또한 기존 외부 계정을 조회하고, 업데이트하고, 관리할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../administration/external-account.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>
@@ -688,13 +676,13 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >다음 기능은 제한 공개(LA)로 제공됩니다. **Adobe Campaign Standard에서 Adobe Campaign v8로** 마이그레이션하는 고객으로 제한되며 다른 환경에는 배포할 수 없습니다. 해당 고객은 Campaign 서버를 v8.7.4로 업그레이드해야 합니다.
 >
->다음 문서 페이지를 참조하세요. [Campaign Standard에서 Campaign v8로 전환](../rn/acs-migration.md)
+>설명서 페이지 참조: [Campaign Standard에서 Campaign v8로의 전환](../rn/acs-migration.md)
 
 * **다국어 게재 생성** - 이제 Adobe Campaign Web 사용자 인터페이스에서 다양한 언어로 여러 이메일 게재를 전송할 수 있습니다. 다국어 게재 기능을 사용하면 게재의 기본 언어는 물론, 게재를 전송할 수 있는 다양한 언어를 선택할 수 있습니다. 선택한 언어로 게재 내용을 미리 볼 수도 있습니다. 자세한 내용은 [세부 설명서](../email/edit-content.md)를 참조하십시오.
 
 * **다국어를 위한 동적 보고** - 이제 다국어 이메일 게재에 대해 동적 보고가 가능합니다. 자세한 내용은 [세부 설명서](../reporting/global-reports.md)를 참조하십시오.
 
-* **SMS REST API 지원(LA)** - 이제 SMS 채널에서 트랜잭션 메시지 REST API를 사용할 수 있습니다. 페이로드에 이메일과 휴대폰이 모두 있는 경우 “wishedChannel” 필드를 사용하여 채널을 지정할 수 있습니다. 제공되지 않으면 wishedChannel에서 SMS를 명시적으로 요청하지 않는 한 기본적으로 이메일이 사용됩니다. 자세한 내용은 [세부 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ko){target=_blank}를 참조하십시오.
+* **SMS REST API 지원(LA)** - 이제 SMS 채널에서 트랜잭션 메시지 REST API를 사용할 수 있습니다. 페이로드에 이메일과 휴대폰이 모두 있는 경우 “wishedChannel” 필드를 사용하여 채널을 지정할 수 있습니다. 제공되지 않으면 wishedChannel에서 SMS를 명시적으로 요청하지 않는 한 기본적으로 이메일이 사용됩니다. 자세한 내용은 [세부 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target=_blank}를 참조하십시오.
 
 ## 2025년 2월 릴리스 {#25-2-release}
 

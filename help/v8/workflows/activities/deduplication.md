@@ -4,8 +4,7 @@ title: 중복 제거 워크플로우 활동 사용
 description: 중복 제거 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
 TQID: https://experienceleague.adobe.com/gpvGRMzvpKR3yi3yUiUe9NJPt-FR2FO-qzbhFsBd6ms
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
 workflow-type: tm+mt
 source-wordcount: 769
@@ -27,7 +26,7 @@ ht-degree: 30%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_sets"
->title="가입 설정"
+>title="조인 설정"
 >abstract="**중복 제거** 활동의 인바운드 전환으로 연결하려는 이전 활동을 확인하십시오. 그러면 선택한 활동이 **중복 제거**&#x200B;에 연결됩니다. 이 섹션은 두 개 이상의 인바운드 전환을 활동에 연결할 수 있는 경우에만 표시됩니다."
 
 >[!CONTEXTUALHELP]

@@ -4,12 +4,9 @@ title: 보강 워크플로 활동 사용
 description: 보강 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 TQID: https://experienceleague.adobe.com/yYV7iC9u6wWwpJMEUUlwGRAPsuDiZkPvLD-cmw4IPf4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
 workflow-type: tm+mt
 source-wordcount: 2327
@@ -210,7 +207,7 @@ ht-degree: 31%
 
 워크플로우 내에서 게재에서 데이터 보강 활동에서 얻은 오퍼를 사용하려면 아래 단계를 따르십시오.
 
-1. 게재 활동을 열고 컨텐츠 에디션으로 이동합니다. **[!UICONTROL 오퍼 설정]** 단추를 클릭하고 드롭다운 목록에서 오퍼에 해당하는 **[!UICONTROL 오퍼 공간]**&#x200B;을 선택합니다.
+1. 게재 활동을 열고 컨텐츠 에디션으로 이동합니다. **[!UICONTROL 오퍼 설정]** 단추를 클릭하고 드롭다운 목록에서 오퍼에 해당하는 **[!UICONTROL 오퍼 공간]**을 선택합니다.
 데이터 보강 활동의 오퍼만 보려면 **[!UICONTROL 제안]**&#x200B;의 수를 0으로 설정하고 수정 사항을 저장하십시오.
 
    ![](../assets/offers-settings.png)

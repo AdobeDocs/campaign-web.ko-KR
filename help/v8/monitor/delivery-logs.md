@@ -6,10 +6,10 @@ exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 TQID: https://experienceleague.adobe.com/70yFDGvkMFv82CTMbN3cbzS6nXLmYGRZ7as20DYYXRs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 43a0518b8d273a8b4fcd56a529f6af6bb70a2530
 workflow-type: tm+mt
-source-wordcount: 429
-ht-degree: 58%
+source-wordcount: 456
+ht-degree: 54%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 58%
 게재가 준비되고 **보내기** 단추를 클릭하면 게재 로그를 찾아 경고, 오류, 상태, 제외 및 추적 데이터를 확인합니다. 메시지 대시보드에서 로그에 직접 액세스할 수 있습니다. 여기에는 전송 세부 정보와 제외된 대상 및 그 이유와 함께 열람 및 클릭 등의 추적 정보가 표시됩니다.
 
 로그를 보려면 게재 대시보드에 액세스하고 **로그** 버튼을 클릭합니다.
+
+>[!TIP]
+>
+>목록 위에 있는 **로드된 행을 CSV로 내보내기** 단추를 사용하여 각 로그 탭을 CSV 파일로 내보낼 수 있습니다. [목록 데이터 내보내기](../get-started/list-filters.md#export-list)에서 자세히 알아보세요.
 
 다음 탭을 사용할 수 있습니다.
 

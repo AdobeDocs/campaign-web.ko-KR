@@ -4,12 +4,11 @@ title: 게재 로그 모니터링
 description: 게재 로그 모니터링 방법 알아보기
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 TQID: https://experienceleague.adobe.com/70yFDGvkMFv82CTMbN3cbzS6nXLmYGRZ7as20DYYXRs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 43a0518b8d273a8b4fcd56a529f6af6bb70a2530
 workflow-type: tm+mt
-source-wordcount: 429
-ht-degree: 58%
+source-wordcount: 456
+ht-degree: 54%
 
 ---
 
@@ -23,6 +22,10 @@ ht-degree: 58%
 게재가 준비되고 **보내기** 단추를 클릭하면 게재 로그를 찾아 경고, 오류, 상태, 제외 및 추적 데이터를 확인합니다. 메시지 대시보드에서 로그에 직접 액세스할 수 있습니다. 여기에는 전송 세부 정보와 제외된 대상 및 그 이유와 함께 열람 및 클릭 등의 추적 정보가 표시됩니다.
 
 로그를 보려면 게재 대시보드에 액세스하고 **로그** 버튼을 클릭합니다.
+
+>[!TIP]
+>
+>목록 위에 있는 **로드된 행을 CSV로 내보내기** 단추를 사용하여 각 로그 탭을 CSV 파일로 내보낼 수 있습니다. [목록 데이터 내보내기](../get-started/list-filters.md#export-list)에서 자세히 알아보세요.
 
 다음 탭을 사용할 수 있습니다.
 
@@ -43,13 +46,13 @@ ht-degree: 58%
 * 노란색 아이콘은 중요하지 않은 처리 오류를 나타냅니다.
 * 빨간색 아이콘은 게재 전송을 방해하는 심각한 오류를 나타냅니다. 게재를 보내려면 중대 오류를 수정해야 합니다.
 
-![&#x200B; 유효성 검사 단계, 경고 및 오류를 표시하는 로그 탭과 메시지 유형을 나타내는 컬러 아이콘](assets/logs.png){zoomable="yes"}
+![ 유효성 검사 단계, 경고 및 오류를 표시하는 로그 탭과 메시지 유형을 나타내는 컬러 아이콘](assets/logs.png){zoomable="yes"}
 
 ## 게재 {#deliveries-tab}
 
 **전송 로그** 탭에는 이 게재의 모든 발생 내역이 표시됩니다. 보낸 메시지 및 상태 목록이 여기에 저장됩니다. 여기에서 각 수신자에 대한 게재 상태를 볼 수 있습니다.
 
-보낸 메시지의 기록 및 상태를 표시하는 ![&#x200B; 게재 탭.](assets/logs2.png){zoomable="yes"}
+보낸 메시지의 기록 및 상태를 표시하는 ![ 게재 탭.](assets/logs2.png){zoomable="yes"}
 
 ## 제외 {#exclusion-tab}
 

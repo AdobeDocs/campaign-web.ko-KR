@@ -5,7 +5,7 @@ description: 종료 워크플로우 활동을 사용하는 방법 알아보기
 source-git-commit: a9c701b9c3ac2d16d8a2dda8e851f09ac801a13e
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 20%
+ht-degree: 54%
 
 ---
 
@@ -14,12 +14,12 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"
 >title="종료 활동"
->abstract="**종료** 활동을 사용하여 워크플로의 끝을 그래픽으로 표시할 수 있습니다. 두 개 이상의 인바운드 전환을 사용할 수 있는 경우 **가입하도록 설정** 섹션을 사용하여 활동에 연결할 전환을 선택하십시오."
+>abstract="**종료** 활동을 사용하여 워크플로의 끝을 그래픽으로 표시할 수 있습니다. 여러 인바운드 전환을 사용할 수 있는 경우 **참여 설정** 섹션을 사용하여 어떤 전환을 활동에 연결할지 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end_sets"
->title="가입 설정"
->abstract="**End** 활동의 인바운드 전환으로 연결하려는 이전 활동을 확인하십시오. 선택한 활동이 **End**&#x200B;에 연결됩니다. 이 섹션은 두 개 이상의 인바운드 전환을 활동에 연결할 수 있는 경우에만 표시됩니다."
+>title="참여 설정"
+>abstract="**종료** 활동의 인바운드 전환으로 연결하고자 하는 이전 활동을 확인합니다. 그러면 선택된 활동이 **종료**&#x200B;에 연결됩니다. 이 섹션은 여러 인바운드 전환을 활동에 연결할 수 있는 경우에만 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_signal"

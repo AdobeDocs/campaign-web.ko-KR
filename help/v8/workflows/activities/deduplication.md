@@ -4,12 +4,11 @@ title: 중복 제거 워크플로우 활동 사용
 description: 중복 제거 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
 TQID: https://experienceleague.adobe.com/gpvGRMzvpKR3yi3yUiUe9NJPt-FR2FO-qzbhFsBd6ms
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
 workflow-type: tm+mt
 source-wordcount: 769
-ht-degree: 30%
+ht-degree: 39%
 
 ---
 
@@ -23,12 +22,12 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
 >title="중복 제거 활동"
->abstract="**중복 제거** 활동은 인바운드 활동의 결과에서 중복 요소를 삭제합니다. 주로 타기팅 활동 이후와 대상 데이터를 사용하는 활동 이전에 사용됩니다. 두 개 이상의 인바운드 전환을 사용할 수 있는 경우 **가입하도록 설정** 섹션을 사용하여 활동에 연결할 전환을 선택하십시오."
+>abstract="**중복 제거** 활동은 인바운드 활동의 결과에서 중복 요소를 삭제합니다. 주로 타기팅 활동 이후와 대상 데이터를 사용하는 활동 이전에 사용됩니다. 여러 인바운드 전환을 사용할 수 있는 경우 **참여 설정** 섹션을 사용하여 어떤 전환을 활동에 연결할지 선택합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_sets"
->title="조인 설정"
->abstract="**중복 제거** 활동의 인바운드 전환으로 연결하려는 이전 활동을 확인하십시오. 그러면 선택한 활동이 **중복 제거**&#x200B;에 연결됩니다. 이 섹션은 두 개 이상의 인바운드 전환을 활동에 연결할 수 있는 경우에만 표시됩니다."
+>title="참여 설정"
+>abstract="**중복 제거** 활동의 인바운드 전환으로 연결하고자 하는 이전 활동을 확인합니다. 그러면 선택된 활동이 **중복 제거**&#x200B;에 연결됩니다. 이 섹션은 여러 인바운드 전환을 활동에 연결할 수 있는 경우에만 표시됩니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"

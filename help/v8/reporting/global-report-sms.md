@@ -4,11 +4,8 @@ title: SMS 채널에 대한 전역 보고서
 description: SMS 채널에 대한 글로벌 보고서 이해
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
 TQID: https://experienceleague.adobe.com/I0CK5wcp99rHrQUw6e-dYpHQzms7kS5IW-RY-k4-W24
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 689
@@ -64,7 +61,7 @@ ht-degree: 26%
 
 * **[!UICONTROL 게재할 메시지]**: 게재를 준비한 후 게재할 총 메시지 수입니다.
 
-* **&#x200B;**: 주소 누락, 격리 또는 차단 목록 제외 등 규칙을 적용할 때 분석 중에 무시된 총 주소 수입니다.
+* ****: 주소 누락, 격리 또는 차단 목록 제외 등 규칙을 적용할 때 분석 중에 무시된 총 주소 수입니다.
 
 +++
 

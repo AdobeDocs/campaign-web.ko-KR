@@ -6,7 +6,7 @@ title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
 source-git-commit: 9bb8a5cdd958a693afccff5468df5911237044b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1028'
 ht-degree: 100%
 
@@ -276,7 +276,7 @@ ht-degree: 100%
          + [동적 보고 사용 계약](reporting/dynamic-reporting/pii-agreement.md)
 + 통합 {#integrations}
    + [다른 Adobe 솔루션 사용 작업](integrations/integration.md)
-   + [Adobe Experience Manager Assets as a Cloud Service로 자산 관리](integrations/aem-assets.md)
+   + [Adobe Experience Manager Assets as a Cloud Service로 에셋 관리](integrations/aem-assets.md)
    + [Adobe Experience Manager as a Cloud Service로 템플릿 관리](integrations/aem-content.md)
    + [Adobe Experience Manager을 사용하여 언어 사본 관리](integrations/aem-multilingual.md)
    + [GenStudio for Performance Marketing 작업](integrations/genstudio.md)

@@ -3,9 +3,9 @@ title: Campaign v8 Web 사용자 인터페이스 이전 릴리스 정보
 description: 2026년 Campaign Web 사용자 인터페이스 릴리스
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
 source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1204'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -219,7 +219,7 @@ _2026년 1월 27일_
 <tbody>
 <tr>
 <td>
-<p>이제 모든 고객(GA)이 다국어 게재 기능을 사용할 수 있습니다. 이 기능을 사용하면 Adobe Campaign 웹 사용자 인터페이스에서 여러 언어로 여러 메시지를 보낼 수 있습니다. 게재의 기본 언어와 게재를 보낼 수 있는 여러 언어를 선택할 수 있습니다. 선택한 언어로 이러한 게재를 미리 볼 수도 있습니다. 
+<p>이제 모든 고객이 다국어 게재 기능을 사용할 수 있습니다(GA). 이 기능을 사용하면 Adobe Campaign Web 사용자 인터페이스에서 다양한 언어로 여러 메시지를 보낼 수 있습니다. 게재에 사용되는 기본 언어뿐만 아니라 전송 가능한 여러 언어를 선택할 수 있으며, 선택한 언어로 게재 내용을 미리 볼 수도 있습니다. 
 <p>자세한 내용은 <a href="../msg/multilingual.md">세부 설명서</a>를 참조하십시오.</p>
 <p>다국어 푸시 알림에 대해 다음과 같은 사항이 개선되었습니다.</p>
 <ul>
@@ -256,7 +256,7 @@ _2026년 1월 27일_
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Manager 컨텐츠 통합을 사용하면 게재를 작성할 때 Adobe Experience Manager 내에서 직접 만든 모든 언어 및 Live Copy에 액세스할 수 있습니다. 실시간으로 콘텐츠를 새로 고쳐 최신 Adobe Experience Manager 버전을 가져올 수 있습니다. 이 통합을 통해 Adobe Experience Manager와 Campaign 간의 수동 콘텐츠 동기화를 제거하여 다국어 캠페인 워크플로를 간소화합니다.</p>
+<p>Adobe Experience Manager 콘텐츠 통합 기능을 사용하면 게재를 작성할 때 Adobe Experience Manager 내에서 직접 만든 모든 언어 및 Live Copy에 액세스할 수 있습니다. 실시간으로 콘텐츠를 새로 고쳐 최신 Adobe Experience Manager 버전을 가져올 수 있습니다. 이 통합을 통해 Adobe Experience Manager와 Campaign 간의 수동 콘텐츠 동기화를 제거하여 다국어 캠페인 워크플로를 간소화합니다.</p>
 <p>자세한 내용은 <a href="../integrations/aem-multilingual.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>

@@ -5,12 +5,11 @@ description: Adobe Campaign Web 설명서 업데이트
 exl-id: d65fcd92-ce3c-49ff-9dce-16a41d0558bf
 hide: true
 TQID: https://experienceleague.adobe.com/vmGBr2-v9PG2veid6Tg-TV2r3h-Y2DqcZcBKkCdVu7E
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 3890701b9c04bd404848c5447d08522b3cee64d5
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 493b80a92ae52bc76fcee7431fbf2ffa465bb3e0
 workflow-type: tm+mt
-source-wordcount: 90
-ht-degree: 80%
+source-wordcount: 138
+ht-degree: 53%
 
 ---
 
@@ -20,6 +19,7 @@ ht-degree: 80%
 
 ## 2026년 6월 {#june-2026}
 
+* CJK 언어(일본어, 한국어, 중국어 간체, 중국어 번체)를 타깃팅하는 DM 게재의 인코딩 요구 사항에 대한 메모를 추가했습니다. 기본 Latin-1(1252) 인코딩은 CJK 문자를 나타낼 수 없으므로 빈 파일 미리 보기가 발생합니다. 사용자는 추출 형식 설정에서 UTF-8(65001)을 선택해야 합니다. [자세히 보기](../direct-mail/content-direct-mail.md)
 * 이메일 추적 픽셀 및 관련 Adobe Campaign 기능에 대한 CNIL 지침에 대한 페이지를 추가했습니다. [자세히 보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}
 
 ## 2025년 12월 {#december-2025}

@@ -2,9 +2,9 @@
 title: 사용자 정의 필드 편집
 description: 사용자 정의 필드를 구성하는 방법 및 인터페이스에서 해당 가시성을 알아봅니다.
 exl-id: 1b531722-0935-4787-a673-60d97f776936
-source-git-commit: 56b0144bec96f8dbf18d44c1dc8fc0966617195a
+source-git-commit: 6f835141111dbacac0b6e1156f744d3f8db9ae24
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '744'
 ht-degree: 8%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 8%
 >id="acw_schema_detail_screen_configuration"
 >title="상세 화면 구성"
 >abstract="세부 정보 화면에 표시되는 사용자 정의 필드를 구성하고 섹션으로 구성합니다. 컬렉션 목록을 추가하여 프로필 화면에 관련 데이터를 표시합니다."
->additional-url="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/conf/schemas/schemas-collection-lists" text="컬렉션 목록 추가"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-collection-lists.html" text="컬렉션 목록 추가"
 
 사용자 지정 필드는 Adobe Campaign 콘솔을 통해 기본 스키마에 추가된 추가 속성입니다. 조직의 요구 사항에 맞게 새 속성을 포함하여 스키마를 사용자 지정할 수 있습니다.
 
@@ -29,7 +29,7 @@ ht-degree: 8%
 
 1. 목록에서 스키마 이름을 선택하여 열고 스키마 세부 정보 보기에서 **[!UICONTROL 화면 편집]** 단추를 클릭하여 화면 정의에 액세스합니다.
 
-1. **[!UICONTROL 사용자 지정 필드 목록]** 표 위에 있는 줄임표 아이콘을 클릭하고 **[!UICONTROL 특성 선택]**&#x200B;을 선택하여 인터페이스에 표시할 하나 이상의 사용자 지정 필드를 선택합니다.
+1. **[!UICONTROL 사용자 지정 필드 목록]** 표 위에 있는 줄임표 아이콘을 클릭하고 **[!UICONTROL 특성 선택]**을 선택하여 인터페이스에 표시할 하나 이상의 사용자 지정 필드를 선택합니다.
    ![편집 가능한 특성을 표시하는 사용자 지정 필드 화면](assets/schemas-custom5.png)
 1. 추가하고 확인할 사용자 정의 필드를 선택합니다.
 

@@ -1,14 +1,20 @@
 ---
 title: 기본 목록 열 구성
 description: 목록 보기에 기본적으로 표시되는 열을 구성하는 방법에 대해 알아봅니다.
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+exl-id: 55513ecd-fc3f-4371-93b0-f2c9d01d4db4
+source-git-commit: 56b0144bec96f8dbf18d44c1dc8fc0966617195a
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 0%
+source-wordcount: '192'
+ht-degree: 3%
 
 ---
 
 # 목록 열 구성 {#list-columns}
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_inventory_list_configuration"
+>title="재고 목록 구성"
+>abstract="목록 보기에 기본적으로 표시되는 열을 구성합니다. 각 열에는 해당 레이블과 해당 속성이 표시됩니다."
 
 **[!UICONTROL 인벤토리 목록 구성]** 섹션에서 목록 보기에 기본적으로 표시되는 열을 구성할 수 있습니다. 각 열에는 해당 레이블과 해당 속성이 표시됩니다.
 
@@ -21,7 +27,7 @@ ht-degree: 0%
 1. 목록에서 스키마 이름을 선택하여 열고 스키마 세부 정보 보기에서 **[!UICONTROL 화면 편집]** 단추를 클릭하여 화면 정의에 액세스합니다.
 
 1. 줄임표 아이콘(세 점)을 클릭합니다.
-1. **[!UICONTROL 열 선택]**&#x200B;을 선택하세요.
+1. **[!UICONTROL 열 선택]**을 선택하세요.
    ![열 구성 나열](assets/schemas-list-columns2.png)
 
 1. 목록 보기에 표시할 속성을 선택하고 확인합니다.

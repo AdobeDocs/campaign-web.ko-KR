@@ -1,12 +1,12 @@
 ---
 title: 구성 요소 목록
-description: 여기에서 사용 가능한 모든 구성 요소 목록 찾기     동적 보고서와 해당 정의.
+description: 동적 보고서에서 사용할 수 있는 모든 구성 요소와 그 정의를 여기에서 확인하십시오.
 level: Beginner
 audience: end-user
 exl-id: 5c58db92-7878-4c70-b076-a393f1cda8b7
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '764'
 ht-degree: 1%
 
 ---
@@ -117,8 +117,8 @@ ht-degree: 1%
    <td> 스팸 또는 정크 메일로 선언된 받는 사람의 수입니다.<br/> </td> 
   </tr> 
   <tr> 
-   <td> 차단 목록에 추가하다 속도<br/> </td> 
-   <td> 차단 목록에 추가하다 게재 비율(<br/>) </td> 
+   <td> 속도<br/> </td> 
+   <td> 게재 비율(<br/>) </td> 
   </tr> 
   <tr> 
    <td> 바운스 + 오류<br/> </td> 

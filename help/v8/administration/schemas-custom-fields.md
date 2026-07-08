@@ -5,7 +5,7 @@ exl-id: 1b531722-0935-4787-a673-60d97f776936
 source-git-commit: 6f835141111dbacac0b6e1156f744d3f8db9ae24
 workflow-type: tm+mt
 source-wordcount: '744'
-ht-degree: 8%
+ht-degree: 12%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_detail_screen_configuration"
->title="상세 화면 구성"
+>title="세부 정보 화면 구성"
 >abstract="세부 정보 화면에 표시되는 사용자 정의 필드를 구성하고 섹션으로 구성합니다. 컬렉션 목록을 추가하여 프로필 화면에 관련 데이터를 표시합니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-collection-lists.html?lang=ko" text="컬렉션 목록 추가"
 

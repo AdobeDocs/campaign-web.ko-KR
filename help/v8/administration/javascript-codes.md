@@ -8,10 +8,10 @@ product_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 93bc914bca3d6f729cbb92a925a8ba19fd120bb5
 workflow-type: tm+mt
-source-wordcount: 479
-ht-degree: 3%
+source-wordcount: 535
+ht-degree: 2%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_javascript_codes_list"
 >title="JavaScript 코드"
->abstract="JavaScript 코드"
+>abstract="JavaScript 코드는 라이브러리와 유사하게, 워크플로우에서 사용할 수 있는 재사용 가능한 함수입니다. 이 목록에서 JavaScript 코드를 만들거나, 수정하거나, 복제하거나, 삭제할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_javascript_codes_create"
 >title="JavaScript 코드 만들기"
->abstract="JavaScript 코드 만들기"
+>abstract="JavaScript 코드의 네임스페이스, 이름 및 레이블을 정의한 다음 조건 및 날짜 형식에 사용할 수 있는 사전 정의된 함수를 사용하여 콘텐츠를 작성합니다. 만든 후에는 네임스페이스와 이름을 수정할 수 없습니다."
 
 ## JavaScript 코드 정보 {#about}
 

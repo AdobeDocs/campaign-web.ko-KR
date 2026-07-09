@@ -14,10 +14,10 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 9bb8a5cdd958a693afccff5468df5911237044b2
+source-git-commit: fa12c9e0408d36e41e87ce4caa306671b433d186
 workflow-type: tm+mt
-source-wordcount: 583
-ht-degree: 19%
+source-wordcount: 637
+ht-degree: 18%
 
 ---
 
@@ -51,6 +51,11 @@ ht-degree: 19%
 ## 데이터 관리 활동 {#data}
 
 이러한 활동은 모집단 데이터를 조작하고 보강하는 데 특정적입니다.
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_data_loading_rdbms"
+>title="RDBMS(데이터 로드) 활동"
+>abstract="**데이터 로드(RDBMS)** 활동은 **데이터 관리** 활동입니다. 이 활동을 사용하여 클라이언트 콘솔로 전환하지 않고 외부 관계형 데이터베이스에서 워크플로우로 직접 데이터를 로드합니다. 추출된 데이터는 워크플로우 전체에서 사용할 수 있으며 타겟팅, 데이터 보강 또는 추가 데이터 처리에 사용할 수 있습니다."
 
 * [파일 추출](extract-file.md): Adobe Campaign에서 다른 시스템으로 데이터를 외부 파일로 내보냅니다.
 * [파일 로드](load-file.md): 외부 파일에 저장된 프로필 및 데이터를 사용하여 작업합니다.

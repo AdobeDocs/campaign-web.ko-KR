@@ -5,7 +5,7 @@ exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
 source-git-commit: c6da1a4cb21c1346982303a29364cf97e26b4f4a
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 3%
+ht-degree: 13%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_schema_action_data"
 >title="데이터에 대한 작업"
->abstract="스키마의 세부 정보 및 목록 화면에 사용할 수 있는 작업을 구성합니다. **[!UICONTROL 읽기 전용]**&#x200B;을 사용하도록 설정하여 세부 정보 화면을 읽기 전용으로 설정하고 목록에서 작업을 제거하십시오. 세부 정보 및 목록 화면에서 삭제 작업을 제거하려면 **[!UICONTROL 삭제 허용 안 함]**&#x200B;을 사용하도록 설정하십시오."
+>abstract="스키마의 세부 정보 및 목록 화면에 대해 사용할 수 있는 작업을 구성합니다. 세부 정보 화면을 읽기 전용으로 설정하고 목록에서 작업을 제거하려면 **[!UICONTROL 읽기 전용]**&#x200B;을 활성화합니다. 세부 정보 및 목록 화면에서 삭제 작업을 제거하려면 **[!UICONTROL 삭제 허용 안 함]**&#x200B;을 활성화합니다."
 
 **[!UICONTROL 관리]** > **[!UICONTROL 스키마]** 메뉴에서 스키마에 액세스할 수 있습니다.
 

@@ -11,7 +11,7 @@ topic_v2:
 source-git-commit: fa12c9e0408d36e41e87ce4caa306671b433d186
 workflow-type: tm+mt
 source-wordcount: 611
-ht-degree: 2%
+ht-degree: 24%
 
 ---
 
@@ -20,22 +20,22 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_javascript_codes_list"
 >title="JavaScript 코드"
->abstract="JavaScript 코드는 라이브러리와 유사하게, 워크플로우에서 사용할 수 있는 재사용 가능한 함수입니다. 이 목록에서 JavaScript 코드를 만들거나, 수정하거나, 복제하거나, 삭제할 수 있습니다."
+>abstract="JavaScript 코드는 라이브러리처럼, 워크플로에서 사용할 수 있는 재사용 가능한 함수입니다. 이 목록에서 JavaScript 코드를 만들거나, 수정하거나, 복제하거나, 삭제할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_javascript_codes_create"
 >title="JavaScript 코드 만들기"
->abstract="JavaScript 코드의 네임스페이스, 이름 및 레이블을 정의한 다음 조건 및 날짜 형식에 사용할 수 있는 사전 정의된 함수를 사용하여 콘텐츠를 작성합니다. 만든 후에는 네임스페이스와 이름을 수정할 수 없습니다."
+>abstract="JavaScript 코드의 네임스페이스, 이름 및 레이블을 정의한 후, 조건 및 날짜 형식에 사용할 수 있는 미리 정의된 함수를 사용하여 콘텐츠를 작성합니다. 네임스페이스와 이름이 만들어진 후에는 수정할 수 없습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_dynamic_javascript_pages_list"
 >title="동적 JavaScript 페이지"
->abstract="JSSP(동적 JavaScript 페이지)를 사용하면 사용자 지정 API, 내보내기 또는 웹 애플리케이션 논리와 같이 URL을 통해 액세스할 때 동적 콘텐츠를 생성하는 서버측 페이지를 작성할 수 있습니다. 이 목록에서 동적 JavaScript 페이지를 만들거나, 수정하거나, 복제하거나, 삭제할 수 있습니다."
+>abstract="동적 JavaScript 페이지(JSSP)를 사용하면 사용자 정의 API, 내보내기 또는 웹 애플리케이션 논리와 같은 URL을 통해 액세스할 때 동적 콘텐츠를 생성하는 서버 측 페이지를 구축할 수 있습니다. 이 목록에서 동적 JavaScript 페이지를 만들거나, 수정하거나, 복제하거나, 삭제할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_dynamic_javascript_pages_create"
 >title="동적 JavaScript 페이지 만들기"
->abstract="다이내믹 JavaScript 페이지에 대한 네임스페이스, 이름 및 레이블을 정의한 다음 JavaScript 코드를 사용하여 콘텐츠를 작성합니다. 만든 후에는 네임스페이스와 이름을 수정할 수 없습니다."
+>abstract="동적 JavaScript 페이지에 대한 네임스페이스, 이름 및 레이블을 정의한 후, JavaScript 코드를 사용하여 콘텐츠를 작성합니다. 네임스페이스와 이름이 만들어진 후에는 수정할 수 없습니다."
 
 ## JavaScript 코드 정보 {#about}
 

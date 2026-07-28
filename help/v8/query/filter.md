@@ -8,9 +8,9 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
+source-git-commit: 7b43dd8a4a498fdbd0c205d28645901cf44df3a6
 workflow-type: tm+mt
-source-wordcount: 337
+source-wordcount: 365
 ht-degree: 1%
 
 ---
@@ -33,6 +33,10 @@ Adobe Campaign 웹은 각 객체 목록 내에 필터를 제공하므로 특정 
 ![목록에 사용 가능한 필터를 표시하는 필터 창](assets/filters-pane.png){zoomable="yes"}{width="70%" zoomable="yes"}
 
 자체 기준에 따라 목록을 필터링하려면 사용자 지정 필터를 만듭니다. 이렇게 하려면 필터 창의 맨 아래로 이동하여 **규칙 추가** 단추를 클릭하십시오. [사용자 지정 필터를 만드는 방법을 알아봅니다](#custom).
+
+>[!NOTE]
+>
+>사용자 지정 스키마의 경우 관리자는 **규칙 추가** 단추 위의 필터 창에 자신의 빠른 액세스 필드를 추가할 수 있습니다. 자세한 내용은 [사용자 지정 필터 추가](../administration/schemas-custom-filters.md)를 참조하세요.
 
 목록에 적용되면 검색 창 아래에 필터가 표시됩니다. 언제든지 개별 필터를 제거하거나 **모두 지우기** 단추를 클릭하여 모든 필터를 제거할 수 있습니다.
 

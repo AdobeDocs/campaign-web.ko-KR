@@ -2,19 +2,14 @@
 title: 스키마 찾아보기 및 액세스
 description: 인터페이스에서 스키마를 검색하고 액세스하는 방법을 알아봅니다.
 exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
-source-git-commit: c6da1a4cb21c1346982303a29364cf97e26b4f4a
+source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 13%
+source-wordcount: '446'
+ht-degree: 4%
 
 ---
 
 # 스키마 액세스 및 구성 {#access}
-
->[!CONTEXTUALHELP]
->id="acw_schema_action_data"
->title="데이터에 대한 작업"
->abstract="스키마의 세부 정보 및 목록 화면에 대해 사용할 수 있는 작업을 구성합니다. 세부 정보 화면을 읽기 전용으로 설정하고 목록에서 작업을 제거하려면 **[!UICONTROL 읽기 전용]**&#x200B;을 활성화합니다. 세부 정보 및 목록 화면에서 삭제 작업을 제거하려면 **[!UICONTROL 삭제 허용 안 함]**&#x200B;을 활성화합니다."
 
 **[!UICONTROL 관리]** > **[!UICONTROL 스키마]** 메뉴에서 스키마에 액세스할 수 있습니다.
 
@@ -65,5 +60,7 @@ ht-degree: 13%
 화면 정의에서 다음 작업을 수행할 수 있습니다.
 
 * [기본 목록 열 구성](schemas-list-columns.md) - 목록 보기에 기본적으로 표시되는 열을 구성합니다.
+* [사용자 지정 필터 추가](schemas-custom-filters.md) - 목록 보기의 필터 창에 빠른 액세스 필터 필드를 추가합니다.
 * [사용자 정의 필드 편집](schemas-custom-fields.md) - 세부 정보 화면에 표시할 사용자 정의 필드를 구성하고 섹션으로 구성합니다.
 * [컬렉션 목록 추가](schemas-collection-lists.md) - 프로필 화면에 관련 데이터를 표시할 컬렉션 목록을 추가합니다.
+* [데이터에 대한 작업 제어](schemas-action-data.md) - 사용자 지정 스키마에 대한 작업 만들기, 편집 및 삭제를 제한합니다.

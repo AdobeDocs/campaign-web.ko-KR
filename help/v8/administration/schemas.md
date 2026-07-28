@@ -11,10 +11,10 @@ subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
 workflow-type: tm+mt
-source-wordcount: 319
-ht-degree: 33%
+source-wordcount: 348
+ht-degree: 30%
 
 ---
 
@@ -48,8 +48,10 @@ Adobe Campaign의 각 엔티티에는 전용 스키마가 있어 데이터 일�
 
 * [스키마 액세스 및 사용자 지정](schemas-browse-access.md) - 사용 가능한 스키마를 보고 세부 정보를 탐색하며 화면 표시를 사용자 지정합니다.
 * [목록 열 구성](schemas-list-columns.md) - 목록 보기에 기본적으로 표시되는 열을 구성합니다.
+* [사용자 지정 필터 추가](schemas-custom-filters.md) - 목록 보기의 필터 창에 빠른 액세스 필터 필드를 추가합니다.
 * [사용자 정의 필드 편집](schemas-custom-fields.md) - 세부 정보 화면에 표시할 사용자 정의 필드를 구성하고 섹션으로 구성합니다.
 * [컬렉션 목록 추가](schemas-collection-lists.md) - 프로필 화면에 관련 데이터를 표시할 컬렉션 목록을 추가합니다.
+* [데이터에 대한 작업 제어](schemas-action-data.md) - 사용자 지정 스키마에 대한 작업 만들기, 편집 및 삭제를 제한합니다.
 * [스키마 만들기 및 관리](schemas-create-publish.md#create-schemas) - 새 스키마를 만들고 기존 스키마를 확장합니다.
 * [스키마 게시 및 동기화](schemas-create-publish.md#publish) - 스키마 변경 내용을 데이터베이스 구조와 동기화합니다.
 * [사용자 정의 양식으로 작업](schemas-custom-forms.md) - 데이터 입력 양식을 사용하여 사용자 정의 스키마에서 레코드를 만들고, 편집하고, 관리합니다.

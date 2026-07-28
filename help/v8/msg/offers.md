@@ -8,16 +8,20 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 5eee68c2201dac7b9c3ee6aa894e3ea1bef2c027
 workflow-type: tm+mt
-source-wordcount: 825
+source-wordcount: 805
 ht-degree: 23%
 
 ---
 
 # 메시지에 오퍼 추가 {#offers-content}
 
-Adobe Campaign 웹 사용자 인터페이스에서 게재에 오퍼를 추가할 수 있습니다. 이러한 오퍼는 오퍼 목록에 액세스할 수 있는 **오퍼** 왼쪽 메뉴에서 사용할 수 있습니다. 이러한 모든 오퍼는 읽기 전용이며 **[!UICONTROL 상호 작용]** 모듈을 사용하여 Campaign 클라이언트 콘솔에서 만들어야 합니다. 상호 작용 및 콘솔에서 오퍼 카탈로그를 관리하는 방법에 대한 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=ko){target="_blank"}를 참조하십시오.
+Campaign 웹 UI에서 직접 게재에 오퍼를 추가할 수 있습니다. 이러한 오퍼는 오퍼 목록에 액세스할 수 있는 **오퍼** 왼쪽 메뉴에서 사용할 수 있습니다.
+
+Campaign 웹 UI에서 클라이언트 콘솔로 전환하지 않고 오퍼 환경, 오퍼 공간 및 오퍼를 직접 만들고 관리할 수도 있습니다. [자세히 알아보기](../offers/gs-offer-management.md).
+
+고급 구성은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=ko){target="_blank"}를 참조하세요.
 
 게재와 함께 오퍼를 보내는 단계는 다음과 같습니다.
 
@@ -46,7 +50,7 @@ Adobe Campaign을 사용하면 하나 또는 여러 개의 특정 오퍼를 제�
 
 1. 수신자에게 제안할 오퍼를 구성합니다.
 
-   먼저 오퍼 환경과 일치하는 **[!UICONTROL 오퍼 공간]**&#x200B;을(를) 선택하십시오. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=ko){target="_blank"}에서 오퍼 공간을 만드는 방법을 알아봅니다.
+   먼저 오퍼 환경과 일치하는 **[!UICONTROL 오퍼 공간]**&#x200B;을(를) 선택하십시오. 이 [섹션](../offers/offer-space.md)에서 Campaign 웹 UI에서 직접 오퍼 공간을 만드는 방법을 알아봅니다.
 
    ![오퍼 만들기 콘텐츠에서 오퍼 공간 선택을 보여 주는 스크린샷](assets/offer-create-content.png){zoomable="yes"}
 

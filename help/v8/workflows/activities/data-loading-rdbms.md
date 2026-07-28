@@ -24,7 +24,7 @@ ht-degree: 12%
 **데이터 로드(RDBMS)** 활동은 **데이터 관리** 활동입니다. 이 활동을 사용하여 외부 관계형 데이터베이스에서 워크플로우로 직접 데이터를 로드합니다. 추출된 데이터는 워크플로 전체에서 사용 가능하며 타기팅, 보강 또는 추가 데이터 처리에 사용할 수 있습니다.
 
 <!--
-This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.
+This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ko){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.
 -->
 
 >[!NOTE]

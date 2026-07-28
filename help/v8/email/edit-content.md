@@ -4,14 +4,12 @@ title: 이메일 콘텐츠 편집
 description: Campaign 웹 사용자 인터페이스에서 이메일 콘텐츠를 편집하는 방법을 알아봅니다
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 TQID: https://experienceleague.adobe.com/G--NwJZpg2lItNE9tWbJrqG83a8jMEzzfQ4MVfvXFyY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 8d818a3b36f21909cd3ca1f48d1594839a54d0df
 workflow-type: tm+mt
-source-wordcount: 699
-ht-degree: 36%
+source-wordcount: 728
+ht-degree: 35%
 
 ---
 
@@ -76,6 +74,10 @@ ht-degree: 36%
    >[!NOTE]
    >
    >&#39;@&#39; 앞 부분은 변경할 수 있지만 도메인 주소는 변경할 수 없습니다.
+
+   >[!NOTE]
+   >
+   >관리자는 이 필드를 미리 정의된 발신자 주소 목록으로 제한할 수 있습니다. 이 경우 주소를 입력하는 대신 드롭다운 목록에서 주소를 선택합니다. [자세히 알아보기](../administration/options.md#restrict-sender-address)
 
 1. **[!UICONTROL 회신 필드]** 섹션을 확장합니다. 보낸 사람의 이름과 주소는 기본적으로 회신에 사용됩니다. 그러나 Adobe에서는 브랜드의 고객 지원 센터와 같은 기존 실제 주소를 사용하는 것이 좋습니다. 이 경우 수신자가 회신을 보내면 고객 지원팀에서 처리할 수 있습니다.
 

@@ -3,16 +3,13 @@ title: ' [!DNL Campaign] 옵션 구성'
 description: Campaign 옵션을 구성하고 고유한 사용자 지정 옵션을 만드는 방법을 알아봅니다.
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
 TQID: https://experienceleague.adobe.com/a3MU21qEI7ggDv-gUT4--glIkWdU05mz14v3U9Q2wnM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0638cc11f533521f7c8f3df3a80361b040a05b0c
 workflow-type: tm+mt
-source-wordcount: 447
-ht-degree: 5%
+source-wordcount: 592
+ht-degree: 4%
 
 ---
 
@@ -41,7 +38,7 @@ Adobe Campaign 웹에는 애플리케이션을 보다 구체적으로 구성할 
 [관리/옵션 메뉴에 표시되는 옵션 목록]
 
 >[!NOTE]
->Adobe Campaign 콘솔과 웹 사용자 인터페이스 간에 옵션 메뉴 위치가 다르지만 목록은 동일하며 거울처럼 작동합니다. 사용 가능한 옵션에 대한 자세한 내용은 [Campaign v7 설명서](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}의 옵션 목록을 참조하십시오.
+>Adobe Campaign 콘솔과 웹 사용자 인터페이스 간에 옵션 메뉴 위치가 다르지만 목록은 동일하며 거울처럼 작동합니다. 사용 가능한 옵션에 대한 자세한 내용은 [Campaign v7 설명서](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}의 옵션 목록을 참조하십시오.
 
 옵션 목록에서 다음을 수행할 수 있습니다.
 
@@ -83,3 +80,17 @@ Adobe Campaign 웹 사용자 인터페이스를 사용하면 요구 사항을 �
 1. 업데이트된 값이 이제 **[!UICONTROL 옵션]** 메뉴에 표시됩니다.
 
    ![사용자 지정 옵션의 업데이트된 값을 표시하는 옵션 메뉴](assets/options-sample-updated.png)
+
+## 게재에 대한 발신자 이메일 주소 제한 {#restrict-sender-address}
+
+기본적으로 마케터는 전자 메일 게재의 **[!UICONTROL 보낸 사람 전자 메일]** 필드에 주소를 입력할 수 있습니다. 이 필드를 미리 정의된 주소 목록으로 제한하려면 기본 제공 `NmsDelivery_senderAddressMask` 옵션을 만들거나 편집하고 해당 값을 허용된 보낸 사람 주소의 쉼표로 구분된 목록(예: `abc@adobe.com,bcd@adobe.com`)으로 설정하십시오.
+
+![메뉴에서 값을 제한하는 옵션](assets/option-restrict-from.png)
+
+이 옵션에 값이 있으면 **[!UICONTROL 전자 메일에서]** 필드가 자유 텍스트 필드 대신 이러한 주소만 포함하는 드롭다운 목록이 됩니다. 옵션이 없거나 값이 비어 있으면 필드는 이전처럼 자유 텍스트로 유지됩니다.
+
+![전자 메일에 사용 가능한 값](assets/option-restrict-from2.png)
+
+이 제한은 전역적입니다. 모든 브랜드 및 게재 템플릿에 적용되며, 개인화 필드를 지원하지 않고 정적 주소만 지원합니다.
+
+**[!UICONTROL 전자 메일로]** 필드에 대한 자세한 내용은 [전자 메일 콘텐츠 구성](../email/edit-content.md#edit-content)을 참조하세요.

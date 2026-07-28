@@ -3,15 +3,12 @@ title: JavaScript 코드를 사용하여 작업하기
 description: JavaScript 코드를 사용하여 작업하는 방법을 알아봅니다.
 exl-id: 4f3b7fce-0373-4db1-8239-64b1bda0f14c
 TQID: https://experienceleague.adobe.com/MEB6-W3pMbt97vozcG7sKjyFLHzLqTs3D0B9JjU44hw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: fa12c9e0408d36e41e87ce4caa306671b433d186
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2df9759bb21eae0630bcbe9130a1a20b165e8cca
 workflow-type: tm+mt
-source-wordcount: 611
-ht-degree: 24%
+source-wordcount: 535
+ht-degree: 13%
 
 ---
 
@@ -26,16 +23,6 @@ ht-degree: 24%
 >id="acw_javascript_codes_create"
 >title="JavaScript 코드 만들기"
 >abstract="JavaScript 코드의 네임스페이스, 이름 및 레이블을 정의한 후, 조건 및 날짜 형식에 사용할 수 있는 미리 정의된 함수를 사용하여 콘텐츠를 작성합니다. 네임스페이스와 이름이 만들어진 후에는 수정할 수 없습니다."
-
->[!CONTEXTUALHELP]
->id="acw_dynamic_javascript_pages_list"
->title="동적 JavaScript 페이지"
->abstract="동적 JavaScript 페이지(JSSP)를 사용하면 사용자 정의 API, 내보내기 또는 웹 애플리케이션 논리와 같은 URL을 통해 액세스할 때 동적 콘텐츠를 생성하는 서버 측 페이지를 구축할 수 있습니다. 이 목록에서 동적 JavaScript 페이지를 만들거나, 수정하거나, 복제하거나, 삭제할 수 있습니다."
-
->[!CONTEXTUALHELP]
->id="acw_dynamic_javascript_pages_create"
->title="동적 JavaScript 페이지 만들기"
->abstract="동적 JavaScript 페이지에 대한 네임스페이스, 이름 및 레이블을 정의한 후, JavaScript 코드를 사용하여 콘텐츠를 작성합니다. 네임스페이스와 이름이 만들어진 후에는 수정할 수 없습니다."
 
 ## JavaScript 코드 정보 {#about}
 

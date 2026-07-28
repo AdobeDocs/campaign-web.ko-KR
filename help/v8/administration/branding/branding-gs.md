@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: f6438303-5ae8-47c6-8c34-8e586f4b6fe7
-source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
+source-git-commit: 5c9d3db95905f77dddffaf824156c87b9d79013c
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 14%
+source-wordcount: '448'
+ht-degree: 16%
 
 ---
 
@@ -17,35 +17,30 @@ ht-degree: 14%
 
 >[!AVAILABILITY]
 >
->이 기능은 새 구현에 대해 주문형 서비스만 사용할 수 있습니다. 액세스 권한을 얻으려면 Adobe 담당자에게 문의하십시오.
-
-
->[!IMPORTANT]
->
->최종 사용자가 브랜드를 만들거나 수정할 수 없습니다. 이러한 작업은 Adobe Campaign 기술 관리자가 수행해야 합니다. 요청이 있으면 Adobe 고객 지원 센터에 문의하십시오.
+>이 기능은 새로운 구현에 대해서만 온디맨드로 제공됩니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오.
 
 모든 회사에는 시각적 요소와 기술적 세부 사항을 정의하는 브랜드 가이드라인이 있습니다. Adobe Campaign은 이러한 지침을 중앙에서 관리하는 데 도움이 되므로 이메일의 로고부터 캠페인에 사용된 URL 및 도메인에 이르기까지 모든 작업에서 일관된 브랜드 이미지를 고객에게 제공할 수 있습니다.
 
-기술 관리자는 Adobe Campaign 내에서 여러 브랜드를 만들고 관리할 수 있습니다. 이를 통해 로고 및 이메일 추적 설정을 포함하여 브랜드 정체성을 구성하는 모든 요소를 정의할 수 있습니다. 이러한 브랜드가 생성되면 게재에 쉽게 연결할 수 있습니다.
+기술 관리자는 웹 UI에서 직접 여러 브랜드를 만들고 관리할 수 있습니다. 이를 통해 로고 및 이메일 추적 설정을 포함하여 브랜드 정체성을 구성하는 모든 요소를 정의할 수 있습니다. 이러한 브랜드가 생성되면 게재에 쉽게 연결할 수 있습니다. [브랜드를 만들고 구성하는 방법을 알아보세요](branding-configure.md).
 
 Campaign에서 조직의 새 엔터티를 추가하거나 다른 하위 도메인에서 보내야 하는 새 유형의 이메일을 만들 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
 
-1. **새 하위 도메인 구성** - Adobe에서 사용할 새 하위 도메인의 경우 첫 번째 단계는 하위 도메인을 구성하는 것입니다. [Campaign Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ko)를 통해 수행하거나 Adobe 기술 담당자에게 문의할 수 있습니다. 하위 도메인 구성 [에 대한 자세한 내용은 이 페이지](https://experienceleague.adobe.com/ko/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup)를 참조하세요.
+1. **새 하위 도메인 구성** - Adobe에서 사용할 새 하위 도메인의 경우 첫 번째 단계는 하위 도메인을 구성하는 것입니다. [Campaign Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ko)를 통해 수행하거나 Adobe 기술 담당자에게 문의할 수 있습니다. 하위 도메인 구성 [에 대한 자세한 내용은 이 페이지](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup)를 참조하세요.
 
    >[!NOTE]
    >
    >컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
 
-1. **게재 템플릿 만들기** - 새 브랜드를 사용할 수 있게 되면 이 새 브랜드를 참조하는 빈 게재 템플릿을 하나 이상 만드는 것이 좋습니다. [자세히 알아보기](branding-assign.md)
+1. **게재 템플릿 만들기** - 새 브랜드를 사용할 수 있게 되면 이 새 브랜드를 참조하는 빈 게재 템플릿을 하나 이상 만드는 것이 좋습니다. [자세히 알아보기](branding-assign.md).
 
-1. **게재 가능성 지침 확인** - 새 도메인 사용을 시작하기 전에 Adobe 게재 가능성 팀과 전략에 대해 논의해야 합니다. 모범 사례를 정의하는 데 도움이 됩니다. 예를 들어 도메인 간에 IP를 분할하기 위해 새 선호도를 만들어야 하는지 및/또는 램프 업 계획을 정의해야 하는지 등이 여기에 포함됩니다.
+1. **게재 가능성 지침 확인** - 새 도메인 사용을 시작하기 전에 Adobe 게재 가능성 팀과 전략에 대해 논의해야 합니다. 모범 사례를 정의하는 데 도움이 됩니다. 예를 들어 도메인 간에 IP를 분할하기 위해 새 선호도를 만들어야 하는지 및/또는 램프 업 계획을 정의해야 하는지 여부입니다.
 
 ## 호환성 정보 {#compatibility-note}
 
-새 중앙 브랜딩 모델은 이전에 클라이언트 콘솔에서 사용된 [레거시 브랜딩](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.htmml#configuring-multibranding){target="_blank"} 구성과 호환되지 않습니다.
+새 중앙 브랜딩 모델은 이전에 클라이언트 콘솔에서 사용된 [레거시 브랜딩](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#configuring-multibranding){target="_blank"} 구성과 호환되지 않습니다.
 
 기존 접근 방식에서 고객은 extAccount 양식을 확장하고 **브랜딩** 탭을 사용하여 브랜딩을 구현했습니다.
 
-![](assets/branding-legacy.png)
+브랜드 생성을 보여 주는 ![스크린샷입니다.](assets/branding-legacy.png)
 
 기존 환경에서 이 레거시 구성을 사용하는 경우 이를 새 중앙 집중식 브랜딩 모델로 직접 마이그레이션할 수 없습니다. 새 시스템을 채택하려면 브랜딩 설정을 완전히 다시 구현해야 합니다.

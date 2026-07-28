@@ -2,16 +2,37 @@
 title: Campaign v8 Web 사용자 인터페이스 이전 릴리스 정보
 description: 2026년 Campaign Web 사용자 인터페이스 릴리스
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
-source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
-workflow-type: ht
-source-wordcount: '1204'
-ht-degree: 100%
+source-git-commit: 2f61ad20f37aab1b89e983ee23fa5182b2ef0f29
+workflow-type: tm+mt
+source-wordcount: '1341'
+ht-degree: 98%
 
 ---
 
 # 2026년 릴리스 정보 {#2026-release}
 
 이 페이지에는 **2026년 릴리스**&#x200B;에서 제공되는 모든 변경 사항과 개선 사항이 나열되어 있습니다. 최신 릴리스 정보는 [이 페이지](release-notes.md)에서 확인할 수 있습니다.
+
+## 2026년 6월 릴리스 {#26-6-release}
+
+_2026년 6월 16일_
+
+### 개선 사항 {#26-6-improvements}
+
+<!--
+* Technical administrators can now create and configure brands directly from the Campaign Web User Interface, without using the Client Console. All brand settings, including identity, subdmain and protocols, email header parameters and URL tracking parameters, are now available in the Web UI. <!-- [Learn more](../administration/branding/branding-configure.md)
+-->
+
+* 이제 추적 로그를 포함한 모든 목록 화면에서 데이터를 내보낼 수 있습니다. 목록을 찾아 내보내기 버튼을 클릭하면 됩니다. 내보내기에는 현재 로드된 행이 포함되며 화면에 표시되는 열과 모든 활성 검색 또는 필터가 고려됩니다. [자세히 알아보기](../get-started/list-filters.md)
+
+* 이제 **중복 제거** 및 **종료** 워크플로 활동이 여러 인바운드 전환을 지원합니다. 두 개 이상의 인바운드 전환을 사용할 수 있는 경우 활동에서 **가입할 집합** 섹션을 사용하십시오.
+연결할 전환을 선택할 수 있습니다. 다음 페이지에서 자세히 알아보기: [중복 제거](../workflows/activities/deduplication.md), [종료](../workflows/activities/end.md)
+
+* 이제 고급 매개변수가 **대상자 빌드**(쿼리 유형) 및 **보강** 워크플로 활동의 **데이터 보강** 섹션에 표시됩니다. 이들 매개변수를 사용하면 그룹화, 중복 제거, 기본 키 처리 및 인바운드 이벤트 데이터를 포함하여 데이터 보강 방법을 세부적으로 조정할 수 있습니다. [자세히 알아보기](../workflows/activities/enrichment.md)
+
+<!--
+* Delivery templates now allow you to define a time zone in the Schedule settings.
+-->
 
 ## 2026년 4월 릴리스 {#26-4-release}
 

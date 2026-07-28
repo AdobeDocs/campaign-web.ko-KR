@@ -4,14 +4,12 @@ title: 이메일 디자이너 콘텐츠 구성 요소 사용
 description: 이메일에 콘텐츠 구성 요소를 사용하는 방법 알아보기
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 TQID: https://experienceleague.adobe.com/iT-8fzpVcEzhMpuUynQB3uvnA8FcJoJfnzb9-hsN5Vo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e4673544f8e4a06b4fdc517929a03efae35a3715
 workflow-type: tm+mt
-source-wordcount: 1402
-ht-degree: 34%
+source-wordcount: 1517
+ht-degree: 30%
 
 ---
 
@@ -116,7 +114,7 @@ ht-degree: 34%
    * **[!UICONTROL 목록 만들기]**: 글머리 기호 또는 번호 목록을 텍스트에 추가합니다.
    * **[!UICONTROL 제목 설정]**: 텍스트에 최대 6개의 제목 수준을 추가합니다.
    * **글꼴 크기**: 텍스트의 글꼴 크기를 픽셀 단위로 선택합니다.
-   * **[!UICONTROL 이미지 편집]**: 텍스트 구성 요소에 이미지 또는 자산을 추가합니다.
+   * **[!UICONTROL 이미지 편집]**: Adobe Experience Manager Assets 라이브러리 또는 컴퓨터에서 텍스트 구성 요소에 이미지를 추가하거나 Adobe Campaign 인스턴스에서 사용할 수 있는 이미지를 다시 사용합니다. [자세히 알아보기](#image)
    * **[!UICONTROL 소스 코드 표시]**: 텍스트의 소스 코드를 표시합니다. 소스 코드는 수정할 수 없습니다.
    * **[!UICONTROL 복제]**: 텍스트 구성 요소의 복사본을 추가합니다.
    * **[!UICONTROL 삭제]**: 이메일에서 선택한 텍스트 구성 요소를 삭제합니다.
@@ -153,27 +151,53 @@ ht-degree: 34%
 
 ## 이미지 {#image}
 
->[!IMPORTANT]
->
->Assets 메뉴에 대한 액세스는 활성 Adobe Experience Manager as a Cloud Service 라이선스가 있는 사용자로 제한됩니다. 이 라이선스가 없으면 자산 메뉴를 사용할 수 없습니다.
-
-**[!UICONTROL 이미지]** 구성 요소를 사용하여 컴퓨터의 이미지 파일을 전자 메일에 삽입합니다.
+**[!UICONTROL 이미지]** 구성 요소를 사용하여 전자 메일에 이미지를 삽입합니다.
 
 1. **[!UICONTROL 콘텐츠]** 메뉴에서 **[!UICONTROL 이미지]**&#x200B;을(를) **[!UICONTROL 구조]** 구성 요소로 끌어다 놓습니다.
 
    ![이메일 Designer에서 이미지 구성 요소를 드래그 앤 드롭하는 방법을 보여 주는 스크린샷](assets/email_designer_9.png){zoomable="yes"}
 
-1. 에셋에서 이미지 파일을 선택하려면 **[!UICONTROL 찾아보기]**&#x200B;를 클릭하십시오. **[!UICONTROL 미디어 가져오기]**&#x200B;를 선택할 수도 있습니다.
+1. 다음 옵션 중 하나를 선택하여 이미지를 추가합니다.
 
-   Adobe Experience Manager에서 에셋을 업로드하고 추가하는 방법에 대한 자세한 내용은 [Adobe Experience Manager as a Cloud Service 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=ko)를 참조하세요.
+   ![이메일 Designer의 이미지 구성 요소에 대한 옵션을 보여 주는 스크린샷입니다.](assets/email_designer_28.png){zoomable="yes"}
 
-   ![이메일 Designer의 이미지 구성 요소에 대한 검색 옵션을 보여 주는 스크린샷.](assets/email_designer_28.png){zoomable="yes"}
+   +++**[!UICONTROL 찾아보기]**
 
-1. 폴더를 탐색하여 필요한 특정 에셋을 찾거나 검색 창을 사용하여 에셋을 효율적으로 찾습니다.
+   Adobe Experience Manager Assets 라이브러리에서 이미지를 선택하려면 이 옵션을 선택하십시오.
 
-   찾고 있는 자산을 찾으면 **[!UICONTROL 선택]**&#x200B;을 클릭하세요.
+   >[!IMPORTANT]
+   >
+   >이 옵션을 사용하려면 활성 Adobe Experience Manager as a Cloud Service 라이선스가 필요합니다.
+
+   폴더를 탐색하여 필요한 특정 에셋을 찾거나 검색 창을 사용하여 에셋을 효율적으로 찾습니다. 에셋을 찾으면 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
 
    ![전자 메일 Designer에서 자산 선택 프로세스를 보여 주는 스크린샷입니다.](assets/email_designer_29.png){zoomable="yes"}
+
+   Adobe Experience Manager에서 에셋을 업로드하고 추가하는 방법에 대한 자세한 내용은 [Adobe Experience Manager as a Cloud Service 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html)를 참조하세요.
+
+   +++
+
+   +++**[!UICONTROL 가져오기]**
+
+   컴퓨터에서 새 이미지를 업로드하려면 이 옵션을 선택합니다. 파일은 Adobe Campaign 인스턴스에서 공개 리소스로 업로드됩니다.
+
+   +++
+
+   +++**[!UICONTROL 공개 리소스 가져오기]**
+
+   이전에 이메일 Designer에서 가져온 파일 또는 클라이언트 콘솔의 공개 리소스로 가져온 파일과 같이 Adobe Campaign 인스턴스에서 이미 사용할 수 있는 이미지를 선택하려면 이 옵션을 선택합니다.
+
+   ![전자 메일 Designer에서 공개 리소스 선택 프로세스를 보여 주는 스크린샷입니다.](assets/email_designer_30.png){zoomable="yes"}
+
+   이름으로 리소스를 검색합니다. 필터를 사용하고 열을 다시 구성할 수도 있습니다.
+
+   >[!NOTE]
+   >
+   >보안 제한은 클라이언트 콘솔과 동일합니다. 사용자 권한에 따라 액세스 권한이 있는 리소스만 선택할 수 있습니다.
+
+   리소스를 선택한 다음 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
+
+   +++
 
 1. 새로 추가한 구성 요소를 클릭하고 **[!UICONTROL 설정]** 탭을 사용하여 이미지 속성을 설정합니다.
 

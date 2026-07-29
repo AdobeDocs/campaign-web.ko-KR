@@ -4,10 +4,8 @@ title: AI 어시스턴트 시작하기
 description: AI 어시스턴트 시작
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 TQID: https://experienceleague.adobe.com/jpw4u-Vy7M2Q9qRyQ2J3rJ-Mr8UKLUpxhw39tglbbNc
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 887
@@ -30,7 +28,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Adobe 생성형 AI 약관"
->abstract="이 기능에 대한 액세스 가능 여부는 Adobe Experience Cloud 생성형 AI 사용자 가이드라인에 대한 사용자의 동의 여부에 따라 달라집니다. 이 기능을 통한 모든 출력 내용이 정확한지 검토하고 사용 사례에 적합한지 확인해 보시기 바랍니다."
+>abstract="이 기능에 대한 액세스 권한은 Adobe Experience Cloud 생성형 AI 사용자 가이드라인에 대한 사용자의 동의 여부에 따라 결정됩니다. 이 기능을 통해 생성된 모든 결과물의 정확성을 검토하고, 해당 내용이 사용자의 사용 사례에 적합한지 확인하십시오."
 >additional-url="https://www.adobe.com/kr/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 생성형 AI 사용자 가이드라인"
 
 >[!INFO]
@@ -112,7 +110,7 @@ AI Assistant는 이메일, SMS 및 푸시 알림과 같은 채널 전반의 마�
 * [기본 제공 전자 메일 템플릿](../content/create-email-templates.md), 브랜드별 템플릿 또는 사용자 지정 템플릿을 사용하여 AI Assistant를 사용하여 전자 메일 콘텐츠를 만드십시오. 최대 8~10개의 이미지가 포함된 이메일 템플릿이 권장됩니다.
 * 변형을 선택할 때 엄지손가락 위로, 엄지손가락 아래로 또는 플래그 아이콘을 사용하여 문제가 있는 출력을 보고합니다.
 * AI 지원 사용은 Adobe Experience Cloud 생성 AI 사용자 지침의 적용을 받습니다. [자세히 알아보기](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
-* 미디어 제작에서 생성 AI 도구 사용에 대한 Adobe의 투명성 약속의 일환으로, Adobe은 Firefly에서 생성한 에셋이 포함된 콘텐츠 또는 프로젝트를 다운로드하거나 내보낼 때 Content Credentials을 적용합니다. [자세히 알아보기](https://helpx.adobe.com/kr/firefly/using/content-credentials.html).
+* 미디어 제작에서 생성 AI 도구 사용에 대한 Adobe의 투명성 약속의 일환으로, Adobe은 Firefly에서 생성한 에셋이 포함된 콘텐츠 또는 프로젝트를 다운로드하거나 내보낼 때 Content Credentials을 적용합니다. [자세히 알아보기](https://helpx.adobe.com/firefly/using/content-credentials.html).
 
 Adobe Campaign 웹의 AI Assistant에는 다음과 같은 제한이 적용됩니다.
 

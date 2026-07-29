@@ -3,10 +3,8 @@ audience: end-user
 title: 오퍼 스키마에 편집 가능한 목록 추가
 description: 오퍼 세부 정보 화면에서 직접 사용자 정의 컬렉션 링크를 편집 가능한 목록으로 표시하는 방법을 알아봅니다.
 feature: Offers
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 043cc60da1938800404964aa7e698f959ef908fd
 workflow-type: tm+mt
 source-wordcount: 449

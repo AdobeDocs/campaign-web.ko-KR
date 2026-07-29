@@ -15,7 +15,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"
 >title="언어 추가"
->abstract="이 탭에서는 게재를 전송할 언어 목록을 찾을 수 있습니다. 언어 추가 버튼을 클릭하거나, 이 탭을 통해 다른 언어를 복제하여 더 많은 언어를 추가할 수 있습니다."
+>abstract="이 탭에서는 게재를 전송할 언어 목록을 확인할 수 있습니다. [언어 추가] 버튼을 클릭하거나 이 탭에서 다른 언어를 복제하여 언어를 추가할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_multilingual_file_upload"

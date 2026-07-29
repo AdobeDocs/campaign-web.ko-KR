@@ -4,8 +4,7 @@ title: 예약 워크플로우 활동 사용
 description: 스케줄러 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
 TQID: https://experienceleague.adobe.com/4-dEr9D64-Lu7eo9M5I937JHRUO5cdKvzXHpTJ1ceKg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 510
@@ -18,9 +17,9 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_scheduler"
 >title="스케줄러 활동"
->abstract="**스케줄러** 활동을 사용하면 워크플로가 시작되는 시기를 예약할 수 있습니다. 이 활동은 시작을 예약하는 것으로 생각해야 합니다. 워크플로의 첫 번째 활동으로만 사용할 수 있습니다."
+>abstract="**스케줄러** 활동을 통해 워크플로가 시작될 시점을 예약할 수 있습니다. 이 활동은 예약된 시작 시점으로 간주해야 하고, 워크플로의 첫 번째 활동으로만 사용할 수 있습니다."
 
-**스케줄러** 활동은 **흐름 제어** 활동입니다. 워크플로우가 시작되는 시기를 예약할 수 있습니다. 이 활동은 시작을 예약하는 것으로 생각해야 합니다. 워크플로의 첫 번째 활동으로만 사용할 수 있습니다.
+**스케줄러** 활동은 **흐름 제어** 활동입니다. 워크플로우가 시작되는 시기를 예약할 수 있습니다. 이 활동은 예약된 시작 시점으로 간주해야 하고, 워크플로의 첫 번째 활동으로만 사용할 수 있습니다.
 
 ## 모범 사례 {#scheduler-best-practices}
 
@@ -38,7 +37,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
 >title="스케줄러 옵션"
->abstract="스케줄러의 빈도를 정의합니다. 특정 순간, 하루에 한 번 또는 여러 번, 일주일 또는 한 달로 실행할 수 있습니다."
+>abstract="스케줄러의 실행 빈도를 정의합니다. 특정 시점, 하루에 한 번 또는 여러 번, 매주 또는 매월 실행되도록 설정할 수 있습니다."
 
 **스케줄러** 활동을 구성하려면 다음 단계를 따르십시오.
 

@@ -4,7 +4,8 @@ title: 콜 센터 게재 만들기
 description: Adobe Campaign 웹을 사용하여 콜 센터 게재를 만드는 방법을 알아봅니다
 exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
 TQID: https://experienceleague.adobe.com/ZzmvZqFd6YxjWRtXC5BdWR8yKOYot2l6CNxBOZs6--4
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 759

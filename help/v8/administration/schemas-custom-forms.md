@@ -1,14 +1,15 @@
 ---
-title: 사용자 정의 양식을 사용한 작업
+title: 사용자 정의 양식 작업
 description: 데이터 입력 양식을 사용하여 사용자 정의 스키마에서 레코드를 생성, 편집 및 관리하는 방법을 알아봅니다.
-source-git-commit: be4876090ecaac853aaa88948505c444bef27ec2
+exl-id: c997d676-bfe1-4e28-9e11-41e902a782c1
+source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 0%
+source-wordcount: '416'
+ht-degree: 1%
 
 ---
 
-# 사용자 정의 양식을 사용한 작업 {#custom-forms}
+# 사용자 정의 양식 작업 {#custom-forms}
 
 사용자 정의 양식은 웹 사용자 인터페이스에서 직접 사용자 정의 스키마의 레코드를 관리할 수 있는 데이터 입력 인터페이스입니다. 각 사용자 정의 양식은 특정 사용자 정의 스키마에 해당하며 레코드를 검색할 수 있는 목록 보기와 레코드를 생성, 편집 및 삭제할 수 있는 세부 사항 보기를 제공합니다.
 

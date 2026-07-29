@@ -201,8 +201,8 @@ Adobe Campaign 웹 사용자 인터페이스에서는 다양한 기준을 기반
 
 * **예약** - 메시지를 보낼 날짜와 정확한 시간을 설정할 수 있습니다. 마케팅 메시지에 가장 적합한 시간을 선택하면 열람율을 극대화할 수 있습니다.
 
-   * [독립 실행형 게재를 예약하는 방법](../../v8/msg/gs-deliveries.md#gs-schedule) 알아보기
-   * 워크플로우에서 [게재를 예약하는 방법](../../v8/monitor/schedule-sending.md#schedule-a-delivery-in-a-campaign-workflow) 알아보기
+  * [독립 실행형 게재를 예약하는 방법](../../v8/msg/gs-deliveries.md#gs-schedule) 알아보기
+  * 워크플로우에서 [게재를 예약하는 방법](../../v8/monitor/schedule-sending.md#schedule-a-delivery-in-a-campaign-workflow) 알아보기
 
 * **오퍼 추가** - Adobe Campaign 웹 사용자 인터페이스에서 게재에 오퍼를 추가할 수 있습니다. 이러한 오퍼는 오퍼 목록에 액세스할 수 있는 오퍼 왼쪽 메뉴에서 사용할 수 있습니다.  [메시지에 오퍼 추가](../../v8/msg/offers.md)하는 방법을 알아보세요.
 

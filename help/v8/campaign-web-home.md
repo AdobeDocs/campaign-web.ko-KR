@@ -13,7 +13,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 1b73c95ac5c6147f71d328772b3988f9417121f2
 workflow-type: tm+mt
-source-wordcount: 707
+source-wordcount: 523
 ht-degree: 100%
 
 ---
@@ -134,7 +134,7 @@ Campaign Web 사용자 인터페이스에 대한 자주 묻는 질문은 새로�
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
     <br/>
-      <strong>메시지 보내기</strong><br/><a href="msg/gs-deliveries.md">게재 만들기</a> - <a href="email/create-email.md">이메일</a> -  <a href="push/gs-push.md">푸시 알림</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">게재 템플릿</a> - <a href="preview-test/preview-test.md">미리 보기 및 테스트</a> 
+      <strong>메시지 보내기</strong><br/><a href="msg/gs-deliveries.md">게재 만들기</a> - <a href="email/create-email.md">이메일</a> -  <a href="push/gs-push.md">푸시 알림</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">게재 템플릿</a> - <a href="preview-test/preview-test.md">미리보기 및 테스트</a> 
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">

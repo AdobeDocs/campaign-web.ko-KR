@@ -1,6 +1,6 @@
 ---
 title: Campaign을 비롯한 Adobe 솔루션 사용
-description: Adobe Campaign 웹 사용자 인터페이스와 Adobe Experience Cloud 솔루션 및 앱을 사용하는 방법에 대해 알아봅니다
+description: Adobe Campaign 웹 사용자 인터페이스와 Adobe Experience Cloud 솔루션 및 앱을 사용하여 작업하는 방법에 대해 알아봅니다
 feature: Overview
 role: Admin, User
 level: Beginner

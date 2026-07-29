@@ -24,7 +24,7 @@ Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결하려면 Adobe Experien
 
 ![Adobe Experience Cloud MAC 외부 계정 구성 필드를 보여주는 스크린샷입니다.](assets/external-MAC.png)
 
-**[!UICONTROL Adobe Experience Cloud]** 외부 계정을 구성하려면 다음 필드를 입력하십시오.
+**[!UICONTROL Adobe Experience Cloud]** 외부 계정을 구성하려면 다음 필드를 채우십시오.
 
 * **[!UICONTROL IMS 서버]**
 

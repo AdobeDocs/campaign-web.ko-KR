@@ -175,10 +175,10 @@ Campaign 웹 사용자 인터페이스에서 트랜잭션 메시지 구성의 �
   트랜잭션 메시지의 구성 페이지를 보여 주는 ![스크린샷입니다.](assets/transactional-configuration.png){zoomable="yes"}
 
   템플릿에 대한 메시지 구성을 입력합니다.
-   * [트랜잭션 메시지 속성](#transactional-properties)
-   * [컨텍스트 샘플](#context-sample)
-   * [메시지 콘텐츠](#transactional-content)
-아래에 자세히 설명된 대로 [이벤트 유형을 구성](#event-type)합니다.
+  * [트랜잭션 메시지 속성](#transactional-properties)
+  * [컨텍스트 샘플](#context-sample)
+  * [메시지 콘텐츠](#transactional-content)
+    아래에 자세히 설명된 대로 [이벤트 유형을 구성](#event-type)합니다.
 
 * [트랜잭션 메시지의 유효성을 검사한](validate-transactional.md) 후에 **[!UICONTROL 검토 및 게시]** 단추를 클릭하여 메시지를 만들고 게시하십시오. 이제 트리거에서 트랜잭션 메시지 전송을 푸시할 수 있습니다.
 

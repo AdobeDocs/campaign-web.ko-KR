@@ -8,8 +8,8 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 892
-ht-degree: 19%
+source-wordcount: 813
+ht-degree: 20%
 
 ---
 
@@ -60,7 +60,7 @@ Adobe Campaign 웹 사용자 인터페이스에는 다양한 기준을 기반으
 >[!IMPORTANT]
 >
 >쿼리 모델러에 대한 완전히 새로운 인터페이스를 사용할 수 있습니다. 새 규칙 빌더를 사용하면 간소화된 인터페이스를 통해 쿼리를 더 쉽게 작성할 수 있습니다. 이 경험으로 전환하려면 오른쪽 상단 모서리에서 토글 버튼을 누릅니다. 언제든지 토글을 눌러 새 인터페이스를 비활성화하면 클래식 쿼리 모델러로 돌아갈 수 있습니다. 이 새 인터페이스에서 쿼리 모델러와 동일한 원칙을 적용할 수 있습니다.
->![새 규칙 빌더 인터페이스](assets/query-modeler-toggle.png){zoomable="yes"}에 대한 토글을 보여 주는 이미지
+>![새 규칙 빌더 인터페이스에 대한 전환을 보여 주는 이미지](assets/query-modeler-toggle.png){zoomable="yes"}
 
 
 >[!CONTEXTUALHELP]

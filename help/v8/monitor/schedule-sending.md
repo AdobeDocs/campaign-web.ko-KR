@@ -4,7 +4,8 @@ title: 게재 전송 예약
 description: 게재 예약 방법 알아보기
 exl-id: 0738a148-d550-41c2-a8c2-6054684ba789
 TQID: https://experienceleague.adobe.com/H3QUVSdkbLfPhBEo3J-T1Wjj5Xguriva1E43S2kCKyE
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 534

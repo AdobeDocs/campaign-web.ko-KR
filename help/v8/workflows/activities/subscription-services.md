@@ -4,10 +4,8 @@ title: 구독 서비스 활동 사용
 description: 구독 서비스 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 TQID: https://experienceleague.adobe.com/uSHKibujGz6C3osE2eVMIjaOIOE4wuHSw1z-N0vGfSY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1135
@@ -111,8 +109,8 @@ ht-degree: 28%
   ```
 
   아시다시피, 작업은 파일에 &quot;구독&quot; 또는 &quot;구독 취소&quot;로 지정되어 있습니다. 시스템은 **부울** 또는 **정수** 값으로 수행할 작업을 인식합니다. &quot;0&quot;은 구독을 취소하고, &quot;1&quot;은 구독합니다. 이 요구 사항과 일치시키려면
-   * &quot;operation&quot; 열의 **데이터 형식**&#x200B;이(가) 정수로 설정되어 있습니다.
-   * &quot;sub&quot; 및 &quot;unsub&quot; 값을 &quot;1&quot; 및 &quot;0&quot; 값과 일치시키려면 **값 다시 매핑**&#x200B;을 수행해야 합니다.
+  * &quot;operation&quot; 열의 **데이터 형식**&#x200B;이(가) 정수로 설정되어 있습니다.
+  * &quot;sub&quot; 및 &quot;unsub&quot; 값을 &quot;1&quot; 및 &quot;0&quot; 값과 일치시키려면 **값 다시 매핑**&#x200B;을 수행해야 합니다.
 
   ![워크플로 구독 서비스 매핑 인터페이스의 스크린샷](../assets/workflow-subscription-service-uc2-mapping.png)
 

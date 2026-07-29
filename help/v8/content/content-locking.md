@@ -9,17 +9,11 @@ role: User
 level: Beginner, Intermediate
 exl-id: 2835c114-0878-4c41-9071-165d71840941
 TQID: https://experienceleague.adobe.com/VVZGUSYIM0D4uUJh7cB9tcWUdlc-N3HxVf4quW6fLS8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1244
@@ -65,15 +59,15 @@ Adobe Campaign을 사용하면 전체 템플릿 또는 특정 구조 및 구성 
 
 * 구조가 잠긴 경우:
 
-   * 해당 구조 내의 모든 콘텐츠도 기본적으로 잠깁니다.
-   * 구조에 컨텐츠를 추가할 수 없습니다.
-   * 기본적으로 구조를 삭제할 수 없습니다. &quot;삭제 허용&quot; 옵션을 활성화하여 이 제한을 재정의할 수 있습니다.
-   * 잠긴 구조 내의 개별 콘텐츠 구성 요소를 편집 가능한 것으로 설정할 수 있습니다.
+  * 해당 구조 내의 모든 콘텐츠도 기본적으로 잠깁니다.
+  * 구조에 컨텐츠를 추가할 수 없습니다.
+  * 기본적으로 구조를 삭제할 수 없습니다. &quot;삭제 허용&quot; 옵션을 활성화하여 이 제한을 재정의할 수 있습니다.
+  * 잠긴 구조 내의 개별 콘텐츠 구성 요소를 편집 가능한 것으로 설정할 수 있습니다.
 
 * 구조를 편집할 수 있을 때(구조가 잠기지 않음):
 
-   * 개별 콘텐츠 구성 요소를 해당 구조 내에서 잠글 수 있습니다.
-   * 기본적으로 구성 요소가 잠겨 있거나 &quot;편집 가능한 컨텐츠 잠금만&quot;이 선택되어 있으면 삭제할 수 없습니다. &quot;삭제 허용&quot; 옵션을 활성화하여 이 제한을 재정의할 수 있습니다.
+  * 개별 콘텐츠 구성 요소를 해당 구조 내에서 잠글 수 있습니다.
+  * 기본적으로 구성 요소가 잠겨 있거나 &quot;편집 가능한 컨텐츠 잠금만&quot;이 선택되어 있으면 삭제할 수 없습니다. &quot;삭제 허용&quot; 옵션을 활성화하여 이 제한을 재정의할 수 있습니다.
 
 >[!AVAILABILITY]
 >
@@ -215,5 +209,5 @@ TO REPLACE WITH VIDEO FOR CAMPAIGN IF/WHEN CREATED
 
 Learn how to lock content in email templates.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451614?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
 -->

@@ -3,10 +3,8 @@ title: 외부 계정 관리
 description: 외부 계정을 구성하는 방법 알아보기
 exl-id: 99648377-112b-428a-8faf-5268d730f19a
 TQID: https://experienceleague.adobe.com/ZkfG6g4YYAkefJI1Pi7xsdulm1zS1BFJdXBTS37x2T8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 213
@@ -24,7 +22,7 @@ Adobe ID을 사용하여 Adobe Campaign 콘솔에 연결하려면 Adobe Experien
 
 ![Adobe Experience Cloud MAC 외부 계정 구성 필드를 보여주는 스크린샷입니다.](assets/external-MAC.png)
 
-**[!UICONTROL Adobe Experience Cloud]** 외부 계정을 구성하려면 다음 필드를 입력하십시오.
+**[!UICONTROL Adobe Experience Cloud]** 외부 계정을 구성하려면 다음 필드를 채우십시오.
 
 * **[!UICONTROL IMS 서버]**
 

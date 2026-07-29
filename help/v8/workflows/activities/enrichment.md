@@ -4,12 +4,9 @@ title: 보강 워크플로 활동 사용
 description: 보강 워크플로 활동을 사용하는 방법에 대해 알아봅니다.
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 TQID: https://experienceleague.adobe.com/yYV7iC9u6wWwpJMEUUlwGRAPsuDiZkPvLD-cmw4IPf4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
 workflow-type: tm+mt
 source-wordcount: 2327
@@ -33,10 +30,10 @@ ht-degree: 31%
 데이터 보강 데이터는 다음 중 하나에서 가져올 수 있습니다.
 
 * **워크플로우에서 타겟팅한 작업 테이블과 동일한 작업 테이블**:
-   * 고객 그룹을 타겟팅하고 현재 작업 표에 &quot;생년월일&quot; 필드를 추가합니다.
+  * 고객 그룹을 타겟팅하고 현재 작업 표에 &quot;생년월일&quot; 필드를 추가합니다.
 
 * **다른 작업 테이블**:
-   * 고객 그룹을 타겟팅하고 &quot;구매&quot; 테이블에서 &quot;금액&quot; 및 &quot;제품 유형&quot; 필드를 추가합니다.
+  * 고객 그룹을 타겟팅하고 &quot;구매&quot; 테이블에서 &quot;금액&quot; 및 &quot;제품 유형&quot; 필드를 추가합니다.
 
 데이터 보강 데이터가 워크플로우에 추가되면 후속 활동에서 고객을 행동, 환경 설정 및 필요에 따라 개별 그룹으로 분할하는 데 사용할 수 있습니다. 또한 타겟 대상자에게 반향을 일으키는 개인화된 마케팅 메시지 및 캠페인을 만드는 데 사용할 수도 있습니다.
 
@@ -210,7 +207,7 @@ ht-degree: 31%
 
 워크플로우 내에서 게재에서 데이터 보강 활동에서 얻은 오퍼를 사용하려면 아래 단계를 따르십시오.
 
-1. 게재 활동을 열고 컨텐츠 에디션으로 이동합니다. **[!UICONTROL 오퍼 설정]** 단추를 클릭하고 드롭다운 목록에서 오퍼에 해당하는 **[!UICONTROL 오퍼 공간]**&#x200B;을 선택합니다.
+1. 게재 활동을 열고 컨텐츠 에디션으로 이동합니다. **[!UICONTROL 오퍼 설정]** 단추를 클릭하고 드롭다운 목록에서 오퍼에 해당하는 **[!UICONTROL 오퍼 공간]**을 선택합니다.
 데이터 보강 활동의 오퍼만 보려면 **[!UICONTROL 제안]**&#x200B;의 수를 0으로 설정하고 수정 사항을 저장하십시오.
 
    ![](../assets/offers-settings.png)

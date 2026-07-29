@@ -4,10 +4,8 @@ title: 게재 워크플로 활동 사용
 description: 게재 워크플로우 활동(이메일, 푸시, SMS, WhatsApp, DM)을 추가하는 방법을 알아봅니다.
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 TQID: https://experienceleague.adobe.com/A58FyTL-G-NDqeY27VY8ZKw5iHg7iQ9KMdOob-yFCFM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 995
@@ -38,13 +36,13 @@ Adobe Campaign 웹을 사용하면 이메일, SMS, WhatsApp, DM 및 푸시 채�
 
 * 채널 활동을 삽입하기 전에 대상자를 정의합니다. 대상자는 게재의 주요 타겟인 메시지를 받는 프로필입니다. 캠페인 워크플로우의 컨텍스트에서 메시지를 보낼 때 메시지 대상자는 채널 활동에 정의되지 않고 다음과 같은 전용 활동 내에 정의됩니다.
 
-   * **대상자 작성** 활동. [자세히 알아보기](build-audience.md).
+  * **대상자 작성** 활동. [자세히 알아보기](build-audience.md).
 
-     ![워크플로우에서 게재 추가를 보여 주는 스크린샷](../../msg/assets/add-delivery-in-wf.png)
+    ![워크플로우에서 게재 추가를 보여 주는 스크린샷](../../msg/assets/add-delivery-in-wf.png)
 
-   * **파일 로드** 활동 다음에 **조정** 활동이 옵니다. [자세히 알아보기](load-file.md).
+  * **파일 로드** 활동 다음에 **조정** 활동이 옵니다. [자세히 알아보기](load-file.md).
 
-     ![워크플로 조정 기준을 보여주는 스크린샷](../assets/workflow-reconciliation-criteria.png)
+    ![워크플로 조정 기준을 보여주는 스크린샷](../assets/workflow-reconciliation-criteria.png)
 
 * 반복 게재를 보내려면 **스케줄러** 활동으로 워크플로우를 시작하십시오. 일회성 단일 게재에 **스케줄러** 활동을 사용하여 해당 게재의 연락 날짜를 설정합니다. 연락 날짜는 게재 설정에서 설정할 수도 있습니다. [이 섹션](scheduler.md)을 참조하십시오.
 

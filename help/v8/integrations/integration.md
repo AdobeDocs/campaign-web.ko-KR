@@ -1,24 +1,16 @@
 ---
 title: Campaign을 비롯한 Adobe 솔루션 사용
-description: Adobe Campaign 웹 사용자 인터페이스와 Adobe Experience Cloud 솔루션 및 앱을 사용하는 방법에 대해 알아봅니다
+description: Adobe Campaign 웹 사용자 인터페이스와 Adobe Experience Cloud 솔루션 및 앱을 사용하여 작업하는 방법에 대해 알아봅니다
 feature: Overview
 role: Admin, User
 level: Beginner
 exl-id: a50f3269-b559-4dbf-bd8f-af046f332d23
 TQID: https://experienceleague.adobe.com/IIloBQfXp9vdAyFlAT9i-ND86F-e6QuBF-6UNlMmSzI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 286
@@ -32,7 +24,7 @@ Campaign 환경을 Adobe Experience Cloud 솔루션 및 애플리케이션과 �
 
 Adobe Campaign에는 외부 애플리케이션과의 통신, 데이터베이스 엔진에 대한 연결 및 데이터 공유 및 동기화를 가능하게 하는 여러 커넥터가 포함되어 있습니다. Adobe은 이러한 연결을 구성합니다.
 
-[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/integration.html?lang=ko){target="_blank"}에서 관련 사용 사례와 함께 Campaign과 연결할 수 있는 솔루션 및 애플리케이션을 알아봅니다.
+[Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/integration.html){target="_blank"}에서 관련 사용 사례와 함께 Campaign과 연결할 수 있는 솔루션 및 애플리케이션을 알아봅니다.
 
 ## Adobe Experience Manager {#integration-aem}
 

@@ -4,12 +4,11 @@ title: 워크플로 설정 구성
 description: Adobe Campaign 웹을 사용하여 워크플로우 설정을 구성하는 방법 알아보기
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 TQID: https://experienceleague.adobe.com/u76tPZP4tkdiIUuXc0yIoIFvy-mEO8JRd-MKYY9J11o
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: 1054
-ht-degree: 26%
+source-wordcount: 1070
+ht-degree: 27%
 
 ---
 
@@ -42,12 +41,12 @@ ht-degree: 26%
 * 목록에 표시되는 워크플로의 **[!UICONTROL 레이블]**.
 * 워크플로의 **[!UICONTROL 내부 이름]**&#x200B;입니다.
 * 워크플로우를 저장할 **[!UICONTROL 폴더]**&#x200B;입니다.
-* 모든 워크플로우의 활동에서 사용할 기본 **[!UICONTROL 시간대]**&#x200B;입니다. 기본적으로 워크플로우의 시간대는 현재 캠페인 연산자에 대해 정의된 시간대입니다.
+* 모든 워크플로우의 활동에서 사용할 기본 **[!UICONTROL 시간대]**입니다. 기본적으로 워크플로우의 시간대는 현재 캠페인 연산자에 대해 정의된 시간대입니다.
 가능한 값:
-   * Adobe Campaign 응용 프로그램 서버의 시간대를 사용하려면 **서버 시간대를**&#x200B;하세요.
-   * **연산자 시간대** - 클라이언트 콘솔의 연산자 프로필에 정의된 대로 워크플로를 실행하는 Adobe Campaign 연산자의 시간대를 사용합니다.
-   * 데이터베이스 서버의 시간대를 사용하려면 **데이터베이스의 시간대**&#x200B;를 사용하십시오.
-   * 특정 시간대.
+  * Adobe Campaign 응용 프로그램 서버의 시간대를 사용하려면 **서버 시간대를**&#x200B;하세요.
+  * **연산자 시간대** - 클라이언트 콘솔의 연산자 프로필에 정의된 대로 워크플로를 실행하는 Adobe Campaign 연산자의 시간대를 사용합니다.
+  * 데이터베이스 서버의 시간대를 사용하려면 **데이터베이스의 시간대**&#x200B;를 사용하십시오.
+  * 특정 시간대.
 * 워크플로우가 실패하면 **[!UICONTROL 감독자]** 필드에서 선택한 운영자 그룹에 속하는 운영자에게 전자 메일로 알림이 전송됩니다.
 * 워크플로우의 **[!UICONTROL 설명]**&#x200B;을(를) 입력하십시오.
 
@@ -96,9 +95,9 @@ ht-degree: 26%
 
 * **[!UICONTROL 오류 관리]**: 이 필드를 사용하면 워크플로 작업에 오류가 있는 경우 수행할 작업을 정의할 수 있습니다. 다음과 같은 세 가지 옵션이 있습니다.
 
-   * **[!UICONTROL 프로세스 일시 중단]**: 워크플로가 자동으로 일시 중지되고 상태가 **[!UICONTROL 실패]**(으)로 변경됩니다. 문제가 해결되면 **[!UICONTROL 다시 시작]** 단추를 사용하여 워크플로우를 다시 시작합니다.
-   * **[!UICONTROL 무시]**: 오류를 트리거한 작업의 상태가 **[!UICONTROL 실패]**(으)로 변경되지만 워크플로는 **[!UICONTROL 시작됨]** 상태를 유지합니다. <!-- TO ADD ONCE SCHEDULER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
-   * **[!UICONTROL 프로세스 중단]**: 워크플로가 자동으로 중지되고 상태가 **[!UICONTROL 실패]**(으)로 변경됩니다. 문제가 해결되면 **[!UICONTROL 시작]** 단추를 사용하여 워크플로우를 다시 시작하십시오.
+  * **[!UICONTROL 프로세스 일시 중단]**: 워크플로가 자동으로 일시 중지되고 상태가 **[!UICONTROL 실패]**(으)로 변경됩니다. 문제가 해결되면 **[!UICONTROL 다시 시작]** 단추를 사용하여 워크플로우를 다시 시작합니다.
+  * **[!UICONTROL 무시]**: 오류를 트리거한 작업의 상태가 **[!UICONTROL 실패]**(으)로 변경되지만 워크플로는 **[!UICONTROL 시작됨]** 상태를 유지합니다. <!-- TO ADD ONCE SCHEDULER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
+  * **[!UICONTROL 프로세스 중단]**: 워크플로가 자동으로 중지되고 상태가 **[!UICONTROL 실패]**(으)로 변경됩니다. 문제가 해결되면 **[!UICONTROL 시작]** 단추를 사용하여 워크플로우를 다시 시작하십시오.
 
 * **[!UICONTROL 연속 오류]**: **[!UICONTROL 오류의 경우]** 필드에서 **[!UICONTROL 무시]** 값을 선택하면 이 필드를 사용할 수 있습니다. 프로세스를 중지하기 전에 무시할 수 있는 오류 수를 지정합니다. 이 수에 도달하면 워크플로 상태가 **[!UICONTROL 실패]**(으)로 변경됩니다. 이 필드의 값이 0인 경우 오류 수에 관계없이 워크플로가 중지되지 않습니다.
 

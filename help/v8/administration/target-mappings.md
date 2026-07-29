@@ -3,14 +3,10 @@ title: 대상 매핑 관리
 description: 대상 매핑을 관리하는 방법을 알아봅니다.
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
 TQID: https://experienceleague.adobe.com/z1xVr4EklA-E-ftQfChptYCaC0zYrdY0Ykr-cDI8sM8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-subfeature_v2:
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 781
@@ -33,7 +29,7 @@ ht-degree: 11%
 
 ![사용 가능한 매핑을 보여 주는 대상 매핑 목록 화면](assets/target-mappings-list.png)
 
-Adobe Campaign과 함께 제공되는 기본 제공 대상 매핑에 대한 자세한 내용은 [Campaign v8 클라이언트 콘솔 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ko){target="_blank"}를 참조하십시오.
+Adobe Campaign과 함께 제공되는 기본 제공 대상 매핑에 대한 자세한 내용은 [Campaign v8 클라이언트 콘솔 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}를 참조하십시오.
 
 ## 대상 매핑 만들기 {#create-mapping}
 
@@ -105,16 +101,16 @@ Adobe Campaign과 함께 제공되는 기본 제공 대상 매핑에 대한 자�
 
   ![로그에 대한 테이블 옵션을 보여 주는 저장소 섹션](assets/target-mappings-storage.png)
 
-   * **[!UICONTROL 메시지 스키마]**: 전송 로그를 저장하는 데 사용할 스키마를 식별합니다.
-   * **[!UICONTROL 제외된 메시지]**: 게재 및 제외 로그 저장소를 관리하는 방법을 지정합니다.
+  * **[!UICONTROL 메시지 스키마]**: 전송 로그를 저장하는 데 사용할 스키마를 식별합니다.
+  * **[!UICONTROL 제외된 메시지]**: 게재 및 제외 로그 저장소를 관리하는 방법을 지정합니다.
 
-      * **[!UICONTROL 같은 테이블에 제외 및 메시지 저장]**
-      * **[!UICONTROL 메시지만 저장]**: 제외를 저장하지 않습니다.
-      * **[!UICONTROL 개별 테이블에 제외 및 메시지 저장]**: **[!UICONTROL 거부 스키마]** 필드에 제외 로그를 저장하는 데 사용할 스키마를 선택하십시오.
+    * **[!UICONTROL 같은 테이블에 제외 및 메시지 저장]**
+    * **[!UICONTROL 메시지만 저장]**: 제외를 저장하지 않습니다.
+    * **[!UICONTROL 개별 테이블에 제외 및 메시지 저장]**: **[!UICONTROL 거부 스키마]** 필드에 제외 로그를 저장하는 데 사용할 스키마를 선택하십시오.
 
-   * **[!UICONTROL 추적 로그]**: 추적 로그 및 기본 트래픽 원본을 저장할 위치를 선택하십시오.
-   * **[!UICONTROL 추가 필드]**: 게재 로그에 저장할 추가 필드 목록을 지정하십시오. 이러한 필드는 대상의 개별 멤버에 대한 정보를 영구적으로 저장하거나(예: `recipient/@firstName`) 워크플로 중에 계산된 추가 데이터를 저장할 수 있습니다(예: `[targetData/@offeCode]`).
+  * **[!UICONTROL 추적 로그]**: 추적 로그 및 기본 트래픽 원본을 저장할 위치를 선택하십시오.
+  * **[!UICONTROL 추가 필드]**: 게재 로그에 저장할 추가 필드 목록을 지정하십시오. 이러한 필드는 대상의 개별 멤버에 대한 정보를 영구적으로 저장하거나(예: `recipient/@firstName`) 워크플로 중에 계산된 추가 데이터를 저장할 수 있습니다(예: `[targetData/@offeCode]`).
 
-     이렇게 하려면 **[!UICONTROL 필드 추가]**&#x200B;를 선택하십시오. **[!UICONTROL Source]** 필드에 저장할 정보와 **[!UICONTROL 대상]** 필드에 이 정보를 저장하기 위해 전송 로그에서 사용할 특성을 식별하십시오.
+    이렇게 하려면 **[!UICONTROL 필드 추가]**&#x200B;를 선택하십시오. **[!UICONTROL Source]** 필드에 저장할 정보와 **[!UICONTROL 대상]** 필드에 이 정보를 저장하기 위해 전송 로그에서 사용할 특성을 식별하십시오.
 
-     ![추가 데이터 저장 옵션을 보여 주는 추가 필드 섹션](assets/target-mappings-additional.png){width="50%" zoomable="yes"}
+    ![추가 데이터 저장 옵션을 보여 주는 추가 필드 섹션](assets/target-mappings-additional.png){width="50%" zoomable="yes"}

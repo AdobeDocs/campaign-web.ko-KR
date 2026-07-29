@@ -7,8 +7,8 @@ description: Campaign Standard 사용자인 경우 Campaign v8을 시작하는 �
 breadcrumb-title: Campaign 채택 안내서
 source-git-commit: aaf74b9c924c7c0bb3150478e812aec71c579c40
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 32%
+source-wordcount: '87'
+ht-degree: 45%
 
 ---
 

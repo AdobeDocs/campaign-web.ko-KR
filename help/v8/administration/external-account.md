@@ -4,7 +4,7 @@ description: 외부 계정을 구성하는 방법 알아보기
 exl-id: 24e70106-3312-4138-bf2d-ffad74e2962d
 source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '674'
 ht-degree: 2%
 
 ---
@@ -30,10 +30,10 @@ ht-degree: 2%
 * **[!UICONTROL 암호]** - 사용자 계정 암호입니다.
 
 * **[!UICONTROL 암호화]** - 다음을 포함하여 선택한 암호화 유형:
-   * 기본적으로(포트 110인 경우 POP3, 포트 995인 경우 POP3).
-   * STARTTLS를 전송한 후 SSL로 전환하는 POP3.
-   * POP3 비보안(기본적으로 포트 110).
-   * POP3는 SSL(기본적으로 포트 995) 위에 보호됩니다.
+  * 기본적으로(포트 110인 경우 POP3, 포트 995인 경우 POP3).
+  * STARTTLS를 전송한 후 SSL로 전환하는 POP3.
+  * POP3 비보안(기본적으로 포트 110).
+  * POP3는 SSL(기본적으로 포트 995) 위에 보호됩니다.
 
 * **[!UICONTROL 함수]** - 수신 전자 메일을 받을 계정을 구성하려면 **[!UICONTROL 인바운드 전자 메일]**&#x200B;을 선택하고, SOAP 요청을 처리하려면 **[!UICONTROL SOAP 라우터]**&#x200B;를 선택합니다.
 
@@ -53,7 +53,7 @@ Microsoft OAuth 2.0을 사용하여 POP3 외부 환경을 구성하려면 Micros
 
 * **[!UICONTROL Azure 클라이언트 암호]**
 
-  클라이언트 암호 ID는 Azure 포털에 있는 애플리케이션의 인증서 및 암호 메뉴에서 클라이언트 암호 열에 있습니다.
+  클라이언트 암호 ID는 Azure 포털에 있는 애플리케이션의 인증서 및 암호 메뉴의 클라이언트 암호 열에서 찾을 수 있습니다.
 
 * **[!UICONTROL Azure 리디렉션 URL]**
 
@@ -105,6 +105,6 @@ Microsoft OAuth 2.0을 사용하여 POP3 외부 환경을 구성하려면 Micros
 
 * **[!UICONTROL 메서드]** - 웹 서비스와 FDA(Federated Data Access) 중에서 선택합니다.
 
-  FDA의 경우 FDA 계정을 선택합니다. 외부 시스템에 대한 Campaign 연결은 고급 사용자로 제한되며 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/fda#_blank)
+  FDA의 경우 FDA 계정을 선택합니다. 외부 시스템에 대한 Campaign 연결은 고급 사용자로 제한되며 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/fda#_blank)
 
 * **[!UICONTROL 보관 워크플로 만들기]** - 인스턴스가 여러 개 있는지 여부에 관계없이 메시지 센터에 등록된 각 실행 인스턴스에 대해 실행 인스턴스와 연결된 각 외부 계정에 대해 별도의 보관 워크플로를 만드십시오.

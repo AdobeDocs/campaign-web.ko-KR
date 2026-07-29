@@ -5,17 +5,12 @@ description: Campaign 웹에서 게재 설정을 구성하는 방법 알아보�
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 TQID: https://experienceleague.adobe.com/bj4PO7hhfT21Xd44PQYyrUbVytxnLSF7mnSJPbmJQRw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 3516
+source-wordcount: 3482
 ht-degree: 40%
 
 ---
@@ -80,7 +75,7 @@ ht-degree: 40%
 
 >[!NOTE]
 >
->피로도 관리 및 압력 규칙은 Campaign 클라이언트 콘솔에 구성됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ko){target="_blank"}를 참조하세요.
+>피로도 관리 및 압력 규칙은 Campaign 클라이언트 콘솔에 구성됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}를 참조하세요.
 
 ### 수용작업량 설정 {#capacity-settings}
 
@@ -100,7 +95,7 @@ ht-degree: 40%
 
 >[!NOTE]
 >
->유형화 규칙은 Campaign 클라이언트 콘솔에 구성됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=ko){target="_blank"}를 참조하세요.
+>유형화 규칙은 Campaign 클라이언트 콘솔에 구성됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}를 참조하세요.
 
 ## 대상자 설정 {#audience}
 
@@ -138,7 +133,7 @@ ht-degree: 40%
 
 * **[!UICONTROL SMTP 배달 테스트]**(전자 메일 채널): 이 옵션은 SMTP를 통한 전송을 테스트하는 데 사용됩니다. 전자 메일은 SMTP 서버 연결까지 처리되지만 전송되지 않습니다. 전자 메일의 모든 수신자에 대해 Campaign은 SMTP 공급자 서버에 연결하고 SMTP RCPT TO 명령을 실행하고 SMTP DATA 명령 전에 연결을 닫습니다.
 
-* **[!UICONTROL 전자 메일 BCC]**(전자 메일 채널): 이 옵션은 메시지 대상에 BCC 전자 메일 주소를 추가하여 BCC를 통해 외부 시스템에 전자 메일을 저장하는 데 사용됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=ko){target="_blank"}를 참조하세요.
+* **[!UICONTROL 전자 메일 BCC]**(전자 메일 채널): 이 옵션은 메시지 대상에 BCC 전자 메일 주소를 추가하여 BCC를 통해 외부 시스템에 전자 메일을 저장하는 데 사용됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}를 참조하세요.
 
 **[!UICONTROL 웨이브 정의]** 섹션에서 **[!UICONTROL 여러 웨이브를 사용하여 보내기]** 옵션을 선택하여 웨이브를 사용하여 보낸 볼륨을 점진적으로 늘립니다. 이렇게 하면 메시지가 스팸으로 표시되거나 하루에 메시지 수를 제한하려는 경우를 방지할 수 있습니다. 웨이브를 사용하여 동시에 대량의 메시지를 전송하는 대신 게재를 여러 배치로 나눌 수 있습니다. [자세히 알아보기](send-using-waves.md)
 
@@ -167,7 +162,7 @@ ht-degree: 40%
 
 >[!NOTE]
 >
->웹 분석 기능은 Campaign 클라이언트 콘솔에서 구성됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=ko#external-account-ac){target="_blank"}를 참조하세요.
+>웹 분석 기능은 Campaign 클라이언트 콘솔에서 구성됩니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}를 참조하세요.
 
 ## 재시도 {#retries}
 
@@ -329,10 +324,10 @@ SMS 게재 매개변수는 SMS 게재에 적용되는 기술 설정입니다. �
 
   이 필드는 전송할 SMS 유형(일반 메시지인지 플래시 메시지인지 여부 및 모바일 장치에 저장해야 하는지 또는 SIM 카드에 저장해야 하는지 여부)을 정의합니다. 이 설정은 SUBMIT_SM PDU의 dest_addr_subunit 선택 필드에서 전송됩니다.
 
-   * **Flash**&#x200B;이(가) 값을 1로 설정합니다. 화면에 즉시 나타나며 저장되지 않는 Flash SMS를 보냅니다.
-   * **보통**&#x200B;은 값을 0으로 설정합니다. 표준 SMS를 보냅니다.
-   * **모바일에 저장됨**&#x200B;에서 값을 2로 설정합니다. SMS를 내부 메모리에 저장하도록 장치에 지시합니다.
-   * **터미널에 저장됨**&#x200B;이(가) 값을 3으로 설정합니다. SMS를 SIM 카드에 저장하도록 장치에 지시합니다.
+  * **Flash**&#x200B;이(가) 값을 1로 설정합니다. 화면에 즉시 나타나며 저장되지 않는 Flash SMS를 보냅니다.
+  * **보통**&#x200B;은 값을 0으로 설정합니다. 표준 SMS를 보냅니다.
+  * **모바일에 저장됨**&#x200B;에서 값을 2로 설정합니다. SMS를 내부 메모리에 저장하도록 장치에 지시합니다.
+  * **터미널에 저장됨**&#x200B;이(가) 값을 3으로 설정합니다. SMS를 SIM 카드에 저장하도록 장치에 지시합니다.
 
 * **[!UICONTROL 우선 순위, 통신 유형]**
 
@@ -351,13 +346,13 @@ SMS 게재 매개변수는 SMS 게재에 적용되는 기술 설정입니다. �
 * **[!UICONTROL 선택적 SMPP 매개 변수(TLV)]**
 
   선택적 SMPP 매개 변수(TLV)로 전송할 추가 필드를 지정할 수 있습니다. 이러한 추가 필드는 각 MT와 함께 전송되고 개인화된 필드는 각 MT에 대해 다른 값을 가질 수 있습니다.
-표에는 각 메시지와 함께 보낼 선택적 매개 변수가 나와 있습니다. 열에는 다음 정보가 포함됩니다.
+  표에는 각 메시지와 함께 보낼 선택적 매개 변수가 나와 있습니다. 열에는 다음 정보가 포함됩니다.
 
-   * **레이블**: 자유 형식의 선택적 레이블입니다. 공급자에게 전송되지 않습니다. 매개 변수에 대한 텍스트 설명을 제공할 수 있습니다.
-   * **태그**: 태그 값의 10진수 형식(예: 12345) 또는 0x 접두사가 있는 16진수 형식(예: 0x12ab). 태그는 0에서 65535 사이일 수 있습니다. SMPP 서비스 공급자에게 지원하는 태그를 요청하십시오.
-   * **값**: 선택적 매개 변수를 전송할 값입니다. 이는 개인화된 필드입니다.
-   * **형식**: 매개 변수에 사용된 인코딩입니다. 지원되는 텍스트 인코딩이나 가장 일반적인 이진 형식을 선택할 수 있습니다. SMPP 서비스 공급자에게 필요한 형식을 문의하십시오.
-   * **최대 길이**: 이 매개 변수의 최대 바이트 수입니다. 이진 필드의 크기가 고정되어 있으므로 이진 필드에서는 무시됩니다.
+  * **레이블**: 자유 형식의 선택적 레이블입니다. 공급자에게 전송되지 않습니다. 매개 변수에 대한 텍스트 설명을 제공할 수 있습니다.
+  * **태그**: 태그 값의 10진수 형식(예: 12345) 또는 0x 접두사가 있는 16진수 형식(예: 0x12ab). 태그는 0에서 65535 사이일 수 있습니다. SMPP 서비스 공급자에게 지원하는 태그를 요청하십시오.
+  * **값**: 선택적 매개 변수를 전송할 값입니다. 이는 개인화된 필드입니다.
+  * **형식**: 매개 변수에 사용된 인코딩입니다. 지원되는 텍스트 인코딩이나 가장 일반적인 이진 형식을 선택할 수 있습니다. SMPP 서비스 공급자에게 필요한 형식을 문의하십시오.
+  * **최대 길이**: 이 매개 변수의 최대 바이트 수입니다. 이진 필드의 크기가 고정되어 있으므로 이진 필드에서는 무시됩니다.
 
   **TLV에 이진 형식 사용**
 

@@ -1,10 +1,11 @@
 ---
 title: 컬렉션 목록 추가
 description: 프로필 화면에 관련 데이터를 표시하기 위해 컬렉션 목록을 추가하는 방법을 알아봅니다.
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+exl-id: 5ae68741-146c-4e0f-b451-c32e9a2290f8
+source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 

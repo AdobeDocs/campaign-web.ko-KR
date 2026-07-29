@@ -5,26 +5,12 @@ role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
 TQID: https://experienceleague.adobe.com/ef945wiVtBxLFJEMMYmrrSHMg8ZtxFn-UUkEE7ntk58
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
 workflow-type: tm+mt
 source-wordcount: 1589
@@ -67,14 +53,14 @@ Adobe Campaign v8의 주요 개선 사항은 아래에 나와 있습니다.
 
   Adobe Campaign v8은 고급 클라우드 규모 데이터베이스 기술을 활용하므로 성능과 효율성이 크게 향상됩니다. 이렇게 재설계된 아키텍처는 다음과 같은 몇 가지 주요 이점을 제공합니다.
 
-   * *규모*: 이제 시스템에서 처리 기능이 크게 향상되어 일괄 처리 처리량이 시간당 최대 **2천만 작업**&#x200B;에 이릅니다. 이 새로운 아키텍처를 사용하면 예측 가능한 성능으로 더 높은 수준의 프로필을 관리할 수 있습니다.
-   * *속도*: 세분화, 게재 준비 또는 트랜잭션 메시지를 위한 처리량(현재 시간당 **1백만 개**)과 같은 모든 마케팅 활동에 대해 시스템이 개선되었습니다.
+  * *규모*: 이제 시스템에서 처리 기능이 크게 향상되어 일괄 처리 처리량이 시간당 최대 **2천만 작업**&#x200B;에 이릅니다. 이 새로운 아키텍처를 사용하면 예측 가능한 성능으로 더 높은 수준의 프로필을 관리할 수 있습니다.
+  * *속도*: 세분화, 게재 준비 또는 트랜잭션 메시지를 위한 처리량(현재 시간당 **1백만 개**)과 같은 모든 마케팅 활동에 대해 시스템이 개선되었습니다.
 
   완전히 관리되는 클라우드 서비스는 사용자에게 다음과 같은 기능을 제공합니다.
 
-   * 실시간 데이터 탐색: 빠른 통찰력과 보다 정보에 입각한 의사 결정을 위해 데이터를 즉시 액세스하고 분석합니다.
+  * 실시간 데이터 탐색: 빠른 통찰력과 보다 정보에 입각한 의사 결정을 위해 데이터를 즉시 액세스하고 분석합니다.
 
-   * 신속한 대상 구축: 보다 효율적인 캠페인 세분화를 위해 타깃팅된 대상을 몇 분 내에 손쉽게 만들 수 있습니다.
+  * 신속한 대상 구축: 보다 효율적인 캠페인 세분화를 위해 타깃팅된 대상을 몇 분 내에 손쉽게 만들 수 있습니다.
 
   전반적으로 Adobe Campaign v8의 강력한 아키텍처는 속도와 효율성을 높여 광범위하고 복잡한 마케팅 캠페인을 관리할 수 있는 강력한 기반을 제공합니다.
 
@@ -92,9 +78,9 @@ Campaign Standard 사용자가 Adobe Campaign v8로 전환하면 다음과 같�
 
   고객의 시스템에 따라 알림을 사용자 지정할 수 있습니다.
 
-   * [Android](../../v8/push/rich-push.md) 템플릿용
+  * [Android](../../v8/push/rich-push.md) 템플릿용
 
-   * [iOs](../../v8/push/rich-push.md) 템플릿
+  * [iOs](../../v8/push/rich-push.md) 템플릿
 
   푸시 알림은 모바일 앱 사용자의 참여를 유도하기 위한 중요한 도구로서, 앱을 적극적으로 사용하지 않을 때에도 사용자에게 연락할 수 있도록 해줍니다.
 
@@ -104,13 +90,13 @@ Campaign Standard 사용자가 Adobe Campaign v8로 전환하면 다음과 같�
 
   이 통합에서 사용할 수 있는 주요 기능은 다음과 같습니다.
 
-   * *에셋 관리*: Adobe Campaign v8 내에서 이메일 디자이너는 에셋에 액세스하고 관리할 수 있는 선택기를 제공합니다. 이 기능은 Adobe Experience Manager의 요소를 게재에 간소화하여 콘텐츠를 보다 효율적으로 관리할 수 있도록 합니다. [자산 관리에 대해 자세히 알아보기](../../v8/integrations/aem-assets.md)
+  * *에셋 관리*: Adobe Campaign v8 내에서 이메일 디자이너는 에셋에 액세스하고 관리할 수 있는 선택기를 제공합니다. 이 기능은 Adobe Experience Manager의 요소를 게재에 간소화하여 콘텐츠를 보다 효율적으로 관리할 수 있도록 합니다. [자산 관리에 대해 자세히 알아보기](../../v8/integrations/aem-assets.md)
 
-     ![](../../v8/integrations/assets/assets_6.png){zoomable="yes"}
+    ![](../../v8/integrations/assets/assets_6.png){zoomable="yes"}
 
-   * *이메일 템플릿 가져오기*: Adobe Campaign v8을 사용하면 Adobe Experience Manager에서 직접 Campaign으로 이메일 템플릿을 찾아보고 가져올 수 있습니다. [전자 메일 템플릿 가져오기에 대해 자세히 알아보기](../../v8/integrations/aem-content.md)
+  * *이메일 템플릿 가져오기*: Adobe Campaign v8을 사용하면 Adobe Experience Manager에서 직접 Campaign으로 이메일 템플릿을 찾아보고 가져올 수 있습니다. [전자 메일 템플릿 가져오기에 대해 자세히 알아보기](../../v8/integrations/aem-content.md)
 
-     ![](../../v8/integrations/assets/aem_6.png){zoomable="yes"}
+    ![](../../v8/integrations/assets/aem_6.png){zoomable="yes"}
 
   Adobe Experience Manager as a Cloud Service은 클라우드 기반의 민첩성을 제공하여 변화하는 비즈니스 요구에 신속하게 대응하고 적응할 수 있도록 해줍니다. 이 통합을 통해 콘텐츠 관리 기능이 향상될 뿐만 아니라 모든 접점에서 고객에게 보다 개인화되고 흥미로운 경험을 전달할 수 있습니다.
 
@@ -132,13 +118,13 @@ Campaign Standard 사용자가 Adobe Campaign v8로 전환하면 다음과 같�
 
   SMS의 사용 편의성과 단순성은 수십억 개의 단말기에 대한 견고성과 독보적인 호환성에 더해 매우 가치 있는 커뮤니케이션 채널입니다.
 
-  Adobe Campaign v8에는 SMS 전송을 개선하는 새로운 인프라가 포함되어 있습니다. [새 SMS 설정에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
+  Adobe Campaign v8에는 SMS 전송을 개선하는 새로운 인프라가 포함되어 있습니다. [새 SMS 설정에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
 
 * **업그레이드된 푸시 인프라**
 
   Adobe Campaign v8에서는 최신 첨단 기술을 기반으로 구축된 강력한 프레임워크에서 제공하는 최신 푸시 알림 서비스를 도입했습니다. 이 서비스는 새로운 차원의 확장성을 제공하도록 설계되었으므로, 원활한 효율성으로 더 많은 대상자에게 알림이 전달될 수 있습니다. 향상된 인프라와 최적화된 프로세스를 통해 더 높은 규모와 신뢰성을 기대할 수 있으며, 이전과 달리 모바일 앱 사용자를 참여시키고 연결할 수 있는 역량을 확보할 수 있습니다.
 
-  [업그레이드된 푸시 인프라에 대해 자세히 알아보세요](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
+  [업그레이드된 푸시 인프라에 대해 자세히 알아보세요](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
 
 
 ## Managed Services {#ac-managed-services}
@@ -153,7 +139,7 @@ Campaign v8로 원활하게 전환할 수 있도록 주요 Campaign Standard 기
 
 * **중앙 집중식 브랜딩**: 모든 회사에는 브랜드 시각적 및 기술적 지침이 있습니다. Adobe Campaign을 사용하면 로고에서부터 이메일 발신자, URL 또는 도메인과 같은 기술적 측면까지 일관된 브랜드를 고객에게 제시하기 위해 일련의 사양을 정의할 수 있습니다. [자세히 알아보기](../../v8/administration/branding/branding-gs.md)
 
-* **REST API** - Campaign Standard 마이그레이션 사용자인 경우 REST API를 사용하여 Adobe Campaign을 통합하고 사용하는 기술 패널과 Adobe Campaign을 인터페이스하여 자체 에코시스템을 구축할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ko){target="_blank"}
+* **REST API** - Campaign Standard 마이그레이션 사용자인 경우 REST API를 사용하여 Adobe Campaign을 통합하고 사용하는 기술 패널과 Adobe Campaign을 인터페이스하여 자체 에코시스템을 구축할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}
 
 * **랜딩 페이지** - Campaign Standard와의 기능 패리티를 보장하기 위해 Campaign v8 랜딩 페이지에 일부 개선 사항이 적용되었습니다. [릴리스 정보](../../v8/rn/release-notes.md#new-24-4) 및 랜딩 페이지 [설명서](../../v8/landing-pages/get-started-lp.md)에서 자세한 내용을 살펴보십시오.
 
@@ -249,5 +235,5 @@ Campaign v8로 원활하게 전환할 수 있도록 주요 Campaign Standard 기
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/ko/docs/campaign-standard/using/release-notes/deprecated-features).
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).
 -->

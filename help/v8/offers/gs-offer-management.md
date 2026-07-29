@@ -3,10 +3,8 @@ audience: end-user
 title: 오퍼 관리 시작
 description: Adobe Campaign 웹에서 오퍼를 관리하는 방법 알아보기
 feature: Offers
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
 workflow-type: tm+mt
 source-wordcount: 763
@@ -77,14 +75,14 @@ Campaign 웹 UI의 일반적인 전체 흐름은 다음과 같습니다.
 
 일부 오퍼 기능은 아직 웹 사용자 인터페이스에 노출되지 않았으며 클라이언트 콘솔에서 구성해야 합니다.
 
-* **오퍼 시뮬레이션** — 보내기 전에 오퍼 배포를 테스트할 수 있는 **시뮬레이션** 모듈입니다. [오퍼 시뮬레이션](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html?lang=ko#offer-simulation){target="_blank"}을 참조하세요.
+* **오퍼 시뮬레이션** — 보내기 전에 오퍼 배포를 테스트할 수 있는 **시뮬레이션** 모듈입니다. [오퍼 시뮬레이션](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html#offer-simulation){target="_blank"}을 참조하세요.
 
 * **사전 정의된 필터** 관리 — 오퍼에서 참조할 수 있는 재사용 가능한 필터 규칙입니다. [미리 정의된 필터 관리](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html){target="_blank"}를 참조하세요.
 
-* **오퍼 추적** — 제안 내역을 제공할 오퍼 제안에 대한 추적을 구성하는 중입니다. [오퍼 제안 추적](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html?lang=ko){target="_blank"}을 참조하세요.
+* **오퍼 추적** — 제안 내역을 제공할 오퍼 제안에 대한 추적을 구성하는 중입니다. [오퍼 제안 추적](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html){target="_blank"}을 참조하세요.
 
 * **운영자 역할** — 오퍼 관리자/게재 관리자 권한을 할당합니다. [상호 작용 모듈의 연산자](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}를 참조하십시오.
 
-* **상호 작용 모범 사례 및 중재 규칙**. [캠페인 상호 작용 모범 사례](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=ko){target="_blank"}를 참조하세요.
+* **상호 작용 모범 사례 및 중재 규칙**. [캠페인 상호 작용 모범 사례](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}를 참조하세요.
 
 * **보고** — 전용 오퍼 및 제안 보고서는 아직 웹 사용자 인터페이스에서 사용할 수 없습니다.

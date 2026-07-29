@@ -9,14 +9,14 @@ level: Beginner
 hide: true
 source-git-commit: f0c22710efcda2f59f75ea26cf239d549ff34f96
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '248'
 ht-degree: 1%
 
 ---
 
 # WhatsApp 메시지 시작 {#get-started-whatsapp}
 
-Meta의 **Cloud API**&#x200B;를 사용하여 [Adobe Campaign 웹 사용자 인터페이스](https://developers.facebook.com/docs/whatsapp/cloud-api/)에서 WhatsApp 메시지를 보낼 수 있습니다. 다른 채널과 함께 독립 실행형 게재, 캠페인 워크플로우 또는 마케팅 캠페인 내에서 WhatsApp을 사용합니다.
+Meta의 [Cloud API](https://developers.facebook.com/docs/whatsapp/cloud-api/)를 사용하여 **Adobe Campaign 웹 사용자 인터페이스**&#x200B;에서 WhatsApp 메시지를 보낼 수 있습니다. 다른 채널과 함께 독립 실행형 게재, 캠페인 워크플로우 또는 마케팅 캠페인 내에서 WhatsApp을 사용합니다.
 
 * **[!UICONTROL 게재]**: Adobe Campaign 웹 사용자 인터페이스에서 왼쪽 레일의 **[!UICONTROL 게재]** 메뉴에서 독립 실행형 WhatsApp 게재를 만듭니다(SMS 또는 푸시와 유사). [자세히 알아보기](create-whatsapp.md).
 
@@ -29,7 +29,7 @@ Meta의 **Cloud API**&#x200B;를 사용하여 [Adobe Campaign 웹 사용자 인�
 WhatsApp을 통합하려면 다음 요구 사항이 있습니다.
 
 * Meta Business Manager 계정
-* [보낸 사람 이름과 전화 번호가 확인된 WhatsApp 비즈니스 계정](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
+* [확인된 발신자 이름 및 전화 번호가 있는 WhatsApp 비즈니스 계정](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
 * [적절한 권한이 있는 사용자 인증 토큰](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
 * [승인된 Meta 템플릿](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 

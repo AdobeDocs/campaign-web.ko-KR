@@ -5,7 +5,7 @@ exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 TQID: https://experienceleague.adobe.com/KtKT-RQV5D3bLMgzxmMJuwDnMBPTt0JiLsvzvuJhF6E
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: a6d831e2fd3abf7701aac09b112baa6c0ef239cb
 workflow-type: tm+mt
 source-wordcount: 1061
 ht-degree: 100%
@@ -86,7 +86,7 @@ ht-degree: 100%
 
 1. 필터에 대한 규칙을 정의합니다. 예를 들어 30일 이상 지난 프로필입니다.
 
-   ![30세 이상 프로필에 대한 필터 규칙](assets/filter-30+.png){zoomable="yes"}
+   ![30세 이상 프로필에 대한 필터 규칙](assets/filter-30-plus.png){zoomable="yes"}
 
 1. 변경 내용을 저장합니다.
 

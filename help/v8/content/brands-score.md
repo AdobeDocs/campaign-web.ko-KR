@@ -4,15 +4,12 @@ title: 브랜드 정렬
 description: 브랜드 점수를 사용하여 브랜드 내 콘텐츠를 만들고, 검증하고, 관리하는 방법에 대해 알아봅니다.
 exl-id: 5e65d3f4-6a4e-4390-94ae-e59856f1370d
 TQID: https://experienceleague.adobe.com/j4YLHVWdNYp0UDaf0CNTKqI-qpO4XjDuOJF9NIAEJK0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 511
+source-wordcount: 510
 ht-degree: 4%
 
 ---
@@ -21,7 +18,7 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->AI Assistant를 사용하려면 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
+>콘텐츠 생성을 사용하려면 [사용자 동의](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
 
 콘텐츠 검토 기능은 캠페인이 브랜드 가이드라인에 맞게 조정되고 모든 커뮤니케이션에서 콘텐츠 품질 표준을 유지하는 정도를 측정하는 포괄적인 평가 도구를 제공합니다.
 

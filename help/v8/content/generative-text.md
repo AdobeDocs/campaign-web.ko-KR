@@ -1,52 +1,49 @@
 ---
 audience: end-user
 title: 생성 콘텐츠
-description: AI Assistant를 사용하여 텍스트 콘텐츠 경험을 생성하는 방법을 알아봅니다
+description: AI를 사용하여 텍스트 콘텐츠 경험을 생성하는 방법에 대해 알아봅니다
 exl-id: da60d57e-d17f-40eb-9c24-0bfea940d236
 TQID: https://experienceleague.adobe.com/yV28iGW0nS-R6ZgQnfOrpfZlCzQu-1Ng1TH6aWD8QOg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 1462
+source-wordcount: 1450
 ht-degree: 2%
 
 ---
 
-# AI Assistant를 사용하여 텍스트 생성 {#generative-text}
+# 텍스트 생성 {#generative-text}
 
 >[!IMPORTANT]
 >
 >이 기능의 사용을 시작하기 전에 관련 [보호 기능 및 제한 사항](generative-gs.md#generative-guardrails)을 읽어 보십시오.
 ></br>
 >
->Adobe Campaign 웹에서 AI Assistant를 사용하기 전에 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
+>AI를 사용하여 Adobe Campaign 웹에서 콘텐츠를 생성하려면 먼저 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
 
-Adobe Campaign 웹의 AI Assistant를 사용하여 대상자에게 반향을 일으키는 매력적인 텍스트를 생성하십시오. 이메일 사본 향상, 설득력 있는 랜딩 페이지 콘텐츠 제작, 푸시 알림 메시지 작성 또는 SMS 텍스트 작성 여부에 관계없이 AI Assistant를 통해 명확하고 효과적인 커뮤니케이션을 제공할 수 있습니다.
+Adobe Campaign 웹의 AI를 사용하여 대상자에게 반향을 불러일으키는 매력적인 텍스트를 생성하십시오. 이메일 사본 향상, 설득력 있는 랜딩 페이지 콘텐츠 제작, 푸시 알림 메시지 작성, SMS 텍스트 작성 등 AI를 통해 명확하고 영향력 있는 커뮤니케이션을 제공할 수 있습니다.
 
 ## 이메일 및 랜딩 페이지의 경우 {#email-web-channels}
 
-AI Assistant는 이메일 게재 및 랜딩 페이지에 대한 고품질 텍스트 콘텐츠를 생성할 수 있습니다. 이 기능을 사용하면 디지털 터치포인트에서 대상과 연결하는 매력적인 브랜드 내 메시지를 만들 수 있습니다.
+AI를 사용하여 이메일 게재 및 랜딩 페이지에 대한 고품질 텍스트 콘텐츠를 생성합니다. 이 기능을 사용하면 디지털 터치포인트에서 대상과 연결하는 매력적인 브랜드 내 메시지를 만들 수 있습니다.
 
 ### 액세스 및 구성 {#access-configure}
 
-AI Assistant를 사용하여 텍스트 콘텐츠 생성을 시작하려면 먼저 게재를 설정하고 콘텐츠 편집기에 액세스해야 합니다. 다음 단계에 따라 작업 영역을 준비하고 AI Assistant 패널을 엽니다.
+AI를 사용하여 텍스트 콘텐츠를 생성하기 전에 게재를 설정하고 콘텐츠 편집기에 액세스해야 합니다. 다음 단계에 따라 작업 공간을 준비하고 콘텐츠 생성 패널을 엽니다.
 
 1. 게재 만들기 및 구성:
 
    * **전자 메일**: 전자 메일 게재를 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요. [자세히 알아보기](../email/create-email-content.md)
    * **랜딩 페이지**: 랜딩 페이지를 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요. [자세히 알아보기](../landing-pages/create-lp.md)
 
-1. 특정 콘텐츠를 타깃팅할 **[!UICONTROL 텍스트 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL AI Assistant]** 메뉴에 액세스합니다.
+1. 특정 콘텐츠를 타깃팅할 **[!UICONTROL 텍스트 구성 요소]**&#x200B;를 선택하고 **[!UICONTROL 콘텐츠 생성]** 메뉴에 액세스합니다.
 
    ![Adobe Campaign 웹에서 텍스트 구성 요소 선택을 보여 주는 스크린샷](assets/text-genai-1.png){zoomable="yes"}
 
-### 콘텐츠 생성 {#generate-content}
+### 텍스트 생성 {#generate-content}
 
-AI Assistant를 사용하여 명확한 프롬프트를 만들고, 설정을 미세 조정하고, 맞춤 텍스트를 생성하여 메시지가 브랜드 및 커뮤니케이션 목표에 맞게 조절되도록 하는 방법에 대해 알아봅니다.
+AI를 사용하여 명확한 프롬프트를 만들고, 설정을 미세 조정하고, 맞춤 텍스트를 생성하여 메시징이 브랜드 및 커뮤니케이션 목표에 부합하도록 하는 방법에 대해 알아봅니다.
 
 1. AI 생성 콘텐츠가 브랜드 사양에 맞게 조정되도록 하려면 **[!UICONTROL 브랜드]**&#x200B;를 선택하십시오. 브랜드에 대해 [자세히 알아보기](brands.md).
 
@@ -60,12 +57,12 @@ AI Assistant를 사용하여 명확한 프롬프트를 만들고, 설정을 미�
 
    * **[!UICONTROL 커뮤니케이션 전략]**: 생성된 텍스트에 가장 적합한 커뮤니케이션 스타일을 선택합니다.
    * **[!UICONTROL 언어]**: 생성된 콘텐츠의 언어를 선택합니다.
-   * **[!UICONTROL 음색]**: 전자 메일의 음색이 대상자에게 울려 퍼지도록 합니다. AI Assistant는 유익하거나, 유쾌하거나, 설득력 있게 들리고자 할 때 메시지를 적절히 조정합니다.
+   * **[!UICONTROL 음색]**: 전자 메일의 음색이 대상자에게 울려 퍼지도록 합니다. AI는 여러분이 유익하거나, 장난스럽거나, 설득력 있게 들리기를 원하든 관계없이 메시지를 그에 따라 조정합니다.
    * **텍스트 길이**: 슬라이더를 사용하여 원하는 텍스트 길이를 선택합니다.
 
      ![Adobe Campaign 웹에서 텍스트 설정 옵션을 보여 주는 스크린샷](assets/text-genai-4.png){zoomable="yes"}
 
-1. **[!UICONTROL 참조 콘텐츠]** 메뉴에서 **[!UICONTROL 파일 업로드]**&#x200B;를 클릭하여 추가 컨텍스트 AI 도우미를 제공할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가하거나 이전에 업로드한 콘텐츠를 선택합니다.
+1. **[!UICONTROL 참조 콘텐츠]** 메뉴에서 **[!UICONTROL 파일 업로드]**&#x200B;를 클릭하여 추가 컨텍스트 AI를 제공하거나 이전에 업로드한 콘텐츠를 선택할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가합니다.
 
    이전에 업로드한 파일은 **[!UICONTROL 업로드된 참조 콘텐츠]** 드롭다운에서 사용할 수 있습니다. 세대에 포함할 자산을 전환하기만 하면 됩니다.
 
@@ -110,11 +107,11 @@ AI Assistant를 사용하여 명확한 프롬프트를 만들고, 설정을 미�
 
 ## 모바일 채널용 {#mobile-channels}
 
-AI Assistant는 푸시 알림 및 SMS 메시지에 대한 매력적인 텍스트 콘텐츠를 생성하여 모든 모바일 터치포인트에서 대상자와 연결하는 매력적인 모바일 커뮤니케이션을 만들 수 있습니다.
+AI를 사용하여 푸시 알림 및 SMS 메시지에 대한 매력적인 텍스트 콘텐츠를 생성하여 모든 모바일 터치포인트에서 대상자와 연결하는 매력적인 모바일 커뮤니케이션을 만들 수 있습니다.
 
 ### 액세스 및 구성 {#mobile-access-configure}
 
-모바일 채널용 AI Assistant를 사용하여 텍스트 생성을 시작하려면 먼저 게재를 설정하고 AI Assistant에 액세스해야 합니다.
+모바일 채널용 AI를 사용하여 텍스트 생성을 시작하려면 먼저 게재를 설정하고 콘텐츠 생성에 액세스해야 합니다.
 
 1. 모바일 게재를 만들고 구성합니다.
    * **푸시 알림**: 푸시 알림 게재를 만들고 구성한 후 **[!UICONTROL 콘텐츠 편집]**&#x200B;을 클릭하세요. [자세히 알아보기](../push/create-push.md)
@@ -124,13 +121,13 @@ AI Assistant는 푸시 알림 및 SMS 메시지에 대한 매력적인 텍스트
    * **푸시 알림**: [자세히 알아보기](../push/content-push.md)
    * **SMS**: [자세히 알아보기](../sms/content-sms.md)
 
-1. **[!UICONTROL AI Assistant 표시]** 메뉴에 액세스합니다.
+1. **[!UICONTROL 콘텐츠 생성 표시]** 메뉴에 액세스합니다.
 
-   ![AI Assistant 메뉴 표시를 보여주는 스크린샷](assets/sms-genai-1.png){zoomable="yes"}
+   ![콘텐츠 생성 표시 메뉴를 보여 주는 스크린샷](assets/sms-genai-1.png){zoomable="yes"}
 
-### 콘텐츠 생성 {#mobile-generate-content}
+### 텍스트 생성 {#mobile-generate-content}
 
-AI Assistant에 액세스하면 생성 설정을 구성하여 브랜드 및 게재 목표와 일치하는 모바일 콘텐츠를 만들 수 있습니다. 텍스트 매개 변수를 사용자 지정하고, 브랜드 자산을 추가하고, AI가 관련 변형을 생성하는 데 도움이 되는 프롬프트를 제공합니다.
+콘텐츠 생성에 액세스하면 생성 설정을 구성하여 브랜드 및 게재 목표에 맞는 모바일 콘텐츠를 만들 수 있습니다. 텍스트 매개 변수를 사용자 지정하고, 브랜드 자산을 추가하고, AI가 관련 변형을 생성하는 데 도움이 되는 프롬프트를 제공합니다.
 
 1. AI 생성 콘텐츠가 브랜드 사양에 맞게 조정되도록 하려면 **[!UICONTROL 브랜드]**&#x200B;를 선택하십시오. 브랜드에 대해 [자세히 알아보기](brands.md).
 
@@ -138,7 +135,7 @@ AI Assistant에 액세스하면 생성 설정을 구성하여 브랜드 및 게�
 
    프롬프트 작성에 도움이 필요한 경우 게재를 개선하기 위한 다양한 프롬프트 아이디어를 제공하는 **[!UICONTROL 프롬프트 라이브러리]**&#x200B;에 액세스하십시오. [프롬프트 모범 사례에 대해 자세히 알아보기](ai-assistant-prompting-guide.md)
 
-   ![프롬프트 필드 및 옵션이 있는 AI 길잡이](assets/sms-genai-2.png){zoomable="yes"}
+   ![프롬프트 필드 및 옵션을 사용하여 콘텐츠 생성](assets/sms-genai-2.png){zoomable="yes"}
 
 1. **푸시 알림의 경우** 생성할 텍스트 필드를 선택하십시오. **[!UICONTROL 제목]**, **[!UICONTROL 자막]** 및/또는 **[!UICONTROL 메시지]**.
 
@@ -146,12 +143,12 @@ AI Assistant에 액세스하면 생성 설정을 구성하여 브랜드 및 게�
 
    * **[!UICONTROL 커뮤니케이션 전략]**: 생성된 텍스트에 가장 적합한 커뮤니케이션 스타일을 선택합니다.
    * **[!UICONTROL 언어]**: 생성된 콘텐츠의 언어를 선택합니다.
-   * **[!UICONTROL 음색]**: 음색이 청중에게 울려 퍼집니다. AI 어시스턴트는 유익하거나, 장난스럽거나, 설득력 있게 들리고자 하는 경우 해당 메시지를 적절하게 조정할 수 있습니다.
+   * **[!UICONTROL 음색]**: 음색이 청중에게 울려 퍼집니다. AI는 여러분이 유익하거나, 장난스럽거나, 설득력 있게 들리기를 원하든 관계없이 메시지를 그에 따라 조정할 수 있습니다.
    * **[!UICONTROL 길이]**: 범위 슬라이더를 사용하여 콘텐츠의 길이를 선택합니다.
 
      ![텍스트 설정 패널](assets/sms-genai-3.png){zoomable="yes"}
 
-1. **[!UICONTROL 참조 콘텐츠]** 메뉴에서 **[!UICONTROL 파일 업로드]**&#x200B;를 클릭하여 추가 컨텍스트 AI 도우미를 제공할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가하거나 이전에 업로드한 콘텐츠를 선택합니다.
+1. **[!UICONTROL 참조 콘텐츠]** 메뉴에서 **[!UICONTROL 파일 업로드]**&#x200B;를 클릭하여 추가 컨텍스트 AI를 제공하거나 이전에 업로드한 콘텐츠를 선택할 수 있는 콘텐츠가 포함된 브랜드 자산을 추가합니다.
 
    이전에 업로드한 파일은 **[!UICONTROL 업로드된 참조 콘텐츠]** 드롭다운에서 사용할 수 있습니다. 세대에 포함할 자산을 전환하기만 하면 됩니다.
 
@@ -177,7 +174,7 @@ AI Assistant에 액세스하면 생성 설정을 구성하여 브랜드 및 게�
 
    * **[!UICONTROL 구문 변경]**: 의미를 유지하면서 메시지를 다시 작성합니다. 이 옵션은 핵심 메시지를 변경하지 않고 대체 단어를 생성하거나, 흐름을 개선하거나, 구문 조정을 하는 데 도움이 됩니다.
 
-   * **[!UICONTROL 더 간단한 언어 사용]**: AI Assistant를 사용하여 언어를 단순화함으로써 더 많은 대상자가 명확하고 쉽게 사용할 수 있습니다.
+   * **[!UICONTROL 더 간단한 언어 사용]**: AI를 사용하여 언어를 편집/개선하여 더 많은 대상자가 명확하고 쉽게 사용할 수 있도록 합니다.
 
    * **[!UICONTROL 번역]**: 언어를 단순화하여 더 많은 대상자가 명확하고 쉽게 이용할 수 있도록 합니다.
 

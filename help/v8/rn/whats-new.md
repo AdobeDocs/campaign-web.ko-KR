@@ -4,23 +4,14 @@ title: Campaign Web 사용자 인터페이스의 새로운 기능
 description: Campaign Web 사용자 인터페이스에서 제공하는 새로운 기능 살펴보기
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 TQID: https://experienceleague.adobe.com/pR1iKb30qV4nynpuQ8daJoivMS7HX5DKHzIVFLVDPAY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 1327
-ht-degree: 100%
+source-wordcount: 1326
+ht-degree: 96%
 
 ---
 
@@ -85,13 +76,13 @@ Adobe Campaign에서는 이메일, SMS, 푸시 알림 등 크로스 채널 캠�
 * 기본 제공 보고서로 전송 및 측정 결과 모니터링 - [자세히 알아보기](../reporting/delivery-reports.md)
 
 
-**AI 어시스턴트를 통한 콘텐츠 생성**
+**콘텐츠 생성으로 콘텐츠 생성**
 
 Microsoft Azure OpenAI와 Adobe Firefly에서 제공하는 혁신적인 콘텐츠 디자이너를 통해 수동으로 콘텐츠를 만드는 번거로움과 작별하고 간소화된 캠페인의 새로운 시대를 맞이하십시오.
 
-간편함과 효율성을 고려하여 설계된 고급 WYSIWYG 드래그 앤 드롭 편집기로 콘텐츠 게재 방식을 새롭게 정의할 수 있습니다. 원활한 AEM 통합, 동적 콘텐츠 기능, 획기적인 AI 어시스턴트를 갖춘 이 올인원 툴을 사용하면 직관적이고 효율적이며 고도로 개인화된 게재 내용 작성이 가능합니다.
+간편함과 효율성을 고려하여 설계된 고급 WYSIWYG 드래그 앤 드롭 편집기로 콘텐츠 게재 방식을 새롭게 정의할 수 있습니다. 매끄러운 AEM 통합, 다이내믹 콘텐츠 기능 및 획기적인 콘텐츠 생성 기능을 제공하는 이 올인원 도구는 게재 생성을 직관적이고 효율적이며 고도로 개인화해줍니다.
 
-AI 어시스턴트의 고급 알고리즘을 활용하여 결과를 이끌어내는 매력적이고 맞춤화된 콘텐츠를 제작할 수 있습니다. AI 기반 지능형 콘텐츠 생성을 통해 열람률, 클릭스루 및 전환율을 높여 보십시오. [이 섹션](../content/generative-gs.md)에서 자세히 알아보십시오.
+AI의 고급 알고리즘의 기능을 활용하여 결과를 도출하는 매력적인 맞춤 콘텐츠를 제작할 수 있습니다. AI 기반 지능형 콘텐츠 생성을 통해 열람률, 클릭스루 및 전환율을 높여 보십시오. [이 섹션](../content/generative-gs.md)에서 자세히 알아보십시오.
 
 **새롭고 재설계된 캠페인 워크플로 활동**
 

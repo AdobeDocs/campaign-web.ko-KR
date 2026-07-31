@@ -5,30 +5,16 @@ role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
 TQID: https://experienceleague.adobe.com/ef945wiVtBxLFJEMMYmrrSHMg8ZtxFn-UUkEE7ntk58
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 1589
-ht-degree: 29%
+ht-degree: 28%
 
 ---
 
@@ -114,31 +100,31 @@ Campaign Standard 사용자가 Adobe Campaign v8로 전환하면 다음과 같�
 
   Adobe Experience Manager as a Cloud Service은 클라우드 기반의 민첩성을 제공하여 변화하는 비즈니스 요구에 신속하게 대응하고 적응할 수 있도록 해줍니다. 이 통합을 통해 콘텐츠 관리 기능이 향상될 뿐만 아니라 모든 접점에서 고객에게 보다 개인화되고 흥미로운 경험을 전달할 수 있습니다.
 
-* **AI 어시스턴트**
+* **콘텐츠 생성**
 
-  Campaign AI Assistant를 사용하면 시간을 절약하고 효율성을 개선하며 더 나은 결과를 도출하는 동시에 직관적이고 단순하며 번거롭지 않은 이메일, SMS 및 푸시와 같은 채널 전반에서 마케팅 캠페인을 만들고 실행할 수 있습니다.
+  캠페인 콘텐츠 생성 을 사용하면 시간을 절약하고, 효율성을 개선하고, 더 나은 결과를 도출하는 동시에 직관적이고 간단하며 번거롭지 않은 이메일, SMS 및 푸시와 같은 채널 전반에서 마케팅 캠페인을 만들고 실행할 수 있습니다.
 
   ![](../../v8/email/assets/full-email-1.png){zoomable="yes"}
 
-  AI Assistant는 채널 전반에서 전문적이고 브랜드 일관적인 콘텐츠를 만드는 방식을 혁신합니다. 고급 GenAI 모델과 브랜드 가이드라인에 대한 깊은 이해를 바탕으로 AI Assistant는 브랜드 윤곽이 잡힌 스타일, 레이아웃, 색조 등에 최적화된 콘텐츠로 마케팅 목표를 기반으로 개인화되고, 매력적이며, 효과적인 콘텐츠를 자동 생성합니다.
+  콘텐츠 생성 은 채널 전반에서 전문적이고 브랜드 일관적인 콘텐츠를 만드는 방법에 혁명을 가져왔습니다. 고급 GenAI 모델과 브랜드 가이드라인에 대한 깊은 이해를 바탕으로 콘텐츠 생성 은 브랜드 윤곽이 잡힌 스타일, 레이아웃, 색조 등에 최적화된 콘텐츠로 마케팅 목표를 기반으로 개인화되고, 매력적이고, 효과적인 콘텐츠를 자동 생성합니다.
 
-  AI Assistant를 통해 마케팅 캠페인을 직관적이고, 단순하며, 번거롭지 않게 작성 및 실행할 수 있으며 시간을 절약하고, 효율성을 개선하고, 더 나은 결과를 얻을 수 있습니다.
+  콘텐츠 생성 을 사용하면 마케팅 캠페인을 직관적이고, 단순하고, 번거롭지 않게 만들고, 시간을 절약하고, 효율성을 개선하고, 더 나은 결과를 얻을 수 있습니다.
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  변형 이메일 템플릿을 제공하고 이미지를 생성 및 재생성합니다. [이 섹션](../../v8/content/generative-full-content.md)에서 AI Assistant에 대해 자세히 알아보세요. Adobe Campaign v8에는 [이메일](../../v8/content/generative-full-content.md), [SMS](../../v8/content/generative-text.md) 및 [푸시](../../v8/content/generative-full-content.md)에 사용할 수 있는 AI 도우미가 있습니다.
+  변형 이메일 템플릿을 제공하고 이미지를 생성 및 재생성합니다. [이 섹션](../../v8/content/generative-full-content.md)에서 콘텐츠 생성에 대해 자세히 알아보세요. Adobe Campaign v8에서 [이메일](../../v8/content/generative-full-content.md), [SMS](../../v8/content/generative-text.md) 및 [푸시](../../v8/content/generative-full-content.md)에 사용할 수 있는 콘텐츠 생성을 했습니다.
 
 * **업그레이드된 SMS 인프라 - SMS v2.0**
 
   SMS의 사용 편의성과 단순성은 수십억 개의 단말기에 대한 견고성과 독보적인 호환성에 더해 매우 가치 있는 커뮤니케이션 채널입니다.
 
-  Adobe Campaign v8에는 SMS 전송을 개선하는 새로운 인프라가 포함되어 있습니다. [새 SMS 설정에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
+  Adobe Campaign v8에는 SMS 전송을 개선하는 새로운 인프라가 포함되어 있습니다. [새 SMS 설정에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
 
 * **업그레이드된 푸시 인프라**
 
   Adobe Campaign v8에서는 최신 첨단 기술을 기반으로 구축된 강력한 프레임워크에서 제공하는 최신 푸시 알림 서비스를 도입했습니다. 이 서비스는 새로운 차원의 확장성을 제공하도록 설계되었으므로, 원활한 효율성으로 더 많은 대상자에게 알림이 전달될 수 있습니다. 향상된 인프라와 최적화된 프로세스를 통해 더 높은 규모와 신뢰성을 기대할 수 있으며, 이전과 달리 모바일 앱 사용자를 참여시키고 연결할 수 있는 역량을 확보할 수 있습니다.
 
-  [업그레이드된 푸시 인프라에 대해 자세히 알아보세요](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
+  [업그레이드된 푸시 인프라에 대해 자세히 알아보세요](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
 
 
 ## Managed Services {#ac-managed-services}
@@ -153,7 +139,7 @@ Campaign v8로 원활하게 전환할 수 있도록 주요 Campaign Standard 기
 
 * **중앙 집중식 브랜딩**: 모든 회사에는 브랜드 시각적 및 기술적 지침이 있습니다. Adobe Campaign을 사용하면 로고에서부터 이메일 발신자, URL 또는 도메인과 같은 기술적 측면까지 일관된 브랜드를 고객에게 제시하기 위해 일련의 사양을 정의할 수 있습니다. [자세히 알아보기](../../v8/administration/branding/branding-gs.md)
 
-* **REST API** - Campaign Standard 마이그레이션 사용자인 경우 REST API를 사용하여 Adobe Campaign을 통합하고 사용하는 기술 패널과 Adobe Campaign을 인터페이스하여 자체 에코시스템을 구축할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ko){target="_blank"}
+* **REST API** - Campaign Standard 마이그레이션 사용자인 경우 REST API를 사용하여 Adobe Campaign을 통합하고 사용하는 기술 패널과 Adobe Campaign을 인터페이스하여 자체 에코시스템을 구축할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}
 
 * **랜딩 페이지** - Campaign Standard와의 기능 패리티를 보장하기 위해 Campaign v8 랜딩 페이지에 일부 개선 사항이 적용되었습니다. [릴리스 정보](../../v8/rn/release-notes.md#new-24-4) 및 랜딩 페이지 [설명서](../../v8/landing-pages/get-started-lp.md)에서 자세한 내용을 살펴보십시오.
 
@@ -249,5 +235,5 @@ Campaign v8로 원활하게 전환할 수 있도록 주요 Campaign Standard 기
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/ko/docs/campaign-standard/using/release-notes/deprecated-features).
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).
 -->

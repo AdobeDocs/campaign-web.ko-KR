@@ -25,10 +25,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 1589
-ht-degree: 29%
+ht-degree: 28%
 
 ---
 
@@ -114,19 +114,19 @@ Campaign Standard 사용자가 Adobe Campaign v8로 전환하면 다음과 같�
 
   Adobe Experience Manager as a Cloud Service은 클라우드 기반의 민첩성을 제공하여 변화하는 비즈니스 요구에 신속하게 대응하고 적응할 수 있도록 해줍니다. 이 통합을 통해 콘텐츠 관리 기능이 향상될 뿐만 아니라 모든 접점에서 고객에게 보다 개인화되고 흥미로운 경험을 전달할 수 있습니다.
 
-* **AI 어시스턴트**
+* **콘텐츠 생성**
 
-  Campaign AI Assistant를 사용하면 시간을 절약하고 효율성을 개선하며 더 나은 결과를 도출하는 동시에 직관적이고 단순하며 번거롭지 않은 이메일, SMS 및 푸시와 같은 채널 전반에서 마케팅 캠페인을 만들고 실행할 수 있습니다.
+  캠페인 콘텐츠 생성 을 사용하면 시간을 절약하고, 효율성을 개선하고, 더 나은 결과를 도출하는 동시에 직관적이고 간단하며 번거롭지 않은 이메일, SMS 및 푸시와 같은 채널 전반에서 마케팅 캠페인을 만들고 실행할 수 있습니다.
 
   ![](../../v8/email/assets/full-email-1.png){zoomable="yes"}
 
-  AI Assistant는 채널 전반에서 전문적이고 브랜드 일관적인 콘텐츠를 만드는 방식을 혁신합니다. 고급 GenAI 모델과 브랜드 가이드라인에 대한 깊은 이해를 바탕으로 AI Assistant는 브랜드 윤곽이 잡힌 스타일, 레이아웃, 색조 등에 최적화된 콘텐츠로 마케팅 목표를 기반으로 개인화되고, 매력적이며, 효과적인 콘텐츠를 자동 생성합니다.
+  콘텐츠 생성 은 채널 전반에서 전문적이고 브랜드 일관적인 콘텐츠를 만드는 방법에 혁명을 가져왔습니다. 고급 GenAI 모델과 브랜드 가이드라인에 대한 깊은 이해를 바탕으로 콘텐츠 생성 은 브랜드 윤곽이 잡힌 스타일, 레이아웃, 색조 등에 최적화된 콘텐츠로 마케팅 목표를 기반으로 개인화되고, 매력적이고, 효과적인 콘텐츠를 자동 생성합니다.
 
-  AI Assistant를 통해 마케팅 캠페인을 직관적이고, 단순하며, 번거롭지 않게 작성 및 실행할 수 있으며 시간을 절약하고, 효율성을 개선하고, 더 나은 결과를 얻을 수 있습니다.
+  콘텐츠 생성 을 사용하면 마케팅 캠페인을 직관적이고, 단순하고, 번거롭지 않게 만들고, 시간을 절약하고, 효율성을 개선하고, 더 나은 결과를 얻을 수 있습니다.
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  변형 이메일 템플릿을 제공하고 이미지를 생성 및 재생성합니다. [이 섹션](../../v8/content/generative-full-content.md)에서 AI Assistant에 대해 자세히 알아보세요. Adobe Campaign v8에는 [이메일](../../v8/content/generative-full-content.md), [SMS](../../v8/content/generative-text.md) 및 [푸시](../../v8/content/generative-full-content.md)에 사용할 수 있는 AI 도우미가 있습니다.
+  변형 이메일 템플릿을 제공하고 이미지를 생성 및 재생성합니다. [이 섹션](../../v8/content/generative-full-content.md)에서 콘텐츠 생성에 대해 자세히 알아보세요. Adobe Campaign v8에서 [이메일](../../v8/content/generative-full-content.md), [SMS](../../v8/content/generative-text.md) 및 [푸시](../../v8/content/generative-full-content.md)에 사용할 수 있는 콘텐츠 생성을 했습니다.
 
 * **업그레이드된 SMS 인프라 - SMS v2.0**
 

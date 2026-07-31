@@ -10,7 +10,7 @@ feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
 topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 542
 ht-degree: 2%
@@ -75,7 +75,7 @@ ht-degree: 2%
 
    ![](assets/brands-15.png)
 
-1. 구성하고 나면 **[!UICONTROL 저장]**&#x200B;을 클릭한 다음 **[!UICONTROL 게시]**&#x200B;을 클릭하여 브랜드 지침을 AI Assistant에서 사용할 수 있도록 만드십시오.
+1. 구성이 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭한 다음 **[!UICONTROL 게시]**&#x200B;을 클릭하여 브랜드 지침을 콘텐츠 생성에서 사용할 수 있도록 합니다.
 
 1. 게시된 브랜드를 수정하려면 **[!UICONTROL 브랜드 편집]**&#x200B;을 클릭하세요.
 
@@ -97,7 +97,7 @@ ht-degree: 2%
 
    ![브랜드 대시보드의 고급 메뉴 옵션](assets/brands-6.png)
 
-이제 AI Assistant 메뉴의 **[!UICONTROL 브랜드]** 드롭다운에서 브랜드 지침에 액세스할 수 있습니다. 이를 통해 AI Assistant는 사용자 사양에 맞게 콘텐츠 및 에셋을 생성할 수 있습니다. [AI Assistant에 대해 자세히 알아보기](../content/generative-gs.md)
+이제 [콘텐츠 생성] 메뉴의 **[!UICONTROL 브랜드]** 드롭다운에서 브랜드 지침에 액세스할 수 있습니다. 이를 통해 AI는 사용자 사양에 맞게 콘텐츠 및 에셋을 생성할 수 있습니다. [콘텐츠 생성에 대해 자세히 알아보기](../content/generative-gs.md)
 
 브랜드 지침을 사용하여 콘텐츠 품질과 브랜드 정렬을 평가할 수도 있습니다. [콘텐츠 품질 유효성 검사에 대해 자세히 알아보기](brands-score.md#validate-quality)
 

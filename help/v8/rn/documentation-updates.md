@@ -7,10 +7,10 @@ hide: true
 TQID: https://experienceleague.adobe.com/vmGBr2-v9PG2veid6Tg-TV2r3h-Y2DqcZcBKkCdVu7E
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 057c090eff18a183890d4996b580d74b5aa4732d
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 138
-ht-degree: 55%
+ht-degree: 33%
 
 ---
 
@@ -27,5 +27,5 @@ ht-degree: 55%
 
 **날짜: 2025년 12월 1일**
 
-* [전체 콘텐츠 생성](../content/generative-full-content.md), [텍스트 생성](../content/generative-text.md) 및 [이미지 생성](../content/generative-image.md)에 대한 통합 페이지로 AI 어시스턴트 설명서 가이드를 재구성했습니다.
-* 사용자가 효과적인 프롬프트를 만들 수 있도록 [AI 어시스턴트 프롬프트 모범 사례 가이드](../content/ai-assistant-prompting-guide.md)를 추가했습니다.
+* [전체 콘텐츠 생성](../content/generative-full-content.md), [텍스트 생성](../content/generative-text.md) 및 [이미지 생성](../content/generative-image.md)에 대한 통합 페이지로 콘텐츠 생성 설명서 안내서를 재구성했습니다.
+* 사용자가 효과적인 프롬프트를 작성할 수 있도록 [콘텐츠 프롬프트 생성 모범 사례 안내서](../content/ai-assistant-prompting-guide.md)를 추가했습니다.

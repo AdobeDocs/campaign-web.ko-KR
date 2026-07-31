@@ -1,5 +1,5 @@
 ---
-title: AI Assistant 콘텐츠 프롬프트 안내서
+title: 콘텐츠 생성 안내
 description: CO-STAR 프레임워크를 사용하여 AI 기반 콘텐츠 생성을 위한 효과적인 프롬프트를 만들어 고도로 전환하고 브랜드 맞춤화된 마케팅 콘텐츠를 만드는 방법에 대해 알아봅니다.
 role: User
 level: Intermediate
@@ -19,21 +19,21 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 2055
-ht-degree: 1%
+source-wordcount: 2054
+ht-degree: 0%
 
 ---
 
-# AI 어시스턴트 프롬프트 모범 사례 {#ai-assistant-prompting-guide}
+# 콘텐츠 프롬프트 모범 사례 생성 {#ai-assistant-prompting-guide}
 
 이 안내서는 요청을 구조화하고, 의도를 명확하게 전달하며, AI가 브랜드 지침, 대상 요구 사항 및 캠페인 목표에 맞는 메시지를 생성하도록 도와줍니다.
-AI Assistant를 통해 목표에 맞는 고품질의 온-브랜드 마케팅 콘텐츠를 생성할 수 있는 효과적인 프롬프트를 작성하는 방법을 알아봅니다.
+AI가 목적에 맞게 고품질의 브랜드 내 마케팅 콘텐츠를 생성할 수 있도록 하는 효과적인 프롬프트를 작성하는 방법을 알아봅니다.
 
 ## CO-STAR 프레임워크 사용 {#costar-framework}
 
-AI Assistant를 사용하여 최상의 결과를 얻으려면 CO-STAR 프레임워크를 사용하여 프롬프트를 구성하십시오. 이러한 구조화된 접근 방식은 AI가 사용자가 필요로 하는 것을 정확히 이해할 수 있도록 해줍니다.
+콘텐츠 생성을 통해 최상의 결과를 얻으려면 CO-STAR 프레임워크를 사용하여 프롬프트를 구성합니다. 이러한 구조화된 접근 방식은 AI가 사용자가 필요로 하는 것을 정확히 이해할 수 있도록 해줍니다.
 
 | 구성 요소 | 의미 | 중요한 이유 |
 |-|-|-|

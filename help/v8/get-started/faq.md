@@ -7,10 +7,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 865
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 +++ 새로운 웹 사용자 인터페이스의 새로운 기능은 무엇입니까?
 
-Adobe Campaign v8의 새로운 사용자 인터페이스는 Adobe Experience Platform과의 일관성을 유지하며 마케팅 효율성을 개선하도록 설계되었습니다. 새 워크플로 캔버스에서는 대상자 컴포지션, 워크플로 관리, 콘텐츠 디자인을 위한 직관적인 고급 작업 영역을 제공하며, Journey Optimizer와 Real-Time CDP와 같은 Adobe Experience Platform 기본 애플리케이션을 통한 통합된 사용 사례를 제공합니다. WYSIWYG 메시지 디자이너에 기본적으로 임베드되는 AI 어시스턴트를 사용하면 창의성을 자극하고 생산성을 높이며 대규모 크로스 채널 캠페인을 개인화할 수 있습니다.
+Adobe Campaign v8의 새로운 사용자 인터페이스는 Adobe Experience Platform과의 일관성을 유지하며 마케팅 효율성을 개선하도록 설계되었습니다. 새 워크플로 캔버스에서는 대상자 컴포지션, 워크플로 관리, 콘텐츠 디자인을 위한 직관적인 고급 작업 영역을 제공하며, Journey Optimizer와 Real-Time CDP와 같은 Adobe Experience Platform 기본 애플리케이션을 통한 통합된 사용 사례를 제공합니다. WYSIWYG 메시지 디자이너에 기본적으로 포함된 콘텐츠 생성을 통해 창의성을 활성화하고, 생산성을 높이고, 다양한 규모의 크로스 채널 캠페인을 개인화할 수 있습니다.
 
 마케터는 생성형 AI를 사용하여 전체 HTML 이메일 아이디어를 구상하고 텍스트와 이미지를 생성한 다음 제안되는 수정 및 변형 사항을 적용할 수 있습니다. 새로운 기능과 성능은 [이 페이지](../rn/whats-new.md)에서 검토할 수 있습니다. 새로운 인터페이스에 대해 자세히 알아보고 실제 작동을 보려면 [이 페이지](../get-started/user-interface.md)를 참조하십시오. 또한 [튜토리얼](https://experienceleague.adobe.com/ko/docs/campaign-web-learn/tutorials/overview){target="_blank"}을 참조하여 다양한 사용 방법 비디오를 통해 새로운 인터페이스에 대해 자세히 알아볼 수 있습니다.
 

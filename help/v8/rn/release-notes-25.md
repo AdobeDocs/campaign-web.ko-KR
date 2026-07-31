@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 3032
-ht-degree: 100%
+source-wordcount: 3030
+ht-degree: 98%
 
 ---
 
@@ -852,15 +852,15 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 <table>
 <thead>
 <tr>
-<th><strong>AI 어시스턴트를 사용하여 랜딩 페이지 생성</strong><br/></th>
+<th><strong>콘텐츠 생성을 통해 랜딩 페이지 생성</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 AI 어시스턴트를 랜딩 페이지 게재에 사용할 수 있으며 이를 통해 텍스트, 이미지 또는 전체 페이지 레이아웃을 생성할 수 있습니다.</p>
+<p>이제 랜딩 페이지 게재에서 콘텐츠 생성을 사용할 수 있으므로 텍스트, 이미지를 생성하거나 페이지 레이아웃을 완료할 수 있습니다.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>AI 어시스턴트에 대한 자세한 내용은 <a href="../content/generative-full-content.md">세부 설명서</a>를 참조하십시오.</p>
+<p>콘텐츠 생성에 대한 자세한 내용은 <a href="../content/generative-full-content.md">자세한 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>

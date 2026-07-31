@@ -6,10 +6,10 @@ title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
 nudge: true
-source-git-commit: 68812d0fd77a150e21c40bbae2bb930ddf84a8a0
+source-git-commit: dae21b648eb4278746052eea3a6f33b1f8cc25da
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -134,13 +134,13 @@ ht-degree: 96%
       + [사용자 정의 CSS 추가](email/custom-css.md)
       + [다크 모드 콘텐츠 관리](email/dark-mode.md)
     + [액세스 가능한 콘텐츠 만들기](email/accessible-content.md)
-  + AI 어시스턴트 {#ai-assistant}
-    + [AI 어시스턴트로 작업하기](content/generative-gs.md)
+  + 콘텐츠 생성 {#ai-assistant}
+    + [컨텐츠 생성을 사용하여 작업](content/generative-gs.md)
     + [AI 프롬프트 모범 사례](content/ai-assistant-prompting-guide.md)
     + [AI를 활용한 전체 콘텐츠 생성](content/generative-full-content.md)
     + [AI를 활용한 텍스트 생성](content/generative-text.md)
     + [AI를 활용한 이미지 생성](content/generative-image.md)
-    + [AI 어시스턴트 사용 사례](content/generative-uc.md)
+    + [콘텐츠 사용 사례 생성](content/generative-uc.md)
     + 브랜드 {#ai-assistant}
       + [브랜드 만들기 및 관리](content/brands.md)
       + [브랜드 개인화](content/brands-personalize.md)

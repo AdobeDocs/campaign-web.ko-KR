@@ -4,10 +4,8 @@ title: Adobe Campaign Web을 사용하여 캠페인 만들기
 description: Adobe Campaign Web을 사용하여 크로스 채널 캠페인을 구축하는 방법 알아보기
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 TQID: https://experienceleague.adobe.com/zc1QQ5042HqWicDXw6tJWcQ9T-INs3Fx4odaIXPlQcc
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 455
@@ -19,7 +17,7 @@ ht-degree: 40%
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
->title="캠페인 생성 속성"
+>title="캠페인 만들기 속성"
 >abstract="이 화면에서 캠페인 설정을 정의합니다. 템플릿을 선택하고 캠페인 레이블을 입력합니다. 추가 설정을 찾아 기본 내부 이름, 폴더를 변경하고, 설명을 추가하고, 할당자를 선택합니다."
 
 >[!CONTEXTUALHELP]
@@ -60,7 +58,7 @@ ht-degree: 40%
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
->title="캠페인 예약"
+>title="캠페인 일정"
 >abstract="캠페인 일정을 선택합니다. 캠페인을 만들 수 있으며 시작 날짜가 되면 캠페인이 시작됩니다. 기본적으로 캠페인 시작 날짜는 생성일이며 5일 동안 지속됩니다. 시작 일자와 종료 일자는 캠페인 목록에 표시되고 필터로 사용할 수 있습니다."
 
 시작 날짜에 도달하면 캠페인이 시작됩니다. 시작 날짜에 도달하지 않은 한 캠페인은 **[!UICONTROL 초안]** 상태입니다. 시작 날짜에 도달하면 **[!UICONTROL 진행 중]**(으)로 바뀝니다. 종료 날짜에 도달하면 캠페인이 **[!UICONTROL 완료됨]**(으)로 설정됩니다.

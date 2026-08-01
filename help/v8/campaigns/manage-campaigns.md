@@ -19,7 +19,7 @@ ht-degree: 21%
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_schedule"
->title="캠페인 예약"
+>title="캠페인 일정"
 >abstract="캠페인 일정을 설정하거나 수정합니다."
 
 캠페인에 액세스하고 관리하려면 왼쪽 탐색에서 **[!UICONTROL 캠페인]** 메뉴를 클릭하십시오. 다음 두 가지 탭을 사용할 수 있습니다.

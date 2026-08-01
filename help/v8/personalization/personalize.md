@@ -27,8 +27,8 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_add_current_date"
->title="현재 날짜 추가"
->abstract="이 메뉴는 콘텐츠를 개인화하는 데 활용할 수 있는 날짜 형식 지정과 관련된 기능을 제공합니다."
+>title="현재 일자 추가"
+>abstract="이 메뉴는 콘텐츠를 개인화하는 데 활용할 수 있는 날짜 형식 지정과 관련된 함수를 제공합니다."
 
 게재 콘텐츠 Personalization은 메시지를 개별 수신자에게 맞춤화할 수 있는 주요 기능으로, 커뮤니케이션의 관련성을 높이고 참여를 유도합니다.
 

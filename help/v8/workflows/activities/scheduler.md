@@ -33,7 +33,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
 >title="스케줄러 유효성"
->abstract="스케줄러의 유효 기간을 정의할 수 있습니다. 영구적(기본값)이거나 특정 날짜까지 유효할 수 있습니다."
+>abstract="스케줄러에 대한 유효 기간을 정의할 수 있습니다. 유효 기간은 영구적(기본값)이거나 특정 날짜까지로 설정할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"

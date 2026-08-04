@@ -66,7 +66,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->오퍼 엔진은 가중치를 낮추어 적격 오퍼를 정렬하고 가장 높은 가중치 제안을 먼저 반환합니다. 선택 논리(**중재**)는 상위 범주 및 환경에 구성된 자격 규칙 및 가중치도 고려합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}에서 중재 원칙에 대해 자세히 알아보세요.
+>오퍼 엔진은 가중치를 낮추어 적격 오퍼를 정렬하고 가장 높은 가중치 제안을 먼저 반환합니다. 선택 논리(**중재**)는 상위 범주 및 환경에 구성된 자격 규칙 및 가중치도 고려합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=ko){target="_blank"}에서 중재 원칙에 대해 자세히 알아보세요.
 
 ### 콘텐츠 정의 {#content}
 
@@ -136,5 +136,5 @@ ht-degree: 1%
 
 오퍼가 라이브인 경우 일치하는 오퍼 공간을 타겟팅하는 모든 게재에서 오퍼를 선택할 수 있습니다. [메시지에 오퍼 추가](../msg/offers.md)에서 게재에서 오퍼를 설정하는 방법을 알아봅니다.
 
-엔진 호출 빌드 방법, 오퍼 링크에 추적 기능을 적용하는 방법 등 전체 아웃바운드 게재 통합에 대해서는 [아웃바운드 게재의 Campaign v8 설명서 오퍼](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html){target="_blank"}를 참조하십시오.
+엔진 호출 빌드 방법, 오퍼 링크에 추적 기능을 적용하는 방법 등 전체 아웃바운드 게재 통합에 대해서는 [아웃바운드 게재의 Campaign v8 설명서 오퍼](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html?lang=ko){target="_blank"}를 참조하십시오.
 

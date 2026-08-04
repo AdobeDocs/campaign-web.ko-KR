@@ -4,9 +4,13 @@ title: Adobe Experience Manager as a Cloud Service을 사용하여 에셋 관리
 description: Adobe Experience Manager as a Cloud Service을 사용하여 콘텐츠를 관리하는 방법 알아보기
 exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
 TQID: https://experienceleague.adobe.com/gzygZHjIMZx5Zq-dnSiaUSUKyYdwhrkxFB4eFUXrS90
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: d5ef99fa-df0c-4153-bf94-105ad0724167
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 615
@@ -20,7 +24,7 @@ ht-degree: 5%
 
 Adobe Campaign 웹 인터페이스와 Adobe Experience Manager의 통합을 통해 Adobe Experience Manager 플랫폼 내에서 직접 이메일 게재 콘텐츠 및 양식을 간소화하고 관리할 수 있습니다.
 
-![](assets/do-not-localize/book.png)[Adobe Experience Manager as a Cloud Service에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
+![](assets/do-not-localize/book.png) [Adobe Experience Manager as a Cloud Service에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
 
 ## [!DNL Adobe Experience Manager as a Cloud Service]에서 템플릿 만들기{#create-aem-template}
 

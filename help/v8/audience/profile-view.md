@@ -3,7 +3,8 @@ title: 프로필 세부 정보 살펴보기
 description: 프로필의 세부 정보를 탐색하는 방법을 알아봅니다.
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
 TQID: https://experienceleague.adobe.com/llJ2lDbnfxJFqtpOTHQXzghd2OyIsZD5NtORIuRbSKY
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 249

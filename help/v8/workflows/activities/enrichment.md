@@ -12,8 +12,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
 workflow-type: tm+mt
-source-wordcount: 2327
-ht-degree: 31%
+source-wordcount: 2370
+ht-degree: 30%
 
 ---
 

@@ -3,10 +3,8 @@ audience: end-user
 title: RDBMS(데이터 로드) 워크플로우 활동 사용
 description: RDBMS(데이터 로드) 워크플로우 활동을 사용하는 방법을 알아봅니다
 exl-id: 18c969f7-c94e-4fff-a132-a2114860841f
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 56a7ef49e4ccebcc0fe35abcefcf73d1ff9c1017
 workflow-type: tm+mt
 source-wordcount: 772
@@ -24,7 +22,7 @@ ht-degree: 16%
 **데이터 로드(RDBMS)** 활동은 **데이터 관리** 활동입니다. 이 활동을 사용해 외부 관계형 데이터베이스에서 워크플로로 바로 데이터를 로드할 수 있습니다. 추출된 데이터는 워크플로 전체에서 사용 가능하며 타기팅, 보강 또는 추가 데이터 처리에 사용할 수 있습니다.
 
 <!--
-This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ko){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.
+This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.
 -->
 
 >[!NOTE]

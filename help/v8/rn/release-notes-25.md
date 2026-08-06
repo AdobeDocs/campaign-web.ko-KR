@@ -20,7 +20,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 3030
+source-wordcount: 3118
 ht-degree: 98%
 
 ---
@@ -375,9 +375,9 @@ table>
 <tbody>
 <tr>
 <td>
-<p>이제 나만의 브랜드를 만들고 맞춤 설정하여 모든 커뮤니케이션에서 시각적 및 언어적 정체성을 명확하게 정의할 수 있습니다. 브랜드 일치도 점수를 통해 콘텐츠가 브랜드의 톤, 스타일 및 가이드라인을 얼마나 잘 반영하는지 실시간으로 피드백을 받아볼 수 있으므로 전송하는 모든 메시지에서 일관된 브랜드를 유지할 수 있습니다.
+<p>이제 커뮤니케이션 전반에 걸쳐 시각적, 언어적 정체성을 명확하게 정의하기 위해 자체 브랜드를 만들고 사용자 정의할 수 있습니다. 브랜드 정렬 점수를 사용하면 콘텐츠가 브랜드의 톤, 스타일, 가이드라인을 얼마나 잘 반영하는지에 대한 실시간 피드백을 받을 수 있으므로 보내는 모든 메시지에서 일관되게 브랜드에 맞는 내용을 전달하는 데 도움이 됩니다.
 </p>
-<p>자세한 내용은 <a href="../content/brands.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../content/brands.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -436,8 +436,8 @@ table>
 <tr>
 <td>
 <p>이제 마케팅 활동의 영향을 측정하기 위해 완전히 사용자 정의 가능한 실시간 보고서를 제공하는 동적 보고 기능을 이용할 수 있습니다. 이 기능은 프로필 데이터에 대한 액세스를 추가하여 열기 및 클릭과 같은 기능적 이메일 캠페인 데이터 외에도 성별, 도시, 연령과 같은 프로필 차원별로 인구통계 분석을 지원합니다. 다국어 이메일 게재 및 트랜잭션 메시지에 대한 동적 보고 기능도 제공됩니다.</p>
-<p>이 기능은 온디맨드 방식으로만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오. 서버를 최소 8.8.1로 업그레이드해야 합니다. 클라이언트 콘솔 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ko" target="_blank">릴리스 정보</a>를 참조하십시오.
-<p>자세한 내용은 <a href="../reporting/dynamic-reporting/get-started-reporting.md">세부 설명서</a>를 참조하십시오.</p>
+<p>이 기능은 온디맨드로만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오. 서버를 최소 8.8.1로 업그레이드해야 합니다. 클라이언트 콘솔 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ko" target="_blank">릴리스 정보</a>를 참조하십시오.
+<p>자세한 내용은 <a href="../reporting/dynamic-reporting/get-started-reporting.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -453,8 +453,8 @@ table>
 <tr>
 <td>
 <p>이제 기술 관리자는 브랜드의 정체성에 영향을 미치는 매개변수를 중앙 집중식으로 정의할 수 있습니다. 여기에는 브랜드 로고, 랜딩 페이지의 액세스 URL의 도메인 또는 메시지 추적 설정이 포함됩니다. 이러한 브랜드를 만들어 메시지 또는 랜딩 페이지에 연결할 수 있습니다. 이 구성은 템플릿에서 관리됩니다. SMS 및 다이렉트 메일을 포함한 모든 채널에 대해 브랜딩 옵션을 사용할 수 있습니다.</p>
-<p>이 기능은 새로운 구현에 대해 온디맨드 방식으로만 사용할 수 있습니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오. 서버를 최소 8.8.1로 업그레이드해야 합니다. 클라이언트 콘솔 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ko" target="_blank">릴리스 정보</a>를 참조하십시오.
-<p>자세한 내용은 <a href="../administration/branding/branding-gs.md">세부 설명서</a>를 참조하십시오.</p>
+<p>이 기능은 새로운 구현에 대해서만 온디맨드로 제공됩니다. 액세스 권한을 받으려면 Adobe 담당자에게 문의하십시오. 서버를 최소 8.8.1로 업그레이드해야 합니다. 클라이언트 콘솔 <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ko" target="_blank">릴리스 정보</a>를 참조하십시오.
+<p>자세한 내용은 <a href="../administration/branding/branding-gs.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>
@@ -649,7 +649,8 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 <tbody>
 <tr>
 <td>
-<p>Campaign 관리자는 이제 Campaign Web 사용자 인터페이스에서 외부 시스템과의 새로운 연결을 설정할 수 있습니다. 또한 기존 외부 계정을 조회하고, 업데이트하고, 관리할 수 있습니다.</p>
+<p>캠페인 관리자는 이제 Campaign Web 사용자 인터페이스에서 외부 시스템과의 새로운 연결을 설정할 수 있습니다.
+기존 외부 계정을 보고, 업데이트하고, 관리할 수도 있습니다.</p>
 <p>자세한 내용은 <a href="../administration/external-account.md">세부 설명서</a>를 참조하십시오.</p>
 </td>
 </tr>

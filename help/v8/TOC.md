@@ -9,7 +9,7 @@ nudge: true
 source-git-commit: dae21b648eb4278746052eea3a6f33b1f8cc25da
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -135,7 +135,7 @@ ht-degree: 95%
       + [다크 모드 콘텐츠 관리](email/dark-mode.md)
     + [액세스 가능한 콘텐츠 만들기](email/accessible-content.md)
   + 콘텐츠 생성 {#ai-assistant}
-    + [컨텐츠 생성을 사용하여 작업](content/generative-gs.md)
+    + [콘텐츠 생성 작업](content/generative-gs.md)
     + [AI 프롬프트 모범 사례](content/ai-assistant-prompting-guide.md)
     + [AI를 활용한 전체 콘텐츠 생성](content/generative-full-content.md)
     + [AI를 활용한 텍스트 생성](content/generative-text.md)

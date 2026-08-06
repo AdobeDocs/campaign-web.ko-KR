@@ -4,7 +4,7 @@ description: 데이터 입력 양식을 사용하여 사용자 정의 스키마�
 exl-id: c997d676-bfe1-4e28-9e11-41e902a782c1
 source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '442'
 ht-degree: 1%
 
 ---

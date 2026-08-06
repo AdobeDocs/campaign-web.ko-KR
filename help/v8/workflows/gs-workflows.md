@@ -67,7 +67,7 @@ Adobe Campaign의 그래픽 환경을 통해 세분화, 캠페인 실행, 파일
 </td>
 <td>
 <a href="activities/about-activities.md">
-<img alt="워크플로 활동을 사용하여 작업하기" src="assets/do-not-localize/workflow-activities.jpeg">
+<img alt="워크플로 활동을 사용하여 작업" src="assets/do-not-localize/workflow-activities.jpeg">
 </a>
 <div>
 <a href="activities/about-activities.md"><strong>워크플로 활동을 사용하여 작업하기</strong></a>

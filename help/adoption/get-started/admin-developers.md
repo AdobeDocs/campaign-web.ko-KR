@@ -43,7 +43,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
 workflow-type: tm+mt
-source-wordcount: 3217
+source-wordcount: 3256
 ht-degree: 11%
 
 ---
@@ -126,7 +126,7 @@ Campaign 컨트롤 패널을 통해 각 인스턴스의 사용법을 추적하�
 * **IP 주소 추가** - Campaign Campaign 컨트롤 패널을 사용하면 허용 목록에 IP 주소 범위를 추가하여 인스턴스에 대한 새 연결을 설정할 수 있습니다. [IP 허용 목록 문서](https://experienceleague.adobe.com/ko/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access){target="_blank"}에서 자세히 알아보기
 
 * **하위 도메인 구성** - Adobe Campaign에서 사용할 도메인의 하위 섹션(기술적 명칭은 &quot;DNS 영역&quot;)을 구성할 수 있습니다.
-자세한 내용은 [하위 도메인 위임 설명서](https://experienceleague.adobe.com/ko/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}를 참조하세요.
+자세한 내용은 [하위 도메인 위임 문서](https://experienceleague.adobe.com/ko/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}를 참조하세요.
 
 * **SFTP 서버 관리** - Campaign 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 자세한 내용은 [SFTP 관리 설명서](https://experienceleague.adobe.com/ko/docs/control-panel/using/sftp-management/about-sftp-management){target="_blank"}를 참조하세요
 
@@ -348,7 +348,7 @@ Campaign 인스턴스를 Adobe Experience Cloud 솔루션과 연결하여 기능
 Campaign v8로 마이그레이션하는 Campaign Standard 사용자는 다음과 같습니다.
 
 * Campaign Standard과의 이러한 통합을 사용하는 경우 Adobe에서 **Adobe Analytics** 및 **Audience Manager** 구성 및 데이터를 마이그레이션했습니다.
-* Campaign Standard 환경이 **Adobe Experience Manager**&#x200B;과(와) 통합된 경우 Adobe에서는 Campaign 웹 사용자 인터페이스에서 전자 메일을 디자인할 때 이 기능을 사용하고 Adobe Experience Manager 환경 내에서 직접 전자 메일 게재 콘텐츠 및 양식을 간소화할 수 있도록 **Adobe Experience Manager as a Cloud Service**(으)로 이동하는 것이 좋습니다. 자세한 내용은 [이 페이지](../../v8/integrations/aem-content.md)를 참조하세요.
-Campaign을 Adobe Experience Manager 6.5와 통합할 수도 있습니다. 이 통합을 구성하려면 [이 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}를 참조하십시오.
+* Campaign Standard 환경이 **Adobe Experience Manager**&#x200B;과(와) 통합된 경우 Adobe에서는 Campaign 웹 사용자 인터페이스에서 전자 메일을 디자인할 때 이 기능을 사용하고 Adobe Experience Manager 환경 내에서 직접 전자 메일 게재 콘텐츠 및 양식을 간소화할 수 있도록 **Adobe Experience Manager as a Cloud Service**(으)로 이동하는 것이 좋습니다. [이 페이지](../../v8/integrations/aem-content.md)에서 자세히 알아보십시오.
+Campaign을 Adobe Experience Manager 6.5와 통합할 수도 있습니다. 이 통합을 구성하려면 [이 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}를 참조하세요.
 * Campaign Standard 환경이 **트리거**&#x200B;와(과) 통합된 경우 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}에 설명된 대로 Campaign v8에서 이 통합을 설정하고 구성해야 합니다.
 * Campaign Standard 환경이 **Adobe Target**&#x200B;과(와) 통합된 경우 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}에 설명된 대로 Campaign v8에서 이 통합을 설정하고 구성해야 합니다.

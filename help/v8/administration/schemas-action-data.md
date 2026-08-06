@@ -4,7 +4,7 @@ description: 사용자 지정 스키마 레코드에 대한 만들기, 편집 �
 source-git-commit: 75aeccc9878bb0aab7bdaf62113303dbd14f985b
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 

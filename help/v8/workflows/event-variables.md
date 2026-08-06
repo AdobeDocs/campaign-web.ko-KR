@@ -4,10 +4,8 @@ title: 워크플로 이벤트 변수
 description: 워크플로우에서 이벤트 변수를 활용하는 방법을 알아봅니다.
 exl-id: 526dc98f-391d-4f3f-a687-c980bf60b93b
 TQID: https://experienceleague.adobe.com/jAIMH7uI-9k8Fij7eGITONONHDaVMReEOpyZU9X6we0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 370
@@ -31,7 +29,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->스크립팅과 Adobe Campaign의 노출된 개체 및 변수에 대한 추가 정보는 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates)의 Campaign v8(클라이언트 콘솔) 설명서에서 확인할 수 있습니다.
+>스크립팅과 Adobe Campaign의 노출된 개체 및 변수에 대한 추가 정보는 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates)의 Campaign v8(클라이언트 콘솔) 설명서에서 확인할 수 있습니다.
 >
 >이 리소스는 중요한 통찰력을 제공하지만 Campaign 웹 사용자 인터페이스가 아닌 클라이언트 콘솔에 구체적으로 적용되므로 불일치가 존재할 수 있습니다.
 

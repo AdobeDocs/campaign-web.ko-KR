@@ -9,7 +9,7 @@ exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
 source-git-commit: 5c9d3db95905f77dddffaf824156c87b9d79013c
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_branding_create"
 >title="브랜드 만들기"
->abstract="새 브랜드 이미지를 정의하려면 **브랜드 만들기**&#x200B;를 클릭하십시오. 구성 탭에서 브랜드 세부 정보를 입력한 다음 **브랜드 만들기**&#x200B;를 클릭하여 저장합니다. 브랜드는 게재 템플릿 및 독립 실행형 게재에 연결할 수 있습니다."
+>abstract="새 브랜드 아이덴티티를 정의하려면 **브랜드 만들기**&#x200B;를 클릭하십시오. 구성 탭에서 브랜드 세부 정보를 입력한 후 **브랜드 만들기**&#x200B;를 클릭하여 저장합니다. 해당 브랜드는 게재 템플릿 및 독립 실행형 게재에 연결할 수 있게 됩니다."
 
 새 브랜드를 만들려면 다음 단계를 수행하십시오.
 

@@ -3,10 +3,8 @@ audience: end-user
 title: 오퍼 공간 만들기 및 관리
 description: Campaign 웹에서 오퍼 공간을 만들고, 구성하고, 배포하고, 미리 보는 방법에 대해 알아봅니다
 feature: Offers
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
 workflow-type: tm+mt
 source-wordcount: 921

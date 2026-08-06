@@ -3,19 +3,13 @@ title: Campaign v8 Web 사용자 인터페이스 릴리스 정보
 description: 최신 Campaign Web 사용자 인터페이스 릴리스에 포함된 새로운 기능 살펴보기
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 TQID: https://experienceleague.adobe.com/HkI2JUqLNM805hPfVsXl-8nwR70TzxRP31V9EI4yKGA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d9d1733854bceac52d54e02125dac92b74872c77
 workflow-type: tm+mt
 source-wordcount: 716
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 
@@ -91,7 +85,7 @@ _2026년 7월 28일_
 <tbody>
 <tr>
 <td>
-<p>이제 Campaign 웹 사용자 인터페이스에서 <strong>RDBMS(데이터 로드)</strong> 활동을 사용할 수 있습니다. 이 활동을 사용하여 외부 관계형 데이터베이스에서 워크플로우로 직접 데이터를 로드합니다. 추출된 데이터는 워크플로 전체에서 사용 가능하며 타기팅, 보강 또는 추가 데이터 처리에 사용할 수 있습니다.</p>
+<p>이제 Campaign 웹 사용자 인터페이스에서 <strong>RDBMS(데이터 로드)</strong> 활동을 사용할 수 있습니다. 이 활동을 사용해 외부 관계형 데이터베이스에서 워크플로로 바로 데이터를 로드할 수 있습니다. 추출된 데이터는 워크플로 전체에서 사용 가능하며 타기팅, 보강 또는 추가 데이터 처리에 사용할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../workflows/activities/data-loading-rdbms.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>

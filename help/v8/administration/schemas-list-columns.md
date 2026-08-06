@@ -15,7 +15,7 @@ ht-degree: 25%
 >id="acw_schema_inventory_list_configuration"
 >title="재고 목록 구성"
 >abstract="목록 보기에 기본적으로 표시되는 열을 구성합니다. 각 열에는 해당 레이블과 해당 속성이 표시됩니다. 사용자 정의 필터를 추가하여 목록 보기의 필터 창에서 빠른 액세스 필터 필드를 표시합니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-custom-filters.html" text="맞춤형 필터 추가"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-custom-filters.html?lang=ko" text="맞춤형 필터 추가"
 
 **[!UICONTROL 인벤토리 목록 구성]** 섹션에서 목록 보기에 기본적으로 표시되는 열을 구성할 수 있습니다. 각 열에는 해당 레이블과 해당 속성이 표시됩니다.
 

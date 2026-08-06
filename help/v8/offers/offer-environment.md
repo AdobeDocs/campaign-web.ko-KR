@@ -3,8 +3,10 @@ audience: end-user
 title: 오퍼 환경 설정 검토
 description: Campaign 웹에서 오퍼 환경을 보고, 구성하고, 배포하는 방법에 대해 알아봅니다
 feature: Offers
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 7be45366e3ae14e6fa7e4569a37c64e6d72f534c
 workflow-type: tm+mt
 source-wordcount: 319

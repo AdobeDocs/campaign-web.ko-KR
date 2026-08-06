@@ -16,7 +16,7 @@ ht-degree: 38%
 >id="acw_homepage_welcome_rn5"
 >title="여러 워크플로 분기 및 조인 활동"
 >abstract="이제 여러 분기가 지원됩니다. 포크를 사용하는 대신 도구 모음에서 [분기 추가]를 클릭하면 됩니다. AND-조인 활동도 개선되었습니다. 이제 AND와 OR 조인 옵션 중에서 선택할 수 있는 일반 조인 활동입니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"

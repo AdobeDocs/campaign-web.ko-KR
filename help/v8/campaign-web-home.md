@@ -12,9 +12,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 703
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 
 >[!TAB 콘텐츠 생성]
 
-✨ 기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 디자인된 [콘텐츠 생성](../v8/content/generative-gs.md) 라이브 기능 미리 보기를 통해 실습에 몰입하세요.
+✨ 직접 체험해 볼 수 있도록 설계된 [콘텐츠 생성](../v8/content/generative-gs.md) 라이브 기능 미리 보기를 통해 기능을 직접 살펴보고 충분히 파악해 보세요.
 
 [![자세히 알아보기 버튼](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 

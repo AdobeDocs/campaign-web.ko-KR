@@ -19,9 +19,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 3118
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -853,15 +853,15 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 <table>
 <thead>
 <tr>
-<th><strong>콘텐츠 생성을 통해 랜딩 페이지 생성</strong><br/></th>
+<th><strong>콘텐츠 생성 기능을 사용한 랜딩 페이지 생성</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이제 랜딩 페이지 게재에서 콘텐츠 생성을 사용할 수 있으므로 텍스트, 이미지를 생성하거나 페이지 레이아웃을 완료할 수 있습니다.</p>
+<p>이제 콘텐츠 생성 기능을 랜딩 페이지 게재에 사용할 수 있으며, 이를 통해 텍스트, 이미지 또는 전체 페이지 레이아웃을 생성할 수 있습니다.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>콘텐츠 생성에 대한 자세한 내용은 <a href="../content/generative-full-content.md">자세한 설명서</a>를 참조하세요.</p>
+<p>콘텐츠 생성 기능에 대한 자세한 내용은 <a href="../content/generative-full-content.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>

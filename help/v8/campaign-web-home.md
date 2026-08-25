@@ -4,17 +4,13 @@ description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 TQID: https://experienceleague.adobe.com/MgMH03lZa-uSVm-e1ZN-jvJrbjDUvKBpnmCIzxMmi1A
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 703
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +71,7 @@ Adobe Campaign Web 제품 및 설명서의 최신 개선 사항을 한눈에 확
 
 >[!TAB 콘텐츠 생성]
 
-✨ 기능을 직접 탐색하고 기능을 완전히 이해할 수 있도록 디자인된 [콘텐츠 생성](../v8/content/generative-gs.md) 라이브 기능 미리 보기를 통해 실습에 몰입하세요.
+✨ 직접 체험해 볼 수 있도록 설계된 [콘텐츠 생성](../v8/content/generative-gs.md) 라이브 기능 미리 보기를 통해 기능을 직접 살펴보고 충분히 파악해 보세요.
 
 [![자세히 알아보기 버튼](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ko/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
@@ -147,5 +143,5 @@ Campaign Web 사용자 인터페이스에 대한 자주 묻는 질문은 새로�
 ## 추가 리소스
 
 * [Adobe Campaign 제품 설명서](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ko){target="_blank"}
+* [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign-v8.html){target="_blank"}
 * [이메일 추적 픽셀 및 CNIL 지침](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}

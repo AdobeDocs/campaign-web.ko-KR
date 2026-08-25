@@ -7,9 +7,9 @@ description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
 nudge: true
 source-git-commit: dae21b648eb4278746052eea3a6f33b1f8cc25da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1072'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -140,7 +140,7 @@ ht-degree: 96%
     + [AI를 활용한 전체 콘텐츠 생성](content/generative-full-content.md)
     + [AI를 활용한 텍스트 생성](content/generative-text.md)
     + [AI를 활용한 이미지 생성](content/generative-image.md)
-    + [콘텐츠 사용 사례 생성](content/generative-uc.md)
+    + [콘텐츠 생성 사용 사례](content/generative-uc.md)
     + 브랜드 {#ai-assistant}
       + [브랜드 만들기 및 관리](content/brands.md)
       + [브랜드 개인화](content/brands-personalize.md)
@@ -154,7 +154,7 @@ ht-degree: 96%
 + 오퍼 관리 {#offers}
   + [오퍼 관리 시작](offers/gs-offer-management.md)
   + [오퍼 환경 설정 검토](offers/offer-environment.md)
-  + [오퍼 공간 만들기 및 관리](offers/offer-space.md)
+  + [오퍼 스페이스 만들기 및 관리](offers/offer-space.md)
   + [오퍼 만들기 및 게시](offers/create-offer.md)
   + [오퍼 스키마에 편집 가능한 목록 추가](offers/offer-editable-list.md)
 + 프로필 및 대상자 {#audiences}
@@ -299,14 +299,14 @@ ht-degree: 96%
     + [스키마 정보](administration/schemas.md)
     + [스키마 액세스 및 구성](administration/schemas-browse-access.md)
     + [목록 열 구성](administration/schemas-list-columns.md)
-    + [맞춤형 필터 추가](administration/schemas-custom-filters.md)
+    + [사용자 정의 필터 추가](administration/schemas-custom-filters.md)
     + [사용자 정의 필드 편집](administration/schemas-custom-fields.md)
     + [컬렉션 목록 추가](administration/schemas-collection-lists.md)
     + [데이터에 대한 작업 제어](administration/schemas-action-data.md)
     + [스키마 만들기 및 게시](administration/schemas-create-publish.md)
     + [사용자 정의 양식 작업](administration/schemas-custom-forms.md)
   + {hide-from-toc}[사용자 정의 필드 구성](administration/custom-fields.md)
-  + [&#x200B; [!DNL Campaign] 옵션 구성](administration/options.md)
+  + [ [!DNL Campaign] 옵션 구성](administration/options.md)
   + [시간대 관리](administration/timezone-management.md)
   + 외부 계정 {#external-accounts}
     + [외부 계정 만들기](administration/create-external-account.md)

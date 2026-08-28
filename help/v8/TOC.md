@@ -6,10 +6,10 @@ title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
 nudge: true
-source-git-commit: dae21b648eb4278746052eea3a6f33b1f8cc25da
-workflow-type: ht
-source-wordcount: '1072'
-ht-degree: 100%
+source-git-commit: 645352d9e2ba12d5430ddf1b62852077344c3016
+workflow-type: tm+mt
+source-wordcount: '1080'
+ht-degree: 99%
 
 ---
 
@@ -141,6 +141,7 @@ ht-degree: 100%
     + [AI를 활용한 텍스트 생성](content/generative-text.md)
     + [AI를 활용한 이미지 생성](content/generative-image.md)
     + [콘텐츠 생성 사용 사례](content/generative-uc.md)
+    + [이메일 및 랜딩 페이지 Designer의 C2PA 메타데이터](content/c2pa-metadata-email-designer.md)
     + 브랜드 {#ai-assistant}
       + [브랜드 만들기 및 관리](content/brands.md)
       + [브랜드 개인화](content/brands-personalize.md)
@@ -306,7 +307,7 @@ ht-degree: 100%
     + [스키마 만들기 및 게시](administration/schemas-create-publish.md)
     + [사용자 정의 양식 작업](administration/schemas-custom-forms.md)
   + {hide-from-toc}[사용자 정의 필드 구성](administration/custom-fields.md)
-  + [ [!DNL Campaign] 옵션 구성](administration/options.md)
+  + [&#x200B; [!DNL Campaign] 옵션 구성](administration/options.md)
   + [시간대 관리](administration/timezone-management.md)
   + 외부 계정 {#external-accounts}
     + [외부 계정 만들기](administration/create-external-account.md)

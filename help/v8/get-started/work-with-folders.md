@@ -53,7 +53,7 @@ ht-degree: 87%
 
 폴더에 대한 권한이 없는 경우 관리자에게 문의하십시오. 폴더 권한을 관리하는 방법에 대해 알아보려면 이 [섹션](permissions.md#folder-permissions)을 참조하세요.
 
-**[!UICONTROL 폴더 삽입]**, **[!UICONTROL 폴더 편집]**, **[!UICONTROL 폴더 삭제]**&#x200B;와 같은 명명된 권한도 연산자가 사용할 수 있는 폴더 작업을 결정합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}를 참조하세요.
+**[!UICONTROL 폴더 삽입]**, **[!UICONTROL 폴더 편집]**, **[!UICONTROL 폴더 삭제]**&#x200B;와 같은 명명된 권한도 연산자가 사용할 수 있는 폴더 작업을 결정합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=ko#use-named-rights){target="_blank"}를 참조하세요.
 
 ## 새 폴더 만들기 {#create-a-folder}
 

@@ -55,6 +55,6 @@ Adobe Campaign에서 권한을 설정하는 자세한 절차는 [Adobe Campaign 
 
 이러한 권한이 폴더에서 사용할 수 있는 작업에 어떻게 영향을 미치는지 알아보려면 이 [섹션](work-with-folders.md#folder-access-rights)을 참조하세요.
 
-명명된 권한은 연산자가 사용할 수 있는 폴더 작업도 결정합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}를 참조하세요.
+명명된 권한은 연산자가 사용할 수 있는 폴더 작업도 결정합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=ko#use-named-rights){target="_blank"}를 참조하세요.
 
 Campaign Web 사용자 인터페이스의 모든 권한은 Campaign 클라이언트 콘솔 권한과 동기화됩니다.

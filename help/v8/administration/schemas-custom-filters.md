@@ -1,21 +1,21 @@
 ---
-title: 맞춤형 필터 추가
+title: 사용자 정의 필터 추가
 description: 목록 보기의 필터 창에서 사용자 정의 필터를 빠른 액세스 필드로 추가하는 방법을 알아봅니다.
 exl-id: 2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e6f
-source-git-commit: c2e627d322937b80cb0bc09e86680757d4867dcd
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 0%
+source-wordcount: '451'
+ht-degree: 3%
 
 ---
 
-# 맞춤형 필터 추가 {#custom-filters}
+# 사용자 정의 필터 추가 {#custom-filters}
 
 **[!UICONTROL 인벤토리 목록 구성]** > **[!UICONTROL 사용자 지정 필터]** 섹션에서 스키마 목록 보기의 [필터 창](../query/filter.md)에서 **[!UICONTROL 고급 필터]** 규칙 빌더 위에 빠른 액세스 필드로 표시되는 특성을 선택할 수 있습니다.
 
 화면 정의 화면 및 액세스 방법에 대한 자세한 내용은 [화면 정의 액세스](schemas-browse-access.md#screen-def) 섹션을 참조하십시오.
 
-## 맞춤형 필터 추가 {#add}
+## 사용자 정의 필터 추가 {#add}
 
 1. **[!UICONTROL 스키마]** 메뉴로 이동한 다음 필터를 사용하여 편집 가능한 스키마를 찾습니다.
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
    ![직접 특성 및 링크 하위 특성을 표시하는 특성 선택기](assets/schemas-custom-filters2.png)
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 위쪽 및 아래쪽 화살표를 사용하거나 필터를 드래그하여 사용자 정의 필터의 순서를 재지정하고 행의 휴지통 아이콘을 사용하여 필터를 제거할 수 있습니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 위쪽 및 아래쪽 화살표를 사용하거나 필터를 드래그하여 사용자 정의 필터의 순서를 변경할 수 있습니다. 필터를 제거하려면 해당 행의 줄임표 아이콘을 클릭하고 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
 
 1. 이 스키마에 대한 레코드 목록으로 이동한 후 필터 창을 엽니다. 선택한 특성은 **[!UICONTROL 고급 필터]** 규칙 빌더 위에 **[!UICONTROL 사용자 지정 필터]**(으)로 표시됩니다.
 
@@ -47,15 +47,20 @@ ht-degree: 0%
 
 1. 사용자 정의 필터 중 하나에 값을 입력하거나 선택하여 목록을 세분화합니다.
 
-<!--
-## Configure a custom filter's settings {#settings}
+## 링크 유형 사용자 정의 필터의 값 제한 {#settings}
 
-To configure specific settings for a custom filter, click the ellipsis icon on its row and select **[!UICONTROL Edit]**.
+링크 속성을 기반으로 하는 사용자 지정 필터의 경우 선택기에서 사용할 수 있는 값을 제한할 수 있습니다.
 
-![Custom filter settings dialog](assets/schemas-custom-filters5.png)
+>[!NOTE]
+>
+>아래에 설명된 **[!UICONTROL 편집]** 옵션은 링크 특성을 기반으로 하는 사용자 지정 필터에만 사용할 수 있습니다. 다른 속성 유형을 기반으로 하는 맞춤형 필터는 순서를 변경하거나 제거할 수만 있습니다.
 
-Available settings are:
+1. 링크 유형 사용자 지정 필터의 행에서 줄임표 아이콘을 클릭하고 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
 
-* **[!UICONTROL Label (custom)]**: The label to display for this filter. If no label is provided, the attribute's label defined in the schema is used.
-* **[!UICONTROL Filter settings]** (for link-type custom filters only): Use the query modeler to specify a condition that restricts the values available in the picker. For example, restrict a delivery filter to deliveries using the email channel.
--->
+   ![링크 유형 사용자 지정 필터의 옵션 편집](assets/schemas-custom-filters4.png)
+
+1. **[!UICONTROL 필터 설정]** 탭에서 **[!UICONTROL 필터 편집]**&#x200B;을 클릭하고 쿼리 모델러를 사용하여 선택기에서 사용할 수 있는 값을 제한하는 조건을 정의합니다. 예를 들어 이메일 채널을 사용하는 게재로 게재 필터를 제한합니다.
+
+   ![링크 설정 대화 상자의 필터 설정 탭](assets/schemas-custom-filters5.png)
+
+1. 변경 사항을 확인합니다.

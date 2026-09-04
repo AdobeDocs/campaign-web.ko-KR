@@ -6,9 +6,9 @@ title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
 nudge: true
-source-git-commit: 645352d9e2ba12d5430ddf1b62852077344c3016
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1081'
 ht-degree: 99%
 
 ---
@@ -200,6 +200,7 @@ ht-degree: 99%
     + [워크플로 시작 및 모니터링](workflows/start-monitor-workflows.md)
   + 워크플로 활동을 사용하여 작업하기 {#design-workflows}
     + [워크플로 활동 정보](workflows/activities/about-activities.md)
+    + [승인](workflows/activities/approval.md)
     + [자동화된 게재](workflows/activities/automated-delivery.md)
     + [대상자 빌드](workflows/activities/build-audience.md)
     + [데이터 소스 변경](workflows/activities/change-data-source.md)
@@ -307,7 +308,7 @@ ht-degree: 99%
     + [스키마 만들기 및 게시](administration/schemas-create-publish.md)
     + [사용자 정의 양식 작업](administration/schemas-custom-forms.md)
   + {hide-from-toc}[사용자 정의 필드 구성](administration/custom-fields.md)
-  + [&#x200B; [!DNL Campaign] 옵션 구성](administration/options.md)
+  + [ [!DNL Campaign] 옵션 구성](administration/options.md)
   + [시간대 관리](administration/timezone-management.md)
   + 외부 계정 {#external-accounts}
     + [외부 계정 만들기](administration/create-external-account.md)

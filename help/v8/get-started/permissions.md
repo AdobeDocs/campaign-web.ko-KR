@@ -4,14 +4,12 @@ title: Campaign Web 사용자 인터페이스의 권한 관리
 description: Campaign Web 사용자 인터페이스의 권한에 대해 자세히 알아보기
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 TQID: https://experienceleague.adobe.com/RJbtR10FIXBaSjXv-HxYIsJg1vpDA71Gwu99Jl9GQh0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 318
-ht-degree: 100%
+source-wordcount: 342
+ht-degree: 86%
 
 ---
 
@@ -53,6 +51,8 @@ Adobe Campaign에서 권한을 설정하는 자세한 절차는 [Adobe Campaign 
 
 **[!UICONTROL 시스템 폴더]** 옵션을 선택하면 권한에 관계없이 모든 운영자에 대해 액세스가 허용됩니다.
 
-[Adobe Campaign 콘솔에서 폴더에 대한 권한을 관리](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}할 수도 있습니다.
+이러한 권한이 폴더에서 사용할 수 있는 작업에 어떻게 영향을 미치는지 알아보려면 이 [섹션](work-with-folders.md#folder-access-rights)을 참조하세요.
+
+명명된 권한은 연산자가 사용할 수 있는 폴더 작업도 결정합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}를 참조하세요.
 
 Campaign Web 사용자 인터페이스의 모든 권한은 Campaign 클라이언트 콘솔 권한과 동기화됩니다.

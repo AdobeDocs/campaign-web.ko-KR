@@ -14,10 +14,10 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: bece1698fc2ac1020ae28cbef04d3717ee0607bb
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 597
-ht-degree: 19%
+source-wordcount: 616
+ht-degree: 18%
 
 ---
 
@@ -73,6 +73,7 @@ Adobe Campaign 웹을 사용하면 여러 채널에서 마케팅 캠페인을 �
 
 다음 활동은 워크플로의 구성 및 실행에만 적용됩니다. 주요 작업은 다음과 같은 다른 활동을 조정하는 것입니다.
 
+* [승인](approval.md): 그룹 또는 개별 연산자에게 작업을 할당하고 해당 답변을 기반으로 워크플로우를 라우팅합니다.
 * [외부 신호](external-signal.md): 다른 워크플로우 또는 API 호출에서 워크플로우 실행을 트리거합니다.
 * [포크](fork.md): 여러 활동을 동시에 시작하려면 아웃바운드 전환을 만듭니다.
 * [가입](join.md): 워크플로우의 여러 실행 분기를 동기화합니다.

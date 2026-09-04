@@ -8,9 +8,9 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: 278
 ht-degree: 50%
 
 ---
@@ -41,7 +41,7 @@ SMS 게재 콘텐츠를 디자인하려면 다음 단계를 따르십시오.
 
    ![동적 콘텐츠를 추가할 수 있는 옵션이 있는 메시지 필드를 표시하는 스크린샷](assets/sms_content_2.png){zoomable="yes"}
 
-1. 기본적으로 게재에 대해 추적 기능이 활성화되어 있습니다. 필요한 경우 **[!UICONTROL 선택적 기능 섹션]**&#x200B;에서 이 옵션을 비활성화하십시오.
+1. 기본적으로 게재에 대해 추적 기능이 활성화되어 있습니다. 필요한 경우 게재의 **[!UICONTROL 설정]** > **[!UICONTROL 추적]** 탭에서 이 옵션을 비활성화하십시오. [자세히 알아보기](../advanced-settings/delivery-settings.md#tracking-tab)
 
 1. **[!UICONTROL 설정]**&#x200B;을 클릭하여 게재 템플릿과 관련된 고급 옵션에 액세스합니다. [자세히 알아보기](../advanced-settings/delivery-settings.md)
 

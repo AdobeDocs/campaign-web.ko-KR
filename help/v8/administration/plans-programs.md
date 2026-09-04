@@ -11,10 +11,10 @@ feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 522
-ht-degree: 6%
+source-wordcount: 640
+ht-degree: 5%
 
 ---
 
@@ -58,35 +58,35 @@ Adobe Campaign을 사용하면 마케팅 플랜 및 프로그램에 대한 폴�
 
 플랜에 대한 사용자 지정 필드 구성을 보여 주는 ![스크린샷](assets/plan_customfields.png){zoomable="yes"}
 
-## 프로그램 만들기 및 구성
+## 프로그램 만들기 및 구성 {#create-program}
 
-플랜에 프로그램을 만들려면([플랜 만들기에 대해 자세히 알아보기](#create-plan)) 플랜으로 이동하여 폴더 유형이 **[!UICONTROL 프로그램]**&#x200B;인 폴더를 만드십시오. [폴더 만들기에 대한 자세한 정보](../get-started/work-with-folders.md).
+캠페인, 게재 및 워크플로우에 대한 목록 보기와 유사한 프로그램은 왼쪽 탐색 메뉴에서 사용할 수 있습니다. **[!UICONTROL 프로그램]** 항목을 사용하면 계획이 아닌 기존 프로그램에서 프로그램을 만들 수 있습니다.
 
-![프로그램 폴더 만들기를 보여 주는 스크린샷](assets/program_create.png){zoomable="yes"}
+플랜에 첫 번째 최상위 프로그램을 만들려면 탐색기에서 플랜으로 이동한 다음([섹션](#create-plan) 참조) 폴더 유형 **[!UICONTROL 프로그램]**&#x200B;을 사용하여 폴더를 만듭니다. [폴더 만들기에 대한 자세한 정보](../get-started/work-with-folders.md).
 
-관리하려면 프로그램의 **[!UICONTROL 폴더 설정]**(으)로 이동하십시오.
+기존 프로그램 내에 프로그램을 만들려면 아래 단계를 수행하십시오.
 
-![프로그램에 대한 폴더 설정을 보여 주는 스크린샷](assets/program_settings.png){zoomable="yes"}
+1. 왼쪽 탐색 메뉴에서 **[!UICONTROL 프로그램]** 항목을 찾습니다. 이 보기는 모든 프로그램을 나열하며 검색 및 필터링할 수 있도록 해 줍니다. 프로그램을 클릭하면 탐색기 보기에서 열립니다.
 
-**[!UICONTROL 사용자 지정 옵션]**&#x200B;을(를) 정의하고 프로그램의 예약 날짜를 설정하십시오.
+   ![프로그램 목록 보기를 표시하는 스크린샷](assets/program_view.png){zoomable="yes"}
 
-![프로그램에 대한 사용자 지정 옵션을 보여 주는 스크린샷](assets/program_options.png){zoomable="yes"}
+1. **[!UICONTROL 프로그램 만들기]**&#x200B;를 클릭하고 다음 옵션을 구성합니다.
 
-**[!UICONTROL 사용자 지정 옵션]**&#x200B;을 관리하려면:
+   ![프로그램 만들기 화면을 보여주는 스크린샷](assets/program_create.png){zoomable="yes"}
 
-1. **[!UICONTROL 스키마]**&#x200B;로 이동합니다.
-1. 필터에서 **[!UICONTROL 편집 가능]** 스키마를 선택하십시오.
-1. 스키마를 클릭합니다.
+   * **[!UICONTROL 레이블]**&#x200B;을(를) 입력하십시오.
+   * **[!UICONTROL 상위 폴더]**(으)로 사용할 기존 프로그램을 선택하십시오.
+   * 필요한 경우 **[!UICONTROL 일정]** 섹션에서 **[!UICONTROL 날짜 범위]**&#x200B;를 설정하십시오.
 
-![프로그램에 대한 사용자 정의 세부 정보를 편집하는 스크린샷](assets/program_edit.png){zoomable="yes"}
+   >[!TIP]
+   >
+   >탐색기 보기에서 프로그램을 만들면 상위 폴더가 자동으로 현재 프로그램으로 설정됩니다.
 
-1. **[!UICONTROL 화면 편집]** 단추를 클릭합니다.
+1. 변경 내용을 저장하고 프로그램을 만들려면 **[!UICONTROL 프로그램 만들기]**&#x200B;를 다시 클릭하십시오. 그러면 프로그램이 Explorer 보기에 표시됩니다. 다른 폴더처럼 이름을 바꾸고 삭제하고 해당 설정에 액세스할 수 있습니다. 이 프로그램 내에서 하위 프로그램을 만들 수도 있습니다.
 
-   ![](assets/program_edit2.png){zoomable="yes"}
+   ![탐색기 보기에서 프로그램을 보여 주는 스크린샷](assets/program_explorer.png){zoomable="yes"}
 
-사용자 지정 옵션을 구성합니다.
-
-![프로그램에 대한 사용자 지정 필드 구성을 보여 주는 스크린샷](assets/program_customfields.png){zoomable="yes"}
+프로그램에 대한 사용자 정의 옵션은 플랜과 동일한 방식으로 구성됩니다. [계획 만들기 및 구성](#create-plan)을 참조하세요.
 
 ## 캠페인을 프로그램에 연결하는 방법
 

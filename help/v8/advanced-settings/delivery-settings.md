@@ -13,9 +13,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 3521
+source-wordcount: 3646
 ht-degree: 40%
 
 ---
@@ -153,6 +153,19 @@ ht-degree: 40%
   >이 옵션에는 문서의 두 버전이 모두 포함됩니다. 따라서 이메일 크기가 더 크기 때문에 게재 속도에 영향을 줍니다.
 
 * **[!UICONTROL 모든 메시지를 텍스트 형식으로 보내기]**: 전자 메일이 텍스트 형식으로 전송됩니다. HTML 형식은 전송되지 않지만 수신자가 이메일을 클릭할 때만 미러 페이지에 사용됩니다.
+
+## 추적 {#tracking-tab}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_options"
+>title="추적 편집"
+>abstract="기본적으로 게재에 대한 추적이 활성화됩니다. 즉, 메시지 콘텐츠에 포함된 모든 링크가 추적됩니다. 여기에서 이 옵션을 비활성화할 수 있습니다."
+>additional-url="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="링크 추가 및 메시지 추적"
+
+이 탭은 게재에 대해 추적 로그 스키마가 구성되어 있고 게재 모드가 외부에 있지 않은 경우 사용할 수 있습니다.
+
+* **[!UICONTROL 추적 활성화]**: 게재에 대한 추적을 활성화하거나 비활성화합니다. 비활성화되면 클릭 또는 열기 추적 데이터가 수집되지 않습니다.
+* **[!UICONTROL 추적 열기]**(전자 메일 채널): 추적 픽셀을 사용하여 메시지 열기 추적을 활성화하거나 비활성화합니다. 이 옵션은 **[!UICONTROL 추적 활성화]**&#x200B;를 사용하도록 설정한 경우에만 사용할 수 있습니다. CNIL 또는 GDPR과 같은 데이터 보호 규정을 준수하는 데 도움이 됩니다.
 
 ## 웹 분석 {#web-analytics}
 

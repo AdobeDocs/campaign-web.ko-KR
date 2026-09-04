@@ -2,9 +2,9 @@
 title: 스키마 만들기 및 게시
 description: 스키마를 만들고, 확장하고, 게시하는 방법을 알아봅니다.
 exl-id: 1da53fe0-1d64-4907-ba06-206f69e83d7c
-source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '537'
 ht-degree: 1%
 
 ---
@@ -35,11 +35,15 @@ ht-degree: 1%
 기본적으로 스키마는 비어 있습니다. 이제 스키마 편집기를 사용하여 스키마에 포함할 필드를 추가해야 합니다.
 
 1. 스키마 세부 정보 화면의 **[!UICONTROL 콘텐츠]** 섹션에서 연필 아이콘을 클릭합니다.
-2. 필요한 요소를 추가하고 저장합니다. 다음은 사용자 지정 스키마 구조의 예입니다.
+1. 필요한 요소를 추가합니다. 다음은 사용자 지정 스키마 구조의 예입니다.
 
    ![스키마 만들기 대화 상자](assets/schemas-create3.png)
 
-시스템은 자동으로 XML 구조의 유효성을 검사하고 스키마를 생성합니다.
+1. 저장하기 전에 스키마의 XML 구조를 확인하려면 **[!UICONTROL 확인]** 단추를 클릭하십시오. &quot;잘못된 XML 형식&quot;과 같이 식별된 오류가 화면 하단에 표시됩니다.
+
+   ![스키마 만들기 대화 상자 오류](assets/schemas-create3bis.png)
+
+1. 오류를 수정한 다음 변경 사항을 저장하여 스키마를 생성합니다.
 
 ### 화면 편집 정의 {#define-attributes}
 

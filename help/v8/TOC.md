@@ -6,9 +6,9 @@ title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
 nudge: true
-source-git-commit: 645352d9e2ba12d5430ddf1b62852077344c3016
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1081'
 ht-degree: 99%
 
 ---
@@ -200,6 +200,7 @@ ht-degree: 99%
     + [워크플로 시작 및 모니터링](workflows/start-monitor-workflows.md)
   + 워크플로 활동을 사용하여 작업하기 {#design-workflows}
     + [워크플로 활동 정보](workflows/activities/about-activities.md)
+    + [승인](workflows/activities/approval.md)
     + [자동화된 게재](workflows/activities/automated-delivery.md)
     + [대상자 빌드](workflows/activities/build-audience.md)
     + [데이터 소스 변경](workflows/activities/change-data-source.md)

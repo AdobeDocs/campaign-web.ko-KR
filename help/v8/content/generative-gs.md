@@ -20,7 +20,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="콘텐츠 생성"
->abstract="게재를 만들고 개인화한 후 AI를 사용하여 콘텐츠를 개선할 수 있습니다. 이 기능은 사용자가 생성하고자 하는 콘텐츠를 설명하여 콘텐츠를 세부 조정함으로써 개인화 및 콘텐츠 개선을 간소화합니다."
+>abstract="게재를 만들고 개인화한 후 AI를 사용하여 콘텐츠를 개선할 수 있습니다. 이 기능은 사용자가 생성하고자 하는 콘텐츠를 설명하고 콘텐츠를 세부 조정하여 개인화 및 콘텐츠 개선을 간소화합니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"

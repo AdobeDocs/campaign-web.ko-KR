@@ -110,7 +110,7 @@ Adobe Campaign을 사용하면 하나 또는 여러 개의 특정 오퍼를 제�
 
    >[!NOTE]
    >
-   >사용 가능한 제안 수는 엔진 호출이 구성되는 방식에 따라 다르며, 순서는 오퍼의 우선 순위에 따라 다릅니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}를 참조하세요.
+   >사용 가능한 제안 수는 엔진 호출이 구성되는 방식에 따라 다르며, 순서는 오퍼의 우선 순위에 따라 다릅니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=ko){target="_blank"}를 참조하세요.
 
 1. 변경 내용을 저장합니다.
 

@@ -175,7 +175,7 @@ ht-degree: 30%
 
    ![전자 메일 Designer에서 자산 선택 프로세스를 보여 주는 스크린샷입니다.](assets/email_designer_29.png){zoomable="yes"}
 
-   Adobe Experience Manager에서 에셋을 업로드하고 추가하는 방법에 대한 자세한 내용은 [Adobe Experience Manager as a Cloud Service 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html)를 참조하세요.
+   Adobe Experience Manager에서 에셋을 업로드하고 추가하는 방법에 대한 자세한 내용은 [Adobe Experience Manager as a Cloud Service 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=ko)를 참조하세요.
 
    +++
 

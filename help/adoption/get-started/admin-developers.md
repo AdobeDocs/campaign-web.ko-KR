@@ -112,7 +112,7 @@ Campaign 클라이언트 콘솔은 SOAP 및 HTTP와 같은 표준 인터넷 프�
 
 다음 비디오에서는 Adobe Campaign 클라이언트 콘솔을 다운로드 및 설치하고 인스턴스에 대한 연결을 관리하는 방법을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/335375?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3449888?captions=kor&quality=12&learn=on){transcript=true}
 
 자세한 내용은 [클라이언트 콘솔을 사용하여 Campaign에 연결](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/connect){target="_blank"}을 참조하십시오.
 
@@ -122,7 +122,7 @@ Campaign 클라이언트 콘솔은 SOAP 및 HTTP와 같은 표준 인터넷 프�
 
 이 튜토리얼 비디오를 통해 Adobe Campaign v8 사용자 인터페이스와 기본 기능을 탐색하는 방법에 대해 알아보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/334496?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3426440?captions=kor&quality=12&learn=on){transcript=true}
 
 자세한 내용은 [클라이언트 콘솔 작업](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}을 참조하십시오.
 
@@ -222,7 +222,7 @@ Adobe Campaign Standard과 마찬가지로 Adobe Campaign v8에는 애플리케�
 
 * 이 비디오에서는 타겟팅 차원과 작업 테이블의 정의와, Adobe Campaign에서 다양한 데이터 소스 전반에 걸친 데이터를 관리하는 방법을 알아봅니다.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/339992?quality=12&learn=on){transcript=true}
+  >[!VIDEO](https://video.tv.adobe.com/v/3452600?captions=kor&quality=12&learn=on){transcript=true}
 
 * Campaign을 사용하면 Cloud 데이터베이스에 연락처를 추가할 수 있습니다. 파일을 불러오고, 여러 연락처 업데이트를 예약 및 자동화하고, 웹에서 데이터를 수집하거나, 수신자 테이블에 직접 프로필 정보를 입력할 수 있습니다.  자세한 내용은 [데이터 가져오기(콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/import){target="_blank"}를 참조하세요.
 
@@ -280,7 +280,7 @@ Campaign Standard에서와 마찬가지로 관리자는 구독 서비스를 만�
 
 구독 및 대상 구독자를 설정 및 관리하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/334305?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3426558?captions=kor&quality=12&learn=on){transcript=true}
 
 * 구독 서비스 [웹 사용자 인터페이스 설명서](../../v8/audience/manage-subscribers.md)를 참조하세요.
 
@@ -339,7 +339,7 @@ MISSING LINKS:
 
 관리자는 Campaign v8을 사용하여 이 비디오에서 동적 콘텐츠 블록과 이를 사용하여 이메일 게재 콘텐츠를 개인화하는 방법을 정의할 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3449013?captions=kor&quality=12&learn=on){transcript=true}
 
 유용한 링크:
 

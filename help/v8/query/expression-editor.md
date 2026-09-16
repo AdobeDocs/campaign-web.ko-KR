@@ -6,15 +6,15 @@ exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 TQID: https://experienceleague.adobe.com/o2K9C4wrjB9N85UbQKqA19jdZPFSZW4VDhdyB-4-7NE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: eceffbb89ed4635df723e139bb2dab8b7efc1d30
 workflow-type: tm+mt
-source-wordcount: 2205
+source-wordcount: '2205'
 ht-degree: 36%
-
 ---
-
 # 표현식 편집 {#expression}
 
 표현식을 편집하려면 수동으로 조건을 입력하여 규칙을 형성해야 합니다. 이 모드에서는 날짜, 문자열, 숫자 필드 및 정렬과 같은 특정 쿼리를 수행하는 데 사용되는 값을 조작할 수 있는 고급 함수를 사용할 수 있습니다.

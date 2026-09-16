@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 52%
-
 ---
-
 # 열람 수{#opens}
 
 **[!UICONTROL 열기]** 보고는 수신자가 가장 많이 본 게재 항목을 식별합니다.

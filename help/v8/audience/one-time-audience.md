@@ -6,15 +6,15 @@ exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 TQID: https://experienceleague.adobe.com/96G-USwsSAOJUSeXTpgpCTgeCNfwgIBHorvcxvObcuw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 251
+source-wordcount: '251'
 ht-degree: 13%
-
 ---
-
 # 일회성 대상자 빌드 {#one-time}
 
 이 섹션에서는 새 게재를 만들 때 대상을 구축하는 방법을 설명합니다. 이 시나리오에서는 쿼리 모델러를 사용하여 데이터베이스를 쿼리하여 게재 대상에 포함된 프로필을 타겟팅합니다. 결과 대상자는 이 게재에 한 번만 사용되며 대상자 목록에 저장되지 않습니다.

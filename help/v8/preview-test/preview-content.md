@@ -6,15 +6,15 @@ exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 TQID: https://experienceleague.adobe.com/UMmuuMnex1ZqWjUZxNOrUi-g3dtevPO7l7sLXo5Zp1c
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 363
+source-wordcount: '363'
 ht-degree: 1%
-
 ---
-
 # 메시지 콘텐츠 미리보기 {#preview-content}
 
 [!DNL Campaign] 콘텐츠 시뮬레이션 기능을 사용하여 메시지를 보내기 전에 메시지 콘텐츠를 미리 봅니다. 이 기능을 사용하면 개인화를 제어하고 메시지가 수신자에게 표시되는 방식을 확인할 수 있습니다.

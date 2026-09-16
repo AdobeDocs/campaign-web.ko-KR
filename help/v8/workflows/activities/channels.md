@@ -6,15 +6,15 @@ exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 TQID: https://experienceleague.adobe.com/A58FyTL-G-NDqeY27VY8ZKw5iHg7iQ9KMdOob-yFCFM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 995
+source-wordcount: '995'
 ht-degree: 40%
-
 ---
-
 # 이메일, SMS, WhatsApp, 푸시, DM 활동 {#channel}
 
 Adobe Campaign 웹을 사용하면 이메일, SMS, WhatsApp, DM 및 푸시 채널에서 마케팅 캠페인을 자동화하고 실행할 수 있습니다. 채널 활동을 워크플로 캔버스에 결합하여 고객 행동 및 데이터에 따라 작업을 트리거하는 크로스 채널 워크플로를 만들 수 있습니다.

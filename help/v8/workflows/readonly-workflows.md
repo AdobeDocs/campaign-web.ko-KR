@@ -6,15 +6,15 @@ exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
 TQID: https://experienceleague.adobe.com/7yCq55pTgMBqdDxeRXmvHeVQLeGCFUIaxCUcdJlmYik
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 295
+source-wordcount: '295'
 ht-degree: 10%
-
 ---
-
 # 읽기 전용 워크플로 정보 {#readonly-workflows}
 
 >[!CONTEXTUALHELP]
@@ -57,4 +57,4 @@ Campaign 사용자는 Adobe Campaign 데이터에 대한 액세스가 제한될 
 
 ![읽기 전용 모드의 기술 워크플로우 인터페이스로, 워크플로우를 일시 중지하거나 중지할 수 있는 옵션을 표시합니다.](assets/readonly-technical-workflow.png){zoomable="yes"}
 
-[이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)에서 기술 워크플로우에 대해 자세히 알아보세요.
+[이 섹션](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)에서 기술 워크플로우에 대해 자세히 알아보세요.

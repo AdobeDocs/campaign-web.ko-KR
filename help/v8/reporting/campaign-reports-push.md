@@ -6,15 +6,15 @@ exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 TQID: https://experienceleague.adobe.com/2NWIVbSKxC619uzgluzJc5spx3eThohYBbJzrXWjyeI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 545
+source-wordcount: '545'
 ht-degree: 23%
-
 ---
-
 # 푸시 채널에 대한 캠페인 보고서 {#campaign-reports-push-channel}
 
 각 캠페인 보고서는 캠페인의 성공 및 오류를 자세히 설명하는 다양한 위젯으로 나뉩니다. 푸시 채널의 경우 아래에 보고서와 지표가 자세히 설명되어 있습니다. [이 페이지](campaign-reports.md)에서 캠페인 보고서에 액세스하는 방법을 알아보세요.
@@ -97,7 +97,7 @@ ht-degree: 23%
 
 **[!UICONTROL 생성된 클릭 스트림]** 테이블에는 수신자가 게재와 상호 작용하는 방식에 따른 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![보고서에 표시된 클릭 스트림 &#x200B;](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
+![보고서에 표시된 클릭 스트림 ](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
 
 +++푸시 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 

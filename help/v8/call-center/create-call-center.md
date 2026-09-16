@@ -6,13 +6,12 @@ exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
 TQID: https://experienceleague.adobe.com/ZzmvZqFd6YxjWRtXC5BdWR8yKOYot2l6CNxBOZs6--4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 759
+source-wordcount: '759'
 ht-degree: 4%
-
 ---
-
 # 콜센터 게재 만들기 및 전송 {#create-call-center}
 
 독립 실행형 콜 센터 게재를 만들거나 캠페인 워크플로우의 컨텍스트에서 콜 센터 게재를 만들 수 있습니다. 아래 단계에서는 독립 실행형(일회성) 게재 절차를 자세히 설명합니다. 캠페인 워크플로우의 컨텍스트에서 작업하는 경우 만들기 단계는 [이 섹션](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)에 자세히 설명되어 있습니다.

@@ -7,9 +7,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 5%
-
 ---
-
 # SMS 보고서{#sms-report}
 
 **SMS** 보고서는 게재율 및 바운스 비율 등 SMS 게재에 대한 세부 정보를 제공합니다.

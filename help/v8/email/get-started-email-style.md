@@ -6,13 +6,12 @@ exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
 TQID: https://experienceleague.adobe.com/QNNQ7G1fQWZqgylyz0MgLLCNctz42vya4fJ9rygUE-8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 120
+source-wordcount: '120'
 ht-degree: 45%
-
 ---
-
 # 이메일 스타일 시작하기 {#get-started-email-style}
 
 [!DNL Adobe Campaign]에서 전자 메일 콘텐츠를 만들기 시작하면 전자 메일 Designer 설정 창에서 여러 스타일 매개 변수와 특성을 조정할 수 있습니다.

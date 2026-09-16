@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 6%
-
 ---
-
 # URL 및 클릭 스트림{#urls-and-click-streams}
 
 **URL 및 클릭 스트림**&#x200B;은 게재 중 가장 많이 클릭한 URL을 보여주거나 캠페인 또는 프로그램에 연결되어 있는 경우 여러 게재를 보여줍니다.

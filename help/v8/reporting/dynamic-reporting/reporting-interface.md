@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 4%
-
 ---
-
 # 보고 인터페이스{#reporting-interface}
 
 예를 들어, 상단 도구 모음을 사용하여 보고서를 수정, 저장 또는 인쇄할 수 있습니다.

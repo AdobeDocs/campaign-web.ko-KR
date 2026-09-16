@@ -6,18 +6,20 @@ exl-id: b353bc86-2228-4e02-879c-ae9425c48489
 TQID: https://experienceleague.adobe.com/YSkF82u-0-DmG1N7SnJwXSdHJdWZwp8A8ZLwkBbYJLg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 233
+source-wordcount: '233'
 ht-degree: 100%
-
 ---
-
 # 보고서 시작하기 {#get-started-reports}
 
 전체 보고 도구 제품군은 효율적인 마케팅 활동에 대해 중요한 인사이트를 제공하므로 캠페인을 최적화하여 효과를 극대화할 수 있습니다. 게재율에서 열람율과 클릭스루 비율에 이르기까지 보고 제품군은 결과를 도출하는 데 필요한 모든 데이터 기반의 결정을 내릴 수 있습니다.&#x200B;

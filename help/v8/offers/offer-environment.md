@@ -5,15 +5,15 @@ description: Campaign 웹에서 오퍼 환경을 보고, 구성하고, 배포하
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 7be45366e3ae14e6fa7e4569a37c64e6d72f534c
 workflow-type: tm+mt
-source-wordcount: 319
-ht-degree: 2%
-
+source-wordcount: '319'
+ht-degree: 5%
 ---
-
 # 오퍼 환경 설정 검토 {#offer-environment}
 
 **오퍼 환경**&#x200B;은(는) 오퍼 카탈로그 및 관련 오퍼 공간을 구성하는 컨테이너입니다. 환경에는 두 가지 유형이 있습니다.
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 기본적으로 Campaign에는 기본 제공 수신자 테이블(식별된 오퍼)을 타깃팅하도록 사전 구성된 두 개의 **디자인** 및 **라이브** 환경이 포함되어 있습니다.
 
-인바운드 상호 작용을 위해 웹 사이트를 방문하는 익명 프로필과 같은 다른 테이블을 타겟팅하려면 추가 환경(타겟팅 차원당 환경)을 만들어야 합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"}를 참조하세요.
+인바운드 상호 작용을 위해 웹 사이트를 방문하는 익명 프로필과 같은 다른 테이블을 타겟팅하려면 추가 환경(타겟팅 차원당 환경)을 만들어야 합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"}를 참조하세요.
 
 ## 오퍼 환경 액세스 {#offer-environment-settings}
 
@@ -117,7 +117,7 @@ This section gathers the offer-specific settings of the folder.
 
 ### Execution instances {#execution-instances}
 
-* **[!UICONTROL Display execution instances]** — Opens the list of execution instances mapped to the environment. This section is only displayed when the multi-instance execution option is activated. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-architecture.html?lang=ko#distributed-architecture){target="_blank"}.
+* **[!UICONTROL Display execution instances]** — Opens the list of execution instances mapped to the environment. This section is only displayed when the multi-instance execution option is activated. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-architecture.html#distributed-architecture){target="_blank"}.
 
 ### Targets of this environment {#targets}
 
@@ -149,7 +149,7 @@ and [Anonymous interactions](https://experienceleague.adobe.com/docs/campaign/ca
 
   ![Screenshot showing the other Environment settings of an environment](assets/offers-env-5.png){zoomable="yes"}
 
-* **[!UICONTROL Presentation typology]** — Typology rule of type **[!UICONTROL Offer presentation]** referenced by the environment. Presentation typologies exclude offers based on the proposition history of a recipient. You can edit these rules directly from the Web UI's **[!UICONTROL Business rules]** screen — see [Work with business rules (typologies)](../administration/typologies.md). Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html?lang=ko#offer-presentation){target="_blank"} for the full rule reference.
+* **[!UICONTROL Presentation typology]** — Typology rule of type **[!UICONTROL Offer presentation]** referenced by the environment. Presentation typologies exclude offers based on the proposition history of a recipient. You can edit these rules directly from the Web UI's **[!UICONTROL Business rules]** screen — see [Work with business rules (typologies)](../administration/typologies.md). Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html#offer-presentation){target="_blank"} for the full rule reference.
 
 * **[!UICONTROL Filters on the target]** — Filter rules that apply to every offer in the environment. Use **[!UICONTROL Add rules]** to open the rule builder and restrict the audience targeted by all offers contained in this environment.
 

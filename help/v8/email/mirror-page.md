@@ -6,18 +6,21 @@ exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
 TQID: https://experienceleague.adobe.com/iigr3vwibRH-qRbWaTXszxTuJqgdFJG6QEC1T9Z487s
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: 397
+source-wordcount: '397'
 ht-degree: 19%
-
 ---
-
 # 페이지 미러링 {#mirror-page}
 
 미러 페이지는 이메일의 온라인 버전입니다. 이메일 마케팅에서 미러 페이지에 링크를 추가하는 것은 좋습니다. 예를 들어 받은 편지함에서 볼 때 렌더링 문제가 발생하거나 이미지가 손상된 경우 사용자는 이메일의 미러 페이지에 액세스할 수 있습니다. 또한 접근성이나 소셜 공유를 장려하기 위해 온라인 버전을 제공하는 것이 좋습니다.

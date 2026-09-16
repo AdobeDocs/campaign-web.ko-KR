@@ -5,15 +5,15 @@ description: 오퍼 세부 정보 화면에서 직접 사용자 정의 컬렉션
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 043cc60da1938800404964aa7e698f959ef908fd
 workflow-type: tm+mt
-source-wordcount: 449
-ht-degree: 1%
-
+source-wordcount: '449'
+ht-degree: 5%
 ---
-
 # 오퍼 스키마에 편집 가능한 목록 추가 {#offer-editable-list}
 
 오퍼에 연결된 세그먼트 집합과 같은 사용자 지정 컬렉션 링크로 [스키마](../administration/schemas.md)를 확장하면 오퍼의 **[!UICONTROL 사용자 지정 옵션]** 섹션에서 바로 편집 가능한 목록으로 표시할 수 있습니다.  [!DNL nms:offer] 별도의 화면을 통해 관련 레코드를 관리하는 대신, 컬렉션이 오퍼 세부 정보의 목록으로 렌더링되며 전용 대화 상자를 통해 인라인으로 새 관련 레코드를 만들 수 있습니다.

@@ -6,15 +6,15 @@ exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 TQID: https://experienceleague.adobe.com/iT-8fzpVcEzhMpuUynQB3uvnA8FcJoJfnzb9-hsN5Vo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: e4673544f8e4a06b4fdc517929a03efae35a3715
 workflow-type: tm+mt
-source-wordcount: 1517
+source-wordcount: '1517'
 ht-degree: 30%
-
 ---
-
 # 콘텐츠 구성 요소 사용 {#content-components}
 
 >[!CONTEXTUALHELP]
@@ -175,7 +175,7 @@ ht-degree: 30%
 
    ![전자 메일 Designer에서 자산 선택 프로세스를 보여 주는 스크린샷입니다.](assets/email_designer_29.png){zoomable="yes"}
 
-   Adobe Experience Manager에서 에셋을 업로드하고 추가하는 방법에 대한 자세한 내용은 [Adobe Experience Manager as a Cloud Service 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=ko)를 참조하세요.
+   Adobe Experience Manager에서 에셋을 업로드하고 추가하는 방법에 대한 자세한 내용은 [Adobe Experience Manager as a Cloud Service 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html)를 참조하세요.
 
    +++
 

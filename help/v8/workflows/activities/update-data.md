@@ -6,15 +6,15 @@ exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
 TQID: https://experienceleague.adobe.com/XEGIeWi9D0dUYRFTD-fRY3P2BEpbOTvmm9aD06uq8RA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 480
+source-wordcount: '480'
 ht-degree: 11%
-
 ---
-
 # 데이터 업데이트 {#update-data}
 
 **데이터 업데이트** 활동은 **데이터 관리** 활동입니다. 데이터베이스의 필드에 대한 대량 업데이트를 수행할 수 있습니다. 데이터 업데이트를 사용자 지정할 수 있는 몇 가지 옵션이 있습니다.

@@ -6,16 +6,17 @@ exl-id: a42536fe-375b-4169-8775-d47ed26692f8
 TQID: https://experienceleague.adobe.com/KiKxS4DGB1G8je5lqmO8DGePSzSGXzqfaW--g7GLIII
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 661
+source-wordcount: '661'
 ht-degree: 27%
-
 ---
-
 # DM 채널에 대한 전역 보고서 {#global-report-direct}
 
 DM 글로벌 보고서는 채널 수준의 트래픽 및 참여 지표에 대한 포괄적인 개요를 사용자에게 제공합니다.
@@ -69,7 +70,7 @@ DM 글로벌 보고서는 채널 수준의 트래픽 및 참여 지표에 대한
 
 * **[!UICONTROL 게재할 메시지]**: 게재를 준비한 후 게재할 총 메시지 수입니다.
 
-* **&#x200B;**: 주소 누락, 격리 또는 차단 목록 제외 등 규칙을 적용할 때 분석 중에 무시된 총 주소 수입니다.
+* ****: 주소 누락, 격리 또는 차단 목록 제외 등 규칙을 적용할 때 분석 중에 무시된 총 주소 수입니다.
 
 +++
 

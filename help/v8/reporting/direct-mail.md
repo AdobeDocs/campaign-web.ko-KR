@@ -6,16 +6,17 @@ exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
 TQID: https://experienceleague.adobe.com/1HplEC3KMsKLbAMeYgCLlFo5oIJI2gJUhksr2mmOv5o
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 710
+source-wordcount: '710'
 ht-degree: 19%
-
 ---
-
 # 외부 게재 보고서 {#direct-mail-report}
 
 **외부 게재 보고서**&#x200B;는 외부 게재와 관련된 포괄적인 통찰력과 데이터를 제공합니다. 여기에는 개별 게재의 성능, 효율성 및 결과에 대한 자세한 정보가 포함되어 있으며 전체 개요를 제공합니다.

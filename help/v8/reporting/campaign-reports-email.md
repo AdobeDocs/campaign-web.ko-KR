@@ -6,18 +6,20 @@ exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 TQID: https://experienceleague.adobe.com/5UyJT1-bkt0XtqVkTQl7VobPRsxG36tJYe35KSk8n5c
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1707
+source-wordcount: '1707'
 ht-degree: 23%
-
 ---
-
 # 이메일 채널에 대한 캠페인 보고서 {#campaign-reports-email-channel}
 
 각 캠페인 보고서는 캠페인의 성공 및 오류를 자세히 설명하는 다양한 위젯으로 나뉩니다. 이메일 채널의 경우 보고서 및 지표가 아래에 자세히 설명되어 있습니다. [이 페이지](campaign-reports.md)에서 캠페인 보고서에 액세스하는 방법을 알아보세요.

@@ -5,13 +5,12 @@ exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 TQID: https://experienceleague.adobe.com/ueMHT8uicRU5nggOtC1xtoSIp8sGd82zlA2hoFrXodc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: 382
+source-wordcount: '382'
 ht-degree: 100%
-
 ---
-
 # 워크플로에 대한 보호 기능 및 제한 사항 {#guardrails-limitations}
 
 Campaign 클라이언트 콘솔에서 생성되거나 수정된 워크플로를 사용하여 Campaign Web 사용자 인터페이스에서 작업할 때 아래에 나열된 보호 기능 및 제한 사항이 적용됩니다.

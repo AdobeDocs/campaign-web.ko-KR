@@ -6,15 +6,15 @@ exl-id: 06ce7535-e84d-4aed-bea9-b85b4ee0d008
 TQID: https://experienceleague.adobe.com/iJ6Y5vUUQbBE-X5B8WVVkjBCiaO2v4PLWoRjp5-uEhU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 573
+source-wordcount: '573'
 ht-degree: 1%
-
 ---
-
 # DM 게재 미리 보기 및 보내기 {#send-direct-mail}
 
 DM 게재에 대한 추출 파일을 구성하고 나면 테스트 프로필을 사용하여 미리 봅니다. 개인화된 콘텐츠가 포함된 경우 테스트 프로필 데이터를 사용하여 이 콘텐츠가 열에 어떻게 표시되는지 확인하십시오. 이렇게 하면 파일 콘텐츠가 올바로 렌더링되고 개인화된 요소가 적절하게 통합됩니다.

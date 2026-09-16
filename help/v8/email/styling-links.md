@@ -6,13 +6,12 @@ exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
 TQID: https://experienceleague.adobe.com/GW1s2IJjSH-7ZygfvRCNzzfMZIIWibjPBvmr69sT6LU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 170
+source-wordcount: '170'
 ht-degree: 43%
-
 ---
-
 # 링크 스타일 정의 {#styling-links}
 
 이메일 디자이너에서 링크에 밑줄을 긋고 해당 색상과 대상을 선택할 수 있습니다.

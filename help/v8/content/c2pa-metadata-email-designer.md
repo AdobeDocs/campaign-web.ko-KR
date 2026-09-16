@@ -1,7 +1,7 @@
 ---
 audience: end-user
 product: campaign
-title: 이메일 및 랜딩 페이지 Designer의 C2PA 메타데이터
+title: 이메일 및 랜딩 페이지 디자이너의 C2PA 메타데이터
 description: Adobe Campaign 웹 사용자 인터페이스의 이메일 및 랜딩 페이지 디자이너를 통해 이동할 때 이미지에 이미 첨부된 C2PA 메타데이터가 어떻게 되는지 알아봅니다.
 topic: Content Management
 role: User
@@ -9,12 +9,10 @@ level: Beginner
 source-git-commit: 645352d9e2ba12d5430ddf1b62852077344c3016
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 1%
-
+ht-degree: 4%
 ---
 
-
-# 이메일 및 랜딩 페이지 Designer의 C2PA 메타데이터 {#c2pa-email-landing-page-designer}
+# 이메일 및 랜딩 페이지 디자이너의 C2PA 메타데이터 {#c2pa-email-landing-page-designer}
 
 >[!BEGINSHADEBOX]
 
@@ -57,4 +55,4 @@ C2PA 메타데이터는 Adobe Campaign 웹 사용자 인터페이스의 이메�
 ## 추가 리소스
 
 * [콘텐츠 생성 작업](generative-gs.md)
-* [생성 AI 콘텐츠 투명도](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* [생성 AI 콘텐츠 투명도](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)

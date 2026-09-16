@@ -6,15 +6,15 @@ exl-id: e4244ecc-5e37-41a6-a4dd-6e32da6d5512
 TQID: https://experienceleague.adobe.com/qsWF6dpzJBCLxrtSd9-3ux-xKOn6wbfMh7oUn-m3w4U
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 source-git-commit: 2fbacd0b6e5c6bb88b7987f151bca514764e59f7
 workflow-type: tm+mt
-source-wordcount: 408
-ht-degree: 8%
-
+source-wordcount: '408'
+ht-degree: 9%
 ---
-
 # 외부 신호 {#external-signal}
 
 <!--External Signal End-->
@@ -38,7 +38,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->이 페이지에서는 Campaign 웹 사용자 인터페이스에서 **[!UICONTROL 외부 신호]** 활동을 구성하고 다른 워크플로우 또는 API 호출에서 트리거하는 주요 단계를 설명합니다. 워크플로우를 트리거하는 방법, 모범 사례 및 Campaign API로 작업하는 방법에 대한 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example)를 참조하세요.
+>이 페이지에서는 Campaign 웹 사용자 인터페이스에서 **[!UICONTROL 외부 신호]** 활동을 구성하고 다른 워크플로우 또는 API 호출에서 트리거하는 주요 단계를 설명합니다. 워크플로우를 트리거하는 방법, 모범 사례 및 Campaign API로 작업하는 방법에 대한 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example)를 참조하세요.
 
 **외부 신호** 활동을 구성하고 실행을 트리거하려면 다음 단계를 따르십시오.
 

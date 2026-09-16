@@ -9,9 +9,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 2%
-
 ---
-
 # 프로필 차원 만들기{#creating-a-custom-profile-dimension}
 
 수신자 스키마 확장 중에 생성된 프로필 데이터를 기반으로 보고서를 만들고 관리할 수도 있습니다.

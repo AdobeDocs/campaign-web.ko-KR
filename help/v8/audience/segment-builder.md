@@ -7,9 +7,7 @@ source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 24%
-
 ---
-
 # 규칙 빌더를 사용하여 작업 {#segment-builder}
 
 규칙 빌더를 사용하면 데이터베이스에 포함된 데이터를 필터링하여 게재 대상의 모집단을 정의할 수 있습니다. **[!UICONTROL 대상자 작성]** 활동을 사용하는 워크플로우에서 대상자를 만들거나 게재를 만들 때 직접 작성하여 일회성 대상자를 만드는 데 사용합니다.

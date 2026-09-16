@@ -6,17 +6,18 @@ exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 TQID: https://experienceleague.adobe.com/wabkxP1ZzkHbK3A8FUFFE0TKdlqvMrhE6PMzLuZaPbU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 315
+source-wordcount: '315'
 ht-degree: 8%
-
 ---
-
 # 캠페인 보고서 시작하기 {#campaign-reports}
 
 **캠페인 보고서**&#x200B;는 다양한 게재와 관련된 모든 정보를 통합하여 **캠페인**&#x200B;에 대한 포괄적인 개요를 제공합니다. 이러한 보고서는 성공률, 대상 참여 및 기타 주요 지표를 포함하여 채널당 각 게재의 성능에 대한 자세한 분석을 제공합니다. 캠페인의 전반적인 효과와 영향을 평가하는 데 도움이 됩니다.

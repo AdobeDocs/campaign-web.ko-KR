@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 2%
-
 ---
-
 # 동적 보고 사용 계약 {#pii-agreement}
 
 동적 보고 사용 계약의 목적은 데이터 처리에 대한 팝업 동의로 작동하는 것입니다. 기본적으로 계약은 표시만 되며 관리 권한이 할당된 사용자만 수락하거나 거부할 수 있습니다.

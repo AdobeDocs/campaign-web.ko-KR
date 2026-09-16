@@ -5,16 +5,17 @@ exl-id: c242c2b5-c847-4c01-a82b-9ccaeb0c2c97
 TQID: https://experienceleague.adobe.com/Fn3O9rjM5mkBzfTZbKeV5aZUF2XmfQ87JGUZP7V-RR8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 374
+source-wordcount: '374'
 ht-degree: 3%
-
 ---
-
 # 표준 시간대 관리 {#timezone-management}
 
 Adobe Campaign Web UI는 사용자 웹 브라우저의 **로컬 시간대**&#x200B;에 따라 모든 날짜 및 시간 값을 표시합니다. 이 동작으로 인해 웹 UI와 클라이언트 콘솔 간의 타임스탬프를 비교할 때 차이가 발생할 수 있습니다.

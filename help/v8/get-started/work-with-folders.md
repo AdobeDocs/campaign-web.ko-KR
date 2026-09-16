@@ -75,8 +75,8 @@
 <target xml:lang="en-XX">자동으로 생성되는 폴더 오브젝트와 기술 워크플로는 제한되어 있으며 왼쪽 패널에 표시되지 않습니다.</target>
 </trans-unit>
 <trans-unit id="tu17" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></target>
 </trans-unit>
 <trans-unit id="tu18" xml:space="preserve">
 <source xml:lang="en-US">The folders <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Objects created automatically<ph id="3" ctype="x-LINK_REF">]**</ph> and <ph id="5" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Technical workflows<ph id="7" ctype="x-LINK_REF">]**</ph> are restricted, and cannot be viewed on the left side panel.</source>
@@ -91,8 +91,8 @@
 <target xml:lang="en-XX">폴더에 대한 권한이 없는 경우 관리자에게 문의하세요. 폴더 권한을 관리하는 방법에 대해 알아보려면 이 <ph id="1" ctype="x-LINK">[</ph>섹션<ph id="2" ctype="x-LINK">](permissions.md#folder-permissions)</ph>을 참조하세요.</target>
 </trans-unit>
 <trans-unit id="tu21" xml:space="preserve">
-<source xml:lang="en-US">Named rights such as <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Insert Folders<ph id="3" ctype="x-LINK_REF">]**</ph>, <ph id="5" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Edit Folders<ph id="7" ctype="x-LINK_REF">]**</ph>, and <ph id="9" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Delete Folder<ph id="11" ctype="x-LINK_REF">]**</ph> also determine which folder actions are available to an operator. Refer to the <ph id="13" ctype="x-LINK">[</ph>Campaign v8 documentation<ph id="14" ctype="x-LINK">[#$tu22]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>폴더 삽입<ph id="3" ctype="x-LINK_REF">]**</ph>, <ph id="5" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>폴더 편집<ph id="7" ctype="x-LINK_REF">]**</ph>, <ph id="9" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>폴더 삭제<ph id="11" ctype="x-LINK_REF">]**</ph>와 같은 명명된 권한도 운영자가 수행할 수 있는 폴더 작업을 결정합니다. <ph id="13" ctype="x-LINK">[</ph>Campaign v8 설명서<ph id="14" ctype="x-LINK">[#$tu22]{target="_blank"}</ph>를 참조하세요.</target>
+<source xml:lang="en-US">Named rights such as <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Insert Folders<ph id="3" ctype="x-LINK_REF">]**</ph>, <ph id="5" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Edit Folders<ph id="7" ctype="x-LINK_REF">]**</ph>, and <ph id="9" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Delete Folder<ph id="11" ctype="x-LINK_REF">]**</ph> also determine which folder actions are available to an operator. Refer to the <ph id="13" ctype="x-LINK">&lbrack;</ph>Campaign v8 documentation<ph id="14" ctype="x-LINK">[#$tu22]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>폴더 삽입<ph id="3" ctype="x-LINK_REF">]**</ph>, <ph id="5" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>폴더 편집<ph id="7" ctype="x-LINK_REF">]**</ph>, <ph id="9" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>폴더 삭제<ph id="11" ctype="x-LINK_REF">]**</ph>와 같은 명명된 권한도 운영자가 수행할 수 있는 폴더 작업을 결정합니다. <ph id="13" ctype="x-LINK">&lbrack;</ph>Campaign v8 설명서<ph id="14" ctype="x-LINK">[#$tu22]{target="_blank"}</ph>를 참조하세요.</target>
 </trans-unit>
 <trans-unit id="tu23" xml:space="preserve">
 <source xml:lang="en-US">Create a new folder</source>
@@ -135,8 +135,8 @@
 <target xml:lang="en-XX">특정 유형이 없는 폴더를 만들려면 <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>일반 폴더<ph id="3" ctype="x-LINK_REF">]**</ph> 유형을 선택합니다.</target>
 </trans-unit>
 <trans-unit id="tu33" xml:space="preserve">
-<source xml:lang="en-US">You can also <ph id="1" ctype="x-LINK">[</ph>create and manage folders in Adobe Campaign console<ph id="2" ctype="x-LINK">[#$tu34]</ph>.</source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-LINK">[</ph>Adobe Campaign 콘솔에서 폴더를 만들고 관리<ph id="2" ctype="x-LINK">[#$tu34]</ph>할 수도 있습니다.</target>
+<source xml:lang="en-US">You can also <ph id="1" ctype="x-LINK">&lbrack;</ph>create and manage folders in Adobe Campaign console<ph id="2" ctype="x-LINK">[#$tu34]</ph>.</source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-LINK">&lbrack;</ph>Adobe Campaign 콘솔에서 폴더를 만들고 관리<ph id="2" ctype="x-LINK">[#$tu34]</ph>할 수도 있습니다.</target>
 </trans-unit>
 <trans-unit id="tu35" xml:space="preserve">
 <source xml:lang="en-US">Reorder folders</source>
@@ -191,8 +191,8 @@
 <target xml:lang="en-XX">폴더 삭제</target>
 </trans-unit>
 <trans-unit id="tu48" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!CAUTION">[!CAUTION]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!CAUTION">[!CAUTION]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!CAUTION">[!CAUTION]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!CAUTION">[!CAUTION]</ph></target>
 </trans-unit>
 <trans-unit id="tu49" xml:space="preserve">
 <source xml:lang="en-US">When deleting a folder, all data stored in the folder is also deleted.</source>
@@ -243,8 +243,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-IMAGE">![</ph>채널 열의 값의 백분율 분포<ph id="2" ctype="x-IMAGE">](assets/values_percentage.png){zoomable="yes"}</ph></target>
 </trans-unit>
 <trans-unit id="tu61" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu62" xml:space="preserve">
 <source xml:lang="en-US">For columns with many values, only the first twenty values are displayed. A notification <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Partial load<ph id="3" ctype="x-LINK_REF">]**</ph> warns you.</source>

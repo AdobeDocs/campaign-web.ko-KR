@@ -43,8 +43,8 @@
 <target xml:lang="en-XX">특정 액션(만들기, 수정, 삭제) 액세스</target>
 </trans-unit>
 <trans-unit id="tu9" xml:space="preserve">
-<source xml:lang="en-US">A detailed procedure for setting up permissions in Adobe Campaign is available in <ph id="1" ctype="x-LINK">[</ph>Adobe Campaign v8 (console) documentation<ph id="2" ctype="x-LINK">[#$tu10]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX">Adobe Campaign에서 권한을 설정하는 자세한 절차는 <ph id="1" ctype="x-LINK">[</ph>Adobe Campaign v8(콘솔) 설명서<ph id="2" ctype="x-LINK">[#$tu10]{target="_blank"}</ph>에서 확인할 수 있습니다.</target>
+<source xml:lang="en-US">A detailed procedure for setting up permissions in Adobe Campaign is available in <ph id="1" ctype="x-LINK">&lbrack;</ph>Adobe Campaign v8 (console) documentation<ph id="2" ctype="x-LINK">[#$tu10]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX">Adobe Campaign에서 권한을 설정하는 자세한 절차는 <ph id="1" ctype="x-LINK">&lbrack;</ph>Adobe Campaign v8(콘솔) 설명서<ph id="2" ctype="x-LINK">[#$tu10]{target="_blank"}</ph>에서 확인할 수 있습니다.</target>
 </trans-unit>
 <trans-unit id="tu11" xml:space="preserve">
 <source xml:lang="en-US">Permissions on folders</source>
@@ -79,8 +79,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-IMAGE">![</ph>폴더 보안 설정에서 거부된 권한의 예<ph id="2" ctype="x-IMAGE">](assets/folder_security_denied.png){zoomable="yes"}</ph></target>
 </trans-unit>
 <trans-unit id="tu19" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu20" xml:space="preserve">
 <source xml:lang="en-US">You should not be able to create an object for which you do not have at least one folder with writing rights.</source>
@@ -103,8 +103,8 @@
 <target xml:lang="en-XX">이러한 권한이 폴더에서 수행할 수 있는 작업에 어떻게 영향을 미치는지 알아보려면 이 <ph id="1" ctype="x-LINK">[</ph>섹션<ph id="2" ctype="x-LINK">](work-with-folders.md#folder-access-rights)</ph>을 참조하세요.</target>
 </trans-unit>
 <trans-unit id="tu25" xml:space="preserve">
-<source xml:lang="en-US">Named rights also determine which folder actions are available to an operator. Refer to the <ph id="1" ctype="x-LINK">[</ph>Campaign v8 documentation<ph id="2" ctype="x-LINK">[#$tu26]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX">명명된 권한은 운영자가 수행할 수 있는 폴더 작업도 결정합니다. <ph id="1" ctype="x-LINK">[</ph>Campaign v8 설명서<ph id="2" ctype="x-LINK">[#$tu26]{target="_blank"}</ph>를 참조하세요.</target>
+<source xml:lang="en-US">Named rights also determine which folder actions are available to an operator. Refer to the <ph id="1" ctype="x-LINK">&lbrack;</ph>Campaign v8 documentation<ph id="2" ctype="x-LINK">[#$tu26]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX">명명된 권한은 운영자가 수행할 수 있는 폴더 작업도 결정합니다. <ph id="1" ctype="x-LINK">&lbrack;</ph>Campaign v8 설명서<ph id="2" ctype="x-LINK">[#$tu26]{target="_blank"}</ph>를 참조하세요.</target>
 </trans-unit>
 <trans-unit id="tu27" xml:space="preserve">
 <source xml:lang="en-US">All permissions in the Campaign Web user interface synchronize with Campaign Client Console permissions.</source>

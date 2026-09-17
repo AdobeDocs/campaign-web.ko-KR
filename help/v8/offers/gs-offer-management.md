@@ -5,15 +5,15 @@ description: Adobe Campaign 웹에서 오퍼를 관리하는 방법 알아보기
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
 workflow-type: tm+mt
-source-wordcount: 763
-ht-degree: 3%
-
+source-wordcount: '763'
+ht-degree: 4%
 ---
-
 # 오퍼 관리 시작 {#gs-offer-management}
 
 이 기능을 사용하면 게재에 개인화된 오퍼를 추가하고 주어진 컨텍스트에서 각 프로필에 대해 가장 관련성이 높은 오퍼를 제공할 수 있습니다. 오퍼는 간단한 커뮤니케이션 메시지이거나 하나 또는 여러 제품에 대한 프로모션일 수 있습니다. 자격 규칙 및 우선 순위 가중치에 따라 오퍼 엔진은 제시할 최상의 제안을 선택합니다.

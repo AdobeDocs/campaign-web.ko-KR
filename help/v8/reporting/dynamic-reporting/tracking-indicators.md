@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 2%
-
 ---
-
 # 지표 추적{#tracking-indicators}
 
 **[!UICONTROL 추적 표시기]** 보고서에는 전자 메일 메시지를 받은 후 추적 동작에 대한 주요 지표가 포함되어 있습니다.

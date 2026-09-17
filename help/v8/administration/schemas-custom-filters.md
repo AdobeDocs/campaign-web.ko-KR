@@ -6,9 +6,7 @@ source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 3%
-
 ---
-
 # 사용자 정의 필터 추가 {#custom-filters}
 
 **[!UICONTROL 인벤토리 목록 구성]** > **[!UICONTROL 사용자 지정 필터]** 섹션에서 스키마 목록 보기의 [필터 창](../query/filter.md)에서 **[!UICONTROL 고급 필터]** 규칙 빌더 위에 빠른 액세스 필드로 표시되는 특성을 선택할 수 있습니다.

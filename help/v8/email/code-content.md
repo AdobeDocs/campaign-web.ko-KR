@@ -6,15 +6,15 @@ exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
 TQID: https://experienceleague.adobe.com/PPrenfLb4utuqvAsrSitbtZzDHcCehzrOMK4R7L2EMw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 131
+source-wordcount: '131'
 ht-degree: 16%
-
 ---
-
 # 자체 이메일 콘텐츠 코딩 {#code-content}
 
 원시 HTML을 가져오고 이메일 콘텐츠를 코딩하려면 **[!UICONTROL 나만의 코드 작성]** 모드를 사용하십시오.

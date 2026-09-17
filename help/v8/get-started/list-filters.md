@@ -6,15 +6,15 @@ exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 TQID: https://experienceleague.adobe.com/GKGmvMJtlQgAftvZuOb33tQSgqHC9s8qlYJMVFnWjz0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: b510c77a5a9c763e37a79137becaf4f192c52ce5
 workflow-type: tm+mt
-source-wordcount: 433
+source-wordcount: '433'
 ht-degree: 100%
-
 ---
-
 # 목록 찾아보기 및 필터링 {#list-screens}
 
 왼쪽 탐색 메뉴의 대부분 링크에는 **게재** 또는 **캠페인** 목록 등 오브젝트 목록이 표시됩니다. 이들 중 일부 목록 화면은 읽기 전용입니다. 아래에 자세히 설명된 대로 목록 표시 방식을 맞춤화하고, 이들 목록을 필터링하고, 목록 데이터를 CSV 파일로 내보낼 수 있습니다.

@@ -6,13 +6,12 @@ exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 TQID: https://experienceleague.adobe.com/8MWtEgcsPZRYWGan5rJfho6HVt5KqUySGJMG6sUjIkA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 800
+source-wordcount: '800'
 ht-degree: 21%
-
 ---
-
 # 컨트롤 그룹 설정 {#control-group}
 
 컨트롤 그룹은 게재에서 제외된 하위 모집단입니다. 대상자의 일부에 메시지를 보내지 않도록 컨트롤 그룹을 정의하고 게재 후 동작을 기본 대상과 비교할 수 있습니다. 이 옵션은 캠페인의 영향을 측정하는 데 도움이 됩니다.

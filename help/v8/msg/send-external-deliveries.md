@@ -6,15 +6,15 @@ exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
 TQID: https://experienceleague.adobe.com/PssWyAdLFJ02--DZtt2AOjtbyoVcYip-cJvSqrr0aH4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 466
+source-wordcount: '466'
 ht-degree: 8%
-
 ---
-
 # 외부 게재 전송 {#gs-direct-mail}
 
 Adobe Campaign을 사용하면 Campaign 외부에서 만든 게재를 관리하여 외부 시스템을 통해 개인화된 이메일, SMS 메시지 또는 푸시 알림(iOS 및 Android)을 대량으로 전달할 수 있습니다.

@@ -6,16 +6,17 @@ exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
 TQID: https://experienceleague.adobe.com/oUU-QTPEVgYame-X2qxNKw0hE8W8XNORFjVc-yC3-ww
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 1334
+source-wordcount: '1334'
 ht-degree: 18%
-
 ---
-
 # 트랜잭션 메시지 만들기
 
 트랜잭션 메시지에서 이벤트는 개인화된 메시지 전송을 트리거합니다. 이를 활성화하려면 각 이벤트 유형에 대한 메시지 템플릿을 만듭니다. 이러한 템플릿에는 트랜잭션 메시지를 개인화하는 데 필요한 모든 정보가 포함되어 있습니다.

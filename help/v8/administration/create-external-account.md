@@ -5,15 +5,15 @@ exl-id: 52b4ec99-4f55-4e0b-8a54-b25058d97b02
 TQID: https://experienceleague.adobe.com/YS9Wajit0WQlARuXk-6m0cTI87bUjAOfDIkRH-ahV7E
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 213
+source-wordcount: '213'
 ht-degree: 5%
-
 ---
-
 # 외부 계정 만들기 {#create-external-account}
 
 새 외부 계정을 만들려면 아래에 설명된 단계를 수행합니다. 특정 구성 설정은 만들고 있는 외부 계정 유형에 따라 다릅니다.

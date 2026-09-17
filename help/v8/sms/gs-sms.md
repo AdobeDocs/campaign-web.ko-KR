@@ -6,15 +6,15 @@ exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 TQID: https://experienceleague.adobe.com/o-0MeELRewgw68-diUevmn9qDYgEK8rzDlHv54Kx00A
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 173
+source-wordcount: '173'
 ht-degree: 97%
-
 ---
-
 # SMS 게재 시작하기 {#sms}
 
 SMS 게재를 사용하여 실용적이고 효율적으로 문자 메시지를 고객의 모바일 디바이스로 전송할 수 있습니다. 이 기능을 통해 메시지를 효과적으로 전달하기 위해 텍스트 기반 메시지를 생성하고, 개인화하고, 미리 볼 수 있습니다.

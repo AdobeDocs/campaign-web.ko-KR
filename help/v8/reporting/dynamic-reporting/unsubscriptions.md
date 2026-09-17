@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 16%
-
 ---
-
 # 구독 취소 건수{#unsubscriptions}
 
 **[!UICONTROL 구독 해지]** 보고는 가장 많이 구독 해지된 게재 항목을 식별합니다.

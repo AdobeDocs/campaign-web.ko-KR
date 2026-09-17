@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 1%
-
 ---
-
 # 시각화 추가{#adding-visualizations}
 
 **시각화** 탭을 사용하여 영역, 도넛 및 그래프와 같은 시각화 항목을 끌어서 놓을 수 있습니다. 시각화는 데이터를 그래픽으로 표시합니다.

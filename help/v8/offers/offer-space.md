@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: 오퍼 공간 만들기 및 관리
+title: 오퍼 스페이스 만들기 및 관리
 description: Campaign 웹에서 오퍼 공간을 만들고, 구성하고, 배포하고, 미리 보는 방법에 대해 알아봅니다
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
 workflow-type: tm+mt
-source-wordcount: 921
-ht-degree: 0%
-
+source-wordcount: '921'
+ht-degree: 1%
 ---
-
-# 오퍼 공간 만들기 및 관리 {#offer-space}
+# 오퍼 스페이스 만들기 및 관리 {#offer-space}
 
 **오퍼 공간**&#x200B;은(는) 오퍼가 연락처에 노출되는 위치와 방법, 오퍼가 사용하는 채널(이메일, DM, SMS, 인바운드 웹 등), 오퍼가 사용할 수 있는 콘텐츠 필드, 최종 표시 작성 방법을 정의합니다. 단일 환경에는 각 노출 포인트에 대해 하나씩 여러 개의 오퍼 공간이 포함될 수 있습니다.
 

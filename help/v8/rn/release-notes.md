@@ -5,20 +5,24 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 TQID: https://experienceleague.adobe.com/HkI2JUqLNM805hPfVsXl-8nwR70TzxRP31V9EI4yKGA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 332
-ht-degree: 78%
-
+source-wordcount: '332'
+ht-degree: 100%
 ---
-
 # 릴리스 정보 {#latest-release}
 
 >[!CONTEXTUALHELP]
@@ -55,9 +59,9 @@ _2026년 8월 18일_
 * **열람수 추적**: 이제 Campaign Web 사용자 인터페이스에서 직접 열람수 추적을 활성화하거나 비활성화할 수 있습니다. 이는 데이터 보호 규정을 준수하는 데 도움이 됩니다. [자세히 보기](../advanced-settings/delivery-settings.md#tracking-tab)
 * **프로그램 목록 보기**: 캠페인, 게재, 워크플로와 마찬가지로 이제 프로그램이 전용 보기에 나열됩니다. 이 보기에서 바로 기존 프로그램을 탐색하고 새 프로그램을 만들 수 있습니다. [자세히 보기](../administration/plans-programs.md#create-program)
 * **사용자 정의 스키마 구성**: 이제 **액션 데이터** 섹션에서 사용자 정의 스키마의 레코드에 대한 **복제** 액션을 허용하지 않도록 설정할 수 있습니다. [자세히 보기](../administration/schemas-action-data.md#action-data)
-* **사용자 지정 필터**: 이제 스키마 편집기에서 새 **링크 설정** 대화 상자를 사용하여 링크 유형 사용자 지정 필터의 선택기에서 사용할 수 있는 값을 제한할 수 있습니다. [자세히 보기](../administration/schemas-custom-filters.md#settings)
-* **스키마 유효성 검사**: 이제 새 **확인** 단추를 사용하여 스키마 편집기에서 직접 스키마 구조의 유효성을 검사할 수 있습니다. [자세히 보기](../administration/schemas-create-publish.md#create-new)
-* **폴더 보안**: 폴더에서 사용할 수 있는 작업은 이제 클라이언트 콘솔의 동작과 일치하는 연산자의 권한으로 지속적으로 관리됩니다. [자세히 알아보기](../get-started/work-with-folders.md#about-folders).
+* **사용자 정의 필터**: 스키마 편집기에서 이제 새로운 **링크 설정** 대화 상자를 사용하여 링크 유형 사용자 정의 필터의 선택기에서 사용할 수 있는 값을 제한할 수 있습니다. [자세히 보기](../administration/schemas-custom-filters.md#settings)
+* **스키마 유효성 검사**: 이제 새로운 **확인** 버튼을 사용하여 스키마 편집기에서 바로 스키마 구조의 유효성을 검사할 수 있습니다. [자세히 보기](../administration/schemas-create-publish.md#create-new)
+* **폴더 보안**: 폴더에서 사용할 수 있는 작업은 이제 운영자의 권한에 따라 일관되게 제어되며, 이는 클라이언트 콘솔의 동작과 일치합니다. [자세히 알아보기](../get-started/work-with-folders.md#about-folders).
   <!--* **Enrichment activity**: You can now enrich data from an external database directly from the **Enrichment** workflow activity. This matches the capability already available in the Client Console.-->
   <!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
 

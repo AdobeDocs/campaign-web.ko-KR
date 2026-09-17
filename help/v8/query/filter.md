@@ -6,15 +6,15 @@ exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
 TQID: https://experienceleague.adobe.com/a683b5CBnXIK41ltJJeX9cBgMh2drsjlzoAicypOLzA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 7b43dd8a4a498fdbd0c205d28645901cf44df3a6
 workflow-type: tm+mt
-source-wordcount: 450
+source-wordcount: '450'
 ht-degree: 0%
-
 ---
-
 # 필터 목록 {#filter-lists}
 
 Adobe Campaign 웹은 각 객체 목록 내에 필터를 제공하므로 특정 컨텍스트 기준에 따라 정보를 필터링할 수 있습니다. 예를 들어 상태, 채널, 연락 날짜 또는 폴더를 기반으로 게재를 필터링할 수 있습니다. 증명을 숨길 수도 있습니다.

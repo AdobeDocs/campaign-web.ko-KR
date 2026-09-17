@@ -5,15 +5,15 @@ description: Campaign 웹에서 오퍼를 만들고, 구성하고, 승인하고,
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 7bd09b83112efb99c90884b7da21a5e9a5c76b6c
 workflow-type: tm+mt
-source-wordcount: 1057
-ht-degree: 1%
-
+source-wordcount: '1057'
+ht-degree: 2%
 ---
-
 # 오퍼 만들기 및 게시 {#create-offer}
 
 **오퍼**&#x200B;는 자체 자격 기간, 대상 필터, 가중치 및 콘텐츠를 가진 개별 제안입니다. 오퍼는 **카테고리**&#x200B;를 통해 오퍼 카탈로그에 구성되어 있으며 **오퍼 공간**&#x200B;을 통해 수신자에게 제공됩니다.

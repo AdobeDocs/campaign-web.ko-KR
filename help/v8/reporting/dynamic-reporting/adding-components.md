@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 4%
-
 ---
-
 # 구성 요소 추가{#adding-components}
 
 구성 요소를 사용하여 다양한 차원, 지표 및 기간을 사용하여 보고서를 사용자 지정할 수 있습니다.

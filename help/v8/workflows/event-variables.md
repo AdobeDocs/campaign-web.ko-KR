@@ -6,15 +6,15 @@ exl-id: 526dc98f-391d-4f3f-a687-c980bf60b93b
 TQID: https://experienceleague.adobe.com/jAIMH7uI-9k8Fij7eGITONONHDaVMReEOpyZU9X6we0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 370
+source-wordcount: '370'
 ht-degree: 1%
-
 ---
-
 # 워크플로 이벤트 변수 {#event-variables}
 
 일부 워크플로우 활동을 사용하면 표현식 편집기에서 스크립트를 편집하여 이전 활동에서 데이터 검색, 조건 작성 또는 이벤트 변수를 기반으로 파일 이름 계산과 같은 특정 작업을 수행할 수 있습니다.

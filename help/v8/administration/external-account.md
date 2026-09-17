@@ -6,9 +6,7 @@ source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 2%
-
 ---
-
 # 캠페인별 외부 계정 {#external-account}
 
 선택한 외부 계정 유형에 따라 계정 설정을 구성하려면 아래 단계를 따르십시오.

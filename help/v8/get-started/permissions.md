@@ -6,15 +6,15 @@ exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 TQID: https://experienceleague.adobe.com/RJbtR10FIXBaSjXv-HxYIsJg1vpDA71Gwu99Jl9GQh0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 342
-ht-degree: 86%
-
+source-wordcount: '342'
+ht-degree: 100%
 ---
-
 # 권한 {#permissions}
 
 Adobe Campaign의 각 사용자는 애플리케이션에서 특정 권한과 제한을 갖습니다. 사용자는 운영자 그룹에 속할 수 있으며 그룹의 권한을 상속받을 수 있습니다.
@@ -53,8 +53,8 @@ Adobe Campaign에서 권한을 설정하는 자세한 절차는 [Adobe Campaign 
 
 **[!UICONTROL 시스템 폴더]** 옵션을 선택하면 권한에 관계없이 모든 운영자에 대해 액세스가 허용됩니다.
 
-이러한 권한이 폴더에서 사용할 수 있는 작업에 어떻게 영향을 미치는지 알아보려면 이 [섹션](work-with-folders.md#folder-access-rights)을 참조하세요.
+이러한 권한이 폴더에서 수행할 수 있는 작업에 어떻게 영향을 미치는지 알아보려면 이 [섹션](work-with-folders.md#folder-access-rights)을 참조하세요.
 
-명명된 권한은 연산자가 사용할 수 있는 폴더 작업도 결정합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=ko#use-named-rights){target="_blank"}를 참조하세요.
+명명된 권한은 운영자가 수행할 수 있는 폴더 작업도 결정합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=ko#use-named-rights){target="_blank"}를 참조하세요.
 
 Campaign Web 사용자 인터페이스의 모든 권한은 Campaign 클라이언트 콘솔 권한과 동기화됩니다.

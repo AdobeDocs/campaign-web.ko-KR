@@ -6,13 +6,12 @@ exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 TQID: https://experienceleague.adobe.com/zDt9wDMvygP9NTWF5c36g-7jzikNEaTPegCJMvN4dec
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 141
+source-wordcount: '141'
 ht-degree: 35%
-
 ---
-
 # 인라인 스타일 속성 추가 {#adding-inline-styling-attributes}
 
 이메일 Designer 인터페이스에서 요소를 선택하고 오른쪽 창에 해당 설정을 표시하면 해당 특정 요소에 대한 인라인 속성 및 해당 값을 사용자 지정합니다.

@@ -6,24 +6,31 @@ exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 TQID: https://experienceleague.adobe.com/pR1iKb30qV4nynpuQ8daJoivMS7HX5DKHzIVFLVDPAY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: ht
-source-wordcount: 1326
+workflow-type: tm+mt
+source-wordcount: '1326'
 ht-degree: 100%
-
 ---
-
 # 새로운 기능 {#new}
 
 **Adobe Campaign Web 사용자 인터페이스**&#x200B;의 새로운 버전을 소개합니다. 최신 릴리스에는 맞춤형 크로스 채널 캠페인 만들기를 간소화하고, 탁월한 결과를 도출하며, 모든 채널에서 경쟁 우위를 확보하도록 설계된 직관적인 기능이 포함되어 있습니다. Campaign Web 사용자 인터페이스(UI)는 통합된 경험을 위해 Adobe Experience Platform과 연결된 캔버스를 제공합니다.

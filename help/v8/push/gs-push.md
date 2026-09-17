@@ -6,15 +6,15 @@ exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
 TQID: https://experienceleague.adobe.com/JuLOa50dKmVllMtoxSWk11GClat6IQoPI5j3d-b6NFs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 206
+source-wordcount: '206'
 ht-degree: 98%
-
 ---
-
 # 푸시 알림 시작하기 {#push}
 
 푸시 알림은 앱을 사용하지 않는 경우에도 모바일 앱 사용자에게 연락할 수 있는 필수적 기능입니다. 업데이트 제공, 특정 작업 유도, 거래 알림 등 다양한 용도로 사용됩니다. 사용자는 해당 알림 수신을 옵트인해야 합니다.

@@ -6,20 +6,23 @@ exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
 TQID: https://experienceleague.adobe.com/EGP8dJLZGnGqQDiDfeal6wv5UL0ygtw9Y6F9SKLGrC8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 326
+source-wordcount: '326'
 ht-degree: 2%
-
 ---
-
 # 게재 알림 시작하기 {#gs-delivery-alerting}
 
 게재 경고는 사용자 그룹이 게재 실행에 대한 정보가 포함된 이메일 알림을 자동으로 수신할 수 있는 경고 관리 시스템입니다. 수신자는 Adobe Campaign에서 처리하는 진행 중인 게재를 모니터링하고 문제가 발생하는 경우 적절한 조치를 취합니다.

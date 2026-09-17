@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 17%
-
 ---
-
 # 컴플레인{#complaints}
 
 **[!UICONTROL 컴플레인]** 보고는 스팸으로 가장 많이 신고된 게재 항목을 식별합니다.

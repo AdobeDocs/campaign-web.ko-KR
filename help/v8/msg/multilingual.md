@@ -7,9 +7,7 @@ source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '1489'
 ht-degree: 6%
-
 ---
-
 # 다국어 게재 구성 {#multilingual-delivery}
 
 >[!CONTEXTUALHELP]

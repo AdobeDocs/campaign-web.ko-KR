@@ -10,9 +10,7 @@ source-git-commit: 5c9d3db95905f77dddffaf824156c87b9d79013c
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 10%
-
 ---
-
 # 브랜드 구성 {#branding-configure}
 
 기술 관리자는 웹 UI에서 직접 여러 브랜드를 만들고 관리할 수 있습니다. 이를 통해 로고 및 이메일 추적 설정을 포함하여 브랜드 정체성을 구성하는 모든 요소를 정의할 수 있습니다.

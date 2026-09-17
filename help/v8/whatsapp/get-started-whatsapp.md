@@ -11,9 +11,7 @@ source-git-commit: f0c22710efcda2f59f75ea26cf239d549ff34f96
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 1%
-
 ---
-
 # WhatsApp 메시지 시작 {#get-started-whatsapp}
 
 Meta의 [Cloud API](https://developers.facebook.com/docs/whatsapp/cloud-api/)를 사용하여 **Adobe Campaign 웹 사용자 인터페이스**&#x200B;에서 WhatsApp 메시지를 보낼 수 있습니다. 다른 채널과 함께 독립 실행형 게재, 캠페인 워크플로우 또는 마케팅 캠페인 내에서 WhatsApp을 사용합니다.

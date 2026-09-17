@@ -6,15 +6,15 @@ exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
 TQID: https://experienceleague.adobe.com/hpwPpLBk28eQ58sahnuBCostJpXhW7PDssUgjxainYY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 202
+source-wordcount: '202'
 ht-degree: 100%
-
 ---
-
 # 다이렉트 메일 게재 시작하기 {#gs-direct-mail}
 
 DM(다이렉트 메일)은 엽서, 전단지, 카탈로그와 같은 개인 맞춤화된 레터를 대량으로 고객에게 게재하기 위한 파일을 제작할 수 있는 오프라인 채널입니다.

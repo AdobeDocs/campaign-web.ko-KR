@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 2%
-
 ---
-
 # 도메인별 분류{#breakdown-by-domains}
 
 이 보고서에는 이메일 게재 대상자에 표시된 각 도메인의 성능 데이터가 포함됩니다. 캠페인 또는 프로그램 보고서인 경우, 여러 대상에 대해 성과 데이터를 사용할 수 있습니다. 이 데이터를 사용하면 특정 이벤트에 대한 반응으로 각 도메인의 동작을 분석할 수 있습니다. 예를 들어 링크 표시, URL on 차단 목록 등이 있습니다.

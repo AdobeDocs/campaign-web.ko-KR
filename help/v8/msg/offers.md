@@ -6,15 +6,15 @@ exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 TQID: https://experienceleague.adobe.com/aAihPctzpv-wOectPp1y1qntZBX9rH5MqT1e0OLD4uA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5eee68c2201dac7b9c3ee6aa894e3ea1bef2c027
 workflow-type: tm+mt
-source-wordcount: 805
+source-wordcount: '805'
 ht-degree: 23%
-
 ---
-
 # 메시지에 오퍼 추가 {#offers-content}
 
 Campaign 웹 UI에서 직접 게재에 오퍼를 추가할 수 있습니다. 이러한 오퍼는 오퍼 목록에 액세스할 수 있는 **오퍼** 왼쪽 메뉴에서 사용할 수 있습니다.

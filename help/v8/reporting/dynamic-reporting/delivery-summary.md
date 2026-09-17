@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 1%
-
 ---
-
 # 게재 요약{#delivery-summary}
 
 **[!UICONTROL 게재 요약]** 보고서에는 전자 메일 또는 여러 전자 메일과 관련된 기본 정보가 자세히 설명되어 있습니다.

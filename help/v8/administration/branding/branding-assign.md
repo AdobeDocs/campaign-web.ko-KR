@@ -10,9 +10,7 @@ source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 13%
-
 ---
-
 # 브랜드 할당 {#branding-assign}
 
 ## 템플릿에 브랜드 연결 {#linking-a-brand-to-a-template}

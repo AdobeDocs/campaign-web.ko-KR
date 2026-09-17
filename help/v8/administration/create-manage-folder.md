@@ -7,9 +7,7 @@ source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 42%
-
 ---
-
 # 폴더 만들기 및 관리
 
 Adobe Campaign에서 새 폴더를 만들어 탐색 트리를 관리할 수 있습니다. **[!UICONTROL 탐색기]**&#x200B;에서 새 폴더를 만들고자 하는 폴더로 이동합니다.

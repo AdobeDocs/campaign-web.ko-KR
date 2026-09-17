@@ -10,19 +10,21 @@ exl-id: 6fc6ff43-ac7f-46c7-aa1a-9489ffc45423
 TQID: https://experienceleague.adobe.com/t7jTgugTG9NOGwqQ9OMcRCrLcr83sTI5cu-O-iYQsRk
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 527
+source-wordcount: '527'
 ht-degree: 4%
-
 ---
-
 # Adobe Experience Manager을 사용하여 다국어 이메일 만들기 {#aem-multilingual}
 
 Adobe Experience Manager 통합을 사용하면 Adobe Experience Manager 언어 사본을 사용하여 다국어 이메일 게재를 만들 수 있습니다. 이를 통해 다양한 언어로 콘텐츠 변형을 관리하고 수신자 언어 환경 설정에 따라 개인화된 이메일을 전달할 수 있습니다.

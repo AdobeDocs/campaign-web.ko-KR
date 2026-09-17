@@ -7,19 +7,22 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 TQID: https://experienceleague.adobe.com/bj4PO7hhfT21Xd44PQYyrUbVytxnLSF7mnSJPbmJQRw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 3646
+source-wordcount: '3646'
 ht-degree: 40%
-
 ---
-
 # 게재 설정 구성 {#del-settings}
 
 배달 설정은 배달 템플릿에 정의된 **기술 배달 매개 변수**&#x200B;입니다. 각 게재에 대해 오버로드될 수 있습니다. 이러한 설정은 게재 또는 게재 템플릿을 편집할 때 사용할 수 있는 **설정** 단추에서 사용할 수 있습니다.

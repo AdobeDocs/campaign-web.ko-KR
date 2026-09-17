@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 1%
-
 ---
-
 # 구성 요소 목록 {#list-of-components}
 
 두 구성 요소가 호환되지 않으면 셀에 **없음** 값이 표시됩니다.

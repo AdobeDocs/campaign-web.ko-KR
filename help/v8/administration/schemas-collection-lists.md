@@ -6,9 +6,7 @@ source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 3%
-
 ---
-
 # 컬렉션 목록 추가 {#collection-lists}
 
 **사용자 지정 목록** 섹션에서 구매와 같은 컬렉션 링크를 정의할 수 있습니다. 그런 다음 전용 탭을 통해 관련 데이터가 프로필 화면에 표시됩니다.

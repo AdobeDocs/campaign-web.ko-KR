@@ -5,15 +5,15 @@ description: Campaign 웹에서 오퍼 환경을 보고, 구성하고, 배포하
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 7be45366e3ae14e6fa7e4569a37c64e6d72f534c
 workflow-type: tm+mt
-source-wordcount: 319
-ht-degree: 2%
-
+source-wordcount: '319'
+ht-degree: 5%
 ---
-
 # 오퍼 환경 설정 검토 {#offer-environment}
 
 **오퍼 환경**&#x200B;은(는) 오퍼 카탈로그 및 관련 오퍼 공간을 구성하는 컨테이너입니다. 환경에는 두 가지 유형이 있습니다.

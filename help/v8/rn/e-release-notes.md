@@ -6,13 +6,12 @@ exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 TQID: https://experienceleague.adobe.com/s1-w6QPAcZkFNzkImCJ5RHds9nhbaghxgQLxh07NFEA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 262
+source-wordcount: '262'
 ht-degree: 100%
-
 ---
-
 # 초기 릴리스 정보 {#e-release}
 
 Adobe Campaign Web 사용자 인터페이스는 지속적으로 새로운 기능, 기존 기능 개선, 버그 해결을 제공합니다. 모든 변경 사항은 매달 말에 [릴리스 정보](release-notes.md)에 통합됩니다.

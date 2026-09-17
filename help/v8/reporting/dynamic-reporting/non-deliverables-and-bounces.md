@@ -8,9 +8,7 @@ source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 6%
-
 ---
-
 # 비게재 항목 및 바운스{#non-deliverables-and-bounces}
 
 **[!UICONTROL 게재 불가 및 바운스 수]** 보고서는 게재 중 발생한 모든 오류에 대한 세부 정보를 제공합니다.

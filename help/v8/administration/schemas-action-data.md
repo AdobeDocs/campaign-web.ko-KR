@@ -1,13 +1,11 @@
 ---
-title: 데이터에 대한 작업 제어
+title: 데이터 작업 제어
 description: 사용자 지정 스키마 레코드에 대한 만들기, 편집 및 삭제 작업을 제한하는 방법에 대해 알아봅니다.
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 13%
-
 ---
-
 # 데이터에 대한 작업 제어 {#action-data}
 
 >[!CONTEXTUALHELP]

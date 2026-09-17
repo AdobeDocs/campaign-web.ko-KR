@@ -6,13 +6,12 @@ exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 TQID: https://experienceleague.adobe.com/VMZuBbHAkU-hffCTjd5QIwXM0c8K3Q9r9tIx4-Ny08s
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 837
-ht-degree: 87%
-
+source-wordcount: '837'
+ht-degree: 100%
 ---
-
 # 폴더 작업 {#folders}
 
 >[!CONTEXTUALHELP]
@@ -49,11 +48,11 @@ ht-degree: 87%
 >
 >**[!UICONTROL 자동으로 생성되는 폴더 오브젝트]**&#x200B;와 **[!UICONTROL 기술 워크플로]**&#x200B;는 제한되어 있으며 왼쪽 패널에 표시되지 않습니다.
 
-폴더에서 사용할 수 있는 작업은 폴더에 부여된 권한에 따라 다릅니다. **[!UICONTROL 폴더 설정]** 대화 상자가 **읽기 전용 모드**&#x200B;에서 열릴 수 있으며, 권한에 따라 일부 작업 또는 섹션을 사용할 수 없습니다.
+폴더에서 사용할 수 있는 작업은 해당 폴더에 부여된 권한에 따라 달라집니다. **[!UICONTROL 폴더 설정]** 대화 상자가 **읽기 전용 모드**&#x200B;로 열릴 수 있으며, 권한에 따라 일부 작업 또는 섹션을 사용하지 못할 수 있습니다.
 
-폴더에 대한 권한이 없는 경우 관리자에게 문의하십시오. 폴더 권한을 관리하는 방법에 대해 알아보려면 이 [섹션](permissions.md#folder-permissions)을 참조하세요.
+폴더에 대한 권한이 없는 경우 관리자에게 문의하세요. 폴더 권한을 관리하는 방법에 대해 알아보려면 이 [섹션](permissions.md#folder-permissions)을 참조하세요.
 
-**[!UICONTROL 폴더 삽입]**, **[!UICONTROL 폴더 편집]**, **[!UICONTROL 폴더 삭제]**&#x200B;와 같은 명명된 권한도 연산자가 사용할 수 있는 폴더 작업을 결정합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=ko#use-named-rights){target="_blank"}를 참조하세요.
+**[!UICONTROL 폴더 삽입]**, **[!UICONTROL 폴더 편집]**, **[!UICONTROL 폴더 삭제]**&#x200B;와 같은 명명된 권한도 운영자가 수행할 수 있는 폴더 작업을 결정합니다. [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=ko#use-named-rights){target="_blank"}를 참조하세요.
 
 ## 새 폴더 만들기 {#create-a-folder}
 

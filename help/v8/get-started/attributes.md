@@ -6,15 +6,15 @@ exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
 TQID: https://experienceleague.adobe.com/Bkj-J6OG12-LbMCwv9uankcZCZErylVtZVZtR512H6g
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 506
+source-wordcount: '506'
 ht-degree: 100%
-
 ---
-
 # 속성을 선택하여 즐겨찾기에 추가 {#folders}
 
 Campaign Web 사용자 인터페이스를 사용하면 수행하는 액션에 따라 다양한 위치에서 데이터베이스에서 속성을 선택할 수 있습니다. 예를 들어 다이렉트 메일(DM) 게재나 추출할 파일에 대한 출력 열을 정의할 때 속성을 선택할 수 있습니다. 마찬가지로 쿼리 모델러를 사용하여 규칙, 필터를 만들거나 대상자를 작성할 때에도 속성을 선택할 수 있습니다.

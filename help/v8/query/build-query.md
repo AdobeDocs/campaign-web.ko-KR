@@ -6,13 +6,12 @@ exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 TQID: https://experienceleague.adobe.com/s8cjbxjs-71srb0hufQBlBgqJhUxBHFSHhBsxIDgVWQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 2952
+source-wordcount: '2952'
 ht-degree: 7%
-
 ---
-
 # 첫 번째 쿼리 작성 {#build-query}
 
 쿼리 작성을 시작하려면 수행할 작업에 따라 선택한 위치에서 쿼리 모델러에 액세스합니다. 쿼리 모델러가 빈 캔버스로 열립니다. 쿼리의 첫 번째 노드를 구성하려면 **+** 단추를 클릭하십시오.

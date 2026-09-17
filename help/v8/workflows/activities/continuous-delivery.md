@@ -6,15 +6,15 @@ exl-id: 659bddcb-280c-4623-8115-6f975515d1a2
 TQID: https://experienceleague.adobe.com/uWGhvUmHdS0ixFI4d-uEPgpxSnZoOwNRMbn8aZfqA98
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 242
+source-wordcount: '242'
 ht-degree: 24%
-
 ---
-
 # 지속적인 게재 {#continuous-delivery}
 
 **연속 게재** 활동을 사용하면 기존 게재에 새 수신자를 추가할 수 있습니다. 이 게재 유형은 매번 새로운 게재를 만들 필요가 없으므로 필요에 따라 낮은 볼륨의 경고나 알림에 대해 더 효율적입니다.

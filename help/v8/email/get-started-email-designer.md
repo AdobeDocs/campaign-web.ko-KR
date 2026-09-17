@@ -6,15 +6,15 @@ exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 TQID: https://experienceleague.adobe.com/E13LxJL9krN2GR4LP2HdvRgxpEohILuNDwUz8YkeNVQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: '415'
 ht-degree: 100%
-
 ---
-
 # 이메일 디자이너 시작하기 {#get-started-email-designer}
 
 Adobe Campaign에서 이메일을 만든 후에는 해당 콘텐츠를 정의해야 합니다.

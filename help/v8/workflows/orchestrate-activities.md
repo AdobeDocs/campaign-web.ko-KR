@@ -6,13 +6,12 @@ exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 TQID: https://experienceleague.adobe.com/D9lkZe8AvBCas-wt-Fe6GLaAoBR-JJNfAHSrRrpkP-w
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 6e68cd4e3741b480dc04d8a86d0cf6cb07835811
 workflow-type: tm+mt
-source-wordcount: 1720
-ht-degree: 8%
-
+source-wordcount: '1720'
+ht-degree: 10%
 ---
-
 # 활동 조율 {#orchestrate}
 
 [워크플로우를 만든](create-workflow.md)후에는 워크플로우 메뉴에서든 캠페인 내에서든 다른 작업을 조정할 수 있습니다. 이를 위해 워크플로 다이어그램을 구성할 수 있는 시각적 캔버스가 제공됩니다. 이 다이어그램 내에서 다양한 활동을 추가하고 순차적 순서로 연결할 수 있습니다. 가로 및 세로 스크롤 막대가 캔버스 주위에 표시되므로 보려는 영역으로 직접 드래그하여 큰 워크플로를 탐색할 수 있습니다.
@@ -128,7 +127,7 @@ Journey Optimizer을 사용하면 활동을 하위 노드의 전체 콘텐츠(�
 
 두 활동 중 하나를 삭제하지 않고 연결을 끊을 수 있습니다. 연결 해제된 전환 뒤에 배치된 활동은 삭제되지 않고 워크플로우의 새로운 개별 분기로 이동됩니다.
 
-이를 통해 워크플로 다이어그램을 재구성하여 삭제할 활동 및 다시 만들 필요 없이 유지할 활동 그룹을 일시적으로 비울 수 있습니다.
+이를 통해 워크플로 다이어그램을 재구성할 수 있습니다. 예를 들어 유지하려는 활동 그룹을 삭제 후 다시 만들지 않고도 임시로 분리할 수 있습니다.
 
 단일 전환 시 이 작업을 수행할 수 있습니다.
 

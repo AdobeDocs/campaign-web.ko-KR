@@ -6,10 +6,10 @@ title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
 nudge: true
-source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 100%
+source-wordcount: '1145'
+ht-degree: 99%
 ---
 
 # Adobe Campaign Web 설명서 {#v8}
@@ -74,6 +74,9 @@ ht-degree: 100%
     + [콜센터 게재 만들기 및 전송](call-center/create-call-center.md)
   + {hide-from-toc}[WhatsApp 시작](whatsapp/get-started-whatsapp.md)
   + {hide-from-toc}[WhatsApp 게재 만들기](whatsapp/create-whatsapp.md)
+  + LINE {#line}
+    + [LINE 시작](line/get-started-line.md)
+    + [LINE 메시지 보내기](line/send-line.md)
   + [사용자 정의 채널](call-center/gs-custom-channel.md)
   + 트랜잭션 메시지 {#transactional-messages}
     + [트랜잭션 메시지 시작](transactional-messaging/transactional.md)
@@ -306,7 +309,7 @@ ht-degree: 100%
     + [스키마 만들기 및 게시](administration/schemas-create-publish.md)
     + [사용자 정의 양식 작업](administration/schemas-custom-forms.md)
   + {hide-from-toc}[사용자 정의 필드 구성](administration/custom-fields.md)
-  + [ [!DNL Campaign] 옵션 구성](administration/options.md)
+  + [&#x200B; [!DNL Campaign] 옵션 구성](administration/options.md)
   + [시간대 관리](administration/timezone-management.md)
   + 외부 계정 {#external-accounts}
     + [외부 계정 만들기](administration/create-external-account.md)

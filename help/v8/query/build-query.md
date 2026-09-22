@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/s8cjbxjs-71srb0hufQBlBgqJhUxBHFSHhBsxID
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '2952'
+source-wordcount: '3041'
 ht-degree: 7%
 ---
 # 첫 번째 쿼리 작성 {#build-query}
@@ -155,9 +155,11 @@ ht-degree: 7%
 
 >[!ENDTABS]
 
-#### 연결된 테이블에 대한 사용자 지정 조건(1-1 및 1-N 링크){#links}
+### 연결된 테이블에 대한 사용자 지정 조건(1-1 및 1-N 링크){#links}
 
 사용자 지정 조건을 사용하면 현재 규칙에서 사용하는 테이블에 연결된 테이블을 쿼리할 수 있습니다. 여기에는 1-1 카디널리티 링크가 있는 테이블 또는 컬렉션 테이블(1-N 링크)이 포함됩니다.
+
+#### 1-1 링크
 
 **1-1 링크**&#x200B;의 경우 연결된 테이블로 이동하여 원하는 특성을 선택하고 예상 값을 정의하십시오.
 
@@ -169,63 +171,51 @@ ht-degree: 7%
 
 1. **Brand** 테이블 내부로 이동하여 **Label** 특성을 선택하십시오.
 
-   브랜드 테이블의 ![스크린샷](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
+   브랜드 테이블의 ![스크린샷](assets/rule-builder-1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. 속성에 대한 예상 값을 정의합니다.
 
-   ![정의된 예상 값의 예](assets/1-1-table.png){zoomable="yes"}{width="85%" align="center"}
+   브랜드 테이블의 ![스크린샷](assets/rule-builder-1-1-attribute-value.png){zoomable="yes"}{width="85%" align="center"}
 
 다음은 테이블 링크가 직접 선택된 쿼리 샘플입니다. 이 테이블에 사용할 수 있는 값은 전용 선택기에서 선택해야 합니다.
 
-![쿼리 샘플의 예](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
+브랜드 테이블의 ![스크린샷](assets/rule-builder-1-1-attribute-table.png){zoomable="yes"}{width="85%" align="center"}
 
 +++ 
 
-**1-N 링크**&#x200B;의 경우 아래 예와 같이 쿼리를 세분화할 하위 조건을 정의할 수 있습니다.
+#### 1-N 링크
 
-+++쿼리 예제
+**1-N 링크**&#x200B;의 경우 다음 두 가지 방법으로 조건을 정의할 수 있습니다.
 
-여기서 쿼리는 BrewMaster 제품과 관련된 구매를 한 수신자를 대상으로 하며, 총 금액 100$ 이상입니다.
+* **컬렉션 자체를 선택합니다**(예: **구매**). 이렇게 하면 하위 조건을 추가할 수 있는 **조건과 같은**&#x200B;이(가) 만들어집니다.
 
-1. **구매** 테이블을 선택하고 확인합니다.
+  +++쿼리 예제
 
-   ![구매 테이블의 스크린샷](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
+  여기서 쿼리는 BrewMaster 제품과 관련된 구매를 한 수신자를 대상으로 하며 100$ 이상 판매합니다.
 
-1. 아웃바운드 전환이 추가되어 하위 조건을 만들 수 있습니다.
+  1. **구매** 테이블을 선택하고 확인합니다.
 
-   ![아웃바운드 전환의 예](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
+  1. **[!UICONTROL 조건 추가]**&#x200B;를 클릭하여 선택한 테이블에 적용할 하위 조건을 정의합니다.
 
-1. **가격** 특성을 선택하고 1000$ 이상의 구매를 대상으로 합니다.
+     ![구매 테이블의 스크린샷](assets/rule-builder-1-n-purchase.png){zoomable="yes"}{width="85%" align="center"}
 
-   가격 특성의 ![스크린샷](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
+  1. 필요에 따라 하위 조건을 추가합니다.
 
-1. 필요에 따라 하위 조건을 추가합니다. 여기에서는 BrewMaster 제품을 구매한 대상 프로필에 조건을 추가했습니다.
+     ![구매 테이블의 스크린샷](assets/rule-builder-1-n-collection.png){zoomable="yes"}{width="85%" align="center"}
 
-   ![하위 조건의 예](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
+  +++
 
-+++ 
+* **컬렉션에서 특성 선택**(예: **구매** 아래의 **가격**). 조건을 정의하는 세 가지 옵션이 제공됩니다.
 
-#### 집계 데이터를 사용한 작업 {#aggregate}
+  ![컬렉션 조건 옵션을 보여 주는 스크린샷](assets/rule-builder-collection.png){zoomable="yes"}{width="85%" align="center"}
 
-사용자 지정 조건을 사용하면 집계 작업을 수행할 수 있습니다. 이렇게 하려면 컬렉션 테이블에서 속성을 직접 선택해야 합니다.
+  * **[!UICONTROL 기본값]**: 대부분의 사용 사례에 권장되는 옵션입니다. 컬렉션에 대한 **[!UICONTROL 존재(예:]**) 조건을 자동으로 만듭니다. 이는 위에서 설명한 방법으로 컬렉션을 직접 선택하는 것과 같으며 동일한 결과를 생성합니다. 예를 들어 **구매**&#x200B;에서 **가격** 특성을 선택하면 **조건과 같은**&#x200B;구매가 존재합니다. 그런 다음 연산자 및 값(예: **같음** `0`)을 설정할 수 있습니다.
 
-1. 원하는 수집 테이블 내부로 이동하여 합계 작업을 수행할 속성을 선택합니다.
+  * **[!UICONTROL 집계]**: 선택한 컬렉션 특성에 집계 함수를 적용합니다. 예를 들어 **Count**&#x200B;을(를) 선택하여 **Count(가격)이 0**&#x200B;과(와) 같은 조건을 만듭니다. 추가 조건을 사용하여 합계에 포함된 레코드를 구체화할 수 있습니다.
 
-   특성 목록의 ![스크린샷](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
+  * **[!UICONTROL 고급]**: 컬렉션 요소에 직접 조인을 사용합니다. 선택한 특성은 직접 평가됩니다(예: **가격(구매/@price)**). 컬렉션 요소의 단일 조건에 이 옵션을 사용합니다.
 
-1. 속성 창에서 **데이터 집계** 옵션을 전환하고 원하는 집계 함수를 선택합니다.
-
->[!BEGINTABS]
-
->[!TAB 클래식 쿼리 모델러]
-
-![집계 데이터 옵션의 스크린샷](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
-
->[!TAB 새 규칙 빌더]
-
-![집계 데이터 옵션의 스크린샷](assets/ruleb-5.png){zoomable="yes"}{width="85%" align="center"}
-
->[!ENDTABS]
+  기본적으로 **[!UICONTROL 기본]** 옵션이 선택되어 있습니다. 컬렉션 레코드를 계산하거나 집계해야 하는 경우 **[!UICONTROL 집계]**&#x200B;를 사용하고, 컬렉션 특성 하나에 직접 연결해야 하는 경우 **[!UICONTROL 고급]**&#x200B;을 사용합니다.
 
 ### 대상자 선택 {#audiences}
 

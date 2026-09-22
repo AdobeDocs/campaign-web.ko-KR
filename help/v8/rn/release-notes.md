@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+source-git-commit: 7a22b75c81435fa891fa8aa73c5c1acad1931710
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 38%
 ---
 # 릴리스 정보 {#latest-release}
 
@@ -32,36 +32,36 @@ ht-degree: 100%
 
 Adobe Campaign Web 사용자 인터페이스 릴리스는 기능 배포에 대한 보다 확장 가능한 단계별 접근 방식을 고려하는 연속 게재 모델에서 작동합니다. 따라서 이들 릴리스 정보는 월별로 여러 차례 업데이트됩니다. 이들 릴리스 정보를 정기적으로 확인하십시오.
 
-## 2026년 8월 릴리스 {#26-8-release}
+## 2026년 9월 릴리스 {#26-9-release}
 
-_2026년 8월 18일_
+_2026년 9월 22일_
 
-### 새로운 기능 {#26-8-features}
+### 새로운 기능 {#26-9-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>승인 워크플로우 활동</strong><br/></th>
+<th><strong>LINE 채널</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>이전에는 클라이언트 콘솔에서만 사용할 수 있었던 <strong>승인</strong> 워크플로우 활동을 이제 Campaign Web 사용자 인터페이스에서 사용할 수 있습니다. 그룹 또는 개인 운영자에게 작업을 할당하고, 알림 제목과 메시지를 사용자 정의하고, 가능한 답변(예: 예/아니요)을 출력 분기로 정의합니다.</p>
-<p>자세한 내용은 <a href="../workflows/activities/approval.md">세부 설명서</a>를 참조하십시오.</p>
+<p>Adobe Campaign은 이제 인기 있는 인스턴트 메시징 응용 프로그램인 <strong>LINE</strong> 채널을 지원합니다. 텍스트, 이미지 또는 비디오 콘텐츠를 사용하여 독립 실행형 게재 또는 워크플로우에서 다른 채널과 함께 LINE 메시지를 만들고 보낼 수 있습니다. <a href="../line/get-started-line.md">자세히 보기</a></p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 개선 사항 {#26-8-improvements}
+### 개선 사항 {#26-9-improvements}
 
-* **열람수 추적**: 이제 Campaign Web 사용자 인터페이스에서 직접 열람수 추적을 활성화하거나 비활성화할 수 있습니다. 이는 데이터 보호 규정을 준수하는 데 도움이 됩니다. [자세히 보기](../advanced-settings/delivery-settings.md#tracking-tab)
-* **프로그램 목록 보기**: 캠페인, 게재, 워크플로와 마찬가지로 이제 프로그램이 전용 보기에 나열됩니다. 이 보기에서 바로 기존 프로그램을 탐색하고 새 프로그램을 만들 수 있습니다. [자세히 보기](../administration/plans-programs.md#create-program)
-* **사용자 정의 스키마 구성**: 이제 **액션 데이터** 섹션에서 사용자 정의 스키마의 레코드에 대한 **복제** 액션을 허용하지 않도록 설정할 수 있습니다. [자세히 보기](../administration/schemas-action-data.md#action-data)
-* **사용자 정의 필터**: 스키마 편집기에서 이제 새로운 **링크 설정** 대화 상자를 사용하여 링크 유형 사용자 정의 필터의 선택기에서 사용할 수 있는 값을 제한할 수 있습니다. [자세히 보기](../administration/schemas-custom-filters.md#settings)
-* **스키마 유효성 검사**: 이제 새로운 **확인** 버튼을 사용하여 스키마 편집기에서 바로 스키마 구조의 유효성을 검사할 수 있습니다. [자세히 보기](../administration/schemas-create-publish.md#create-new)
-* **폴더 보안**: 폴더에서 사용할 수 있는 작업은 이제 운영자의 권한에 따라 일관되게 제어되며, 이는 클라이언트 콘솔의 동작과 일치합니다. [자세히 알아보기](../get-started/work-with-folders.md#about-folders).
-  <!--* **Enrichment activity**: You can now enrich data from an external database directly from the **Enrichment** workflow activity. This matches the capability already available in the Client Console.-->
-  <!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
+* **측면 탐색 액세스**: 관리자는 이제 측면 탐색에서 특정 메뉴 항목을 숨길 수 있습니다. [자세히 보기](../administration/schemas-browse-access.md#customize-screen-display-screen-def)
+* **추가 승인 유형**: 이제 콘텐츠 및 대상 승인 외에 캠페인 게재에 대한 예산 및 게재 시작 승인이 필요할 수 있습니다. [자세히 보기](../campaigns/campaign-approvals.md#configure-approval-settings-configure-approvals)
+* **방문자 기반 SMS 타겟팅**: 이제 SMS 게재에 방문자 타겟 매핑을 사용할 수 있습니다. [자세히 보기](../sms/create-sms.md)
+* **워크플로 취소 단추**: 새 **취소** 단추를 사용하면 워크플로에서 저장하지 않은 변경 내용을 되돌릴 수 있습니다. [자세히 보기](../workflows/orchestrate-activities.md#save-or-discard-your-changes-save-cancel)
+* **여러 값을 사용하여 중복 제거**: **값 목록 팔로우** 옵션이 이제 여러 특성을 지원합니다. [자세히 보기](../workflows/activities/deduplication.md#configure-the-deduplication-activity-deduplication-configuration)
+* **모바일 대상 매핑**: 이제 모바일 응용 프로그램 대상에 대한 대상 매핑을 만들 수 있습니다. [자세히 보기](../administration/target-mappings.md#create-a-target-mapping-create-mapping)
+* **외부 데이터베이스 보강**: 이제 **보강** 또는 **대상 작성** 활동에서 외부 데이터베이스의 데이터를 보강할 수 있습니다. [자세히 보기](../workflows/activities/enrichment.md#external-data)
+* **파일 대상 조정**: 이제 파일에서 대상을 타깃팅할 때 수신자를 데이터베이스로 가져올지 여부를 구성할 수 있습니다. [자세히 보기](../audience/file-audience.md#select-and-configure-the-input-file-upload)
+* **컬렉션에 직접 조인**: 컬렉션에서 특성을 직접 선택할 때 권장 기본 옵션, 집계 함수 또는 고급 직접 조인을 사용하여 조건을 빌드하는 방법을 선택할 수 있습니다. [자세히 보기](../query/build-query.md#custom-conditions-on-linked-tables-1-1-and-1-n-links-links)
 

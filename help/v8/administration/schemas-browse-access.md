@@ -2,10 +2,10 @@
 title: 스키마 찾아보기 및 액세스
 description: 인터페이스에서 스키마를 검색하고 액세스하는 방법을 알아봅니다.
 exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
-source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 4%
+source-wordcount: '531'
+ht-degree: 3%
 ---
 # 스키마 액세스 및 구성 {#access}
 
@@ -62,3 +62,5 @@ ht-degree: 4%
 * [사용자 정의 필드 편집](schemas-custom-fields.md) - 세부 정보 화면에 표시할 사용자 정의 필드를 구성하고 섹션으로 구성합니다.
 * [컬렉션 목록 추가](schemas-collection-lists.md) - 프로필 화면에 관련 데이터를 표시할 컬렉션 목록을 추가합니다.
 * [데이터에 대한 작업 제어](schemas-action-data.md) - 사용자 지정 스키마에 대한 작업 만들기, 편집 및 삭제를 제한합니다.
+
+**nms:delivery** 또는 **xtk:workflow**&#x200B;과 같이 왼쪽 탐색에서 하나 이상의 항목을 구동하는 스키마의 경우 화면 정의에도 **[!UICONTROL 측면 탐색 액세스]** 섹션이 표시됩니다. 인스턴스에 있는 모든 사용자의 개별 액세스 권한에 관계없이 왼쪽 탐색에서 숨기려면 메뉴 항목에 해당하는 **[!UICONTROL 다음에 대한 메뉴 액세스 제거]** 확인란을 선택하십시오. 일부 스키마에서는 여러 메뉴 항목을 사용할 수 있습니다. 예를 들어 **nms:delivery**&#x200B;은(는) **[!UICONTROL 게재]** 및 **[!UICONTROL 트랜잭션 메시지]** 항목에서 공유되므로 각 항목에 대한 확인란이 표시됩니다.

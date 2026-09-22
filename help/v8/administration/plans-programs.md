@@ -15,9 +15,9 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '630'
 ht-degree: 5%
 ---
 # 플랜 및 프로그램 {#plan-and-programs}
@@ -97,8 +97,6 @@ Adobe Campaign을 사용하면 마케팅 플랜 및 프로그램에 대한 폴�
 ### 방법 #1: 이미 프로그램을 가지고 있으며 연결된 캠페인을 만들려고 합니다.
 
 새 캠페인을 프로그램에 연결하려면 프로그램 내에서 직접 캠페인을 만드십시오.
-
-![프로그램 내에서 캠페인 만들기를 보여 주는 스크린샷](assets/program_campaign_create.png){zoomable="yes"}
 
 **[!UICONTROL 폴더]** 설정은 프로그램의 경로로 자동으로 채워집니다.
 

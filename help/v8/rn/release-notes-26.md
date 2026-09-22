@@ -2,14 +2,46 @@
 title: Campaign v8 Web 사용자 인터페이스 이전 릴리스 정보
 description: 2026년 Campaign Web 사용자 인터페이스 릴리스
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
-source-git-commit: 6ed3a17593d0dc7bda55d9f90fc27526c09d99ed
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2251'
 ht-degree: 100%
 ---
 # 2026년 릴리스 정보 {#2026-release}
 
 이 페이지에는 **2026년 릴리스**&#x200B;에서 제공되는 모든 변경 사항과 개선 사항이 나열되어 있습니다. 최신 릴리스 정보는 [이 페이지](release-notes.md)에서 확인할 수 있습니다.
+
+## 2026년 8월 릴리스 {#26-8-release}
+
+_2026년 8월 18일_
+
+### 새로운 기능 {#26-8-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>승인 워크플로우 활동</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>이전에는 클라이언트 콘솔에서만 사용할 수 있었던 <strong>승인</strong> 워크플로우 활동을 이제 Campaign Web 사용자 인터페이스에서 사용할 수 있습니다. 그룹 또는 개인 운영자에게 작업을 할당하고, 알림 제목과 메시지를 사용자 정의하고, 가능한 답변(예: 예/아니요)을 출력 분기로 정의합니다.</p>
+<p>자세한 내용은 <a href="../workflows/activities/approval.md">세부 설명서</a>를 참조하십시오.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 개선 사항 {#26-8-improvements}
+
+* **열람수 추적**: 이제 Campaign Web 사용자 인터페이스에서 직접 열람수 추적을 활성화하거나 비활성화할 수 있습니다. 이는 데이터 보호 규정을 준수하는 데 도움이 됩니다. [자세히 보기](../advanced-settings/delivery-settings.md#tracking-tab)
+* **프로그램 목록 보기**: 캠페인, 게재, 워크플로와 마찬가지로 이제 프로그램이 전용 보기에 나열됩니다. 이 보기에서 바로 기존 프로그램을 탐색하고 새 프로그램을 만들 수 있습니다. [자세히 보기](../administration/plans-programs.md#create-program)
+* **사용자 정의 스키마 구성**: 이제 **액션 데이터** 섹션에서 사용자 정의 스키마의 레코드에 대한 **복제** 액션을 허용하지 않도록 설정할 수 있습니다. [자세히 보기](../administration/schemas-action-data.md#action-data)
+* **사용자 정의 필터**: 스키마 편집기에서 이제 새로운 **링크 설정** 대화 상자를 사용하여 링크 유형 사용자 정의 필터의 선택기에서 사용할 수 있는 값을 제한할 수 있습니다. [자세히 보기](../administration/schemas-custom-filters.md#settings)
+* **스키마 유효성 검사**: 이제 새로운 **확인** 버튼을 사용하여 스키마 편집기에서 바로 스키마 구조의 유효성을 검사할 수 있습니다. [자세히 보기](../administration/schemas-create-publish.md#create-new)
+* **폴더 보안**: 폴더에서 사용할 수 있는 작업은 이제 운영자의 권한에 따라 일관되게 제어되며, 이는 클라이언트 콘솔의 동작과 일치합니다. [자세히 알아보기](../get-started/work-with-folders.md#about-folders).
+  <!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
 
 ## 2026년 7월 릴리스 {#26-7-release}
 

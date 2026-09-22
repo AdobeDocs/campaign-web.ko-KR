@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/D9lkZe8AvBCas-wt-Fe6GLaAoBR-JJNfAHSrRrp
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 6e68cd4e3741b480dc04d8a86d0cf6cb07835811
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 10%
+source-wordcount: '1791'
+ht-degree: 9%
 ---
 # 활동 조율 {#orchestrate}
 
@@ -48,6 +48,12 @@ ht-degree: 10%
 * **맵 표시**: 위치를 표시하는 캔버스의 스냅숏을 엽니다.
 
 ![워크플로 캔버스에 대한 도구 모음 옵션](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
+
+## 변경 내용 저장 또는 취소 {#save-cancel}
+
+화면 상단의 **[!UICONTROL 저장]** 단추를 사용하여 워크플로우의 변경 사항을 저장합니다.
+
+변경하는 즉시 **[!UICONTROL 저장]** 옆에 **[!UICONTROL 취소]** 단추도 사용할 수 있습니다. 저장하지 않은 모든 변경 내용을 취소하고 워크플로우를 마지막으로 저장한 버전으로 복원하려면 클릭합니다. 이 작업은 실행 취소할 수 없으므로 변경 사항이 취소되기 전에 확인 메시지가 표시됩니다.
 
 ## 활동 관리 {#manage}
 

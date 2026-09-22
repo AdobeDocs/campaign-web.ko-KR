@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 11%
+source-wordcount: '918'
+ht-degree: 10%
 ---
 # 대상 매핑 관리 {#target-mappings}
 
@@ -35,7 +35,7 @@ ht-degree: 11%
 
 ![사용 가능한 매핑을 보여 주는 대상 매핑 목록 화면](assets/target-mappings-list.png)
 
-Adobe Campaign과 함께 제공되는 기본 제공 대상 매핑에 대한 자세한 내용은 [Campaign v8 클라이언트 콘솔 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ko){target="_blank"}를 참조하십시오.
+Adobe Campaign과 함께 제공되는 기본 제공 대상 매핑에 대한 자세한 내용은 [Campaign v8 클라이언트 콘솔 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}를 참조하십시오.
 
 ## 대상 매핑 만들기 {#create-mapping}
 
@@ -64,6 +64,21 @@ Adobe Campaign과 함께 제공되는 기본 제공 대상 매핑에 대한 자�
 1. **[!UICONTROL 속성]** 섹션에서 대상 매핑에 대한 **[!UICONTROL 레이블]**&#x200B;을(를) 입력하십시오.
 
 1. **[!UICONTROL 추가 옵션]** 섹션을 확장하여 대상 매핑의 내부 이름, 저장소 폴더 및 설명과 같은 고급 설정을 정의합니다.
+
+1. 모바일 응용 프로그램 수신자를 대상으로 하는 경우 **[!UICONTROL 모바일 응용 프로그램에 대한 대상 매핑]** 옵션을 사용하도록 설정하십시오.
+
+   ![모집단 옵션을 표시하는 대상 매핑 속성 화면](assets/target-mappings-properties0.png)
+
+   그런 다음 다음 다음 중 하나를 수행할 수 있습니다.
+
+   * 기존 구독자 응용 프로그램의 **[!UICONTROL 스키마]** 필드를 비워 둡니다. Adobe Campaign은 수신자 템플릿을 기반으로 필요한 스토리지 스키마를 자동으로 생성합니다. **[!UICONTROL 추가 필드를 지정]**&#x200B;하여 생성된 스키마에 사용자 지정 필드를 추가할 수 있습니다.
+   * 기존 구독자 응용 프로그램 스키마를 선택합니다. 스키마가 이미 있으므로 이 경우 **[!UICONTROL 추가 필드 지정]**&#x200B;을 사용할 수 없으며 **[!UICONTROL 필터링 차원]** 및 **[!UICONTROL 타깃팅 차원]** 필드는 선택한 스키마를 기준으로 자동으로 채워집니다.
+
+   모바일 대상 매핑은 항상 별도의 제외 로그가 저장된 자체 전용 저장소 스키마를 사용합니다. 아래 **[!UICONTROL 저장소]** 섹션에 설명된 **[!UICONTROL 제외]** 옵션은 모바일 대상 매핑에 적용되지 않습니다.
+
+   >[!NOTE]
+   >
+   >스키마 접미사는 공백을 포함할 수 없습니다.
 
 1. 대상 모집단을 선택합니다. 다음 중 하나를 수행할 수 있습니다.
 

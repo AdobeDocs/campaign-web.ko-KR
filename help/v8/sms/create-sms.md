@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/OoPPDmXtKfikWjcycfkDDBng38EvW6geird8w3B
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 39%
+source-wordcount: '574'
+ht-degree: 38%
 ---
 # SMS 게재 만들기 {#create-sms}
 
@@ -31,7 +31,7 @@ ht-degree: 39%
 >abstract="SMS 게재를 시작하려면 미리 정의된 템플릿을 선택합니다. 게재 템플릿을 사용하면 캠페인과 게재 전반에 걸쳐 사용자 정의 콘텐츠와 설정을 재사용할 수 있습니다."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=ko" text="게재 템플릿 사용"
 
-독립형 SMS 게재를 만들거나 캠페인 워크플로우의 컨텍스트에서 SMS를 만들 수 있습니다. 아래 단계에서는 독립 실행형(일회성) SMS 게재 절차를 설명합니다. 캠페인 워크플로우의 컨텍스트에서 작업하는 경우 [이 섹션](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)에서 만들기 단계를 설명합니다.
+독립형 SMS 게재를 만들거나 캠페인 워크플로우의 컨텍스트에서 SMS를 만들 수 있습니다. 아래 단계에서는 독립 실행형(일회성) SMS 게재 절차를 설명합니다. 캠페인 워크플로우의 컨텍스트에서 작업하는 경우 [이 섹션](../workflows/activities/channels.md#create-a-delivery-in-a-workflow)에서 만들기 단계를 설명합니다.
 
 새 독립 실행형 SMS 게재를 만들려면 다음 단계를 수행합니다.
 
@@ -55,6 +55,8 @@ ht-degree: 39%
 
 1. **[!UICONTROL 대상자 선택]** 버튼을 클릭하여 기존 대상자를 타겟팅하거나 나만의 대상자를 만듭니다. [대상자에 대해 자세히 알아보기](../audience/about-recipients.md).
 
+   기본 **[!UICONTROL 수신자]** 대상 매핑 외에도 SMS 게재는 **[!UICONTROL 방문자]** 또는 **[!UICONTROL 방문자 구독]**&#x200B;을(를) 대상으로 할 수도 있습니다. [타겟팅 차원에 대해 자세히 알아보세요](../audience/targeting-dimensions.md#targeting).
+
    ![대상자 선택 단추를 표시하는 스크린샷](assets/sms_create_2.png){zoomable="yes"}
 
    [이 페이지](../audience/add-audience.md)에서 기존 대상자를 선택하는 방법을 알아보세요.
@@ -71,7 +73,7 @@ ht-degree: 39%
 
    이 화면에서 [콘텐츠를 시뮬레이션](../preview-test/preview-test.md)하고 [오퍼를 설정](../msg/offers.md)할 수도 있습니다.
 
-1. 특정 일자 및 시간에 게재를 예약하려면 **[!UICONTROL 예약 활성화]** 옵션을 켭니다. 게재를 시작하면 메시지가 수신자를 위해 정의한 정확한 날짜 및 시간에 자동으로 전송됩니다. [이 섹션](../msg/gs-deliveries.md#gs-schedule)에서 게재 예약에 대해 자세히 알아보세요.
+1. 특정 일자 및 시간에 게재를 예약하려면 **[!UICONTROL 예약 활성화]** 옵션을 켭니다. 게재를 시작하면 메시지가 수신자를 위해 정의한 정확한 날짜 및 시간에 자동으로 전송됩니다. [이 섹션](../msg/create-deliveries.md#gs-schedule)에서 게재 예약에 대해 자세히 알아보세요.
 
    >[!NOTE]
    >

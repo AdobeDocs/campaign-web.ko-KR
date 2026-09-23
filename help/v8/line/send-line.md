@@ -6,7 +6,7 @@ feature: Line App
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 3%
@@ -92,7 +92,7 @@ LINE 게재에는 최대 5개의 메시지가 포함될 수 있습니다. 게재
 
 1. 콘텐츠를 정의한 후 **저장**&#x200B;을 클릭한 다음 뒤로 아이콘을 클릭하여 게재 구성 화면으로 돌아갑니다.
 
-1. 특정 날짜 및 시간에 보내려면 **[!UICONTROL 일정 조정 사용]**&#x200B;을 사용하도록 설정하십시오. [자세히 알아보기](../msg/gs-deliveries.md#gs-schedule).
+1. 특정 날짜 및 시간에 보내려면 **[!UICONTROL 일정 조정 사용]**&#x200B;을 사용하도록 설정하십시오. [자세히 알아보기](../msg/create-deliveries.md#gs-schedule).
 
    ![라인 메시지 일정](assets/line-message9.png)
 

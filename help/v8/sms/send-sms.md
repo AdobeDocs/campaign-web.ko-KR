@@ -10,7 +10,7 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 12%
@@ -69,7 +69,7 @@ SMS 메시지를 검토하고 대상자에게 보냅니다.
 
    ![SMS 게재 보내기](assets/sms_send_5.png){zoomable="yes"}
 
-   SMS 게재가 예약되어 있으면 **[!UICONTROL 일정대로 보내기]** 단추를 클릭하세요. [이 섹션](../msg/gs-messages.md#schedule-the-delivery-sending)에서 게재 예약에 대해 자세히 알아보세요.
+   SMS 게재가 예약되어 있으면 **[!UICONTROL 일정대로 보내기]** 단추를 클릭하세요. [이 섹션](../msg/create-deliveries.md#gs-schedule)에서 게재 예약에 대해 자세히 알아보세요.
 
 1. **[!UICONTROL 보내기]** 단추를 클릭하여 보내기 작업을 확인합니다.
 

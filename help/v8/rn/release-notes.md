@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7a22b75c81435fa891fa8aa73c5c1acad1931710
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 38%
@@ -55,13 +55,13 @@ _2026년 9월 22일_
 
 ### 개선 사항 {#26-9-improvements}
 
-* **측면 탐색 액세스**: 관리자는 이제 측면 탐색에서 특정 메뉴 항목을 숨길 수 있습니다. [자세히 보기](../administration/schemas-browse-access.md#customize-screen-display-screen-def)
-* **추가 승인 유형**: 이제 콘텐츠 및 대상 승인 외에 캠페인 게재에 대한 예산 및 게재 시작 승인이 필요할 수 있습니다. [자세히 보기](../campaigns/campaign-approvals.md#configure-approval-settings-configure-approvals)
+* **측면 탐색 액세스**: 관리자는 이제 측면 탐색에서 특정 메뉴 항목을 숨길 수 있습니다. [자세히 보기](../administration/schemas-browse-access.md#screen-def)
+* **추가 승인 유형**: 이제 콘텐츠 및 대상 승인 외에 캠페인 게재에 대한 예산 및 게재 시작 승인이 필요할 수 있습니다. [자세히 보기](../campaigns/campaign-approvals.md#configure-approvals)
 * **방문자 기반 SMS 타겟팅**: 이제 SMS 게재에 방문자 타겟 매핑을 사용할 수 있습니다. [자세히 보기](../sms/create-sms.md)
-* **워크플로 취소 단추**: 새 **취소** 단추를 사용하면 워크플로에서 저장하지 않은 변경 내용을 되돌릴 수 있습니다. [자세히 보기](../workflows/orchestrate-activities.md#save-or-discard-your-changes-save-cancel)
-* **여러 값을 사용하여 중복 제거**: **값 목록 팔로우** 옵션이 이제 여러 특성을 지원합니다. [자세히 보기](../workflows/activities/deduplication.md#configure-the-deduplication-activity-deduplication-configuration)
-* **모바일 대상 매핑**: 이제 모바일 응용 프로그램 대상에 대한 대상 매핑을 만들 수 있습니다. [자세히 보기](../administration/target-mappings.md#create-a-target-mapping-create-mapping)
+* **워크플로 취소 단추**: 새 **취소** 단추를 사용하면 워크플로에서 저장하지 않은 변경 내용을 되돌릴 수 있습니다. [자세히 보기](../workflows/orchestrate-activities.md#save-cancel)
+* **여러 값을 사용하여 중복 제거**: **값 목록 팔로우** 옵션이 이제 여러 특성을 지원합니다. [자세히 보기](../workflows/activities/deduplication.md#deduplication-configuration)
+* **모바일 대상 매핑**: 이제 모바일 응용 프로그램 대상에 대한 대상 매핑을 만들 수 있습니다. [자세히 보기](../administration/target-mappings.md#create-mapping)
 * **외부 데이터베이스 보강**: 이제 **보강** 또는 **대상 작성** 활동에서 외부 데이터베이스의 데이터를 보강할 수 있습니다. [자세히 보기](../workflows/activities/enrichment.md#external-data)
-* **파일 대상 조정**: 이제 파일에서 대상을 타깃팅할 때 수신자를 데이터베이스로 가져올지 여부를 구성할 수 있습니다. [자세히 보기](../audience/file-audience.md#select-and-configure-the-input-file-upload)
-* **컬렉션에 직접 조인**: 컬렉션에서 특성을 직접 선택할 때 권장 기본 옵션, 집계 함수 또는 고급 직접 조인을 사용하여 조건을 빌드하는 방법을 선택할 수 있습니다. [자세히 보기](../query/build-query.md#custom-conditions-on-linked-tables-1-1-and-1-n-links-links)
+* **파일 대상 조정**: 이제 파일에서 대상을 타깃팅할 때 수신자를 데이터베이스로 가져올지 여부를 구성할 수 있습니다. [자세히 보기](../audience/file-audience.md#upload)
+* **컬렉션에 직접 조인**: 컬렉션에서 특성을 직접 선택할 때 권장 기본 옵션, 집계 함수 또는 고급 직접 조인을 사용하여 조건을 빌드하는 방법을 선택할 수 있습니다. [자세히 보기](../query/build-query.md#links)
 

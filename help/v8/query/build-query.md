@@ -7,7 +7,7 @@ TQID: https://experienceleague.adobe.com/s8cjbxjs-71srb0hufQBlBgqJhUxBHFSHhBsxID
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '3041'
 ht-degree: 7%
@@ -71,7 +71,7 @@ ht-degree: 7%
 >
 >* 값이 많은 필드의 경우 처음 20개 값만 표시됩니다. 이러한 경우 **[!UICONTROL 부분 로드]** 알림이 경고합니다.
 >* **[!UICONTROL 값 배포]** 옵션은 모든 특성 선택기에서 액세스할 수 있습니다. [특성을 선택하는 방법 알아보기](../get-started/attributes.md)
->* **[ !A고급 필터]**&#x200B;를 사용하여 결과에 조건을 추가할 수 있습니다. [여기에서 자세히 알아보십시오](../get-started/work-with-folders.md#filter-the-values).
+>* **[!A고급 필터]**&#x200B;를 사용하여 결과에 조건을 추가할 수 있습니다. [여기에서 자세히 알아보십시오](../get-started/work-with-folders.md#filter-values).
 
 ## 필터링 구성 요소 추가 {#filtering}
 
@@ -187,7 +187,7 @@ ht-degree: 7%
 
 **1-N 링크**&#x200B;의 경우 다음 두 가지 방법으로 조건을 정의할 수 있습니다.
 
-* **컬렉션 자체를 선택합니다**(예: **구매**). 이렇게 하면 하위 조건을 추가할 수 있는 **조건과 같은**&#x200B;이(가) 만들어집니다.
+* **컬렉션 자체를 선택합니다**(예: **구매**). 이렇게 하면 하위 조건을 추가할 수 있는 ]**조건과 같은**[!UICONTROL &#x200B;이(가) 만들어집니다.
 
   +++쿼리 예제
 

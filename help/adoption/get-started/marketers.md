@@ -64,7 +64,7 @@ ht-degree: 16%
 
 아래 비디오에서 Campaign 웹 사용자 인터페이스에 액세스하고 탐색하는 방법과 인벤토리 목록을 사용자 지정하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453429?captions=kor&quality=12&learn=on){transcript=true}
 
 자세한 내용은 아래 설명서를 참조하십시오.
 
@@ -85,13 +85,13 @@ Adobe Campaign에서 프로필은 데이터베이스에 저장된 레코드이�
 
 1. 이 비디오에서는 Campaign 웹 사용자 인터페이스를 사용하여 프로필에 액세스, 관리 및 탐색하는 방법을 알아봅니다.
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3448371?captions=kor&quality=12&learn=on){transcript=true}
 
    [프로필 시작](../../v8/audience/about-recipients.md) 설명서에서 자세히 알아보세요.
 
 1. Campaign v8에서 테스트 프로필을 만들고 관리하는 방법 알아보기
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3442902?captions=kor&quality=12&learn=on){transcript=true}
 
 ### 대상자 관리 {#acs-gs-marketers-audiences}
 
@@ -99,7 +99,7 @@ Adobe Campaign에서 프로필은 데이터베이스에 저장된 레코드이�
 
 이 비디오에서는 대상을 빌드 및 관리하고, 게재할 대상을 선택하고, 컨트롤 그룹을 정의하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453209?captions=kor&quality=12&learn=on){transcript=true}
 
 자세한 내용은 [대상자 시작](../../v8/audience/manage-audience.md){target="_blank"}을 참조하세요.
 
@@ -177,7 +177,7 @@ Adobe Campaign을 사용하면 내장된 캠페인 관리 기능을 사용하여
 
 이 비디오에서는 워크플로우의 작동 방식과 타겟팅 워크플로우를 만드는 방법을 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425873?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453979?captions=kor&quality=12&learn=on){transcript=true}
 
 자세한 내용은 [워크플로 설명서](../../v8/workflows/gs-workflows.md)를 참조하세요.
 
@@ -233,7 +233,7 @@ Adobe Campaign 웹 사용자 인터페이스에서는 다양한 기준을 기반
 
 이 비디오에서 이메일 게재를 처음부터 새로 만들고, 대상자를 정의하고, 콘텐츠를 디자인하고, 미리 보기를 시뮬레이트하고, 증명을 보내는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425866?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3454012?captions=kor&quality=12&learn=on){transcript=true}
 
 [첫 번째 전자 메일 문서 만들기](../../v8/email/create-email.md)에서 첫 번째 대상 전자 메일을 만드는 방법을 알아봅니다
 
@@ -245,13 +245,13 @@ Campaign v8에서 이메일 게재를 만들고, 테스트하고, 전송하는 �
 
    이메일 디자이너를 탐색하는 방법을 이해합니다. 다음 비디오에서는 이메일을 처음부터 구조화하고 디자인하는 방법, 이메일을 개인화하고 테스트하는 방법에 대해 알아봅니다.
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3453572?captions=kor&quality=12&learn=on){transcript=true}
 
    이메일 디자이너를 사용하여 직관적인 끌어다 놓기 인터페이스를 통해 매력적인 개별 맞춤형 이메일을 만들 수 있습니다. 자세한 내용은 [전자 메일 Designer 설명서](../../v8/email/get-started-email-designer.md)를 참조하세요
 
    이 비디오에서는 HTML을 업로드하여 이메일을 만드는 방법, 이메일 Designer과 호환되도록 하는 방법 및 템플릿으로 변환하는 방법을 알아봅니다.
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3427633?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3447039?captions=kor&quality=12&learn=on){transcript=true}
 
    콘텐츠 조각은 하나 이상의 메시지에서 참조할 수 있는 재사용 가능한 구성 요소입니다. 전자 메일 게재 만들기를 단순화하기 위해 [콘텐츠 조각](../../v8/content/fragments.md)에 대해 자세히 알아보세요.
 
@@ -261,7 +261,7 @@ Campaign v8에서 이메일 게재를 만들고, 테스트하고, 전송하는 �
 
    이 비디오에서는 인기 있는 데스크톱, 모바일 및 웹 기반 클라이언트에서 이메일 메시지 콘텐츠 및 개인화를 미리 보고, 테스트 게재(증명)를 보내고, 이메일 렌더링을 확인하는 방법을 알아봅니다.
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3425862?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3450344?captions=kor&quality=12&learn=on){transcript=true}
 
 1. **전자 메일 및 확인 로그 보내기**
 
@@ -351,7 +351,7 @@ Campaign v8에서 푸시 알림 게재를 만들고, 테스트하고, 전송하�
 
 DM(다이렉트 메일)은 엽서, 전단지, 카탈로그와 같은 개인 맞춤화된 레터를 대량으로 고객에게 게재하기 위한 파일을 제작할 수 있는 오프라인 채널입니다. DM 게재를 만들 때 Adobe Campaign은 모든 대상 프로필과 선택한 데이터(우편 주소 및 프로필 속성 등)를 포함하는 추출 파일을 자동으로 생성합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3433316/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3451790/?captions=kor&learn=on)
 
 Campaign v8에서 DM 게재를 만들고, 테스트하고, 보내는 자세한 단계는 Campaign Standard과 유사합니다.
 
@@ -359,7 +359,7 @@ Campaign v8에서 DM 게재를 만들고, 테스트하고, 보내는 자세한 �
 1. [추출 파일 정의](../../v8/direct-mail/content-direct-mail.md)
 1. [미리 보기 및 보내기](../../v8/direct-mail/send-direct-mail.md)
 
->[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453572?captions=kor&quality=12&learn=on){transcript=true}
 
 ### 인앱 채널 {#acs-gs-marketers-in-app}
 

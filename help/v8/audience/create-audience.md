@@ -118,4 +118,4 @@ Campaign 웹을 사용하면 시각적 워크플로우 캔버스에서 새 대�
 
 대상자를 작성 및 관리하는 방법, 게재할 대상자를 선택하는 방법, 컨트롤 그룹을 정의하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3453209?captions=kor&quality=12)

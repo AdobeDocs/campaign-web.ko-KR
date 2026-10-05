@@ -68,4 +68,4 @@ C2PA 메타데이터는 Adobe Campaign 웹 사용자 인터페이스의 이메�
 ## 추가 리소스
 
 * [콘텐츠 생성 작업](generative-gs.md)
-* [생성 AI 콘텐츠 투명도](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* [생성 AI 콘텐츠 투명도](https://experienceleague.adobe.com/ko/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)

@@ -3,10 +3,14 @@ keywords: Campaign Web;홈;인기 있는 주제
 description: Campaign Web 도움말 센터
 title: Adobe Campaign Web 제품 설명서
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-TQID: https://experienceleague.adobe.com/MgMH03lZa-uSVm-e1ZN-jvJrbjDUvKBpnmCIzxMmi1A
+TQID: 'https://experienceleague.adobe.com/MgMH03lZa-uSVm-e1ZN-jvJrbjDUvKBpnmCIzxMmi1A'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -15,7 +19,7 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 100%
@@ -149,5 +153,5 @@ Campaign Web 사용자 인터페이스에 대한 자주 묻는 질문은 새로�
 ## 추가 리소스
 
 * [Adobe Campaign 제품 설명서](https://helpx.adobe.com/kr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ko){target="_blank"}
+* [Adobe Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign-v8.html){target="_blank"}
 * [이메일 추적 픽셀 및 CNIL 지침](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}

@@ -2,17 +2,21 @@
 title: 타기팅 및 필터링 차원
 description: Adobe Campaign 웹 UI의 차원 타겟팅 및 필터링에 대해 자세히 알아보기
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-TQID: https://experienceleague.adobe.com/MhYxb45yBenENo-YGBuRDE28l-0Rq891a5PyTS2FlFQ
+TQID: 'https://experienceleague.adobe.com/MhYxb45yBenENo-YGBuRDE28l-0Rq891a5PyTS2FlFQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
     internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
     internal-label: PI
-source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 12%
@@ -50,7 +54,7 @@ ht-degree: 12%
 | 외부 파일 | 모든 필수 정보가 포함된 파일을 통한 게재 | 연결된 스키마 없음, 입력된 대상 없음 |
 | 구독자 애플리케이션 | 응용 프로그램을 구독한 프로필 | nms:appSubscriptionRcp |
 
-또한 특정 요구 사항에 따라 새 타겟 매핑을 만듭니다. 이 작업은 클라이언트 콘솔에서만 수행합니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ko#new-mapping){target="_blank"}를 참조하세요.
+또한 특정 요구 사항에 따라 새 타겟 매핑을 만듭니다. 이 작업은 클라이언트 콘솔에서만 수행합니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}를 참조하세요.
 
 ## 차원 필터링 {#filtering}
 

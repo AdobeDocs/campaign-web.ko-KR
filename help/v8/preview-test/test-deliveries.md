@@ -3,14 +3,18 @@ audience: end-user
 title: 교정쇄 보내기
 description: 증명 정의 및 전송 방법 알아보기
 exl-id: b2677579-c95d-443d-b207-466af364c208
-TQID: https://experienceleague.adobe.com/ihLIbOoruy21sAEFjbSIwxXm96vOMz9FfiNegHLrmVo
+TQID: 'https://experienceleague.adobe.com/ihLIbOoruy21sAEFjbSIwxXm96vOMz9FfiNegHLrmVo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1215'
 ht-degree: 13%
@@ -54,7 +58,7 @@ ht-degree: 13%
 
    * SMS 및 전자 메일의 경우, 데이터베이스의 특정 추가 수신자인 [테스트 프로필](#test-profiles)을 사용할 수 있습니다. 전자 메일 테스트 주소 또는 전화 번호로 증명을 보내고 기존 프로필의 개인화 데이터를 사용하는 [기본 대상에서 대체](#substitution-profiles) 모드를 사용할 수도 있습니다. 이를 통해 수신자와 마찬가지로 메시지를 경험하여 프로필에서 수신할 콘텐츠를 정확하게 표현할 수 있습니다.
 
-   * 푸시 메시지의 경우 데이터베이스에 추가된 가상 구독자인 [구독자](#subscribers)를 사용할 수 있습니다. [!DNL Campaign] 콘솔에서 만들어집니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=ko){target="_blank"}를 참조하세요
+   * 푸시 메시지의 경우 데이터베이스에 추가된 가상 구독자인 [구독자](#subscribers)를 사용할 수 있습니다. [!DNL Campaign] 콘솔에서 만들어집니다. 자세한 내용은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}를 참조하세요
 
    각 모드에 대한 자세한 구성은 아래에서 확인할 수 있습니다.
 

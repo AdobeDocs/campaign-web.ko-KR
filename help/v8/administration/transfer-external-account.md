@@ -2,16 +2,20 @@
 title: 외부 계정 관리
 description: 외부 계정을 구성하는 방법 알아보기
 exl-id: 6daa35c2-21cf-4121-ba57-3749e1ed9c2d
-TQID: https://experienceleague.adobe.com/3bDvcavO8Ias-8gWnaSJr6GAo-Otn9l-W5Qx7uCOaWg
+TQID: 'https://experienceleague.adobe.com/3bDvcavO8Ias-8gWnaSJr6GAo-Otn9l-W5Qx7uCOaWg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 6%
@@ -20,7 +24,7 @@ ht-degree: 6%
 
 ## Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
 
-Amazon Simple Storage Service (S3) 커넥터를 사용하여 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. 워크플로우 활동에서 설정할 수 있습니다. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}를 참조하십시오.
+Amazon Simple Storage Service (S3) 커넥터를 사용하여 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. 워크플로우 활동에서 설정할 수 있습니다. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}를 참조하십시오.
 
 ![Amazon Simple Storage Service S3 외부 계정 구성 필드를 보여주는 스크린샷입니다.](assets/external-AWS.png)
 
@@ -50,7 +54,7 @@ Amazon Simple Storage Service (S3) 커넥터를 사용하여 데이터를 Adobe 
 
 ## Azure Blob 스토리지 {#azure-blob-external-account}
 
-**[!UICONTROL Azure Blob 저장소]** 외부 계정을 사용하여 **[!UICONTROL 파일 전송]** 워크플로우 활동을 사용하여 Adobe Campaign으로 데이터를 가져오거나 내보낼 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}을 참조하십시오.
+**[!UICONTROL Azure Blob 저장소]** 외부 계정을 사용하여 **[!UICONTROL 파일 전송]** 워크플로우 활동을 사용하여 Adobe Campaign으로 데이터를 가져오거나 내보낼 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}을 참조하십시오.
 
 ![Azure Blob 저장소 외부 계정 구성 필드를 보여주는 스크린샷입니다.](assets/external-azure.png)
 

@@ -3,11 +3,15 @@ audience: end-user
 title: iOS 리치 푸시 알림 게재 디자인
 description: Adobe Campaign 웹을 사용하여 iOS 리치 푸시 알림 전달을 디자인하는 방법을 알아봅니다
 exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
-TQID: https://experienceleague.adobe.com/B4dcgNoG8uflTmYejb0fPp9NjWPawctMacxjZBxa0zU
+TQID: 'https://experienceleague.adobe.com/B4dcgNoG8uflTmYejb0fPp9NjWPawctMacxjZBxa0zU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 4%
@@ -16,7 +20,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->리치 푸시 알림을 디자인하기 전에 V2 커넥터를 구성해야 합니다. 자세한 절차는 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application)를 참조하세요.
+>리치 푸시 알림을 디자인하기 전에 V2 커넥터를 구성해야 합니다. 자세한 절차는 [이 페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application)를 참조하세요.
 
 ## 알림 콘텐츠 정의 {#push-message}
 

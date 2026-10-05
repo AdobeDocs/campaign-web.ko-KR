@@ -6,7 +6,28 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+feature_v2:
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
+subfeature_v2:
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 7%
@@ -20,7 +41,7 @@ ht-degree: 7%
 
 ## GenStudio 시작 {#gs-genstudio}
 
-[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"}은(는) 마케팅 팀이 고유한 광고 및 이메일을 만들어 브랜드 표준을 준수하고 엔터프라이즈 정책을 준수하는 영향력이 크고 개인화된 마케팅 캠페인을 유도할 수 있는 생성 AI 우선 애플리케이션입니다. Adobe AI 기술을 활용하여 컨텐츠 생성 및 관리의 복잡성을 간소화하여 크리에이티브가 혁신에 집중할 수 있는 포괄적인 도구 모음을 제공합니다.
+[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"}은(는) 마케팅 팀이 고유한 광고 및 이메일을 만들어 브랜드 표준을 준수하고 엔터프라이즈 정책을 준수하는 영향력이 크고 개인화된 마케팅 캠페인을 유도할 수 있는 생성 AI 우선 애플리케이션입니다. Adobe AI 기술을 활용하여 컨텐츠 생성 및 관리의 복잡성을 간소화하여 크리에이티브가 혁신에 집중할 수 있는 포괄적인 도구 모음을 제공합니다.
 
 >[!AVAILABILITY]
 >
@@ -30,7 +51,7 @@ ht-degree: 7%
 
 >[!INFO]
 >
->더 자세히 알아보려면 이 [개요](https://business.adobe.com/kr/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}와 [!DNL Adobe GenStudio for Performance Marketing]의 [데모](https://business.adobe.com/kr/products/genstudio-for-performance-marketing.html#demo){target="_blank"}을(를) 확인하십시오.
+>더 자세히 알아보려면 이 [개요](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}와 [!DNL Adobe GenStudio for Performance Marketing]의 [데모](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"}을(를) 확인하십시오.
 
 ## Adobe Campaign에서 GenStudio 기능 사용 {#use-genstudio}
 
@@ -54,13 +75,13 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >[HTML 사용 안내서](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"} 전용 섹션에서 [!DNL GenStudio]에 Adobe GenStudio for Performance Marketing 템플릿을 업로드하는 방법을 알아봅니다.<!--GenStudio doc to be updated with Campaign-->
+   >[HTML 사용 안내서](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"} 전용 섹션에서 [!DNL GenStudio]에 Adobe GenStudio for Performance Marketing 템플릿을 업로드하는 방법을 알아봅니다.<!--GenStudio doc to be updated with Campaign-->
 
 1. GenStudio에서 이 템플릿을 사용하여 AI 프롬프트가 있는 여러 이메일 변형을 만들고 저장합니다.
 
    >[!NOTE]
    >
-   >GenStudio 전용 [섹션](https://experienceleague.adobe.com/ko/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}에서 전자 메일 경험을 만드는 방법을 알아봅니다.
+   >GenStudio 전용 [섹션](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"}에서 전자 메일 경험을 만드는 방법을 알아봅니다.
 
 ### Adobe Campaign에서 GenStudio 경험 활용 {#leverage-genstudio-experiences}
 
@@ -92,7 +113,7 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   > [!DNL Adobe Campaign] 템플릿[&#128279;](#export-from-ajo-to-genstudio)에서 만든 GenStudio 경험 을(를) 이메일 Designer으로 직접 가져옵니다. [!DNL Adobe Campaign] 템플릿 없이 만든 GenStudio 경험을 [호환성 모드](../email/existing-content.md)(으)로 가져옵니다.
+   > [!DNL Adobe Campaign] 템플릿](#export-from-ajo-to-genstudio)에서 만든 GenStudio 경험 [을(를) 이메일 Designer으로 직접 가져옵니다. [!DNL Adobe Campaign] 템플릿 없이 만든 GenStudio 경험을 [호환성 모드](../email/existing-content.md)(으)로 가져옵니다.
 
    [전자 메일 콘텐츠 편집 도구](../email/create-email-content.md) 및 [개인화 필드](../personalization/personalize.md)를 사용하여 전자 메일을 원하는 대로 편집하세요. 콘텐츠를 저장합니다.
 
@@ -104,6 +125,6 @@ ht-degree: 7%
 
 Discover the process of exporting an email template from Adobe Campaign to GenStudio for Performance Marketing, crafting brand-compliant emails using the template in GenStudio, and importing them seamlessly back into Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3456056/?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)
 TO REPLACE WITH CAMPAIGN VIDEO WHEN/IF RELEASED
 -->

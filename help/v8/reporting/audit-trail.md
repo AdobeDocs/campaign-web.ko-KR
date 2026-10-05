@@ -4,10 +4,14 @@ title: 감사 추적
 description: Campaign 감사 추적을 사용하여 인스턴스를 모니터링하는 방법 알아보기
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-TQID: https://experienceleague.adobe.com/J3c5k0g22amplf8KqJGCByig3OKIqSZ-Hk87ea8C7mM
+TQID: 'https://experienceleague.adobe.com/J3c5k0g22amplf8KqJGCByig3OKIqSZ-Hk87ea8C7mM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -15,11 +19,17 @@ feature_v2:
     internal-label: Schemas
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: cebd7cfa-b9fa-4d9f-a2ab-fce31f32c4a3
     internal-label: Audit trail
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
     internal-label: PI
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -27,7 +37,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 1%
@@ -64,7 +74,7 @@ Adobe Campaign 웹 사용자 인터페이스에서 **[!UICONTROL 감사 추적]*
 
 * **옵션 감사 추적**&#x200B;을 통해 Campaign v8에서 수행한 활동 및 최근 옵션 수정 사항을 모니터링할 수 있습니다.
 
-  옵션에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)를 참조하세요.
+  옵션에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options)를 참조하세요.
 
 * **게재 감사 추적**&#x200B;을 통해 활동 및 게재에 대한 마지막 수정 사항을 확인할 수 있습니다.
 
@@ -76,11 +86,11 @@ Adobe Campaign 웹 사용자 인터페이스에서 **[!UICONTROL 감사 추적]*
 
 * **게재 매핑**&#x200B;을(를) 사용하면 Campaign v8에서 게재 매핑에 대한 활동 및 최근 수정 사항을 모니터링할 수 있습니다.
 
-  게재 매핑에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/audience/add-profiles/target-mappings)를 참조하세요.
+  게재 매핑에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/target-mappings)를 참조하세요.
 
 * **웹 응용 프로그램**&#x200B;을(를) 사용하면 입력 및 선택 필드가 있는 페이지를 만드는 데 사용되는 Campaign v8에서 웹 폼에 대한 수정 사항과 데이터베이스의 데이터를 포함할 수 있는 수정 사항을 확인할 수 있습니다.
 
-  웹 응용 프로그램에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/content/webapps)를 참조하세요.
+  웹 응용 프로그램에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/webapps)를 참조하세요.
 
 * **오퍼**&#x200B;를 사용하면 활동 및 오퍼에 대한 마지막 수정 사항을 확인할 수 있습니다.
 
@@ -88,7 +98,7 @@ Adobe Campaign 웹 사용자 인터페이스에서 **[!UICONTROL 감사 추적]*
 
 * **연산자**&#x200B;을(를) 사용하면 Campaign v8에서 연산자에 대한 활동 및 최근 수정 사항을 모니터링할 수 있습니다.
 
-  연산자에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators)를 참조하세요.
+  연산자에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators)를 참조하세요.
 
 +++
 

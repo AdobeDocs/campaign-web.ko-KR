@@ -9,7 +9,28 @@ role: User
 level: Beginner, Intermediate
 keywords: 이메일 테마, 모듈, 재사용 가능성, 브랜드 일관성, 이메일 디자인, 사용자 지정 CSS, 모바일 최적화
 exl-id: c9e02bca-032d-4771-ad53-5bbebabc4c5d
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+feature_v2:
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
+subfeature_v2:
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '2077'
 ht-degree: 4%
@@ -20,7 +41,7 @@ ht-degree: 4%
 >id="acw_homepage_welcome_rn2"
 >title="이메일 디자이너의 테마 (LA)"
 >abstract="재사용 가능한 테마 스타일 및 변수를 적용하여 이메일 콘텐츠를 브랜드와 일관되게 유지합니다. 이 기능은 일부 조직에서만 사용할 수 있습니다(제한된 가용성)."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_email_apply_theme"

@@ -3,14 +3,18 @@ audience: end-user
 title: 콘텐츠 조각 만들기
 description: 콘텐츠 조각을 만드는 방법 알아보기
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
-TQID: https://experienceleague.adobe.com/ZUkswLXR1inqS45Gt9H7BlaJGkMQbTc22RM9vz5k174
+TQID: 'https://experienceleague.adobe.com/ZUkswLXR1inqS45Gt9H7BlaJGkMQbTc22RM9vz5k174'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1038'
 ht-degree: 23%
@@ -49,7 +53,7 @@ ht-degree: 23%
 
 콘텐츠 조각을 처음부터 만들려면 아래 단계를 수행합니다.
 
-1. [콘텐츠 관리&#x200B;]&#x200B;**>**&#x200B;[!UICONTROL &#x200B;조각&#x200B;]&#x200B;**왼쪽 메뉴를 통해 조각 목록에 액세스(#access-manage-fragments)하고**&#x200B;[!UICONTROL &#x200B;조각 만들기&#x200B;]&#x200B;**를 선택합니다.**
+1. [콘텐츠 관리&#x200B;]**>**[!UICONTROL &#x200B;조각&#x200B;]**왼쪽 메뉴를 통해 조각 목록에 액세스](#access-manage-fragments)하고**[!UICONTROL &#x200B;조각 만들기&#x200B;]**를 선택합니다.**[!UICONTROL 
 
    ![조각 만들기 옵션을 표시하는 조각 목록 화면](assets/fragments-list.png)
 

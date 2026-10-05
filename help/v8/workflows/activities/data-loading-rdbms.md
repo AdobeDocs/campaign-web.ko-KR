@@ -6,10 +6,14 @@ exl-id: 18c969f7-c94e-4fff-a132-a2114860841f
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 56a7ef49e4ccebcc0fe35abcefcf73d1ff9c1017
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 16%
@@ -24,7 +28,7 @@ ht-degree: 16%
 **데이터 로드(RDBMS)** 활동은 **데이터 관리** 활동입니다. 이 활동을 사용해 외부 관계형 데이터베이스에서 워크플로로 바로 데이터를 로드할 수 있습니다. 추출된 데이터는 워크플로 전체에서 사용 가능하며 타기팅, 보강 또는 추가 데이터 처리에 사용할 수 있습니다.
 
 <!--
-This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ko){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.
+This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.
 -->
 
 >[!NOTE]

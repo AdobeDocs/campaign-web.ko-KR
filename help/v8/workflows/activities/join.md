@@ -3,7 +3,14 @@ audience: end-user
 title: 조인 워크플로우 활동 사용
 description: 조인 워크플로우 활동을 사용하는 방법 알아보기
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 38%
@@ -14,7 +21,7 @@ ht-degree: 38%
 >id="acw_homepage_welcome_rn5"
 >title="여러 워크플로 분기 및 조인 활동"
 >abstract="이제 여러 분기가 지원됩니다. 포크를 사용하는 대신 도구 모음에서 [분기 추가]를 클릭하면 됩니다. AND-조인 활동도 개선되었습니다. 이제 AND와 OR 조인 옵션 중에서 선택할 수 있는 일반 조인 활동입니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"

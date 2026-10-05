@@ -3,7 +3,14 @@ audience: end-user
 title: 자동화된 게재 워크플로우 활동
 description: 자동화된 게재 워크플로우 활동을 사용하는 방법을 알아봅니다
 exl-id: a9c485f1-0369-414d-9e43-bedb0390a2f5
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 18%
@@ -14,7 +21,7 @@ ht-degree: 18%
 >id="acw_homepage_welcome_rn4"
 >title="자동화된 게재 활동"
 >abstract="이제 워크플로 팔레트에서 자동화된 게재 워크플로 활동을 사용할 수 있습니다. 이를 워크플로 내에서 바로 사용하여 게재 액션(준비, 교정쇄 보내기, 준비 및 시작 등)을 만들거나 실행할 수 있습니다."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ko" text="릴리스 정보 참조"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="릴리스 정보 참조"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_automated-delivery"
@@ -50,7 +57,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->고급 사용 사례에 사용되는 **전환에 지정됨** 및 **스크립트로 계산됨** 옵션은 클라이언트 콘솔에서만 구성할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}를 참조하세요.
+>고급 사용 사례에 사용되는 **전환에 지정됨** 및 **스크립트로 계산됨** 옵션은 클라이언트 콘솔에서만 구성할 수 있습니다. [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}를 참조하세요.
 
 ## 수행할 작업 선택 {#action-to-execute}
 

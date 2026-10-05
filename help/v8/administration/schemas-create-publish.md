@@ -2,7 +2,14 @@
 title: 스키마 만들기 및 게시
 description: 스키마를 만들고, 확장하고, 게시하는 방법을 알아봅니다.
 exl-id: 1da53fe0-1d64-4907-ba06-206f69e83d7c
-source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 1%
@@ -25,7 +32,7 @@ ht-degree: 1%
 1. 스키마의 네임스페이스를 입력하십시오(예: 사용자 지정 스키마의 경우 `cus`).
 1. 고유한 이름과 레이블을 입력하고 새 스키마를 만들거나 기존 스키마를 확장할지 선택합니다.
 
-1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 만들기]**를 클릭합니다.
    ![스키마 만들기 대화 상자](assets/schemas-create2.png)
 
 스키마가 생성되고 생성된 스키마 구조가 표시됩니다.
@@ -91,7 +98,7 @@ ht-degree: 1%
 사용자 지정 스키마를 게시한 후 탐색기에서 탐색 항목을 만들어 사용자 지정 데이터에 액세스할 수 있습니다.
 
 1. **[!UICONTROL 탐색기]** 메뉴로 이동한 다음 사용자 지정 스키마를 저장할 폴더를 선택합니다.
-1. 줄임표 아이콘을 클릭하고 **[!UICONTROL 새 폴더 만들기]**&#x200B;를 클릭합니다.
+1. 줄임표 아이콘을 클릭하고 **[!UICONTROL 새 폴더 만들기]**를 클릭합니다.
    ![사용자 지정 스키마에 대한 탐색 항목 만들기](assets/schemas-publish3.png)
 1. 레이블을 추가하고 **[!UICONTROL 폴더 유형]** 필드에서 스키마를 선택합니다.
    ![사용자 지정 스키마에 대한 탐색 항목 만들기](assets/schemas-publish5.png)

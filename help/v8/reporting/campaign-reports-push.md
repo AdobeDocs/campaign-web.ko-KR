@@ -3,14 +3,18 @@ audience: end-user
 title: 푸시 채널에 대한 캠페인 보고서
 description: 푸시 채널에 대한 캠페인 보고서 이해
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-TQID: https://experienceleague.adobe.com/2NWIVbSKxC619uzgluzJc5spx3eThohYBbJzrXWjyeI
+TQID: 'https://experienceleague.adobe.com/2NWIVbSKxC619uzgluzJc5spx3eThohYBbJzrXWjyeI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 23%
@@ -97,7 +101,7 @@ ht-degree: 23%
 
 **[!UICONTROL 생성된 클릭 스트림]** 테이블에는 수신자가 게재와 상호 작용하는 방식에 따른 데이터가 표시됩니다. 지표는 아래에 자세히 설명되어 있습니다.
 
-![보고서에 표시된 클릭 스트림 &#x200B;](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
+![보고서에 표시된 클릭 스트림 ](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
 
 +++푸시 캠페인 보고서 지표에 대해 자세히 알아보십시오.
 

@@ -2,7 +2,14 @@
 title: Campaign v8 Web 사용자 인터페이스 이전 릴리스 정보
 description: 2026년 Campaign Web 사용자 인터페이스 릴리스
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
-source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '2251'
 ht-degree: 100%
@@ -208,7 +215,7 @@ _2026년 4월 29일_
 <td>
 <p>테마는 브랜드 가이드라인에 맞는 재사용 가능한 테마 스타일을 정의하여 이메일에 대한 향상된 작성 환경을 제공합니다. 이제 조각에서 테마 변수를 사용하여 이메일 템플릿 간에 일관적인 스타일을 유지할 수 있습니다. 이 기능을 사용하면 제목, 설명, 이미지, 링크와 같은 콘텐츠 요소를 추상화한 미리 정의된 모듈을 사용하여 브랜드 일관성을 유지하면서 이메일을 더 빠르게 작성할 수 있습니다.</p>
 <p>참고: 이 기능은 조직 집합에만 사용할 수 있으며(제한된 가용성), 향후 릴리스를 통해 전역적으로 출시될 예정입니다.</p>
-<p>자세한 내용은 <a href="../email/apply-email-themes.md">세부 설명서</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../email/apply-email-themes.md">세부 설명서</a>를 참조하세요.</p>
 </td>
 </tr>
 </tbody>

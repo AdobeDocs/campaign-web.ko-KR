@@ -77,7 +77,7 @@ Campaign 웹 사용자 인터페이스에서 트랜잭션 메시지 구성의 �
 * 실행 후 메시지가 저장되는 **[!UICONTROL 실행 폴더]**&#x200B;입니다.
 * **[!UICONTROL 게재 코드]**&#x200B;은(는) 필요한 경우 보고할 메시지를 인식하는 데 도움이 되는 코드입니다.
 * **[!UICONTROL 설명]**&#x200B;입니다.
-* *deliveryNature* 열거형에 나열된 게재 특성인 **[!UICONTROL Nature]**. [열거형에 대해 자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations).
+* *deliveryNature* 열거형에 나열된 게재 특성인 **[!UICONTROL Nature]**. [열거형에 대해 자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations).
 
 ![트랜잭션 메시지 템플릿의 속성 섹션을 보여 주는 스크린샷입니다.](assets/template-properties.png){zoomable="yes"}
 

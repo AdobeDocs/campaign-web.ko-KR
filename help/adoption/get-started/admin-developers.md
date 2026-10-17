@@ -96,17 +96,17 @@ Campaign 클라이언트 콘솔은 모든 기능과 설정을 중앙 집중화�
 
 ## Campaign v8 아키텍처 {#acs-gs-admi-archi}
 
-Campaign 아키텍처는 Campaign v8(콘솔) 설명서에 자세히 설명되어 있습니다. [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/general-architecture){target="_blank"}에서 기본 사항에 대해 알아봅니다.
+Campaign 아키텍처는 Campaign v8(콘솔) 설명서에 자세히 설명되어 있습니다. [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/architecture/general-architecture){target="_blank"}에서 기본 사항에 대해 알아봅니다.
 
 시작할 수 있는 유용한 링크:
 
 * Adobe Campaign 구성 요소 및 전역 아키텍처는 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/ac-components){target="_blank"}에 설명되어 있습니다.
 
-* 인스턴스 구성을 시작하기 전에 Campaign 아키텍처를 이해하려면 [Campaign 아키텍처 시작](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture){target="_blank"}을 참조하세요.
+* 인스턴스 구성을 시작하기 전에 Campaign 아키텍처를 이해하려면 [Campaign 아키텍처 시작](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/architecture/architecture){target="_blank"}을 참조하세요.
 
 <!--Two deployment models are available: **Campaign FDA deployment** (P1-P3) and **Campaign Enterprise (FFDA)** deployment (P4). As a customer transitioning from Campaign Standard, your deployment model is **Campaign FDA**.-->
 
-* 트랜잭션 메시지(메시지 센터)는 트리거된 메시지를 관리하기 위해 설계된 Campaign v8 모듈입니다. [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture#transac-msg-archi){target="_blank"}에 자세히 설명되어 있는 특정 아키텍처 모델을 사용합니다.
+* 트랜잭션 메시지(메시지 센터)는 트리거된 메시지를 관리하기 위해 설계된 Campaign v8 모듈입니다. [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/architecture/architecture#transac-msg-archi){target="_blank"}에 자세히 설명되어 있는 특정 아키텍처 모델을 사용합니다.
 
 ## Campaign 클라이언트 콘솔 {#acs-gs-console}
 
@@ -188,7 +188,7 @@ MISSING LINKS:
 
 클라이언트 콘솔에서 사용자 인터페이스를 사용자 정의할 수 있는 몇 가지 옵션은 다음과 같습니다.
 
-* **목록 및 데이터 표시** - 목록, 단위 또는 데이터 표시와 같은 사용자 인터페이스 설정을 관리하는 지침은 다음 문서에서 확인할 수 있습니다. [사용자 인터페이스 설정 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings){target="_blank"}
+* **목록 및 데이터 표시** - 목록, 단위 또는 데이터 표시와 같은 사용자 인터페이스 설정을 관리하는 지침은 다음 문서에서 확인할 수 있습니다. [사용자 인터페이스 설정 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/ui-settings){target="_blank"}
 
 * **폴더 관리** - 폴더는 구성 요소와 데이터를 구성할 수 있는 Adobe Campaign의 개체입니다. 권한을 관리하는 데에도 사용됩니다. [폴더 작업](../../v8/get-started/work-with-folders.md)하는 방법을 알아보세요.
 
@@ -204,7 +204,7 @@ MISSING LINKS:
 
 Campaign Standard과 마찬가지로 Adobe Campaign v8에도 사전 정의된 데이터 모델이 포함되어 있습니다. Adobe Campaign은 함께 연결된 테이블이 포함된 클라우드 데이터베이스를 사용합니다. 자세한 내용은 [데이터 모델 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}를 참조하세요.
 
-스키마는 데이터베이스 테이블과 연관된 XML 문서입니다. 데이터 구조를 정의하고 테이블의 SQL 정의를 설명합니다. [스키마 만들기 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"} 보기
+스키마는 데이터베이스 테이블과 연관된 XML 문서입니다. 데이터 구조를 정의하고 테이블의 SQL 정의를 설명합니다. [스키마 만들기 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"} 보기
 
 이 비디오에서는 Campaign v8에서 스키마를 만드는 방법과 기존 스키마를 확장하는 방법을 알아봅니다.
 
@@ -212,17 +212,17 @@ Campaign Standard과 마찬가지로 Adobe Campaign v8에도 사전 정의된 �
 
 Campaign Standard에서 사용할 수 있는 기능과 유사하게 사용자 지정 리소스를 만들 수 있습니다. Campaign v8에서 사용자 지정 리소스는 사용자 지정 또는 확장된 **스키마**&#x200B;입니다.
 
-* [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}에서 스키마를 사용하여 작업하는 방법을 알아보세요.
+* [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}에서 스키마를 사용하여 작업하는 방법을 알아보세요.
 
-* [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema){target="_blank"}에서 기존 스키마를 확장하는 방법을 알아보세요.
+* [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema){target="_blank"}에서 기존 스키마를 확장하는 방법을 알아보세요.
 
-* [이 페이지](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/create-schema){target="_blank"}에서 새 스키마를 만드는 방법을 알아보세요.
+* [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/shemas-forms/create-schema){target="_blank"}에서 새 스키마를 만드는 방법을 알아보세요.
 
-* 스키마를 만들거나 확장할 때 관련 입력 양식을 만들거나 수정하여 최종 사용자가 해당 변경 사항을 볼 수 있도록 해야 합니다. 입력 양식을 사용하면 Adobe Campaign 클라이언트 콘솔에서 데이터 스키마와 연결된 인스턴스를 편집할 수 있습니다. 양식은 이름과 네임스페이스로 식별됩니다. [입력 양식 만들기 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/forms){target="_blank"}를 참조하세요.
+* 스키마를 만들거나 확장할 때 관련 입력 양식을 만들거나 수정하여 최종 사용자가 해당 변경 사항을 볼 수 있도록 해야 합니다. 입력 양식을 사용하면 Adobe Campaign 클라이언트 콘솔에서 데이터 스키마와 연결된 인스턴스를 편집할 수 있습니다. 양식은 이름과 네임스페이스로 식별됩니다. [입력 양식 만들기 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/shemas-forms/forms){target="_blank"}를 참조하세요.
 
 ## 워크플로우 및 데이터 관리 {#acs-gs-admin-data-management}
 
-Adobe Campaign Standard과 마찬가지로 Adobe Campaign v8에는 애플리케이션 서버의 여러 모듈에 걸쳐 전체 프로세스 및 작업을 오케스트레이션할 수 있는 워크플로우 모듈이 포함되어 있습니다. 이 포괄적인 그래픽 환경을 사용하면 세분화, 캠페인 실행, 파일 처리, 인원 참여 등의 프로세스를 디자인할 수 있습니다. 워크플로우 엔진은 이러한 프로세스를 실행하고 추적합니다. [이 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/workflows){target="_blank"}에서 Campaign v8의 워크플로우로 시작하는 방법을 알아봅니다.
+Adobe Campaign Standard과 마찬가지로 Adobe Campaign v8에는 애플리케이션 서버의 여러 모듈에 걸쳐 전체 프로세스 및 작업을 오케스트레이션할 수 있는 워크플로우 모듈이 포함되어 있습니다. 이 포괄적인 그래픽 환경을 사용하면 세분화, 캠페인 실행, 파일 처리, 인원 참여 등의 프로세스를 디자인할 수 있습니다. 워크플로우 엔진은 이러한 프로세스를 실행하고 추적합니다. [이 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/data/workflows){target="_blank"}에서 Campaign v8의 워크플로우로 시작하는 방법을 알아봅니다.
 
 아래의 기타 유용한 리소스에 대한 링크를 참조하십시오.
 
@@ -303,7 +303,7 @@ Campaign Standard의 Adobe Campaign v8을 사용하면 이메일, SMS, 푸시 �
 * **전자 메일** - 전자 메일 설정은 모두 [이 페이지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/emails/email-parameters){target="_blank"}에 자세히 설명되어 있습니다.
 * **SMS** - SMS 채널을 구성하는 방법은 [이 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}를 참조하세요.
 * **푸시 알림** - 푸시 알림 채널을 구성하는 단계는 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}에 자세히 설명되어 있습니다.
-* **트랜잭션 메시지** - Campaign v8에서 [트랜잭션 메시지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}을(를) 구성하는 단계는 이 섹션의 [에 자세히 설명되어 있습니다](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/transactional-msg-settings)
+* **트랜잭션 메시지** - Campaign v8에서 [트랜잭션 메시지](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}을(를) 구성하는 단계는 이 섹션의 [에 자세히 설명되어 있습니다](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/configuration/transactional-msg-settings)
 
 ### 외부 계정 {#acs-gs-ext-accounts}
 
@@ -372,7 +372,7 @@ Campaign v8에서 유형화 규칙은 특정 캠페인 최적화와 함께 제�
 
 격리된 모든 주소 및 격리 규칙이 Campaign Standard 환경에서 Campaign v8로 마이그레이션되었습니다. 방역 관리를 위해 구체적인 조치가 필요한 것은 아니다.
 
-관리자는 [이 페이지](../../v8/audience/quarantine.md)부터 Campaign v8의 격리 관리에 익숙해집니다. [이 섹션](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses){target="_blank"}에서 격리 관리에 대한 자세한 내용은 클라이언트 콘솔 세부 설명서를 참조하십시오.
+관리자는 [이 페이지](../../v8/audience/quarantine.md)부터 Campaign v8의 격리 관리에 익숙해집니다. [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses){target="_blank"}에서 격리 관리에 대한 자세한 내용은 클라이언트 콘솔 세부 설명서를 참조하십시오.
 
 
 ## Adobe Campaign 통합 관리 {#acs-gs-integrations}

@@ -234,7 +234,7 @@ ht-degree: 44%
 
 <!--* When a multilingual delivery contains only one locale,-->
 * 조정된 게재 사용,
-* Campaign 배포 모델이 [Adobe Campaign Enterprise FFDA(Full Federated Access)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}인 경우
+* Campaign 배포 모델이 [Adobe Campaign Enterprise FFDA(Full Federated Access)](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}인 경우
 * 파일이 업로드되지 않은 경우.
 
 ## 이메일 전송 및 모니터링 {#prepare-send}

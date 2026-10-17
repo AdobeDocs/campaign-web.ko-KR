@@ -25,7 +25,7 @@ ht-degree: 1%
 
 **오퍼 공간**&#x200B;은(는) 오퍼가 연락처에 노출되는 위치와 방법, 오퍼가 사용하는 채널(이메일, DM, SMS, 인바운드 웹 등), 오퍼가 사용할 수 있는 콘텐츠 필드, 최종 표시 작성 방법을 정의합니다. 단일 환경에는 각 노출 포인트에 대해 하나씩 여러 개의 오퍼 공간이 포함될 수 있습니다.
 
-오퍼 공간은 그 자체로 채널이 아닙니다. 오퍼가 채널에 표시되는 특정 위치를 나타냅니다. 동일한 웹 페이지에 있는 두 개의 배너는 일반적으로 두 개의 서로 다른 오퍼 공간에 해당합니다. 전체 개념 모델은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html){target="_blank"}를 참조하세요.
+오퍼 공간은 그 자체로 채널이 아닙니다. 오퍼가 채널에 표시되는 특정 위치를 나타냅니다. 동일한 웹 페이지에 있는 두 개의 배너는 일반적으로 두 개의 서로 다른 오퍼 공간에 해당합니다. 전체 개념 모델은 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html?lang=ko){target="_blank"}를 참조하세요.
 
 ## 오퍼 공간 만들기 또는 수정{#create-offer-space}
 
@@ -79,19 +79,19 @@ ht-degree: 1%
 
 * 수락 시 **[!UICONTROL 상태]** — 받는 사람이 오퍼와 상호 작용할 때 적용되는 상태입니다(일반적으로 **[!UICONTROL 수락됨]**).
 
-사용 가능한 상태 값은 클라이언트 콘솔에서 사용하는 목록과 일치합니다. 자세한 내용은 콘솔 설명서에서 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html#offer-proposition-statuses){target="_blank"}를 참조하세요.
+사용 가능한 상태 값은 클라이언트 콘솔에서 사용하는 목록과 일치합니다. 자세한 내용은 콘솔 설명서에서 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html?lang=ko#offer-proposition-statuses){target="_blank"}를 참조하세요.
 
 <!--
 >[!NOTE]
 >
->Status updates run asynchronously through the tracking workflow. For an outbound delivery containing a tracked link, the status of the proposition is automatically switched to **[!UICONTROL Presented]** when the delivery reaches the **[!UICONTROL Sent]** state. To trigger the **[!UICONTROL Interested]** status from a click, add the `_urlType="11"` attribute to the link. The full **inbound interaction** URL syntax (for example to apply the **[!UICONTROL Rejected]** status from a web app) must be configured in the client console — see [Inbound interaction status update](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html#configuring-the-status-when-the-proposition-is-accepted){target="_blank"}.
+>Status updates run asynchronously through the tracking workflow. For an outbound delivery containing a tracked link, the status of the proposition is automatically switched to **[!UICONTROL Presented]** when the delivery reaches the **[!UICONTROL Sent]** state. To trigger the **[!UICONTROL Interested]** status from a click, add the `_urlType="11"` attribute to the link. The full **inbound interaction** URL syntax (for example to apply the **[!UICONTROL Rejected]** status from a web app) must be configured in the client console — see [Inbound interaction status update](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html?lang=ko#configuring-the-status-when-the-proposition-is-accepted){target="_blank"}.
 -->
 
 ### 고급 설정 구성 {#advanced}
 
-이 섹션에서 **[!UICONTROL 대상 식별]**&#x200B;을(를) 정의할 수 있습니다. **[!UICONTROL 추가]**&#x200B;를 클릭하고 **[!UICONTROL 받는 사람]** 특성을 하나 또는 여러 개 선택하거나 **[!UICONTROL 식 편집]**&#x200B;을 클릭하여 사용자 지정 식을 대신 정의합니다. 이 설정은 기본 오퍼 공간에 선택 사항입니다. 전체 참조 및 동작을 보려면 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html){target="_blank"}를 참조하세요.
+이 섹션에서 **[!UICONTROL 대상 식별]**&#x200B;을(를) 정의할 수 있습니다. **[!UICONTROL 추가]**&#x200B;를 클릭하고 **[!UICONTROL 받는 사람]** 특성을 하나 또는 여러 개 선택하거나 **[!UICONTROL 식 편집]**&#x200B;을 클릭하여 사용자 지정 식을 대신 정의합니다. 이 설정은 기본 오퍼 공간에 선택 사항입니다. 전체 참조 및 동작을 보려면 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html?lang=ko){target="_blank"}를 참조하세요.
 
-**인바운드 웹 채널**&#x200B;에서 만든 오퍼 공간도 오퍼를 표시하고 오퍼 엔진을 호출하도록 웹 사이트를 구성해야 합니다. 이 통합은 클라이언트 콘솔에서 수행됩니다. Campaign v8 설명서에서 [실시간으로 오퍼 제공](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-present-offers.html){target="_blank"} 및 [오퍼 엔진 통합 구성](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-integration.html){target="_blank"}을 참조하십시오.
+**인바운드 웹 채널**&#x200B;에서 만든 오퍼 공간도 오퍼를 표시하고 오퍼 엔진을 호출하도록 웹 사이트를 구성해야 합니다. 이 통합은 클라이언트 콘솔에서 수행됩니다. Campaign v8 설명서에서 [실시간으로 오퍼 제공](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-present-offers.html?lang=ko){target="_blank"} 및 [오퍼 엔진 통합 구성](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-integration.html?lang=ko){target="_blank"}을 참조하십시오.
 
 ## 오퍼 공간 배포 {#deploy}
 

@@ -233,7 +233,7 @@ Adobe Campaign 웹 사용자 인터페이스에서는 다양한 기준을 기반
 >
 >* 추적 링크, 미러 페이지 URL 링크, 구독/구독 취소 링크는 Campaign Standard에서와 같이 작동합니다.
 >
->Adobe Campaign의 [추적 및 모니터링](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [브랜딩](../../v8/administration/branding/branding-gs.md) 섹션도 참조하세요.
+>Adobe Campaign의 [추적 및 모니터링](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [브랜딩](../../v8/administration/branding/branding-gs.md) 섹션도 참조하세요.
 
 ### 이메일 게재 {#acs-gs-marketers-email}
 
@@ -427,11 +427,11 @@ Adobe Campaign은 세 가지 보고서를 제공합니다.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/campaign-report/campaign-reports">
+<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/reports/campaign-report/campaign-reports">
 <img alt="유효성 검사" src="./assets/campaign_report.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/campaign-report/campaign-reports"><strong>캠페인 보고서</strong></a>
+<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/reports/campaign-report/campaign-reports"><strong>캠페인 보고서</strong></a>
 </div>
 <p>
 <div>
@@ -440,10 +440,10 @@ Adobe Campaign은 세 가지 보고서를 제공합니다.
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/delivery-report/delivery-reports">
+<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/reports/delivery-report/delivery-reports">
 <img alt="리드" src="assets/email_report.jpeg">
 </a>
-<div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/delivery-report/delivery-reports"><strong>게재 보고서</strong>
+<div><a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/reports/delivery-report/delivery-reports"><strong>게재 보고서</strong>
 </div>
 <p>
 <div>
@@ -452,11 +452,11 @@ Adobe Campaign은 세 가지 보고서를 제공합니다.
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/global-report/global-reports">
+<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/reports/global-report/global-reports">
 <img alt="전반적 보고서" src="assets/push_report.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/global-report/global-reports"><strong>글로벌 보고서</strong></a>
+<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/reports/global-report/global-reports"><strong>글로벌 보고서</strong></a>
 </div>
 <p>
 <div>

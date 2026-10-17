@@ -131,7 +131,7 @@ ht-degree: 40%
 
 이 섹션에서는 사용 가능한 **대상 매핑** 중 원하는 옵션을 선택할 수 있습니다. 대상 매핑은 Adobe Campaign v8 콘솔에서 정의됩니다. 대상 매핑은 작업에서 처리하는 데이터 유형입니다. 대상 모집단을 정의할 수 있습니다. 받는 사람, 계약 수혜자, 운영자, 구독자 등 [대상 매핑에 대해 자세히 알아보기](../audience/targeting-dimensions.md).
 
-**[!UICONTROL 제외]** 필드에서 더 이상 연락을 원치 않거나 격리된 프로필을 제외하도록 선택할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+**[!UICONTROL 제외]** 필드에서 더 이상 연락을 원치 않거나 격리된 프로필을 제외하도록 선택할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=ko){target="_blank"}
 
 ## 게재 {#delivery}
 
@@ -269,7 +269,7 @@ ht-degree: 40%
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 
-[Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}에서 게재 유효 기간에 대해 자세히 알아보세요.
+[Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ko#validity-period){target="_blank"}에서 게재 유효 기간에 대해 자세히 알아보세요.
 
 ### 미러 페이지 관리(이메일 채널) {#mirror}
 

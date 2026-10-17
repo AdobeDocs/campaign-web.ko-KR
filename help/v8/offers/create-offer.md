@@ -67,7 +67,7 @@ ht-degree: 2%
   >
   >상위 범주와 자격 기간 교차가 고려됩니다. 오퍼의 자체 일정이 더 넓은 경우에도 오퍼는 표시되는 반면 상위 범주는 자격을 갖습니다.
 
-* **[!UICONTROL 대상에 대한 필터]** — **[!UICONTROL 필터 만들기]**&#x200B;를 클릭하여 규칙 빌더를 열고 오퍼를 특정 대상으로 제한합니다. 전체 환경 대상에 오퍼를 사용할 수 있도록 하려면 필터를 비워 둡니다. 플랫폼 수준에서 선언된 **미리 정의된 필터**&#x200B;를 다시 사용하려면 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html){target="_blank"}를 참조하세요. 사전 정의된 필터는 클라이언트 콘솔에서 만들어집니다.
+* **[!UICONTROL 대상에 대한 필터]** — **[!UICONTROL 필터 만들기]**&#x200B;를 클릭하여 규칙 빌더를 열고 오퍼를 특정 대상으로 제한합니다. 전체 환경 대상에 오퍼를 사용할 수 있도록 하려면 필터를 비워 둡니다. 플랫폼 수준에서 선언된 **미리 정의된 필터**&#x200B;를 다시 사용하려면 [Campaign v8 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html?lang=ko){target="_blank"}를 참조하세요. 사전 정의된 필터는 클라이언트 콘솔에서 만들어집니다.
 
 * **[!UICONTROL 오퍼 가중치 관리]** — **[!UICONTROL 오퍼 가중치 표시]**&#x200B;를 클릭한 다음 **[!UICONTROL 가중치 추가]**&#x200B;를 클릭하여 여러 오퍼를 동시에 사용할 수 있는 경우 오퍼의 우선 순위에 영향을 줍니다. 각 가중치에는 시작 날짜, 종료 날짜 및 선택적 필터가 있습니다.
 

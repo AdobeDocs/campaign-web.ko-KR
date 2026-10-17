@@ -48,7 +48,7 @@ and check the [Campaign Web and client console capability matrix](../get-started
 * **오퍼 카탈로그 및 범주** — 오퍼는 **범주** 및 하위 범주의 계층 구조 카탈로그로 구성됩니다. 각 범주는 자격 규칙, 유효 날짜 및 **응용 프로그램 테마**&#x200B;를 공유할 수 있습니다. 모든 오퍼를 수신하기 위해 디자인 환경에 기본 카테고리가 제공됩니다.
 
 <!--
-To configure categories in depth — including sub-categories, fallback categories, and theme management — refer to the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-catalog/interaction-offer-catalog.html){target="_blank"}.
+To configure categories in depth — including sub-categories, fallback categories, and theme management — refer to the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-catalog/interaction-offer-catalog.html?lang=ko){target="_blank"}.
 -->
 
 * **오퍼** — 자체 자격 기간, 대상 필터, 가중치 및 콘텐츠가 있는 개별 오퍼입니다. 오퍼를 승인하고 배포한 후에 수신자에게 제공할 수 있습니다. [자세히 알아보기](create-offer.md)
@@ -86,11 +86,11 @@ Campaign 웹 UI의 일반적인 전체 흐름은 다음과 같습니다.
 
 * **오퍼 시뮬레이션** — 보내기 전에 오퍼 배포를 테스트할 수 있는 **시뮬레이션** 모듈입니다. [오퍼 시뮬레이션](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html?lang=ko#offer-simulation){target="_blank"}을 참조하세요.
 
-* **사전 정의된 필터** 관리 — 오퍼에서 참조할 수 있는 재사용 가능한 필터 규칙입니다. [미리 정의된 필터 관리](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html){target="_blank"}를 참조하세요.
+* **사전 정의된 필터** 관리 — 오퍼에서 참조할 수 있는 재사용 가능한 필터 규칙입니다. [미리 정의된 필터 관리](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html?lang=ko){target="_blank"}를 참조하세요.
 
 * **오퍼 추적** — 제안 내역을 제공할 오퍼 제안에 대한 추적을 구성하는 중입니다. [오퍼 제안 추적](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html?lang=ko){target="_blank"}을 참조하세요.
 
-* **운영자 역할** — 오퍼 관리자/게재 관리자 권한을 할당합니다. [상호 작용 모듈의 연산자](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}를 참조하십시오.
+* **운영자 역할** — 오퍼 관리자/게재 관리자 권한을 할당합니다. [상호 작용 모듈의 연산자](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html?lang=ko){target="_blank"}를 참조하십시오.
 
 * **상호 작용 모범 사례 및 중재 규칙**. [캠페인 상호 작용 모범 사례](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=ko){target="_blank"}를 참조하세요.
 

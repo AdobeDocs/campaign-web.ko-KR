@@ -57,7 +57,7 @@ Adobe Campaign 웹 사용자 인터페이스에서 **[!UICONTROL 감사 추적]*
 
 * **Source 스키마 감사 추적**&#x200B;을 통해 Campaign v8 클라이언트 콘솔에서 수행한 활동 및 스키마에 대한 최근 수정 사항을 모니터링할 수 있습니다.
 
-  스키마에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas)를 참조하세요.
+  스키마에 대한 자세한 내용은 [Campaign v8 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/developer/shemas-forms/schemas)를 참조하세요.
 
 * **워크플로우 감사 추적**&#x200B;을 통해 다음과 같은 현재 상태를 포함하여 워크플로우에 대한 활동 및 최근 변경 사항을 추적할 수 있습니다.
 

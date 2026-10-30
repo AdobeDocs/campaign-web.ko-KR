@@ -24,7 +24,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="acw_dynamic_javascript_pages_list"
 >title="동적 JavaScript 페이지"
->abstract="동적 JavaScript 페이지(JSSP)를 사용하면 사용자 정의 API, 내보내기 또는 웹 애플리케이션 논리와 같은 URL을 통해 액세스할 때 동적 콘텐츠를 생성하는 서버 측 페이지를 구축할 수 있습니다. 이 목록에서 동적 JavaScript 페이지를 만들거나, 수정하거나, 복제하거나, 삭제할 수 있습니다."
+>abstract="동적 JavaScript 페이지(JSSP)를 사용하면 사용자 정의 API, 내보내기 또는 웹 애플리케이션 논리와 같이 URL을 통해 액세스할 때 동적 콘텐츠를 생성하는 서버 측 페이지를 구축할 수 있습니다. 이 목록에서 동적 JavaScript 페이지를 만들거나, 수정하거나, 복제하거나, 삭제할 수 있습니다."
 
 >[!CONTEXTUALHELP]
 >id="acw_dynamic_javascript_pages_create"
@@ -33,7 +33,7 @@ ht-degree: 29%
 
 ## 동적 JavaScript 페이지 기본 정보 {#about}
 
-동적 JavaScript 페이지(JSSP)를 사용하면 사용자 정의 API, 내보내기 또는 웹 애플리케이션 논리와 같은 URL을 통해 액세스할 때 동적 콘텐츠를 생성하는 서버 측 페이지를 구축할 수 있습니다. 이러한 페이지는 왼쪽 탐색 창의 **[!UICONTROL 관리]** > **[!UICONTROL 동적 JavaScript 페이지]** 메뉴에 저장됩니다.
+동적 JavaScript 페이지(JSSP)를 사용하면 사용자 정의 API, 내보내기 또는 웹 애플리케이션 논리와 같이 URL을 통해 액세스할 때 동적 콘텐츠를 생성하는 서버 측 페이지를 구축할 수 있습니다. 이러한 페이지는 왼쪽 탐색 창의 **[!UICONTROL 관리]** > **[!UICONTROL 동적 JavaScript 페이지]** 메뉴에 저장됩니다.
 
 ![사용 가능한 옵션을 표시하는 동적 JavaScript 페이지 목록 인터페이스](assets/dynamic-javascript-pages.png)
 

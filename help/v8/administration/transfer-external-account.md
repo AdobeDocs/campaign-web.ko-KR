@@ -15,16 +15,16 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 4ac71499967647b9e0b51b504669e917c157cf62
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 6%
+source-wordcount: '794'
+ht-degree: 5%
 ---
 # 외부 계정 데이터 전송 {#transfer-external-account}
 
 ## Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
 
-Amazon Simple Storage Service (S3) 커넥터를 사용하여 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. 워크플로우 활동에서 설정할 수 있습니다. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}를 참조하십시오.
+Amazon Simple Storage Service (S3) 커넥터를 사용하여 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. 워크플로우 활동에서 설정할 수 있습니다. 자세한 정보는 이 [페이지](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}를 참조하십시오.
 
 ![Amazon Simple Storage Service S3 외부 계정 구성 필드를 보여주는 스크린샷입니다.](assets/external-AWS.png)
 
@@ -54,7 +54,7 @@ Amazon Simple Storage Service (S3) 커넥터를 사용하여 데이터를 Adobe 
 
 ## Azure Blob 스토리지 {#azure-blob-external-account}
 
-**[!UICONTROL Azure Blob 저장소]** 외부 계정을 사용하여 **[!UICONTROL 파일 전송]** 워크플로우 활동을 사용하여 Adobe Campaign으로 데이터를 가져오거나 내보낼 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](https://experienceleague.adobe.com/ko/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}을 참조하십시오.
+**[!UICONTROL Azure Blob 저장소]** 외부 계정을 사용하여 **[!UICONTROL 파일 전송]** 워크플로우 활동을 사용하여 Adobe Campaign으로 데이터를 가져오거나 내보낼 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}을 참조하십시오.
 
 ![Azure Blob 저장소 외부 계정 구성 필드를 보여주는 스크린샷입니다.](assets/external-azure.png)
 
@@ -71,6 +71,10 @@ Adobe Campaign에서 작동하도록 **[!UICONTROL Azure 외부 계정]**&#x200B
 * **[!UICONTROL 액세스 키]**
 
   **[!UICONTROL 액세스 키]**&#x200B;를 찾을 위치를 확인하려면 이 [페이지](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)를 참조하세요.
+
+  >[!NOTE]
+  >
+  >Azure Blob 저장소는 패턴이 아닌 이름 접두사로 파일을 필터링합니다. 파일 마스크에서 끝에 있는 별표(`*`)가 제거되므로 `TEST_EXPORT_AZURE_*`은(는) `TEST_EXPORT_AZURE_`(으)로 시작하는 모든 파일과 일치합니다. `TEST_EXPORT_AZURE_*.csv`에서와 같이 별표 뒤에 오는 문자는 지원되지 않습니다. [Microsoft 설명서에서 자세히 알아보기](https://learn.microsoft.com/en-us/rest/api/storageservices/list-blobs){target="_blank"}.
 
 ## SFTP
 

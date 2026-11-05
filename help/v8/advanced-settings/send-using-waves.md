@@ -18,9 +18,9 @@ feature_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: bc86048e548df4c551cde273c6100c6b5450fc5b
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '846'
 ht-degree: 14%
 ---
 # 예약된 일괄 처리를 사용하여 보내기 {#send-using-waves}
@@ -61,6 +61,8 @@ ht-degree: 14%
    >마지막 전파가 [유효성](delivery-settings.md#validity) 탭에 정의된 배달 기한을 초과하지 않도록 하십시오. 그렇지 않으면 일부 메시지가 전송되지 않을 수 있습니다. 특정 유형화 제어 규칙인 **[!UICONTROL 예약된 일괄 처리 확인]**&#x200B;은(는) 게재 유효성 제한 전에 마지막 일괄 처리가 계획되도록 합니다. [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=ko)에서 제어 규칙에 대해 자세히 알아보세요.
    >
    >마지막 웨이브를 구성할 때 재시도 시간도 충분히 허용해야 합니다. [자세히 알아보기](delivery-settings.md#retries)
+   >
+   >예약된 예약된 예약된 예약된 예약된 예약된 예약된 배송 날짜입니다. 예약된 예약된 시간 이후에 게재가 시작되면 예약된 시간 간격을 사용하지 않고 함께 전송됩니다.
 
 1. 전송을 모니터링하려면 [게재 로그](../monitor/delivery-logs.md)(으)로 이동하세요. 이미 처리된 웨이브로 전송된 게재(**[!UICONTROL 전송됨]** 상태)와 나머지 웨이브로 전송할 게재(**[!UICONTROL 보류 중]** 상태)를 볼 수 있습니다.
 

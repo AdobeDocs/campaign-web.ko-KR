@@ -23,10 +23,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 1848b3a9b756587f0ec5a4e9cef5731675f4e1ae
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 100%
+source-wordcount: '309'
+ht-degree: 86%
 ---
 # 랜딩 페이지 시작하기 {#get-sarted-lp}
 
@@ -41,6 +41,8 @@ ht-degree: 100%
 >Campaign Web 사용자 인터페이스에서 만드는 랜딩 페이지는 클라이언트 콘솔에서 만드는 웹 양식과 다릅니다. Campaign Web 사용자 인터페이스에서는 클라이언트 콘솔에서 만든 웹 양식을 표시하거나 편집할 수 없습니다.
 >
 >웹 양식에 대한 자세한 내용은 [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=ko){target="_blank"}를 참조하십시오.
+>
+>Campaign 웹 사용자 인터페이스에서 만든 랜딩 페이지는 숨겨진 입력 필드 또는 사용자 지정 JavaScript을 지원하지 않습니다. 방문자에게 표시되지 않는 값을 계산하고 저장하려면 클라이언트 콘솔에서 양식을 웹 애플리케이션으로 만듭니다.
 
 랜딩 페이지의 주요 기능은 다음과 같습니다.
 

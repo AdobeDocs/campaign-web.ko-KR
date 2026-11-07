@@ -89,4 +89,4 @@ Adobe Campaign Web에서 제공하는 표현식 편집기를 통해 모든 데�
 
 표현식 편집기를 사용하여 메시지를 개인화하거나 조건부 콘텐츠를 추가하여 메시지 내용을 다이내믹하게 만드는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425795?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3505242?captions=kor&quality=12)

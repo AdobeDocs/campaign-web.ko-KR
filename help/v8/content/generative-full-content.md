@@ -217,4 +217,4 @@ AI를 사용하여 푸시 알림용 콘텐츠를 생성하려면 먼저 푸시 �
 
 AI를 사용하여 전체 이메일 콘텐츠, 텍스트 및 이미지를 생성하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428984)
+>[!VIDEO](https://video.tv.adobe.com/v/3505098?captions=kor)

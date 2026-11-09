@@ -6,10 +6,10 @@ title: Adobe Campaign Web 설명서
 description: Campaign Web 설명서
 breadcrumb-title: Campaign Web 사용자 인터페이스
 nudge: true
-source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
+source-git-commit: b1159f7f6d255f739c8344037f1ff1ffa6dc50fa
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 99%
+source-wordcount: '1082'
+ht-degree: 98%
 ---
 
 # Adobe Campaign Web 설명서 {#v8}
@@ -24,7 +24,7 @@ ht-degree: 99%
     + [2025년 릴리스](rn/release-notes-25.md)
     + [2024년 릴리스](rn/release-notes-24.md)
   + {hide-from-toc}[설명서 업데이트](rn/documentation-updates.md)
-+ Adobe Campaign 시작 {#start}
++ 시작하기 {#start}
   + [시작](get-started/get-started.md)
   + [Campaign에 연결](get-started/connect-to-campaign.md)
   + {hide-from-toc}[인터페이스 살펴보기](get-started/user-interface.md)
@@ -37,7 +37,7 @@ ht-degree: 99%
   + [Campaign Standard에서 v8로의 전환](rn/acs-migration.md)
   + {hide-from-toc}[AI 기반 상황별 도움말](get-started/using-ai.md)
   + [FAQ](get-started/faq.md)
-+ 메시지 및 게재 {#msg}
++ 메시지 {#msg}
   + [메시지 시작](msg/gs-messages.md)
   + [게재에 액세스하기](msg/gs-deliveries.md)
   + [게재 만들기](msg/create-deliveries.md)
@@ -98,7 +98,7 @@ ht-degree: 99%
     + [게재 알림 시작하기](msg/delivery-alerting.md)
     + [게재 알림 대시보드](msg/delivery-alerting-dashboards.md)
     + [게재 알림 기준](msg/delivery-alerting-criteria.md)
-+ 콘텐츠 관리 {#content}
++ 콘텐츠 및 개인화 {#content}
   + 다이내믹 콘텐츠 만들기 {#dynamic-content}
     + [다이내믹 콘텐츠를 만드는 방법](personalization/gs-personalization.md)
     + [개인화 추가](personalization/personalize.md)
@@ -148,17 +148,6 @@ ht-degree: 99%
       + [브랜드 개인화](content/brands-personalize.md)
       + [생성형 모델 만들기 및 관리](content/generative-models.md)
       + [콘텐츠 평가](content/brands-score.md)
-+ 랜딩 페이지 {#landing-pages}
-  + [랜딩 페이지 시작하기](landing-pages/get-started-lp.md)
-  + [랜딩 페이지 만들기 및 게시하기](landing-pages/create-lp.md)
-  + [랜딩 페이지 콘텐츠 디자인](landing-pages/lp-content.md)
-  + [사용 사례를 통한 학습](landing-pages/lp-use-cases.md)
-+ 오퍼 관리 {#offers}
-  + [오퍼 관리 시작](offers/gs-offer-management.md)
-  + [오퍼 환경 설정 검토](offers/offer-environment.md)
-  + [오퍼 스페이스 만들기 및 관리](offers/offer-space.md)
-  + [오퍼 만들기 및 게시](offers/create-offer.md)
-  + [오퍼 스키마에 편집 가능한 목록 추가](offers/offer-editable-list.md)
 + 프로필 및 대상자 {#audiences}
   + [프로필 및 대상자 시작하기](audience/gs-audiences-recipients.md)
   + [타기팅 차원](audience/targeting-dimensions.md)
@@ -181,7 +170,12 @@ ht-degree: 99%
   + 구독 서비스 작업 {#work-with-services}
     + [구독 서비스 만들기 및 관리](audience/manage-services.md)
     + [구독자 관리](audience/manage-subscribers.md)
-+ 크로스 채널 캠페인 {#campaigns}
++ 랜딩 페이지 및 양식 {#landing-pages}
+  + [랜딩 페이지 시작하기](landing-pages/get-started-lp.md)
+  + [랜딩 페이지 만들기 및 게시하기](landing-pages/create-lp.md)
+  + [랜딩 페이지 콘텐츠 디자인](landing-pages/lp-content.md)
+  + [사용 사례를 통한 학습](landing-pages/lp-use-cases.md)
++ 캠페인 {#campaigns}
   + [업그레이드 시작하기](campaigns/gs-campaigns.md)
   + [캠페인 액세스 및 관리](campaigns/manage-campaigns.md)
   + [첫 캠페인 만들기](campaigns/create-campaigns.md)
@@ -229,13 +223,19 @@ ht-degree: 99%
     + [파일 전송](workflows/activities/transfer-file.md)
     + [데이터 업데이트](workflows/activities/update-data.md)
     + [대기](workflows/activities/wait.md)
-+ 데이터베이스 쿼리 {#query-database}
++ 오퍼 {#offers}
+  + [오퍼 관리 시작](offers/gs-offer-management.md)
+  + [오퍼 환경 설정 검토](offers/offer-environment.md)
+  + [오퍼 스페이스 만들기 및 관리](offers/offer-space.md)
+  + [오퍼 만들기 및 게시](offers/create-offer.md)
+  + [오퍼 스키마에 편집 가능한 목록 추가](offers/offer-editable-list.md)
++ 쿼리 및 데이터 {#query-database}
   + [쿼리 모델러로 작업](query/query-modeler-overview.md)
   + [첫 번째 쿼리 작성](query/build-query.md)
   + [표현식 편집](query/expression-editor.md)
   + {hide-from-toc}[쿼리 샘플](query/query-samples.md)
   + [필터 목록](query/filter.md)
-+ 보고 {#reports}
++ 보고 및 추적 {#reports}
   + [감사 추적](reporting/audit-trail.md)
   + [주요 성과 지표](reporting/kpis.md)
   + 표준 보고서 {#standard-reports}
@@ -309,7 +309,7 @@ ht-degree: 99%
     + [스키마 만들기 및 게시](administration/schemas-create-publish.md)
     + [사용자 정의 양식 작업](administration/schemas-custom-forms.md)
   + {hide-from-toc}[사용자 정의 필드 구성](administration/custom-fields.md)
-  + [&#x200B; [!DNL Campaign] 옵션 구성](administration/options.md)
+  + [ [!DNL Campaign] 옵션 구성](administration/options.md)
   + [시간대 관리](administration/timezone-management.md)
   + 외부 계정 {#external-accounts}
     + [외부 계정 만들기](administration/create-external-account.md)

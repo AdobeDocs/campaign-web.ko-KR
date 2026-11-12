@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 25814ce1c70a139c9727b3bfccccd3efe056b441
+source-git-commit: 071900a6c0b717161ae123097aeae8bf9e97898c
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '649'
 ht-degree: 2%
 ---
 # Campaign Standard과 Campaign v8 간의 차이점 {#acs-v8-differences}
@@ -52,7 +52,7 @@ ht-degree: 2%
 | 기존 푸시 워크플로우 및 게재를 전환하려면 Adobe Campaign 전환 관리자에게 문의하십시오. | [푸시 알림](marketers.md#acs-gs-marketers-push) |
 | Campaign Standard에서 테스트 프로필을 **트랩**(으)로 표시하여 최종 전송을 받을 수 있습니다. Campaign v8에서 게재의 대상 설정에 **트랩 그룹**&#x200B;을(를) 추가합니다. | [트랩 그룹](../../v8/audience/trap-group.md) |
 | Campaign 웹 사용자 인터페이스에서 만든 랜딩 페이지는 숨겨진 입력 필드 또는 사용자 지정 JavaScript을 지원하지 않습니다. | [랜딩 페이지](../../v8/landing-pages/get-started-lp.md) |
-| Campaign Standard에서 DM 활동의 아웃바운드 전환은 생성된 파일도 전달합니다. Campaign v8에서는 대상 모집단만 전달합니다. 파일을 서버로 보내려면 **데이터 추출** 활동을 추가한 다음 **파일 전송** 활동을 추가하십시오. | [DM](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| Campaign Standard에서 DM 활동의 아웃바운드 전환은 생성된 파일도 전달합니다. Campaign v8에서는 대상 모집단만 전달합니다. 파일을 서버로 보내려면 **데이터 추출** 활동을 추가한 다음 **파일 전송** 활동을 추가하십시오. | [DM](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## 대상자, 워크플로우 및 게재 {#data-and-workflows}
 
@@ -77,16 +77,6 @@ Campaign Standard 보안 그룹, 역할 및 조직 단위는 전환되는 동안
 | 실행 인스턴스에서 트랜잭션 API에 액세스하려면 새 제품 프로필이 필요합니다. | [제품 프로필 매핑](user-management-acs.md#product-profile-mapping-to-access-rest-apis) |
 | 개인 정보 보호 요청은 Campaign Standard 환경이 활성 상태를 유지하는 기간 동안 Campaign Standard 및 Campaign v8 모두에 도착할 수 있습니다. | [개인 정보 및 동의](admin-developers.md#privacy-and-consent) |
 
-## 관리, 추적 및 미러 페이지 {#admin-tracking}
-
-이러한 차이는 전환 전에 Campaign Standard에서 보낸 게재 및 Campaign v8로 이전되지 않는 관리 정보에 영향을 줍니다.
-
-| 변경 사항 | 자세히 알아보기 |
-|---|---|
-| 전환 전에 Campaign Standard에서 전송된 게재의 미러 페이지를 사용할 수 없습니다. Campaign v8에서 전송된 게재의 미러 페이지는 평소와 같이 작동합니다. | [미러 페이지](../../v8/email/mirror-page.md) |
-| 전환 전에 Campaign Standard에서 보낸 실시간 트랜잭션 게재의 추적 데이터는 Campaign v8에서 캡처되지 않습니다. 이 메시지의 링크는 계속 리디렉션됩니다. | [트랜잭션 메시지 모니터링](../../v8/transactional-messaging/monitor-transactional.md) |
-| 지리적 단위는 사용할 수 없습니다. 지리적 단위를 기반으로 한 액세스 제어가 손실됩니다. | [액세스 제어](../../v8/get-started/connect-to-campaign.md#access-control) |
-
 ## API 및 통합 {#apis-and-integrations}
 
 이러한 차이는 REST API를 통해 Campaign을 호출하는 통합 및 다른 Adobe 솔루션 및 도구와의 통합에 영향을 줍니다.
@@ -95,5 +85,4 @@ Campaign Standard 보안 그룹, 역할 및 조직 단위는 전환되는 동안
 |---|---|
 | PKEY 값은 마이그레이션 후 변경됩니다. Campaign 외부에 PKEY를 저장하는 경우 API에서 반환되는 href를 대신 따릅니다. | [REST API](admin-developers.md#acs-gs-admin-apis) |
 | 표준 시간대 및 `ccpaOptOut`과(와) 같은 일부 마이그레이션된 프로필 필드는 `profileAndServicesExt/profile` API에서만 반환됩니다. | [REST API](admin-developers.md#acs-gs-admin-apis) |
-| Campaign Standard의 Dreamweaver 및 Adobe Experience Platform Data Connector 통합은 Campaign v8에서 사용할 수 없습니다. | [Campaign 및 기타 Adobe 솔루션 작업](../../v8/integrations/integration.md) |
 | Adobe은 Adobe Analytics 및 Audience Manager 구성을 마이그레이션합니다. 트리거 및 Adobe Target 통합을 다시 설정해야 합니다. | [Adobe Campaign 통합 관리](admin-developers.md#acs-gs-integrations) |

@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: b4c02b038a1cb398f61d30a601b0df61f23f0432
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 100%
+source-wordcount: '569'
+ht-degree: 97%
 ---
 # Campaign Standard에서 Campaign v8로의 전환 {#acs-to-ac}
 
@@ -94,9 +94,9 @@ Campaign v8로 원활하게 전환할 수 있도록 다음과 같은 주요 Camp
 
 * **중앙 집중식 브랜딩**: Adobe Campaign을 통해 기업은 브랜드의 시각적 및 기술적 지침을 정의할 수 있습니다. 사용자는 로고부터 이메일 발신자, URL 도,메인과 같은 기술적인 측면까지 일관된 브랜드를 고객에게 제공할 수 있습니다. [자세히 알아보기](../administration/branding/branding-gs.md).
 
-* **REST API**: Campaign Standard로 마이그레이션된 사용자는 REST API를 사용하여 Adobe Campaign의 통합을 만들고 Adobe Campaign을 다른 기술과 통합하여 생태계를 구축할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ko){target="_blank"}.
+* **REST API**: Campaign Standard로 마이그레이션된 사용자는 REST API를 사용하여 Adobe Campaign의 통합을 만들고 Adobe Campaign을 다른 기술과 통합하여 생태계를 구축할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.
 
-* **랜딩 페이지**: Campaign Standard와의 기능 패리티를 보장하기 위해 Campaign v8 랜딩 페이지에 개선 사항이 적용되었습니다. [릴리스 정보](../rn/release-notes.md#new-24-4) 및 랜딩 페이지 [설명서](../landing-pages/get-started-lp.md)에서 자세한 내용을 살펴보십시오.
+* **랜딩 페이지**: Campaign v8 랜딩 페이지에는 Campaign Standard에 맞게 조정할 수 있는 개선 사항이 포함되어 있습니다. <!-- Some differences remain, as listed in [Differences between Campaign Standard and Campaign v8](../../adoption/get-started/acs-v8-differences.md#channels). --> [릴리스 정보](../rn/release-notes.md#new-24-4) 및 랜딩 페이지 [설명서](../landing-pages/get-started-lp.md)에서 자세한 내용을 살펴보십시오.
 
 * **시각적 조각**: 시각적 조각은 하나 이상의 이메일 게재나 콘텐츠 템플릿에서 참조하는 재사용 가능한 시각적 구성 요소입니다. 조각을 수정하면 해당 조각을 사용하는 모든 콘텐츠가 업데이트됩니다. 이 기능을 통해 여러 사용자 정의 콘텐츠 블록을 사전 빌드할 수 있으며, 마케팅 사용자는 이들 콘텐츠 블록을 사용하여 향상된 디자인 프로세스로 메시지 콘텐츠를 신속하게 조합합니다. [자세히 알아보기](../content/use-visual-fragments.md).
 

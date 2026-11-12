@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: b4c02b038a1cb398f61d30a601b0df61f23f0432
 workflow-type: tm+mt
-source-wordcount: '2851'
+source-wordcount: '2863'
 ht-degree: 16%
 ---
 # 마케터를 위한 시작 튜토리얼 {#acs-gs-marketers}
@@ -70,7 +70,7 @@ ht-degree: 16%
 
 아래 비디오에서 Campaign 웹 사용자 인터페이스에 액세스하고 탐색하는 방법과 인벤토리 목록을 사용자 지정하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453429?captions=kor&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12&learn=on){transcript=true}
 
 자세한 내용은 아래 설명서를 참조하십시오.
 
@@ -91,13 +91,13 @@ Adobe Campaign에서 프로필은 데이터베이스에 저장된 레코드이�
 
 1. 이 비디오에서는 Campaign 웹 사용자 인터페이스를 사용하여 프로필에 액세스, 관리 및 탐색하는 방법을 알아봅니다.
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3448371?captions=kor&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12&learn=on){transcript=true}
 
    [프로필 시작](../../v8/audience/about-recipients.md) 설명서에서 자세히 알아보세요.
 
 1. Campaign v8에서 테스트 프로필을 만들고 관리하는 방법 알아보기
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3442902?captions=kor&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12&learn=on){transcript=true}
 
 ### 대상자 관리 {#acs-gs-marketers-audiences}
 
@@ -105,7 +105,7 @@ Adobe Campaign에서 프로필은 데이터베이스에 저장된 레코드이�
 
 이 비디오에서는 대상을 빌드 및 관리하고, 게재할 대상을 선택하고, 컨트롤 그룹을 정의하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453209?captions=kor&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12&learn=on){transcript=true}
 
 자세한 내용은 [대상자 시작](../../v8/audience/manage-audience.md){target="_blank"}을 참조하세요.
 
@@ -128,27 +128,27 @@ Campaign Standard에서와 같이 게재에 컨트롤 그룹을 추가할 수 �
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/audiences/work-with-services/manage-services">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-services">
 <img alt="저빈도" src="assets/lp-list.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/audiences/work-with-services/manage-services"><strong>구독 서비스 만들기</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-services"><strong>구독 서비스 만들기</strong></a>
 </div>
 <p></td>
 <td>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers">
 <img alt="저빈도" src="assets/workflow-activities.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers"><strong>구독자 관리<strong></strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers"><strong>구독자 관리<strong></strong></a>
 </div>
 <p></td>
 <td>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/msg/send-to-subscribers">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/send-to-subscribers">
 <img alt="유효성 검사" src="assets/workflow-create.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/msg/send-to-subscribers"><strong>서비스 구독자에게 메시지 보내기</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/send-to-subscribers"><strong>서비스 구독자에게 메시지 보내기</strong></a>
 </div>
 <p>
 </td>
@@ -183,7 +183,7 @@ Adobe Campaign을 사용하면 내장된 캠페인 관리 기능을 사용하여
 
 이 비디오에서는 워크플로우의 작동 방식과 타겟팅 워크플로우를 만드는 방법을 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453979?captions=kor&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425873?quality=12&learn=on){transcript=true}
 
 자세한 내용은 [워크플로 설명서](../../v8/workflows/gs-workflows.md)를 참조하세요.
 
@@ -231,15 +231,15 @@ Adobe Campaign 웹 사용자 인터페이스에서는 다양한 기준을 기반
 >
 >* 다음 상태 중 하나의 게재가 취소된 게재로 마이그레이션되었습니다. (취소됨/다시 시도 진행 중).
 >
->* 추적 링크, 미러 페이지 URL 링크, 구독/구독 취소 링크는 Campaign Standard에서와 같이 작동합니다.
+>* Campaign v8에서 보낸 게재의 추적 링크, 미러 페이지 URL 링크 및 구독/구독 취소 링크는 Campaign v8 표준을 따릅니다. 전환 전에 Campaign Standard에서 전송된 게재의 미러 페이지를 사용할 수 없습니다. <!-- See [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#admin-tracking).-->
 >
->Adobe Campaign의 [추적 및 모니터링](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [브랜딩](../../v8/administration/branding/branding-gs.md) 섹션도 참조하세요.
+>Adobe Campaign의 [추적 및 모니터링](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [브랜딩](../../v8/administration/branding/branding-gs.md) 섹션도 참조하세요.
 
 ### 이메일 게재 {#acs-gs-marketers-email}
 
 이 비디오에서 이메일 게재를 처음부터 새로 만들고, 대상자를 정의하고, 콘텐츠를 디자인하고, 미리 보기를 시뮬레이트하고, 증명을 보내는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3454012?captions=kor&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425866?quality=12&learn=on){transcript=true}
 
 [첫 번째 전자 메일 문서 만들기](../../v8/email/create-email.md)에서 첫 번째 대상 전자 메일을 만드는 방법을 알아봅니다
 
@@ -247,17 +247,17 @@ Campaign v8에서 이메일 게재를 만들고, 테스트하고, 전송하는 �
 
 1. **콘텐츠 디자인 및 정의**
 
-   Campaign v8 이메일 디자이너는 Campaign Standard에서 사용할 수 있는 디자이너와 유사합니다. 몇 년 전 Campaign Standard[기존 전자 메일 편집기는 더 이상 사용되지 않습니다](https://experienceleague.adobe.com/ko/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}. 이메일 콘텐츠를 만들고 개인화하려면 이미 Campaign 이메일 Designer으로 전환했어야 합니다.
+   Campaign v8 이메일 디자이너는 Campaign Standard에서 사용할 수 있는 디자이너와 유사합니다. 몇 년 전 Campaign Standard[기존 전자 메일 편집기는 더 이상 사용되지 않습니다](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}. 이메일 콘텐츠를 만들고 개인화하려면 이미 Campaign 이메일 Designer으로 전환했어야 합니다.
 
    이메일 디자이너를 탐색하는 방법을 이해합니다. 다음 비디오에서는 이메일을 처음부터 구조화하고 디자인하는 방법, 이메일을 개인화하고 테스트하는 방법에 대해 알아봅니다.
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3453572?captions=kor&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
 
    이메일 디자이너를 사용하여 직관적인 끌어다 놓기 인터페이스를 통해 매력적인 개별 맞춤형 이메일을 만들 수 있습니다. 자세한 내용은 [전자 메일 Designer 설명서](../../v8/email/get-started-email-designer.md)를 참조하세요
 
    이 비디오에서는 HTML을 업로드하여 이메일을 만드는 방법, 이메일 Designer과 호환되도록 하는 방법 및 템플릿으로 변환하는 방법을 알아봅니다.
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3447039?captions=kor&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3427633?quality=12&learn=on){transcript=true}
 
    콘텐츠 조각은 하나 이상의 메시지에서 참조할 수 있는 재사용 가능한 구성 요소입니다. 전자 메일 게재 만들기를 단순화하기 위해 [콘텐츠 조각](../../v8/content/fragments.md)에 대해 자세히 알아보세요.
 
@@ -267,7 +267,7 @@ Campaign v8에서 이메일 게재를 만들고, 테스트하고, 전송하는 �
 
    이 비디오에서는 인기 있는 데스크톱, 모바일 및 웹 기반 클라이언트에서 이메일 메시지 콘텐츠 및 개인화를 미리 보고, 테스트 게재(증명)를 보내고, 이메일 렌더링을 확인하는 방법을 알아봅니다.
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3450344?captions=kor&quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3425862?quality=12&learn=on){transcript=true}
 
 1. **전자 메일 및 확인 로그 보내기**
 
@@ -286,27 +286,27 @@ Campaign v8에서 SMS 게재를 만들고, 테스트하고, 전송하는 자세�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/msg/sms/create-sms">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/create-sms">
 <img alt="리드" src="assets/create_sms.png">
 </a>
-<div><a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/msg/sms/create-sms"><strong>SMS 게재 만들기</strong>
+<div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/create-sms"><strong>SMS 게재 만들기</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/msg/sms/content-sms">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/content-sms">
 <img alt="저빈도" src="assets/design_sms.png">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/msg/sms/content-sms"><strong>SMS 게재 디자인<strong></strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/content-sms"><strong>SMS 게재 디자인<strong></strong></a>
 </div>
 <p></td>
 <td>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/msg/sms/send-sms">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/send-sms">
 <img alt="유효성 검사" src="assets/send_sms.png">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/msg/sms/send-sms"><strong>SMS 게재 미리 보기 및 보내기</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/send-sms"><strong>SMS 게재 미리 보기 및 보내기</strong></a>
 </div>
 <p>
 </td>
@@ -321,43 +321,43 @@ Campaign v8에서 푸시 알림 게재를 만들고, 테스트하고, 전송하�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/msg/push/create-push">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/create-push">
 <img alt="리드" src="assets/push_create.jpeg">
 </a>
-<div><a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/msg/push/create-push"><strong>푸시 게재 만들기</strong>
+<div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/create-push"><strong>푸시 게재 만들기</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/msg/push/content-push">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/content-push">
 <img alt="저빈도" src="assets/push_design.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/msg/push/content-push"><strong>푸시 게재 디자인<strong></strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/content-push"><strong>푸시 게재 디자인<strong></strong></a>
 </div>
 <p></td>
 <td>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/msg/push/send-push">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/send-push">
 <img alt="유효성 검사" src="assets/push_send.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/msg/push/send-push"><strong>푸시 게재 미리 보기 및 보내기</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/send-push"><strong>푸시 게재 미리 보기 및 보내기</strong></a>
 </div>
 <p>
 </tr></table>
 
 >[!AVAILABILITY]
 >
->* Adobe Campaign v8은 Android 및 iOS 푸시 채널을 모두 지원합니다. 푸시 채널을 사용하여 기존 워크플로우 및 게재를 전환하려면 Adobe Campaign 전환 관리자에게 문의하십시오. [채널 설정](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}에 대해 자세히 알아보세요.
+>* Adobe Campaign v8은 Android 및 iOS 푸시 채널을 모두 지원합니다. 푸시 채널을 사용하여 기존 워크플로우 및 게재를 전환하려면 Adobe Campaign 전환 관리자에게 문의하십시오. [채널 설정](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}에 대해 자세히 알아보세요.
 >
->* 모바일 애플리케이션용 SDK V4는 몇 년 전에 Campaign Standard에서 [더 이상 사용되지 않습니다](https://experienceleague.adobe.com/ko/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}. 이미 Campaign v8에서 사용되는 것과 동일한 Adobe Experience Platform SDK으로 전환했어야 합니다.
+>* 모바일 애플리케이션용 SDK V4는 몇 년 전에 Campaign Standard에서 [더 이상 사용되지 않습니다](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}. 이미 Campaign v8에서 사용되는 것과 동일한 Adobe Experience Platform SDK으로 전환했어야 합니다.
 > 
 
 ### DM {#acs-gs-marketers-direct-mail}
 
 DM(다이렉트 메일)은 엽서, 전단지, 카탈로그와 같은 개인 맞춤화된 레터를 대량으로 고객에게 게재하기 위한 파일을 제작할 수 있는 오프라인 채널입니다. DM 게재를 만들 때 Adobe Campaign은 모든 대상 프로필과 선택한 데이터(우편 주소 및 프로필 속성 등)를 포함하는 추출 파일을 자동으로 생성합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451790/?captions=kor&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433316/?learn=on)
 
 Campaign v8에서 DM 게재를 만들고, 테스트하고, 보내는 자세한 단계는 Campaign Standard과 유사합니다.
 
@@ -365,7 +365,7 @@ Campaign v8에서 DM 게재를 만들고, 테스트하고, 보내는 자세한 �
 1. [추출 파일 정의](../../v8/direct-mail/content-direct-mail.md)
 1. [미리 보기 및 보내기](../../v8/direct-mail/send-direct-mail.md)
 
->[!VIDEO](https://video.tv.adobe.com/v/3453572?captions=kor&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
 
 ### 인앱 채널 {#acs-gs-marketers-in-app}
 
@@ -375,34 +375,34 @@ Campaign v8에서는 인앱 채널을 사용할 수 없습니다. 인앱 알림�
 
 Adobe Campaign v8 웹 사용자 인터페이스에는 랜딩 페이지를 위한 이미지 재작성 사용자 환경이 제공됩니다. Campaign에서는 랜딩 페이지를 만들고, 디자인하고, 공유할 수 있습니다. 랜딩 페이지를 통해 사용자가 자신의 데이터를 업데이트하거나 커뮤니케이션 수신에 옵트인/옵트아웃하거나 뉴스레터와 같은 특정 서비스에 가입할 수 있는 온라인 양식으로 사용자를 보낼 수 있습니다.
 
-Campaign v8로 전환하는 Campaign Standard 사용자는 기존 랜딩 페이지를 Campaign 웹 사용자 인터페이스로 마이그레이션했습니다. 동일한 기능 범위에 액세스할 수 있습니다.
+Campaign Standard 사용자가 Campaign v8로 전환함에 따라 기존 랜딩 페이지가 Campaign 웹 사용자 인터페이스로 마이그레이션되었습니다. <!-- Some differences apply, as listed in [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#channels). -->
 
 다음 섹션에서 랜딩 페이지에 대해 자세히 알아보세요.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/landing-pages/create-lp">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/create-lp">
 <img alt="리드" src="assets/lp-subscription.jpeg">
 </a>
-<div><a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/landing-pages/create-lp"><strong>랜딩 페이지 만들기</strong>
+<div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/create-lp"><strong>랜딩 페이지 만들기</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/landing-pages/lp-content">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-content">
 <img alt="유효성 검사" src="assets/lp-design.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/landing-pages/lp-content"><strong>랜딩 페이지 디자인</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-content"><strong>랜딩 페이지 디자인</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/landing-pages/lp-use-cases">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-use-cases">
 <img alt="랜딩 페이지 사용 사례 및 기본 제공 템플릿" src="assets/lp-reporting.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/landing-pages/lp-use-cases"><strong>랜딩 페이지 사용 사례 및 기본 제공 템플릿</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-use-cases"><strong>랜딩 페이지 사용 사례 및 기본 제공 템플릿</strong></a>
 </div>
 <p>
 </td>
@@ -427,11 +427,11 @@ Adobe Campaign은 세 가지 보고서를 제공합니다.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/reports/campaign-report/campaign-reports">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/campaign-report/campaign-reports">
 <img alt="유효성 검사" src="./assets/campaign_report.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/reports/campaign-report/campaign-reports"><strong>캠페인 보고서</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/campaign-report/campaign-reports"><strong>캠페인 보고서</strong></a>
 </div>
 <p>
 <div>
@@ -440,10 +440,10 @@ Adobe Campaign은 세 가지 보고서를 제공합니다.
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/reports/delivery-report/delivery-reports">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/delivery-report/delivery-reports">
 <img alt="리드" src="assets/email_report.jpeg">
 </a>
-<div><a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/reports/delivery-report/delivery-reports"><strong>게재 보고서</strong>
+<div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/delivery-report/delivery-reports"><strong>게재 보고서</strong>
 </div>
 <p>
 <div>
@@ -452,11 +452,11 @@ Adobe Campaign은 세 가지 보고서를 제공합니다.
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/reports/global-report/global-reports">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/global-report/global-reports">
 <img alt="전반적 보고서" src="assets/push_report.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/ko/docs/campaign-web/v8/reports/global-report/global-reports"><strong>글로벌 보고서</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/global-report/global-reports"><strong>글로벌 보고서</strong></a>
 </div>
 <p>
 <div>

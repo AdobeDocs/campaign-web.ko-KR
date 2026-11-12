@@ -17,7 +17,7 @@ feature_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: f3427b47257173de3b6dcb8c69609bc5d05e4f9b
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 63%
@@ -48,6 +48,12 @@ Adobe Campaign v8의 향상된 최신 기능을 살펴보고 새 Campaign 웹 �
 대부분의 개념은 Adobe Campaign v8과 Adobe Campaign Standard 간에 유사합니다. 몇 가지 차이점이 아래 섹션에 나열되어 있습니다.
 
 [![이미지](../v8/assets/do-not-localize/learn-more-button.svg)](get-started/overview.md#experiences)
+
+<!--
+Most concepts are similar between Adobe Campaign v8 and Adobe Campaign Standard. Learn about the terminology differences and what changes for channels, audiences, access, and APIs.
+
+[![image](../v8/assets/do-not-localize/learn-more-button.svg)](get-started/acs-v8-differences.md)
+-->
 
 >[!TAB 마케터로 시작]
 

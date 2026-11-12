@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 11cf5f2a6e3e77d0747a0b88758ce3fe871e66fd
+source-git-commit: 25814ce1c70a139c9727b3bfccccd3efe056b441
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '777'
 ht-degree: 2%
 ---
 # Campaign Standard과 Campaign v8 간의 차이점 {#acs-v8-differences}
@@ -50,9 +50,9 @@ ht-degree: 2%
 |---|---|
 | Campaign v8에서는 인앱 채널을 사용할 수 없습니다. | [인앱 채널](marketers.md#acs-gs-marketers-in-app) |
 | 기존 푸시 워크플로우 및 게재를 전환하려면 Adobe Campaign 전환 관리자에게 문의하십시오. | [푸시 알림](marketers.md#acs-gs-marketers-push) |
-| Campaign Standard에서 테스트 프로필을 **트랩**(으)로 표시하여 최종 전송을 받을 수 있습니다. Campaign v8에서 전달 기본 대상에 테스트 프로필을 포함하는 옵션을 활성화합니다. | [테스트 게재](../../v8/preview-test/test-deliveries.md) |
+| Campaign Standard에서 테스트 프로필을 **트랩**(으)로 표시하여 최종 전송을 받을 수 있습니다. Campaign v8에서 게재의 대상 설정에 **트랩 그룹**&#x200B;을(를) 추가합니다. | [트랩 그룹](../../v8/audience/trap-group.md) |
 | Campaign 웹 사용자 인터페이스에서 만든 랜딩 페이지는 숨겨진 입력 필드 또는 사용자 지정 JavaScript을 지원하지 않습니다. | [랜딩 페이지](../../v8/landing-pages/get-started-lp.md) |
-| Campaign Standard에서 DM 활동의 아웃바운드 전환은 생성된 파일도 전달합니다. Campaign v8에서는 대상 모집단만 전달합니다. 파일을 서버로 보내려면 **데이터 추출** 활동을 추가한 다음 **파일 전송** 활동을 추가하십시오. | [DM](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| Campaign Standard에서 DM 활동의 아웃바운드 전환은 생성된 파일도 전달합니다. Campaign v8에서는 대상 모집단만 전달합니다. 파일을 서버로 보내려면 **데이터 추출** 활동을 추가한 다음 **파일 전송** 활동을 추가하십시오. | [DM](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## 대상자, 워크플로우 및 게재 {#data-and-workflows}
 
@@ -63,7 +63,6 @@ ht-degree: 2%
 | 대상자는 전환 중에 변형됩니다. 예를 들어 쿼리 활동으로 생성된 대상은 사전 정의된 필터가 되고 파일 유형 대상은 차원이 없는 목록 유형 대상이 됩니다. | [대상자 관리](marketers.md#acs-gs-marketers-audiences) |
 | Campaign Standard에서 실행된 워크플로의 기록 로그는 마이그레이션되지 않습니다. | [워크플로 만들기](marketers.md#acs-gs-marketers-wf) |
 | Campaign Standard에서 반복 이메일의 집계 기간을 선택할 수 있습니다. Campaign v8에서는 이 옵션을 사용할 수 없습니다. | [채널 활동](../../v8/workflows/activities/channels.md) |
-| Campaign Standard에서 **파일 전송** 활동은 파일을 영숫자 순으로 정렬할 수 있습니다. Campaign v8에서는 이 옵션을 사용할 수 없습니다. | [파일 전송](../../v8/workflows/activities/transfer-file.md) |
 | 동적 보고는 이메일 게재, 이메일 게재 캠페인 및 트랜잭션 메시지를 다룹니다. | [보고](marketers.md#acs-gs-marketers-reporting) |
 
 ## 액세스 및 보안 {#access}
@@ -86,10 +85,7 @@ Campaign Standard 보안 그룹, 역할 및 조직 단위는 전환되는 동안
 |---|---|
 | 전환 전에 Campaign Standard에서 전송된 게재의 미러 페이지를 사용할 수 없습니다. Campaign v8에서 전송된 게재의 미러 페이지는 평소와 같이 작동합니다. | [미러 페이지](../../v8/email/mirror-page.md) |
 | 전환 전에 Campaign Standard에서 보낸 실시간 트랜잭션 게재의 추적 데이터는 Campaign v8에서 캡처되지 않습니다. 이 메시지의 링크는 계속 리디렉션됩니다. | [트랜잭션 메시지 모니터링](../../v8/transactional-messaging/monitor-transactional.md) |
-| 초안 게재의 추적된 URL 설정은 유지되지 않습니다. 전환 후 추적, 미러 페이지 및 구독 링크는 Campaign v8 표준을 따르며, 링크는 기본적으로 추적됩니다. | [링크 추가 및 메시지 추적](../../v8/email/message-tracking.md) |
 | 지리적 단위는 사용할 수 없습니다. 지리적 단위를 기반으로 한 액세스 제어가 손실됩니다. | [액세스 제어](../../v8/get-started/connect-to-campaign.md#access-control) |
-| 전환 후에는 엔터티의 **만든 사람** 및 **수정한 사람** 정보를 사용할 수 없습니다. | [감사 추적](admin-developers.md#acs-gs-admin-audit-trail) |
-| 브랜딩 하위 도메인 URL은 Campaign v8 표준에 따라 조정됩니다. 비표준 브랜딩 구성은 마이그레이션되지 않으며 기본 브랜드를 통해 제공됩니다. | [브랜딩](../../v8/administration/branding/branding-gs.md) |
 
 ## API 및 통합 {#apis-and-integrations}
 

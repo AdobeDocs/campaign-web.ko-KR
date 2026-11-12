@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 071900a6c0b717161ae123097aeae8bf9e97898c
 workflow-type: tm+mt
-source-wordcount: '2851'
+source-wordcount: '2849'
 ht-degree: 16%
 ---
 # 마케터를 위한 시작 튜토리얼 {#acs-gs-marketers}
@@ -231,7 +231,7 @@ Adobe Campaign 웹 사용자 인터페이스에서는 다양한 기준을 기반
 >
 >* 다음 상태 중 하나의 게재가 취소된 게재로 마이그레이션되었습니다. (취소됨/다시 시도 진행 중).
 >
->* 추적 링크, 미러 페이지 URL 링크, 구독/구독 취소 링크는 Campaign Standard에서와 같이 작동합니다.
+>* Campaign v8에서 보낸 게재의 추적 링크, 미러 페이지 URL 링크 및 구독/구독 취소 링크는 Campaign v8 표준을 따릅니다.
 >
 >Adobe Campaign의 [추적 및 모니터링](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [브랜딩](../../v8/administration/branding/branding-gs.md) 섹션도 참조하세요.
 
@@ -375,7 +375,7 @@ Campaign v8에서는 인앱 채널을 사용할 수 없습니다. 인앱 알림�
 
 Adobe Campaign v8 웹 사용자 인터페이스에는 랜딩 페이지를 위한 이미지 재작성 사용자 환경이 제공됩니다. Campaign에서는 랜딩 페이지를 만들고, 디자인하고, 공유할 수 있습니다. 랜딩 페이지를 통해 사용자가 자신의 데이터를 업데이트하거나 커뮤니케이션 수신에 옵트인/옵트아웃하거나 뉴스레터와 같은 특정 서비스에 가입할 수 있는 온라인 양식으로 사용자를 보낼 수 있습니다.
 
-Campaign v8로 전환하는 Campaign Standard 사용자는 기존 랜딩 페이지를 Campaign 웹 사용자 인터페이스로 마이그레이션했습니다. 동일한 기능 범위에 액세스할 수 있습니다.
+Campaign Standard 사용자가 Campaign v8로 전환함에 따라 기존 랜딩 페이지가 Campaign 웹 사용자 인터페이스로 마이그레이션되었습니다. <!-- Some differences apply, as listed in [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#channels). -->
 
 다음 섹션에서 랜딩 페이지에 대해 자세히 알아보세요.
 

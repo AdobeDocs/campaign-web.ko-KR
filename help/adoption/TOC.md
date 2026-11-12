@@ -5,16 +5,18 @@ title: Adobe Campaign 채택 안내서
 user-guide-description: Campaign v8로 전환하는 Campaign Standard 사용자라면 시작하는 방법에 대해 알아봅니다.
 description: Campaign Standard 사용자인 경우 Campaign v8을 시작하는 방법에 대해 알아보십시오.
 breadcrumb-title: Campaign 채택 안내서
-source-git-commit: aaf74b9c924c7c0bb3150478e812aec71c579c40
+source-git-commit: 11cf5f2a6e3e77d0747a0b88758ce3fe871e66fd
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 45%
+source-wordcount: '96'
+ht-degree: 41%
 ---
 
 # Adobe Campaign 채택 안내서 {#acs-to-ac}
 
 + [Campaign 채택 안내서](home.md)
 + [Standard에서 v8로](get-started/overview.md)
++ {hide-from-toc}[Standard와 v8 간의 차이점](get-started/acs-v8-differences.md)
++ {hide-from-toc}[전환 후 확인](get-started/post-transition-checks.md)
 + [마케터용 시작하기](get-started/marketers.md)
 + [관리자/개발자용 시작하기](get-started/admin-developers.md)
 + [사용자 액세스 관리](get-started/user-management-acs.md)

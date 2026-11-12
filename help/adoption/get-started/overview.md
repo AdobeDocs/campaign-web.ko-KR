@@ -43,9 +43,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: b4c02b038a1cb398f61d30a601b0df61f23f0432
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1602'
 ht-degree: 28%
 ---
 # Campaign Standard에서 v8로의 전환 {#ac-acs}
@@ -57,6 +57,8 @@ Campaign Standard에서 Campaign v8로 전환하는 사용자는 이 참조 안�
 1. [Adobe Campaign v8의 새로운 기능](#new)을 배웁니다.
 
 1. 이제 [역할에 따른 Adobe Campaign Standard과 Adobe Campaign v8 간의 경험 차이점](#experiences)을 이해합니다.
+
+<!-- 1. After your transition, review the [checks and troubleshooting](post-transition-checks.md). -->
 
 ## 새로운 기능 {#new}
 
@@ -171,7 +173,7 @@ Campaign v8로 원활하게 전환할 수 있도록 주요 Campaign Standard 기
 
 * **REST API** - Campaign Standard 마이그레이션 사용자인 경우 REST API를 사용하여 Adobe Campaign을 통합하고 사용하는 기술 패널과 Adobe Campaign을 인터페이스하여 자체 에코시스템을 구축할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ko){target="_blank"}
 
-* **랜딩 페이지** - Campaign Standard와의 기능 패리티를 보장하기 위해 Campaign v8 랜딩 페이지에 일부 개선 사항이 적용되었습니다. [릴리스 정보](../../v8/rn/release-notes.md#new-24-4) 및 랜딩 페이지 [설명서](../../v8/landing-pages/get-started-lp.md)에서 자세한 내용을 살펴보십시오.
+* **랜딩 페이지** - Campaign v8 랜딩 페이지를 Campaign Standard에 맞게 개선했습니다. <!-- Some differences remain, as listed in [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#channels). --> [릴리스 정보](../../v8/rn/release-notes.md#new-24-4) 및 랜딩 페이지 [설명서](../../v8/landing-pages/get-started-lp.md)에서 자세한 내용을 살펴보십시오.
 
 * **시각적 조각** - 시각적 조각은 하나 이상의 이메일 게재나 콘텐츠 템플릿에서 참조할 수 있는 재사용 가능한 시각적 구성 요소입니다. 조각을 수정하면 이를 사용하는 모든 콘텐츠가 업데이트됩니다. 이 기능을 통해 여러 사용자 정의 콘텐츠 블록을 사전 빌드할 수 있으며, 마케팅 사용자는 이들 콘텐츠 블록을 사용하여 향상된 디자인 프로세스로 메시지 콘텐츠를 신속하게 조합할 수 있습니다. [자세히 알아보기](../../v8//content/use-visual-fragments.md)
 
@@ -195,6 +197,8 @@ Campaign v8로 원활하게 전환할 수 있도록 주요 Campaign Standard 기
 * 게재 분석은 이제 **게재 준비**&#x200B;입니다. 메시지 준비를 실행해야 하는 경우 **준비** 버튼을 클릭하십시오. [자세히 알아보기](../../v8/monitor/prepare-send.md).
 * 이제 **콘텐츠 시뮬레이션** 버튼을 통해 이메일 미리보기 기능을 사용할 수 있습니다. [자세히 알아보기](../../v8/preview-test/preview-test.md)
 * 목록은 이제 **대상자**&#x200B;입니다. [자세히 알아보기](../../v8/audience/gs-audiences-recipients.md).
+
+<!-- For the other differences that affect your transition, see [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md). -->
 
 
 ## 새로운 사용자 경험

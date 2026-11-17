@@ -52,9 +52,9 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 980797ae8e315192d95957fcfd5dbdb68bb6ab32
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2543'
 ht-degree: 99%
 ---
 # Campaign Web 및 Campaign 클라이언트 콘솔 {#capabilities-matrix}
@@ -185,14 +185,14 @@ Adobe Campaign Web 사용자 인터페이스에서 만든 게재를 통해 오�
 
 오퍼 카탈로그를 관리하는 방법은 [Campaign v8(클라이언트 콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=ko){target="_blank"}를 참조하십시오.
 
-## Adobe Experience Cloud 솔루션과 통합 {#exc-capabilities}
+## [!DNL Adobe CX Enterprise] 솔루션과 통합 {#exc-capabilities}
 
 새로운 Campaign 최신 UI는 Adobe Experience Platform 및 Adobe Experience Manager를 비롯한 다른 Adobe 솔루션과 함께 마케팅 캠페인 디자인 및 게재를 간소화하고 일관성을 제공합니다.
 
 다음 통합 기능은 Adobe Campaign 클라이언트 콘솔에서 사용할 수 있으며 Campaign Web 사용자 인터페이스에서는 아직 사용할 수 없습니다. Campaign v8(클라이언트 콘솔) 설명서를 찾아보고 이 통합에 대해 자세히 알아보려면 제공된 링크를 사용하십시오.
 
 * Adobe Analytics 데이터 사용 및 KPI 공유. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=ko){target="_blank"}
-* Adobe Experience Cloud(Adobe Audience Manager)를 통한 대상자 공유. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ko){target="_blank"}
+* [!DNL Adobe CX Enterprise]&#x200B;(Adobe Audience Manager)과(와) 공유하는 대상. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ko){target="_blank"}
 * Adobe Target과 통합. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-at.html?lang=ko){target="_blank"}
 * Adobe Experience Cloud 트리거와 통합. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-triggers.html?lang=ko){target="_blank"}
 

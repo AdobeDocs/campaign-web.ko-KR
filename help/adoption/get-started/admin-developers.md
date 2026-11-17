@@ -77,10 +77,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '3256'
-ht-degree: 11%
+source-wordcount: '3253'
+ht-degree: 12%
 ---
 # 관리자 및 개발자용 시작하기 {#acs-gs-admin}
 
@@ -377,7 +377,7 @@ Campaign v8에서 유형화 규칙은 특정 캠페인 최적화와 함께 제�
 
 ## Adobe Campaign 통합 관리 {#acs-gs-integrations}
 
-Campaign 인스턴스를 Adobe Experience Cloud 솔루션과 연결하여 기능을 결합할 수 있습니다. Adobe Campaign에는 외부 애플리케이션과 통신하고, 데이터베이스 엔진에 연결하고, 데이터를 공유 및 동기화할 수 있는 몇 가지 커넥터가 포함되어 있습니다. [이 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/integration){target="_blank"}에서 솔루션을 결합하는 방법을 알아보세요.
+Campaign 인스턴스를 [!DNL Adobe CX Enterprise] 솔루션과 연결하여 기능을 결합할 수 있습니다. Adobe Campaign에는 외부 애플리케이션과 통신하고, 데이터베이스 엔진에 연결하고, 데이터를 공유 및 동기화할 수 있는 몇 가지 커넥터가 포함되어 있습니다. [이 설명서](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/connect/integration){target="_blank"}에서 솔루션을 결합하는 방법을 알아보세요.
 
 Campaign v8로 마이그레이션하는 Campaign Standard 사용자는 다음과 같습니다.
 

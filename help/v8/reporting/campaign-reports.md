@@ -17,10 +17,10 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 62a8e2ac2a726b568e3c25b4e435d4de2f305b5f
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 8%
+source-wordcount: '477'
+ht-degree: 10%
 ---
 # 캠페인 보고서 시작하기 {#campaign-reports}
 
@@ -64,3 +64,43 @@ ht-degree: 8%
 1. **[!UICONTROL URL 및 클릭 스트림]**&#x200B;에서 **[!UICONTROL 가장 많이 방문한 링크]** 또는 **[!UICONTROL 기간]**&#x200B;을 선택하세요.
 
    **[!UICONTROL 보기 기준]** 옵션을 사용하면 URL, 레이블 또는 범주별로 필터링할 수 있습니다.
+
+## LINE 채널 보고서 {#line-reports}
+
+LINE 채널에 사용할 수 있는 보고서는 아래에 설명되어 있습니다.
+
+### 게재 요약 {#line-delivery-summary}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_line_deliveries_overview"
+>title="게재 개요"
+>abstract="LINE에 대해 게재할 메시지, 게재된 메시지 및 게재 오류를 봅니다."
+
+**[!UICONTROL 게재 개요]** 보고서에는 LINE 게재에 대한 게재 메시지, 게재된 메시지 및 게재 오류가 표시됩니다.
+
+#### 초기 타깃 대상자 통계 {#line-initial-target}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_line_target"
+>title="초기 타깃 대상자 통계"
+>abstract="LINE 게재를 실행하기 전에 초기 대상 모집단과 제외된 프로필을 검토합니다."
+
+**[!UICONTROL 초기 대상 통계]** 테이블에는 LINE 게재를 실행하기 전에 제외된 초기 대상 모집단과 프로필이 표시됩니다.
+
+#### 실행 통계 {#line-exec-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_line_exec_stats"
+>title="실행 통계"
+>abstract="게재된 메시지 및 오류를 포함한 LINE 메시지의 처리 및 게재 결과를 검토합니다."
+
+**[!UICONTROL 실행 통계]** 표에는 배달된 메시지 및 오류를 포함한 LINE 메시지의 처리 및 배달 결과가 표시됩니다.
+
+#### 생성된 클릭스트림 {#line-click-streams}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_line_click_streams"
+>title="생성된 클릭스트림"
+>abstract="LINE 게재 수신자가 생성한 추적된 링크 활동을 봅니다."
+
+**[!UICONTROL 생성된 클릭 스트림]** 표에는 LINE 게재의 수신자가 생성한 추적된 링크 활동이 표시됩니다.

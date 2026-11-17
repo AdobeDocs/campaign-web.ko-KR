@@ -17,9 +17,9 @@ feature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1255'
 ht-degree: 2%
 ---
 # 이미지 생성 {#generative-image}
@@ -32,6 +32,10 @@ ht-degree: 2%
 >AI를 사용하여 Adobe Campaign 웹에서 콘텐츠를 생성하려면 먼저 [사용자 계약](https://www.adobe.com/kr/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}에 동의해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하세요.
 
 Adobe Campaign 웹의 AI를 사용하여 이메일, 랜딩 페이지 및 푸시 알림에서 메시지를 향상시키는 매력적인 시각적 콘텐츠를 제작할 수 있습니다. AI는 이미지를 생성하고 최적화하는 데 도움이 되므로 콘텐츠가 시각적으로 매력적이고 브랜드에 맞게 조정됩니다.
+
+>[!IMPORTANT]
+>
+>AI 생성 이미지에 대한 링크는 일시적이며 수신자에게 이미지를 제공하는 데 사용할 수 없습니다. 게재를 저장하면 생성된 이미지가 Campaign 인스턴스에 저장되고 링크가 바뀝니다. 보내기 전에 게재를 저장합니다.
 
 ## 이메일 및 랜딩 페이지의 경우 {#email-web-channels}
 

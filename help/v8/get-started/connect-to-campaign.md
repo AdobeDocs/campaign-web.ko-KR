@@ -15,42 +15,42 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 100%
+source-wordcount: '926'
+ht-degree: 81%
 ---
 # Adobe Campaign에 연결 {#connect-to-campaign}
 
-Experience Cloud는 Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다. 직관적인 인터페이스에서 클라우드 애플리케이션, 제품 기능, 서비스에 빠르게 액세스할 수 있습니다. 이 페이지에서는 Adobe Experience Cloud에 접속하여 Adobe Campaign Web 인터페이스에 액세스하는 방법을 알아봅니다.
+[!DNL Adobe CX Enterprise]은(는) Adobe의 디지털 마케팅 애플리케이션, 제품 및 서비스 통합 제품군입니다. 직관적인 인터페이스에서 클라우드 애플리케이션, 제품 기능, 서비스에 빠르게 액세스할 수 있습니다. 이 페이지에서 [!DNL CX Enterprise]에 연결하고 Adobe Campaign 웹 인터페이스에 액세스하는 방법을 알아봅니다.
 
-## Adobe Experience Cloud에 로그인 {#sign-in-to-exc}
+## [!DNL Adobe CX Enterprise]에 로그인 {#sign-in-to-exc}
 
-SSO(Single Sign-On)만 사용하여 Campaign에 접속할 수도 있습니다. 보통은 Experience Cloud 관리자가 애플리케이션 및 서비스에 대한 액세스 권한을 부여합니다. Experience Cloud 초대 이메일에 나온 단계를 따르면 됩니다.
+SSO(Single Sign-On)만 사용하여 Campaign에 접속할 수도 있습니다. 일반적으로 [!DNL CX Enterprise] 관리자는 응용 프로그램 및 서비스에 대한 액세스 권한을 부여합니다. [!DNL CX Enterprise]&#x200B;(으)로 전자 메일 초대의 단계를 따릅니다.
 
-Adobe Experience Cloud에 로그인하려면 다음 기본 단계를 수행합니다.
+[!DNL Adobe CX Enterprise]에 로그인하려면 다음 기본 단계를 따르십시오.
 
-1. [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}로 이동합니다.
+1. [[!DNL Adobe CX Enterprise]](https://experience.adobe.com/){target="_blank"}(으)로 이동합니다.
 
 1. Adobe ID 또는 Enterprise ID를 사용하여 로그인합니다. Adobe의 ID 종류에 대해 자세히 알아보려면 [이 문서](https://helpx.adobe.com/kr/enterprise/using/identity.html){target="_blank"}를 참조하십시오.
 
-   Experience Cloud에 로그인하면 모든 솔루션 및 앱에 빠르게 액세스할 수 있습니다.
+   [!DNL CX Enterprise]에 로그인하면 모든 솔루션 및 앱에 빠르게 액세스할 수 있습니다.
 
-   ![Adobe Experience Cloud 홈 페이지를 보여 주는 스크린샷](assets/exc-home.png){zoomable="yes"}
+   ![Adobe CX Enterprise 홈 페이지를 보여주는 스크린샷](assets/exc-home.png){zoomable="yes"}
 
 1. 올바른 조직에 속해 있는지 확인합니다.
 
-   ![Adobe Experience Cloud에서 조직 선택을 보여 주는 스크린샷](assets/exc-orgs.png){zoomable="yes"}{width="50%"}
+   ![Adobe CX Enterprise에서 조직 선택을 보여 주는 스크린샷](assets/exc-orgs.png){zoomable="yes"}{width="50%"}
 
-   Adobe Experience Cloud의 조직에 대한 자세한 내용은 [이 문서](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko){target="_blank"}를 참조하십시오.
+   [이 문서](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko){target="_blank"}에서 [!DNL Adobe CX Enterprise]의 조직에 대해 자세히 알아보세요.
 
 ## Adobe Campaign 액세스 {#access-to-campaign}
 
-Campaign 환경에 액세스하려면 Adobe Experience Cloud 홈 페이지의 **바로 가기** 섹션에서 **캠페인**&#x200B;을 선택합니다.
+Campaign 환경에 액세스하려면 [!DNL Adobe CX Enterprise] 홈 페이지의 **빠른 액세스** 섹션에서 **캠페인**&#x200B;을(를) 선택하십시오.
 
-다른 Adobe Experience Cloud 솔루션에 이미 연결된 경우 화면 오른쪽 상단의 솔루션 스위처에서 Campaign 환경으로 이동합니다.
+다른 [!DNL Adobe CX Enterprise] 솔루션에 이미 연결되어 있는 경우 화면 오른쪽 상단의 솔루션 전환기에서 Campaign 환경으로 이동합니다.
 
-![Adobe Experience Cloud의 솔루션 전환기를 보여 주는 스크린샷](assets/solution-switcher.png){zoomable="yes"}
+![Adobe CX Enterprise에서 솔루션 전환기를 보여 주는 스크린샷](assets/solution-switcher.png){zoomable="yes"}
 
 Campaign 컨트롤 패널을 포함한 여러 환경에 액세스할 수 있는 경우 적절한 인스턴스의 **시작** 버튼을 클릭합니다.
 
@@ -103,17 +103,17 @@ Campaign Web 사용자 인터페이스를 탐색할 때 주어진 권한에 따�
 
 [여기에서 권한을 조회하고 관리](permissions.md)하는 방법을 알아볼 수 있습니다.
 
-## Adobe Experience Cloud 상단 탐색 {#top-bar}
+## [!DNL Adobe CX Enterprise] 위쪽 탐색 {#top-bar}
 
-인터페이스의 상단 표시줄을 통해 핵심 Experience Cloud 기능에 빠르게 액세스할 수 있습니다.
+인터페이스의 상단 표시줄을 사용하면 핵심 [!DNL CX Enterprise] 기능에 빠르게 액세스할 수 있습니다.
 
-![Adobe Experience Cloud 상단 탐색 막대를 보여 주는 스크린샷](assets/do-not-localize/unified-shell.png){zoomable="yes"}
+![Adobe CX Enterprise 상단 탐색 모음을 표시하는 스크린샷](assets/do-not-localize/unified-shell.png){zoomable="yes"}
 
 상단 표시줄을 사용하여 다음과 같은 작업을 수행할 수 있습니다.
 
 * Campaign Web 사용자 인터페이스에 대한 피드백 공유.
 * 조직 간 전환.
-* Adobe Experience Cloud 솔루션과 앱 간 전환.
+* [!DNL Adobe CX Enterprise] 솔루션과 앱 간에 전환합니다.
 * [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=ko){target="_blank"}에서 도움말 검색.
 * 보유 중인 제품 관련 알림을 조회합니다.
 * Adobe 프로필을 편집하고, [선호하는 언어를 업데이트](#language-pref)하거나 [밝은 테마와 어두운 테마를 전환](#dark-theme)하는 등 설정을 관리합니다.

@@ -14,16 +14,16 @@ product_v2:
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '490'
 ht-degree: 3%
 ---
 # [!DNL Adobe Experience Manager Assets as a Cloud Service]&#x200B;(으)로 자산 관리{#aem-assets}
 
 ## [!DNL Adobe Experience Manager Assets as a Cloud Service] 시작 {#get-started-assets-essentials}
 
-[!DNL Adobe Experience Manager Assets as a Cloud Service]은(는) 크리에이티브 워크플로를 간소화하고 디지털 자산을 중앙 집중화하여 원활한 경험 전달을 제공하도록 설계된 통합 협업 플랫폼입니다. 승인된 프로덕션 자산의 구성, 태깅 및 검색을 단순화하여 팀 간의 브랜드 일관성을 보장합니다. 사용자에게 친숙한 인터페이스를 통해 [!DNL Assets as Cloud Service]을(를) 사용하면 Adobe Creative 및 Experience Cloud 애플리케이션 내에서 자산에 즉시 액세스하고 공유할 수 있습니다.
+[!DNL Adobe Experience Manager Assets as a Cloud Service]은(는) 크리에이티브 워크플로를 간소화하고 디지털 자산을 중앙 집중화하여 원활한 경험 전달을 제공하도록 설계된 통합 협업 플랫폼입니다. 승인된 프로덕션 자산의 구성, 태깅 및 검색을 단순화하여 팀 간의 브랜드 일관성을 보장합니다. 사용자 친화적인 인터페이스를 통해 [!DNL Assets as Cloud Service]을(를) 사용하면 [!DNL Adobe Creative Cloud for enterprise] 및 [!DNL Adobe CX Enterprise] 응용 프로그램 내에서 자산에 즉시 액세스하고 공유할 수 있습니다.
 
 자세한 내용은 [Adobe Experience Manager Assets as a Cloud Service 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=ko){target="_blank"}를 참조하세요.
 

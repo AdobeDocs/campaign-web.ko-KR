@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 100%
+source-wordcount: '1317'
+ht-degree: 96%
 ---
 # 새로운 기능 {#new}
 
@@ -48,14 +48,14 @@ ht-degree: 100%
 
 **현대적이고 친숙하며 통합된 경험**
 
-Campaign의 새로운 Web 사용자 인터페이스는 모든 Adobe Experience Cloud 솔루션 및 앱과 연결된 새로운 사용자 경험을 제공합니다. 제공되는 기능은 다음과 같습니다.
+Campaign의 새로운 웹 사용자 인터페이스는 모든 [!DNL Adobe CX Enterprise] 솔루션 및 앱과 연결된 새로운 사용자 환경을 제공합니다. 제공되는 기능은 다음과 같습니다.
 
 * 단일 및 공유 사용자 세션이 있는 새로운 Campaign 인터페이스 및 기타 Adobe 솔루션에 대한 액세스 권한
 * 왼쪽 레일에서 모든 메뉴와 폴더를 사용할 수 있는 새로운 탐색 환경
 * 상단 막대의 솔루션 및 조직 전환기
 * 커뮤니티, 도움말 센터 및 지원에 직접 액세스할 수 있는 통합 쉘 통합
 
-[이 페이지](../get-started/connect-to-campaign.md)에서 Adobe Experience Cloud에 로그인하고 Campaign에 연결하는 방법을 알아보십시오.
+[이 페이지](../get-started/connect-to-campaign.md)에서 [!DNL Adobe CX Enterprise]에 로그인하고 Campaign에 연결하는 방법을 알아봅니다.
 
 
 **강력한 새로운 기능 및 원활한 프로세스**
@@ -178,7 +178,7 @@ Campaign v8로 전환하는 Campaign Standard 사용자는 [이 페이지를 참
 * 관리 및 고급 구성 기능은 Campaign Web 사용자 인터페이스에서 사용할 수 없습니다.
 * 보고 지표(예: 열람 및 추적 데이터)는 매시간 업데이트됩니다.
 * 게재 대시보드 KPI는 5분마다 업데이트됩니다. 단, 게재 준비는 실시간입니다.
-* 상단 막대에서 사용할 수 있는 Adobe Experience Cloud 알림 및 통합 도움말은 아직 통합되지 않았습니다.
+* 상단 표시줄에서 사용할 수 있는 [!DNL Adobe CX Enterprise]개의 알림 및 통합 도움말이 아직 통합되지 않았습니다.
 
 Campaign 클라이언트 콘솔에서 생성되거나 수정된 워크플로를 사용하여 Campaign Web 사용자 인터페이스에서 작업할 때 특정 보호 기능 및 제한 사항이 적용됩니다. [이 섹션에](../get-started/guardrails.md) 나열되어 있습니다.
 

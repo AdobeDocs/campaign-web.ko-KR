@@ -14,10 +14,10 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 23%
+source-wordcount: '930'
+ht-degree: 22%
 ---
 # 콘텐츠 생성 작업 {#generative-gs}
 
@@ -124,6 +124,7 @@ Adobe Campaign 웹에서 컨텐츠 생성에는 다음 제한 사항이 적용�
 * 이메일, 푸시 및 SMS 채널에만 사용할 수 있습니다.
 * GenAI 콘텐츠가 항상 정확하지는 않을 수 있습니다. 엔지니어가 모델을 개선할 수 있도록 피드백을 공유하십시오.
 * 여러 브랜드 자산을 업로드할 수 있지만 특정 세대에 대해 하나만 활용할 수 있습니다.
+* AI 생성 이미지에 대한 링크는 일시적이며 수신자에게 이미지를 제공하는 데 사용할 수 없습니다. 게재를 저장하면 생성된 이미지가 Campaign 인스턴스에 저장되고 링크가 바뀝니다. 보내기 전에 게재를 저장합니다.
 
 ## 콘텐츠 기능 생성 {#generative-features}
 

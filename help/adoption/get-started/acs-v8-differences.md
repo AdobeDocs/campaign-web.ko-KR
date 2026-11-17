@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 982fb1a5060db5b4eac6c6f68487116d9a72e109
+source-git-commit: 5a6b111d1aaa2a34ce165eaf6d1b1a997fd8bc85
 workflow-type: tm+mt
-source-wordcount: '1926'
+source-wordcount: '1916'
 ht-degree: 3%
 ---
 # Campaign Standard과 Campaign v8 간의 차이점 {#acs-v8-differences}
@@ -75,7 +75,7 @@ ht-degree: 3%
 | 기존 푸시 워크플로우 및 게재를 전환하려면 Adobe Campaign 전환 관리자에게 문의하십시오. | [푸시 알림](marketers.md#acs-gs-marketers-push) |
 | Campaign Standard에서 테스트 프로필을 **트랩**(으)로 표시하여 최종 전송을 받을 수 있습니다. Campaign v8에서 게재의 대상 설정에 **트랩 그룹**&#x200B;을(를) 추가합니다. | [트랩 그룹](../../v8/audience/trap-group.md) |
 | Campaign 웹 사용자 인터페이스에서 만든 랜딩 페이지는 숨겨진 입력 필드 또는 사용자 지정 JavaScript을 지원하지 않습니다. | [랜딩 페이지](../../v8/landing-pages/get-started-lp.md) |
-| Campaign Standard에서 DM 활동의 아웃바운드 전환은 생성된 파일도 전달합니다. Campaign v8에서는 대상 모집단만 전달합니다. 파일을 서버로 보내려면 **데이터 추출** 활동을 추가한 다음 **파일 전송** 활동을 추가하십시오. | [DM](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| Campaign Standard에서 DM 활동의 아웃바운드 전환은 생성된 파일도 전달합니다. Campaign v8에서는 대상 모집단만 전달합니다. 파일을 서버로 보내려면 **데이터 추출** 활동을 추가한 다음 **파일 전송** 활동을 추가하십시오. | [DM](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## 대상자, 워크플로우 및 게재 {#data-and-workflows}
 
@@ -144,8 +144,6 @@ PKey 값 관리는 Campaign Standard과 Campaign v8에서 다릅니다. Campaign
 * **트랜잭션 메시지**
 
 >[!AVAILABILITY]
->
->지금은 **트랜잭션 메시지** REST API를 사용할 수 없습니다.
 >
 >아래에 나열된 REST API는 더 이상 사용되지 않으며 사용할 수 없습니다.
 >* 마케팅 기록

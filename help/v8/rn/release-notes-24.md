@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '2580'
-ht-degree: 100%
+source-wordcount: '2577'
+ht-degree: 99%
 ---
 # 2024년 릴리스 정보 {#2024-release}
 
@@ -149,7 +149,7 @@ ht-degree: 100%
 * **랜딩 페이지의 Captcha** - 이제 Captcha를 추가하여 봇으로 인한 스팸과 남용으로부터 랜딩 페이지를 보호할 수 있습니다. 이는 고객과의 상호 작용이 필요하지 않고 사이트와의 상호 작용을 기반으로 하기 때문에 고객을 방해하지 않습니다. [자세히 알아보기](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ko){target="_blank"}.
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.
 -->
 
 
@@ -241,7 +241,7 @@ ht-degree: 100%
 
 * **폴더 관리** - 이제 상위 폴더와 다른 유형의 하위 폴더를 만들 수 있습니다. [자세히 보기](../get-started/permissions.md#folders)
 
-* **글로벌화** - 통합된 사용자 경험을 제공하기 위한 지속적인 노력의 일환으로 Adobe Experience Cloud 제품 및 앱에서 사용되는 용어가 통합되었습니다. 이는 오브젝트의 이름과 관련될 때 “레이블”로 변경되는 독일어 용어 “Titel”에 영향을 미칩니다. 변경 사항은 UI와 설명서에 점진적으로 적용됩니다.
+* **세계화** - 통합 사용자 환경을 제공하기 위한 지속적인 노력의 일환으로 [!DNL Adobe CX Enterprise] 제품 및 앱에서 사용되는 용어를 조화롭게 사용합니다. 이는 오브젝트의 이름과 관련될 때 “레이블”로 변경되는 독일어 용어 “Titel”에 영향을 미칩니다. 변경 사항은 UI와 설명서에 점진적으로 적용됩니다.
 
 
 ## 4월 릴리스 정보 {#april-24-4-release}
@@ -280,7 +280,7 @@ ht-degree: 100%
 
 * **브랜딩** - Campaign Standard로 마이그레이션한 사용자로서 기술 관리자는 이제 하나 이상의 브랜드를 정의하여 브랜드의 아이덴티티에 영향을 미치는 매개 변수를 중앙 집중화할 수 있습니다. 여기에는 브랜드 로고, 랜딩 페이지의 액세스 URL의 도메인 또는 메시지 추적 설정이 포함됩니다. 이러한 브랜드를 만들어 메시지 또는 랜딩 페이지에 연결할 수 있습니다. 이 구성은 템플릿에서 관리됩니다. [자세히 보기](../administration/branding/branding-gs.md)
 
-* **Rest API** - Campaign Standard를 마이그레이션한 사용자는 Rest API를 사용하여 Adobe Campaign을 위한 통합을 만들고 사용하는 기술 패널과 Adobe Campaign을 연결하여 고유한 에코시스템을 구축할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ko)
+* **Rest API** - Campaign Standard를 마이그레이션한 사용자는 Rest API를 사용하여 Adobe Campaign을 위한 통합을 만들고 사용하는 기술 패널과 Adobe Campaign을 연결하여 고유한 에코시스템을 구축할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html)
 
 * **다이내믹 보고** - Campaign Standard를 마이그레이션한 사용자는 완전히 맞춤화가 가능한 실시간 보고서를 제공하는 다이내믹 보고에 액세스하여 마케팅 활동의 영향을 측정할 수 있습니다. 이 기능은 프로필 데이터에 대한 액세스를 추가하여 열기 및 클릭과 같은 기능적 이메일 캠페인 데이터 외에도 성별, 도시, 연령과 같은 프로필 차원별로 인구통계학적 분석을 지원합니다. [자세히 보기](../reporting/dynamic-reporting/get-started-reporting.md)
 
@@ -309,7 +309,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->이 버전은 [Campaign (콘솔) v8.6 릴리스](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ko)를 시작하는 모든 사용자가 사용할 수 있습니다. [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=ko){target="_blank"}에서 Adobe Campaign 클라이언트 콘솔 릴리스 및 업그레이드에 대해 자세히 알아보십시오.
+>이 버전은 [Campaign (콘솔) v8.6 릴리스](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html)를 시작하는 모든 사용자가 사용할 수 있습니다. [Campaign v8(콘솔) 설명서](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}에서 Adobe Campaign 클라이언트 콘솔 릴리스 및 업그레이드에 대해 자세히 알아보십시오.
 
 **릴리스 일자**: 2024년 3월 19~20일
 

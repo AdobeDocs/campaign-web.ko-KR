@@ -11,10 +11,10 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 29%
+source-wordcount: '330'
+ht-degree: 26%
 ---
 # 이메일 콘텐츠 가져오기 {#existing-content}
 
@@ -31,6 +31,10 @@ ht-degree: 29%
 >[!NOTE]
 >
 >.zip 파일 구조에는 제한 사항이 없습니다. 그러나 참조는 상대적이어야 하며 .zip 폴더의 트리 구조 내에 맞춰져야 합니다.
+
+>[!IMPORTANT]
+>
+>전자 메일 콘텐츠에 HTML `<base>` 태그를 사용하지 마십시오. 보안상의 이유로 이 태그는 지원되지 않으며, 콘텐츠를 콘텐츠 편집기에서 로드할 수 없습니다. 대신 링크 및 외부 리소스에 대한 절대 URL을 사용하십시오.
 
 ➡️ [비디오에서 이 기능 살펴보기](#video)
 
@@ -62,4 +66,4 @@ HTML 콘텐츠가 포함된 파일을 가져오려면 아래 단계를 따르십
 
 HTML을 업로드하여 이메일을 만들고, 이메일 Designer과 호환되도록 하며, 템플릿으로 변환하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447039/?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

@@ -10,7 +10,7 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 11%
@@ -63,7 +63,7 @@ ht-degree: 11%
    * 기존 이벤트 유형의 경우 목록에서 선택합니다.
    * 새 레이블과 이름을 추가합니다.
 
-1. 그런 다음 **이벤트 유형** 드롭다운에서 **프로필 RT**&#x200B;을 선택합니다.
+1. 그런 다음 **이벤트 유형** 드롭다운에서 **개인화된 이벤트**&#x200B;을(를) 선택합니다.
 
    ![](assets/profile-enrich1.png){zoomable="yes"}
 

@@ -14,10 +14,10 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 16%
+source-wordcount: '170'
+ht-degree: 12%
 ---
 # 자체 이메일 콘텐츠 코딩 {#code-content}
 
@@ -26,6 +26,10 @@ ht-degree: 16%
 >[!CAUTION]
 >
 >이 방법을 사용하려면 HTML에 대한 지식이 필요합니다.
+
+>[!IMPORTANT]
+>
+>전자 메일 콘텐츠에 HTML `<base>` 태그를 사용하지 마십시오. 보안상의 이유로 이 태그는 지원되지 않으며, 콘텐츠를 콘텐츠 편집기에서 로드할 수 없습니다. 대신 링크 및 외부 리소스에 대한 절대 URL을 사용하십시오.
 
 1. [전자 메일 Designer](get-started-email-designer.md) 홈 페이지에서 **[!UICONTROL 직접 코드 작성]**&#x200B;을 선택합니다.
 

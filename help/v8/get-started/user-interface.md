@@ -39,16 +39,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '1564'
-ht-degree: 100%
+source-wordcount: '1559'
+ht-degree: 98%
 ---
 # 인터페이스 살펴보기 {#user-interface}
 
-새로운 Adobe Campaign Web 인터페이스는 현대적이고 직관적인 사용자 경험을 제공하여 마케팅 캠페인 디자인 및 게재를 간소화합니다. 이 인터페이스는 Adobe Experience Cloud 앱 및 솔루션과 통합됩니다.
+새로운 Adobe Campaign Web 인터페이스는 현대적이고 직관적인 사용자 경험을 제공하여 마케팅 캠페인 디자인 및 게재를 간소화합니다. 이 인터페이스는 [!DNL Adobe CX Enterprise] 앱 및 솔루션과 통합됩니다.
 
-Adobe Campaign에 연결하는 방법과 Experience Cloud 탐색의 기본 사항은 [이 문서](connect-to-campaign.md)에서 알아볼 수 있습니다.
+Adobe Campaign에 연결하고 [!DNL CX Enterprise] 탐색 기본 사항을 탐색하는 방법을 알아봅니다. [ 이 문서에서](connect-to-campaign.md).
 
 >[!NOTE]
 >

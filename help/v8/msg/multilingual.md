@@ -10,9 +10,9 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1509'
 ht-degree: 6%
 ---
 # 다국어 게재 구성 {#multilingual-delivery}
@@ -32,6 +32,10 @@ Campaign 웹 UI에서는 게재를 다국어로 설정하여 프로필의 기본
 다국어 게재에서 언어 관리는 변형을 기반으로 합니다. 각 변형은 하나의 언어를 나타냅니다. 게재를 만드는 동안 메시지에 필요한 언어 수와 일치하도록 여러 언어 변형을 추가할 수 있습니다. 이러한 변형을 추가한 후 언제든지 기본 언어를 변경할 수도 있습니다.
 
 다국어 기능은 현재 이메일, 푸시 알림, 트랜잭션 메시지 및 SMS에 사용할 수 있습니다.
+
+>[!NOTE]
+>
+>단일 변형 다국어 게재는 지원되지 않습니다. 메시지에 언어가 하나만 필요한 경우 표준(단일) 게재를 대신 만듭니다.
 
 다국어 게재를 설정하려면 다음 주요 단계를 따르십시오.
 

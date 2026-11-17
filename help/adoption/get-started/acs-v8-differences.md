@@ -29,18 +29,41 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 64a07e65b7e6d933288b10117aae99f48d13a8d8
+source-git-commit: 982fb1a5060db5b4eac6c6f68487116d9a72e109
 workflow-type: tm+mt
-source-wordcount: '1721'
-ht-degree: 2%
+source-wordcount: '1926'
+ht-degree: 3%
 ---
 # Campaign Standard과 Campaign v8 간의 차이점 {#acs-v8-differences}
 
 대부분의 개념은 Campaign Standard 및 Campaign v8에서도 동일합니다. 이 페이지에서는 전환 후에 영향을 주는 차이점과 각 차이점을 설명하는 페이지에 대한 링크를 수집합니다. [마케터](marketers.md) 및 [관리자 및 개발자](admin-developers.md)용 안내서를 보완합니다.
 
-* 용어 변경에 대해서는 [Campaign Standard과 Campaign v8 간의 주요 차이점](overview.md#experiences)을 참조하십시오.
+* 용어 변경에 대해서는 [용어](#terminology)를 참조하십시오.
 * 실행 확인 및 전환 후 보고된 문제에 대해서는 [전환 후 확인 및 문제 해결](post-transition-checks.md)을 참조하십시오.
 * 클라이언트 콘솔에서만 사용할 수 있는 기능은 [Campaign 웹 및 Campaign 클라이언트 콘솔](../../v8/get-started/capability-matrix.md)을 참조하십시오.
+
+## 용어 {#terminology}
+
+대부분의 개념은 Adobe Campaign v8과 Adobe Campaign Standard 간에 유사합니다. 그러나 용어부터 시작해서 몇 가지 차이점이 있다.
+
+| Campaign Standard에서 | Campaign v8 |
+|---|---|
+| 사용자 정의 리소스 | **스키마** |
+| 메시지 | **게재** |
+| 제품 사용자 | **연산자** |
+| 역할 | **명명된 권한**(으)로 구성 |
+| 보안 그룹 | **연산자 그룹** |
+| 조직 단위 | **폴더 권한**&#x200B;을 통해 관리됨 |
+
+또한 기존 Campaign 사용자는 일부 개념의 이름이 최신 용어 표준에 맞게 변경되었습니다. 이러한 변경 사항은 Campaign 웹 사용자 인터페이스에만 적용되며 클라이언트 콘솔에는 반영되지 않습니다.
+
+| Campaign Standard에서 | Campaign 웹 | 자세히 알아보기 |
+|---|---|---|
+| 수신자 | **프로필** | [프로필](../../v8/audience/gs-audiences-recipients.md) |
+| 시드 주소 | **테스트 프로필** | [테스트 게재](../../v8/preview-test/test-deliveries.md) |
+| 게재 분석 | **게재 준비**. 메시지 준비를 시작하려면 **준비** 단추를 클릭하세요. | [준비 및 보내기](../../v8/monitor/prepare-send.md) |
+| 이메일 미리보기 | **콘텐츠 시뮬레이션** 단추를 통해 사용할 수 있습니다. | [미리 보기 및 테스트](../../v8/preview-test/preview-test.md) |
+| 목록 | **대상** | [대상](../../v8/audience/gs-audiences-recipients.md) |
 
 ## 채널 및 콘텐츠 {#channels}
 
@@ -52,7 +75,7 @@ ht-degree: 2%
 | 기존 푸시 워크플로우 및 게재를 전환하려면 Adobe Campaign 전환 관리자에게 문의하십시오. | [푸시 알림](marketers.md#acs-gs-marketers-push) |
 | Campaign Standard에서 테스트 프로필을 **트랩**(으)로 표시하여 최종 전송을 받을 수 있습니다. Campaign v8에서 게재의 대상 설정에 **트랩 그룹**&#x200B;을(를) 추가합니다. | [트랩 그룹](../../v8/audience/trap-group.md) |
 | Campaign 웹 사용자 인터페이스에서 만든 랜딩 페이지는 숨겨진 입력 필드 또는 사용자 지정 JavaScript을 지원하지 않습니다. | [랜딩 페이지](../../v8/landing-pages/get-started-lp.md) |
-| Campaign Standard에서 DM 활동의 아웃바운드 전환은 생성된 파일도 전달합니다. Campaign v8에서는 대상 모집단만 전달합니다. 파일을 서버로 보내려면 **데이터 추출** 활동을 추가한 다음 **파일 전송** 활동을 추가하십시오. | [DM](https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| Campaign Standard에서 DM 활동의 아웃바운드 전환은 생성된 파일도 전달합니다. Campaign v8에서는 대상 모집단만 전달합니다. 파일을 서버로 보내려면 **데이터 추출** 활동을 추가한 다음 **파일 전송** 활동을 추가하십시오. | [DM](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## 대상자, 워크플로우 및 게재 {#data-and-workflows}
 
@@ -60,7 +83,10 @@ ht-degree: 2%
 
 | 변경 사항 | 자세히 알아보기 |
 |---|---|
-| 대상자는 전환 중에 변형됩니다. 예를 들어 쿼리 활동으로 생성된 대상은 사전 정의된 필터가 되고 파일 유형 대상은 차원이 없는 목록 유형 대상이 됩니다. | [대상자 관리](marketers.md#acs-gs-marketers-audiences) |
+| Campaign Standard의 쿼리 활동으로 만든 대상은 Campaign v8에서 [사전 정의된 필터](../../v8/query/build-query.md)가 됩니다. Campaign v8은 쿼리 활동도 지원합니다. | [대상자 관리](marketers.md#acs-gs-marketers-audiences) |
+| 대상자 읽기 활동은 사전 정의된 필터가 있는 쿼리 활동이 됩니다. | [대상자 관리](marketers.md#acs-gs-marketers-audiences) |
+| 사전 정의된 필터는 대상이 마이그레이션된 후 최신 값만 사용합니다. | [대상자 관리](marketers.md#acs-gs-marketers-audiences) |
+| 파일 유형 대상은 차원이 없는 목록 유형 대상이 됩니다. | [대상자 관리](marketers.md#acs-gs-marketers-audiences) |
 | Campaign Standard에서 실행된 워크플로의 기록 로그는 마이그레이션되지 않습니다. | [워크플로 만들기](marketers.md#acs-gs-marketers-wf) |
 | Campaign Standard에서 반복 이메일의 집계 기간을 선택할 수 있습니다. Campaign v8에서는 이 옵션을 사용할 수 없습니다. | [채널 활동](../../v8/workflows/activities/channels.md) |
 | 동적 보고는 이메일 게재, 이메일 게재 캠페인 및 트랜잭션 메시지를 다룹니다. | [보고](marketers.md#acs-gs-marketers-reporting) |
@@ -84,7 +110,7 @@ Campaign Standard 보안 그룹, 역할 및 조직 단위는 전환되는 동안
 | 변경 사항 | 자세히 알아보기 |
 |---|---|
 | PKEY 값은 마이그레이션 후 변경됩니다. Campaign 외부에 PKEY를 저장하는 경우 API에서 반환되는 href를 대신 따릅니다. | [키 사용](#key-usage) |
-| 표준 시간대 및 `ccpaOptOut`과(와) 같은 일부 마이그레이션된 프로필 필드는 `profileAndServicesExt/profile` API에서만 반환됩니다. | [프로필 시간대](#profile-timezone) |
+| 표준 시간대 및 `ccpaOptOut`과(와) 같은 일부 마이그레이션된 프로필 필드는 `profileAndServicesExt/profile` API에서만 반환됩니다. | [프로필 시간대 및 ccpaOptOut](#profile-timezone) |
 | Adobe은 Adobe Analytics 및 Audience Manager 구성을 마이그레이션합니다. 트리거 및 Adobe Target 통합을 다시 설정해야 합니다. | [Adobe Campaign 통합 관리](admin-developers.md#acs-gs-integrations) |
 
 ## REST API 권장 사항 및 제한 사항 {#rest-api-limitations}
@@ -190,11 +216,13 @@ Campaign v8에서 동일한 요청 본문 구조를 사용하고 &quot;차량&qu
 | - | 500 - RST-360011 오류가 발생했습니다. 관리자에게 문의하십시오. | 500 - 오류가 발생했습니다. 관리자에게 문의하십시오. |
 | 잘못된 성별(또는 기타) 열거형 값이 있는 프로필/서비스 삽입 | 500 - RST-360011 오류가 발생했습니다. 관리자에게 문의하십시오. &#39;invalid&#39; 값은 &#39;@gender&#39; 필드의 &#39;nms:recipient:gender&#39; 열거에 사용할 수 없습니다. | 500 - 오류가 발생했습니다. 관리자에게 문의하십시오. |
 
-### 프로필 시간대 {#profile-timezone}
+### 프로필 시간대 및 ccpaOptOut {#profile-timezone}
 
 Campaign Standard을 사용하면 시간대가 **profileAndServices/profile** REST API 호출의 JSON 응답의 일부로 표시됩니다.
 
 Campaign v8에서 시간대는 **profileAndServicesExt/profile** REST API 호출의 일부로만 표시됩니다. 확장 스키마에 추가되고 있으므로 **profileAndServices/profile** REST API 호출의 일부가 아닙니다.
+
+`ccpaOptOut` 필드에도 동일하게 적용됩니다. 이 필드는 데이터 마이그레이션의 일부로 확장된 스키마에 추가되므로 **profileAndServices/profile** 호출이 아닌 **profileAndServicesExt/profile** REST API 호출의 일부로만 표시됩니다.
 
 ### 워크플로우 외부 신호 {#workflow-signals}
 

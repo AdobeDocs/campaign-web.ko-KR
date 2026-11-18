@@ -10,9 +10,9 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
+source-git-commit: 001cd7b1e4d95122acbec01234630963ce58bfeb
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1517'
 ht-degree: 6%
 ---
 # 다국어 게재 구성 {#multilingual-delivery}
@@ -27,7 +27,7 @@ ht-degree: 6%
 >title="언어 변형 가져오기"
 >abstract="이 대화 상자를 사용하여 CSV 파일을 가져와 언어 변형을 추가할 수 있습니다. 파일은 선택한 언어에 대해 사용 가능한 모든 필드를 자동으로 채웁니다. 확인하기 전에 파일을 끌어다 놓거나 컴퓨터에서 파일을 선택할 수 있습니다."
 
-Campaign 웹 UI에서는 게재를 다국어로 설정하여 프로필의 기본 언어를 기반으로 메시지를 보낼 수 있습니다. 기본 설정이 정의되지 않으면 메시지가 기본 언어로 전송됩니다.
+Campaign 웹 UI에서는 게재를 다국어로 설정하여 프로필의 기본 언어를 기반으로 메시지를 보낼 수 있습니다. 환경 설정이 정의되지 않았거나 프로필의 언어와 일치하는 변형이 없으면 기본 언어로 메시지가 전송됩니다.
 
 다국어 게재에서 언어 관리는 변형을 기반으로 합니다. 각 변형은 하나의 언어를 나타냅니다. 게재를 만드는 동안 메시지에 필요한 언어 수와 일치하도록 여러 언어 변형을 추가할 수 있습니다. 이러한 변형을 추가한 후 언제든지 기본 언어를 변경할 수도 있습니다.
 

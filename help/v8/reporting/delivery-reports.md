@@ -16,10 +16,10 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 01252df5ef63ee2453f94f658da4ddcd42779259
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 25%
+source-wordcount: '380'
+ht-degree: 19%
 ---
 # 게재 보고서 시작하기 {#reports}
 
@@ -68,3 +68,28 @@ Adobe Campaign은 각 게재에 대해 액세스할 수 있는 여러 유형의 
    **[!UICONTROL 보기 기준]** 옵션을 사용하면 URL, 레이블 또는 범주를 필터링할 수 있습니다.
 
    ![URL, 레이블 또는 범주를 필터링하기 위한 옵션별 보기](assets/manage_delivery_report_5.png){zoomable="yes"}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_deliveries_overview"
+>title="LINE 게재 개요"
+>abstract="LINE 게재에 대한 게재 메시지, 게재된 메시지 및 게재 오류를 봅니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_targeted_population"
+>title="LINE 타겟팅된 모집단"
+>abstract="**대상 모집단** 그래프 및 표는 LINE 대상자를 기준으로 데이터를 표시합니다. 전달할 메시지 및 제외."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_overall_stats"
+>title="LINE 전체 통계"
+>abstract="**전체 통계** 보고서는 보낸 LINE 메시지에 대한 데이터를 제공합니다(성공 및 오류)."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_exclusions"
+>title="LINE 제외"
+>abstract="**제외** 그래프 및 표에는 제외된 프로필에서 LINE 메시지를 받지 못하게 하는 이유가 표시됩니다."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_line"
+>title="LINE 게재 처리량"
+>abstract="**게재 처리량** 보고서는 지정된 기간 내에 LINE 메시지의 게재 속도를 제공합니다."

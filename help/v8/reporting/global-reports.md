@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 62a8e2ac2a726b568e3c25b4e435d4de2f305b5f
+source-git-commit: 01252df5ef63ee2453f94f658da4ddcd42779259
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 18%
+source-wordcount: '389'
+ht-degree: 21%
 ---
 # 글로벌 보고서 시작하기 {#global-report-gs}
 
@@ -66,51 +66,27 @@ ht-degree: 18%
 
    **[!UICONTROL 보기 기준]** 옵션을 사용하면 URL, 레이블 또는 범주를 필터링할 수 있습니다.
 
-## LINE 채널 보고서 {#line-reports}
-
-LINE 채널에 사용할 수 있는 보고서는 아래에 설명되어 있습니다.
-
-### 게재 개요 {#line-delivery-overview}
-
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_line_deliveries_overview"
 >title="LINE 게재 개요"
 >abstract="LINE에 대해 게재할 메시지, 게재된 메시지 및 게재 오류를 봅니다."
-
-**[!UICONTROL 게재 개요]** 보고서에는 게재할 메시지, 게재된 메시지 및 LINE에 대한 게재 오류가 표시됩니다.
-
-### 타기팅된 대상자 {#line-targeted-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_line_targeted_audience"
 >title="LINE 타겟팅된 대상"
 >abstract="LINE 게재의 타겟팅 대상자 및 결과 게재 결과를 봅니다."
 
-**[!UICONTROL 타깃팅된 대상]** 그래프 및 표에는 LINE 게재의 타깃팅된 대상 및 결과 게재 결과가 표시됩니다.
-
-### 게재 통계 {#line-delivery-stats}
-
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_line_delivery_stats"
 >title="LINE 게재 통계"
 >abstract="게재할 메시지, 게재된 메시지 및 게재 오류를 포함하여 LINE 메시지에 대한 주요 게재 결과를 봅니다."
-
-**[!UICONTROL 게재 통계]** 그래프 및 표에는 게재할 메시지, 게재된 메시지 및 게재 오류를 포함한 LINE 메시지의 주요 게재 결과가 표시됩니다.
-
-### 제외 이유 {#line-exclusions}
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_line_exclusions"
 >title="제외의 LINE 원인"
 >abstract="자격, 유효성 검사 또는 구성 규칙과 같이 타깃팅된 프로필이 LINE 게재에서 제외된 이유를 확인합니다."
 
-**[!UICONTROL 제외 원인]** 그래프 및 표에는 자격, 유효성 검사 또는 구성 규칙과 같이 타깃팅된 프로필이 LINE 게재에서 제외된 이유가 표시됩니다.
-
-### 게재 처리량 {#line-delivery-throughput}
-
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_throughput_line"
 >title="LINE 게재 처리량"
 >abstract="시간 경과에 따른 LINE 메시지 전송 속도를 봅니다."
-
-**[!UICONTROL 게재 처리량]** 보고서는 시간에 따른 LINE 메시지 전송 속도를 표시합니다.

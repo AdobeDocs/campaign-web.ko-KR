@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: 게재 워크플로 활동 사용
-description: 게재 워크플로우 활동(이메일, 푸시, SMS, WhatsApp, DM)을 추가하는 방법을 알아봅니다.
+description: 게재 워크플로우 활동(이메일, 푸시, SMS, DM)을 추가하는 방법을 알아봅니다
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 TQID: 'https://experienceleague.adobe.com/A58FyTL-G-NDqeY27VY8ZKw5iHg7iQ9KMdOob-yFCFM'
 product_v2:
@@ -14,14 +14,14 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 9f6e7f05783276d217311e1b2ab6ea6bb1f8b536
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 40%
+source-wordcount: '987'
+ht-degree: 41%
 ---
-# 이메일, SMS, WhatsApp, 푸시, DM 활동 {#channel}
+# 이메일, SMS, 푸시, DM 활동 {#channel}
 
-Adobe Campaign 웹을 사용하면 이메일, SMS, WhatsApp, DM 및 푸시 채널에서 마케팅 캠페인을 자동화하고 실행할 수 있습니다. 채널 활동을 워크플로 캔버스에 결합하여 고객 행동 및 데이터에 따라 작업을 트리거하는 크로스 채널 워크플로를 만들 수 있습니다.
+Adobe Campaign 웹을 사용하면 이메일, SMS, DM 및 푸시 채널에서 마케팅 캠페인을 자동화하고 실행할 수 있습니다. 채널 활동을 워크플로 캔버스에 결합하여 고객 행동 및 데이터에 따라 작업을 트리거하는 크로스 채널 워크플로를 만들 수 있습니다.
 
 예를 들어 이메일, SMS, 푸시 및 DM과 같은 다양한 채널에 걸친 일련의 메시지를 포함하는 환영 이메일 캠페인을 만듭니다. 또한 고객이 구매를 완료한 후 후속 이메일을 보내거나 SMS를 통해 고객에게 개인화된 생일 메시지를 보낼 수도 있습니다.
 
@@ -34,7 +34,6 @@ Adobe Campaign 웹을 사용하면 이메일, SMS, WhatsApp, DM 및 푸시 채�
 >* [독립 실행형 SMS 게재 만들기](../../sms/create-sms.md)
 >* [독립 실행형 푸시 게재 만들기](../../push/create-push.md)
 >* [독립 실행형 DM 게재 만들기](../../direct-mail/create-direct-mail.md)
->* [독립 실행형 WhatsApp 게재 만들기](../../whatsapp/create-whatsapp.md)
 
 ## 필수 구성 요소 {#channel-activity-prereq}
 
@@ -81,7 +80,7 @@ Adobe Campaign 웹을 사용하면 이메일, SMS, WhatsApp, DM 및 푸시 채�
 
 워크플로우 컨텍스트에서 게재를 설정하려면 아래 단계를 따르십시오.
 
-1. 채널 활동 추가: **[!UICONTROL 이메일]**, **[!UICONTROL SMS]**, **[!UICONTROL WhatsApp]**, **[!UICONTROL 푸시 알림(Android)]**, **[!UICONTROL 푸시 알림(iOS)]** 또는 **[!UICONTROL DM]**.
+1. 채널 활동 추가: **[!UICONTROL 이메일]**, **[!UICONTROL SMS]**, **[!UICONTROL 푸시 알림(Android)]**, **[!UICONTROL 푸시 알림(iOS)]** 또는 **[!UICONTROL DM]**.
 
 1. **게재 유형**(단일 또는 반복)을 선택하십시오.
 

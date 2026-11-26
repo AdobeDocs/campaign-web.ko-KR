@@ -52,10 +52,10 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
+source-git-commit: 9f6e7f05783276d217311e1b2ab6ea6bb1f8b536
 workflow-type: tm+mt
-source-wordcount: '2543'
-ht-degree: 99%
+source-wordcount: '2498'
+ht-degree: 94%
 ---
 # Campaign Web 및 Campaign 클라이언트 콘솔 {#capabilities-matrix}
 
@@ -78,19 +78,19 @@ Campaign v8(클라이언트 콘솔) 설명서를 찾아보고 이 기능을 사�
 
 * **마케팅 캘린더**. 캠페인 캘린더에는 모든 프로그램, 기획, 캠페인, 게재가 통합 타임라인으로 표시됩니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ko#campaign-calendar){target="_blank"}
 * **프로그램 및 기획**. 각 캠페인은 프로그램에 속하며, 프로그램은 기획에 속합니다. Campaign Web 사용자 인터페이스에서 모든 캠페인은 기본 제공되는 플랜 및 프로그램과 연결되어 있습니다. 클라이언트 콘솔에서만 기획과 프로그램을 만들고 관리할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ko#work-with-plan-and-program){target="_blank"}
-* **공급자, 예산, 비용 관리**. 캠페인 내에서 수행하는 작업에 참여하는 서비스 공급자를 구성(비용 구조 포함)하고 각 프로그램 및 캠페인 내에서 예산을 관리할 수 있습니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/ko/docs/campaign/automation/campaign-orchestration/providers-stocks-and-budgets){target="_blank"}
+* **공급자, 예산, 비용 관리**. 캠페인 내에서 수행하는 작업에 참여하는 서비스 공급자를 구성(비용 구조 포함)하고 각 프로그램 및 캠페인 내에서 예산을 관리할 수 있습니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/providers-stocks-and-budgets){target="_blank"}
 * **분산 마케팅**(중앙/로컬 마케팅). Adobe Campaign에서는 중앙 엔티티(본사, 마케팅 부서 등)와 로컬 엔티티(매장, 지역 대리점 등) 간 협력 캠페인을 구현하는 데 사용할 수 있는 분산 마케팅 앱을 제공합니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ko){target="_blank"}
 * **마케팅 리소스 관리**(MRM), 목표, 시뮬레이션, 원가 관리. Adobe Campaign은 관련 작업, 예산, 마케팅 리소스에 대한 완전한 관리 및 실시간 추적으로 공동 작업 모드에서 마케팅 액션을 제어할 수 있는 마케팅 리소스 관리(MRM) 앱을 제공합니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=ko){target="_blank"}
 * **작업 관리**. MRM 앱의 일부로 Campaign 작업을 캠페인 대시보드에서 만들고 할당, 추적, 모니터링할 수 있습니다. 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=ko){target="_blank"}
 
 ## 커뮤니케이션 채널 {#channels-capabilities}
 
-Campaign Web 사용자 인터페이스를 통해 [이 섹션](../msg/gs-messages.md)에서 자세히 설명하는 바와 같이 **이메일**, **SMS**, **푸시 알림**, **다이렉트 메일**&#x200B;을 만들고 디자인하고 보내며 그 효과를 다양한 전용 보고서로 측정할 수 있습니다. 다만, 현재 인앱, LINE, 콜센터/사용자 정의 채널, X(Twitter)를 통한 소셜 마케팅 채널은 사용이 **불가능**&#x200B;합니다.
+Campaign 웹 사용자 인터페이스를 사용하면 **이메일**, **SMS**, **푸시 알림**, **다이렉트 메일**, **LINE** 메시지, **콜 센터** 게재 및 **사용자 지정 채널** 게재를 만들고 디자인하고 전송할 수 있으며, 다양한 전용 보고서를 사용하여 영향을 측정할 수 있습니다. 자세한 내용은 이 섹션 [을(를) 참조하세요.](../msg/gs-messages.md) 하지만 현재 **사용할 수 없음** 채널은 다음 채널입니다. 인앱, X(Twitter)를 사용하는 소셜 마케팅.
 
-Campaign v8(클라이언트 콘솔) 설명서를 찾아보고 이 채널에 대해 자세히 알아보려면 제공된 링크를 사용하십시오.
+일부 채널 기능은 클라이언트 콘솔에서만 사용할 수 있습니다.
 
-* **LINE 메시지**. LINE은 모든 모바일 디바이스와 PC에서 사용할 수 있는 무료 인스턴트 메시지, 음성 및 영상 통화용 애플리케이션입니다. Adobe Campaign의 경우 클라이언트 콘솔에서만 LINE 메시지를 보낼 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html?lang=ko){target="_blank"}
-* **콜센터 및 사용자 정의 채널**. Campaign 환경에 콜센터 및 기타 사용자 정의 채널을 구현할 수 있습니다. 이 채널은 클라이언트 콘솔에서만 사용할 수 있습니다. [Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html?lang=ko#other-channels){target="_blank"}
+* **콜 센터 보고**. 웹 UI에서 콜 센터 채널에 대한 보고서를 사용할 수 없습니다. 클라이언트 콘솔을 사용하여 액세스합니다. [자세히 알아보기](../call-center/gs-call-center.md)
+* **사용자 지정 채널 구성**. 웹 UI에서 사용자 지정 채널에 대한 게재를 만들지만 클라이언트 콘솔에서 사용자 지정 채널 자체를 구성합니다. [자세히 알아보기](../call-center/gs-custom-channel.md)
 * X(Twitter) **소셜 마케팅**. X(Twitter)를 통해 메시지를 게시하고 DM을 보내 고객과 소통합니다. 소셜 마케팅 추가 기능과 함께 제공되는 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=ko){target="_blank"}
 
 ## 랜딩 페이지 및 웹 애플리케이션 {#Webapps-capabilities}
@@ -120,7 +120,7 @@ Campaign 클라이언트 콘솔 또는 Adobe Experience Platform에서 만든 �
 
 Transactional messaging capabilities coming with the Message Center product package are currently not available in the new Campaign Web user interface. 
 
-Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html?lang=ko){target="_blank"} and learn more about real-time messaging capabilities, such as:
+Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} and learn more about real-time messaging capabilities, such as:
 
 * Realtime message authoring and execution on email, SMS and push
 * Message enrichment and personalization
@@ -153,16 +153,16 @@ Adobe Campaign Web 사용자 인터페이스와 함께 제공되는 새로운 [�
 Campaign v8(클라이언트 콘솔) 설명서를 찾아보고 유형 규칙에 대해 자세히 알아보려면 제공된 링크를 사용하십시오.
 
 <!--
-* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=ko){target="_blank"}
+* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
 -->
-* 피로도/압력 규칙 만들기. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ko){target="_blank"}
+* 피로도/압력 규칙 만들기. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}
 <!--
-* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html?lang=ko){target="_blank"}
-* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html?lang=ko){target="_blank"}
+* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html){target="_blank"}
+* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html){target="_blank"}
 -->
-* 캠페인 시뮬레이션. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html?lang=ko){target="_blank"}
+* 캠페인 시뮬레이션. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html){target="_blank"}
 <!--
-* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ko#use-cases-on-pressure-rules){target="_blank"}
+* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html#use-cases-on-pressure-rules){target="_blank"}
 -->
 
 ## 워크플로 {#wf-capabilities}

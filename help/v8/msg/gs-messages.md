@@ -14,18 +14,18 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 9f6e7f05783276d217311e1b2ab6ea6bb1f8b536
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 100%
+source-wordcount: '176'
+ht-degree: 74%
 ---
 # 메시지 시작{#gs-messages}
 
-Adobe Campaign에서는 이메일, SMS, 푸시 알림, [WhatsApp](../whatsapp/get-started-whatsapp.md), 다이렉트 메일 등 크로스 채널 캠페인을 전송하고, 다양한 전용 보고서를 사용하여 캠페인의 영향을 측정할 수 있습니다.
+Adobe Campaign을 사용하면 이메일, SMS, 푸시 알림 및 DM을 비롯한 크로스 채널 캠페인을 보내고, 다양한 전용 보고서를 사용하여 그 영향을 측정할 수 있습니다.
 
 이러한 메시지는 게재를 통해 디자인되고 전송되며 각 수신자에 대해 개인화할 수 있습니다. 이러한 게재는 독립 실행형이거나 마케팅 캠페인 컨텍스트에서 워크플로에 포함될 수 있습니다. [이 섹션](gs-deliveries.md)에서 Adobe Campaign에서 게재를 생성하고 관리하는 방법에 대해 알아보십시오.
 
-Adobe Campaign v8에는 이메일, SMS, 푸시 알림 및 다이렉트 메일 게재 채널이 포함되어 있습니다. 그 외 인앱 메시지, X(Twitter)를 통한 소셜 마케팅 등 채널은 아직 지원되지 않습니다.
+Adobe Campaign v8에는 이메일, SMS, 푸시 알림, DM, LINE, 콜 센터 및 사용자 지정 채널 등의 게재 채널이 포함되어 있습니다. 그 외 인앱 메시지, X(Twitter)를 통한 소셜 마케팅 등 채널은 아직 지원되지 않습니다.
 
 메시지를 작성하고 보내는 방법을 알아보려면 아래 섹션을 살펴보십시오.
 

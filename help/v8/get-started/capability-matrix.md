@@ -52,10 +52,10 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
+source-git-commit: 9f6e7f05783276d217311e1b2ab6ea6bb1f8b536
 workflow-type: tm+mt
-source-wordcount: '2543'
-ht-degree: 99%
+source-wordcount: '2498'
+ht-degree: 94%
 ---
 # Campaign Web 및 Campaign 클라이언트 콘솔 {#capabilities-matrix}
 
@@ -85,12 +85,12 @@ Campaign v8(클라이언트 콘솔) 설명서를 찾아보고 이 기능을 사�
 
 ## 커뮤니케이션 채널 {#channels-capabilities}
 
-Campaign Web 사용자 인터페이스를 통해 [이 섹션](../msg/gs-messages.md)에서 자세히 설명하는 바와 같이 **이메일**, **SMS**, **푸시 알림**, **다이렉트 메일**&#x200B;을 만들고 디자인하고 보내며 그 효과를 다양한 전용 보고서로 측정할 수 있습니다. 다만, 현재 인앱, LINE, 콜센터/사용자 정의 채널, X(Twitter)를 통한 소셜 마케팅 채널은 사용이 **불가능**&#x200B;합니다.
+Campaign 웹 사용자 인터페이스를 사용하면 **이메일**, **SMS**, **푸시 알림**, **다이렉트 메일**, **LINE** 메시지, **콜 센터** 게재 및 **사용자 지정 채널** 게재를 만들고 디자인하고 전송할 수 있으며, 다양한 전용 보고서를 사용하여 영향을 측정할 수 있습니다. 자세한 내용은 이 섹션 [을(를) 참조하세요.](../msg/gs-messages.md) 하지만 현재 **사용할 수 없음** 채널은 다음 채널입니다. 인앱, X(Twitter)를 사용하는 소셜 마케팅.
 
-Campaign v8(클라이언트 콘솔) 설명서를 찾아보고 이 채널에 대해 자세히 알아보려면 제공된 링크를 사용하십시오.
+일부 채널 기능은 클라이언트 콘솔에서만 사용할 수 있습니다.
 
-* **LINE 메시지**. LINE은 모든 모바일 디바이스와 PC에서 사용할 수 있는 무료 인스턴트 메시지, 음성 및 영상 통화용 애플리케이션입니다. Adobe Campaign의 경우 클라이언트 콘솔에서만 LINE 메시지를 보낼 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html?lang=ko){target="_blank"}
-* **콜센터 및 사용자 정의 채널**. Campaign 환경에 콜센터 및 기타 사용자 정의 채널을 구현할 수 있습니다. 이 채널은 클라이언트 콘솔에서만 사용할 수 있습니다. [Campaign Classic v7 설명서에서 자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html?lang=ko#other-channels){target="_blank"}
+* **콜 센터 보고**. 웹 UI에서 콜 센터 채널에 대한 보고서를 사용할 수 없습니다. 클라이언트 콘솔을 사용하여 액세스합니다. [자세히 알아보기](../call-center/gs-call-center.md)
+* **사용자 지정 채널 구성**. 웹 UI에서 사용자 지정 채널에 대한 게재를 만들지만 클라이언트 콘솔에서 사용자 지정 채널 자체를 구성합니다. [자세히 알아보기](../call-center/gs-custom-channel.md)
 * X(Twitter) **소셜 마케팅**. X(Twitter)를 통해 메시지를 게시하고 DM을 보내 고객과 소통합니다. 소셜 마케팅 추가 기능과 함께 제공되는 이 기능은 클라이언트 콘솔에서만 사용할 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=ko){target="_blank"}
 
 ## 랜딩 페이지 및 웹 애플리케이션 {#Webapps-capabilities}
